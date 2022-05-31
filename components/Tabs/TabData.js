@@ -11,7 +11,7 @@ import CyberSecurity from "../../public/CYBERSECURITY-COURSE-BY-SKILLSLASH.ico";
 const TabData = [
   {
     id: "Popular Courses",
-    title: "Popular Courses",
+    title: "View All",
     desc: [
       {
         id: 1,
@@ -38,7 +38,7 @@ const TabData = [
   },
   {
     id: "Data Science and AI",
-    title: "Data Science and AI",
+    title: "For 1+ year Experience",
     desc: [
       {
         id: 1,
@@ -65,7 +65,7 @@ const TabData = [
   },
   {
     id: "Software Development",
-    title: "Software Development",
+    title: "FOr non-techies",
     desc: [
       {
         id: 1,
@@ -78,7 +78,7 @@ const TabData = [
   },
   {
     id: "Cloud Computing",
-    title: "Cloud Computing",
+    title: "For Managers",
     desc: [
       {
         id: 1,
@@ -99,40 +99,13 @@ const TabData = [
 
   {
     id: "Digital Marketing",
-    title: "Digital Marketing",
+    title: "Job Guaranteed",
     desc: [
       {
         id: 1,
         img: { DigitalMarketing },
         name: "Digital marketing certification program",
         time: "5 Months",
-        mode: "online live class",
-      },
-    ],
-  },
-  {
-    id: "Blockchain",
-    title: "Blockchain",
-    desc: [
-      {
-        id: 1,
-        img: { BlockChain },
-        name: "Blockchain program and certification",
-        time: "5 Months",
-        mode: "online live class",
-      },
-    ],
-  },
-
-  {
-    id: "Cyber Security",
-    title: "Cyber Security",
-    desc: [
-      {
-        id: 1,
-        img: { CyberSecurity },
-        name: "Cyber security course with certification",
-        time: "6 Months",
         mode: "online live class",
       },
     ],

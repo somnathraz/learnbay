@@ -34,7 +34,7 @@
 .left button {
   padding: 15px 20px;
   outline: none;
-  background-color: #0d4a9b;
+  background-color: #2d9cd7;
   color: white;
   border: 0;
   cursor: pointer;
@@ -43,11 +43,7 @@
   border-radius: 4px;
   font-size: 14px;
 }
-.left button:hover {
-  background-color: #f7f9fc;
-  color: #0d4a9b;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
+
 .right {
   display: flex;
   align-items: center;
@@ -56,8 +52,12 @@
 .right span {
   margin-right: 30px;
   font-size: 16px;
+
   cursor: pointer;
   font-weight: 400;
+}
+.right a {
+  font-weight: 600;
 }
 .right span:hover {
   color: #0d4a9b;
@@ -74,8 +74,10 @@
 .right button {
   padding: 12px 25px;
   font-size: 16px;
+  color: #2d9cd7;
+  background-color: transparent;
+  border: 2px solid #2d9cd7;
   font-weight: 500;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .right button:hover {
   background-color: #f14d5d;

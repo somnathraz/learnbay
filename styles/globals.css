@@ -21,9 +21,19 @@ a {
 button {
   padding: 15px 20px;
   outline: none;
-  background-color: #0d4a9b;
+  background-color: #2d9cd7;
   color: white;
   border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.outLineBtn {
+  padding: 15px 20px;
+  border: 2px solid #2d9cd7;
+  color: #2d9cd7;
   cursor: pointer;
   display: flex;
   align-items: center;

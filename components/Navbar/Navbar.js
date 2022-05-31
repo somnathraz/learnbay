@@ -115,7 +115,7 @@ const Navbar = () => {
             <Link href="#About">Contact</Link>
           </span>
 
-          <button onClick={popupShow}>
+          <button onClick={popupShow} className="outLineBtn">
             Apply For Counselling
             <MdOutlineArrowForward />
           </button>
