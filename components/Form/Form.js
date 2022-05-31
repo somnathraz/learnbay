@@ -4,7 +4,7 @@ import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
 
-const Form = ({ popup, setTrigger, downloadBrochure, event }) => {
+const Form = ({ popup, setTrigger, downloadBrochure }) => {
   const router = useRouter();
   let today = new Date();
   let time =
@@ -18,6 +18,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, event }) => {
     email: "",
     phone: "",
     workExperience: "",
+    Brief: "",
     scheduleTime: "",
     url: router.asPath,
   });
@@ -35,16 +36,53 @@ const Form = ({ popup, setTrigger, downloadBrochure, event }) => {
     }));
   };
 
-  let endPoint = "https://getform.io/f/3ffe7485-ceb4-49df-8e77-bdc5779146b2";
-  if (router.pathname === "/Data-Science-course") {
-    endPoint = "https://getform.io/f/54fd4b4c-1818-4835-9c4b-5b189a8b73a3";
+  let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
+  if (router.pathname === "/data-science-certification-courses") {
+    endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   }
-  if (router.pathname === "/Data-Science-and-Ai-course") {
-    endPoint = "https://getform.io/f/54fd4b4c-1818-4835-9c4b-5b189a8b73a3";
+  if (router.pathname === "/advance-ai-ml-certification") {
+    endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   }
-  if (router.pathname === "/Full-stack-event") {
-    endPoint = "https://getform.io/f/e0b3b3f6-1515-4536-aa9c-36af5d4196cd";
+  if (router.pathname === "/data-science-ai-cert-for-managers-leaders") {
+    endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   }
+  if (router.pathname === "/data-science-certification-courses-s2") {
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
+  }
+  if (router.pathname === "/advance-ai-ml-certification-s2") {
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
+  }
+  if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2") {
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
+  }
+  if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2") {
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
+  }
+  if (router.pathname === "/data-science-certification-courses-s3") {
+    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
+  }
+  if (router.pathname === "/advance-ai-ml-certification-s3") {
+    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
+  }
+  if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s3") {
+    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
+  }
+  if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3") {
+    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
+  }
+  if (router.pathname === "/data-science-certification-courses-s4") {
+    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
+  }
+  if (router.pathname === "/advance-ai-ml-certification-s4") {
+    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
+  }
+  if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s4") {
+    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
+  }
+  if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4") {
+    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
+  }
+
 
   // Form Submit function
   const formSubmit = (e) => {
@@ -73,27 +111,129 @@ const Form = ({ popup, setTrigger, downloadBrochure, event }) => {
       off();
     }
 
-    if (router.pathname === "/Data-Science-course") {
-      router.push("/Thank-you-ds");
+    if (router.pathname === "/data-science-certification-courses") {
+      router.push("/Thank-you");
       return;
     }
-
-    if (router.pathname === "/Data-Science-and-Ai-course") {
-      router.push("/Thank-you-ds");
+    if(router.pathname === "/data-science-certification-courses" && downloadBrochure){
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/advance-ai-ml-certification") {
+      router.push("/Thank-you");
+      return;
+    }
+    if(router.pathname === "/advance-ai-ml-certification" && downloadBrochure){
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/data-science-ai-cert-for-managers-leaders") {
+      router.push("/Thank-you");
+      return;
+    }
+    if (router.pathname === "/data-science-ai-cert-for-managers-leaders" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
       return;
     }
     if (router.pathname === "/") {
-      router.push("/Thank-you-fs");
+      router.push("/Thank-you");
     }
-    if (router.pathname === "/Full-stack-developer-course") {
-      router.push("/Thank-you-fs");
+    if (router.pathname === "/" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
       return;
     }
-    if (router.pathname === "/Full-stack-development-course") {
-      router.push("/Thank-you-fs");
+    if (router.pathname === "/data-science-certification-courses-s2") {
+      router.push("/Thank-you");
+      return;
     }
-    if (router.pathname === "/Full-stack-event") {
-      router.push("/Thank-You-fs-event");
+    if(router.pathname === "/data-science-certification-courses-s2" && downloadBrochure){
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/advance-ai-ml-certification-s2") {
+      router.push("/Thank-you");
+      return;
+    }
+    if(router.pathname === "/advance-ai-ml-certification-s2" && downloadBrochure){
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2") {
+      router.push("/Thank-you");
+      return;
+    }
+    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/data-science-certification-courses-s3") {
+      router.push("/Thank-you");
+      return;
+    }
+    if(router.pathname === "/data-science-certification-courses-s3" && downloadBrochure){
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/advance-ai-ml-certification-s3") {
+      router.push("/Thank-you");
+      return;
+    }
+    if(router.pathname === "/advance-ai-ml-certification-s3" && downloadBrochure){
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s3") {
+      router.push("/Thank-you");
+      return;
+    }
+    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s3" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/data-science-certification-courses-s4") {
+      router.push("/Thank-you");
+      return;
+    }
+    if(router.pathname === "/data-science-certification-courses-s4" && downloadBrochure){
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/advance-ai-ml-certification-s4") {
+      router.push("/Thank-you");
+      return;
+    }
+    if(router.pathname === "/advance-ai-ml-certification-s4" && downloadBrochure){
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s4") {
+      router.push("/Thank-you");
+      return;
+    }
+    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s4" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
     }
   };
   const pastDates = () => {
@@ -113,17 +253,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, event }) => {
     yyyy = today.getFullYear();
     return yyyy + "-" + mm + "-" + dd;
   };
-  let btnText = "Apply Now";
-  if (event) {
-    btnText = "Register Now";
-  }
+
   return (
     <div className={styles.App}>
       <form onSubmit={formSubmit}>
-        <div
-          className={styles.formWrapper}
-          style={event ? { width: "100%" } : { width: "80%" }}
-        >
+        <div className={styles.formWrapper}>
           <input
             type="text"
             name="name"
@@ -135,10 +269,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, event }) => {
             onChange={handleParam()}
           />
         </div>
-        <div
-          className={styles.formWrapper}
-          style={event ? { width: "100%" } : { width: "80%" }}
-        >
+        <div className={styles.formWrapper}>
           <input
             type="email"
             name="email"
@@ -149,10 +280,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, event }) => {
             onChange={handleParam()}
           />
         </div>
-        <div
-          className={styles.formWrapper}
-          style={event ? { width: "100%" } : { width: "80%" }}
-        >
+        <div className={styles.formWrapper}>
           <PhoneInput
             style={
               popup
@@ -178,10 +306,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, event }) => {
             onChange={setValue}
           />
         </div>
-        <div
-          className={popup ? styles.formWrappers : styles.formWrapper}
-          style={event ? { width: "100%" } : { width: "80%" }}
-        >
+        <div className={popup ? styles.formWrappers : styles.formWrapper}>
           <select
             name="workExperience"
             required
@@ -213,13 +338,22 @@ const Form = ({ popup, setTrigger, downloadBrochure, event }) => {
                 Scheduled Your Appointment
               </option>
               <option value="Morning(9-12)">
-                Morning between (9 AM -12 Noon)
+                Morning between (10-11 AM)
               </option>
               <option value="AfterNoon(12-03)">
-                AfterNoon Between (12-03 PM)
+                AfterNoon Between (11-12 PM)
               </option>
               <option value="Evening(03-07)">
-                Evening between (03 PM -07 PM)
+              AfterNoon between (12-01 PM)
+              </option>
+              <option value="Evening(03-07)">
+                Evening between (02-03 PM)
+              </option>
+              <option value="Evening(03-07)">
+                Evening between (03-04 PM)
+              </option>
+              <option value="Evening(03-07)">
+                Evening between (04-05 PM)
               </option>
             </select>
             <input
@@ -252,13 +386,23 @@ const Form = ({ popup, setTrigger, downloadBrochure, event }) => {
         ) : (
           ""
         )}
-
+<div className={popup ? styles.formWrappers : styles.formWrapper}>
+        <input
+            type="textarea"
+            name="Brief"
+            className={popup ? styles.NameInputs : styles.NameInput}
+            placeholder="Tell us something about yourself"
+            value={query.Brief}
+            style={{ borderBottom: "1px solid grey" }}
+            onChange={handleParam()}
+          />
+        </div>
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
         </p>
         <button type="submit" className={styles.button}>
-          {downloadBrochure ? "Download Now" : btnText}
+          {downloadBrochure ? "Download Now" : "Apply Now"}
         </button>
       </form>
     </div>
@@ -266,3 +410,4 @@ const Form = ({ popup, setTrigger, downloadBrochure, event }) => {
 };
 
 export default Form;
+ 

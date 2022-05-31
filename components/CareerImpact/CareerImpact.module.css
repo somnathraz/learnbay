@@ -1,0 +1,54 @@
+.CareerImpact {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 49% 49%;
+    margin: 70px 0px 70px 0px;
+  }
+
+  .RightUp {
+      display: flex;
+      text-align: center;
+  }
+
+  .RightUp p {
+      font-size: 22px;
+      font-weight: 500;
+      margin: 5px;
+}
+
+.RightDark {
+    background-color: #2D9CD7;
+    color: white;
+    padding: 10px 0px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+    margin: 10px;
+}
+
+.RightFade {
+    background-color: #fff;
+    color: #2D9CD7;
+    padding: 10px 0px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+    margin: 10px;
+}
+
+  .RightBottom {
+    display: flex;
+    text-align: center;
+}
+
+.RightBottom p {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.textStyle {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px;
+}

@@ -2,11 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: white;
-  font-family: "Roboto", sans-serif;
-}
-html {
-  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -21,7 +17,7 @@ a {
 button {
   padding: 15px 20px;
   outline: none;
-  background-color: #0d4a9b;
+  background-color: #2D9CD7;
   color: white;
   border: 0;
   cursor: pointer;
@@ -29,23 +25,26 @@ button {
   align-items: center;
   border-radius: 4px;
   font-size: 14px;
+  border: 1px solid #2D9CD7;
 }
+
 .bIcon {
   font-size: 18px;
   margin-right: 5px;
-  color: #0d4a9b;
+  color: #2D9CD7;
 }
 .bIcons {
   font-size: 18px;
   margin-right: 5px;
   color: white;
 }
+
 .pTop {
   font-size: 18px;
   font-weight: 400;
   margin: 0;
   margin-bottom: 20px;
-  color: #f14d5d;
+  color: #2D9CD7;
 }
 
 .pBot {
@@ -56,7 +55,7 @@ button {
 
 .vIcon {
   font-size: 42px;
-  color: #f14d5d;
+  color: #2D9CD7;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 50%;
@@ -97,11 +96,12 @@ button {
 }
 
 h4 {
-  font-size: 36px;
-  margin: 0;
-  color: rgb(61, 61, 61);
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  color: #000;
   padding: 0;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .shadow {
@@ -170,28 +170,6 @@ h4 {
 }
 .FlDiv {
   display: none;
-}
-.show-counter {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.show-counter p {
-  display: flex;
-  font-weight: 600;
-}
-.countdown {
-  display: flex;
-  align-items: center;
-}
-.countdown p {
-  font-size: 25px;
-  font-weight: 600;
-  margin-right: 5px;
-}
-.countdown span {
-  margin-top: 5px;
-  margin-right: 5px;
 }
 @media (max-width: 481px) {
   h4 {
@@ -268,11 +246,5 @@ h4 {
     border-right: 2px solid #0d4a9b;
     padding-right: 10px;
     margin: 0;
-  }
-  .countdown p {
-    font-size: 18px;
-  }
-  .countdown span {
-    margin-top: 0;
   }
 }

@@ -1,15 +1,10 @@
 .container {
-  padding: 0 2rem;
+  max-width: 85%;
+  margin: auto;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.program {
+  height: max-content;
 }
 
 .footer {
@@ -108,9 +103,159 @@
   margin-left: 0.5rem;
 }
 
+.cta {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  justify-content: space-between;
+  border-radius: 25px;
+  background-image: url("/Cta(2).webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  justify-content: center;
+  margin-top: 70px;
+  background-size: cover;
+  padding: 30px 100px;
+  align-items: center;
+}
+
+.cta h6 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 40px;
+
+  color: white;
+}
+.cta p {
+  color: white;
+  margin: 0;
+  margin-top: 7px;
+}
+.img {
+  position: absolute;
+  z-index: 9;
+  right: 10px;
+  top: -40px;
+  height: 200px;
+  width: 400px;
+}
+.cta button {
+  background-color: rgba(13, 74, 155);
+  color: white;
+  padding: 12px 25px;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 40px;
+}
+.cta button:hover {
+  background-color: #2D9CD7;
+}
+.ExpertWrapper {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin-top: 30px;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+  margin-bottom: 20px;
+}
+.expert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.expert h5 {
+  font-weight: 600;
+  margin-top: 45px;
+
+  width: 100%;
+  font-size: 24px;
+}
+.ProjectWrapper {
+  padding-top: 30px;
+}
+.expertBody {
+  margin-top: -90px;
+
+  box-sizing: border-box;
+  margin-left: -2em;
+  margin-right: -2em;
+}
+.slider {
+  height: 400px;
+}
+.ctaBot {
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.PriceH {
+  font-size: 36px;
+  font-family: 600;
+  color: rgb(103, 103, 103);
+}
+
+@media (max-width: 481px) {
+  .container {
+    padding: 0 1rem;
+  }
+  .cta {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-image: url("/mobile-view.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 70px;
+    background-size: contain;
+    padding: 30px 100px;
+    align-items: center;
+  }
+  .cta h6 {
+    font-size: 22px;
+    padding-left: 10px;
+    margin-right: 90px;
+  }
+  .cta p {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  .ctaBot {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .ProjectWrapper {
+    padding: 0px;
+  }
+  .expertBody {
+    margin-left: -0em;
+    margin-right: -0em;
+  }
+
+  .ExpertWrapper {
+    display: block;
+    grid-template-columns: auto;
+    margin: 0;
+    margin-top: 30px;
+
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+  .cta {
+    display: block;
+    padding: 20px;
+  }
+  .cta h6 {
+    margin-right: 120px;
+  }
 }
+

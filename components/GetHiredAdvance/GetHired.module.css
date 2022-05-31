@@ -1,0 +1,74 @@
+.GetHired {
+  display: grid;
+  align-items: center;
+  margin: 70px 0px 70px 0px;
+}
+.imageBox {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+}
+.left div {
+  display: flex;
+  flex-flow: column;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  justify-content: space-between;
+  margin-left: 15px;
+  padding: 26px;
+  border-radius: 10px;
+}
+.top {
+  border-left: 5px solid #2D9CD7;
+  margin-bottom: 15px;
+  display: flex;
+}
+.left p {
+  color: #000;
+  margin: 0;
+  line-height: 16px;
+  display: flex;
+}
+.left h5 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+.middle {
+  border-left: 5px solid #f28705;
+  margin-bottom: 15px;
+}
+.bottom {
+  border-left: 5px solid #6294d6;
+  margin-bottom: 0px;
+}
+.right {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-left: 15px;
+  text-align: center;
+  background-color: #F8F8F8;
+}
+
+.righth {
+  color: #000;
+  font-size: 34px;
+  margin: 0;
+}
+
+@media (max-width: 481px) {
+  .GetHired {
+    display: block;
+    margin: 0px;
+    margin-top: 40px;
+  }
+
+  .imageBox {
+    display: block;
+    grid-template-columns: auto;
+  }
+
+  .right {
+    margin-left: 0px;
+    margin-top: 30px;
+    padding: 10px;
+  }
+}
