@@ -1,0 +1,285 @@
+@media (min-width: 1281px) {
+  .popup {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.23);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    overflow: hidden;
+    .popupInner {
+      background-image: url("/popup_back.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      display: grid;
+      grid-template-columns: 49% 49%;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px 40px;
+      width: max-content;
+      border-radius: 12px;
+      border: 4px solid #0d4a9b;
+      max-width: 70%;
+      background-color: white;
+
+      .closeBtn {
+        position: absolute;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #0d4a9b;
+        border-color: blue;
+        color: #0d4a9b;
+        top: 5px;
+        right: 10px;
+      }
+    }
+    .popupInnersW {
+      background-color: white;
+      position: relative;
+      display: grid;
+      grid-template-columns: 49% 49%;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px 40px;
+      width: max-content;
+      border-radius: 12px;
+      border: 4px solid #0d4a9b;
+      max-width: 70%;
+      background-color: white;
+
+      .closeBtn {
+        position: absolute;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #0d4a9b;
+        border-color: blue;
+        color: #0d4a9b;
+        top: 5px;
+        right: 10px;
+      }
+    }
+    .popupInners {
+      background-image: url("/Full-stack-brochure.webp");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px 60px;
+      width: max-content;
+      border-radius: 5px;
+      border: 4px solid #0d4a9b;
+      max-width: 70%;
+      background-color: white;
+
+      .closeBtn {
+        position: absolute;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #0d4a9b;
+        border-color: blue;
+        color: #0d4a9b;
+        top: 5px;
+        right: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.23);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+
+    .popupInner {
+      background-image: url("/popup_back.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px 60px;
+      width: max-content;
+      border-radius: 5px;
+      border: 4px solid #0d4a9b;
+      max-width: 70%;
+      background-color: white;
+
+      .closeBtn {
+        position: absolute;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #0d4a9b;
+        border-color: blue;
+        color: #0d4a9b;
+        top: 5px;
+        right: 10px;
+      }
+    }
+    .popupInners {
+      background-color: white;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px 60px;
+      width: max-content;
+      border-radius: 5px;
+      border: 4px solid #0d4a9b;
+      max-width: 70%;
+      background-color: white;
+
+      .closeBtn {
+        position: absolute;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #0d4a9b;
+        border-color: blue;
+        color: #0d4a9b;
+        top: 5px;
+        right: 10px;
+      }
+    }
+    .popupInnersW {
+      background-image: url("/Full-stack-brochure.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px 60px;
+      width: max-content;
+      border-radius: 5px;
+      border: 4px solid #0d4a9b;
+      max-width: 70%;
+      background-color: white;
+
+      .closeBtn {
+        position: absolute;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #0d4a9b;
+        border-color: blue;
+        color: #0d4a9b;
+        top: 5px;
+        right: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .popupInner {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(190, 202, 218, 0.75);
+    background-image: none !important;
+    padding: 30px 10px;
+  }
+  .popupInners {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(190, 202, 218, 0.75);
+    background-image: none !important;
+    padding: 30px 10px;
+  }
+  .popupInnersW {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(190, 202, 218, 0.75);
+    background-image: none !important;
+    padding: 30px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .popupInner {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: white;
+    background-image: none !important;
+    padding: 30px 10px;
+  }
+  .popupInners {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: white;
+    background-image: none !important;
+    padding: 30px 10px;
+  }
+}
+@media (max-width: 481px) {
+  .popup {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    .popupInner {
+      background-image: none !important;
+      padding: 30px 10px;
+      max-width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: max-content;
+
+      background-color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .popupInners {
+      background-image: none !important;
+      padding: 30px 20px;
+      max-width: 100%;
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .popupInnersW {
+      background-image: none !important;
+      padding: 30px 20px;
+      max-width: 100%;
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}

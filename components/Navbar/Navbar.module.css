@@ -1,0 +1,203 @@
+.nav {
+  width: 100vw;
+  scroll-behavior: smooth;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+
+  height: 70px;
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.ham {
+  display: inline;
+  justify-self: flex-start;
+  color: #0d4a9b;
+  cursor: pointer;
+  font-size: 28px;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+.left button {
+  padding: 15px 20px;
+  outline: none;
+  background-color: #0d4a9b;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.left button:hover {
+  background-color: #f7f9fc;
+  color: #0d4a9b;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right span {
+  margin-right: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 400;
+}
+.right span:hover {
+  color: #0d4a9b;
+  transform: scale(1) translate(-0%, -20%);
+  transition: all 0.5s ease-in-out;
+  scroll-behavior: smooth;
+}
+.hide {
+  display: none;
+}
+.ham {
+  display: none;
+}
+.right button {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.right button:hover {
+  background-color: #f14d5d;
+}
+.hoverBtn {
+  background-color: #f7f9fc;
+  color: #0d4a9b;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.white {
+  background-color: transparent;
+  height: 600px;
+  width: 500px;
+}
+
+@media (max-width: 481px) {
+  .nav {
+    width: 100vw;
+    scroll-behavior: smooth;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 70px;
+    padding: 0px 10px;
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 0px;
+  }
+  .ham {
+    display: inline;
+    justify-self: flex-start;
+    color: #0d4a9b;
+    cursor: pointer;
+    font-size: 28px;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: -5px;
+  }
+  .left button {
+    padding: 8px 10px;
+    outline: none;
+    background-color: #0d4a9b;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .left button:hover {
+    background-color: #f7f9fc;
+    color: #0d4a9b;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .right {
+    display: none;
+  }
+  .right span {
+    display: none;
+  }
+
+  .right button {
+    padding: 8px 10px;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    font-size: 14px;
+  }
+  .right button:hover {
+    background-color: #f14d5d;
+  }
+  .hoverBtn {
+    background-color: #f7f9fc;
+    color: #0d4a9b;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .white {
+    background-color: transparent;
+    height: 600px;
+    width: 500px;
+  }
+
+  .mobileWrapper .mobileMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 70px;
+    left: 0;
+    margin: auto;
+    width: 99vw;
+    height: max-content;
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    flex-flow: column;
+    position: absolute;
+    z-index: 999;
+  }
+  .mobileWrapper .mobileMenu a {
+    text-decoration: none;
+  }
+  .mobileWrapper .mobileMenu span {
+    font-size: 18px;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  .mobileWrapper .mobileMenu span:hover {
+    color: #0d4a9b;
+    background-color: #ebf1f8;
+  }
+}

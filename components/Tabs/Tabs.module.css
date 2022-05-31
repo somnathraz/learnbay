@@ -1,0 +1,26 @@
+.wrapper {
+  position: relative;
+}
+.MenuTabs {
+  display: flex;
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  justify-content: space-between;
+  padding: 0px 40px;
+  background-color: #f7f9fc;
+  top: 70px;
+}
+.leftPanel {
+  display: flex;
+  flex-flow: column;
+}
+
+.leftPanel span {
+  display: flex;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}

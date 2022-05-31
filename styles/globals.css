@@ -2,8 +2,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 a {
@@ -13,4 +16,263 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+button {
+  padding: 15px 20px;
+  outline: none;
+  background-color: #0d4a9b;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.bIcon {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #0d4a9b;
+}
+.bIcons {
+  font-size: 18px;
+  margin-right: 5px;
+  color: white;
+}
+.pTop {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #f14d5d;
+}
+
+.pBot {
+  font-size: 18px;
+  line-height: 1.5em;
+  color: rgb(89, 89, 89);
+}
+
+.vIcon {
+  font-size: 42px;
+  color: #f14d5d;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 50%;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: column;
+
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h4 {
+  font-size: 36px;
+  margin: 0;
+  color: rgb(61, 61, 61);
+  padding: 0;
+  font-weight: 700;
+}
+
+.shadow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.popupModal {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  background-color: white;
+}
+.RightPopup {
+  display: flex;
+  flex-flow: column;
+
+  margin-left: 40px;
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.whiteP {
+  background-color: transparent;
+  height: 600px;
+  width: 600px;
+}
+.RightPopup h5 {
+  font-size: 24px;
+  text-align: left;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.RightPopup p {
+  font-size: 18px;
+  color: rgb(143, 143, 143);
+}
+.PricePopup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.PriceH {
+  font-size: 22px;
+  color: rgb(79, 79, 79);
+  font-weight: 600;
+}
+.leftP,
+.rightP {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  background-color: #e7f4ff;
+  padding: 10px;
+  border-radius: 12px;
+}
+.rightP {
+  margin-top: -30px;
+  margin-left: -20px;
+}
+.divWrapper {
+  display: none;
+}
+.FlDiv {
+  display: none;
+}
+.show-counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.show-counter p {
+  display: flex;
+  font-weight: 600;
+}
+.countdown {
+  display: flex;
+  align-items: center;
+}
+.countdown p {
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.countdown span {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+@media (max-width: 481px) {
+  h4 {
+    font-size: 26px;
+    margin: 0;
+    color: rgb(61, 61, 61);
+    padding: 0;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .pTop {
+    font-size: 14px;
+  }
+  .pBot {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 30px;
+    margin: 0;
+    color: rgb(61, 61, 61);
+    padding: 0;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .leftPopup {
+    display: none;
+  }
+  .RightPopup {
+    display: flex;
+    flex-flow: column;
+    margin-left: 0;
+    gap: 10px;
+  }
+
+  .RightPopup h5 {
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: left;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+  .RightPopup p {
+    font-size: 16px;
+    color: rgb(143, 143, 143);
+  }
+  .divWrapper {
+    display: flex;
+    position: relative;
+    width: 100vw;
+  }
+  .FlDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border-top: 1px solid rgba(98, 98, 98, 0.125);
+    height: 60px;
+    width: 100vw;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+  }
+  .FlDiv div {
+    display: flex;
+    align-items: center;
+  }
+  .flDivLeft {
+    border-right: 2px solid #0d4a9b;
+    padding-right: 10px;
+    margin: 0;
+  }
+  .countdown p {
+    font-size: 18px;
+  }
+  .countdown span {
+    margin-top: 0;
+  }
 }
