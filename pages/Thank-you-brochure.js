@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { AiOutlineDownload } from "react-icons/ai";
 import { BsArrowLeftShort } from "react-icons/bs";
-import Navbar from "../Components/Navbar/Navbar";
+import Navbar from "../Components/Navbar/Navbar"; 
 import Footer from "../Components/Footer/Footer";
 
 const ThankYou = () => {
