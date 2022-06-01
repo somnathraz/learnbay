@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import FirstSection from "../Components/HeroSectionAiMl/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
@@ -7,13 +8,12 @@ import Domain from "../Components/Domain/Domain";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/Certificate/Certificate";
+import Certificate from "../Components/Certificatejob/Certificate";
 import Project from "../Components/Project/Project";
 import Syllabus from "../Components/SyllabusAiMl/Syllabus";
 import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import CareerImpact from "../Components/CareerImpact/CareerImpact";
-
 import React, { useState } from "react";
 
 export default function Home() {
@@ -99,6 +99,19 @@ export default function Home() {
         desc3 ="Data Science Leads from IBM as instructors."
 
       />
+      <section className={styles.HiringPartner}>
+        <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
+        <span className={styles.HiringPartnerB}>
+          <Image
+            src="/jobhiring.png"
+            alt="Certificate"
+            quality={100}
+            layout="intrinsic"
+            width="1150px"
+            height="320px"
+          />
+        </span>
+    </section>
       <Syllabus />
       <ToolsCovered />
       <Domain />

@@ -60,6 +60,16 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+.HiringPartner {
+  text-align: center;
+  width: 100%;
+}
+
+.HiringPartnerB{
+  border-radius: 10px;
+  width: 100%;
+}
+
 .grid {
   display: flex;
   align-items: center;

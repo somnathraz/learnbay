@@ -1,17 +1,24 @@
-@media (min-width: 1281px) {
+@media (min-width: 768px) {
     .FooterSection {
-      background-color: black;
+      background-color: #313131;
+      padding: 70px 100px 0px 100px;
+      font-family: "Roboto", Sans-serif;
     }
     .FooterDiv {
-      margin: 70px 100px 70px 100px;
       justify-content: center;
       display: grid;
-      grid-template-columns: 33% 33% 33%;
+      grid-template-columns: 25% 25% 25% 25%;
       padding: 20px 0px 20px 0px;
     }
     .FooterDivInner {
       color: #fff;
       margin: 0px 20px 0px 0px;
+    }
+
+    .FooterDivInner span{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
     }
   
     .FooterSocial {
@@ -22,37 +29,39 @@
     }
   
     .FooterInnerP {
-      font-size: 20px;
-      margin-bottom: 36px;
+      text-align: left;
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 26px;
     }
   
     .FooterInnerli {
-      font-size: 14px;
-      line-height: 1.5em;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      margin: 5px;
     }
   
     .FooterBottom {
-      background-color: #090A0E;
+      background-color: #313131;
+      border-top: 1px solid #ffffff50;
     }
   
     .FooterBottomInner {
-      max-width: 1200px;
-      margin: auto;
       padding: 12px 0px;
-      margin-top: 20px;
-      text-align: center;
     }
   
     .FooterInnerB {
-      color: #fff;
-      font-size: 16px;
-      margin: 0;
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: 400;
     }
   }
   
   @media (max-width: 600px) {
     .FooterSection {
-      background-color: black;
+      background-color: #313131;
     }
     .FooterDiv {
       margin: 0;
@@ -84,20 +93,17 @@
     }
   
     .FooterBottom {
-      background-color: #090A0E;
+      background-color: #313131;
+      border-top: 1px solid #ffffff50;
     }
   
     .FooterBottomInner {
-      max-width: 1200px;
-      margin: auto;
-      padding: 12px 20px;
-      margin-top: 20px;
-      text-align: center;
+      padding: 10px 40px 10px 20px;
     }
   
     .FooterInnerB {
       color: #fff;
-      font-size: 16px;
+      font-size: 14px;
       margin: 0;
     }
   

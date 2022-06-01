@@ -13,6 +13,7 @@ import Project from "../Components/Project/Project";
 import Syllabus from "../Components/Syllabus/Syllabus";
 import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
+
 import React, { useState } from "react";
 
 
@@ -77,6 +78,28 @@ export default function Home() {
           <OurExpert />
         </div>
       </div>
+      <Certificate
+        title="Course Completion Certificate from IBM"
+        desc="Complete your training with the internationally recognized certificate."
+        desc2 ="Validate your Data Science and AI skills with IBM Course Completion Certificate."
+        desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
+
+      />
+      <section className={styles.HiringPartner}>
+        <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
+        <span className={styles.HiringPartnerB}>
+          <Image
+            src="/jobhiring.png"
+            alt="Certificate"
+            quality={100}
+            layout="intrinsic"
+            width="1150px"
+            height="320px"
+          />
+        </span>
+    </section>
+      <Syllabus />
+      <ToolsCovered />
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
@@ -87,16 +110,6 @@ export default function Home() {
           <button onClick={popupShow}>Enquire Now</button>
         </div>
       </div>
-      <Certificate
-        popupHead="Download Full stack Brochure"
-        title="Earn a globally recognized Certified at the end of your learning journey."
-        desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
-        desc2 ="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
-        desc3 ="Data Science Leads from IBM as instructors."
-
-      />
-      <Syllabus />
-      <ToolsCovered />
       <Domain />
       <div className={styles.ProjectWrapper} id="project">
         <Project />
