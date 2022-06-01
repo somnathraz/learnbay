@@ -34,6 +34,7 @@ button {
   padding: 15px 20px;
   border: 2px solid #2d9cd7;
   color: #2d9cd7;
+  background-color: transparent;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -203,6 +204,20 @@ h4 {
   margin-top: 5px;
   margin-right: 5px;
 }
+.hoverBtn {
+  padding: 15px 20px;
+  outline: none;
+  background-color: #2d9cd7;
+  color: white;
+  border: 0;
+  gap: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+}
 @media (max-width: 481px) {
   h4 {
     font-size: 26px;
@@ -217,6 +232,23 @@ h4 {
   }
   .pBot {
     font-size: 16px;
+  }
+  .hoverBtn {
+    padding: 8px 10px;
+    outline: none;
+    background-color: #2d9cd7;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .hoverBtn:hover {
+    background-color: #5cc1e2;
+    color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 
   h5 {

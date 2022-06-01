@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
-import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
 import Image from "next/image";
 import TabData from "./TabData";
 import styles from "./Tabs.module.css";
@@ -11,284 +11,572 @@ const Tabs = () => {
   const [nonTech, setNonTech] = useState(false);
   const [manager, setManager] = useState(false);
   const [Guarantee, setGuarantee] = useState(false);
+  const [mobile, setMobile] = useState(false);
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 481) {
+      setMobile(true);
+    }
+    if (width > 481) {
+      setMobile(false);
+    }
+  });
 
-  const onClickHandler = (id) => {
-    let spanId = id;
-  };
   return (
     <div className="wrapper">
       <div className={styles.MenuTabs}>
         <div className={styles.leftPanel}>
           <>
-            <span
-              key={TabData[0].id}
-              id="0"
-              onMouseOver={() => {
-                setViewAll(true);
-                setOneYear(false);
-                setNonTech(false);
-                setManager(false);
-                setGuarantee(false);
-              }}
-            >
-              {TabData[0].title}
-              <IoIosArrowForward />
-            </span>
-            <span
-              key={TabData[1].id}
-              id="1"
-              onMouseOver={() => {
-                setViewAll(false);
-                setOneYear(true);
-                setNonTech(false);
-                setManager(false);
-                setGuarantee(false);
-              }}
-            >
-              {TabData[1].title}
-              <IoIosArrowForward />
-            </span>
-            <span
-              key={TabData[2].id}
-              id="2"
-              onMouseOver={() => {
-                setViewAll(false);
-                setOneYear(false);
-                setNonTech(true);
-                setManager(false);
-                setGuarantee(false);
-              }}
-            >
-              {TabData[2].title}
-              <IoIosArrowForward />
-            </span>
-            <span
-              key={TabData[3].id}
-              id="3"
-              onMouseOver={() => {
-                setViewAll(false);
-                setOneYear(false);
-                setNonTech(false);
-                setManager(true);
-                setGuarantee(false);
-              }}
-            >
-              {TabData[3].title}
-              <IoIosArrowForward />
-            </span>
-            <span
-              key={TabData[4].id}
-              id="4"
-              onMouseOver={() => {
-                setViewAll(false);
-                setOneYear(false);
-                setNonTech(false);
-                setManager(false);
-                setGuarantee(true);
-              }}
-            >
-              {TabData[4].title}
-              <IoIosArrowForward />
-            </span>
+            {mobile ? (
+              <span
+                key={TabData[0].id}
+                id="0"
+                onClick={() => setViewAll(!viewAll)}
+              >
+                {TabData[0].title}
+                <IoIosArrowDown />
+              </span>
+            ) : (
+              <span
+                key={TabData[0].id}
+                id="0"
+                onMouseOver={() => {
+                  setViewAll(true);
+                  setOneYear(false);
+                  setNonTech(false);
+                  setManager(false);
+                  setGuarantee(false);
+                }}
+              >
+                {TabData[0].title}
+                <IoIosArrowForward />
+              </span>
+            )}
+
+            {viewAll ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                        layout="intrinsic"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              ""
+            )}
+            {mobile ? (
+              <span
+                key={TabData[1].id}
+                id="1"
+                onMouseOver={() => {
+                  setViewAll(false);
+                  setOneYear(true);
+                  setNonTech(false);
+                  setManager(false);
+                  setGuarantee(false);
+                }}
+                onClick={() => setOneYear(!oneYear)}
+              >
+                {TabData[1].title}
+                <IoIosArrowDown />
+              </span>
+            ) : (
+              <span
+                key={TabData[1].id}
+                id="1"
+                onMouseOver={() => {
+                  setViewAll(false);
+                  setOneYear(true);
+                  setNonTech(false);
+                  setManager(false);
+                  setGuarantee(false);
+                }}
+              >
+                {TabData[1].title}
+                <IoIosArrowForward />
+              </span>
+            )}
+            {oneYear ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              ""
+            )}
+            {mobile ? (
+              <span
+                key={TabData[2].id}
+                id="2"
+                onClick={() => setNonTech(!nonTech)}
+              >
+                {TabData[2].title}
+                <IoIosArrowDown />
+              </span>
+            ) : (
+              <span
+                key={TabData[2].id}
+                id="2"
+                onMouseOver={() => {
+                  setViewAll(false);
+                  setOneYear(false);
+                  setNonTech(true);
+                  setManager(false);
+                  setGuarantee(false);
+                }}
+              >
+                {TabData[2].title}
+                <IoIosArrowForward />
+              </span>
+            )}
+
+            {nonTech ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              ""
+            )}
+
+            {mobile ? (
+              <span
+                key={TabData[3].id}
+                id="3"
+                onMouseOver={() => {
+                  setViewAll(false);
+                  setOneYear(false);
+                  setNonTech(false);
+
+                  setGuarantee(false);
+                }}
+                onClick={() => setManager(!manager)}
+              >
+                {TabData[3].title}
+                <IoIosArrowDown />
+              </span>
+            ) : (
+              <span
+                key={TabData[3].id}
+                id="3"
+                onMouseOver={() => {
+                  setViewAll(false);
+                  setOneYear(false);
+                  setNonTech(false);
+                  setManager(true);
+                  setGuarantee(false);
+                }}
+              >
+                {TabData[3].title}
+                <IoIosArrowForward />
+              </span>
+            )}
+            {manager ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              ""
+            )}
+            {mobile ? (
+              <span
+                key={TabData[4].id}
+                id="4"
+                onMouseOver={() => {
+                  setViewAll(false);
+                  setOneYear(false);
+                  setNonTech(false);
+                  setManager(false);
+                  setGuarantee(true);
+                }}
+                onClick={() => setGuarantee(!Guarantee)}
+              >
+                {TabData[4].title}
+                <IoIosArrowDown />
+              </span>
+            ) : (
+              <span
+                key={TabData[4].id}
+                id="4"
+                onMouseOver={() => {
+                  setViewAll(false);
+                  setOneYear(false);
+                  setNonTech(false);
+                  setManager(false);
+                  setGuarantee(true);
+                }}
+              >
+                {TabData[4].title}
+                <IoIosArrowForward />
+              </span>
+            )}
+            {Guarantee ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              ""
+            )}
           </>
         </div>
-        <div className={styles.middlePanel}></div>
-        {viewAll ? (
-          <div className={styles.RowWrap}>
-            <div className={styles.Row}>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
-                </div>
-              </div>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className={styles.Row}>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
-                </div>
-              </div>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className={styles.Row}>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
-                </div>
-              </div>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className={styles.Row}>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                    layout="intrinsic"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        ) : (
+        {mobile ? (
           ""
-        )}
-        {oneYear ? (
-          <div className={styles.RowWrap}>
-            <div className={styles.Row}>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className={styles.Row}>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
         ) : (
-          ""
-        )}
-        {nonTech ? (
-          <div className={styles.RowWrap}>
-            <div className={styles.Row}>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
+          <div className={styles.middlePanel}>
+            {viewAll ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                        layout="intrinsic"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
+            ) : (
+              ""
+            )}
+            {oneYear ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className={styles.Row}>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
+            ) : (
+              ""
+            )}
+            {nonTech ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+            ) : (
+              ""
+            )}
+            {manager ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              ""
+            )}
+            {Guarantee ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.webp"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              ""
+            )}
           </div>
-        ) : (
-          ""
-        )}
-        {manager ? (
-          <div className={styles.RowWrap}>
-            <div className={styles.Row}>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
-                </div>
-              </div>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className={styles.Row}>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        ) : (
-          ""
-        )}
-        {Guarantee ? (
-          <div className={styles.RowWrap}>
-            <div className={styles.Row}>
-              <div className={styles.Program}>
-                <div className={styles.ProLeft}>
-                  <Image
-                    src="/DATA-SCIENCE-AND-AI.webp"
-                    width="300"
-                    height="80"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        ) : (
-          ""
         )}
       </div>
     </div>
