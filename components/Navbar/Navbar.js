@@ -11,14 +11,13 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 import { useRouter } from "next/router";
-const Tabs = React.lazy(() => import("../Tabs/Tabs"));
+import Tabs from "../Tabs/Tabs";
 
 const Navbar = () => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
-  const [viewEvent, setViewEvent] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
@@ -26,11 +25,15 @@ const Navbar = () => {
   const showMenu = () => {
     setShow(!show);
   };
+
+  const [mobile, setMobile] = useState(false);
   useEffect(() => {
-    if (router.pathname === "/Full-stack-event") {
-      setViewEvent(true);
-    } else {
-      setViewEvent(false);
+    let width = window.innerWidth;
+    if (width < 481) {
+      setMobile(true);
+    }
+    if (width > 481) {
+      setMobile(false);
     }
   });
 
@@ -74,18 +77,27 @@ const Navbar = () => {
               alt="Skillslash"
               quality={100}
               objectFit="contain"
-              width="230px"
+              width={mobile ? "180" : "230"}
               height="60px"
             />
           </a>
-          <button
-            onMouseEnter={() => setIcon(true)}
-            onMouseOver={() => setIcon(true)}
-            className={icon ? "hoverBtn" : ""}
-          >
-            Explore Our Courses{" "}
-            {icon ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
-          </button>
+          {mobile ? (
+            <button onClick={() => setIcon(!icon)} className="hoverBtn">
+              Courses
+              {icon ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
+            </button>
+          ) : (
+            <button
+              onMouseEnter={() => setIcon(true)}
+              onMouseOver={() => setIcon(true)}
+              onClick={() => setIcon(!icon)}
+              className="hoverBtn"
+            >
+              Courses
+              {icon ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
+            </button>
+          )}
+
           {icon ? (
             <div
               className="megaMenu"
@@ -115,7 +127,7 @@ const Navbar = () => {
             <Link href="#About">Contact</Link>
           </span>
 
-          <button onClick={popupShow}>
+          <button onClick={popupShow} className="outLineBtn">
             Apply For Counselling
             <MdOutlineArrowForward />
           </button>
