@@ -1,0 +1,6 @@
+.GetHired {
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  margin: 100px 20px 0px 20px;
+}

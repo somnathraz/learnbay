@@ -1,0 +1,110 @@
+@media (min-width: 768px) {
+    .FooterSection {
+      background-color: #313131;
+      padding: 70px 100px 0px 100px;
+      font-family: "Roboto", Sans-serif;
+    }
+    .FooterDiv {
+      justify-content: center;
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      padding: 20px 0px 20px 0px;
+    }
+    .FooterDivInner {
+      color: #fff;
+      margin: 0px 20px 0px 0px;
+    }
+
+    .FooterDivInner span{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+    }
+  
+    .FooterSocial {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      width: 200px;
+    }
+  
+    .FooterInnerP {
+      text-align: left;
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 26px;
+    }
+  
+    .FooterInnerli {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      margin: 5px;
+    }
+  
+    .FooterBottom {
+      background-color: #313131;
+      border-top: 1px solid #ffffff50;
+    }
+  
+    .FooterBottomInner {
+      padding: 12px 0px;
+    }
+  
+    .FooterInnerB {
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .FooterSection {
+      background-color: #313131;
+    }
+    .FooterDiv {
+      margin: 0;
+      justify-content: center;
+      display: grid;
+      grid-template-columns: 100%;
+      padding: 50px 20px 20px 20px;
+    }
+    .FooterDivInner {
+      color: #fff;
+      margin: 0px 20px 0px 0px;
+    }
+  
+    .FooterSocial {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      width: 200px;
+    }
+  
+    .FooterInnerP {
+      font-size: 20px;
+      margin-bottom: 36px;
+    }
+  
+    .FooterInnerli {
+      font-size: 14px;
+      line-height: 1.5em;
+    }
+  
+    .FooterBottom {
+      background-color: #313131;
+      border-top: 1px solid #ffffff50;
+    }
+  
+    .FooterBottomInner {
+      padding: 10px 40px 10px 20px;
+    }
+  
+    .FooterInnerB {
+      color: #fff;
+      font-size: 14px;
+      margin: 0;
+    }
+  
+  }

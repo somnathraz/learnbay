@@ -13,7 +13,7 @@
     z-index: 9999;
     overflow: hidden;
     .popupInner {
-      background-image: url("/popup_back.webp");
+      background-image: url("/Popup-Back.webp");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -23,20 +23,21 @@
       align-items: center;
       justify-content: space-evenly;
       padding: 30px 40px;
-      width: max-content;
-      border-radius: 12px;
-      border: 4px solid #0d4a9b;
-      max-width: 70%;
+      width: 70%;
+      height: 90%;
+      border-radius: 10px;
+      border: 2px solid #2D9CD7;
       background-color: white;
+      text-align: center;
 
       .closeBtn {
         position: absolute;
         background-color: white;
         cursor: pointer;
         border-radius: 50%;
-        border: 1px solid #0d4a9b;
+        border: 1px solid #2D9CD7;
         border-color: blue;
-        color: #0d4a9b;
+        color: #2D9CD7;
         top: 5px;
         right: 10px;
       }
@@ -49,26 +50,26 @@
       align-items: center;
       justify-content: space-evenly;
       padding: 30px 40px;
-      width: max-content;
-      border-radius: 12px;
-      border: 4px solid #0d4a9b;
-      max-width: 70%;
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid #2D9CD7;
       background-color: white;
+      text-align: center;
 
       .closeBtn {
         position: absolute;
         background-color: white;
         cursor: pointer;
         border-radius: 50%;
-        border: 1px solid #0d4a9b;
+        border: 1px solid #2D9CD7;
         border-color: blue;
-        color: #0d4a9b;
+        color: #2D9CD7;
         top: 5px;
         right: 10px;
       }
     }
     .popupInners {
-      background-image: url("/Full-stack-brochure.webp");
+      background-image: url("/Brochure.webp");
       background-position: center center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -77,20 +78,21 @@
       align-items: center;
       justify-content: space-evenly;
       padding: 30px 60px;
-      width: max-content;
+      width: 70%;
+      height: 80%;
       border-radius: 5px;
-      border: 4px solid #0d4a9b;
-      max-width: 70%;
+      border: 2px solid #2D9CD7;
       background-color: white;
+      text-align: center;
 
       .closeBtn {
         position: absolute;
         background-color: white;
         cursor: pointer;
         border-radius: 50%;
-        border: 1px solid #0d4a9b;
+        border: 1px solid #2D9CD7;
         border-color: blue;
-        color: #0d4a9b;
+        color: #2D9CD7;
         top: 5px;
         right: 10px;
       }
@@ -106,14 +108,13 @@
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.23);
-
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 9999;
 
     .popupInner {
-      background-image: url("/popup_back.webp");
+      background-image: url("/Popup-Back.webp");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -124,7 +125,7 @@
       padding: 30px 60px;
       width: max-content;
       border-radius: 5px;
-      border: 4px solid #0d4a9b;
+      border: 2px solid #2D9CD7;
       max-width: 70%;
       background-color: white;
 
@@ -133,9 +134,9 @@
         background-color: white;
         cursor: pointer;
         border-radius: 50%;
-        border: 1px solid #0d4a9b;
+        border: 1px solid #2D9CD7;
         border-color: blue;
-        color: #0d4a9b;
+        color: #2D9CD7;
         top: 5px;
         right: 10px;
       }
@@ -149,7 +150,7 @@
       padding: 30px 60px;
       width: max-content;
       border-radius: 5px;
-      border: 4px solid #0d4a9b;
+      border: 2px solid #2D9CD7;
       max-width: 70%;
       background-color: white;
 
@@ -158,15 +159,15 @@
         background-color: white;
         cursor: pointer;
         border-radius: 50%;
-        border: 1px solid #0d4a9b;
+        border: 1px solid #2D9CD7;
         border-color: blue;
-        color: #0d4a9b;
+        color: #2D9CD7;
         top: 5px;
         right: 10px;
       }
     }
     .popupInnersW {
-      background-image: url("/Full-stack-brochure.webp");
+      background-image: url("/Brochre.webp");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -177,7 +178,7 @@
       padding: 30px 60px;
       width: max-content;
       border-radius: 5px;
-      border: 4px solid #0d4a9b;
+      border: 2px solid #2D9CD7;
       max-width: 70%;
       background-color: white;
 
@@ -186,9 +187,9 @@
         background-color: white;
         cursor: pointer;
         border-radius: 50%;
-        border: 1px solid #0d4a9b;
+        border: 1px solid #2D9CD7;
         border-color: blue;
-        color: #0d4a9b;
+        color: #2D9CD7;
         top: 5px;
         right: 10px;
       }
@@ -256,6 +257,7 @@
       align-items: center;
       justify-content: center;
       height: max-content;
+      text-align: center;
 
       background-color: white;
       margin-left: 10px;

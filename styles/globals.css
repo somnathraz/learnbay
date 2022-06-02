@@ -2,11 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: white;
-  font-family: "Roboto", sans-serif;
-}
-html {
-  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -21,7 +17,7 @@ a {
 button {
   padding: 15px 20px;
   outline: none;
-  background-color: #2d9cd7;
+  background-color: #2D9CD7;
   color: white;
   border: 0;
   cursor: pointer;
@@ -29,7 +25,9 @@ button {
   align-items: center;
   border-radius: 4px;
   font-size: 14px;
+  border: 1px solid #2D9CD7;
 }
+
 .outLineBtn {
   padding: 15px 20px;
   border: 2px solid #2d9cd7;
@@ -43,20 +41,30 @@ button {
 }
 .bIcon {
   font-size: 18px;
+<<<<<<< HEAD
   margin-left: 5px;
   color: #12054d;
+=======
+  margin-right: 5px;
+  color: #2D9CD7;
+>>>>>>> 9eb377bf1f3ca229809a927a879446a2cd26bd7b
 }
 .bIcons {
   font-size: 18px;
   margin-left: 5px;
   color: white;
 }
+
 .pTop {
   font-size: 22px;
   font-weight: 500;
   margin: 0;
   margin-bottom: 20px;
+<<<<<<< HEAD
   color: black;
+=======
+  color: #2D9CD7;
+>>>>>>> 9eb377bf1f3ca229809a927a879446a2cd26bd7b
 }
 
 .pBot {
@@ -67,7 +75,7 @@ button {
 
 .vIcon {
   font-size: 42px;
-  color: #f14d5d;
+  color: #2D9CD7;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 50%;
@@ -108,11 +116,12 @@ button {
 }
 
 h4 {
-  font-size: 36px;
-  margin: 0;
-  color: rgb(61, 61, 61);
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  color: #000;
   padding: 0;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .shadow {
@@ -310,11 +319,5 @@ h4 {
     border-right: 2px solid #0d4a9b;
     padding-right: 10px;
     margin: 0;
-  }
-  .countdown p {
-    font-size: 18px;
-  }
-  .countdown span {
-    margin-top: 0;
   }
 }

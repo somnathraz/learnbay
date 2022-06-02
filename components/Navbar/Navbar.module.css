@@ -8,7 +8,8 @@
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.75);
-
+  right: 0;
+  left: 0;
   height: 70px;
   padding: 0px 50px;
   display: flex;
@@ -24,12 +25,29 @@
 .ham {
   display: inline;
   justify-self: flex-start;
-  color: #0d4a9b;
+  color: #2D9CD7;
   cursor: pointer;
   font-size: 28px;
   margin-right: 10px;
   margin-left: 5px;
   margin-top: -5px;
+}
+.left button {
+  padding: 15px 20px;
+  outline: none;
+  background-color: #2D9CD7;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.left button:hover {
+  background-color: #f7f9fc;
+  color: #2D9CD7;
+  box-shadow: #2D9CD7 0px 0px 4px 0px;
 }
 
 .right {
@@ -48,7 +66,7 @@
   font-weight: 600;
 }
 .right span:hover {
-  color: #0d4a9b;
+  color: #2D9CD7;
   transform: scale(1) translate(-0%, -20%);
   transition: all 0.5s ease-in-out;
   scroll-behavior: smooth;
@@ -66,21 +84,69 @@
   background-color: transparent;
   border: 2px solid #2d9cd7;
   font-weight: 500;
+  box-shadow: #2D9CD7 0px 0px 4px 0px;
 }
 .right button:hover {
-  background-color: #4dd3f1;
-  color: white;
+  background-color: #fff;
+  color: #2D9CD7;
+  border: 1px solid #2D9CD7;
 }
+
 .hoverBtn {
   background-color: #f7f9fc;
-  color: #0d4a9b;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: #2D9CD7;
+  box-shadow: #2D9CD7 0px 0px 4px 0px;
 }
 .white {
   background-color: transparent;
   height: 600px;
   width: 500px;
 }
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #FF9562;
+  color: #fff;
+  font-size: 18px;
+  margin-right: 10px;
+  border: 1px solid #FF9562;
+  box-shadow: #FF9562 0px 0px 4px 0px !important;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  max-width: fit-content;
+  z-index: 1;
+  margin-top: 3px;
+  font-size: 16px;
+}
+
+/* Links inside the dropdown */
+.dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 400px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdownContent a:hover {background-color: #FF9562; color: #fff;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownContent {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #fff; color: #FF9562; border: 1px solid #FF9562;}
 
 @media (max-width: 481px) {
   .nav {
@@ -96,7 +162,7 @@
     height: 70px;
     padding: 0px 10px;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 52% 40%;
     align-items: center;
   }
   .left {
@@ -110,17 +176,35 @@
   .ham {
     display: inline;
     justify-self: flex-start;
-    color: #0d4a9b;
+    color: #2D9CD7;
     cursor: pointer;
     font-size: 28px;
     margin-right: 10px;
     margin-left: 5px;
     margin-top: -5px;
   }
-
-  .left button:hover {
+  .left button {
+    padding: 8px 10px;
+    outline: none;
+    background-color: #2D9CD7;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
   }
-  .right {
+  .left button:hover {
+    background-color: #f7f9fc;
+    color: #2D9CD7;
+    box-shadow: #2D9CD7 0px 0px 4px 0px;
+  }
+  /* .right {
+    display: none;
+  } */
+
+  .dropdown {
     display: none;
   }
   .right span {
@@ -130,17 +214,17 @@
   .right button {
     padding: 8px 10px;
 
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: #2D9CD7 0px 0px 4px 0px;
 
     font-size: 14px;
   }
   .right button:hover {
-    background-color: #f14d5d;
+    background-color: #fff;
   }
   .hoverBtn {
     background-color: #f7f9fc;
-    color: #0d4a9b;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: #2D9CD7;
+    box-shadow: #2D9CD7 0px 0px 4px 0px;
   }
   .white {
     background-color: transparent;
@@ -168,14 +252,14 @@
   }
   .mobileWrapper .mobileMenu span {
     font-size: 18px;
-    padding: 20px;
-    font-weight: bold;
+    padding: 10px;
+    font-weight: 500;
     cursor: pointer;
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   .mobileWrapper .mobileMenu span:hover {
-    color: #0d4a9b;
-    background-color: #ebf1f8;
+    color: #fff;
+    background-color: #2D9CD7;
   }
 }
