@@ -43,20 +43,20 @@ button {
 }
 .bIcon {
   font-size: 18px;
-  margin-right: 5px;
-  color: #0d4a9b;
+  margin-left: 5px;
+  color: #12054d;
 }
 .bIcons {
   font-size: 18px;
-  margin-right: 5px;
+  margin-left: 5px;
   color: white;
 }
 .pTop {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 500;
   margin: 0;
   margin-bottom: 20px;
-  color: #f14d5d;
+  color: black;
 }
 
 .pBot {

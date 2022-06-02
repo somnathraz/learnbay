@@ -1,0 +1,42 @@
+.First {
+  margin-top: 70px;
+
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  background-image: url("/Data_science_header.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.First h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.First span {
+  font-size: 18px;
+}
+.FirstP {
+  font-weight: 400;
+  border-left: 5px solid black;
+  padding-left: 10px;
+}
+.btnWrapper {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+}
+.btnWrapper button {
+  display: flex;
+  justify-content: space-between;
+}
+.outLineBtn {
+  background-color: white;
+  color: #12054d;
+  border: 1px solid #12054d;
+  padding: 10px 15px;
+}
+.btn {
+  background-color: #12054d;
+}
