@@ -337,22 +337,22 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
               <option className={styles.option} value="">
                 Scheduled Your Appointment
               </option>
-              <option value="Morning(9-12)">
+              <option value="Morning between (10-11 AM)">
                 Morning between (10-11 AM)
               </option>
-              <option value="AfterNoon(12-03)">
+              <option value="AfterNoon Between (11-12 PM)">
                 AfterNoon Between (11-12 PM)
               </option>
-              <option value="Evening(03-07)">
+              <option value="AfterNoon between (12-01 PM)">
               AfterNoon between (12-01 PM)
               </option>
-              <option value="Evening(03-07)">
+              <option value="Evening between (02-03 PM)">
                 Evening between (02-03 PM)
               </option>
-              <option value="Evening(03-07)">
+              <option value="Evening between (03-04 PM)">
                 Evening between (03-04 PM)
               </option>
-              <option value="Evening(03-07)">
+              <option value="Evening between (04-05 PM)">
                 Evening between (04-05 PM)
               </option>
             </select>

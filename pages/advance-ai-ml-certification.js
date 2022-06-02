@@ -9,11 +9,19 @@ import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Certificate from "../Components/Certificatejob/Certificate";
+import OtherCertificate from "../Components/OtherCertificate/OtherCertificate";
 import Project from "../Components/Project/Project";
 import Syllabus from "../Components/SyllabusAiMl/Syllabus";
 import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
+import HowApply from "../Components/HowApply/HowApply";
+import ReferSection from "../Components/ReferSection/ReferSection";
+import CourseFee from "../Components/CourseFee/CourseFee";
+import SyllabusNew from "../Components/SyllabusNew/SyllabusNew";
+
 import CareerImpact from "../Components/CareerImpact/CareerImpact";
+import SkillsCovered from "../Components/SkillsCovered/SkillsCovered";
+
 import React, { useState } from "react";
 
 export default function Home() {
@@ -56,9 +64,6 @@ export default function Home() {
           EMI="₹ 12k/month*(9 Months)"
         />
       </div>
-      <CareerImpact
-      CareerHead="Career Impact"
-      />
       <GetHired />
       <div className="Feature" id="Feature">
         <BoxShape
@@ -73,22 +78,15 @@ export default function Home() {
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
       </div>
+      <CareerImpact
+      CareerHead="Career Impact"
+      />
       <div className={styles.ExpertWrapper}>
         <div className={styles.expert}>
           <h5>Our experts are from:</h5>
         </div>
         <div className={styles.expertBody}>
           <OurExpert />
-        </div>
-      </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
         </div>
       </div>
       <Certificate
@@ -99,6 +97,7 @@ export default function Home() {
         desc3 ="Data Science Leads from IBM as instructors."
 
       />
+      <OtherCertificate />
       <section className={styles.HiringPartner}>
         <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
         <span className={styles.HiringPartnerB}>
@@ -112,12 +111,27 @@ export default function Home() {
           />
         </span>
     </section>
+    <SyllabusNew />
       <Syllabus />
       <ToolsCovered />
+      <SkillsCovered />
       <Domain />
       <div className={styles.ProjectWrapper} id="project">
         <Project />
       </div>
+      <div className={styles.cta}>
+        <div className={styles.left}></div>
+        <div className={styles.middle}>
+          <h6>Talk to our team directly.</h6>
+          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
+        </div>
+        <div className={styles.right}>
+          <button onClick={popupShow}>Enquire Now</button>
+        </div>
+      </div>
+      <HowApply />
+      <CourseFee />
+      <ReferSection />
       </main> 
     </div>
   )

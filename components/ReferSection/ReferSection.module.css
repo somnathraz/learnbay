@@ -1,0 +1,31 @@
+.ReferSection {
+    margin: 70px 0px 70px 0px;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    align-items: center;
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+.ptop {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.pbot {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: black;
+    text-align: left;
+}
+
+.icon {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 8px;
+}
