@@ -20,28 +20,9 @@ export default function Slider() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
         style={{ padding: "4px", height: "80px" }}
-        breakpoints={{
-          0: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-            slidesPerGroup: 1,
-          },
-          600: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-            slidesPerGroup: 1,
-          },
-          900: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-            slidesPerGroup: 1,
-          },
-          1200: {
-            slidesPerView: 4,
-            spaceBetween: 30,
-            slidesPerGroup: 1,
-          },
-        }}
+        slidesPerView={4}
+        spaceBetween={30}
+        slidesPerGroup={1}
       >
         <SwiperSlide className={styles.slide}>
           <img src="/1.webp" alt="Content Image" style={{ width: "100%" }} />
