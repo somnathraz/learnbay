@@ -1,11 +1,12 @@
 .GetHired {
   display: grid;
   align-items: center;
-  margin: 70px 0px 70px 0px;
+  margin: 70px 100px 70px 100px;
 }
 .imageBox {
   display: grid;
   grid-template-columns: 30% 30% 40%;
+  margin: 70px 100px;
 }
 .left div {
   display: flex;

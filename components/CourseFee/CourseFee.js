@@ -4,7 +4,7 @@ import { BiCheck } from "react-icons/bi";
 
 function CourseFee() {
   return (
-    <section>
+    <section className={styles.CourseFeeh}>
         <h4 style={{ marginBottom: "30px" }}>Artificial Intelligence & ML Course Fee</h4>
         <div className={styles.CourseFee}>
             <div className={styles.heading}>

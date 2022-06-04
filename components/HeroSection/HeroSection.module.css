@@ -3,7 +3,7 @@
       display: grid;
       align-items: center;
       grid-template-columns: 59% 39%;
-      margin: 70px 0px;
+      margin: 70px 100px;
     }
     .left {
       padding: 30px 70px 0px 0px;
@@ -170,7 +170,7 @@
       display: grid;
       align-items: center;
       grid-template-columns: 59% 39%;
-      margin: 70px 10px 0px 10px;
+      margin: 70px 100px 0px 100px;
     }
     .left {
       padding: 30px 70px 0px 0px;

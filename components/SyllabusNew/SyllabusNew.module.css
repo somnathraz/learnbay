@@ -1,5 +1,5 @@
 .SyllabusNew {
-    margin: 70px 0px 70px 0px;
+    margin: 70px 100px 70px 100px;
 }
 
 .SyllabusTop {
@@ -25,4 +25,216 @@
 .textStyle {
     font-size: 20px;
     color: #2D9CD7;
+}
+
+.SyllabusBot {
+    display: flex;
+}
+
+.SyllabusBot1 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #8F84BE;
+    box-shadow: 0px 0px 5px 0px rgb(143 132 190 / 40%);
+    margin: 50px 10px 0px 10px;
+    width: 100%;
+}
+
+.SyllabusBot11 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 82% 18%;
+    background: #F8FAFD;
+    padding: 10px 20px;
+}
+
+.number1 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    padding: 5px;
+    border-color: #8F84BE;
+    font-size: 26px;
+    text-align: center;
+    color: #8F84BE;
+    margin: 10px;
+}
+
+.SyllabusBot2 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #FCD059;
+    box-shadow: 0px 0px 5px 0px rgb(252 208 89 / 25%);
+    margin: 50px 10px 0px 10px;
+    width: 100%;
+}
+
+.SyllabusBot22 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 82% 18%;
+    background: F8FAFD;
+    padding: 10px 20px;
+}
+
+.number2 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    padding: 5px;
+    border-color: #FCD059;
+    font-size: 26px;
+    text-align: center;
+    color: #FCD059;
+    margin: 10px;
+}
+
+.SyllabusBot3 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #F36B24;
+    box-shadow: 0px 0px 5px 0px rgb(243 107 36 / 25%);
+    margin: 50px 10px 0px 10px;
+    width: 100%;
+}
+
+.SyllabusBot33 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 82% 18%;
+    background: #F8FAFD;
+    padding: 10px 20px;
+}
+
+.number3 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    padding: 5px;
+    border-color: #F36B24;
+    font-size: 26px;
+    text-align: center;
+    color: #F36B24;
+    margin: 10px;
+}
+
+.SyllabusBot4 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #31B888;
+    box-shadow: 0px 0px 5px 0px rgb(49 184 136 / 25%);
+    margin: 20px 10px 0px 10px;
+    width: 100%;
+}
+
+.SyllabusBot44 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 82% 18%;
+    background: #F8FAFD;
+    padding: 10px 20px;
+}
+
+.number4 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    padding: 5px;
+    border-color: #31B888;
+    font-size: 26px;
+    text-align: center;
+    color: #31B888;
+    margin: 10px;
+}
+
+.SyllabusBot5 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #DA5CA2;
+    box-shadow: 0px 0px 5px 0px rgb(218 92 162 / 25%);
+    margin: 20px 10px 0px 10px;
+    width: 100%;
+}
+
+.SyllabusBot55 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 82% 18%;
+    background: #F8FAFD;
+    padding: 10px 20px;
+}
+
+.number5 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    padding: 5px;
+    border-color: #DA5CA2;
+    font-size: 26px;
+    text-align: center;
+    color: #DA5CA2;
+    margin: 10px;
+}
+
+.SyllabusBot6 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #287EC2;
+    box-shadow: 0px 0px 5px 0px rgb(40 126 194 / 25%);
+    margin: 20px 10px 0px 10px;
+    width: 100%;
+}
+
+.SyllabusBot66 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 82% 18%;
+    background: #F8FAFD;
+    padding: 10px 20px;
+}
+
+.number6 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    padding: 5px;
+    border-color: #287EC2;
+    font-size: 26px;
+    text-align: center;
+    color: #287EC2;
+    margin: 10px;
+}
+
+.syllabush {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.syllabusb {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.bIcons {
+    color: #000;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.SyllabusBotlist {
+    padding: 20px 20px 30px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.SyllabusBotlist p {
+    margin: 0;
+}
+
+.buttonb {
+    text-align: center;
 }

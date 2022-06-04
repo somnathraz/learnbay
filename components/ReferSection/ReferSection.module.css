@@ -1,9 +1,8 @@
 .ReferSection {
-    margin: 70px 0px 70px 0px;
+    margin: 70px 100px 70px 100px;
     display: grid;
     grid-template-columns: 25% 50% 25%;
     align-items: center;
-    width: 100%;
     text-align: -webkit-center;
 }
 

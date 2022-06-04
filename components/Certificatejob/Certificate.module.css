@@ -2,7 +2,7 @@
   display: grid;
   align-items: center;
   grid-template-columns: 49% 49%;
-  margin: 70px 0px 70px 0px;
+  margin: 70px 100px 70px 100px;
 }
 
 .left {

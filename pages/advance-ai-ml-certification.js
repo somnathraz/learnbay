@@ -11,7 +11,6 @@ import Form from "../Components/Form/Form";
 import Certificate from "../Components/Certificatejob/Certificate";
 import OtherCertificate from "../Components/OtherCertificate/OtherCertificate";
 import Project from "../Components/Project/Project";
-import Syllabus from "../Components/SyllabusAiMl/Syllabus";
 import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import HowApply from "../Components/HowApply/HowApply";
@@ -99,6 +98,7 @@ export default function Home() {
       />
       <OtherCertificate />
       <section className={styles.HiringPartner}>
+        <div>
         <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
         <span className={styles.HiringPartnerB}>
           <Image
@@ -110,9 +110,9 @@ export default function Home() {
             height="320px"
           />
         </span>
+        </div>
     </section>
     <SyllabusNew />
-      <Syllabus />
       <ToolsCovered />
       <SkillsCovered />
       <Domain />
