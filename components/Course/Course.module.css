@@ -56,11 +56,11 @@
   border-radius: 8px;
 }
 .courseImg {
-  width: 409px;
+  width: 397px;
   height: 150px;
   margin-top: -20px;
   margin-left: -20px;
-  margin-right: -20px;
+  margin-right: -0px;
   border-radius: 8px;
 }
 .leftSide h6,
@@ -88,4 +88,58 @@
 }
 .btnWrapper button {
   padding: 10px 15px;
+}
+@media (max-width: 481px) {
+  .Course {
+    padding: 0 10px;
+  }
+  .Course h2 {
+    font-size: 21px;
+  }
+  .feature {
+    flex-flow: column;
+    align-items: flex-start;
+    line-height: 1.9em;
+  }
+  .courses {
+    padding: 0px;
+    box-shadow: none;
+  }
+  .listPanel {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    flex-wrap: wrap;
+    box-shadow: rgba(129, 217, 255, 0.612) 0px 7px 29px 0px;
+  }
+  .listPanel span {
+    font-size: 14px;
+    width: 100%;
+    padding: 15px 10px;
+  }
+  .gridPanel {
+    flex-flow: row;
+    overflow: scroll;
+  }
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    width: 90%;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .courseImg {
+    width: 305px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -0px;
+  }
+  .leftSide h6,
+  .middleSide h6,
+  .rightSide h6 {
+    margin-right: 0;
+  }
+  .checkCircle {
+    margin-right: 5px;
+  }
 }
