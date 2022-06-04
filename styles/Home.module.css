@@ -1,6 +1,5 @@
 .container {
-  max-width: 85%;
-  margin: auto;
+  padding: 0rem;
 }
 
 .program {
@@ -65,7 +64,7 @@
   width: 100%;
 }
 
-.HiringPartnerB{
+.HiringPartnerB {
   border-radius: 10px;
   width: 100%;
 }
@@ -159,7 +158,7 @@
   margin-top: 40px;
 }
 .cta button:hover {
-  background-color: #2D9CD7;
+  background-color: #2d9cd7;
 }
 .ExpertWrapper {
   display: grid;
@@ -268,4 +267,3 @@
     margin-right: 120px;
   }
 }
-

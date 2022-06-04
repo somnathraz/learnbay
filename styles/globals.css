@@ -17,7 +17,7 @@ a {
 button {
   padding: 15px 20px;
   outline: none;
-  background-color: #2D9CD7;
+  background-color: #2d9cd7;
   color: white;
   border: 0;
   cursor: pointer;
@@ -25,7 +25,7 @@ button {
   align-items: center;
   border-radius: 4px;
   font-size: 14px;
-  border: 1px solid #2D9CD7;
+  border: 1px solid #2d9cd7;
 }
 
 .outLineBtn {
@@ -41,21 +41,21 @@ button {
 }
 .bIcon {
   font-size: 18px;
-  margin-right: 5px;
-  color: #2D9CD7;
+  margin-left: 5px;
+  color: #12054d;
 }
 .bIcons {
   font-size: 18px;
-  margin-right: 5px;
+  margin-left: 5px;
   color: white;
 }
 
 .pTop {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 500;
   margin: 0;
   margin-bottom: 20px;
-  color: #2D9CD7;
+  color: black;
 }
 
 .pBot {
@@ -66,7 +66,7 @@ button {
 
 .vIcon {
   font-size: 42px;
-  color: #2D9CD7;
+  color: #2d9cd7;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 50%;
