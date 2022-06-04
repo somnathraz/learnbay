@@ -5,6 +5,9 @@ import styles from "../styles/Home.module.css";
 
 import Slider from "../components/FirstSection/Slider";
 import Course from "../components/Course/Course";
+import KeyFeatures from "../components/KeyFeatures/KeyFeatures";
+import WhyLearnbay from "../components/WhyLearnbay/WhyLearnbay";
+import Benefits from "../components/Benefits/Benefits";
 
 export default function Home() {
   return (
@@ -17,6 +20,9 @@ export default function Home() {
       <FirstSection />
       <Slider />
       <Course />
+      <KeyFeatures />
+      <WhyLearnbay />
+      <Benefits />
     </div>
   );
 }
