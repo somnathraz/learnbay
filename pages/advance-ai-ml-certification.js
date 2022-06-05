@@ -8,7 +8,7 @@ import Domain from "../Components/Domain/Domain";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/Certificatejob/Certificate";
+import Certificate from "../Components/CertificateTab/CertificateTab";
 import OtherCertificate from "../Components/OtherCertificate/OtherCertificate";
 import Project from "../Components/Project/Project";
 import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
@@ -17,10 +17,8 @@ import HowApply from "../Components/HowApply/HowApply";
 import ReferSection from "../Components/ReferSection/ReferSection";
 import CourseFee from "../Components/CourseFee/CourseFee";
 import SyllabusNew from "../Components/SyllabusNew/SyllabusNew";
-
 import CareerImpact from "../Components/CareerImpact/CareerImpact";
 import SkillsCovered from "../Components/SkillsCovered/SkillsCovered";
-
 import React, { useState } from "react";
 
 export default function Home() {
@@ -102,7 +100,7 @@ export default function Home() {
         <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
         <span className={styles.HiringPartnerB}>
           <Image
-            src="/jobhiring.png"
+            src="/hiring-a.webp"
             alt="Certificate"
             quality={100}
             layout="intrinsic"
@@ -122,8 +120,8 @@ export default function Home() {
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
+<p>Doubts Regarding Learning Assistance? Or You’re Unsure Of Your Initial Data Science Career Step? Whatever Is It…</p>
+          <h6>We Are Here To Help You.</h6>
         </div>
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>

@@ -90,7 +90,7 @@ const Domain = () => {
           quality={100}
           layout="intrinsic"
           width="500"
-          height="550"
+          height="540"
         />
         </div>
       </div>

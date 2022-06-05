@@ -1,0 +1,173 @@
+.certificate {
+    padding: 0px 100px;
+    margin-top: 40px;
+}
+
+.certificate h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feature p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.tick {
+    font-size: 20px;
+    color: #2d9cd7;
+}
+
+.certificates {
+    box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
+    margin-top: 30px;
+    padding: 40px;
+}
+
+.listPanel {
+    display: flex;
+    justify-content: left;
+}
+
+.listPanel span {
+    padding: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 20%;
+    background-color: #e5f3fa;
+}
+
+.gridPanel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px;
+}
+
+.leftSide,
+.middleSide,
+.rightSide {
+    display: flex;
+}
+
+.leftSideP {
+        box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
+        padding: 20px;
+        width: 100%;
+        border-radius: 8px;
+        margin: 20px;
+}
+
+.certificateImg {
+    width: 397px;
+    height: 150px;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -0px;
+    border-radius: 8px;
+}
+
+.leftSide h6,
+.middleSide h6,
+.rightSide h6 {
+    font-size: 18px;
+    margin: 0;
+    margin-right: 130px;
+    margin-top: 10px;
+
+    color: #2d9cd7;
+}
+
+.leftSide p,
+.middleSide p,
+.rightSide p {
+    display: flex;
+    align-items: center;
+}
+
+.checkCircle {
+    margin-right: 15px;
+}
+
+.btnWrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.btnWrapper button {
+    padding: 10px 15px;
+}
+
+@media (max-width: 481px) {
+    .certificate {
+        padding: 0 10px;
+    }
+
+    .certificate h2 {
+        font-size: 21px;
+    }
+
+    .feature {
+        flex-flow: column;
+        align-items: flex-start;
+        line-height: 1.9em;
+    }
+
+    .certificates {
+        padding: 0px;
+        box-shadow: none;
+    }
+
+    .listPanel {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        flex-wrap: wrap;
+        box-shadow: rgba(129, 217, 255, 0.612) 0px 7px 29px 0px;
+    }
+
+    .listPanel span {
+        font-size: 14px;
+        width: 100%;
+        padding: 15px 10px;
+    }
+
+    .gridPanel {
+        flex-flow: row;
+        overflow: scroll;
+    }
+
+    .leftSide,
+    .middleSide,
+    .rightSide {
+        width: 90%;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .certificateImg {
+        width: 305px;
+        margin-top: -10px;
+        margin-left: -10px;
+        margin-right: -0px;
+    }
+
+    .leftSide h6,
+    .middleSide h6,
+    .rightSide h6 {
+        margin-right: 0;
+    }
+
+    .checkCircle {
+        margin-right: 5px;
+    }
+}

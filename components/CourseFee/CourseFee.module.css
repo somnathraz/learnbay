@@ -42,3 +42,10 @@
     color: #2D9CD7;
     margin-right: 5px;
 }
+
+.BatchDetailsTop {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
