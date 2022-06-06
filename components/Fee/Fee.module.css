@@ -195,6 +195,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    margin-top: 20px;
+
   }
   .outButton:hover {
     background-color: #2D9CD7;
@@ -228,6 +230,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
   }
   .button:hover {
     background-color: #f14d5d;

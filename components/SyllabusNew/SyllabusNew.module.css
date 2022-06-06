@@ -238,3 +238,53 @@
 .buttonb {
     text-align: center;
 }
+
+@media (max-width: 481px) {
+    .SyllabusNew {
+        margin: 30px 0px 30px 0px;
+    }
+
+    .SyllabusTop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .TopInner {
+        margin: 10px 10px 10px 10px;
+    }
+
+    .SyllabusBot {
+        display: grid;
+        width: 100%;
+    }
+
+    .SyllabusBot1 {
+        margin: 10px 10px 0px 10px;
+        width: auto;
+    }
+
+    .SyllabusBot2 {
+        margin: 10px 10px 0px 10px;
+        width: auto;
+    }
+
+    .SyllabusBot3 {
+        margin: 10px 10px 0px 10px;
+        width: auto;
+    }
+
+    .SyllabusBot4 {
+        margin: 10px 10px 0px 10px;
+        width: auto;
+    }
+
+    .SyllabusBot5 {
+        margin: 10px 10px 0px 10px;
+        width: auto;
+    }
+
+    .SyllabusBot6 {
+        margin: 10px 10px 0px 10px;
+        width: auto;
+    }
+}

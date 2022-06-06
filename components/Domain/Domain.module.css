@@ -62,6 +62,13 @@
 }
 
 @media (max-width: 481px) {
+
+  .Domain {
+    display: grid;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+  }
+
   .GetHired {
     display: block;
     margin: 0px;
@@ -78,5 +85,9 @@
     margin-top: 30px;
     padding: 10px;
     display: none;
+  }
+
+  .left div {
+    margin-left: 0px;
   }
 }

@@ -25,3 +25,15 @@
     border-width: 3px 0px 0px 0px;
     border-color: #2D9CD7;
 }
+
+@media (max-width: 481px) {
+    .HowApply {
+        margin: 30px 0px 30px 0px;
+    }
+
+    .HowApplyDiv {
+        display: flex;
+        margin: 0px;
+        flex-direction: column;
+    }
+}
