@@ -1,0 +1,235 @@
+.FeeS {
+  padding: 0px 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.FeeS h5 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+}
+.priceTable {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 20px;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.priceTableData {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 20px;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.priceTable span,
+.priceTableData span {
+  text-align: center;
+}
+.priceTable div,
+.priceTableData div {
+  display: flex;
+  flex-flow: column;
+}
+.sub {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #2D9CD7;
+}
+.Price {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.desc {
+  margin-bottom: 20px;
+  color: rgb(81, 81, 81);
+}
+.PFeatures {
+  height: 40px;
+}
+
+.check {
+  font-size: 20px;
+  color: green;
+}
+.cross {
+  font-size: 20px;
+  color: #f14d5d;
+}
+.outButton {
+  background-color: transparent;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #2D9CD7;
+  color: #2D9CD7;
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.outButton:hover {
+  background-color: #2D9CD7;
+  color: white;
+}
+.first,
+.third,
+.fourth {
+  padding: 30px 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.fourth:hover {
+  background-color: #eaf4fe;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.third {
+  background-color: #eaf4fe;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.button {
+  padding: 10px 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: white;
+  color: #2D9CD7;
+}
+
+@media (max-width: 481px) {
+  .FeeS {
+    padding: 0px 0px;
+  }
+  .FeeS h5 {
+    font-size: 18px;
+  }
+  .priceTable {
+    display: grid;
+    grid-template-columns: 45% 45% 45% 45%;
+    gap: 0px;
+    overflow: scroll;
+    margin-top: 30px;
+    justify-content: flex-start;
+  }
+  .priceTableData {
+    display: grid;
+    grid-template-columns: 45% 45% 45% 45%;
+    gap: 0px;
+    overflow: scroll;
+    margin-top: 30px;
+    justify-content: flex-start;
+  }
+
+  .priceTable div {
+    display: flex;
+    flex-flow: column;
+  }
+  .sub {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(114, 114, 114);
+  }
+  .Price {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .desc {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgb(81, 81, 81);
+  }
+  .PFeatures {
+    text-align: left;
+    font-size: 14px;
+  }
+  .priceTable span {
+    text-align: left;
+  }
+  .priceTable div {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+  }
+  .first,
+  .third,
+  .fourth {
+    padding: 30px 5px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .check {
+    font-size: 20px;
+    color: green;
+  }
+  .cross {
+    font-size: 20px;
+    color: #f14d5d;
+  }
+  .outButton {
+    background-color: transparent;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #2D9CD7;
+    color: #2D9CD7;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .outButton:hover {
+    background-color: #2D9CD7;
+    color: white;
+  }
+  .first,
+  .third,
+  .fourth {
+    padding: 30px 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .fourth:hover {
+    background-color: #eaf4fe;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .third {
+    background-color: #eaf4fe;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .button {
+    padding: 10px 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button:hover {
+    background-color: #f14d5d;
+  }
+}

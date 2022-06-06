@@ -62,6 +62,8 @@ function CertificateTab() {
                   <img
                     src={img}
                     layout="intrinsic"
+                    height="400px"
+                    width="600px"
                     className={styles.courseImg}
                   />
                   </div>
@@ -97,6 +99,8 @@ function CertificateTab() {
                   <img
                     src={img}
                     layout="intrinsic"
+                    height="400px"
+                    width="600px"
                     className={styles.courseImg}
                   />
                   </div>

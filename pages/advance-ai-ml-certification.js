@@ -18,7 +18,9 @@ import ReferSection from "../Components/ReferSection/ReferSection";
 import CourseFee from "../Components/CourseFee/CourseFee";
 import SyllabusNew from "../Components/SyllabusNew/SyllabusNew";
 import CareerImpact from "../Components/CareerImpact/CareerImpact";
+import Fee from "../Components/Fee/Fee";
 import SkillsCovered from "../Components/SkillsCovered/SkillsCovered";
+import FAQNew from "../Components/FAQNew/FAQNew";
 import React, { useState } from "react";
 
 export default function Home() {
@@ -128,8 +130,10 @@ export default function Home() {
         </div>
       </div>
       <HowApply />
+      <Fee />
       <CourseFee />
       <ReferSection />
+      <FAQNew />
       </main> 
     </div>
   )
