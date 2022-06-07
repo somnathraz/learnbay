@@ -46,7 +46,6 @@
     display: block;
     flex-wrap: wrap;
     width: 80%;
-    margin-top: 20px;
     gap: 20px;
     padding: 0px;
   }
@@ -95,7 +94,7 @@
   }
   @media (max-width: 481px) {
     .Course {
-      padding: 0 10px;
+      padding: 0px;
     }
     .Course h2 {
       font-size: 21px;
@@ -106,14 +105,18 @@
       line-height: 1.9em;
     }
     .courses {
-      padding: 0px;
-      box-shadow: none;
+      margin: 70px 0px;
+      display: block;
+    }
+    .listPanel {
+      display: flex;
+      width: 100%;
+      flex-flow: nowrap;
+      overflow: auto;
     }
     .listPanel {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-      flex-wrap: wrap;
-      box-shadow: rgba(129, 217, 255, 0.612) 0px 7px 29px 0px;
+      width: 100%;
     }
     .listPanel span {
       font-size: 14px;
@@ -123,6 +126,7 @@
     .gridPanel {
       flex-flow: row;
       overflow: scroll;
+      width: 100%;
     }
     .leftSide,
     .middleSide,

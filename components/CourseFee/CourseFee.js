@@ -39,11 +39,11 @@ function CourseFee() {
             </div>
             <div className={styles.batch}>
                 <div className={styles.BatchDetailsTop}>
-                  <div>
-                    <div className={styles.BatchType}>
-                      <p className={styles.list}><BiBookOpen className={styles.icon} />Batches</p>
-                      <p className={styles.list}>Weekday batch</p>
-                      <p className={styles.list}>Weekend batch</p>
+                <div>
+                    <div className={styles.BatchDetails}>
+                      <p className={styles.list}><AiOutlineBars className={styles.icon} />Batch Type</p>
+                      <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
+                      <p className={styles.list}>Weekend Batch (Sat-Sun)</p>
                     </div>
                   </div>
                   <div>
@@ -58,13 +58,6 @@ function CourseFee() {
                       <p className={styles.list}><BiTimeFive className={styles.icon} />Time</p>
                       <p className={styles.list}>09:00 – 12:00 AM</p>
                       <p className={styles.list}>09:00 – 12:00 AM</p>
-                    </div>
-                  </div>
-                  <div>
-                    <div className={styles.BatchDetails}>
-                      <p className={styles.list}><AiOutlineBars className={styles.icon} />Batch Type</p>
-                      <p className={styles.list}>Weekend (Sat-Sun)</p>
-                      <p className={styles.list}>Weekend (Sat-Sun)</p>
                     </div>
                   </div>
                   <div className={styles.btnWrapper}>

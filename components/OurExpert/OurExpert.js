@@ -23,7 +23,7 @@ const OurExpert = () => {
           <Swiper
             spaceBetween={10}
             centeredSlides={true}
-            slidesPerView={mobile ? 3 : 3}
+            slidesPerView={mobile ? 3 : 5}
             slidesPerGroup={1}
             loop={true}
             loopFillGroupWithBlank={true}

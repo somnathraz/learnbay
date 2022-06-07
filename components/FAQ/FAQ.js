@@ -21,12 +21,6 @@ function FAQ({ FaqData }) {
 
   return (
     <section className={styles.FAQ}>
-      <h4 style={{ marginBottom: "20px" }}>Frequently Asked Questions</h4>
-
-      <p className="pBot">
-        Learn from experts in live-interactive classes under Advanced data
-        science and AI course with 100% job guarantee.
-      </p>
 
       {state.map((data, index) => {
         const { id, ques, ans, open } = data;

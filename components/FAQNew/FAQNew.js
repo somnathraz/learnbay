@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles from "./FAQNew.module.css";
-import { GoCheck } from "react-icons/go";
 import { BsCheckCircle } from "react-icons/bs";
 import { FaUserGraduate, FaFilePdf } from "react-icons/fa";
 import {
@@ -15,7 +14,7 @@ import {
 } from "./FAQNewDetail";
 import FAQ from "../FAQ/FAQ";
 import CountUp from "react-countup";
-import { FaqData, DomainFaqData } from "../FAQ/FaqData";
+import { FaqData, DomainFaqData, PaymentFaqData, CapstoneFaqData, CertificationFaqData, MentorshipFaqData, SupportFaqData } from "../FAQ/FaqData";
 
 function FAQNew() {
   const [viewAll, setViewAll] = useState(true);
@@ -184,265 +183,43 @@ function FAQNew() {
         )}
         {nonTech ? (
           <div className={styles.gridPanel}>
-            {ForNonProgrammerD.map((viewAllData) => {
-              const { id, title, img, para } = viewAllData;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  />
-                  <h6>{title}</h6>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[0]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[1]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[2]}
-                  </p>
-                  <div className={styles.btnWrapper}>
-                    <button>
-                      view Details
-                      <FaUserGraduate className="bIcons" />
-                    </button>
-                    <button className="outLineBtn">
-                      Brochure
-                      <FaFilePdf
-                        className="bIcon"
-                        style={{ color: "#2d9cd7" }}
-                      />
-                    </button>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          <FAQ FaqData={PaymentFaqData} />
+        </div>
         ) : (
           ""
         )}
         {manager ? (
           <div className={styles.gridPanel}>
-            {ForManagerD.map((viewAllData) => {
-              const { id, title, img, para } = viewAllData;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  />
-                  <h6>{title}</h6>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[0]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[1]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[2]}
-                  </p>
-                  <div className={styles.btnWrapper}>
-                    <button>
-                      view Details
-                      <FaUserGraduate className="bIcons" />
-                    </button>
-                    <button className="outLineBtn">
-                      Brochure
-                      <FaFilePdf
-                        className="bIcon"
-                        style={{ color: "#2d9cd7" }}
-                      />
-                    </button>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          <FAQ FaqData={DomainFaqData} />
+        </div>
         ) : (
           ""
         )}
         {Guarantee ? (
           <div className={styles.gridPanel}>
-            {JobGuaranteeD.map((viewAllData) => {
-              const { id, title, img, para } = viewAllData;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  />
-                  <h6>{title}</h6>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[0]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[1]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[2]}
-                  </p>
-                  <div className={styles.btnWrapper}>
-                    <button>
-                      view Details
-                      <FaUserGraduate className="bIcons" />
-                    </button>
-                    <button className="outLineBtn">
-                      Brochure
-                      <FaFilePdf
-                        className="bIcon"
-                        style={{ color: "#2d9cd7" }}
-                      />
-                    </button>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          <FAQ FaqData={CapstoneFaqData} />
+        </div>
         ) : (
           ""
         )}
         {Assistance ? (
           <div className={styles.gridPanel}>
-            {AssistanceD.map((viewAllData) => {
-              const { id, title, img, para } = viewAllData;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  />
-                  <h6>{title}</h6>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[0]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[1]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[2]}
-                  </p>
-                  <div className={styles.btnWrapper}>
-                    <button>
-                      view Details
-                      <FaUserGraduate className="bIcons" />
-                    </button>
-                    <button className="outLineBtn">
-                      Brochure
-                      <FaFilePdf
-                        className="bIcon"
-                        style={{ color: "#2d9cd7" }}
-                      />
-                    </button>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          <FAQ FaqData={CertificationFaqData} />
+        </div>
         ) : (
           ""
         )}
         {Mentorship ? (
           <div className={styles.gridPanel}>
-            {MentorshipD.map((viewAllData) => {
-              const { id, title, img, para } = viewAllData;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  />
-                  <h6>{title}</h6>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[0]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[1]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[2]}
-                  </p>
-                  <div className={styles.btnWrapper}>
-                    <button>
-                      view Details
-                      <FaUserGraduate className="bIcons" />
-                    </button>
-                    <button className="outLineBtn">
-                      Brochure
-                      <FaFilePdf
-                        className="bIcon"
-                        style={{ color: "#2d9cd7" }}
-                      />
-                    </button>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          <FAQ FaqData={MentorshipFaqData} />
+        </div>
         ) : (
           ""
         )}
         {Support ? (
           <div className={styles.gridPanel}>
-            {SupportD.map((viewAllData) => {
-              const { id, title, img, para } = viewAllData;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  />
-                  <h6>{title}</h6>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[0]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[1]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[2]}
-                  </p>
-                  <div className={styles.btnWrapper}>
-                    <button>
-                      view Details
-                      <FaUserGraduate className="bIcons" />
-                    </button>
-                    <button className="outLineBtn">
-                      Brochure
-                      <FaFilePdf
-                        className="bIcon"
-                        style={{ color: "#2d9cd7" }}
-                      />
-                    </button>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          <FAQ FaqData={SupportFaqData} />
+        </div>
         ) : (
           ""
         )}
