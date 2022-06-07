@@ -14,6 +14,8 @@ const HeroSection = ({
   spanTitleText,
   desc,
   mTopPara,
+  src,
+  alt,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -253,8 +255,8 @@ const HeroSection = ({
       </div>
       <div className={styles.right}>
         <Image
-          src="/job.webp"
-          alt="data-science-course"
+          src={src}
+          alt={alt}
           quality={100}
           layout="intrinsic"
           width="500"

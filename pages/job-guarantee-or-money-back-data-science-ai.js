@@ -47,6 +47,8 @@ export default function Home() {
         title="Data Science and AI Program"
         spanTitleText="With 100% Job Guarantee or Money Back"
         desc="The course has been designed specifically for working professionals who choose to advance their careers in Data Science and AI."
+        src="/job.webp"
+        alt="Job Header"
       />
       <div className={styles.program}>
         <ProgramInfo
@@ -56,7 +58,17 @@ export default function Home() {
           EMI="₹ 16k/month*(9 Months)"
         />
       </div>
-      <GetHired />
+      <GetHired 
+        WeekdayBatchDate="Weekday Batches: 11 Months"
+        WeekendBatchDate="Weekend Batches: 15 Months"
+        WeekdayTime="Monday – Friday – 2 hours every day"
+        WeekendTime="Saturday & Sunday – 3.5 hours every day"
+        Project="15+ Real Time Project from AI and ML"
+        Classes="Special Classes for non-programmers"
+        OneLine="From Basics to Advance AI modules"
+        Interview="100% Job Guaranteed Program"
+        Fee="₹1,2,00"
+      />
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"

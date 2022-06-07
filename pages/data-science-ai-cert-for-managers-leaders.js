@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/HeroSectionManagers/HeroSection";
+import FirstSection from "../Components/HeroSection/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/GetHiredManagers/GetHired";
+import GetHired from "../Components/GetHired/GetHired";
 import Domain from "../Components/Domain/Domain";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
@@ -44,6 +44,8 @@ export default function Home() {
         title="Full Stack Data Science & AI Course"
         spanTitleText="For Tech Lead, Team Lead,Managers"
         desc="Our course is best suited for professionals looking to change their current domain and start a New Career in Data Science and Artificial Intelligence in senior and leadership roles."
+        src="/Managers.webp"
+        alt="Managers Header"
       />
       <div className={styles.program}>
         <ProgramInfo
@@ -53,7 +55,17 @@ export default function Home() {
           EMI="₹ 12k/month*(9 Months)"
         />
       </div>
-      <GetHired />
+      <GetHired 
+        WeekdayBatchDate="Weekday Batches: 11 Months"
+        WeekendBatchDate="Weekend Batches: 15 Months"
+        WeekdayTime="Monday – Friday – 2 hours every day"
+        WeekendTime="Saturday & Sunday – 3.5 hours every day"
+        Project="15+ Real Time Project from AI and ML"
+        Classes="Special Classes for non-programmers"
+        OneLine="From Basics to Advance AI modules"
+        Interview="100% Job Guaranteed Program"
+        Fee="₹1,2,000"
+      />
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"

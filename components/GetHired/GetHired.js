@@ -4,7 +4,17 @@ import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 
 
-const GetHired = () => {
+const GetHired = ({
+  WeekdayBatchDate,
+  WeekendBatchDate,
+  WeekdayTime,
+  WeekendTime,
+  Project,
+  Classes,
+  OneLine,
+  Interview,
+  Fee,
+}) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -31,6 +41,7 @@ const GetHired = () => {
   });
 
 
+
   return (
     <section className={styles.GetHired}>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -49,32 +60,32 @@ const GetHired = () => {
       <div className={styles.imageBox}>
         <div className={styles.left}>
           <div className={styles.top}>
-          <p>Weekday Batches: 13 Months</p>
-<p>Monday – Friday – 2 hours every day</p>
+          <p>{WeekdayBatchDate}</p>
+<p>{WeekdayTime}</p>
           </div>
           <div className={styles.middle}>
-            <p>15+ Real Time Project from AI and ML</p>
+            <p>{Project}</p>
           </div>
           <div className={styles.bottom}>
-            <p>From Basics to Advance AI modules</p>
+            <p>{OneLine}</p>
           </div>
         </div>
         <div className={styles.left}>
           <div className={styles.top}>
-          <p>Weekend Batches: 15 Months</p>
-<p>Saturday & Sunday – 3.5 hours every day</p>
+          <p>{WeekendBatchDate}</p>
+<p>{WeekendTime}</p>
           </div>
           <div className={styles.middle}>
-            <p>Special Classes for non-programmers</p>
+            <p>{Classes}</p>
           </div>
           <div className={styles.bottom}>
-          <p>100% Job Guaranteed Program</p>
+          <p>{Interview}</p>
           </div>
         </div>
         <div className={styles.right}>
         <div>
         <p>Course Fee</p>
-        <h4 className={styles.righth}>₹1,25,000</h4>
+        <h4 className={styles.righth}>{Fee}</h4>
         <p>3 Year Subscription</p>
         <button onClick={popupShow} style={{margin:"auto", marginBottom:"20px"}}>Enroll Now</button>
           </div>
