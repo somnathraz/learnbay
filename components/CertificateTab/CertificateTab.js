@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./CertificateTab.module.css";
+import Image from 'next/image'
 import { BsCheckCircle } from "react-icons/bs";
 
 import {
@@ -59,13 +60,14 @@ function CertificateTab() {
                   </p>
                   </div>
                   <div className={styles.leftSideI} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    height="400px"
-                    width="600px"
-                    className={styles.courseImg}
-                  />
+                  <Image
+            src={img}
+            alt="Certificate"
+            quality={100}
+            layout="intrinsic"
+            width="1150px"
+            height="800px"
+          />
                   </div>
                 </div>
               );
@@ -96,13 +98,15 @@ function CertificateTab() {
                   </p>
                   </div>
                    <div className={styles.leftSideI} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    height="400px"
-                    width="600px"
-                    className={styles.courseImg}
-                  />
+                     <Image
+            src={img}
+            alt="Certificate"
+            quality={100}
+            layout="intrinsic"
+            width="1150px"
+            height="800px"
+          />
+              
                   </div>
                 </div>
               );
