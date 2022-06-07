@@ -15,6 +15,8 @@ import {
 } from "./FAQNewDetail";
 import FAQ from "../FAQ/FAQ";
 import CountUp from "react-countup";
+import { FaqData, DomainFaqData } from "../FAQ/FaqData";
+
 function FAQNew() {
   const [viewAll, setViewAll] = useState(true);
   const [oneYear, setOneYear] = useState(false);
@@ -168,14 +170,14 @@ function FAQNew() {
         </div>
         {viewAll ? (
           <div className={styles.gridPanel}>
-            <FAQ />
+            <FAQ FaqData={FaqData} />
           </div>
         ) : (
           ""
         )}
         {oneYear ? (
           <div className={styles.gridPanel}>
-            <FAQ />
+            <FAQ FaqData={DomainFaqData} />
           </div>
         ) : (
           ""
