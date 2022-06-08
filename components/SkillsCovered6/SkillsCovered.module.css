@@ -1,0 +1,46 @@
+.SkillsCovered {
+    margin: 0px 100px 70px 100px;
+}
+
+.pBotC {
+    font-size: 18px;
+    display: flex;
+    margin: 12px 0px;
+}
+
+.icons {
+    color: #2D9CD7;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.SkillsCoveredDiv {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    margin: 0px 20px 0px 20px;
+
+}
+
+.SkillsCoveredInner {
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+    border-radius: 10px;
+}
+
+@media (max-width: 481px) {
+    .SkillsCovered {
+        margin: 0px 0px 70px 0px;
+    }
+
+    .SkillsCoveredDiv {
+        display: block;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .SkillsCoveredInner {
+        margin: 20px 0px;
+    }
+}

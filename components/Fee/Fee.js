@@ -5,7 +5,39 @@ import { RiCloseCircleFill } from "react-icons/ri";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 
-const Fee = ({ changeFee }) => {
+const Fee = ({
+  sub1,
+  Price1,
+  PFeatures11,
+  PFeatures12,
+  PFeatures13,
+  PFeatures14,
+  PFeatures15,
+  PFeatures16,
+  PFeatures17,
+  PFeatures18,
+  sub2,
+  Price2,
+  PFeatures21,
+  PFeatures22,
+  PFeatures23,
+  PFeatures24,
+  PFeatures25,
+  PFeatures26,
+  PFeatures27,
+  PFeatures28,
+  sub3,
+  Price3,
+  PFeatures31,
+  PFeatures32,
+  PFeatures33,
+  PFeatures34,
+  PFeatures35,
+  PFeatures36,
+  PFeatures37,
+  PFeatures38,
+  changeFee,
+}) => {
   const [hover, setHover] = useState(false);
   const [popups, setPopups] = useState(false);
 
@@ -52,44 +84,44 @@ const Fee = ({ changeFee }) => {
               setHover(false);
             }}
           >
-            <span className={styles.sub}>Data Science and AI Foundation Program</span>
-            <span className={styles.Price}>₹65,000 + GST</span>
-            <span className={styles.PFeatures}> 225+ Hours</span>
-            <span className={styles.PFeatures}> Early Professionals</span>
-            <span className={styles.PFeatures}>NA</span>
-            <span className={styles.PFeatures}>8+1</span>
-            <span className={styles.PFeatures}>10+</span>
-            <span className={styles.PFeatures}>
-              <MdCheckCircle className={styles.check} />
+            <span className={styles.sub}>{sub1}</span>
+            <span className={styles.Price}>{Price1}</span>
+            <span className={styles.PFeatures}>{PFeatures11}</span>
+            <span className={styles.PFeatures}>{PFeatures12}</span>
+            <span className={styles.PFeatures}>{PFeatures13}</span>
+            <span className={styles.PFeatures}>{PFeatures14}</span>
+            <span className={styles.PFeatures}>{PFeatures15}</span>
+            <span className={styles.PFeatures}>{PFeatures16}
+              
             </span>
-            <span className={styles.PFeatures}>
-              <RiCloseCircleFill className={styles.cross} />
+            <span className={styles.PFeatures}>{PFeatures17}
+              
             </span>
-            <span className={styles.PFeatures}>Data Analyst, Jr. Data Scientist, Data Associate, Etc.</span>
+            <span className={styles.PFeatures}>{PFeatures18}</span>
             <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
               <button className={styles.button} onClick={popupShow}>
-                Enrol Now
+                Enroll Now
               </button>
             </span>
           </div>
           <div className={hover ? styles.fourth : styles.third}>
-          <span className={styles.sub}>Data Science and AI Foundation Program</span>
-            <span className={styles.Price}>₹65,000 + GST</span>
-            <span className={styles.PFeatures}> 225+ Hours</span>
-            <span className={styles.PFeatures}> Early Professionals</span>
-            <span className={styles.PFeatures}>NA</span>
-            <span className={styles.PFeatures}>8+1</span>
-            <span className={styles.PFeatures}>10+</span>
+          <span className={styles.sub}>{sub1}</span>
+            <span className={styles.Price}>{Price1}</span>
+            <span className={styles.PFeatures}>{PFeatures11}</span>
+            <span className={styles.PFeatures}>{PFeatures12}</span>
+            <span className={styles.PFeatures}>{PFeatures13}</span>
+            <span className={styles.PFeatures}>{PFeatures14}</span>
+            <span className={styles.PFeatures}>{PFeatures15}</span>
             <span className={styles.PFeatures}>
-              <MdCheckCircle className={styles.check} />
+            {PFeatures16}
             </span>
             <span className={styles.PFeatures}>
-              <RiCloseCircleFill className={styles.cross} />
+            {PFeatures17}
             </span>
-            <span className={styles.PFeatures}>Data Analyst, Jr. Data Scientist, Data Associate, Etc.</span>
+            <span className={styles.PFeatures}>{PFeatures18}</span>
             <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
               <button className={styles.button} onClick={popupShow}>
-                Enrol Now
+                Enroll Now
               </button>
             </span>
           </div>
@@ -102,23 +134,23 @@ const Fee = ({ changeFee }) => {
               setHover(false);
             }}
           >
-            <span className={styles.sub}>Artificial Intelligence & ML Program</span>
-            <span className={styles.Price}>₹95,000 + GST</span>
-            <span className={styles.PFeatures}>300+ Hours</span>
-            <span className={styles.PFeatures}>Tech Professionals</span>
-            <span className={styles.PFeatures}>8+</span>
-            <span className={styles.PFeatures}>15+2</span>
-            <span className={styles.PFeatures}>18+</span>
+            <span className={styles.sub}>{sub2}</span>
+            <span className={styles.Price}>{Price2}</span>
+            <span className={styles.PFeatures}>{PFeatures21}</span>
+            <span className={styles.PFeatures}>{PFeatures22}</span>
+            <span className={styles.PFeatures}>{PFeatures23}</span>
+            <span className={styles.PFeatures}>{PFeatures24}</span>
+            <span className={styles.PFeatures}>{PFeatures25}</span>
             <span className={styles.PFeatures}>
-              <MdCheckCircle className={styles.check} />
+              {PFeatures26}
             </span>
             <span className={styles.PFeatures}>
-              <RiCloseCircleFill className={styles.cross} />
+              {PFeatures27}
             </span>
-            <span className={styles.PFeatures}>Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc.</span>
+            <span className={styles.PFeatures}>{PFeatures28}</span>
             <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
               <button className={styles.outButton} onClick={popupShow}>
-                Enrol Now
+                Enroll Now
               </button>
             </span>
           </div>
@@ -131,20 +163,20 @@ const Fee = ({ changeFee }) => {
               setHover(false);
             }}
           >
-            <span className={styles.sub}>Data Science & AI 100% Job Guarantee</span>
-            <span className={styles.Price}>₹1,25,000 + GST</span>
-            <span className={styles.PFeatures}>400+ Hours</span>
-            <span className={styles.PFeatures}>Tech/Non-Tech Professionals</span>
-            <span className={styles.PFeatures}>All</span>
-            <span className={styles.PFeatures}>15+3</span>
-            <span className={styles.PFeatures}>18+</span>
+            <span className={styles.sub}>{sub3}</span>
+            <span className={styles.Price}>{Price3}</span>
+            <span className={styles.PFeatures}>{PFeatures31}</span>
+            <span className={styles.PFeatures}>{PFeatures32}</span>
+            <span className={styles.PFeatures}>{PFeatures33}</span>
+            <span className={styles.PFeatures}>{PFeatures34}</span>
+            <span className={styles.PFeatures}>{PFeatures35}</span>
             <span className={styles.PFeatures}>
-              <MdCheckCircle className={styles.check} />
+              {PFeatures36}
             </span>
             <span className={styles.PFeatures}>
-              <MdCheckCircle className={styles.check} />
+              {PFeatures37}
             </span>
-            <span className={styles.PFeatures}>Project Manager, Team Lead, Project Lead, Project Head, Etc.</span>
+            <span className={styles.PFeatures}>{PFeatures38}</span>
             <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
               <button className={styles.outButton} onClick={popupShow}>
                 Enrol Now
@@ -172,20 +204,20 @@ const Fee = ({ changeFee }) => {
           </div>
 
           <div className={hover ? styles.fourth : styles.third}>
-          <span className={styles.sub}>Data Science and AI Foundation Program</span>
-            <span className={styles.Price}>₹65,000 + GST</span>
-            <span className={styles.PFeatures}> 225+ Hours</span>
-            <span className={styles.PFeatures}> Early Professionals</span>
-            <span className={styles.PFeatures}>NA</span>
-            <span className={styles.PFeatures}>8+1</span>
-            <span className={styles.PFeatures}>10+</span>
-            <span className={styles.PFeatures}>
-              <MdCheckCircle className={styles.check} />
+          <span className={styles.sub}>{sub1}</span>
+            <span className={styles.Price}>{Price1}</span>
+            <span className={styles.PFeatures}>{PFeatures11}</span>
+            <span className={styles.PFeatures}>{PFeatures12}</span>
+            <span className={styles.PFeatures}>{PFeatures13}</span>
+            <span className={styles.PFeatures}>{PFeatures14}</span>
+            <span className={styles.PFeatures}>{PFeatures15}</span>
+            <span className={styles.PFeatures}>{PFeatures16}
+              
             </span>
-            <span className={styles.PFeatures}>
-              <RiCloseCircleFill className={styles.cross} />
+            <span className={styles.PFeatures}>{PFeatures17}
+              
             </span>
-            <span className={styles.PFeatures}>Data Analyst, Jr. Data Scientist, Data Associate, Etc.</span>
+            <span className={styles.PFeatures}>{PFeatures18}</span>
             <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
               <button className={styles.button} onClick={popupShow}>
                 Enrol Now
@@ -201,20 +233,20 @@ const Fee = ({ changeFee }) => {
               setHover(false);
             }}
           >
-            <span className={styles.sub}>Artificial Intelligence & ML Program</span>
-            <span className={styles.Price}>₹95,000 + GST</span>
-            <span className={styles.PFeatures}>300+ Hours</span>
-            <span className={styles.PFeatures}>Tech Professionals</span>
-            <span className={styles.PFeatures}>8+</span>
-            <span className={styles.PFeatures}>15+2</span>
-            <span className={styles.PFeatures}>18+</span>
+            <span className={styles.sub}>{sub2}</span>
+            <span className={styles.Price}>{Price2}</span>
+            <span className={styles.PFeatures}>{PFeatures21}</span>
+            <span className={styles.PFeatures}>{PFeatures22}</span>
+            <span className={styles.PFeatures}>{PFeatures23}</span>
+            <span className={styles.PFeatures}>{PFeatures24}</span>
+            <span className={styles.PFeatures}>{PFeatures25}</span>
             <span className={styles.PFeatures}>
-              <MdCheckCircle className={styles.check} />
+              {PFeatures26}
             </span>
             <span className={styles.PFeatures}>
-              <RiCloseCircleFill className={styles.cross} />
+              {PFeatures27}
             </span>
-            <span className={styles.PFeatures}>Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc.</span>
+            <span className={styles.PFeatures}>{PFeatures28}</span>
             <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
               <button className={styles.outButton} onClick={popupShow}>
                 Enrol Now
@@ -230,20 +262,20 @@ const Fee = ({ changeFee }) => {
               setHover(false);
             }}
           >
-            <span className={styles.sub}>Data Science & AI 100% Job Guarantee</span>
-            <span className={styles.Price}>₹1,25,000 + GST</span>
-            <span className={styles.PFeatures}>400+ Hours</span>
-            <span className={styles.PFeatures}>Tech/Non-Tech Professionals</span>
-            <span className={styles.PFeatures}>All</span>
-            <span className={styles.PFeatures}>15+3</span>
-            <span className={styles.PFeatures}>18+</span>
+            <span className={styles.sub}>{sub3}</span>
+            <span className={styles.Price}>{Price3}</span>
+            <span className={styles.PFeatures}>{PFeatures31}</span>
+            <span className={styles.PFeatures}>{PFeatures32}</span>
+            <span className={styles.PFeatures}>{PFeatures33}</span>
+            <span className={styles.PFeatures}>{PFeatures34}</span>
+            <span className={styles.PFeatures}>{PFeatures35}</span>
             <span className={styles.PFeatures}>
-              <MdCheckCircle className={styles.check} />
+              {PFeatures36}
             </span>
             <span className={styles.PFeatures}>
-              <MdCheckCircle className={styles.check} />
+              {PFeatures37}
             </span>
-            <span className={styles.PFeatures}>Project Manager, Team Lead, Project Lead, Project Head, Etc.</span>
+            <span className={styles.PFeatures}>{PFeatures38}</span>
             <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
               <button className={styles.outButton} onClick={popupShow}>
                 Enrol Now

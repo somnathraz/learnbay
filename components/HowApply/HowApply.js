@@ -4,7 +4,9 @@ import styles from "./HowApply.module.css";
 import { BiCheckCircle } from "react-icons/bi";
 
 
-function HowApply() {
+const HowApply = ({
+  CCourse,
+}) => {
   return (
     <section className={styles.HowApply}>
         <h4>How to Apply Steps</h4>
@@ -31,7 +33,7 @@ function HowApply() {
             height="50px"
           />
                 <p className={styles.pBotC}>Step 2 : <b>Get Enrolled</b></p>
-                <p className={styles.pBotC}>Enroll in AI and ML Program with domain specialization.</p>
+                <p className={styles.pBotC}>{CCourse}</p>
             </div>
             <div className={styles.HowApplyInner}>
             <Image

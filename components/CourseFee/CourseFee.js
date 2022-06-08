@@ -7,7 +7,16 @@ import { BiTimeFive, BiBookOpen } from "react-icons/bi";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 
-function CourseFee() {
+const CourseFee = ({
+  CourseFeeHead,
+  CourseFeePara,
+  CourseFeelist1,
+  CourseFeelist2,
+  CourseFeelist3,
+  CourseFeelist4,
+  CourseFeelist5,
+
+}) => {
     const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -25,17 +34,17 @@ function CourseFee() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-        <h4 style={{ marginBottom: "30px" }}>Artificial Intelligence & ML Course Fee</h4>
+        <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>
         <div className={styles.CourseFee}>
             <div className={styles.heading}>
-                <p className={styles.phead}>Online Classroom</p>
+                <p className={styles.phead}>{CourseFeePara}</p>
             </div>
             <div className={styles.listcheck}>
-                <p className={styles.list}><BiCheck className={styles.icon} />Online interactive classes</p>
-                <p className={styles.list}><BiCheck className={styles.icon} />Weekend and weekdays batches</p>
-                <p className={styles.list}><BiCheck className={styles.icon} />Extra doubt clearance sessions</p>
-                <p className={styles.list}><BiCheck className={styles.icon} />Multiple domain selection options</p>
-                <p className={styles.list}><BiCheck className={styles.icon} />Company-based mock interviews</p>
+                <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist1}</p>
+                <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist2}</p>
+                <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist3}</p>
+                <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist4}</p>
+                <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist5}</p>
             </div>
             <div className={styles.batch}>
                 <div className={styles.BatchDetailsTop}>

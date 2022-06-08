@@ -46,6 +46,7 @@
     grid-template-columns: 82% 18%;
     background: #F8FAFD;
     padding: 10px 20px;
+    height: 125px !important;
 }
 
 .number1 {
@@ -73,8 +74,9 @@
     display: grid;
     align-items: center;
     grid-template-columns: 82% 18%;
-    background: F8FAFD;
+    background: #F8FAFD;
     padding: 10px 20px;
+    height: 125px !important;
 }
 
 .number2 {
@@ -104,6 +106,7 @@
     grid-template-columns: 82% 18%;
     background: #F8FAFD;
     padding: 10px 20px;
+    height: 125px !important;
 }
 
 .number3 {
@@ -133,6 +136,7 @@
     grid-template-columns: 82% 18%;
     background: #F8FAFD;
     padding: 10px 20px;
+    height: 125px !important;
 }
 
 .number4 {
@@ -162,6 +166,7 @@
     grid-template-columns: 82% 18%;
     background: #F8FAFD;
     padding: 10px 20px;
+    height: 125px !important;
 }
 
 .number5 {
@@ -191,6 +196,7 @@
     grid-template-columns: 82% 18%;
     background: #F8FAFD;
     padding: 10px 20px;
+    height: 125px !important;
 }
 
 .number6 {

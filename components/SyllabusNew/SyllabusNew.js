@@ -5,16 +5,22 @@ import styles from "./SyllabusNew.module.css";
 import { BsClock } from "react-icons/bs";
 import { FiCheck } from "react-icons/fi";
 
-
-
-function SyllabusNew() {
+const SyllabusNew = ({ HoursSyllabus, HoursSyllabusText, Projects, ProjectsText, Sessions,
+     SessionsText, JobSessionsText, JobSessions, Modules, ModulesText,
+     syllabush1, syllabusb1, SyllabusBotlist11, SyllabusBotlist12, SyllabusBotlist13, SyllabusBotlist14, SyllabusBotlist15, SyllabusBotlist16,
+     syllabush2, syllabusb2, SyllabusBotlist21, SyllabusBotlist22, SyllabusBotlist23, SyllabusBotlist24, SyllabusBotlist25, SyllabusBotlist26,
+     syllabush3, syllabusb3, SyllabusBotlist31, SyllabusBotlist32, SyllabusBotlist33, SyllabusBotlist34, SyllabusBotlist35, SyllabusBotlist36,
+     syllabush4, syllabusb4, SyllabusBotlist41, SyllabusBotlist42, SyllabusBotlist43, SyllabusBotlist44, SyllabusBotlist45, SyllabusBotlist46,
+     syllabush5, syllabusb5, SyllabusBotlist51, SyllabusBotlist52, SyllabusBotlist53, SyllabusBotlist54, SyllabusBotlist55, SyllabusBotlist56,
+     syllabush6, syllabusb6, SyllabusBotlist61, SyllabusBotlist62, SyllabusBotlist63, SyllabusBotlist64, SyllabusBotlist65, SyllabusBotlist66,
+}) => {
   return (
     <section className={styles.SyllabusNew}>
         <h4 style={{ marginBottom: "30px", textAlign:"center" }}>Course Syllabus</h4>
         <div className={styles.SyllabusTop}>
             <div className={styles.TopInner}>
                 <CountUp
-                    end={300}
+                    end={HoursSyllabus}
                     delay={2}
                     duration={2}
                     suffix="+"
@@ -22,11 +28,11 @@ function SyllabusNew() {
                     [styles.textStyle]
                 }
                 />
-                <p>Hours Syllabus</p>
+                <p>{HoursSyllabusText}</p>
             </div>
             <div className={styles.TopInner}>
                 <CountUp
-                    end={15}
+                    end={Projects}
                     delay={2}
                     duration={2}
                     suffix="+"
@@ -34,23 +40,11 @@ function SyllabusNew() {
                     [styles.textStyle]
                 }
                 />
-                <p>AI & ML Projects</p>
+                <p>{ProjectsText}</p>
             </div>
             <div className={styles.TopInner}>
                 <CountUp
-                    end={10}
-                    delay={2}
-                    duration={2}
-                    suffix="+"
-                    className={
-                    [styles.textStyle]
-                }
-                />
-                <p>Live Learning Sessions</p>
-            </div>
-            <div className={styles.TopInner}>
-                <CountUp
-                    end={97}
+                    end={Sessions}
                     delay={2}
                     duration={2}
                     suffix="%"
@@ -58,11 +52,23 @@ function SyllabusNew() {
                     [styles.textStyle]
                 }
                 />
-                <p>Job Oriented Sessions</p>
+                <p>{SessionsText}</p>
             </div>
             <div className={styles.TopInner}>
                 <CountUp
-                    end={18}
+                    end={JobSessions}
+                    delay={4}
+                    duration={2}
+                    suffix="+"
+                    className={
+                    [styles.textStyle]
+                }
+                />
+                <p>{JobSessionsText}</p>
+            </div>
+            <div className={styles.TopInner}>
+                <CountUp
+                    end={Modules}
                     delay={2}
                     duration={2}
                     suffix="+"
@@ -70,59 +76,59 @@ function SyllabusNew() {
                     [styles.textStyle]
                 }
                 />
-                <p>Tools & Modules</p>
+                <p>{ModulesText}</p>
             </div>
         </div>
         <div className={styles.SyllabusBot}>
             <div className={styles.SyllabusBot1}>
                 <div className={styles.SyllabusBot11}>
                     <div>
-                    <p className={styles.syllabush}>Pre-Preparatory Classes <br /> (Programming + Maths)</p>
-                    <p className={styles.syllabusb}><BsClock className={styles.bIcons} />6 Hours</p>
+                    <p className={styles.syllabush}>{syllabush1}</p>
+                    <p className={styles.syllabusb}><BsClock className={styles.bIcons} />{syllabusb1}</p>
                     </div>
                     <div className={styles.number1}>1</div>
                 </div>
                 <div className={styles.SyllabusBotlist}>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Anaconda Installation</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Basics of programming</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Memory Management</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Compiler and Interpreter</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Syntax of Python</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Basics of Statistics</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist11}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist12}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist13}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist14}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist15}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist16}</p>
                 </div>
             </div>
             <div className={styles.SyllabusBot2}>
                 <div className={styles.SyllabusBot22}>
                     <div>
-                    <p className={styles.syllabush}>Python Programming <br /> (Basic + Advance)</p>
-                    <p className={styles.syllabusb}><BsClock className={styles.bIcons} />40 Hours</p>
+                    <p className={styles.syllabush}>{syllabush2}</p>
+                    <p className={styles.syllabusb}><BsClock className={styles.bIcons} />{syllabusb2}</p>
                     </div>
                     <div className={styles.number2}>2</div>
                 </div>
                 <div className={styles.SyllabusBotlist}>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Git and GitHub</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Operators + Data Types + Loops</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Functions + Regular Expression</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Conditional Statement</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />File & Exceptional Handling</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Numpy, Pandas, Matplotlib, etc</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist21}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist22}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist23}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist24}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist25}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist26}</p>
                 </div>
             </div>
             <div className={styles.SyllabusBot3}>
                 <div className={styles.SyllabusBot33}>
                     <div>
-                    <p className={styles.syllabush}>Statistics and <br /> Machine Learning</p>
-                    <p className={styles.syllabusb}><BsClock className={styles.bIcons} />70 Hours</p>
+                    <p className={styles.syllabush}>{syllabush3}</p>
+                    <p className={styles.syllabusb}><BsClock className={styles.bIcons} />{syllabusb3}</p>
                     </div>
                     <div className={styles.number3}>3</div>
                 </div>
                 <div className={styles.SyllabusBotlist}>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Linear Algebra, Probability</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Permutation & Combination</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Descriptive & Inferential Stats</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Hypothesis Testing</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Time Series Analysis</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />ML Algorithms</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist31}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist32}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist33}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist34}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist35}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist36}</p>
                 </div>
             </div>
         </div>
@@ -130,52 +136,52 @@ function SyllabusNew() {
             <div className={styles.SyllabusBot4}>
                 <div className={styles.SyllabusBot44}>
                     <div>
-                    <p className={styles.syllabush}>Industrial Projects & <br />Capstone Projects</p>
-                    <p className={styles.syllabusb}><BsClock className={styles.bIcons} />15+ Classes</p>
+                    <p className={styles.syllabush}>{syllabush4}</p>
+                    <p className={styles.syllabusb}><BsClock className={styles.bIcons} />{syllabusb4}</p>
                     </div>
                     <div className={styles.number4}>4</div>
                 </div>
                 <div className={styles.SyllabusBotlist}>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Text Classification</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Human Activity Recognition</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Forecasting Business KPI's</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Credit Risk Analysis</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Customer Churn Prediction</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Sentiment Analysis</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist41}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist42}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist43}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist44}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist45}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist46}</p>
                 </div>
             </div>
             <div className={styles.SyllabusBot5}>
                 <div className={styles.SyllabusBot55}>
                     <div>
-                    <p className={styles.syllabush}>AI &<br />ML Tools</p>
-                    <p className={styles.syllabusb}><BsClock className={styles.bIcons} />204 Hours</p>
+                    <p className={styles.syllabush}>{syllabush5}</p>
+                    <p className={styles.syllabusb}><BsClock className={styles.bIcons} />{syllabusb5}</p>
                     </div>
                     <div className={styles.number5}>5</div>
                 </div>
                 <div className={styles.SyllabusBotlist}>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />SQL + MongoDB</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Tableau + PowerBI</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />DL + NLP + CV + RL</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Big Data Analytics</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Deployment (AWS + GCP)</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Data Structure & Algorithm</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist51}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist52}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist53}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist54}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist55}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist56}</p>
                 </div>
             </div>
             <div className={styles.SyllabusBot6}>
                 <div className={styles.SyllabusBot66}>
                     <div>
-                    <p className={styles.syllabush}>Job Orientation<br />(Interview Prep)</p>
-                    <p className={styles.syllabusb}><BsClock className={styles.bIcons} />10+ Classes</p>
+                    <p className={styles.syllabush}>{syllabush6}</p>
+                    <p className={styles.syllabusb}><BsClock className={styles.bIcons} />{syllabusb6}</p>
                     </div>
                     <div className={styles.number6}>6</div>
                 </div>
                 <div className={styles.SyllabusBotlist}>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Resume Built-Up Session</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />1 -1 Mock Interviews</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Job Referrals</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />LinkedIn Profile Building</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Alumni Portal Access</p>
-                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />Target Top MNCs & Startups</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist61}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist62}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist63}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist64}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist65}</p>
+                    <p className={styles.SyllabusBotlistp}><FiCheck className={styles.bIcons} />{SyllabusBotlist66}</p>
                 </div>
             </div>
         </div>

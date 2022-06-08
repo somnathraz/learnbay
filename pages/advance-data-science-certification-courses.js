@@ -7,7 +7,7 @@ import GetHired from "../Components/GetHired/GetHired";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/Certificatejob/Certificate";
+import Certificate from "../Components/CertificateTab/CertificateTabAdvance";
 import Project from "../Components/Project/Project";
 import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
@@ -15,9 +15,11 @@ import HowApply from "../Components/HowApply/HowApply";
 import ReferSection from "../Components/ReferSection/ReferSection";
 import CourseFee from "../Components/CourseFee/CourseFee";
 import SyllabusNew from "../Components/SyllabusNew/SyllabusNew";
+import OtherCertificate from "../Components/OtherCertificate/OtherCertificate";
 import CareerImpact from "../Components/CareerImpact/CareerImpact";
+import Domain from "../Components/Domain/Domain";
 import Fee from "../Components/Fee/Fee";
-import SkillsCovered from "../Components/SkillsCovered6/SkillsCovered";
+import SkillsCovered from "../Components/SkillsCovered/SkillsCovered";
 import FAQNew from "../Components/FAQNew/FAQNew";
 import React, { useState } from "react";
  
@@ -46,50 +48,46 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="Exclusive Industrial Project-based Training"
-        mTopPara="Exclusive Industrial Project-based Training"
-        title="Data Science and AI"
-        spanTitleText="Foundation Course"
-        desc="
-        Learnbay offers Industry Accredited Data Science Certification Course.This foundation program is suitable for professionals having more than 1+ years of work experience in any programming or non programming domain."
+        deskTopPara="Industry- Specific Capstone Certified by IBM"
+        mTopPara="Industry- Specific Capstone Certified by IBM"
+        title="Advanced DS and AI Course"
+        spanTitleText="with Domain Specialization"
+        desc="Learnbay offers Industry Accredited Data Science Certification Course with DOMAIN ELECTIVE Option.This foundation program is suitable for professionals having more than 1+ years of work experience in any programming or non programming domain."
         src="/banner.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>
         <ProgramInfo
         p1="Aimed for"
-        p11="Early-stage professionals"
-        p2="18LPA to 28LPA"
+        p11="Working Professionals"
+        p2="50LPA-60LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
         p4="No Cost EMI"
-        p44="₹ 8.5k/month (9 Months)"
+        p44="₹ 10k/month (9 Months)"
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Specially devised for early professionals"
-        WeekendBatchDate="
-        Specially devised for early professionals"
-        // WeekdayTime="Monday – Friday – 2 hours every day"
-        // WeekendTime="Saturday & Sunday – 3.5 hours every day"
-        Project="Basic coding class for Non-technical beginners"
-        Classes="Industry curated training via real-world cases and capstones"
-        OneLine="Career guidance from industrial experts"
+        WeekdayBatchDate="6 Unique IBM certifications on course completion."
+        WeekendBatchDate="Domain-Oriented Full Stack Learning."
+        Project="250+ Employer-Alliance & 100% Interview Guarantee."
+        Classes="Cutting edge Industry curated Training."
+        OneLine="Specially devised for experienced working pros."
         Interview="250+ employer-Alliance 100% Interview Guarantee"
-        Fee="₹65,000"
+        Fee="79,000"
       />
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
           Box1h5="Custom-fit Training"
-          box1desc="Get specially designed modules as per your dream DS role. Learn trending AI applications."
-          Box2h5="Exclusive Hackathons"
-          box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by learnbay experts."
+          box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
+          Box2h5="Domain Focused"
+          box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 7+ electives."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy the edge of mock interviews and CV writing workshops with FAANG DS/AI whizzes."
+          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with FAANG expertise."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from starters, directly from relevant establishments."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
       </div>
       <CareerImpact
@@ -103,18 +101,23 @@ export default function Home() {
           <OurExpert />
         </div>
       </div>
-      <Certificate
-        title="Course Completion Certificate from IBM"
-        desc="Complete your training with the internationally recognized certificate."
-        desc2 ="Validate your Data Science and AI skills with IBM Course Completion Certificate."
-        desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
+      <Certificate />
+      <OtherCertificate
+          OCHead1="Python for Data Science Certificate"
+          OCP1="Get certified on your advanced python skills."
+          OCHead2="Data Science Tools"
+          OCP2="Certification to DS Tools handling -Jupyter, Tableau,etc."
+          OCHead3="Machine Learning with Python"
+          OCP3="Validate your python expertise for ML algo designing."
+          OCHead4="Data Science Methodology"
+          OCP4="Be certified expert of applying variable DS methodologies."
       />
       <section className={styles.HiringPartner}>
         <div>
         <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
         <span className={styles.HiringPartnerB}>
           <Image
-            src="/hiring-1.png"
+            src="/hiring-2.jpg"
             alt="Certificate"
             quality={100}
             layout="intrinsic"
@@ -125,15 +128,15 @@ export default function Home() {
         </div>
     </section>
     <SyllabusNew
-    HoursSyllabus="225"
+    HoursSyllabus="275"
     HoursSyllabusText="Hours Syllabus"
-    Projects="8"
+    Projects="12"
     ProjectsText="DS & AI Projects"
     Sessions="100"
     SessionsText="Live Learning Sessions"
-    JobSessions="4"
+    JobSessions="8"
     JobSessionsText="Job Oriented Sessions"
-    Modules="10"
+    Modules="15"
     ModulesText="Tools & Modules"
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
@@ -161,25 +164,26 @@ export default function Home() {
     SyllabusBotlist36="ML Algorithms"
     syllabush4="Industrial Projects &
     Capstone Projects"
-    syllabusb4="6+ Classes"
-    SyllabusBotlist41="Review Classification Mode"
-    SyllabusBotlist42="Build a Logistic Regression Model"
-    SyllabusBotlist43="Forecasting Business KPI’s"
+    syllabusb4="
+    12+ Classes"
+    SyllabusBotlist41="Text Classification"
+    SyllabusBotlist42="Human Activity Recognition"
+    SyllabusBotlist43="Forecasting Business KPI's"
     SyllabusBotlist44="Credit Risk Analysis"
-    SyllabusBotlist45="Sentiment Analysis"
-    SyllabusBotlist46="Loan Eligibility Prediction"
+    SyllabusBotlist45="Customer Churn Prediction"
+    SyllabusBotlist46="Sentiment Analysis"
     syllabush5="Data Science &
     AI Tools"
-    syllabusb5="116+ Hours"
+    syllabusb5="184+ Hours"
     SyllabusBotlist51="Advance Excel"
     SyllabusBotlist52="SQL + MongoDB"
-    SyllabusBotlist53="Tableau"
-    SyllabusBotlist54="PowerBI"
-    SyllabusBotlist55="Big Data & Spark Analytics"
-    SyllabusBotlist56="Time Series"
+    SyllabusBotlist53="Tableau + PowerBI"
+    SyllabusBotlist54="Deep Learning + NLP"
+    SyllabusBotlist55="Big Data + Business Analytics"
+    SyllabusBotlist56="Deployment (AWS + GCP)"
     syllabush6="Job Orientation
     (Interview Prep)"
-    syllabusb6="4+ Classes"
+    syllabusb6="8+ Classes"
     SyllabusBotlist61="Resume Built-Up Session"
     SyllabusBotlist62="1-1 Mock Interviews"
     SyllabusBotlist63="Job Referrals"
@@ -188,25 +192,32 @@ export default function Home() {
     SyllabusBotlist66="Target Top MNCs & Startups"
     />
       <ToolsCovered 
-      src="/tools-1.png"
+      src="/tools-2.png"
       />
       <SkillsCovered
       sc11="Data Collection"
       sc12="Data Understanding"
       sc13="Data Cleaning"
       sc14="Data Munging"
-      sc21="Data Preprocessing"
-      sc22="Data Analysis"
-      sc23="Statistical Analysis"
-      sc24="Dashboard and Storytelling"
+      sc15="Data Warehousing"
+      sc16="Domain Expertise"
+      sc21="Data Exploration"
+      sc22="Data Preprocessing"
+      sc23="Data Analysis"
+      sc24="Statistical Analysis"
+      sc25="PCA Analysis"
+      sc26="Dashboard and Storytelling"
       sc31="Feature Engineering"
-      sc32="Model Creation"
-      sc33="Model Deployment"
-      sc34="and more..."
+      sc32="Hyper Parameter Tuning"
+      sc33="Model Creation"
+      sc34="Model Deployment"
+      sc35="Critical Thinking"
+      sc36="Function & Formulas"
       />
+      <Domain />
       <div className={styles.ProjectWrapper} id="project">
         <Project
-        project="8+"
+        project="12+"
         domain="10+"
         />
       </div>
@@ -221,7 +232,7 @@ export default function Home() {
         </div>
       </div>
       <HowApply
-      CCourse="Enroll in Data Science & AI Foundation Program."
+      CCourse="Enroll in Advanced Data Science & AI Program with domain specialization."
       />
       <Fee
         sub1="Data Science and AI Foundation Program"
@@ -258,12 +269,12 @@ export default function Home() {
         PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
       />
       <CourseFee 
-      CourseFeeHead="Data Science Course Fees"
+      CourseFeeHead="Advanced Data Science & AI Course Fees"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online interactive classes"
       CourseFeelist2="Weekend and weekdays batch"
-      CourseFeelist3="Extra clearance sessions"
-      CourseFeelist4="Project-Based Learning"
+      CourseFeelist3="Extra doubt clearance sessions"
+      CourseFeelist4="Multiple domain selection options"
       CourseFeelist5="Company-based mock interviews"
 
       />

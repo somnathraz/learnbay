@@ -2,28 +2,37 @@ import React from 'react'
 import styles from "./OtherCertificate.module.css";
 
 
-function OtherCertificate() {
+const OtherCertificate = ({
+    OCHead1,
+    OCP1,
+    OCHead2,
+    OCP2,
+    OCHead3,
+    OCP3,
+    OCHead4,
+    OCP4,
+  }) => {
   return (
     <section className={styles.OtherCertificate}>
           <h4>Other Certificate</h4>
         <div className={styles.OtherCertificatediv}>
             <div className={styles.OtherCertificateInner}>
-                <p className={styles.heading}>Deep Learning Fundamentals</p>
-                <p className={styles.para}>Earn industrial badge on neural networks, and convolutional networks like DL skills.</p>
+                <p className={styles.heading}>{OCHead1}</p>
+                <p className={styles.para}>{OCP1}</p>
             </div>
             <div className={styles.OtherCertificateInner}>
-                <p className={styles.heading}>Deep Learning with TensorFlow</p>
-                <p className={styles.para}>Get certified for your Industrial-level TensorFlow application expertise.</p>
+                <p className={styles.heading}>{OCHead2}</p>
+                <p className={styles.para}>{OCP2}</p>
             </div>
         </div>
         <div className={styles.OtherCertificatediv}>
             <div className={styles.OtherCertificateInner}>
-                <p className={styles.heading}>Machine Learning with Python</p>
-                <p className={styles.para}>Validate your python expertise for ML algo designing.</p>
+                <p className={styles.heading}>{OCHead3}</p>
+                <p className={styles.para}>{OCP3}</p>
             </div>
             <div className={styles.OtherCertificateInner}>
-                <p className={styles.heading}>Accelerating Deep Learning with GPUs</p>
-                <p className={styles.para}>Industrial badge on GPU handling mastery for Cloud, AI & ML.</p>
+                <p className={styles.heading}>{OCHead4}</p>
+                <p className={styles.para}>{OCP4}</p>
             </div>
         </div>
     </section>

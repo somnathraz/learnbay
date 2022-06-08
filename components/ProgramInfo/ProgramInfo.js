@@ -1,25 +1,25 @@
 import styles from "./ProgramInfo.module.css";
 import React from "react";
 
-const ProgramInfo = ({ BatchDate, BatchDuration, Placement, EMI }) => {
+const ProgramInfo = ({ p1, p2, p3, p4, p11, p22, p33, p44 }) => {
   return (
     <div className={styles.feature}>
       <div className={styles.container}>
         <div className={styles.left}>
-          <p>Eligibility</p>
-          <h5>{BatchDate}</h5>
+          <p>{p1}</p>
+          <h5>{p11}</h5>
         </div>
         <div className={styles.middle}>
-          <p>Certification</p>
-          <h5>{BatchDuration}</h5>
+          <p>{p2}</p>
+          <h5>{p22}</h5>
         </div>
         <div className={styles.right}>
-          <p>Projects</p>
-          <h5>{Placement}</h5>
+          <p>{p3}</p>
+          <h5>{p33}</h5>
         </div>
         <div className={styles.rightr}>
-          <p>No Cost EMI</p>
-          <h5>{EMI}</h5>
+          <p>{p4}</p>
+          <h5>{p44}</h5>
         </div>
       </div>
     </div>

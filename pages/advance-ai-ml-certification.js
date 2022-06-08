@@ -11,7 +11,7 @@ import Form from "../Components/Form/Form";
 import Certificate from "../Components/CertificateTab/CertificateTab";
 import OtherCertificate from "../Components/OtherCertificate/OtherCertificate";
 import Project from "../Components/Project/Project";
-import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
+import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import HowApply from "../Components/HowApply/HowApply";
 import ReferSection from "../Components/ReferSection/ReferSection";
@@ -22,7 +22,7 @@ import Fee from "../Components/Fee/Fee";
 import SkillsCovered from "../Components/SkillsCovered/SkillsCovered";
 import FAQNew from "../Components/FAQNew/FAQNew";
 import React, { useState } from "react";
-
+ 
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -54,7 +54,7 @@ export default function Home() {
         spanTitleText="For Top Product based MNC And Startup"
         desc="
         AI Certification Course is designed with Domain Electives and Project Expertise for working professionals having 4+ years of experience in core tech and programming domain."
-        src="/AiMl.webp"
+        src="/banner-g.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>
@@ -100,15 +100,17 @@ export default function Home() {
           <OurExpert />
         </div>
       </div>
-      <Certificate
-        popupHead="Download Full stack Brochure"
-        title="Earn a globally recognized Certified at the end of your learning journey."
-        desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
-        desc2 ="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
-        desc3 ="Data Science Leads from IBM as instructors."
-
+      <Certificate/>
+      <OtherCertificate 
+      OCHead1="Deep Learning Fundamentals"
+      OCP1="Earn industrial badge on neural networks, and convolutional networks like DL skills."
+      OCHead2="Deep Learning with TensorFlow"
+      OCP2="Get certified for your Industrial-level TensorFlow application expertise."
+      OCHead3="Machine Learning with Python"
+      OCP3="Validate your python expertise for ML algo designing."
+      OCHead4="Accelerating Deep Learning with GPUs"
+      OCP4="Industrial badge on GPU handling mastery for Cloud, AI & ML."
       />
-      <OtherCertificate />
       <section className={styles.HiringPartner}>
         <div>
         <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
@@ -125,7 +127,9 @@ export default function Home() {
         </div>
     </section>
     <SyllabusNew />
-      <ToolsCovered />
+      <ToolsCovered 
+      src="/job-tools-9-april.webp"
+      />
       <SkillsCovered />
       <Domain />
       <div className={styles.ProjectWrapper} id="project">
@@ -141,7 +145,9 @@ export default function Home() {
           <button onClick={popupShow}>Enquire Now</button>
         </div>
       </div>
-      <HowApply />
+      <HowApply
+      CCourse="Enroll in AI and ML Program with domain specialization."
+      />
       <Fee />
       <CourseFee />
       <ReferSection />

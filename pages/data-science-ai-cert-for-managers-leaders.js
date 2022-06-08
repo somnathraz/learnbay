@@ -9,8 +9,8 @@ import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Certificate from "../Components/Certificate/Certificate";
 import Project from "../Components/Project/Project";
-import Syllabus from "../Components/SyllabusManagers/Syllabus";
-import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
+import Syllabus from "../Components/SyllabusNew/SyllabusNew";
+import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import React, { useState } from "react";
 

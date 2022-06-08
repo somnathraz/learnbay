@@ -18,7 +18,11 @@ import { FiCheckSquare } from "react-icons/fi";
 
 
 
-const Project = ({ ChangeProject }) => {
+const Project = ({
+  ChangeProject,
+  project,
+  domain,
+}) => {
   // const [isMoved, setIsMoved] = useState(false);
   const [slideNumber, setSlideNumber] = useState(0);
   const [device, setDevice] = useState();
@@ -96,14 +100,14 @@ const Project = ({ ChangeProject }) => {
         </div>
         <div className={styles.right}>
           <div className={styles.red}>
-            <h3>12+</h3>
+            <h3>{project}</h3>
             <p>
               Projects <br />
               Available
             </p>
           </div>
           <div className={styles.blue}>
-            <h3>6+</h3>
+            <h3>{domain}</h3>
             <p>
               Domain <br />
               Covered
@@ -569,14 +573,14 @@ const Project = ({ ChangeProject }) => {
         </div>
         <div className={styles.right}>
           <div className={styles.red}>
-            <h3>12+</h3>
+            <h3>{project}</h3>
             <p>
               Projects <br />
               Available
             </p>
           </div>
           <div className={styles.blue}>
-            <h3>10+</h3>
+            <h3>{domain}</h3>
             <p>
               Domain <br />
               Covered

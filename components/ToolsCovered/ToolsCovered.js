@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "./ToolsCovered.module.css";
 
-function ToolsCovered() {
+const ToolsCovered = ({
+  src,
+}) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -16,7 +18,7 @@ function ToolsCovered() {
       <div>
         {mobile ? (
           <Image
-            src="/job-tools-9-april.webp"
+            src={src}
             alt="Learnbay"
             quality={100}
             objectFit="contain"
@@ -25,7 +27,7 @@ function ToolsCovered() {
           />
         ) : (
           <Image
-            src="/job-tools-9-april.webp"
+            src={src}
             alt="Learnbay"
             quality={100}
             objectFit="contain"
