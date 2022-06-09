@@ -4,7 +4,7 @@ import Image from "next/image";
 import { BiCheckCircle } from "react-icons/bi";
 
 
-const Certificate = ({ title, desc, desc2, desc3 }) => {
+const Certificate = ({ title, desc, desc2, desc3, src }) => {
 
   return (
     <section className={styles.Certifcate}>
@@ -18,7 +18,7 @@ const Certificate = ({ title, desc, desc2, desc3 }) => {
       <div className={styles.right}>
         <Image
           className="shadow"
-          src="/basiccertificate.png"
+          src={src}
           alt="Certificate"
           quality={100}
           layout="intrinsic"

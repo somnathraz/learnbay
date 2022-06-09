@@ -33,23 +33,7 @@ function FAQNew({ FaqDatas, DomainFaqDatas, SupportFaqDatas, CertificationFaqDat
           >
             COURSE RELATED
           </span>
-          <span
-            onClick={() => {
-              setViewAll(false);
-              setOneYear(true);
-              setNonTech(false);
-              setManager(false);
-              setGuarantee(false);
-              setJobAssistance(false);
-              setMentorship(false);
-              setSupport(false);
-            }}
-            style={
-              oneYear ? { background: "white" } : { background: "#E5F3FA" }
-            }
-          >
-            DOMAIN ELECTIVES
-          </span>
+          
           <span
             onClick={() => {
               setViewAll(false);

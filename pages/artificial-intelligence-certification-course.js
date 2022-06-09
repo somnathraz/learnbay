@@ -22,6 +22,9 @@ import Fee from "../Components/Fee/Fee";
 import SkillsCovered from "../Components/SkillsCovered/SkillsCovered";
 import FAQNew from "../Components/FAQNew/FAQNew";
 import React, { useState } from "react";
+import { FaqData3, DomainFaqData3, PaymentFaqData3, CapstoneFaqData3, CertificationFaqData3, jobFaqData3, MentorshipFaqData3, SupportFaqData3 } from "../components/FAQ/FaqData";
+
+
  
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -128,15 +131,15 @@ export default function Home() {
         </div>
     </section>
     <SyllabusNew
-    HoursSyllabus="275"
+    HoursSyllabus="300"
     HoursSyllabusText="Hours Syllabus"
-    Projects="12"
-    ProjectsText="DS & AI Projects"
+    Projects="15"
+    ProjectsText="AI & ML Projects"
     Sessions="100"
     SessionsText="Live Learning Sessions"
-    JobSessions="8"
+    JobSessions="10"
     JobSessionsText="Job Oriented Sessions"
-    Modules="15"
+    Modules="18"
     ModulesText="Tools & Modules"
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
@@ -165,25 +168,25 @@ export default function Home() {
     syllabush4="Industrial Projects &
     Capstone Projects"
     syllabusb4="
-    12+ Classes"
+    15+ Classes"
     SyllabusBotlist41="Text Classification"
     SyllabusBotlist42="Human Activity Recognition"
     SyllabusBotlist43="Forecasting Business KPI's"
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
-    syllabush5="Data Science &
-    AI Tools"
-    syllabusb5="184+ Hours"
-    SyllabusBotlist51="Advance Excel"
-    SyllabusBotlist52="SQL + MongoDB"
-    SyllabusBotlist53="Tableau + PowerBI"
-    SyllabusBotlist54="Deep Learning + NLP"
-    SyllabusBotlist55="Big Data + Business Analytics"
-    SyllabusBotlist56="Deployment (AWS + GCP)"
+    syllabush5="AI &
+    ML Tools"
+    syllabusb5="204+ Hours"
+    SyllabusBotlist51="SQL + MongoDB"
+    SyllabusBotlist52="Tableau + PowerBI"
+    SyllabusBotlist53="DL + NLP + CV + RL"
+    SyllabusBotlist54="Big Data Analytics"
+    SyllabusBotlist55="Deployment (AWS + GCP)"
+    SyllabusBotlist56="Data Structure & Algorithm"
     syllabush6="Job Orientation
     (Interview Prep)"
-    syllabusb6="8+ Classes"
+    syllabusb6="10+ Classes"
     SyllabusBotlist61="Resume Built-Up Session"
     SyllabusBotlist62="1-1 Mock Interviews"
     SyllabusBotlist63="Job Referrals"
@@ -217,8 +220,8 @@ export default function Home() {
       <Domain />
       <div className={styles.ProjectWrapper} id="project">
         <Project
-        project="12+"
-        domain="10+"
+        project="15+"
+        domain="7+"
         />
       </div>
       <div className={styles.cta}>
@@ -232,7 +235,7 @@ export default function Home() {
         </div>
       </div>
       <HowApply
-      CCourse="Enroll in Advanced Data Science & AI Program with domain specialization."
+      CCourse="Enroll in AI and ML Program with domain specialization."
       />
       <Fee
         sub1="Data Science and AI Foundation Program"
@@ -245,14 +248,14 @@ export default function Home() {
         PFeatures16="Yes"
         PFeatures17="No"
         PFeatures18="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
-        sub2="Data Science & AI
-        Advance Program"
-        Price2="₹79,000 + GST"
-        PFeatures21=" 275+ Hours"
-        PFeatures22=" Tech/Non-Tech Professionals"
+        sub2="Artificial Intelligence
+        & ML Program"
+        Price2="₹95,000 + GST"
+        PFeatures21="300+ Hours"
+        PFeatures22="Tech Professionals"
         PFeatures23="8+"
-        PFeatures24="12+2"
-        PFeatures25="15+"
+        PFeatures24="15+2"
+        PFeatures25="18+"
         PFeatures26="Yes"
         PFeatures27="No"
         PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
@@ -269,7 +272,7 @@ export default function Home() {
         PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
       />
       <CourseFee 
-      CourseFeeHead="Advanced Data Science & AI Course Fees"
+      CourseFeeHead="Artificial Intelligence & ML Course Fee"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online interactive classes"
       CourseFeelist2="Weekend and weekdays batch"
@@ -279,7 +282,7 @@ export default function Home() {
 
       />
       <ReferSection />
-      <FAQNew />
+      <FAQNew FaqDatas={FaqData3} PaymentFaqDatas={PaymentFaqData3} DomainFaqDatas={DomainFaqData3} CapstoneFaqDatas={CapstoneFaqData3} CertificationFaqDatas={CertificationFaqData3} jobFaqDatas={jobFaqData3} MentorshipFaqDatas={MentorshipFaqData3} SupportFaqDatas={SupportFaqData3} />
       </main> 
     </div>
   )

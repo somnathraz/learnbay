@@ -18,8 +18,10 @@ import SyllabusNew from "../Components/SyllabusNew/SyllabusNew";
 import CareerImpact from "../Components/CareerImpact/CareerImpact";
 import Fee from "../Components/Fee/Fee";
 import SkillsCovered from "../Components/SkillsCovered6/SkillsCovered";
-import FAQNew from "../Components/FAQNew/FAQNew";
+import FAQNew from "../Components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
+import { FaqData1, PaymentFaqData1, CapstoneFaqData1, CertificationFaqData1, jobFaqData1, MentorshipFaqData1, SupportFaqData1 } from "../components/FAQ/FaqData";
+
  
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -108,6 +110,7 @@ export default function Home() {
         desc="Complete your training with the internationally recognized certificate."
         desc2 ="Validate your Data Science and AI skills with IBM Course Completion Certificate."
         desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
+        src="/basiccertificate.png"
       />
       <section className={styles.HiringPartner}>
         <div>
@@ -207,7 +210,7 @@ export default function Home() {
       <div className={styles.ProjectWrapper} id="project">
         <Project
         project="8+"
-        domain="10+"
+        domain="7+"
         />
       </div>
       <div className={styles.cta}>
@@ -268,7 +271,7 @@ export default function Home() {
 
       />
       <ReferSection />
-      <FAQNew />
+      <FAQNew FaqDatas={FaqData1} PaymentFaqDatas={PaymentFaqData1} CapstoneFaqDatas={CapstoneFaqData1} CertificationFaqDatas={CertificationFaqData1} jobFaqDatas={jobFaqData1} MentorshipFaqDatas={MentorshipFaqData1} SupportFaqDatas={SupportFaqData1} />
       </main> 
     </div>
   )

@@ -582,8 +582,9 @@ const Project = ({
           <div className={styles.blue}>
             <h3>{domain}</h3>
             <p>
-              Domain <br />
-              Covered
+              Cities with <br />
+              Hybrid Model
+
             </p>
           </div>
         </div>
