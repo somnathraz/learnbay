@@ -1,0 +1,308 @@
+.CitiesRightHead {
+    margin: 20px 20px;
+}
+
+.CitiesRightSpan {
+    background-color: #F4F4F4;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    padding-left: 10px;
+    position: sticky;
+    top: 70px;
+}
+
+.CitiesRightInner {
+    padding: 0px 10px 20px 10px;
+}
+
+.pHead {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.pp {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    text-align: justify;
+}
+
+.ppa {
+    font-size: 18px;
+    font-weight: 500; 
+    color: #2D9CD7;
+}
+
+.Alumni {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Alumni1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 30px 0px 0px 0px;
+}
+
+.Button {
+    margin: 20px;
+    text-align: center;
+}
+
+.AlumniBot {
+    box-shadow: 0px 0px 5px 0px rgb(40 126 194 / 25%);
+    padding: 10px;
+    margin: 10px;
+}
+
+.AlumniBot img {
+    margin-top: -50px;
+}
+
+
+/* Syllabus */
+.SyllabusBot {
+    display: flex;
+}
+
+.SyllabusBot1 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #8F84BE;
+    box-shadow: 0px 0px 5px 0px rgb(143 132 190 / 40%);
+    margin: 20px 10px 0px 10px;
+    width: 100%;
+}
+
+.SyllabusBot11 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 82% 18%;
+    background: #F8FAFD;
+    padding: 10px 20px;
+    height: 125px !important;
+}
+
+.number1 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    padding: 5px;
+    border-color: #8F84BE;
+    font-size: 26px;
+    text-align: center;
+    color: #8F84BE;
+    margin: 10px;
+}
+
+.SyllabusBot2 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #FCD059;
+    box-shadow: 0px 0px 5px 0px rgb(252 208 89 / 25%);
+    margin: 20px 10px 0px 10px;
+    width: 100%;
+}
+
+.SyllabusBot22 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 82% 18%;
+    background: #F8FAFD;
+    padding: 10px 20px;
+    height: 125px !important;
+}
+
+.number2 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    padding: 5px;
+    border-color: #FCD059;
+    font-size: 26px;
+    text-align: center;
+    color: #FCD059;
+    margin: 10px;
+}
+
+.SyllabusBot3 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #F36B24;
+    box-shadow: 0px 0px 5px 0px rgb(243 107 36 / 25%);
+    margin: 10px 10px 0px 10px;
+    width: 100%;
+}
+
+.SyllabusBot33 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 82% 18%;
+    background: #F8FAFD;
+    padding: 10px 20px;
+    height: 125px !important;
+}
+
+.number3 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    padding: 5px;
+    border-color: #F36B24;
+    font-size: 26px;
+    text-align: center;
+    color: #F36B24;
+    margin: 10px;
+}
+
+.SyllabusBot4 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #31B888;
+    box-shadow: 0px 0px 5px 0px rgb(49 184 136 / 25%);
+    margin: 10px 10px 0px 10px;
+    width: 100%;
+}
+
+.SyllabusBot44 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 82% 18%;
+    background: #F8FAFD;
+    padding: 10px 20px;
+    height: 125px !important;
+}
+
+.number4 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    padding: 5px;
+    border-color: #31B888;
+    font-size: 26px;
+    text-align: center;
+    color: #31B888;
+    margin: 10px;
+}
+
+.syllabush {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.syllabusb {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.bIcons {
+    color: #000;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.SyllabusBotlist {
+    padding: 20px 20px 30px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.SyllabusBotlist p {
+    margin: 0;
+}
+
+.Projects {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.ProjectsBot {
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(40 126 194 / 25%);
+    border-top: 3px solid #2A9CD7;
+}
+
+.ProjectsBotI {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+
+}
+
+.ppp {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    margin: 0px;
+}
+
+.buttonb {
+    text-align: center;
+}
+
+@media (max-width: 481px) {
+
+    .SyllabusBot {
+        display: grid;
+        width: 100%;
+    }
+
+    .SyllabusBot1 {
+        margin: 10px 10px 0px 10px;
+        width: auto;
+    }
+    
+.CitiesRightInner img {
+    width: 100%;
+}
+
+    .SyllabusBot2 {
+        margin: 10px 10px 0px 10px;
+        width: auto;
+    }
+
+    .SyllabusBot3 {
+        margin: 10px 10px 0px 10px;
+        width: auto;
+    }
+
+    .SyllabusBot4 {
+        margin: 10px 10px 0px 10px;
+        width: auto;
+    }
+
+    .SyllabusBot5 {
+        margin: 10px 10px 0px 10px;
+        width: auto;
+    }
+
+    .SyllabusBot6 {
+        margin: 10px 10px 0px 10px;
+        width: auto;
+    }
+    .CitiesRightHead {
+        margin: 0px;
+    }
+    .Projects {
+        display: block;
+    }
+    .Alumni {
+        display: block;
+    }
+    
+    .Alumni1 {
+        display: block;
+    }
+    .AlumniBot {
+        margin: 50px 10px 10px 10px;
+    }
+}

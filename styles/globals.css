@@ -106,6 +106,12 @@ button {
   object-fit: cover;
 }
 
+.MainCities {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 70px 100px;
+}
+
 h4 {
   font-size: 32px;
   margin-bottom: 20px;
@@ -311,5 +317,9 @@ h4 {
     border-right: 2px solid #0d4a9b;
     padding-right: 10px;
     margin: 0;
+  }
+  .MainCities {
+    display: block;
+    margin: 0px;
   }
 }

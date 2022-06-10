@@ -1,0 +1,154 @@
+.Course {
+    padding: 0px 0px;
+    margin:20px;
+  }
+  .Course h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .feature {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .feature p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .tick {
+    font-size: 20px;
+    color: #2d9cd7;
+  }
+  .courses {
+    box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .listPanel {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
+  .listPanel span {
+    padding: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    background-color: #e5f3fa;
+  }
+  .gridPanel {
+    display: block;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 20px;
+    padding: 0px;
+  }
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
+    padding: 20px;
+    width: 100%;
+    margin: 0px 50px 20px 50px; 
+    border-radius: 8px;
+  }
+  .courseImg {
+    width: 397px;
+    height: 150px;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -0px;
+    border-radius: 8px;
+  }
+  .leftSide h6,
+  .middleSide h6,
+  .rightSide h6 {
+    font-size: 18px;
+    margin: 0;
+    margin-right: 130px;
+    margin-top: 10px;
+  
+    color: #2d9cd7;
+  }
+  .leftSide p,
+  .middleSide p,
+  .rightSide p {
+    display: flex;
+    align-items: center;
+  }
+  .checkCircle {
+    margin-right: 15px;
+  }
+  .btnWrapper {
+    display: flex;
+    gap: 10px;
+  }
+  .btnWrapper button {
+    padding: 10px 15px;
+  }
+  @media (max-width: 481px) {
+    .Course {
+      padding: 0px;
+      margin: 0;
+    }
+    .Course h2 {
+      font-size: 21px;
+    }
+    .feature {
+      flex-flow: column;
+      align-items: flex-start;
+      line-height: 1.9em;
+    }
+    .courses {
+      margin: 20px 0px;
+      display: block;
+    }
+    .listPanel {
+      display: flex;
+      width: 100%;
+      flex-flow: nowrap;
+      overflow: auto;
+    }
+    .listPanel {
+      display: grid;
+      width: 100%;
+    }
+    .listPanel span {
+      font-size: 14px;
+      width: 100%;
+      padding: 15px 10px;
+    }
+    .gridPanel {
+      flex-flow: row;
+      overflow: scroll;
+      width: 100%;
+    }
+    .leftSide,
+    .middleSide,
+    .rightSide {
+      width: 90%;
+      margin-left: 5px;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    .courseImg {
+      width: 305px;
+      margin-top: -10px;
+      margin-left: -10px;
+      margin-right: -0px;
+    }
+    .leftSide h6,
+    .middleSide h6,
+    .rightSide h6 {
+      margin-right: 0;
+    }
+    .checkCircle {
+      margin-right: 5px;
+    }
+  }
+  

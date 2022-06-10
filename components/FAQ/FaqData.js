@@ -1281,7 +1281,7 @@ export const FaqData7 = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Business Analytics Program in Bangalore?",
+    ques: "What’s the duration of the Business Analytics Program?",
     ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on Weekdays and Weekend Batches.
@@ -1313,7 +1313,7 @@ export const CertificationFaqData7 = [
 export const PaymentFaqData7 = [
   {
     id: 0,
-    ques: "What is the total fee for the Business Analytics Program in Bangalore?",
+    ques: "What is the total fee for the Business Analytics Program?",
     ans: "The total program fee for the Business Analytics Program is INR 65000 + GST.",
     open: true,
   },
