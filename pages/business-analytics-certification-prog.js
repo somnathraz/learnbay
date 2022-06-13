@@ -75,7 +75,7 @@ export default function Home() {
         Classes="BA industry curated training from MNC experts."
         OneLine="Elementary programming classes for Non-technical pros"
         Interview="Specially devised for early pros or aspirant with career gap"
-        Fee="₹65,000"
+        Fee="65,000"
       />
       <div className="Feature" id="Feature">
         <BoxShape

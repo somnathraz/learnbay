@@ -8,6 +8,7 @@ function CitiesLeft() {
     <section className={styles.CitiesLeftHead}>
         <div className={styles.listOuter}>
         <a href='#Program'><p className={styles.listInner}><FaChevronRight className={styles.RIcon} />About the Program</p></a>
+        <a href='#Domain'><p className={styles.listInner}><FaChevronRight className={styles.RIcon} />Domain Specialization</p></a>
         <a href='#Certification'><p className={styles.listInner}><FaChevronRight className={styles.RIcon} />Certification Details</p></a>
         <a href='#Module'><p className={styles.listInner}><FaChevronRight className={styles.RIcon} />Module Details</p></a>
         <a href='#Job'><p className={styles.listInner}><FaChevronRight className={styles.RIcon} />Job Assist Program </p></a>

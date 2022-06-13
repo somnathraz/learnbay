@@ -75,7 +75,7 @@ export default function Home() {
         Classes="DA industry curated training from MNC experts."
         OneLine="Career guidance from industrial experts"
         Interview="Course Completion Certificate from IBM"
-        Fee="₹60,000"
+        Fee="60,000"
       />
       <div className="Feature" id="Feature">
         <BoxShape

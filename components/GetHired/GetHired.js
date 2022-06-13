@@ -85,7 +85,7 @@ const GetHired = ({
         <div className={styles.right}>
         <div>
         <p>Course Fee</p>
-        <h4 className={styles.righth}>{Fee}</h4>
+        <h4 className={styles.righth}>₹ {Fee}</h4>
         <p>3 Year Subscription</p>
         <button onClick={popupShow} style={{margin:"auto", marginBottom:"20px"}}>Enroll Now</button>
           </div>

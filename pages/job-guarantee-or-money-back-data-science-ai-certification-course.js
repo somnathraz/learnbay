@@ -77,7 +77,7 @@ export default function Home() {
         Classes="Advanced DS/AI-Industry curated Training."
         OneLine="Specially devised for intermediate to Advanced level pros."
         Interview="250+ employer-Alliance 100% Interview Guarantee"
-        Fee="₹1,25,000"
+        Fee="1,25,000"
       />
       <div className="Feature" id="Feature">
         <BoxShape

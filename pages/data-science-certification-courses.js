@@ -79,7 +79,7 @@ export default function Home() {
         Classes="Industry curated training via real-world cases and capstones"
         OneLine="Career guidance from industrial experts"
         Interview="250+ employer-Alliance 100% Interview Guarantee"
-        Fee="₹65,000"
+        Fee="65,000"
       />
       <div className="Feature" id="Feature">
         <BoxShape

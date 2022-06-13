@@ -7,22 +7,12 @@ import GetHired from "../Components/GetHired/GetHired";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/CertificateTab/CertificateTab3";
-import Project from "../Components/Project/Project";
-import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
-import OurExpert from "../Components/OurExpert/OurExpert";
-import HowApply from "../Components/HowApply/HowApply";
-import ReferSection from "../Components/ReferSection/ReferSection";
-import CourseFee from "../Components/CourseFee/CourseFee";
-import SyllabusNew from "../Components/SyllabusNew/SyllabusNew";
-import OtherCertificate from "../Components/OtherCertificate/OtherCertificate";
-import CareerImpact from "../Components/CareerImpact/CareerImpact";
-import Domain from "../Components/Domain/Domain";
-import Fee from "../Components/Fee/Fee";
-import SkillsCovered from "../Components/SkillsCovered/SkillsCovered";
-import FAQNew from "../Components/FAQNew/FAQNew";
+import CityText from "../Components/CityText/CityText";
+import CitiesLeft from "../Components/CitiesLeft/CitiesLeft";
+import CitiesRight from "../Components/CitiesRight/CitiesRight";
+import FAQNew from "../Components/FAQNewCity/FAQNew";
 import React, { useState } from "react";
-import { FaqData3, DomainFaqData3, PaymentFaqData3, CapstoneFaqData3, CertificationFaqData3, jobFaqData3, MentorshipFaqData3, SupportFaqData3 } from "../components/FAQ/FaqData";
+import { AdvanceFaqDataM, AdvanceDomainFaqDataM, AdvancePaymentFaqDataM, AdvanceCapstoneFaqDataM, AdvanceCertificationFaqDataM, AdvancejobFaqDataM, AdvanceMentorshipFaqDataM, AdvanceSupportFaqDataM } from "../components/FAQ/FaqDataCity";
 
 
  
@@ -51,10 +41,9 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="Industrial Capstone Certificate by IBM"
-        mTopPara="Industrial Capstone Certificate by IBM"
-        title="Artificial Intelligence and ML Program"
-        spanTitleText="With Domain Specialization Training"
+        deskTopPara="Industrial Project-based  job-Oriented Training"
+        mTopPara="Industrial Project-based  job-Oriented Training"
+        title="Machine Learning Course Training in Mumbai"
         desc="Artificial intelligence Certification Course is designed with Domain Electives and Project Expertise for working professionals having 4+ years of experience in core tech and programming domain"
         src="/banner.png"
         alt="AiMl Header"
@@ -93,54 +82,53 @@ export default function Home() {
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
       </div>
-      <CareerImpact
-      CareerHead="Career Impact"
-      />
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
+      <div className="MainCities">
+        <div className="CitiesLeft">
+          <CitiesLeft />
         </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div>
-      <Certificate />
-      <OtherCertificate
-          OCHead1="Deep Learning Fundamentals"
-          OCP1="Earn industrial badge on neural networks, and convolutional networks like DL skills."
-          OCHead2="Deep Learning with TensorFlow"
-          OCP2="Get certified for your Industrial-level TensorFlow application expertise."
-          OCHead3="Machine Learning with Python"
-          OCP3="Validate your python expertise for ML algo designing."
-          OCHead4="Accelerating Deep Learning with GPUs"
-          OCP4="Industrial badge on GPU handling mastery for Cloud, AI & ML."
-      />
-      <section className={styles.HiringPartner}>
-        <div>
-        <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
-        <span className={styles.HiringPartnerB}>
-          <Image
-            src="/hiring-3.png"
-            alt="Certificate"
-            quality={100}
-            layout="intrinsic"
-            width="1150px"
-            height="350px"
-          />
-        </span>
-        </div>
-    </section>
-    <SyllabusNew
-    HoursSyllabus="300"
-    HoursSyllabusText="Hours Syllabus"
-    Projects="15"
-    ProjectsText="AI & ML Projects"
-    Sessions="100"
-    SessionsText="Live Learning Sessions"
-    JobSessions="10"
-    JobSessionsText="Job Oriented Sessions"
-    Modules="18"
-    ModulesText="Tools & Modules"
+        <div className="CitiesRight">
+          <CitiesRight
+            ProgramHead1="What exactly is the Learnbay industrial machine learning (ML) training course in Mumbai?"
+            ProgramBot1="In one simple sentence, it’s the ladder of a successful, sustainable, and ever-growing ML career. Learnbay is a machine learning training based in Bangalore, providing high industry competent machine learning experts starting from 2016. Now, their machine learning programs are also available in Mumbai."
+            ProgramBot2="The machine learning certification program offered by Learnbay in Mumbai is the best option for experienced working professionals who want a lucrative machine learning career switch. Even candidates with 8+ years of experience have also benefited from this institute. Learnbay machine learning institute in Mumbai is the best option among ML courses for working professionals."
+            ProgramHead3="Why does Learnbay seem the best institute for earning industrial machine learning skills?"
+            ProgramBot3="Learnbay offers an extensive degree of unique learning features or assistance along with the ultimate exposure to real-world artificial intelligence and machine learning problems. However, the three key matters that make Learnbay the best institute for learning ML are as follows:"
+            ProgramHead4="Learn directly from industrial machine learning experts:"
+            ProgramBot4="We have prepared world-class faculty that is composed of highly experienced instructors, mentors, and career counselors. All of them own more than 8 years of experience in different machine learning job roles, also from variable industrial domains. And it’s not like learning a boring learning experience through stacks of pre-recorded lectures and piles of old machine learning assignments- where you submit your tasks but get no feedback."
+            ProgramHead5="Here you get domain-specific full-stack machine learning training."
+            ProgramBot5="Learnbay machine learning program consists of 300 hours of live and interactive learning only. Even you get on-demand 1-on-1 doubt clearance sessions from the industry experts. Even the project sessions are completely live, and you get the advantage of learning industrial tricks and tips from the ML whizzes."
+            ProgramHead6="Best possible flexible Learning Environment for working professionals:"
+            ProgramBot6="Time management for the live or offline classes has become the greatest concern for working professionals. This is the key reason why about 70% of aspirants choose self-paced online machine learning courses. But Learnbay offers working professionals the opportunity of attending offline or online interactive classes without disturbing their current job. The machine learning certification course in Mumbai comes with a 3-years of flexible subscription. Using such a subscription, you can change your batch and instructor and even pause/ resume your course completely hassle-free."
+            ProgramHead7="Dedicated support to weak programmers:"
+            ProgramBot7="Learnbay machine learning training program in Mumbai is specified for candidates with technical backgrounds. But it does not mean that everyone comes with a python or R programming expertise when joining the course. In fact, the lack of programming expertise is a key reason why a number of certified machine learning candidates in Mumbai are still jobless."
+            ProgramBot8="Learnbay offers additional programming skills honing sessions with preparatory python and R classes along with exclusive hackathons."
+            ProgramBot9="The machine learning course fee of this featured program in Mumbai is 95,000 INR."
+            ProgramHead8="The course is also IBM certified."
+            ProgramBot10="Know More about our Artificial Intelligence and Machine Learning Training Program in Mumbai"
+            
+            DomainHead1="Why Domain Specialization?"
+            DomainBot1="The Learnbay ML training program in Mumbai aims to build highly demanding machine learning engineers and machine learning experts as per the current competitive ML job market. As Ml is not a separate domain or a subject to generic machine learning skills are not at all going to help you get securely employed in the same. It seeks the most beneficial amalgamation of your ML knowledge along with a particular business field knowledge."
+            DomainBot2="A master's degree in machine learning is completely worthless until you properly get trained on how to apply it in a specific industrial field like Supply chain, e-commerce, or Banking. Learnbay’s machine learning certifications in Mumbai come with elective options as follows:"
+            DomainList1="HR, Sales, and Meaning" 
+            DomainList2="Energy, oil, and Gas" 
+            DomainList3="Mechanical, manufacturing, and telecom" 
+            DomainList4="Pharmaceutical and clinical research" 
+            DomainList5="Media, hospitality, and transportation" 
+            DomainList6="Testing and Development Domain" 
+            DomainList7="DeOps and Cloud" 
+            DomainList8="IoT, automotive, and embedded systems" 
+            DomainList9="Supply chain and e-commerce" 
+            DomainList10="Banking, Finance, and Marketing Domain"
+            DomainBot3="The ML modules you get will be extremely focused on your chosen elective(s). This increases the chances of your selection as an ML professional in a multinational firm by 120%."
+
+            CertificationHead1="One Course but Multiple ML skill Certification"
+            CertificationBot1="Our machine learning training program in Mumbai has an end-to-end collaboration with IBM. The course is powered by six separate IBM certifications. Along with the most featured ‘Advance AI and ML Course Completion Certification’ and ‘Machine Learning project Certification,' you get four more micro ML skill Certificates- all issued by IBM."
+            src="/Advanced-AI-ML.jpeg"
+
+            ModuleHead1="How do Learnbay Machine Learning Course modules become highly industry competent?"
+            ModuleBot1="The ultimate magic of this IBM machine learning course lies in this submodule designing and training execution. The course comprises 15+ modules that cover all the trending concepts and tools of ML. But it’s not like a random stuffing of demeaning ML tools and techniques. The submodules are well-planned to ensure a bottom-up training approach so that even a complete novice of programming and statistics can also learn with 100% efficiency. Apart from the advanced modules like Big data, Spark analytics, and NLP, Learnbay provides basic python and R-related modules too."
+            ModuleBot2="The entire course modules are well-balanced in theoretical and practical machine learning training."
+
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
@@ -168,121 +156,56 @@ export default function Home() {
     syllabush4="Industrial Projects &
     Capstone Projects"
     syllabusb4="
-    15+ Classes"
+    12+ Classes"
     SyllabusBotlist41="Text Classification"
     SyllabusBotlist42="Human Activity Recognition"
     SyllabusBotlist43="Forecasting Business KPI's"
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
-    syllabush5="AI &
-    ML Tools"
-    syllabusb5="204+ Hours"
-    SyllabusBotlist51="SQL + MongoDB"
-    SyllabusBotlist52="Tableau + PowerBI"
-    SyllabusBotlist53="DL + NLP + CV + RL"
-    SyllabusBotlist54="Big Data Analytics"
-    SyllabusBotlist55="Deployment (AWS + GCP)"
-    SyllabusBotlist56="Data Structure & Algorithm"
-    syllabush6="Job Orientation
-    (Interview Prep)"
-    syllabusb6="10+ Classes"
-    SyllabusBotlist61="Resume Built-Up Session"
-    SyllabusBotlist62="1-1 Mock Interviews"
-    SyllabusBotlist63="Job Referrals"
-    SyllabusBotlist64="LinkedIn Profile Building"
-    SyllabusBotlist65="Alumni Portal Access"
-    SyllabusBotlist66="Target Top MNCs & Startups"
-    />
-      <ToolsCovered 
-      src="/tools-2.png"
-      />
-      <SkillsCovered
-      sc11="Data Collection"
-      sc12="Data Understanding"
-      sc13="Data Cleaning"
-      sc14="Data Munging"
-      sc15="Data Warehousing"
-      sc16="Domain Expertise"
-      sc21="Data Exploration"
-      sc22="Data Preprocessing"
-      sc23="Data Analysis"
-      sc24="Statistical Analysis"
-      sc25="PCA Analysis"
-      sc26="Dashboard and Storytelling"
-      sc31="Feature Engineering"
-      sc32="Hyper Parameter Tuning"
-      sc33="Model Creation"
-      sc34="Model Deployment"
-      sc35="Critical Thinking"
-      sc36="Function & Formulas"
-      />
-      <Domain />
-      <div className={styles.ProjectWrapper} id="project">
-        <Project
-        project="15+"
-        domain="7+"
-        />
-      </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-<p>Doubts Regarding Learning Assistance? Or You’re Unsure Of Your Initial Data Science Career Step? Whatever Is It…</p>
-          <h6>We Are Here To Help You.</h6>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
-        </div>
-      </div>
-      <HowApply
-      CCourse="Enroll in AI and ML Program with domain specialization."
-      />
-      <Fee
-        sub1="Data Science and AI Foundation Program"
-        Price1="₹65,000 + GST"
-        PFeatures11="225+ Hours"
-        PFeatures12="Early Professionals"
-        PFeatures13="NA"
-        PFeatures14="8+1"
-        PFeatures15="10+"
-        PFeatures16="Yes"
-        PFeatures17="No"
-        PFeatures18="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
-        sub2="Artificial Intelligence
-        & ML Program"
-        Price2="₹95,000 + GST"
-        PFeatures21="300+ Hours"
-        PFeatures22="Tech Professionals"
-        PFeatures23="8+"
-        PFeatures24="15+2"
-        PFeatures25="18+"
-        PFeatures26="Yes"
-        PFeatures27="No"
-        PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-        sub3="Data Science & AI
-        100% Job Guarantee"
-        Price3="1,25,000 + GST"
-        PFeatures31=" 400+ Hours"
-        PFeatures32="Tech/Non-Tech Professionals"
-        PFeatures33="All"
-        PFeatures34="15+3"
-        PFeatures35="18+"
-        PFeatures36="Yes"
-        PFeatures37="Yes"
-        PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
-      />
-      <CourseFee 
-      CourseFeeHead="Artificial Intelligence & ML Course Fee"
-      CourseFeePara="Online Classroom"
-      CourseFeelist1="Online interactive classes"
-      CourseFeelist2="Weekend and weekdays batch"
-      CourseFeelist3="Extra doubt clearance sessions"
-      CourseFeelist4="Multiple domain selection options"
-      CourseFeelist5="Company-based mock interviews"
 
+    JobBot1="Our aim is to provide assured placement to all of our students. But we believe that only a set of referrals is not the actual job assistance that our students need. Even that can’t assure the placement success rate. We provide end-to-end machine learning job interview sessions by FAANG ML experts. Such sessions are divided into several company-specific mock interviews, 1-on-1 resume help, and ML project portfolio guidance. We promise a 100% ML interview guarantee. "
+    JobBot5="We have an active recruitment channel with 250+ top hiring partners across Mumbai and all over India. A few of the big names are Fractal, Accenture, SAP, etc."
+
+    ProjectsBot1="Keeping the high significance of real-world industrial experience in achieving a lucrative ML job, we have included 15-live MNC projects and 2 fresh idea-driven capstone projects in the artificial intelligence and machine learning course in Mumbai. You can choose your projects as per your domain expertise. The project is thoroughly expert-guided. So you can easily learn the industry-specific ML best practices, tips, and tricks directly from MNC ML experts. Premium Cloud lab access further helps you observe top MNCs' data handling and analytical processes."
+    src1="/SAMSUNG.png"
+    ProjectsH1="Samsung Health Monitor App"
+    Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is the accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
+    src2="/IBM.png"
+    ProjectsH2="IBM HR Analytics"
+    Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities."
+    src3="/AMAZON.png"
+    ProjectsH3="Amazon Customer Review Analysis"
+    Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
+    src4="/BMW.png"
+    ProjectsH4="BMW Used Car Price Optimization"
+    Projectsp4="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
+
+    AlumniBot1="Until now, 70% of our students got their offer letter while 85% of course completion states. Rests get proudly placed within 7 to 8 months of course completion. Our students are working in top MNCs as senior ML Engineers, machine learning developers, and Senior Data scientists. Most of them got an average hike of 97% on their yearly salary."
+    Asrc1="/keerthana.png" 
+    AlumniH1=" keerthana" 
+    Alumnip1="I have done Data Science and Al certification and got placed within 8 months. The journey was really tough for me because I was from the mechanical domain. But the mentors were really helpful, and they have good industrial knowledge. The facility of recording classes is very useful."
+    Asrc2="/Shezan.png" 
+    AlumniH2="Shezan Baig" 
+    Alumnip2="Learnbay is one of the most remarkable data science institutes I've come across. Compared to other institutes in India, it offers a data science course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute."
+    Asrc3="/viraj.png" 
+    AlumniH3="Viraj Ghodke" 
+    Alumnip3="For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews."
+    Asrc4="/Shubhangi.png" 
+    AlumniH4="Shubhangi J. Waghmare " 
+    Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+
+          />
+            <FAQNew FaqDatas={AdvanceFaqDataM} DomainFaqDatas={AdvanceDomainFaqDataM} PaymentFaqDatas={AdvancePaymentFaqDataM} CapstoneFaqDatas={AdvanceCapstoneFaqDataM} CertificationFaqDatas={AdvanceCertificationFaqDataM} jobFaqDatas={AdvancejobFaqDataM} MentorshipFaqDatas={AdvanceMentorshipFaqDataM} SupportFaqDatas={AdvanceSupportFaqDataM} />
+        </div>
+      </div>
+      <CityText
+      CityTextB="Data Analytics Course Certification Training locations in Mumbai "
+      CityText=" : A I staff colony [400029], Aareymilk Colony [400065], Agripada [400011], Airport [400099], Ambewadi [400004], Andheri [400053], Andheri East [400069], Andheri Railway station [400058], Antop Hill [400037], Asvini [400005], Azad Nagar [400053], B P t colony [400003], B.N. bhavan [400051], B.P.lane [400003], Bandra West [400050], Bandra(east) [400051], Bangur Nagar [400090], Bazargate [400001], Best Staff colony [400012], Bharat Nagar [400007], Bhawani Shankar [400028], Borivali [400091], Borivali East [400066], Borvali West [400092], C G s colony [400013], Central Building [400020], Century Mill Chakala Midc [400093], Chamarbaug [400012], Charkop [400067], Chaupati [400004], Chinchbunder [400009], Chinchpokli [400011], Churchgate [400020], Colaba [400005], Cotton Exchange [400033], Cumballa Hill [400026], Dadar [400014], Dahisar [400068], Danda [400052], Daulat Nagar [400066], Delisle Road [400013], Dharavi [400017], Dockyard Road [400010], Dr Deshmukh marg [400026], Falkland Road [400008], Girgaon [400004], Gokhale Road [400028], Goregaon [400062], Goregaon East [400063], Government Colony [400051], Gowalia Tank [400026], Grant Road [400007], H.M.p. school [400058], Haffkin Institute [400012], Haines Road [400011], Hajiali [400034], Hanuman Road [400057], High Court bulding [400032], Holiday Camp [400005], Irla [400056], Ins Hamla [400095], International Airport [400099], J.B. nagar [400059], J.J.hospital [400008], Jacob Circle [400011], Jogeshwari East [400060], Jogeshwari West [400102], Juhu [400049], Kalachowki [400033], Kalbadevi [400002], Kamathipura [400008], Kandivali East [400101], Kandivali West [400067], Kapad Bazar [400016], Ketkipada [400068], Khar Colony [400052], Kharodi [400095], Kherwadi [400051], Kidwai Nagar [400031], L B s n e collage [400033], Lal Baug [400012], Liberty Garden [400064], M A marg [400008], M.P.t. [400001], Madh [400061], Madhavbaug [400004], Magthane [400066], Mahim [400016], Malabar Hill [400006], Malad [400064], Malad East [400097], Malad West dely [400064], Mandapeshwar [400103], Mandvi [400003], Mantralaya [400032], Marine Lines [400020], Marol Bazar [400059], Masjid [400003], Matunga Railway workshop [400019], Mazgaon [400010], Mori Road [400016], Motilal Nagar [400104], Mumbai Central [400008], Mumbai[400001], N . s.patkar [400007], Nagardas Road [400069], Nagari Niwara [400065], Naigaon [400014], Nariman Point [400021], New Prabhadevi road [400025], New Yogakshema [400021], Noor Baug [400003], Null Bazar [400003], Opera House [400004], Orlem [400064], Oshiwara [400102], Parel [400012], Parel Rly work shop [400003], Prabhadevi [400025], Princess Dock [400009], Rajbhavan [400035], Rajendra Nagar [400066], Ramwadi [400002], Ranade Road [400028], Rani Sati marg [400097], Reay Road [400033], S R p f camp [400060], S Savarkar marg [400028], S V marg [400007], S. c. court [400002], S. k.nagar [400066], Sahar P & t colony [400099], Santacruz Central [400054], Santacruz P&t colony [400029], Santacruz(east) [400055], Santacruz(west) [400054], Secretariate [400032], Seepz [400096], Sewri [400015], Sharma Estate [400063], Shivaji Park [400028], Shroff Mahajan [400002], Stock Exchange [400001], Tank Road [400033], Tardeo [400007], Thakurdwar [400002], Tulsiwadi [400034], V J b udyan [400027], V K bhavan [400010], V.P. road [400052], V.W.t.c. [400005], Vakola [400055], Vesava [400061], Vidyanagari [400098], Vileeparle (east) [400057], Vileparle(west) [400056], Wadala [400031], Worli [400018], Worli Colony [400030], 400701[Navi Mumbai], 400602[Thane]."
+      CityTextLB="Locations Offered"
+      CityTextL=" : Data Analytics course training in Mumbai, Data Analytics course training in Thane, Data Analytics course in Bhandup, Data Analytics Training in Chembur, Data Analytics course institute in Powai, Data Analytics course in Tehsil, Data Analytics training in Ghatkopar, Data Analytics institute in Sion, Data Analytics certification in Shivaji Nagar, Data Analytics Analytics in Mulund, Data Analytics training in Sewri, Data Analytics institute in Kannamwar nagar, Data Analytics course in Parel, Data Analytics certification in Anushakti Nagar, Data Analytics Training in Sakinaka, Data Analytics institute in kharodi, Data Analytics certification in Madh, Data Analytics course training in malad, Data Analytics course training in Andheri, Data Analytics training in Coal Bunder, Data Analytics institute in Dharavi, Data Analytics certification in Worli, Data Analytics course in Aswini, Data Analytics training in Goregaon, Data Analytics institute in Kandivali, Data Analytics course in Borivali, Data Analytics certification in juhu, Data Analytics training in Marol Naka, Data Analytics institute in Jogheswari, Data Analytics certification in vakola, data Analytics course in Bandra, Data Analytics training in Kurla, data Analytics course training in navi mumbai, data Analytics course training in Kalyan.
+      "
       />
-      <ReferSection />
-      <FAQNew FaqDatas={FaqData3} PaymentFaqDatas={PaymentFaqData3} DomainFaqDatas={DomainFaqData3} CapstoneFaqDatas={CapstoneFaqData3} CertificationFaqDatas={CertificationFaqData3} jobFaqDatas={jobFaqData3} MentorshipFaqDatas={MentorshipFaqData3} SupportFaqDatas={SupportFaqData3} />
       </main> 
     </div>
   )

@@ -9,10 +9,26 @@ const CitiesRight = ({
     ProgramHead2,
     ProgramHead3,
     ProgramHead4,
+    ProgramHead5,
+    ProgramHead6,
+    ProgramHead8,
+    ProgramBot6,
+    ProgramHead7,
+    ProgramBot8,
+    ProgramBot9,
+    ProgramBot10,
     ProgramBot1,
     ProgramBot2,
     ProgramBot3,
+    ProgramBot31,
+    ProgramBot32,
     ProgramBot4,
+    ProgramBot5,
+    DomainHead1,
+    DomainBot1,
+    DomainBot2,
+    DomainBot3,
+    DomainList1, DomainList2, DomainList3, DomainList4, DomainList5, DomainList6, DomainList7, DomainList8, DomainList9, DomainList10, 
     CertificationHead1,
     CertificationBot1,
     CertificationBot2,
@@ -21,14 +37,15 @@ const CitiesRight = ({
     ModuleHead2,
     ModuleHead3,
     ModuleBot1,
+    ModuleBot2,
     ModuleBot3,
     ModuleBot4,
      syllabush1, syllabusb1, SyllabusBotlist11, SyllabusBotlist12, SyllabusBotlist13, SyllabusBotlist14, SyllabusBotlist15, SyllabusBotlist16,
      syllabush2, syllabusb2, SyllabusBotlist21, SyllabusBotlist22, SyllabusBotlist23, SyllabusBotlist24, SyllabusBotlist25, SyllabusBotlist26,
      syllabush3, syllabusb3, SyllabusBotlist31, SyllabusBotlist32, SyllabusBotlist33, SyllabusBotlist34, SyllabusBotlist35, SyllabusBotlist36,
      syllabush4, syllabusb4, SyllabusBotlist41, SyllabusBotlist42, SyllabusBotlist43, SyllabusBotlist44, SyllabusBotlist45, SyllabusBotlist46,
-     JobHead1, JobBot1, JobBot2, JobHead2, JobBot3, JobHead4, JobBot4, JobList1, JobList2, JobList3, JobList4, JobList5, JobList6, JobList7,
-     ProjectsBot1, AlumniBot1,
+     JobHead1, JobBot1, JobBot2, JobHead2, JobBot3, JobHead4, JobBot4, JobBot5, JobBot6, JobList1, JobList2, JobList3, JobList4, JobList5, JobList6, JobList7,
+     ProjectsBot1, ProjectsBot2, ProjectsHead1, ProjectsHead2,  AlumniBot1,
      src1, src2, src3, src4, ProjectsH1, ProjectsH2, ProjectsH3, ProjectsH4, Projectsp1, Projectsp2, Projectsp3, Projectsp4,
      Asrc1, AlumniH1, Alumnip1, Asrc2, AlumniH2, Alumnip2, Asrc3, AlumniH3, Alumnip3, Asrc4, AlumniH4, Alumnip4, 
   }) => {
@@ -45,8 +62,43 @@ const CitiesRight = ({
                 <p className={styles.pp}>{ProgramBot2}</p>
                 <p className={styles.pHead}>{ProgramHead3}</p>
                 <p className={styles.pp}>{ProgramBot3}</p>
+                <p className={styles.pp}>{ProgramBot31}</p>
+                <p className={styles.pp}>{ProgramBot32}</p>
                 <p className={styles.pHead}>{ProgramHead4}</p>
                 <p className={styles.pp}>{ProgramBot4}</p>
+                <p className={styles.pHead}>{ProgramHead5}</p>
+                <p className={styles.pp}>{ProgramBot5}</p>
+                <p className={styles.pHead}>{ProgramHead6}</p>
+                <p className={styles.pp}>{ProgramBot6}</p>
+                <p className={styles.pHead}>{ProgramHead7}</p>
+                <p className={styles.pp}>{ProgramBot8}</p>
+                <p className={styles.pp}>{ProgramBot9}</p>
+                <p className={styles.pHead}>{ProgramHead8}</p>
+                <p className={styles.pp}>{ProgramBot10}</p>
+
+            </div>
+        </div>
+        <div id="Domain">
+            <div className={styles.CitiesRightSpan}>
+                <span>Domain Specialization</span>
+            </div>
+            <div className={styles.CitiesRightInner}>
+                <p className={styles.pHead}>{DomainHead1}</p>
+                <p className={styles.pp}>{DomainBot1}</p>
+                <p className={styles.pp}>{DomainBot2}</p>
+                <p className={styles.pp}>{DomainBot3}</p>
+                <ul>
+                    <li>{DomainList1}</li>
+                    <li>{DomainList2}</li>
+                    <li>{DomainList3}</li>
+                    <li>{DomainList4}</li>
+                    <li>{DomainList5}</li>
+                    <li>{DomainList6}</li>
+                    <li>{DomainList7}</li>
+                    <li>{DomainList8}</li>
+                    <li>{DomainList9}</li>
+                    <li>{DomainList10}</li>
+                </ul>
             </div>
         </div>
         <div id="Certification">
@@ -57,7 +109,7 @@ const CitiesRight = ({
                 <p className={styles.pHead}>{CertificationHead1}</p>
                 <p className={styles.pp}>{CertificationBot1}</p>
                 <p className={styles.pp}>{CertificationBot2}</p>
-                <img src={src}></img>
+                <img src={src} style={{width:"550px"}}></img>
             </div>
         </div>
         <div id="Module">
@@ -66,10 +118,11 @@ const CitiesRight = ({
             </div>
             <div className={styles.CitiesRightInner}>
                 <p className={styles.pHead}>{ModuleHead1}</p>
-                <p className={styles.pHead}>{ModuleHead2}</p>
                 <p className={styles.pp}>{ModuleBot1}</p>
-                <p className={styles.pHead}>{ModuleHead3}</p>
+                <p className={styles.pp}>{ModuleBot2}</p>
+                <p className={styles.pHead}>{ModuleHead2}</p>
                 <p className={styles.pp}>{ModuleBot3}</p>
+                <p className={styles.pHead}>{ModuleHead3}</p>
                 <p className={styles.pp}>{ModuleBot4}</p>
                 <p className={styles.pp}>Module Details:</p>
                 <div className={styles.SyllabusBot}>
@@ -157,9 +210,12 @@ const CitiesRight = ({
                 <p className={styles.pHead}>{JobHead1}</p>
                 <p className={styles.pp}>{JobBot1}</p>
                 <p className={styles.pp}>{JobBot2}</p>
+                <p className={styles.pp}>{JobBot5}</p>
                 <p className={styles.pHead}>{JobHead2}</p>
                 <p className={styles.pp}>{JobBot3}</p>
-                <p className={styles.pHead}>{JobHead4}</p>
+                <p className={styles.pp}>{JobBot4}</p>
+                <p className={styles.pp}>{JobBot6}</p>
+                {/* <p className={styles.pHead}>{JobHead4}</p>
                 <p className={styles.pp}>{JobBot4}</p>
                 <ul>
                     <li>{JobList1}</li>
@@ -169,7 +225,7 @@ const CitiesRight = ({
                     <li>{JobList5}</li>
                     <li>{JobList6}</li>
                     <li>{JobList7}</li>
-                </ul>
+                </ul> */}
             </div>
         </div>
         <div id="Projects">
@@ -177,7 +233,10 @@ const CitiesRight = ({
                 <span>Know Our Projects</span>
             </div>
             <div className={styles.CitiesRightInner}>
+                <p className={styles.pHead}>{ProjectsHead1}</p>
                 <p className={styles.pp}>{ProjectsBot1}</p>
+                <p className={styles.pHead}>{ProjectsHead2}</p>
+                <p className={styles.pp}>{ProjectsBot2}</p>
             </div>
             <div className={styles.Projects}>
                 <div className={styles.ProjectsBot}>
@@ -232,24 +291,24 @@ const CitiesRight = ({
             </div>
             <div className={styles.Alumni}>
                 <div className={styles.AlumniBot}>
-                    <img src={Asrc1}></img>
+                    <img src={Asrc1} style={{width:"100px"}}></img>
                     <p className={styles.ppa}>{AlumniH1}</p>
                     <p className={styles.pp}>{Alumnip1}</p>
                 </div>
                 <div className={styles.AlumniBot}>
-                    <img src={Asrc2}></img>
+                    <img src={Asrc2} style={{width:"100px"}}></img>
                     <p className={styles.ppa}>{AlumniH2}</p>
                     <p className={styles.pp}>{Alumnip2}</p>
                 </div>
             </div>
             <div className={styles.Alumni1}>
                 <div className={styles.AlumniBot}>
-                    <img src={Asrc3}></img>
+                    <img src={Asrc3} style={{width:"100px"}}></img>
                     <p className={styles.ppa}>{AlumniH3}</p>
                     <p className={styles.pp}>{Alumnip3}</p>
                 </div>
                 <div className={styles.AlumniBot}>
-                    <img src={Asrc4}></img>
+                    <img src={Asrc4} style={{width:"100px"}}></img>
                     <p className={styles.ppa}>{AlumniH4}</p>
                     <p className={styles.pp}>{Alumnip4}</p>
                 </div>

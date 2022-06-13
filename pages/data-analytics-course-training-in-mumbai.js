@@ -12,7 +12,7 @@ import CitiesLeft from "../Components/CitiesLeft/CitiesLeft";
 import CitiesRight from "../Components/CitiesRight/CitiesRight";
 import FAQNew from "../Components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
-import { FaqData1, PaymentFaqData1, CapstoneFaqData1, CertificationFaqData1, jobFaqData1, MentorshipFaqData1, SupportFaqData1 } from "../components/FAQ/FaqDataCity";
+import { FaqData1, PaymentFaqData1, CapstoneFaqData1, CertificationFaqData1, jobFaqData1, MentorshipFaqData1, SupportFaqData1 } from "../components/FAQ/FaqData";
 
  
 export default function Home() {
@@ -69,7 +69,7 @@ export default function Home() {
         Classes="Industry curated training via real-world cases and capstones"
         OneLine="Career guidance from industrial experts"
         Interview="250+ employer-Alliance 100% Interview Guarantee"
-        Fee="₹65,000"
+        Fee="65,000"
       />
       <div className="Feature" id="Feature">
         <BoxShape
