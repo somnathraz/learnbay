@@ -92,11 +92,11 @@ const Footer = () => {
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Mumbai</p>
-            <a href="/"><p className={styles.FooterInnerli}>Data Science Course Training in Mumbai</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>Machine learning course training in Mumbai</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>data analytics course training in Mumbai</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>business analytics course training in Mumbai</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>artificial intelligence ai course training Mumbai</p></a>
+            <a href="/data-science-course-training-in-mumbai"><p className={styles.FooterInnerli}>Data Science Course Training in Mumbai</p></a>
+            <a href="/machine-learning-course-training-in-mumbai"><p className={styles.FooterInnerli}>Machine learning course training in Mumbai</p></a>
+            <a href="/data-analytics-course-training-in-mumbai"><p className={styles.FooterInnerli}>data analytics course training in Mumbai</p></a>
+            <a href="/business-analytics-course-training-in-mumbai"><p className={styles.FooterInnerli}>business analytics course training in Mumbai</p></a>
+            <a href="/artificial-intelligence-ai-course-training-mumbai"><p className={styles.FooterInnerli}>artificial intelligence ai course training Mumbai</p></a>
 
             </div>
             <div className={styles.FooterDivInner}>
@@ -127,11 +127,11 @@ const Footer = () => {
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Hyderabad</p>
-            <a href="/"><p className={styles.FooterInnerli}>Data Science Course Training in Hyderabad</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>Machine learning course training in Hyderabad</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>data analytics course training in Hyderabad</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>business analytics course training in Hyderabad</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>artificial intelligence ai course training Hyderabad</p></a>
+            <a href="/data-science-course-training-in-hyderabad"><p className={styles.FooterInnerli}>Data Science Course Training in Hyderabad</p></a>
+            <a href="/machine-learning-course-training-in-hyderabad"><p className={styles.FooterInnerli}>Machine learning course training in Hyderabad</p></a>
+            <a href="/data-analytics-course-training-in-hyderabad"><p className={styles.FooterInnerli}>data analytics course training in Hyderabad</p></a>
+            <a href="/business-analytics-course-training-in-hyderabad"><p className={styles.FooterInnerli}>business analytics course training in Hyderabad</p></a>
+            <a href="/artificial-intelligence-ai-course-training-hyderabad"><p className={styles.FooterInnerli}>artificial intelligence ai course training Hyderabad</p></a>
 
             </div>
             <div className={styles.FooterDivInner}>

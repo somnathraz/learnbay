@@ -80,6 +80,7 @@ export default function Home() {
         OneLine="Career guidance from industrial experts"
         Interview="250+ employer-Alliance 100% Interview Guarantee"
         Fee="65,000"
+        Subscription="3 Year Subscription"
       />
       <div className="Feature" id="Feature">
         <BoxShape

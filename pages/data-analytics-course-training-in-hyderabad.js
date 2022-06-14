@@ -55,9 +55,9 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="In Collaboration with IBM"
-        mTopPara="In Collaboration with IBM"
-        title="Data Analytics Course Training in Mumbai"
+        deskTopPara="First-Track Industrial Training For Early Professionals"
+        mTopPara="First-Track Industrial Training For Early Professionals"
+        title="Data Analytics Course Training in Hyderabad"
         desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
         src="/banner.png"
         alt="AiMl Header"
@@ -103,28 +103,19 @@ export default function Home() {
         </div>
         <div className="CitiesRight">
           <CitiesRight
-            ProgramHead1="Professional Data Analytics Training Course in Mumbai"
-            ProgramHead2="What is the Industrial Data Analytics Program by Learnbay?"
-            ProgramBot1="Learnbay is one of the leading data analytics training institutes in Mumbai, with a diverse selection of professional programs. Learnbay's objective is to deliver individualized data analytics training so that everyone can easily deal with the complex real-world analytical requirements. In fact, this is why at Learnbay, you get most of the modules as practical assignments rather than boring theoretical sessions."
-            ProgramBot2="We dedicatedly address personalized career needs. Accordingly, provides data analytics projects options. So, instead of holding just a data Analytics Certificate, you hold the ultimate abilities to be a successful data analyst in MNCs. It offers an immersive data analytics learning experience in Mumbai with one-on-one doubt clearing sessions conducted by renowned industry professionals. This distinguishes it as a one-stop-shop for everyone interested in becoming a truly professional data analyst.
-            "
-            ProgramHead3="How does it become a truly professional Data Analytics course in Mumbai?"
-            ProgramBot3="This is a data analytics course with Placement Support (dedicated). The associated industrial data analytics training in Mumbai by Learnbay not only offers full-stack data analytics modules but also ensures you get a job after competing in the same. Its hands-on learning methodology incorporates interactive sessions with leading data analysts and industry projects to cover in-depth topics like exploratory data analysis, data visualization, and regression techniques."
-            ProgramHead4="Why is Learnbay the top data analytics training Provider in Mumbai?"
-            ProgramBot4="It’s mainly because of two reasons. One is their industrial recognition via IBM collaboration and the second one is their project exposure. At Learnbay, you get the ultimate industrial experience, even before joining your first data analyst job role. Due to an extremely personalized learning experience via 24 hours tech support, on-demand 1-on-1 discussion, and FANNG expert as an instructor,  the data analytics training program in Mumbai become the best option to enroll. In addition, within the data analytics course fees you pay, you get 1-years flexible subscription to this data analytics program. This helps you maintain your professional responsibilities and the learning progress at the same time with the greatest ease."
-            ProgramBot5="Know more about the Industrial Data Analytics Program in Mumbai by Learnbay"
+            ProgramBot1="Learnbay is one of the leading data analytics training institutes in Hyderabad, with a broad collection of IBM certification courses. Learnbay's goal is to deliver specialized data analytics training and prepare students for any kind of complex industrial, analytical problems. Everything in the Learnbay data analytics course is taken good care of, from hands-on training via live data analytics projects to qualifying for interviews with top-tier MNCs. Learnbay delivers an immersive data analytics learning experience with one-on-one doubt clearing sessions led by renowned industry professionals. This distinguishes it as a one-stop resource for everyone interested in becoming a professional job-ready Data analyst."
+            ProgramBot2="Learnbay's Data analytics course in Hyderabad is tailored to match the industry's ever-changing needs. This Data Analytics course with job placement support is suitable for experienced working professionals and early career professionals in any field. Its hands-on learning methodology incorporates interactive sessions with leading practitioners and industry projects to cover topics like Data analysis, Data visualization, and regression techniques in depth."
+            ProgramHead3="Why is Learnbay a great institute for the professional Data analytics course in Hyderabad?"
+            ProgramBot3="Learnbay offers 100% live interactive training with flexible scheduling and sessions taught by knowledgeable data analysts. Furthermore, our data analytics course in Hyderabad includes a one-year flexi membership, allowing students to learn at their own pace. Learners can select their favorite batch and mentors, a unique feature. Non-programmers might take additional lessons to keep on track with their peers."
+            ProgramBot31="Students, on the other hand, can be well-prepared to excel in the data-driven world with our world-class data analytics training in Hyderabad. For a well-balanced approach to learning, the Learnbay data analytics certification course with placement contains both practical and theoretical topics."
 
-            CertificationHead1="IBM Certified Data Analytics Program"
-            CertificationBot1="IBM has recognized our data analytics industrial program in Mumbai. We've also partnered with international IT companies to offer our students a better placement assistance experience. "
-            CertificationBot2="Due to the presence of the IBM Data Analytics Certificate in your Linkedin and other online job profiles, your profile becomes tagged for top-tire data analytics job profiles in Mumbai."
+            CertificationBot1="In Hyderabad, we already have IBM on board with our data analytics industrial initiative. After the course, students will receive an IBM Data Analytics Course Completion certificate."
+            CertificationBot2="Learnbay IBM Data analytics training will certainly boost your resume, allowing you to stand out from the pack and attract recruiters' attention."
             src="/BA-DA.jpeg"
 
-            ModuleHead1="What do you get under the Learnbay Data Analytics program in Mumbai?"
-            ModuleHead4="Special Programming Classes"
-            ModuleBot1="Lack of programming knowledge is no more a barrier to data analytics courses for working professionals in Mumbai. A series of dedicated basic python and R programming classes are there. So, candidates with any professional background (Marketing, Finance, HR, etc.) can enroll."
-            ModuleHead2="The Best Online Data Analytics Program in Mumbai"
-            ModuleBot3="Learnbay data analytics course incorporates 180+ hours of live and interactive learning. It's just like the offline class experience. Apart from that, at the end of every module, a student can request for 1-on-1 discussion session with their respective instructors."
-            ModuleBot4="The submodules are comprehensively planned to create an expert data analyst within 4.5 to 6 months. Within this time span, you will be the pro of data analytics tools and skills like Probability, Data Storytelling, data mining, dashboarding, PCA analysis, Tableau, SQL, Power BI Hadoop, Seaborn, etc."
+            ModuleBot1="Learnbay is dedicated to providing the most comprehensive data analytics training in Hyderabad. This Data Analytics Program with placement is tailored to satisfy the industry's ever-changing objectives. Our customized data analytics course in Hyderabad provides basic to advanced data analytics training. We also provide special coding classes for non-programmers who want to strengthen their programming skills."
+            ModuleBot2="Countless working professionals have benefited from our data analytics course training in Hyderabad by improving their technical abilities and gaining expertise in various fields."
+            ModuleBot3="The IBM data analytics course's modules cover all of the important topics in data analytics tools and methodologies, such as data pretreatment, data exploration, statistical analysis, dashboarding, PowerBI, SQL, etc."
 
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
@@ -162,13 +153,11 @@ export default function Home() {
     SyllabusBotlist45="Fake News Detection"
     SyllabusBotlist46="Movie Recommendation"
 
-    JobHead1="How is the job orientation program associated with Learnbay business analytics training in Mumbai?"
-    JobBot1="Learnbay is dedicated to providing the most comprehensive data analytics training in Mumbai."
-    JobBot2="We provide specialized mock interviews for candidates looking for jobs in data analytics as part of our job aid program. We also assist students with résumé writing, technical skills training, and soft skill development. Our strong links with MNCs and IBM have aided numerous students in obtaining positions in the top leading organizations in the shortest period possible. After completing the course, approximately 700+ Learnbay students have already achieved lucrative roles in worldwide corporate giants such as Amazon, TCS, EY, JP Morgan, and Mercedes."
-    JobHead2="Why Earning the Data Analytics Skills Is So Important?"
-    JobBot3="The Simplest answer is to secure your career. Data analysis is used to forecast and understand precise business results. Learners of  IBM data analytics training course in Mumbai become eligible to make better business decisions. Descriptive, prescriptive, and automated data analytics are three types of data analytics. Significant differences exist between the three, which may be taught in-depth through our data analytics course. Until you have an adequate degree of analytical understanding, the job opportunities will start narrowing in the upcoming years."
-    JobHead3="What Are the Data Analytics Roles in Mumbai You Can Target After This Course?"
-    JobBot4="At the end of Learnbay provided  IBM data analytics Certification, you can apply for the following positions:"
+    JobBot1="Learnbay aims to introduce high-quality data analysts in Hyderabad. For candidates looking for positions in data analytics, we conduct mock interviews as part of our job support program. We also assist the students with resume writing, technical skills training, and soft skill development."
+    JobBot2="Our good terms with MNCs and IBM have aided many students in obtaining positions as data analysts in the top leading businesses in the shortest period feasible. Approximately 700+ Learnbay students have already achieved high-paying jobs with Multinational firms such as Amazon, TCS, EY, JP Morgan, and Oracle after completing the course."
+    JobHead2="Roles as Data Analyst"
+    JobBot3="Data analysts are in high demand in a lot of industries in Hyderabad. A professional data analyst organizes, analyzes, and stores data to assist businesses in making strategic decisions. A data analyst should have a theoretical as well as a practical understanding of trending analytical tools. Furthermore, they should be able to utilize their knowledge of data collection and analysis to arrive at significant conclusions."
+    JobBot4="Learners may use IBM data analytics training to make better business decisions. Our data analytics training course in Hyderabad shows you the real differences between predictive, descriptive, and automated analytics. By pursuing this course, you can learn the most in-demand data analytics skills and land a job with one of Hyderabad's top firms within 6 to 8 months. The different roles of data analytics are"
     JobBot6="Junior Data Analyst,
     Marketing Analyst,
     Data Analytics consultant,
@@ -178,10 +167,10 @@ export default function Home() {
     Operation Analyst, etc.
     "
 
-    ProjectsBot1="The premium cloud lab element of the IBM data analytics course from Learnbay is one of its best features available in Mumbai. There are a total of 5 live MNC project opportunities, which you can access through this cloud lab. All of these projects are as per the data analytics skill demand spread across Mumbai City.  Below are a few of the data Analytics projects, already done by Learnbay students in Mumbai. "
+    ProjectsBot1="Learnbay's goal is to help students obtain practical hands-on experience by completing several projects with the help of our mentors. You will have the opportunity to work on five popular data analytics projects as part of the data analytics course curriculum in Hyderabad. One of the most appealing aspects of the IBM data analytics course is its premium cloud lab access, which allows students to examine the data handling and mining processes in real-world MNC projects. These live projects associated with the Learnbay data analytics course in Hyderabad Make learning more efficient and industry-paced."
     src1="/SAMSUNG.png"
     ProjectsH1="Samsung Health Monitor App"
-    Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
+    Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is an accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
     src2="/IBM.png"
     ProjectsH2="IBM HR Analytics"
     Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities."
@@ -190,10 +179,9 @@ export default function Home() {
     Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
     src4="/BMW.png"
     ProjectsH4="BMW Used Car Price Optimization"
-    Projectsp4=" BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
+    Projectsp4="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
 
-    AlumniBot1="In 2020 we had 70+ hiring partners, but our students' business analytics interview success rate has helped us expand the network with 250+ company collaborations in Mumbai now. It's not only the junior business analyst positions that our students are enjoying- rather, but 300+Learnbay alumni are also successfully handling their mid to senior-level BA job roles in several startups and MNCs across the country.
-    "
+    AlumniBot1="Learnbay works tirelessly to help many aspiring data analysts in Hyderabad achieve their career goals. Our strong links with MNCs and IBM have aided numerous students in obtaining positions around the top leading organizations in the shortest period feasible. More than 700 students have already landed lucrative data analytics job roles at international corporations such as Amazon, TCS, EY, JP Morgan, and Mercedes. Below are a few of the stories shared by our alumni."
     Asrc1="/devraj.jpg" 
     AlumniH1="Deveraj" 
     Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."

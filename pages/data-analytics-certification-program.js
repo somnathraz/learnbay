@@ -76,6 +76,8 @@ export default function Home() {
         OneLine="Career guidance from industrial experts"
         Interview="Course Completion Certificate from IBM"
         Fee="60,000"
+        Subscription="1.5 Year Subscription"
+
       />
       <div className="Feature" id="Feature">
         <BoxShape

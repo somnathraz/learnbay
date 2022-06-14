@@ -78,6 +78,7 @@ export default function Home() {
         OneLine="Specially devised for experienced working pros."
         Interview="250+ employer-Alliance 100% Interview Guarantee"
         Fee="79,000"
+        Subscription="3 Year Subscription"
       />
       <div className="Feature" id="Feature">
         <BoxShape

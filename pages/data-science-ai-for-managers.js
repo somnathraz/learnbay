@@ -79,6 +79,7 @@ export default function Home() {
         OneLine="Domain-paced Full Stack Learning.."
         Interview="Domain-paced Full Stack Learning.."
         Fee="95,000"
+        Subscription="3 Year Subscription"
       />
       <div className="Feature" id="Feature">
         <BoxShape

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./GetHired.module.css";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
+import { MdSubscriptions } from "react-icons/md";
 
 
 const GetHired = ({
@@ -14,6 +15,7 @@ const GetHired = ({
   OneLine,
   Interview,
   Fee,
+  Subscription,
 }) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
@@ -86,7 +88,7 @@ const GetHired = ({
         <div>
         <p>Course Fee</p>
         <h4 className={styles.righth}>₹ {Fee}</h4>
-        <p>3 Year Subscription</p>
+        <p>{Subscription}</p>
         <button onClick={popupShow} style={{margin:"auto", marginBottom:"20px"}}>Enroll Now</button>
           </div>
         </div>

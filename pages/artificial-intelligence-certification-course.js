@@ -79,6 +79,8 @@ export default function Home() {
         OneLine="Specially devised for experienced technical professionals."
         Interview="Specially devised for experienced technical professionals."
         Fee="95,000"
+        Subscription="3 Year Subscription"
+
       />
       <div className="Feature" id="Feature">
         <BoxShape

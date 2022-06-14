@@ -55,9 +55,9 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="Industry- Specific Capstone Certified by IBM"
-        mTopPara="Industry- Specific Capstone Certified by IBM"
-        title="Data Science Course Training in Mumbai"
+        deskTopPara="Foundational and Advanced Data Science Courses with job Guarantee"
+        mTopPara="Foundational and Advanced Data Science Courses with job Guarantee"
+        title="Data Science Course Training in Hyderabad"
         desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
         src="/banner.png"
         alt="AiMl Header"
@@ -103,23 +103,23 @@ export default function Home() {
         </div>
         <div className="CitiesRight">
           <CitiesRight
-            ProgramHead1="Job-ready Data science training in Mumbai-"
-            ProgramHead2="What is the Learnbay Job-ready Data Science Program in Mumbai?"
-            ProgramBot1="The best data scientist training provider in Mumbai is Learnbay. Industrial expertise from top-tier MNCs is the specialization of our faculty. Throughout the offline as well as online data science courses, you get the advantage of their experience and knowledge. The courses are tailored to learners who wish to transition into a Data Science career or become a great Data scientist after years of experience in any field. In a nutshell, it's the top destination for working professionals looking for the greatest data science and AI training."
-            ProgramBot2="The Learnbay data science course for working professionals in Mumbai includes both practical (core industrial) and theoretical topics for balanced learning. This institute provides the most cost-effective Data Science classes in Mumbai. The best part is that you get a full-stack data science program with placement."
-            ProgramHead3="Why is Learnbay the best institute for Data scientist courses in Mumbai?"
-            ProgramBot3="Being all of the well-known costly cities of India, it is expected that even for professional courses, this city will charge high. But the artificial intelligence and data science courses provided by Learnbay in Mumbai seem comparatively cheaper. Above all, even at a comparatively cheaper cost, you get the best of the data science learning experience along with an assured job guarantee."
-            ProgramBot31="Besides, you can get different data science course options based on your present career stage. Each of these courses consists of custom-fit modules that take care of your existing career experience."
-            ProgramBot32="Also, you get 1 to 1 discussion sessions and 3 years of flexi pass to attend any live and interactive classes at your convenience, experts mentors from top-tire MNCs. Options are available for choosing offline, online, or blended learning mode. However, due to the 100% live and interactive sessions, even in an online data science course, you get offline learning satisfaction at Learnbay. You may use Learnbay LMS on your mobile device to learn on the go."
-            ProgramHead4="How much will the spending be on data science course fees?"
-            ProgramBot4="Learnbay's subscription plans range from 65K to 1.2 lakh INR. The class timings are flexible, and you can access any batches or teachers at any time. You can even go to many sessions with various instructors. Our Data Science and Artificial intelligence courses include one-on-one live doubt clearing sessions with seasoned FAANG Data scientists. After enrolling, students can take a break followed by resumption and complete their course within one to three years (depending on the course)."
-            ProgramHead5="Available Data Science and AI Certification Courses by Learnbay in Mumbai"
-            ProgramBot5="Foundational Data Science and AI program,  Advanced-Data Science and AI program with Domain Specialization, Data Science and AI Program for Managers and Leaders, AI and Data Science Course with Job Guarantee or Money back."
+            ProgramBot1="Learnbay Is a premier Data science training institute in Hyderabad for anyone interested in becoming an industry competent data scientist. Learnbay’s IBM certified advanced Data science course was created with great care by industry specialists. Our professors are Industry-leaders with a decade of experience. Learnbay mentors make sure you learn everything from scratch and according to the complex industrial requirements."
+            ProgramBot2="Learnbay’s advanced Data science certification in the Hyderabad curriculum helps students learn in-demand Data science skills such as programming, data visualization, statistics, and other topics."
+            ProgramHead3="What do candidates get in the  Advanced data science courses in Hyderabad?"
+            ProgramBot3="For a richer learning experience, Learnbay focuses on providing both practical and theoretical learning modules. Moreover, Our advanced Data science certification in Hyderabad is cost-effective and even offers an MNC interview guarantee. Besides, you can choose a data science course with a job or 100% money-back assurance at Learnbay. In case you find yourself too weak in statistics, and you are not able to cope with the complexity of the advanced data science modules, you can opt for the Foundational data science learning module."
+            ProgramBot31="So Learnbay is able to fulfill every aspirant's data science learning needs in Hyderabad."
+            ProgramBot32="Here, Students get one-on-one counseling sessions with a Data science career expert and a one to three-year Flexi pass ( based on course selection), allowing them to attend any live classes whenever they want. You may also use your mobile device to access Learnbay LMS for more convenient learning. Learnbay's advanced data science course in Hyderabad offers you the flexibility of attending various sessions with different professors."
+            ProgramBot4="Another factor of our data science IBM certification In Hyderabad is that you can choose from a range of Foundational or Advanced Data science courses depending on your present professional level. Each of these courses is organized into modules based on your previous job."
+            ProgramHead5="Data Science Courses by Learnbay in Hyderabad :"
+            ProgramBot5="Foundational Data Science and AI program,
+            Advanced-Data Science and AI program with Domain Specialization,
+            Data Science and AI Program for Managers and Leaders,
+            AI and Data Science Course with Job Guarantee or Money back."
 
             DomainHead1="Why Domain Specialization?"
-            DomainBot1="In Mumbai, 7 out of 10 job seekers roaming around you hold a data science certification. However, 1 out of these 7 experience a successful data science career switch within one year of course completion."
-            DomainBot2="Actually, the data analytics vacancy jobs roles in Mumbai only get filled with such data science professionals that own specific industry-oriented data science knowledge. Without domain expertise and work experience, you can’t offer precise insights or any kind of analytical solutions. Consequently, the recruiters mark your profiles as ‘not a good fit for data scientist positions in Mumbai."
-            DomainBot3="At Learnbay, you get full-stack domain-specialized Data Science Training. Based on your experience, you can choose domains like"
+            DomainBot1="Our domain-specific courses are intended to assist students in approaching the complexities of business problems from a certain industry or domain with the most profitable data scientific solutions."
+            DomainBot2="A domain-specific Data scientist will have a much better grasp of the domain and its nuances and the essential business concerns that must be addressed. Recruiters are looking for domain-specific Data scientists at present. One cannot deliver precise analytical insights without subject understanding. As a result, it's critical to select courses that include domain electives."
+            DomainBot3="Learnbay Advanced data science course training covers domains in almost all sectors like"
             DomainList1="HR, Sales, and Marketing" 
             DomainList2="Energy, oil, and Gas" 
             DomainList3="Mechanical, manufacturing, and telecom" 
@@ -131,17 +131,12 @@ export default function Home() {
             DomainList9="Supply chain and e-commerce" 
             DomainList10="Banking, Finance, and Marketing Domain"
 
-            CertificationHead1="IBM Data  Science Certifications in Mumbai"
-            CertificationBot1="Under the Learnbay provided IBM Data Scientist Course, you may take advantage of live lessons with multiple instructors without dealing with any hassles. Aside from that, you will receive several IBM certifications for different data science and AI micro-skills. So, it's basically a data science course with a career guarantee. Based on the course you choose, you get 1 to 8 certificates. The best part is that once you complete the capstone project associated with the Data Science and AI course available in Mumbai, you get an IBM Project Experience Certificate. Please refer to the respective course brochures to know more about micro-skill certificates."
+            CertificationBot1="You get hassle-free classes from many professional educators when pursuing the Learnbay IBM data scientist course. You'll also receive multiple IBM certifications in Data Science and Artificial intelligence micro-skills. Aside from that, upon completion of the capstone project featured in the Data Science courses in Hyderabad, you will obtain an IBM Project Experience Certificate. Depending on your course, you will receive 1 to 8 certifications."
+            CertificationBot2="For more details about the certification, you can read our brochures"
             src="/certificate.webp"
 
-            ModuleHead1="What are the most crucial tools and modules for securing a Data Science Job position in Mumbai?"
-            ModuleBot1="PYTHON and R will be the two key programming languages throughout your Data scientist career in Mumbai. But the most crucial module will be the 'STATISTICS .' Other than that, in order to earn the industrial competency, you have to master the modules like 'MACHINE LEARNING,' 'TIME SERIES,' 'POWER-BI,' 'ADVANCE EXCEL,' 'TABLEAU,' 'BIG DATA,' 'MONGO DB,' 'SPARK ANALYTICS,' 'SQL.'"
-            ModuleBot2="Each of the modules associated with the data science and AI course in Mumbai by Learnbay includes plenty of updated practical assignments."
-            ModuleHead2="How do Learnbay Data Science learning modules become highly profitable for experienced working professionals? "
-            ModuleBot3="All of our learning modules are solely focused on your domain expertise. So, all the skills and tools you learn here offer your chosen industry's best practices-based training."
-            ModuleHead3="How do Learnbay data science modules become the best-fit learning options for non-tech aspirants?"
-            ModuleBot4="We have added a modules 0 option for non-programmers. These modules also provide 6 to 8 hours of live and interactive training on the basics of R and python programming for data science. These additional classes are free of cost and ensure that you stay on track with your technical batchmates, even though you don’t have any programming experience."
+            ModuleBot1="Expert Data scientists have meticulously crafted the Data science training modules. You'll master various data science tools and strategies to understand business problems in the Data Science certification course. Enrolling in Learnbay’s IBM Data science course in Hyderabad might help students realize their full potential as Data scientists. Our courses are meant to be simple to follow and comprehend while providing the finest possible Data science foundation. We teach you how your Data science abilities will be used in the future by using real-time capstone projects."
+            ModuleBot2="A few of the most important data science submodules covered in our courses are Python, Statistics, MongoDB, Tensorflow, Deep Learning, Time series, Deployment GCP, and other data science tools."
 
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
@@ -178,16 +173,12 @@ export default function Home() {
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
 
-    JobHead1="Data Science Interview Preparation in Mumbai"
-    JobBot1="Learnbay Data science classes help prepare for interviews. Several company-specific mock interviews ensure our students' confidence at the interview table. Learnbay instructors keep your CV and portfolio competent to attract recruiters. As stated previously, you will receive domain-specific full-stack data scientist training, so your interview preparation will also experience the reflection of the same."
-    JobBot2="All of our data science courses offer an interview guarantee from top MNC and growing startups across Mumbai as well as India. But in the case of the Data Science program with a job guarantee, you can have a money-back option in case of unsuccessful placement (which is very rare in Learnbay). More than 1000 Learnbay Alumni are proudly working in different data science job roles across Mumbai and the entire of India."
-    JobBot5="We have placement collaborations with different companies like IBM, TCS, Accenture, EY, JP Morgan, etc."
-    JobHead2="What are the benefits of working as a Data Scientist?"
-    JobBot3="IBM Certified Data scientists own global recognition. Whether it's a multinational one or a startup, everyone wants such a team of data scientists that is specialized in the concerned industrial domain. So, rather than fresh candidates, professionals switching to the data science field are in massive demand. Other than the data science field, you can't even imagine a 200-400% hike with ample job security. The range of data scientist salaries is growing so fast."
+    JobBot1="The Data science curriculum at Learnbay includes a job placement program. Students will receive CV preparation and soft skills training sessions by the end of the IBM Data science course. Our students gain confidence before the interviews by participating in various company-specific mock interviews. Furthermore, our representatives verify that your portfolio meets industry standards and appeals to hiring managers. In Hyderabad, you can also take a Data science course with a money-back guarantee. You can claim a Data science course fee refund if you cannot find a Data science career role within six months of completing the course."
+    JobBot2="We have collaborated with lead organizations like IBM, TCS, EY, Accenture, and others. Over 1000 Learnbay alumni have already started working in data science roles all over Hyderabad."
 
-    ProjectsHead1="Live Industrial Data Science Projects:"
-    ProjectsBot1="Learnbay's unique cloud lab feature gives users access to live data science projects from multinational corporations, as well as coaching from Data science experts. You get the option of choosing a live industrial project from 15+ options from your chosen domain(s). In the cloud lab, you can directly observe and practice the data filtering, data mining, data wrangling, and process of live MNC data science projects in Mumbai. "
-    ProjectsBot2="In addition, you get a chance to work on two-three fresh data science capstone projects. For these capstone projects, you get project completion certificates from IBM. Below are some of the Learnbay Data science projects."
+    ProjectsHead1="Industry curated live data science projects."
+    ProjectsBot1="Learners can comprehend Data science Projects and methodologies using Learnbay's premium cloud lab feature. You can choose from 8 to 15 real-time projects in your chosen domains in Learnbay’s Advanced Data science courses in Hyderabad. This cloud lab also allows you to see and practice various data mining, data wrangling, and real MNC data projects. Students will have the opportunity to work on two to three Data science capstone projects, after which an IBM Project experience credential will be issued."
+    ProjectsBot2="Here are a few of our projects that Learnbay alumni have succeeded at:"
     src1="/SAMSUNG.png"
     ProjectsH1="Samsung Health Monitor App"
     Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is the accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
@@ -199,9 +190,9 @@ export default function Home() {
     Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
     src4="/BMW.png"
     ProjectsH4="BMW Used Car Price Optimization"
-    Projectsp4="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
+    Projectsp4=" BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
 
-    AlumniBot1="60% of Learnbay students in Mumbai secured lucrative data scientist and other Data science job positions within 2 to 3 months of course completion. 30% of the rest also got placed within a year. Even 300+ alumni of the different data science and AI courses are working in leads and managerial positions."
+    AlumniBot1="The IBM data science course offered by Learnbay is dedicated to generating amazingly skilled Data scientists in Hyderabad. Many of our students have joined Data scientist roles and other Data science positions, with pay increases of up to 200 percent. More than 300 Learnbay Data science course alumni have secured leadership and management in the data science field in some of the world's most prestigious companies. Read what our alumni have to say about their success from Learnbay."
     Asrc1="/devraj.jpg" 
     AlumniH1="Deveraj" 
     Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."

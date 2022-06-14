@@ -52,7 +52,7 @@ export default function Home() {
         title="Business Analytics"
         spanTitleText="Certification Course"
         desc="
-        Our course is best suited for working professionals with less than one year of work experience in any area who want to start a career in Data Analytics."
+        Our course is best suited for working professionals with less than one year of work experience in any area who want to start a career in Business Analytics."
         src="/banner.png"
         alt="AiMl Header"
       />
@@ -76,6 +76,8 @@ export default function Home() {
         OneLine="Elementary programming classes for Non-technical pros"
         Interview="Specially devised for early pros or aspirant with career gap"
         Fee="65,000"
+        Subscription="1.5 Year Subscription"
+
       />
       <div className="Feature" id="Feature">
         <BoxShape

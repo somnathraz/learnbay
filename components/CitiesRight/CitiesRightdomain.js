@@ -12,17 +12,11 @@ const CitiesRight = ({
     ProgramHead5,
     ProgramHead6,
     ProgramHead8,
-    ProgramHead9,
-    ProgramHead10,
-    ProgramHead11,
     ProgramBot6,
     ProgramHead7,
     ProgramBot8,
     ProgramBot9,
     ProgramBot10,
-    ProgramBot11,
-    ProgramBot12,
-    ProgramBot13,
     ProgramBot1,
     ProgramBot2,
     ProgramBot3,
@@ -30,11 +24,6 @@ const CitiesRight = ({
     ProgramBot32,
     ProgramBot4,
     ProgramBot5,
-    DomainHead1,
-    DomainBot1,
-    DomainBot2,
-    DomainBot3,
-    DomainList1, DomainList2, DomainList3, DomainList4, DomainList5, DomainList6, DomainList7, DomainList8, DomainList9, DomainList10, 
     CertificationHead1,
     CertificationBot1,
     CertificationBot2,
@@ -42,6 +31,7 @@ const CitiesRight = ({
     ModuleHead1,
     ModuleHead2,
     ModuleHead3,
+    ModuleHead4,
     ModuleBot1,
     ModuleBot2,
     ModuleBot3,
@@ -50,7 +40,7 @@ const CitiesRight = ({
      syllabush2, syllabusb2, SyllabusBotlist21, SyllabusBotlist22, SyllabusBotlist23, SyllabusBotlist24, SyllabusBotlist25, SyllabusBotlist26,
      syllabush3, syllabusb3, SyllabusBotlist31, SyllabusBotlist32, SyllabusBotlist33, SyllabusBotlist34, SyllabusBotlist35, SyllabusBotlist36,
      syllabush4, syllabusb4, SyllabusBotlist41, SyllabusBotlist42, SyllabusBotlist43, SyllabusBotlist44, SyllabusBotlist45, SyllabusBotlist46,
-     JobHead1, JobBot1, JobBot2, JobHead2, JobBot3, JobHead4, JobBot4, JobBot5, JobBot6, JobList1, JobList2, JobList3, JobList4, JobList5, JobList6, JobList7,
+     JobHead1, JobBot1, JobBot2, JobHead2, JobBot3, JobHead3, JobHead4, JobBot4, JobBot5, JobBot6, JobList1, JobList2, JobList3, JobList4, JobList5, JobList6, JobList7,
      ProjectsBot1, ProjectsBot2, ProjectsHead1, ProjectsHead2,  AlumniBot1,
      src1, src2, src3, src4, ProjectsH1, ProjectsH2, ProjectsH3, ProjectsH4, Projectsp1, Projectsp2, Projectsp3, Projectsp4,
      Asrc1, AlumniH1, Alumnip1, Asrc2, AlumniH2, Alumnip2, Asrc3, AlumniH3, Alumnip3, Asrc4, AlumniH4, Alumnip4, 
@@ -81,36 +71,7 @@ const CitiesRight = ({
                 <p className={styles.pp}>{ProgramBot9}</p>
                 <p className={styles.pHead}>{ProgramHead8}</p>
                 <p className={styles.pp}>{ProgramBot10}</p>
-                <p className={styles.pHead}>{ProgramHead9}</p>
-                <p className={styles.pp}>{ProgramBot11}</p>
-                <p className={styles.pHead}>{ProgramHead10}</p>
-                <p className={styles.pp}>{ProgramBot12}</p>
-                <p className={styles.pHead}>{ProgramHead11}</p>
-                <p className={styles.pp}>{ProgramBot13}</p>
 
-            </div>
-        </div>
-        <div id="Domain">
-            <div className={styles.CitiesRightSpan}>
-                <span>Domain Specialization</span>
-            </div>
-            <div className={styles.CitiesRightInner}>
-                <p className={styles.pHead}>{DomainHead1}</p>
-                <p className={styles.pp}>{DomainBot1}</p>
-                <p className={styles.pp}>{DomainBot2}</p>
-                <p className={styles.pp}>{DomainBot3}</p>
-                <ul>
-                    <li>{DomainList1}</li>
-                    <li>{DomainList2}</li>
-                    <li>{DomainList3}</li>
-                    <li>{DomainList4}</li>
-                    <li>{DomainList5}</li>
-                    <li>{DomainList6}</li>
-                    <li>{DomainList7}</li>
-                    <li>{DomainList8}</li>
-                    <li>{DomainList9}</li>
-                    <li>{DomainList10}</li>
-                </ul>
             </div>
         </div>
         <div id="Certification">
@@ -130,6 +91,7 @@ const CitiesRight = ({
             </div>
             <div className={styles.CitiesRightInner}>
                 <p className={styles.pHead}>{ModuleHead1}</p>
+                <p className={styles.pHead}>{ModuleHead4}</p>
                 <p className={styles.pp}>{ModuleBot1}</p>
                 <p className={styles.pp}>{ModuleBot2}</p>
                 <p className={styles.pHead}>{ModuleHead2}</p>
@@ -225,6 +187,7 @@ const CitiesRight = ({
                 <p className={styles.pp}>{JobBot5}</p>
                 <p className={styles.pHead}>{JobHead2}</p>
                 <p className={styles.pp}>{JobBot3}</p>
+                <p className={styles.pHead}>{JobHead3}</p>
                 <p className={styles.pp}>{JobBot4}</p>
                 <p className={styles.pp}>{JobBot6}</p>
                 {/* <p className={styles.pHead}>{JobHead4}</p>

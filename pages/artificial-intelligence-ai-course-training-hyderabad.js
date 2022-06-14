@@ -56,9 +56,9 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="IBM Certified Industry-curated Artificial Intelligence program"
-        mTopPara="IBM Certified Industry-curated Artificial Intelligence program"
-        title="Artificial Intelligence Course Training In Mumbai"
+        deskTopPara="Become an AI Expert in Product-based MNC"
+        mTopPara="Become an AI Expert in Product-based MNC"
+        title="Artificial Intelligence(Ai) Course Training In Hyderabad"
         desc="Become a successful data science manager/ leader within 11-months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
         src="/banner.png"
         alt="AiMl Header"
@@ -104,26 +104,23 @@ export default function Home() {
         </div>
         <div className="CitiesRight">
           <CitiesRight
-            ProgramHead1="What is Learnbay’s Job-ready Artificial Intelligence training in Mumbai?"
-            ProgramBot1="Learnbay provides world-class artificial intelligence course training in Mumbai."
-            ProgramBot2="The course is developed by a team of leading experts with an aim to provide the students with full-fledged knowledge of artificial intelligence from both practical and theoretical perspectives. Our top-notch trainers will make sure you understand the concept and will help you implement AI techniques in the real world."
-            ProgramHead3="What makes Learnbay in Mumbai the perfect institute for your AI career?"
-            ProgramBot3="Learnbay is such an institute that provides cutting-edge and research-driven artificial intelligence training for aspirants. Students are taught with the most updated tools and modules, ensuring that they are prepared for the highly competitive real world."
-            ProgramBot31="Students get the opportunity to talk with mentors during live sessions to clear up all their queries."
-            ProgramBot32="It also offers a 1- 3 year Flexi membership (based on course) for online artificial intelligence certification courses in Mumbai, allowing students to learn at their own pace but through completely interactive, live sessions."
-            ProgramBot4="Learnbay Artificial intelligence courses ensure guaranteed jobs along with money-back assurance."
-            ProgramHead4="Available Artificial Intelligence Certification Courses by Learnbay in Canada:"
+            ProgramHead1="What is Learnbay Artificial Intelligence(AI) Course Training in Hyderabad?"
+            ProgramBot1="Learnbay is a very professional AI training center in Hyderabad. It provides industry-recognized artificial intelligence courses with the option to choose from a myriad of domain electives. This IBM artificial intelligence course stands out from the crowd because it combines advanced study packages with capstone projects. As a result, the curriculum in the modules is current and relevant to industry needs."
+            ProgramBot2="Our mentors provide the greatest artificial intelligence training to students with the help of live MNC and capstone projects. Learnbay artificial intelligence courses with placement is a fantastic initiative that has helped many students get great jobs all over Hyderabad."
+            ProgramBot3="Using a balanced combination of existing data science and artificial intelligence methodologies and industry-specific best practices, you'll learn how to apply AI to real-world business challenges through the Learnbay artificial intelligence course."
+            ProgramBot31="Learnbay's major goal is to equip candidates in Hyderabad with high-quality data science and AI training. Artificial intelligence training will be delivered to you with domain-specific modules precisely crafted by industry specialists. They also offer blended learning sessions and live doubt clearing sessions. It is the greatest AI course for working professionals since the modules are affordable and flexible, with the option of 0% interest EMI. Overall, this IBM artificial intelligence course covers everything that a student looking for the best AI course training in Hyderabad would want to learn."
+            ProgramHead4="The present Artificial Intelligence Courses available at Learnbay:"
             ProgramBot5="Foundational Data Science and AI program,
             Advanced-Data Science and AI program with Domain Specialization,
             Artificial Intelligence and Machine Learning Program with Domain Specialization,
             Data Science and AI Program for Managers and Leaders,
-            AI and Data Science Course with Job Guarantee or Money back."
+            AI and Data Science Course with Job Guarantee or Money back.
+            "
 
             DomainHead1="Why Domain Specialization?"
-            DomainBot1="Domain-focused Artificial intelligence courses are the ultimate key to AI career success today. Domain specialization plays an important role in the artificial intelligence workplace. Since the things you learn can be diverse, it helps you concentrate on one area so the AI solutions can be applied with the most of its efficacy and processing power to that specific field."
-            DomainBot2="Such kind of domain-focused learning speeds up the learning progress and improves the accuracy of the production of an AI application/solution. Moreover, it's impossible to provide proper solutions without domain knowledge, so we have our AI learning modules based on domain knowledge to teach our students accordingly."
-            DomainBot3="As a result, it is important to choose domain-specific AI courses to increase your chances of getting hired. At Learnbay, you get domain-specialized Artificial Intelligence Training. Based on your experience, you can select the following domain(s):"
-            DomainList1="HR, Sales, and Meaning" 
+            DomainBot1="Domain specialization concentrates your efforts on a single area of expertise to stand out from the crowded artificial intelligence job market. Furthermore, domain experience is essential to being a competent artificial intelligence professional. Artificial intelligence experts or application developers have a wide range of responsibilities. Thus they must have extensive knowledge of particular business operations in order to provide the most profitable artificial intelligence-powered solution. To land your dream career, you should take domain-specific AI courses."
+            DomainBot3="The domain electives for students at Learnbay:"
+            DomainList1="HR, Sales, and Marketing" 
             DomainList2="Energy, oil, and Gas" 
             DomainList3="Mechanical, manufacturing, and telecom" 
             DomainList4="Pharmaceutical and clinical research" 
@@ -134,13 +131,13 @@ export default function Home() {
             DomainList9="Supply chain and e-commerce" 
             DomainList10="Banking, Finance, and Marketing Domain"
 
-            CertificationBot1="All the five artificial intelligence courses available at Learnbay in Mumbai provide students with an IBM certificate upon completion of the AI courses. This IBM accreditation assures that you are acknowledged as an expert in artificial intelligence. Aside from this, you also get micro AI certification by IBM, such as machine learning with python, deep learning fundamentals, and more. According to your selected course, you'll receive 1 to 8 certificates from IBM. Following that, you will also get an AI Project experience certificate once you complete the capstone project."
+            CertificationBot1="Upon completing a course in artificial intelligence with placement from Learnbay, you will receive IBM certifications. Depending on your course, you will obtain one to eight certificates. Furthermore, upon completing capstone projects, you will receive an IBM project experience certificate."
+            CertificationBot2="By partnering with IBM and a series of MNCs as well as startups, Learnbay has attained a significant milestone. Having this IBM certification on your resume will surely help you land a high-paying artificial intelligence job at one of the world's renowned corporations. Over 10,000 students have finished our Artificial Intelligence course, allowing them to pursue rewarding AI and machine learning professions across Hyderabad."
             src="/Managers-4.jpeg"
 
-            ModuleBot1="Learnbay’s artificial intelligence and machine learning course includes 400+ hours of interactive live sessions led by FAANG Experts. In contrast, the foundational and advanced AI certification course has nearly 200 hours of classes. All of Learnbay’s AI courses are conducted live and interactive. Students can attend multiple classes with multiple instructors. Our LMS is constantly updated to include the most recent version of courses and to meet industry requirements."
-            ModuleBot2="In this course, you will learn about the basic concepts of AI, which include search algorithms, logical reasoning, graph theory, and many more. You will also get to understand how it's implemented in real-life use cases."
-            ModuleHead2="Support for Non-programmers:"
-            ModuleBot3="Non-programmers can now learn to code with module 0 included in all of our AI courses. This module includes 6-8 hours of live training on the fundamentals of python and R programming for artificial intelligence."
+            ModuleBot1="At Learnbay, we're committed to providing the highest-quality modules to prospective students. As a result, we've created different IBM artificial intelligence courses to keep up with the market's ever-changing needs. Our artificial intelligence training courses in Hyderabad come with variable learning modules based on the aspirant’s current career stages, earlier educational ground, and future career goals. The most advanced ML and AI certification courses for tech professionals consist of 400 hours long modules, whereas our Foundation and Advanced Data Science and AI courses are 200+ hours long. All include live interactive sessions. Students can attend many sessions with different teachers during the training in all of our courses. Learnbay also offers a 1 to 3-year Flexi membership that allows students to learn at their own pace."
+            ModuleBot2="Each of our modules is dedicated to the domains you have chosen. It includes the most popular AI tools, advanced probability, Numpy, Pandas, Matploitlip, Deep Learning, and MongoDB, among other tools and techniques."
+            ModuleBot3="The course module also designed an additional 6-8 hours of basic programming sessions for non-technical students."
 
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
@@ -177,33 +174,28 @@ export default function Home() {
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
 
-    JobHead1="Artificial Intelligence Interview preparation in Mumbai:"
-    JobBot1="The artificial intelligence courses offered by Learnbay guarantee MNC/FAANG interviews for its students. There is a specific artificial intelligence course in Mumbai that even refunds their course fees in case of unsuccessful placement."
-    JobBot2="Learnbay’s career coaches ensure that you are well prepared to land a high-paying job in the field of artificial intelligence and ML. They guide you with everything from resume preparation and soft skills training to conducting mock interviews. They make your portfolio up-to-date and appealing, as well as refer your profile to potential employers."
-    JobBot5="Currently, more than 1000 Learnbay alumni are proudly working in various Artificial Intelligence and ML job roles across Mumbai and all over India. We also have a network of 500+ hiring partners like TCS, JP Morgan, and IBM, amongst others."
-    JobHead2="Artificial intelligence and its demand in Mumbai:"
-    JobBot3="Artificial intelligence (AI) is a scientific field that emphasizes the creation of intelligent machines that work and react like humans. Computers have been used since rule-based systems to help in human decision-making, but AI research focuses on creating machines that function independently from human beings."
-    JobBot4="Lately, AI is becoming a crucial part of the IT world, with dozens of improvements and developments being adopted every year. Almost every industry is trying to incorporate AI and ML into their software systems in order to survive in the cut-throat competition."
-    JobBot6="As a result, it is becoming a fascinating career for future buddies. There are jobs in artificial intelligence and data science everywhere these days, and Learnbay artificial intelligence training courses will certainly start you off on a path to a successful AI career."
+    JobBot1="Learnbay's career consultants will assist you in developing your CV and portfolio. Learnbay also refers your resume and portfolio to other companies. Learbay guarantees top-tier companies in Hyderabad will interview you. You'll also get exposure to mock interviews that make you prepare for difficult real-life interviews."
+    JobBot2="If you do not get hired within six months of finishing the course, the Job or Money-Back Guarantee program ensures that you will receive a complete return of your AI course fees."
+    JobHead2="Why Is  Artificial Intelligence a promising career in Hyderabad?"
+    JobBot3="Artificial Intelligence is a broad term that refers to the process of having machines and computers act like humans without requiring human interaction. As a result of the ongoing expansion of this field's knowledge base, it is becoming a popular career choice. Many IT organizations are built on the foundation of Artificial intelligence and machine learning. A massive global phenomenon is poised to take over a variety of industries. As a result, the need for artificial intelligence expertise has skyrocketed. In Hyderabad and across India, the next several years will be fruitful for AI experts."
+    JobBot4="AI engineer, Machine Learning Engineer, Robotics Engineer, and a variety of additional roles are all available in the field of Artificial Intelligence."
 
-    ProjectsHead1="Live real-world Artificial Intelligence Projects:"
-    ProjectsBot1="Learnbay’s exclusive feature of cloud lab gives learners access to various artificial intelligence projects from MNCs. This enables them to get in-depth knowledge about the latest AI updates from major companies and AI experts. In the Learnbay AI training courses, you get to select around 8-15 live projects based on your domains."
-    ProjectsHead2="Industry Exclusive Capstone AI Projects"
-    ProjectsBot2="Once you get prepared for handling real-world data to offer effective solutions to trending business problems via live MNC case studies, you get the chance to execute your individual project. According to the course you choose, you get the scope of doing 1 to 3  capstone AI projects. Below are some of the Learnbay AI projects done by our students:"
+    ProjectsBot1="Learnbay instructors ensure that students keep applying their newly acquired knowledge to various artificial intelligence problems throughout the course. Its one-of-a-kind cloud lab feature allows students to interact with real-time artificial intelligence projects from major corporations. You will get the opportunity to work on 15+ active real-time projects in your chosen domain during this course (s). The artificial intelligence certification courses in Hyderabad consist of 70% hands-on training sessions, within which you get exposure to live projects. This can help you study more effectively. You'll be working on new AI  Capstone projects at the end of each learning module, which will add to your project portfolio and help you land a successful  AI career."
     src1="/SAMSUNG.png"
     ProjectsH1="Samsung Health Monitor App"
-    Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is the accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
+    Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
     src2="/IBM.png"
     ProjectsH2="IBM HR Analytics"
-    Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities."
+    Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.
+    "
     src3="/AMAZON.png"
     ProjectsH3="Amazon Customer Review Analysis"
-    Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
+    Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews."
     src4="/BMW.png"
     ProjectsH4="BMW Used Car Price Optimization"
-    Projectsp4="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
+    Projectsp4="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
 
-    AlumniBot1="Over 1000 students who have completed our artificial intelligence and data science course have secured a rewarding career within 2-3 months of course completion. Even 3 out of 10 receive their offers letter while at the stage of 85% course completion. Also, due to the 250+  hiring partners, our candidates enjoy VIP access to most of the MNCs and fast-growing startups across Mumbai as well as all over India."
+    AlumniBot1="In the past six years, Learnbay has created a number of exceptionally skilled AI experts who are able to lead the highly profitable progress of the industry in which they work. Learnbay's Artificial Intelligence program guarantees job placement for students, and over 10,000 students have already been placed in major startups and MNCs around Hyderabad. Below are a few success stories our students have shared with us:"
     Asrc1="/devraj.jpg" 
     AlumniH1="Deveraj" 
     Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."
