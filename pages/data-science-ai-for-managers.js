@@ -56,7 +56,7 @@ export default function Home() {
         title="Data Science and Artificial Intelligence"
         spanTitleText="For Managers and Leaders"
         desc="Our course is best suited for professionals looking to change their current domain and start a New Career in Data Science and Artificial Intelligence in senior and leadership roles."
-        src="/banner.png"
+        src="/manager-and-l.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

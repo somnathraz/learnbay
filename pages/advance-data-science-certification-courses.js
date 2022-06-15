@@ -55,7 +55,7 @@ export default function Home() {
         title="Advanced DS and AI Course"
         spanTitleText="with Domain Specialization"
         desc="Learnbay offers Industry Accredited Data Science Certification Course with DOMAIN ELECTIVE Option.This foundation program is suitable for professionals having more than 1+ years of work experience in any programming or non programming domain."
-        src="/banner.png"
+        src="/Advance-ds.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

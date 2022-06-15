@@ -56,7 +56,7 @@ export default function Home() {
         title="Artificial Intelligence and ML Program"
         spanTitleText="With Domain Specialization Training"
         desc="Artificial intelligence Certification Course is designed with Domain Electives and Project Expertise for working professionals having 4+ years of experience in core tech and programming domain"
-        src="/banner.png"
+        src="/machine-learning.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

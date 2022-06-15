@@ -55,7 +55,7 @@ export default function Home() {
         spanTitleText="with 100% Job Guarantee"
         desc="
         The course has been designed specifically for working professionals with 2 to 8 years of experience who choose to advance their careers in Data Science and AI, and it comes with a 100% Job Guarantee Data Science & AI Certification Course or money back policy."
-        src="/banner.png"
+        src="/job-gurantee.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

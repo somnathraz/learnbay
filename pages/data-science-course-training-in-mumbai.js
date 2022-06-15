@@ -59,7 +59,7 @@ export default function Home() {
         mTopPara="Industry- Specific Capstone Certified by IBM"
         title="Data Science Course Training in Mumbai"
         desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
-        src="/banner.png"
+        src="/Advance-ds.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

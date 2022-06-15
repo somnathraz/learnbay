@@ -53,7 +53,7 @@ export default function Home() {
         spanTitleText="Certification Course"
         desc="
         Our course is best suited for working professionals with less than one year of work experience in any area who want to start a career in Data Analytics."
-        src="/banner.png"
+        src="/data-analytics.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

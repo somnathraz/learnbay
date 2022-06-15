@@ -83,11 +83,11 @@ const Footer = () => {
         <div className={styles.FooterDiv} style={{borderTop: "1px solid", borderBottom: "1px solid", borderColor:"#ffffff50"}}>
           <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Pune</p>
-            <a href="/"><p className={styles.FooterInnerli}>Data Science Course Training in Pune</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>Machine learning course training in pune</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>data analytics course training in pune</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>business analytics course training in pune</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>artificial intelligence ai course training pune</p></a>
+            <a href="/data-science-course-training-in-pune"><p className={styles.FooterInnerli}>Data Science Course Training in Pune</p></a>
+            <a href="/machine-learning-course-training-in-pune"><p className={styles.FooterInnerli}>Machine learning course training in pune</p></a>
+            <a href="/data-analytics-course-training-in-pune"><p className={styles.FooterInnerli}>data analytics course training in pune</p></a>
+            <a href="/business-analytics-course-training-in-pune"><p className={styles.FooterInnerli}>business analytics course training in pune</p></a>
+            <a href="/artificial-intelligence-ai-course-training-pune"><p className={styles.FooterInnerli}>artificial intelligence ai course training pune</p></a>
 
           </div>
           <div className={styles.FooterDivInner}>
@@ -101,19 +101,19 @@ const Footer = () => {
             </div>
             <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Chennai</p>
-            <a href="/"><p className={styles.FooterInnerli}>Data Science Course Training in Chennai</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>Machine learning course training in Chennai</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>data analytics course training in Chennai</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>business analytics course training in Chennai</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>artificial intelligence ai course training Chennai</p></a>
+            <a href="/data-science-course-training-in-chennai"><p className={styles.FooterInnerli}>Data Science Course Training in Chennai</p></a>
+            <a href="/machine-learning-course-training-in-chennai"><p className={styles.FooterInnerli}>Machine learning course training in Chennai</p></a>
+            <a href="/data-analytics-course-training-in-chennai"><p className={styles.FooterInnerli}>data analytics course training in Chennai</p></a>
+            <a href="/business-analytics-course-training-in-chennai"><p className={styles.FooterInnerli}>business analytics course training in Chennai</p></a>
+            <a href="/artificial-intelligence-ai-course-training-chennai"><p className={styles.FooterInnerli}>artificial intelligence ai course training Chennai</p></a>
             </div>
           <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Canada</p>
-            <a href="/"><p className={styles.FooterInnerli}>Data Science Course Training in Canada</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>Machine learning course training in Canada</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>data analytics course training in Canada</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>business analytics course training in Canada</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>artificial intelligence ai course training Canada</p></a>
+            <a href="/data-science-course-training-in-canada"><p className={styles.FooterInnerli}>Data Science Course Training in Canada</p></a>
+            <a href="/machine-learning-course-training-in-canada"><p className={styles.FooterInnerli}>Machine learning course training in Canada</p></a>
+            <a href="/data-analytics-course-training-in-canada"><p className={styles.FooterInnerli}>data analytics course training in Canada</p></a>
+            <a href="/business-analytics-course-training-in-canada"><p className={styles.FooterInnerli}>business analytics course training in Canada</p></a>
+            <a href="/artificial-intelligence-ai-course-training-canada"><p className={styles.FooterInnerli}>artificial intelligence ai course training Canada</p></a>
           </div>
         </div>
         <div className={styles.FooterDiv}>
@@ -144,11 +144,11 @@ const Footer = () => {
             </div>
           <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Delhi</p>
-            <a href="/"><p className={styles.FooterInnerli}>Data Science Course Training in Delhi</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>Machine learning course training in Delhi</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>data analytics course training in Delhi</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>business analytics course training in Delhi</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>artificial intelligence ai course training Delhi</p></a>
+            <a href="/data-science-course-training-in-delhi"><p className={styles.FooterInnerli}>Data Science Course Training in Delhi</p></a>
+            <a href="/machine-learning-course-training-in-delhi"><p className={styles.FooterInnerli}>Machine learning course training in Delhi</p></a>
+            <a href="/data-analytics-course-training-in-delhi"><p className={styles.FooterInnerli}>data analytics course training in Delhi</p></a>
+            <a href="/business-analytics-course-training-in-delhi"><p className={styles.FooterInnerli}>business analytics course training in Delhi</p></a>
+            <a href="/artificial-intelligence-ai-course-training-delhi"><p className={styles.FooterInnerli}>artificial intelligence ai course training Delhi</p></a>
           </div>
         </div>
         <div className={styles.FooterBottom}>

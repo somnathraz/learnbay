@@ -46,11 +46,12 @@ const CitiesRight = ({
     ModuleBot2,
     ModuleBot3,
     ModuleBot4,
+    ModuleBot41,
      syllabush1, syllabusb1, SyllabusBotlist11, SyllabusBotlist12, SyllabusBotlist13, SyllabusBotlist14, SyllabusBotlist15, SyllabusBotlist16,
      syllabush2, syllabusb2, SyllabusBotlist21, SyllabusBotlist22, SyllabusBotlist23, SyllabusBotlist24, SyllabusBotlist25, SyllabusBotlist26,
      syllabush3, syllabusb3, SyllabusBotlist31, SyllabusBotlist32, SyllabusBotlist33, SyllabusBotlist34, SyllabusBotlist35, SyllabusBotlist36,
      syllabush4, syllabusb4, SyllabusBotlist41, SyllabusBotlist42, SyllabusBotlist43, SyllabusBotlist44, SyllabusBotlist45, SyllabusBotlist46,
-     JobHead1, JobBot1, JobBot2, JobHead2, JobBot3, JobHead4, JobBot4, JobBot5, JobBot6, JobList1, JobList2, JobList3, JobList4, JobList5, JobList6, JobList7,
+     JobHead1, JobBot1, JobBot2, JobHead2, JobBot7, JobHead3, JobBot3, JobHead4, JobBot4, JobBot5, JobBot6, JobList1, JobList2, JobList3, JobList4, JobList5, JobList6, JobList7,
      ProjectsBot1, ProjectsBot2, ProjectsHead1, ProjectsHead2,  AlumniBot1,
      src1, src2, src3, src4, ProjectsH1, ProjectsH2, ProjectsH3, ProjectsH4, Projectsp1, Projectsp2, Projectsp3, Projectsp4,
      Asrc1, AlumniH1, Alumnip1, Asrc2, AlumniH2, Alumnip2, Asrc3, AlumniH3, Alumnip3, Asrc4, AlumniH4, Alumnip4, 
@@ -136,6 +137,7 @@ const CitiesRight = ({
                 <p className={styles.pp}>{ModuleBot3}</p>
                 <p className={styles.pHead}>{ModuleHead3}</p>
                 <p className={styles.pp}>{ModuleBot4}</p>
+                <p className={styles.pp}>{ModuleBot41}</p>
                 <p className={styles.pp}>Module Details:</p>
                 <div className={styles.SyllabusBot}>
                     <div className={styles.SyllabusBot1}>
@@ -227,6 +229,8 @@ const CitiesRight = ({
                 <p className={styles.pp}>{JobBot3}</p>
                 <p className={styles.pp}>{JobBot4}</p>
                 <p className={styles.pp}>{JobBot6}</p>
+                <p className={styles.pHead}>{JobHead3}</p>
+                <p className={styles.pp}>{JobBot7}</p>
                 {/* <p className={styles.pHead}>{JobHead4}</p>
                 <p className={styles.pp}>{JobBot4}</p>
                 <ul>
