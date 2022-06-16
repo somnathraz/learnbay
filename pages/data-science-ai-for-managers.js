@@ -55,7 +55,7 @@ export default function Home() {
         mTopPara="Project Management Capstones Certified by IBM"
         title="Data Science and Artificial Intelligence"
         spanTitleText="For Managers and Leaders"
-        desc="Our course is best suited for professionals looking to change their current domain and start a New Career in Data Science and Artificial Intelligence in senior and leadership roles."
+        desc="Become a successful data science manager/ leader within 11-months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects."
         src="/manager-and-l.png"
         alt="AiMl Header"
       />
@@ -72,12 +72,12 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="8 Unique IBM certifications on course completion."
-        WeekendBatchDate="Industrial Leadership Curated Training."
-        Project="250+ Employer-Alliance & 100% Interview Guarantee."
-        Classes="Exclusive for Tech Leads, Team Leads, and Managers."
-        OneLine="Domain-paced Full Stack Learning.."
-        Interview="Domain-paced Full Stack Learning.."
+        WeekdayBatchDate="8 micro-skill certificates by IBM."
+        WeekendBatchDate="Special data science modules of PM"
+        Project="12+ domain electives to choose from "
+        Classes="Specially devised for leadership-level pros"
+        OneLine="15 live industry projects & 2 fresh Capstones Projects"
+        Interview="Assured Interview calls from 250+ recruiter network"
         Fee="95,000"
         Subscription="3 Year Subscription"
       />
@@ -198,6 +198,8 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
+
     />
       <ToolsCovered 
       src="/tools-2.png"

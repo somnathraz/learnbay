@@ -166,6 +166,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf"
+
 
     JobHead1="What is the Job Assist Program in Machine learning Certification Course in Canada at Learnbay?"
     JobBot1="Job Assistance in Machine Learning certification includes 1:1 career counseling, resume preparation, and soft skills training workshops. Additionally, personalized mock interviews are conducted in accordance with the candidate experience standards of major MNCs across Canada. This cornerstone of Learnbay has benefitted hundreds of machine learning aspirants in confidently cracking interviews and securing top positions in major tech corporations like JP Morgan, Adobe, and Salesforce. Further, Learnbay has a network of 250+ hiring partners."

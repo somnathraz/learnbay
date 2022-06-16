@@ -155,6 +155,8 @@ export default function Home() {
     SyllabusBotlist44="Web Scrapping"
     SyllabusBotlist45="Fake News Detection"
     SyllabusBotlist46="Movie Recommendation"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/6th+DA.pdf"
+
 
     JobHead1="How does Learnbay help students by assisting them in placement procedures?"
     JobBot1="Learnbay always works hard to provide the best for its students in the data analytics program. We conduct mock interviews before students attend any real data analytics interviews. This feature is a part of our data analytics training program. Learnbay faculties even help students create a good resume and technical and soft skill training. Learnbay has tremendous goodwill with other companies that have led us to offer better placement experiences to our students. Over 700+ Learnbay alumni are working in and with industry leaders like TCS, EY, MERCEDES, DELOITTE, JP MORGAN, and many more."

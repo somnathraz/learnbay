@@ -55,7 +55,7 @@ export default function Home() {
         mTopPara="Industrial Capstone Certificate by IBM"
         title="Artificial Intelligence and ML Program"
         spanTitleText="With Domain Specialization Training"
-        desc="Artificial intelligence Certification Course is designed with Domain Electives and Project Expertise for working professionals having 4+ years of experience in core tech and programming domain"
+        desc="Be eligible to work as an AI/ ML expert in MNC/FAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
         src="/machine-learning.png"
         alt="AiMl Header"
       />
@@ -72,12 +72,12 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="6 unique IBM certifications on course completion."
-        WeekendBatchDate="IT-Domain-Oriented Full Stack Learning."
-        Project="250+ Employer-Alliance & 100% Interview Guarantee."
-        Classes="Advanced AI & ML Industry curated Training."
-        OneLine="Specially devised for experienced technical professionals."
-        Interview="Specially devised for experienced technical professionals."
+        WeekdayBatchDate="6 IBM AI/ML micro-skill certificates."
+        WeekendBatchDate="Specially devised for techies"
+        Project="IT-specific domain-Oriented Full Stack Learning"
+        Classes="Advanced AI & ML Industry curated Training"
+        OneLine="12 live industry projects & 2 fresh Capstones"
+        Interview="Assured Interview calls from 250+ recruiter network"
         Fee="95,000"
         Subscription="3 Year Subscription"
 
@@ -195,6 +195,8 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf"
+
     />
       <ToolsCovered 
       src="/tools-2.png"

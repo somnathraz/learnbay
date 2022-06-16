@@ -181,6 +181,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf"
+
 
     JobHead1="How does the Job assistance program work at Learnbay in Chennai?"
     JobBot1="Learnbay’s machine learning job placement program is an assistance provided by various sources to job seekers from all walks of life. Job assistance in machine learning certification includes career counseling, talent assessment, and communication assessment. Moreover, it involves assistance with resume writing, portfolio building, and 1:1 mock interviews as per the candidate screening standard of top MNCs in Chennai."

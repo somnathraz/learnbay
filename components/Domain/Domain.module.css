@@ -47,6 +47,11 @@
 }
 .bottom {
   border-left: 5px solid #6294d6;
+  margin-bottom: 15px;
+}
+
+.bottom1 {
+  border-left: 5px solid #d66262;
   margin-bottom: 0px;
 }
 .right {

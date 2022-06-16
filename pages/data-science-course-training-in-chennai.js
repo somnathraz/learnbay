@@ -175,6 +175,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf"
+
 
     JobHead1="Interview preparation in Learnbay’s IBM data science courses, Chennai"
     JobBot1=" Learnbay’s data science curriculum includes a job assistance program for its students."

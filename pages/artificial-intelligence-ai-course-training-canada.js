@@ -176,6 +176,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
+
 
     JobHead1="What is the Job Assist Program in the Learnbay AI courses?"
     JobBot1="Learnbay career coaches help students in developing impressive portfolios as well as refer their profiles to other renowned companies. They ensure you get guaranteed interviews in top Canadian firms. Besides this, you’ll also be provided with multiple mock interviews for AI and ML positions to help you in facing real-world interviews."

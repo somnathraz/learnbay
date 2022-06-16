@@ -156,6 +156,8 @@ export default function Home() {
     SyllabusBotlist44="Web Scrapping"
     SyllabusBotlist45="Fake News Detection"
     SyllabusBotlist46="Movie Recommendation"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/6th+DA.pdf"
+
 
     JobBot1="Learnbay aims to produce high-quality data analysts across Chennai. Our job assistance program includes mock interviews for candidates seeking jobs in data analytics roles. We also guide students with resume preparation, technical skills, and soft skill grooming sessions. "
     JobBot2="Our strong ties with MNCs and IBM have helped many students get placed as data analysts in the top leading firms with a minimum possible timeline. After the course completion, approx 700+ Learnbay students have already landed high-paying positions in Amazon, TCS, EY, JP Morgan, and Oracle as Multinational corporations across Chennai. "

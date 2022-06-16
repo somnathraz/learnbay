@@ -154,6 +154,8 @@ export default function Home() {
     SyllabusBotlist44="Customer Churn Prediction"
     SyllabusBotlist45="Inventory Demand Forecasting"
     SyllabusBotlist46="Retain Analytics"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/7th+BA.pdf"
+
 
     JobHead1="How is the job orientation program associated with Learnbay business analytics training in Mumbai?"
     JobBot1="The concerned business analytics course equips more than four devoted sessions on job orientation. Such sessions include scope discussion available for industry competent business analytics professionals in Mumbai as well as abroad. Apart from that, you will find sessions on the mock interview, resume help, and online project portfolio management guidance. The Learnbay business analytics job orientation sessions aim to make you eligible for cracking any business analytics job interview at the first chance."

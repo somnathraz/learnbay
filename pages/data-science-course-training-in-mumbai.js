@@ -177,6 +177,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf"
+
 
     JobHead1="Data Science Interview Preparation in Mumbai"
     JobBot1="Learnbay Data science classes help prepare for interviews. Several company-specific mock interviews ensure our students' confidence at the interview table. Learnbay instructors keep your CV and portfolio competent to attract recruiters. As stated previously, you will receive domain-specific full-stack data scientist training, so your interview preparation will also experience the reflection of the same."

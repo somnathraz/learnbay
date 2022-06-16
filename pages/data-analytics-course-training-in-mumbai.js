@@ -161,6 +161,8 @@ export default function Home() {
     SyllabusBotlist44="Web Scrapping"
     SyllabusBotlist45="Fake News Detection"
     SyllabusBotlist46="Movie Recommendation"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/6th+DA.pdf"
+
 
     JobHead1="How is the job orientation program associated with Learnbay business analytics training in Mumbai?"
     JobBot1="Learnbay is dedicated to providing the most comprehensive data analytics training in Mumbai."

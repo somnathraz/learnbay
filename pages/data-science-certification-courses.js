@@ -52,8 +52,7 @@ export default function Home() {
         mTopPara="Exclusive Industrial Project-based Training"
         title="Data Science and AI"
         spanTitleText="Foundation Course"
-        desc="
-        Learnbay offers Industry Accredited Data Science Certification Course.This foundation program is suitable for professionals having more than 1+ years of work experience in any programming or non programming domain."
+        desc="This IBM Collaborated Data Science Course is for tech and non-tech professionals. This program guarantees a smooth transition into Junior Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions"
         src="/banner.png"
         alt="AiMl Header"
       />
@@ -71,16 +70,13 @@ export default function Home() {
       </div>
       <GetHired 
         WeekdayBatchDate="Specially devised for early professionals"
-        WeekendBatchDate="
-        Specially devised for early professionals"
-        // WeekdayTime="Monday – Friday – 2 hours every day"
-        // WeekendTime="Saturday & Sunday – 3.5 hours every day"
-        Project="Basic coding class for Non-technical beginners"
-        Classes="Industry curated training via real-world cases and capstones"
-        OneLine="Career guidance from industrial experts"
-        Interview="250+ employer-Alliance 100% Interview Guarantee"
+        WeekendBatchDate="Special coding classes for non-programmers"
+        Project="Learn Directly from MNC experts"
+        Classes="8 live industry projects + 1 fresh Capstone"
+        OneLine="Completely live and interactive learning"
+        Interview="100% interview call guarantee "
         Fee="65,000"
-        Subscription="3 Year Subscription"
+        Subscription="1.5 Year Subscription"
       />
       <div className="Feature" id="Feature">
         <BoxShape
@@ -190,6 +186,8 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/1st+DSAI+Foundation.pdf"
+
     />
       <ToolsCovered 
       src="/tools-1.png"

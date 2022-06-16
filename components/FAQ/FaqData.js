@@ -1156,7 +1156,7 @@ export const PaymentFaqData6 = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 60,000 + GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7.5K/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -1320,7 +1320,7 @@ export const PaymentFaqData7 = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 65,000/- + GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8.5K/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {

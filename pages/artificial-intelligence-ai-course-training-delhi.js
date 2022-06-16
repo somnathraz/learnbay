@@ -174,6 +174,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
+
 
     JobHead1="What is the process of job assistance in Learnbay AI courses?"
     JobBot1="The career consultants at Learnbay will help you improve your CV and portfolio. Your CV and portfolio are also sent to other firms through Learnbay. Learnbay assures that you will get interviewed by top-tier organizations in Delhi. You'll also have the opportunity to participate in simulated interviews, which will help you prepare for difficult real-life interviews."

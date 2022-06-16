@@ -172,6 +172,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf"
+
 
     JobBot1="The Data science curriculum at Learnbay includes a job placement program. Students will receive CV preparation and soft skills training sessions by the end of the IBM Data science course. Our students gain confidence before the interviews by participating in various company-specific mock interviews. Furthermore, our representatives verify that your portfolio meets industry standards and appeals to hiring managers. In Hyderabad, you can also take a Data science course with a money-back guarantee. You can claim a Data science course fee refund if you cannot find a Data science career role within six months of completing the course."
     JobBot2="We have collaborated with lead organizations like IBM, TCS, EY, Accenture, and others. Over 1000 Learnbay alumni have already started working in data science roles all over Hyderabad."

@@ -51,8 +51,7 @@ export default function Home() {
         mTopPara="In Collaboration with IBM"
         title="Data Analytics"
         spanTitleText="Certification Course"
-        desc="
-        Our course is best suited for working professionals with less than one year of work experience in any area who want to start a career in Data Analytics."
+        desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
         src="/data-analytics.png"
         alt="AiMl Header"
       />
@@ -65,16 +64,16 @@ export default function Home() {
         p3="1:1"
         p33="Career Support"
         p4="No Cost EMI"
-        p44="₹ 7.5k/month (9 Months)"
+        p44="₹ 11.8k/month (6 Months)"
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Best in class industrial analytical training with live projects."
-        WeekendBatchDate="Basic coding class for Non-Technical beginners."
-        Project="250+ Employer-Alliance & 100% Interview Guarantee."
-        Classes="DA industry curated training from MNC experts."
-        OneLine="Career guidance from industrial experts"
-        Interview="Course Completion Certificate from IBM"
+        WeekdayBatchDate="Best in class industrial training with live projects"
+        WeekendBatchDate="250+ employer allowance & 100% interview guarantee"
+        Project="Career Guidance from industrial experts"
+        Classes="Basic coding classes for non-technical pros"
+        OneLine="Live & interactive Training by industry experts"
+        Interview="Course completion certificate from IBM"
         Fee="60,000"
         Subscription="1.5 Year Subscription"
 
@@ -187,6 +186,8 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/6th+DA.pdf"
+
     />
       <ToolsCovered 
       src="/tools-da.png"

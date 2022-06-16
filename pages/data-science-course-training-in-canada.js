@@ -173,6 +173,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf"
+
 
     JobHead1="Job Assurance Program at Learnbay Data Science and AI"
     JobBot1="By the end of the IBM data science certification, students will get support for job placement which includes, Resume preparation, Soft skills training as well as mock interviews. These company-specific practice interviews will boost our trainee’s confidence ahead of their interviews."

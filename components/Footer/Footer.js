@@ -35,12 +35,12 @@ const Footer = () => {
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Courses</p>
           <a href="/data-science-certification-courses"><p className={styles.FooterInnerli}>Data Science and AI Foundation Program</p></a>
-          <a href="/advance-ai-ml-certification"><p className={styles.FooterInnerli}>Advanced DS and AI Program with Domain Specialization</p></a>
-          <a href="/data-science-ai-cert-for-managers-leaders"><p className={styles.FooterInnerli}>Artificial Intelligence and ML Program With Domain Specialization Training</p></a>
-          <a href="/"><p className={styles.FooterInnerli}>Data Science and Artificial Intelligence For Managers and Leaders</p></a>
-          <a href="/"><p className={styles.FooterInnerli}>Data science and AI Program with 100% Job Guarantee</p></a>
-          <a href="/"><p className={styles.FooterInnerli}>Business Analytics Certification Program</p></a>
-          <a href="/"><p className={styles.FooterInnerli}>Data Analytics Certification Program</p></a>
+          <a href="/advance-data-science-certification-courses"><p className={styles.FooterInnerli}>Advanced DS and AI Program with Domain Specialization</p></a>
+          <a href="/artificial-intelligence-certification-course"><p className={styles.FooterInnerli}>Artificial Intelligence and ML Program With Domain Specialization Training</p></a>
+          <a href="/data-science-ai-for-managers"><p className={styles.FooterInnerli}>Data Science and Artificial Intelligence For Managers and Leaders</p></a>
+          <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><p className={styles.FooterInnerli}>Data science and AI Program with 100% Job Guarantee</p></a>
+          <a href="/business-analytics-certification-course"><p className={styles.FooterInnerli}>Business Analytics Certification Program</p></a>
+          <a href="/data-analytics-certification-course"><p className={styles.FooterInnerli}>Data Analytics Certification Program</p></a>
 
           </div>
           <div className={styles.FooterDivInner}>
@@ -119,11 +119,11 @@ const Footer = () => {
         <div className={styles.FooterDiv}>
           <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Bangalore</p>
-            <a href="/"><p className={styles.FooterInnerli}>Data Science Course Training in Bangalore</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>Machine learning course training in Bangalore</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>data analytics course training in Bangalore</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>business analytics course training in Bangalore</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>artificial intelligence ai course training Bangalore</p></a>
+            <a href="/data-science-course-training-in-bangalore"><p className={styles.FooterInnerli}>Data Science Course Training in Bangalore</p></a>
+            <a href="/machine-learning-course-training-in-bangalore"><p className={styles.FooterInnerli}>Machine learning course training in Bangalore</p></a>
+            <a href="/data-analytics-course-training-in-bangalore"><p className={styles.FooterInnerli}>data analytics course training in Bangalore</p></a>
+            <a href="/business-analytics-course-training-in-bangalore"><p className={styles.FooterInnerli}>business analytics course training in Bangalore</p></a>
+            <a href="/artificial-intelligence-ai-course-training-bangalore"><p className={styles.FooterInnerli}>artificial intelligence ai course training Bangalore</p></a>
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Hyderabad</p>
@@ -136,11 +136,11 @@ const Footer = () => {
             </div>
             <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Dubai</p>
-            <a href="/"><p className={styles.FooterInnerli}>Data Science Course Training in Dubai</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>Machine learning course training in Dubai</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>data analytics course training in Dubai</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>business analytics course training in Dubai</p></a>
-            <a href="/"><p className={styles.FooterInnerli}>artificial intelligence ai course training Dubai</p></a>
+            <a href="/data-science-course-training-in-dubai"><p className={styles.FooterInnerli}>Data Science Course Training in Dubai</p></a>
+            <a href="/machine-learning-course-training-in-dubai"><p className={styles.FooterInnerli}>Machine learning course training in Dubai</p></a>
+            <a href="/data-analytics-course-training-in-dubai"><p className={styles.FooterInnerli}>data analytics course training in Dubai</p></a>
+            <a href="/business-analytics-course-training-in-dubai"><p className={styles.FooterInnerli}>business analytics course training in Dubai</p></a>
+            <a href="/artificial-intelligence-ai-course-training-dubai"><p className={styles.FooterInnerli}>artificial intelligence ai course training Dubai</p></a>
             </div>
           <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Delhi</p>
@@ -153,7 +153,7 @@ const Footer = () => {
         </div>
         <div className={styles.FooterBottom}>
           <div className={styles.FooterBottomInner}>
-          <p className={styles.FooterInnerB}>Copyright © 2020 Learnbay by www.learnbay.co. All Rights Reserved.</p>
+          <p className={styles.FooterInnerB}>Copyright © 2020 Learnbay by <a href="/">www.learnbay.co.</a> All Rights Reserved.</p>
           </div>
           </div>
     </section>

@@ -13,6 +13,7 @@ const SyllabusNew = ({ HoursSyllabus, HoursSyllabusText, Projects, ProjectsText,
      syllabush4, syllabusb4, SyllabusBotlist41, SyllabusBotlist42, SyllabusBotlist43, SyllabusBotlist44, SyllabusBotlist45, SyllabusBotlist46,
      syllabush5, syllabusb5, SyllabusBotlist51, SyllabusBotlist52, SyllabusBotlist53, SyllabusBotlist54, SyllabusBotlist55, SyllabusBotlist56,
      syllabush6, syllabusb6, SyllabusBotlist61, SyllabusBotlist62, SyllabusBotlist63, SyllabusBotlist64, SyllabusBotlist65, SyllabusBotlist66,
+     syllabussrc,
 }) => {
   return (
     <section className={styles.SyllabusNew}>
@@ -186,7 +187,7 @@ const SyllabusNew = ({ HoursSyllabus, HoursSyllabusText, Projects, ProjectsText,
             </div>
         </div>
         <div>
-            <a href='https://drive.google.com/file/d/1fPHs326U2hB7Gba4cT4a3jwN14Vj-pnl/view' target={"_blank"}><button style={{margin:"auto", marginTop:"20px"}}>
+            <a href={syllabussrc} target={"_blank"}><button style={{margin:"auto", marginTop:"20px"}}>
                 <AiOutlineDownload />
                 Download Brochure
             </button></a>

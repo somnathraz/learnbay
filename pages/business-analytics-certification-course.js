@@ -51,8 +51,7 @@ export default function Home() {
         mTopPara="Industry-paced Project-based Training"
         title="Business Analytics"
         spanTitleText="Certification Course"
-        desc="
-        Our course is best suited for working professionals with less than one year of work experience in any area who want to start a career in Business Analytics."
+        desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
         src="/business-analytics.png"
         alt="AiMl Header"
       />
@@ -65,16 +64,16 @@ export default function Home() {
         p3="1:1"
         p33="Career Support"
         p4="No Cost EMI"
-        p44="₹ 8.5k/month (9 Months)"
+        p44="₹ 12.8k/month (6 Months)"
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Industry curated training via real-world analytics"
-        WeekendBatchDate="250+ Employer-Alliance & 100% Interview Guarantee"
-        Project="Advanced Business analytics -Industry curated Training"
-        Classes="BA industry curated training from MNC experts."
-        OneLine="Elementary programming classes for Non-technical pros"
-        Interview="Specially devised for early pros or aspirant with career gap"
+        WeekdayBatchDate="Industry-curated Training via real-world analytics"
+        WeekendBatchDate="Industrial Business analytics certifications for IBM"
+        Project="Elementary programming classes for non-technical pros"
+        Classes="Especially devices for early pros or aspirants with career gap"
+        OneLine="Learn the most trending analytical trick from MNC experts"
+        Interview="5 live industry projects and 100% interview call assurance"
         Fee="65,000"
         Subscription="1.5 Year Subscription"
 
@@ -187,6 +186,8 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/7th+BA.pdf"
+
     />
       <ToolsCovered 
       src="/tools-ba.png"

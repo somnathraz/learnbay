@@ -152,6 +152,8 @@ export default function Home() {
     SyllabusBotlist44="Web Scrapping"
     SyllabusBotlist45="Fake News Detection"
     SyllabusBotlist46="Movie Recommendation"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/6th+DA.pdf"
+
 
     JobBot1="Learnbay aims to introduce high-quality data analysts in Hyderabad. For candidates looking for positions in data analytics, we conduct mock interviews as part of our job support program. We also assist the students with resume writing, technical skills training, and soft skill development."
     JobBot2="Our good terms with MNCs and IBM have aided many students in obtaining positions as data analysts in the top leading businesses in the shortest period feasible. Approximately 700+ Learnbay students have already achieved high-paying jobs with Multinational firms such as Amazon, TCS, EY, JP Morgan, and Oracle after completing the course."

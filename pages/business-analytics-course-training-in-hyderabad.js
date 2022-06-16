@@ -152,6 +152,8 @@ export default function Home() {
     SyllabusBotlist44="Customer Churn Prediction"
     SyllabusBotlist45="Inventory Demand Forecasting"
     SyllabusBotlist46="Retain Analytics"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/7th+BA.pdf"
+
 
     JobBot1="Learnbay's learners have access to a unique element of the Job Assistance Program. We provide resume preparation workshops, one-on-one mock interviews, and soft-skills training after the end of the Business analytics course with placement. We also assist you in developing professional presentation abilities, which are critical for business analyst positions. It's the most effective way to prepare for technical interviews. Finally, we assist our students in developing a dynamic portfolio that will impress potential employers in Hyderabad."
     JobBot5="A business analyst's job is to lead a group of people in making important decisions regarding the company's future. A business analyst's decisions influence the performance of a company. They must be familiar with the company's workflow. Their primary responsibilities include analyzing corporate logistics and proposing innovative methods. The demand for business analysts and BI professionals in Hyderabad has surged due to many new organizations and businesses springing up all across the city and the country."

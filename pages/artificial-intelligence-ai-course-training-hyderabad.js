@@ -173,6 +173,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
+
 
     JobBot1="Learnbay's career consultants will assist you in developing your CV and portfolio. Learnbay also refers your resume and portfolio to other companies. Learbay guarantees top-tier companies in Hyderabad will interview you. You'll also get exposure to mock interviews that make you prepare for difficult real-life interviews."
     JobBot2="If you do not get hired within six months of finishing the course, the Job or Money-Back Guarantee program ensures that you will receive a complete return of your AI course fees."

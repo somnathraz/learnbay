@@ -174,6 +174,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
+
 
     JobBot1="Learnbay's career coaches and mentors will help you develop your resume and portfolio, as well as refer your profiles to other companies. They ensure that you get guaranteed interviews with top leading organizations in Chennai. In addition, you'll also get multiple mock artificial intelligence interviews to make you ready for challenging real interviews."
     JobBot2="The Job or Money-back Guarantee program ensures that you get a full AI course fee to refund if you do not get placed within 6 months after the course."

@@ -51,7 +51,8 @@ const CitiesRight = ({
      syllabush2, syllabusb2, SyllabusBotlist21, SyllabusBotlist22, SyllabusBotlist23, SyllabusBotlist24, SyllabusBotlist25, SyllabusBotlist26,
      syllabush3, syllabusb3, SyllabusBotlist31, SyllabusBotlist32, SyllabusBotlist33, SyllabusBotlist34, SyllabusBotlist35, SyllabusBotlist36,
      syllabush4, syllabusb4, SyllabusBotlist41, SyllabusBotlist42, SyllabusBotlist43, SyllabusBotlist44, SyllabusBotlist45, SyllabusBotlist46,
-     JobHead1, JobBot1, JobBot2, JobHead2, JobBot7, JobHead3, JobBot3, JobHead4, JobBot4, JobBot5, JobBot6, JobList1, JobList2, JobList3, JobList4, JobList5, JobList6, JobList7,
+     syllabussrc,
+     JobHead1, JobBot1, JobBot2, JobHead2, JobBot7, JobHead3, JobBot8, JobHead5, JobBot9, JobBot10, JobHead6, JobBot11, JobBot3, JobHead4, JobBot4, JobBot5, JobBot6, JobList1, JobList2, JobList3, JobList4, JobList5, JobList6, JobList7,
      ProjectsBot1, ProjectsBot2, ProjectsHead1, ProjectsHead2,  AlumniBot1,
      src1, src2, src3, src4, ProjectsH1, ProjectsH2, ProjectsH3, ProjectsH4, Projectsp1, Projectsp2, Projectsp3, Projectsp4,
      Asrc1, AlumniH1, Alumnip1, Asrc2, AlumniH2, Alumnip2, Asrc3, AlumniH3, Alumnip3, Asrc4, AlumniH4, Alumnip4, 
@@ -213,7 +214,7 @@ const CitiesRight = ({
                 </div>
             </div>
             <div className={styles.Button}>
-            <a href='#'><button style={{margin:"auto"}}>View Detailed Brochure</button></a>
+            <a href={syllabussrc}><button style={{margin:"auto"}}>View Detailed Brochure</button></a>
             </div>
         </div>
         <div id="Job">
@@ -231,6 +232,14 @@ const CitiesRight = ({
                 <p className={styles.pp}>{JobBot6}</p>
                 <p className={styles.pHead}>{JobHead3}</p>
                 <p className={styles.pp}>{JobBot7}</p>
+                <p className={styles.pHead}>{JobHead4}</p>
+                <p className={styles.pp}>{JobBot8}</p>
+                <p className={styles.pHead}>{JobHead5}</p>
+                <p className={styles.pp}>{JobBot9}</p>
+                <p className={styles.pp}>{JobBot10}</p>
+                <p className={styles.pHead}>{JobHead6}</p>
+                <p className={styles.pp}>{JobBot11}</p>
+
                 {/* <p className={styles.pHead}>{JobHead4}</p>
                 <p className={styles.pp}>{JobBot4}</p>
                 <ul>
@@ -295,7 +304,7 @@ const CitiesRight = ({
                 </div>
             </div>
             <div className={styles.Button}>
-            <a href='#'><button style={{margin:"auto"}}>View All Projects</button></a>
+            <a href='https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf'><button style={{margin:"auto"}}>View All Projects</button></a>
             </div>
         </div>
         <div id="Alumni">

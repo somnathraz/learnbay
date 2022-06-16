@@ -171,6 +171,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf"
+
 
     JobHead1="How does Learnbay train students to crack the interviews for Machine Learning MNC jobs in Pune?"
     JobBot1="The Learnbay Machine Learning course in Pune consists of an end-to-end job assistance program. It helps students create their resumes and project portfolios, so recruiters highlight their profiles."

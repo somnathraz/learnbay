@@ -176,6 +176,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
+
 
     JobHead1="Artificial Intelligence Interview preparation in Mumbai:"
     JobBot1="The artificial intelligence courses offered by Learnbay guarantee MNC/FAANG interviews for its students. There is a specific artificial intelligence course in Mumbai that even refunds their course fees in case of unsuccessful placement."

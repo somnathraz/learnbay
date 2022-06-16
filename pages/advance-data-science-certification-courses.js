@@ -54,7 +54,7 @@ export default function Home() {
         mTopPara="Industry- Specific Capstone Certified by IBM"
         title="Advanced DS and AI Course"
         spanTitleText="with Domain Specialization"
-        desc="Learnbay offers Industry Accredited Data Science Certification Course with DOMAIN ELECTIVE Option.This foundation program is suitable for professionals having more than 1+ years of work experience in any programming or non programming domain."
+        desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
         src="/Advance-ds.png"
         alt="AiMl Header"
       />
@@ -71,12 +71,12 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="6 Unique IBM certifications on course completion."
-        WeekendBatchDate="Domain-Oriented Full Stack Learning."
-        Project="250+ Employer-Alliance & 100% Interview Guarantee."
-        Classes="Cutting edge Industry curated Training."
-        OneLine="Specially devised for experienced working pros."
-        Interview="250+ employer-Alliance 100% Interview Guarantee"
+        WeekdayBatchDate="250+ hiring partner backed up interview guarantee"
+        WeekendBatchDate="10+ domain-elective associated full-stack modules"
+        Project="Project Experience Certification by IBM"
+        Classes="6 IBM data science micro-skills certificates"
+        OneLine="Completely live and interactive learning"
+        Interview="12 live industry projects & 2 fresh Capstones"
         Fee="79,000"
         Subscription="3 Year Subscription"
       />
@@ -193,6 +193,7 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf"
     />
       <ToolsCovered 
       src="/tools-2.png"

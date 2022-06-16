@@ -155,6 +155,8 @@ export default function Home() {
     SyllabusBotlist44="Web Scrapping"
     SyllabusBotlist45="Fake News Detection"
     SyllabusBotlist46="Movie Recommendation"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/6th+DA.pdf"
+
 
     JobHead1="Interview preparation process at Learnbay:"
     JobBot1="Learnbay Provides a dedicated job assistance program for its learners. Resume built-up sessions, interview preparations, access to the alumni network, and LinkedIn profile building are all part of this assistance feature. Additionally, our data analyst students will be trained through personalized mock interviews with various hiring managers allowing them to develop confidence at the actual interview table."

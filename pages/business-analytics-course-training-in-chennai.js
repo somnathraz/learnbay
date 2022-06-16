@@ -158,6 +158,8 @@ export default function Home() {
     SyllabusBotlist44="Customer Churn Prediction"
     SyllabusBotlist45="Inventory Demand Forecasting"
     SyllabusBotlist46="Retain Analytics"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/7th+BA.pdf"
+
 
     JobHead1="What is the Interview preparation program at Learnbay?"
     JobBot1="Learnbay provides a dedicated feature of the Job assistance program for its learners. After the completion of the Business analytics course with placement, we offer resume prep sessions, one-on-one mock interviews, and soft-skills training. In addition, we also help you to gain professional presentation skills, which is the essential key for business analyst jobs. It is the best approach to training and cracking technical interviews. To top it all off, we help our candidates in creating a dynamic portfolio that will stand out to potential employers in Chennai."

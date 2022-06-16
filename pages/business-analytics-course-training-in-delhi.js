@@ -153,6 +153,8 @@ export default function Home() {
     SyllabusBotlist44="Customer Churn Prediction"
     SyllabusBotlist45="Inventory Demand Forecasting"
     SyllabusBotlist46="Retain Analytics"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/7th+BA.pdf"
+
 
     JobHead1="Interview preparation sessions:"
     JobBot1="Learnbay mentors constantly support students and ensure that they get placed in highly lucrative positions. Once students finish their modules, our coaches start training them with soft skills, resume preparation, project management, and presentation abilities. They also conduct various mock interviews with hiring managers so that students learn from their mistakes and enhance their overall interview skills."

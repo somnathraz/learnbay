@@ -53,8 +53,7 @@ export default function Home() {
         mTopPara="IBM Certification"
         title="Data science and AI Program"
         spanTitleText="with 100% Job Guarantee"
-        desc="
-        The course has been designed specifically for working professionals with 2 to 8 years of experience who choose to advance their careers in Data Science and AI, and it comes with a 100% Job Guarantee Data Science & AI Certification Course or money back policy."
+        desc="Assured data science career tradition for 18 months. Learn the industry-specific best practices by working on fresh industry projects. Get assured money back on unsuccessful placement."
         src="/job-gurantee.png"
         alt="AiMl Header"
       />
@@ -71,12 +70,12 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Assured Job within 6 months or 100% fee refund."
-        WeekendBatchDate="Domain-Oriented Full Stack Learning."
-        Project="250+ Employer-Alliance & 100% Interview Guarantee."
-        Classes="Advanced DS/AI-Industry curated Training."
-        OneLine="Specially devised for intermediate to Advanced level pros."
-        Interview="250+ employer-Alliance 100% Interview Guarantee"
+        WeekdayBatchDate="Course Completion Certificate from IBM"
+        WeekendBatchDate="Within 6 months, either job or full refund"
+        Project="15 live industry projects & 3 fresh Capstones Projects"
+        Classes="10+ domain-elective associated full-stack modules"
+        OneLine="Specially devised for leadership-level pros"
+        Interview="Special coding classes for non-programmers"
         Fee="1,25,000"
         Subscription="3 Year Subscription"
       />
@@ -188,6 +187,8 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/5th+Guarantee.pdf"
+
     />
       <ToolsCovered 
       src="/tools-job.png"
