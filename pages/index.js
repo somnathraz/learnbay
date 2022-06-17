@@ -8,6 +8,8 @@ import Course from "../components/Course/Course";
 import KeyFeatures from "../components/KeyFeatures/KeyFeatures";
 import WhyLearnbay from "../components/WhyLearnbay/WhyLearnbay";
 import Benefits from "../components/Benefits/Benefits";
+import SpotMedia from "../components/SpotMedia/SpotMedia";
+import LearnSupport from "../components/LearnSupport/LearnSupport";
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
       <KeyFeatures />
       <WhyLearnbay />
       <Benefits />
+      <SpotMedia />
+      <LearnSupport />
     </div>
   );
 }

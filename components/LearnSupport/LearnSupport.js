@@ -1,0 +1,32 @@
+import React from 'react'
+import { RiWhatsappFill } from "react-icons/ri";
+import { FaPhone } from "react-icons/fa";
+import styles from "./LearnSupport.module.css";
+
+
+function LearnSupport() {
+  return (
+    <section className={styles.LearnSupport}>
+        <h4>24/7 learner’s support</h4>
+        <div className={styles.learnInner}>
+            <div className={styles.learnInner1}>
+                <p className={styles.Top1}>Got more questions?</p>
+                <p className={styles.Top2}>Talk to our team directly.</p>
+                <p className={styles.Top3}>Reach out and a learning learning consultant will get in touch with you shortly.</p>
+            </div>
+            <div className={styles.learnInner2}>
+            <button className={styles.btn1}>
+            Whatsapp
+              <RiWhatsappFill className={styles.bIcon} />
+            </button>
+            <button className={styles.btn2}>
+            Call Us +91 73492 22263
+              <FaPhone className={styles.bIcon} />
+            </button>
+            </div>
+        </div>
+    </section>
+  )
+}
+
+export default LearnSupport

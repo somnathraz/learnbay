@@ -1,3 +1,180 @@
-.why {
-  padding: 0px 100px;
+.WhyLearnbay {
+  padding: 70px 100px;
+}
+
+.divList {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  padding: 0px 10px;
+  font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.divList p {
+  margin: 0px;
+}
+
+.tickIcon {
+  color: #2F4EA2;
+  font-size: 16px;
+  margin: 0px 5px;
+}
+
+.FirstDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.MiddleDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.FirstImg {
+  background-image: url("/interactive-learning.png");
+  height: 100%;
+  background-size: cover;
+  background-repeat:no-repeat;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  background-position: center;
+}
+
+.MiddleImg {
+  background-image: url("/domain-specialized.png");
+  height: 100%;
+  background-size: cover;
+  background-repeat:no-repeat;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  background-position: center;
+}
+
+.LastImg {
+  background-image: url("/job-oriented.png");
+  height: 100%;
+  background-size: cover;
+  background-repeat:no-repeat;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  background-position: center;
+}
+
+.FirstText {
+  padding: 50px;
+}
+
+.FirstText h3 {
+  font-size: 30px;
+  color: #000;
+}
+
+.DivIcon {
+  display: flex;
+  margin-top: 30px;
+}
+
+.BoxIconuser {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #DB2222;
+  border-radius: 10px;
+}
+
+.BoxIconcompress {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #335BB0;
+  border-radius: 10px;
+}
+
+.BoxIconcheck {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #2FBA8B;
+  border-radius: 10px;
+}
+
+.BoxIconflag {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #E0769C;
+  border-radius: 10px;
+}
+
+.BoxIconclone {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #F0A211;
+  border-radius: 10px;
+}
+
+.BoxIconcard {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #B72EE6;
+  border-radius: 10px;
+}
+
+.iconBox p {
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  .WhyLearnbay {
+    padding: 50px 0px;
+  }
+  
+  .divList {
+    display: block;
+    text-align: center;
+  }
+
+  .FirstDiv {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+  }
+  
+  .MiddleDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+  }
+  
+  .FirstImg {
+    height: 350px;
+  }
+  
+  .MiddleImg {
+    height: 350px;
+    width: 100%;
+  }
+  
+  .LastImg {
+    height: 350px;
+  }
+
+  .FirstText {
+    padding: 20px;
+  }
 }

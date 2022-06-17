@@ -1,0 +1,123 @@
+.LearnSupport {
+    padding: 0px 100px 70px 100px;
+}
+
+.learnInner {
+  background-image: url("/CTA-1.png");
+  padding: 50px;
+  border-radius: 20px;
+  color: #fff;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.learnInner1 {
+    padding: 10px;
+}
+
+.Top1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.Top2 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.Top3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.learnInner2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.learnInner2 .btn1 {
+    margin: 10px;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    fill: #FFFFFF;
+    color: #343870;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #343870;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px 0px rgb(52 56 112 / 31%);
+
+}
+
+.btn1:hover {
+    color: #fff;
+    background-color: #343870;
+}
+
+.learnInner2 .btn2 {
+    margin: 10px;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #343870;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #343870;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px 0px rgb(52 56 112 / 31%);
+}
+
+.btn2:hover {
+    background-color: #fff;
+    color: #343870;
+}
+
+.bIcon {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+    .LearnSupport {
+        padding: 0px 0px 30px 0px;
+    }
+    
+    .learnInner {
+      padding: 20px;
+      display: block;
+    }
+
+    .Top1 {
+        font-size: 16px;
+    }
+    
+    .Top2 {
+        font-size: 36px;
+    }
+    
+    .Top3 {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .learnInner2 .btn2 {
+        margin-top: 20px;
+    }
+}
