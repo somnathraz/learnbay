@@ -12,7 +12,7 @@ import CitiesLeft from "../Components/CitiesLeft/CitiesLeftDomain";
 import CitiesRight from "../Components/CitiesRight/CitiesRightdomain";
 import FAQNew from "../Components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
-import { BusinessAFaqDataB, BusinessADomainFaqDataB, BusinessAPaymentFaqDataB, BusinessACapstoneFaqDataB, BusinessACertificationFaqDataB, BusinessAjobFaqDataB, BusinessAMentorshipFaqDataB, BusinessASupportFaqDataB } from "../components/FAQ/FaqDataCity";
+import { BusinessAFaqDataB, BusinessAPaymentFaqDataB, BusinessACapstoneFaqDataB, BusinessACertificationFaqDataB, BusinessAjobFaqDataB, BusinessAMentorshipFaqDataB, BusinessASupportFaqDataB } from "../components/FAQ/FaqDataCity";
 
  
 export default function Home() {
@@ -149,6 +149,8 @@ export default function Home() {
     SyllabusBotlist44="Customer Churn Prediction"
     SyllabusBotlist45="Inventory Demand Forecasting"
     SyllabusBotlist46="Retain Analytics"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/7th+BA.pdf"
+
 
     JobBot1="Learnbay's mentors are dedicated to providing job assistance to its learners until they get placed. Once the Business Analytics program is completed, Learnbay faculties provide you with a resume prep session, one on one mock interviews, and soft skill enhancement training. We even help students improve their presentational and communication skills to a professional level, which is one of the main skills required to be a Business Analyst. Students can easily crack business analytics interviews and even start working as Business Analysts in top MNCs."
     JobHead2="Job Role Associated with Business Analytics Field In Bangalore"
@@ -183,7 +185,7 @@ export default function Home() {
     Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
 
           />
-            <FAQNew FaqDatas={BusinessAFaqDataB} DomainFaqDatas={BusinessADomainFaqDataB} PaymentFaqDatas={BusinessAPaymentFaqDataB} CapstoneFaqDatas={BusinessACapstoneFaqDataB} CertificationFaqDatas={BusinessACertificationFaqDataB} jobFaqDatas={BusinessAjobFaqDataB} MentorshipFaqDatas={BusinessAMentorshipFaqDataB} SupportFaqDatas={BusinessASupportFaqDataB} />
+            <FAQNew FaqDatas={BusinessAFaqDataB} PaymentFaqDatas={BusinessAPaymentFaqDataB} CapstoneFaqDatas={BusinessACapstoneFaqDataB} CertificationFaqDatas={BusinessACertificationFaqDataB} jobFaqDatas={BusinessAjobFaqDataB} MentorshipFaqDatas={BusinessAMentorshipFaqDataB} SupportFaqDatas={BusinessASupportFaqDataB} />
         </div>
       </div>
       <CityText

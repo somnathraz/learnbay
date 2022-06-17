@@ -12,7 +12,7 @@ import CitiesLeft from "../Components/CitiesLeft/CitiesLeftDomain";
 import CitiesRight from "../Components/CitiesRight/CitiesRightdomain";
 import FAQNew from "../Components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
-import { BusinessAFaqDataH, BusinessADomainFaqDataH, BusinessAPaymentFaqDataH, BusinessACapstoneFaqDataH, BusinessACertificationFaqDataH, BusinessAjobFaqDataH, BusinessAMentorshipFaqDataH, BusinessASupportFaqDataH } from "../components/FAQ/FaqDataCity";
+import { BusinessAFaqDataH, BusinessAPaymentFaqDataH, BusinessACapstoneFaqDataH, BusinessACertificationFaqDataH, BusinessAjobFaqDataH, BusinessAMentorshipFaqDataH, BusinessASupportFaqDataH } from "../components/FAQ/FaqDataCity";
 
  
 export default function Home() {
@@ -190,7 +190,7 @@ export default function Home() {
     Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
 
           />
-            <FAQNew FaqDatas={BusinessAFaqDataH} DomainFaqDatas={BusinessADomainFaqDataH} PaymentFaqDatas={BusinessAPaymentFaqDataH} CapstoneFaqDatas={BusinessACapstoneFaqDataH} CertificationFaqDatas={BusinessACertificationFaqDataH} jobFaqDatas={BusinessAjobFaqDataH} MentorshipFaqDatas={BusinessAMentorshipFaqDataH} SupportFaqDatas={BusinessASupportFaqDataH} />
+            <FAQNew FaqDatas={BusinessAFaqDataH} PaymentFaqDatas={BusinessAPaymentFaqDataH} CapstoneFaqDatas={BusinessACapstoneFaqDataH} CertificationFaqDatas={BusinessACertificationFaqDataH} jobFaqDatas={BusinessAjobFaqDataH} MentorshipFaqDatas={BusinessAMentorshipFaqDataH} SupportFaqDatas={BusinessASupportFaqDataH} />
         </div>
       </div>
       <CityText

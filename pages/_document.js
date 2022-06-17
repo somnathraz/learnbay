@@ -5,6 +5,19 @@ export default function Document() {
     <Html>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <meta name="robots" content="NOODP,NOYDIR" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="distribution" content="global"/>
+<meta name="copyright" content="Learnbay: Data Science Courses Certification Training India"/>
+<meta name="language" content="English"/>
+<meta name="rating" content="general"/>
+<meta name="revisit-after" content="Daily"/>
+<meta name="author" content="Learnbay"/>
+<meta name="googlebot" content="index,follow"/>
+<meta name="bingbot" content="index,follow"/>
+<meta name="expires" content="never"/>
+<meta name="coverage" content="Worldwide"/>
+<meta name="robots" content="ALL"></meta>
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -21,6 +34,26 @@ export default function Document() {
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-NN8XWH8');`,
+          }}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `application/ld+json"> {
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": ""Learnbay: Data Science Courses Certification Training India",
+              "brand": {
+              "@type": "Brand",
+              "name": "Learnbay"
+              },
+              "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "bestRating": "5",
+              "worstRating": "1",
+              "ratingCount": "12657"
+              }
+             } `,
           }}
         />
       </Head>

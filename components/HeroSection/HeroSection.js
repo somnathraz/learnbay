@@ -83,28 +83,34 @@ const HeroSection = ({
               <>
                 {" "}
                 <SwiperSlide>
-                <Image src="/1.webp" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/1-1-1.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/2.webp" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/2-2-2.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/4.webp" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/3-3-3.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/5.webp" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/4-4-4.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/6.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/5-5-5.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/7.webp" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/6-6-6.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/9.webp" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/7-7-7.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/10.webp" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/8-8-8.png" alt="Learnbay Alumni" width="80" height="118" />
+                </SwiperSlide>
+                <SwiperSlide>
+                <Image src="/9-9-9.png" alt="Learnbay Alumni" width="80" height="118" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <Image src="/10-10-10.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
                   <Image src="/11.webp" alt="Learnbay Alumni" width="80" height="118" />
