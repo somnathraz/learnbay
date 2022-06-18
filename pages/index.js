@@ -10,6 +10,11 @@ import WhyLearnbay from "../components/WhyLearnbay/WhyLearnbay";
 import Benefits from "../components/Benefits/Benefits";
 import SpotMedia from "../components/SpotMedia/SpotMedia";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
+import CareerImpactHome from "../components/CareerImpactHome/CareerImpact";
+import TestimonialVideo from "../components/TestimonialVideo/TestimonialVideo";
+import BoxSeo from "../components/BoxSeo/BoxSeo";
+import DomainSliderHome from "../components/DomainSliderHome/DomainSliderHome";
+
 
 export default function Home() {
   return (
@@ -24,8 +29,12 @@ export default function Home() {
       <Course />
       <KeyFeatures />
       <WhyLearnbay />
+      <DomainSliderHome />
+      <BoxSeo />
       <Benefits />
       <SpotMedia />
+      <TestimonialVideo />
+      <CareerImpactHome />
       <LearnSupport />
     </div>
   );

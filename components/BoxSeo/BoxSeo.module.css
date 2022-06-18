@@ -1,0 +1,51 @@
+.BoxSeo {
+    margin: 0px 100px 70px 100px;
+    display: grid;
+    grid-template-columns: 49% 49%;
+}
+
+.BoxSeo1 {
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+}
+
+.BoxSeo1 h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #33376F;
+}
+
+.TBot {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.BoxSeo1 button {
+    font-size: 14px;
+    font-weight: 600;
+    color: #33376F;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #33376F;
+    border-width: 1px;
+    border-radius: 0px;
+    box-shadow: 4px 4px 10px -4px #33376F;
+    padding: 12px 26px;
+}
+
+.BoxSeo1 button:hover {
+    color: #fff;
+    background-color: #33376F;
+}
+
+@media (max-width: 600px) {
+    .BoxSeo {
+        margin: 0px 0px 30px 0px;
+        display: block;
+    }
+    .BoxSeo1 {
+        margin-bottom: 20px;
+    }
+}

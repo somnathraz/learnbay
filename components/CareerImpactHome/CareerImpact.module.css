@@ -1,0 +1,210 @@
+.CareerImpact {
+    display: block;
+    grid-template-columns: 49% 49%;
+    align-items: center;
+    margin: 0px 100px 70px 100px;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .RightUp {
+      display: flex;
+      text-align: center;
+  }
+
+  .RightUp p {
+      font-size: 22px;
+      font-weight: 500;
+      margin: 5px;
+}
+
+.RightDark {
+    background-color: #2D9CD7;
+    color: white;
+    padding: 10px 0px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+    margin: 10px;
+}
+
+.RightFade {
+    background-color: #fff;
+    color: #2D9CD7;
+    padding: 10px 0px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+    margin: 10px;
+}
+
+  .RightBottom {
+    display: flex;
+    text-align: center;
+}
+
+.RightBottom p {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.textStyle {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.swiperleft {
+    background-color: #FFFFFF;
+}
+
+.ReviewTop {
+    display: grid;
+    grid-template-columns: 39% 59%;
+    padding: 30px 100px 0px 100px;
+    gap: 30px;
+  }
+  
+  .ReviewRight {
+    padding-right: 110px;
+  }
+  
+  .ReviewRight h4 {
+    margin-bottom: 20px;
+  }
+  
+  .ReviewLeft {
+    background: linear-gradient(rgba(35, 35, 35, 0.525), rgba(61, 60, 60, 0.8)),
+      url("/Video-testimonial-and-reviews-Skillslash.webp"); /* Chrome 10-25, Safari 5.1-6 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .pIcon {
+    font-size: 60px;
+    color: white;
+    position: inherit;
+    top: 39%;
+    cursor: pointer;
+    left: 44%;
+    z-index: 99;
+  }
+  .ReviewSlider {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .slide {
+    padding: 10px 20px;
+    display: flex;
+    height: fit-content;
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2D9CD750;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  }
+
+
+  .slide p {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #2D9CD750;
+  }
+
+  .profile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .profile img {
+    border-radius: 50%;
+  }
+  .RIcon {
+    color: #f7d800;
+    font-size: 16px;
+  }
+  .name {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .name p {
+    font-size: 16px;
+    color: #2D9CD7;
+    margin: 0;
+  }
+  .name h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #000;
+  }
+  @media (max-width: 481px) {
+    .CareerImpact {
+      display: block;
+      align-items: center;
+      margin: 0;
+    }
+
+    .RightUp {
+      margin-top: 20px;
+      width: 100%;
+    justify-content: space-between;
+  }
+
+  .RightBottom {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+    .ReviewTop {
+      display: block;
+      grid-template-columns: auto;
+      padding: 20px;
+      gap: 0px;
+    }
+  
+    .ReviewRight {
+      padding-right: 0px;
+    }
+  
+    .ReviewLeft {
+      background: linear-gradient(rgba(35, 35, 35, 0.525), rgba(61, 60, 60, 0.8)),
+        url("/Video-testimonial-and-reviews-Skillslash.webp"); /* Chrome 10-25, Safari 5.1-6 */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      border-radius: 10px;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+    .pIcon {
+      font-size: 60px;
+      color: white;
+      position: inherit;
+      top: 33%;
+      left: 41%;
+      z-index: 99;
+    }
+    .ReviewSlider {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+  
