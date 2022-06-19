@@ -11,3 +11,9 @@
   width: fit-content;
   background-color: white;
 }
+@media (max-width: 481px) {
+  .SliderWrap {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

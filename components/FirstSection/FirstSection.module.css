@@ -40,3 +40,16 @@
 .btn {
   background-color: #12054d;
 }
+@media (max-width: 481px) {
+  .First {
+    padding: 20px;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 60px;
+  }
+  .First h1 {
+    font-size: 25px;
+  }
+}

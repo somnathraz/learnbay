@@ -1,76 +1,76 @@
 .DomainSliderHome {
-    text-align: center;
-    margin: 0px 100px 70px 100px;
+  text-align: center;
+  margin: 0px 100px 70px 100px;
 }
 
 .DomainSliderHome p {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
 }
 
 .DomainSliderHome button {
-    text-align: left;
+  text-align: left;
 }
 
 .slide {
-    border-style: solid;
-    border-width: 0px 0px 0px 3px;
-    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
-    margin: 30px 10px 20px 10px;
-    padding: 20px;
+  border-style: solid;
+  border-width: 0px 0px 0px 3px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  margin: 30px 10px 40px 10px;
+  padding: 20px;
 }
 
 .buttonF button {
-    margin: auto;
-    font-size: 14px;
-    font-weight: 400;
-    color: #FFFFFF;
-    background-color: #2D9CD7;
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #2D9CD7;
-    border-radius: 10px;
-    box-shadow: 4px 4px 10px -4px #2d9cd7;
-    padding: 12px 24px;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #2d9cd7;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #2d9cd7;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px -4px #2d9cd7;
+  padding: 12px 24px;
 }
 
 .slide button {
-    font-size: 14px;
-    font-weight: 600;
-    color: #33376F;
-    background-color: #FFFFFF;
-    border-style: solid;
-    border-color: #33376F;
-    border-width: 1px;
-    border-radius: 0px;
-    box-shadow: 4px 4px 10px -4px #33376F;
-    padding: 12px 26px;
-    text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  color: #33376f;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #33376f;
+  border-width: 1px;
+  border-radius: 0px;
+  box-shadow: 4px 4px 10px -4px #33376f;
+  padding: 12px 26px;
+  text-align: left;
 }
 
 .slide button:hover {
-    color: #fff;
-    background-color: #33376F;
+  color: #fff;
+  background-color: #33376f;
 }
 
 .slide p {
-    text-align: left;
+  text-align: left;
 }
 
 .buttonF {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .buttonF button:hover {
-    color: #2D9CD7;
-    background-color: #fff;
+  color: #2d9cd7;
+  background-color: #fff;
 }
 
 @media (max-width: 600px) {
-    .DomainSliderHome {
-        text-align: center;
-        margin: 0px 0px 50px 0px;
-    }
+  .DomainSliderHome {
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+  }
 }

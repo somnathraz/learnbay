@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -8,6 +8,13 @@ import { Pagination, Navigation } from "swiper";
 import styles from "./Slider.module.css";
 
 export default function Slider() {
+  const [mobile, setMobile] = useState(false);
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 600) {
+      setMobile(true);
+    }
+  });
   return (
     <div className={styles.SliderWrap}>
       <Swiper
@@ -20,8 +27,8 @@ export default function Slider() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
         style={{ padding: "4px", height: "80px" }}
-        slidesPerView={4}
-        spaceBetween={30}
+        slidesPerView={mobile ? 1 : 4}
+        spaceBetween={mobile ? 10 : 30}
         slidesPerGroup={1}
       >
         <SwiperSlide className={styles.slide}>

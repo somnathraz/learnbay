@@ -30,7 +30,7 @@
 }
 .listPanel {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .listPanel span {
   padding: 20px;

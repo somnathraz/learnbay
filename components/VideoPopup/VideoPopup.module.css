@@ -1,0 +1,29 @@
+.FramePopup {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.23);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: hidden;
+}
+.iframeHolder {
+  position: relative;
+}
+.closeBtn {
+  position: absolute;
+  background-color: white;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 50%;
+  border: 1px solid #0d4a9b;
+  border-color: blue;
+  color: #0d4a9b;
+  top: -15px;
+  right: -10px;
+}

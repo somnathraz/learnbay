@@ -65,3 +65,21 @@
   font-size: 60px;
   cursor: pointer;
 }
+@media (max-width: 481px) {
+  .Benefits {
+    padding: 20px 10px;
+  }
+  .Benefits h5 {
+    font-size: 25px;
+  }
+  .BenefitsWrapper {
+    display: flex;
+    flex-flow: column;
+  }
+  .span {
+    padding: 8px 10px;
+  }
+  .BenRightWrap {
+    height: 250px;
+  }
+}
