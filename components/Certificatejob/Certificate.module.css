@@ -52,7 +52,7 @@
     grid-template-columns: auto;
     margin: 30px 0px 0px 0px;
     background-color: #eaf4fe;
-    padding: 20px;
+    padding: 10px;
     border-radius: 15px;
   }
   .btnWrapper {
@@ -62,13 +62,17 @@
     justify-content: center;
   }
   .Certifcate .right {
-    margin-left: 0;
+    margin: 10px;
   }
 
   .left {
-    padding: 0px 0px 30px 0px;
+    padding: 20px 10px 20px 10px;
   }
   .right img {
     border-radius: 6px;
+  }
+
+  .pBotC {
+    display: grid;
   }
 }

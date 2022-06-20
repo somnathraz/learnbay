@@ -1,7 +1,9 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import styles from "./FirstSection.module.css";
 import Typed from "typed.js";
-import { IoIosArrowDown } from "react-icons/io";
+import { FaChevronDown,FaBell } from "react-icons/fa";
+import Popup from "../Popup/Popup";
+import Form from "../Form/Form";
 
 const FirstSection = () => {
   const el = useRef(null);
@@ -11,6 +13,23 @@ const FirstSection = () => {
     "86% Alumni Success Rate",
     "100% Interview Guarantee",
   ];
+  const [mobile, setMobile] = useState(false);
+  const [show, setShow] = useState(false);
+  const [popups, setPopups] = useState(false);
+
+  const popupShow = () => {
+    setPopups(true);
+  };
+  const showMenu = () => {
+    setShow(!show);
+  };
+
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 481) {
+      setMobile(true);
+    }
+  });
 
   useEffect(() => {
     const typed = new Typed(el.current, {
@@ -22,6 +41,7 @@ const FirstSection = () => {
       backDelay: 100,
       loop: true,
     });
+    
 
     // Destropying
     return () => {
@@ -30,6 +50,16 @@ const FirstSection = () => {
   }, []);
   return (
     <div className={styles.First}>
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+        <div className="leftPopup">
+          <div className="whiteP" />
+        </div>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          <p>Fill the below Details to get started</p>
+          <Form popup={true} setTrigger={setPopups} />
+        </div>
+      </Popup>
       <div className={styles.leftSide}>
         <p className={styles.FirstP}> GET INTO</p>
         <h1>India’s best Domain Specialized Data Science and AI program</h1>
@@ -38,11 +68,11 @@ const FirstSection = () => {
         </p>
         <span ref={el}></span>
         <div className={styles.btnWrapper}>
-          <button className={styles.outLineBtn}>
-            Courses <IoIosArrowDown className="bIcon" />
-          </button>
-          <button className={styles.btn}>
-            Enquire Now <IoIosArrowDown className="bIcons" />
+          <a href="#course"><button className={styles.outLineBtn}>
+            Courses <FaChevronDown className="bIcon" />
+          </button></a>
+          <button  onClick={popupShow} className={styles.btn}>
+            Enquire Now <FaBell className="bIcons" />
           </button>
         </div>
       </div>

@@ -22,6 +22,11 @@
   justify-content: center;
   gap: 30px;
 }
+
+.icon {
+  margin-left: 10px;
+}
+
 .ham {
   display: inline;
   justify-self: flex-start;
@@ -33,7 +38,7 @@
   margin-top: -5px;
 }
 .left button {
-  padding: 15px 20px;
+  padding: 12px 20px;
   outline: none;
   background-color: #2d9cd7;
   color: white;
@@ -41,12 +46,14 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  border-radius: 4px;
-  font-size: 14px;
+  border-radius: 0px;
+  font-size: 16px;
+  font-weight: 500;
 }
 .left button:hover {
-  background-color: #f7f9fc;
+  background-color: #fff;
   color: #2d9cd7;
+  border: 1px solid;
   box-shadow: #2d9cd7 0px 0px 4px 0px;
 }
 
@@ -84,12 +91,12 @@
   background-color: transparent;
   border: 2px solid #2d9cd7;
   font-weight: 500;
-  box-shadow: #2d9cd7 0px 0px 4px 0px;
+  /* box-shadow: #2d9cd7 0px 0px 4px 0px; */
 }
 .right button:hover {
-  background-color: #fff;
-  color: #2d9cd7;
-  border: 1px solid #2d9cd7;
+  background-color: #2d9cd7;
+  color: #fff;
+  border: 2px solid #2d9cd7;
 }
 
 .hoverBtn {

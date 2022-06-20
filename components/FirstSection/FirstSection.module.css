@@ -35,10 +35,13 @@
   background-color: white;
   color: #12054d;
   border: 1px solid #12054d;
-  padding: 10px 15px;
+  padding: 14px 28px;
+  font-size: 16px;
 }
 .btn {
   background-color: #12054d;
+  padding: 14px 28px;
+  font-size: 16px;
 }
 @media (max-width: 481px) {
   .First {

@@ -32,34 +32,31 @@ export default function Slider() {
         slidesPerGroup={1}
       >
         <SwiperSlide className={styles.slide}>
-          <img src="/1.webp" alt="Content Image" style={{ width: "100%" }} />
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf" target="_blank"><img src="/1.webp" alt="Content Image" style={{ width: "100%" ,padding: "10px" }} /></a>
         </SwiperSlide>
         <SwiperSlide className={styles.slide}>
-          <img src="/2.webp" alt="Content Image" style={{ width: "100%" }} />
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf" target="_blank"><img src="/2.webp" alt="Content Image" style={{ width: "100%" ,padding: "10px" }} /></a>
         </SwiperSlide>
         <SwiperSlide className={styles.slide}>
-          <img src="/3.webp" alt="Content Image" style={{ width: "100%" }} />
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf" target="_blank"><img src="/3.webp" alt="Content Image" style={{ width: "100%" ,padding: "10px" }} /></a>
         </SwiperSlide>
         <SwiperSlide className={styles.slide}>
-          <img src="/3.webp" alt="Content Image" style={{ width: "100%" }} />
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf" target="_blank"><img src="/5.webp" alt="Content Image" style={{ width: "100%" ,padding: "10px" }} /></a>
         </SwiperSlide>
         <SwiperSlide className={styles.slide}>
-          <img src="/5.webp" alt="Content Image" style={{ width: "100%" }} />
-        </SwiperSlide>
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf" target="_blank"><img src="/6.webp" alt="Content Image" style={{ width: "100%" ,padding: "10px" }} />
+</a>        </SwiperSlide>{" "}
         <SwiperSlide className={styles.slide}>
-          <img src="/6.webp" alt="Content Image" style={{ width: "95%" }} />
-        </SwiperSlide>{" "}
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf" target="_blank"><img src="/7.webp" alt="Content Image" style={{ width: "100%" ,padding: "10px" }} />
+</a>        </SwiperSlide>{" "}
         <SwiperSlide className={styles.slide}>
-          <img src="/7.webp" alt="Content Image" style={{ width: "95%" }} />
-        </SwiperSlide>{" "}
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Development+and+Testing+Domain.pdf" target="_blank"><img src="/8.webp" alt="Content Image" style={{ width: "100%" ,padding: "10px" }} />
+</a>        </SwiperSlide>{" "}
         <SwiperSlide className={styles.slide}>
-          <img src="/8.webp" alt="Content Image" style={{ width: "95%" }} />
-        </SwiperSlide>{" "}
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Cloud+and+Devops+Domain.pdf" target="_blank"><img src="/9.webp" alt="Content Image" style={{ width: "100%" ,padding: "10px" }} />
+</a>        </SwiperSlide>{" "}
         <SwiperSlide className={styles.slide}>
-          <img src="/9.webp" alt="Content Image" style={{ width: "95%" }} />
-        </SwiperSlide>{" "}
-        <SwiperSlide className={styles.slide}>
-          <img src="/10.webp" alt="Content Image" style={{ width: "95%" }} />
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf" target="_blank"><img src="/10.webp" alt="Content Image" style={{ width: "100%" ,padding: "10px" }} /></a>
         </SwiperSlide>
       </Swiper>
     </div>

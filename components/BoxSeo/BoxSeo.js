@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./BoxSeo.module.css";
-import { BsArrowRightShort } from "react-icons/bs";
+import { FaArrowRight } from "react-icons/fa";
 
 function BoxSeo() {
   return (
@@ -10,7 +10,7 @@ function BoxSeo() {
             <p className={styles.TBot}>Learnbay is an expert in delivering a wide gamut of management and technical data science training in India. Learnbay helps individuals and organisations provide data science courses based on practical knowledge and theoretical concepts. Our industry reputation speaks for itself. We offer the best value in training services combined with the support of our creative minds to establish a solution that suits your learning needs. We help in building careers and shaping up future leaders.</p>
             <button className={styles.btn}>
               Know More
-              <BsArrowRightShort className={styles.bIcon} />
+              <FaArrowRight className={styles.bIcon} />
             </button>
         </div>
         <div className={styles.BoxSeo1}>

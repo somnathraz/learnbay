@@ -46,8 +46,9 @@ button {
 }
 .bIcons {
   font-size: 18px;
-  margin-left: 5px;
+  margin-right: 10px;
   color: white;
+  display: flex;
 }
 
 .pTop {

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import {
-  MdOutlineArrowForward,
-  MdKeyboardArrowDown,
-  MdKeyboardArrowUp,
-} from "react-icons/md";
+  FaArrowRight,
+  FaChevronDown,
+  FaChevronUp,
+} from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -84,7 +84,7 @@ const Navbar = () => {
           {mobile ? (
             <button onClick={() => setIcon(!icon)} className="hoverBtn">
               Courses
-              {icon ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
+              {icon ? <FaChevronUp /> : <FaChevronDown />}
             </button>
           ) : (
             <button
@@ -94,7 +94,7 @@ const Navbar = () => {
               className="hoverBtn"
             >
               Courses
-              {icon ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
+              {icon ? <FaChevronUp /> : <FaChevronDown />}
             </button>
           )}
 
@@ -129,7 +129,7 @@ const Navbar = () => {
 
           <button onClick={popupShow} className="outLineBtn">
             Apply For Counselling
-            <MdOutlineArrowForward />
+            <FaArrowRight className={styles.icon} />
           </button>
 
           <Popup></Popup>

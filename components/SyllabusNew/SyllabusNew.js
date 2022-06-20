@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineDownload } from "react-icons/ai";
+import { FaDownload } from "react-icons/fa";
 import CountUp from 'react-countup';
 import styles from "./SyllabusNew.module.css";
 import { BsClock } from "react-icons/bs";
@@ -187,8 +187,8 @@ const SyllabusNew = ({ HoursSyllabus, HoursSyllabusText, Projects, ProjectsText,
             </div>
         </div>
         <div>
-            <a href={syllabussrc} target={"_blank"}><button style={{margin:"auto", marginTop:"20px"}}>
-                <AiOutlineDownload />
+            <a href={syllabussrc} target={"_blank"}><button style={{margin:"auto", marginTop:"20px", fontSize:"16px"}}>
+                <FaDownload className={styles.bicon} />
                 Download Brochure
             </button></a>
         </div>

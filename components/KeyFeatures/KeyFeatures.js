@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./KeyFeatures.module.css";
 import { AiOutlineCheck } from "react-icons/ai";
-import { BsArrowRightShort } from "react-icons/bs";
+import { FaArrowRight } from "react-icons/fa";
 
 const KeyFeatures = () => {
   return (
@@ -29,7 +29,7 @@ const KeyFeatures = () => {
             </p>
             <button className={styles.btn}>
               Know More
-              <BsArrowRightShort className={styles.bIcon} />
+              <FaArrowRight className={styles.bIcon} />
             </button>
           </div>
           <div className={styles.RightWrap}></div>

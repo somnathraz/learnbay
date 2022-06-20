@@ -9,6 +9,8 @@ import {
   ForNonProgrammerD,
   ForManagerD,
   JobGuaranteeD,
+  link1,
+  link2,
 } from "./courseDetails";
 
 const Course = () => {
@@ -19,7 +21,7 @@ const Course = () => {
   const [Guarantee, setGuarantee] = useState(false);
   const [mobile, setMobile] = useState(false);
   return (
-    <div className={styles.Course}>
+    <div className={styles.Course} id="course">
       <h2>Industry Certified Program for Working Professionals</h2>
       <div className={styles.feature}>
         <p>
@@ -50,7 +52,7 @@ const Course = () => {
               setGuarantee(false);
             }}
             style={
-              viewAll ? { background: "white" } : { background: "#E5F3FA" }
+              viewAll ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
             }
           >
             view All
@@ -64,7 +66,7 @@ const Course = () => {
               setGuarantee(false);
             }}
             style={
-              oneYear ? { background: "white" } : { background: "#E5F3FA" }
+              oneYear ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
             }
           >
             For Programmers
@@ -78,7 +80,7 @@ const Course = () => {
               setGuarantee(false);
             }}
             style={
-              nonTech ? { background: "white" } : { background: "#E5F3FA" }
+              nonTech ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
             }
           >
             For Non-Programmers
@@ -92,7 +94,7 @@ const Course = () => {
               setGuarantee(false);
             }}
             style={
-              manager ? { background: "white" } : { background: "#E5F3FA" }
+              manager ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
             }
           >
             For Manager
@@ -106,7 +108,7 @@ const Course = () => {
               setGuarantee(true);
             }}
             style={
-              Guarantee ? { background: "white" } : { background: "#E5F3FA" }
+              Guarantee ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
             }
           >
             Job Guaranteed
@@ -115,7 +117,7 @@ const Course = () => {
         {viewAll ? (
           <div className={styles.gridPanel}>
             {viewAllD.map((viewAllData) => {
-              const { id, title, img, para } = viewAllData;
+              const { id, title, img, para, link1, link2 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
                   <img
@@ -137,17 +139,17 @@ const Course = () => {
                     {para[2]}
                   </p>
                   <div className={styles.btnWrapper}>
-                    <button>
+                    <a href={link1}><button>
                       view Details
                       <FaUserGraduate className="bIcons" />
-                    </button>
-                    <button className="outLineBtn">
+                    </button></a>
+                    <a href={link2}><button className="outLineBtn">
                       Brochure
                       <FaFilePdf
                         className="bIcon"
                         style={{ color: "#2d9cd7" }}
                       />
-                    </button>
+                    </button></a>
                   </div>
                 </div>
               );
@@ -159,7 +161,7 @@ const Course = () => {
         {oneYear ? (
           <div className={styles.gridPanel}>
             {ForProgrammersD.map((viewAllData) => {
-              const { id, title, img, para } = viewAllData;
+              const { id, title, img, para, link1, link2 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
                   <img
@@ -181,17 +183,17 @@ const Course = () => {
                     {para[2]}
                   </p>
                   <div className={styles.btnWrapper}>
-                    <button>
+                    <a href={link1}><button>
                       view Details
                       <FaUserGraduate className="bIcons" />
-                    </button>
-                    <button className="outLineBtn">
+                    </button></a>
+                    <a href={link2}><button className="outLineBtn">
                       Brochure
                       <FaFilePdf
                         className="bIcon"
                         style={{ color: "#2d9cd7" }}
                       />
-                    </button>
+                    </button></a>
                   </div>
                 </div>
               );
@@ -203,7 +205,7 @@ const Course = () => {
         {nonTech ? (
           <div className={styles.gridPanel}>
             {ForNonProgrammerD.map((viewAllData) => {
-              const { id, title, img, para } = viewAllData;
+              const { id, title, img, para, link1, link2 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
                   <img
@@ -225,17 +227,17 @@ const Course = () => {
                     {para[2]}
                   </p>
                   <div className={styles.btnWrapper}>
-                    <button>
+                    <a href={link1}><button>
                       view Details
                       <FaUserGraduate className="bIcons" />
-                    </button>
-                    <button className="outLineBtn">
+                    </button></a>
+                    <a href={link2}><button className="outLineBtn">
                       Brochure
                       <FaFilePdf
                         className="bIcon"
                         style={{ color: "#2d9cd7" }}
                       />
-                    </button>
+                    </button></a>
                   </div>
                 </div>
               );
@@ -247,7 +249,7 @@ const Course = () => {
         {manager ? (
           <div className={styles.gridPanel}>
             {ForManagerD.map((viewAllData) => {
-              const { id, title, img, para } = viewAllData;
+              const { id, title, img, para, link1, link2 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
                   <img
@@ -269,17 +271,17 @@ const Course = () => {
                     {para[2]}
                   </p>
                   <div className={styles.btnWrapper}>
-                    <button>
+                    <a href={link1}><button>
                       view Details
                       <FaUserGraduate className="bIcons" />
-                    </button>
-                    <button className="outLineBtn">
+                    </button></a>
+                    <a href={link2}><button className="outLineBtn">
                       Brochure
                       <FaFilePdf
                         className="bIcon"
                         style={{ color: "#2d9cd7" }}
                       />
-                    </button>
+                    </button></a>
                   </div>
                 </div>
               );
@@ -291,7 +293,7 @@ const Course = () => {
         {Guarantee ? (
           <div className={styles.gridPanel}>
             {JobGuaranteeD.map((viewAllData) => {
-              const { id, title, img, para } = viewAllData;
+              const { id, title, img, para, link1, link2 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
                   <img
@@ -313,17 +315,17 @@ const Course = () => {
                     {para[2]}
                   </p>
                   <div className={styles.btnWrapper}>
-                    <button>
+                    <a href={link1}><button>
                       view Details
                       <FaUserGraduate className="bIcons" />
-                    </button>
-                    <button className="outLineBtn">
+                    </button></a>
+                    <a href={link2}><button className="outLineBtn">
                       Brochure
                       <FaFilePdf
                         className="bIcon"
                         style={{ color: "#2d9cd7" }}
                       />
-                    </button>
+                    </button></a>
                   </div>
                 </div>
               );
