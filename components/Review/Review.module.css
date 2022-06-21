@@ -1,0 +1,77 @@
+.Review {
+    margin: 70px 0px;
+    padding: 0px;
+
+}
+
+.Back {
+    background: url("/web-banner-final-png.png");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+align-items: center;
+margin: auto;
+padding: 0px 100px;
+}
+
+.gridPanel {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+padding: 0px 100px;
+
+}
+
+.imgDiv {
+    text-align: center;
+    margin-top: -65px;
+}
+
+.ReviewImg {
+    width: 120px;
+}
+
+.title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.leftSide {
+    box-shadow: 0px 0px 10px 0px rgb(45 156 215 / 31%);
+    margin: 80px 15px 0px 15px;
+    padding: 20px;
+    padding-top: 0px;
+    text-align: left;
+    border-top: 3px solid #2D9CD7;
+}
+
+.Quote {
+    color: #2D9CD7;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+
+.para {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .Review {
+        margin: 80px 0 20px 0px;
+        padding: 0px;
+    
+    }
+
+    .gridPanel {
+        display: block;
+        padding: 0px 10px;
+    }
+
+    .Back {
+        padding: 0px 20px;
+        margin: auto;
+    }
+    
+}

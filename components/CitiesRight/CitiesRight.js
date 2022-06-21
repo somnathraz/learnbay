@@ -56,6 +56,32 @@ const CitiesRight = ({
      ProjectsBot1, ProjectsBot2, ProjectsHead1, ProjectsHead2,  AlumniBot1,
      src1, src2, src3, src4, ProjectsH1, ProjectsH2, ProjectsH3, ProjectsH4, Projectsp1, Projectsp2, Projectsp3, Projectsp4,
      Asrc1, AlumniH1, Alumnip1, Asrc2, AlumniH2, Alumnip2, Asrc3, AlumniH3, Alumnip3, Asrc4, AlumniH4, Alumnip4, 
+     Courselink1,
+            Courselink2,
+            Courselink3,
+            Courselink4,
+            Courselink5,
+            Courselink6,
+            Courselink7,
+            Courselink8,
+            Course1,
+            Course2, 
+            Course3,
+            Course4,
+            Course5,
+            Course6,
+            Course7,
+            Course8,
+            Domainlink1,
+            Domainlink2,
+            Domainlink3,
+            Domainlink4,
+            Domainlink5,
+            Domainlink6,
+            Domainlink7,
+            Domainlink8,
+            Domainlink9,
+            Domainlink10,
   }) => {
   return (
     <section className={styles.CitiesRightHead}>
@@ -89,7 +115,15 @@ const CitiesRight = ({
                 <p className={styles.pp}>{ProgramBot12}</p>
                 <p className={styles.pHead}>{ProgramHead11}</p>
                 <p className={styles.pp}>{ProgramBot13}</p>
-
+                <a href={Courselink1}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course1}</p></a>
+                <a href={Courselink2}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course2}</p></a>
+                <a href={Courselink3}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course3}</p></a>
+                <a href={Courselink4}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course4}</p></a>
+                <a href={Courselink5}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course5}</p></a>
+                <a href={Courselink6}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course6}</p></a>
+                <a href={Courselink7}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course7}</p></a>
+                <a href={Courselink8}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course8}</p></a>
+                
             </div>
         </div>
         <div id="Domain">
@@ -102,16 +136,16 @@ const CitiesRight = ({
                 <p className={styles.pp}>{DomainBot2}</p>
                 <p className={styles.pp}>{DomainBot3}</p>
                 <ul>
-                    <li>{DomainList1}</li>
-                    <li>{DomainList2}</li>
-                    <li>{DomainList3}</li>
-                    <li>{DomainList4}</li>
-                    <li>{DomainList5}</li>
-                    <li>{DomainList6}</li>
-                    <li>{DomainList7}</li>
-                    <li>{DomainList8}</li>
-                    <li>{DomainList9}</li>
-                    <li>{DomainList10}</li>
+                <a href={Domainlink1}><li style={{color:"#2D9CD7", fontWeight:"600"}}>{DomainList1}</li></a>
+                <a href={Domainlink2}><li style={{color:"#2D9CD7", fontWeight:"600"}}>{DomainList2}</li></a>
+                <a href={Domainlink3}><li style={{color:"#2D9CD7", fontWeight:"600"}}>{DomainList3}</li></a>
+                <a href={Domainlink4}><li style={{color:"#2D9CD7", fontWeight:"600"}}>{DomainList4}</li></a>
+                <a href={Domainlink5}><li style={{color:"#2D9CD7", fontWeight:"600"}}>{DomainList5}</li></a>
+                <a href={Domainlink6}><li style={{color:"#2D9CD7", fontWeight:"600"}}>{DomainList6}</li></a>
+                <a href={Domainlink7}><li style={{color:"#2D9CD7", fontWeight:"600"}}>{DomainList7}</li></a>
+                <a href={Domainlink8}><li style={{color:"#2D9CD7", fontWeight:"600"}}>{DomainList8}</li></a>
+                <a href={Domainlink9}><li style={{color:"#2D9CD7", fontWeight:"600"}}>{DomainList9}</li></a>
+                <a href={Domainlink10}><li style={{color:"#2D9CD7", fontWeight:"600"}}>{DomainList10}</li></a>
                 </ul>
             </div>
         </div>
@@ -339,7 +373,7 @@ const CitiesRight = ({
                 </div>
             </div>
             <div className={styles.Button}>
-            <a href='#'><button style={{margin:"auto"}}>View All Reviews</button></a>
+            <a href="/reviews" target="_blank"><button style={{margin:"auto"}}>View All Reviews</button></a>
             </div>
         </div>
         <div id="FAQ">

@@ -110,11 +110,16 @@ export default function Home() {
             ProgramBot4="Bangalore is a huge tech hub and works with the latest technologies to the best of its abilities. Irrespective of tech or non-tech industries, everyone is now getting extremely dependent on AI innovations. Hence the work culture, as well as the job market, demands in getting changes. But the number of candidates properly adaptable to such changes is very few."
             ProgramBot5="Companies are facing different kinds of challenges as the advancement in technology by Artificial intelligence is big, but there are a few Artificial intelligence engineers/ experts. Learnbay wants to provide a solution for this by teaching the best Artificial Intelligence skills to learners who are eager to learn and own the ability for the same."
             ProgramBot6="The best part at Learnbay is that you get the variable options of artificial intelligence courses to choose from- according to your career stage and professional background. Available course options are:"
-            ProgramBot7="Foundational Data Science and AI program
-            Advanced-Data Science and AI program with Domain Specialization
-            Artificial Intelligence and ML Program with Domain Specialization
-             Data Science and AI Program for Managers and Leaders
-            AI and Data Science Course with Job Guarantee or Money back "
+            Courselink1="/data-science-certification-courses"
+            Courselink2="/advance-data-science-certification-courses"
+            Courselink3="/artificial-intelligence-certification-course"
+            Courselink4="/data-science-ai-for-managers"
+            Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
+            Course1="Foundational Data Science and AI program"
+            Course2="Advanced-Data Science and AI program with Domain Specialization"
+            Course3="Artificial Intelligence and ML Program with Domain Specialization"
+            Course4="Data Science and AI Program for Managers and Leaders"
+            Course5="AI and Data Science Course with Job Guarantee or Money back"
 
             DomainHead1=" Why is domain specialization important in job-ready  Artificial intelligence training in Bangalore?"
             DomainBot1="Artificial intelligence has a lot of subsets and components. Expertising Artificial intelligence in specific domains gives an edge to your earned AI skills. If you pursue Learnbay Artificial intelligence course training in Bangalore, there are many domains to select from. The options include banking, oil, gas, etc. Every sector or industry has different requirements and work processes. Domain specialization helps you have an extra mark by completing this AI certification course. If you have already earned 4 years of experience in any domain, then in the present scenario, it's almost impossible to successfully switch into an AI career without domain-focused AI skills."
@@ -130,6 +135,16 @@ export default function Home() {
             DomainList8="IoT, automotive, and embedded systems" 
             DomainList9="Supply chain and e-commerce" 
             DomainList10="Banking, Finance, and Marketing Domain"
+            Domainlink1="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+            Domainlink2="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf"
+            Domainlink3="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+            Domainlink4="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf"
+            Domainlink5="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf"
+            Domainlink6="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Development+and+Testing+Domain.pdf"
+            Domainlink7="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Cloud+and+Devops+Domain.pdf"
+            Domainlink8="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
+            Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
+            Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
 
             CertificationBot1="Learnbay Provides students with an IBM AI course completion certificate. This IBM-certified program helps you to be at the top of other profiles. The artificial intelligence course completion certificate by IBM ensures you are recognized as a skilled Artificial intelligence professional. Not only that, as you process with the modules, you get micro AI certifications by IBM like machine learning with python, Deep Learning with TensorFlow, and so on. As per your chosen course, you achieve 1 to 8 number micro certificates from IBM. Even once you complete the project, IBM issues a project experience certificate in AI too."
             src="/Managers-4.jpeg"

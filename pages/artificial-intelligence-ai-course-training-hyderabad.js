@@ -110,12 +110,16 @@ export default function Home() {
             ProgramBot3="Using a balanced combination of existing data science and artificial intelligence methodologies and industry-specific best practices, you'll learn how to apply AI to real-world business challenges through the Learnbay artificial intelligence course."
             ProgramBot31="Learnbay's major goal is to equip candidates in Hyderabad with high-quality data science and AI training. Artificial intelligence training will be delivered to you with domain-specific modules precisely crafted by industry specialists. They also offer blended learning sessions and live doubt clearing sessions. It is the greatest AI course for working professionals since the modules are affordable and flexible, with the option of 0% interest EMI. Overall, this IBM artificial intelligence course covers everything that a student looking for the best AI course training in Hyderabad would want to learn."
             ProgramHead4="The present Artificial Intelligence Courses available at Learnbay:"
-            ProgramBot5="Foundational Data Science and AI program,
-            Advanced-Data Science and AI program with Domain Specialization,
-            Artificial Intelligence and Machine Learning Program with Domain Specialization,
-            Data Science and AI Program for Managers and Leaders,
-            AI and Data Science Course with Job Guarantee or Money back.
-            "
+            Courselink1="/data-science-certification-courses"
+            Courselink2="/advance-data-science-certification-courses"
+            Courselink3="/artificial-intelligence-certification-course"
+            Courselink4="/data-science-ai-for-managers"
+            Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
+            Course1="Foundational Data Science and AI program"
+            Course2="Advanced-Data Science and AI program with Domain Specialization"
+            Course3="Artificial Intelligence and ML Program with Domain Specialization"
+            Course4="Data Science and AI Program for Managers and Leaders"
+            Course5="AI and Data Science Course with Job Guarantee or Money back"
 
             DomainHead1="Why Domain Specialization?"
             DomainBot1="Domain specialization concentrates your efforts on a single area of expertise to stand out from the crowded artificial intelligence job market. Furthermore, domain experience is essential to being a competent artificial intelligence professional. Artificial intelligence experts or application developers have a wide range of responsibilities. Thus they must have extensive knowledge of particular business operations in order to provide the most profitable artificial intelligence-powered solution. To land your dream career, you should take domain-specific AI courses."
@@ -130,6 +134,16 @@ export default function Home() {
             DomainList8="IoT, automotive, and embedded systems" 
             DomainList9="Supply chain and e-commerce" 
             DomainList10="Banking, Finance, and Marketing Domain"
+            Domainlink1="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+            Domainlink2="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf"
+            Domainlink3="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+            Domainlink4="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf"
+            Domainlink5="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf"
+            Domainlink6="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Development+and+Testing+Domain.pdf"
+            Domainlink7="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Cloud+and+Devops+Domain.pdf"
+            Domainlink8="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
+            Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
+            Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
 
             CertificationBot1="Upon completing a course in artificial intelligence with placement from Learnbay, you will receive IBM certifications. Depending on your course, you will obtain one to eight certificates. Furthermore, upon completing capstone projects, you will receive an IBM project experience certificate."
             CertificationBot2="By partnering with IBM and a series of MNCs as well as startups, Learnbay has attained a significant milestone. Having this IBM certification on your resume will surely help you land a high-paying artificial intelligence job at one of the world's renowned corporations. Over 10,000 students have finished our Artificial Intelligence course, allowing them to pursue rewarding AI and machine learning professions across Hyderabad."

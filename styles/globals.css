@@ -48,7 +48,7 @@ button {
   font-size: 18px;
   margin-right: 10px;
   color: white;
-  display: flex;
+  display: initial;
 }
 
 .pTop {

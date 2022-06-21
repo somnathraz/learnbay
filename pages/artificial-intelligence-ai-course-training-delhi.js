@@ -109,12 +109,16 @@ export default function Home() {
             ProgramBot3="The Learnbay Artificial Intelligence course will teach you how to apply AI to real-world business difficulties using a balanced combination of existing Artificial Intelligence and Machine Learning approaches and upcoming industry-specific best practices."
             ProgramBot31="Learnbay's main purpose is to provide high-quality Artificial Intelligence and Machine Learning training to aspirants in Delhi. Domain-specific modules are carefully crafted by industry experts and will be sent to you as part of your Artificial Intelligence training. Learnbay also provides blended learning sessions as well as live question-and-answer sessions. Because the modules are reasonable and flexible, with the option of 0% interest EMI, it is the best  Artificial Intelligence (AI) course for working professionals in Delhi. This IBM Artificial Intelligence course covers everything that a student seeking the best AI course training in Delhi will need to know."
             ProgramHead4="Artificial Intelligence courses provided by Learnbay:"
-            ProgramBot5="Foundational Data Science and AI program,
-            Advanced-Data Science and AI program with Domain Specialization,
-            Artificial Intelligence and Machine Learning Program with Domain Specialization,
-            Data Science and AI Program for Managers and Leaders,
-            AI and Data Science Course with Job Guarantee or Money back.          
-            "
+            Courselink1="/data-science-certification-courses"
+            Courselink2="/advance-data-science-certification-courses"
+            Courselink3="/artificial-intelligence-certification-course"
+            Courselink4="/data-science-ai-for-managers"
+            Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
+            Course1="Foundational Data Science and AI program"
+            Course2="Advanced-Data Science and AI program with Domain Specialization"
+            Course3="Artificial Intelligence and ML Program with Domain Specialization"
+            Course4="Data Science and AI Program for Managers and Leaders"
+            Course5="AI and Data Science Course with Job Guarantee or Money back"
 
             DomainHead1="What type of difficulties can you face if you opt for an Artificial intelligence certification without domain expertise?"
             DomainBot1="Domain specialization focuses on learners' efforts in a single area of expertise, allowing you to stand out in the competitive Artificial Intelligence job market. In addition, Domain experience is required to become a competent Artificial Intelligence professional. Artificial Intelligence experts and application developers are responsible for various tasks. As a result, to provide the most profitable Artificial Intelligence-powered solution, they must have extensive knowledge of specific business operations."
@@ -129,6 +133,16 @@ export default function Home() {
             DomainList8="IoT, automotive, and embedded systems" 
             DomainList9="Supply chain and e-commerce" 
             DomainList10="Banking, Finance, and Marketing Domain"
+            Domainlink1="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+            Domainlink2="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf"
+            Domainlink3="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+            Domainlink4="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf"
+            Domainlink5="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf"
+            Domainlink6="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Development+and+Testing+Domain.pdf"
+            Domainlink7="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Cloud+and+Devops+Domain.pdf"
+            Domainlink8="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
+            Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
+            Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
 
             CertificationHead1="How does the Learnbay AI certification process become unique?"
             CertificationBot1="Candidates will acquire IBM certifications after completing an Artificial Intelligence course training in Delhi from Learnbay. You will receive one to eight certificates, depending on your chosen course available in Delhi. Additionally, students will also obtain an IBM project experience accreditation from IBM after completing capstone projects."

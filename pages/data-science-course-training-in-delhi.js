@@ -110,11 +110,16 @@ export default function Home() {
             ProgramBot31="Furthermore, depending on your current professional level, you can choose from various data science course options. Each of these courses is made up of modules tailored to your previous work experience."
             ProgramBot32="Data science course fees for the courses offered by Learnbay range from 65K to 1.2 lakh INR. The lesson schedule is flexible, and you can enroll in any batch or with any teacher. You can even attend multiple sessions with different instructors. One-on-one live doubt clearing sessions with seasoned FAANG Data scientists are included in our Data Science and Artificial Intelligence courses. Students can take a break after enrolling, then return to finish their studies in one to three years (depending on the course)."
             ProgramHead5="Data Science Courses Available at Learnbay:"
-            ProgramBot5="Foundational Data Science and AI program.
-            Advanced-Data Science and AI program with Domain Specialization.
-            Data Science and AI Program for Managers and Leaders.
-            AI and Data Science Course with Job Guarantee or Money back.
-            "
+            Courselink1="/data-science-certification-courses"
+            Courselink2="/advance-data-science-certification-courses"
+            Courselink3="/artificial-intelligence-certification-course"
+            Courselink4="/data-science-ai-for-managers"
+            Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
+            Course1="Foundational Data Science and AI program"
+            Course2="Advanced-Data Science and AI program with Domain Specialization"
+            Course3="Artificial Intelligence and ML Program with Domain Specialization"
+            Course4="Data Science and AI Program for Managers and Leaders"
+            Course5="AI and Data Science Course with Job Guarantee or Money back"
 
             DomainHead1="Why Domain Specialization?"
             DomainBot1="6 out of 10 job applicants hold a data science certificate in Delhi. One of these 2 makes a successful data science career transfer within a year of completing a course. Especially when it comes to mid-senior level data scientist roles, then having a generic certificate in data science does not help much. Here, recruiters search for domain-specific data science skills."
@@ -130,6 +135,16 @@ export default function Home() {
             DomainList8="IoT, automotive, and embedded systems" 
             DomainList9="Supply chain and e-commerce" 
             DomainList10="Banking, Finance, and Marketing Domain"
+            Domainlink1="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+            Domainlink2="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf"
+            Domainlink3="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+            Domainlink4="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf"
+            Domainlink5="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf"
+            Domainlink6="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Development+and+Testing+Domain.pdf"
+            Domainlink7="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Cloud+and+Devops+Domain.pdf"
+            Domainlink8="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
+            Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
+            Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
 
             CertificationBot1="You may take advantage of live lessons with different instructors through Learnbay's IBM Data Scientist Course without dealing with any difficulties. Aside from that, you'll get IBM certifications for several data sciences and AI micro-skills. As a result, it's essentially a data science course with a job guarantee. You will receive 1 to 8 certifications depending on the course you choose. The best thing is that you will receive an IBM Project Experience Certificate once you finish the capstone project related to Delhi's Data Science and AI course. For additional information about micro-skill certificates, please see the course brochures."
             CertificationBot2="For more details about the certification, you can read our brochures"

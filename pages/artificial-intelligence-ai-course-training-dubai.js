@@ -111,11 +111,16 @@ export default function Home() {
             ProgramBot32="Learnbay even supports learners coming from non-IT backgrounds by arranging additional programming classes. They also host a variety of webinars and hackathons to help pupils learn efficiently."
             ProgramBot4="Additionally, you can even get a guarantee of job placement or money-back assurance in specific artificial intelligence certification programs."
             ProgramBot5="Available Artificial Intelligence Certification Courses by Learnbay in Dubai:"
-            ProgramBot6="Foundational Data Science and AI program,
-            Advanced-Data Science and AI program with Domain Specialization,
-            Artificial Intelligence and Machine Learning Program with Domain Specialization,
-            Data Science and AI Program for Managers and Leaders,
-            AI and Data Science Course with Job Guarantee or Money back."
+            Courselink1="/data-science-certification-courses"
+            Courselink2="/advance-data-science-certification-courses"
+            Courselink3="/artificial-intelligence-certification-course"
+            Courselink4="/data-science-ai-for-managers"
+            Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
+            Course1="Foundational Data Science and AI program"
+            Course2="Advanced-Data Science and AI program with Domain Specialization"
+            Course3="Artificial Intelligence and ML Program with Domain Specialization"
+            Course4="Data Science and AI Program for Managers and Leaders"
+            Course5="AI and Data Science Course with Job Guarantee or Money back"
 
             DomainBot1="Mastering artificial intelligence tools and techniques is not the only thing you need to be successful in this field. It is recommended that learners specialize in a certain area of expertise or Domain before applying for  AI or ML jobs. Besides, domain knowledge helps us achieve a high level of precision and accuracy. Domain specialization not only helps in salary boost but also enables you to handle job duties more efficiently. In one world, domain specialization makes your data science career more sustainable in the real sense."
             DomainBot2="That’s why we have offered different domain electives for our AI courses."
@@ -129,6 +134,16 @@ export default function Home() {
             DomainList8="IoT, automotive, and embedded systems" 
             DomainList9="Supply chain and e-commerce" 
             DomainList10="Banking, Finance, and Marketing Domain"
+            Domainlink1="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+            Domainlink2="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf"
+            Domainlink3="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+            Domainlink4="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf"
+            Domainlink5="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf"
+            Domainlink6="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Development+and+Testing+Domain.pdf"
+            Domainlink7="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Cloud+and+Devops+Domain.pdf"
+            Domainlink8="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
+            Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
+            Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
 
             CertificationHead1="Learnbay has achieved a remarkable breakthrough by partnering with IBM."
             CertificationBot1="The artificial intelligence course in Dubai provides students with a course completion IBM certificate. Apart from that, as you proceed through the modules, you will be issued extra IBM certificates for completing multiple Micro AI skills such as ML with Python, Deep Learning fundamentals, and so forth. Lastly, once you complete the capstone project, you will get an IBM project experience certification."

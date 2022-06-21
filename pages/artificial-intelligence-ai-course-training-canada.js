@@ -111,11 +111,16 @@ export default function Home() {
             ProgramBot3="Learnbay’s mission is to provide a world-class education to AI and data science aspirants across Canada. The instructors train and share their experiences through live interactive classes. In addition, they are available to answer your queries during doubt clearing sessions. Interestingly, the modules of the IBM artificial intelligence course are affordable and flexible with the option of zero cost EMI, making it the best artificial Intelligence course in Canada. Our IBM Artificial intelligence Course provides an orientation to the theoretical and practical knowledge in using and implementing AI algorithms."
             ProgramBot31="With world-class education and cutting-edge research, we help you to become an AI expert in your chosen field."
             ProgramHead4="Available Artificial Intelligence Certification Courses by Learnbay in Canada:"
-            ProgramBot5="Foundational Data Science and AI program,
-            Advanced-Data Science and AI program with Domain Specialization,
-            Artificial Intelligence and Machine Learning Program with Domain Specialization,
-            Data Science and AI Program for Managers and Leaders,
-            AI and Data Science Course with Job Guarantee or Money back [1]."
+            Courselink1="/data-science-certification-courses"
+            Courselink2="/advance-data-science-certification-courses"
+            Courselink3="/artificial-intelligence-certification-course"
+            Courselink4="/data-science-ai-for-managers"
+            Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
+            Course1="Foundational Data Science and AI program"
+            Course2="Advanced-Data Science and AI program with Domain Specialization"
+            Course3="Artificial Intelligence and ML Program with Domain Specialization"
+            Course4="Data Science and AI Program for Managers and Leaders"
+            Course5="AI and Data Science Course with Job Guarantee or Money back"
 
             DomainHead1="Why Domain Specialization?"
             DomainBot1="The ability to specialize in a particular field is essential to succeed in the artificial intelligence job market. AI and ML practitioners have a wide range of responsibilities; hence they must have a thorough understanding of their Domain, as well as artificial intelligence applications and AI & ML tools used in the current workplace."
@@ -131,6 +136,16 @@ export default function Home() {
             DomainList8="IoT, automotive, and embedded systems" 
             DomainList9="Supply chain and e-commerce" 
             DomainList10="Banking, Finance, and Marketing Domain"
+            Domainlink1="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+            Domainlink2="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf"
+            Domainlink3="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+            Domainlink4="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf"
+            Domainlink5="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf"
+            Domainlink6="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Development+and+Testing+Domain.pdf"
+            Domainlink7="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Cloud+and+Devops+Domain.pdf"
+            Domainlink8="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
+            Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
+            Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
 
             CertificationBot1="Learnbay’s artificial intelligence courses include not one but multiple IBM certifications on completing distinct modules. You will receive 1 to 8 certificates depending on the course you select. (Refer to the respective course section for more information)."
             CertificationBot2="Additionally, you'll be issued an IBM project experience certificate upon completing your capstone projects. Our strong partnership with IBM and MNCs has helped countless students in propelling their careers in Artificial Intelligence and machine learning."
