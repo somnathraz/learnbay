@@ -40,6 +40,10 @@ text-align: left;
   font-size: 18px;
 }
 
+.link {
+  color: #2D9CD7;
+}
+
 .ans p {
   padding: 15px 30px 10px 30px;
   color: #000;

@@ -27,10 +27,10 @@ const KeyFeatures = () => {
               <AiOutlineCheck className={styles.tickIcon} />A successful career
               transition even with 0 coding experience.
             </p>
-            <button className={styles.btn}>
+            <a href="/about-us"><button className={styles.btn}>
               Know More
               <FaArrowRight className={styles.bIcon} />
-            </button>
+            </button></a>
           </div>
           <div className={styles.RightWrap}></div>
         </div>

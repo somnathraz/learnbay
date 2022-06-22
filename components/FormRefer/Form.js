@@ -17,13 +17,13 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     name: "",
     email: "",
     phone: "",
-    workExperience: "",
-    Brief: "",
-    scheduleTime: "",
+    refername:"",
+    referemail: "",
+    referphone: "",
     url: router.asPath,
   });
   useEffect(() => {
-    setQuery({ ...query, phone: value });
+    setQuery({ ...query, phone: value,  Referphone: value});
   }, [value]);
 
   // Update inputs value
@@ -36,7 +36,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     }));
   };
 
-  let endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  let endPoint = "https://getform.io/f/69076866-e1f7-4cf3-a7d2-12603819a5a4";
   // if (router.pathname === "/data-science-certification-courses") {
   //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
   // }
@@ -74,8 +74,9 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
         name: "",
         email: "",
         phone: "",
-        workExperience: "",
-        scheduleTime: "",
+        refername:"",
+        referemail: "",
+        referphone: "",
         url: "",
       })
     );
@@ -213,95 +214,53 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             onChange={setValue}
           />
         </div>
-        <div className={popup ? styles.formWrappers : styles.formWrapper}>
-          <select
-            name="workExperience"
-            required
-            value={query.workExperience}
-            onChange={handleParam()}
-          >
-            <option className={styles.option} value="">
-              Select Your Work Experience
-            </option>
-            <option value="College Students">College Students</option>
-            <option value="Fresher ( less than 1 year)">
-              Fresher ( less than 1 year)
-            </option>
-            <option value="1 to 3 year">1 to 3 year</option>
-            <option value="3 to 7 year">3 to 7 year</option>
-            <option value="7 to 12 year">7 to 12 year</option>
-            <option value="12+ year">12+ year</option>
-          </select>
-        </div>
-        {popup ? (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <select
-              name="scheduleTime"
-              required
-              value={query.scheduleTime}
-              onChange={handleParam()}
-            >
-              <option className={styles.option} value="">
-                Scheduled Your Appointment
-              </option>
-              <option value="Morning between (10-11 AM)">
-                Morning between (10-11 AM)
-              </option>
-              <option value="AfterNoon Between (11-12 PM)">
-                AfterNoon Between (11-12 PM)
-              </option>
-              <option value="AfterNoon between (12-01 PM)">
-              AfterNoon between (12-01 PM)
-              </option>
-              <option value="Evening between (02-03 PM)">
-                Evening between (02-03 PM)
-              </option>
-              <option value="Evening between (03-04 PM)">
-                Evening between (03-04 PM)
-              </option>
-              <option value="Evening between (04-05 PM)">
-                Evening between (04-05 PM)
-              </option>
-            </select>
-            <input
-              type="hidden"
-              id="url"
-              name="url"
-              value={router.asPath}
-            ></input>
-            {/* <div className={styles.inner}>
-              <input
-                id="date"
-                className={styles.date}
-                min={pastDates()}
-                max={maxDates()}
-                type="date"
-                name="date"
-                value={query.date}
-                onChange={handleParam()}
-              />
-              <input
-                id="time"
-                className={styles.time}
-                type="time"
-                name="time"
-                value={query.time}
-                onChange={handleParam()}
-              />
-            </div> */}
-          </div>
-        ) : (
-          ""
-        )}
-<div className={popup ? styles.formWrappers : styles.formWrapper}>
-        <input
-            type="textarea"
-            name="Brief"
+        <div className={styles.formWrapper}>
+          <input
+            type="text"
+            name="refername"
             className={popup ? styles.NameInputs : styles.NameInput}
-            placeholder="Tell us something about yourself"
-            value={query.Brief}
+            required
+            placeholder="Enter your Full Name*"
+            value={query.name}
             style={{ borderBottom: "1px solid grey" }}
             onChange={handleParam()}
+          />
+        </div>
+        <div className={styles.formWrapper}>
+          <input
+            type="email"
+            name="referemail"
+            required
+            placeholder="Enter Your Email*"
+            className={popup ? styles.EmailInputs : styles.EmailInput}
+            value={query.email}
+            onChange={handleParam()}
+          />
+        </div>
+        <div className={styles.formWrapper}>
+          <PhoneInput
+            style={
+              popup
+                ? {
+                    height: "50px",
+                    borderRadius: "8px",
+                    border: "1px solid grey",
+                    padding: "10px",
+                  }
+                : {
+                    border: "0",
+                    height: "50px",
+                    borderRadius: "3px",
+                    borderBottom: "1px solid grey",
+                  }
+            }
+            name="referphone"
+            rules={{ required: true }}
+            defaultCountry="IN"
+            placeholder="Enter Phone Number"
+            className={popup ? styles.Phones : styles.Phone}
+            value={value}
+            onChange={setValue}
           />
         </div>
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
