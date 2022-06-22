@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Domain.module.css";
 import Image from "next/image";
-import Popup from "../Popup/Popup";
-import Form from "../Form/Form";
+import Popup from "/components/Popup/Popup";
+import Form from "/components/Form/Form";
 
 
 const Domain = () => {

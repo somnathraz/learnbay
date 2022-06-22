@@ -5,8 +5,6 @@ import FullStack from "../../public/Full-stack-develeopr-course.ico";
 import CloudComputing from "../../public/CLOUD-COMPUTING-IOT-COURSE-BY-SKILLSLASH.ico";
 import CloudDev from "../../public/CLOUD-DEVOPS-COURSE-.ico";
 import DigitalMarketing from "../../public/DIGITAL-MARKETING-COURSE-BY-SKILLSLASH.ico";
-import BlockChain from "../../public/BLOCKCHAIN-COURSE-WITH-CERTIFICATION.ico";
-import CyberSecurity from "../../public/CYBERSECURITY-COURSE-BY-SKILLSLASH.ico";
 
 const TabData = [
   {

@@ -4,8 +4,8 @@ import { BiCheck } from "react-icons/bi";
 import { MdDateRange } from "react-icons/md";
 import { AiOutlineBars } from "react-icons/ai";
 import { BiTimeFive, BiBookOpen } from "react-icons/bi";
-import Popup from "../Popup/Popup";
-import Form from "../Form/Form";
+import Popup from "/components/Popup/Popup";
+import Form from "/components/Form/Form";
 
 const CourseFee = ({
   CourseFeeHead,

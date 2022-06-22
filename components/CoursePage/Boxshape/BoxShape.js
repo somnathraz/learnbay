@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./BoxShape.module.css";
 
-import Form from "../Form/Form";
+import Form from "/Components/Form/Form";
 
 const BoxShape = ({
   title,

@@ -5,8 +5,8 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-import Popup from "../Popup/Popup";
-import Form from "../Form/Form";
+import Popup from "/components/Popup/Popup";
+import Form from "/components/Form/Form";
 
 const HeroSection = ({
   deskTopPara,

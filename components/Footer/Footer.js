@@ -46,15 +46,13 @@ const Footer = () => {
           <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Learnbay</p>
           <a href="/about-us"><p className={styles.FooterInnerli}>About Us</p></a>
-          <a href="/advance-ai-ml-certification"><p className={styles.FooterInnerli}>Contact Us</p></a>
-          <a href="/data-science-ai-cert-for-managers-leaders"><p className={styles.FooterInnerli}>Blogs</p></a>
-          <a href="/"><p className={styles.FooterInnerli}>Demo</p></a>
-          <a href="/"><p className={styles.FooterInnerli}>Webinars</p></a>
+          <a href="/contact-us"><p className={styles.FooterInnerli}>Contact Us</p></a>
+          <a href="/demo"><p className={styles.FooterInnerli}>Demo</p></a>
+          <a href="#"><p className={styles.FooterInnerli}>Blogs</p></a>
           <p className={styles.FooterInnerP}>Terms</p>
-          <a href="/data-science-certification-courses"><p className={styles.FooterInnerli}>Terms and Conditions</p></a>
-          <a href="/advance-ai-ml-certification"><p className={styles.FooterInnerli}>Refunds/Cancellations policy</p></a>
-          <a href="/data-science-ai-cert-for-managers-leaders"><p className={styles.FooterInnerli}>Contact Us</p></a>
-          <a href="/"><p className={styles.FooterInnerli}>Privacy Policy</p></a>
+          <a href="/terms-conditions"><p className={styles.FooterInnerli}>Terms and Conditions</p></a>
+          <a href="/refund-cancellation-policy"><p className={styles.FooterInnerli}>Refunds/Cancellations policy</p></a>
+          <a href="/privacy-policy"><p className={styles.FooterInnerli}>Privacy Policy</p></a>
           </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Get Our Apps On</p>

@@ -1,15 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/HeroSection/HeroSection";
-import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/GetHired/GetHired";
-import BoxShape from "../Components/Boxshape/BoxShape";
+import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
+import GetHired from "../Components/CoursePage/GetHired/GetHired";
+import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import CityText from "../Components/CityText/CityText";
-import CitiesLeft from "../Components/CitiesLeft/CitiesLeft";
-import CitiesRight from "../Components/CitiesRight/CitiesRight";
+import CityText from "../components/CityComponent/CityText/CityText";
+import CitiesLeft from "../Components/CityComponent/CitiesLeft/CitiesLeft";
+import CitiesRight from "../Components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../Components/FAQNewCity/FAQNew";
 import React, { useState } from "react";
 import { MachineFaqDataP, MachineDomainFaqDataP, MachinePaymentFaqDataP, MachineCapstoneFaqDataP, MachineCertificationFaqDataP, MachinejobFaqDataP, MachineMentorshipFaqDataP, MachineSupportFaqDataP } from "../components/FAQ/FaqDataCity";
