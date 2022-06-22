@@ -17,13 +17,13 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     name: "",
     email: "",
     phone: "",
-    refername:"",
-    referemail: "",
-    referphone: "",
+    referName: "",
+    referEmail: "",
+    referPhone: "",
     url: router.asPath,
   });
   useEffect(() => {
-    setQuery({ ...query, phone: value,  Referphone: value});
+    setQuery({ ...query, phone: value, referPhone: value });
   }, [value]);
 
   // Update inputs value
@@ -74,9 +74,9 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
         name: "",
         email: "",
         phone: "",
-        refername:"",
-        referemail: "",
-        referphone: "",
+        referName: "",
+        referEmail: "",
+        referPhone: "",
         url: "",
       })
     );
@@ -91,7 +91,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses" && downloadBrochure){
+    if (
+      router.pathname === "/data-science-certification-courses" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -99,7 +102,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-data-science-certification-courses" && downloadBrochure){
+    if (
+      router.pathname === "/advance-data-science-certification-courses" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -107,7 +113,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/artificial-intelligence-certification-course" && downloadBrochure) {
+    if (
+      router.pathname === "/artificial-intelligence-certification-course" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -115,15 +124,25 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-for-managers" && downloadBrochure) {
+    if (
+      router.pathname === "/data-science-ai-for-managers" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-certification-course") {
+    if (
+      router.pathname ===
+      "/job-guarantee-or-money-back-data-science-ai-certification-course"
+    ) {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-certification-course" && downloadBrochure) {
+    if (
+      router.pathname ===
+        "/job-guarantee-or-money-back-data-science-ai-certification-course" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -131,7 +150,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/business-analytics-certification-course" && downloadBrochure) {
+    if (
+      router.pathname === "/business-analytics-certification-course" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -139,7 +161,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-analytics-certification-course" && downloadBrochure) {
+    if (
+      router.pathname === "/data-analytics-certification-course" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -217,11 +242,11 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
         <div className={styles.formWrapper}>
           <input
             type="text"
-            name="refername"
+            name="referName"
             className={popup ? styles.NameInputs : styles.NameInput}
             required
             placeholder="Enter your Full Name*"
-            value={query.name}
+            value={query.referName}
             style={{ borderBottom: "1px solid grey" }}
             onChange={handleParam()}
           />
@@ -229,11 +254,11 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
         <div className={styles.formWrapper}>
           <input
             type="email"
-            name="referemail"
+            name="referEmail"
             required
             placeholder="Enter Your Email*"
             className={popup ? styles.EmailInputs : styles.EmailInput}
-            value={query.email}
+            value={query.referEmail}
             onChange={handleParam()}
           />
         </div>
@@ -254,7 +279,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
                     borderBottom: "1px solid grey",
                   }
             }
-            name="referphone"
+            name="referPhone"
             rules={{ required: true }}
             defaultCountry="IN"
             placeholder="Enter Phone Number"
@@ -276,4 +301,3 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
 };
 
 export default Form;
- 
