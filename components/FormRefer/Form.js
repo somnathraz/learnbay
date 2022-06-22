@@ -13,6 +13,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
   //offset to maintain time zone difference
 
   const [value, setValue] = useState();
+  const [referValue, setReferValue] = useState();
   const [query, setQuery] = useState({
     name: "",
     email: "",
@@ -23,9 +24,11 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     url: router.asPath,
   });
   useEffect(() => {
-    setQuery({ ...query, phone: value, referPhone: value });
+    setQuery({ ...query, phone: value });
   }, [value]);
-
+  useEffect(() => {
+    setQuery({ ...query, referPhone: referValue });
+  }, [referValue]);
   // Update inputs value
   const handleParam = () => (e) => {
     const name = e.target.name;
@@ -284,8 +287,8 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             defaultCountry="IN"
             placeholder="Enter Phone Number"
             className={popup ? styles.Phones : styles.Phone}
-            value={value}
-            onChange={setValue}
+            value={referValue}
+            onChange={setReferValue}
           />
         </div>
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
