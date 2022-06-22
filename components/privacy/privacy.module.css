@@ -1,0 +1,47 @@
+.privacy {
+    margin: 70px 0px;
+    padding: 0px;
+}
+
+.BackP {
+    background: url("/web-banner-final-png.png");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+align-items: center;
+margin: auto;
+padding: 0px 100px;
+}
+
+.privacyInner {
+    padding: 30px 100px;
+}
+
+.top {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bot {
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+
+    .BackP {
+        height: 50vh;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .privacy {
+        margin: 20px 0px;
+    }
+
+    .privacyInner {
+        padding: 30px 20px;
+    }
+
+}
