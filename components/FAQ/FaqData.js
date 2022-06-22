@@ -2,7 +2,8 @@ export const FaqData1 = [
   {
     id: 0,
     ques: "What are the prerequisites for the Data Science and AI Foundation program?",
-    ans: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    ans1: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+
     open: true,
   },
   {
@@ -201,7 +202,6 @@ export const SupportFaqData1 = [
     open: false,
   },
 ];
-
 
 // 2nd page
 export const FaqData2 = [
@@ -422,7 +422,6 @@ export const SupportFaqData2 = [
     open: false,
   },
 ];
-
 
 // 3rd page
 export const FaqData3 = [
@@ -647,7 +646,6 @@ export const SupportFaqData3 = [
     open: false,
   },
 ];
-
 
 // 4th page
 export const FaqData4 = [
@@ -1257,7 +1255,6 @@ export const SupportFaqData6 = [
     open: false,
   },
 ];
-
 
 // 7th page
 export const FaqData7 = [

@@ -21,9 +21,9 @@ function FAQ({ FaqData }) {
 
   return (
     <section className={styles.FAQ}>
-
       {state.map((data, index) => {
         const { id, ques, ans, open } = data;
+        ans.split(" ");
 
         return (
           <div
