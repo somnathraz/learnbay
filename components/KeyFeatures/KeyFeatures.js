@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./KeyFeatures.module.css";
 import { AiOutlineCheck } from "react-icons/ai";
-import { BsArrowRightShort } from "react-icons/bs";
+import { FaArrowRight } from "react-icons/fa";
 
 const KeyFeatures = () => {
   return (
@@ -27,10 +27,10 @@ const KeyFeatures = () => {
               <AiOutlineCheck className={styles.tickIcon} />A successful career
               transition even with 0 coding experience.
             </p>
-            <button className={styles.btn}>
+            <a href="/about-us"><button className={styles.btn}>
               Know More
-              <BsArrowRightShort className={styles.bIcon} />
-            </button>
+              <FaArrowRight className={styles.bIcon} />
+            </button></a>
           </div>
           <div className={styles.RightWrap}></div>
         </div>

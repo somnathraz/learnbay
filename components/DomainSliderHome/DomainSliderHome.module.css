@@ -14,8 +14,12 @@
   text-align: left;
 }
 
+.bIcon {
+  margin-left: 10px;
+}
+
 .slide {
-  border-style: solid;
+  border: solid #2D9CD7;
   border-width: 0px 0px 0px 3px;
   box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
   margin: 30px 10px 40px 10px;
@@ -47,7 +51,9 @@
   border-radius: 0px;
   box-shadow: 4px 4px 10px -4px #33376f;
   padding: 12px 26px;
-  text-align: left;
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
 }
 
 .slide button:hover {
@@ -60,7 +66,7 @@
 }
 
 .buttonF {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .buttonF button:hover {

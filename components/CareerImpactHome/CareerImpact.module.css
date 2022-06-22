@@ -102,7 +102,7 @@
 .slide {
   padding: 10px 20px;
   display: flex;
-  height: 450px;
+  height: 350px;
   flex-flow: column-reverse;
   justify-content: center;
   align-items: flex-start;

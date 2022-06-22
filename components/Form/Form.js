@@ -36,53 +36,28 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     }));
   };
 
-  let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
-  if (router.pathname === "/data-science-certification-courses") {
-    endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
-  }
-  if (router.pathname === "/advance-ai-ml-certification") {
-    endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
-  }
-  if (router.pathname === "/data-science-ai-cert-for-managers-leaders") {
-    endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
-  }
-  if (router.pathname === "/data-science-certification-courses-s2") {
-    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
-  }
-  if (router.pathname === "/advance-ai-ml-certification-s2") {
-    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
-  }
-  if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2") {
-    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
-  }
-  if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2") {
-    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
-  }
-  if (router.pathname === "/data-science-certification-courses-s3") {
-    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
-  }
-  if (router.pathname === "/advance-ai-ml-certification-s3") {
-    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
-  }
-  if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s3") {
-    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
-  }
-  if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3") {
-    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
-  }
-  if (router.pathname === "/data-science-certification-courses-s4") {
-    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
-  }
-  if (router.pathname === "/advance-ai-ml-certification-s4") {
-    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
-  }
-  if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s4") {
-    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
-  }
-  if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4") {
-    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
-  }
-
+  let endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  // if (router.pathname === "/data-science-certification-courses") {
+  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  // }
+  // if (router.pathname === "/advance-data-science-certification-courses") {
+  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  // }
+  // if (router.pathname === "/artificial-intelligence-certification-course") {
+  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  // }
+  // if (router.pathname === "/data-science-ai-for-managers") {
+  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  // }
+  // if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-certification-course") {
+  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  // }
+  // if (router.pathname === "/business-analytics-certification-course") {
+  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  // }
+  // if (router.pathname === "/data-analytics-certification-course") {
+  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  // }
 
   // Form Submit function
   const formSubmit = (e) => {
@@ -119,119 +94,51 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you-brochure");
       return;
     }
-    if (router.pathname === "/advance-ai-ml-certification") {
+    if (router.pathname === "/advance-data-science-certification-courses") {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification" && downloadBrochure){
+    if(router.pathname === "/advance-data-science-certification-courses" && downloadBrochure){
       router.push("/Thank-you-brochure");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders") {
+    if (router.pathname === "/artificial-intelligence-certification-course") {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders" && downloadBrochure) {
+    if (router.pathname === "/artificial-intelligence-certification-course" && downloadBrochure) {
       router.push("/Thank-you-brochure");
       return;
     }
-    if (router.pathname === "/") {
+    if (router.pathname === "/data-science-ai-for-managers") {
       router.push("/Thank-you");
+      return;
     }
-    if (router.pathname === "/" && downloadBrochure) {
+    if (router.pathname === "/data-science-ai-for-managers" && downloadBrochure) {
       router.push("/Thank-you-brochure");
       return;
     }
-    if (router.pathname === "/data-science-certification-courses-s2") {
+    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-certification-course") {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses-s2" && downloadBrochure){
+    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-certification-course" && downloadBrochure) {
       router.push("/Thank-you-brochure");
       return;
     }
-    if (router.pathname === "/advance-ai-ml-certification-s2") {
+    if (router.pathname === "/business-analytics-certification-course") {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification-s2" && downloadBrochure){
+    if (router.pathname === "/business-analytics-certification-course" && downloadBrochure) {
       router.push("/Thank-you-brochure");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2") {
+    if (router.pathname === "/data-analytics-certification-course") {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" && downloadBrochure) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2") {
-      router.push("/Thank-you");
-    }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" && downloadBrochure) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/data-science-certification-courses-s3") {
-      router.push("/Thank-you");
-      return;
-    }
-    if(router.pathname === "/data-science-certification-courses-s3" && downloadBrochure){
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/advance-ai-ml-certification-s3") {
-      router.push("/Thank-you");
-      return;
-    }
-    if(router.pathname === "/advance-ai-ml-certification-s3" && downloadBrochure){
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s3") {
-      router.push("/Thank-you");
-      return;
-    }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s3" && downloadBrochure) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3") {
-      router.push("/Thank-you");
-    }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3" && downloadBrochure) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/data-science-certification-courses-s4") {
-      router.push("/Thank-you");
-      return;
-    }
-    if(router.pathname === "/data-science-certification-courses-s4" && downloadBrochure){
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/advance-ai-ml-certification-s4") {
-      router.push("/Thank-you");
-      return;
-    }
-    if(router.pathname === "/advance-ai-ml-certification-s4" && downloadBrochure){
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s4") {
-      router.push("/Thank-you");
-      return;
-    }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s4" && downloadBrochure) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4") {
-      router.push("/Thank-you");
-    }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4" && downloadBrochure) {
+    if (router.pathname === "/data-analytics-certification-course" && downloadBrochure) {
       router.push("/Thank-you-brochure");
       return;
     }

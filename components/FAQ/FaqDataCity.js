@@ -4,8 +4,17 @@ export const AdvanceFaqDataM = [
   {
     id: 0,
     ques: "What are Data Science Training courses available at Learnbay in Mumbai?",
-    ans: "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Job or Money-back Guarantee",
+    linkText1: "Foundational Data Science Training Course, ",
+    linkText2: "Advance Data Science Certification Course, ",
+    linkText3: "Data Science Certification Course for Managers and Leaders, ",
+    linkText4: "Data Science Training with Job or Money-back Guarantee",
+    link1: "/data-science-certification-courses",
+    link2: "/advance-data-science-certification-courses",
+    link3: "/data-science-ai-for-managers",
+    link4: "/job-guarantee-or-money-back-data-science-ai-certification-course",
+    link: true,
     open: true,
+
   },
   {
     id: 1,
@@ -63,6 +72,9 @@ export const AdvanceDomainFaqDataM = [
     ques: "Which data science specialization domain elective is best suited for me?",
     ans: `You can select your domain based on your prior work experience, academics, and career goals. 
     Book a slot with our industry expert for free profile review and career guidance.`,
+    linkText1: " +918239019096 ",
+    link1: "tel:+918239019096",
+    link: true,
     open: false,
   },
   {
@@ -129,7 +141,11 @@ export const AdvancePaymentFaqDataM = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
-    ans: `Candidates are advised to Learnbay’s Refund/Cancellation policy read before enrolling in the course.`,
+    ans: `Candidates are advised to Learnbay’s `,
+    linkText1: "Refund/Cancellation policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " read before enrolling in the course.",
+    link: true,
     open: false,
   },
 ];
@@ -148,6 +164,9 @@ export const AdvanceCapstoneFaqDataM = [
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
+    linkText1: "  ",
+    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
+    link: true,
     open: true,
   },
   {
@@ -204,7 +223,11 @@ export const AdvancejobFaqDataM = [
     id: 3,
     ques: "What is a Job or 100% money back Guarantee?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: Terms and conditions applied`,
+    Note:`,
+    linkText1: " Terms and conditions. ",
+    link1: "/about-us",
+    ansAfter: "applied.",
+    link: true,
     open: false,
   },
 ];
@@ -251,6 +274,17 @@ export const ArtificialFaqDataM = [
     Machine learning and AI Certification
     Data Science and AI Certification Course for Managers and Leaders 
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee`,
+    linkText1: "Foundational data science and Artificial Intelligence Training Course, ",
+    linkText2: "Advanced data science and AI Certification Course, ",
+    linkText3: "Machine learning and AI Certification, ",
+    linkText4: "Data Science and AI Certification Course for Managers and Leaders",
+    linkText5: "Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+    link1: "/data-science-certification-courses",
+    link2: "/advance-data-science-certification-courses",
+    link3: "/data-science-ai-for-managers",
+    link4: "/data-science-ai-for-managers",
+    link5: "/job-guarantee-or-money-back-data-science-ai-certification-course",
+    link: true,
     open: true,
   },
   {
@@ -334,7 +368,11 @@ export const ArtificialDomainFaqDataM = [
     id: 2,
     ques: "Which domain elective within the Learnbay AI Certification courses is best suited for me?",
     ans: `You can select your domain based on your prior work experience, academics, and career goals. 
-    Book a slot with our industry expert for free profile review and career guidance.`,
+    Book a slot with our industry expert for free profile review and career guidance. Career Counselor: `,
+    linkText1: " Terms and conditions. ",
+    link1: "/about-us",
+    link: true,
+
     open: false,
   },
   {
@@ -485,7 +523,11 @@ export const ArtificialjobFaqDataM = [
     id: 3,
     ques: "What is a Job or 100% money back Guarantee?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: Terms and conditions applied`,
+    Note:  `,
+    linkText1: " Terms and conditions ",
+    link1: "/data-science-certification-courses",
+    ansAfter: "applied.",
+    link: true,
     open: false,
   },
 ];

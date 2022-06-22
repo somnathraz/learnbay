@@ -14,7 +14,7 @@ import { AiOutlineCar, AiFillMobile } from "react-icons/ai";
 import Image from "next/image";
 import { BsCheck2All } from "react-icons/bs";
 import { FiCheckSquare } from "react-icons/fi";
-import { AiOutlineDownload } from "react-icons/ai";
+import { FaDownload } from "react-icons/fa";
 
 
 
@@ -1095,8 +1095,8 @@ const Project = ({
         </div>
       </div>
       <div>
-            <a href='https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf' target={"_blank"}><button style={{margin:"auto", marginTop:"20px"}}>
-                <AiOutlineDownload />
+            <a href='https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf' target={"_blank"}><button style={{margin:"auto", marginTop:"20px", fontSize:"16px"}}>
+                <FaDownload className={styles.bicon} />
                 Project Brochure
             </button></a>
         </div>

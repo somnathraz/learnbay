@@ -60,6 +60,32 @@ function TestimonialVideo() {
               height="282"
               layout="intrinsic"
               onClick={() => {
+                setValue("zAN3oP_ZHc4");
+                videoSHow();
+              }}
+            />
+            <MdOutlinePlayCircle className={styles.vIcon} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slide}>
+            <Image
+              src="/Testimonial_video_3.jpg"
+              width="432"
+              height="282"
+              layout="intrinsic"
+              onClick={() => {
+                setValue("H-3jsBc1sZo");
+                videoSHow();
+              }}
+            />
+            <MdOutlinePlayCircle className={styles.vIcon} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.slide}>
+            <Image
+              src="/Testimonial_video_4.jpg"
+              width="432"
+              height="282"
+              layout="intrinsic"
+              onClick={() => {
                 setValue("UrjGgskFe3I");
                 videoSHow();
               }}
@@ -68,78 +94,14 @@ function TestimonialVideo() {
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
-              src="/Testimonial_video_1.jpg"
+              src="/Testimonial_video_5.jpg"
               width="432"
               height="282"
               layout="intrinsic"
               onClick={() => {
+                setValue("IJUNj1Ygq7Q");
                 videoSHow();
-                id = "H-3jsBc1sZo";
-              }}
-            />
-            <MdOutlinePlayCircle className={styles.vIcon} />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src="/Testimonial_video_1.jpg"
-              width="432"
-              height="282"
-              layout="intrinsic"
-              onClick={() => {
-                videoSHow();
-                id = "H-3jsBc1sZo";
-              }}
-            />
-            <MdOutlinePlayCircle className={styles.vIcon} />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src="/Testimonial_video_1.jpg"
-              width="432"
-              height="282"
-              layout="intrinsic"
-              onClick={() => {
-                videoSHow();
-                id = "H-3jsBc1sZo";
-              }}
-            />
-            <MdOutlinePlayCircle className={styles.vIcon} />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src="/Testimonial_video_1.jpg"
-              width="432"
-              height="282"
-              layout="intrinsic"
-              onClick={() => {
-                videoSHow();
-                id = "H-3jsBc1sZo";
-              }}
-            />
-            <MdOutlinePlayCircle className={styles.vIcon} />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src="/Testimonial_video_1.jpg"
-              width="432"
-              height="282"
-              layout="intrinsic"
-              onClick={() => {
-                videoSHow();
-                id = "H-3jsBc1sZo";
-              }}
-            />
-            <MdOutlinePlayCircle className={styles.vIcon} />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src="/Testimonial_video_1.jpg"
-              width="432"
-              height="282"
-              layout="intrinsic"
-              onClick={() => {
-                videoSHow();
-                id = "H-3jsBc1sZo";
+
               }}
             />
             <MdOutlinePlayCircle className={styles.vIcon} />

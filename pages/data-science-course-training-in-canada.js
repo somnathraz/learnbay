@@ -111,10 +111,14 @@ export default function Home() {
             ProgramBot4="This IBM data science course is offered entirely online, with extremely convenient scheduling options. That means you have the option of choosing your preferred batch as per timing and even mentors. In contrast, the artificial intelligence and data science courses seem to be affordable because of their reasonable data science course fees and come with an assured job guarantee."
             ProgramBot5="Here you get a 3-year Flexi subscription to Learnbay LMS, where you can learn in the comfort of your own home and as per your time convenience. However, all the learning sessions will be live and interactive only."
             ProgramBot6="There are four available Data Science and AI Certification Courses by Learnbay in Canada, which are listed below :"
-            ProgramBot7="Foundational Data Science and AI program,
-            Advanced-Data Science and AI program with Domain Specialization,
-            Data Science and AI Program for Managers and Leaders,
-            AI and Data Science Course with Job Guarantee or Money back."
+            Courselink1="/data-science-certification-courses"
+            Courselink2="/advance-data-science-certification-courses"
+            Courselink4="/data-science-ai-for-managers"
+            Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
+            Course1="Foundational Data Science and AI program"
+            Course2="Advanced-Data Science and AI program with Domain Specialization"
+            Course4="Data Science and AI Program for Managers and Leaders"
+            Course5="AI and Data Science Course with Job Guarantee or Money back"
 
             DomainHead1="Why Domain Specialization?"
             DomainBot1="Usually, Data scientists that specialize in a particular domain are mostly preferred by hiring managers since they have a deeper understanding of the industry and the essential business concerns that must be addressed. Moreover, It is impossible to provide accurate insights unless one has a thorough understanding of the domain at hand. Thus, it is important to pick data science and AI courses that have domain electives options. In fact, although the most entry-level data science position is a bit manageable without core domain knowledge, mid to senior-level data scientist roles are not at all secure if you lack specific business knowledge."
@@ -129,6 +133,16 @@ export default function Home() {
             DomainList8="IoT, automotive, and embedded systems" 
             DomainList9="Supply chain and e-commerce" 
             DomainList10="Banking, Finance, and Marketing Domain"
+            Domainlink1="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+            Domainlink2="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf"
+            Domainlink3="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+            Domainlink4="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf"
+            Domainlink5="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf"
+            Domainlink6="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Development+and+Testing+Domain.pdf"
+            Domainlink7="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Cloud+and+Devops+Domain.pdf"
+            Domainlink8="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
+            Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
+            Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
 
             CertificationHead1="IBM certified data science and AI course"
             CertificationBot1="The interesting part of the data science and AI course is that students will receive not one but multiple IBM certificates for completing different sub-modules of the data science course. Besides this, you will obtain an IBM Project Experience Certificate after successfully completing the capstone project included in the Data Science and AI course."

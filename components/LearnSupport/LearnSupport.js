@@ -15,14 +15,14 @@ function LearnSupport() {
                 <p className={styles.Top3}>Reach out and a learning learning consultant will get in touch with you shortly.</p>
             </div>
             <div className={styles.learnInner2}>
-            <button className={styles.btn1}>
+            <a href="https://wa.me/+917349222263" target="_blank"><button className={styles.btn1}>
             Whatsapp
               <RiWhatsappFill className={styles.bIcon} />
-            </button>
-            <button className={styles.btn2}>
+              </button></a>
+              <a href="tel:+917349222263" target="_blank"><button className={styles.btn2}>
             Call Us +91 73492 22263
               <FaPhone className={styles.bIcon} />
-            </button>
+            </button></a>
             </div>
         </div>
     </section>

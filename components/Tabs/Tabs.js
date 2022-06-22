@@ -56,76 +56,76 @@ const Tabs = () => {
             {viewAll ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/DATA-SCIENCE-AND-AI.png"
+                        width="180"
+                        height="55"
+                        />
+                    </div>
+                  </div></a>
+                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/Artificial-Intelligence.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
-                  <div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
-                        width="180"
-                        height="55"
-                      />
-                    </div>
-                  </div>
+                  </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/advance-data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Advance-Data-Science.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
-                  <div className={styles.Program}>
+                  </div></a>
+                  <a href="/data-science-ai-for-managers" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Data-Science-and-AI-for.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/JOB.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
-                  <div className={styles.Program}>
+                  </div></a>
+                  <a href="/business-analytics-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/BA.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/data-analytics-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/DA.png"
                         width="180"
                         height="55"
                         layout="intrinsic"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
               </div>
             ) : (
@@ -166,26 +166,26 @@ const Tabs = () => {
             {oneYear ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/advance-data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Advance-Data-Science.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Artificial-Intelligence.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
               </div>
             ) : (
@@ -220,35 +220,35 @@ const Tabs = () => {
             {nonTech ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/DATA-SCIENCE-AND-AI.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
-                  <div className={styles.Program}>
+                  </div></a>
+                  <a href="/business-analytics-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/BA.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/data-analytics-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/DA.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
               </div>
             ) : (
@@ -290,35 +290,35 @@ const Tabs = () => {
             {manager ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/advance-data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Advance-Data-Science.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
-                  <div className={styles.Program}>
+                  </div></a>
+                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Data-Science-and-AI-for.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Artificial-Intelligence.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
               </div>
             ) : (
@@ -359,15 +359,15 @@ const Tabs = () => {
             {Guarantee ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/JOB.png"
                         width="180"
                         height="55"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
               </div>
             ) : (
@@ -382,76 +382,76 @@ const Tabs = () => {
             {viewAll ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/DATA-SCIENCE-AND-AI.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
-                  <div className={styles.Program}>
+                  </div></a>
+                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Artificial-Intelligence.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/advance-data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Advance-Data-Science.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
-                  <div className={styles.Program}>
+                  </div></a>
+                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Data-Science-and-AI-for.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/JOB.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
-                  <div className={styles.Program}>
+                  </div></a>
+                  <a href="/business-analytics-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/BA.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/data-analytics-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/DA.png"
                         width="300"
                         height="80"
                         layout="intrinsic"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
               </div>
             ) : (
@@ -460,26 +460,26 @@ const Tabs = () => {
             {oneYear ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/advance-data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Advance-Data-Science.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Artificial-Intelligence.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
               </div>
             ) : (
@@ -488,35 +488,35 @@ const Tabs = () => {
             {nonTech ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/DATA-SCIENCE-AND-AI.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
-                  <div className={styles.Program}>
+                  </div></a>
+                  <a href="/business-analytics-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/BA.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/data-analytics-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/DA.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
               </div>
             ) : (
@@ -525,35 +525,35 @@ const Tabs = () => {
             {manager ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/advance-data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Advance-Data-Science.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
-                  <div className={styles.Program}>
+                  </div></a>
+                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Data-Science-and-AI-for.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/Artificial-Intelligence.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
               </div>
             ) : (
@@ -562,15 +562,15 @@ const Tabs = () => {
             {Guarantee ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <div className={styles.Program}>
+                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.webp"
+                        src="/JOB.png"
                         width="300"
                         height="80"
                       />
                     </div>
-                  </div>
+                  </div></a>
                 </div>
               </div>
             ) : (
