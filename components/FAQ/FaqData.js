@@ -91,7 +91,10 @@ export const PaymentFaqData1 = [
   {
     id: 1,
     ques: "Can I pay in installments for Data Science and AI Course?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
     open: false,
   },
   {
@@ -109,7 +112,11 @@ export const PaymentFaqData1 = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science and AI Foundation program at Learnbay?",
-    ans: "Candidates are advised to read Learnbay’s Refund/Cancellation policy before enrolling in the program.",
+    ans: "Candidates are advised to read ",
+    linkText1: "Learnbay’s Refund/Cancellation policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " Learnbay’s Refund/Cancellation policy before enrolling in the program.",
+    link: true,
     open: false,
   },
 ];
@@ -124,6 +131,9 @@ export const CapstoneFaqData1 = [
     id: 1,
     ques: "How many real-time projects/ case-studies will be covered in the Data Science and AI Foundation program?",
     ans: "We have a set of 8 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.",
+    linkText1: " Click here to download the list of the projects  ",
+    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
+    link: true,
     open: false,
   },
   {
@@ -265,6 +275,9 @@ export const DomainFaqData2 = [
     id: 3,
     ques: "Which domain elective is best suited for me?",
     ans: "You can select your domain based on your prior work experience, academics, and career goals. But if you are not sure about it you can talk to our career experts. Book a slot with our industry expert for free profile review and career guidance.",
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
     open: false,
   },
   {
@@ -315,7 +328,11 @@ export const PaymentFaqData2 = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science and AI Foundation program at Learnbay?",
-    ans: "Candidates are advised to read Learnbay’s Refund/Cancellation policy before enrolling in the program.",
+    ans: "Candidates are advised to read ",
+    linkText1: "Learnbay’s Refund/Cancellation policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the program.",
+    link: true,
     open: false,
   },
 ];
@@ -330,6 +347,9 @@ export const CapstoneFaqData2 = [
     id: 1,
     ques: "How many real-time projects will be there?",
     ans: "We have a set of 12 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
+    linkText1: " Click here to download the list of the projects  ",
+    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
+    link: true,
     open: false,
   },
   {
@@ -482,7 +502,11 @@ export const DomainFaqData3 = [
   {
     id: 2,
     ques: "Which domain elective is best suited for me?",
-    ans: `You can select your domain based on your prior work experience, academics, and career goals.`,
+    ans: `You can select your domain based on your prior work experience, academics, and career goals.
+    Book a slot with our industry expert for free profile review and career guidance.`,
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
     open: false,
   },
   {
@@ -519,8 +543,9 @@ export const PaymentFaqData3 = [
   },
   {
     id: 1,
-    ques: "Can I pay in installments for 95,000/-?",
+    ques: "Can I pay in installments for 95,000/-?",/*1,12,100/-  check for price*/
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12K/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+   //Check this section
     open: false,
   },
   {
@@ -539,7 +564,11 @@ export const PaymentFaqData3 = [
   {
     id: 3,
     ques: "What is the refund policy for the Artificial Intelligence and Machine Learning Program at Learnbay?",
-    ans: "Candidates are advised to read Learnbay’s Refund/Cancellation policy before enrolling in the program.",
+    ans: "Candidates are advised to read  ",
+    linkText1: "Learnbay’s Refund/Cancellation policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the program.",
+    link: true,
     open: false,
   },
 ];
@@ -554,6 +583,9 @@ export const CapstoneFaqData3 = [
     id: 1,
     ques: "How many real-time projects will be there?",
     ans: "We have a set of 15 Real-time projects from multiple domains such as Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.",
+    linkText1: " Click here to download the list of the projects  ",
+    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
+    link: true,
     open: false,
   },
   {
@@ -713,7 +745,10 @@ export const DomainFaqData4 = [
   {
     id: 3,
     ques: "Which domain elective is best suited for me?",
-    ans: "You can select your domain based on your prior work experience, academics, and career goals.",
+    ans: "You can select your domain based on your prior work experience, academics, and career goals.Book a slot with our industry expert for free profile review and career guidance.",
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
     open: false,
   },
   {
@@ -765,6 +800,10 @@ export const PaymentFaqData4 = [
     id: 3,
     ques: "What is the refund policy for the data science courses at learnbay?",
     ans: "Candidates are advised to read Learnbay’s Refund/Cancellation policy before enrolling in the program",
+    linkText1: "Learnbay’s Refund/Cancellation policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the Programme.",
+    link: true,
     open: false,
   },
 ];
@@ -779,6 +818,9 @@ export const CapstoneFaqData4 = [
     id: 1,
     ques: "How many real-time projects will be there?",
     ans: "We have a set of 15 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
+    linkText1: " Click here to download the list of the projects  ",
+    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
+    link: true,
     open: false,
   },
   {
@@ -933,7 +975,10 @@ export const DomainFaqData5 = [
   {
     id: 2,
     ques: "Which domain elective is best suited for me?",
-    ans: `You can select your domain based on your prior work experience, academics, and career goals.`,
+    ans: `You can select your domain based on your prior work experience, academics, and career goals.Book a slot with our industry expert for free profile review and career guidance.`,
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
     open: false,
   },
   {
@@ -990,7 +1035,11 @@ export const PaymentFaqData5 = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science and AI Foundation program at Learnbay?",
-    ans: "Candidates are advised to read Learnbay’s Refund/Cancellation policy before enrolling in the program.",
+    ans: "Candidates are advised to read ",
+    linkText1: "Learnbay’s Refund/Cancellation policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the programme.",
+    link: true,
     open: false,
   },
 ];
@@ -1005,6 +1054,9 @@ export const CapstoneFaqData5 = [
     id: 1,
     ques: "How many real-time projects will be there?",
     ans: "We have a set of 15 Real-time projects from multiple domains such as Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; etc. Based on your interest you can choose your project to work on.",
+    linkText1: " Click here to download the list of the projects  ",
+    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
+    link: true,
     open: false,
   },
   {
@@ -1058,7 +1110,11 @@ export const jobFaqData5 = [
   {
     id: 4,
     ques: "What is Job or 100% moneyback Gurantee?",
-    ans: "If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. Terms and conditions applied.",
+    ans: "If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. ",
+    linkText1: " Terms and conditions. ",
+    link1: "/terms-conditions-job",
+    ansAfter: "applied.",
+    link: true,
     open: false,
   },
 ];
@@ -1154,7 +1210,10 @@ export const PaymentFaqData6 = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 60,000 + GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.Please check with our sales team to know more",
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
     open: false,
   },
   {
@@ -1173,7 +1232,12 @@ export const PaymentFaqData6 = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Analytics Program at Learnbay?",
-    ans: "Candidates are advised to read Learnbay’s Refund/Cancellation policy before enrolling in the program.",
+    ans: "Candidates are advised to read .",
+    linkText1: "Learnbay’s Refund/Cancellation policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the program.",
+    link: true,
+
     open: false,
   },
 ];
@@ -1182,6 +1246,10 @@ export const CapstoneFaqData6 = [
     id: 0,
     ques: "How many real-time projects/case studies will be there?",
     ans: "We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.",
+    linkText1: " Click here to download the list of the projects  ",
+    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
+    link: true,
+
     open: true,
   },
   {
@@ -1317,7 +1385,10 @@ export const PaymentFaqData7 = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 65,000/- + GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.Please check with our sales team to know more.",
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
     open: false,
   },
   {
@@ -1336,7 +1407,11 @@ export const PaymentFaqData7 = [
   {
     id: 3,
     ques: "What is the refund policy for the Business Analytics Program at Learnbay?",
-    ans: "Candidates are advised to read Learnbay’s Refund/Cancellation policy before enrolling in the program.",
+    ans: "Candidates are advised to read ",
+    linkText1: "Learnbay’s Refund/Cancellation policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the program.",
+    link: true,
     open: false,
   },
 ];
@@ -1345,6 +1420,9 @@ export const CapstoneFaqData7 = [
     id: 0,
     ques: "How many real-time projects will be there?",
     ans: "We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.",
+    linkText1: " Click here to download the list of the projects  ",
+    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
+    link: true,
     open: true,
   },
   {

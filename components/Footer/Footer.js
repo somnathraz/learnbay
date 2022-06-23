@@ -23,11 +23,11 @@ const Footer = () => {
               </a>
               <p className={styles.FooterInnerli}>Enroll Now For Data Science Classroom (Bangalore) And Online Training With us And Master Data Analytics Skills Which Will help you to transform your career and start your career as data scientist.</p>
               <div className={styles.FooterSocial}>
-                <FaTwitter className="bIcons"  />
-                <FaFacebookF className="bIcons"  />
-                <FaLinkedinIn className="bIcons"  />
-                <FaYoutube className="bIcons"  />
-                <FaInstagram className="bIcons"  />
+              <a href="https://twitter.com/Learnbay1"><FaTwitter className="bIcons"  /></a>
+              <a href="https://www.facebook.com/learnbay/"><FaFacebookF className="bIcons"  /></a>
+              <a href="https://www.linkedin.com/company/learnbay/"><FaLinkedinIn className="bIcons"  /></a>
+              <a href="https://www.youtube.com/c/LearnbayDataScienceandAI"><FaYoutube className="bIcons"  /></a>
+              <a href="https://www.instagram.com/learnbay_datascience/"><FaInstagram className="bIcons"  /></a>
               </div>
               <span style={{display:"flex", marginTop:"20px"}}><IoMailSharp className="bIcons"  /><Link href="mailto:contacts@learnbay.co">contacts@learnbay.co</Link></span>
               <span style={{display:"flex", marginTop:"10px"}}><BsFillTelephoneFill className="bIcons"  /><Link href="tel:+919606950936">(+91) 96069 50936</Link></span>
@@ -56,8 +56,8 @@ const Footer = () => {
           </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Get Our Apps On</p>
-          <FaApple className="bIcons" style={{fontSize:"30px"}}  />
-          <FaAndroid className="bIcons" style={{fontSize:"30px"}}  />
+          <a href="/"><FaApple className="bIcons" style={{fontSize:"30px"}}  /></a>
+          <a href="https://play.google.com/store/apps/details?id=com.app.learnbay"><FaAndroid className="bIcons" style={{fontSize:"30px"}}  /></a>
           
           {/* <Grid item xs={12} md={12} sx={{ height: "200px", width: "100px" }}>
                 <GoogleMapReact
