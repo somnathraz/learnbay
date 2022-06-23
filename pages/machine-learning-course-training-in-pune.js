@@ -60,7 +60,7 @@ export default function Home() {
         mTopPara="Industry-Curated & IBM Certified Professionals ML Training"
         title="Machine Learning Course Training In Pune"
         desc="Be eligible to work as an AI/ ML expert in MNC/FAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
-        src="/machine-learning.png"
+        src="/course3.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

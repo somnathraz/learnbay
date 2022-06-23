@@ -54,21 +54,21 @@ const Navbar = () => {
           <GiHamburgerMenu className={styles.ham} onClick={showMenu} />
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
-              <span onClick={showMenu}>
-                <Link href="#Feature">Program Features</Link>
-              </span>
+            <span>
+            <Link href="/">Home</Link>
+          </span>
 
-              <span onClick={showMenu}>
-                <Link href="#review">Reviews</Link>
-              </span>
+          <span>
+            <Link href="/demo">Demo</Link>
+          </span>
 
-              <span onClick={showMenu}>
-                <Link href="#project">Projects</Link>
-              </span>
+          <span>
+            <Link href="#">Blog</Link>
+          </span>
 
-              <span style={{ marginBottom: "20px" }} onClick={showMenu}>
-                <Link href="#faq">FAQ's</Link>
-              </span>
+          <span>
+            <Link href="/contact-us">Contact</Link>
+          </span>
             </div>
           </div>
           <a href="/">
@@ -112,19 +112,19 @@ const Navbar = () => {
         </div>
         <div className={styles.right}>
           <span>
-            <Link href="#review">Home</Link>
+            <Link href="/">Home</Link>
           </span>
 
           <span>
-            <Link href="#who">Demo</Link>
+            <Link href="/demo">Demo</Link>
           </span>
 
           <span>
-            <Link href="#project">Blog</Link>
+            <Link href="#">Blog</Link>
           </span>
 
           <span>
-            <Link href="#About">Contact</Link>
+            <Link href="/contact-us">Contact</Link>
           </span>
 
           <button onClick={popupShow} className="outLineBtn">

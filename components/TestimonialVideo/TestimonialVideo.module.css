@@ -15,6 +15,13 @@
   cursor: pointer;
 }
 
+.vIcon {
+  color: #2d97dc;
+  font-size: 50px;
+  position: absolute;
+}
+
+
 @media (max-width: 600px) {
   .TestimonialVideo {
     margin: 0px;

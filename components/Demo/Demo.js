@@ -1,8 +1,7 @@
 import styles from "./Demo.module.css";
 import Image from 'next/image'
 import VideoPopup from "../VideoPopup/VideoPopup";
-import { MdOutlinePlayCircle } from "react-icons/md";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   PythonD,
   StatisticsD,
@@ -23,6 +22,7 @@ function demo() {
   const videoSHow = () => {
     setVideo(true);
   };
+  
   return (
     <section className={styles.Demo}>
       <VideoPopup triggers={video} setTriggers={setVideo} ids={value} />
@@ -108,16 +108,13 @@ function demo() {
               return (
                 <div className={styles.leftSide} key={id}>
                     <div className={styles.leftSideP} key={id}>
-                    <Image
+                    <a href={value} target="_blank"><Image
               src={img}
               width="432"
               height="282"
               layout="intrinsic"
-              onClick={() => {
-                setValue({value});
-                videoSHow();
-              }}
-            />
+              cursor="pointer"
+            /></a>
                   </div>
                 </div>
               );
@@ -133,16 +130,13 @@ function demo() {
               return (
                 <div className={styles.leftSide} key={id}>
                     <div className={styles.leftSideP} key={id}>
-                    <Image
+                    <a href={value} target="_blank"><Image
               src={img}
               width="432"
               height="282"
               layout="intrinsic"
-              onClick={() => {
-                setValue({value});
-                videoSHow();
-              }}
-            />
+              cursor="pointer"
+            /></a>
                   </div>
                 </div>
               );
@@ -158,16 +152,13 @@ function demo() {
               return (
                 <div className={styles.leftSide} key={id}>
                     <div className={styles.leftSideP} key={id}>
-                    <Image
+                    <a href={value} target="_blank"><Image
               src={img}
               width="432"
               height="282"
               layout="intrinsic"
-              onClick={() => {
-                setValue({value});
-                videoSHow();
-              }}
-            />
+              cursor="pointer"
+            /></a>
                   </div>
                 </div>
               );
@@ -183,16 +174,13 @@ function demo() {
               return (
                 <div className={styles.leftSide} key={id}>
                     <div className={styles.leftSideP} key={id}>
-                    <Image
+                    <a href={value} target="_blank"><Image
               src={img}
               width="432"
               height="282"
               layout="intrinsic"
-              onClick={() => {
-                setValue({value});
-                videoSHow();
-              }}
-            />
+              cursor="pointer"
+            /></a>
                   </div>
                 </div>
               );
@@ -208,16 +196,13 @@ function demo() {
               return (
                 <div className={styles.leftSide} key={id}>
                     <div className={styles.leftSideP} key={id}>
-                    <Image
+                    <a href={value} target="_blank"><Image
               src={img}
               width="432"
               height="282"
               layout="intrinsic"
-              onClick={() => {
-                setValue({value});
-                videoSHow();
-              }}
-            />
+              cursor="pointer"
+            /></a>
                   </div>
                 </div>
               );

@@ -59,7 +59,7 @@ export default function Home() {
         mTopPara="IBM-Certified Business Analytics training Program with Live Industrial Projects"
         title="Business Analytics Course Training In Pune"
         desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
-        src="/business-analytics.png"
+        src="/course7.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

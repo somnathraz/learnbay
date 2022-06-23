@@ -60,7 +60,7 @@ export default function Home() {
         mTopPara="Job-oriented Data Science Training for working professionals"
         title="Artificial Intelligence (AI) course training in Dubai"
         desc="Become a successful data science manager/ leader within 11-months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
-        src="/manager-and-l.png"
+        src="/course4.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

@@ -58,7 +58,7 @@ export default function Home() {
         mTopPara="Industry Curated Artificial Intelligence Program"
         title="Artificial intelligence (AI) training in Bangalore"
         desc="Become a successful data science manager/ leader within 11-months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
-        src="/manager-and-l.png"
+        src="/course4.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

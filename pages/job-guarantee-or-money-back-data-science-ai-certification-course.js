@@ -54,7 +54,7 @@ export default function Home() {
         title="Data science and AI Program"
         spanTitleText="with 100% Job Guarantee"
         desc="Assured data science career tradition for 18 months. Learn the industry-specific best practices by working on fresh industry projects. Get assured money back on unsuccessful placement."
-        src="/job-gurantee.png"
+        src="/course5.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>
@@ -207,7 +207,7 @@ export default function Home() {
       sc33="Model Deployment"
       sc34="and more..."
       />
-      <div className={styles.cta}>
+      <div className={styles.ctj}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
           <h6>Know More About How A Job Guarantee Or 100% Money-Back Program Works.</h6>

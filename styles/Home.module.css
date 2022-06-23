@@ -117,7 +117,22 @@
   display: grid;
   grid-template-columns: 10% 60% 20%;
   justify-content: space-between;
-  background-image: url("/cta-a.webp");
+  background-image: url("/cta-a.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  justify-content: center;
+  margin: 70px 0px;
+  background-size: cover;
+  padding: 50px 100px;
+  align-items: center;
+}
+
+.ctj {
+  display: grid;
+  grid-template-columns: 10% 60% 20%;
+  justify-content: space-between;
+  background-image: url("/t&c.png");
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -132,11 +147,23 @@
   font-size: 20px;
   font-weight: 600;
   margin: 0px; 
-  color: #3757a6;
+  color: #fff;
 }
 .cta p {
-  color: #3757a6;
-  margin: 10px;
+  color: #fff;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+.ctj h6 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px; 
+  color: #fff;
+}
+.ctj p {
+  color: #fff;
+  margin: 10px 0px;
   font-size: 20px;
 }
 .img {
@@ -210,7 +237,7 @@
   .cta {
     display: flex;
     justify-content: space-between;
-    background-image: url("/cta-a.webp");
+    background-image: url("/cta-m.png");
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
@@ -225,6 +252,27 @@
     margin-right: 90px;
   }
   .cta p {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  .ctj {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("/t&cm.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 70px;
+    background-size: cover;
+    padding: 30px 100px;
+    align-items: center;
+  }
+  .ctj h6 {
+    font-size: 22px;
+    padding-left: 10px;
+    margin-right: 90px;
+  }
+  .ctj p {
     font-size: 18px;
     padding-left: 10px;
   }

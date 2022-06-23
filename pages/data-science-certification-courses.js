@@ -53,7 +53,7 @@ export default function Home() {
         title="Data Science and AI"
         spanTitleText="Foundation Course"
         desc="This IBM Collaborated Data Science Course is for tech and non-tech professionals. This program guarantees a smooth transition into Junior Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions"
-        src="/banner.png"
+        src="/course1.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

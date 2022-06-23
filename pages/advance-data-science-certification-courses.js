@@ -55,7 +55,7 @@ export default function Home() {
         title="Advanced DS and AI Course"
         spanTitleText="with Domain Specialization"
         desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
-        src="/girl-1.png"
+        src="/course2.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

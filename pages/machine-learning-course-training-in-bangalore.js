@@ -60,7 +60,7 @@ export default function Home() {
         mTopPara="Machine learning and Artificial intelligence Learning  with a tech-domain specialization"
         title="Machine Learning Course Training In Bangalore"
         desc="Be eligible to work as an AI/ ML expert in MNC/FAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
-        src="/machine-learning.png"
+        src="/course3.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

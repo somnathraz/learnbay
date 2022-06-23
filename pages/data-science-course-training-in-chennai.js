@@ -59,7 +59,7 @@ export default function Home() {
         mTopPara="Foundational and Advanced Data Science Courses with job Guarantee"
         title="Data Science Course Training in Chennai"
         desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
-        src="/Advance-ds.png"
+        src="/course2.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

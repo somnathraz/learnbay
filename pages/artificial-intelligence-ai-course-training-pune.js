@@ -60,7 +60,7 @@ export default function Home() {
         mTopPara="IBM Certified AI training With Domain Specialization and Job Guarantee"
         title="Artificial Intelligence (ai) Course Training in Pune"
         desc="Become a successful data science manager/ leader within 11-months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
-        src="/manager-and-l.png"
+        src="/course4.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>

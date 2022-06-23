@@ -43,14 +43,15 @@
   padding: 14px 28px;
   font-size: 16px;
 }
-@media (max-width: 481px) {
+@media (max-width: 600px) {
   .First {
     padding: 20px;
     margin-left: -1rem;
     margin-right: -1rem;
     display: flex;
     flex-flow: column;
-    padding-bottom: 60px;
+    height: 85vh;
+    background-image: url("/home-page-mobile.png");
   }
   .First h1 {
     font-size: 25px;

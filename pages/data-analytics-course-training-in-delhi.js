@@ -59,7 +59,7 @@ export default function Home() {
         mTopPara="Fast track IBM Certified Data Analytics Course for early pros."
         title="Data Analytics Course Training In Delhi"
         desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
-        src="/data-analytics.png"
+        src="/course6.png"
         alt="AiMl Header"
       />
       <div className={styles.program}>
