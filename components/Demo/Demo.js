@@ -81,7 +81,7 @@ function demo() {
                 setMachine(false);
                 }}
                 style={
-                StatisticsD ? { background: "#E5F3FA" } : { background: "white" }
+                DeepD ? { background: "#E5F3FA" } : { background: "white" }
                 }
             >
                 Deep Learning
@@ -95,7 +95,7 @@ function demo() {
                 setProject(true);
                 }}
                 style={
-                StatisticsD ? { background: "#E5F3FA" } : { background: "white" }
+                ProjectD ? { background: "#E5F3FA" } : { background: "white" }
                 }
             >
                 Projects
