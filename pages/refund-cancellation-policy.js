@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Refund from "../Components/refund/refund";
+import Refund from "../components/refund/refund";
 
 
 function refund() {

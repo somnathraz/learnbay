@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Terms from "../Components/terms/terms";
+import Terms from "../components/terms/terms";
 
 
 function terms() {

@@ -1,16 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/CoursePage/GetHired/GetHired";
-import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
-import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
+import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
+import GetHired from "../components/CoursePage/GetHired/GetHired";
+import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
+import Popup from "../components/Popup/Popup";
+import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
-import CitiesLeft from "../Components/CityComponent/CitiesLeft/CitiesLeftDomain";
-import CitiesRight from "../Components/CityComponent/CitiesRight/CitiesRightdomain";
-import FAQNew from "../Components/FAQNewCity/FAQNewDomain";
+import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
+import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
 import { BusinessAFaqDataCa, BusinessAPaymentFaqDataCa, BusinessACapstoneFaqDataCa, BusinessACertificationFaqDataCa, BusinessAjobFaqDataCa, BusinessAMentorshipFaqDataCa, BusinessASupportFaqDataCa } from "../components/FAQ/FaqDataCity";
 
@@ -173,7 +173,7 @@ export default function Home() {
   
     ProjectsBot1="Learnbay has a great initiative of cloud lab features that enables students to access and learn via live business analytics projects of MNCs."
     ProjectsBot2="As a part of this IBM business analytics course, you will get a chance to work on 5 industry projects. The talent and experience of our dedicated experts help students in completing successful case studies and projects. They equip you with the tools, capabilities, and expertise necessary to successfully tackle business analytics projects. The following are the projects undertaken by our students:"
-    src1="/AMAZON.png"
+    src1="/amazon.png"
     ProjectsH1="Amazon Customer Review Analysis"
     Projectsp1="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
     src2="/IBM.png"
@@ -190,13 +190,13 @@ export default function Home() {
     Asrc1="/devraj.jpg" 
     AlumniH1="Deveraj" 
     Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."
-    Asrc2="/Shezan.png" 
+    Asrc2="/shezan.png" 
     AlumniH2="Shezan Baig" 
     Alumnip2="Learnbay is one of the most remarkable data science institutes I've come across. Compared to other institutes in India, it offers a data science course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute."
     Asrc3="/viraj.png" 
     AlumniH3="Viraj Ghodke" 
     Alumnip3="For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews."
-    Asrc4="/Shubhangi.png" 
+    Asrc4="/shubhangi.png" 
     AlumniH4="Shubhangi J. Waghmare " 
     Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
 

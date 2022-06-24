@@ -74,7 +74,7 @@ const Navbar = () => {
           <a href="/">
             <Image
               src="/Learnbay-Logo.webp"
-              alt="Skillslash"
+              alt="Learnbay"
               quality={100}
               objectFit="contain"
               width={mobile ? "180" : "230"}

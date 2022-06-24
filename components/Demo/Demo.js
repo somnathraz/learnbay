@@ -39,7 +39,7 @@ function demo() {
                 setDeep(false);
                 }}
                 style={
-                PythonD ? { background: "#E5F3FA" } : { background: "white" }
+                Python ? { background: "#E5F3FA" } : { background: "white" }
                 }
             >
                 Python
@@ -53,7 +53,7 @@ function demo() {
                 setDeep(false);
                 }}
                 style={
-                StatisticsD ? { background: "#E5F3FA" } : { background: "white" }
+                Statistics ? { background: "#E5F3FA" } : { background: "white" }
                 }
             >
                 Statistics
@@ -67,7 +67,7 @@ function demo() {
                 setMachine(true);
                 }}
                 style={
-                  MachineD ? { background: "#E5F3FA" } : { background: "white" }
+                  Machine ? { background: "#E5F3FA" } : { background: "white" }
                 }
             >
                 Machine Learning
@@ -81,7 +81,7 @@ function demo() {
                 setMachine(false);
                 }}
                 style={
-                DeepD ? { background: "#E5F3FA" } : { background: "white" }
+                Deep ? { background: "#E5F3FA" } : { background: "white" }
                 }
             >
                 Deep Learning
@@ -95,7 +95,7 @@ function demo() {
                 setProject(true);
                 }}
                 style={
-                ProjectD ? { background: "#E5F3FA" } : { background: "white" }
+                Project ? { background: "#E5F3FA" } : { background: "white" }
                 }
             >
                 Projects

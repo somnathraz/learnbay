@@ -9,7 +9,7 @@ function ContactUs() {
     <section className={styles.ContactUs}>
         <div className={styles.BackC}><h4><b>Contact Us</b></h4></div>
         <div className={styles.CInner}>
-        <h4>We`Re Here To Help You</h4>
+        <h4>We`re Here To Help You</h4>
         <p>Got A Course In Mind? We’d Love To Hear And Help You Decide On A Course. Take Five Minutes To Fill Out The Form So That We Can Get To Know You And Understand Your Requirements.</p>
         <div className={styles.Inner}>
           <div className={styles.InnerBox}>

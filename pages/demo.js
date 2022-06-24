@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Demo from "../Components/Demo/Demo";
+import Demo from "../components/Demo/Demo";
 
 
 export default function Home() {

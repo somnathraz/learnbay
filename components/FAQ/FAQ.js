@@ -51,7 +51,7 @@ function FAQ({ FaqData }) {
             onClick={() => handleChange(index)}
           >
             {open ? (
-              <div className={styles.quesO}>
+              <div className={styles.queshO}>
                 <h2>{ques}</h2>
                 <span>
                   {open ? (
@@ -62,7 +62,7 @@ function FAQ({ FaqData }) {
                 </span>
               </div>
             ) : (
-              <div className={styles.ques}>
+              <div className={styles.quesh}>
                 <h2>{ques}</h2>
                 <span>
                   {open ? (

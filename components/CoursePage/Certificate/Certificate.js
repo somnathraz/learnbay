@@ -36,7 +36,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
       </Popup>
       <div className={styles.left}>
         <p className="pTop"> Certificate from IBM</p>
-        <h4 style={{ marginBottom: "20px" }}>{title}</h4>
+        <h4 style={{ marginBottom: "20px", textAlign: "left" }}>{title}</h4>
 
         <p className={styles.pBotC}>{desc}</p>
         <p className={styles.pBotC}>{desc2}</p>
@@ -62,7 +62,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
             <img
               className="shadow"
               src="/certificate.webp"
-              alt="Skillslash"
+              alt="learnbay"
               quality={100}
               layout="intrinsic"
               width="530"
@@ -73,7 +73,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
             <img
               className="shadow"
               src="/certificate-png.webp"
-              alt="Skillslash"
+              alt="learnbay"
               quality={100}
               layout="intrinsic"
               width="530"
