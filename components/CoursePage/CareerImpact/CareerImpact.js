@@ -36,10 +36,20 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
               <>
                 <SwiperSlide className={styles.slide}>
                   <p>
-                    AI and ML full stack program is too good and helpful for
-                    working professionals, I have done BCA so I was well versed
-                    in Java, C, basic SQL and C++. At Skillslash I learnt
-                    Python, core SQL, R, math - stats, ML and More.
+                    Learnbay is one of the most remarkable data science
+                    institutes I've come across. In comparison to other
+                    institutes in India, it offers a data science course at a
+                    low cost. Excellent value for money. Finally, I achieved job
+                    satisfaction. I would strongly advise everyone to attend
+                    this institute.<br />
+                    <Image
+                        src="/shezanc.png"
+                        layout="intrinsic"
+                        width="400"
+                        height="40"
+                        alt="shezan"
+                        textAlign="center"
+                      />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -48,7 +58,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         layout="intrinsic"
                         width="120"
                         height="120"
-                        alt="Tilak Rao review"
+                        alt="shezan"
                       />
                     </div>
                     <div className={styles.name}>
@@ -59,25 +69,35 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <AiFillStar className={styles.RIcon} />
                         <AiFillStar className={styles.RIcon} />
                       </div>
-                      <h5>Tilak Rao</h5>
+                      <h5>Shezan Baig</h5>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                   <p>
-                    Thanks a ton Skillslash Family. As a part of the Full stack
-                    course in Data Science i had a great learning experience. I
-                    was able to successfully move into a data science role in 7
-                    months , which was amazing.
+                    For me, learning using the Learnbay platform has been a
+                    great experience. The teaching and management team are very
+                    helpful. They are constantly willing to clarify each
+                    individual's doubts and meet the needs of working
+                    professionals. The practice interview sessions were simply
+                    like a clone of MNC interviews.<br />
+                    <Image
+                        src="/veerajc.png"
+                        layout="intrinsic"
+                        width="400"
+                        height="40"
+                        alt="shezan"
+                        textAlign="center"
+                      />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
                       <Image
-                        src="/pragyan-prakash-skillslash-reviews.webp"
+                        src="/viraj.png"
                         layout="intrinsic"
                         width="120"
                         height="120"
-                        alt="Pragyan prakash review"
+                        alt="viraj"
                       />
                     </div>
                     <div className={styles.name}>
@@ -88,25 +108,34 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <AiFillStar className={styles.RIcon} />
                         <AiFillStar className={styles.RIcon} />
                       </div>
-                      <h5>Pragyan Prakash</h5>
+                      <h5>Viraj Ghodke</h5>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                   <p>
-                    One of the best platform for working professionals. Although
-                    a new startup but training quality is really good. For our
-                    batch, instructor is Rahul (and co-founder) and he teaches
-                    statistics and ML concepts in depth.
+                    The best in Industry offerings from both cost and curriculum
+                    wise. One advantage of joining is you can access their
+                    resources for a lifetime, unlike others where you have
+                    accessibility only for a year or so. Most importantly, there
+                    is continuous assistance for recruitment.<br />
+                    <Image
+                        src="/shubangic.png"
+                        layout="intrinsic"
+                        width="400"
+                        height="40"
+                        alt="shezan"
+                        textAlign="center"
+                      />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
                       <Image
-                        src="/Gautum-skillslash-review.webp"
+                        src="/shubhangi.png"
                         layout="intrinsic"
                         width="120"
                         height="120"
-                        alt="Gautum Skilslash review"
+                        alt="shubhangi"
                       />
                     </div>
                     <div className={styles.name}>
@@ -117,26 +146,34 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <AiFillStar className={styles.RIcon} />
                         <AiFillStar className={styles.RIcon} />
                       </div>
-                      <h5>Gautum</h5>
+                      <h5>Shubhangi J.</h5>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
-                  {" "}
                   <p>
-                    One of the best course providers is Skillslash, their data
-                    science course has helped me become the data scientist I am
-                    today. There are tons of differences between studying data
-                    science and working as a data scientist.
+                    I have done Data Science certification. Got placed in Oracle
+                    within 9 months. The journey was arduous because I was from
+                    the core electronics domain and struggling a lot. Mentors
+                    are from FAANG companies and are truly dedicated. I liked
+                    the teaching style of Python Trainers.<br />
+                    <Image
+                        src="/deverajc.png"
+                        layout="intrinsic"
+                        width="400"
+                        height="40"
+                        alt="shezan"
+                        textAlign="center"
+                      />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
                       <Image
-                        src="/Mirnal-sahay-skillslash-review.webp"
+                        src="/devraj.jpg"
                         layout="intrinsic"
                         width="120"
                         height="120"
-                        alt="Mirnal-sahay-skillslash-review"
+                        alt="devraj"
                       />
                     </div>
 
@@ -148,27 +185,36 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <AiFillStar className={styles.RIcon} />
                         <AiFillStar className={styles.RIcon} />
                       </div>
-                      <h5>Mrinal Sahay</h5>
+                      <h5>Deevraj</h5>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                   {" "}
                   <p>
-                    Skillslash is truly one of the best institutes to study
-                    machine learning, I thank my brother for suggesting me this
-                    course. The course has amazing perks for working
-                    professionals like live classes, faculty of industry
-                    professionals
+                    Extremely good and effective course with dedicated faculties
+                    for modules. You get the flexibility to attend classes from
+                    multiple instructors. Very Supportive learning environment.
+                    I was getting frustrated due to the lack of job satisfaction
+                    as a tech consultant. Thanks a lot, Learnbay, for changing
+                    my career.<br />
+                    <Image
+                        src="/sumanc.png"
+                        layout="intrinsic"
+                        width="400"
+                        height="40"
+                        alt="shezan"
+                        textAlign="center"
+                      />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
                       <Image
-                        src="/sameer-ahemed-skillslash-review.webp"
+                        src="/suman.jpg"
                         layout="intrinsic"
                         width="120"
                         height="120"
-                        alt="sameer-ahemed-skillslash-review"
+                        alt="suman"
                       />
                     </div>
                     <div className={styles.name}>
@@ -179,7 +225,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <AiFillStar className={styles.RIcon} />
                         <AiFillStar className={styles.RIcon} />
                       </div>
-                      <h5>Sammer Ahemed</h5>
+                      <h5>Suman Karmakar</h5>
                     </div>
                   </div>
                 </SwiperSlide>

@@ -13,7 +13,7 @@
     z-index: 9999;
     overflow: hidden;
     .popupInner {
-      background-image: url("/Popup-Back.webp");
+      background-image: url("/popup-back.webp");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -114,7 +114,7 @@
     z-index: 9999;
 
     .popupInner {
-      background-image: url("/Popup-Back.webp");
+      background-image: url("/popup-back.webp");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -123,10 +123,10 @@
       align-items: center;
       justify-content: space-evenly;
       padding: 30px 60px;
-      width: max-content;
+      width: 80%;
       border-radius: 5px;
       border: 2px solid #2D9CD7;
-      max-width: 70%;
+      height: 100%;
       background-color: white;
 
       .closeBtn {

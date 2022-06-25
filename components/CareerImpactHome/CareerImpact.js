@@ -289,6 +289,9 @@ All Thanks to Learnbay!<br />
           </Swiper>
         </div>
       </div>
+      <div className={styles.Button}>
+            <a href="/reviews" target="_blank"><button style={{margin:"auto", marginTop:"20px"}}>View All Reviews</button></a>
+            </div>
     </section>
   );
 };

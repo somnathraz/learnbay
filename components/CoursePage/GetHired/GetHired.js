@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./GetHired.module.css";
 import Popup from "/components/Popup/Popup";
-import Form from "/Components/Form/Form";
+import Form from "/components/Form/Form";
 import { MdSubscriptions } from "react-icons/md";
 
 

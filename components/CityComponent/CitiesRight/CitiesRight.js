@@ -157,7 +157,7 @@ const CitiesRight = ({
                 <p className={styles.pHead}>{CertificationHead1}</p>
                 <p className={styles.pp}>{CertificationBot1}</p>
                 <p className={styles.pp}>{CertificationBot2}</p>
-                <img src={src} style={{width:"550px"}}></img>
+                <img src={src}></img>
             </div>
         </div>
         <div id="Module">

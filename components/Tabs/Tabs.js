@@ -299,7 +299,7 @@ const Tabs = () => {
                       />
                     </div>
                   </div></a>
-                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
+                  <a href="/data-science-ai-for-managers" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
                         src="/Data-Science-and-AI-for.png"
@@ -411,7 +411,7 @@ const Tabs = () => {
                       />
                     </div>
                   </div></a>
-                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
+                  <a href="/data-science-ai-for-managers" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
                         src="/Data-Science-and-AI-for.png"
@@ -534,7 +534,7 @@ const Tabs = () => {
                       />
                     </div>
                   </div></a>
-                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
+                  <a href="/data-science-ai-for-managers" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
                         src="/Data-Science-and-AI-for.png"

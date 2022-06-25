@@ -1,7 +1,7 @@
 .FAQ {
   margin: 0px 30px;
 }
-.ques {
+.quesh {
   display: flex;
   justify-content: space-between;
   border-radius: 8px;
@@ -12,7 +12,7 @@
 text-align: left;
   margin-bottom: 20px;
 }
-.quesO {
+.queshO {
   display: flex;
   justify-content: space-between;
   border-radius: 8px 8px 0px 0px;
@@ -23,8 +23,8 @@ text-align: left;
   margin-bottom: 0;
   cursor: pointer;
 }
-.ques h2,
-.quesO h2 {
+.quesh h2,
+.queshO h2 {
   font-size: 16px;
   margin: 0;
   font-weight: 500;

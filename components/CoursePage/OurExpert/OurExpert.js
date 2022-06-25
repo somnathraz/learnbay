@@ -37,7 +37,7 @@ const OurExpert = () => {
           >
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Amazon.png"
+                src="/amazon.png"
                 alt="amazon"
                 layout="intrinsic"
                 width="100"

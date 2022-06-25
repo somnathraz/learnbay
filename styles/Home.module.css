@@ -320,4 +320,12 @@
   .cta h6 {
     margin-right: 120px;
   }
+  .ctj {
+    display: block;
+    padding: 30px;
+  }
+  .ctj h6 {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
 }

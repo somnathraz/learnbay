@@ -12,24 +12,23 @@ import {
 function AboutUs() {
   return (
     <section className={styles.about}>
-        <div className={styles.Back}><h4>"India’s best Domain Specialized
-Data Science and AI program"</h4></div>
+        <div className={styles.Back}><h4 style={{textAlign:"left"}}>"They say ‘knowledge is power,’ and<br /> we want to empower all our aspirants to success."</h4></div>
 <div className={styles.MVDiv}>
 <div className={styles.FirstDiv}>
         <div className={styles.FirstImg}></div>
         <div className={styles.FirstText}>
           <h3>Mission</h3>
           <p className={styles.list}>
-          is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard
+          Safeguarding your career, even under the most unstable job market scenario, via the acquisition of emerging technology-based unique skills.
           </p>
           <div className={styles.DivIcon}>
             <div className={styles.iconBox}>
               <FaUserFriends className={styles.BoxIconuser} />
-              <p>is simply dummy text of the printing and typesetting</p>
+              <p> Literate everyone with data science knowledge.</p>
             </div>
             <div className={styles.iconBox}>
               <FaCompress className={styles.BoxIconcompress} />
-              <p>is simply dummy text of the printing and typesetting</p>
+              <p>Bust the myth that only IT pros can have lucrative careers.</p>
             </div>
           </div>
         </div>
@@ -38,16 +37,16 @@ Data Science and AI program"</h4></div>
         <div className={styles.FirstText}>
           <h3>Vision</h3>
           <p className={styles.list}>
-          is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard
+          To lead the industrial training sector by generating demanding professionals with future proof technical skills and knowledge.
           </p>
           <div className={styles.DivIcon}>
             <div className={styles.iconBox}>
               <FaAddressCard className={styles.BoxIconcard} />
-              <p>is simply dummy text of the printing and typesetting</p>
+              <p>Provide scopes to techies & non-techies-all alike.</p>
             </div>
             <div className={styles.iconBox}>
               <FaClone className={styles.BoxIconclone} />
-              <p>is simply dummy text of the printing and typesetting</p>
+              <p>Ensure an extremely personalized learning experience.</p>
             </div>
           </div>
         </div>

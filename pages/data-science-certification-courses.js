@@ -1,24 +1,24 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/CoursePage/GetHired/GetHired";
-import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
-import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
-import Certificate from "../Components/CoursePage/Certificatejob/Certificate";
-import Project from "../Components/CoursePage/Project/Project";
-import ToolsCovered from "../Components/CoursePage/ToolsCovered/ToolsCovered";
-import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
-import HowApply from "../Components/CoursePage/HowApply/HowApply";
-import ReferSection from "../Components/CoursePage/ReferSection/ReferSection";
-import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
-import CareerImpact from "../Components/CoursePage/CareerImpact/CareerImpact";
-import Fee from "../Components/CoursePage/Fee/Fee";
-import SkillsCovered from "../Components/SkillsCovered6/SkillsCovered";
-import FAQNew from "../Components/FAQNew/FAQNewDomain";
+import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
+import GetHired from "../components/CoursePage/GetHired/GetHired";
+import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
+import Popup from "../components/Popup/Popup";
+import Form from "../components/Form/Form";
+import Certificate from "../components/CoursePage/Certificatejob/Certificate";
+import Project from "../components/CoursePage/Project/Project";
+import ToolsCovered from "../components/CoursePage/ToolsCovered/ToolsCovered";
+import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
+import HowApply from "../components/CoursePage/HowApply/HowApply";
+import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
+import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
+import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
+import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
+import Fee from "../components/CoursePage/Fee/Fee";
+import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
+import FAQNew from "../components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
 import { FaqData1, PaymentFaqData1, CapstoneFaqData1, CertificationFaqData1, jobFaqData1, MentorshipFaqData1, SupportFaqData1 } from "../components/FAQ/FaqData";
 
@@ -55,6 +55,8 @@ export default function Home() {
         desc="This IBM Collaborated Data Science Course is for tech and non-tech professionals. This program guarantees a smooth transition into Junior Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions"
         src="/course1.png"
         alt="AiMl Header"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/1st+DSAI+Foundation.pdf"
+
       />
       <div className={styles.program}>
         <ProgramInfo

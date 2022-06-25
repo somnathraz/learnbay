@@ -10,7 +10,7 @@ const Certificate = ({ title, desc, desc2, desc3, src }) => {
     <section className={styles.Certifcate}>
       <div className={styles.left}>
       <p className="pTop">Certification from IBM</p>
-        <h4 style={{ marginBottom: "30px" }}>{title}</h4>
+        <h4 style={{ marginBottom: "30px", textAlign: "left" }}>{title}</h4>
         <p className={styles.pBotC}><BiCheckCircle className="bIcons" style={{color:"#2D9CD7", fontSize:"26px"}} />{desc}</p>
         <p className={styles.pBotC}><BiCheckCircle className="bIcons" style={{color:"#2D9CD7", fontSize:"26px"}} />{desc2}</p>
         <p className={styles.pBotC}><BiCheckCircle className="bIcons" style={{color:"#2D9CD7", fontSize:"26px"}} />{desc3}</p>

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Review from "../Components/Review/Review";
+import Review from "../components/Review/Review";
 import styles from '../styles/Home.module.css'
 
 

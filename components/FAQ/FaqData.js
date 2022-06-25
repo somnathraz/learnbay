@@ -2,8 +2,7 @@ export const FaqData1 = [
   {
     id: 0,
     ques: "What are the prerequisites for the Data Science and AI Foundation program?",
-    ans1: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
-
+    ans: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: true,
   },
   {

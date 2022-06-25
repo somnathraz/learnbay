@@ -1,26 +1,26 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/CoursePage/GetHired/GetHired";
-import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
-import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
-import Certificate from "../Components/CoursePage/CertificateTab/CertificateTab4";
-import Project from "../Components/CoursePage/Project/Project";
-import ToolsCovered from "../Components/CoursePage/ToolsCovered/ToolsCovered";
-import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
-import HowApply from "../Components/CoursePage/HowApply/HowApply";
-import ReferSection from "../Components/CoursePage/ReferSection/ReferSection";
-import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
+import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
+import GetHired from "../components/CoursePage/GetHired/GetHired";
+import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
+import Popup from "../components/Popup/Popup";
+import Form from "../components/Form/Form";
+import Certificate from "../components/CoursePage/CertificateTab/CertificateTab4";
+import Project from "../components/CoursePage/Project/Project";
+import ToolsCovered from "../components/CoursePage/ToolsCovered/ToolsCovered";
+import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
+import HowApply from "../components/CoursePage/HowApply/HowApply";
+import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
+import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
+import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import OtherCertificate from "../components/CoursePage/OtherCertificate6/OtherCertificate";
-import CareerImpact from "../Components/CoursePage/CareerImpact/CareerImpact";
-import Domain from "../Components/CoursePage/Domain/Domain";
-import Fee from "../Components/CoursePage/Fee/Fee";
-import SkillsCovered from "../Components/CoursePage/SkillsCovered/SkillsCovered";
-import FAQNew from "../Components/FAQNew/FAQNew";
+import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
+import Domain from "../components/CoursePage/Domain/Domain";
+import Fee from "../components/CoursePage/Fee/Fee";
+import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
+import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData4, DomainFaqData4, PaymentFaqData4, CapstoneFaqData4, CertificationFaqData4, jobFaqData4, MentorshipFaqData4, SupportFaqData4 } from "../components/FAQ/FaqData";
 
@@ -58,6 +58,8 @@ export default function Home() {
         desc="Become a successful data science manager/ leader within 11-months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects."
         src="/course4.png"
         alt="AiMl Header"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
+
       />
       <div className={styles.program}>
         <ProgramInfo
