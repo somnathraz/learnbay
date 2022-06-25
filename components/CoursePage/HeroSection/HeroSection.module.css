@@ -477,7 +477,7 @@
       color: rgb(99, 99, 99);
     }
     .ButtonDiv {
-      display: flex;
+      display: block;
     }
   }
   
