@@ -55,6 +55,8 @@ export default function Home() {
         desc="This IBM Collaborated Data Science Course is for tech and non-tech professionals. This program guarantees a smooth transition into Junior Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions"
         src="/course1.png"
         alt="AiMl Header"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/1st+DSAI+Foundation.pdf"
+
       />
       <div className={styles.program}>
         <ProgramInfo

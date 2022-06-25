@@ -27,7 +27,7 @@
       display: flex;
       align-items: center;
       font-weight: 500;
-      margin-top: 50px;
+      margin-top: 30px;
     }
   
     .btnWrapper button {
@@ -164,6 +164,9 @@
       font-size: 12px;
       color: rgb(99, 99, 99);
     }
+    .ButtonDiv {
+      display: flex;
+    }
   }
   @media (max-width: 1280px) {
     .wrapper {
@@ -285,6 +288,9 @@
     .sText {
       font-size: 12px;
       color: rgb(99, 99, 99);
+    }
+    .ButtonDiv {
+      display: flex;
     }
   }
   @media (max-width: 481px) {
@@ -469,6 +475,9 @@
     .sText {
       font-size: 12px;
       color: rgb(99, 99, 99);
+    }
+    .ButtonDiv {
+      display: flex;
     }
   }
   

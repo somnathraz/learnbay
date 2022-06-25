@@ -57,6 +57,7 @@ export default function Home() {
         desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
         src="/course2.png"
         alt="AiMl Header"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf"
       />
       <div className={styles.program}>
         <ProgramInfo

@@ -56,6 +56,8 @@ export default function Home() {
         desc="Assured data science career tradition for 18 months. Learn the industry-specific best practices by working on fresh industry projects. Get assured money back on unsuccessful placement."
         src="/course5.png"
         alt="AiMl Header"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/5th+Guarantee.pdf"
+
       />
       <div className={styles.program}>
         <ProgramInfo

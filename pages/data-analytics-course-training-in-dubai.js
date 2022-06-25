@@ -61,6 +61,8 @@ export default function Home() {
         desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
         src="/course6.png"
         alt="AiMl Header"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/6th+DA.pdf"
+
       />
       <div className={styles.program}>
         <ProgramInfo

@@ -28,6 +28,20 @@ button {
   border: 1px solid #2d9cd7;
 }
 
+.buttonline {
+  padding: 15px 20px;
+  outline: none;
+  background-color: #fff;
+  color: #2d9cd7;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 1px solid #2d9cd7;
+}
+
 .outLineBtn {
   padding: 15px 20px;
   border: 2px solid #2d9cd7;
