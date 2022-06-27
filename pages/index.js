@@ -12,7 +12,7 @@ import SpotMedia from "../components/SpotMedia/SpotMedia";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import CareerImpactHome from "../components/CareerImpactHome/CareerImpact";
 import TestimonialVideo from "../components/TestimonialVideo/TestimonialVideo";
-import Switch from "../components/Switch/switch";
+import Switch from "../components/switch/switch";
 import BoxSeo from "../components/BoxSeo/BoxSeo";
 import DomainSliderHome from "../components/DomainSliderHome/DomainSliderHome";
 
