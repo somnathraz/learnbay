@@ -62,7 +62,7 @@ const FirstSection = () => {
       </Popup>
       <div className={styles.leftSide}>
         <p className={styles.FirstP}> GET INTO</p>
-        <h1>India’s best Domain Specialized Data Science and AI program</h1>
+        <h1>India’s Best Domain Specialized Data Science and AI Program</h1>
         <p className="pTop">
           Use your domain expertise to build a meaningful career.
         </p>

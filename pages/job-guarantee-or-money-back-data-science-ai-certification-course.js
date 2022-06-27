@@ -262,7 +262,7 @@ export default function Home() {
         PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
         sub3="Data Science & AI
         100% Job Guarantee"
-        Price3="1,25,000 + GST"
+        Price3="₹1,25,000 + GST"
         PFeatures31=" 400+ Hours"
         PFeatures32="Tech/Non-Tech Professionals"
         PFeatures33="All"
@@ -276,7 +276,7 @@ export default function Home() {
       CourseFeeHead="Program Fee"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online interactive classes"
-      CourseFeelist2="Weekend and weekdays batch"
+      CourseFeelist2="Weekend and Weekday Batches"
       CourseFeelist3="Extra clearance sessions"
       CourseFeelist4="Multiple domain & Project Experties selection options"
       CourseFeelist5="Company-based mock interviews"

@@ -151,12 +151,47 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
+                  {" "}
                   <p>
                     I have done Data Science certification. Got placed in Oracle
                     within 9 months. The journey was arduous because I was from
                     the core electronics domain and struggling a lot. Mentors
                     are from FAANG companies and are truly dedicated. I liked
                     the teaching style of Python Trainers.<br />
+                    <Image
+                        src="/pawanc.png"
+                        layout="intrinsic"
+                        width="400"
+                        height="40"
+                        alt="shezan"
+                        textAlign="center"
+                      />
+                  </p>
+                  <div className={styles.profile}>
+                    <div className={styles.imgP}>
+                      <Image
+                        src="/pawan.jpg"
+                        layout="intrinsic"
+                        width="120"
+                        height="120"
+                        alt="pawan"
+                      />
+                    </div>
+                    <div className={styles.name}>
+                      <div className={styles.star}>
+                        <AiFillStar className={styles.RIcon} />
+                        <AiFillStar className={styles.RIcon} />
+                        <AiFillStar className={styles.RIcon} />
+                        <AiFillStar className={styles.RIcon} />
+                        <AiFillStar className={styles.RIcon} />
+                      </div>
+                      <h5>Pawan Yadav</h5>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                  <p>
+                  The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.<br />
                     <Image
                         src="/deverajc.png"
                         layout="intrinsic"
@@ -350,11 +385,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                   <p>
-                    I have done Data Science certification. Got placed in Oracle
-                    within 9 months. The journey was arduous because I was from
-                    the core electronics domain and struggling a lot. Mentors
-                    are from FAANG companies and are truly dedicated. I liked
-                    the teaching style of Python Trainers.<br />
+                  The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.<br />
                     <Image
                         src="/deverajc.png"
                         layout="intrinsic"

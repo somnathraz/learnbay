@@ -121,7 +121,7 @@ export const AdvancePaymentFaqDataM = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Mumbai?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -164,7 +164,7 @@ export const AdvanceCapstoneFaqDataM = [
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -416,7 +416,7 @@ export const ArtificialPaymentFaqDataM = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Mumbai?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -466,7 +466,7 @@ export const ArtificialCapstoneFaqDataM = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -693,7 +693,7 @@ export const MachinePaymentFaqDataM = [
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Mumbai?",
     ans: `Candidates are advised to read  `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the program.",
     link: true,
@@ -711,7 +711,7 @@ export const MachineCapstoneFaqDataM = [
     id: 1,
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -950,7 +950,7 @@ export const AnalyticsCapstoneFaqDataM = [
     id: 0,
     ques: "How many real-time projects/case studies will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -1075,7 +1075,7 @@ export const BusinessAFaqDataM = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay?",
+    ques: "What is the mode of Data Science training at Learnbay?",
     ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
@@ -1339,7 +1339,7 @@ export const AdvancePaymentFaqDataH = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Hyderabad?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -1382,7 +1382,7 @@ export const AdvanceCapstoneFaqDataH = [
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -1630,7 +1630,7 @@ export const ArtificialPaymentFaqDataH = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Hyderabad?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
    //check this
     open: false,
   },
@@ -1652,7 +1652,7 @@ export const ArtificialPaymentFaqDataH = [
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -1681,7 +1681,7 @@ export const ArtificialCapstoneFaqDataH = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -1909,7 +1909,7 @@ export const MachinePaymentFaqDataH = [
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Hyderabad?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -1927,7 +1927,7 @@ export const MachineCapstoneFaqDataH = [
     id: 1,
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
  link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
  link: true,
     open: false,
@@ -2154,7 +2154,7 @@ export const AnalyticsPaymentFaqDataH = [
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -2288,7 +2288,7 @@ export const BusinessAFaqDataH = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay?",
+    ques: "What is the mode of Data Science training at Learnbay?",
     ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
@@ -2335,7 +2335,7 @@ export const BusinessAPaymentFaqDataH = [
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
     ans: `Candidates are advised to read  `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the program.",
     link: true,
@@ -2550,7 +2550,7 @@ export const AdvancePaymentFaqDataB = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Bengalore?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
    //Check This
     open: false,
   },
@@ -2572,7 +2572,7 @@ export const AdvancePaymentFaqDataB = [
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -2594,7 +2594,7 @@ export const AdvanceCapstoneFaqDataB = [
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -2835,7 +2835,7 @@ export const ArtificialPaymentFaqDataB = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Bengalore?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
   //Check
     open: false,
   },
@@ -2857,7 +2857,7 @@ export const ArtificialPaymentFaqDataB = [
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -2886,7 +2886,7 @@ export const ArtificialCapstoneFaqDataB = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -3113,7 +3113,7 @@ export const MachinePaymentFaqDataB = [
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Bengalore?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -3131,7 +3131,7 @@ export const MachineCapstoneFaqDataB = [
     id: 1,
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -3358,7 +3358,7 @@ export const AnalyticsPaymentFaqDataB = [
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
     ans: `Candidates are advised to read  `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -3376,7 +3376,7 @@ export const AnalyticsCapstoneFaqDataB = [
     id: 1,
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -3495,7 +3495,7 @@ export const BusinessAFaqDataB = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay?",
+    ques: "What is the mode of Data Science training at Learnbay?",
     ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
@@ -3542,7 +3542,7 @@ export const BusinessAPaymentFaqDataB = [
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -3554,7 +3554,7 @@ export const BusinessACapstoneFaqDataB = [
     id: 0,
     ques: "How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -3760,7 +3760,7 @@ export const AdvancePaymentFaqDataC = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Chennai?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -3781,7 +3781,7 @@ export const AdvancePaymentFaqDataC = [
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
     ans: `Candidates are advised to read .`,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -3803,7 +3803,7 @@ export const AdvanceCapstoneFaqDataC = [
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -4050,7 +4050,7 @@ export const ArtificialPaymentFaqDataC = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Chennai?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -4071,7 +4071,7 @@ export const ArtificialPaymentFaqDataC = [
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
     ans: `Candidates are advised to read before`,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -4100,7 +4100,7 @@ export const ArtificialCapstoneFaqDataC = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -4326,7 +4326,7 @@ export const MachinePaymentFaqDataC = [
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Chennai?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -4344,7 +4344,7 @@ export const MachineCapstoneFaqDataC = [
     id: 1,
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -4570,7 +4570,7 @@ export const AnalyticsPaymentFaqDataC = [
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -4582,7 +4582,7 @@ export const AnalyticsCapstoneFaqDataC = [
     id: 0,
     ques: "How many real-time projects/case studies will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -4707,7 +4707,7 @@ export const BusinessAFaqDataC = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay?",
+    ques: "What is the mode of Data Science training at Learnbay?",
     ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
@@ -4754,7 +4754,7 @@ export const BusinessAPaymentFaqDataC = [
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -4766,7 +4766,7 @@ export const BusinessACapstoneFaqDataC = [
     id: 0,
     ques: "How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -4973,7 +4973,7 @@ export const AdvancePaymentFaqDataCa = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Canada?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -4994,7 +4994,7 @@ export const AdvancePaymentFaqDataCa = [
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
     ans: `Candidates are advised to read`,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -5016,7 +5016,7 @@ export const AdvanceCapstoneFaqDataCa = [
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
 
@@ -5264,7 +5264,7 @@ export const ArtificialPaymentFaqDataCa = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Canada?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -5285,7 +5285,7 @@ export const ArtificialPaymentFaqDataCa = [
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
     ans: `Candidates are advised to read.`,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -5314,7 +5314,7 @@ export const ArtificialCapstoneFaqDataCa = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
 
@@ -5541,7 +5541,7 @@ export const MachinePaymentFaqDataCa = [
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Canada?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -5559,7 +5559,7 @@ export const MachineCapstoneFaqDataCa = [
     id: 1,
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -5786,7 +5786,7 @@ export const AnalyticsPaymentFaqDataCa = [
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -5804,7 +5804,7 @@ export const AnalyticsCapstoneFaqDataCa = [
     id: 1,
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
 
@@ -5924,7 +5924,7 @@ export const BusinessAFaqDataCa = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay?",
+    ques: "What is the mode of Data Science training at Learnbay?",
     ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
@@ -5971,7 +5971,7 @@ export const BusinessAPaymentFaqDataCa = [
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -5982,7 +5982,7 @@ export const BusinessACapstoneFaqDataCa = [
     id: 0,
     ques: "How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -6190,7 +6190,7 @@ export const AdvancePaymentFaqDataD = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Delhi?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -6211,7 +6211,7 @@ export const AdvancePaymentFaqDataD = [
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
     ans: `Candidates are advised to read`,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -6233,7 +6233,7 @@ export const AdvanceCapstoneFaqDataD = [
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -6480,7 +6480,7 @@ export const ArtificialPaymentFaqDataD = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Delhi?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -6501,7 +6501,7 @@ export const ArtificialPaymentFaqDataD = [
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
     ans: `Candidates are advised to read`,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -6531,7 +6531,7 @@ export const ArtificialCapstoneFaqDataD = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -6757,7 +6757,7 @@ export const MachinePaymentFaqDataD = [
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Delhi?",
     ans: `Candidates are advised to read`,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -6775,7 +6775,7 @@ export const MachineCapstoneFaqDataD = [
     id: 1,
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
 
@@ -7002,7 +7002,7 @@ export const AnalyticsPaymentFaqDataD = [
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -7014,7 +7014,7 @@ export const AnalyticsCapstoneFaqDataD = [
     id: 0,
     ques: "How many real-time projects/case studies will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -7139,7 +7139,7 @@ export const BusinessAFaqDataD = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay?",
+    ques: "What is the mode of Data Science training at Learnbay?",
     ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
@@ -7187,7 +7187,7 @@ export const BusinessAPaymentFaqDataD = [
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -7200,7 +7200,7 @@ export const BusinessACapstoneFaqDataD = [
     id: 0,
     ques: "How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
 
@@ -7409,7 +7409,7 @@ export const AdvancePaymentFaqDataDu = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Dubai?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -7430,7 +7430,7 @@ export const AdvancePaymentFaqDataDu = [
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
     ans: `Candidates are advised to read`,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -7452,7 +7452,7 @@ export const AdvanceCapstoneFaqDataDu = [
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -7699,7 +7699,7 @@ export const ArtificialPaymentFaqDataDu = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Dubai?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -7720,7 +7720,7 @@ export const ArtificialPaymentFaqDataDu = [
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
     ans: `Candidates are advised to read`,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -7749,7 +7749,7 @@ export const ArtificialCapstoneFaqDataDu = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -7975,7 +7975,7 @@ export const MachinePaymentFaqDataDu = [
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Dubai?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -7994,7 +7994,7 @@ export const MachineCapstoneFaqDataDu = [
     id: 1,
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
 
@@ -8221,7 +8221,7 @@ export const AnalyticsPaymentFaqDataDu = [
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -8233,7 +8233,7 @@ export const AnalyticsCapstoneFaqDataDu = [
     id: 0,
     ques: "How many real-time projects/case studies will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -8358,7 +8358,7 @@ export const BusinessAFaqDataDu = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay?",
+    ques: "What is the mode of Data Science training at Learnbay?",
     ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
@@ -8405,7 +8405,7 @@ export const BusinessAPaymentFaqDataDu = [
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -8417,7 +8417,7 @@ export const BusinessACapstoneFaqDataDu = [
     id: 0,
     ques: "How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
 
@@ -8625,7 +8625,7 @@ export const AdvancePaymentFaqDataP = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Pune?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -8646,7 +8646,7 @@ export const AdvancePaymentFaqDataP = [
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
     ans: `Candidates are advised to read`,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -8668,7 +8668,7 @@ export const AdvanceCapstoneFaqDataP = [
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -8916,7 +8916,7 @@ export const ArtificialPaymentFaqDataP = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Pune?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to X months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -8937,7 +8937,7 @@ export const ArtificialPaymentFaqDataP = [
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
     ans: `Candidates are advised to read`,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -8967,7 +8967,7 @@ export const ArtificialCapstoneFaqDataP = [
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     
- linkText1: " Click here to download the list of the projects  ",
+ linkText1: " Click here to download the list of the projects.",
  link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
  link: true,
     open: false,
@@ -9193,7 +9193,7 @@ export const MachinePaymentFaqDataP = [
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Pune?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -9211,7 +9211,7 @@ export const MachineCapstoneFaqDataP = [
     id: 1,
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: false,
@@ -9438,7 +9438,7 @@ export const AnalyticsPaymentFaqDataP = [
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -9450,7 +9450,7 @@ export const AnalyticsCapstoneFaqDataP = [
     id: 0,
     ques: "How many real-time projects/case studies will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,
@@ -9575,7 +9575,7 @@ export const BusinessAFaqDataP = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay?",
+    ques: "What is the mode of Data Science training at Learnbay?",
     ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
@@ -9623,7 +9623,7 @@ export const BusinessAPaymentFaqDataP = [
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
     ans: `Candidates are advised to read `,
-    linkText1: "Learnbay’s Refund/Cancellation policy",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
     link: true,
@@ -9635,7 +9635,7 @@ export const BusinessACapstoneFaqDataP = [
     id: 0,
     ques: "How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-    linkText1: " Click here to download the list of the projects  ",
+    linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
     open: true,

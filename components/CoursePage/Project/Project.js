@@ -623,7 +623,7 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="480"
+            width="450"
             height="120px"
           />
                   </div>
@@ -657,7 +657,7 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="480"
+            width="450"
             height="120px"
           />
                   </div>
@@ -691,7 +691,7 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="480"
+            width="450"
             height="120px"
           />
                   </div>
@@ -725,7 +725,7 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="480"
+            width="450"
             height="120px"
           />
                   </div>
@@ -759,7 +759,7 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="480"
+            width="450"
             height="120px"
           />
                   </div>
@@ -793,7 +793,7 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="480"
+            width="450"
             height="120px"
           />
                   </div>
@@ -828,7 +828,7 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="480"
+            width="450"
             height="120px"
           />
                   </div>
@@ -860,7 +860,7 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="480"
+            width="450"
             height="120px"
           />
                   </div>

@@ -7,17 +7,17 @@ import Image from "next/image";
 const WhyLearnbay = () => {
   return (
     <section className={styles.WhyLearnbay}>
-      <h4>Why Learnbay</h4>
+      <h4>Why Learnbay?</h4>
       <div className={styles.divList}>
-        <p className={styles.list}><FaCheck className={styles.tickIcon} />Designed for working professionals</p>
-        <p className={styles.list}><FaCheck className={styles.tickIcon} />Industry-targeted syllabus</p>
+        <p className={styles.list}><FaCheck className={styles.tickIcon} />Designed for Working Professionals</p>
+        <p className={styles.list}><FaCheck className={styles.tickIcon} />Industry-targeted Syllabus</p>
       </div>
       <div className={styles.FirstDiv}>
         <div className={styles.FirstImg}></div>
         <div className={styles.FirstText}>
-          <h3>Interactive learning</h3>
+          <h3>Interactive Learning</h3>
           <p className={styles.list}>
-          Learnbay offers a live, instructor-led learning environment with a custom program created by experienced trainers.
+          Learnbay offers live, instructor-led learning environment with a custom program created by experienced trainers.
           </p>
           <div className={styles.DivIcon}>
             <div className={styles.iconBox}>
@@ -33,14 +33,14 @@ const WhyLearnbay = () => {
       </div>
       <div className={styles.MiddleDiv}>
         <div className={styles.FirstText}>
-          <h3>Domain specialized projects</h3>
+          <h3>Domain Specialized Projects</h3>
           <p className={styles.list}>
           Work with real-time data sets gathered from renowned data sources provided by startups and MNCs in India.
           </p>
           <div className={styles.DivIcon}>
             <div className={styles.iconBox}>
               <FaAddressCard className={styles.BoxIconcard} />
-              <p>Get certificate from IBM for your Capstone project</p>
+              <p>Get certificate from IBM for your capstone project</p>
             </div>
             <div className={styles.iconBox}>
               <FaClone className={styles.BoxIconclone} />
@@ -54,7 +54,7 @@ const WhyLearnbay = () => {
       <div className={styles.FirstDiv}>
         <div className={styles.LastImg}></div>
         <div className={styles.FirstText}>
-          <h3>Job-oriented training</h3>
+          <h3>Job-oriented Training</h3>
           <p className={styles.list}>
           Improve your critical thinking and interviewing skills with exclusive mock interview sessions.
           </p>

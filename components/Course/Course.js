@@ -34,11 +34,11 @@ const Course = () => {
         </p>
         <p>
           <GoCheck className={styles.tick} />
-          IBM’s Dual Certification
+          IBM’s Multi Certification
         </p>
         <p>
           <GoCheck className={styles.tick} />
-          Alumni Portal Access
+          Exclusive Alumni Portal Access
         </p>
       </div>
       <div className={styles.courses}>
@@ -140,7 +140,7 @@ const Course = () => {
                   </p>
                   <div className={styles.btnWrapper}>
                     <a href={link1}><button>
-                      view Details
+                      View Details
                       <FaUserGraduate className="bIcons" />
                     </button></a>
                     <a href={link2}><button className="outLineBtn">
@@ -184,7 +184,7 @@ const Course = () => {
                   </p>
                   <div className={styles.btnWrapper}>
                     <a href={link1}><button>
-                      view Details
+                      View Details
                       <FaUserGraduate className="bIcons" />
                     </button></a>
                     <a href={link2}><button className="outLineBtn">
@@ -228,7 +228,7 @@ const Course = () => {
                   </p>
                   <div className={styles.btnWrapper}>
                     <a href={link1}><button>
-                      view Details
+                      View Details
                       <FaUserGraduate className="bIcons" />
                     </button></a>
                     <a href={link2}><button className="outLineBtn">
@@ -272,7 +272,7 @@ const Course = () => {
                   </p>
                   <div className={styles.btnWrapper}>
                     <a href={link1}><button>
-                      view Details
+                      View Details
                       <FaUserGraduate className="bIcons" />
                     </button></a>
                     <a href={link2}><button className="outLineBtn">
@@ -316,7 +316,7 @@ const Course = () => {
                   </p>
                   <div className={styles.btnWrapper}>
                     <a href={link1}><button>
-                      view Details
+                      View Details
                       <FaUserGraduate className="bIcons" />
                     </button></a>
                     <a href={link2}><button className="outLineBtn">

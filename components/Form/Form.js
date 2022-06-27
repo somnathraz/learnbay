@@ -223,14 +223,14 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             <option className={styles.option} value="">
               Select Your Work Experience
             </option>
-            <option value="College Students">College Students</option>
-            <option value="Fresher ( less than 1 year)">
-              Fresher ( less than 1 year)
+            <option value="College Students">College Student</option>
+            <option value="Fresher (less than 1 year)">
+              Fresher (less than 1 year)
             </option>
-            <option value="1 to 3 year">1 to 3 year</option>
-            <option value="3 to 7 year">3 to 7 year</option>
-            <option value="7 to 12 year">7 to 12 year</option>
-            <option value="12+ year">12+ year</option>
+            <option value="1 to 3 years">1 to 3 years</option>
+            <option value="3 to 7 years">3 to 7 years</option>
+            <option value="7 to 12 years">7 to 12 years</option>
+            <option value="12+ years">12+ years</option>
           </select>
         </div>
         {popup ? (
@@ -247,10 +247,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
               <option value="Morning between (10-11 AM)">
                 Morning between (10-11 AM)
               </option>
-              <option value="AfterNoon Between (11-12 PM)">
+              <option value="Afternoon between (11-12 PM)">
                 AfterNoon Between (11-12 PM)
               </option>
-              <option value="AfterNoon between (12-01 PM)">
+              <option value="Afternoon between (12-01 PM)">
               AfterNoon between (12-01 PM)
               </option>
               <option value="Evening between (02-03 PM)">

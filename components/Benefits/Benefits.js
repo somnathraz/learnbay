@@ -9,7 +9,7 @@ const Benefits = () => {
 
   return (
     <div className={styles.Benefits}>
-      <h6>Benefits for working professionals</h6>
+      <h6>Benefits for Working Professionals</h6>
       <div className={styles.BenefitsWrapper}>
         <div className={styles.BenLeftWrap}>
           <div className={styles.list}>
@@ -48,13 +48,13 @@ const Benefits = () => {
             <div className={styles.listDetail}>
               <li>Strong expertise in several domains.</li>
               <li>
-                Real-time projects under the guidance of lead data scientists
+                Real-time projects under the guidance of lead data scientists.
               </li>
-              <li>Experiential learning for working professionals</li>
+              <li>Experiential learning for working professionals.</li>
 
               <li>
                 Utilizing your current domain expertise to become a full stack
-                data scientist
+                data scientist.
               </li>
             </div>
           ) : (
@@ -77,7 +77,7 @@ const Benefits = () => {
             <div className={styles.listDetail}>
               <li>
                 Understand the art of industry-specific data science
-                storytellings.
+                terms.
               </li>
               <li>Earn IBM certificate for industry capstone project.</li>
               <li>
