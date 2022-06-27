@@ -35,17 +35,10 @@ function demo() {
                 setMachine(false);
                 setProject(false);
                 setDeep(false);
-<<<<<<< HEAD
               }}
               style={
                 Python ? { background: "#E5F3FA" } : { background: "white" }
               }
-=======
-                }}
-                style={
-                Python ? { background: "#E5F3FA" } : { background: "white" }
-                }
->>>>>>> af52c830b27b63f2a40e3a0b43ebf6a5dded4c40
             >
               Python
             </span>
@@ -56,17 +49,10 @@ function demo() {
                 setMachine(false);
                 setProject(false);
                 setDeep(false);
-<<<<<<< HEAD
               }}
               style={
                 Statistics ? { background: "#E5F3FA" } : { background: "white" }
               }
-=======
-                }}
-                style={
-                Statistics ? { background: "#E5F3FA" } : { background: "white" }
-                }
->>>>>>> af52c830b27b63f2a40e3a0b43ebf6a5dded4c40
             >
               Statistics
             </span>
@@ -77,17 +63,10 @@ function demo() {
                 setDeep(false);
                 setProject(false);
                 setMachine(true);
-<<<<<<< HEAD
               }}
               style={
                 Machine ? { background: "#E5F3FA" } : { background: "white" }
               }
-=======
-                }}
-                style={
-                  Machine ? { background: "#E5F3FA" } : { background: "white" }
-                }
->>>>>>> af52c830b27b63f2a40e3a0b43ebf6a5dded4c40
             >
               Machine Learning
             </span>
@@ -98,15 +77,8 @@ function demo() {
                 setDeep(true);
                 setProject(false);
                 setMachine(false);
-<<<<<<< HEAD
               }}
               style={Deep ? { background: "#E5F3FA" } : { background: "white" }}
-=======
-                }}
-                style={
-                Deep ? { background: "#E5F3FA" } : { background: "white" }
-                }
->>>>>>> af52c830b27b63f2a40e3a0b43ebf6a5dded4c40
             >
               Deep Learning
             </span>
@@ -117,17 +89,10 @@ function demo() {
                 setDeep(false);
                 setMachine(false);
                 setProject(true);
-<<<<<<< HEAD
               }}
               style={
                 Project ? { background: "#E5F3FA" } : { background: "white" }
               }
-=======
-                }}
-                style={
-                Project ? { background: "#E5F3FA" } : { background: "white" }
-                }
->>>>>>> af52c830b27b63f2a40e3a0b43ebf6a5dded4c40
             >
               Projects
             </span>
