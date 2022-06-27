@@ -35,7 +35,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
               <>
                 <SwiperSlide className={styles.slide}>
                   <p>
-                  Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules small size batches. I was able to manage my time and learn while working. Thanks to Learnbay for my lucrative placement.<br />
+                  Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage my time and learn while working. Thanks to Learnbay for my lucrative placement.<br />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -139,7 +139,7 @@ All Thanks to Learnbay!<br />
                 <SwiperSlide className={styles.slide}>
                   {" "}
                   <p>
-                  I had a great learning experience at Learnbay.The faculties here are top notch.Right from enrollment to getting a good job,they keep putting enormous efforts for each and every candidate. Thanks to all the trainers,backend team,the HR team and to the directors for making this journey smooth.<br />
+                  I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job, they keep putting enormous efforts for each and every candidate. Thanks to all the trainers, backend team, the HR team and to the directors for making this journey smooth.<br />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -162,7 +162,7 @@ All Thanks to Learnbay!<br />
               <>
                 <SwiperSlide className={styles.slide}>
                   <p>
-                  Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules small size batches. I was able to manage my time and learn while working. Thanks to Learnbay for my lucrative placement.<br />
+                  Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage my time and learn while working. Thanks to Learnbay for my lucrative placement.<br />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -266,7 +266,7 @@ All Thanks to Learnbay!<br />
                 <SwiperSlide className={styles.slide}>
                   {" "}
                   <p>
-                  I had a great learning experience at Learnbay.The faculties here are top notch.Right from enrollment to getting a good job,they keep putting enormous efforts for each and every candidate. Thanks to all the trainers,backend team,the HR team and to the directors for making this journey smooth.<br />
+                  I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job, they keep putting enormous efforts for each and every candidate. Thanks to all the trainers, backend team, the HR team and to the directors for making this journey smooth.<br />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>

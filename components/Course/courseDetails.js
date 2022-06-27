@@ -5,7 +5,7 @@ export const viewAllD = [
     title: "Data Science and AI Foundation Program",
     para: [
       "225 hours of Interactive Learning",
-      "8 projects + 1 capstone",
+      "8 Projects + 1 Capstone",
       "Course Fee : ₹ 65,000 + GST",
     ],
     link1: "/data-science-certification-courses",
@@ -15,10 +15,10 @@ export const viewAllD = [
   {
     id: 2,
     img: "/Advance-Data-Science-1.png",
-    title: "Advance Data Science and AI Programs",
+    title: "Advanced Data Science and AI Program",
     para: [
       "275 hours of Interactive Learning",
-      "12 projects + 2 capstone",
+      "12 Projects + 2 Capstones",
       "Course Fee : ₹ 79,000 + GST",
     ],
         link1: "/advance-data-science-certification-courses",
@@ -30,7 +30,7 @@ export const viewAllD = [
     title: "Artificial Intelligence and Machine Learning Program",
     para: [
       "300 hours of Interactive Learning",
-      "15 projects + 2 capstone",
+      "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/artificial-intelligence-certification-course",
@@ -42,7 +42,7 @@ export const viewAllD = [
     title: "Data Science and AI for Managers & Leaders",
     para: [
       "350 hours of Interactive Learning",
-      "15 projects + 2 capstone",
+      "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/data-science-ai-for-managers",
@@ -54,7 +54,7 @@ export const viewAllD = [
     title: "Data Science and AI with Job Guarantee",
     para: [
       "400 hours of Interactive Learning",
-      "15 projects + 3 capstone",
+      "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
         link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
@@ -66,7 +66,7 @@ export const viewAllD = [
     title: "Data Analytics Program",
     para: [
       "180 hours of Interactive Learning",
-      "5 projets",
+      "5 projects",
       "Course Fee : ₹ 60,000 + GST",
     ],
         link1: "/data-analytics-certification-course",
@@ -78,7 +78,7 @@ export const viewAllD = [
     title: "Business Analytics Program",
     para: [
       "200 hours of Interactive Learning",
-      "5 projets",
+      "5 projects",
       "Course Fee : ₹ 65,000 + GST",
     ],
         link1: "/business-analytics-certification-course",
@@ -92,7 +92,7 @@ export const ForProgrammersD = [
     title: "Advance Data Science and AI Programs",
     para: [
       "275 hours of Interactive Learning",
-      "12 projects + 2 capstone",
+      "12 Projects + 2 Capstones",
       "Course Fee : ₹ 79,000 + GST",
     ],
         link1: "/advance-data-science-certification-courses",
@@ -104,7 +104,7 @@ export const ForProgrammersD = [
     title: "Artificial Intelligence and Machine Learning Program",
     para: [
       "300 hours of Interactive Learning",
-      "15 projects + 2 capstone",
+      "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/artificial-intelligence-certification-course",
@@ -118,7 +118,7 @@ export const ForNonProgrammerD = [
     title: "Data Science and AI Foundation Program",
     para: [
       "225 hours of Interactive Learning",
-      "8 projects + 1 capstone",
+      "8 Projects + 1 Capstone",
       "Course Fee : ₹ 65,000 + GST",
     ],
         link1: "/data-science-certification-courses",
@@ -130,7 +130,7 @@ export const ForNonProgrammerD = [
     title: "Data Analytics Program",
     para: [
       "180 hours of Interactive Learning",
-      "5 projets",
+      "5 projects",
       "Course Fee : ₹ 60,000 + GST",
     ],
         link1: "/data-analytics-certification-course",
@@ -142,7 +142,7 @@ export const ForNonProgrammerD = [
     title: "Business Analytics Program",
     para: [
       "200 hours of Interactive Learning",
-      "5 projets",
+      "5 projects",
       "Course Fee : ₹ 65,000 + GST",
     ],
         link1: "/business-analytics-certification-course",
@@ -156,7 +156,7 @@ export const ForManagerD = [
     title: "Advance Data Science and AI Programs",
     para: [
       "275 hours of Interactive Learning",
-      "12 projects + 2 capstone",
+      "12 Projects + 2 Capstones",
       "Course Fee : ₹ 79,000 + GST",
     ],
         link1: "/advance-data-science-certification-courses",
@@ -168,7 +168,7 @@ export const ForManagerD = [
     title: "Artificial Intelligence and Machine Learning Program",
     para: [
       "300 hours of Interactive Learning",
-      "15 projects + 2 capstone",
+      "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/artificial-intelligence-certification-course",
@@ -180,7 +180,7 @@ export const ForManagerD = [
     title: "Data Science and AI for Managers & Leaders",
     para: [
       "350 hours of Interactive Learning",
-      "15 projects + 2 capstone",
+      "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/data-science-ai-for-managers",
@@ -195,7 +195,7 @@ export const JobGuaranteeD = [
     title: "Data Science and AI with Job Guarantee",
     para: [
       "400 hours of Interactive Learning",
-      "15 projects + 3 capstone",
+      "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
         link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",

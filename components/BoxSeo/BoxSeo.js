@@ -6,7 +6,7 @@ function BoxSeo() {
   return (
     <section className={styles.BoxSeo}>
         <div className={styles.BoxSeo1}>
-            <h2>We Expert in Data Science courses and Training</h2>
+            <h2>We Expert in Data Science Courses and Training</h2>
             <p className={styles.TBot}>Learnbay is an expert in delivering a wide gamut of management and technical data science training in India. Learnbay helps individuals and organisations provide data science courses based on practical knowledge and theoretical concepts. Our industry reputation speaks for itself. We offer the best value in training services combined with the support of our creative minds to establish a solution that suits your learning needs. We help in building careers and shaping up future leaders.</p>
             {/* <button className={styles.btn}>
               Know More

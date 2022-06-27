@@ -18,7 +18,7 @@ const DomainSliderHome = ({ CareerHead, changeReview }) => {
   });
   return (
     <section className={styles.DomainSliderHome}>
-      <h4>Domain Specialisation</h4>
+      <h4>Domain Specialization</h4>
       <p>Select Multiple Domain & Work On Capstone Projects</p>
       <Swiper
         slidesPerView={mobile ? 1.1 : 4}
@@ -32,7 +32,7 @@ const DomainSliderHome = ({ CareerHead, changeReview }) => {
           <SwiperSlide className={styles.slide}>
             <p>
               Healthcare, Pharma
-              <br />& Clinical Research Domain
+              <br />& Clinical Research
             </p>
             <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf" target="_blank"><button className={styles.btn}>
               Download Brochure
@@ -110,7 +110,7 @@ const DomainSliderHome = ({ CareerHead, changeReview }) => {
             </button></a>
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
-            <p>Manufacturing, Mechanical and Telecom Domain</p>
+            <p>Manufacturing, Mechanical and Telecom</p>
             <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf" target="_blank"><button className={styles.btn}>
               Download Brochure
               <FaDownload className={styles.bIcon} />
