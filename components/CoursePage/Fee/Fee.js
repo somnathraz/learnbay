@@ -68,7 +68,7 @@ const Fee = ({
             </span>
             <span className={styles.PFeatures}>Duration</span>
             <span className={styles.PFeatures}>Eligibility</span>
-            <span className={styles.PFeatures}>Domain-Elective</span>
+            <span className={styles.PFeatures}>Domain-Electives</span>
             <span className={styles.PFeatures}>Projects + Capstone</span>
             <span className={styles.PFeatures}>Modules</span>
             <span className={styles.PFeatures}>Job Referrals</span>
@@ -195,7 +195,7 @@ const Fee = ({
             </span>
             <span className={styles.PFeatures}> Duration</span>
             <span className={styles.PFeatures}>Eligibility</span>
-            <span className={styles.PFeatures}>Domain-Elective</span>
+            <span className={styles.PFeatures}>Domain-Electives</span>
             <span className={styles.PFeatures}> Projects + Capstone</span>
             <span className={styles.PFeatures}> Modules</span>
             <span className={styles.PFeatures}> Job Referrals</span>

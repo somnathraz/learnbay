@@ -17,7 +17,7 @@ const KeyFeatures = () => {
             </p>
             <p>
               <AiOutlineCheck className={styles.tickIcon} />
-              Hassle-free and tailored training for FAANG company interviews.
+              Hassle-free and tailored training for MAANG company interviews.
             </p>
             <p>
               <AiOutlineCheck className={styles.tickIcon} />

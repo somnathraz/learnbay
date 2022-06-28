@@ -47,4 +47,7 @@
     .head {
         padding: 30px 0px;
     }
+    .switchInner {
+        margin-bottom: 15px;
+    }
 }

@@ -95,7 +95,7 @@ export default function Home() {
           Box2h5="Domain Destined"
           box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 10+ electives."
           Box3h5="Premium Mentoring"
-          box3desc="Utilize the advantage of mock interviews and project handling training with FAANG Data Science Leads."
+          box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -106,7 +106,7 @@ export default function Home() {
         </div>
         <div className="CitiesRight">
           <CitiesRight
-            ProgramBot1="Learnbay is a leading institute for Artificial intelligence (AI) training in Pune. Our faculties are industry experts with more than 8 years of  FAANG company work experience. Learnbay faculties always work hard for students' growth and career development. We even provide a wide range of Domain electives, assuring students a Full-stack AI expertise in any chosen domain. Learnbay Artificial intelligence courses in Pune teach students with real-time MNC and capstone projects, and all our courses are certified by IBM. Our guides are always ready to solve any queries of students with the most precise solutions so that students do not face any barriers during training."
+            ProgramBot1="Learnbay is a leading institute for Artificial intelligence (AI) training in Pune. Our faculties are industry experts with more than 8 years of  MAANG company work experience. Learnbay faculties always work hard for students' growth and career development. We even provide a wide range of Domain electives, assuring students a Full-stack AI expertise in any chosen domain. Learnbay Artificial intelligence courses in Pune teach students with real-time MNC and capstone projects, and all our courses are certified by IBM. Our guides are always ready to solve any queries of students with the most precise solutions so that students do not face any barriers during training."
             ProgramHead3="Why is Learnbay the best artificial intelligence (AI) training course provider in Pune?"
             ProgramBot3="Whether you are a techie or non-techie, you can still learn Artificial Intelligence at Learnbay. There has been a lot of improvement in Artificial Intelligence, but there are very few skilled Artificial intelligence experts who can work along with the changes that Artificial intelligence has brought to a particular domain. So becoming an Artificial intelligence expert is a big plus for a career for both techies and non-techies."
             ProgramBot31="Learnbay offers a variety of Artificial Intelligence courses to choose from, even if you just graduated or have been working professionally for 4+ years. Learnbay has a course for all and every Domain."
@@ -124,7 +124,7 @@ export default function Home() {
             DomainHead1="Why is domain specialization crucial while Learning Artificial intelligence courses training in Pune?"
             DomainBot1="Artificial intelligence is a very broad concept, and it has a lot of sub-sets under it. Domain specialization in Artificial intelligence makes students an expert using AI tools within a particular industry. This is why Learnbay provides a list of the Domain for students to choose from. Learnbay covers almost all domains from manufacturing to logistics, from banking to the oil and gas sector. We know that every industry needs different requirements and has different best practices for handling data or building AI software."
             DomainBot2="Learnbay mentors and guides analyze candidates' profiles and accordingly suggest respective domains to students. Presently, recruiters are not much interested in which University certificate you hold. Rather they are madly concerned about your domain expertise. A normally certified  AI expert with finance domain knowledge gets a better candidature score than a master's degree holder in AI without a finance background in Banking."
-            DomainBot3="List of available domain-electives"
+            DomainBot3="List of available Domain-Electivess"
             DomainList1="HR, Sales, and Marketing" 
             DomainList2="Energy, oil, and Gas" 
             DomainList3="Mechanical, manufacturing, and telecom" 
@@ -149,13 +149,13 @@ export default function Home() {
             CertificationBot1="All of the Learnbay Artificial intelligence courses in Pune are IBM certified. So, there is no question about the course authentication. Students get certificates for completing Artificial intelligence course training along with micro-certificates for working with industry compliance tools like Python, Deep learning with Tensorflow, and many more. Learnbay IBM certificates for Artificial intelligence course training depend on the course you choose. You can avail 1 to 8 certificates by IBM. Learnbay even offers certificates for working on capstone projects. This kind of project experience certificate is also issued by IBM."
             src="/Managers-4.jpeg"
 
-            ModuleBot1="Learnbay Artificial intelligence training in Pune consists of 400hrs of hassle-free classes led by FAANG experts. Our foundational and advanced program has around 200+ classes. Here you get 18+ AI modules and tools."
+            ModuleBot1="Learnbay Artificial intelligence training in Pune consists of 400hrs of hassle-free classes led by MAANG experts. Our foundational and advanced program has around 200+ classes. Here you get 18+ AI modules and tools."
             ModuleBot2="Each of the AI courses offered by Learnbay are planned with different modules as per the consented career stage of the professionals. All of the courses are equipped with properly balanced theoretical and practical sub-modules. The most important modules that Learnbay artificial intelligence course covers are SQL, Pandas, Numpy, Data visualization, NP, artificial neural network, etc. Keeping the non-programmer huddle about programming in mind, Learnbay AI courses also offer basic programming sub-modules."
 
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -167,7 +167,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics and Machine Learning"
     syllabusb3="70 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"

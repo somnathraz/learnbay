@@ -88,7 +88,7 @@ export default function Home() {
           Box2h5="Exclusive Hackathons"
           box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy the edge of mock interviews and CV writing workshops with FAANG DS/AI whizzes."
+          box3desc="Enjoy the edge of mock interviews and CV writing workshops with MAANG DS/AI whizzes."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from starters, directly from relevant establishments."
         />
@@ -250,7 +250,7 @@ export default function Home() {
         PFeatures27="No"
         PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
         sub3="Data Science & AI
-        100% Job Guarantee"
+        100% Job Guarantee Program"
         Price3="₹1,25,000 + GST"
         PFeatures31=" 400+ Hours"
         PFeatures32="Tech/Non-Tech Professionals"

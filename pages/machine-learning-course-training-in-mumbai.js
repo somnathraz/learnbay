@@ -59,7 +59,7 @@ export default function Home() {
         deskTopPara="Industrial Project-based  job-Oriented Training"
         mTopPara="Industrial Project-based  job-Oriented Training"
         title="Machine Learning Course Training in Mumbai"
-        desc="Be eligible to work as an AI/ ML expert in MNC/FAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+        desc="Be eligible to work as an AI/ ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
         src="/course3.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf"
@@ -95,7 +95,7 @@ export default function Home() {
           Box2h5="Domain Focused"
           box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy and learn from mock interviews and CV writing workshops with FAANG DS/AI industry experts."
+          box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG DS/AI industry experts."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -160,7 +160,7 @@ export default function Home() {
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -172,7 +172,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics and Machine Learning"
     syllabusb3="70 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"
@@ -194,7 +194,7 @@ export default function Home() {
     syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf"
 
 
-    JobBot1="Our aim is to provide assured placement to all of our students. But we believe that only a set of referrals is not the actual job assistance that our students need. Even that can’t assure the placement success rate. We provide end-to-end machine learning job interview sessions by FAANG ML experts. Such sessions are divided into several company-specific mock interviews, 1-on-1 resume help, and ML project portfolio guidance. We promise a 100% ML interview guarantee. "
+    JobBot1="Our aim is to provide assured placement to all of our students. But we believe that only a set of referrals is not the actual job assistance that our students need. Even that can’t assure the placement success rate. We provide end-to-end machine learning job interview sessions by MAANG ML experts. Such sessions are divided into several company-specific mock interviews, 1-on-1 resume help, and ML project portfolio guidance. We promise a 100% ML interview guarantee. "
     JobBot5="We have an active recruitment channel with 250+ top hiring partners across Mumbai and all over India. A few of the big names are Fractal, Accenture, SAP, etc."
 
     ProjectsBot1="Keeping the high significance of real-world industrial experience in achieving a lucrative ML job, we have included 15-live MNC projects and 2 fresh idea-driven capstone projects in the artificial intelligence and machine learning course in Mumbai. You can choose your projects as per your domain expertise. The project is thoroughly expert-guided. So you can easily learn the industry-specific ML best practices, tips, and tricks directly from MNC ML experts. Premium Cloud lab access further helps you observe top MNCs' data handling and analytical processes."

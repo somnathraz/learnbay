@@ -91,7 +91,7 @@ export default function Home() {
           Box2h5="Domain Destined"
           box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 10+ electives."
           Box3h5="Premium Mentoring"
-          box3desc="Utilize the advantage of mock interviews and project handling training with FAANG Data Science Leads."
+          box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -151,7 +151,7 @@ export default function Home() {
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -269,7 +269,7 @@ export default function Home() {
         PFeatures27="No"
         PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
         sub3="Data Science & AI
-        100% Job Guarantee"
+        100% Job Guarantee Program"
         Price3="₹1,25,000 + GST"
         PFeatures31=" 400+ Hours"
         PFeatures32="Tech/Non-Tech Professionals"

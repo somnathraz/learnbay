@@ -59,7 +59,7 @@ export default function Home() {
         deskTopPara="Machine learning and Artificial intelligence Learning  with a tech-domain specialization"
         mTopPara="Machine learning and Artificial intelligence Learning  with a tech-domain specialization"
         title="Machine Learning Course Training In Bangalore"
-        desc="Be eligible to work as an AI/ ML expert in MNC/FAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+        desc="Be eligible to work as an AI/ ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
         src="/course3.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf"
@@ -95,7 +95,7 @@ export default function Home() {
           Box2h5="Domain Focused"
           box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy and learn from mock interviews and CV writing workshops with FAANG DS/AI industry experts."
+          box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG DS/AI industry experts."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -107,7 +107,7 @@ export default function Home() {
         <div className="CitiesRight">
           <CitiesRight
             ProgramBot1="Enroll in Learnbay's tech domain-specific machine learning course in Bangalore as it provides learners a wide range of domain specialization. This Machine Learning and training program is one of the best options for working professionals living across Bangalore."
-            ProgramBot2="We conduct interactive classes guided by ML experts from FAANG companies. We give industrial exposure with Real-time and capstone projects so that students can learn from the real world. Students get 6 machine learning IBM certificates."
+            ProgramBot2="We conduct interactive classes guided by ML experts from MAANG companies. We give industrial exposure with Real-time and capstone projects so that students can learn from the real world. Students get 6 machine learning IBM certificates."
             ProgramHead3="Why Should You Choose This ML Training course in Bangalore?"
             ProgramBot3="With this professional machine learning certification, you get vivid options of domains to choose from and specialize in."
             ProgramBot31="It ensures smooth live classes and access to any batch/instructor at learners' convenience, along with a 3-year Flexi pass."
@@ -151,13 +151,13 @@ export default function Home() {
             CertificationBot1="On the course completion, you get separate machine learning skill certificates from tech giant IBM for tools and skills like Deep Learning, Tensorflow, machine learning with python, capstone project certifications, etc. But the most significant achievement becomes the IBM ML project experience certification by completing two fresh capstone projects."
             src="/Advanced-AI-ML.jpeg"
 
-            ModuleBot1="Learnbay Machine learning course in Bangalore contains 300 hrs of hassle-free live classes from FAANG experts. With 18+ comprehensively planned machine learning modules, students can easily achieve advanced industrial knowledge. Not only that, each of the modules owns such a sequence of submodules from basic to expert level so that a complete novice can also utilize the course with 100% ROI."
+            ModuleBot1="Learnbay Machine learning course in Bangalore contains 300 hrs of hassle-free live classes from MAANG experts. With 18+ comprehensively planned machine learning modules, students can easily achieve advanced industrial knowledge. Not only that, each of the modules owns such a sequence of submodules from basic to expert level so that a complete novice can also utilize the course with 100% ROI."
             ModuleBot2="Learnbay supports students to learn the basics of coding for weak programmers. Our faculties regularly update coding assignments, and we even conduct webinars and hackathons for students to learn collaboratively. Based on the current industrial trends, the industrial ML course by Learnbay has kept its focus on tools and skills like big data analytics, data structure & algorithm, NLP, time- analytics, etc."
 
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -169,7 +169,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics and Machine Learning"
     syllabusb3="70 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"

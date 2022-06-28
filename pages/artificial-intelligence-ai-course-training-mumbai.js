@@ -95,7 +95,7 @@ export default function Home() {
           Box2h5="Domain Destined"
           box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 10+ electives."
           Box3h5="Premium Mentoring"
-          box3desc="Utilize the advantage of mock interviews and project handling training with FAANG Data Science Leads."
+          box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -154,7 +154,7 @@ export default function Home() {
             CertificationBot1="All the five artificial intelligence courses available at Learnbay in Mumbai provide students with an IBM certificate upon completion of the AI courses. This IBM accreditation assures that you are acknowledged as an expert in artificial intelligence. Aside from this, you also get micro AI certification by IBM, such as machine learning with python, deep learning fundamentals, and more. According to your selected course, you'll receive 1 to 8 certificates from IBM. Following that, you will also get an AI Project experience certificate once you complete the capstone project."
             src="/Managers-4.jpeg"
 
-            ModuleBot1="Learnbay’s artificial intelligence and machine learning course includes 400+ hours of interactive live sessions led by FAANG Experts. In contrast, the foundational and advanced AI certification course has nearly 200 hours of classes. All of Learnbay’s AI courses are conducted live and interactive. Students can attend multiple classes with multiple instructors. Our LMS is constantly updated to include the most recent version of courses and to meet industry requirements."
+            ModuleBot1="Learnbay’s artificial intelligence and machine learning course includes 400+ hours of interactive live sessions led by MAANG Experts. In contrast, the foundational and advanced AI certification course has nearly 200 hours of classes. All of Learnbay’s AI courses are conducted live and interactive. Students can attend multiple classes with multiple instructors. Our LMS is constantly updated to include the most recent version of courses and to meet industry requirements."
             ModuleBot2="In this course, you will learn about the basic concepts of AI, which include search algorithms, logical reasoning, graph theory, and many more. You will also get to understand how it's implemented in real-life use cases."
             ModuleHead2="Support for Non-programmers:"
             ModuleBot3="Non-programmers can now learn to code with module 0 included in all of our AI courses. This module includes 6-8 hours of live training on the fundamentals of python and R programming for artificial intelligence."
@@ -162,7 +162,7 @@ export default function Home() {
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -174,7 +174,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics and Machine Learning"
     syllabusb3="70 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"
@@ -197,7 +197,7 @@ export default function Home() {
 
 
     JobHead1="Artificial Intelligence Interview preparation in Mumbai:"
-    JobBot1="The artificial intelligence courses offered by Learnbay guarantee MNC/FAANG interviews for its students. There is a specific artificial intelligence course in Mumbai that even refunds their course fees in case of unsuccessful placement."
+    JobBot1="The artificial intelligence courses offered by Learnbay guarantee MNC/MAANG interviews for its students. There is a specific artificial intelligence course in Mumbai that even refunds their course fees in case of unsuccessful placement."
     JobBot2="Learnbay’s career coaches ensure that you are well prepared to land a high-paying job in the field of artificial intelligence and ML. They guide you with everything from resume preparation and soft skills training to conducting mock interviews. They make your portfolio up-to-date and appealing, as well as refer your profile to potential employers."
     JobBot5="Currently, more than 1000 Learnbay alumni are proudly working in various Artificial Intelligence and ML job roles across Mumbai and all over India. We also have a network of 500+ hiring partners like TCS, JP Morgan, and IBM, amongst others."
     JobHead2="Artificial intelligence and its demand in Mumbai:"

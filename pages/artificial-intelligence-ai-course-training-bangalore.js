@@ -93,7 +93,7 @@ export default function Home() {
           Box2h5="Domain Destined"
           box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 10+ electives."
           Box3h5="Premium Mentoring"
-          box3desc="Utilize the advantage of mock interviews and project handling training with FAANG Data Science Leads."
+          box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -104,7 +104,7 @@ export default function Home() {
         </div>
         <div className="CitiesRight">
           <CitiesRight
-            ProgramBot1="Learnbay has enriched Artificial intelligence (AI) training in Bangalore, guided and mentored by industry experts from FAANG companies. Learnbay's experts are dedicated to students' growth and career support. Domain electives are available to assure your full-stack Data science and AI expertise in your chosen industries. Learnbay AI training in Bangalore gives students real-time MNC and capstone project experience certified by IBM. Also, you get quick answers from the Learnbay Q&A forum and updated solutions for any queries with the least possible waiting time."
+            ProgramBot1="Learnbay has enriched Artificial intelligence (AI) training in Bangalore, guided and mentored by industry experts from MAANG companies. Learnbay's experts are dedicated to students' growth and career support. Domain electives are available to assure your full-stack Data science and AI expertise in your chosen industries. Learnbay AI training in Bangalore gives students real-time MNC and capstone project experience certified by IBM. Also, you get quick answers from the Learnbay Q&A forum and updated solutions for any queries with the least possible waiting time."
             ProgramHead3="How does Learnbay artificial intelligence training become the most promising institute for experienced professionals in Bangalore?"
             ProgramBot3="Learnbay is such an institute that offers end-to-end professional, better to say, job-ready artificial intelligence training across Bangalore."
             ProgramBot31="There are a number of Artificial Intelligence engineers or AI expert training providers in Bangalore, but Learnbay provides custom-fit training for successful AI career switch to experienced working professionals from any domain. The latest tools and updated modules are used to keep students on track with the present-day industry work scenario. This Artificial intelligence certification program also ensures guaranteed jobs along with money-back assurance. "
@@ -126,7 +126,7 @@ export default function Home() {
             DomainHead1=" Why is domain specialization important in job-ready  Artificial intelligence training in Bangalore?"
             DomainBot1="Artificial intelligence has a lot of subsets and components. Expertising Artificial intelligence in specific domains gives an edge to your earned AI skills. If you pursue Learnbay Artificial intelligence course training in Bangalore, there are many domains to select from. The options include banking, oil, gas, etc. Every sector or industry has different requirements and work processes. Domain specialization helps you have an extra mark by completing this AI certification course. If you have already earned 4 years of experience in any domain, then in the present scenario, it's almost impossible to successfully switch into an AI career without domain-focused AI skills."
             DomainBot2="Learnbay's mentors and guides suggest the best domain for students after analyzing profiles and students' learning desires."
-            DomainBot3="List of available domain-electives"
+            DomainBot3="List of available Domain-Electivess"
             DomainList1="HR, Sales, and Marketing" 
             DomainList2="Energy, oil, and Gas" 
             DomainList3="Mechanical, manufacturing, and telecom" 
@@ -151,13 +151,13 @@ export default function Home() {
             CertificationBot1="Learnbay Provides students with an IBM AI course completion certificate. This IBM-certified program helps you to be at the top of other profiles. The artificial intelligence course completion certificate by IBM ensures you are recognized as a skilled Artificial intelligence professional. Not only that, as you process with the modules, you get micro AI certifications by IBM like machine learning with python, Deep Learning with TensorFlow, and so on. As per your chosen course, you achieve 1 to 8 number micro certificates from IBM. Even once you complete the project, IBM issues a project experience certificate in AI too."
             src="/Managers-4.jpeg"
 
-            ModuleBot1="Learnbay artificial intelligence and ML training in Bangalore include 400 hrs of uninterrupted live classes conducted by FAANG experts. The foundational and advanced program also consists of  200+ sessions. The most impressive information is that all of these classes are completely live and interactive only. Students can attend multiple sessions of classes and instructors. Learnbay Provides 1- 3 years of flexi membership on artificial intelligence training so that students can learn at ease and in comfort from their devices. Students get to talk to mentors and guides with 1-1 live sessions to clear all their doubts. Our LMS is always updated with the latest version of courses and is altered according to the industry demands and standards. Here you get crisp industry-curated training on R, NLP, artificial neural networks, and so on."
+            ModuleBot1="Learnbay artificial intelligence and ML training in Bangalore include 400 hrs of uninterrupted live classes conducted by MAANG experts. The foundational and advanced program also consists of  200+ sessions. The most impressive information is that all of these classes are completely live and interactive only. Students can attend multiple sessions of classes and instructors. Learnbay Provides 1- 3 years of flexi membership on artificial intelligence training so that students can learn at ease and in comfort from their devices. Students get to talk to mentors and guides with 1-1 live sessions to clear all their doubts. Our LMS is always updated with the latest version of courses and is altered according to the industry demands and standards. Here you get crisp industry-curated training on R, NLP, artificial neural networks, and so on."
             ModuleBot2="Learnbay provides special basic coding classes and regular updates of coding assignments. Students can participate in Learnbay's exclusive hackathons and webinars."
 
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -169,7 +169,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics and Machine Learning"
     syllabusb3="70 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"

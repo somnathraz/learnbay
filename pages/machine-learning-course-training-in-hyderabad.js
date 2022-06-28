@@ -59,7 +59,7 @@ export default function Home() {
         deskTopPara="Machine Learning Course For Experienced Tech Professionals"
         mTopPara="Machine Learning Course For Experienced Tech Professionals"
         title="Machine Learning Course Training In Hyderabad"
-        desc="Be eligible to work as an AI/ ML expert in MNC/FAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+        desc="Be eligible to work as an AI/ ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
         src="/course3.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf"
@@ -95,7 +95,7 @@ export default function Home() {
           Box2h5="Domain Focused"
           box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy and learn from mock interviews and CV writing workshops with FAANG DS/AI industry experts."
+          box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG DS/AI industry experts."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -107,7 +107,7 @@ export default function Home() {
         <div className="CitiesRight">
           <CitiesRight
             ProgramBot1="Be a part of Learnbay's Hyderabad-based tech domain-specific machine learning course, which offers learners a wide selection of domain specialization options. For working professionals in Hyderabad, Learnbay Machine Learning and training course is one of the best institutes for students and professionals in Hyderabad."
-            ProgramBot2="We conduct interactive classes led by professionals in Machine Learning from FAANG firms."
+            ProgramBot2="We conduct interactive classes led by professionals in Machine Learning from MAANG firms."
             ProgramBot3="Learnbay provides industrial experience to students through real-time and capstone projects, allowing them to learn from the real world. Students receive six IBM credentials in Machine Learning."
             ProgramHead4="Why pursue Learnbay Machine learning course training in Hyderabad?"
             ProgramBot4="You get a wide range of domains to choose from and specialize in with this professional machine learning certification."
@@ -154,13 +154,13 @@ export default function Home() {
             CertificationBot2="You will receive different machine learning competence certificates from IBM upon completion of the course for technologies and skills such as Deep Learning, Tensorflow, machine learning with Python, capstone project certifications, etc. But completing two new capstone projects helps you to earn the IBM ML project experience certification, the most notable achievement to be looked for in your resume and portfolio."
             src="/Advanced-AI-ML.jpeg"
 
-            ModuleBot1="Learnbay's Machine Learning course in Hyderabad includes 300 hours of hassle-free live classes with FAANG experts. Students can quickly gain advanced industry expertise with the help of 18+ well-planned machine learning modules. Not only that, but each of the modules has a succession of submodules ranging from basic to advanced, allowing everyone, even a total novice of ML, to benefit from the course."
+            ModuleBot1="Learnbay's Machine Learning course in Hyderabad includes 300 hours of hassle-free live classes with MAANG experts. Students can quickly gain advanced industry expertise with the help of 18+ well-planned machine learning modules. Not only that, but each of the modules has a succession of submodules ranging from basic to advanced, allowing everyone, even a total novice of ML, to benefit from the course."
             ModuleBot2="Learnbay assists students in learning the fundamentals of coding for novice programmers. Our professors update code assignments regularly, and we even host webinars and hackathons for students to study together. Learnbay's industrial ML course focuses on tools and abilities, including big data analytics, data structure and algorithm, NLP, time- analytics, and so on, based on current industry developments."
 
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -172,7 +172,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics and Machine Learning"
     syllabusb3="70 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"
