@@ -68,7 +68,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Working Professionals"
-        p2="50LPA-60LPA"
+        p2="50 LPA to 60 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -78,11 +78,11 @@ export default function Home() {
       </div>
       <GetHired 
         WeekdayBatchDate="6 IBM data science micro-skills certificates"
-        WeekendBatchDate="10+ domain-elective associated full-stack modules"
+        WeekendBatchDate="10+ Domain-Electivess associated with full-stack modules"
         Project="Project Experience Certification by IBM"
         Classes="Completely live and interactive learning"
         OneLine="12 live industry projects & 2 fresh Capstones"
-        Interview="250+ hiring partner backed up interview guarantee"
+        Interview="Interview Guarantee backed up by 250+ hiring partners"
         Fee="79,000"
         Subscription="3 Year Subscription"
       />
@@ -94,7 +94,7 @@ export default function Home() {
           Box2h5="Domain Focused"
           box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 7+ electives."
           Box3h5="Premium Mentoring"
-          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with FAANG expertise."
+          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -112,7 +112,7 @@ export default function Home() {
             ProgramBot3="Learnbay provided data scientist courses in Pune offer 1 to 1 attention to every student. Also, by analyzing your career profiles and academic background, we provide you with the best possible custom-fit data science course syllabus."
             ProgramBot31="Learnbay Data science students learn through uninterrupted live and interactive classes from multiple instructors who are working as senior data scientists or data science project managers in companies like IBM, Amazon, etc. Learnbay even provides IBM data science certification with job assistance."
             ProgramHead4="Why is Learnbay a major Data Science training institute in Pune?"
-            ProgramBot4="Here, you get hassle-free live classes and a choice of multiple expert instructors. You also get a Data science course with a job guarantee and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. All Data science course in Pune has 1 on 1 live doubt clearance sessions from experienced FAANG Data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads. So, you can experience full-stack data science courses like offline college but without quitting your present job."
+            ProgramBot4="Here, you get hassle-free live classes and a choice of multiple expert instructors. You also get a Data science course with a job guarantee and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. All Data science course in Pune has 1 on 1 live doubt clearance sessions from experienced MAANG Data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads. So, you can experience full-stack data science courses like offline college but without quitting your present job."
             ProgramHead5="Available Data Science and AI Certification Courses at Learnbay in Pune are:"
             Courselink1="/data-science-certification-courses"
             Courselink2="/advance-data-science-certification-courses"
@@ -152,12 +152,12 @@ export default function Home() {
             src="/certificate.webp"
 
             ModuleBot1="Within Learnbay’s Data scientists courses in Pune, every module is customized as per the present data science job market direction. There are even special coding classes for students from non-technical backgrounds so students can get along with other technical mates."
-            ModuleBot2="The modules cover plenty of hands-on assignments on demanding  Data science tools. Our industry FAANG experts teach you to apply statistics, probability, and mathematical analysis skills. Learnbay helps students master Data scientist tools like Advance excel, SQL, MONGO-DB, TABLEAU, POWER BI, BIG DATA, SPARK ANALYTICS, PYTHON, and TIME SERIES. Professional Data scientists widely use these programs, and our students learn the same at the trending industry level throughout the Data science training in Pune."
+            ModuleBot2="The modules cover plenty of hands-on assignments on demanding  Data science tools. Our industry MAANG experts teach you to apply statistics, probability, and mathematical analysis skills. Learnbay helps students master Data scientist tools like Advance excel, SQL, MONGO-DB, TABLEAU, POWER BI, BIG DATA, SPARK ANALYTICS, PYTHON, and TIME SERIES. Professional Data scientists widely use these programs, and our students learn the same at the trending industry level throughout the Data science training in Pune."
 
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -169,7 +169,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics and Machine Learning"
     syllabusb3="70 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"

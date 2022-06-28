@@ -68,7 +68,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Working Professionals"
-        p2="50LPA-60LPA"
+        p2="50 LPA to 60 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -78,11 +78,11 @@ export default function Home() {
       </div>
       <GetHired 
         WeekdayBatchDate="6 IBM data science micro-skills certificates"
-        WeekendBatchDate="10+ domain-elective associated full-stack modules"
+        WeekendBatchDate="10+ Domain-Electivess associated with full-stack modules"
         Project="Project Experience Certification by IBM"
         Classes="Completely live and interactive learning"
         OneLine="12 live industry projects & 2 fresh Capstones"
-        Interview="250+ hiring partner backed up interview guarantee"
+        Interview="Interview Guarantee backed up by 250+ hiring partners"
         Fee="79,000"
         Subscription="3 Year Subscription"
       />
@@ -94,7 +94,7 @@ export default function Home() {
           Box2h5="Domain Focused"
           box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 7+ electives."
           Box3h5="Premium Mentoring"
-          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with FAANG expertise."
+          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -157,7 +157,7 @@ export default function Home() {
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -169,7 +169,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics and Machine Learning"
     syllabusb3="70 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"

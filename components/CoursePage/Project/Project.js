@@ -95,7 +95,7 @@ const Project = ({
     <div className={styles.projectHeader}>
       <div className={styles.headWrapper}>
         <div className={styles.left}>
-          <p className={styles.sub}>Industry – partnered capstone projects</p>
+          <p className={styles.sub}>Industry–Partnered Capstone Projects</p>
           <h3>Hands-on Projects</h3>
           <p className={styles.para}>Data sets from the industry</p>
         </div>
@@ -556,7 +556,7 @@ const Project = ({
     <div className={styles.projectHeader}>
       <div className={styles.headWrapper}>
         <div className={styles.left}>
-          <p className={styles.sub}>Industry – partnered capstone projects</p>
+          <p className={styles.sub}>Industry–Partnered Capstone Projects</p>
           <h3>Hands-on Projects</h3><div className={styles.iconWrapper}>
         <div className={styles.middle}>
           <BsCheck2All className={styles.icon} />

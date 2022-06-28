@@ -66,7 +66,7 @@ const Domain = () => {
             <p>Manufacturing, Mechanical and Telecom Domain</p>
           </div></a>
           <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/For+MS+Aspirants++AIML.pdf" target="_blank"><div className={styles.bottom1}>
-            <p>For MS Aspirants AIML</p>
+            <p>For MS Aspirants AI/ML</p>
           </div></a>
         </div>
         <div className={styles.left}>

@@ -50,9 +50,9 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="Industry- Specific Capstone Certified by IBM"
-        mTopPara="Industry- Specific Capstone Certified by IBM"
-        title="Advanced DS and AI Course"
+        deskTopPara="Industry-Specific Capstone Certified by IBM"
+        mTopPara="Industry-Specific Capstone Certified by IBM"
+        title="Advanced Data Science and AI Course"
         spanTitleText="with Domain Specialization"
         desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
         src="/course2.png"
@@ -63,7 +63,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Working Professionals"
-        p2="50LPA-60LPA"
+        p2="50 LPA to 60 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -72,8 +72,8 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="250+ hiring partner backed up interview guarantee"
-        WeekendBatchDate="10+ domain-elective associated full-stack modules"
+        WeekdayBatchDate="Interview Guarantee backed up by 250+ hiring partners"
+        WeekendBatchDate="10+ Domain-Electivess associated with full-stack modules"
         Project="Project Experience Certification by IBM"
         Classes="6 IBM data science micro-skills certificates"
         OneLine="Completely live and interactive learning"
@@ -89,7 +89,7 @@ export default function Home() {
           Box2h5="Domain Focused"
           box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 7+ electives."
           Box3h5="Premium Mentoring"
-          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with FAANG expertise."
+          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -110,7 +110,7 @@ export default function Home() {
           OCHead1="Python for Data Science Certificate"
           OCP1="Get certified on your advanced python skills."
           OCHead2="Data Science Tools"
-          OCP2="Certification to DS Tools handling -Jupyter, Tableau,etc."
+          OCP2="Certification to DS Tools handling - Jupyter, Tableau, etc."
           OCHead3="Machine Learning with Python"
           OCP3="Validate your python expertise for ML algo designing."
           OCHead4="Data Science Methodology"
@@ -145,7 +145,7 @@ export default function Home() {
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -157,7 +157,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics and Machine Learning"
     syllabusb3="70 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"
@@ -262,7 +262,7 @@ export default function Home() {
         PFeatures27="No"
         PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
         sub3="Data Science & AI
-        100% Job Guarantee"
+        100% Job Guarantee Program"
         Price3="₹1,25,000 + GST"
         PFeatures31=" 400+ Hours"
         PFeatures32="Tech/Non-Tech Professionals"

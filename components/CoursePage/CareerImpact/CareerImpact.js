@@ -156,7 +156,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     I have done Data Science certification. Got placed in Oracle
                     within 9 months. The journey was arduous because I was from
                     the core electronics domain and struggling a lot. Mentors
-                    are from FAANG companies and are truly dedicated. I liked
+                    are from MAANG companies and are truly dedicated. I liked
                     the teaching style of Python Trainers.<br />
                     <Image
                         src="/pawanc.png"
@@ -503,7 +503,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     I have done Data Science certification. Got placed in Oracle
                     within 9 months. The journey was arduous because I was from
                     the core electronics domain and struggling a lot. Mentors
-                    are from FAANG companies and are truly dedicated. I liked
+                    are from MAANG companies and are truly dedicated. I liked
                     the teaching style of Python Trainers.<br />
                     <Image
                         src="/pawanc.png"

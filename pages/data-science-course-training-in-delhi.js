@@ -68,7 +68,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Working Professionals"
-        p2="50LPA-60LPA"
+        p2="50 LPA to 60 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -78,11 +78,11 @@ export default function Home() {
       </div>
       <GetHired 
         WeekdayBatchDate="6 IBM data science micro-skills certificates"
-        WeekendBatchDate="10+ domain-elective associated full-stack modules"
+        WeekendBatchDate="10+ Domain-Electivess associated with full-stack modules"
         Project="Project Experience Certification by IBM"
         Classes="Completely live and interactive learning"
         OneLine="12 live industry projects & 2 fresh Capstones"
-        Interview="250+ hiring partner backed up interview guarantee"
+        Interview="Interview Guarantee backed up by 250+ hiring partners"
         Fee="79,000"
         Subscription="3 Year Subscription"
       />
@@ -94,7 +94,7 @@ export default function Home() {
           Box2h5="Domain Focused"
           box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 7+ electives."
           Box3h5="Premium Mentoring"
-          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with FAANG expertise."
+          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -110,7 +110,7 @@ export default function Home() {
             ProgramHead3="Why choose Learnbay advanced Data science course training in Delhi?"
             ProgramBot3="Because this city is India's capital city, this city is becoming the most significant job hub in India, from the perspective of both government and private jobs. As data science and AI is the most future-proof field, every single business is getting dependent on them. A huge number of options for advanced data science certification courses are available in Delhi. However, when it comes to the question of getting an assured job after completion of the course, then the list becomes too short. Again from the perspective of cost-effectiveness, the list shrinks further. Learnbay's artificial intelligence and data science courses in Delhi are more affordable. Above all, even at a lower price, you get the best data science learning experience possible along with a job guarantee."
             ProgramBot31="Furthermore, depending on your current professional level, you can choose from various data science course options. Each of these courses is made up of modules tailored to your previous work experience."
-            ProgramBot32="Data science course fees for the courses offered by Learnbay range from 65K to 1.2 lakh INR. The lesson schedule is flexible, and you can enroll in any batch or with any teacher. You can even attend multiple sessions with different instructors. One-on-one live doubt clearing sessions with seasoned FAANG Data scientists are included in our Data Science and Artificial Intelligence courses. Students can take a break after enrolling, then return to finish their studies in one to three years (depending on the course)."
+            ProgramBot32="Data science course fees for the courses offered by Learnbay range from 65K to 1.2 lakh INR. The lesson schedule is flexible, and you can enroll in any batch or with any teacher. You can even attend multiple sessions with different instructors. One-on-one live doubt clearing sessions with seasoned MAANG Data scientists are included in our Data Science and Artificial Intelligence courses. Students can take a break after enrolling, then return to finish their studies in one to three years (depending on the course)."
             ProgramHead5="Data Science Courses Available at Learnbay:"
             Courselink1="/data-science-certification-courses"
             Courselink2="/advance-data-science-certification-courses"
@@ -160,7 +160,7 @@ export default function Home() {
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -172,7 +172,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics and Machine Learning"
     syllabusb3="70 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"

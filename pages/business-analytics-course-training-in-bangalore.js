@@ -94,7 +94,7 @@ export default function Home() {
           Box2h5="Exclusive Hackathons"
           box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy the edge of mock interviews and CV writing workshops with FAANG Business Analytics Experts."
+          box3desc="Enjoy the edge of mock interviews and CV writing workshops with MAANG Business Analytics Experts."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -114,13 +114,13 @@ export default function Home() {
             src="/BA-DA.jpeg"
 
             ModuleBot1="Learnbay conducts online and offline classes for Business Analytics course training in Bangalore. The Business Analytics course consists of 200 hrs live and uninterrupted classes from Business Analyst experts. Learnbay has batches even on weekends for professionals to learn Business Analytics. Students learning Business analytics get a one-year subscription for completing training at their own comfort and pace of learning. Our faculties encourage students to take initiative in webinars. Learnbay even conducts webinars so that students have fun while they learn."
-            ModuleBot2="Students have flexible options to choose a batch and mentors according to their liking. Learnbay mentors respond quickly to any queries raised by students and can even talk to them on our Q&A platform. FAANG experts guide every solution for students. Our LMS is created according to industrial requirements and can be accessed by any device and from any location."
+            ModuleBot2="Students have flexible options to choose a batch and mentors according to their liking. Learnbay mentors respond quickly to any queries raised by students and can even talk to them on our Q&A platform. MAANG experts guide every solution for students. Our LMS is created according to industrial requirements and can be accessed by any device and from any location."
             ModuleBot3="A series of basic Python programming sessions to help our non-techies to learn basic coding. So any techie or non-techie can enroll in our Business analytics program. Learnbay's Business Analytics program is IBM certified and covers all the concepts and tools required to be a successful Business Analyst. Students will learn to use Advance excel to analyze data, make models and SQL databases and create insightful data visualization with Tableau."
 
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -132,7 +132,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics"
     syllabusb3="30 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"

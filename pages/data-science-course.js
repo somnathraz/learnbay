@@ -68,7 +68,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Working Professionals"
-        p2="50LPA-60LPA"
+        p2="50 LPA to 60 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -78,11 +78,11 @@ export default function Home() {
       </div>
       <GetHired 
         WeekdayBatchDate="6 IBM data science micro-skills certificates"
-        WeekendBatchDate="10+ domain-elective associated full-stack modules"
+        WeekendBatchDate="10+ Domain-Electivess associated with full-stack modules"
         Project="Project Experience Certification by IBM"
         Classes="Completely live and interactive learning"
         OneLine="12 live industry projects & 2 fresh Capstones"
-        Interview="250+ hiring partner backed up interview guarantee"
+        Interview="Interview Guarantee backed up by 250+ hiring partners"
         Fee="79,000"
         Subscription="3 Year Subscription"
       />
@@ -94,7 +94,7 @@ export default function Home() {
           Box2h5="Domain Focused"
           box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 7+ electives."
           Box3h5="Premium Mentoring"
-          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with FAANG expertise."
+          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -109,7 +109,7 @@ export default function Home() {
             ProgramBot1="Learnbay is the best Data Scientist training institute in Bangalore. Our faculties are industrial experts from top-notch MNCs. They share their experience and knowledge throughout their offline and online Data science courses. The courses are custom-designed for learners who want to shift into a Data Science Career, even after working in any domain for years. In one word, it's the ultimate destination where you can find the best foundational and advanced Data science courses for working professionals."
             ProgramBot2="The Learnbay Data science course for working professionals in Bangalore implies practical knowledge and theoretical concepts for balanced learning. This institute offers the best value in Data Science certification programs available across Bangalore. So that aspirants can build a strong future in data science. Learnbay Data Science training in Bangalore is created and designed to meet industrial and organizational needs changes."
             ProgramHead3="Why is Learnbay the best institute for advanced  Data Science courses in Bangalore?"
-            ProgramBot3="Here, you get hassle-free live classes and multiple instructors. You also get a Data science course with a job guarantee and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. All of their Data science course in Bangalore has 1 on 1 live doubt clearance sessions from experienced FAANG Data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads."
+            ProgramBot3="Here, you get hassle-free live classes and multiple instructors. You also get a Data science course with a job guarantee and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. All of their Data science course in Bangalore has 1 on 1 live doubt clearance sessions from experienced MAANG Data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads."
             ProgramHead4="Available Data Science Certification Courses by Learnbay in Bangalore "
             Courselink1="/data-science-certification-courses"
             Courselink2="/advance-data-science-certification-courses"
@@ -156,7 +156,7 @@ export default function Home() {
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -168,7 +168,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics and Machine Learning"
     syllabusb3="70 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"

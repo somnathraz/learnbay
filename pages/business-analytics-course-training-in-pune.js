@@ -94,7 +94,7 @@ export default function Home() {
           Box2h5="Exclusive Hackathons"
           box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy the edge of mock interviews and CV writing workshops with FAANG Business Analytics Experts."
+          box3desc="Enjoy the edge of mock interviews and CV writing workshops with MAANG Business Analytics Experts."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -107,7 +107,7 @@ export default function Home() {
           <CitiesRight
             ProgramBot1="Learnbay offers industry-oriented Business analytics programs. It is a top-notch Business analytics training program in Pune basically for early professionals. This business analytics course training program by Learnbay is custom-made for students who aspire to be Business Analysts, even after starting their career in any other field. Learnbay teaches students to work on Business analytics tools operated by IT giants. Learnbay Business analytics program in Pune offers learners a real-time experience of working as a Business analyst with IBM certified capstone projects."
             ProgramHead3="Why do students and professionals need to take the Learnbay Business Analytics course in Pune?"
-            ProgramBot3="Our business analytics course training program in Pune is designed by Industry experts who own more than 8 years of experience in top multinational companies. Our faculty has designed this course as per the industry standards and requirements in Pune. Learnbay always keeps its course modules updated so that students remain updated with the latest trends and development in the industry. Our mentors are highly experienced and skilled Business analysts. All Learnbay modules are rich in practical training sessions by top FAANG experts. Aso, the course contains real-time Business Analytics projects."
+            ProgramBot3="Our business analytics course training program in Pune is designed by Industry experts who own more than 8 years of experience in top multinational companies. Our faculty has designed this course as per the industry standards and requirements in Pune. Learnbay always keeps its course modules updated so that students remain updated with the latest trends and development in the industry. Our mentors are highly experienced and skilled Business analysts. All Learnbay modules are rich in practical training sessions by top MAANG experts. Aso, the course contains real-time Business Analytics projects."
 
             CertificationBot1="Learnbay Business Analytics program in Pune is Certified by IBM."
             CertificationBot2="Learnbay is a one-stop solution for professional training in  Business analytics skills and tools. Our students in Pune receive IBM certificates for course completion. IBM certificates for Business analytics in a resume or portfolio add an extra mark and high skill to their profile. Learnbay Business analytics course training in Pune would make recruiters mark your profile with extra importance."
@@ -119,7 +119,7 @@ export default function Home() {
     syllabush1="Pre-Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of programming"
+    SyllabusBotlist12="Basics of Programming"
     SyllabusBotlist13="Memory Management"
     SyllabusBotlist14="Compiler and Interpreter"
     SyllabusBotlist15="Syntax of Python"
@@ -131,7 +131,7 @@ export default function Home() {
     SyllabusBotlist23="Functions + Regular Expression"
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etcs"
+    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
     syllabush3="Statistics"
     syllabusb3="30 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"

@@ -58,7 +58,7 @@ export const DomainFaqData1 = [
   {
     id: 3,
     ques: "Why is domain specialization important?",
-    ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business /industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
+    ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
     open: false,
   },
   {
@@ -176,7 +176,7 @@ export const jobFaqData1 = [
   },
   {
     id: 3,
-    ques: "Will I get Job referrals at Learnbay?",
+    ques: "Will I get job referrals at Learnbay?",
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
     open: false,
   },
@@ -192,7 +192,7 @@ export const MentorshipFaqData1 = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -235,7 +235,7 @@ export const FaqData2 = [
   {
     id: 3,
     ques: "What’s the duration of the Advance Data Science and AI Program?",
-    ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and Weekend Batches.. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5hours/day",
+    ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and Weekend Batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5hours/day",
     open: false,
   },
   {
@@ -261,13 +261,13 @@ export const DomainFaqData2 = [
   {
     id: 1,
     ques: "What are the available elective domain options?",
-    ans: "HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; media, hospitality & transportation domain; Energy, oil & gas domain.",
+    ans: "HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain.",
     open: false,
   },
   {
     id: 2,
     ques: "Why is domain specialization important?",
-    ans: `After enrolling in the Advance Data Science and AI Program with Domain Specialization course, one must opt for domain electives. It is essential to have business /industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in real-world situations.`,
+    ans: `After enrolling in the Advance Data Science and AI Program with Domain Specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in real-world situations.`,
     open: false,
   },
   {
@@ -313,7 +313,7 @@ export const PaymentFaqData2 = [
   },
   {
     id: 2,
-    ques: "Is there any scholarship/discount available for Data Science and AI Foundation Program? What is Group Discount?",
+    ques: "Is there any scholarship/discount available for Advance Data Science and AI Foundation Program? What is Group Discount?",
     ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
     Please check our websites or contact our sales team to know more about the applicable discounts.
     
@@ -326,7 +326,7 @@ export const PaymentFaqData2 = [
   },
   {
     id: 3,
-    ques: "What is the refund policy for the Data Science and AI Foundation Program at Learnbay?",
+    ques: "What is the refund policy for the Advance Data Science and AI Foundation Program at Learnbay?",
     ans: "Candidates are advised to read ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
@@ -398,15 +398,15 @@ export const jobFaqData2 = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions
-    Preparing projects for a strong portfolio
-    Interview guidance and prep sessions
+    Resume Preparation sessions, 
+    Preparing projects for a strong portfolio, 
+    Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles`,
     open: false,
   },
   {
     id: 3,
-    ques: "Will I get Job referrals at Learnbay?",
+    ques: "Will I get job referrals at Learnbay?",
     ans: "Yes, we offer dedicated placement assistance by referring your profile through our partnered consultancies and companies.",
     open: false,
   },
@@ -422,7 +422,7 @@ export const MentorshipFaqData2 = [
   {
     id: 1,
     ques: "Can a student choose to study from their desired mentor?",
-    ans: "At Learnbay, Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "At Learnbay, every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -431,7 +431,7 @@ export const SupportFaqData2 = [
     id: 0,
     ques: "When is the job assistance provided and how long will I get it?",
 
-    ans: "At Learnbay, Placement Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "At Learnbay, placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -511,7 +511,7 @@ export const DomainFaqData3 = [
   {
     id: 3,
     ques: "Why is domain specialization important?",
-    ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business /industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
+    ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
     open: false,
   },
   {
@@ -642,7 +642,7 @@ export const jobFaqData3 = [
   },
   {
     id: 3,
-    ques: "Will I get Job referrals at Learnbay?",
+    ques: "Will I get job referrals at Learnbay?",
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
     open: false,
   },
@@ -658,7 +658,7 @@ export const MentorshipFaqData3 = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -667,7 +667,7 @@ export const SupportFaqData3 = [
     id: 0,
     ques: "When is the job assistance provided and for how long i will get the service?",
 
-    ans: "Placement Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -732,7 +732,7 @@ export const DomainFaqData4 = [
   {
     id: 1,
     ques: "Why is domain specialization important?",
-    ans: "After enrolling in the Data Science and AI for Managers & Leaders course, one must opt for domain electives. It is essential to have business /industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
+    ans: "After enrolling in the Data Science and AI for Managers & Leaders course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
     open: false,
   },
   {
@@ -879,7 +879,7 @@ export const jobFaqData4 = [
   },
   {
     id: 3,
-    ques: "Will I get Job referrals at Learnbay?",
+    ques: "Will I get job referrals at Learnbay?",
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
     open: false,
   },
@@ -895,7 +895,7 @@ export const MentorshipFaqData4 = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -904,7 +904,7 @@ export const SupportFaqData4 = [
     id: 0,
     ques: "When is the job assistance provided?",
 
-    ans: "Placement Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -983,7 +983,7 @@ export const DomainFaqData5 = [
   {
     id: 3,
     ques: "Why is domain specialization important?",
-    ans: "After enrolling in the Data Science and AI with Job Guarantee course, one must opt for domain electives. It is essential to have business /industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
+    ans: "After enrolling in the Data Science and AI with Job Guarantee course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
     open: false,
   },
   {
@@ -1102,7 +1102,7 @@ export const jobFaqData5 = [
   },
   {
     id: 3,
-    ques: "Will I get Job referrals at Learnbay?",
+    ques: "Will I get job referrals at Learnbay?",
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
     open: false,
   },
@@ -1128,7 +1128,7 @@ export const MentorshipFaqData5 = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -1137,7 +1137,7 @@ export const SupportFaqData5 = [
     id: 0,
     ques: "When is the job assistance provided?",
 
-    ans: "Placement Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -1287,7 +1287,7 @@ export const jobFaqData6 = [
   },
   {
     id: 3,
-    ques: "Will I get Job referrals at Learnbay?",
+    ques: "Will I get job referrals at Learnbay?",
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
     open: false,
   },
@@ -1303,7 +1303,7 @@ export const MentorshipFaqData6 = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -1460,7 +1460,7 @@ export const jobFaqData7 = [
   },
   {
     id: 3,
-    ques: "Will I get Job referrals at Learnbay?",
+    ques: "Will I get job referrals at Learnbay?",
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
     open: false,
   },
@@ -1476,7 +1476,7 @@ export const MentorshipFaqData7 = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];

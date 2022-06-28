@@ -17,7 +17,7 @@ export const CertificateDD = [
     title: "Capstone Project Completion Certificate from IBM",
     para: [
       "Get certified by IBM on competition of industry-level ML projects.",
-      "Work on latest AI projects for Hashtaag, Rapido, Magicpin, etc.",
+      "Work on latest AI projects for HashtaagTM, Rapido, Magicpin, etc.",
       "VIP access to startup job sites and opportunities for individual projects.",
     ],
   },
@@ -65,7 +65,7 @@ export const Certificate4 = [
     title: "Capstone Project Completion Certificate from IBM",
     para: [
       "Get certified by IBM on competition of industry-level ML projects.",
-      "Work on latest AI projects for Hashtaag, Rapido, Magicpin, etc.",
+      "Work on latest AI projects for HashtaagTM, Rapido, Magicpin, etc.",
       "VIP access to startup job sites and opportunities for individual projects.",
     ],
   },
