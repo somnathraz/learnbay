@@ -7,10 +7,10 @@ import Router from "next/router";
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     const { pathname } = Router;
-    if (pathname === "https://www.learnbay.co/data-science-course/data-science-course-in-bangalore/")
-    if (pathname === "https://www.learnbay.co/data-science-course/data-science-course-online-in-bangalore/")
-    if (pathname === "https://www.learnbay.co/data-science-course/data-science-online-training-in-bangalore/")
-    if (pathname === "https://www.learnbay.co/data-science-course/data-science-training-in-bangalore/")    
+    if (pathname === "http://13.233.83.220:3000/data-science-course/data-science-course-in-bangalore/")
+    if (pathname === "http://13.233.83.220:3000/data-science-course/data-science-course-online-in-bangalore/")
+    if (pathname === "http://13.233.83.220:3000/data-science-course/data-science-online-training-in-bangalore/")
+    if (pathname === "http://13.233.83.220:3000/data-science-course/data-science-training-in-bangalore/")    
     {
       Router.push("http://13.233.83.220:3000/data-science-course-training-in-bangalore/");
     }
@@ -142,10 +142,10 @@ function MyApp({ Component, pageProps }) {
     {
       Router.push("http://13.233.83.220:3000/artificial-intelligence-ai-course-training-dubai/");
     }
-    // if (pathname === "/contact-us")
-    // {
-    //   Router.push("/about-us");
-    // }
+    if (pathname === "/contact-us")
+    {
+      Router.push("/about-us");
+    }
   });
   
   return (
