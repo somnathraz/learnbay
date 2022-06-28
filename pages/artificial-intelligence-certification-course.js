@@ -53,9 +53,9 @@ export default function Home() {
       <FirstSection
         deskTopPara="Industrial Capstone Certificate by IBM"
         mTopPara="Industrial Capstone Certificate by IBM"
-        title="Artificial Intelligence and ML Program"
+        title="Artificial Intelligence and Machine Learning Program"
         spanTitleText="With Domain Specialization Training"
-        desc="Be eligible to work as an AI/ ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+        desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
         src="/course3.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
@@ -64,8 +64,8 @@ export default function Home() {
       <div className={styles.program}>
         <ProgramInfo
         p1="Eligibility"
-        p11="Tech Proffessionals"
-        p2="50LPA - 60LPA"
+        p11="Tech Professionals"
+        p2="50 LPA - 60 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -74,12 +74,12 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="6 IBM AI/ML micro-skill certificates."
+        WeekdayBatchDate="6 IBM AI/ML micro-skill certificates"
         WeekendBatchDate="Specially devised for techies"
-        Project="IT-specific domain-Oriented Full Stack Learning"
-        Classes="Advanced AI & ML Industry curated Training"
+        Project="IT-specific domain-oriented full stack learning"
+        Classes="Advanced AI & ML industry curated training"
         OneLine="12 live industry projects & 2 fresh Capstones"
-        Interview="Assured Interview calls from 250+ recruiter network"
+        Interview="Assured interview calls from 250+ recruiter network"
         Fee="95,000"
         Subscription="3 Year Subscription"
 
@@ -92,7 +92,7 @@ export default function Home() {
           Box2h5="Domain Focused"
           box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG DS/AI industry experts."
+          box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -241,7 +241,7 @@ export default function Home() {
         </div>
       </div>
       <HowApply
-      CCourse="Enroll in AI and ML Program with domain specialization."
+      CCourse="Enroll in AI and ML Program with Domain Specialization."
       />
       <Fee
         sub1="Data Science and AI Foundation Program"
@@ -265,8 +265,7 @@ export default function Home() {
         PFeatures26="Yes"
         PFeatures27="No"
         PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-        sub3="Data Science & AI
-        100% Job Guarantee Program"
+        sub3="Data Science and AI with Job Guarantee Program"
         Price3="₹1,25,000 + GST"
         PFeatures31=" 400+ Hours"
         PFeatures32="Tech/Non-Tech Professionals"
@@ -278,7 +277,7 @@ export default function Home() {
         PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
       />
       <CourseFee 
-      CourseFeeHead="Artificial Intelligence & ML Course Fee"
+      CourseFeeHead="Artificial Intelligence & Machine Learning Course Fee"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online interactive classes"
       CourseFeelist2="Weekend and Weekday Batches"

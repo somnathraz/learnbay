@@ -15,7 +15,7 @@ function terms() {
 
         <p className={styles.bot}>By using the website and the products and services of Learnbay, you agree and warrant to have read and fully understood and agreed to these conditions.</p>
 
-        <p className={styles.bot}>We request you to cease using the remaining website content if you do not agree with our terms and conditions. Because in that case you will not be authorized to use any of the company's website, products, or services. Below are some details regarding Learnaby's terms and conditions.</p>
+        <p className={styles.bot}>We request you to cease using the remaining website content if you do not agree with our Terms and conditions Because in that case you will not be authorized to use any of the company's website, products, or services. Below are some details regarding Learnaby's terms and conditions.</p>
 
 
 <p className={styles.top}>*why the significance of understanding the Terms and Conditions and any potential implications is necessary?</p>
@@ -31,7 +31,7 @@ function terms() {
 
 <p className={styles.bot}>Service Users will be required to use the login credentials while accessing the different sections of the website as per their chosen courses. The company reserves the right to provide access and block access to the user who does not abide by the terms and conditions, listed on this page.</p>
 
-<p className={styles.bot}>These Terms apply to Learnbay-hosted mobile apps, WhatsApp groups, Facebook groups, Instagram pages, Facebook pages, email/SMS/phone communications, and other social media forums that are deemed to be part of the 'Platform' by reference. We have several affiliations/partnerships with third-party service providers to better our website/ service performance.  But accepting these terms and conditions, you acknowledge that, you agree to abide by their (third-party service provider) terms and conditions. Learnbay shall not be liable for any service disruption caused by such third-party service providers.</p>
+<p className={styles.bot}>These Terms apply to Learnbay-hosted mobile apps, WhatsApp groups, Facebook groups, Instagram pages, Facebook pages, email/SMS/phone communications, and other social media forums that are deemed to be part of the 'Platform' by reference. We have several affiliations/partnerships with third-party service providers to better our website/ service performance.  But accepting these terms and conditions, you acknowledge that, you agree to abide by their (third-party service provider) Terms and conditions Learnbay shall not be liable for any service disruption caused by such third-party service providers.</p>
 <p className={styles.bot}>We are not obligated to provide smooth access to our services. However, we make sure that users get uninterrupted access to our services.</p>
 
 <p className={styles.bot}>Learnbay is not responsible for issues arising due to the network or server. It is beyond our limits.</p>

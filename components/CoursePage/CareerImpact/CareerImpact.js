@@ -157,7 +157,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     within 9 months. The journey was arduous because I was from
                     the core electronics domain and struggling a lot. Mentors
                     are from MAANG companies and are truly dedicated. I liked
-                    the teaching style of Python Trainers.<br />
+                    the teaching style of Python trainers.<br />
                     <Image
                         src="/pawanc.png"
                         layout="intrinsic"
@@ -229,9 +229,9 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                   <p>
                     Extremely good and effective course with dedicated faculties
                     for modules. You get the flexibility to attend classes from
-                    multiple instructors. Very Supportive learning environment.
+                    multiple instructors. Very supportive learning environment.
                     I was getting frustrated due to the lack of job satisfaction
-                    as a tech consultant. Thanks a lot, Learnbay, for changing
+                    as a tech consultant. Thanks a lot Learnbay, for changing
                     my career.<br />
                     <Image
                         src="/sumanc.png"
@@ -423,9 +423,9 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                   <p>
                     Extremely good and effective course with dedicated faculties
                     for modules. You get the flexibility to attend classes from
-                    multiple instructors. Very Supportive learning environment.
+                    multiple instructors. Very supportive learning environment.
                     I was getting frustrated due to the lack of job satisfaction
-                    as a tech consultant. Thanks a lot, Learnbay, for changing
+                    as a tech consultant. Thanks a lot Learnbay, for changing
                     my career.<br />
                     <Image
                         src="/sumanc.png"
@@ -504,7 +504,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     within 9 months. The journey was arduous because I was from
                     the core electronics domain and struggling a lot. Mentors
                     are from MAANG companies and are truly dedicated. I liked
-                    the teaching style of Python Trainers.<br />
+                    the teaching style of Python trainers.<br />
                     <Image
                         src="/pawanc.png"
                         layout="intrinsic"

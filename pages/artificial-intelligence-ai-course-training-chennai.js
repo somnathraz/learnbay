@@ -59,7 +59,7 @@ export default function Home() {
         deskTopPara="Industry-curated Training With Domain Specialization"
         mTopPara="Industry-curated Training With Domain Specialization"
         title="Artificial Intelligence(Ai) Course Training In chennai"
-        desc="Become a successful data science manager/ leader within 11-months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
+        desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
         src="/course4.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
@@ -69,7 +69,7 @@ export default function Home() {
         <ProgramInfo
         p1="Eligibility"
         p11="Executive-level experience"
-        p2="35LPA - 65LPA"
+        p2="35 LPA - 65 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -78,12 +78,12 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="8 micro-skill certificates by IBM."
-        WeekendBatchDate="Special data science modules of PM"
+        WeekdayBatchDate="8 micro-skill certificates by IBM"
+        WeekendBatchDate="Special data science modules of Project Management"
         Project="12+ domain electives to choose from "
         Classes="Specially devised for leadership-level pros"
         OneLine="15 live industry projects & 2 fresh Capstones"
-        Interview="Assured Interview calls from 250+ recruiter network"
+        Interview="Assured interview calls from 250+ recruiter network"
         Fee="95,000"
         Subscription="3 Year Subscription"
       />
@@ -118,9 +118,9 @@ export default function Home() {
             Courselink3="/artificial-intelligence-certification-course"
             Courselink4="/data-science-ai-for-managers"
             Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
-            Course1="Foundational Data Science and AI program"
-            Course2="Advanced-Data Science and AI program with Domain Specialization"
-            Course3="Artificial Intelligence and ML Program with Domain Specialization"
+            Course1="Foundational Data Science and AI Program"
+            Course2="Advanced-Data Science and AI Program with Domain Specialization"
+            Course3="Artificial Intelligence and Machine Learning Program with Domain Specialization"
             Course4="Data Science and AI Program for Managers and Leaders"
             Course5="AI and Data Science Course with Job Guarantee or Money back"
 

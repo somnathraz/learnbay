@@ -20,7 +20,7 @@ export const FaqData1 = [
   {
     id: 3,
     ques: "What’s the duration of the Data Science and AI Foundation Program?",
-    ans: "The duration of this Data Science Course is about 7 months (220+ hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch – 6 months, Monday to Friday – 2 hours/day, Weekend batch – 8 months, Saturday & Sunday – 3.5 hours/day",
+    ans: "The duration of this Data Science Course is about 7 months (220+ hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 6 months, Monday to Friday – 2 hours/day, Weekend batch – 8 months, Saturday & Sunday – 3.5 hours/day",
     open: false,
   },
   {
@@ -111,7 +111,7 @@ export const PaymentFaqData1 = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science and AI Foundation Program at Learnbay?",
-    ans: "Candidates are advised to read ",
+    ans: "Candidates are advised to read  ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " Learnbay’s Refund/Cancellation Policy before enrolling in the program.",
@@ -168,7 +168,7 @@ export const jobFaqData1 = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions,
+    Resume preparation sessions,
     Preparing projects for a strong portfolio,
     Interview guidance and prep sessions,
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -192,7 +192,7 @@ export const MentorshipFaqData1 = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -235,7 +235,7 @@ export const FaqData2 = [
   {
     id: 3,
     ques: "What’s the duration of the Advance Data Science and AI Program?",
-    ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and Weekend Batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5hours/day",
+    ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5hours/day",
     open: false,
   },
   {
@@ -315,19 +315,19 @@ export const PaymentFaqData2 = [
     id: 2,
     ques: "Is there any scholarship/discount available for Advance Data Science and AI Foundation Program? What is Group Discount?",
     ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
-    Please check our websites or contact our sales team to know more about the applicable discounts.
+    Please check our website or contact our sales team to know more about the applicable discounts.
     
     Group Discount :
     Group Discount is applicable only if you’re joining with your friends.
-    5% extra discount : Group of 2
-    8% extra discount : Group of 3
-    Max 10% discount : Groupe of 4+`,
+    5% extra discount : Group of 2,
+    8% extra discount : Group of 3,
+    Max 10% discount : Groupe of 4+.`,
     open: false,
   },
   {
     id: 3,
     ques: "What is the refund policy for the Advance Data Science and AI Foundation Program at Learnbay?",
-    ans: "Candidates are advised to read ",
+    ans: "Candidates are advised to read  ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the program.",
@@ -416,13 +416,13 @@ export const MentorshipFaqData2 = [
     id: 0,
     ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes.",
+    ans: "Our Mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
     open: true,
   },
   {
     id: 1,
     ques: "Can a student choose to study from their desired mentor?",
-    ans: "At Learnbay, every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "At Learnbay, Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -467,9 +467,9 @@ export const FaqData3 = [
     ques: "What’s the duration of the Artificial Intelligence and Machine Learning Program?",
     ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
-    Classes will be conducted on weekdays and Weekend Batches.
-    Weekday batch – 9.5 months, Monday to Friday – 2 hours/day
-    Weekend batch -11 months, Saturday & Sunday – 3.5 hours/day`,
+    Classes will be conducted on weekdays and weekend batches.
+    Weekday batch – 9.5 months, Monday to Friday – 2 hours/day,
+    Weekend batch -11 months, Saturday & Sunday – 3.5 hours/day.`,
     open: false,
   },
   {
@@ -551,19 +551,19 @@ export const PaymentFaqData3 = [
     id: 2,
     ques: "Is there any scholarship available for the Artificial Intelligence and Machine Learning Program? What is Group Discount?",
     ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
-    Please check our websites or contact our sales team to know more about the applicable discounts.
+    Please check our website or contact our sales team to know more about the applicable discounts.
     
     Group Discount :
     Group Discount is applicable only if you’re joining with your friends.
-    5% extra discount: Group of 2
-    8% extra discount: Group of 3
-    Max 10% discount: Groupe of 4+`,
+    5% extra discount: Group of 2,
+    8% extra discount: Group of 3,
+    Max 10% discount: Groupe of 4+.`,
     open: false,
   },
   {
     id: 3,
     ques: "What is the refund policy for the Artificial Intelligence and Machine Learning Program at Learnbay?",
-    ans: "Candidates are advised to read  ",
+    ans: "Candidates are advised to read   ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the program.",
@@ -634,7 +634,7 @@ export const jobFaqData3 = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions,
+    Resume preparation sessions,
     Preparing projects for a strong portfolio,
     Interview guidance and prep sessions,
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -652,22 +652,22 @@ export const MentorshipFaqData3 = [
     id: 0,
     ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes.",
+    ans: "Our Mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
     open: true,
   },
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
 export const SupportFaqData3 = [
   {
     id: 0,
-    ques: "When is the job assistance provided and for how long i will get the service?",
+    ques: "When is the job assistance provided and for how long I will get the service?",
 
-    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -705,7 +705,7 @@ export const FaqData4 = [
 
     Classes will be conducted on weekdays and Weekend Batches.
     Weekday batch – 11 months, Monday to Friday – 2 hours/day,
-    Weekend batch -13 months, Saturday & Sunday – 3.5 hours/day,
+    Weekend batch - 13 months, Saturday & Sunday – 3.5 hours/day.
     After the completion of term-3, you can start working on real-time projects and attend job interviews.`,
     open: false,
   },
@@ -738,13 +738,13 @@ export const DomainFaqData4 = [
   {
     id: 2,
     ques: "What are the available elective domain options?",
-    ans: `Advance Data Structures & Algo; Automotive, IoT & Embedded; Cloud & DevOps Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI, Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy.`,
+    ans: `Advance Data Structures & Algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI, Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy.`,
     open: false,
   },
   {
     id: 3,
     ques: "Which domain elective is best suited for me?",
-    ans: "You can select your domain based on your prior work experience, academics, and career goals.Book a slot with our industry expert for free profile review and career guidance.",
+    ans: "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -786,22 +786,22 @@ export const PaymentFaqData4 = [
     id: 2,
     ques: "Is there any scholarship available for the Data Science and AI for Managers & Leaders Program? What is Group Discount?",
     ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
-    Please check our websites or contact our sales team to know more about the applicable discounts.
+    Please check our website or contact our sales team to know more about the applicable discounts.
     
     Group Discount :
     Group Discount is applicable only if you’re joining with your friends.
-    5% extra discount : Group of 2
-    8% extra discount : Group of 3
-    Max 10% discount : Groupe of 4+`,
+    5% extra discount : Group of 2,
+    8% extra discount : Group of 3,
+    Max 10% discount : Groupe of 4+.`,
     open: false,
   },
   {
     id: 3,
     ques: "What is the refund policy for the data science courses at learnbay?",
-    ans: "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the program",
+    ans: "Candidates are advised to read ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
-    ansAfter: " before enrolling in the Programme.",
+    ansAfter: " before enrolling in the program.",
     link: true,
     open: false,
   },
@@ -833,7 +833,7 @@ export const CertificationFaqData4 = [
   {
     id: 0,
     ques: "Is there any accredited certification after course completion?",
-    ans: "Yes, you will be awarded 8 separate IBM accredited Certificates on successful course completion of the Data Science and AI for Managers & Leaders Program.",
+    ans: "Yes, you will be awarded 8 separate IBM accredited certificates on successful course completion of the Data Science and AI for Managers & Leaders Program.",
     open: true,
   },
   {
@@ -871,7 +871,7 @@ export const jobFaqData4 = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions,
+    Resume preparation sessions,
     Preparing projects for a strong portfolio,
     Interview guidance and prep sessions,
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -889,13 +889,13 @@ export const MentorshipFaqData4 = [
     id: 0,
     ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes.",
+    ans: "Our Mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
     open: true,
   },
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -904,7 +904,7 @@ export const SupportFaqData4 = [
     id: 0,
     ques: "When is the job assistance provided?",
 
-    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -937,10 +937,10 @@ export const FaqData5 = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Science and AI with Job Guarantee Program?",
+    ques: "What’s the duration of the Data Science and AI with Job Guarantee Program Program?",
     ans: `The duration of this course is about 15 months (400 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
-    Classes will be conducted on weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch – 13 months, Monday to Friday – 2 hours/day,
     Weekend batch -15 months, Saturday & Sunday – 3.5 hours/day.`,
     open: false,
@@ -974,7 +974,7 @@ export const DomainFaqData5 = [
   {
     id: 2,
     ques: "Which domain elective is best suited for me?",
-    ans: `You can select your domain based on your prior work experience, academics, and career goals.Book a slot with our industry expert for free profile review and career guidance.`,
+    ans: `You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance.`,
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -983,7 +983,7 @@ export const DomainFaqData5 = [
   {
     id: 3,
     ques: "Why is domain specialization important?",
-    ans: "After enrolling in the Data Science and AI with Job Guarantee course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
+    ans: "After enrolling in the Data Science and AI with Job Guarantee Program course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
     open: false,
   },
   {
@@ -1008,8 +1008,8 @@ export const DomainFaqData5 = [
 export const PaymentFaqData5 = [
   {
     id: 0,
-    ques: "What is the total Fee for the Data Science and AI with Job Guarantee Program?",
-    ans: "The total program fee for the Data Science and AI with Job Guarantee Program is INR ₹1,25,000 + GST.",
+    ques: "What is the total Fee for the Data Science and AI with Job Guarantee Program Program?",
+    ans: "The total program fee for the Data Science and AI with Job Guarantee Program Program is INR ₹1,25,000 + GST.",
     open: true,
   },
   {
@@ -1020,9 +1020,9 @@ export const PaymentFaqData5 = [
   },
   {
     id: 2,
-    ques: "Is there any scholarship available for the Data Science and AI with Job Guarantee Program? What is Group Discount?",
+    ques: "Is there any scholarship available for the Data Science and AI with Job Guarantee Program Program? What is Group Discount?",
     ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
-    Please check our websites or contact our sales team to know more about the applicable discounts.
+    Please check our website or contact our sales team to know more about the applicable discounts.
     
     Group Discount :
     Group Discount is applicable only if you’re joining with your friends.
@@ -1034,10 +1034,10 @@ export const PaymentFaqData5 = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science and AI Foundation Program at Learnbay?",
-    ans: "Candidates are advised to read ",
+    ans: "Candidates are advised to read  ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
-    ansAfter: " before enrolling in the programme.",
+    ansAfter: " before enrolling in the program.",
     link: true,
     open: false,
   },
@@ -1094,7 +1094,7 @@ export const jobFaqData5 = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions,
+    Resume preparation sessions,
     Preparing projects for a strong portfolio,
     Interview guidance and prep sessions,
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -1108,9 +1108,9 @@ export const jobFaqData5 = [
   },
   {
     id: 4,
-    ques: "What is Job or 100% moneyback Gurantee?",
+    ques: "What is job or 100% moneyback Gurantee?",
     ans: "If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. ",
-    linkText1: " Terms and conditions. ",
+    linkText1: " Terms and conditions ",
     link1: "/terms-conditions-job",
     ansAfter: "applied.",
     link: true,
@@ -1122,13 +1122,13 @@ export const MentorshipFaqData5 = [
     id: 0,
     ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes.",
+    ans: "Our Mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
     open: true,
   },
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -1137,7 +1137,7 @@ export const SupportFaqData5 = [
     id: 0,
     ques: "When is the job assistance provided?",
 
-    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -1173,7 +1173,7 @@ export const FaqData6 = [
     ques: "What’s the duration of the Data Analytics Program?",
     ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch – 4.5 months, Monday to Friday – 2 hours/day,
     Weekend batch – 6 months, Saturday & Sunday – 3.5 hours/day.`,
     open: false,
@@ -1231,7 +1231,7 @@ export const PaymentFaqData6 = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Analytics Program at Learnbay?",
-    ans: "Candidates are advised to read .",
+    ans: "Candidates are advised to read  .",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the program.",
@@ -1279,7 +1279,7 @@ export const jobFaqData6 = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions,
+    Resume preparation sessions,
     Preparing projects for a strong portfolio,
     Interview guidance and prep sessions,
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -1303,7 +1303,7 @@ export const MentorshipFaqData6 = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -1348,7 +1348,7 @@ export const FaqData7 = [
     ques: "What’s the duration of the Business Analytics Program?",
     ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch – 5 months, Monday to Friday – 2 hours/day,
     Weekend batch – 6.5 months, Saturday & Sunday – 3.5 hours/day.`,
     open: false,
@@ -1406,7 +1406,7 @@ export const PaymentFaqData7 = [
   {
     id: 3,
     ques: "What is the refund policy for the Business Analytics Program at Learnbay?",
-    ans: "Candidates are advised to read ",
+    ans: "Candidates are advised to read  ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the program.",
@@ -1452,7 +1452,7 @@ export const jobFaqData7 = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions,
+    Resume preparation sessions,
     Preparing projects for a strong portfolio,
     Interview guidance and prep sessions,
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -1476,7 +1476,7 @@ export const MentorshipFaqData7 = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];

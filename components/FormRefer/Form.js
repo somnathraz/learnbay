@@ -248,7 +248,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             name="referName"
             className={popup ? styles.NameInputs : styles.NameInput}
             required
-            placeholder="Enter your Full Name*"
+            placeholder="Enter Referral Full Name*"
             value={query.referName}
             style={{ borderBottom: "1px solid grey" }}
             onChange={handleParam()}
@@ -259,7 +259,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             type="email"
             name="referEmail"
             required
-            placeholder="Enter Your Email*"
+            placeholder="Enter Referral Email*"
             className={popup ? styles.EmailInputs : styles.EmailInput}
             value={query.referEmail}
             onChange={handleParam()}
@@ -285,7 +285,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             name="referPhone"
             rules={{ required: true }}
             defaultCountry="IN"
-            placeholder="Enter Phone Number"
+            placeholder="Enter Referral Phone Number"
             className={popup ? styles.Phones : styles.Phone}
             value={referValue}
             onChange={setReferValue}
@@ -296,7 +296,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
           Privacy Policy.
         </p>
         <button type="submit" className={styles.button}>
-          {downloadBrochure ? "Download Now" : "Apply Now"}
+          {downloadBrochure ? "Download Now" : "Refer Now"}
         </button>
       </form>
     </div>
