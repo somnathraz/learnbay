@@ -9,7 +9,7 @@ const HowApply = ({
 }) => {
   return (
     <section className={styles.HowApply}>
-        <h4>How to Apply Steps</h4>
+        <h4>How to Apply</h4>
         <div className={styles.HowApplyDiv}>
             <div className={styles.HowApplyInner}>
             <Image
@@ -20,7 +20,7 @@ const HowApply = ({
             width="50px"
             height="50px"
           />
-                <p className={styles.pBotC}>Step 1 : <b>Book a Call</b></p>
+                <p className={styles.pBotC}>Step 1:<b>&nbsp;Book a Call</b></p>
                 <p className={styles.pBotC}>Get your profile reviewed by our Career Expert.</p>
             </div>
             <div className={styles.HowApplyInner}>
@@ -32,7 +32,7 @@ const HowApply = ({
             width="50px"
             height="50px"
           />
-                <p className={styles.pBotC}>Step 2 : <b>Get Enrolled</b></p>
+                <p className={styles.pBotC}>Step 2:<b>&nbsp;Get Enrolled</b></p>
                 <p className={styles.pBotC}>{CCourse}</p>
             </div>
             <div className={styles.HowApplyInner}>
@@ -44,7 +44,7 @@ const HowApply = ({
             width="50px"
             height="50px"
           />
-                <p className={styles.pBotC}>Step 3 : <b>Get Placed</b></p>
+                <p className={styles.pBotC}>Step 3:<b>&nbsp;Get Placed</b></p>
                 <p className={styles.pBotC}>Get 100% Job Assurance accompanied by IBM Certification.</p>
             </div>
         </div>

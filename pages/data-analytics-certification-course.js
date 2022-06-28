@@ -231,7 +231,7 @@ export default function Home() {
       CourseFeeHead="Data Analytics Course Fees"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online interactive classes"
-      CourseFeelist2="Weekend and weekdays batch"
+      CourseFeelist2="Weekend and Weekday Batches"
       CourseFeelist3="Extra doubt clearance sessions"
       CourseFeelist4="Project-Based Learning"
       CourseFeelist5="Company-based mock interviews"

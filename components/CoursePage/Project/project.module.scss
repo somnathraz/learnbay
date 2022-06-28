@@ -177,10 +177,10 @@
               box-shadow: -20px 0px 18px 0px rgba(227, 227, 227, 0.3);
 
               .header {
-                display: flex;
-
+                display: grid;
+grid-template-columns: 40% 60%;
                 align-items: center;
-                justify-content: space-between;
+                // justify-content: space-between;
                 margin: 0px 20px;
                 border-radius: 15px 15px 0 0;
                 padding: 10px 00px;

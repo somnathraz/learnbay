@@ -52,7 +52,7 @@ export default function Home() {
       <FirstSection
         deskTopPara="Industry- Specific Capstone Certified by IBM"
         mTopPara="Industry- Specific Capstone Certified by IBM"
-        title="Advanced DS and AI Course"
+        title="Full Stack Certification Course"
         spanTitleText="with Domain Specialization"
         desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
         src="/course2.png"

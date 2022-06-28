@@ -36,7 +36,7 @@ function ReferSection() {
           </div>
           <div className={styles.Middle}>
               <p className={styles.ptop}>Refer someone you know and receive Gift Vouchers worth INR 3,000!*</p>
-              <p className={styles.pbot}>The referral offer is valid on AI & ML program with Domain Specialization.</p>
+              <p className={styles.pbot}>The referral offer is valid on AI & ML Program with Domain Specialization.</p>
           </div>
           <div className={styles.Last}>
             <div className={styles.btnWrapper}>

@@ -7,7 +7,7 @@ const KeyFeatures = () => {
   return (
     <section className={styles.Features}>
       <div>
-        <h6 className={styles.topHead}>The network reach of our bay</h6>
+        <h6 className={styles.topHead}>The Network Reach of Our Bay</h6>
         <div className={styles.FeatureWrap}>
           <div className={styles.LeftWrap}>
             <h6>Our Key Features</h6>
