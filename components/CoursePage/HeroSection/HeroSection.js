@@ -280,8 +280,8 @@ const HeroSection = ({
           alt={alt}
           quality={100}
           layout="intrinsic"
-          width="500"
-          height="550"
+          width="600"
+          height="580"
         />
       </div>
     </section>
