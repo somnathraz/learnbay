@@ -38,7 +38,7 @@ export const AdvanceFaqDataM = [
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Mumbai?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -224,7 +224,7 @@ export const AdvancejobFaqDataM = [
     ques: "What is a Job or 100% money back Guarantee?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note:`,
-    linkText1: " Terms and Conditions. ",
+    linkText1: " Terms and conditions ",
     link1: "/terms-conditions",
     ansAfter: "applied.",
     link: true,
@@ -242,7 +242,7 @@ export const AdvanceMentorshipFaqDataM = [
   {
     id: 1,
     ques: "Can a Learnbay student in Mumbai choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -311,7 +311,7 @@ export const ArtificialFaqDataM = [
     id: 4,
     ques: "What’s the duration of these advanced AI in Mumbai?",
     ans: `The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations.
-    Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
+    Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
     Foundational Data Science and Artificial Intelligence Training Course (220+ hours)
     Weekday batch - 6 months
     Weekend batch - 8 months
@@ -436,7 +436,7 @@ export const ArtificialPaymentFaqDataM = [
   {
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Refund/Cancellation policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " read before enrolling in the course.",
@@ -526,7 +526,7 @@ export const ArtificialjobFaqDataM = [
     ques: "What is a Job or 100% money back Guarantee?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note:  `,
-    linkText1: " Terms and conditions. ",
+    linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
     link: true,
@@ -544,7 +544,7 @@ export const ArtificialMentorshipFaqDataM = [
   {
     id: 1,
     ques: "Can a Learnbay student in Mumbai choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -592,7 +592,7 @@ export const MachineFaqDataM = [
     ques: "What’s the duration of this  Machine Learning course in Mumbai?",
     ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
-    Classes will be conducted on weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 9.5 months
        Monday to Friday - 2 hours/day
     Weekend batch -11 months
@@ -692,7 +692,7 @@ export const MachinePaymentFaqDataM = [
   {
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Mumbai?",
-    ans: `Candidates are advised to read  `,
+    ans: `Candidates are advised to read   `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the program.",
@@ -787,15 +787,15 @@ export const MachineMentorshipFaqDataM = [
   {
     id: 1,
     ques: "Can a Learnbay student in Mumbai choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
 export const MachineSupportFaqDataM = [
   {
     id: 0,
-    ques: "When is the job assistance provided and for how long i will get the service?",
-    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ques: "When is the job assistance provided and for how long I will get the service?",
+    ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -835,7 +835,7 @@ export const AnalyticsFaqDataM = [
     ques: "What’s the duration of the Data Analytics Program in Mumbai?",
     ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6 months
@@ -937,7 +937,7 @@ export const AnalyticsPaymentFaqDataM = [
   {
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
-    ans: `Candidates are advised to read  `,
+    ans: `Candidates are advised to read   `,
     linkText1: "Refund/Cancellation policy ",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the program.",
@@ -1019,7 +1019,7 @@ export const AnalyticsMentorshipFaqDataM = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -1066,7 +1066,7 @@ export const BusinessAFaqDataM = [
     //About Data Science
     ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6.5 months
@@ -1121,7 +1121,7 @@ export const BusinessAPaymentFaqDataM = [
   {
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
-    ans: `Candidates are advised to read  `,
+    ans: `Candidates are advised to read   `,
     linkText1: "Refund/Cancellation policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the program. ",
@@ -1196,7 +1196,7 @@ export const BusinessAMentorshipFaqDataM = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -1254,7 +1254,7 @@ export const AdvanceFaqDataH = [
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Hyderabad?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -1359,7 +1359,7 @@ export const AdvancePaymentFaqDataH = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
-    ans: `Candidates are advised to read`,
+    ans: `Candidates are advised to read `,
     linkText1: "Refund/Cancellation policy",
     link1: "/refund-cancellation-policy",
     ansAfter: "  before enrolling in the course.",
@@ -1456,7 +1456,7 @@ export const AdvanceMentorshipFaqDataH = [
   {
     id: 1,
     ques: "Can a Learnbay student in Hyderabad choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -1526,7 +1526,7 @@ export const ArtificialFaqDataH = [
     id: 4,
     ques: "What’s the duration of these advanced AI in Hyderabad?",
     ans: `The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations.
-    Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
+    Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
     Foundational Data Science and Artificial Intelligence Training Course (220+ hours)
     Weekday batch - 6 months
     Weekend batch - 8 months
@@ -1651,7 +1651,7 @@ export const ArtificialPaymentFaqDataH = [
   {
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -1741,7 +1741,7 @@ export const ArtificialjobFaqDataH = [
     ques: "What is a Job or 100% money back Guarantee?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: `,
-    linkText1: " Terms and conditions. ",
+    linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
     link: true,
@@ -1760,7 +1760,7 @@ export const ArtificialMentorshipFaqDataH = [
   {
     id: 1,
     ques: "Can a Learnbay student in Hyderabad choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -1808,7 +1808,7 @@ export const MachineFaqDataH = [
     ques: "What’s the duration of this  Machine Learning course in Hyderabad?",
     ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
-    Classes will be conducted on weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 9.5 months
        Monday to Friday - 2 hours/day
     Weekend batch -11 months
@@ -1908,7 +1908,7 @@ export const MachinePaymentFaqDataH = [
   {
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Hyderabad?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -2003,15 +2003,15 @@ export const MachineMentorshipFaqDataH = [
   {
     id: 1,
     ques: "Can a Learnbay student in Hyderabad choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
 export const MachineSupportFaqDataH = [
   {
     id: 0,
-    ques: "When is the job assistance provided and for how long i will get the service?",
-    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ques: "When is the job assistance provided and for how long I will get the service?",
+    ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -2051,7 +2051,7 @@ export const AnalyticsFaqDataH = [
     ques: "What’s the duration of the Data Analytics Program in Hyderabad?",
     ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6 months
@@ -2153,7 +2153,7 @@ export const AnalyticsPaymentFaqDataH = [
   {
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -2232,7 +2232,7 @@ export const AnalyticsMentorshipFaqDataH = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -2279,7 +2279,7 @@ export const BusinessAFaqDataH = [
     //About Data Science
     ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6.5 months
@@ -2334,7 +2334,7 @@ export const BusinessAPaymentFaqDataH = [
   {
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
-    ans: `Candidates are advised to read  `,
+    ans: `Candidates are advised to read   `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the program.",
@@ -2409,7 +2409,7 @@ export const BusinessAMentorshipFaqDataH = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -2467,7 +2467,7 @@ export const AdvanceFaqDataB = [
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Bengalore?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -2571,7 +2571,7 @@ export const AdvancePaymentFaqDataB = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -2668,7 +2668,7 @@ export const AdvanceMentorshipFaqDataB = [
   {
     id: 1,
     ques: "Can a Learnbay student in Bengalore choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -2731,7 +2731,7 @@ export const ArtificialFaqDataB = [
     id: 4,
     ques: "What’s the duration of these advanced AI in Bengalore?",
     ans: `The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations.
-    Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
+    Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
     Foundational Data Science and Artificial Intelligence Training Course (220+ hours)
     Weekday batch - 6 months
     Weekend batch - 8 months
@@ -2856,7 +2856,7 @@ export const ArtificialPaymentFaqDataB = [
   {
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -2946,7 +2946,7 @@ export const ArtificialjobFaqDataB = [
     ques: "What is a Job or 100% money back Guarantee?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: `,
-    linkText1: " Terms and conditions. ",
+    linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
     link: true,
@@ -2964,7 +2964,7 @@ export const ArtificialMentorshipFaqDataB = [
   {
     id: 1,
     ques: "Can a Learnbay student in Bengalore choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -3012,7 +3012,7 @@ export const MachineFaqDataB = [
     ques: "What’s the duration of this  Machine Learning course in Bengalore?",
     ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
-    Classes will be conducted on weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 9.5 months
        Monday to Friday - 2 hours/day
     Weekend batch -11 months
@@ -3112,7 +3112,7 @@ export const MachinePaymentFaqDataB = [
   {
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Bengalore?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -3207,15 +3207,15 @@ export const MachineMentorshipFaqDataB = [
   {
     id: 1,
     ques: "Can a Learnbay student in Bengalore choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
 export const MachineSupportFaqDataB = [
   {
     id: 0,
-    ques: "When is the job assistance provided and for how long i will get the service?",
-    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ques: "When is the job assistance provided and for how long I will get the service?",
+    ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -3255,7 +3255,7 @@ export const AnalyticsFaqDataB = [
     ques: "What’s the duration of the Data Analytics Program in Bengalore?",
     ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6 months
@@ -3357,7 +3357,7 @@ export const AnalyticsPaymentFaqDataB = [
   {
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
-    ans: `Candidates are advised to read  `,
+    ans: `Candidates are advised to read   `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -3439,7 +3439,7 @@ export const AnalyticsMentorshipFaqDataB = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -3486,7 +3486,7 @@ export const BusinessAFaqDataB = [
     //About Data Science
     ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6.5 months
@@ -3541,7 +3541,7 @@ export const BusinessAPaymentFaqDataB = [
   {
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -3619,7 +3619,7 @@ export const BusinessAMentorshipFaqDataB = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -3677,7 +3677,7 @@ export const AdvanceFaqDataC = [
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Chennai?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -3780,7 +3780,7 @@ export const AdvancePaymentFaqDataC = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
-    ans: `Candidates are advised to read .`,
+    ans: `Candidates are advised to read  .`,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -3877,7 +3877,7 @@ export const AdvanceMentorshipFaqDataC = [
   {
     id: 1,
     ques: "Can a Learnbay student in Chennai choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -3946,7 +3946,7 @@ export const ArtificialFaqDataC = [
     id: 4,
     ques: "What’s the duration of these advanced AI in Chennai?",
     ans: `The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations.
-    Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
+    Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
     Foundational Data Science and Artificial Intelligence Training Course (220+ hours)
     Weekday batch - 6 months
     Weekend batch - 8 months
@@ -4070,7 +4070,7 @@ export const ArtificialPaymentFaqDataC = [
   {
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
-    ans: `Candidates are advised to read before`,
+    ans: `Candidates are advised to read  before`,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -4160,7 +4160,7 @@ export const ArtificialjobFaqDataC = [
     ques: "What is a Job or 100% money back Guarantee?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note:`,
-    linkText1: " Terms and conditions. ",
+    linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
     link: true,
@@ -4178,7 +4178,7 @@ export const ArtificialMentorshipFaqDataC = [
   {
     id: 1,
     ques: "Can a Learnbay student in Chennai choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -4226,7 +4226,7 @@ export const MachineFaqDataC = [
     ques: "What’s the duration of this  Machine Learning course in Chennai?",
     ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
-    Classes will be conducted on weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 9.5 months
        Monday to Friday - 2 hours/day
     Weekend batch -11 months
@@ -4325,7 +4325,7 @@ export const MachinePaymentFaqDataC = [
   {
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Chennai?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -4420,15 +4420,15 @@ export const MachineMentorshipFaqDataC = [
   {
     id: 1,
     ques: "Can a Learnbay student in Chennai choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
 export const MachineSupportFaqDataC = [
   {
     id: 0,
-    ques: "When is the job assistance provided and for how long i will get the service?",
-    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ques: "When is the job assistance provided and for how long I will get the service?",
+    ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -4468,7 +4468,7 @@ export const AnalyticsFaqDataC = [
     ques: "What’s the duration of the Data Analytics Program in Chennai?",
     ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6 months
@@ -4569,7 +4569,7 @@ export const AnalyticsPaymentFaqDataC = [
   {
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -4651,7 +4651,7 @@ export const AnalyticsMentorshipFaqDataC = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -4698,7 +4698,7 @@ export const BusinessAFaqDataC = [
     //About Data Science
     ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6.5 months
@@ -4753,7 +4753,7 @@ export const BusinessAPaymentFaqDataC = [
   {
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -4831,7 +4831,7 @@ export const BusinessAMentorshipFaqDataC = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -4890,7 +4890,7 @@ export const AdvanceFaqDataCa = [
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Canada?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -4993,7 +4993,7 @@ export const AdvancePaymentFaqDataCa = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
-    ans: `Candidates are advised to read`,
+    ans: `Candidates are advised to read `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -5091,7 +5091,7 @@ export const AdvanceMentorshipFaqDataCa = [
   {
     id: 1,
     ques: "Can a Learnbay student in Canada choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -5160,7 +5160,7 @@ export const ArtificialFaqDataCa = [
     id: 4,
     ques: "What’s the duration of these advanced AI in Canada?",
     ans: `The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations.
-    Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
+    Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
     Foundational Data Science and Artificial Intelligence Training Course (220+ hours)
     Weekday batch - 6 months
     Weekend batch - 8 months
@@ -5284,7 +5284,7 @@ export const ArtificialPaymentFaqDataCa = [
   {
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
-    ans: `Candidates are advised to read.`,
+    ans: `Candidates are advised to read .`,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -5375,7 +5375,7 @@ export const ArtificialjobFaqDataCa = [
     ques: "What is a Job or 100% money back Guarantee?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: `,
-    linkText1: " Terms and conditions. ",
+    linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
     link: true,
@@ -5393,7 +5393,7 @@ export const ArtificialMentorshipFaqDataCa = [
   {
     id: 1,
     ques: "Can a Learnbay student in Canada choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -5441,7 +5441,7 @@ export const MachineFaqDataCa = [
     ques: "What’s the duration of this  Machine Learning course in Canada?",
     ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
-    Classes will be conducted on weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 9.5 months
        Monday to Friday - 2 hours/day
     Weekend batch -11 months
@@ -5540,7 +5540,7 @@ export const MachinePaymentFaqDataCa = [
   {
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Canada?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -5635,15 +5635,15 @@ export const MachineMentorshipFaqDataCa = [
   {
     id: 1,
     ques: "Can a Learnbay student in Canada choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
 export const MachineSupportFaqDataCa = [
   {
     id: 0,
-    ques: "When is the job assistance provided and for how long i will get the service?",
-    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ques: "When is the job assistance provided and for how long I will get the service?",
+    ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -5683,7 +5683,7 @@ export const AnalyticsFaqDataCa = [
     ques: "What’s the duration of the Data Analytics Program in Canada?",
     ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6 months
@@ -5785,7 +5785,7 @@ export const AnalyticsPaymentFaqDataCa = [
   {
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -5868,7 +5868,7 @@ export const AnalyticsMentorshipFaqDataCa = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -5915,7 +5915,7 @@ export const BusinessAFaqDataCa = [
     //About Data Science
     ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6.5 months
@@ -5970,7 +5970,7 @@ export const BusinessAPaymentFaqDataCa = [
   {
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
     link: true,
@@ -6047,7 +6047,7 @@ export const BusinessAMentorshipFaqDataCa = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -6107,7 +6107,7 @@ export const AdvanceFaqDataD = [
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Delhi?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -6210,7 +6210,7 @@ export const AdvancePaymentFaqDataD = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
-    ans: `Candidates are advised to read`,
+    ans: `Candidates are advised to read `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -6307,7 +6307,7 @@ export const AdvanceMentorshipFaqDataD = [
   {
     id: 1,
     ques: "Can a Learnbay student in Delhi choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -6376,7 +6376,7 @@ export const ArtificialFaqDataD = [
     id: 4,
     ques: "What’s the duration of these advanced AI in Delhi?",
     ans: `The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations.
-    Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
+    Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
     Foundational Data Science and Artificial Intelligence Training Course (220+ hours)
     Weekday batch - 6 months
     Weekend batch - 8 months
@@ -6500,7 +6500,7 @@ export const ArtificialPaymentFaqDataD = [
   {
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
-    ans: `Candidates are advised to read`,
+    ans: `Candidates are advised to read `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -6591,7 +6591,7 @@ export const ArtificialjobFaqDataD = [
     ques: "What is a Job or 100% money back Guarantee?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: `,
-    linkText1: " Terms and conditions. ",
+    linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
     link: true,
@@ -6609,7 +6609,7 @@ export const ArtificialMentorshipFaqDataD = [
   {
     id: 1,
     ques: "Can a Learnbay student in Delhi choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -6657,7 +6657,7 @@ export const MachineFaqDataD = [
     ques: "What’s the duration of this  Machine Learning course in Delhi?",
     ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
-    Classes will be conducted on weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 9.5 months
        Monday to Friday - 2 hours/day
     Weekend batch -11 months
@@ -6756,7 +6756,7 @@ export const MachinePaymentFaqDataD = [
   {
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Delhi?",
-    ans: `Candidates are advised to read`,
+    ans: `Candidates are advised to read `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -6852,15 +6852,15 @@ export const MachineMentorshipFaqDataD = [
   {
     id: 1,
     ques: "Can a Learnbay student in Delhi choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
 export const MachineSupportFaqDataD = [
   {
     id: 0,
-    ques: "When is the job assistance provided and for how long i will get the service?",
-    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ques: "When is the job assistance provided and for how long I will get the service?",
+    ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -6900,7 +6900,7 @@ export const AnalyticsFaqDataD = [
     ques: "What’s the duration of the Data Analytics Program in Delhi?",
     ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6 months
@@ -7001,7 +7001,7 @@ export const AnalyticsPaymentFaqDataD = [
   {
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -7083,7 +7083,7 @@ export const AnalyticsMentorshipFaqDataD = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -7130,7 +7130,7 @@ export const BusinessAFaqDataD = [
     //About Data Science
     ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6.5 months
@@ -7186,7 +7186,7 @@ export const BusinessAPaymentFaqDataD = [
   {
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -7266,7 +7266,7 @@ export const BusinessAMentorshipFaqDataD = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -7325,7 +7325,7 @@ export const AdvanceFaqDataDu = [
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Dubai?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -7429,7 +7429,7 @@ export const AdvancePaymentFaqDataDu = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
-    ans: `Candidates are advised to read`,
+    ans: `Candidates are advised to read `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -7526,7 +7526,7 @@ export const AdvanceMentorshipFaqDataDu = [
   {
     id: 1,
     ques: "Can a Learnbay student in Dubai choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -7595,7 +7595,7 @@ export const ArtificialFaqDataDu = [
     id: 4,
     ques: "What’s the duration of these advanced AI in Dubai?",
     ans: `The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations.
-    Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
+    Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
     Foundational Data Science and Artificial Intelligence Training Course (220+ hours)
     Weekday batch - 6 months
     Weekend batch - 8 months
@@ -7719,7 +7719,7 @@ export const ArtificialPaymentFaqDataDu = [
   {
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
-    ans: `Candidates are advised to read`,
+    ans: `Candidates are advised to read `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -7808,7 +7808,7 @@ export const ArtificialjobFaqDataDu = [
     id: 3,
     ques: "What is a Job or 100% money back Guarantee?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: linkText1: " Terms and conditions. ",
+    Note: linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
     link: true,`,
@@ -7826,7 +7826,7 @@ export const ArtificialMentorshipFaqDataDu = [
   {
     id: 1,
     ques: "Can a Learnbay student in Dubai choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -7874,7 +7874,7 @@ export const MachineFaqDataDu = [
     ques: "What’s the duration of this  Machine Learning course in Dubai?",
     ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
-    Classes will be conducted on weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 9.5 months
        Monday to Friday - 2 hours/day
     Weekend batch -11 months
@@ -7974,7 +7974,7 @@ export const MachinePaymentFaqDataDu = [
   {
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Dubai?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -8071,15 +8071,15 @@ export const MachineMentorshipFaqDataDu = [
   {
     id: 1,
     ques: "Can a Learnbay student in Dubai choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
 export const MachineSupportFaqDataDu = [
   {
     id: 0,
-    ques: "When is the job assistance provided and for how long i will get the service?",
-    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ques: "When is the job assistance provided and for how long I will get the service?",
+    ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -8119,7 +8119,7 @@ export const AnalyticsFaqDataDu = [
     ques: "What’s the duration of the Data Analytics Program in Dubai?",
     ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6 months
@@ -8220,7 +8220,7 @@ export const AnalyticsPaymentFaqDataDu = [
   {
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -8302,7 +8302,7 @@ export const AnalyticsMentorshipFaqDataDu = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -8349,7 +8349,7 @@ export const BusinessAFaqDataDu = [
     //About Data Science
     ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6.5 months
@@ -8404,7 +8404,7 @@ export const BusinessAPaymentFaqDataDu = [
   {
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -8483,7 +8483,7 @@ export const BusinessAMentorshipFaqDataDu = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -8542,7 +8542,7 @@ export const AdvanceFaqDataP = [
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Pune?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -8645,7 +8645,7 @@ export const AdvancePaymentFaqDataP = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
-    ans: `Candidates are advised to read`,
+    ans: `Candidates are advised to read `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -8742,7 +8742,7 @@ export const AdvanceMentorshipFaqDataP = [
   {
     id: 1,
     ques: "Can a Learnbay student in Pune choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -8811,7 +8811,7 @@ export const ArtificialFaqDataP = [
     id: 4,
     ques: "What’s the duration of these advanced AI in Pune?",
     ans: `The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations.
-    Classes will be conducted on Weekdays and Weekend Batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
+    Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
     Foundational Data Science and Artificial Intelligence Training Course (220+ hours)
     Weekday batch - 6 months
     Weekend batch - 8 months
@@ -8936,7 +8936,7 @@ export const ArtificialPaymentFaqDataP = [
   {
     id: 3,
     ques: " What is the refund policy for the Artificial Intelligence  Certification courses at Learnbay?",
-    ans: `Candidates are advised to read`,
+    ans: `Candidates are advised to read `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -9027,7 +9027,7 @@ export const ArtificialjobFaqDataP = [
     ques: "What is a Job or 100% money back Guarantee?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: `,
-    linkText1: " Terms and conditions. ",
+    linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
     link: true,
@@ -9045,7 +9045,7 @@ export const ArtificialMentorshipFaqDataP = [
   {
     id: 1,
     ques: "Can a Learnbay student in Pune choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -9093,7 +9093,7 @@ export const MachineFaqDataP = [
     ques: "What’s the duration of this  Machine Learning course in Pune?",
     ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
-    Classes will be conducted on weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 9.5 months
        Monday to Friday - 2 hours/day
     Weekend batch -11 months
@@ -9192,7 +9192,7 @@ export const MachinePaymentFaqDataP = [
   {
     id: 3,
     ques: " What is the refund policy for this Machine Learning training course at Learnbay in Pune?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -9287,15 +9287,15 @@ export const MachineMentorshipFaqDataP = [
   {
     id: 1,
     ques: "Can a Learnbay student in Pune choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
 export const MachineSupportFaqDataP = [
   {
     id: 0,
-    ques: "When is the job assistance provided and for how long i will get the service?",
-    ans: "placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+    ques: "When is the job assistance provided and for how long I will get the service?",
+    ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
     open: true,
   },
   {
@@ -9335,7 +9335,7 @@ export const AnalyticsFaqDataP = [
     ques: "What’s the duration of the Data Analytics Program in Pune?",
     ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6 months
@@ -9437,7 +9437,7 @@ export const AnalyticsPaymentFaqDataP = [
   {
     id: 3,
     ques: " What is the refund policy for the Data Analytics Course at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -9519,7 +9519,7 @@ export const AnalyticsMentorshipFaqDataP = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -9566,7 +9566,7 @@ export const BusinessAFaqDataP = [
     //About Data Science
     ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
-    Classes will be conducted on Weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
        Monday to Friday - 2 hours/day
     Weekend batch - 6.5 months
@@ -9622,7 +9622,7 @@ export const BusinessAPaymentFaqDataP = [
   {
     id: 3,
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
-    ans: `Candidates are advised to read `,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -9700,7 +9700,7 @@ export const BusinessAMentorshipFaqDataP = [
   {
     id: 1,
     ques: "Can a Learnbay student choose to study from their desired mentor?",
-    ans: "every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];

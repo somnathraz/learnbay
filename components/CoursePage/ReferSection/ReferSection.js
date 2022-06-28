@@ -19,7 +19,7 @@ function ReferSection() {
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
+          <h5>Refer Your Friend</h5>
           <p>Fill the below Details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>

@@ -18,7 +18,7 @@ const OtherCertificate = ({
   }) => {
   return (
     <section className={styles.OtherCertificate}>
-          <h4>Other Certificate</h4>
+          <h4>Other Certificates</h4>
         <div className={styles.OtherCertificatediv}>
             <div className={styles.OtherCertificateInner}>
                 <p className={styles.heading}>{OCHead1}</p>

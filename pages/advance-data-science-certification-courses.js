@@ -250,8 +250,7 @@ export default function Home() {
         PFeatures16="Yes"
         PFeatures17="No"
         PFeatures18="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
-        sub2="Data Science & AI
-        Advance Program"
+        sub2="Advanced Data Science and AI Program"
         Price2="₹79,000 + GST"
         PFeatures21=" 275+ Hours"
         PFeatures22=" Tech/Non-Tech Professionals"
@@ -261,8 +260,7 @@ export default function Home() {
         PFeatures26="Yes"
         PFeatures27="No"
         PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-        sub3="Data Science & AI
-        100% Job Guarantee Program"
+        sub3="Data Science and AI with Job Guarantee Program"
         Price3="₹1,25,000 + GST"
         PFeatures31=" 400+ Hours"
         PFeatures32="Tech/Non-Tech Professionals"

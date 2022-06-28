@@ -36,9 +36,9 @@ const Footer = () => {
           <p className={styles.FooterInnerP}>Courses</p>
           <a href="/data-science-certification-courses"><p className={styles.FooterInnerli}>Data Science and AI Foundation Program</p></a>
           <a href="/advance-data-science-certification-courses"><p className={styles.FooterInnerli}>Advanced DS and AI Program with Domain Specialization</p></a>
-          <a href="/artificial-intelligence-certification-course"><p className={styles.FooterInnerli}>Artificial Intelligence and ML Program With Domain Specialization Training</p></a>
+          <a href="/artificial-intelligence-certification-course"><p className={styles.FooterInnerli}>Artificial Intelligence and Machine Learning Program With Domain Specialization Training</p></a>
           <a href="/data-science-ai-for-managers"><p className={styles.FooterInnerli}>Data Science and Artificial Intelligence For Managers and Leaders</p></a>
-          <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><p className={styles.FooterInnerli}>Data science and AI Program with 100% Job Guarantee</p></a>
+          <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><p className={styles.FooterInnerli}>Data Science and AI Program with 100% Job Guarantee</p></a>
           <a href="/business-analytics-certification-course"><p className={styles.FooterInnerli}>Business Analytics Certification Program</p></a>
           <a href="/data-analytics-certification-course"><p className={styles.FooterInnerli}>Data Analytics Certification Program</p></a>
 

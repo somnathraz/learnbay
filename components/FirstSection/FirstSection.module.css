@@ -67,6 +67,7 @@
     flex-flow: column;
     height: 85vh;
     background-image: url("/mobile-version.png");
+    background-size: contain;
   }
   .First h1 {
     font-size: 25px;

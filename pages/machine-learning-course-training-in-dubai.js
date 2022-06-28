@@ -59,7 +59,7 @@ export default function Home() {
         deskTopPara="Product MNC Job-Ready Machine Learning Certification"
         mTopPara="Product MNC Job-Ready Machine Learning Certification"
         title="Machine learning course training in Dubai"
-        desc="Be eligible to work as an AI/ ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+        desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
         src="/course3.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf"
@@ -68,8 +68,8 @@ export default function Home() {
       <div className={styles.program}>
         <ProgramInfo
         p1="Eligibility"
-        p11="Tech Proffessionals"
-        p2="50LPA - 60LPA"
+        p11="Tech Professionals"
+        p2="50 LPA - 60 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -78,12 +78,12 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="6 IBM AI/ML micro-skill certificates."
-        WeekendBatchDate="IT-specific domain-Oriented Full Stack Learning"
-        Project="Advanced AI & ML Industry curated Training"
+        WeekdayBatchDate="6 IBM AI/ML micro-skill certificates"
+        WeekendBatchDate="IT-specific domain-oriented full stack learning"
+        Project="Advanced AI & ML industry curated training"
         Classes="Specially devised for techies"
         OneLine="12 live industry projects & 2 fresh Capstones"
-        Interview="Assured Interview calls from 250+ recruiter network"
+        Interview="Assured interview calls from 250+ recruiter network"
         Fee="95,000"
         Subscription="3 Year Subscription"
       />
@@ -95,7 +95,7 @@ export default function Home() {
           Box2h5="Domain Focused"
           box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG DS/AI industry experts."
+          box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />

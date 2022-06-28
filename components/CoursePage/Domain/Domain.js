@@ -60,7 +60,7 @@ const Domain = () => {
             <p>Healthcare, Pharma and Clinical Research Domain</p>
           </div></a>
           <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf" target="_blank"><div className={styles.middle2}>
-            <p>Retail, Ecommerce and Supply chain Domain</p>
+            <p>Retail, Ecommerce and Supply Chain Domain</p>
           </div></a>
           <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf" target="_blank"><div className={styles.bottom}>
             <p>Manufacturing, Mechanical and Telecom Domain</p>

@@ -118,8 +118,8 @@ export default function Home() {
             Courselink2="/advance-data-science-certification-courses"
             Courselink4="/data-science-ai-for-managers"
             Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
-            Course1="Foundational Data Science and AI program"
-            Course2="Advanced-Data Science and AI program with Domain Specialization"
+            Course1="Foundational Data Science and AI Program"
+            Course2="Advanced-Data Science and AI Program with Domain Specialization"
             Course4="Data Science and AI Program for Managers and Leaders"
             Course5="AI and Data Science Course with Job Guarantee or Money back"
 
@@ -212,7 +212,7 @@ export default function Home() {
     ProjectsH4="BMW Used Car Price Optimization"
     Projectsp4="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
 
-    AlumniBot1="We have emplaced numerous candidates in top global companies and startups. More than 1000+ Learnbay alumni have already started working as soon as they completed the course. Rest got recruited in a few months. Even 300+ candidates have directly joined data science project leadership or manager designation after completing the Data Science and AI program for Managers and leaders. Here are some of our alumni sharing their hard work and success:"
+    AlumniBot1="We have emplaced numerous candidates in top global companies and startups. More than 1000+ Learnbay alumni have already started working as soon as they completed the course. Rest got recruited in a few months. Even 300+ candidates have directly joined data science project leadership or manager designation after completing the Data Science and AI Program for Managers and leaders. Here are some of our alumni sharing their hard work and success:"
     Asrc1="/devraj.jpg" 
     AlumniH1="Deveraj" 
     Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."

@@ -55,7 +55,7 @@ export default function Home() {
         mTopPara="Project Management Capstones Certified by IBM"
         title="Data Science and Artificial Intelligence"
         spanTitleText="For Managers and Leaders"
-        desc="Become a successful data science manager/ leader within 11-months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects."
+        desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects."
         src="/course4.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
@@ -65,7 +65,7 @@ export default function Home() {
         <ProgramInfo
         p1="Eligibility"
         p11="Executive-level experience"
-        p2="35LPA - 65LPA"
+        p2="35 LPA - 65 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -74,12 +74,12 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="8 micro-skill certificates by IBM."
-        WeekendBatchDate="Special data science modules of PM"
+        WeekdayBatchDate="8 micro-skill certificates by IBM"
+        WeekendBatchDate="Special data science modules of Project Management"
         Project="12+ domain electives to choose from "
         Classes="Specially devised for leadership-level pros"
-        OneLine="15 live industry projects & 2 fresh Capstones Projects"
-        Interview="Assured Interview calls from 250+ recruiter network"
+        OneLine="15 live industry projects & 2 fresh capstones projects"
+        Interview="Assured interview calls from 250+ recruiter network"
         Fee="95,000"
         Subscription="3 Year Subscription"
       />
@@ -268,8 +268,7 @@ export default function Home() {
         PFeatures26="Yes"
         PFeatures27="No"
         PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-        sub3="Data Science & AI
-        100% Job Guarantee Program"
+        sub3="Data Science and AI with Job Guarantee Program"
         Price3="₹1,25,000 + GST"
         PFeatures31=" 400+ Hours"
         PFeatures32="Tech/Non-Tech Professionals"
@@ -286,7 +285,7 @@ export default function Home() {
       CourseFeelist1="Online interactive classes"
       CourseFeelist2="Weekend and Weekday Batches"
       CourseFeelist3="Extra doubt clearance sessions"
-      CourseFeelist4="Multiple domain + Project Expertise"
+      CourseFeelist4="Multiple domains + Project Expertise"
       CourseFeelist5="Company-based mock interviews"
 
       />

@@ -51,7 +51,7 @@ export const viewAllD = [
   {
     id: 5,
     img: "/Job-garranty.png",
-    title: "Data Science and AI with Job Guarantee",
+    title: "Data Science and AI with Job Guarantee Program",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
@@ -192,7 +192,7 @@ export const JobGuaranteeD = [
   {
     id: 1,
     img: "/Job-garranty.png",
-    title: "Data Science and AI with Job Guarantee",
+    title: "Data Science and AI with Job Guarantee Program",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",

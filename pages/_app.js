@@ -142,10 +142,6 @@ function MyApp({ Component, pageProps }) {
     {
       Router.push("http://13.233.83.220:3000/artificial-intelligence-ai-course-training-dubai/");
     }
-    if (pathname === "/contact-us")
-    {
-      Router.push("/about-us");
-    }
   });
   
   return (

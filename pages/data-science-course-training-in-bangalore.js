@@ -62,7 +62,6 @@ export default function Home() {
         src="/course2.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf"
-
       />
       <div className={styles.program}>
         <ProgramInfo
@@ -115,8 +114,8 @@ export default function Home() {
             Courselink2="/advance-data-science-certification-courses"
             Courselink4="/data-science-ai-for-managers"
             Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
-            Course1="Foundational Data Science and AI program"
-            Course2="Advanced-Data Science and AI program with Domain Specialization"
+            Course1="Foundational Data Science and AI Program"
+            Course2="Advanced-Data Science and AI Program with Domain Specialization"
             Course4="Data Science and AI Program for Managers and Leaders"
             Course5="AI and Data Science Course with Job Guarantee or Money back"
 

@@ -51,9 +51,9 @@ export default function Home() {
       <FirstSection
         deskTopPara="IBM Certification"
         mTopPara="IBM Certification"
-        title="Data science and AI Program"
+        title="Data Science and AI Program"
         spanTitleText="with 100% Job Guarantee"
-        desc="Assured data science career tradition for 18 months. Learn the industry-specific best practices by working on fresh industry projects. Get assured money back on unsuccessful placement."
+        desc="Assured data science career transition within 18 months. Learn the industry-specific best practices by working on fresh industry projects. Get assured money back on unsuccessful placement."
         src="/course5.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/5th+Guarantee.pdf"
@@ -63,7 +63,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Working Professionals"
-        p2="35LPA - 50LPA"
+        p2="35 LPA - 50 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -74,7 +74,7 @@ export default function Home() {
       <GetHired 
         WeekdayBatchDate="Course Completion Certificate from IBM"
         WeekendBatchDate="Within 6 months, either job or full refund"
-        Project="15 live industry projects & 3 fresh Capstones Projects"
+        Project="15 live industry projects & 3 fresh capstones projects"
         Classes="10+ Domain-Electivess associated with full-stack modules"
         OneLine="Specially devised for leadership-level pros"
         Interview="Special coding classes for non-programmers"
@@ -236,7 +236,7 @@ export default function Home() {
         </div>
       </div>
       <HowApply
-      CCourse="Enroll in Data Science and AI Program with job guarantee."
+      CCourse="Enroll in Data Science and AI Program with Job Guarantee."
       />
       <Fee
         sub1="Data Science and AI Foundation Program"
@@ -249,8 +249,7 @@ export default function Home() {
         PFeatures16="Yes"
         PFeatures17="No"
         PFeatures18="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
-        sub2="Data Science & AI
-        Advance Program"
+        sub2="Advanced Data Science and AI Program"
         Price2="₹79,000 + GST"
         PFeatures21=" 275+ Hours"
         PFeatures22=" Tech/Non-Tech Professionals"
@@ -260,8 +259,7 @@ export default function Home() {
         PFeatures26="Yes"
         PFeatures27="No"
         PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-        sub3="Data Science & AI
-        100% Job Guarantee Program"
+        sub3="Data Science and AI with Job Guarantee Program"
         Price3="₹1,25,000 + GST"
         PFeatures31=" 400+ Hours"
         PFeatures32="Tech/Non-Tech Professionals"
@@ -278,7 +276,7 @@ export default function Home() {
       CourseFeelist1="Online interactive classes"
       CourseFeelist2="Weekend and Weekday Batches"
       CourseFeelist3="Extra clearance sessions"
-      CourseFeelist4="Multiple domain & Project Experties selection options"
+      CourseFeelist4="Multiple domain & Project experties selection options"
       CourseFeelist5="Company-based mock interviews"
 
       />

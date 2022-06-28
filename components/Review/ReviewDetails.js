@@ -31,7 +31,7 @@ export const ReviewD = [
         id: 4,
         img: "/profile.png",
         title: "Sai venkat Reddy",
-        para: "Learnbay is the best coaching institute for both students who are from non programming background and programming experience. The teacher's here are highly experienced, qualified and patient with the students. They teach you from scratch. I am a mechanical engineering student. I took Data Science and AI program and successfully completed in 6 month's in this institute. They have issued me the IBM certification. I suggest you all go for this Institute. They respond quickly and suggest you well."
+        para: "Learnbay is the best coaching institute for both students who are from non programming background and programming experience. The teacher's here are highly experienced, qualified and patient with the students. They teach you from scratch. I am a mechanical engineering student. I took Data Science and AI Program and successfully completed in 6 month's in this institute. They have issued me the IBM certification. I suggest you all go for this Institute. They respond quickly and suggest you well."
 
      
       },
