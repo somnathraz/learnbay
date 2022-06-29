@@ -116,7 +116,7 @@ export default function Home() {
             ProgramHead5="Here you get domain-specific full-stack machine learning training."
             ProgramBot5="Learnbay machine learning program consists of 300 hours of live and interactive learning only. Even you get on-demand 1-on-1 doubt clearance sessions from the industry experts. Even the project sessions are completely live, and you get the advantage of learning industrial tricks and tips from the ML whizzes."
             ProgramHead6="Best possible flexible Learning Environment for working professionals:"
-            ProgramBot6="Time management for the live or offline classes has become the greatest concern for working professionals. This is the key reason why about 70% of aspirants choose self-paced online machine learning courses. But Learnbay offers working professionals the opportunity of attending offline or online interactive classes without disturbing their current job. The machine learning certification course in Mumbai comes with a 3-years of flexible subscription. Using such a subscription, you can change your batch and instructor and even pause/ resume your course completely hassle-free."
+            ProgramBot6="Time management for the live or offline classes has become the greatest concern for working professionals. This is the key reason why about 70% of aspirants choose self-paced online machine learning courses. But Learnbay offers working professionals the opportunity of attending offline or Online Interactive Classes without disturbing their current job. The machine learning certification course in Mumbai comes with a 3-years of flexible subscription. Using such a subscription, you can change your batch and instructor and even pause/ resume your course completely hassle-free."
             ProgramHead7="Dedicated support to weak programmers:"
             ProgramBot7="Learnbay machine learning training program in Mumbai is specified for candidates with technical backgrounds. But it does not mean that everyone comes with a python or R programming expertise when joining the course. In fact, the lack of programming expertise is a key reason why a number of certified machine learning candidates in Mumbai are still jobless."
             ProgramBot8="Learnbay offers additional programming skills honing sessions with preparatory python and R classes along with exclusive hackathons."
@@ -157,7 +157,7 @@ export default function Home() {
             ModuleBot1="The ultimate magic of this IBM machine learning course lies in this submodule designing and training execution. The course comprises 15+ modules that cover all the trending concepts and tools of ML. But it’s not like a random stuffing of demeaning ML tools and techniques. The submodules are well-planned to ensure a bottom-up training approach so that even a complete novice of programming and statistics can also learn with 100% efficiency. Apart from the advanced modules like Big data, Spark analytics, and NLP, Learnbay provides basic python and R-related modules too."
             ModuleBot2="The entire course modules are well-balanced in theoretical and practical machine learning training."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

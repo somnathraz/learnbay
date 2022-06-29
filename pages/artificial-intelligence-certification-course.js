@@ -51,11 +51,12 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="Industrial Capstone Certificate by IBM"
-        mTopPara="Industrial Capstone Certificate by IBM"
+        deskTopPara="Boost Your Professional Growth"
+        deskTopPara1="To a Whole New Level"
+        mTopPara="Boost Your Professional Growth"
+        mTopPara1="To a Whole New Level"
         title="Artificial Intelligence and Machine Learning Program"
-        spanTitleText="With Domain Specialization Training"
-        desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+        desc="With demanding industry projects, you can acquire the most advanced technical expertise possible. Be a master even without a master's degree."
         src="/course3.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
@@ -145,7 +146,7 @@ export default function Home() {
     JobSessionsText="Job Oriented Sessions"
     Modules="18"
     ModulesText="Tools & Modules"
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"
@@ -279,11 +280,11 @@ export default function Home() {
       <CourseFee 
       CourseFeeHead="Artificial Intelligence & Machine Learning Course Fee"
       CourseFeePara="Online Classroom"
-      CourseFeelist1="Online interactive classes"
+      CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
-      CourseFeelist3="Extra doubt clearance sessions"
+      CourseFeelist3="Extra Doubt Clearance Sessions"
       CourseFeelist4="Multiple domain selection options"
-      CourseFeelist5="Company-based mock interviews"
+      CourseFeelist5="Company-based Mock Interviews"
 
       />
       <ReferSection />

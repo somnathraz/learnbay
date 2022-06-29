@@ -48,11 +48,13 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="Exclusive Industrial Project-based Training"
-        mTopPara="Exclusive Industrial Project-based Training"
+        deskTopPara="Enhance your earning potential"
+        deskTopPara1="with industry-specific training"
+        mTopPara="Enhance your earning potential"
+        mTopPara1="with industry-specific training"
         title="Data Science and AI"
-        spanTitleText="Foundation Course"
-        desc="This IBM Collaborated Data Science Course is for tech and non-tech professionals. This program guarantees a smooth transition into Junior Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions"
+        spanTitleText="Foundation Program"
+        desc="This program ensures a smooth transition into Jr. Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions."
         src="/course1.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/1st+DSAI+Foundation.pdf"
@@ -137,7 +139,7 @@ export default function Home() {
     JobSessionsText="Job Oriented Sessions"
     Modules="10"
     ModulesText="Tools & Modules"
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"
@@ -262,11 +264,11 @@ export default function Home() {
       <CourseFee 
       CourseFeeHead="Data Science Course Fees"
       CourseFeePara="Online Classroom"
-      CourseFeelist1="Online interactive classes"
+      CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
       CourseFeelist3="Extra clearance sessions"
       CourseFeelist4="Project-Based Learning"
-      CourseFeelist5="Company-based mock interviews"
+      CourseFeelist5="Company-based Mock Interviews"
 
       />
       <ReferSection />

@@ -66,11 +66,28 @@ button {
 }
 
 .pTop {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 500;
   margin: 0;
   margin-bottom: 20px;
   color: black;
+  line-height: 40px;
+}
+
+.pTopp {
+  font-size: 28px;
+  font-weight: 500;
+  padding: 2px 8px;
+  color: #fff;
+  background-image: linear-gradient(90deg,#00669B 0,#1077AD 25%,#2B8DC1 57%,#2D9CD7 80%);
+  border-radius: 5px;
+}
+
+.spanh1 {
+  font-size: 26px;
+  margin: 0;
+  font-weight: 400;
+  padding: 0;
 }
 
 .pBot {

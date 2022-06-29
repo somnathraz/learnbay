@@ -152,7 +152,7 @@ export default function Home() {
             ModuleBot1="Learnbay Artificial intelligence training in Pune consists of 400hrs of hassle-free classes led by MAANG experts. Our foundational and advanced program has around 200+ classes. Here you get 18+ AI modules and tools."
             ModuleBot2="Each of the AI courses offered by Learnbay are planned with different modules as per the consented career stage of the professionals. All of the courses are equipped with properly balanced theoretical and practical sub-modules. The most important modules that Learnbay artificial intelligence course covers are SQL, Pandas, Numpy, Data visualization, NP, artificial neural network, etc. Keeping the non-programmer huddle about programming in mind, Learnbay AI courses also offer basic programming sub-modules."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

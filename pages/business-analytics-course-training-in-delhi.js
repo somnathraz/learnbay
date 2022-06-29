@@ -68,7 +68,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Early professionals"
-        p2="12LPA - 20LPA"
+        p2="12 LPA - 20 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -77,11 +77,11 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Industry-curated Training via real-world analytics"
+        WeekdayBatchDate="Industry-curated training via real-world analytics"
         WeekendBatchDate="Elementary programming classes for non-technical pros"
-        Project="Especially devices for early pros or aspirants with career gap"
+        Project="Especially designed for early pros or aspirants with career gap"
         Classes="Learn the most trending analytical trick from MNC experts"
-        OneLine="Industrial Business analytics certifications for IBM"
+        OneLine="Industrial Business Analytics certifications for IBM"
         Interview="5 live industry projects and 100% interview call assurance"
         Fee="65,000"
         Subscription="1.5 Year Subscription"
@@ -121,7 +121,7 @@ export default function Home() {
             ModuleHead2="Special programming classes:"
             ModuleBot3="Learnbay offers an exclusive series of programming classes in Python and R to support learners coming from non-technical backgrounds. Hence, non-programmers don't need to think twice before enrolling in Learnbay’s business analytics course."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"
@@ -141,7 +141,7 @@ export default function Home() {
     syllabusb3="30 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"
     SyllabusBotlist32="Permutation & Combination"
-    SyllabusBotlist33="Descriptive"
+    SyllabusBotlist33="Descriptive Stats"
     SyllabusBotlist34="Hypothesis Testing"
     SyllabusBotlist35="Time Series Analysis"
     SyllabusBotlist36="Inferential Stats"

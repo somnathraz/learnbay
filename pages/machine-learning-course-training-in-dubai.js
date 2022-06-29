@@ -150,7 +150,7 @@ export default function Home() {
             ModuleBot2="This 9.5-month training program is well balanced in theoretical and practical training that covers the essential topics of AI and ML algorithms, Statistics, TensorFlow Time Series analysis, regression tree, etc. Apart from these ML modules, Learnbay also provides an additional basic Python and R programming module. Consequently, learners' weeks in programming need not be concerned about a lack of coding experience."
             ModuleBot3="Moreover, 70% of the modules direct you to do practical coding where you have to tricky apply your learned theoretical concerts. To make you adequately alert for the real world, we focus more on hands-on training rather than traditional theoretical learning."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

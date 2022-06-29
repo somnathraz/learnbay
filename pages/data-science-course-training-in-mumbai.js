@@ -162,7 +162,7 @@ export default function Home() {
             ModuleHead3="How do Learnbay data science modules become the best-fit learning options for non-tech aspirants?"
             ModuleBot4="We have added a modules 0 option for non-programmers. These modules also provide 6 to 8 hours of live and interactive training on the basics of R and python programming for data science. These additional classes are free of cost and ensure that you stay on track with your technical batchmates, even though you don’t have any programming experience."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

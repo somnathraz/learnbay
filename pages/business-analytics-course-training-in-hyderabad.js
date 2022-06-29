@@ -68,7 +68,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Early professionals"
-        p2="12LPA - 20LPA"
+        p2="12 LPA - 20 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -77,11 +77,11 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Industry-curated Training via real-world analytics"
+        WeekdayBatchDate="Industry-curated training via real-world analytics"
         WeekendBatchDate="Elementary programming classes for non-technical pros"
-        Project="Especially devices for early pros or aspirants with career gap"
+        Project="Especially designed for early pros or aspirants with career gap"
         Classes="Learn the most trending analytical trick from MNC experts"
-        OneLine="Industrial Business analytics certifications for IBM"
+        OneLine="Industrial Business Analytics certifications for IBM"
         Interview="5 live industry projects and 100% interview call assurance"
         Fee="65,000"
         Subscription="1.5 Year Subscription"
@@ -120,7 +120,7 @@ export default function Home() {
             ModuleBot2="Business analysts identify, document, and evaluate data to improve corporate performance to produce solutions employing certain skill sets. Within 5 to 6.5 months, Learnbay’s IBM business analytics course module covers all of the ideas and techniques needed to be a successful business analyst. This course will teach you to use basic data analytics tools and techniques in many sectors and business analyst professions. You'll also learn to operate advanced  Excel to analyze data and create models, SQL to query databases, and Tableau, Power BI to create visually appealing data visualizations."
             ModuleBot3="Non-programmers can take fundamental Python programming classes and learn the language from the basics. As a result, people from all walks of industry are welcomed to apply for the Learnbay IBM business analytics course."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"
@@ -140,7 +140,7 @@ export default function Home() {
     syllabusb3="30 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"
     SyllabusBotlist32="Permutation & Combination"
-    SyllabusBotlist33="Descriptive"
+    SyllabusBotlist33="Descriptive Stats"
     SyllabusBotlist34="Hypothesis Testing"
     SyllabusBotlist35="Time Series Analysis"
     SyllabusBotlist36="Inferential Stats"

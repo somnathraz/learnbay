@@ -39,7 +39,7 @@ export const viewAllD = [
   {
     id: 4,
     img: "/managers-and-leaders-1.png",
-    title: "Data Science and AI for Managers & Leaders",
+    title: "Data Science and AI for Managers & Leaders Program",
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -66,7 +66,7 @@ export const viewAllD = [
     title: "Data Analytics Program",
     para: [
       "180 hours of Interactive Learning",
-      "5 projects",
+      "5 Projects",
       "Course Fee : ₹ 60,000 + GST",
     ],
         link1: "/data-analytics-certification-course",
@@ -78,7 +78,7 @@ export const viewAllD = [
     title: "Business Analytics Program",
     para: [
       "200 hours of Interactive Learning",
-      "5 projects",
+      "5 Projects",
       "Course Fee : ₹ 65,000 + GST",
     ],
         link1: "/business-analytics-certification-course",
@@ -130,7 +130,7 @@ export const ForNonProgrammerD = [
     title: "Data Analytics Program",
     para: [
       "180 hours of Interactive Learning",
-      "5 projects",
+      "5 Projects",
       "Course Fee : ₹ 60,000 + GST",
     ],
         link1: "/data-analytics-certification-course",
@@ -142,7 +142,7 @@ export const ForNonProgrammerD = [
     title: "Business Analytics Program",
     para: [
       "200 hours of Interactive Learning",
-      "5 projects",
+      "5 Projects",
       "Course Fee : ₹ 65,000 + GST",
     ],
         link1: "/business-analytics-certification-course",
@@ -177,7 +177,7 @@ export const ForManagerD = [
   {
     id: 3,
     img: "/managers-and-leaders-1.png",
-    title: "Data Science and AI for Managers & Leaders",
+    title: "Data Science and AI for Managers & Leaders Program",
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",

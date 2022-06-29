@@ -48,7 +48,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                       />
                     </div>
                     <div className={styles.name}>
-                      <p>Working at The math</p>
+                      <p>Working at TheMath</p>
                       <h5>Aravind Kumar</h5>
                     </div>
                   </div>
@@ -175,7 +175,7 @@ All Thanks to Learnbay!<br />
                       />
                     </div>
                     <div className={styles.name}>
-                      <p>Working at The math</p>
+                      <p>Working at TheMath</p>
                       <h5>Aravind Kumar</h5>
                     </div>
                   </div>

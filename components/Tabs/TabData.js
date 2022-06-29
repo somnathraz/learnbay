@@ -9,7 +9,7 @@ const TabData = [
   },
   {
     id: "Software Development",
-    title: "For non-techies",
+    title: "For Non-techies",
   },
   {
     id: "Cloud Computing",

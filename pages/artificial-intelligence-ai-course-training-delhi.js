@@ -156,7 +156,7 @@ export default function Home() {
             ModuleBot3="Learnbay Artificial Intelligence (AI) course training in Delhi’s every module is specific to the student's selected domain. It includes, among other things, the most popular AI tools, advanced probability, Numpy, Pandas, Matplotlib, Deep Learning, and MongoDB."
             ModuleBot4="Students with weak programming backgrounds will benefit from an additional 6-8 hours of basic programming sessions (at zero added cost) designed in the course module."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

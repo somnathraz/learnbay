@@ -153,7 +153,7 @@ export default function Home() {
             ModuleBot1="Learnbay provides a space for non-techies to learn and improve coding skills in special basic coding classes. Clear any doubt at Learnbay in 1-1 sessions for a clear understanding. Bangalore's Learnbay Data science course consists of 8 MNC projects and 1 capstone project. You can even attend multiple classes and instructors as you like."
             ModuleBot2="Learnbay faculties help you to operate Data science tools. The tools can be Oracle, Database, MYSQL, SQL server, or tera data. Our experts teach you how to use your probability, statistics, and mathematical analysis skills. At Learnbay, you master R, Python, and SAS; these are the few tools for analyzing data. Learn Python, Statistics, Machine learning, Advance Excel, SQL, MONGO-DB, TABLEAU, POWER BI, BIG DATA, SPARK ANALYTICS, and TIME SERIES. These are the programs you will learn to work with while completing your data science course in Bangalore."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

@@ -68,7 +68,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Early professionals"
-        p2="12LPA - 20LPA"
+        p2="12 LPA - 20 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -77,11 +77,11 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Industry-curated Training via real-world analytics"
+        WeekdayBatchDate="Industry-curated training via real-world analytics"
         WeekendBatchDate="Elementary programming classes for non-technical pros"
-        Project="Especially devices for early pros or aspirants with career gap"
+        Project="Especially designed for early pros or aspirants with career gap"
         Classes="Learn the most trending analytical trick from MNC experts"
-        OneLine="Industrial Business analytics certifications for IBM"
+        OneLine="Industrial Business Analytics certifications for IBM"
         Interview="5 live industry projects and 100% interview call assurance"
         Fee="65,000"
         Subscription="1.5 Year Subscription"
@@ -110,7 +110,7 @@ export default function Home() {
             ProgramBot2="The modules are designed by business analyst experts according to current industry expectations. We provide customized and up-to-date business analytics modules in such a way that it's understandable to our learners. Learnbay mentors are experienced and highly skilled at training young enthusiasts and helping them transform into future-ready experts. It has a practical learning model that includes interactive sessions by top experts and real-world business analytics projects from different industries."
             ProgramHead3="Why should you enroll in a business analytics Certification in Chennai from Learnbay?"
             ProgramBot3="Learnbay is the only institute with a high level of commitment in Chennai. Its main motive is to provide high-quality education to aspiring BI professionals. All business professionals, even those with no prior analytical knowledge, can benefit from this business analytics course with placement."
-            ProgramBot31="Here, the class timings are flexible and It's easy to switch between batches and trainers at any moment. Additionally, We provide special programming sessions for non-IT students. Its main objective is to impart hands-on practical training in Chennai. Using industrial projects, you’ll use your abilities to analyze real-world data collection and develop a business plan using our cloud lab feature. We also arrange extra doubt clearance sessions with mentors to fast-track your learning process. Flexi subscription is a unique feature where you’ll get unlimited access to Learnbay LMS. With this unique feature, learners can pause and resume their training at their own pace.
+            ProgramBot31="Here, the class timings are flexible and It's easy to switch between batches and trainers at any moment. Additionally, We provide special programming sessions for non-IT students. Its main objective is to impart hands-on practical training in Chennai. Using industrial projects, you’ll use your abilities to analyze real-world data collection and develop a business plan using our cloud lab feature. We also arrange Extra Doubt Clearance Sessions with mentors to fast-track your learning process. Flexi subscription is a unique feature where you’ll get unlimited access to Learnbay LMS. With this unique feature, learners can pause and resume their training at their own pace.
             "
             ProgramBot32="Know more about the Learnbay Business Analytics Course in Chennai. "
 
@@ -126,7 +126,7 @@ export default function Home() {
             ModuleBot4="The business analytics course in Chennai consists of 200 hours of live interactive classes from MAANG experts. Aside from this, students can also discuss their doubts via the discussion forum and one-on-one with mentors."
             ModuleBot41="Business analysts generally define, document, and analyze data to develop solutions using specific skillsets to improve business performance. This IBM business analytics course module covers all of the concepts and tools necessary to succeed as a business analyst within 6 months of duration. Throughout this course, you'll learn basic data analytics tools and techniques that are applicable in a variety of industries and business analyst job roles. You'll also learn how to use Excel to analyze data and make models, query databases with SQL, and make interesting data visualizations with Tableau."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"
@@ -146,7 +146,7 @@ export default function Home() {
     syllabusb3="30 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"
     SyllabusBotlist32="Permutation & Combination"
-    SyllabusBotlist33="Descriptive"
+    SyllabusBotlist33="Descriptive Stats"
     SyllabusBotlist34="Hypothesis Testing"
     SyllabusBotlist35="Time Series Analysis"
     SyllabusBotlist36="Inferential Stats"

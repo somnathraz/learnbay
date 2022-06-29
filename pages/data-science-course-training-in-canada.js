@@ -155,7 +155,7 @@ export default function Home() {
             ModuleBot1="Our data science courses are designed to be straightforward and simple to follow while providing the greatest possible foundation in data science. Our instructor-led online data science course teaches students the key principles of data science and how to use these skills in the workplace. Topics include data visualization, machine learning, statistical inference and time series analysis, and other data science tools. Our instructor explains each concept using real-world scenarios."
             ModuleBot2="Additionally, we've added Module 0 to the data science curriculum package, which focuses on Python and R programming. Non-technical individuals can take advantage of these specialized classes to accelerate their learning in each module."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

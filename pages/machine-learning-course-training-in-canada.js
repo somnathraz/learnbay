@@ -144,7 +144,7 @@ export default function Home() {
             ModuleHead2="Module 0 : "
             ModuleBot3="Programming is the basic skill you need in the machine learning field. Students are expected to have some familiarity with the Basics of Programming. As a result, we have launched Module 0 in our IBM machine learning course for non-coders. Students will be given special access to programming classes in order to keep pace with the need of each and every course. Apart from that, we arrange exclusive hackathons so that student can self-assess their growing coding abilities and improve the same accordingly."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

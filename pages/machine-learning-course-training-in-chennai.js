@@ -159,7 +159,7 @@ export default function Home() {
             ModuleBot1="Our Machine learning course in Chennai mainly focuses on programming and machine learning tools along with advanced statistical applications. Each of these modules includes a variety of domain-based case studies and assignments pertaining to machine learning applications."
             ModuleBot2=" In addition, we also provide basic programming classes so that you can cover up easily in case you are weak in coding. All of our modules are entirely dedicated to the chosen area of expertise. Our modules cover the tools and techniques like all of the trending ML algorithms, advanced-level probability, Numpy, Pandas, Matploitlip, big data analytics, etc. "
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

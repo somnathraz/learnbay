@@ -157,7 +157,7 @@ export default function Home() {
             ModuleBot1="Learnbay's Machine Learning course in Hyderabad includes 300 hours of hassle-free live classes with MAANG experts. Students can quickly gain advanced industry expertise with the help of 18+ well-planned machine learning modules. Not only that, but each of the modules has a succession of submodules ranging from basic to advanced, allowing everyone, even a total novice of ML, to benefit from the course."
             ModuleBot2="Learnbay assists students in learning the fundamentals of coding for novice programmers. Our professors update code assignments regularly, and we even host webinars and hackathons for students to study together. Learnbay's industrial ML course focuses on tools and abilities, including big data analytics, data structure and algorithm, NLP, time- analytics, and so on, based on current industry developments."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

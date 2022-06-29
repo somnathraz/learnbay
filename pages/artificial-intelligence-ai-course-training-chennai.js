@@ -157,7 +157,7 @@ export default function Home() {
             ModuleHead2="Support for Non-programmers:"
             ModuleBot3="We've provided the module 0 option in the IBM artificial intelligence course. This module is intended for non-technical students who will be provided with 6-8 hours of programming classes so that they can be on the same track as their programming ninja batchmates."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

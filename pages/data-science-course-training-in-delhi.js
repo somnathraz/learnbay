@@ -157,7 +157,7 @@ export default function Home() {
             ModuleBot3="Our learning courses are all based completely on your domain knowledge. As a result, all of the skills and technologies you learn here provide best practices-based training for your chosen business."
             ModuleBot4="For non-programmers, we've provided a module option. These modules also include 6 to 8 hours of live and interactive data science programming training in R and Python. Even if you don't have any programming knowledge, these extra classes are free and ensure that you stay on track with your data science classes."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

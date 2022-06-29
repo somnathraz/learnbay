@@ -149,7 +149,7 @@ export default function Home() {
             ModuleBot1="The Learnbay Machine Learning program in Pune consists of 300 hrs of uninterrupted live classes from MAANG experts. More than 18 specially planned Machine Learning modules are there, so students can be thoroughly trained for super industrial skills. Every module at Learnbay has its sub-module, from basic to advanced."
             ModuleBot2="Leanbay understands the difficulty of non-programmers learning ML, so we conduct special coding classes for such students. The Learnbay Faculty team constantly updates all assignments and projects. We even conduct Webinars and hackathons for students to hone their coding skills. Learnbay teaches students to work with advanced ML skills that world-class business giants are presently operating, like Big Data Analytics, NLP, Time-Analysis, Data structure, algorithms, etc."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

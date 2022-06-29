@@ -49,11 +49,13 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="IBM Certification"
-        mTopPara="IBM Certification"
+        deskTopPara="Boost your career opportunities"
+        deskTopPara1="by developing relevant skills."
+        mTopPara="Boost your career opportunities "
+        mTopPara1="by developing relevant skills."
         title="Data Science and AI Program"
         spanTitleText="with 100% Job Guarantee"
-        desc="Assured data science career transition within 18 months. Learn the industry-specific best practices by working on fresh industry projects. Get assured money back on unsuccessful placement."
+        desc="✓ Domain Orientated approach ✓ Assured placement within 18 months."
         src="/course5.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/5th+Guarantee.pdf"
@@ -138,7 +140,7 @@ export default function Home() {
     JobSessionsText="Job Oriented Sessions"
     Modules="18"
     ModulesText="Tools & Modules"
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"
@@ -273,11 +275,11 @@ export default function Home() {
       <CourseFee 
       CourseFeeHead="Program Fee"
       CourseFeePara="Online Classroom"
-      CourseFeelist1="Online interactive classes"
+      CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
       CourseFeelist3="Extra clearance sessions"
       CourseFeelist4="Multiple domain & Project experties selection options"
-      CourseFeelist5="Company-based mock interviews"
+      CourseFeelist5="Company-based Mock Interviews"
 
       />
       <ReferSection />
