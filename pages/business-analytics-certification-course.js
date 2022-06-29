@@ -47,11 +47,13 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="Industry-paced Project-based Training"
-        mTopPara="Industry-paced Project-based Training"
+       deskTopPara="Develop Work-Ready Skills"
+        deskTopPara1="You Can Use Right Away"
+        mTopPara="Develop Work-Ready Skills"
+        mTopPara1="You Can Use Right Away"
         title="Business Analytics"
-        spanTitleText="Certification Course"
-        desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
+        spanTitleText="Certification Program"
+        desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
         src="/course7.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/7th+BA.pdf"
@@ -61,7 +63,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Early professionals"
-        p2="12LPA - 20LPA"
+        p2="12 LPA - 20 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -70,10 +72,10 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Industry-curated Training via real-world analytics"
-        WeekendBatchDate="Industrial Business analytics certifications for IBM"
+        WeekdayBatchDate="Industry-curated training via real-world analytics"
+        WeekendBatchDate="Industrial Business Analytics certifications for IBM"
         Project="Elementary programming classes for non-technical pros"
-        Classes="Especially devices for early pros or aspirants with career gap"
+        Classes="Especially designed for early pros or aspirants with career gap"
         OneLine="Learn the most trending analytical trick from MNC experts"
         Interview="5 live industry projects and 100% interview call assurance"
         Fee="65,000"
@@ -137,7 +139,7 @@ export default function Home() {
     JobSessionsText="Job Oriented Sessions"
     Modules="8"
     ModulesText="Tools & Modules"
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"
@@ -153,11 +155,11 @@ export default function Home() {
     SyllabusBotlist24="Conditional Statement"
     SyllabusBotlist25="File & Exceptional Handling"
     SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
-    syllabush3="Statistics and Machine Learning"
+    syllabush3="Statistics"
     syllabusb3="30 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"
     SyllabusBotlist32="Permutation & Combination"
-    SyllabusBotlist33="Descriptive"
+    SyllabusBotlist33="Descriptive Stats"
     SyllabusBotlist34="Hypothesis Testing"
     SyllabusBotlist35="Time Series Analysis"
     SyllabusBotlist36=" Inferential Stats"
@@ -170,7 +172,7 @@ export default function Home() {
     SyllabusBotlist44="Customer Churn Prediction"
     SyllabusBotlist45="Inventory Demand Forecasting"
     SyllabusBotlist46="Retain Analytics"
-    syllabush5="Data Science &
+    syllabush5="Business Analytics &
     AI Tools"
     syllabusb5="118+ Hours"
     SyllabusBotlist51="Advance Excel"
@@ -225,16 +227,16 @@ export default function Home() {
         </div>
       </div>
       <HowApply
-      CCourse="Enroll in the Industrial Data analytics program."
+      CCourse="Enroll in the Industrial Business analytics program."
       />
       <CourseFee 
       CourseFeeHead="Data Analytics Course Fees"
       CourseFeePara="Online Classroom"
-      CourseFeelist1="Online interactive classes"
+      CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
-      CourseFeelist3="Extra doubt clearance sessions"
+      CourseFeelist3="Extra Doubt Clearance Sessions"
       CourseFeelist4="Project-Based Learning"
-      CourseFeelist5="Company-based mock interviews"
+      CourseFeelist5="Company-based Mock Interviews"
 
       />
       <ReferSection />

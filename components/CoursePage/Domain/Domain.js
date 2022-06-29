@@ -65,9 +65,9 @@ const Domain = () => {
           <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf" target="_blank"><div className={styles.bottom}>
             <p>Manufacturing, Mechanical and Telecom Domain</p>
           </div></a>
-          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/For+MS+Aspirants++AIML.pdf" target="_blank"><div className={styles.bottom1}>
+          {/* <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/For+MS+Aspirants++AIML.pdf" target="_blank"><div className={styles.bottom1}>
             <p>For MS Aspirants AI/ML</p>
-          </div></a>
+          </div></a> */}
         </div>
         <div className={styles.left}>
         <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf" target="_blank"><div className={styles.top}>
@@ -88,12 +88,12 @@ const Domain = () => {
         </div>
         <div className={styles.right}>
         <Image
-          src="/domain.webp"
+          src="/domain.png"
           alt="data-science-course"
           quality={100}
           layout="intrinsic"
           width="500"
-          height="600"
+          height="510"
         />
         </div>
       </div>

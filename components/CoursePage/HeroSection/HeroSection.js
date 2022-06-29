@@ -20,6 +20,8 @@ const HeroSection = ({
   src,
   alt,
   srcD,
+  deskTopPara1,
+  mTopPara1,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -53,15 +55,16 @@ const HeroSection = ({
       </Popup>
       <div className={styles.left}>
         {mobile ? (
-          <p className="pTop">{mTopPara}</p>
+          <p className="pTop"><b className="pTopp">{mTopPara}</b> <br /><br /> {mTopPara1}</p>
+          
         ) : (
-          <p className="pTop">{deskTopPara}</p>
+          <p className="pTop"><b className="pTopp">{deskTopPara}</b> <br /> {deskTopPara1}</p>
+          
         )}
 
         <h1>
-          {title}
-          <p> {spanTitleText}</p>
-        </h1>
+          {title}<br /><span className="spanh1"> {spanTitleText}</span>
+        </h1> 
         <p className="pBot">{desc}</p>
         <div className={styles.ButtonDiv}>
           <div className={styles.btnWrapper}>

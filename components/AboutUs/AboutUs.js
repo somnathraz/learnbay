@@ -62,7 +62,7 @@ function AboutUs() {
             <BsGraphUp className={styles.BoxIcon} />
             <div>
             <CountUp
-                    end={302}
+                    end={450}
                     delay={2}
                     duration={2}
                     suffix="%"
@@ -77,7 +77,7 @@ function AboutUs() {
             <FaAngleDoubleUp className={styles.BoxIcon} />
             <div>
             <CountUp
-                    end={58}
+                    end={97}
                     delay={2}
                     duration={2}
                     suffix="%"
@@ -92,7 +92,7 @@ function AboutUs() {
             <FaHandsHelping className={styles.BoxIcon} />
             <div>
             <CountUp
-                    end={1000}
+                    end={250}
                     delay={2}
                     duration={2}
                     suffix="+"
@@ -107,7 +107,7 @@ function AboutUs() {
             <FaUserGraduate className={styles.BoxIcon} />
             <div className={styles.CountBox}>
             <CountUp
-                    end={30000}
+                    end={10000}
                     delay={2}
                     duration={2}
                     suffix="+"
@@ -115,7 +115,7 @@ function AboutUs() {
                     [styles.textStyle]
                 }
                 />
-            <p className={styles.list}>Alumni</p>
+            <p className={styles.list}>Careers Reshaped</p>
             </div>
             </div>
         </div>
@@ -144,7 +144,7 @@ function AboutUs() {
 
       </div>
       </div> */}
-      <div className={styles.OurJourney}>
+      {/* <div className={styles.OurJourney}>
         <div className={styles.OurJourneyDiv}>
         <h3>Our Journey till date (WIP)</h3>
         <span className={styles.OurJourneyimg}>
@@ -158,7 +158,7 @@ function AboutUs() {
           />
         </span>
         </div>
-    </div>
+    </div> */}
     {/* <div className={styles.Team}>
     <h3>Our Team</h3>
     <div className={styles.TeamM}>

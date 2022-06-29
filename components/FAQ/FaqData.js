@@ -167,7 +167,7 @@ export const jobFaqData1 = [
   {
     id: 2,
     ques: "What is a job-readiness program?",
-    ans: `Job readiness program helps you prepare for interviews which include:
+    ans: `Job-readiness program helps you prepare for interviews which include:
     Resume preparation sessions,
     Preparing projects for a strong portfolio,
     Interview guidance and prep sessions,
@@ -633,7 +633,7 @@ export const jobFaqData3 = [
   {
     id: 2,
     ques: "What is a job-readiness program?",
-    ans: `Job readiness program helps you prepare for interviews which include:
+    ans: `Job-readiness program helps you prepare for interviews which include:
     Resume preparation sessions,
     Preparing projects for a strong portfolio,
     Interview guidance and prep sessions,
@@ -870,7 +870,7 @@ export const jobFaqData4 = [
   {
     id: 2,
     ques: "What is a job-readiness program?",
-    ans: `Job readiness program helps you prepare for interviews which include:
+    ans: `Job-readiness program helps you prepare for interviews which include:
     Resume preparation sessions,
     Preparing projects for a strong portfolio,
     Interview guidance and prep sessions,
@@ -1093,7 +1093,7 @@ export const jobFaqData5 = [
   {
     id: 2,
     ques: "What is a job-readiness program?",
-    ans: `Job readiness program helps you prepare for interviews which include:
+    ans: `Job-readiness program helps you prepare for interviews which include:
     Resume preparation sessions,
     Preparing projects for a strong portfolio,
     Interview guidance and prep sessions,
@@ -1171,7 +1171,7 @@ export const FaqData6 = [
   {
     id: 3,
     ques: "What’s the duration of the Data Analytics Program?",
-    ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch – 4.5 months, Monday to Friday – 2 hours/day,
@@ -1180,8 +1180,8 @@ export const FaqData6 = [
   },
   {
     id: 4,
-    ques: "What is the mode of Data Science training at Learnbay?",
-    ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
+    ques: "What is the mode of Data Analytics training at Learnbay?",
+    ans: "We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.",
     open: false,
   },
   {
@@ -1195,7 +1195,7 @@ export const CertificationFaqData6 = [
   {
     id: 0,
     ques: "Is there any accredited certification after course completion?",
-    ans: "Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion.",
+    ans: "Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion.",
     open: true,
   },
 ];
@@ -1203,13 +1203,13 @@ export const PaymentFaqData6 = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program?",
-    ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices.The total program fee for the Data Analytics Program is INR 60,000 + GST.",
+    ans: "We offer industry-specific full-stack Data Analytics modules, via which you learn the respective industry’s best practices.The total program fee for the Data Analytics Program is INR 60,000 + GST.",
     open: true,
   },
   {
     id: 1,
     ques: "Can I pay in installments for INR 60,000 + GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.Please check with our sales team to know more",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -1225,13 +1225,13 @@ export const PaymentFaqData6 = [
     Group Discount is applicable only if you’re joining with your friends.
     5% extra discount: Group of 2,
     8% extra discount: Group of 3,
-    Max 10% discount: Groupe of 4+`,
+    Max 10% discount: Group of 4+.`,
     open: false,
   },
   {
     id: 3,
     ques: "What is the refund policy for the Data Analytics Program at Learnbay?",
-    ans: "Candidates are advised to read  .",
+    ans: "Candidates are advised to read  ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the program.",
@@ -1278,7 +1278,7 @@ export const jobFaqData6 = [
   {
     id: 2,
     ques: "What is a job-readiness program?",
-    ans: `Job readiness program helps you prepare for interviews which include:
+    ans: `Job-readiness program helps you prepare for interviews which include:
     Resume preparation sessions,
     Preparing projects for a strong portfolio,
     Interview guidance and prep sessions,
@@ -1297,7 +1297,7 @@ export const MentorshipFaqData6 = [
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our Mentors will provide Data Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -1328,7 +1328,7 @@ export const FaqData7 = [
   {
     id: 0,
     ques: "What are the prerequisites for the Business Analytics Program?",
-    ans: "There are no prerequisites for this Business Analytcis certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    ans: "There are no prerequisites for this Business Analytics certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: true,
   },
   {
@@ -1340,13 +1340,13 @@ export const FaqData7 = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Program?",
-    ans: `Those who enroll for BusinessAnalytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
     id: 3,
     ques: "What’s the duration of the Business Analytics Program?",
-    ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this Business Analytics Course is about 6.5 months (200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch – 5 months, Monday to Friday – 2 hours/day,
@@ -1355,8 +1355,8 @@ export const FaqData7 = [
   },
   {
     id: 4,
-    ques: "What is the mode of Data Science training at Learnbay?",
-    ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
+    ques: "What is the mode of Business Analytics training at Learnbay?",
+    ans: "We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode.",
     open: false,
   },
   {
@@ -1384,7 +1384,7 @@ export const PaymentFaqData7 = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 65,000/- + GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.Please check with our sales team to know more.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -1400,7 +1400,7 @@ export const PaymentFaqData7 = [
     Group Discount is applicable only if you’re joining with your friends.
     5% extra discount: Group of 2,
     8% extra discount: Group of 3,
-    Max 10% discount: Groupe of 4+`,
+    Max 10% discount: Group of 4+.`,
     open: false,
   },
   {
@@ -1451,7 +1451,7 @@ export const jobFaqData7 = [
   {
     id: 2,
     ques: "What is a job-readiness program?",
-    ans: `Job readiness program helps you prepare for interviews which include:
+    ans: `Job-readiness program helps you prepare for interviews which include:
     Resume preparation sessions,
     Preparing projects for a strong portfolio,
     Interview guidance and prep sessions,
@@ -1470,7 +1470,7 @@ export const MentorshipFaqData7 = [
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our Mentors will provide Business Analytics training to the students until the completion of the course.",
     open: true,
   },
   {

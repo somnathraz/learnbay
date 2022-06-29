@@ -156,7 +156,7 @@ export default function Home() {
             ModuleBot2="With a Flexi pass, students can attend multiple classes in different batches with different instructors to learn at their convenience. "
             ModuleBot3="In addition to this, Learnbay has incorporated a dedicated programming module for All of its data science and AI courses which includes 6 to 8 hours of python and R programming training for non-technical folks."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

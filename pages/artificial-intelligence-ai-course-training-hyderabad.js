@@ -154,7 +154,7 @@ export default function Home() {
             ModuleBot2="Each of our modules is dedicated to the domains you have chosen. It includes the most popular AI tools, advanced probability, Numpy, Pandas, Matploitlip, Deep Learning, and MongoDB, among other tools and techniques."
             ModuleBot3="The course module also designed an additional 6-8 hours of basic programming sessions for non-technical students."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

@@ -12,15 +12,19 @@
       display: flex;
     }
     .left h1 {
-      font-size: 34px;
+      font-size: 28px;
       margin: 0;
-      font-weight: bold;
+      font-weight: 600;
       padding: 0;
     }
     .left h1 p {
       color: #2D9CD7;
       margin: 0;
       font-size: 30px;
+    }
+
+    .left p b {
+      margin-bottom: 10px;
     }
   
     .btnWrapper {

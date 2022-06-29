@@ -1,6 +1,6 @@
 .Back {
-    background: url("/web-banner-final-png.png");
-    height: 60vh;
+    background: url("/about-us.png");
+    height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -76,7 +76,7 @@ padding: 0px 100px;
   }
   
   .FirstImg {
-    background-image: url("/interactive-learning.png");
+    background-image: url("/mission.png");
     height: 100%;
     background-size: cover;
     background-repeat:no-repeat;
@@ -86,7 +86,7 @@ padding: 0px 100px;
   }
 
   .CDImg {
-    background-image: url("/interactive-learning.png");
+    background-image: url("/mission.png");
     height: 100%;
     background-size: cover;
     background-repeat:no-repeat;
@@ -96,7 +96,7 @@ padding: 0px 100px;
   }
   
   .MiddleImg {
-    background-image: url("/domain-specialized.png");
+    background-image: url("/vision.png");
     height: 100%;
     background-size: cover;
     background-repeat:no-repeat;
@@ -106,7 +106,7 @@ padding: 0px 100px;
   }
 
   .CDMImg {
-    background-image: url("/domain-specialized.png");
+    background-image: url("/vision.png");
     height: 100%;
     background-size: cover;
     background-repeat:no-repeat;

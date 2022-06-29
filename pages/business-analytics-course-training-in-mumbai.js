@@ -68,7 +68,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Early professionals"
-        p2="12LPA - 20LPA"
+        p2="12 LPA - 20 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -77,11 +77,11 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Industry-curated Training via real-world analytics"
+        WeekdayBatchDate="Industry-curated training via real-world analytics"
         WeekendBatchDate="Elementary programming classes for non-technical pros"
-        Project="Especially devices for early pros or aspirants with career gap"
+        Project="Especially designed for early pros or aspirants with career gap"
         Classes="Learn the most trending analytical trick from MNC experts"
-        OneLine="Industrial Business analytics certifications for IBM"
+        OneLine="Industrial Business Analytics certifications for IBM"
         Interview="5 live industry projects and 100% interview call assurance"
         Fee="65,000"
         Subscription="1.5 Year Subscription"
@@ -122,7 +122,7 @@ export default function Home() {
             ModuleBot1="Learnbay's business analytics course structure includes more than eight tools and modules. Each module has five-plus sub-modules- all are sequentially designed using an appropriate bottom-up teaching approach. That means you first learn the basics of analytics and gradually approach the advanced industrial application."
             ModuleBot2="The course becomes a profitable fit for non-programmer candidates too. The reason for the same includes easy to adapt and dedicated additional python for business analytics sessions for candidates with zero coding experience. Other than that, it also covers big data analytics tools like apache spark, dashboarding tools like Power BI, basics to moderate stage of statistics, etc."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"
@@ -142,7 +142,7 @@ export default function Home() {
     syllabusb3="30 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"
     SyllabusBotlist32="Permutation & Combination"
-    SyllabusBotlist33="Descriptive"
+    SyllabusBotlist33="Descriptive Stats"
     SyllabusBotlist34="Hypothesis Testing"
     SyllabusBotlist35="Time Series Analysis"
     SyllabusBotlist36="Inferential Stats"

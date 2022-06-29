@@ -147,7 +147,7 @@ export default function Home() {
             ModuleBot2="In addition, Learnbay provides basic programming training so that you can quickly catch up if you lack coding skills. All of our modules are solely focused on the chosen field of study. All the trending Machine Learning algorithms, advanced-level probability, Numpy, Pandas, Matploitlip, big data analytics, and other tools and approaches are covered in our modules."
             ModuleBot3="The Learnbay Machine Learning course in Delhi provides advanced training in Machine Learning and Artificial Intelligence with end-to-end placement support. Our IBM Machine Learning course Training has aided many enthusiasts in developing the top Machine Learning abilities needed to work in a variety of ML sub-fields like  "
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

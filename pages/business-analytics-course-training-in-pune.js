@@ -68,7 +68,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Early professionals"
-        p2="12LPA - 20LPA"
+        p2="12 LPA - 20 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -77,11 +77,11 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Industry-curated Training via real-world analytics"
+        WeekdayBatchDate="Industry-curated training via real-world analytics"
         WeekendBatchDate="Elementary programming classes for non-technical pros"
-        Project="Especially devices for early pros or aspirants with career gap"
+        Project="Especially designed for early pros or aspirants with career gap"
         Classes="Learn the most trending analytical trick from MNC experts"
-        OneLine="Industrial Business analytics certifications for IBM"
+        OneLine="Industrial Business Analytics certifications for IBM"
         Interview="5 live industry projects and 100% interview call assurance"
         Fee="65,000"
         Subscription="1.5 Year Subscription"
@@ -116,7 +116,7 @@ export default function Home() {
             ModuleBot1="Learnbay has online and offline classes for Business analytics course training in Pune. Our Business Analytics course includes 200 hrs of live hassle-free classes conducted by Business analysts experts. Learnbay Provides students and working professionals with batches, even on weekends. Enrolled candidates get a one-year subscription to complete their course and master their skills as Business analysts at their own pace but through live and interactive training only. Learnbay even conducts webinars and hackathons for students, so learning becomes fun, and everyone can again enjoy these events just like their past days in universities."
             ModuleBot2="Students and professionals enrolled in Learnbay's Business analytics course training in Pune learn a series of Basic Python. Non-techies need not worry about coding; our faculties conduct special coding modules for non-programmers. Our business analytics program is IBM certified and also covers every subject and tool for one to become a professional Business analyst. Students Learn Business analysts tools like Advance excel to analyze data, make models, Data visualization with Tableau, SQL databases, and many more."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"
@@ -136,7 +136,7 @@ export default function Home() {
     syllabusb3="30 Hours"
     SyllabusBotlist31="Linear Algebra, Probability"
     SyllabusBotlist32="Permutation & Combination"
-    SyllabusBotlist33="Descriptive"
+    SyllabusBotlist33="Descriptive Stats"
     SyllabusBotlist34="Hypothesis Testing"
     SyllabusBotlist35="Time Series Analysis"
     SyllabusBotlist36="Inferential Stats"

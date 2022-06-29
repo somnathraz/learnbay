@@ -1057,14 +1057,14 @@ export const BusinessAFaqDataM = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Mumbai?",
-    ans: `Those who enroll for BusinessAnalytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
     id: 3,
     ques: "What’s the duration of the Business Analytics Program in Mumbai?",
     //About Data Science
-    ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
@@ -1075,8 +1075,8 @@ export const BusinessAFaqDataM = [
   },
   {
     id: 4,
-    ques: "What is the mode of Data Science training at Learnbay?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Business Analytics training at Learnbay?",
+    ans: `We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -1190,7 +1190,7 @@ export const BusinessAMentorshipFaqDataM = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our Mentors will provide Business Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -1215,7 +1215,7 @@ export const BusinessASupportFaqDataM = [
   },
 ];
 
-// 1st Course data science course training in Hyderabad
+// 1st Course Data Science course training in Hyderabad
 
 export const AdvanceFaqDataH = [
   {
@@ -2270,7 +2270,7 @@ export const BusinessAFaqDataH = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Hyderabad?",
-    ans: `Those who enroll for BusinessAnalytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -3477,14 +3477,14 @@ export const BusinessAFaqDataB = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Bengalore?",
-    ans: `Those who enroll for BusinessAnalytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
     id: 3,
     ques: "What’s the duration of the Business Analytics Program in Bengalore?",
     //About Data Science
-    ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
@@ -3495,8 +3495,8 @@ export const BusinessAFaqDataB = [
   },
   {
     id: 4,
-    ques: "What is the mode of Data Science training at Learnbay?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Business Analytics training at Learnbay?",
+    ans: `We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -3613,7 +3613,7 @@ export const BusinessAMentorshipFaqDataB = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our Mentors will provide Business Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -3638,7 +3638,7 @@ export const BusinessASupportFaqDataB = [
   },
 ];
 
-// 1st Course data science course training in Chennai
+// 1st Course Data Science course training in Chennai
 
 export const AdvanceFaqDataC = [
   {
@@ -3780,7 +3780,7 @@ export const AdvancePaymentFaqDataC = [
   {
     id: 3,
     ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
-    ans: `Candidates are advised to read  .`,
+    ans: `Candidates are advised to read  `,
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
     ansAfter: " before enrolling in the course.",
@@ -4689,7 +4689,7 @@ export const BusinessAFaqDataC = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Chennai?",
-    ans: `Those who enroll for BusinessAnalytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -4707,8 +4707,8 @@ export const BusinessAFaqDataC = [
   },
   {
     id: 4,
-    ques: "What is the mode of Data Science training at Learnbay?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Business Analytics training at Learnbay?",
+    ans: `We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -4825,7 +4825,7 @@ export const BusinessAMentorshipFaqDataC = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our Mentors will provide Business Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -4851,7 +4851,7 @@ export const BusinessASupportFaqDataC = [
 ];
 
 
-// 1st Course data science course training in Canada
+// 1st Course Data Science course training in Canada
 
 export const AdvanceFaqDataCa = [
   {
@@ -5906,7 +5906,7 @@ export const BusinessAFaqDataCa = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Canada?",
-    ans: `Those who enroll for BusinessAnalytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -7121,7 +7121,7 @@ export const BusinessAFaqDataD = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Delhi?",
-    ans: `Those who enroll for BusinessAnalytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -8340,7 +8340,7 @@ export const BusinessAFaqDataDu = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Dubai?",
-    ans: `Those who enroll for BusinessAnalytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -9557,7 +9557,7 @@ export const BusinessAFaqDataP = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Pune?",
-    ans: `Those who enroll for BusinessAnalytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {

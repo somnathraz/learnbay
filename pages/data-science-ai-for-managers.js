@@ -51,11 +51,11 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="Project Management Capstones Certified by IBM"
-        mTopPara="Project Management Capstones Certified by IBM"
-        title="Data Science and Artificial Intelligence"
-        spanTitleText="For Managers and Leaders"
-        desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects."
+        deskTopPara="Be a leader with Domain Specialization"
+        mTopPara="Be a leader with Domain Specialization"
+        title="Data Science and Artificial Intelligence Program"
+        spanTitleText=" For Managers and Leaders"
+        desc="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
         src="/course4.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
@@ -148,7 +148,7 @@ export default function Home() {
     JobSessionsText="Job Oriented Sessions"
     Modules="16"
     ModulesText="Tools & Modules"
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"
@@ -282,11 +282,11 @@ export default function Home() {
       <CourseFee 
       CourseFeeHead="Data Science & AI For Managers Program Fee"
       CourseFeePara="Online Classroom"
-      CourseFeelist1="Online interactive classes"
+      CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
-      CourseFeelist3="Extra doubt clearance sessions"
+      CourseFeelist3="Extra Doubt Clearance Sessions"
       CourseFeelist4="Multiple domains + Project Expertise"
-      CourseFeelist5="Company-based mock interviews"
+      CourseFeelist5="Company-based Mock Interviews"
 
       />
       <ReferSection />

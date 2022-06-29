@@ -159,7 +159,7 @@ export default function Home() {
             ModuleBot3="Our instructors have designed the modules in such a way that it's understandable to our learners. Each of our modules is entirely dedicated to the preferred domains. Topics covered in the data science and artificial intelligence course include machine learning, robotics, computer vision, and natural language understanding. You will also be familiar with popular AI and ML tools like Numpy, Pandas, Matplotlib, and MongoDB."
             ModuleBot4="In addition, you will develop a range of AI applications using real-world datasets and practical coding exercises. After the AI course, you will be able to implement exciting projects in artificial Intelligence."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

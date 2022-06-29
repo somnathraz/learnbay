@@ -55,7 +55,7 @@ const Course = () => {
               viewAll ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
             }
           >
-            view All
+            View All
           </span>
           <span
             onClick={() => {
@@ -97,7 +97,7 @@ const Course = () => {
               manager ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
             }
           >
-            For Manager
+            For Managers
           </span>
           <span
             onClick={() => {

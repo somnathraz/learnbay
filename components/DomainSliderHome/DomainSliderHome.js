@@ -128,7 +128,7 @@ const DomainSliderHome = ({ CareerHead, changeReview }) => {
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <p>
-            For MS Aspirants <br />AI/ML
+            Data Structures <br /> and Algorithms
             </p>
             <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/For+MS+Aspirants++AIML.pdf" target="_blank"><button className={styles.btn}>
               Download Brochure

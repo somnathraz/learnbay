@@ -142,7 +142,7 @@ export default function Home() {
     JobSessionsText="Job Oriented Sessions"
     Modules="15"
     ModulesText="Tools & Modules"
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"
@@ -274,11 +274,11 @@ export default function Home() {
       <CourseFee 
       CourseFeeHead="Advanced Data Science & AI Course Fees"
       CourseFeePara="Online Classroom"
-      CourseFeelist1="Online interactive classes"
+      CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
-      CourseFeelist3="Extra doubt clearance sessions"
+      CourseFeelist3="Extra Doubt Clearance Sessions"
       CourseFeelist4="Multiple domain selection options"
-      CourseFeelist5="Company-based mock interviews"
+      CourseFeelist5="Company-based Mock Interviews"
 
       />
       <ReferSection />

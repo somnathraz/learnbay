@@ -4,8 +4,8 @@
 }
 
 .BackD {
-    background: url("/web-banner-final-png.png");
-    height: 50vh;
+    background: url("/demo-img.png");
+    height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;

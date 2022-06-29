@@ -113,7 +113,7 @@ export default function Home() {
             ProgramBot31="Lifetime access to Learnbay LMS for seamless learning progress.
             1 to 8 number of globally recognized IBM certifications in advanced data science training courses.
             Premium Cloud Lab Feature, via which you can leverage hands-on exposure to industrial problems.
-            Live interactive classes plus extra doubt clearance sessions.
+            Live interactive classes plus Extra Doubt Clearance Sessions.
             Special Programming classes for non-technical learners.
             Learnbay Faculties possess extensive industry knowledge and experience.
             Participants will be provided with end-to-end placement support.
@@ -167,7 +167,7 @@ export default function Home() {
             ModuleBot4="Moreover, Our LMS is continually updated to incorporate the most up-to-date versions of courses and to ensure compliance with industry standards."
             ModuleBot41="Our IBM data science course will prepare students industry-ready for data science job roles."
 
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"

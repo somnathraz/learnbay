@@ -47,11 +47,13 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="In Collaboration with IBM"
-        mTopPara="In Collaboration with IBM"
+        deskTopPara="Get ahead of the competition"
+        deskTopPara1="with popular skill sets."
+        mTopPara="Get ahead of the competition "
+        mTopPara1="with popular skill sets."
         title="Data Analytics"
-        spanTitleText="Certification Course"
-        desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
+        spanTitleText="Certification Program"
+        desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
         src="/course6.png"
         alt="AiMl Header"
       />
@@ -59,7 +61,7 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Professional Beginners"
-        p2="14LPA - 22LPA"
+        p2="14 LPA - 22 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
@@ -72,7 +74,7 @@ export default function Home() {
         WeekendBatchDate="250+ employer allowance & 100% interview guarantee"
         Project="Career Guidance from industrial experts"
         Classes="Basic coding classes for non-technical pros"
-        OneLine="Live & interactive Training by industry experts"
+        OneLine="Live & interactive training by industry experts"
         Interview="Course completion certificate from IBM"
         Fee="60,000"
         Subscription="1.5 Year Subscription"
@@ -129,7 +131,7 @@ export default function Home() {
     <SyllabusNew
     HoursSyllabus="180"
     HoursSyllabusText="Hours Syllabus"
-    Projects="6"
+    Projects="5"
     ProjectsText="Industry Projects"
     Sessions="100"
     SessionsText="Live Learning Sessions"
@@ -137,7 +139,7 @@ export default function Home() {
     JobSessionsText="Job Oriented Sessions"
     Modules="8"
     ModulesText="Tools & Modules"
-    syllabush1="Pre-Preparatory Classes (Programming + Maths)"
+    syllabush1="Preparatory Classes (Programming + Maths)"
     syllabusb1="6 Hours"
     SyllabusBotlist11="Anaconda Installation"
     SyllabusBotlist12="Basics of Programming"
@@ -170,7 +172,7 @@ export default function Home() {
     SyllabusBotlist44="Web Scrapping"
     SyllabusBotlist45="Fake News Detection"
     SyllabusBotlist46="Movie Recommendation"
-    syllabush5="Data Science &
+    syllabush5="Data Analytics &
     AI Tools"
     syllabusb5="88+ Hours"
     SyllabusBotlist51="Advance Excel"
@@ -225,16 +227,16 @@ export default function Home() {
         </div>
       </div>
       <HowApply
-      CCourse="Enroll in Business Analytics for Early Professionals."
+      CCourse="Enroll in Data Analytics for Early Professionals."
       />
       <CourseFee 
       CourseFeeHead="Data Analytics Course Fees"
       CourseFeePara="Online Classroom"
-      CourseFeelist1="Online interactive classes"
+      CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
-      CourseFeelist3="Extra doubt clearance sessions"
+      CourseFeelist3="Extra Doubt Clearance Sessions"
       CourseFeelist4="Project-Based Learning"
-      CourseFeelist5="Company-based mock interviews"
+      CourseFeelist5="Company-based Mock Interviews"
 
       />
       <ReferSection />
