@@ -1,0 +1,47 @@
+.termsJob {
+    margin: 70px 0px;
+    padding: 0px;
+}
+
+.BackT {
+    background: url("/terms-and-condition.png");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+align-items: center;
+margin: auto;
+padding: 0px 100px;
+}
+
+.termsJobInner {
+    padding: 30px 100px;
+}
+
+.top {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bot {
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+
+    .BackP {
+        height: 50vh;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .termsJob {
+        margin: 20px 0px;
+    }
+
+    .termsJobInner {
+        padding: 30px 20px;
+    }
+
+}

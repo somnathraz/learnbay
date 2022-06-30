@@ -21,8 +21,8 @@ const DomainSliderHome = ({ CareerHead, changeReview }) => {
       <h4>Domain Specialization</h4>
       <p>Select Multiple Domain & Work On Capstone Projects</p>
       <Swiper
-        slidesPerView={mobile ? 1.1 : 4}
-        spaceBetween={mobile ? 10 : 10}
+        slidesPerView={mobile ? 1 : 4}
+        spaceBetween={mobile ? 5 : 5}
         freeMode={true}
         navigation={true}
         modules={[FreeMode, Navigation]}

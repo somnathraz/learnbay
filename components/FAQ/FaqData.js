@@ -1,7 +1,7 @@
 export const FaqData1 = [
   {
     id: 0,
-    ques: "What are the prerequisites for the Data Science and AI Foundation Program?",
+    ques: "What are the prerequisites for the Data Science Foundation Program?",
     ans: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: true,
   },
@@ -13,13 +13,13 @@ export const FaqData1 = [
   },
   {
     id: 2,
-    ques: "What is a Flexi Subscription in Data Science and AI Foundation Program?",
+    ques: "What is a Flexi Subscription in Data Science Foundation Program?",
     ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Science and AI Foundation Program?",
+    ques: "What’s the duration of the Data Science Foundation Program?",
     ans: "The duration of this Data Science Course is about 7 months (220+ hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 6 months, Monday to Friday – 2 hours/day, Weekend batch – 8 months, Saturday & Sunday – 3.5 hours/day",
     open: false,
   },
@@ -83,13 +83,13 @@ export const DomainFaqData1 = [
 export const PaymentFaqData1 = [
   {
     id: 0,
-    ques: "What is the total fee for Data Science and AI Foundation Program?",
-    ans: "The total program fee for the Data Science and AI Foundation Program is INR 76,700/- inclusive of GST.",
+    ques: "What is the total fee for Data Science Foundation Program?",
+    ans: "The total program fee for the Data Science Foundation Program is INR 76,700/- inclusive of GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for Data Science and AI Course?",
+    ques: "Can I pay in installments for Data Science Foundation Program?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
@@ -98,7 +98,7 @@ export const PaymentFaqData1 = [
   },
   {
     id: 2,
-    ques: "Is there any scholarship/discount available for Data Science and AI Foundation Program? What is Group Discount?",
+    ques: "Is there any scholarship/discount available for Data Science Foundation Program? What is Group Discount?",
     ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
     Please check our websites or contact our sales team to know more about the applicable discounts.
     Group Discount :
@@ -110,11 +110,11 @@ export const PaymentFaqData1 = [
   },
   {
     id: 3,
-    ques: "What is the refund policy for the Data Science and AI Foundation Program at Learnbay?",
+    ques: "What is the refund policy for the Data Science Foundation Program at Learnbay?",
     ans: "Candidates are advised to read  ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
-    ansAfter: " Learnbay’s Refund/Cancellation Policy before enrolling in the program.",
+    ansAfter: "  before enrolling in the program.",
     link: true,
     open: false,
   },
@@ -128,7 +128,7 @@ export const CapstoneFaqData1 = [
   },
   {
     id: 1,
-    ques: "How many real-time projects/case-studies will be covered in the Data Science and AI Foundation Program?",
+    ques: "How many real-time projects/case-studies will be covered in the Data Science Foundation Program?",
     ans: "We have a set of 8 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.",
     linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
@@ -146,7 +146,7 @@ export const CertificationFaqData1 = [
   {
     id: 0,
     ques: "Is there any accredited certification after course completion?",
-    ans: "Yes, you will be awarded IBM accredited Foundational Data Science and AI Certificate on successful course completion. ",
+    ans: "Yes, you will be awarded IBM accredited Foundational Data Science Certificate on successful course completion. ",
     open: true,
   },
 ];
@@ -235,7 +235,7 @@ export const FaqData2 = [
   {
     id: 3,
     ques: "What’s the duration of the Advance Data Science and AI Program?",
-    ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5hours/day",
+    ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5 hours/day",
     open: false,
   },
   {
@@ -313,7 +313,7 @@ export const PaymentFaqData2 = [
   },
   {
     id: 2,
-    ques: "Is there any scholarship/discount available for Advance Data Science and AI Foundation Program? What is Group Discount?",
+    ques: "Is there any scholarship/discount available for Advanced Data Science and AI Program?? What is Group Discount?",
     ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
     Please check our website or contact our sales team to know more about the applicable discounts.
     
@@ -326,7 +326,7 @@ export const PaymentFaqData2 = [
   },
   {
     id: 3,
-    ques: "What is the refund policy for the Advance Data Science and AI Foundation Program at Learnbay?",
+    ques: "What is the refund policy for the Advanced Data Science and AI Program? at Learnbay?",
     ans: "Candidates are advised to read  ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
@@ -401,7 +401,7 @@ export const jobFaqData2 = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -422,7 +422,7 @@ export const MentorshipFaqData2 = [
   {
     id: 1,
     ques: "Can a student choose to study from their desired mentor?",
-    ans: "At Learnbay, Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    ans: "At Learnbay, every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
     open: false,
   },
 ];
@@ -459,7 +459,7 @@ export const FaqData3 = [
   {
     id: 2,
     ques: "What is a Flexi Subscription?",
-    ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for AI/ML live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -475,7 +475,7 @@ export const FaqData3 = [
   {
     id: 4,
     ques: "What is the mode of training at Learnbay?",
-    ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
+    ans: "We provide both classroom and online AI/ML training modes. Based on your requirement, you can choose your preferred mode.",
     open: false,
   },
   {
@@ -489,7 +489,7 @@ export const DomainFaqData3 = [
   {
     id: 0,
     ques: "What is domain specialization?",
-    ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices.",
+    ans: "We offer industry-specific full-stack AI/ML modules, via which you learn the respective industry’s best practices.",
     open: true,
   },
   {
@@ -542,7 +542,7 @@ export const PaymentFaqData3 = [
   },
   {
     id: 1,
-    ques: "Can I pay in installments for 95,000/-?",/*1,12,100/-  check for price*/
+    ques: "Can I pay in installments for 95,000 + GST?",/*1,12,100/-  check for price*/
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12K/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
    //Check this section
     open: false,
@@ -598,7 +598,7 @@ export const CertificationFaqData3 = [
   {
     id: 0,
     ques: "Is there any accredited certification after course completion?",
-    ans: "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.",
+    ans: "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and Machine Learning Course.",
     open: true,
   },
   {
@@ -652,7 +652,7 @@ export const MentorshipFaqData3 = [
     id: 0,
     ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
+    ans: "Our Mentors will provide AI/ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
     open: true,
   },
   {
@@ -703,7 +703,7 @@ export const FaqData4 = [
     ques: "What’s the duration of the Data Science and AI for Managers & Leaders Program?",
     ans: `The duration of this course is about 13 months (350 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
-    Classes will be conducted on weekdays and Weekend Batches.
+    Classes will be conducted on weekdays and weekend batches.
     Weekday batch – 11 months, Monday to Friday – 2 hours/day,
     Weekend batch - 13 months, Saturday & Sunday – 3.5 hours/day.
     After the completion of term-3, you can start working on real-time projects and attend job interviews.`,
@@ -937,7 +937,7 @@ export const FaqData5 = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Science and AI with Job Guarantee Program Program?",
+    ques: "What’s the duration of the Data Science and AI with Job Guarantee Program?",
     ans: `The duration of this course is about 15 months (400 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
     Classes will be conducted on weekdays and weekend batches.
@@ -1008,8 +1008,8 @@ export const DomainFaqData5 = [
 export const PaymentFaqData5 = [
   {
     id: 0,
-    ques: "What is the total Fee for the Data Science and AI with Job Guarantee Program Program?",
-    ans: "The total program fee for the Data Science and AI with Job Guarantee Program Program is INR ₹1,25,000 + GST.",
+    ques: "What is the total Fee for the Data Science and AI with Job Guarantee Program?",
+    ans: "The total program fee for the Data Science and AI with Job Guarantee Program is INR ₹1,25,000 + GST.",
     open: true,
   },
   {
@@ -1020,7 +1020,7 @@ export const PaymentFaqData5 = [
   },
   {
     id: 2,
-    ques: "Is there any scholarship available for the Data Science and AI with Job Guarantee Program Program? What is Group Discount?",
+    ques: "Is there any scholarship available for the Data Science and AI with Job Guarantee Program? What is Group Discount?",
     ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
     Please check our website or contact our sales team to know more about the applicable discounts.
     

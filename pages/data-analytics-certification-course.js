@@ -72,7 +72,7 @@ export default function Home() {
       <GetHired 
         WeekdayBatchDate="Best in class industrial training with live projects"
         WeekendBatchDate="250+ employer allowance & 100% interview guarantee"
-        Project="Career Guidance from industrial experts"
+        Project="Career guidance from industrial experts"
         Classes="Basic coding classes for non-technical pros"
         OneLine="Live & interactive training by industry experts"
         Interview="Course completion certificate from IBM"
@@ -172,8 +172,7 @@ export default function Home() {
     SyllabusBotlist44="Web Scrapping"
     SyllabusBotlist45="Fake News Detection"
     SyllabusBotlist46="Movie Recommendation"
-    syllabush5="Data Analytics &
-    AI Tools"
+    syllabush5="Data Analytics Tools"
     syllabusb5="88+ Hours"
     SyllabusBotlist51="Advance Excel"
     SyllabusBotlist52="SQL"
@@ -230,7 +229,7 @@ export default function Home() {
       CCourse="Enroll in Data Analytics for Early Professionals."
       />
       <CourseFee 
-      CourseFeeHead="Data Analytics Course Fees"
+      CourseFeeHead="Data Analytics Program : Batch Details"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"

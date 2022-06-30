@@ -278,12 +278,12 @@ export default function Home() {
         PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
       />
       <CourseFee 
-      CourseFeeHead="Artificial Intelligence & Machine Learning Course Fee"
+      CourseFeeHead="Artificial Intelligence & Machine Learning Program : Batch Details"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
       CourseFeelist3="Extra Doubt Clearance Sessions"
-      CourseFeelist4="Multiple domain selection options"
+      CourseFeelist4="Multiple Domain Selection Options"
       CourseFeelist5="Company-based Mock Interviews"
 
       />

@@ -92,7 +92,7 @@ const Benefits = () => {
           )}
         </div>
         <div className={styles.BenRightWrap}>
-          <AiFillPlayCircle className={styles.Play} />
+          <a href="https://youtu.be/2lAy7DmacdI" target="_blank"><AiFillPlayCircle className={styles.Play} /></a>
         </div>
       </div>
     </div>

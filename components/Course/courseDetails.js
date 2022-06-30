@@ -2,7 +2,8 @@ export const viewAllD = [
   {
     id: 1,
     img: "/AI-Certificatiom-for-pro.png",
-    title: "Data Science and AI Foundation Program",
+    title: "Data Science",
+    title1: "Foundation Program",
     para: [
       "225 hours of Interactive Learning",
       "8 Projects + 1 Capstone",
@@ -15,7 +16,9 @@ export const viewAllD = [
   {
     id: 2,
     img: "/Advance-Data-Science-1.png",
-    title: "Advanced Data Science and AI Program",
+    title: "Advanced Data Science and",
+    title1: "AI Program",
+
     para: [
       "275 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -27,7 +30,8 @@ export const viewAllD = [
   {
     id: 3,
     img: "/AIML.png",
-    title: "Artificial Intelligence and Machine Learning Program",
+    title: "Artificial Intelligence and ",
+    title1: "Machine Learning Program",
     para: [
       "300 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -39,7 +43,8 @@ export const viewAllD = [
   {
     id: 4,
     img: "/managers-and-leaders-1.png",
-    title: "Data Science and AI for Managers & Leaders Program",
+    title: "Data Science and AI for ",
+    title1: "Managers & Leaders Program",
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -51,7 +56,9 @@ export const viewAllD = [
   {
     id: 5,
     img: "/Job-garranty.png",
-    title: "Data Science and AI with Job Guarantee Program",
+    title: "Data Science and AI with ",
+    title1: "Job Guarantee Program",
+
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
@@ -63,7 +70,8 @@ export const viewAllD = [
   {
     id: 6,
     img: "/Data-Analytics-1.png",
-    title: "Data Analytics Program",
+    title: "Data Analytics",
+    title1: "Program",
     para: [
       "180 hours of Interactive Learning",
       "5 Projects",
@@ -75,7 +83,8 @@ export const viewAllD = [
   {
     id: 7,
     img: "/DABA.png",
-    title: "Business Analytics Program",
+    title: "Business Analytics",
+    title1: "Program",
     para: [
       "200 hours of Interactive Learning",
       "5 Projects",
@@ -89,7 +98,8 @@ export const ForProgrammersD = [
   {
     id: 1,
     img: "/Advance-Data-Science-1.png",
-    title: "Advance Data Science and AI Programs",
+    title: "Advanced Data Science and",
+    title1: "AI Program",
     para: [
       "275 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -101,7 +111,8 @@ export const ForProgrammersD = [
   {
     id: 2,
     img: "/AIML.png",
-    title: "Artificial Intelligence and Machine Learning Program",
+    title: "Artificial Intelligence and ",
+    title1: "Machine Learning Program",
     para: [
       "300 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -114,8 +125,8 @@ export const ForProgrammersD = [
 export const ForNonProgrammerD = [
   {
     id: 1,
-    img: "/AI-Certificatiom-for-pro.png",
-    title: "Data Science and AI Foundation Program",
+    title: "Data Science",
+    title1: "Foundation Program",
     para: [
       "225 hours of Interactive Learning",
       "8 Projects + 1 Capstone",
@@ -127,7 +138,8 @@ export const ForNonProgrammerD = [
   {
     id: 2,
     img: "/Data-Analytics-1.png",
-    title: "Data Analytics Program",
+    title: "Data Analytics",
+    title1: "Program",
     para: [
       "180 hours of Interactive Learning",
       "5 Projects",
@@ -139,7 +151,8 @@ export const ForNonProgrammerD = [
   {
     id: 3,
     img: "/DABA.png",
-    title: "Business Analytics Program",
+    title: "Business Analytics",
+    title1: "Program",
     para: [
       "200 hours of Interactive Learning",
       "5 Projects",
@@ -153,7 +166,8 @@ export const ForManagerD = [
   {
     id: 1,
     img: "/Advance-Data-Science-1.png",
-    title: "Advance Data Science and AI Programs",
+    title: "Advanced Data Science and",
+    title1: "AI Program",
     para: [
       "275 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -165,7 +179,8 @@ export const ForManagerD = [
   {
     id: 2,
     img: "/AIML.png",
-    title: "Artificial Intelligence and Machine Learning Program",
+    title: "Artificial Intelligence and ",
+    title1: "Machine Learning Program",
     para: [
       "300 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -177,7 +192,8 @@ export const ForManagerD = [
   {
     id: 3,
     img: "/managers-and-leaders-1.png",
-    title: "Data Science and AI for Managers & Leaders Program",
+    title: "Data Science and AI for ",
+    title1: "Managers & Leaders Program",
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -192,7 +208,8 @@ export const JobGuaranteeD = [
   {
     id: 1,
     img: "/Job-garranty.png",
-    title: "Data Science and AI with Job Guarantee Program",
+    title: "Data Science and AI with ",
+    title1: "Job Guarantee Program",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
