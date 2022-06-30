@@ -77,7 +77,7 @@ export default function Home() {
       </div>
       <GetHired 
         WeekdayBatchDate="6 IBM data science micro-skills certificates"
-        WeekendBatchDate="10+ Domain-Electivess associated with full-stack modules"
+        WeekendBatchDate="10+ Domain-Electives associated with full-stack modules"
         Project="Project Experience Certification by IBM"
         Classes="Completely live and interactive learning"
         OneLine="12 live industry projects & 2 fresh Capstones"
@@ -91,7 +91,7 @@ export default function Home() {
           Box1h5="Custom-fit Training"
           box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
           Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 7+ electives."
+          box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 10+ electives."
           Box3h5="Premium Mentoring"
           box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
           Box4h5="Hands-on Experience"

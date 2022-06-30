@@ -117,7 +117,7 @@ const Course = () => {
         {viewAll ? (
           <div className={styles.gridPanel}>
             {viewAllD.map((viewAllData) => {
-              const { id, title, img, para, link1, link2 } = viewAllData;
+              const { id, title, title1, img, para, link1, link2 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
                   <img
@@ -126,6 +126,7 @@ const Course = () => {
                     className={styles.courseImg}
                   />
                   <h6>{title}</h6>
+                  <h6>{title1}</h6>
                   <p>
                     <BsCheckCircle className={styles.checkCircle} />
                     {para[0]}
@@ -161,7 +162,7 @@ const Course = () => {
         {oneYear ? (
           <div className={styles.gridPanel}>
             {ForProgrammersD.map((viewAllData) => {
-              const { id, title, img, para, link1, link2 } = viewAllData;
+              const { id, title, title1, img, para, link1, link2 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
                   <img
@@ -170,6 +171,7 @@ const Course = () => {
                     className={styles.courseImg}
                   />
                   <h6>{title}</h6>
+                  <h6>{title1}</h6>
                   <p>
                     <BsCheckCircle className={styles.checkCircle} />
                     {para[0]}
@@ -205,7 +207,7 @@ const Course = () => {
         {nonTech ? (
           <div className={styles.gridPanel}>
             {ForNonProgrammerD.map((viewAllData) => {
-              const { id, title, img, para, link1, link2 } = viewAllData;
+              const { id, title, title1, img, para, link1, link2 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
                   <img
@@ -214,6 +216,7 @@ const Course = () => {
                     className={styles.courseImg}
                   />
                   <h6>{title}</h6>
+                  <h6>{title1}</h6>
                   <p>
                     <BsCheckCircle className={styles.checkCircle} />
                     {para[0]}
@@ -249,7 +252,7 @@ const Course = () => {
         {manager ? (
           <div className={styles.gridPanel}>
             {ForManagerD.map((viewAllData) => {
-              const { id, title, img, para, link1, link2 } = viewAllData;
+              const { id, title, title1, img, para, link1, link2 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
                   <img
@@ -258,6 +261,7 @@ const Course = () => {
                     className={styles.courseImg}
                   />
                   <h6>{title}</h6>
+                  <h6>{title1}</h6>
                   <p>
                     <BsCheckCircle className={styles.checkCircle} />
                     {para[0]}
@@ -293,7 +297,7 @@ const Course = () => {
         {Guarantee ? (
           <div className={styles.gridPanel}>
             {JobGuaranteeD.map((viewAllData) => {
-              const { id, title, img, para, link1, link2 } = viewAllData;
+              const { id, title, title1, img, para, link1, link2 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
                   <img
@@ -302,6 +306,7 @@ const Course = () => {
                     className={styles.courseImg}
                   />
                   <h6>{title}</h6>
+                  <h6>{title1}</h6>
                   <p>
                     <BsCheckCircle className={styles.checkCircle} />
                     {para[0]}

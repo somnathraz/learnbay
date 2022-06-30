@@ -77,7 +77,7 @@ export default function Home() {
         WeekdayBatchDate="Course Completion Certificate from IBM"
         WeekendBatchDate="Within 6 months, either job or full refund"
         Project="15 live industry projects & 3 fresh capstones projects"
-        Classes="10+ Domain-Electivess associated with full-stack modules"
+        Classes="10+ Domain-Electives associated with full-stack modules"
         OneLine="Specially devised for leadership-level pros"
         Interview="Special coding classes for non-programmers"
         Fee="1,25,000"
@@ -217,7 +217,7 @@ export default function Home() {
           <h6>Know More About How A Job Guarantee Or 100% Money-Back Program Works.</h6>
         </div>
         <div className={styles.right}>
-          <a href=''><button>Terms & Conditions</button></a>
+          <a href="/terms-conditions-job" target="_blank"><button>Terms & Conditions</button></a>
         </div>
       </div>
       <Domain />
@@ -273,12 +273,13 @@ export default function Home() {
         PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
       />
       <CourseFee 
-      CourseFeeHead="Program Fee"
+      CourseFeeHead="Data Science and AI with
+      Job Guarantee Program : Batch Details"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
-      CourseFeelist3="Extra clearance sessions"
-      CourseFeelist4="Multiple domain & Project experties selection options"
+      CourseFeelist3="Extra Clearance Sessions"
+      CourseFeelist4="Multiple Domain & Project Experties Selection Options"
       CourseFeelist5="Company-based Mock Interviews"
 
       />

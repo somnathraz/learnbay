@@ -172,8 +172,7 @@ export default function Home() {
     SyllabusBotlist44="Customer Churn Prediction"
     SyllabusBotlist45="Inventory Demand Forecasting"
     SyllabusBotlist46="Retain Analytics"
-    syllabush5="Business Analytics &
-    AI Tools"
+    syllabush5="Business Analytics Tools"
     syllabusb5="118+ Hours"
     SyllabusBotlist51="Advance Excel"
     SyllabusBotlist52="SQL"
@@ -227,10 +226,10 @@ export default function Home() {
         </div>
       </div>
       <HowApply
-      CCourse="Enroll in the Industrial Business analytics program."
+      CCourse="Enroll in the Industrial Business Analytics Program."
       />
       <CourseFee 
-      CourseFeeHead="Data Analytics Course Fees"
+      CourseFeeHead="Business Analytics Program : Batch Details"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"

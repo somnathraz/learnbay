@@ -56,8 +56,8 @@ const Footer = () => {
           </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Get Our Apps On</p>
-          <a href="/"><FaApple className="bIcons" style={{fontSize:"30px"}}  /></a>
-          <a href="https://play.google.com/store/apps/details?id=com.app.learnbay"><FaAndroid className="bIcons" style={{fontSize:"30px"}}  /></a>
+          <a href="/"><button className={styles.btnout}><FaApple className="bIcons" style={{fontSize:"30px"}}  />Get Our IOS App</button></a>
+          <a href="https://play.google.com/store/apps/details?id=com.app.learnbay"><button className={styles.btnout}><FaAndroid className="bIcons" style={{fontSize:"30px"}}  />Get Our Android App</button></a>
           
           {/* <Grid item xs={12} md={12} sx={{ height: "200px", width: "100px" }}>
                 <GoogleMapReact

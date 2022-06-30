@@ -52,7 +52,7 @@ export default function Home() {
         deskTopPara1="with industry-specific training"
         mTopPara="Enhance your earning potential"
         mTopPara1="with industry-specific training"
-        title="Data Science and AI"
+        title="Data Science"
         spanTitleText="Foundation Program"
         desc="This program ensures a smooth transition into Jr. Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions."
         src="/course1.png"
@@ -109,9 +109,9 @@ export default function Home() {
       <Certificate
         title="Course Completion Certificate from IBM"
         desc="Complete your training with the internationally recognized certificate."
-        desc2 ="Validate your Data Science and AI skills with IBM Course Completion Certificate."
+        desc2 ="Validate your Data Science skills with IBM Course Completion Certificate."
         desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-        src="/basiccertificate.png"
+        src="/certificate1.png"
       />
       <section className={styles.HiringPartner}>
         <div>
@@ -230,7 +230,7 @@ export default function Home() {
       CCourse="Enroll in Data Science & AI Foundation Program."
       />
       <Fee
-        sub1="Data Science and AI Foundation Program"
+        sub1="Data Science Foundation Program"
         Price1="₹65,000 + GST"
         PFeatures11="225+ Hours"
         PFeatures12="Early Professionals"
@@ -262,11 +262,11 @@ export default function Home() {
         PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
       />
       <CourseFee 
-      CourseFeeHead="Data Science Course Fees"
+      CourseFeeHead="Data Science Foundation Program : Batch Details"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
-      CourseFeelist3="Extra clearance sessions"
+      CourseFeelist3="Extra Clearance Sessions"
       CourseFeelist4="Project-Based Learning"
       CourseFeelist5="Company-based Mock Interviews"
 

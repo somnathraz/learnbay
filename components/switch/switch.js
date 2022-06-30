@@ -5,6 +5,7 @@ import styles from "./switch.module.css";
 function Switch() {
   return (
     <section className={styles.head}>
+        <h4>Top Rated Programs</h4>
         <div className={styles.switch}>
         <div className={styles.switchInner}>
         <a href="https://www.coursereport.com/schools/learnbay" target="_blank"><img src="/course-report.png" height="80px"></img></a>

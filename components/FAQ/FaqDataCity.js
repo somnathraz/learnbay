@@ -210,7 +210,7 @@ export const AdvancejobFaqDataM = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -512,7 +512,7 @@ export const ArtificialjobFaqDataM = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -999,7 +999,7 @@ export const AnalyticsjobFaqDataM = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -1176,7 +1176,7 @@ export const BusinessAjobFaqDataM = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -1428,7 +1428,7 @@ export const AdvancejobFaqDataH = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -1727,7 +1727,7 @@ export const ArtificialjobFaqDataH = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -2212,7 +2212,7 @@ export const AnalyticsjobFaqDataH = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -2389,7 +2389,7 @@ export const BusinessAjobFaqDataH = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -2640,7 +2640,7 @@ export const AdvancejobFaqDataB = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -2932,7 +2932,7 @@ export const ArtificialjobFaqDataB = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -3419,7 +3419,7 @@ export const AnalyticsjobFaqDataB = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -3599,7 +3599,7 @@ export const BusinessAjobFaqDataB = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -3849,7 +3849,7 @@ export const AdvancejobFaqDataC = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -4146,7 +4146,7 @@ export const ArtificialjobFaqDataC = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -4631,7 +4631,7 @@ export const AnalyticsjobFaqDataC = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -4811,7 +4811,7 @@ export const BusinessAjobFaqDataC = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -5063,7 +5063,7 @@ export const AdvancejobFaqDataCa = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -5361,7 +5361,7 @@ export const ArtificialjobFaqDataCa = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -5848,7 +5848,7 @@ export const AnalyticsjobFaqDataCa = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -6027,7 +6027,7 @@ export const BusinessAjobFaqDataCa = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -6279,7 +6279,7 @@ export const AdvancejobFaqDataD = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -6577,7 +6577,7 @@ export const ArtificialjobFaqDataD = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -7063,7 +7063,7 @@ export const AnalyticsjobFaqDataD = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -7246,7 +7246,7 @@ export const BusinessAjobFaqDataD = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -7498,7 +7498,7 @@ export const AdvancejobFaqDataDu = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -7795,7 +7795,7 @@ export const ArtificialjobFaqDataDu = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -8282,7 +8282,7 @@ export const AnalyticsjobFaqDataDu = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -8463,7 +8463,7 @@ export const BusinessAjobFaqDataDu = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -8714,7 +8714,7 @@ export const AdvancejobFaqDataP = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -9013,7 +9013,7 @@ export const ArtificialjobFaqDataP = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -9499,7 +9499,7 @@ export const AnalyticsjobFaqDataP = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -9680,7 +9680,7 @@ export const BusinessAjobFaqDataP = [
     Resume Preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {

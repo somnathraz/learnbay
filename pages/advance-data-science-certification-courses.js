@@ -73,7 +73,7 @@ export default function Home() {
       </div>
       <GetHired 
         WeekdayBatchDate="Interview Guarantee backed up by 250+ hiring partners"
-        WeekendBatchDate="10+ Domain-Electivess associated with full-stack modules"
+        WeekendBatchDate="10+ Domain-Electives associated with full-stack modules"
         Project="Project Experience Certification by IBM"
         Classes="6 IBM data science micro-skills certificates"
         OneLine="Completely live and interactive learning"
@@ -87,7 +87,7 @@ export default function Home() {
           Box1h5="Custom-fit Training"
           box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
           Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 7+ electives."
+          box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 10+ electives."
           Box3h5="Premium Mentoring"
           box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
           Box4h5="Hands-on Experience"
@@ -237,7 +237,7 @@ export default function Home() {
         </div>
       </div>
       <HowApply
-      CCourse="Enroll in Advanced Data Science & AI Program with domain specialization."
+      CCourse="Enroll in Advanced Data Science & AI Program with Domain Specialization."
       />
       <Fee
         sub1="Data Science and AI Foundation Program"
@@ -272,12 +272,12 @@ export default function Home() {
         PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
       />
       <CourseFee 
-      CourseFeeHead="Advanced Data Science & AI Course Fees"
+      CourseFeeHead="Advanced Data Science & AI Program : Batch Details"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
       CourseFeelist3="Extra Doubt Clearance Sessions"
-      CourseFeelist4="Multiple domain selection options"
+      CourseFeelist4="Multiple Domain Selection Options"
       CourseFeelist5="Company-based Mock Interviews"
 
       />

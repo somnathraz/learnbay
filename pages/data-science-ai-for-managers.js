@@ -182,8 +182,8 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
-    syllabush5="AI &
-    ML Tools"
+    syllabush5="DS &
+    AI Tools"
     syllabusb5="244+ Hours"
     SyllabusBotlist51="SQL + MongoDB"
     SyllabusBotlist52="Tableau + PowerBI"
@@ -280,12 +280,12 @@ export default function Home() {
         PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
       />
       <CourseFee 
-      CourseFeeHead="Data Science & AI For Managers Program Fee"
+      CourseFeeHead="Data Science & AI For Managers Program : Batch Details"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
       CourseFeelist3="Extra Doubt Clearance Sessions"
-      CourseFeelist4="Multiple domains + Project Expertise"
+      CourseFeelist4="Multiple Domains + Project Expertise"
       CourseFeelist5="Company-based Mock Interviews"
 
       />

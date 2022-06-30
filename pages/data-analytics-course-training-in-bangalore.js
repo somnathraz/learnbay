@@ -79,7 +79,7 @@ export default function Home() {
       <GetHired 
         WeekdayBatchDate="Best in class industrial training with live projects"
         WeekendBatchDate="250+ employer allowance & 100% interview guarantee"
-        Project="Career Guidance from industrial experts"
+        Project="Career guidance from industrial experts"
         Classes="Basic coding classes for non-technical pros"
         OneLine="Live & interactive training by industry experts"
         Interview="Course completion certificate from IBM"

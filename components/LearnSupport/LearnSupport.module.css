@@ -83,6 +83,7 @@
     border-color: #343870;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 0px 5px 0px rgb(52 56 112 / 31%);
+    line-height: 1.5;
 }
 
 .btn2:hover {
