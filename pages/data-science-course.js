@@ -77,11 +77,11 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="6 IBM data science micro-skills certificates"
-        WeekendBatchDate="10+ Domain-Electives associated with full-stack modules"
+        WeekdayBatchDate="6 micro-skills certificates from IBM"
+        WeekendBatchDate="8+ Domain-Electives associated with full-stack modules"
         Project="Project Experience Certification by IBM"
         Classes="Completely live and interactive learning"
-        OneLine="12 live industry projects & 2 fresh Capstones"
+        OneLine="12 live industry projects & 2 fresh Capstone Projects"
         Interview="Interview Guarantee backed up by 250+ hiring partners"
         Fee="79,000"
         Subscription="3 Year Subscription"
@@ -92,11 +92,11 @@ export default function Home() {
           Box1h5="Custom-fit Training"
           box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
           Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 10+ electives."
+          box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 8+ electives."
           Box3h5="Premium Mentoring"
           box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant Companies."
         />
       </div>
       <div className="MainCities">
@@ -150,7 +150,7 @@ export default function Home() {
             src="/certificate.webp"
 
             ModuleHead1="What are the most important tools and modules you learn at the Learnbay Data science Certificate program in Bangalore?"
-            ModuleBot1="Learnbay provides a space for non-techies to learn and improve coding skills in special basic coding classes. Clear any doubt at Learnbay in 1-1 sessions for a clear understanding. Bangalore's Learnbay Data science course consists of 8 MNC projects and 1 capstone project. You can even attend multiple classes and instructors as you like."
+            ModuleBot1="Learnbay provides a space For Non-Programmers to learn and improve coding skills in special basic coding classes. Clear any doubt at Learnbay in 1-1 sessions for a clear understanding. Bangalore's Learnbay Data science course consists of 8 MNC projects and 1 capstone project. You can even attend multiple classes and instructors as you like."
             ModuleBot2="Learnbay faculties help you to operate Data science tools. The tools can be Oracle, Database, MYSQL, SQL server, or tera data. Our experts teach you how to use your probability, statistics, and mathematical analysis skills. At Learnbay, you master R, Python, and SAS; these are the few tools for analyzing data. Learn Python, Statistics, Machine learning, Advance Excel, SQL, MONGO-DB, TABLEAU, POWER BI, BIG DATA, SPARK ANALYTICS, and TIME SERIES. These are the programs you will learn to work with while completing your data science course in Bangalore."
 
     syllabush1="Preparatory Classes (Programming + Maths)"

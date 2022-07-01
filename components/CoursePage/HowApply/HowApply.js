@@ -45,7 +45,7 @@ const HowApply = ({
             height="50px"
           />
                 <p className={styles.pBotC}>Step 3:<b>&nbsp;Get Placed</b></p>
-                <p className={styles.pBotC}>Get 100% Job Assurance accompanied by IBM Certification.</p>
+                <p className={styles.pBotC}>Get 100% interview Guarantee accompanied by IBM Certification.</p>
             </div>
         </div>
     </section>

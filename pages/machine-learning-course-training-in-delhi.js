@@ -78,11 +78,11 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="6 IBM AI/ML micro-skill certificates"
-        WeekendBatchDate="IT-specific domain-oriented full stack learning"
-        Project="Advanced AI & ML industry curated training"
-        Classes="Specially devised for techies"
-        OneLine="12 live industry projects & 2 fresh Capstones"
+        WeekdayBatchDate="6 IBM Certified AI/ML micro-skill certificates"
+        WeekendBatchDate="IT-specific domain-oriented full-stack learning with 8+ domains to choose from"
+        Project="Learn the latest tools and technologies in AI and ML"
+        Classes="Specially curated syllabus for technical professionals"
+        OneLine="12 live industry projects & 2 fresh Capstone Projects"
         Interview="Assured interview calls from 250+ recruiter network"
         Fee="95,000"
         Subscription="3 Year Subscription"
@@ -97,7 +97,7 @@ export default function Home() {
           Box3h5="Premium Mentoring"
           box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant Companies."
         />
       </div>
       <div className="MainCities">

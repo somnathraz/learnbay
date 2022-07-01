@@ -78,10 +78,10 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="8 micro-skill certificates by IBM"
-        WeekendBatchDate="Special data science modules of Project Management"
+        WeekdayBatchDate="Global Recognition : Earn 8 micro-skill certificates by IBM"
+        WeekendBatchDate="Special Project Management module as per industrial requirement"
         Project="12+ domain electives to choose from "
-        Classes="Specially devised for leadership-level pros"
+        Classes="Specially devised for leadership-level professionals"
         OneLine="15 live industry projects & 2 fresh Capstones"
         Interview="Assured interview calls from 250+ recruiter network"
         Fee="95,000"
@@ -93,11 +93,11 @@ export default function Home() {
           Box1h5="Custom-fit Training"
           box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
           Box2h5="Domain Destined"
-          box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 10+ electives."
+          box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 12+ electives."
           Box3h5="Premium Mentoring"
           box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant Companies."
         />
       </div>
       <div className="MainCities">
@@ -198,7 +198,7 @@ export default function Home() {
     JobBot2="The Job or Money-Back Guarantee program promises you will receive a total refund of your AI course expenses if you do not get hired within six months of completing the course."
     JobHead2="Why is Artificial Intelligence (AI) course Training a great start to the working professional seeking career switch in Delhi?"
     JobBot3="Artificial Intelligence (AI) is a general phrase that refers to the process of making machines and computers behave like humans without the need for human involvement. As the knowledge and experience of this profession continue to grow, it is becoming a popular career choice. Artificial intelligence and machine learning is the heart of many IT firms. This big global phenomenon is on the verge of taking over many industries. As a result, the demand for Artificial Intelligence specialists has risen effectively. The next few years will be rewarding for AI specialists in Delhi and India."
-    JobBot4="In Artificial Intelligence, you can work as an AI engineer, a Machine Learning Engineer, a Robotics Engineer, and a range of other jobs. Due to the incredible industrial exposures and individualized career-oriented learning modules, the AI courses of Learnbay ensure a successful as well as sustainable data science career switch, even for non-techies."
+    JobBot4="In Artificial Intelligence, you can work as an AI engineer, a Machine Learning Engineer, a Robotics Engineer, and a range of other jobs. Due to the incredible industrial exposures and individualized career-oriented learning modules, the AI courses of Learnbay ensure a successful as well as sustainable data science career switch, even For Non-Programmers."
 
     ProjectsBot1="Throughout the course, Learnbay instructors guarantee that students apply their newly learned knowledge to various Artificial Intelligence situations. Students can interact with real-time Artificial Intelligence initiatives from big organizations through its unique cloud lab feature. During this course, you will have the opportunity to work on 15+ current real-time projects in your chosen domain (s). Artificial intelligence certification courses in Delhi include 70% hands-on training sessions where you will be exposed to real-world applications. This will assist you in studying more successfully. At the end of each learning module, you'll be working on new AI Capstone projects, which will add to your project portfolio and help you achieve a successful AI profession."
     src1="/SAMSUNG.png"

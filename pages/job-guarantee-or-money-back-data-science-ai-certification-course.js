@@ -74,11 +74,11 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Course Completion Certificate from IBM"
-        WeekendBatchDate="Within 6 months, either job or full refund"
+        WeekdayBatchDate="Global Recognition : Course Completion Certificate from IBM"
+        WeekendBatchDate="Within 18 months, get placed or avail full refund"
         Project="15 live industry projects & 3 fresh capstones projects"
-        Classes="10+ Domain-Electives associated with full-stack modules"
-        OneLine="Specially devised for leadership-level pros"
+        Classes="8+ Domain-Electives associated with full-stack modules"
+        OneLine="Specially devised for leadership-level professionals"
         Interview="Special coding classes for non-programmers"
         Fee="1,25,000"
         Subscription="3 Year Subscription"
@@ -87,11 +87,11 @@ export default function Home() {
         <BoxShape
           title="Why Enroll In This Program"
           Box1h5="Custom-fit Training"
-          box1desc="Get specially designed molecules as per your dream DS/AI role. Learn demanding DS/AI applications."
+          box1desc="Get specially designed modules as per your dream job profile. Learn demanding DS/AI applications."
           Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge DS/Al skills as per demanding IT-industry standards. Choose from 10+ domains."
+          box2desc="Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 10+ domains."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy the edge of mock interviews and CV writing workshops with MAANG Data Science/AI whizzes."
+          box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts."
           Box4h5="Hands-on Experience"
           box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
@@ -112,7 +112,7 @@ export default function Home() {
         desc="Complete your training with the internationally recognized certificate."
         desc2 ="Validate your Data Science and AI skills with IBM Course Completion Certificate."
         desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-        src="/basiccertificate.png"
+        src="/DS-AI-1.jpeg"
       />
       <section className={styles.HiringPartner}>
         <div>
@@ -230,8 +230,8 @@ export default function Home() {
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-<p>Doubts Regarding Learning Assistance? Or You’re Unsure Of Your Initial Data Science Career Step? Whatever Is It…</p>
-          <h6>We Are Here To Help You.</h6>
+<p>Doubts regarding learning assistance... Or you’re unsure of your Initial Career step... Whatever it is!</p>
+          <h6>WE ARE HERE TO HELP YOU!</h6>
         </div>
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>

@@ -5,11 +5,11 @@ const TabData = [
   },
   {
     id: "Data Science and AI",
-    title: "For 1+ year Experience",
+    title: "For Programmers",
   },
   {
     id: "Software Development",
-    title: "For Non-techies",
+    title: "For Non-Programmers",
   },
   {
     id: "Cloud Computing",

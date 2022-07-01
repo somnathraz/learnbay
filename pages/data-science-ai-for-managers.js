@@ -74,10 +74,10 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="8 micro-skill certificates by IBM"
-        WeekendBatchDate="Special data science modules of Project Management"
+        WeekdayBatchDate="Global Recognition : Earn 8 micro-skill certificates by IBM"
+        WeekendBatchDate="Special Project Management module as per industrial requirement"
         Project="12+ domain electives to choose from "
-        Classes="Specially devised for leadership-level pros"
+        Classes="Specially devised for leadership-level professionals"
         OneLine="15 live industry projects & 2 fresh capstones projects"
         Interview="Assured interview calls from 250+ recruiter network"
         Fee="95,000"
@@ -89,11 +89,11 @@ export default function Home() {
           Box1h5="Custom-fit Training"
           box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
           Box2h5="Domain Destined"
-          box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 10+ electives."
+          box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 12+ electives."
           Box3h5="Premium Mentoring"
           box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant Companies."
         />
       </div>
       <CareerImpact
@@ -236,8 +236,8 @@ export default function Home() {
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-<p>Doubts Regarding Learning Assistance? Or You’re Unsure Of Your Initial Data Science Career Step? Whatever Is It…</p>
-          <h6>We Are Here To Help You.</h6>
+<p>Doubts regarding learning assistance... Or you’re unsure of your Initial Career step... Whatever it is!</p>
+          <h6>WE ARE HERE TO HELP YOU!</h6>
         </div>
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>

@@ -35,7 +35,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
         </div>
       </Popup>
       <div className={styles.left}>
-        <p className="pTop"> Certificate from IBM</p>
+        <p className="pTop">Global Recognition</p>
         <h4 style={{ marginBottom: "20px", textAlign: "left" }}>{title}</h4>
 
         <p className={styles.pBotC}>{desc}</p>

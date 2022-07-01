@@ -86,11 +86,11 @@ export default function Home() {
         <BoxShape
           title="Why Enroll In This Program"
           Box1h5="Custom-fit Training"
-          box1desc="Get specially designed modules as per your dream DS role. Learn trending AI applications."
+          box1desc="Get specially designed modules as per your dream role. Learn trending Data Science applications."
           Box2h5="Exclusive Hackathons"
           box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy the edge of mock interviews and CV writing workshops with MAANG DS/AI whizzes."
+          box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from starters, directly from relevant establishments."
         />
@@ -111,7 +111,7 @@ export default function Home() {
         desc="Complete your training with the internationally recognized certificate."
         desc2 ="Validate your Data Science skills with IBM Course Completion Certificate."
         desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-        src="/certificate1.png"
+        src="/certificate1.jpg"
       />
       <section className={styles.HiringPartner}>
         <div>
@@ -132,7 +132,7 @@ export default function Home() {
     HoursSyllabus="225"
     HoursSyllabusText="Hours Syllabus"
     Projects="8"
-    ProjectsText="DS & AI Projects"
+    ProjectsText="Data Science Projects"
     Sessions="100"
     SessionsText="Live Learning Sessions"
     JobSessions="4"
@@ -172,8 +172,7 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Sentiment Analysis"
     SyllabusBotlist46="Loan Eligibility Prediction"
-    syllabush5="Data Science &
-    AI Tools"
+    syllabush5="Data Science Tools"
     syllabusb5="116+ Hours"
     SyllabusBotlist51="Advance Excel"
     SyllabusBotlist52="SQL + MongoDB"
@@ -219,7 +218,7 @@ export default function Home() {
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-<p>Doubts Regarding Learning Assistance? Or You’re Unsure Of Your Initial Data Science Career Step? Whatever Is It…</p>
+<p>Doubts regarding learning assistance... Or you’re unsure of your Initial Career step... Whatever it is!</p>
           <h6>We Are Here To Help You.</h6>
         </div>
         <div className={styles.right}>

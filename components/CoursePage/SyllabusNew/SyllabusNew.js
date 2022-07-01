@@ -189,7 +189,7 @@ const SyllabusNew = ({ HoursSyllabus, HoursSyllabusText, Projects, ProjectsText,
         <div>
             <a href={syllabussrc} target={"_blank"}><button style={{margin:"auto", marginTop:"20px", fontSize:"16px"}}>
                 <FaDownload className={styles.bicon} />
-                Download Brochure
+                Detailed Brochure
             </button></a>
         </div>
     </section>

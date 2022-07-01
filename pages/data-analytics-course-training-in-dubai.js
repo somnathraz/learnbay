@@ -80,7 +80,7 @@ export default function Home() {
         WeekdayBatchDate="Best in class industrial training with live projects"
         WeekendBatchDate="250+ employer allowance & 100% interview guarantee"
         Project="Career guidance from industrial experts"
-        Classes="Basic coding classes for non-technical pros"
+        Classes="Basic coding classes for non-technical professions"
         OneLine="Live & interactive training by industry experts"
         Interview="Course completion certificate from IBM"
         Fee="60,000"
@@ -94,9 +94,9 @@ export default function Home() {
           Box2h5="Exclusive Hackathons"
           box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy the edge of mock interviews and CV writing workshops with MAANG Data Analytical whizzes."
+          box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
           Box4h5="Hands-on Experience"
-          box4desc="Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant establishments."
+          box4desc="Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies."
         />
       </div>
       <div className="MainCities">
@@ -109,7 +109,7 @@ export default function Home() {
             ProgramBot1="Learnbay offers a full-stack Data analytics course in Dubai, co-developed by IBM. The data analytics courses are prepared by professional faculties that have immense knowledge and experience in the real-world data analytics field. Our Data Analytics course is aimed at anyone wanting to learn about data analytics, with an emphasis on practical skills and job-ready techniques. In other words, It is the perfect choice for anyone interested in working as a data analyst, marketing analyst, financial analyst, analytical consultant, or any other analytical role. Simply, we can say this is a course that helps aspirants boost their knowledge of how data can be used in today's business market."
             ProgramBot2="The IBM data analytics course curriculum optimizes students with the requisite set of skills to ace interviews and builds a strong platform for their job prospects in Dubai."
             ProgramHead3="How can Learnbay be the right start for your data analytics career in Dubai?"
-            ProgramBot3="Learnbay offers weekend and weekday batches to accommodate working professionals' busy schedules. You can also choose your own learning schedule. With a 1-year flexi pass, students can attend any batch of any instructor via Learnbay LMS. Learnbay also conducts additional coding classes for non-techies to keep them on track with other techies."
+            ProgramBot3="Learnbay offers weekend and weekday batches to accommodate working professionals' busy schedules. You can also choose your own learning schedule. With a 1-year flexi pass, students can attend any batch of any instructor via Learnbay LMS. Learnbay also conducts additional coding classes For Non-Programmers to keep them on track with other techies."
             ProgramBot31="The IBM data analytics course includes 180+ hours of live lectures, exercises, hands-on labs, real-world examples, case studies, and discussion sessions, giving you an idea of how data analytics works in practice. In addition, Learnbay also hosts monthly hackathons and webinars to ensure engaged learning."
             ProgramBot32="In a nutshell,  Learnbay is the ideal place for you to head-start your career in data analytics training in Dubai."
 

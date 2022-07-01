@@ -80,7 +80,7 @@ export default function Home() {
         WeekdayBatchDate="Best in class industrial training with live projects"
         WeekendBatchDate="250+ employer allowance & 100% interview guarantee"
         Project="Career guidance from industrial experts"
-        Classes="Basic coding classes for non-technical pros"
+        Classes="Basic coding classes for non-technical professions"
         OneLine="Live & interactive training by industry experts"
         Interview="Course completion certificate from IBM"
         Fee="60,000"
@@ -94,9 +94,9 @@ export default function Home() {
           Box2h5="Exclusive Hackathons"
           box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy the edge of mock interviews and CV writing workshops with MAANG Data Analytical whizzes."
+          box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
           Box4h5="Hands-on Experience"
-          box4desc="Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant establishments."
+          box4desc="Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies."
         />
       </div>
       <div className="MainCities">
@@ -110,7 +110,7 @@ export default function Home() {
             ProgramBot2="Learnbay Data analytics course in Bangalore helps non-programmers learn from interactive special basic coding classes with regular updates on coding assignments. Learnbay even conducts hackathons and webinars for efficient learning. This IBM data analytics course ensures the successful and secure technical career switch for non-technical early pros."
             ProgramBot3="Keeping the time management hardship of working professionals, Learnbay offers both Weekend and Weekday Batcheses. Even you get additional flexibility in choosing your learning schedules too. Via Learnbay LMS Students can attend any batch from an instructor or mentor as per their choice with 1 year of the flexible pass."
             ProgramHead4="Why is Learnbay a perfect institute for professional  Data analytics courses in Bangalore?"
-            ProgramBot4="Learnbay ensures smooth live conversational classes with flexible hours and sessions conducted by experienced Data analysts. As already mentioned, we offer a one-year Flexi subscription for students to learn at their own pace. Learnbay data science course's best feature is that students can choose their batch and mentors. We even conduct additional classes for non-techies to stay upright with other techies. Such non-techies supports include dedicated basic programming classes and entry-level hackathons. Learnbay gives world-class training in Data Analytics in Bangalore to prepare students to grow as Data analysts."
+            ProgramBot4="Learnbay ensures smooth live conversational classes with flexible hours and sessions conducted by experienced Data analysts. As already mentioned, we offer a one-year Flexi subscription for students to learn at their own pace. Learnbay data science course's best feature is that students can choose their batch and mentors. We even conduct additional classes For Non-Programmers to stay upright with other techies. Such non-techies supports include dedicated basic programming classes and entry-level hackathons. Learnbay gives world-class training in Data Analytics in Bangalore to prepare students to grow as Data analysts."
             ProgramBot5="Apart from these, you have the options for choosing online/ offline/ hybrid mode. The entire training course offers a full-stack learning opportunity within 4.5 months. It’s a fast-track course but trickily designed in such a way that your mastery does not remain limited to the trending data analytics tools but also to the requisites concepts behind it. So, even if the popularity or direction of tool usage gets changed tomorrow, your demand as a data scientist is not going to drop. After completion of this job-oriented data analytics program, you will be strong enough in the concept- for which recruiter fall for"
             ProgramHead6="What is the basic Data Analytics process that you need to know while working as a Data Analyst in Bangalore?"
             ProgramBot6="1. You determine data requirements or how the data has to be grouped. Data can be classified by age, income, demographic, or gender. Data can be classified in numbers or categories."

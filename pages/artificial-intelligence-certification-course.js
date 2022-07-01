@@ -75,11 +75,11 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="6 IBM AI/ML micro-skill certificates"
-        WeekendBatchDate="Specially devised for techies"
-        Project="IT-specific domain-oriented full stack learning"
-        Classes="Advanced AI & ML industry curated training"
-        OneLine="12 live industry projects & 2 fresh Capstones"
+        WeekdayBatchDate="6 IBM Certified AI/ML micro-skill certificates"
+        WeekendBatchDate="Specially curated syllabus for technical professionals"
+        Project="IT-specific domain-oriented full-stack learning with 8+ domains to choose from"
+        Classes="Learn the latest tools and technologies in AI and ML"
+        OneLine="12 live industry projects & 2 fresh Capstone Projects"
         Interview="Assured interview calls from 250+ recruiter network"
         Fee="95,000"
         Subscription="3 Year Subscription"
@@ -95,7 +95,7 @@ export default function Home() {
           Box3h5="Premium Mentoring"
           box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant Companies."
         />
       </div>
       <CareerImpact
@@ -138,7 +138,7 @@ export default function Home() {
     <SyllabusNew
     HoursSyllabus="300"
     HoursSyllabusText="Hours Syllabus"
-    Projects="15"
+    Projects="12"
     ProjectsText="AI & ML Projects"
     Sessions="100"
     SessionsText="Live Learning Sessions"
@@ -227,15 +227,15 @@ export default function Home() {
       <Domain />
       <div className={styles.ProjectWrapper} id="project">
         <Project
-        project="15+"
+        project="12+"
         domain="7+"
         />
       </div>
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-<p>Doubts Regarding Learning Assistance? Or You’re Unsure Of Your Initial Data Science Career Step? Whatever Is It…</p>
-          <h6>We Are Here To Help You.</h6>
+<p>Doubts regarding learning assistance... Or you’re unsure of your Initial Career step... Whatever it is!</p>
+          <h6>WE ARE HERE TO HELP YOU!</h6>
         </div>
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>
