@@ -13,10 +13,10 @@ export const CertificateD = [
 export const CertificateDD = [
   {
     id: 1,
-    img: "/certificate-png.webp",
+    img: "/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
-      "Get certified by IBM on competition of industry-level ML projects.",
+      "Get certified by IBM on compeletion of industry-level ML projects.",
       "Work on latest AI projects for HashtaagTM, Rapido, Magicpin, etc.",
       "VIP access to startup job sites and opportunities for individual projects.",
     ],
@@ -37,10 +37,10 @@ export const CertificateAdvance1 = [
 export const CertificateAdvance2 = [
   {
     id: 1,
-    img: "/DS-AI-2.png",
+    img: "/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
-      "Get certified by IBM on competition of industry-level projects.",
+      "Get certified by IBM on compeletion of industry-level projects.",
       "Work on latest data science projects for Swiggy, Zomato, Rapido, etc.",
       "Priority access to startup job sites and requirements for individual projects.",
     ],
@@ -61,10 +61,10 @@ export const Certificate3 = [
 export const Certificate4 = [
   {
     id: 1,
-    img: "/DS-AI-2.png",
+    img: "/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
-      "Get certified by IBM on competition of industry-level ML projects.",
+      "Get certified by IBM on compeletion of industry-level ML projects.",
       "Work on latest AI projects for HashtaagTM, Rapido, Magicpin, etc.",
       "VIP access to startup job sites and opportunities for individual projects.",
     ],
@@ -85,10 +85,10 @@ export const Certificate5 = [
 export const Certificate6 = [
   {
     id: 1,
-    img: "/DS-AI-2.png",
+    img: "/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
-      "Get certified by IBM on competition of industry-level projects.",
+      "Get certified by IBM on compeletion of industry-level projects.",
       "Work on latest data science projects for Swiggy, Zomato, Rapido, etc.",
       "Priority access to startup job sites and requirements for individual projects.",
     ],

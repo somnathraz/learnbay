@@ -125,6 +125,7 @@ export const ForProgrammersD = [
 export const ForNonProgrammerD = [
   {
     id: 1,
+    img: "/AI-Certificatiom-for-pro.png",
     title: "Data Science",
     title1: "Foundation Program",
     para: [

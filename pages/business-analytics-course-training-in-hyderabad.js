@@ -78,7 +78,7 @@ export default function Home() {
       </div>
       <GetHired 
         WeekdayBatchDate="Industry-curated training via real-world analytics"
-        WeekendBatchDate="Elementary programming classes for non-technical pros"
+        WeekendBatchDate="Special programming classes for non-technical professions"
         Project="Especially designed for early pros or aspirants with career gap"
         Classes="Learn the most trending analytical trick from MNC experts"
         OneLine="Industrial Business Analytics certifications for IBM"
@@ -94,9 +94,9 @@ export default function Home() {
           Box2h5="Exclusive Hackathons"
           box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy the edge of mock interviews and CV writing workshops with MAANG Business Analytics Experts."
+          box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant Companies."
         />
       </div>
       <div className="MainCities">

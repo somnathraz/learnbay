@@ -73,7 +73,7 @@ export default function Home() {
         WeekdayBatchDate="Best in class industrial training with live projects"
         WeekendBatchDate="250+ employer allowance & 100% interview guarantee"
         Project="Career guidance from industrial experts"
-        Classes="Basic coding classes for non-technical pros"
+        Classes="Basic coding classes for non-technical professions"
         OneLine="Live & interactive training by industry experts"
         Interview="Course completion certificate from IBM"
         Fee="60,000"
@@ -88,9 +88,9 @@ export default function Home() {
           Box2h5="Exclusive Hackathons"
           box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy the edge of mock interviews and CV writing workshops with MAANG Data Analytical whizzes."
+          box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
           Box4h5="Hands-on Experience"
-          box4desc="Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant establishments."
+          box4desc="Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies."
         />
       </div>
       <CareerImpact
@@ -218,15 +218,15 @@ export default function Home() {
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-<p>Doubts Regarding Learning Assistance? Or You’re Unsure Of Your Initial Data Science Career Step? Whatever Is It…</p>
-          <h6>We Are Here To Help You.</h6>
+<p>Doubts regarding learning assistance... Or you’re unsure of your Initial Career step... Whatever it is!</p>
+          <h6>WE ARE HERE TO HELP YOU!</h6>
         </div>
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>
         </div>
       </div>
       <HowApply
-      CCourse="Enroll in Data Analytics for Early Professionals."
+      CCourse="Enroll in IBM Certified Data Analytics Program."
       />
       <CourseFee 
       CourseFeeHead="Data Analytics Program : Batch Details"

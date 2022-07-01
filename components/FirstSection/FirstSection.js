@@ -8,10 +8,10 @@ import Form from "../Form/Form";
 const FirstSection = () => {
   const el = useRef(null);
   const fancyText = [
-    "250+ Hiring Partners",
-    "30+ Domain Electives",
-    "86% Alumni Success Rate",
-    "100% Interview Guarantee",
+    "Data Science & AI Program",
+    "Full Stack Development Program",
+    "Data Structure & Algorithm",
+    "Software Development Program",
   ];
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -62,7 +62,7 @@ const FirstSection = () => {
       </Popup>
       <div className={styles.leftSide}>
         <p className={styles.FirstP}> GET INTO</p>
-        <h1>India’s Best Domain Specialized Data Science and AI Program</h1>
+        <h1>India’s Best Domain Specialized Program for Experienced Professionals</h1>
         <p className="pTop">
           Use your domain expertise to build a meaningful career.
         </p>
