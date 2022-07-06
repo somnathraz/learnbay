@@ -1,8 +1,6 @@
 import React from 'react'
 import { FaMapMarkedAlt,FaEnvelope,FaWhatsapp } from "react-icons/fa";
 import styles from "./ContactUs.module.css";
-import { RiWhatsappFill } from "react-icons/ri";
-
 
 function ContactUs() {
   return (

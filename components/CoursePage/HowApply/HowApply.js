@@ -1,8 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from "./HowApply.module.css";
-import { BiCheckCircle } from "react-icons/bi";
-
 
 const HowApply = ({
   CCourse,

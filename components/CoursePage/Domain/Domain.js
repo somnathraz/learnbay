@@ -1,52 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styles from "./Domain.module.css";
 import Image from "next/image";
-import Popup from "/components/Popup/Popup";
-import Form from "/components/Form/Form";
 
 
 const Domain = () => {
-  const [mobile, setMobile] = useState(false);
-  useEffect(() => {
-    let width = window.innerWidth;
-    if (width < 481) {
-      setMobile(true);
-    }
-    if (width > 481) {
-      setMobile(false);
-    }
-  });
-  const [popups, setPopups] = useState(false);
-  const popupShow = () => {
-    setPopups(true);
-  };
-  const showMenu = () => {
-    setShow(!show);
-  };
-
-  useEffect(() => {
-    let width = window.innerWidth;
-    if (width < 481) {
-      setMobile(true);
-    }
-  });
-
-
   return (
     <section className={styles.Domain}>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
-        </div>
-      </Popup>
       <div className={styles.CInner}>
         <h4>Domain Specialization</h4>
-        {/* <p className="pBot">Work on live projects to get hired at:</p> */}
       </div>
       <div className={styles.imageBox}>
         <div className={styles.left}>
@@ -65,9 +26,6 @@ const Domain = () => {
           <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf" target="_blank"><div className={styles.bottom}>
             <p>Manufacturing, Mechanical and Telecom Domain</p>
           </div></a>
-          {/* <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/For+MS+Aspirants++AIML.pdf" target="_blank"><div className={styles.bottom1}>
-            <p>For MS Aspirants AI/ML</p>
-          </div></a> */}
         </div>
         <div className={styles.left}>
         <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf" target="_blank"><div className={styles.top}>

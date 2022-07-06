@@ -50,11 +50,11 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="Take the initiative and watch your career roar!"
-        mTopPara="Take the initiative and watch your career roar!"
+        deskTopPara="Be a demanding Developer to stay ahead"
+        mTopPara="Be a demanding Developer to stay ahead"
         title="Full Stack Web Development Program"
         spanTitleText="with Domain Specialization"
-        desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+        desc="Archive a stunning appearance in the job market as a seasoned web developer. Learn the ninja techniques from MNC experts via real-time projects."
         src="/course9.png"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf"
@@ -63,22 +63,23 @@ export default function Home() {
         <ProgramInfo
         p1="Aimed for"
         p11="Working Professionals"
-        p2="50 LPA to 60 LPA"
+        p2="60 LPA to 95 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
         p4="No Cost EMI"
-        p44="₹ 10k/month (9 Months)"
+        p44="₹ 9k to 15k/month (9 Months)"
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Interview Guarantee backed up by 250+ hiring partners"
-        WeekendBatchDate="8+ Domain-Electives associated with full-stack modules"
-        Project="Project Experience Certification by IBM"
-        Classes="6 micro-skills certificates from IBM"
-        OneLine="Completely live and interactive learning"
-        Interview="12 live industry projects & 2 fresh Capstone Projects"
+        WeekdayBatchDate="Assured interview calls powered by 250+ hiring partners"
+        WeekendBatchDate="Hybrid learning option across multiple cities"
+        Project="12+ live projects and 2 capstone project"
+        Classes="Project experience Certificate by IBM"
+        OneLine="1000+ trending practical assignments"
+        Interview="Exclusive MNC expert hosted hackathons"
         Fee="79,000"
+        Fees="₹79,000"
         Subscription="3 Year Subscription"
       />
       <div className="Feature" id="Feature">

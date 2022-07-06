@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 import ContactUs from "../components/ContactUs/ContactUs";
 
 function contactus() {

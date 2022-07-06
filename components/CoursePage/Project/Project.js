@@ -24,7 +24,6 @@ const Project = ({
   project,
   domain,
 }) => {
-  // const [isMoved, setIsMoved] = useState(false);
   const [slideNumber, setSlideNumber] = useState(0);
   const [device, setDevice] = useState();
   const listRef = useRef();

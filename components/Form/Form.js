@@ -40,24 +40,6 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
   // if (router.pathname === "/data-science-certification-courses") {
   //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
   // }
-  // if (router.pathname === "/advance-data-science-certification-courses") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
-  // if (router.pathname === "/artificial-intelligence-certification-course") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
-  // if (router.pathname === "/data-science-ai-for-managers") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
-  // if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-certification-course") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
-  // if (router.pathname === "/business-analytics-certification-course") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
-  // if (router.pathname === "/data-analytics-certification-course") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
 
   // Form Submit function
   const formSubmit = (e) => {
@@ -142,6 +124,20 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you-brochure");
       return;
     }
+    if (router.pathname === "/full-stack-software-development-program") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/full-stack-software-development-program" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/full-stack-web-development-program") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/full-stack-web-development-program" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
   };
   const pastDates = () => {
     let today, dd, mm, yyyy;
@@ -211,6 +207,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             className={popup ? styles.Phones : styles.Phone}
             value={value}
             onChange={setValue}
+            required
           />
         </div>
         <div className={popup ? styles.formWrappers : styles.formWrapper}>
@@ -220,75 +217,21 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             value={query.workExperience}
             onChange={handleParam()}
           >
-            <option className={styles.option} value="">
-              Select Your Work Experience
-            </option>
-            <option value="College Students">College Student</option>
-            <option value="Fresher (less than 1 year)">
-              Fresher (less than 1 year)
-            </option>
-            <option value="1 to 3 years">1 to 3 years</option>
-            <option value="3 to 7 years">3 to 7 years</option>
-            <option value="7 to 12 years">7 to 12 years</option>
-            <option value="12+ years">12+ years</option>
+            <option value="Work Experience">Work Experience</option>
+            <option value="1 to 3 year">1 to 3 year</option>
+            <option value="3 to 7 year">3 to 7 year</option>
+            <option value="7 to 12 year">7 to 12 year</option>
+            <option value="12+ year">12+ year</option>
           </select>
         </div>
         {popup ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <select
-              name="scheduleTime"
-              required
-              value={query.scheduleTime}
-              onChange={handleParam()}
-            >
-              <option className={styles.option} value="">
-                Scheduled Your Appointment
-              </option>
-              <option value="Morning between (10 AM - 11 AM)">
-                Morning between (10 AM - 11 AM)
-              </option>
-              <option value="Afternoon between (11 AM - 12 PM)">
-              Afternoon between (11 AM - 12 PM)
-              </option>
-              <option value="Afternoon between (12 PM - 01 PM)">
-              Afternoon between (12 PM - 01 PM)
-              </option>
-              <option value="Evening between (02 PM - 03 PM)">
-                Evening between (02 PM - 03 PM)
-              </option>
-              <option value="Evening between (03 PM - 04 PM)">
-                Evening between (03 PM - 04 PM)
-              </option>
-              <option value="Evening between (04 PM - 05 PM)">
-                Evening between (04 PM - 05 PM)
-              </option>
-            </select>
             <input
               type="hidden"
               id="url"
               name="url"
               value={router.asPath}
             ></input>
-            {/* <div className={styles.inner}>
-              <input
-                id="date"
-                className={styles.date}
-                min={pastDates()}
-                max={maxDates()}
-                type="date"
-                name="date"
-                value={query.date}
-                onChange={handleParam()}
-              />
-              <input
-                id="time"
-                className={styles.time}
-                type="time"
-                name="time"
-                value={query.time}
-                onChange={handleParam()}
-              />
-            </div> */}
           </div>
         ) : (
           ""
@@ -298,7 +241,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             type="textarea"
             name="Brief"
             className={popup ? styles.NameInputs : styles.NameInput}
-            placeholder="Tell us something about yourself"
+            placeholder="Job Description"
             value={query.Brief}
             style={{ borderBottom: "1px solid grey" }}
             onChange={handleParam()}
