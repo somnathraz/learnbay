@@ -1,0 +1,252 @@
+.Open {
+  margin-top: 90px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 120px;
+}
+.headerInfo {
+  margin: 160px 0px 70px 0px;
+}
+.headerInfo h1 {
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 900;
+}
+.headerInfo span {
+  display: flex;
+  margin-left: 10px;
+  gap: 10px;
+  color: grey;
+}
+.time {
+  color: #0487d9;
+}
+.bodyInfo {
+  display: grid;
+  gap: 60px;
+  grid-template-columns: 64% 24%;
+}
+.leftInfo {
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.HeadImg {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.leftInfo article {
+  margin-top: 60px;
+  padding: 0px 20px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.leftInfo article h2 {
+  color: #0487d9;
+}
+.leftInfo article p strong {
+  color: #f28705;
+}
+.leftInfo article li {
+  color: #646464;
+  margin-bottom: 10px;
+  line-height: 23px;
+}
+.leftInfo article li strong {
+  color: rgb(82, 82, 82);
+}
+.leftInfo a {
+  color: #0487d9;
+  border-bottom: 1px solid #0487d952;
+}
+.leftInfo a:hover {
+  color: #f28705;
+  border-bottom: 1px solid #f2870546;
+}
+.leftInfo hr {
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 2px;
+  outline: none;
+  border: 0px;
+  background-color: rgb(201, 201, 201);
+}
+.tag {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tag p {
+  font-weight: 600;
+  color: gray;
+}
+.lSide {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.lSide span {
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  border-radius: 5px;
+}
+.rSide p {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.tIcon {
+  color: #0487d9;
+  font-size: 20px;
+  cursor: pointer;
+}
+.tIcon:hover {
+  background-color: #0487d9;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+.ProfileInfo {
+  border-radius: 5px;
+  box-shadow: rgba(242, 135, 5, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  display: flex;
+  margin-bottom: 40px;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.contentT {
+  border-radius: 5px;
+  box-shadow: rgba(4, 135, 217, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  display: flex;
+  margin-bottom: 40px;
+  flex-flow: column;
+  justify-content: center;
+}
+.contentT p {
+  cursor: pointer;
+}
+.contentT p:hover {
+  color: #0487d9;
+}
+.ProfileInfo h5 {
+  font-size: 20px;
+  margin: 0;
+  margin: 20px 0px 10px 0px;
+  color: rgb(45, 45, 45);
+}
+.ProfileInfo p {
+  font-size: 18px;
+  color: #646464;
+  margin: 0;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.icon {
+  display: flex;
+  gap: 10px;
+}
+.SIcon {
+  font-size: 30px;
+  padding: 5px;
+  cursor: pointer;
+  color: #0487d9;
+}
+.SIcon:hover {
+  color: white;
+}
+.circleDiv {
+  background-color: #def5fc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.circleDiv:nth-child(2) {
+  background-color: #fff5e9;
+}
+.circleDiv:nth-child(2):hover {
+  background-color: #f28705;
+}
+.circleDiv:nth-child(2) .SIcon {
+  color: #f28705;
+}
+.circleDiv:nth-child(2) .SIcon:hover {
+  color: white;
+}
+.circleDiv:hover {
+  background-color: #0487d9;
+}
+.contentT div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.numberBack {
+  background-color: #e8f6ff;
+  border-radius: 50%;
+  color: #0487d9;
+  padding: 5px 10px;
+}
+.table {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+}
+.table h5 {
+  font-size: 22px;
+  font-weight: 600;
+  color: gray;
+}
+.rPost {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border-left: 4px solid #f28705;
+}
+.rPost:hover {
+  -webkit-box-shadow: 10px 10px 17px 0px rgba(242, 135, 5, 0.1);
+  -moz-box-shadow: 10px 10px 17px 0px rgba(242, 135, 5, 0.1);
+  box-shadow: 10px 10px 17px 0px rgba(242, 135, 5, 0.1);
+  transition: all 0.5s ease-in-out;
+}
+.rPost h5 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 10px;
+}
+.rPost h5:hover {
+  color: #f28705;
+}
+.rPost span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: grey;
+  font-size: 14px;
+  font-weight: 500;
+}
+.rPost span p {
+  font-weight: 400;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: rgb(192, 192, 192);
+}
+.timeIcon {
+  font-size: 16px;
+  color: #f28705;
+}

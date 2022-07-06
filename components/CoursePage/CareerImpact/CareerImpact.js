@@ -170,7 +170,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
                       <Image
-                        src="/pawan.jpg"
+                        src="/pawan.webp"
                         layout="intrinsic"
                         width="120"
                         height="120"
@@ -517,7 +517,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
                       <Image
-                        src="/pawan.jpg"
+                        src="/pawan.webp"
                         layout="intrinsic"
                         width="120"
                         height="120"
