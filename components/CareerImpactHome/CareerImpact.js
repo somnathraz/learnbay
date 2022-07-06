@@ -3,10 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { Autoplay, FreeMode, Pagination } from "swiper";
+import { FreeMode, Pagination } from "swiper";
 import Image from "next/image";
 import styles from "./CareerImpact.module.css";
-import CountUp from "react-countup";
 
 const CareerImpact = ({ CareerHead, changeReview }) => {
   const [mobile, setMobile] = useState(false);

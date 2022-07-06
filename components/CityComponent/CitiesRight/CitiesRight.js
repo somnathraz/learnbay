@@ -273,18 +273,6 @@ const CitiesRight = ({
                 <p className={styles.pp}>{JobBot10}</p>
                 <p className={styles.pHead}>{JobHead6}</p>
                 <p className={styles.pp}>{JobBot11}</p>
-
-                {/* <p className={styles.pHead}>{JobHead4}</p>
-                <p className={styles.pp}>{JobBot4}</p>
-                <ul>
-                    <li>{JobList1}</li>
-                    <li>{JobList2}</li>
-                    <li>{JobList3}</li>
-                    <li>{JobList4}</li>
-                    <li>{JobList5}</li>
-                    <li>{JobList6}</li>
-                    <li>{JobList7}</li>
-                </ul> */}
             </div>
         </div>
         <div id="Projects">

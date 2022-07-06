@@ -43,24 +43,6 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
   // if (router.pathname === "/data-science-certification-courses") {
   //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
   // }
-  // if (router.pathname === "/advance-data-science-certification-courses") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
-  // if (router.pathname === "/artificial-intelligence-certification-course") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
-  // if (router.pathname === "/data-science-ai-for-managers") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
-  // if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-certification-course") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
-  // if (router.pathname === "/business-analytics-certification-course") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
-  // if (router.pathname === "/data-analytics-certification-course") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
 
   // Form Submit function
   const formSubmit = (e) => {
@@ -168,6 +150,20 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.pathname === "/data-analytics-certification-course" &&
       downloadBrochure
     ) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/full-stack-software-development-program") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/full-stack-software-development-program" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/full-stack-web-development-program") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/full-stack-web-development-program" && downloadBrochure) {
       router.push("/Thank-you-brochure");
       return;
     }

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./HeroSection.module.css";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Autoplay, Pagination } from "swiper";
+import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";import {
   FaArrowRight,
   FaDownload,
@@ -71,7 +71,7 @@ const HeroSection = ({
             <button onClick={popupShow}>Apply for Counselling<FaArrowRight style={{ marginLeft: "10px" }} /></button>
           </div>
           <div className={styles.btnWrapper}>
-            <a href={srcD}><button className="buttonline">Download Brochure<FaDownload style={{ marginLeft: "10px" }} /></button></a>
+            <a href={srcD} target="_blank"><button className="buttonline">Download Brochure<FaDownload style={{ marginLeft: "10px" }} /></button></a>
           </div>
         </div>
         <p className={styles.hPara}>Our Proud Alumni</p>

@@ -10,43 +10,49 @@ module.exports = {
       {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/data-science-training-in-bangalore',
-        destination: '/data-science-course-training-in-bangalore/',
+        destination: '/data-science-course-training-in-bangalore',
         permanent: true,
       },
       {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/data-science-online-training-in-bangalore',
-        destination: '/data-science-course-training-in-bangalore/',
+        destination: '/data-science-course-training-in-bangalore',
         permanent: true,
       },
       {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/data-science-course-online-in-bangalore',
-        destination: '/data-science-course-training-in-bangalore/',
+        destination: '/data-science-course-training-in-bangalore',
         permanent: true,
       },
       {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/data-science-course-in-bangalore',
-        destination: '/data-science-course-training-in-bangalore/',
+        destination: '/data-science-course-training-in-bangalore',
         permanent: true,
       },
       {
         // this will match `/english(default)/something` being requested
-        source: '/machine-learning-course-in-bangalore',
+        source: '/data-science-course/machine-learning-course-in-bangalore',
         destination: '/machine-learning-course-training-in-bangalore',
         permanent: true,
       },
       {
         // this will match `/english(default)/something` being requested
-        source: '/machine-learning-course-online-in-bangalore',
-        destination: '/machine-learning-course-training-in-bangalore/',
+        source: '/data-science-course/machine-learning-course-online-in-bangalore',
+        destination: '/machine-learning-course-training-in-bangalore',
         permanent: true,
       },
       {
         // this will match `/english(default)/something` being requested
-        source: '/machine-learning-course-training-in-bangalore',
-        destination: '/machine-learning-course-training-in-bangalore/',
+        source: '/data-science-course/machine-learning-online-training-in-bangalore',
+        destination: '/machine-learning-course-training-in-bangalore',
+        permanent: true,
+      },
+      {
+        // this will match `/english(default)/something` being requested
+        source: '/data-science-course/machine-learning-course-training-in-bangalore',
+        destination: '/machine-learning-course-training-in-bangalore',
         permanent: true,
       },
       {
@@ -93,25 +99,29 @@ module.exports = {
       },
       {
         // this will match `/english(default)/something` being requested
-        source: '/data-science-course/artificial-intelligence-online-training-in-bangaloree',
+        source: '/data-science-course/artificial-intelligence-online-training-in-bangalore',
         destination: '/artificial-intelligence-ai-course-training-bangalore',
         permanent: true,
-      },{
+      },
+      {
         // this will match `/english(default)/something` being requested
-        source: '/data-science-course/artificial-intelligence-training-in-bangaloree',
+        source: '/data-science-course/artificial-intelligence-training-in-bangalore',
         destination: '/artificial-intelligence-ai-course-training-bangalore',
         permanent: true,
-      },{
+      },
+      {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/data-science-course-in-pune',
         destination: '/data-science-course-training-in-pune/',
         permanent: true,
-      },{
+      },
+      {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/machine-learning-course-in-pune',
         destination: '/machine-learning-course-training-in-pune',
         permanent: true,
-      },{
+      },
+      {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/data-analytics-course-in-pune',
         destination: '/data-analytics-course-training-in-pune',
@@ -121,22 +131,26 @@ module.exports = {
         source: '/data-science-course/business-analytics-course-in-pune',
         destination: '/business-analytics-course-training-in-pune',
         permanent: true,
-      },{
+      },
+      {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/data-science-course-in-delhi',
         destination: '/data-science-course-training-in-delhi/',
         permanent: true,
-      },{
+      },
+      {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/machine-learning-course-in-delhi',
         destination: '/machine-learning-course-training-in-delhi',
         permanent: true,
-      },{
+      },
+      {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/data-analytics-course-in-delhi',
         destination: '/data-analytics-course-training-in-delhi',
         permanent: true,
-      },{
+      },
+      {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/business-analytics-course-in-delhi',
         destination: '/business-analytics-course-training-in-delhi',
@@ -150,8 +164,8 @@ module.exports = {
       },
       {
         // this will match `/english(default)/something` being requested
-        source: '/data-science-course/data-science-courses-in-chennai',
-        destination: '/data-science-course/artificial-intelligence-course-in-chennai',
+        source: '/data-science-course/artificial-intelligence-course-in-chennai',
+        destination: '/artificial-intelligence-ai-course-training-chennai',
         permanent: true,
       },
       {
@@ -247,6 +261,46 @@ module.exports = {
         destination: '/artificial-intelligence-ai-course-training-dubai',
         permanent: true,
       }, 
+      {
+        source: '/data-science-course/data-science-courses-in-chennai',
+        destination: '/data-science-course-training-in-chennai',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/data-science-certification-courses',
+        destination: '/data-science-certification-courses',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/advance-data-science-certification-courses',
+        destination: '/advance-data-science-certification-courses',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/artificial-intelligence-certification-course',
+        destination: '/artificial-intelligence-certification-course',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/data-science-ai-for-managers',
+        destination: '/data-science-ai-for-managers',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course',
+        destination: '/job-guarantee-or-money-back-data-science-ai-certification-course',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/data-science-certification-courses',
+        destination: '/data-science-certification-courses',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/data-analytics-business-analytics-programs-for-professionals',
+        destination: '/data-analytics-certification-course',
+        permanent: true,
+      },
     ]
   },
 }

@@ -9,8 +9,6 @@ import {
   ForNonProgrammerD,
   ForManagerD,
   JobGuaranteeD,
-  link1,
-  link2,
 } from "./courseDetails";
 
 const Course = () => {

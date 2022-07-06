@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./Fee.module.css";
-import { MdCheckCircle } from "react-icons/md";
-import { RiCloseCircleFill } from "react-icons/ri";
 import Popup from "/components/Popup/Popup";
 import Form from "/components/Form/Form";
 

@@ -3,9 +3,6 @@ import CountUp from 'react-countup';
 import styles from "./AboutUs.module.css";
 import { FaUserFriends,FaCompress,FaAddressCard,FaClone,FaHandsHelping,FaUserGraduate,FaAngleDoubleUp } from "react-icons/fa";
 import { BsGraphUp} from "react-icons/bs";
-import {
-    TeamD,
-  } from "./TeamDetails";
 
 
 function AboutUs() {
