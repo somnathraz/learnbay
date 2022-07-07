@@ -11,6 +11,7 @@ const Tabs = () => {
   const [nonTech, setNonTech] = useState(false);
   const [manager, setManager] = useState(false);
   const [Guarantee, setGuarantee] = useState(false);
+  const [Stack, setStack] = useState(false);
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -46,6 +47,7 @@ const Tabs = () => {
                   setNonTech(false);
                   setManager(false);
                   setGuarantee(false);
+                  setStack(false);
                 }}
               >
                 {TabData[0].title}
@@ -55,6 +57,26 @@ const Tabs = () => {
 
             {viewAll ? (
               <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/DATA-SCIENCE-AND-AI.png"
+                        width="180"
+                        height="55"
+                        />
+                    </div>
+                  </div></a>
+                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/Artificial-Intelligence.png"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div></a>
+                </div>
                 <div className={styles.Row}>
                   <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
@@ -141,6 +163,7 @@ const Tabs = () => {
                   setNonTech(false);
                   setManager(false);
                   setGuarantee(false);
+                  setStack(false);
                 }}
                 onClick={() => setOneYear(!oneYear)}
               >
@@ -157,6 +180,7 @@ const Tabs = () => {
                   setNonTech(false);
                   setManager(false);
                   setGuarantee(false);
+                  setStack(false);
                 }}
               >
                 {TabData[1].title}
@@ -210,6 +234,7 @@ const Tabs = () => {
                   setNonTech(true);
                   setManager(false);
                   setGuarantee(false);
+                  setStack(false);
                 }}
               >
                 {TabData[2].title}
@@ -263,8 +288,8 @@ const Tabs = () => {
                   setViewAll(false);
                   setOneYear(false);
                   setNonTech(false);
-
                   setGuarantee(false);
+                  setStack(false);
                 }}
                 onClick={() => setManager(!manager)}
               >
@@ -281,6 +306,7 @@ const Tabs = () => {
                   setNonTech(false);
                   setManager(true);
                   setGuarantee(false);
+                  setStack(false);
                 }}
               >
                 {TabData[3].title}
@@ -334,6 +360,7 @@ const Tabs = () => {
                   setNonTech(false);
                   setManager(false);
                   setGuarantee(true);
+                  setStack(false);
                 }}
                 onClick={() => setGuarantee(!Guarantee)}
               >
@@ -350,6 +377,7 @@ const Tabs = () => {
                   setNonTech(false);
                   setManager(false);
                   setGuarantee(true);
+                  setStack(false);
                 }}
               >
                 {TabData[4].title}
@@ -363,6 +391,68 @@ const Tabs = () => {
                     <div className={styles.ProLeft}>
                       <Image
                         src="/JOB.png"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div></a>
+                </div>
+              </div>
+            ) : (
+              ""
+            )}
+            {mobile ? (
+              <span
+                key={TabData[5].id}
+                id="4"
+                onMouseOver={() => {
+                  setViewAll(false);
+                  setOneYear(false);
+                  setNonTech(false);
+                  setManager(false);
+                  setGuarantee(false);
+                  setStack(true);
+                }}
+                onClick={() => setStack(!Stack)}
+              >
+                {TabData[5].title}
+                <IoIosArrowDown />
+              </span>
+            ) : (
+              <span
+                key={TabData[5].id}
+                id="4"
+                onMouseOver={() => {
+                  setViewAll(false);
+                  setOneYear(false);
+                  setNonTech(false);
+                  setManager(false);
+                  setGuarantee(false);
+                  setStack(true);
+                }}
+              >
+                {TabData[5].title}
+                <IoIosArrowForward />
+              </span>
+            )}
+            {Stack ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <a href="/full-stack-web-development-program" target="_blank"><div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/full-stack-development.png"
+                        width="180"
+                        height="55"
+                      />
+                    </div>
+                  </div></a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/full-stack-software-development-program" target="_blank"><div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/full-stack-developer.png"
                         width="180"
                         height="55"
                       />
@@ -391,10 +481,11 @@ const Tabs = () => {
                       />
                     </div>
                   </div></a>
-                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
+                  
+                  <a href="/full-stack-web-development-program" target="_blank"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/Artificial-Intelligence.png"
+                        src="/full-stack-development.png"
                         width="300"
                         height="80"
                       />
@@ -406,6 +497,27 @@ const Tabs = () => {
                     <div className={styles.ProLeft}>
                       <Image
                         src="/Advance-Data-Science.png"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div></a>
+                  
+                  <a href="/full-stack-software-development-program" target="_blank"><div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/full-stack-developer.png"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div></a>
+                </div>
+                <div className={styles.Row}>
+                <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/Artificial-Intelligence.png"
                         width="300"
                         height="80"
                       />
@@ -566,6 +678,34 @@ const Tabs = () => {
                     <div className={styles.ProLeft}>
                       <Image
                         src="/JOB.png"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div></a>
+                </div>
+              </div>
+            ) : (
+              ""
+            )}
+            {Stack ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <a href="/full-stack-web-development-program" target="_blank"><div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/full-stack-development.png"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div></a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/full-stack-software-development-program" target="_blank"><div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/full-stack-developer.png"
                         width="300"
                         height="80"
                       />

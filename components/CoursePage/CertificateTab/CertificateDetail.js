@@ -94,3 +94,27 @@ export const Certificate6 = [
     ],
   },
 ];
+export const Certificate7 = [
+  {
+    id: 1,
+    img: "/certificate-web.jpg",
+    title: "Course Completion Certificate from IBM",
+    para: [
+      "Complete your training with the internationally recognized certificate.",
+      "Validate your Web Development skills with IBM Course Completion Certificate.",
+      "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+    ],
+  },
+];
+export const Certificate8 = [
+  {
+    id: 1,
+    img: "/project-certificate.webp",
+    title: "Capstone Project Completion Certificate from IBM",
+    para: [
+      "Get certified by IBM on compeletion of industry-level projects.",
+      "Work on latest full stack projects for Food Panda, UberEats, Domino's Pizza, etc.",
+      "Priority access to startup job sites and requirements for individual projects.",
+    ],
+  },
+];

@@ -1,5 +1,6 @@
 ---
 title: Top place to learn data science in India
+img: "/demo.png"
 desc: "Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!"
 slug: home
 date: "July 5, 2022"
