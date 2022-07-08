@@ -4,7 +4,8 @@ desc: "Learnbay one of the best instutute to learn data science course in India,
 slug: home
 img: "/blog/blog.png"
 date: "July 5, 2022"
-tag: [ Data Science, dsdasds, ergdfd ]
+tag: [ Data Science ]
+category: "Data Science"
 author: "Akashat Aggarwal"
 position: "Seo Writer"
 readTime: "2 mins"
@@ -22,7 +23,7 @@ tableData:
     Career guidance and assistance,
     Real-time Projects,
     But Learning cost matter?,
-    So, what’s next?,
+    So what’s next?,
   ]
 ---
 
