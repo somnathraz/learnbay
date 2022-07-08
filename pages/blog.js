@@ -5,7 +5,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { BsDot } from "react-icons/bs";
 import { IoTimeOutline } from "react-icons/io5";
-import Footer from "../components/Footer/Footer";
 
 export default function blog({ allPostsData }) {
   let singleCategoryPost = allPostsData.map((post) => {
@@ -262,7 +261,6 @@ export default function blog({ allPostsData }) {
           </section>
         );
       })}
-      <Footer />
     </>
   );
 }
