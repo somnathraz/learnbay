@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://learnbay.co/</id>
+    <title>skillslash blog</title>
+    <updated>2022-07-08T11:52:20.500Z</updated>
+    <generator>Feed for Node.js</generator>
+    <author>
+        <name>Skillslash</name>
+        <email>info@skillslash.com</email>
+        <uri>https://twitter.com/skillslash</uri>
+    </author>
+    <link rel="alternate" href="https://learnbay.co/"/>
+    <link rel="self" href="https://learnbay.co//rss/atom.xml"/>
+    <logo>https://learnbay.co//logo.svg</logo>
+    <icon>https://learnbay.co//favicon.png</icon>
+    <rights>All rights reserved 2022, Sreetam Das</rights>
+    <entry>
+        <title type="html"><![CDATA[Oops! Why 2022 Is Too Late For Video-Based Data Science Learning]]></title>
+        <id>https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning</id>
+        <link href="https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning"/>
+        <updated>2022-07-04T18:30:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oops! Why 2022 Is Too Late For Video-Based Data Science Learning]]></title>
+        <id>https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning</id>
+        <link href="https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning"/>
+        <updated>2022-07-04T18:30:00.000Z</updated>
+    </entry>
+</feed>

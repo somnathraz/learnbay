@@ -14,7 +14,8 @@ export default function blog({ allPostsData }) {
   return (
     <>
       <Head>
-        <title>blog</title>
+        <title>Learnbay's blog</title>
+        <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <section className={styles.blogHead}>
         <p>Latest Blogs</p>
@@ -58,8 +59,9 @@ export default function blog({ allPostsData }) {
             );
           })}
       </section>
-      <section className={styles.allBlog}>
+      {/* <section className={styles.allBlog}>
         {allPostsData
+          .slice(3, 10)
           .map(({ id, date, title, author, readTime, tag, headerImg, category }) => {
             let url = `/blog/${id}`;
             let tUrl = `/blog/category/${category
@@ -69,7 +71,7 @@ export default function blog({ allPostsData }) {
               <div className={styles.blogBox} key={id}>
                 <div className={styles.lBlogBox}>
                   <Image
-                    src="/blog.png"
+                    src={headerImg}
                     width="200"
                     height="340"
                     layout="intrinsic"
@@ -95,8 +97,8 @@ export default function blog({ allPostsData }) {
               </div>
             );
           })}
-      </section>
-      <section className={styles.quote}>
+      </section> */}
+      {/* <section className={styles.quote}>
         <h3>
           <span>Get Inspired to Achieve </span>Enhanced Outcomes.
         </h3>
@@ -107,7 +109,7 @@ export default function blog({ allPostsData }) {
           </span>
           <span className={styles.aName}>Henry C. Link</span>
         </p>
-      </section>
+      </section> */}
       {[...categoryPostTag].map((post, i) => {
         let tag = post;
         const categoryPosts = allPostsData.filter((post) => post.category === tag);
@@ -147,7 +149,7 @@ export default function blog({ allPostsData }) {
                         <div className={styles.categoryPost} key={id}>
                           <div className={styles.leftCategoryPost}>
                             <Image
-                              src="/blog.png"
+                              src={headerImg}
                               width="300"
                               height="267"
                               alt={categoryPosts.id}
@@ -193,6 +195,7 @@ export default function blog({ allPostsData }) {
               </div>
               <div className={styles.categoryPostRightSide}>
                 {categoryPosts
+                  .slice(2, 3)
                   .map(
                     ({
                       id,
@@ -213,7 +216,7 @@ export default function blog({ allPostsData }) {
                         <div className={styles.categoryPost} key={id}>
                           <div className={styles.leftCategoryPost}>
                             <Image
-                              src="/blog.png"
+                              src={headerImg}
                               width="300"
                               height="267"
                               alt={categoryPosts.id}

@@ -63,7 +63,7 @@ const Navbar = () => {
           </span>
 
           <span>
-            <Link href="#">Blog</Link>
+            <Link href="/blog">Blog</Link>
           </span>
 
           <span>
@@ -120,7 +120,7 @@ const Navbar = () => {
           </span>
 
           <span>
-            <Link href="#">Blog</Link>
+            <Link href="/blog">Blog</Link>
           </span>
 
           <span>

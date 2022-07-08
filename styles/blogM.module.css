@@ -1,7 +1,7 @@
 .blogHead {
   margin-top: 120px;
-  margin-left: 180px;
-  margin-right: 180px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .blogHead p,
 .tagNameH {
@@ -15,7 +15,7 @@
   display: grid;
   grid-template-columns: 30% 30% 30%;
   align-items: center;
-  margin: 30px 180px;
+  margin: 30px 100px;
   gap: 20px;
 }
 .blog {
@@ -180,7 +180,7 @@
   color: #0487d9;
 }
 .categoryPosts {
-  margin: 60px 180px;
+  margin: 60px 100px;
 }
 .tagNameH {
   display: flex;

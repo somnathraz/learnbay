@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>skillslash blog</title>
+        <link>https://learnbay.co/</link>
+        <description></description>
+        <lastBuildDate>Fri, 08 Jul 2022 11:52:20 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>skillslash blog</title>
+            <url>https://learnbay.co//logo.svg</url>
+            <link>https://learnbay.co/</link>
+        </image>
+        <copyright>All rights reserved 2022, Sreetam Das</copyright>
+        <item>
+            <title><![CDATA[Oops! Why 2022 Is Too Late For Video-Based Data Science Learning]]></title>
+            <link>https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning</link>
+            <guid>https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning</guid>
+            <pubDate>Mon, 04 Jul 2022 18:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Oops! Why 2022 Is Too Late For Video-Based Data Science Learning]]></title>
+            <link>https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning</link>
+            <guid>https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning</guid>
+            <pubDate>Mon, 04 Jul 2022 18:30:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
