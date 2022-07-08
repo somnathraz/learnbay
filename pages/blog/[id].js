@@ -11,10 +11,7 @@ import {
   BsInstagram,
   BsFacebook,
 } from "react-icons/bs";
-import Image from "next/image";
-import { FaLinkedinIn } from "react-icons/fa";
 import { IoTimeOutline } from "react-icons/io5";
-import Footer from "../../components/Footer/Footer";
 
 export default function Post({ postData, posts }) {
   return (
@@ -45,10 +42,16 @@ export default function Post({ postData, posts }) {
                 <h5>Table of content</h5>
                 <div className={styles.contentT}>
                   {postData.table.map((table, i) => {
-                    const uMake = table.replaceAll(" ", "-");
-                    const lurl = uMake.toLowerCase();
+                    const removeSpecial = table.replace(
+                      /[&\/\\#,’!+()$~%.'":*?<>{}]/g,
+                      ""
+                    );
 
-                    const url = `#${lurl}`;
+                    const uMake = removeSpecial
+                      .toLowerCase()
+                      .replace(" ", "-");
+
+                    const url = `#${uMake}`;
                     return (
                       <div key={i}>
                         <div className={styles.numberBack}>
@@ -106,7 +109,6 @@ export default function Post({ postData, posts }) {
           </div>
         </div>
         </main>
-      <Footer />
     </>
   );
 }
