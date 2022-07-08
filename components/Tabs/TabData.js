@@ -20,5 +20,9 @@ const TabData = [
     id: "Digital Marketing",
     title: "Job Guaranteed",
   },
+  {
+    id: "Full Stack Program",
+    title: "Full Stack",
+  },
 ];
 export default TabData;

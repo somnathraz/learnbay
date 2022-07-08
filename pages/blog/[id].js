@@ -9,8 +9,6 @@ import styles from "../../styles/blog.module.css";
 import {
   BsDot,
   BsInstagram,
-  BsGlobe2,
-  BsLinkedin,
   BsFacebook,
 } from "react-icons/bs";
 import Image from "next/image";
@@ -21,69 +19,28 @@ import Footer from "../../components/Footer/Footer";
 export default function Post({ postData, posts }) {
   return (
     <>
-      <div className={styles.Open}>
-        <Head>
+    <section className={styles.MainS}>
+    <Head>
           <title>{postData.title}</title>
         </Head>
+        <div className={styles.DivImg}>
+        <img src={postData.Img} width="100%" ></img>
+        </div>
+    </section>
+
         <main>
+        <div className={styles.Open}>
           <div className={styles.headerInfo}>
-            <h1>{postData.mainH1}</h1>
-            <span>
-              By <strong>{postData.author}</strong> <BsDot className="bIcon" />
-              Published in <strong>{postData.tag}</strong>{" "}
-              <BsDot className="bIcon" />
-              <strong className={styles.time}>{postData.time}</strong>
-            </span>
+              <h1>{postData.mainH1}</h1>
+              <span>
+                By <strong>{postData.author}</strong> <BsDot className="bIcon" />
+                Published in <strong>{postData.tag}</strong>{" "}
+                <BsDot className="bIcon" />
+                <strong className={styles.time}>{postData.time}</strong>
+              </span>
           </div>
           <div className={styles.bodyInfo}>
-            <div className={styles.leftInfo}>
-              <Image
-                src="/Blog/Data-Science-Course-In-India.webp"
-                width="740"
-                height="490"
-                layout="responsive"
-                className={styles.HeadImg}
-              />
-              <article dangerouslySetInnerHTML={{ __html: postData.body }} />
-              <hr />
-              <div className={styles.tag}>
-                <div className={styles.lSide}>
-                  <p>Tags</p> <span>#{postData.tag} </span>
-                </div>
-                <div className={styles.rSide}>
-                  <p>
-                    share <BsFacebook className={styles.tIcon} />
-                    <BsInstagram className={styles.tIcon} />
-                    <FaLinkedinIn className={styles.tIcon} />
-                  </p>
-                </div>
-              </div>
-
-              <hr />
-            </div>
-            <div className={styles.rightInfo}>
-              <div className={styles.ProfileInfo}>
-                <Image
-                  src="/Blog/avatar-01.webp"
-                  width="340"
-                  height="193"
-                  layout="intrinsic"
-                />
-
-                <h5>{postData.author}</h5>
-                <p>{postData.position}</p>
-                <div className={styles.icon}>
-                  <div className={styles.circleDiv}>
-                    <BsInstagram className={styles.SIcon} />
-                  </div>
-                  <div className={styles.circleDiv}>
-                    <BsGlobe2 className={styles.SIcon} />
-                  </div>
-                  <div className={styles.circleDiv}>
-                    <BsLinkedin className={styles.SIcon} />
-                  </div>
-                </div>
-              </div>
+          <div className={styles.rightInfo}>
               <div className={styles.table}>
                 <h5>Table of content</h5>
                 <div className={styles.contentT}>
@@ -107,6 +64,7 @@ export default function Post({ postData, posts }) {
                   })}
                 </div>
                 <h5>Related Posts</h5>
+                <div className={styles.relatePost}>
                 {posts.map((post, i) => {
                   return (
                     <div className={styles.rPost} key={i}>
@@ -124,25 +82,30 @@ export default function Post({ postData, posts }) {
                     </div>
                   );
                 })}
+                </div>
               </div>
             </div>
+            <div className={styles.leftInfo}>
+              <article dangerouslySetInnerHTML={{ __html: postData.body }} />
+              <hr />
+              <div className={styles.tag}>
+                <div className={styles.lSide}>
+                  <p>Tags</p> {postData.tag.map((tag,i)=>{ return <span key={i}>#{tag}</span> })}
+                </div>
+                {/* <div className={styles.rSide}>
+                  <p>
+                    share <BsFacebook className={styles.tIcon} />
+                    <BsInstagram className={styles.tIcon} />
+                    <FaLinkedinIn className={styles.tIcon} />
+                  </p>
+                </div> */}
+              </div>
+
+              <hr />
+            </div>
           </div>
-        </main>
-      </div>
-      <section className={styles.MainS}>
-        <div>
-        <img src="/demo.png"></img>
         </div>
-        <div className={styles.headerInfo}>
-            <h1>{postData.mainH1}</h1>
-            <span>
-              By <strong>{postData.author}</strong> <BsDot className="bIcon" />
-              Published in <strong>{postData.tag}</strong>{" "}
-              <BsDot className="bIcon" />
-              <strong className={styles.time}>{postData.time}</strong>
-            </span>
-          </div>
-      </section>
+        </main>
       <Footer />
     </>
   );

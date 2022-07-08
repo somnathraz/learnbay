@@ -1,0 +1,185 @@
+.Syllabus {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 70px 100px 0px 100px;
+}
+
+.syllabusLeft {
+  margin: 0px 10px;
+  position: relative;
+}
+
+.Syllabusbutton {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Button {
+  border-radius: 6px;
+}
+
+.ques {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  background-color: #f7f9fb;
+  padding: 15px 20px 10px 20px;
+  align-items: center;
+  cursor: pointer;
+  margin-top: -13px;
+  height: 60px;
+
+  margin-bottom: 23px;
+}
+.quesO {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px 8px 0px 0px;
+  background-color: #f7f9fb;
+  padding: 15px 20px 10px 20px;
+  align-items: center;
+  margin-top: -10px;
+  border-bottom: 1px solid #2D9CD7;
+
+  cursor: pointer;
+}
+.ques h2,
+.quesO h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+}
+.ans {
+  margin-bottom: 5px;
+}
+.ans {
+  padding: 5px 20px 10px 20px;
+  color: rgb(90, 90, 90);
+  margin-bottom: 15px;
+  background-color: #f7f9fb;
+  border-radius: 0px 0px 8px 8px;
+}
+.ansV {
+  display: none;
+}
+
+.QInner {
+  display: grid;
+  grid-template-columns: 3% 97%;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.bIcons {
+  color: #2D9CD7;
+  font-size: 14px;
+}
+
+.PIcons {
+  font-size: 26px;
+  margin-right: 10px;
+  color: #2D9CD7;
+}
+
+.line {
+  margin-top: 15px;
+  z-index: 1;
+  margin-left: 27px;
+}
+
+.FaqWrapper {
+  border-left: 2px solid #2D9CD7 !important;
+  margin-top: 22px;
+  margin-left: 7px;
+  padding-top: 2px;
+  padding-left: 22px;
+  margin-bottom: -23px;
+  z-index: 0;
+}
+.white {
+  z-index: 1;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 10px;
+  left: 29px;
+  height: 70px;
+  margin-top: -35px;
+}
+
+.syllabusRight {
+  margin: 0px 10px;
+}
+.PProgram {
+  border-top: 4px solid #FF9562;
+  border-radius: 4px 4px 0px 0px;
+}
+.PProgram > p {
+  font-size: 16px;
+
+  color: black;
+  font-weight: 600;
+  padding: 15px 20px;
+}
+
+.PProgramInner {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.PProgrammain {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+@media (max-width: 481px) {
+  .Syllabus {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 50px 0;
+  }
+
+  .syllabusLeft {
+    margin: 0px 0px 30px 0px;
+    position: inherit;
+  }
+
+  .line {
+    margin-top: 15px;
+    z-index: 1;
+    margin-left: 12px;
+  }
+  .ans h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .ans h6 {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .FaqWrapper {
+    padding-left: 10px;
+  }
+
+  .syllabusRight {
+    margin: 0px;
+  }
+
+  .white {
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    left: 29px;
+    height: 53px;
+    margin-top: -29px;
+  }
+}

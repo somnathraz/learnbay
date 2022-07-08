@@ -65,11 +65,17 @@
     margin-right: -1rem;
     display: flex;
     flex-flow: column;
-    height: 85vh;
+    height: 100vh;
     background-image: url("/mobile-version.png");
     background-size: contain;
   }
   .First h1 {
-    font-size: 25px;
+    font-size: 20px;
+  }
+
+  .btnWrapper {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
   }
 }

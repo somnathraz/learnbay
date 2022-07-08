@@ -1,54 +1,61 @@
-.Open {
-  margin-top: 90px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 120px;
+.DivImg {
+  margin-top: 70px;
 }
+
+.Open {
+  margin: 50px 100px;
+  }
+
 .headerInfo {
-  margin: 160px 0px 70px 0px;
+  margin: 0px 0px 50px 0px;
 }
 .headerInfo h1 {
-  font-size: 3rem;
+  font-size: 40px;
   margin: 0;
   margin-bottom: 15px;
-  font-weight: 900;
+  font-weight: 600;
 }
 .headerInfo span {
   display: flex;
   margin-left: 10px;
   gap: 10px;
-  color: grey;
+  color: black;
 }
 .time {
-  color: #0487d9;
+  color: black;
 }
+
 .bodyInfo {
   display: grid;
-  gap: 60px;
-  grid-template-columns: 64% 24%;
+  gap: 25px;
+  grid-template-columns: 33% 65%;
 }
+
 .leftInfo {
   border-radius: 5px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-.HeadImg {
-  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
 }
 
 .leftInfo article {
-  margin-top: 60px;
+  margin-top: 30px;
   padding: 0px 20px;
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 .leftInfo article h2 {
-  color: #0487d9;
+  color: black;
+  font-size: 26px;
+}
+.leftInfo article p {
+  color: black;
+  font-size: 18px;
 }
 .leftInfo article p strong {
-  color: #f28705;
+  color: black;
+  font-size: 20px;
 }
 .leftInfo article li {
-  color: #646464;
+  color: #000;
   margin-bottom: 10px;
   line-height: 23px;
 }
@@ -56,12 +63,12 @@
   color: rgb(82, 82, 82);
 }
 .leftInfo a {
-  color: #0487d9;
-  border-bottom: 1px solid #0487d952;
+  color: #2D9CD7;
+  border-bottom: 1px solid #2D9CD752;
 }
 .leftInfo a:hover {
-  color: #f28705;
-  border-bottom: 1px solid #f2870546;
+  color: #2D9CD7;
+  border-bottom: 1px solid #2D9CD746;
 }
 .leftInfo hr {
   margin-left: 30px;
@@ -99,12 +106,12 @@
   justify-content: center;
 }
 .tIcon {
-  color: #0487d9;
+  color: #2D9CD7;
   font-size: 20px;
   cursor: pointer;
 }
 .tIcon:hover {
-  background-color: #0487d9;
+  background-color: #2D9CD7;
   border-radius: 50%;
   color: white;
   font-size: 20px;
@@ -112,7 +119,7 @@
 }
 .ProfileInfo {
   border-radius: 5px;
-  box-shadow: rgba(242, 135, 5, 0.2) 0px 2px 8px 0px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
   padding: 20px;
   display: flex;
   margin-bottom: 40px;
@@ -122,7 +129,7 @@
 }
 .contentT {
   border-radius: 5px;
-  box-shadow: rgba(4, 135, 217, 0.2) 0px 2px 8px 0px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
   padding: 20px;
   display: flex;
   margin-bottom: 40px;
@@ -133,57 +140,9 @@
   cursor: pointer;
 }
 .contentT p:hover {
-  color: #0487d9;
+  color: #2D9CD7;
 }
-.ProfileInfo h5 {
-  font-size: 20px;
-  margin: 0;
-  margin: 20px 0px 10px 0px;
-  color: rgb(45, 45, 45);
-}
-.ProfileInfo p {
-  font-size: 18px;
-  color: #646464;
-  margin: 0;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-.icon {
-  display: flex;
-  gap: 10px;
-}
-.SIcon {
-  font-size: 30px;
-  padding: 5px;
-  cursor: pointer;
-  color: #0487d9;
-}
-.SIcon:hover {
-  color: white;
-}
-.circleDiv {
-  background-color: #def5fc;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-}
-.circleDiv:nth-child(2) {
-  background-color: #fff5e9;
-}
-.circleDiv:nth-child(2):hover {
-  background-color: #f28705;
-}
-.circleDiv:nth-child(2) .SIcon {
-  color: #f28705;
-}
-.circleDiv:nth-child(2) .SIcon:hover {
-  color: white;
-}
-.circleDiv:hover {
-  background-color: #0487d9;
-}
+
 .contentT div {
   display: flex;
   align-items: center;
@@ -193,7 +152,7 @@
 .numberBack {
   background-color: #e8f6ff;
   border-radius: 50%;
-  color: #0487d9;
+  color: #2D9CD7;
   padding: 5px 10px;
 }
 .table {
@@ -202,21 +161,22 @@
   top: 80px;
 }
 .table h5 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 600;
-  color: gray;
+  color: black;
+  margin: 10px 0px 30px 0px;
 }
 .rPost {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   margin-bottom: 30px;
   padding: 10px 20px;
   border-radius: 8px;
-  border-left: 4px solid #f28705;
+  border-left: 4px solid #2D9CD7;
 }
 .rPost:hover {
-  -webkit-box-shadow: 10px 10px 17px 0px rgba(242, 135, 5, 0.1);
-  -moz-box-shadow: 10px 10px 17px 0px rgba(242, 135, 5, 0.1);
-  box-shadow: 10px 10px 17px 0px rgba(242, 135, 5, 0.1);
+  -webkit-box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  -moz-box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
   transition: all 0.5s ease-in-out;
 }
 .rPost h5 {
@@ -227,13 +187,13 @@
   margin-bottom: 10px;
 }
 .rPost h5:hover {
-  color: #f28705;
+  color: #2D9CD7;
 }
 .rPost span {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: grey;
+  color: black;
   font-size: 14px;
   font-weight: 500;
 }
@@ -244,9 +204,75 @@
   align-items: center;
   gap: 5px;
   font-size: 12px;
-  color: rgb(192, 192, 192);
+  color: #000;
 }
 .timeIcon {
   font-size: 16px;
-  color: #f28705;
+  color: #2D9CD7;
+}
+
+@media (max-width: 481px) {
+  .DivImg {
+    margin-top: 70px;
+  }
+  
+  .Open {
+    margin: 30px 20px;
+    }
+
+    .headerInfo h1 {
+      font-size: 24px;
+    }
+
+    .headerInfo span {
+      display: block;
+    }
+
+    .bodyInfo {
+      display: block;
+    }
+
+    .tag {
+      display: block;
+    }
+
+    .lSide {
+      display: grid;
+    }
+
+    .table h5 {
+      font-size: 18px;
+    }
+
+    .leftInfo article h1 {
+      font-size: 20px;
+      padding-top: 20px;
+    }
+
+    .leftInfo article h2 {
+      font-size: 18px;
+    }
+
+    .leftInfo article p {
+      font-size: 16px;
+    }
+    .leftInfo article p strong {
+      color: black;
+      font-size: 16px;
+    }
+    .leftInfo article h3 {
+      color: black;
+      font-size: 16px;
+    }
+
+    .relatePost {
+      display: -webkit-box;
+      overflow: auto;
+  
+    }
+
+    .rPost {
+      margin-right: 10px;
+      width: 95%;
+    }
 }

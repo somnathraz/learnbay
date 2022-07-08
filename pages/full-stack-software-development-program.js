@@ -3,18 +3,17 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../components/CoursePage/GetHiredFsw/GetHired";
+import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
-import Certificate from "../components/CoursePage/CertificateTab/CertificateTabWeb";
 import Project from "../components/CoursePage/Projectfswd/Project";
-import ToolsCovered from "../components/CoursePage/ToolsCovered/ToolsCovered";
+import Domain from "../components/CoursePage/DomainFss/Domain";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
 import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../components/CoursePage/Syllabusfsw/Syllabus";
+import SyllabusNew from "../components/CoursePage/Syllabusfss/Syllabus";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
@@ -47,48 +46,47 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="Be a demanding Developer to stay ahead"
-        mTopPara="Be a demanding Developer to stay ahead"
-        title="Full Stack Web Development Program"
-        desc="Archive a stunning appearance in the job market as a seasoned web developer. Learn the ninja techniques from MNC experts via real-time projects."
-        src="/header-home.webp"
+        deskTopPara="The Six-Figure Salary is at your fingertips"
+        mTopPara="The Six-Figure Salary is at your fingertips"
+        title="Advanced Software Development Training "
+        desc="Transform your career as a demanding software development expert. Sharpen your skills with real-time project experience."
+        src="/course9.png"
         alt="Full Stack"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/Full+Stack+Web+Development+Program.pdf"
       />
       <div className={styles.program}>
         <ProgramInfo
-        p1="Custom-fit"
-        p11="Assistance for product MNCs"
-        p2="60 LPA to 95 LPA"
+        p1="100%"
+        p11="Assurance for placement"
+        p2="75 LPA to 110 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
         p4="No Cost EMI"
-        p44="₹ 9k to 15k*(9 Months)"
+        p44="₹ 14k*(9 Months)"
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Assured interview calls powered by 250+ hiring partners"
+        WeekdayBatchDate="250+ hiring partners & guarantee interviews"
         WeekendBatchDate="Hybrid learning option across multiple cities"
-        Project="12+ live projects and 2 capstone project"
-        Classes="Project experience Certificate by IBM"
+        Project="12+ live projects and 2 fresh capstone project"
+        Classes="100% live and interactive classes"
         OneLine="1000+ trending practical assignments"
-        Interview="Exclusive MNC expert hosted hackathons"
-        Fee="79,000"
-        Fees="₹79,000"
+        Interview="Choose from 5 elite domain electives"
+        Fee="1,10,000"
         Subscription="3 Year Subscription"
       />
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
           Box1h5="Custom-fit Training"
-          box1desc="Learn with modules created just for your dream job. Become  an extraordinarily demanding web developer."
-          Box2h5="Interactive Learning"
-          box2desc="Enjoy an offline-like learning experience, even online. 100% interactive and live classes. Hybrid learning option also available."
+          box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding software developer."
+          Box2h5="Exclusive Hackathon"
+          box2desc="Sharpen your skills through multiple exclusive hackathons. Upskill your designing skills and coding speed."
           Box3h5="Premium Mentoring"
-          box3desc="Take advantage of MAANG web developer simulated mock interviews. Hone your skills through webathons."
+          box3desc="Exclusive mock interview sessions by experienced industry experts. Capstone projects under MNC software developer’s guidance."
           Box4h5="Hands-on Experience"
-          box4desc="Gain diligent experience in real-world projects ranging from advanced level complexity to amazing deployment scopes."
+          box4desc="Learn by working hard on real-world projects that range from advanced levels of complexity to large-scale deployments."
         />
       </div>
       <CareerImpact
@@ -102,7 +100,6 @@ export default function Home() {
           <OurExpert />
         </div>
       </div>
-      <Certificate />
       <section className={styles.HiringPartner}>
         <div>
         <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
@@ -119,9 +116,6 @@ export default function Home() {
         </div>
     </section>
     <SyllabusNew/>
-      <ToolsCovered 
-      src="/tools-fs.png"
-      />
       <SkillsCovered
       sc11="Data Collection"
       sc12="Data Understanding"
@@ -142,6 +136,7 @@ export default function Home() {
       sc35="Critical Thinking"
       sc36="Function & Formulas"
       />
+      <Domain />
       <div className={styles.ProjectWrapper} id="project">
         <Project
         project="12+"
@@ -159,7 +154,7 @@ export default function Home() {
         </div>
       </div>
       <HowApply
-      CCourse="Enroll in Full Stack Web Development Program."
+      CCourse="Enroll in Full Stack Software Development Program."
       />
       <CourseFee 
       CourseFeeHead="Upcoming Full Stack Web Development Batch Details"
