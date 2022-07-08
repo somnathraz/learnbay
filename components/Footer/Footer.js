@@ -50,7 +50,7 @@ const Footer = () => {
           <a href="/about-us"><p className={styles.FooterInnerli}>About Us</p></a>
           <a href="/contact-us"><p className={styles.FooterInnerli}>Contact Us</p></a>
           <a href="/demo"><p className={styles.FooterInnerli}>Demo</p></a>
-          <a href="#"><p className={styles.FooterInnerli}>Blogs</p></a>
+          <a href="/blog"><p className={styles.FooterInnerli}>Blogs</p></a>
           <p className={styles.FooterInnerP}>Terms</p>
           <a href="/terms-conditions"><p className={styles.FooterInnerli}>Terms and Conditions</p></a>
           <a href="/refund-cancellation-policy"><p className={styles.FooterInnerli}>Refunds/Cancellations policy</p></a>

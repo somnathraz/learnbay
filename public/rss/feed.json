@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "skillslash blog",
+    "home_page_url": "https://learnbay.co/",
+    "feed_url": "https://learnbay.co//rss/feed.json",
+    "icon": "https://learnbay.co//logo.svg",
+    "author": {
+        "name": "Skillslash",
+        "url": "https://twitter.com/skillslash"
+    },
+    "items": [
+        {
+            "id": "https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning",
+            "url": "https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning",
+            "title": "Oops! Why 2022 Is Too Late For Video-Based Data Science Learning",
+            "date_modified": "2022-07-04T18:30:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning",
+            "url": "https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning",
+            "title": "Oops! Why 2022 Is Too Late For Video-Based Data Science Learning",
+            "date_modified": "2022-07-04T18:30:00.000Z",
+            "author": {}
+        }
+    ]
+}
