@@ -58,7 +58,7 @@ export default function Home() {
         desc="✓ Domain Orientated approach ✓ Assured placement within 18 months."
         src="/course5.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/5th+Guarantee.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf"
 
       />
       <div className={styles.program}>
@@ -191,7 +191,7 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/5th+Guarantee.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf"
 
     />
       <ToolsCovered 

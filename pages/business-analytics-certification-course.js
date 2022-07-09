@@ -56,7 +56,7 @@ export default function Home() {
         desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
         src="/course7.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/7th+BA.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf"
 
       />
       <div className={styles.program}>
@@ -189,7 +189,7 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/7th+BA.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf"
 
     />
       <ToolsCovered 

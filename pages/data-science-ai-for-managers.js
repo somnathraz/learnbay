@@ -58,7 +58,7 @@ export default function Home() {
         desc="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
         src="/course4.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/4th+Managers.pdf"
 
       />
       <div className={styles.program}>
@@ -200,7 +200,7 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/4th+Managers.pdf"
 
     />
       <ToolsCovered 

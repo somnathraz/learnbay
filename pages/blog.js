@@ -17,6 +17,7 @@ export default function blog({ allPostsData }) {
         <title>Learnbay's blog</title>
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
+      <div className={styles.BackP} style={{marginTop:"70px"}}><h4><b>Our Blogs</b></h4></div>
       <section className={styles.blogHead}>
         <p>Latest Blogs</p>
       </section>
@@ -59,57 +60,6 @@ export default function blog({ allPostsData }) {
             );
           })}
       </section>
-      {/* <section className={styles.allBlog}>
-        {allPostsData
-          .slice(3, 10)
-          .map(({ id, date, title, author, readTime, tag, headerImg, category }) => {
-            let url = `/blog/${id}`;
-            let tUrl = `/blog/category/${category
-              .toLowerCase()
-              .replace(/\s+/g, "-")}`;
-            return (
-              <div className={styles.blogBox} key={id}>
-                <div className={styles.lBlogBox}>
-                  <Image
-                    src={headerImg}
-                    width="200"
-                    height="340"
-                    layout="intrinsic"
-                  />
-                </div>
-                <div className={styles.rBlogBox}>
-                  <a href={tUrl} target="_blank" className={styles.link}>
-                    <span>{tag}</span>
-                  </a>
-                  <a href={url}>
-                    <h4>{title}</h4>
-                  </a>
-                  <p style={{ fontWeight: "bold" }} className={styles.author}>
-                    {author}
-                  </p>
-                  <p className={styles.iBox}>
-                    {date}
-                    <BsDot className={styles.dot} />
-                    <IoTimeOutline className={styles.time} />
-                    {readTime}
-                  </p>
-                </div>
-              </div>
-            );
-          })}
-      </section> */}
-      {/* <section className={styles.quote}>
-        <h3>
-          <span>Get Inspired to Achieve </span>Enhanced Outcomes.
-        </h3>
-        <p>
-          <span>
-            “While one person hesitates because he feels inferior, the other is
-            busy making mistakes and becoming superior.”
-          </span>
-          <span className={styles.aName}>Henry C. Link</span>
-        </p>
-      </section> */}
       {[...categoryPostTag].map((post, i) => {
         let tag = post;
         const categoryPosts = allPostsData.filter((post) => post.category === tag);
@@ -121,7 +71,7 @@ export default function blog({ allPostsData }) {
               <p className={styles.tagNameH}>
                 {post}{" "}
                 <a href={url}>
-                  <button>view more</button>
+                  <button>View More</button>
                 </a>
               </p>{" "}
             </span>

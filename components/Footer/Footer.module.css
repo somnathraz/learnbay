@@ -114,5 +114,12 @@
       font-size: 14px;
       margin: 0;
     }
+    .btnout {
+      color:#fff;
+      background-color: #313131;
+      border: 1px solid #fff;
+      padding: 5px 15px;
+      margin-bottom: 15px;
+    }
   
   }

@@ -57,7 +57,7 @@ export default function Home() {
         desc="This program ensures a smooth transition into Jr. Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions."
         src="/course1.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/1st+DSAI+Foundation.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/1st+DSAI+Foundation.pdf"
 
       />
       <div className={styles.program}>
@@ -75,7 +75,7 @@ export default function Home() {
       <GetHired 
         WeekdayBatchDate="Specially devised for early professionals"
         WeekendBatchDate="Special coding classes for non-programmers"
-        Project="Learn Directly from MNC experts"
+        Project="Learn directly from MNC experts"
         Classes="8 live industry projects + 1 fresh Capstone"
         OneLine="Completely live and interactive learning"
         Interview="100% interview call guarantee "
@@ -189,7 +189,7 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/1st+DSAI+Foundation.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/1st+DSAI+Foundation.pdf"
 
     />
       <ToolsCovered 

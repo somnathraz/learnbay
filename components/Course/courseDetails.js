@@ -10,7 +10,7 @@ export const viewAllD = [
       "Course Fee : ₹ 65,000 + GST",
     ],
     link1: "/data-science-certification-courses",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/1st+DSAI+Foundation.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/1st+DSAI+Foundation.pdf",
 
   },
   {
@@ -25,7 +25,7 @@ export const viewAllD = [
       "Course Fee : ₹ 79,000 + GST",
     ],
         link1: "/advance-data-science-certification-courses",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/2nd+DSAI+Advance.pdf",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ export const viewAllD = [
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/artificial-intelligence-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf",
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ export const viewAllD = [
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/data-science-ai-for-managers",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/4th+Managers.pdf",
   },
   {
     id: 5,
@@ -65,7 +65,7 @@ export const viewAllD = [
       "Course Fee : ₹ 1,25,000 + GST",
     ],
         link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/5th+Guarantee.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf",
   },
   {
     id: 6,
@@ -78,7 +78,7 @@ export const viewAllD = [
       "Course Fee : ₹ 60,000 + GST",
     ],
         link1: "/data-analytics-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/6th+DA.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/6th+DA.pdf",
   },
   {
     id: 7,
@@ -91,7 +91,7 @@ export const viewAllD = [
       "Course Fee : ₹ 65,000 + GST",
     ],
         link1: "/business-analytics-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/7th+BA.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf",
   },
   {
     id: 8,
@@ -104,7 +104,7 @@ export const viewAllD = [
       "Course Fee : ₹ 1,20,000 + GST",
     ],
         link1: "/full-stack-web-development-program",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/Full+Stack+Web+Development+Program.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program.pdf",
   },
   {
     id: 9,
@@ -117,7 +117,7 @@ export const viewAllD = [
       "Course Fee : ₹ 1,10,000 + GST",
     ],
         link1: "/full-stack-software-development-program",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/Full+Stack+software+development+.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+software+development+.pdf",
   },
 ];
 export const ForProgrammersD = [
@@ -132,7 +132,7 @@ export const ForProgrammersD = [
       "Course Fee : ₹ 79,000 + GST",
     ],
         link1: "/advance-data-science-certification-courses",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/2nd+DSAI+Advance.pdf",
   },
   {
     id: 2,
@@ -145,7 +145,7 @@ export const ForProgrammersD = [
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/artificial-intelligence-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf",
   },
 ];
 export const ForNonProgrammerD = [
@@ -160,7 +160,7 @@ export const ForNonProgrammerD = [
       "Course Fee : ₹ 65,000 + GST",
     ],
         link1: "/data-science-certification-courses",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/1st+DSAI+Foundation.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/1st+DSAI+Foundation.pdf",
   },
   {
     id: 2,
@@ -173,7 +173,7 @@ export const ForNonProgrammerD = [
       "Course Fee : ₹ 60,000 + GST",
     ],
         link1: "/data-analytics-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/6th+DA.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/6th+DA.pdf",
   },
   {
     id: 3,
@@ -186,7 +186,7 @@ export const ForNonProgrammerD = [
       "Course Fee : ₹ 65,000 + GST",
     ],
         link1: "/business-analytics-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/7th+BA.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf",
   },
 ];
 export const ForManagerD = [
@@ -201,7 +201,7 @@ export const ForManagerD = [
       "Course Fee : ₹ 79,000 + GST",
     ],
         link1: "/advance-data-science-certification-courses",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/2nd+DSAI+Advance.pdf",
   },
   {
     id: 2,
@@ -214,7 +214,7 @@ export const ForManagerD = [
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/artificial-intelligence-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf",
   },
   {
     id: 3,
@@ -227,7 +227,7 @@ export const ForManagerD = [
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/data-science-ai-for-managers",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/4th+Managers.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/4th+Managers.pdf",
   },
 ];
 
@@ -243,6 +243,6 @@ export const JobGuaranteeD = [
       "Course Fee : ₹ 1,25,000 + GST",
     ],
         link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/5th+Guarantee.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf",
   },
 ];

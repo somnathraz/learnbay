@@ -2,61 +2,57 @@
 title: Random forest model(RFM)
 desc: "Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!"
 slug: home
-headerImg: "/blog/finance.png"
-date: "December 20, 2021"
-tag: [ Hot Topics ]
-category: "Hot Topics"
+headerImg: "/blog/random.png"
+date: "December 20, 2022"
+tag: [ Machine Learning ]
+category: "Machine Learning"
 author: "Admin"
- 
-position: "Editor"
+position: "editor"
 readTime: "9-12 mins"
-h1: "Random forest model(RFM)"
+h1: "Advanced Data science Course Training in Bangalore"
 id: "random-forest-model-rfm"
 tableData:
   [
-  Random forest model(RFM),
-  Random Forest Model Introduction,
-    
+    Advanced Data science Course Training in Bangalore
+    Random forest model(RFM),
+  
   ]
 ---
 
 
-
-
-
-## **Random Forest Model: Introduction**
+## Random Forest Model: Introduction
 
 Random Forest Model is also a classification model with the combination of the decision tree. The random forest model algorithm is a supervised classification algorithm. As the name suggests, this algorithm creates the forest with several trees. … In the same way in the random tree classifier, the higher the number of trees in the forest gives the high the accuracy results. If you know the Random forest algorithm is a supervised classification algorithm.
 
 The random forest model follows an ensemble technique. It involves constructing multi decision trees at training time. Its prediction is based on mode for classification and means for regression tree. It helps to reduce the overfitting of the individual decision tree. There are many possibilities for the occurrence of overfitting.
 
 
-### **Random Forest Model Algorithm: Working**
+### Random Forest Model Algorithm: Working
 
 We can understand the working of the Random Forest algorithm with the help of following steps −
 
 
 
-* **Step 1** − First, start with the selection of random samples from a given dataset. Do sampling without replacement.
+* Step 1 − First, start with the selection of random samples from a given dataset. Do sampling without replacement.
 
 
+<img src="/blog/random-01.png" width="100%" /></img>
 
-<img src="/blog/rfm.png" width="100%" /></img>
 
 Sampling without replacement stats that the training data split into several small samples and then the result we get is a combination of all the data set. If we have 1000 features in a data set the splitting will happen with 10 features each in a small training data and all split training data contains equal no of features. The result is based on which training data has the highest value.
 
 
 
-* **Step 2** − Next, this algorithm will construct a decision tree for every sample. Then it will get the prediction result from every decision tree.
-* **Step 3** − In this step, voting will be performed for every predicted result.
+* Step 2 − Next, this algorithm will construct a decision tree for every sample. Then it will get the prediction result from every decision tree.
+* Step 3 − In this step, voting will be performed for every predicted result.
     * Based on ‘n’ samples… ‘n’ tree is built
     * Each record is classified based on the n tree
     * The final class for each record is decided based on voting
 
-**Step 4** − At last, select the most voted prediction result as the final prediction result.
+Step 4 − At last, select the most voted prediction result as the final prediction result.
 
 
-### **What is the Out of Bag score in Random Forests?**
+### What is the Out of Bag score in Random Forests?
 
 Out of bag (OOB) score is a way of validating the Random forest model. Below is a simple intuition of how is it calculated followed by a description of how it is different from the validation score and where it is advantageous.
 
@@ -70,7 +66,7 @@ OOB Error Rate Computation Steps
 * Assume j cases are misclassified
 * The proportion of time that j is not equal to true class averaged over all cases is the OOB error rate.
 
-**Variable importance of RF: **
+Variable importance of RF: 
 
 It stats about the feature that is most useful for the random forest model by which we can get the high accuracy of the model with less error.
 
@@ -86,15 +82,15 @@ It stats about the feature that is most useful for the random forest model by wh
     * Average the decrease overall the trees
 * Mean Decrease in Gini is computed as a “total decrease in node impurities from splitting on the variable averaged over all trees”.
 
-**Finding the optimal values using grid-search cv:**
+Finding the optimal values using grid-search cv:
 
 It stats the optimal values of the splitting decision tree that how many trees to be split within the model.
 
-**Measuring RF model performance by Confusion Matrix:**
+Measuring RF model performance by Confusion Matrix:
 
 A confusion matrix is a table that is often used to describe the performance of a classification model (or “classifier”) on a set of test data for which the true values are known. It allows the visualization of the performance of an algorithm. It tells about how many true values are true.
 
-**Random Forest with python: **
+Random Forest with python: 
 
 Importing the important libraries–
 
@@ -133,7 +129,7 @@ temp = dummy_df.columns.values[0] temp
 print(dummy_df)
 
 
-## **Data Pre-Processing:**
+## Data Pre-Processing:
 
 columns_name = temp.split(';')
 
@@ -170,12 +166,12 @@ x = encoded_df.drop(['"y"'],axis =1).values
 y = encoded_df['"y"'].values
 
 
-## **Split the data into Train-Test¶**
+## Split the data into Train-Test¶
 
 x_train, x_test, y_train, y_test = train_test_split(x,y,test_size =0.5)
 
 
-## **Build the Decision Tree Model**
+## Build the Decision Tree Model
 
 # Decision tree with depth = 2
 
@@ -200,7 +196,7 @@ model_dt.fit(x_train, y_train)
 y_pred_dt = model_dt.predict_proba(x_test)[:, 1]
 
 
-## **Graphical Representation of Tree**
+## Graphical Representation of Tree
 
 plt.figure(figsize=(6,6))
 
@@ -217,7 +213,7 @@ graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
 Image(graph.create_png())
 
 
-## **Performance Metrics**
+## Performance Metrics
 
 fpr_dt, tpr_dt, _ = roc_curve(y_test, y_pred_dt)
 
@@ -236,7 +232,7 @@ if(predictions[i] == 1):
 y_actual_result = np.vstack((y_actual_result, y_test[i]))
 
 
-## **Recall**
+## Recall
 
 #Recall
 
@@ -255,7 +251,7 @@ print ("true yes|predicted yes:")
 print (count/float(len(y_actual_result)))
 
 
-## **Area Under the Curve**
+## Area Under the Curve
 
 plt.figure(1)
 
@@ -282,12 +278,11 @@ plt.legend(loc="lower right")
 plt.show()
 
 
-
-<img src="/blog/rfm1.png" width="100%" /></img>
-
+<img src="/blog/random-02.png" width="100%" /></img>
 
 
-## **Confusion Matrix**
+
+## Confusion Matrix
 
 print (confusion_matrix(y_test, predictions))
 
@@ -344,12 +339,11 @@ plot_confusion_matrix(predictions, normalize=False)
 plt.show()
 
 
-<img src="/blog/rfm2.png" width="100%" /></img>
+<img src="/blog/random-03.png" width="100%" /></img>
 
 
 
-
-### **Pruning of the tree¶**
+### Pruning of the tree¶
 
 from sklearn.tree._tree import TREE_LEAF
 
@@ -363,7 +357,7 @@ inner_tree.children_left[index] = TREE_LEAF
 
 inner_tree.children_right[index] = TREE_LEAF
 
-# if there are shildren,[ visit](https://www.theidioms.com/#) them as well
+# if there are shildren, visit them as well
 
 if inner_tree.children_left[index] != TREE_LEAF:
 

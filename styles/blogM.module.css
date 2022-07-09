@@ -1,13 +1,13 @@
 .blogHead {
-  margin-top: 120px;
+  margin-top: 30px;
   margin-left: 100px;
   margin-right: 100px;
 }
 .blogHead p,
 .tagNameH {
-  font-size: 37px;
+  font-size: 30px;
   font-weight: 600;
-  border-left: 4px solid #0487d9;
+  border-left: 4px solid #2D9CD7;
   padding-left: 10px;
 }
 .blogWrap,
@@ -38,9 +38,8 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .blog:hover {
-  margin-top: -3px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: 0px 0px 10px 0px rgb(45 156 215 / 31%),
+  0px 0px 10px 0px rgb(45 156 215 / 31%);
   transition: all 0.5 ease-in-out;
 }
 .blog h4 {
@@ -50,7 +49,7 @@
   line-height: 28px;
 }
 .blog h4:hover {
-  color: #f28705;
+  color: #2D9CD7;
 }
 .profileWrap {
   display: flex;
@@ -86,17 +85,15 @@
   gap: 10px;
   cursor: pointer;
   border-radius: 8px;
-  border-left: 4px solid #f28705;
+  border-left: 4px solid #2D9CD7;
 }
 .blogBox:nth-child(2) {
-  border-left: 4px solid #0487d9;
+  border-left: 4px solid #2D9CD7;
 }
 .blogBox:hover {
-  margin-top: -4px;
-  -webkit-box-shadow: 10px 10px 17px 0px rgba(242, 135, 5, 0.1);
-  -moz-box-shadow: 10px 10px 17px 0px rgba(242, 135, 5, 0.1);
-  box-shadow: 10px 10px 17px 0px rgba(242, 135, 5, 0.1);
-  transition: all 0.5s ease-in-out;
+  -webkit-box-shadow: 0px 0px 10px 0px rgb(45 156 215 / 31%);
+  -moz-box-shadow: 0px 0px 10px 0px rgb(45 156 215 / 31%);
+  box-shadow: 0px 0px 10px 0px rgb(45 156 215 / 31%);
 }
 .blogBox h4 {
   font-size: 20px;
@@ -111,13 +108,13 @@
   margin-bottom: 10px;
 }
 .blogBox h4:hover {
-  color: #f28705;
+  color: #2D9CD7;
 }
 .blogBox span,
 .tagSpan {
   padding: 8px;
   font-size: 12px;
-  border: 1px solid #0487d9;
+  border: 1px solid #2D9CD7;
   border-radius: 8px;
   width: max-content;
   cursor: pointer;
@@ -125,7 +122,7 @@
 }
 .blogBox span:hover,
 .tagSpan:hover {
-  color: #0487d9;
+  color: #2D9CD7;
 }
 .rBlogBox {
   display: flex;
@@ -160,10 +157,10 @@
 .quote h3 {
   font-size: 57px;
   font-weight: 600;
-  border-right: 4px solid #0487d99d;
+  border-right: 4px solid #2D9CD79d;
 }
 .quote h3 span {
-  color: #f28705;
+  color: #2D9CD7;
 }
 .quote p {
   display: flex;
@@ -177,7 +174,7 @@
 }
 .aName {
   font-weight: 500;
-  color: #0487d9;
+  color: #2D9CD7;
 }
 .categoryPosts {
   margin: 60px 100px;
@@ -189,9 +186,15 @@
 }
 .tagNameH button {
   padding: 8px 15px;
-  background-color: white;
-  color: #0487d9;
-  border: 1px solid #0487d9;
+  background-color: #2D9CD7;
+  color: #fff;
+  border: 1px solid #2D9CD7;
+  font-size: 18px;
+}
+
+.tagNameH button:hover {
+  background-color: #fff;
+  color: #2D9CD7;
 }
 .categoryWrapper {
   display: grid;
@@ -210,11 +213,9 @@
   align-items: center;
 }
 .categoryPost:hover {
-  margin-top: -4px;
-  -webkit-box-shadow: 10px 10px 17px 0px rgba(242, 135, 5, 0.1);
-  -moz-box-shadow: 10px 10px 17px 0px rgba(242, 135, 5, 0.1);
-  box-shadow: 10px 10px 17px 0px rgba(242, 135, 5, 0.1);
-  transition: all 0.5s ease-in-out;
+  -webkit-box-shadow: 0px 0px 10px 0px rgb(45 156 215 / 31%);
+  -moz-box-shadow: 0px 0px 10px 0px rgb(45 156 215 / 31%);
+  box-shadow: 0px 0px 10px 0px rgb(45 156 215 / 31%);
 }
 .link {
   margin-bottom: 18px;
@@ -230,6 +231,7 @@
 .rightCategoryPost h4 {
   font-size: 26px;
   line-height: 28px;
+  text-align: left;
   margin: 0;
 }
 .rightCategoryPost .profileWrap h5 {
@@ -238,7 +240,7 @@
   color: grey;
 }
 .rightCategoryPost .profileWrap h5:hover {
-  color: #f28705;
+  color: #2D9CD7;
 }
 
 .rightCategoryPost .profileWrap {
@@ -250,3 +252,62 @@
   flex-flow: column;
   height: inherit;
 }
+
+.BackP {
+  background: url("/blog1.png");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+align-items: center;
+margin: auto;
+padding: 0px 100px;
+}
+
+@media (max-width: 600px) {
+  .blogHead {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .blogHead p,
+.tagNameH {
+  font-size: 26px;
+  font-weight: 500;
+  border-left: 4px solid #2D9CD7;
+  padding-left: 10px;
+}
+.blogWrap,
+.allBlog {
+  display:block;
+  align-items: center;
+  margin: 30px 20px;
+}
+.blog {
+  height: 350px;
+  margin-bottom: 20px;
+  padding: 0px 10px;
+}
+.categoryPosts {
+  margin: 30px 20px;
+}
+.categoryWrapper {
+  display: block;
+}
+.categoryPost {
+  display: block;
+  padding: 10px 10px;
+  align-items: left;
+}
+.rightCategoryPost {
+margin-top: 10px;
+}
+.BackP {
+  margin-top: 70px;
+  height: 50vh;
+  text-align: left;
+  padding: 20px;
+}
+}
+
+
