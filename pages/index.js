@@ -13,7 +13,7 @@ import TestimonialVideo from "../components/TestimonialVideo/TestimonialVideo";
 import Switch from "../components/switch/switch";
 import BoxSeo from "../components/BoxSeo/BoxSeo";
 import DomainSliderHome from "../components/DomainSliderHome/DomainSliderHome";
-import generateRssFeed from "../lib/generateRss";
+import  generateRssFeed  from "../lib/generateRss";
 
 
 export default function Home() {
