@@ -57,7 +57,7 @@ export default function Home() {
         desc="Make an impression as a seasoned applicant. With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
         src="/course2.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/2nd+DSAI+Advance.pdf"
       />
       <div className={styles.program}>
         <ProgramInfo
@@ -72,9 +72,9 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Interview Guarantee backed up by 250+ hiring partners"
+        WeekdayBatchDate="Interview guarantee backed up by 250+ hiring partners"
         WeekendBatchDate="8+ Domain-Electives associated with full-stack modules"
-        Project="Project Experience Certification by IBM"
+        Project="Project experience certification by IBM"
         Classes="6 micro-skills certificates from IBM"
         OneLine="Completely live and interactive learning"
         Interview="12 live industry projects & 2 fresh Capstone Projects"
@@ -194,7 +194,7 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/2nd+DSAI+Advance.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/2nd+DSAI+Advance.pdf"
     />
       <ToolsCovered 
       src="/tools-2.png"

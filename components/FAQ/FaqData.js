@@ -313,7 +313,7 @@ export const PaymentFaqData2 = [
   },
   {
     id: 2,
-    ques: "Is there any scholarship/discount available for Advanced Data Science and AI Program?? What is Group Discount?",
+    ques: "Is there any scholarship/discount available for Advanced Data Science and AI Program? What is Group Discount?",
     ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
     Please check our website or contact our sales team to know more about the applicable discounts.
     
@@ -326,7 +326,7 @@ export const PaymentFaqData2 = [
   },
   {
     id: 3,
-    ques: "What is the refund policy for the Advanced Data Science and AI Program? at Learnbay?",
+    ques: "What is the refund policy for the Advanced Data Science and AI Program at Learnbay?",
     ans: "Candidates are advised to read  ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
@@ -1109,7 +1109,7 @@ export const jobFaqData5 = [
   {
     id: 4,
     ques: "What is job or 100% moneyback Gurantee?",
-    ans: "If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. ",
+    ans: "If you don’t get a job within 18 months of your course completion, we will initiate a full refund of your course fees. ",
     linkText1: " Terms and conditions ",
     link1: "/terms-conditions-job",
     ansAfter: "applied.",
@@ -1171,7 +1171,7 @@ export const FaqData6 = [
   {
     id: 3,
     ques: "What’s the duration of the Data Analytics Program?",
-    ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this Data Analytics Course is about 6 months (180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch – 4.5 months, Monday to Friday – 2 hours/day,

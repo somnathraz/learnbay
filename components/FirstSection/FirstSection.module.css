@@ -65,7 +65,7 @@
     margin-right: -1rem;
     display: flex;
     flex-flow: column;
-    height: 100vh;
+    height: 94vh;
     background-image: url("/mobile-version.png");
     background-size: contain;
   }

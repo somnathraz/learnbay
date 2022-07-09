@@ -61,7 +61,7 @@ export default function Home() {
         desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
         src="/course3.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf"
 
       />
       <div className={styles.program}>
@@ -190,7 +190,7 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/3rd+AIML.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf"
 
 
     JobBot1="Learnbay is the best machine learning training institute in Hyderabad with job assistance. Our specialist faculty can help you prepare for product MNC Machine learning interviews in the most effective way possible. Candidates are given mock interviews and job referrals that are the best fit. You will also receive assistance with creating a resume and portfolio so that they remain at the top of the recruiter's list. Please keep in mind that we guarantee interview calls."

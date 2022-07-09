@@ -27,13 +27,13 @@ It is always good to explore and compare a data set with multiple exploratory te
 
 In this post, we take Iris Dataset to get the process of EDA.
 
-**Importing libraries:**
+Importing libraries:
 
 import numpy as np
 
 import pandas as pd
 
-import matplotlib.pyplot as plt **Loading the Iris data** iris_data= pd.read_csv("Iris.csv") 
+import matplotlib.pyplot as plt Loading the Iris data iris_data= pd.read_csv("Iris.csv") 
 
 <img src="/blog/iris.jpg" width="100%" /></img>
 
@@ -48,7 +48,7 @@ virginica     50
 
 versicolor    50
 
-Name: species, dtype: int64 iris_data.columns() Index(['sepal_length', 'sepal_width', 'petal_length', 'petal_width','species'],dtype='object') **1D scatter plot of the iris data:** iris_setso = iris.loc[iris["species"] == "setosa"];
+Name: species, dtype: int64 iris_data.columns() Index(['sepal_length', 'sepal_width', 'petal_length', 'petal_width','species'],dtype='object') 1D scatter plot of the iris data: iris_setso = iris.loc[iris["species"] == "setosa"];
 
 iris_virginica = iris.loc[iris["species"] == "virginica"];
 
@@ -66,13 +66,13 @@ plt.show() [ ](https://www.learnbay.co/data-science-course/wp-content/uploads/20
 
 <img src="/blog/iris1.png" width="100%" /></img>
 
- **2D scatter plot:** iris.plot(kind="scatter",x="sepal_length",y="sepal_width")
+ 2D scatter plot: iris.plot(kind="scatter",x="sepal_length",y="sepal_width")
 
 plt.show()[ ](https://www.learnbay.co/data-science-course/wp-content/uploads/2020/01/3rd.png)
 
 <img src="/blog/iris2.png" width="100%" /></img>
 
- **2D scatter plot with the seaborn library :** import seaborn as sns
+ 2D scatter plot with the seaborn library : import seaborn as sns
 
 sns.set_style("whitegrid");
 
@@ -88,7 +88,7 @@ plt.show() [ ](https://www.learnbay.co/data-science-course/wp-content/uploads/20
 
 
 
-** Conclusion**
+ Conclusion
 
 
 
@@ -97,7 +97,7 @@ plt.show() [ ](https://www.learnbay.co/data-science-course/wp-content/uploads/20
 * Using sepal_length and sepal_width features, we can distinguish Setosa flowers from others.
 * Separating Versicolor from Viginica is much harder as they have considerable overlap.
 
-**Pair Plot:**
+Pair Plot:
 
 A pairs plot allows us to see both the distribution of single variables and relationships between two variables. For example, let’s say we have four features ‘sepal length’, ‘sepal width’, ‘petal length’ and ‘petal width’ in our iris dataset. In that case, we will have 4C2 plots i.e. 6 unique plots. The pairs, in this case, will be :
 
@@ -110,7 +110,7 @@ A pairs plot allows us to see both the distribution of single variables and rela
 * sepal width, petal width
 * petal length, petal width
 
-So,[ here](https://www.theidioms.com/#) instead of trying to visualize four dimensions which are not possible. We will look into 6 2D plots and try to understand the 4-dimensional data in the form of a matrix.
+So, here instead of trying to visualize four dimensions which are not possible. We will look into 6 2D plots and try to understand the 4-dimensional data in the form of a matrix.
 
 sns.set_style("whitegrid");
 
@@ -118,7 +118,7 @@ sns.pairplot(iris,hue="species",size=3);
 
 plt.show()
 
-**Conclusion:**
+Conclusion:
 
 
 
@@ -126,7 +126,7 @@ plt.show()
 2. While Setosa can be easily identified (linearly separable), virginica and Versicolor have some overlap (almost linearly separable).
 3. We can find “lines” and “if-else” conditions to build a simple model to classify the flower types.
 
-**Cumulative distribution function:**
+Cumulative distribution function:
 
 iris_setosa = iris.loc[iris["species"] == "setosa"];
 
@@ -160,7 +160,7 @@ plt.plot(bin_edges[1:], cdf)
 
 
 
-**Mean, Median, and Std-Dev:**
+Mean, Median, and Std-Dev:
 
 print("Means:")
 

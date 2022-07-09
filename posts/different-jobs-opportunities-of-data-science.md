@@ -18,7 +18,7 @@ tableData:
   ]
 ---
 
-## **Job opportunities in Data Science**
+## Job opportunities in Data Science
 
 To maintain and sustain any job opportunities in data science is a bliss in life, not only because it rains money but for the professional stability and experience one gets about technology. Generally, people assume only “Data Scientist” is to become by getting in Data Science, but that is completely false. Data Science is vast of a field containing multiple disciplined technologies working efficiently with each other, to each specific technology requires a respective specialist. Which means, working of various specialists of different sectors is mandatory in Data Science. There are different job opportunities of data science, let’s elaborate further.
 
@@ -166,6 +166,6 @@ Trust me, even though they all sound almost same, are very individual in their s
 
 I hope this would help you in understanding about the diversity in one Data Science field.
 
-The salary mentioned in[ here](https://www.theidioms.com/#) increases as days passes by, but it is not about the money, it is about the proficiency one would get in fields of authentic working of technology. If you want to be a part of Data Science then **Learnbay** is one of the best options. Become masters in data science from the best institute of data science in Bangalore and get different job opportunities of data science.
+The salary mentioned in here increases as days passes by, but it is not about the money, it is about the proficiency one would get in fields of authentic working of technology. If you want to be a part of Data Science then Learnbay is one of the best options. Become masters in data science from the best institute of data science in Bangalore and get different job opportunities of data science.
 
-**[Learnbay](https://www.learnbay.co/data-science-course/) **is located in the IT hub of India, **Bangalore**. This feature will help students to invent their future in best place possible, **Learnbay** is a Data Science training institute along with Machine Learning, Big Data and Artificial Intelligence are also taught. The[ course structure of Data Science](https://drive.google.com/file/d/1QMbaMyB1O8BAusq6ZcHoZi60fYz_8wm5/view) has all the updated essential tools and techniques of field, **IBM** will certify the aspirants of here.
+[Learnbay](https://www.learnbay.co/data-science-course/) is located in the IT hub of India, Bangalore. This feature will help students to invent their future in best place possible, Learnbay is a Data Science training institute along with Machine Learning, Big Data and Artificial Intelligence are also taught. The[ course structure of Data Science](https://drive.google.com/file/d/1QMbaMyB1O8BAusq6ZcHoZi60fYz_8wm5/view) has all the updated essential tools and techniques of field, IBM will certify the aspirants of here.

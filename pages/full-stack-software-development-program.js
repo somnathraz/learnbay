@@ -52,7 +52,7 @@ export default function Home() {
         desc="Transform your career as a demanding software development expert. Sharpen your skills with real-time project experience."
         src="/course9.png"
         alt="Full Stack"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/Full+Stack+Web+Development+Program.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program.pdf"
       />
       <div className={styles.program}>
         <ProgramInfo

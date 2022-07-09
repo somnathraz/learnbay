@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://learnbay.co/</id>
     <title>skillslash blog</title>
-    <updated>2022-07-08T11:52:20.500Z</updated>
+    <updated>2022-07-09T11:26:25.314Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>Skillslash</name>
@@ -15,15 +15,339 @@
     <icon>https://learnbay.co//favicon.png</icon>
     <rights>All rights reserved 2022, Sreetam Das</rights>
     <entry>
-        <title type="html"><![CDATA[Oops! Why 2022 Is Too Late For Video-Based Data Science Learning]]></title>
-        <id>https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning</id>
-        <link href="https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning"/>
-        <updated>2022-07-04T18:30:00.000Z</updated>
+        <title type="html"><![CDATA[Artificial Intelligence in E-commerce]]></title>
+        <id>https://learnbay.co//blog/artificial-intelligence-in-e-commerce</id>
+        <link href="https://learnbay.co//blog/artificial-intelligence-in-e-commerce"/>
+        <updated>2021-04-14T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Oops! Why 2022 Is Too Late For Video-Based Data Science Learning]]></title>
-        <id>https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning</id>
-        <link href="https://learnbay.co//blog/oops!-why-2022-is-too-late-for-video-based-data-science-learning"/>
+        <title type="html"><![CDATA[Banking, Finance, Services & Insurance Sector Know How to Achieve The Most Lucrative Salary Package]]></title>
+        <id>https://learnbay.co//blog/banking-finance-services-insurance-sector-know-how-to-achieve-the-most-lucrative-salary-package</id>
+        <link href="https://learnbay.co//blog/banking-finance-services-insurance-sector-know-how-to-achieve-the-most-lucrative-salary-package"/>
+        <updated>2022-04-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clustering & Types Of Clustering]]></title>
+        <id>https://learnbay.co//blog/clustering-data-science-unsupervised-learning</id>
+        <link href="https://learnbay.co//blog/clustering-data-science-unsupervised-learning"/>
+        <updated>2022-11-16T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Customer Experience Enhancement In Banks]]></title>
+        <id>https://learnbay.co//blog/customer-experience-enhancement-in-banks</id>
+        <link href="https://learnbay.co//blog/customer-experience-enhancement-in-banks"/>
+        <updated>2021-07-10T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Everything About Data Preprocessing]]></title>
+        <id>https://learnbay.co//blog/data-preprocessing</id>
+        <link href="https://learnbay.co//blog/data-preprocessing"/>
+        <updated>2021-11-24T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Science at Intern Level]]></title>
+        <id>https://learnbay.co//blog/data-science-at-intern-level</id>
+        <link href="https://learnbay.co//blog/data-science-at-intern-level"/>
+        <updated>2022-01-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Science for working professionals]]></title>
+        <id>https://learnbay.co//blog/data-science-for-working-professionals</id>
+        <link href="https://learnbay.co//blog/data-science-for-working-professionals"/>
+        <updated>2022-07-07T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Banking, Finance, Services & Insurance Sector Know How to Achieve The Most Lucrative Salary Package]]></title>
+        <id>https://learnbay.co//blog/banking-finance-services-insurance-sector-know-how-to-achieve-the-most-lucrative-salary-package</id>
+        <link href="https://learnbay.co//blog/banking-finance-services-insurance-sector-know-how-to-achieve-the-most-lucrative-salary-package"/>
+        <updated>2022-04-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Everything About Decision Tree From Scratch]]></title>
+        <id>https://learnbay.co//blog/decision-tree</id>
+        <link href="https://learnbay.co//blog/decision-tree"/>
+        <updated>2021-10-31T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Different Job Roles After A Data Science Course]]></title>
+        <id>https://learnbay.co//blog/banking-finance-services-insurance-sector-know-how-to-achieve-the-most-lucrative-salary-package</id>
+        <link href="https://learnbay.co//blog/banking-finance-services-insurance-sector-know-how-to-achieve-the-most-lucrative-salary-package"/>
+        <updated>2022-04-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding Different Job Opportunities of Data Science]]></title>
+        <id>https://learnbay.co//blog/different-jobs-opportunities-of-data-science</id>
+        <link href="https://learnbay.co//blog/different-jobs-opportunities-of-data-science"/>
+        <updated>2022-11-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Differentiating Data Scientist and Data Analyst]]></title>
+        <id>https://learnbay.co//blog/differentiating-data-scientist-and-data-analyst</id>
+        <link href="https://learnbay.co//blog/differentiating-data-scientist-and-data-analyst"/>
+        <updated>2022-08-13T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Evolution of Data Science in India]]></title>
+        <id>https://learnbay.co//blog/evolution-of-data-science-in-india</id>
+        <link href="https://learnbay.co//blog/evolution-of-data-science-in-india"/>
+        <updated>2020-02-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploratory Data Analysis on Iris dataset]]></title>
+        <id>https://learnbay.co//blog/exploratory-data-analysis-on-iris-dataset</id>
+        <link href="https://learnbay.co//blog/exploratory-data-analysis-on-iris-dataset"/>
+        <updated>2021-01-02T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Future of Education in hands of Machine Learning]]></title>
+        <id>https://learnbay.co//blog/future-of-education-in-hands-of-machine-learning</id>
+        <link href="https://learnbay.co//blog/future-of-education-in-hands-of-machine-learning"/>
+        <updated>2022-06-09T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Normal and Gaussian Distribution]]></title>
+        <id>https://learnbay.co//blog/gaussian-and-normal-distribution</id>
+        <link href="https://learnbay.co//blog/gaussian-and-normal-distribution"/>
+        <updated>2022-03-28T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gradient Descent for Machine Learning]]></title>
+        <id>https://learnbay.co//blog/gradient-descent-for-machine-learning</id>
+        <link href="https://learnbay.co//blog/gradient-descent-for-machine-learning"/>
+        <updated>2022-03-05T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Data Analytics Can Fast Track Your E-commerce, Retail, and Supply Chain Career?]]></title>
+        <id>https://learnbay.co//blog/how-data-analytics-can-fast-track-your-e-commerce-retail-and-supply-chain-career</id>
+        <link href="https://learnbay.co//blog/how-data-analytics-can-fast-track-your-e-commerce-retail-and-supply-chain-career"/>
+        <updated>2022-05-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advanced Data science Course Training in Bangalore]]></title>
+        <id>https://learnbay.co//blog/how-does-data-science-promote-project-managers-to-a-new-perspective-of-success</id>
+        <link href="https://learnbay.co//blog/how-does-data-science-promote-project-managers-to-a-new-perspective-of-success"/>
+        <updated>2022-05-29T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Build a Rewarding Career As a Healthcare Data Scientist?]]></title>
+        <id>https://learnbay.co//blog/media-hospitality-and-transportation-know-how-data-science-will-help-you-to-survive</id>
+        <link href="https://learnbay.co//blog/media-hospitality-and-transportation-know-how-data-science-will-help-you-to-survive"/>
+        <updated>2022-05-15T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Make a Rewarding Career in the Energy, Oil, and Gas Domain as a Data Scientist?]]></title>
+        <id>https://learnbay.co//blog/how-to-make-a-rewarding-career-in-the-energy-oil-and-gas-domain-as-a-data-scientist</id>
+        <link href="https://learnbay.co//blog/how-to-make-a-rewarding-career-in-the-energy-oil-and-gas-domain-as-a-data-scientist"/>
+        <updated>2022-04-05T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Human Activity Recognition With Smart Phone]]></title>
+        <id>https://learnbay.co//blog/human-activity-recognition-with-smart-phone</id>
+        <link href="https://learnbay.co//blog/human-activity-recognition-with-smart-phone"/>
+        <updated>2021-12-18T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction to Python Programming]]></title>
+        <id>https://learnbay.co//blog/introduction-to-python-programming</id>
+        <link href="https://learnbay.co//blog/introduction-to-python-programming"/>
+        <updated>2022-04-26T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction to Simple Linear Regression in Machine Learning]]></title>
+        <id>https://learnbay.co//blog/introduction-to-simple-linear-regression-in-machine-learning</id>
+        <link href="https://learnbay.co//blog/introduction-to-simple-linear-regression-in-machine-learning"/>
+        <updated>2021-09-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Investing 3 lakhs on Data science Certification Course? Is it really worth it]]></title>
+        <id>https://learnbay.co//blog/investing-3-lakhs-on-data-science-certification-course-does-it-really-worth</id>
+        <link href="https://learnbay.co//blog/investing-3-lakhs-on-data-science-certification-course-does-it-really-worth"/>
+        <updated>2022-04-12T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Know The Best Strategy To Find The Right Data Science Job in Delhi?]]></title>
+        <id>https://learnbay.co//blog/know-the-best-strategy-to-find-the-right-data-science-job-in-delhi</id>
+        <link href="https://learnbay.co//blog/know-the-best-strategy-to-find-the-right-data-science-job-in-delhi"/>
+        <updated>2022-08-29T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Know The Top 10 Data Science Trends (2022)]]></title>
+        <id>https://learnbay.co//blog/know-the-top-10-data-science-trends-2022</id>
+        <link href="https://learnbay.co//blog/know-the-top-10-data-science-trends-2022"/>
+        <updated>2022-05-24T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linear Regression in Machine Learning]]></title>
+        <id>https://learnbay.co//blog/linear-regression-in-machine-learning</id>
+        <link href="https://learnbay.co//blog/linear-regression-in-machine-learning"/>
+        <updated>2022-12-29T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Marketing, Sales, and HR Is being a data scientist the only hope?]]></title>
+        <id>https://learnbay.co//blog/marketing-sales-and-hr-is-being-a-data-scientist-the-only-hope</id>
+        <link href="https://learnbay.co//blog/marketing-sales-and-hr-is-being-a-data-scientist-the-only-hope"/>
+        <updated>2022-04-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advanced Data science Course Training in Bangalore]]></title>
+        <id>https://learnbay.co//blog/media-hospitality-and-transportation-know-how-data-science-will-help-you-to-survive</id>
+        <link href="https://learnbay.co//blog/media-hospitality-and-transportation-know-how-data-science-will-help-you-to-survive"/>
+        <updated>2022-04-05T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Method Overriding in Python of Data Science Everything You Need to Know]]></title>
+        <id>https://learnbay.co//blog/method-overriding-in-python-of-data-science-everything-you-need-to-know</id>
+        <link href="https://learnbay.co//blog/method-overriding-in-python-of-data-science-everything-you-need-to-know"/>
+        <updated>2021-12-16T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Model vs Algorithm in ML]]></title>
+        <id>https://learnbay.co//blog/model-vs-algorithm-in-ml</id>
+        <link href="https://learnbay.co//blog/model-vs-algorithm-in-ml"/>
+        <updated>2021-04-28T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Necessity of Machine Learning in Retail]]></title>
+        <id>https://learnbay.co//blog/necessity-of-machine-learning-in-retail</id>
+        <link href="https://learnbay.co//blog/necessity-of-machine-learning-in-retail"/>
+        <updated>2022-04-17T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NLP and Deep Learning for Data Scientists]]></title>
+        <id>https://learnbay.co//blog/nlp-and-deep-learning-for-data-scientists</id>
+        <link href="https://learnbay.co//blog/nlp-and-deep-learning-for-data-scientists"/>
+        <updated>2022-12-16T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practice of Intelligence with help of Artificial Intelligence in Academics]]></title>
+        <id>https://learnbay.co//blog/practice-of-intelligence-with-help-of-artificial-intelligence-in-academics</id>
+        <link href="https://learnbay.co//blog/practice-of-intelligence-with-help-of-artificial-intelligence-in-academics"/>
+        <updated>2022-04-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Random forest model(RFM)]]></title>
+        <id>https://learnbay.co//blog/random-forest-model-rfm</id>
+        <link href="https://learnbay.co//blog/random-forest-model-rfm"/>
+        <updated>2022-12-19T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Regression techniques in Machine Learning]]></title>
+        <id>https://learnbay.co//blog/regression-techniques-in-machine-learning</id>
+        <link href="https://learnbay.co//blog/regression-techniques-in-machine-learning"/>
+        <updated>2022-05-28T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reliable sources to understand about Data Science]]></title>
+        <id>https://learnbay.co//blog/reliable-sources-to-understand-about-data-science</id>
+        <link href="https://learnbay.co//blog/reliable-sources-to-understand-about-data-science"/>
+        <updated>2022-01-31T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Support Vector Machine]]></title>
+        <id>https://learnbay.co//blog/support-vector-machines</id>
+        <link href="https://learnbay.co//blog/support-vector-machines"/>
+        <updated>2022-11-24T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Text Stemming In NLP]]></title>
+        <id>https://learnbay.co//blog/text-stemming-in-nlp</id>
+        <link href="https://learnbay.co//blog/text-stemming-in-nlp"/>
         <updated>2022-07-04T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Marketing, Sales, and HR Is being a data scientist the only hope?]]></title>
+        <id>https://learnbay.co//blog/top-50-interview-question-on-statistics</id>
+        <link href="https://learnbay.co//blog/top-50-interview-question-on-statistics"/>
+        <updated>2022-04-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top 50 interview questions of Machine Learning]]></title>
+        <id>https://learnbay.co//blog/top-50-interview-questions-of-machine-learning</id>
+        <link href="https://learnbay.co//blog/top-50-interview-questions-of-machine-learning"/>
+        <updated>2021-05-26T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top Data Science Certifications In 2022- Exclusive To Banking Professionals]]></title>
+        <id>https://learnbay.co//blog/top-data-science-certifications-in-2022-exclusive-to-banking-professionals</id>
+        <link href="https://learnbay.co//blog/top-data-science-certifications-in-2022-exclusive-to-banking-professionals"/>
+        <updated>2022-06-09T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is Supervised, Unsupervised Learning, and Reinforcement Learning in Machine Learning]]></title>
+        <id>https://learnbay.co//blog/what-is-supervised-and-unsupervised-learning-in-machine-learning</id>
+        <link href="https://learnbay.co//blog/what-is-supervised-and-unsupervised-learning-in-machine-learning"/>
+        <updated>2022-04-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Science is Important!]]></title>
+        <id>https://learnbay.co//blog/why-you-need-data-science</id>
+        <link href="https://learnbay.co//blog/why-you-need-data-science"/>
+        <updated>2021-11-30T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Win the COVID-19]]></title>
+        <id>https://learnbay.co//blog/win-this-covid-19-with-data-science-course</id>
+        <link href="https://learnbay.co//blog/win-this-covid-19-with-data-science-course"/>
+        <updated>2021-04-23T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Everything About the XGBoost Classifier]]></title>
+        <id>https://learnbay.co//blog/xgboost-classifier</id>
+        <link href="https://learnbay.co//blog/xgboost-classifier"/>
+        <updated>2022-02-03T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Young Data Scientists]]></title>
+        <id>https://learnbay.co//blog/young-data-scientists</id>
+        <link href="https://learnbay.co//blog/young-data-scientists"/>
+        <updated>2021-12-16T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
     </entry>
 </feed>

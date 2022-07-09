@@ -21,7 +21,7 @@ export default function Post({ postData, posts }) {
           <title>{postData.title}</title>
         </Head>
         <div className={styles.DivImg}>
-        <img src={postData.Img} width="100%" ></img>
+        <img src={postData.img} width="100%" height="450px" ></img>
         </div>
     </section>
 

@@ -27,19 +27,19 @@ _Quick fact_: A Data Scientist is not obliged to have knowledge on all the progr
 
 All the insights given on further are provided directly by Data Scientists in various interviews, merging all of the information we can understand the responsibilities, environment, requirements in the field of Data Science.
 
-**Data Science at Intern Level**
+## Data Science at Intern Level
 
-**Getting into the field of Data Science**
+## Getting into the field of Data Science
 
 When asked about how to easily get into the field, a data scientist told that there are many ways to do that by coming up with any one of important processes of the field. All that is required is right knowledge upon whatsoever process you choose and must be swift in pacing up with the levels of the processes. There are[ Data science courses](http://learnbay.co/)<span style="text-decoration:underline;"> </span>available in various colleges and also in education centers that will not only help you have the knowledge on the fundamentals of the field but also support you in finding a deserving company.
 
-**Being an intern in Data Science**
+## Being an intern in Data Science
 
 Because of the high popularity the field has gained it would nervous even the brightest scholar on the pressure of being the best, but all one must do is relax because the Data Science activity happens in a team and everything an intern would need is the absolute knowledge on the language and tools they have preferred. A Data Scientist explained how daunting it will be especially as an intern because no matter how many different languages they learn the insecurity of other person is more talented than me would haunt now and then, maybe this is because the dynamic behavior of the field. Every Data Scientist will be put in a team, for the sole reason of it is impossible for any individual to be skilled in all the programming languages.
 
 If we interpret the importance of teamwork in a Venn diagram there will be intersection and overlapping of various languages one among another. This way one pack of the team will be knowledgeable of all the required languages but be always humble towards what you do not know,[ social etiquette is also necessary](https://medium.com/somethingnew/social-and-soft-skills-required-in-a-data-scientist-21801fa85724). As an intern your focus must be on following the patterns of how the activity works, analyse which language will be appropriate to learn because one’s journey of learning Data Science does not end when they get a job, but it starts from there.
 
-**Ideal education background to become a Data Scientist**
+## Ideal education background to become a Data Scientist
 
 This is another issue seen among the aspirants of being from an education background that is nowhere related to the technical field. Addressing to this issue a Data Scientist revealed that there are[ so many data scientists from different background fields](https://medium.com/@datascience.learnbay/who-could-learn-data-science-4a1f7cb8c763?sk=5b417fe423bb32fa5607f25919f90b94) like biology, physics, psychology, business and are still triumphing through their way. Even if you are from technical background you will still have to study Data Science because the concepts of it are different from any other technical field, there are specific concepts that must be learnt and practiced, also since it is a dynamic the requirements and essentials will be changing regularly so it is necessary to be well groomed before stepping into the field.
 

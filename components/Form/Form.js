@@ -138,6 +138,34 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you-brochure");
       return;
     }
+    if (router.pathname === "/blog") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/blog" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/about-us") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/about-us" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/contact-us") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/contact-us" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/demo") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/demo" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
   };
   const pastDates = () => {
     let today, dd, mm, yyyy;
@@ -218,10 +246,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             onChange={handleParam()}
           >
             <option value="Work Experience">Work Experience</option>
-            <option value="1 to 3 year">1 to 3 year</option>
-            <option value="3 to 7 year">3 to 7 year</option>
-            <option value="7 to 12 year">7 to 12 year</option>
-            <option value="12+ year">12+ year</option>
+            <option value="1 to 3 year">1 to 3 years</option>
+            <option value="3 to 7 year">3 to 7 years</option>
+            <option value="7 to 12 year">7 to 12 years</option>
+            <option value="12+ year">12+ years</option>
           </select>
         </div>
         {popup ? (
@@ -252,7 +280,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
           Privacy Policy.
         </p>
         <button type="submit" className={styles.button}>
-          {downloadBrochure ? "Download Now" : "Apply Now"}
+          {downloadBrochure ? "Download Now" : "Apply For Counselling"}
         </button>
       </form>
     </div>

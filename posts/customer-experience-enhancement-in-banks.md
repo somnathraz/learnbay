@@ -13,13 +13,14 @@ h1: "Customer Experience Enhancement In Banks"
 id: "customer-experience-enhancement-in-banks"
 tableData:
   [
-  Customer Experience Enhancement In Banks,
   Introduction Customer Experience Enhancement,
+  Outlined Five Steps To Guide Craft Smart Data Strategies Customer Experience Enhancement,
+  Conclusion,
     
   ]
 ---
 
-## Introduction: Customer Experience Enhancement
+## Introduction Customer Experience Enhancement
 
 Customer Experience Enhancement now have access to accounts and can transact across mobile, social, and other self-serve channels. The branch’s role is changing to focus on more complex issues while consumers use Facebook, mobile apps, and virtual wallets to conduct financial business in a new ecosystem. Big Data help in analysing customer experience which leads to generating useful information which can be used for customer experience enhancement. You can learn big data from plenty of resources, the best platform to learn data science is online institutes.
 
@@ -30,7 +31,7 @@ Banks are beginning to explore the opportunity to differentiate with insight. Fo
 The industry is still in its nascent stage, however. According to a recent study by Celent, only 24 per cent of banks surveyed had implemented a Big Data solution, most commonly around risk and fraud monitoring or product and service marketing. But of those who have had a Big Data initiative in place for more than a year, 70 per cent had met or exceeded business expectations. And to highlight data’s potential, 90 per cent of those surveyed said they think that successful Big Data initiatives will define the financial services winners in the future.
 
 
-#### **Outlined Five Steps To Guide Craft Smart Data Strategies: Customer Experience Enhancement**
+## Outlined Five Steps To Guide Craft Smart Data Strategies Customer Experience Enhancement
 
 
 
@@ -41,7 +42,7 @@ The industry is still in its nascent stage, however. According to a recent study
 5. **Use Big Data to accelerate the customer-centric transition**. Customer centricity is no longer nice to have a strategy for banks, it’s the only differentiator. And data is the backbone. It’s critical to think beyond technology and analytics to what organization, process, and people-related changes are necessary to really put the data and insights to work.
 
 
-#### **Conclusion**
+## Conclusion
 
 A successful Big Data strategy must be coordinated across the enterprise. It’s not the domain of one department or business unit. The chart above illustrates a hypothetical use of Big Data to harness and harvest customer data for an improved customer experience and greater efficiency.
 

@@ -19,21 +19,21 @@ tableData:
   ]
 ---
 
-### **Decision tree:**
+### Decision tree:
 
 The decision tree is the classification algorithm in ML(machine learning). A decision tree is a decision support tool that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.
 
 To understand the algorithm of the decision tree we need to know about the classification.
 
 
-### **What is Classification?**
+### What is Classification?
 
 Classification is the process of dividing the datasets into different categories or groups by adding a label. It adds the data point to a particular labeled group on the basis of some condition.
 
 As we see in daily life there are three categories in an email(Spam, Promotions, Personal) they are classified to get the proper information. Here decision tree is used to classify the mail type and fix it the proper one.
 
 
-#### **Types of classification **
+#### Types of classification 
 
 
 
@@ -42,7 +42,7 @@ As we see in daily life there are three categories in an email(Spam, Promotions,
 * NAIVE BAYES
 * KNN
 
-**Decision tree:**
+Decision tree:
 
 
 
@@ -54,9 +54,9 @@ As we see in daily life there are three categories in an email(Spam, Promotions,
 <img src="/blog/dt.png" width="100%" /></img>
 
 
-**There are the following steps to get a decision with the decision tree**
+There are the following steps to get a decision with the decision tree
 
-**1. Entropy:**
+1. Entropy:
 
 [Entropy](https://en.wikipedia.org/wiki/Entropy) is basically used to create a tree. We find our entropy from attribute or class. A decision tree is built top-down from a root node and involves partitioning the data into subsets that contain instances with similar values (homogeneous). ID3 algorithm uses entropy to calculate the homogeneity of a sample.
 
@@ -65,7 +65,7 @@ As we see in daily life there are three categories in an email(Spam, Promotions,
 <img src="/blog/dt1.png" width="100%" /></img>
 
 
-**2.Information Gain:**
+2.Information Gain:
 
 The information gain is based on the decrease in entropy after a data-set is split on an attribute. Constructing a decision tree is all about finding an attribute that returns the highest information gain.
 
@@ -77,7 +77,7 @@ The information gain is based on the decrease in entropy after a data-set is spl
 * We intend to choose the attribute, splitting by which information gain will be the most
 * Next step is calculating information gain for all attributes
 
-**Here the short example of a Decision tree:**
+Here the short example of a Decision tree:
 
 import pandas as pd
 
@@ -127,7 +127,7 @@ outlook	temp	humidity	windy	play
 
 13	rainy	mild	high	True	no 
 
-**Entropy of play:**
+Entropy of play:
 
 
 
@@ -143,7 +143,7 @@ output:
 
 0.94028595867063114
 
-**Information Gain on splitting by Outlook**
+Information Gain on splitting by Outlook
 
 
 
@@ -176,7 +176,7 @@ Entropy_Play_Outlook_Sunny =-(3/5)*np.log2(3/5) -(2/5)*np.log2(2/5)
 
 #[ p(Play|Outlook=Overcast) . Entropy(Play|Outlook=Overcast) ] – [ p(Play|Outlook=Rain) . Entropy(Play|Outlook=Rain) ]
 
-**Other gains**
+Other gains
 
 
 
@@ -184,14 +184,14 @@ Entropy_Play_Outlook_Sunny =-(3/5)*np.log2(3/5) -(2/5)*np.log2(2/5)
 * Gain(Play, Humidity) – 0.151
 * Gain(Play, Wind) – 0.048
 
-**Conclusion – Outlook is winner & thus becomes root of the tree**
+Conclusion – Outlook is winner & thus becomes root of the tree
 
 
 <img src="/blog/dt2.png" width="100%" /></img>
 
 
 
-**Time to find the next splitting criteria¶**
+Time to find the next splitting criteria¶
 
 play_data[play_data.outlook == 'overcast'] play_data[play_data.outlook == 'sunny'] # Entropy(Play_Sunny|)
 
@@ -205,13 +205,13 @@ Entropy_Play_Outlook_Sunny =-(3/5)*np.log2(3/5) -(2/5)*np.log2(2/5)
 
 print(Entropy_Play_Outlook_Sunny)
 
-**Information Gain for humidity**
+Information Gain for humidity
 
 #Entropy for attribute high = 0, also entropy for attribute normal = 0
 
 Entropy_Play_Outlook_Sunny - (3/5)*0 - (2/5)*0 
 
-**Information Gain for windy**
+Information Gain for windy
 
 
 
@@ -224,7 +224,7 @@ print(Entropy_Wind_False)
 
 Entropy_Play_Outlook_Sunny - (3/5)* Entropy_Wind_False - (2/5)*1  
 
-**Information Gain for temperature**
+Information Gain for temperature
 
 
 
@@ -234,7 +234,7 @@ Entropy_Play_Outlook_Sunny - (3/5)* Entropy_Wind_False - (2/5)*1
 
 Entropy_Play_Outlook_Sunny - (2/5)*0 - (1/5)*0 - (2/5)* 1]
 
-**Conclusion : Humidity is the best choice on sunny branch:**
+Conclusion : Humidity is the best choice on sunny branch:
 
 
 
@@ -264,7 +264,7 @@ outlook	temp	humidity	windy	play
 
 10	sunny	mild	normal	True	yes
 
-**Splitting the rainy branch:**
+Splitting the rainy branch:
 
 play_data[play_data.outlook == 'rainy'] # Entropy(Play_Rainy|)
 
@@ -280,7 +280,7 @@ Entropy_Play_Outlook_Rainy =-(3/5)*np.log2(3/5) -(2/5)*np.log2(2/5)outlook	temp	
 
 13	rainy	mild	high	True	no 
 
-**Information Gain for temp**
+Information Gain for temp
 
 
 
@@ -293,7 +293,7 @@ Output:
 
 0.020150594454668602
 
-**Information Gain for Windy:**
+Information Gain for Windy:
 
 Entropy_Play_Outlook_Rainy - (2/5)*0 - (3/5)*0
 
@@ -301,7 +301,7 @@ Output:
 
 0.97095059445466858 
 
-**Information Gain for Humidity**
+Information Gain for Humidity
 
 
 
@@ -324,7 +324,7 @@ Output:
 
 0.019973094021974891 
 
-**Final tree:**
+Final tree:
 
 
 
