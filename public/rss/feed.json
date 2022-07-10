@@ -1,12 +1,12 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "skillslash blog",
+    "title": "Learnbay blog",
     "home_page_url": "https://learnbay.co/",
     "feed_url": "https://learnbay.co//rss/feed.json",
     "icon": "https://learnbay.co//logo.svg",
     "author": {
-        "name": "Skillslash",
-        "url": "https://twitter.com/skillslash"
+        "name": "Learnbay",
+        "url": "https://twitter.com/Learnbay1"
     },
     "items": [
         {

@@ -14,6 +14,7 @@ import Switch from "../components/switch/switch";
 import BoxSeo from "../components/BoxSeo/BoxSeo";
 import DomainSliderHome from "../components/DomainSliderHome/DomainSliderHome";
 import generateRssFeed from "../lib/generateRss";
+import generateCategoryRssFeed from "../lib/geneRateCategoryRss";
 
 
 export default function Home() {
@@ -43,6 +44,8 @@ export default function Home() {
 
 export const getStaticProps = async (_context) => {
   await generateRssFeed();
+  await generateCategoryRssFeed();
+
   const h = "hello";
   return {
     props: {
@@ -50,3 +53,4 @@ export const getStaticProps = async (_context) => {
     },
   };
 };
+

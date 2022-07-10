@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://learnbay.co/</id>
-    <title>skillslash blog</title>
-    <updated>2022-07-10T05:33:09.010Z</updated>
+    <title>Learnbay blog</title>
+    <updated>2022-07-10T10:10:08.909Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
-        <name>Skillslash</name>
-        <email>info@skillslash.com</email>
-        <uri>https://twitter.com/skillslash</uri>
+        <name>Learnbay</name>
+        <email>contacts@learnbay.co</email>
+        <uri>https://twitter.com/Learnbay1</uri>
     </author>
     <link rel="alternate" href="https://learnbay.co/"/>
     <link rel="self" href="https://learnbay.co//rss/atom.xml"/>

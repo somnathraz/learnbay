@@ -9,7 +9,7 @@
 }
 .feature {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .feature p {
@@ -38,6 +38,7 @@
   cursor: pointer;
   background-color: #e5f3fa;
   justify-content: start;
+  border-left: 1px solid #2D9CD750;
 }
 .gridPanel {
   display: flex;
