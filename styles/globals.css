@@ -81,6 +81,7 @@ button {
   color: #fff;
   background-image: linear-gradient(90deg,#00669B 0,#1077AD 25%,#2B8DC1 57%,#2D9CD7 80%);
   border-radius: 5px;
+  line-height: 50px;
 }
 
 .spanh1 {
@@ -275,8 +276,11 @@ h4 {
     margin-bottom: 20px;
   }
   .pTop {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 50px;
+  }
+  .pTopF {
+    font-size: 16px;
   }
   .pBot {
     font-size: 16px;

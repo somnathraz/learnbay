@@ -246,3 +246,31 @@ export const JobGuaranteeD = [
     link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf",
   },
 ];
+export const StackD = [
+  {
+    id: 1,
+    img: "/full-stack-web.png",
+    title: "Full Stack Web ",
+    title1: "Development Program",
+    para: [
+      "350 hours of Interactive Learning",
+      "12 Projects",
+      "Course Fee : ₹ 1,20,000 + GST",
+    ],
+        link1: "/full-stack-web-development-program",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program.pdf",
+  },
+  {
+    id: 2,
+    img: "/full-stack-Software.png",
+    title: "Full-Stack Software",
+    title1: "Development Program",
+    para: [
+      "400 hours of Interactive Learning",
+      "12 Projects",
+      "Course Fee : ₹ 1,10,000 + GST",
+    ],
+        link1: "/full-stack-software-development-program",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+software+development+.pdf",
+  },
+];

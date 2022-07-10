@@ -9,6 +9,7 @@ import {
   ForNonProgrammerD,
   ForManagerD,
   JobGuaranteeD,
+  StackD,
 } from "./courseDetails";
 
 const Course = () => {
@@ -17,6 +18,7 @@ const Course = () => {
   const [nonTech, setNonTech] = useState(false);
   const [manager, setManager] = useState(false);
   const [Guarantee, setGuarantee] = useState(false);
+  const [Stack, setStack] = useState(false);
   const [mobile, setMobile] = useState(false);
   return (
     <div className={styles.Course} id="course">
@@ -48,6 +50,7 @@ const Course = () => {
               setNonTech(false);
               setManager(false);
               setGuarantee(false);
+              setStack(false);
             }}
             style={
               viewAll ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
@@ -61,6 +64,7 @@ const Course = () => {
               setOneYear(true);
               setNonTech(false);
               setManager(false);
+              setStack(false);
               setGuarantee(false);
             }}
             style={
@@ -75,6 +79,7 @@ const Course = () => {
               setOneYear(false);
               setNonTech(true);
               setManager(false);
+              setStack(false);
               setGuarantee(false);
             }}
             style={
@@ -89,6 +94,7 @@ const Course = () => {
               setOneYear(false);
               setNonTech(false);
               setManager(true);
+              setStack(false);
               setGuarantee(false);
             }}
             style={
@@ -103,6 +109,7 @@ const Course = () => {
               setOneYear(false);
               setNonTech(false);
               setManager(false);
+              setStack(false);
               setGuarantee(true);
             }}
             style={
@@ -110,6 +117,21 @@ const Course = () => {
             }
           >
             Job Guaranteed
+          </span>
+          <span
+            onClick={() => {
+              setViewAll(false);
+              setOneYear(false);
+              setNonTech(false);
+              setManager(false);
+              setStack(true);
+              setGuarantee(false);
+            }}
+            style={
+              Stack ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+            }
+          >
+            Full Stack
           </span>
         </div>
         {viewAll ? (
@@ -295,6 +317,51 @@ const Course = () => {
         {Guarantee ? (
           <div className={styles.gridPanel}>
             {JobGuaranteeD.map((viewAllData) => {
+              const { id, title, title1, img, para, link1, link2 } = viewAllData;
+              return (
+                <div className={styles.leftSide} key={id}>
+                  <img
+                    src={img}
+                    layout="intrinsic"
+                    className={styles.courseImg}
+                  />
+                  <h6>{title}</h6>
+                  <h6>{title1}</h6>
+                  <p>
+                    <BsCheckCircle className={styles.checkCircle} />
+                    {para[0]}
+                  </p>
+                  <p>
+                    <BsCheckCircle className={styles.checkCircle} />
+                    {para[1]}
+                  </p>
+                  <p>
+                    <BsCheckCircle className={styles.checkCircle} />
+                    {para[2]}
+                  </p>
+                  <div className={styles.btnWrapper}>
+                    <a href={link1}><button>
+                      View Details
+                      <FaUserGraduate className="bIcons" />
+                    </button></a>
+                    <a href={link2}><button className="outLineBtn">
+                      Brochure
+                      <FaFilePdf
+                        className="bIcon"
+                        style={{ color: "#2d9cd7" }}
+                      />
+                    </button></a>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          ""
+        )}
+        {Stack ? (
+          <div className={styles.gridPanel}>
+            {StackD.map((viewAllData) => {
               const { id, title, title1, img, para, link1, link2 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>

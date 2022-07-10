@@ -170,7 +170,7 @@ export default function Home() {
     ProjectsHead1="Projects included in Business Analytics course in Chennai:"
     ProjectsBot1="Projects are a great way to excel at certain skills, especially in business analytics. Learnbay has an exclusive option of a cloud lab feature where you can access and work on live data analytics projects.  All of these projects are as per in-demand skills of business analytics tools spread across Chennai."
     ProjectsBot2="Here, you'll have the opportunity to work on 5 real-world industry projects as part of this business analytics training in Chennai. Previously, our students have worked on various domain projects which are listed below. "
-    src1="/amazon.png"
+    src1="/amazon1.png"
     ProjectsH1="Amazon Customer Review Analysis"
     Projectsp1="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
     src2="/IBM.png"

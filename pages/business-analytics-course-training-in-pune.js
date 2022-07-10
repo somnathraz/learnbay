@@ -158,7 +158,7 @@ export default function Home() {
     
 
     ProjectsBot1="Learnbay helps students to work hard and, at the same time, tells students to work smart on their projects with creativity, so students get ownership to complete projects and assignments. Capstone projects are critical, and Learnbay faculties help you with your projects, as it would be mentioned in your resume. These projects would make your resume look better than other candidates. The course offers 5 live data analytics projects. All of these projects are blogs to different MNCs as well as different industries. Via premium cloud lab access, students can observe, learn, and practice industrial applications of BI tools with the maximum possible level of industrial efficacy. "
-    src1="/amazon.png"
+    src1="/amazon1.png"
     ProjectsH1="Amazon Customer Review Analysis"
     Projectsp1="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
     src2="/IBM.png"

@@ -167,7 +167,7 @@ export default function Home() {
 
     ProjectsBot1="Learnbay’s Business Analytics Certification learning experience is integrated with real-world projects to assist students in gaining real-world experience and excelling in their Business analyst careers."
     ProjectsBot2="During our IBM business analytics training, you will work on 5 live projects from the MNCs. This hands-on practice will boost your BI tools and techniques to prepare for the real world. Learnbay Business Analytics course comes with free access to a premium cloud lab, which has unlocked the way to this incredible industrial experience. The following are the projects done by our students:"
-    src1="/amazon.png"
+    src1="/amazon1.png"
     ProjectsH1="Amazon Customer Review Analysis"
     Projectsp1="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
     src2="/IBM.png"

@@ -63,7 +63,7 @@ const FirstSection = () => {
       <div className={styles.leftSide}>
         <p className={styles.FirstP}> GET INTO</p>
         <h1>India’s Best Domain Specialized Program for Experienced Professionals</h1>
-        <p className="pTop">
+        <p className="pTopF">
           Use your domain expertise to build a meaningful career.
         </p>
         <span ref={el}></span>

@@ -203,7 +203,7 @@ export default function Home() {
     src2="/IBM.png"
     ProjectsH2="IBM HR Analytics"
     Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities."
-    src3="/amazon.png"
+    src3="/amazon1.png"
     ProjectsH3="Amazon Customer Review Analysis"
     Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
     src4="/BMW.png"
