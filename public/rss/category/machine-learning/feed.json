@@ -1,0 +1,77 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Learnbay blog",
+    "home_page_url": "https://learnbay.co/",
+    "feed_url": "https://learnbay.co//rss/category/feed.json",
+    "icon": "https://learnbay.co//logo.svg",
+    "author": {
+        "name": "Learnbay",
+        "url": "https://twitter.com/Learnbay1"
+    },
+    "items": [
+        {
+            "id": "https://learnbay.co//blog/category/machine-learning",
+            "url": "https://learnbay.co//blog/category/machine-learning",
+            "title": "Everything About Decision Tree From Scratch",
+            "summary": "Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!",
+            "date_modified": "2021-10-31T18:30:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://learnbay.co//blog/category/machine-learning",
+            "url": "https://learnbay.co//blog/category/machine-learning",
+            "title": "Future of Education in hands of Machine Learning",
+            "summary": "Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!",
+            "date_modified": "2022-06-09T18:30:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://learnbay.co//blog/category/machine-learning",
+            "url": "https://learnbay.co//blog/category/machine-learning",
+            "title": "Normal and Gaussian Distribution",
+            "summary": "Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!",
+            "date_modified": "2022-03-28T18:30:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://learnbay.co//blog/category/machine-learning",
+            "url": "https://learnbay.co//blog/category/machine-learning",
+            "title": "Introduction to Simple Linear Regression in Machine Learning",
+            "summary": "Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!",
+            "date_modified": "2021-09-06T18:30:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://learnbay.co//blog/category/machine-learning",
+            "url": "https://learnbay.co//blog/category/machine-learning",
+            "title": "Necessity of Machine Learning in Retail",
+            "summary": "Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!",
+            "date_modified": "2022-04-17T18:30:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://learnbay.co//blog/category/machine-learning",
+            "url": "https://learnbay.co//blog/category/machine-learning",
+            "title": "Random forest model(RFM)",
+            "summary": "Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!",
+            "date_modified": "2022-12-19T18:30:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://learnbay.co//blog/category/machine-learning",
+            "url": "https://learnbay.co//blog/category/machine-learning",
+            "title": "Support Vector Machine",
+            "summary": "Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!",
+            "date_modified": "2022-11-24T18:30:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://learnbay.co//blog/category/machine-learning",
+            "url": "https://learnbay.co//blog/category/machine-learning",
+            "title": "Top 50 interview questions of Machine Learning",
+            "summary": "Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!",
+            "date_modified": "2021-05-26T18:30:00.000Z",
+            "author": {}
+        }
+    ]
+}
