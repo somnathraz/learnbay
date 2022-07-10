@@ -7,16 +7,14 @@ import {
   viewAllD,
   ForProgrammersD,
   ForNonProgrammerD,
-  ForManagerD,
   JobGuaranteeD,
   StackD,
 } from "./courseDetails";
 
 const Course = () => {
-  const [viewAll, setViewAll] = useState(true);
-  const [oneYear, setOneYear] = useState(false);
+  const [viewAll, setViewAll] = useState(false);
+  const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
-  const [manager, setManager] = useState(false);
   const [Guarantee, setGuarantee] = useState(false);
   const [Stack, setStack] = useState(false);
   const [mobile, setMobile] = useState(false);
@@ -45,10 +43,65 @@ const Course = () => {
         <div className={styles.listPanel}>
           <span
             onClick={() => {
+              setViewAll(false);
+              setOneYear(true);
+              setNonTech(false);
+              setStack(false);
+              setGuarantee(false);
+            }}
+            style={
+              oneYear ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+            }
+          >
+            Popular Courses
+          </span>
+          <span
+            onClick={() => {
+              setViewAll(false);
+              setOneYear(false);
+              setNonTech(true);
+              setStack(false);
+              setGuarantee(false);
+            }}
+            style={
+              nonTech ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+            }
+          >
+            Data Science & AI
+          </span>
+          <span
+            onClick={() => {
+              setViewAll(false);
+              setOneYear(false);
+              setNonTech(false);
+              setStack(true);
+              setGuarantee(false);
+            }}
+            style={
+              Stack ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+            }
+          >
+            Full Stack Development
+          </span>
+          <span
+            onClick={() => {
+              setViewAll(false);
+              setOneYear(false);
+              setNonTech(false);
+              setStack(false);
+              setGuarantee(true);
+            }}
+            style={
+              Guarantee ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+            }
+          >
+            100% Job Guaranteed
+          </span>
+          <span
+            onClick={() => {
               setViewAll(true);
               setOneYear(false);
               setNonTech(false);
-              setManager(false);
               setGuarantee(false);
               setStack(false);
             }}
@@ -57,81 +110,6 @@ const Course = () => {
             }
           >
             View All
-          </span>
-          <span
-            onClick={() => {
-              setViewAll(false);
-              setOneYear(true);
-              setNonTech(false);
-              setManager(false);
-              setStack(false);
-              setGuarantee(false);
-            }}
-            style={
-              oneYear ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
-            }
-          >
-            For Programmers
-          </span>
-          <span
-            onClick={() => {
-              setViewAll(false);
-              setOneYear(false);
-              setNonTech(true);
-              setManager(false);
-              setStack(false);
-              setGuarantee(false);
-            }}
-            style={
-              nonTech ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
-            }
-          >
-            For Non-Programmers
-          </span>
-          <span
-            onClick={() => {
-              setViewAll(false);
-              setOneYear(false);
-              setNonTech(false);
-              setManager(true);
-              setStack(false);
-              setGuarantee(false);
-            }}
-            style={
-              manager ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
-            }
-          >
-            For Managers
-          </span>
-          <span
-            onClick={() => {
-              setViewAll(false);
-              setOneYear(false);
-              setNonTech(false);
-              setManager(false);
-              setStack(false);
-              setGuarantee(true);
-            }}
-            style={
-              Guarantee ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
-            }
-          >
-            Job Guaranteed
-          </span>
-          <span
-            onClick={() => {
-              setViewAll(false);
-              setOneYear(false);
-              setNonTech(false);
-              setManager(false);
-              setStack(true);
-              setGuarantee(false);
-            }}
-            style={
-              Stack ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
-            }
-          >
-            Full Stack
           </span>
         </div>
         {viewAll ? (
@@ -227,51 +205,6 @@ const Course = () => {
         {nonTech ? (
           <div className={styles.gridPanel}>
             {ForNonProgrammerD.map((viewAllData) => {
-              const { id, title, title1, img, para, link1, link2 } = viewAllData;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  />
-                  <h6>{title}</h6>
-                  <h6>{title1}</h6>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[0]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[1]}
-                  </p>
-                  <p>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    {para[2]}
-                  </p>
-                  <div className={styles.btnWrapper}>
-                    <a href={link1}><button>
-                      View Details
-                      <FaUserGraduate className="bIcons" />
-                    </button></a>
-                    <a href={link2}><button className="outLineBtn">
-                      Brochure
-                      <FaFilePdf
-                        className="bIcon"
-                        style={{ color: "#2d9cd7" }}
-                      />
-                    </button></a>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        ) : (
-          ""
-        )}
-        {manager ? (
-          <div className={styles.gridPanel}>
-            {ForManagerD.map((viewAllData) => {
               const { id, title, title1, img, para, link1, link2 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>

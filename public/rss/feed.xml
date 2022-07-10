@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>skillslash blog</title>
+        <title>Learnbay blog</title>
         <link>https://learnbay.co/</link>
         <description></description>
+<<<<<<< HEAD
+        <lastBuildDate>Sun, 10 Jul 2022 10:10:08 GMT</lastBuildDate>
+=======
+>>>>>>> 0530a82cd10614e98392bd5d1dadc456d633238e
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>skillslash blog</title>
+            <title>Learnbay blog</title>
             <url>https://learnbay.co//logo.svg</url>
             <link>https://learnbay.co/</link>
         </image>

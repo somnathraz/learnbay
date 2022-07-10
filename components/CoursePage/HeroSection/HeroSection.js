@@ -284,7 +284,7 @@ const HeroSection = ({
           quality={100}
           layout="intrinsic"
           width="600"
-          height="580"
+          height="550"
         />
       </div>
     </section>

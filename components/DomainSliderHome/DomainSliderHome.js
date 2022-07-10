@@ -7,6 +7,8 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Navigation } from "swiper";
+import Popup from "../Popup/Popup";
+import Form from "../Form/Form";
 
 const DomainSliderHome = ({ CareerHead, changeReview }) => {
   const [mobile, setMobile] = useState(false);
@@ -16,8 +18,22 @@ const DomainSliderHome = ({ CareerHead, changeReview }) => {
       setMobile(true);
     }
   });
+  const [popups, setPopups] = useState(false);
+  const popupShow = () => {
+    setPopups(true);
+  };
   return (
     <section className={styles.DomainSliderHome}>
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+        <div className="leftPopup">
+          <div className="whiteP" />
+        </div>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          <p>Fill the below Details to get started</p>
+          <Form popup={true} setTrigger={setPopups} />
+        </div>
+      </Popup>
       <h4>Domain Specialization</h4>
       <p>Select Multiple Domain & Work On Capstone Projects</p>
       <Swiper
@@ -138,7 +154,7 @@ const DomainSliderHome = ({ CareerHead, changeReview }) => {
         </>
       </Swiper>
       <div className={styles.buttonF}>
-        <a href="https://calendly.com/learnbay-ai/career-counselling-profile-review-telephonic-professionals?month=2022-01" target="_blank"><button className={styles.btn}>
+        <a onClick={popupShow}><button className={styles.btn}>
           Talk To Industry Experts Now
           <FaPhone className={styles.bIcon} />
         </button></a>

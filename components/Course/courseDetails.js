@@ -16,8 +16,8 @@ export const viewAllD = [
   {
     id: 2,
     img: "/Advance-Data-Science-1.png",
-    title: "Advanced Data Science and",
-    title1: "AI Program",
+    title: "Advanced Data Science",
+    title1: "and AI Program",
 
     para: [
       "275 hours of Interactive Learning",
@@ -30,8 +30,8 @@ export const viewAllD = [
   {
     id: 3,
     img: "/AIML.png",
-    title: "Artificial Intelligence and ",
-    title1: "Machine Learning Program",
+    title: "Advance AI and ML Program",
+    title1: "for Tech Professionals",
     para: [
       "300 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -124,8 +124,8 @@ export const ForProgrammersD = [
   {
     id: 1,
     img: "/Advance-Data-Science-1.png",
-    title: "Advanced Data Science and",
-    title1: "AI Program",
+    title: "Advanced Data Science",
+    title1: "and AI Program",
     para: [
       "275 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -136,85 +136,16 @@ export const ForProgrammersD = [
   },
   {
     id: 2,
-    img: "/AIML.png",
-    title: "Artificial Intelligence and ",
-    title1: "Machine Learning Program",
+    img: "/full-stack-Software.png",
+    title: "Full-Stack Software",
+    title1: "Development Program",
     para: [
-      "300 hours of Interactive Learning",
-      "15 Projects + 2 Capstones",
-      "Course Fee : ₹ 95,000 + GST",
+      "400 hours of Interactive Learning",
+      "12 Projects",
+      "Course Fee : ₹ 1,10,000 + GST",
     ],
-        link1: "/artificial-intelligence-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf",
-  },
-];
-export const ForNonProgrammerD = [
-  {
-    id: 1,
-    img: "/AI-Certificatiom-for-pro.png",
-    title: "Data Science",
-    title1: "Foundation Program",
-    para: [
-      "225 hours of Interactive Learning",
-      "8 Projects + 1 Capstone",
-      "Course Fee : ₹ 65,000 + GST",
-    ],
-        link1: "/data-science-certification-courses",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/1st+DSAI+Foundation.pdf",
-  },
-  {
-    id: 2,
-    img: "/Data-Analytics-1.png",
-    title: "Data Analytics",
-    title1: "Program",
-    para: [
-      "180 hours of Interactive Learning",
-      "5 Projects",
-      "Course Fee : ₹ 60,000 + GST",
-    ],
-        link1: "/data-analytics-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/6th+DA.pdf",
-  },
-  {
-    id: 3,
-    img: "/DABA.png",
-    title: "Business Analytics",
-    title1: "Program",
-    para: [
-      "200 hours of Interactive Learning",
-      "5 Projects",
-      "Course Fee : ₹ 65,000 + GST",
-    ],
-        link1: "/business-analytics-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf",
-  },
-];
-export const ForManagerD = [
-  {
-    id: 1,
-    img: "/Advance-Data-Science-1.png",
-    title: "Advanced Data Science and",
-    title1: "AI Program",
-    para: [
-      "275 hours of Interactive Learning",
-      "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 79,000 + GST",
-    ],
-        link1: "/advance-data-science-certification-courses",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/2nd+DSAI+Advance.pdf",
-  },
-  {
-    id: 2,
-    img: "/AIML.png",
-    title: "Artificial Intelligence and ",
-    title1: "Machine Learning Program",
-    para: [
-      "300 hours of Interactive Learning",
-      "15 Projects + 2 Capstones",
-      "Course Fee : ₹ 95,000 + GST",
-    ],
-        link1: "/artificial-intelligence-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf",
+        link1: "/full-stack-software-development-program",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+software+development+.pdf",
   },
   {
     id: 3,
@@ -228,6 +159,128 @@ export const ForManagerD = [
     ],
         link1: "/data-science-ai-for-managers",
     link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/4th+Managers.pdf",
+  },
+  {
+    id: 4,
+    img: "/AIML.png",
+    title: "Advance AI and ML Program",
+    title1: "for Tech Professionals",
+    para: [
+      "300 hours of Interactive Learning",
+      "15 Projects + 2 Capstones",
+      "Course Fee : ₹ 95,000 + GST",
+    ],
+        link1: "/artificial-intelligence-certification-course",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf",
+  },
+  {
+    id: 5,
+    img: "/full-stack-web.png",
+    title: "Full Stack Web ",
+    title1: "Development Program",
+    para: [
+      "350 hours of Interactive Learning",
+      "12 Projects",
+      "Course Fee : ₹ 1,20,000 + GST",
+    ],
+        link1: "/full-stack-web-development-program",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program.pdf",
+  },
+  {
+    id: 6,
+    img: "/Job-garranty.png",
+    title: "Data Science and AI with ",
+    title1: "Job Guarantee Program",
+    para: [
+      "400 hours of Interactive Learning",
+      "15 Projects + 3 Capstones",
+      "Course Fee : ₹ 1,25,000 + GST",
+    ],
+        link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf",
+  },
+];
+export const ForNonProgrammerD = [
+  {
+    id: 1,
+    img: "/AI-Certificatiom-for-pro.png",
+    title: "Data Science",
+    title1: "Foundation Program",
+    para: [
+      "225 hours of Interactive Learning",
+      "8 Projects + 1 Capstone",
+      "Course Fee : ₹ 65,000 + GST",
+    ],
+    link1: "/data-science-certification-courses",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/1st+DSAI+Foundation.pdf",
+
+  },
+  {
+    id: 2,
+    img: "/Advance-Data-Science-1.png",
+    title: "Advanced Data Science",
+    title1: "and AI Program",
+
+    para: [
+      "275 hours of Interactive Learning",
+      "12 Projects + 2 Capstones",
+      "Course Fee : ₹ 79,000 + GST",
+    ],
+        link1: "/advance-data-science-certification-courses",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/2nd+DSAI+Advance.pdf",
+  },
+  {
+    id: 3,
+    img: "/AIML.png",
+    title: "Advance AI and ML Program",
+    title1: "for Tech Professionals",
+    para: [
+      "300 hours of Interactive Learning",
+      "15 Projects + 2 Capstones",
+      "Course Fee : ₹ 95,000 + GST",
+    ],
+        link1: "/artificial-intelligence-certification-course",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf",
+  },
+  {
+    id: 4,
+    img: "/managers-and-leaders-1.png",
+    title: "Data Science and AI for ",
+    title1: "Managers & Leaders Program",
+    para: [
+      "350 hours of Interactive Learning",
+      "15 Projects + 2 Capstones",
+      "Course Fee : ₹ 95,000 + GST",
+    ],
+        link1: "/data-science-ai-for-managers",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/4th+Managers.pdf",
+  },
+  {
+    id: 5,
+    img: "/Job-garranty.png",
+    title: "Data Science and AI with ",
+    title1: "Job Guarantee Program",
+
+    para: [
+      "400 hours of Interactive Learning",
+      "15 Projects + 3 Capstones",
+      "Course Fee : ₹ 1,25,000 + GST",
+    ],
+        link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf",
+  },
+  {
+    id: 6,
+    img: "/DABA.png",
+    title: "Business Analytics",
+    title1: "Program",
+    para: [
+      "200 hours of Interactive Learning",
+      "5 Projects",
+      "Course Fee : ₹ 65,000 + GST",
+    ],
+        link1: "/business-analytics-certification-course",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf",
   },
 ];
 
@@ -244,6 +297,19 @@ export const JobGuaranteeD = [
     ],
         link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf",
+  },
+  {
+    id: 2,
+    img: "/full-stack-web.png",
+    title: "Full Stack Web ",
+    title1: "Development Program",
+    para: [
+      "350 hours of Interactive Learning",
+      "12 Projects",
+      "Course Fee : ₹ 1,20,000 + GST",
+    ],
+        link1: "/full-stack-web-development-program",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program.pdf",
   },
 ];
 export const StackD = [

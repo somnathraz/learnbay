@@ -8,10 +8,10 @@ import Form from "../Form/Form";
 const FirstSection = () => {
   const el = useRef(null);
   const fancyText = [
-    "Data Science & AI Program",
-    "Full Stack Development Program",
-    "Data Structure & Algorithm",
-    "Software Development Program",
+    "10,000 Careers Reshaped",
+    "450% Highest Salary Hike",
+    "97% Average Salary Hike",
+    "250+ Hiring Partners",
   ];
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -61,12 +61,12 @@ const FirstSection = () => {
         </div>
       </Popup>
       <div className={styles.leftSide}>
-        <p className={styles.FirstP}> GET INTO</p>
-        <h1>India’s Best Domain Specialized Program for Experienced Professionals</h1>
+        <p className={styles.FirstP}>Get Guaranteed Career Transition From</p>
+        <h1>India’s Best Domain Specialized Program <span style={{color:"#2d97de"}}>For Experienced Professionals</span></h1>
         <p className="pTopF">
           Use your domain expertise to build a meaningful career.
         </p>
-        <span ref={el}></span>
+        <b><span ref={el}></span></b>
         <div className={styles.btnWrapper}>
           <a href="#course"><button className={styles.outLineBtn}>
             Courses <FaChevronDown className="bIcon" />

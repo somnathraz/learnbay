@@ -51,7 +51,10 @@ function TestimonialVideo() {
                 videoSHow();
               }}
             />
-            <MdOutlinePlayCircle className={styles.vIcon} />
+            <MdOutlinePlayCircle onClick={() => {
+                setValue("A7EEoXomoPs");
+                videoSHow();
+              }} className={styles.vIcon} />
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
@@ -64,7 +67,10 @@ function TestimonialVideo() {
                 videoSHow();
               }}
             />
-            <MdOutlinePlayCircle className={styles.vIcon} />
+            <MdOutlinePlayCircle onClick={() => {
+                setValue("zAN3oP_ZHc4");
+                videoSHow();
+              }} className={styles.vIcon} />
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
@@ -77,7 +83,10 @@ function TestimonialVideo() {
                 videoSHow();
               }}
             />
-            <MdOutlinePlayCircle className={styles.vIcon} />
+            <MdOutlinePlayCircle onClick={() => {
+                setValue("H-3jsBc1sZo");
+                videoSHow();
+              }} className={styles.vIcon} />
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
@@ -90,7 +99,10 @@ function TestimonialVideo() {
                 videoSHow();
               }}
             />
-            <MdOutlinePlayCircle className={styles.vIcon} />
+            <MdOutlinePlayCircle onClick={() => {
+                setValue("UrjGgskFe3I");
+                videoSHow();
+              }} className={styles.vIcon} />
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
@@ -104,7 +116,10 @@ function TestimonialVideo() {
 
               }}
             />
-            <MdOutlinePlayCircle className={styles.vIcon} />
+            <MdOutlinePlayCircle onClick={() => {
+                setValue("IJUNj1Ygq7Q");
+                videoSHow();
+              }} className={styles.vIcon} />
           </SwiperSlide>
         </Swiper>
       </div>

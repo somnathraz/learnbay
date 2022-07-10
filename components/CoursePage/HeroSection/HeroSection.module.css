@@ -3,10 +3,10 @@
       display: grid;
       align-items: center;
       grid-template-columns: 59% 39%;
-      margin: 70px 100px;
+      margin: 100px 100px 70px 100px;
     }
     .left {
-      padding: 30px 70px 0px 0px;
+      padding: 50px 70px 0px 0px;
     }
     .mobileDivWrapper {
       display: flex;
@@ -31,7 +31,7 @@
       display: flex;
       align-items: center;
       font-weight: 500;
-      margin-top: 30px;
+      margin-top: 15px;
     }
   
     .btnWrapper button {
@@ -180,7 +180,7 @@
       margin: 70px 100px 0px 100px;
     }
     .left {
-      padding: 30px 70px 0px 0px;
+      padding: 50px 70px 0px 0px;
     }
     .left h1 {
       font-size: 30px;
@@ -302,7 +302,7 @@
       display: grid;
       align-items: center;
       grid-template-columns: 100%;
-      margin: 30px 0px 0px 0px;
+      margin: 70px 0px 0px 0px;
     }
     .left {
       padding: 30px 0px 0px 0px;
@@ -310,8 +310,9 @@
       flex-flow: column;
     }
     .left h1 {
-      font-size: 27px;
+      font-size: 24px;
       margin: 0;
+      margin-top: 20px;
       font-weight: bold;
       padding: 0;
     }
