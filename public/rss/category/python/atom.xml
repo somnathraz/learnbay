@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://learnbay.co/</id>
+    <title>Learnbay blog</title>
+    <updated>2022-07-10T10:48:58.763Z</updated>
+    <generator>Feed for Node.js</generator>
+    <author>
+        <name>Learnbay</name>
+        <email>contacts@learnbay.co</email>
+        <uri>https://twitter.com/Learnbay1</uri>
+    </author>
+    <link rel="alternate" href="https://learnbay.co/"/>
+    <link rel="self" href="https://learnbay.co//rss/category/atom.xml"/>
+    <logo>https://learnbay.co//logo.svg</logo>
+    <icon>https://learnbay.co//favicon.png</icon>
+    <rights>All rights reserved 2022, Learnbay</rights>
+    <entry>
+        <title type="html"><![CDATA[Method Overriding in Python of Data Science Everything You Need to Know]]></title>
+        <id>https://learnbay.co//blog/category/python</id>
+        <link href="https://learnbay.co//blog/category/python"/>
+        <updated>2021-12-16T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!]]></summary>
+    </entry>
+</feed>

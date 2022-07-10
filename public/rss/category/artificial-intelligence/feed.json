@@ -1,0 +1,21 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Learnbay blog",
+    "home_page_url": "https://learnbay.co/",
+    "feed_url": "https://learnbay.co//rss/category/feed.json",
+    "icon": "https://learnbay.co//logo.svg",
+    "author": {
+        "name": "Learnbay",
+        "url": "https://twitter.com/Learnbay1"
+    },
+    "items": [
+        {
+            "id": "https://learnbay.co//blog/category/artificial-intelligence",
+            "url": "https://learnbay.co//blog/category/artificial-intelligence",
+            "title": "Model vs Algorithm in ML",
+            "summary": "Learnbay one of the best instutute to learn data science course in India, so Enroll Now And Get Your Dream Job!",
+            "date_modified": "2021-04-28T18:30:00.000Z",
+            "author": {}
+        }
+    ]
+}
