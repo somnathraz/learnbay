@@ -103,6 +103,9 @@
     padding: 0px;
     box-shadow: none;
   }
+  .gridPanel {
+    gap: 0px;
+  }
   .listPanel {
     display: flex;
     flex-wrap: nowrap;

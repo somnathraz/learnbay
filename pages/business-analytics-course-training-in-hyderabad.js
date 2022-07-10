@@ -162,7 +162,7 @@ export default function Home() {
 
     ProjectsBot1="Projects are an excellent approach to sharpen specific skills, particularly in business analytics. Learnbay offers a distinctive cloud lab feature that allows you to access and work on real-time data analytics projects. All of these initiatives are based on the most in-demand business analytics expertise in Hyderabad."
     ProjectsBot2="As part of this business analytics training in Hyderabad, you will have the opportunity to work on five real-world industry projects. Our students have previously worked on a variety of domain projects, which are highlighted below."
-    src1="/amazon.png"
+    src1="/amazon1.png"
     ProjectsH1="Amazon Customer Review Analysis"
     Projectsp1="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
     src2="/IBM.png"

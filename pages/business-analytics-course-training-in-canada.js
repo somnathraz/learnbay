@@ -174,7 +174,7 @@ export default function Home() {
   
     ProjectsBot1="Learnbay has a great initiative of cloud lab features that enables students to access and learn via live business analytics projects of MNCs."
     ProjectsBot2="As a part of this IBM business analytics course, you will get a chance to work on 5 industry projects. The talent and experience of our dedicated experts help students in completing successful case studies and projects. They equip you with the tools, capabilities, and expertise necessary to successfully tackle business analytics projects. The following are the projects undertaken by our students:"
-    src1="/amazon.png"
+    src1="/amazon1.png"
     ProjectsH1="Amazon Customer Review Analysis"
     Projectsp1="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
     src2="/IBM.png"

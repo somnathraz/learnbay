@@ -111,7 +111,7 @@ export default function Home() {
         desc="Complete your training with the internationally recognized certificate."
         desc2 ="Validate your Data Science skills with IBM Course Completion Certificate."
         desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-        src="/certificate1.jpg"
+        src="/certificate.jpg"
       />
       <section className={styles.HiringPartner}>
         <div>

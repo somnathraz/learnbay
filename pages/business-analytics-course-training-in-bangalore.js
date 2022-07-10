@@ -158,7 +158,7 @@ export default function Home() {
     JobBot3="The role of a Business Analyst is to lead a team in taking critical business decisions about the company's operations, processes, and other future decisions of products or solutions. Usually, Business Analyst decisions are based on the company's performance and increased productivity. As businesses move to different locations, they must analyze logistics and propose new techniques. Once you complete the Learnbay business analytics course you target the following job roles like database administrator, Business analytics consultant,  Junior Business analyst, etc. "
     
     ProjectsBot1="Learnbay always encourages students to work with their creativity and understanding on projects and assignments. Completing capstone business analytics projects would add a star to your profile as you have worked on trending live projects from renowned companies and the best startups as a Business analyst in Bangalore. "
-    src1="/amazon.png"
+    src1="/amazon1.png"
     ProjectsH1="Amazon Customer Review Analysis"
     Projectsp1="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
     src2="/IBM.png"

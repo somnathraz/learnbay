@@ -168,7 +168,7 @@ export default function Home() {
 
     ProjectsBot1="Projects play an important role in showcasing your acquired skills, particularly professions involving business analytics and business intelligence. As a part of our IBM business analytics course, you will get the opportunity to work on 5 industry-oriented business analytics projects with the help of project supervisors."
     ProjectsBot2="Additionally, Learnbay offers a premium cloud lab feature that enables learners to access and collaborate on ongoing business analytics projects at different startups and multinational companies. Learnbay students have previously worked on various projects:"
-    src1="/amazon.png"
+    src1="/amazon1.png"
     ProjectsH1="Amazon Customer Review Analysis"
     Projectsp1="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
     src2="/IBM.png"
