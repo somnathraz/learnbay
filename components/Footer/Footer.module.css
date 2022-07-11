@@ -104,6 +104,7 @@
     .FooterBottom {
       background-color: #313131;
       border-top: 1px solid #ffffff50;
+      padding-bottom: 65px;
     }
   
     .FooterBottomInner {

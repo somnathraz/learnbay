@@ -107,4 +107,10 @@
     height: 230px;
     margin-top: 20px;
   }
+  .topHead {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+  }
 }

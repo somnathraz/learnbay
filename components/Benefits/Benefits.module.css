@@ -69,6 +69,11 @@
   .Benefits {
     padding: 20px 10px;
   }
+
+  .Benefits h6 {
+    font-size: 24px;
+  }
+
   .Benefits h5 {
     font-size: 25px;
   }

@@ -108,6 +108,9 @@
     margin: 0;
     padding: 0;
   }
+  .formWrapper h5 span {
+    font-size: 24px;
+  }
   .BoxDiv {
     display: block;
     grid-template-columns: auto;

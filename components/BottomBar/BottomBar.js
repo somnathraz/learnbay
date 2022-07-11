@@ -5,8 +5,8 @@ import {
 } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Link from "next/dist/client/link";
-import Popup from "../../Popup/Popup";
-import Form from "../../Form/Form";
+import Popup from "../Popup/Popup";
+import Form from "../Form/Form";
 
 const BottomBar = ({ changeBottom }) => {
   const [popups, setPopups] = useState(false);
