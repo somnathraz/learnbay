@@ -57,7 +57,9 @@ const Navbar = () => {
             <span>
             <Link href="/">Home</Link>
           </span>
-
+          <span>
+            <Link href="/about-us">About Us</Link>
+          </span>
           <span>
             <Link href="/demo">Demo</Link>
           </span>
@@ -67,7 +69,7 @@ const Navbar = () => {
           </span>
 
           <span>
-            <Link href="/contact-us">Contact</Link>
+            <Link href="/contact-us">Contact Us</Link>
           </span>
             </div>
           </div>
@@ -114,7 +116,9 @@ const Navbar = () => {
           <span>
             <Link href="/">Home</Link>
           </span>
-
+          <span>
+            <Link href="/about-us">About Us</Link>
+          </span>
           <span>
             <Link href="/demo">Demo</Link>
           </span>
@@ -124,7 +128,7 @@ const Navbar = () => {
           </span>
 
           <span>
-            <Link href="/contact-us">Contact</Link>
+            <Link href="/contact-us">Contact Us</Link>
           </span>
 
           <button onClick={popupShow} className="outLineBtn">

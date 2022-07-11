@@ -90,9 +90,10 @@
 @media (max-width: 481px) {
   .Course {
     padding: 0 10px;
+    margin-top: -50px;
   }
   .Course h2 {
-    font-size: 21px;
+    font-size: 24px;
   }
   .feature {
     flex-flow: column;

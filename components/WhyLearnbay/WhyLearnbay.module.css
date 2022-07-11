@@ -140,6 +140,10 @@
   .WhyLearnbay {
     padding: 50px 0px;
   }
+
+  .FirstText h3 {
+    font-size: 24px;
+  }
   
   .divList {
     display: block;

@@ -135,7 +135,7 @@
   display: grid;
   grid-template-columns: 10% 60% 20%;
   justify-content: space-between;
-  background-image: url("/t&c.png");
+  background: #2d9cd730;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -162,7 +162,8 @@
   font-size: 20px;
   font-weight: 600;
   margin: 0px; 
-  color: #fff;
+    color: #2D9CD7;
+
 }
 .ctj p {
   color: #fff;
@@ -275,7 +276,7 @@
   .ctj {
     display: flex;
     justify-content: space-between;
-    background-image: url("/t&cm.png");
+    background: #2d9cd730;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
@@ -288,6 +289,7 @@
     font-size: 22px;
     padding-left: 10px;
     margin-right: 90px;
+    color: #2D9CD7;
   }
   .ctj p {
     font-size: 18px;
@@ -337,8 +339,10 @@
   }
   .cta {
     display: block;
-    padding-top: 100px;
     margin: auto;
+    width: 100%;
+    padding: 100px 50px 50px 50px;
+    margin-top: 20px;
   }
   .cta h6 {
     margin-right: 120px;
