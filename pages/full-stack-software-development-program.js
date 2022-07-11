@@ -16,9 +16,9 @@ import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/Syllabusfss/Syllabus";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
-import FAQNew from "../components/FAQNew/FAQNew";
+import FAQNew from "../components/FAQNew/FAQNewcer";
 import React, { useState } from "react";
-import { FaqData2, DomainFaqData2, PaymentFaqData2, CapstoneFaqData2, CertificationFaqData2, jobFaqData2, MentorshipFaqData2, SupportFaqData2 } from "../components/FAQ/FaqData";
+import { FaqData9, DomainFaqData9, PaymentFaqData9, CapstoneFaqData9, jobFaqData9, MentorshipFaqData9, SupportFaqData9 } from "../components/FAQ/FaqData";
 
  
 export default function Home() {
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
@@ -52,7 +52,7 @@ export default function Home() {
         desc="Transform your career as a demanding software development expert. Sharpen your skills with real-time project experience."
         src="/course9.png"
         alt="Full Stack"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf"
       />
       <div className={styles.program}>
         <ProgramInfo
@@ -69,7 +69,7 @@ export default function Home() {
       <GetHired 
         WeekdayBatchDate="250+ hiring partners & guarantee interviews"
         WeekendBatchDate="Hybrid learning option across multiple cities"
-        Project="12+ live projects and 2 fresh capstone project"
+        Project="12+ live projects and 2 fresh capstone projects"
         Classes="100% live and interactive classes"
         OneLine="1000+ trending practical assignments"
         Interview="Choose from 5 elite domain electives"
@@ -146,8 +146,8 @@ export default function Home() {
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-<p>Doubts regarding learning assistance... Or you’re unsure of your Initial Career step... Whatever it is!</p>
-          <h6>WE ARE HERE TO HELP YOU!</h6>
+          <h6>Talk to our team directly.</h6>
+          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
         </div>
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>
@@ -157,7 +157,7 @@ export default function Home() {
       CCourse="Enroll in Full Stack Software Development Program."
       />
       <CourseFee 
-      CourseFeeHead="Upcoming Full Stack Web Development Batch Details"
+      CourseFeeHead="Full Stack Web Development: Batch Details"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
@@ -167,7 +167,7 @@ export default function Home() {
 
       />
       <ReferSection />
-      <FAQNew FaqDatas={FaqData2} DomainFaqDatas={DomainFaqData2} PaymentFaqDatas={PaymentFaqData2} CapstoneFaqDatas={CapstoneFaqData2} CertificationFaqDatas={CertificationFaqData2} jobFaqDatas={jobFaqData2} MentorshipFaqDatas={MentorshipFaqData2} SupportFaqDatas={SupportFaqData2} />
+      <FAQNew FaqDatas={FaqData9} DomainFaqDatas={DomainFaqData9} PaymentFaqDatas={PaymentFaqData9} CapstoneFaqDatas={CapstoneFaqData9} jobFaqDatas={jobFaqData9} MentorshipFaqDatas={MentorshipFaqData9} SupportFaqDatas={SupportFaqData9} />
       </main> 
     </div>
   )

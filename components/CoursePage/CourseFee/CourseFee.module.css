@@ -8,7 +8,8 @@
     align-items: center;
     margin: auto;
     border-radius: 10px;
-    background: url("/coursefee.png") center center, no-repeat;
+    /* background: url("/coursefee.png") center center, no-repeat; */
+    /* background: linear-gradient(90deg, #CBE4F9, #D6CDEA); */
     background-size: cover;
 }
 
@@ -60,5 +61,17 @@
         align-items: center;
         justify-content: start;
         margin-top: 20px;
+        gap: 10px;
+    }
+    .list {
+        margin: 0px 0px 10px 10px;
+    }
+    .phead {
+        font-size: 30px;
+        font-weight: 400;
+        margin: 10px;
+    }
+    .CourseFee {
+        padding: 30px 10px;
     }
 }

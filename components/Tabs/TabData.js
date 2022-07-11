@@ -1,28 +1,23 @@
 const TabData = [
   {
-    id: "Popular Courses",
-    title: "View All",
-  },
-  {
     id: "Data Science and AI",
-    title: "For Programmers",
+    title: "Popular Courses",
   },
   {
     id: "Software Development",
-    title: "For Non-Programmers",
-  },
-  {
-    id: "Cloud Computing",
-    title: "For Managers",
-  },
-
-  {
-    id: "Digital Marketing",
-    title: "Job Guaranteed",
+    title: "Data Science & AI",
   },
   {
     id: "Full Stack Program",
-    title: "Full Stack",
+    title: "Full Stack Development",
+  },
+  {
+    id: "Digital Marketing",
+    title: "100% Job Guaranteed",
+  },
+  {
+    id: "Popular Courses",
+    title: "View All",
   },
 ];
 export default TabData;

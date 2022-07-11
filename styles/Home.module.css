@@ -115,18 +115,21 @@
 
 .cta {
   display: grid;
-  grid-template-columns: 10% 60% 20%;
+  grid-template-columns: 20% 60% 20%;
   justify-content: space-between;
-  background-image: url("/cta-a.png");
+  border-radius: 25px;
+  background-image: url("/Cta(2).webp");
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
   justify-content: center;
-  margin: 70px 0px;
+  margin-top: 70px;
   background-size: cover;
-  padding: 50px 100px;
+  padding: 50px 0px 20px 0px;
   align-items: center;
+  margin: 70px 100px;
 }
+
 
 .ctj {
   display: grid;
@@ -183,7 +186,7 @@
   margin-top: 40px;
 }
 .cta button:hover {
-  background-color: #2d9cd7;
+  background-color: #2D9CD7;
 }
 .ExpertWrapper {
   display: grid;
@@ -255,6 +258,20 @@
     font-size: 18px;
     padding-left: 10px;
   }
+  .cta {
+    display: block;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-image: url("/mobile-view.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 0px;
+    background-size: contain;
+    padding: 40px;
+    align-items: center;
+    width: 100%;
+  }
   .ctj {
     display: flex;
     justify-content: space-between;
@@ -306,6 +323,11 @@
 
     margin-bottom: 20px;
   }
+  .HiringPartner {
+    text-align: center;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -315,7 +337,8 @@
   }
   .cta {
     display: block;
-    padding: 20px;
+    padding-top: 100px;
+    margin: auto;
   }
   .cta h6 {
     margin-right: 120px;

@@ -38,7 +38,7 @@ function AboutUs() {
           <div className={styles.DivIcon}>
             <div className={styles.iconBox}>
               <FaAddressCard className={styles.BoxIconcard} />
-              <p>Provide scopes to techies & non-techies-all alike.</p>
+              <p>Provide scopes to techies & non-techies all alike.</p>
             </div>
             <div className={styles.iconBox}>
               <FaClone className={styles.BoxIconclone} />

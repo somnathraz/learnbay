@@ -46,7 +46,7 @@ export default function Home() {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
@@ -58,7 +58,7 @@ export default function Home() {
         desc="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
         src="/course4.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/4th+Managers.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+For+Managers+and+Leaders+Program.pdf"
 
       />
       <div className={styles.program}>
@@ -78,7 +78,7 @@ export default function Home() {
         WeekendBatchDate="Special Project Management module as per industrial requirement"
         Project="12+ domain electives to choose from "
         Classes="Specially devised for leadership-level professionals"
-        OneLine="15 live industry projects & 2 fresh capstones projects"
+        OneLine="15 live industry projects & 2 fresh capstone projects"
         Interview="Assured interview calls from 250+ recruiter network"
         Fee="95,000"
         Subscription="3 Year Subscription"
@@ -93,7 +93,7 @@ export default function Home() {
           Box3h5="Premium Mentoring"
           box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant Companies."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
         />
       </div>
       <CareerImpact
@@ -200,7 +200,7 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/4th+Managers.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+For+Managers+and+Leaders+Program.pdf"
 
     />
       <ToolsCovered 
@@ -236,8 +236,8 @@ export default function Home() {
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-<p>Doubts regarding learning assistance... Or you’re unsure of your Initial Career step... Whatever it is!</p>
-          <h6>WE ARE HERE TO HELP YOU!</h6>
+          <h6>Talk to our team directly.</h6>
+          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
         </div>
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>

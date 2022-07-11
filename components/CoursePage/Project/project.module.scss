@@ -818,7 +818,7 @@ grid-template-columns: 40% 60%;
         display: flex;
         align-self: initial;
         gap: 35px;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
         margin-top: 30px;
         h3 {
           font-size: 24px;
@@ -877,8 +877,7 @@ grid-template-columns: 40% 60%;
       margin-top: 20px;
       align-items: baseline;
       justify-content: center;
-
-      gap: 15px;
+      gap: 0px;
       margin-bottom: -45px;
       div {
         display: flex;

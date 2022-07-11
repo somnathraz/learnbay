@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
@@ -56,7 +56,7 @@ export default function Home() {
         desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
         src="/course7.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Business+Analytics+Program.pdf"
 
       />
       <div className={styles.program}>
@@ -73,8 +73,8 @@ export default function Home() {
       </div>
       <GetHired 
         WeekdayBatchDate="Industry-curated training via real-time analytics projects"
-        WeekendBatchDate="Industrial Business Analytics certification for IBM"
-        Project="Special programming classes for non-technical professions"
+        WeekendBatchDate="Industrial Business Analytics certification from IBM"
+        Project="Special programming classes for non-technical professionals"
         Classes="Specially designed for early professionals or aspirants with a career gap"
         OneLine="Learn the most trending analytical trick from MNC experts"
         Interview="5 live industry projects and 100% interview call assurance"
@@ -92,7 +92,7 @@ export default function Home() {
           Box3h5="Premium Mentoring"
           box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant Companies."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
         />
       </div>
       <CareerImpact
@@ -189,7 +189,7 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Business+Analytics+Program.pdf"
 
     />
       <ToolsCovered 
@@ -218,8 +218,8 @@ export default function Home() {
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-<p>Doubts regarding learning assistance... Or you’re unsure of your Initial Career step... Whatever it is!</p>
-          <h6>WE ARE HERE TO HELP YOU!</h6>
+          <h6>Talk to our team directly.</h6>
+          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
         </div>
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>

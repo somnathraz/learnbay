@@ -45,7 +45,7 @@ export default function Home() {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
@@ -57,7 +57,7 @@ export default function Home() {
         desc="Make an impression as a seasoned applicant. With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
         src="/course2.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/2nd+DSAI+Advance.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf"
       />
       <div className={styles.program}>
         <ProgramInfo
@@ -73,11 +73,11 @@ export default function Home() {
       </div>
       <GetHired 
         WeekdayBatchDate="Interview guarantee backed up by 250+ hiring partners"
-        WeekendBatchDate="8+ Domain-Electives associated with full-stack modules"
+        WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
         Project="Project experience certification by IBM"
         Classes="6 micro-skills certificates from IBM"
         OneLine="Completely live and interactive learning"
-        Interview="12 live industry projects & 2 fresh Capstone Projects"
+        Interview="12 live industry projects & 2 fresh capstone projects"
         Fee="79,000"
         Subscription="3 Year Subscription"
       />
@@ -91,7 +91,7 @@ export default function Home() {
           Box3h5="Premium Mentoring"
           box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant Companies."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
         />
       </div>
       <CareerImpact
@@ -110,7 +110,7 @@ export default function Home() {
           OCHead1="Python for Data Science Certificate"
           OCP1="Get certified on your advanced python skills."
           OCHead2="Data Science Tools"
-          OCP2="Certification to DS Tools handling - Jupyter, Tableau, etc."
+          OCP2="Certification to DS tools handling - Jupyter, Tableau, etc."
           OCHead3="Machine Learning with Python"
           OCP3="Validate your python expertise for ML algo designing."
           OCHead4="Data Science Methodology"
@@ -194,7 +194,7 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/2nd+DSAI+Advance.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf"
     />
       <ToolsCovered 
       src="/tools-2.png"
@@ -229,8 +229,8 @@ export default function Home() {
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-<p>Doubts regarding learning assistance... Or you’re unsure of your Initial Career step... Whatever it is!</p>
-          <h6>WE ARE HERE TO HELP YOU!</h6>
+          <h6>Talk to our team directly.</h6>
+          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
         </div>
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>

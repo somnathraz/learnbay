@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
@@ -56,6 +56,7 @@ export default function Home() {
         desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
         src="/course6.png"
         alt="AiMl Header"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+Program.pdf"
       />
       <div className={styles.program}>
         <ProgramInfo
@@ -110,7 +111,7 @@ export default function Home() {
         desc2 ="Validate your Data Analytics skills with IBM Course Completion Certificate."
         desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
         src="/BA-DA.jpeg"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/6th+DA.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+Program.pdf"
 
       />
       <section className={styles.HiringPartner}>
@@ -189,7 +190,7 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/6th+DA.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+Program.pdf"
 
     />
       <ToolsCovered 
@@ -218,8 +219,8 @@ export default function Home() {
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-<p>Doubts regarding learning assistance... Or you’re unsure of your Initial Career step... Whatever it is!</p>
-          <h6>WE ARE HERE TO HELP YOU!</h6>
+          <h6>Talk to our team directly.</h6>
+          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
         </div>
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>

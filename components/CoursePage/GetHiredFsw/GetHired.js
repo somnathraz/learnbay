@@ -39,7 +39,7 @@ const GetHired = () => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
@@ -50,13 +50,13 @@ const GetHired = () => {
       <div className={styles.imageBox}>
         <div className={styles.left}>
           <div className={styles.top}>
-         <p>12+ live projects and 2 capstone project</p>
+         <p>12+ live projects and 2 capstone projects</p>
           </div>
           <div className={styles.middle}>
 <p>1000+ trending practical assignments</p>
           </div>
           <div className={styles.bottom}>
-          <p>Project experience Certificate by IBM</p>
+          <p>Project experience certificate by IBM</p>
           </div>
         </div>
         <div className={styles.left}>

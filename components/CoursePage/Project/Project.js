@@ -118,7 +118,7 @@ const Project = ({
       <div className={styles.iconWrapper}>
         <div className={styles.left}>
           <FiCheckSquare className={styles.icon} />
-          <p>Practice with latest tools</p>
+          <p>Practice with Latest Tools</p>
         </div>
         <div className={styles.middle}>
           <FiCheckSquare className={styles.icon} />
@@ -559,7 +559,7 @@ const Project = ({
           <h3>Hands-on Projects</h3><div className={styles.iconWrapper}>
         <div className={styles.middle}>
           <BsCheck2All className={styles.icon} />
-          <p>Practice with latest tools</p>
+          <p>Practice with Latest Tools</p>
         </div>
         <div className={styles.middle}>
           <BsCheck2All className={styles.icon} />
@@ -592,7 +592,7 @@ const Project = ({
       {/* <div className={styles.iconWrapper}>
         <div className={styles.left}>
           <BsCheck2All className={styles.icon} />
-          <p>Practice with latest tools</p>
+          <p>Practice with Latest Tools</p>
         </div>
         <div className={styles.middle}>
           <BsCheck2All className={styles.icon} />
@@ -1095,7 +1095,7 @@ const Project = ({
       </div>
       <div>
             <a href='https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf' target={"_blank"}><button style={{margin:"auto", marginTop:"20px", fontSize:"16px"}}>
-                <FaDownload className={styles.bicon} />
+            <FaDownload className={styles.bicon} style={{marginRight:"10px"}} />
                 Project Brochure
             </button></a>
         </div>

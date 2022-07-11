@@ -97,7 +97,8 @@
       padding: 0px;
     }
     .Course h2 {
-      font-size: 21px;
+      font-size: 16px;
+      text-align: left;
     }
     .feature {
       flex-flow: column;

@@ -102,7 +102,7 @@ function Syllabus() {
             <h4>Syllabus</h4>
           </div>
           <div>
-          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program.pdf" target="_blank"><button className={styles.Button}>
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program+(1).pdf" target="_blank"><button className={styles.Button}>
               {" "}
               <AiOutlineDownload className="bIcons" />
               Download Brochure
@@ -110,7 +110,7 @@ function Syllabus() {
           </div> 
         </div>
         <p>
-          The Full Stack Web development Program With/Without 100% Job Guarantee or Money Back
+          The Full Stack Web development Program with/without 100% Job Guarantee or Money Back
           is curated by leading faculties and industry leaders. Especially, with
           the aim to provide practical learning experience with live interactive
           classes and projects.
@@ -130,7 +130,7 @@ function Syllabus() {
             >
               {state[0].open ? (
                 <div className={styles.quesO}>
-                  <h2>Cohort Orientation:</h2>
+                  <h2>Cohort Orientation</h2>
 
                   <span>
                     {state[0].open ? (
@@ -142,7 +142,7 @@ function Syllabus() {
                 </div>
               ) : (
                 <div className={styles.ques}>
-                  <h2>Cohort Orientation:</h2>
+                  <h2>Cohort Orientation</h2>
                   <span>
                     {state[0].open ? (
                       <MdKeyboardArrowUp className="icon" />
@@ -160,8 +160,8 @@ function Syllabus() {
                   <li>What is meant by the terms "Frontend," "Backend," "Database," "Testing," "Version Control," "Project Management," and "Cloud Techniques"</li>
                   <li>Significance of projects</li>
                   <li>Job Opportunities in IT industry</li>
-                  <li>Basics of StatisticsHow to make it big in the IT Industry and crack FAANG Interviews</li>
-                  <li>Interview process of top product based MNCs and Unicorns.</li>
+                  <li>How to make it big in the IT Industry and crack FAANG Interviews</li>
+                  <li>Interview process of top product based MNCs and Unicorns</li>
                   <li>Scopes/Jobs of a Full Stack Developer</li>
                   <li>Details about this Full Stack course</li>
                   <li>All about - MEAN stack and MERN stack</li>
@@ -187,7 +187,7 @@ function Syllabus() {
               {state[1].open ? (
                 <div className={styles.quesO}>
                   <h2>
-                    Level 00: Preparatory Session:
+                    Level 00: Preparatory Session
                   </h2>
 
                   <span>
@@ -201,7 +201,7 @@ function Syllabus() {
               ) : (
                 <div className={styles.ques}>
                   <h2>
-                    Level 00: Preparatory Session:
+                    Level 00: Preparatory Session
                   </h2>
                   <span>
                     {state[1].open ? (
@@ -221,7 +221,7 @@ function Syllabus() {
                   <li>Programming Fundamentals</li>
                   <li>Mathematics for programming</li>
                   <li>Understanding elite domains</li>
-                  <li>a. Full Stack Developmen</li>
+                  <li>a. Full Stack Development</li>
                   <li>b. Product Engineering / Management</li>
                   <li>c. Data Science and AI</li>
                   <li>d. Web 3.0 Developer</li>
@@ -328,13 +328,13 @@ function Syllabus() {
 
               {state[3].open ? (
                 <div className={styles.ans}>
-                  <li>Enhance Bootstrap's look and feel using the newest HTML5 and CSS3 features.</li>
+                  <li>Enhance Bootstrap's look and feel using the newest HTML5 and CSS3 features</li>
                   <li>Getting started with JavaScript</li>
                   <li>JavaScript - Basic to Advance</li>
                   <li>Understanding basics of jQuery</li>
                   <li>Study the most frequent tags used in react js, angular, and nodejs</li>
-                  <li>Develop layouts that are appealing, accessible, and responsive.</li>
-                  <li>Learn how to use React JS to create single-page apps.</li>
+                  <li>Develop layouts that are appealing, accessible, and responsive</li>
+                  <li>Learn how to use React JS to create single-page apps</li>
                   <li>Understand basics of UI/UX (Figma)</li>
                   <li>Implement user authentication</li>
                   <li>Overview of Backbone & Express JS</li>
@@ -389,7 +389,7 @@ function Syllabus() {
                   <li>SQL and NoSql Concept</li>
                   <li>Understand the logic behind the MongoDB data storage</li>
                   <li>Introduction to CSS for Backend</li>
-                  <li>OOPS to design the program using classes and objects.</li>
+                  <li>OOPS to design the program using classes and objects</li>
                   <li>Learn Design Patterns & Object Modelling</li>
                   <li>Learn JSON & AJAX  to connect to APIs and endpoints </li>
                   <li>Web Programming with Javascript or Python</li>
@@ -443,11 +443,11 @@ function Syllabus() {
 
               {state[5].open ? (
                 <div className={styles.ans}>
-                  <li>Build static HTML and CSS websites for your portfolio and landing pages.</li>
-                  <li>Build a To-Do List Application : This project will improve your front-end techniques with user login and authentication. And will also help you understand different types of operations in the database.</li>
+                  <li>Build static HTML and CSS websites for your portfolio and landing pages</li>
+                  <li>Build a To-Do List Application : This project will improve your front-end techniques with user login and authentication. And will also help you understand different types of operations in the database</li>
                   <li>Build a fully functional blog application from the ground up using Node, Express, and MongoDB : The server-side is crucial for archiving blog articles as they are build and for
-            rendering text on the client-side.</li>
-                  <li>On-Demand Home Service Application : Visitors may use this to search for services based on location, budget, and local vendors.</li>
+            rendering text on the client-side</li>
+                  <li>On-Demand Home Service Application : Visitors may use this to search for services based on location, budget, and local vendors</li>
                 </div>
               ) : (
                 ""

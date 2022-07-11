@@ -50,7 +50,7 @@ export default function Home() {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
@@ -61,7 +61,7 @@ export default function Home() {
         desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
         src="/course3.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Artificial+Intelligence+and+Machine+Learning+Program.pdf"
 
       />
       <div className={styles.program}>
@@ -81,7 +81,7 @@ export default function Home() {
         WeekendBatchDate="IT-specific domain-oriented full-stack learning with 8+ domains to choose from"
         Project="Learn the latest tools and technologies in AI and ML"
         Classes="Specially curated syllabus for technical professionals"
-        OneLine="12 live industry projects & 2 fresh Capstone Projects"
+        OneLine="12 live industry projects & 2 fresh capstone projects"
         Interview="Assured interview calls from 250+ recruiter network"
         Fee="95,000"
         Subscription="3 Year Subscription"
@@ -96,7 +96,7 @@ export default function Home() {
           Box3h5="Premium Mentoring"
           box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant Companies."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
         />
       </div>
       <div className="MainCities">
@@ -183,7 +183,7 @@ export default function Home() {
     SyllabusBotlist44="Credit Risk Analysis"
     SyllabusBotlist45="Customer Churn Prediction"
     SyllabusBotlist46="Sentiment Analysis"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Artificial+Intelligence+and+Machine+Learning+Program.pdf"
 
 
     JobBot1="Learnbay does its best at training young enthusiasts as well as highly experienced professionals. It ensures that all students are placed in desirable positions at top MAANG/ MNC companies. This is why we have included a dedicated job assistance program for our IBM machine learning courses. We provide end-to-end machine learning interview sessions by ML experts. Such sessions include resume preparation, company-specific mock interviews, and project portfolio management. Our experts will continue to guide them until they are placed in relevant ML positions."

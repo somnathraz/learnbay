@@ -49,7 +49,7 @@ export default function Home() {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
@@ -60,7 +60,7 @@ export default function Home() {
         desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
         src="/course7.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Business+Analytics+Program.pdf"
 
       />
       <div className={styles.program}>
@@ -77,7 +77,7 @@ export default function Home() {
       </div>
       <GetHired 
         WeekdayBatchDate="Industry-curated training via real-world analytics"
-        WeekendBatchDate="Special programming classes for non-technical professions"
+        WeekendBatchDate="Special programming classes for non-technical professionals"
         Project="Especially designed for early pros or aspirants with career gap"
         Classes="Learn the most trending analytical trick from MNC experts"
         OneLine="Industrial Business Analytics certifications for IBM"
@@ -95,7 +95,7 @@ export default function Home() {
           Box3h5="Premium Mentoring"
           box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant Companies."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
         />
       </div>
       <div className="MainCities">
@@ -150,7 +150,7 @@ export default function Home() {
     SyllabusBotlist44="Customer Churn Prediction"
     SyllabusBotlist45="Inventory Demand Forecasting"
     SyllabusBotlist46="Retain Analytics"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Business+Analytics+Program.pdf"
 
 
     JobBot1="Learnbay's mentors are dedicated to providing job assistance to its learners until they get placed. Once the Business Analytics program is completed, Learnbay faculties provide you with a resume prep session, one on one mock interviews, and soft skill enhancement training. We even help students improve their presentational and communication skills to a professional level, which is one of the main skills required to be a Business Analyst. Students can easily crack business analytics interviews and even start working as Business Analysts in top MNCs."

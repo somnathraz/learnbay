@@ -10,7 +10,7 @@ export const viewAllD = [
       "Course Fee : ₹ 65,000 + GST",
     ],
     link1: "/data-science-certification-courses",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/1st+DSAI+Foundation.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+Foundation+Program.pdf",
 
   },
   {
@@ -25,7 +25,7 @@ export const viewAllD = [
       "Course Fee : ₹ 79,000 + GST",
     ],
         link1: "/advance-data-science-certification-courses",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/2nd+DSAI+Advance.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ export const viewAllD = [
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/artificial-intelligence-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Artificial+Intelligence+and+Machine+Learning+Program.pdf",
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ export const viewAllD = [
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/data-science-ai-for-managers",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/4th+Managers.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+For+Managers+and+Leaders+Program.pdf",
   },
   {
     id: 5,
@@ -65,7 +65,7 @@ export const viewAllD = [
       "Course Fee : ₹ 1,25,000 + GST",
     ],
         link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf",
   },
   {
     id: 6,
@@ -78,7 +78,7 @@ export const viewAllD = [
       "Course Fee : ₹ 60,000 + GST",
     ],
         link1: "/data-analytics-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/6th+DA.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+Program.pdf",
   },
   {
     id: 7,
@@ -91,20 +91,20 @@ export const viewAllD = [
       "Course Fee : ₹ 65,000 + GST",
     ],
         link1: "/business-analytics-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Business+Analytics+Program.pdf",
   },
   {
     id: 8,
     img: "/full-stack-web.png",
-    title: "Full Stack Web ",
+    title: "Full-Stack Web ",
     title1: "Development Program",
     para: [
       "350 hours of Interactive Learning",
-      "12 Projects",
+      "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,20,000 + GST",
     ],
         link1: "/full-stack-web-development-program",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program+(1).pdf",
   },
   {
     id: 9,
@@ -113,11 +113,11 @@ export const viewAllD = [
     title1: "Development Program",
     para: [
       "400 hours of Interactive Learning",
-      "12 Projects",
+      "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
         link1: "/full-stack-software-development-program",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+software+development+.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
   },
 ];
 export const ForProgrammersD = [
@@ -132,7 +132,7 @@ export const ForProgrammersD = [
       "Course Fee : ₹ 79,000 + GST",
     ],
         link1: "/advance-data-science-certification-courses",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/2nd+DSAI+Advance.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf",
   },
   {
     id: 2,
@@ -141,11 +141,11 @@ export const ForProgrammersD = [
     title1: "Development Program",
     para: [
       "400 hours of Interactive Learning",
-      "12 Projects",
+      "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
         link1: "/full-stack-software-development-program",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+software+development+.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
   },
   {
     id: 3,
@@ -158,7 +158,7 @@ export const ForProgrammersD = [
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/data-science-ai-for-managers",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/4th+Managers.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+For+Managers+and+Leaders+Program.pdf",
   },
   {
     id: 4,
@@ -171,20 +171,20 @@ export const ForProgrammersD = [
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/artificial-intelligence-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Artificial+Intelligence+and+Machine+Learning+Program.pdf",
   },
   {
     id: 5,
     img: "/full-stack-web.png",
-    title: "Full Stack Web ",
+    title: "Full-Stack Web ",
     title1: "Development Program",
     para: [
       "350 hours of Interactive Learning",
-      "12 Projects",
+      "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,20,000 + GST",
     ],
         link1: "/full-stack-web-development-program",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program+(1).pdf",
   },
   {
     id: 6,
@@ -197,7 +197,7 @@ export const ForProgrammersD = [
       "Course Fee : ₹ 1,25,000 + GST",
     ],
         link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf",
   },
 ];
 export const ForNonProgrammerD = [
@@ -212,7 +212,7 @@ export const ForNonProgrammerD = [
       "Course Fee : ₹ 65,000 + GST",
     ],
     link1: "/data-science-certification-courses",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/1st+DSAI+Foundation.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+Foundation+Program.pdf",
 
   },
   {
@@ -227,7 +227,7 @@ export const ForNonProgrammerD = [
       "Course Fee : ₹ 79,000 + GST",
     ],
         link1: "/advance-data-science-certification-courses",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/2nd+DSAI+Advance.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf",
   },
   {
     id: 3,
@@ -240,7 +240,7 @@ export const ForNonProgrammerD = [
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/artificial-intelligence-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/3rd+AIML.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Artificial+Intelligence+and+Machine+Learning+Program.pdf",
   },
   {
     id: 4,
@@ -253,7 +253,7 @@ export const ForNonProgrammerD = [
       "Course Fee : ₹ 95,000 + GST",
     ],
         link1: "/data-science-ai-for-managers",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/4th+Managers.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+For+Managers+and+Leaders+Program.pdf",
   },
   {
     id: 5,
@@ -267,7 +267,7 @@ export const ForNonProgrammerD = [
       "Course Fee : ₹ 1,25,000 + GST",
     ],
         link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf",
   },
   {
     id: 6,
@@ -280,7 +280,7 @@ export const ForNonProgrammerD = [
       "Course Fee : ₹ 65,000 + GST",
     ],
         link1: "/business-analytics-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Business+Analytics+Program.pdf",
   },
 ];
 
@@ -296,35 +296,35 @@ export const JobGuaranteeD = [
       "Course Fee : ₹ 1,25,000 + GST",
     ],
         link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf",
   },
   {
     id: 2,
     img: "/full-stack-web.png",
-    title: "Full Stack Web ",
+    title: "Full-Stack Web ",
     title1: "Development Program",
     para: [
       "350 hours of Interactive Learning",
-      "12 Projects",
+      "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,20,000 + GST",
     ],
         link1: "/full-stack-web-development-program",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program+(1).pdf",
   },
 ];
 export const StackD = [
   {
     id: 1,
     img: "/full-stack-web.png",
-    title: "Full Stack Web ",
+    title: "Full-Stack Web ",
     title1: "Development Program",
     para: [
       "350 hours of Interactive Learning",
-      "12 Projects",
+      "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,20,000 + GST",
     ],
         link1: "/full-stack-web-development-program",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program+(1).pdf",
   },
   {
     id: 2,
@@ -333,10 +333,10 @@ export const StackD = [
     title1: "Development Program",
     para: [
       "400 hours of Interactive Learning",
-      "12 Projects",
+      "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
         link1: "/full-stack-software-development-program",
-    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+software+development+.pdf",
+    link2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
   },
 ];

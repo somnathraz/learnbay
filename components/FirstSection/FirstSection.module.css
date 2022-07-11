@@ -81,7 +81,7 @@
     background-size: contain;
   }
   .First h1 {
-    font-size: 22px;
+    font-size: 24px;
   }
   .First h1 > span {
     font-size: 22px;
@@ -91,5 +91,8 @@
     display: flex;
     margin-top: 20px;
     gap: 15px;
+  }
+  .FirstP {
+    font-size: 20px;
   }
 }

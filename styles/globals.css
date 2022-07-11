@@ -55,12 +55,12 @@ button {
 }
 .bIcon {
   font-size: 18px;
-  margin-left: 5px;
+  margin-left: 8px;
   color: #12054d;
 }
 .bIcons {
   font-size: 18px;
-  margin-right: 10px;
+  margin-left: 8px;
   color: white;
   display: initial;
 }
@@ -288,7 +288,7 @@ h4 {
     line-height: 10px;
   }
   .pTopF {
-    font-size: 16px;
+    font-size: 18px;
   }
   .pBot {
     font-size: 16px;
@@ -352,7 +352,7 @@ h4 {
     align-items: center;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255);
     border-radius: 12px;
     border-top: 1px solid rgba(98, 98, 98, 0.125);
     height: 60px;

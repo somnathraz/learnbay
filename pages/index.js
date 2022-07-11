@@ -1,7 +1,6 @@
 import Head from "next/head";
 import FirstSection from "../components/FirstSection/FirstSection";
 import styles from "../styles/Home.module.css";
-import Slider from "../components/FirstSection/Slider";
 import Course from "../components/Course/Course";
 import KeyFeatures from "../components/KeyFeatures/KeyFeatures";
 import WhyLearnbay from "../components/WhyLearnbay/WhyLearnbay";
@@ -26,7 +25,6 @@ export default function Home() {
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <FirstSection />
-      <Slider />
       <Course />
       <KeyFeatures />
       <WhyLearnbay />

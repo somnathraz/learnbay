@@ -12,7 +12,7 @@ function terms() {
 
         <p className={styles.bot}>In these Terms and Conditions, Learnbay is referred to as the “Company”, “us”, and “we”.</p>
 
-        <p className={styles.bot}>The paying customer might be referred to as a “user” or “you”. Our ‘courses’ and ‘training programs’ might be referred to as our ‘product/services’  If you as a company or another person give access to company products of Learnbay, you take responsibility in full in case of indemnification or damages. Losses that could lie against the customer.</p>
+        <p className={styles.bot}>The paying customer might be referred to as a “user” or “you”. Our ‘courses’ and ‘training programs’ might be referred to as our ‘product/services’.  If you as a company or another person give access to company products of Learnbay, you take responsibility in full in case of indemnification or damages. Losses that could lie against the customer.</p>
 
         <p className={styles.bot}>By using the website and the products and services of Learnbay, you agree and warrant to have read and fully understood and agreed to these conditions.</p>
 
@@ -116,10 +116,10 @@ function terms() {
 <p className={styles.bot}>We might add new features to the service. These updates could change the app or delete some of its features and functions. You agree that the app will always change, and we have no obligation to maintain it in its original form.</p>
 <p className={styles.top}>*What are the termination terms?</p>
 <p className={styles.bot}>You agree that Learnbay, in its sole discretion, may deactivate your account or otherwise terminate your use of the platform or enrolment to a program with or without reason, including, without limitation, if Learnbay believes that you have</p>
-<p className={styles.bot}>a. breached the Terms;</p>
-<p className={styles.bot}>b. infringed the intellectual property rights of a third party;</p>
-<p className={styles.bot}>c. posted, uploaded, or transmitted unauthorized content on the platform; </p>
-<p className={styles.bot}>d. violated or acted inconsistently with the letter or spirit of these Terms or any other applicable code of conduct.</p>
+<p className={styles.bot}>a. breached the Terms</p>
+<p className={styles.bot}>b. infringed the intellectual property rights of a third party</p>
+<p className={styles.bot}>c. posted, uploaded, or transmitted unauthorized content on the platform </p>
+<p className={styles.bot}>d. violated or acted inconsistently with the letter or spirit of these Terms or any other applicable code of conduct</p>
 
 <p className={styles.bot}>You acknowledge that any deactivation or termination of your access to the Platforms or Programs may be effected without prior notice to you and that Learnbay shall not be liable to you nor any third party for any termination of your account or enrolment into a Program. You also accept that Learnbay may retain and maintain your information on Learnbay's systems notwithstanding any termination of your account or enrolment into the Programs.
 </p>
@@ -129,7 +129,7 @@ function terms() {
 
 <p className={styles.bot}>Learnbay shall keep the job seekers’ information up-to-date and accurate. Also, we will take necessary and appropriate actions to maintain security and manage the data. We supervise our employees and officers to prevent any data breach or information leakage.</p>
 
-<p className={styles.bot}>Learnbay has the right to reach out to aspiring job seekers through email or phone calls or any mode of communication at any time</p>
+<p className={styles.bot}>Learnbay has the right to reach out to aspiring job seekers through email or phone calls or any mode of communication at any time.</p>
 
 <p className={styles.top}>*Terms of service explained</p>
 
