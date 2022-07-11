@@ -142,7 +142,7 @@ const Course = () => {
                       View Details
                       <FaUserGraduate className="bIcons" />
                     </button></a>
-                    <a href={link2}><button className="outLineBtn">
+                    <a href={link2} target="_blank"><button className="outLineBtn">
                       Brochure
                       <FaFilePdf
                         className="bIcon"
@@ -187,7 +187,7 @@ const Course = () => {
                       View Details
                       <FaUserGraduate className="bIcons" />
                     </button></a>
-                    <a href={link2}><button className="outLineBtn">
+                    <a href={link2} target="_blank"><button className="outLineBtn">
                       Brochure
                       <FaFilePdf
                         className="bIcon"
@@ -232,7 +232,7 @@ const Course = () => {
                       View Details
                       <FaUserGraduate className="bIcons" />
                     </button></a>
-                    <a href={link2}><button className="outLineBtn">
+                    <a href={link2} target="_blank"><button className="outLineBtn">
                       Brochure
                       <FaFilePdf
                         className="bIcon"
@@ -277,7 +277,7 @@ const Course = () => {
                       View Details
                       <FaUserGraduate className="bIcons" />
                     </button></a>
-                    <a href={link2}><button className="outLineBtn">
+                    <a href={link2} target="_blank"><button className="outLineBtn">
                       Brochure
                       <FaFilePdf
                         className="bIcon"
@@ -322,7 +322,7 @@ const Course = () => {
                       View Details
                       <FaUserGraduate className="bIcons" />
                     </button></a>
-                    <a href={link2}><button className="outLineBtn">
+                    <a href={link2} target="_blank"><button className="outLineBtn">
                       Brochure
                       <FaFilePdf
                         className="bIcon"

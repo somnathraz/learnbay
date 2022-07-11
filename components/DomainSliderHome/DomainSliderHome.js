@@ -30,12 +30,12 @@ const DomainSliderHome = ({ CareerHead, changeReview }) => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
       <h4>Domain Specialization</h4>
-      <p>Select Multiple Domain & Work On Capstone Projects</p>
+      <p>Select Multiple Domains & Work On Capstone Projects</p>
       <Swiper
         slidesPerView={mobile ? 1 : 4}
         spaceBetween={mobile ? 5 : 5}

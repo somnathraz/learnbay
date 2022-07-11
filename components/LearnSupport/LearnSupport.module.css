@@ -53,20 +53,20 @@
     margin: auto;
     font-size: 16px;
     font-weight: 400;
-    fill: #FFFFFF;
-    color: #343870;
-    background-color: #fff;
+    fill: #48C355;
+    color: #fff;
+    background-color: #48C355;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
-    border-color: #343870;
+    border-color: #48C355;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 5px 0px rgb(52 56 112 / 31%);
+    box-shadow: 0px 0px 5px 0px #48C35550;
 
 }
 
 .btn1:hover {
-    color: #fff;
-    background-color: #343870;
+    color: #48C355;
+    background-color: #fff;
 }
 
 .learnInner2 .btn2 {
@@ -83,7 +83,6 @@
     border-color: #343870;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 0px 5px 0px rgb(52 56 112 / 31%);
-    line-height: 1.5;
 }
 
 .btn2:hover {
@@ -98,7 +97,7 @@
 
 @media (max-width: 600px) {
     .LearnSupport {
-        padding: 0px 0px 30px 0px;
+        padding: 30px 0px 30px 0px;
     }
     
     .learnInner {

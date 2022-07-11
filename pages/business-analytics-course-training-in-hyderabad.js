@@ -49,7 +49,7 @@ export default function Home() {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
@@ -60,7 +60,7 @@ export default function Home() {
         desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
         src="/course7.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Business+Analytics+Program.pdf"
 
       />
       <div className={styles.program}>
@@ -77,7 +77,7 @@ export default function Home() {
       </div>
       <GetHired 
         WeekdayBatchDate="Industry-curated training via real-world analytics"
-        WeekendBatchDate="Special programming classes for non-technical professions"
+        WeekendBatchDate="Special programming classes for non-technical professionals"
         Project="Especially designed for early pros or aspirants with career gap"
         Classes="Learn the most trending analytical trick from MNC experts"
         OneLine="Industrial Business Analytics certifications for IBM"
@@ -95,7 +95,7 @@ export default function Home() {
           Box3h5="Premium Mentoring"
           box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant Companies."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
         />
       </div>
       <div className="MainCities">
@@ -153,7 +153,7 @@ export default function Home() {
     SyllabusBotlist44="Customer Churn Prediction"
     SyllabusBotlist45="Inventory Demand Forecasting"
     SyllabusBotlist46="Retain Analytics"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/7th+BA.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Business+Analytics+Program.pdf"
 
 
     JobBot1="Learnbay's learners have access to a unique element of the Job Assistance Program. We provide resume preparation workshops, one-on-one mock interviews, and soft-skills training after the end of the Business analytics course with placement. We also assist you in developing professional presentation abilities, which are critical for business analyst positions. It's the most effective way to prepare for technical interviews. Finally, we assist our students in developing a dynamic portfolio that will impress potential employers in Hyderabad."

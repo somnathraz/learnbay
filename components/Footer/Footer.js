@@ -53,7 +53,7 @@ const Footer = () => {
           <a href="/blog"><p className={styles.FooterInnerli}>Blogs</p></a>
           <p className={styles.FooterInnerP}>Terms</p>
           <a href="/terms-conditions"><p className={styles.FooterInnerli}>Terms and Conditions</p></a>
-          <a href="/refund-cancellation-policy"><p className={styles.FooterInnerli}>Refunds/Cancellations policy</p></a>
+          <a href="/refund-cancellation-policy"><p className={styles.FooterInnerli}>Refund/Cancellation policy</p></a>
           <a href="/privacy-policy"><p className={styles.FooterInnerli}>Privacy Policy</p></a>
           </div>
         <div className={styles.FooterDivInner}>

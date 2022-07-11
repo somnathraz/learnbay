@@ -98,6 +98,7 @@
     .FooterInnerli {
       font-size: 14px;
       line-height: 1.5em;
+      text-transform: capitalize;
     }
   
     .FooterBottom {

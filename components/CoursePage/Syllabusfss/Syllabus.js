@@ -102,7 +102,7 @@ function Syllabus() {
             <h4>Syllabus</h4>
           </div>
           <div>
-            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+software+development+.pdf" target="_blank"><button className={styles.Button}>
+            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf" target="_blank"><button className={styles.Button}>
               {" "}
               <AiOutlineDownload className="bIcons" />
               Download Brochure
@@ -213,12 +213,12 @@ function Syllabus() {
                 <div className={styles.ans}>
                   <li>Introduction & Application to Recursion, Writing base cases in Recursion</li>
                   <li>Introduction to Arrays, Types of Arrays, Operations on Arrays</li>
-                  <li>Linked List Introduction,Singly Linked List,Doubly Linked LIst, Circular Linked List, Practice problems</li>
-                  <li>Understanding Stack data structure, Applications & Implementation in Array, Linked List and Queue, Prefix to Infix, Prefix to Postfix, Postfix to prefix and Infix to prefix Operations. Practice problems</li>
-                  <li>Understanding Queue data structure, Priority Queue, Deque, Circular Queue, Operations on Queue, Practice Problems</li>
+                  <li>Linked List Introduction, Singly Linked List, Doubly Linked LIst,  Circular Linked List, Practice problems</li>
+                  <li>Understanding Stack Data Structure, Applications & Implementation in Array, Linked List and Queue, Prefix to Infix, Prefix to Postfix, Postfix to Prefix and Infix to Prefix Operations. Practice Problems</li>
+                  <li>Understanding Queue Data Structure, Priority Queue, Deque, Circular Queue, Operations on Queue, Practice Problems</li>
                   <li>Understanding Tree Data Structure, Practical use case of tree in data storage and process scheduling. Learning about BST, AVL, Red-Black tree etc. Tree traversal - Vertical, Inorder and Preorder traversal, Segment Tree, Practice problems</li>
-                  <li>Introduction & Application of Hashing, Open Addressing Basics, Linear Probing and Quadratic Probing, Practice problems</li>
-                  <li>Introduction to Graph and practical use cases of Graphs, Network Terminologies, Spanning Tree, Shortest path, Introduction to BFs and DFS and its application, Detecting cycle in a directed graph and in an undirected graph, Practice problems</li>
+                  <li>Introduction & Application of Hashing, Open Addressing Basics, Linear Probing and Quadratic Probing, Practice Problems</li>
+                  <li>Introduction to Graph and practical use cases of Graphs, Network Terminologies, Spanning Tree, Shortest path, Introduction to BFs and DFS and its application, Detecting cycle in a directed graph and in an undirected graph, Practice Problems</li>
                 </div>
               ) : (
                 ""
@@ -320,7 +320,7 @@ function Syllabus() {
               {state[3].open ? (
                 <div className={styles.ans}>
                   <li>Introduction to System Design – Why System Design Interview? Approaching And narrowing down a problem,Identifying an Abstract Design , Optimising And addressing the bottlenecks, Designing for resiliency and handling failures, Learn System Design (HLD + LLD) with hands on project</li>
-                  <li>Component Modelling Messaging Queue Multithreading and Synchronisation, </li>
+                  <li>Component Modelling Messaging Queue Multithreading and Synchronisation</li>
                   <li>High Level Design With Projects, Introduction to common MicroService design patterns, Microservices & System components in real world Event Driven, Domain Driven, Rest API driven Architectures 3 Real time projects</li>
                   <li>Low Level Design With Projects OOD and Design Patterns, API Design DB Schema Design for NoSQL and SQL Common LLD and API design questions</li>
                   <li>Load Balancing – Software And Hardware Load Balancers, Caching – Distributed And Global Cache,Content Distribution network(CDN),Sharding And Partitioning Methods,Common Problems of Sharding</li>
@@ -373,13 +373,13 @@ function Syllabus() {
 
               {state[4].open ? (
                 <div className={styles.ans}>
-                  <li>Authentication - Develop Authentication technology that provides access control for systems by checking to see if a user’s credentials match the credentials in a database of authorized users or in a data authentication server.</li>
+                  <li>Authentication - Develop Authentication technology that provides access control for systems by checking to see if a user’s credentials match the credentials in a database of authorized users or in a data authentication server</li>
                   <li>Companies: Microsoft Authenticator, Google Authenticator, Authy, Duo, LastPass Authenticator</li>
                   <li>CRUD - Create an online application that displays the contents of a database in list form, modify or delete each record and add new ones.</li>
                   <li>Companies: Appsmith, Budibase, Knack, Bubble</li>
                   <li>Payment Gateway Integration - Learn to integrate Payment gateway which is used to authorize and process credit card and debit payments for online businesses</li>
                   <li>Companies: Razorpay, Stripe, Paypal, Paytm, Square</li>
-                  <li>API Integration - Learn advanced API integration to  connect two or more applications, via their APIs, that lets those systems exchange data.</li>
+                  <li>API Integration - Learn advanced API integration to  connect two or more applications, via their APIs, that lets those systems exchange data</li>
                   <li>Companies:  Dell Boomi, Apigee API Management, IBM API Connect, Akana</li>
                 </div>
               ) : (
@@ -537,13 +537,13 @@ function Syllabus() {
                   <li>In Depth knowledge of Agile Principles</li>
                   <li>Understanding Project Development Process</li>
                   <li>Setting up tools and required infrastructure</li>
-                  <li>Gain expertise in CI/CD pipeline development using multiple automation technologies.</li>
+                  <li>Gain expertise in CI/CD pipeline development using multiple automation technologies</li>
                   <li>Managing Database using MySQL and MongoDB</li>
                   <li>Analytics in Cloud Computing</li>
                   <li>Understanding Deployment Models, Managed Services & Virtualization</li>
                   <li>Overview of Distributed Computing</li>
-                  <li>Infra Automation, Abstraction, Provisioning.</li>
-                  <li>Producing insights from cloud-based data accessible on demand.</li>
+                  <li>Infra Automation, Abstraction, Provisioning</li>
+                  <li>Producing insights from cloud-based data accessible on demand</li>
                   <li>Developing Secure Data Storage and Processing Applications</li>
                   <li>Working on AWS and GCP for Project Deployment</li>
                 </div>

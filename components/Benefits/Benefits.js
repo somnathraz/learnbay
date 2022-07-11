@@ -79,7 +79,7 @@ const Benefits = () => {
                 Understand the art of industry-specific data science
                 terms.
               </li>
-              <li>Earn IBM certificate for industry capstone project.</li>
+              <li>Earn IBM certificate for industry capstone projects.</li>
               <li>
                 Involve yourself in real-world, domain-specific projects guided
                 by data scientists.

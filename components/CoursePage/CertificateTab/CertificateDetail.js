@@ -16,7 +16,7 @@ export const CertificateDD = [
     img: "/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
-      "Get certified by IBM on compeletion of industry-level ML projects.",
+      "Get certified by IBM on completion of industry-level ML projects.",
       "Work on latest AI projects for HashtaagTM, Rapido, Magicpin, etc.",
       "VIP access to startup job sites and opportunities for individual projects.",
     ],
@@ -40,7 +40,7 @@ export const CertificateAdvance2 = [
     img: "/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
-      "Get certified by IBM on compeletion of industry-level projects.",
+      "Get certified by IBM on completion of industry-level projects.",
       "Work on latest data science projects for Swiggy, Zomato, Rapido, etc.",
       "Priority access to startup job sites and requirements for individual projects.",
     ],
@@ -64,7 +64,7 @@ export const Certificate4 = [
     img: "/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
-      "Get certified by IBM on compeletion of industry-level ML projects.",
+      "Get certified by IBM on completion of industry-level ML projects.",
       "Work on latest AI projects for HashtaagTM, Rapido, Magicpin, etc.",
       "VIP access to startup job sites and opportunities for individual projects.",
     ],
@@ -88,7 +88,7 @@ export const Certificate6 = [
     img: "/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
-      "Get certified by IBM on compeletion of industry-level projects.",
+      "Get certified by IBM on completion of industry-level projects.",
       "Work on latest data science projects for Swiggy, Zomato, Rapido, etc.",
       "Priority access to startup job sites and requirements for individual projects.",
     ],
@@ -112,7 +112,7 @@ export const Certificate8 = [
     img: "/project-certificate.webp",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
-      "Get certified by IBM on compeletion of industry-level projects.",
+      "Get certified by IBM on completion of industry-level projects.",
       "Work on latest full stack projects for Food Panda, UberEats, Domino's Pizza, etc.",
       "Priority access to startup job sites and requirements for individual projects.",
     ],

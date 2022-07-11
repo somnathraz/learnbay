@@ -9,7 +9,6 @@ const Tabs = () => {
   const [viewAll, setViewAll] = useState(true);
   const [oneYear, setOneYear] = useState(false);
   const [nonTech, setNonTech] = useState(false);
-  const [manager, setManager] = useState(false);
   const [Guarantee, setGuarantee] = useState(false);
   const [Stack, setStack] = useState(false);
   const [mobile, setMobile] = useState(false);
@@ -45,7 +44,6 @@ const Tabs = () => {
                   setViewAll(true);
                   setOneYear(false);
                   setNonTech(false);
-                  setManager(false);
                   setGuarantee(false);
                   setStack(false);
                 }}
@@ -58,47 +56,7 @@ const Tabs = () => {
             {viewAll ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/DATA-SCIENCE-AND-AI.png"
-                        width="180"
-                        height="55"
-                        />
-                    </div>
-                  </div></a>
-                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Artificial-Intelligence.png"
-                        width="180"
-                        height="55"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/DATA-SCIENCE-AND-AI.png"
-                        width="180"
-                        height="55"
-                        />
-                    </div>
-                  </div></a>
-                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Artificial-Intelligence.png"
-                        width="180"
-                        height="55"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/advance-data-science-certification-courses" target="_blank"><div className={styles.Program}>
+                <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
                         src="/Advance-Data-Science.png"
@@ -107,7 +65,7 @@ const Tabs = () => {
                       />
                     </div>
                   </div></a>
-                  <a href="/data-science-ai-for-managers" target="_blank"><div className={styles.Program}>
+                  <a href="/data-science-ai-for-managers"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
                         src="/Data-Science-and-AI-for.png"
@@ -118,19 +76,30 @@ const Tabs = () => {
                   </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course" target="_blank"><div className={styles.Program}>
+                  <a href="/full-stack-software-development-program"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/JOB.png"
+                        src="/full-stack-developer.png"
                         width="180"
                         height="55"
                       />
                     </div>
                   </div></a>
-                  <a href="/business-analytics-certification-course" target="_blank"><div className={styles.Program}>
+                  <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
+                      <div className={styles.ProLeft}>
+                        <Image
+                          src="/Artificial-Intelligence.png"
+                          width="180"
+                          height="55"
+                        />
+                      </div>
+                    </div></a>
+                </div>
+                <div className={styles.Row}>
+                <a href="/full-stack-web-development-program"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/BA.png"
+                        src="/full-stack-development.png"
                         width="180"
                         height="55"
                       />
@@ -138,15 +107,14 @@ const Tabs = () => {
                   </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/data-analytics-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/DA.png"
-                        width="180"
-                        height="55"
-                        layout="intrinsic"
-                      />
-                    </div>
+                <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
+                      <div className={styles.ProLeft}>
+                        <Image
+                          src="/JOB.png"
+                          width="180"
+                          height="55"
+                        />
+                      </div>
                   </div></a>
                 </div>
               </div>
@@ -161,7 +129,6 @@ const Tabs = () => {
                   setViewAll(false);
                   setOneYear(true);
                   setNonTech(false);
-                  setManager(false);
                   setGuarantee(false);
                   setStack(false);
                 }}
@@ -178,7 +145,6 @@ const Tabs = () => {
                   setViewAll(false);
                   setOneYear(true);
                   setNonTech(false);
-                  setManager(false);
                   setGuarantee(false);
                   setStack(false);
                 }}
@@ -189,8 +155,28 @@ const Tabs = () => {
             )}
             {oneYear ? (
               <div className={styles.RowWrap}>
-                <div className={styles.Row}>
-                  <a href="/advance-data-science-certification-courses" target="_blank"><div className={styles.Program}>
+              <div className={styles.Row}>
+                <a href="/data-science-certification-courses"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/DATA-SCIENCE-AND-AI.png"
+                      width="180"
+                      height="55"
+                      />
+                  </div>
+                </div></a>
+                <a href="/data-science-ai-for-managers"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Data-Science-and-AI-for.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
+              </div>
+              <div className={styles.Row}>
+              <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
                         src="/Advance-Data-Science.png"
@@ -199,19 +185,39 @@ const Tabs = () => {
                       />
                     </div>
                   </div></a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Artificial-Intelligence.png"
-                        width="180"
-                        height="55"
-                      />
-                    </div>
-                  </div></a>
-                </div>
+                <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Artificial-Intelligence.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
               </div>
+              <div className={styles.Row}>
+              <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/JOB.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
+              </div>
+              <div className={styles.Row}>
+              <a href="/business-analytics-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/BA.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
+              </div>
+            </div>
             ) : (
               ""
             )}
@@ -232,7 +238,6 @@ const Tabs = () => {
                   setViewAll(false);
                   setOneYear(false);
                   setNonTech(true);
-                  setManager(false);
                   setGuarantee(false);
                   setStack(false);
                 }}
@@ -244,42 +249,32 @@ const Tabs = () => {
 
             {nonTech ? (
               <div className={styles.RowWrap}>
-                <div className={styles.Row}>
-                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/DATA-SCIENCE-AND-AI.png"
-                        width="180"
-                        height="55"
-                      />
-                    </div>
-                  </div></a>
-                  <a href="/business-analytics-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/BA.png"
-                        width="180"
-                        height="55"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/data-analytics-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/DA.png"
-                        width="180"
-                        height="55"
-                      />
-                    </div>
-                  </div></a>
-                </div>
+              <div className={styles.Row}>
+                <a href="/full-stack-web-development-program"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/full-stack-development.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
               </div>
+              <div className={styles.Row}>
+                <a href="/full-stack-software-development-program"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/full-stack-developer.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
+              </div>
+            </div>
             ) : (
               ""
             )}
-
             {mobile ? (
               <span
                 key={TabData[3].id}
@@ -288,106 +283,34 @@ const Tabs = () => {
                   setViewAll(false);
                   setOneYear(false);
                   setNonTech(false);
-                  setGuarantee(false);
-                  setStack(false);
-                }}
-                onClick={() => setManager(!manager)}
-              >
-                {TabData[3].title}
-                <IoIosArrowDown />
-              </span>
-            ) : (
-              <span
-                key={TabData[3].id}
-                id="3"
-                onMouseOver={() => {
-                  setViewAll(false);
-                  setOneYear(false);
-                  setNonTech(false);
-                  setManager(true);
-                  setGuarantee(false);
-                  setStack(false);
-                }}
-              >
-                {TabData[3].title}
-                <IoIosArrowForward />
-              </span>
-            )}
-            {manager ? (
-              <div className={styles.RowWrap}>
-                <div className={styles.Row}>
-                  <a href="/advance-data-science-certification-courses" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Advance-Data-Science.png"
-                        width="180"
-                        height="55"
-                      />
-                    </div>
-                  </div></a>
-                  <a href="/data-science-ai-for-managers" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Data-Science-and-AI-for.png"
-                        width="180"
-                        height="55"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Artificial-Intelligence.png"
-                        width="180"
-                        height="55"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-              </div>
-            ) : (
-              ""
-            )}
-            {mobile ? (
-              <span
-                key={TabData[4].id}
-                id="4"
-                onMouseOver={() => {
-                  setViewAll(false);
-                  setOneYear(false);
-                  setNonTech(false);
-                  setManager(false);
                   setGuarantee(true);
                   setStack(false);
                 }}
                 onClick={() => setGuarantee(!Guarantee)}
               >
-                {TabData[4].title}
+                {TabData[3].title}
                 <IoIosArrowDown />
               </span>
             ) : (
               <span
-                key={TabData[4].id}
-                id="4"
+                key={TabData[3].id}
+                id="3"
                 onMouseOver={() => {
                   setViewAll(false);
                   setOneYear(false);
                   setNonTech(false);
-                  setManager(false);
                   setGuarantee(true);
                   setStack(false);
                 }}
               >
-                {TabData[4].title}
+                {TabData[3].title}
                 <IoIosArrowForward />
               </span>
             )}
             {Guarantee ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course" target="_blank"><div className={styles.Program}>
+                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
                         src="/JOB.png"
@@ -397,69 +320,148 @@ const Tabs = () => {
                     </div>
                   </div></a>
                 </div>
+                <div className={styles.Row}>
+                <a href="/full-stack-web-development-program"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/full-stack-development.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
+              </div>
               </div>
             ) : (
               ""
             )}
             {mobile ? (
               <span
-                key={TabData[5].id}
+                key={TabData[4].id}
                 id="4"
                 onMouseOver={() => {
                   setViewAll(false);
                   setOneYear(false);
                   setNonTech(false);
-                  setManager(false);
                   setGuarantee(false);
                   setStack(true);
                 }}
                 onClick={() => setStack(!Stack)}
               >
-                {TabData[5].title}
+                {TabData[4].title}
                 <IoIosArrowDown />
               </span>
             ) : (
               <span
-                key={TabData[5].id}
+                key={TabData[4].id}
                 id="4"
                 onMouseOver={() => {
                   setViewAll(false);
                   setOneYear(false);
                   setNonTech(false);
-                  setManager(false);
                   setGuarantee(false);
                   setStack(true);
                 }}
               >
-                {TabData[5].title}
+                {TabData[4].title}
                 <IoIosArrowForward />
               </span>
             )}
             {Stack ? (
               <div className={styles.RowWrap}>
-                <div className={styles.Row}>
-                  <a href="/full-stack-web-development-program" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/full-stack-development.png"
-                        width="180"
-                        height="55"
+              <div className={styles.Row}>
+                <a href="/data-science-certification-courses"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/DATA-SCIENCE-AND-AI.png"
+                      width="180"
+                      height="55"
                       />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/full-stack-software-development-program" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/full-stack-developer.png"
-                        width="180"
-                        height="55"
-                      />
-                    </div>
-                  </div></a>
-                </div>
+                  </div>
+                </div></a>
+                <a href="/full-stack-software-development-program"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/full-stack-developer.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
               </div>
+              <div className={styles.Row}>
+              <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Advance-Data-Science.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
+                <a href="/full-stack-web-development-program"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/full-stack-development.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
+              </div>
+              <div className={styles.Row}>
+              <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Artificial-Intelligence.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
+                <a href="/data-science-ai-for-managers"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Data-Science-and-AI-for.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
+              </div>
+              <div className={styles.Row}>
+                <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/JOB.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
+                <a href="/business-analytics-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/BA.png"
+                      width="180"
+                      height="55"
+                    />
+                  </div>
+                </div></a>
+              </div>
+              <div className={styles.Row}>
+                <a href="/data-analytics-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/DA.png"
+                      width="180"
+                      height="55"
+                      layout="intrinsic"
+                    />
+                  </div>
+                </div></a>
+              </div>
+            </div>
             ) : (
               ""
             )}
@@ -471,18 +473,148 @@ const Tabs = () => {
           <div className={styles.middlePanel}>
             {viewAll ? (
               <div className={styles.RowWrap}>
-                <div className={styles.Row}>
-                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
+              <div className={styles.Row}>
+              <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Advance-Data-Science.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+                <a href="/data-science-ai-for-managers"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Data-Science-and-AI-for.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+              </div>
+              <div className={styles.Row}>
+                <a href="/full-stack-software-development-program"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/full-stack-developer.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+                <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
-                        src="/DATA-SCIENCE-AND-AI.png"
+                        src="/Artificial-Intelligence.png"
                         width="300"
                         height="80"
                       />
                     </div>
                   </div></a>
-                  
-                  <a href="/full-stack-web-development-program" target="_blank"><div className={styles.Program}>
+              </div>
+              <div className={styles.Row}>
+              <a href="/full-stack-web-development-program"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/full-stack-development.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+              </div>
+              <div className={styles.Row}>
+              <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/JOB.png"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                </div></a>
+              </div>
+            </div>
+            ) : (
+              ""
+            )}
+            {oneYear ? (
+              <div className={styles.RowWrap}>
+              <div className={styles.Row}>
+                <a href="/data-science-certification-courses"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/DATA-SCIENCE-AND-AI.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+                
+                
+              </div>
+              <div className={styles.Row}>
+                <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Advance-Data-Science.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+                
+                
+              </div>
+              <div className={styles.Row}>
+              <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Artificial-Intelligence.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+                <a href="/data-science-ai-for-managers"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Data-Science-and-AI-for.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+              </div>
+              <div className={styles.Row}>
+                <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/JOB.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+                <a href="/business-analytics-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/BA.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+              </div>
+            </div>
+            ) : (
+              ""
+            )}
+            {nonTech ? (
+              <div className={styles.RowWrap}>
+                <div className={styles.Row}>
+                  <a href="/full-stack-web-development-program"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
                         src="/full-stack-development.png"
@@ -493,174 +625,10 @@ const Tabs = () => {
                   </div></a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/advance-data-science-certification-courses" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Advance-Data-Science.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                  
-                  <a href="/full-stack-software-development-program" target="_blank"><div className={styles.Program}>
+                  <a href="/full-stack-software-development-program"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
                         src="/full-stack-developer.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Artificial-Intelligence.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                  <a href="/data-science-ai-for-managers" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Data-Science-and-AI-for.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/JOB.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                  <a href="/business-analytics-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/BA.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/data-analytics-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/DA.png"
-                        width="300"
-                        height="80"
-                        layout="intrinsic"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-              </div>
-            ) : (
-              ""
-            )}
-            {oneYear ? (
-              <div className={styles.RowWrap}>
-                <div className={styles.Row}>
-                  <a href="/advance-data-science-certification-courses" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Advance-Data-Science.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Artificial-Intelligence.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-              </div>
-            ) : (
-              ""
-            )}
-            {nonTech ? (
-              <div className={styles.RowWrap}>
-                <div className={styles.Row}>
-                  <a href="/data-science-certification-courses" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/DATA-SCIENCE-AND-AI.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                  <a href="/business-analytics-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/BA.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/data-analytics-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/DA.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-              </div>
-            ) : (
-              ""
-            )}
-            {manager ? (
-              <div className={styles.RowWrap}>
-                <div className={styles.Row}>
-                  <a href="/advance-data-science-certification-courses" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Advance-Data-Science.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                  <a href="/data-science-ai-for-managers" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Data-Science-and-AI-for.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/artificial-intelligence-certification-course" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Artificial-Intelligence.png"
                         width="300"
                         height="80"
                       />
@@ -674,10 +642,21 @@ const Tabs = () => {
             {Guarantee ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course" target="_blank"><div className={styles.Program}>
+                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
                       <Image
                         src="/JOB.png"
+                        width="300"
+                        height="80"
+                      />
+                    </div>
+                  </div></a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/full-stack-web-development-program"><div className={styles.Program}>
+                    <div className={styles.ProLeft}>
+                      <Image
+                        src="/full-stack-development.png"
                         width="300"
                         height="80"
                       />
@@ -690,29 +669,101 @@ const Tabs = () => {
             )}
             {Stack ? (
               <div className={styles.RowWrap}>
-                <div className={styles.Row}>
-                  <a href="/full-stack-web-development-program" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/full-stack-development.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/full-stack-software-development-program" target="_blank"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/full-stack-developer.png"
-                        width="300"
-                        height="80"
-                      />
-                    </div>
-                  </div></a>
-                </div>
+              <div className={styles.Row}>
+                <a href="/data-science-certification-courses"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/DATA-SCIENCE-AND-AI.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+                
+                <a href="/full-stack-web-development-program"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/full-stack-development.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
               </div>
+              <div className={styles.Row}>
+                <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Advance-Data-Science.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+                
+                <a href="/full-stack-software-development-program"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/full-stack-developer.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+              </div>
+              <div className={styles.Row}>
+              <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Artificial-Intelligence.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+                <a href="/data-science-ai-for-managers"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/Data-Science-and-AI-for.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+              </div>
+              <div className={styles.Row}>
+                <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/JOB.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+                <a href="/business-analytics-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/BA.png"
+                      width="300"
+                      height="80"
+                    />
+                  </div>
+                </div></a>
+              </div>
+              <div className={styles.Row}>
+                <a href="/data-analytics-certification-course"><div className={styles.Program}>
+                  <div className={styles.ProLeft}>
+                    <Image
+                      src="/DA.png"
+                      width="300"
+                      height="80"
+                      layout="intrinsic"
+                    />
+                  </div>
+                </div></a>
+              </div>
+            </div>
             ) : (
               ""
             )}

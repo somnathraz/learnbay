@@ -17,9 +17,9 @@ import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/Syllabusfsw/Syllabus";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
-import FAQNew from "../components/FAQNew/FAQNew";
+import FAQNew from "../components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
-import { FaqData2, DomainFaqData2, PaymentFaqData2, CapstoneFaqData2, CertificationFaqData2, jobFaqData2, MentorshipFaqData2, SupportFaqData2 } from "../components/FAQ/FaqData";
+import { FaqData8, PaymentFaqData8, CapstoneFaqData8, CertificationFaqData8, jobFaqData8, MentorshipFaqData8, SupportFaqData8 } from "../components/FAQ/FaqData";
 
  
 export default function Home() {
@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
@@ -53,12 +53,12 @@ export default function Home() {
         desc="Archive a stunning appearance in the job market as a seasoned web developer. Learn the ninja techniques from MNC experts via real-time projects."
         src="/header-home.webp"
         alt="Full Stack"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program+(1).pdf"
       />
       <div className={styles.program}>
         <ProgramInfo
         p1="Custom-fit"
-        p11="Assistance for product MNCs"
+        p11="Aid for Product MNCs"
         p2="60 LPA to 95 LPA"
         p22="Salary Package"
         p3="1:1"
@@ -70,8 +70,8 @@ export default function Home() {
       <GetHired 
         WeekdayBatchDate="Assured interview calls powered by 250+ hiring partners"
         WeekendBatchDate="Hybrid learning option across multiple cities"
-        Project="12+ live projects and 2 capstone project"
-        Classes="Project experience Certificate by IBM"
+        Project="12+ live projects and 2 capstone projects"
+        Classes="Project experience certificate by IBM"
         OneLine="1000+ trending practical assignments"
         Interview="Exclusive MNC expert hosted hackathons"
         Fee="79,000"
@@ -151,8 +151,8 @@ export default function Home() {
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-<p>Doubts regarding learning assistance... Or you’re unsure of your Initial Career step... Whatever it is!</p>
-          <h6>WE ARE HERE TO HELP YOU!</h6>
+          <h6>Talk to our team directly.</h6>
+          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
         </div>
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>
@@ -162,7 +162,7 @@ export default function Home() {
       CCourse="Enroll in Full Stack Web Development Program."
       />
       <CourseFee 
-      CourseFeeHead="Upcoming Full Stack Web Development Batch Details"
+      CourseFeeHead="Full Stack Web Development: Batch Details"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
@@ -172,7 +172,7 @@ export default function Home() {
 
       />
       <ReferSection />
-      <FAQNew FaqDatas={FaqData2} DomainFaqDatas={DomainFaqData2} PaymentFaqDatas={PaymentFaqData2} CapstoneFaqDatas={CapstoneFaqData2} CertificationFaqDatas={CertificationFaqData2} jobFaqDatas={jobFaqData2} MentorshipFaqDatas={MentorshipFaqData2} SupportFaqDatas={SupportFaqData2} />
+      <FAQNew FaqDatas={FaqData8} PaymentFaqDatas={PaymentFaqData8} CapstoneFaqDatas={CapstoneFaqData8} CertificationFaqDatas={CertificationFaqData8} jobFaqDatas={jobFaqData8} MentorshipFaqDatas={MentorshipFaqData8} SupportFaqDatas={SupportFaqData8} />
       </main> 
     </div>
   )

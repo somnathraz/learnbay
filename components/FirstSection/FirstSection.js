@@ -8,7 +8,7 @@ import Form from "../Form/Form";
 const FirstSection = () => {
   const el = useRef(null);
   const fancyText = [
-    "10,000 Careers Reshaped",
+    "10,000+ Careers Reshaped",
     "450% Highest Salary Hike",
     "97% Average Salary Hike",
     "250+ Hiring Partners",
@@ -56,7 +56,7 @@ const FirstSection = () => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>

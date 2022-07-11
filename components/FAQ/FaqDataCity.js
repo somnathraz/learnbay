@@ -19,7 +19,7 @@ export const AdvanceFaqDataM = [
   {
     id: 1,
     ques: "What are the prerequisites for these Data Science training Courses in Mumbai?",
-    ans: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: false,
   },
   {
@@ -121,7 +121,7 @@ export const AdvancePaymentFaqDataM = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Mumbai?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -207,7 +207,7 @@ export const AdvancejobFaqDataM = [
 
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -236,7 +236,7 @@ export const AdvanceMentorshipFaqDataM = [
     id: 0,
     ques: "Until when do the students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course. ",
+    ans: "Our mentors will provide data science training to the students until the completion of the course. ",
     open: true,
   },
   {
@@ -251,7 +251,7 @@ export const AdvanceSupportFaqDataM = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
     open: true,
   },
   {
@@ -416,7 +416,7 @@ export const ArtificialPaymentFaqDataM = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Mumbai?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -509,7 +509,7 @@ export const ArtificialjobFaqDataM = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -553,7 +553,7 @@ export const ArtificialSupportFaqDataM = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -673,7 +673,7 @@ export const MachinePaymentFaqDataM = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,12,100/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },*/
   {
@@ -913,7 +913,7 @@ export const AnalyticsPaymentFaqDataM = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
    //Text
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
@@ -996,7 +996,7 @@ export const AnalyticsjobFaqDataM = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -1013,7 +1013,7 @@ export const AnalyticsMentorshipFaqDataM = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -1027,7 +1027,7 @@ export const AnalyticsSupportFaqDataM = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -1098,7 +1098,7 @@ export const BusinessAPaymentFaqDataM = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 76,700/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -1173,7 +1173,7 @@ export const BusinessAjobFaqDataM = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -1190,7 +1190,7 @@ export const BusinessAMentorshipFaqDataM = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide Business Analytics training to the students until the completion of the course.",
+    ans: "Our mentors will provide Business Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -1204,7 +1204,7 @@ export const BusinessASupportFaqDataM = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -1235,7 +1235,7 @@ export const AdvanceFaqDataH = [
   {
     id: 1,
     ques: "What are the prerequisites for these Data Science training Courses in Hyderabad?",
-    ans: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: false,
   },
   {
@@ -1339,7 +1339,7 @@ export const AdvancePaymentFaqDataH = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Hyderabad?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -1425,7 +1425,7 @@ export const AdvancejobFaqDataH = [
 
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -1450,7 +1450,7 @@ export const AdvanceMentorshipFaqDataH = [
     id: 0,
     ques: "Until when do the students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course. ",
+    ans: "Our mentors will provide data science training to the students until the completion of the course. ",
     open: true,
   },
   {
@@ -1465,7 +1465,7 @@ export const AdvanceSupportFaqDataH = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
     open: true,
   },
   {
@@ -1630,7 +1630,7 @@ export const ArtificialPaymentFaqDataH = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Hyderabad?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
    //check this
     open: false,
   },
@@ -1724,7 +1724,7 @@ export const ArtificialjobFaqDataH = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -1769,7 +1769,7 @@ export const ArtificialSupportFaqDataH = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -1889,7 +1889,7 @@ export const MachinePaymentFaqDataH = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,12,100/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -2129,7 +2129,7 @@ export const AnalyticsPaymentFaqDataH = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -2209,7 +2209,7 @@ export const AnalyticsjobFaqDataH = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -2226,7 +2226,7 @@ export const AnalyticsMentorshipFaqDataH = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -2240,7 +2240,7 @@ export const AnalyticsSupportFaqDataH = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -2311,7 +2311,7 @@ export const BusinessAPaymentFaqDataH = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 76,700/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -2386,7 +2386,7 @@ export const BusinessAjobFaqDataH = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -2403,7 +2403,7 @@ export const BusinessAMentorshipFaqDataH = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -2417,7 +2417,7 @@ export const BusinessASupportFaqDataH = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -2448,7 +2448,7 @@ export const AdvanceFaqDataB = [
   {
     id: 1,
     ques: "What are the prerequisites for these Data Science training Courses in Bengalore?",
-    ans: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: false,
   },
   {
@@ -2550,7 +2550,7 @@ export const AdvancePaymentFaqDataB = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Bengalore?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
    //Check This
     open: false,
   },
@@ -2637,7 +2637,7 @@ export const AdvancejobFaqDataB = [
 
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -2662,7 +2662,7 @@ export const AdvanceMentorshipFaqDataB = [
     id: 0,
     ques: "Until when do the students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course. ",
+    ans: "Our mentors will provide data science training to the students until the completion of the course. ",
     open: true,
   },
   {
@@ -2677,7 +2677,7 @@ export const AdvanceSupportFaqDataB = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
     open: true,
   },
   {
@@ -2835,7 +2835,7 @@ export const ArtificialPaymentFaqDataB = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Bengalore?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
   //Check
     open: false,
   },
@@ -2929,7 +2929,7 @@ export const ArtificialjobFaqDataB = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -2973,7 +2973,7 @@ export const ArtificialSupportFaqDataB = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -3093,7 +3093,7 @@ export const MachinePaymentFaqDataB = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,12,100/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -3337,7 +3337,7 @@ export const AnalyticsPaymentFaqDataB = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -3416,7 +3416,7 @@ export const AnalyticsjobFaqDataB = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -3433,7 +3433,7 @@ export const AnalyticsMentorshipFaqDataB = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -3447,7 +3447,7 @@ export const AnalyticsSupportFaqDataB = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -3518,7 +3518,7 @@ export const BusinessAPaymentFaqDataB = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 76,700/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -3596,7 +3596,7 @@ export const BusinessAjobFaqDataB = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -3613,7 +3613,7 @@ export const BusinessAMentorshipFaqDataB = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide Business Analytics training to the students until the completion of the course.",
+    ans: "Our mentors will provide Business Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -3627,7 +3627,7 @@ export const BusinessASupportFaqDataB = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -3658,7 +3658,7 @@ export const AdvanceFaqDataC = [
   {
     id: 1,
     ques: "What are the prerequisites for these Data Science training Courses in Chennai?",
-    ans: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: false,
   },
   {
@@ -3760,7 +3760,7 @@ export const AdvancePaymentFaqDataC = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Chennai?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -3846,7 +3846,7 @@ export const AdvancejobFaqDataC = [
 
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -3871,7 +3871,7 @@ export const AdvanceMentorshipFaqDataC = [
     id: 0,
     ques: "Until when do the students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course. ",
+    ans: "Our mentors will provide data science training to the students until the completion of the course. ",
     open: true,
   },
   {
@@ -3886,7 +3886,7 @@ export const AdvanceSupportFaqDataC = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
     open: true,
   },
   {
@@ -4050,7 +4050,7 @@ export const ArtificialPaymentFaqDataC = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Chennai?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -4143,7 +4143,7 @@ export const ArtificialjobFaqDataC = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -4187,7 +4187,7 @@ export const ArtificialSupportFaqDataC = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -4306,7 +4306,7 @@ export const MachinePaymentFaqDataC = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,12,100/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -4549,7 +4549,7 @@ export const AnalyticsPaymentFaqDataC = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -4628,7 +4628,7 @@ export const AnalyticsjobFaqDataC = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -4645,7 +4645,7 @@ export const AnalyticsMentorshipFaqDataC = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -4659,7 +4659,7 @@ export const AnalyticsSupportFaqDataC = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -4730,7 +4730,7 @@ export const BusinessAPaymentFaqDataC = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 76,700/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -4808,7 +4808,7 @@ export const BusinessAjobFaqDataC = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -4825,7 +4825,7 @@ export const BusinessAMentorshipFaqDataC = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide Business Analytics training to the students until the completion of the course.",
+    ans: "Our mentors will provide Business Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -4839,7 +4839,7 @@ export const BusinessASupportFaqDataC = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -4871,7 +4871,7 @@ export const AdvanceFaqDataCa = [
   {
     id: 1,
     ques: "What are the prerequisites for these Data Science training Courses in Canada?",
-    ans: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: false,
   },
   {
@@ -4973,7 +4973,7 @@ export const AdvancePaymentFaqDataCa = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Canada?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -5060,7 +5060,7 @@ export const AdvancejobFaqDataCa = [
 
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -5085,7 +5085,7 @@ export const AdvanceMentorshipFaqDataCa = [
     id: 0,
     ques: "Until when do the students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course. ",
+    ans: "Our mentors will provide data science training to the students until the completion of the course. ",
     open: true,
   },
   {
@@ -5100,7 +5100,7 @@ export const AdvanceSupportFaqDataCa = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
     open: true,
   },
   {
@@ -5264,7 +5264,7 @@ export const ArtificialPaymentFaqDataCa = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Canada?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -5358,7 +5358,7 @@ export const ArtificialjobFaqDataCa = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -5402,7 +5402,7 @@ export const ArtificialSupportFaqDataCa = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -5521,7 +5521,7 @@ export const MachinePaymentFaqDataCa = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,12,100/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -5765,7 +5765,7 @@ export const AnalyticsPaymentFaqDataCa = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -5845,7 +5845,7 @@ export const AnalyticsjobFaqDataCa = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -5862,7 +5862,7 @@ export const AnalyticsMentorshipFaqDataCa = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -5876,7 +5876,7 @@ export const AnalyticsSupportFaqDataCa = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -5947,7 +5947,7 @@ export const BusinessAPaymentFaqDataCa = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 76,700/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -6024,7 +6024,7 @@ export const BusinessAjobFaqDataCa = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -6041,7 +6041,7 @@ export const BusinessAMentorshipFaqDataCa = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -6055,7 +6055,7 @@ export const BusinessASupportFaqDataCa = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -6190,7 +6190,7 @@ export const AdvancePaymentFaqDataD = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Delhi?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -6276,7 +6276,7 @@ export const AdvancejobFaqDataD = [
 
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -6301,7 +6301,7 @@ export const AdvanceMentorshipFaqDataD = [
     id: 0,
     ques: "Until when do the students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course. ",
+    ans: "Our mentors will provide data science training to the students until the completion of the course. ",
     open: true,
   },
   {
@@ -6316,7 +6316,7 @@ export const AdvanceSupportFaqDataD = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
     open: true,
   },
   {
@@ -6480,7 +6480,7 @@ export const ArtificialPaymentFaqDataD = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Delhi?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -6574,7 +6574,7 @@ export const ArtificialjobFaqDataD = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -6618,7 +6618,7 @@ export const ArtificialSupportFaqDataD = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -6737,7 +6737,7 @@ export const MachinePaymentFaqDataD = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,12,100/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -6981,7 +6981,7 @@ export const AnalyticsPaymentFaqDataD = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -7060,7 +7060,7 @@ export const AnalyticsjobFaqDataD = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -7077,7 +7077,7 @@ export const AnalyticsMentorshipFaqDataD = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -7091,7 +7091,7 @@ export const AnalyticsSupportFaqDataD = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -7162,7 +7162,7 @@ export const BusinessAPaymentFaqDataD = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 76,700/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -7243,7 +7243,7 @@ export const BusinessAjobFaqDataD = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -7260,7 +7260,7 @@ export const BusinessAMentorshipFaqDataD = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -7274,7 +7274,7 @@ export const BusinessASupportFaqDataD = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -7306,7 +7306,7 @@ export const AdvanceFaqDataDu = [
   {
     id: 1,
     ques: "What are the prerequisites for these Data Science training Courses in Dubai?",
-    ans: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: false,
   },
   {
@@ -7409,7 +7409,7 @@ export const AdvancePaymentFaqDataDu = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Dubai?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -7495,7 +7495,7 @@ export const AdvancejobFaqDataDu = [
 
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -7520,7 +7520,7 @@ export const AdvanceMentorshipFaqDataDu = [
     id: 0,
     ques: "Until when do the students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course. ",
+    ans: "Our mentors will provide data science training to the students until the completion of the course. ",
     open: true,
   },
   {
@@ -7535,7 +7535,7 @@ export const AdvanceSupportFaqDataDu = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
     open: true,
   },
   {
@@ -7699,7 +7699,7 @@ export const ArtificialPaymentFaqDataDu = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Dubai?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -7792,7 +7792,7 @@ export const ArtificialjobFaqDataDu = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -7835,7 +7835,7 @@ export const ArtificialSupportFaqDataDu = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -7955,7 +7955,7 @@ export const MachinePaymentFaqDataDu = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,12,100/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -8200,7 +8200,7 @@ export const AnalyticsPaymentFaqDataDu = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -8279,7 +8279,7 @@ export const AnalyticsjobFaqDataDu = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -8296,7 +8296,7 @@ export const AnalyticsMentorshipFaqDataDu = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -8310,7 +8310,7 @@ export const AnalyticsSupportFaqDataDu = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -8381,7 +8381,7 @@ export const BusinessAPaymentFaqDataDu = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 76,700/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -8460,7 +8460,7 @@ export const BusinessAjobFaqDataDu = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -8477,7 +8477,7 @@ export const BusinessAMentorshipFaqDataDu = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -8491,7 +8491,7 @@ export const BusinessASupportFaqDataDu = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -8523,7 +8523,7 @@ export const AdvanceFaqDataP = [
   {
     id: 1,
     ques: "What are the prerequisites for these Data Science training Courses in Pune?",
-    ans: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: false,
   },
   {
@@ -8625,7 +8625,7 @@ export const AdvancePaymentFaqDataP = [
   {
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Pune?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -8711,7 +8711,7 @@ export const AdvancejobFaqDataP = [
 
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -8736,7 +8736,7 @@ export const AdvanceMentorshipFaqDataP = [
     id: 0,
     ques: "Until when do the students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course. ",
+    ans: "Our mentors will provide data science training to the students until the completion of the course. ",
     open: true,
   },
   {
@@ -8751,7 +8751,7 @@ export const AdvanceSupportFaqDataP = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
     open: true,
   },
   {
@@ -8916,7 +8916,7 @@ export const ArtificialPaymentFaqDataP = [
   {
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Pune?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -9010,7 +9010,7 @@ export const ArtificialjobFaqDataP = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
     What is a job-readiness program?
     The Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -9054,7 +9054,7 @@ export const ArtificialSupportFaqDataP = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -9173,7 +9173,7 @@ export const MachinePaymentFaqDataP = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,12,100/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -9417,7 +9417,7 @@ export const AnalyticsPaymentFaqDataP = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -9496,7 +9496,7 @@ export const AnalyticsjobFaqDataP = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -9513,7 +9513,7 @@ export const AnalyticsMentorshipFaqDataP = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -9527,7 +9527,7 @@ export const AnalyticsSupportFaqDataP = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -9598,7 +9598,7 @@ export const BusinessAPaymentFaqDataP = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 76,700/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -9677,7 +9677,7 @@ export const BusinessAjobFaqDataP = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -9694,7 +9694,7 @@ export const BusinessAMentorshipFaqDataP = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -9708,7 +9708,7 @@ export const BusinessASupportFaqDataP = [
   {
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {

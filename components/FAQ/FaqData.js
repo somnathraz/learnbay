@@ -2,7 +2,7 @@ export const FaqData1 = [
   {
     id: 0,
     ques: "What are the prerequisites for the Data Science Foundation Program?",
-    ans: "There are no prerequisites for this Data Science certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: true,
   },
   {
@@ -90,7 +90,7 @@ export const PaymentFaqData1 = [
   {
     id: 1,
     ques: "Can I pay in installments for Data Science Foundation Program?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -186,7 +186,7 @@ export const MentorshipFaqData1 = [
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -201,7 +201,7 @@ export const SupportFaqData1 = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay and how long will I get it?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -217,7 +217,7 @@ export const FaqData2 = [
   {
     id: 0,
     ques: "What are the prerequisites for the Advanced Data Science and AI Program?",
-    ans: "There are no prerequisites for Advanced Data Science and AI Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    ans: "There are no prerequisites for Advanced Data Science and AI Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: true,
   },
   {
@@ -273,7 +273,7 @@ export const DomainFaqData2 = [
   {
     id: 3,
     ques: "Which domain elective is best suited for me?",
-    ans: "You can select your domain based on your prior work experience, academics, and career goals. But if you are not sure about it you can talk to our career experts. Book a slot with our industry expert for free profile review and career guidance.",
+    ans: "You can select a domain based on your prior work experience, academics, and career goals. But if you are not sure about it you can talk to our career experts. Book a slot with our industry expert for free profile review and career guidance.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -308,7 +308,7 @@ export const PaymentFaqData2 = [
   {
     id: 1,
     ques: "Can I pay in installments for the Advanced Data Science and AI Program?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.5K/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.5K/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -380,7 +380,7 @@ export const CertificationFaqData2 = [
 export const jobFaqData2 = [
   {
     id: 0,
-    ques: "What’s the eligibility for a job assistance program in Learnbay?",
+    ques: "What’s the eligibility for a job assistance program at Learnbay?",
 
     ans: `You should have completed the course with :
     A minimum score of 70% in assessments.
@@ -398,7 +398,7 @@ export const jobFaqData2 = [
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `Job readiness program helps you prepare for interviews which include:
-    Resume Preparation sessions, 
+    Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
     1:1 Mock interviews based on targeted companies and roles.`,
@@ -416,7 +416,7 @@ export const MentorshipFaqData2 = [
     id: 0,
     ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
     open: true,
   },
   {
@@ -543,7 +543,7 @@ export const PaymentFaqData3 = [
   {
     id: 1,
     ques: "Can I pay in installments for 95,000 + GST?",/*1,12,100/-  check for price*/
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12K/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12K/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
    //Check this section
     open: false,
   },
@@ -652,7 +652,7 @@ export const MentorshipFaqData3 = [
     id: 0,
     ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide AI/ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
+    ans: "Our mentors will provide AI/ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
     open: true,
   },
   {
@@ -779,7 +779,7 @@ export const PaymentFaqData4 = [
   {
     id: 1,
     ques: "Can I pay in installments for 95,000/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12K/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12K/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -889,7 +889,7 @@ export const MentorshipFaqData4 = [
     id: 0,
     ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
     open: true,
   },
   {
@@ -1015,7 +1015,7 @@ export const PaymentFaqData5 = [
   {
     id: 1,
     ques: "Can I pay in installments for ₹1,25,000 + GST?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 16K/month up to 9 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 16K/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -1087,7 +1087,7 @@ export const jobFaqData5 = [
   {
     id: 1,
     ques: "How long will I get support for job assistance at Learnbay?",
-    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    ans: "You’ll be provided with job assistance after the completion of the course for a period of 18 months.",
     open: false,
   },
   {
@@ -1122,7 +1122,7 @@ export const MentorshipFaqData5 = [
     id: 0,
     ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
+    ans: "Our mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
     open: true,
   },
   {
@@ -1209,7 +1209,7 @@ export const PaymentFaqData6 = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 60,000 + GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -1312,7 +1312,7 @@ export const SupportFaqData6 = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
@@ -1384,7 +1384,7 @@ export const PaymentFaqData7 = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 65,000/- + GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Adhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -1470,7 +1470,7 @@ export const MentorshipFaqData7 = [
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
 
-    ans: "Our Mentors will provide Business Analytics training to the students until the completion of the course.",
+    ans: "Our mentors will provide Business Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -1485,13 +1485,454 @@ export const SupportFaqData7 = [
     id: 0,
     ques: "When is the job assistance provided at Learnbay?",
 
-    ans: "Job Assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
     open: true,
   },
   {
     id: 1,
     ques: "How long will I get Job referrals?",
     ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
+
+
+// 8th page
+export const FaqData8 = [
+  {
+    id: 0,
+    ques: "What are the prerequisites for the Full-stack Web Development Training Program?",
+    ans: "There are no prerequisites for a Full-stack Web Development Training Program. Anyone interested in coding can join these programs. Basic coding knowledge will be an added advantage, but if someone does not hold such eligibility, there is no need to worry, as we will teach from scratch with special coding classes.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "Backup lessons in other batches will be available to you if you miss a few classes You can choose to join the next batch if you are unable to attend further live classes of your assigned/ chosen batch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a Flexi Subscription in the Full-Stack Web Development Program?",
+    ans: `A Flexi Pass is available to those who sign up for live online//hybrid training in a full-stack development course. For a period of three years, we will give you access to all the ongoing live classes, recorded videos, and exclusive study materials. You can attend any sessions at your convenience; in fact, you are free to pause, resume and complete your study within this 3-years time span.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What’s the duration of the Full-Stack Web Development Course?",
+    ans: `The duration of this course is about 9 months (X hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+
+    Classes will be conducted on weekdays and Weekend Batches.
+    Weekday batch - 8 months
+       Monday to Friday - 2 hours/day
+    Weekend batch - 10 months
+    Saturday & Sunday - 3.5hours/day
+    
+    After the completion of term 3, you can start working on real-time projects and attend job interviews.`,
+    open: false,
+  },
+  {
+    //Check how to do this 5th Question
+    id: 4,
+    ques: "What is the mode of training at Learnbay?",
+    ans: "We provide both Online and Hybrid training modes. Based on your requirement, you can choose your preferred mode.Online Mode: You have to attend live and interactive online classes only (no recorded video-based session is available)Hybrid Mode: You have to attend live and interactive online classes for all the theoretical sessions, while for practical, mainly project sessions, you have to visit our authorized training centers. Note: Authorized training centers are available across different Indian cities like Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune. Live online mode is available across India, US, and Canada.",// Do this
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I opt for a Hybrid mode of learning? ",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. The dedicated counselor assigned to you will help you in this regard.",
+    open: false,
+  },
+];
+export const CertificationFaqData8 = [
+  {
+    id: 0,
+    ques: "Is there any accredited certification after course completion?",
+    ans: "Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion.",
+    open: true,
+  },
+];
+export const PaymentFaqData8 = [
+  {
+    id: 0,
+    ques: "What is the total Fee for the full-stack Web Development program?",
+    ans: "The total program fee for this course will depend on which package you choose. This course comes with two different packages , Without Job Guarantee:  INR 75,000 + GST,    With Job Guarantee: INR 1,20,000 + GST.",    
+ 
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Can I pay in installments for this Full-stack Web Development program?",
+    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR XXX/month up to X months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is there any scholarship/Discount available for the Full-stack Web Development Course? What is Group Discount?",
+    ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally.
+    Please check our websites or contact our sales team to know more about the applicable discounts.
+    Group Discount :
+Group Discount is applicable only if you’re joining with your friends. 
+5% extra discount: Group of 2
+8% extra discount: Group of 3
+Max 10% discount: Groupe of 4+`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What is the refund policy for the Full-stack Web Development course?",
+    ans: "Candidates are advised to read  ",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the program.",
+    link: true,
+    open: false,
+  },
+];
+export const CapstoneFaqData8 = [
+  {
+    id: 0,
+    ques: "How many capstone projects will be there?",
+    ans: "You must complete two brand-new capstone projects for this course. By using the theoretical knowledge you have learned throughout the training, you will receive exposure to real-world practical tasks.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How many real-time projects will be there?",
+    ans: "We have a set of 12 Real-time projects from multiple industries. Using premium cloud lab (which comes free with a Learnbay course subscription), you can observe, learn, and practice the trending web development tips and tricks of top-notch MNCs.",
+    linkText1: " Click here to download the list of the projects.",
+    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "How will the project be executed? ",
+    ans: "You will be needed to work in a group for the project at Learnbay, where your group will be given a specialized project mentor who will provide full support and advice. If you opt for the hybrid model, you have to visit the authorized training center for the project session, where the mentor will be present in person. Otherwise, you will be doing your project via cloud lab, and mentors will be available via live meets.",
+    open: false,
+  },
+];
+//Check for certification FAQ i have added
+export const CertificationFaqData9 = [
+  {
+    id: 0,
+    ques: "Is there any accredited certification after course completion?",
+    ans: "Yes, you will be awarded 2 separate IBM accredited Certificates on successful course completion.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What categories of certifications might I expect to receive?",
+    ans: "Full-Stack Web Development Certificate by IBM (final), Capstone Project Certificate by IBM",
+   
+    open: true,
+  },
+];
+export const jobFaqData8 = [
+  {
+    id: 0,
+    ques: "What's the eligibility for a job assistance program at Learnbay?",
+
+    ans: `You should have completed the course with :
+    A minimum score of 70% in assessments
+   You should have completed the assignments and case studies
+   Worked and successfully completed the minimum recommended number of real-time projects.
+   `,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I get support for job assistance?",
+    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `The job readiness program helps you prepare for interviews which include:
+    Resume Preparation sessions
+    Preparing projects for a strong portfolio
+    Interview guidance and prep sessions
+    1:1 Mock interviews based on targeted companies and roles`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Will I get Job referrals at Learnbay?",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What is Job or 100% moneyback Guarantee?",
+    ans: "If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees.    But for that, you must enroll in the full-stack web development course with a job guarantee.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "What is the difference between ‘with’ and ‘without’ job guarantee programs in regard to job assistance?",
+    ans: "Both courses contain dedicated job assistance sessions. But it is the ‘with job guarantee’ subscription. You can claim a 100% refund of the course fees if you remain unable to secure a web developer or relevant job role within a given period after the course completion.   In the case of the ‘without job guarantee program,’ there is no money-back policy.",
+    open: false,
+  },
+];
+export const MentorshipFaqData8 = [
+  {
+    id: 0,
+    ques: "Until when will the Learnbay students get the facility of mentorship? ",
+
+    ans: "Our Mentors will provide full-stack web development training and career insights/guidance to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Can a student choose to study from their desired mentor?",
+    ans: "Every batch at Learnbay has a specific mentor, but if a student is unhappy with the way their mentor teaches, they can bring it up with a dedicated contact point, who will address the problem by finding new mentors or by changing the batch.",
+    open: false,
+  },
+];
+export const SupportFaqData8 = [
+  {
+    id: 0,
+    ques: "When is the job assistance provided and how long will I get it?",
+    ans: "At Learnbay, after the course is over, placement Assistance is offered. It consists of interview preparation workshops, mock interviews, and recommendations from leading MNCs and startups. Unless a person is placed in a corporation, this service will be offered.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I get Job referrals?",
+    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
+
+
+// 9th page  Advanced Software Development Program
+export const FaqData9 = [
+  {
+    id: 0,
+    ques: "What are the prerequisites for the Advanced Software Development Program?",
+    ans: "  Nothing but basic coding knowledge is required to start with this course.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "You will be given substitute classes in other batches if you miss a few classes.But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a Flexi Subscription in the Advanced Software Development Program?",
+    ans: `Those who register for live online/hybrid training in advanced software development course are eligible for a Flexi Pass. We will get you access to all of the ongoing live classes, recorded videos, and premium study materials for a three-year period. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any classes whenever it is most convenient for you.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What’s the duration of this Software Development training program?",
+    ans: `The duration of this advanced software development program is about 6.5 months (X hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+
+    Classes will be conducted on Weekdays and Weekend Batches.
+    Weekday batch - 11 months
+       Monday to Friday - 2 hours/day
+    Weekend batch - 12 months
+    Saturday & Sunday - 3.5 hours/day
+    After the completion of term 3, you can start working on real-time projects and attend job interviews.`,
+    open: false,
+  },
+  {
+    //Check how to do this 5th Question
+    id: 4,
+    ques: "What is the mode of training for this advanced software development course at Learnbay?",
+    ans: "We offer both online and hybrid modes of training. You can select your preferred mode based on your needs.Online Mode: You can only participate in live, interactive classes online (no recorded video-based session is available),Hybrid Mode: For all theoretical sessions, you must participate in live, interactive online lectures. However, for practical sessions, which are typically project-based, you must travel to one of our approved training sites within your city.The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune. India, the US, and Canada all have access to the live online mode.",// Do this
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I opt for a Hybrid mode of learning? ",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. The dedicated counselor assigned to you will help you in this regard.",
+    open: false,
+  },
+];
+export const DomainFaqData9 = [
+  {
+    id: 0,
+    ques: "What is domain specialization?",
+    ans: "We offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can choose a specific elective.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What are the available elective domain options?",
+    ans: "These are as follows: Full Stack, Product Engineer/Manager,  Data Science and AI, Web 3.0 Developer, DevOps & Clouds",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Which domain elective is best suited for me?",
+    ans: `You can select your domain based on your prior work experience, academics, and career goals. 
+    Book a slot with our industry expert for free profile review and career guidance.
+    `,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Why is domain specialization important?",
+    ans: "After enrolling in the advanced software development course, one must opt for domain electives for Level 06. It is essential to have a specialization. Because the generic study is not going to help you land a promising and secure job role, also, choosing such specialization will ease your project work, interview preparation as well as job application process easier.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What if I don't have any prior experience in any domain?",
+    ans: " If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects. ",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "Can I change my domain electives later?",
+    ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
+    open: false,
+  },
+ 
+];
+
+export const PaymentFaqData9 = [
+  {
+    id: 0,
+    ques: "What is the total fee for the Advanced Software Development course?",
+    ans: "The total program fee for this course is ,  INR  X + GST (Without Job Guarantee),  INR Y + GST (With Job Guarantee)",    
+ 
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Can I pay in installments for the course fees?",
+    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR XXX/month up to X months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: " Is there any scholarship/discount available for the advanced Software Development course? What is Group Discount?",
+    ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally.
+    Please check our websites or contact our sales team to know more about the applicable discounts.
+    Group Discount :
+    Group Discount is applicable only if you’re joining with your friends. 
+    5% extra discount: Group of 2
+    8% extra discount: Group of 3
+    Max 10% discount: Groupe of 4+`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What is the refund policy for this Software Development Program at Learnbay?",
+    ans: "Candidates are advised to read  ",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the program.",
+    link: true,
+    open: false,
+  },
+];
+export const CapstoneFaqData9 = [
+  {
+    id: 0,
+    ques: "How many real-time projects will be there?",
+    ans: "We have a set of X real-time projects from multiple domains.",
+    linkText1: " Click here to download the list of the projects.",
+    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf",
+    link: true,
+  },
+  {
+    id: 1,
+    ques: "How many capstone projects will be there?",
+    ans: "There will be Y capstone projects.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "How will the project be executed? ",
+    ans: "You will be needed to work in a group for the project at Learnbay, where your group will be given a specialized project mentor who will provide full support and advice. If you opt for the hybrid model, you have to visit the authorized training center for the project session, where the mentor will be present in person. Otherwise, you will be doing your project via cloud lab, and mentors will be available via live meets.",
+    open: false,
+  },
+];
+//Check for certification FAQ
+export const jobFaqData9 = [
+  {
+    id: 0,
+    ques: "What's the eligibility for a job assistance program in Learnbay?",
+    ans: `You should have completed the course with :
+    A minimum score of 70% in assessments
+   You should have completed the assignments and case studies
+   Worked and successfully completed the minimum recommended number of real-time projects. `,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I get support for job assistance at Learnbay?",
+    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `The job readiness program helps you prepare for interviews which include:
+    Resume Preparation sessions
+    Preparing projects for a strong portfolio
+    Interview guidance and prep sessions
+    1:1 Mock interviews based on targeted companies and roles
+    `,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Will I get Job referrals at Learnbay?",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What is Job or 100% moneyback Guarantee?",
+    ans: "If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees.But for that, you must enroll in the advanced software development course with a job guarantee.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "What is the difference between ‘with’ and ‘without’ job guarantee programs in regard to job assistance?",
+    ans: "Both courses contain dedicated job assistance sessions. But it is the ‘with job guarantee’ subscription. You can claim a 100% refund of the course fees if you remain unable to secure a software developer or relevant job role within a given period after the course completion. In the case of the ‘without job guarantee program,’ there is no money-back policy.Note: In both cases, you get job referrals and interview calls are guaranteed. ",
+    open: false,
+  },
+];
+export const MentorshipFaqData9 = [
+  {
+    id: 0,
+    ques: "Until when will the students get the facility of mentorship?  ",
+
+    ans: "Our Mentors will provide advanced software development training and career insights/guidance to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Can a Learnbay student choose to study from their desired mentor?",
+    ans: "Every batch at Learnbay has a specific mentor, but if a student is unhappy with the way their mentor teaches, they can bring it up with a dedicated contact point, who will address the problem by finding new mentors or by changing the batch.",
+    open: false,
+  },
+];
+export const SupportFaqData9 = [
+  {
+    id: 0,
+    ques: "When is the job assistance provided at Learnbay?",
+    ans: "At Learnbay, after the course is over, placement Assistance is offered. It consists of interview preparation workshops, mock interviews, and recommendations from leading MNCs and startups. Unless a person is placed in a corporation, this service will be offered.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I get Job referrals?",
+    ans: "You’ll be provided with job referrals after the completion of the course for a period of 1 year.",
     open: false,
   },
 ];

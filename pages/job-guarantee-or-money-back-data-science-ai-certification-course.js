@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+          <p>Fill the below details to get started</p>
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
@@ -58,7 +58,7 @@ export default function Home() {
         desc="✓ Domain Orientated approach ✓ Assured placement within 18 months."
         src="/course5.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf"
 
       />
       <div className={styles.program}>
@@ -76,8 +76,8 @@ export default function Home() {
       <GetHired 
         WeekdayBatchDate="Global Recognition : Course Completion Certificate from IBM"
         WeekendBatchDate="Within 18 months, get placed or avail full refund"
-        Project="15 live industry projects & 3 fresh capstones projects"
-        Classes="8+ Domain-Electives associated with full-stack modules"
+        Project="15 live industry projects & 3 fresh capstones project"
+        Classes="8+ Domain-electives associated with full-stack modules"
         OneLine="Specially devised for leadership-level professionals"
         Interview="Special coding classes for non-programmers"
         Fee="1,25,000"
@@ -191,7 +191,7 @@ export default function Home() {
     SyllabusBotlist64="LinkedIn Profile Building"
     SyllabusBotlist65="Alumni Portal Access"
     SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/5th+Guarantee.pdf"
+    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf"
 
     />
       <ToolsCovered 
@@ -230,8 +230,8 @@ export default function Home() {
       <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
-<p>Doubts regarding learning assistance... Or you’re unsure of your Initial Career step... Whatever it is!</p>
-          <h6>WE ARE HERE TO HELP YOU!</h6>
+          <h6>Talk to our team directly.</h6>
+          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
         </div>
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>
