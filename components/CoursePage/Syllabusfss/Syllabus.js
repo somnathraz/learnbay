@@ -580,9 +580,9 @@ function Syllabus() {
             </p>
           </div>
         </div>
-        <div className={styles.PProgrammain} style={{ marginTop: "20px" }}>
+        <div className={styles.PProgrammain} style={{ marginTop: "20px", padding:"30px 0px" }}>
           <div className={styles.PProgram}>
-            <p>Request More Information</p>
+            <p style={{marginLeft:"36px"}}>Request More Information</p>
           </div>
           <div className={styles.PProgramInner}>
             <Form />

@@ -1,15 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
+import FirstSection from "../components/NewCourse/FirstSection/FirstSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../components/CoursePage/GetHired/GetHired";
+import GetHired from "../components/NewCourse/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import Project from "../components/CoursePage/Projectfswd/Project";
-import Domain from "../components/CoursePage/DomainFss/Domain";
-import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
+import Domain from "../components/NewCourse/WhyLearnbay/WhyLearnbay";
+import Pricing from "../components/NewCourse/Pricing/Pricing";
 import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
@@ -46,63 +46,54 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-        deskTopPara="The Six-Figure Salary is at your fingertips"
-        mTopPara="The Six-Figure Salary is at your fingertips"
-        title="Advanced Software Development Training "
-        desc="Transform your career as a demanding software development expert. Sharpen your skills with real-time project experience."
+        deskTopPara="Full Stack Software Development Program"
+        mTopPara="Full Stack Software Development Program"
+        title="Ace Your Coding Interview at FAANG and"
+        spanTitleText=" Acheive Your Dream Job"
+        desc="Best Interview Prep Course for Top Product Based MNCs"
         src="/course9.png"
         alt="Full Stack"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf"
       />
       <div className={styles.program}>
         <ProgramInfo
-        p1="100%"
-        p11="Assurance for placement"
-        p2="75 LPA to 110 LPA"
-        p22="Salary Package"
-        p3="1:1"
-        p33="Career Support"
+        p1="100% guaranteed"
+        p11="Job Referrals In MNCs"
+        p2="300% Highest"
+        p22="Salary Acheived"
+        p3="1:1 Dedicated"
+        p33="Personal Mentor"
         p4="No Cost EMI"
-        p44="₹ 14k*(9 Months)"
+        p44="Starting at ₹7999"
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="250+ hiring partners & guarantee interviews"
-        WeekendBatchDate="Hybrid learning option across multiple cities"
-        Project="12+ live projects and 2 fresh capstone projects"
-        Classes="100% live and interactive classes"
-        OneLine="1000+ trending practical assignments"
-        Interview="Choose from 5 elite domain electives"
-        Fee="1,10,000"
-        Subscription="3 Year Subscription"
+        WeekdayBatchDate="Guaranteed Interview In Top MNCs"
+        WeekendBatchDate="End to End Projects With Mentorship"
+        Project="Multiple Domains Specialisation"
+        Classes="100% Live & Interactive Classes"
+        OneLine="Coding Interview Prep & Support"
+        Interview="Solve 300+ Coding Questions"
       />
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
-          Box1h5="Custom-fit Training"
-          box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding software developer."
-          Box2h5="Exclusive Hackathon"
-          box2desc="Sharpen your skills through multiple exclusive hackathons. Upskill your designing skills and coding speed."
-          Box3h5="Premium Mentoring"
-          box3desc="Exclusive mock interview sessions by experienced industry experts. Capstone projects under MNC software developer’s guidance."
-          Box4h5="Hands-on Experience"
-          box4desc="Learn by working hard on real-world projects that range from advanced levels of complexity to large-scale deployments."
+          Box1h5="Crack FAANG Interview"
+          box1desc="Learn In-Depth Data Structures & Algorithm and Crack Interview In Product Based MNCs"
+          Box2h5="Domain Specialisation"
+          box2desc="Choose Domain Based On Your Work Experience and Work On Live Projects."
+          Box3h5="1:1 Mentorship"
+          box3desc="Choose Mentor & Working In Top Companies To Guide You For The Tech Interviews."
+          Box4h5="Practical Project Experties"
+          box4desc="Learn by Working Hard On Real-World Projects From Advance Level Of Complexity."
         />
       </div>
       <CareerImpact
       CareerHead="Career Impact"
       />
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
-        </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div>
       <section className={styles.HiringPartner}>
         <div>
-        <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
+        <h4 style={{ marginBottom: "20px", textAlign:"center" }}>Guaranteed Referrals In Top MNCs</h4>
         <span className={styles.HiringPartnerB}>
           <Image
             src="/hiring-2.jpg"
@@ -116,25 +107,26 @@ export default function Home() {
         </div>
     </section>
     <SyllabusNew/>
+    <Pricing />
       <SkillsCovered
-      sc11="Data Collection"
-      sc12="Data Understanding"
-      sc13="Data Cleaning"
-      sc14="Data Munging"
-      sc15="Data Warehousing"
-      sc16="Domain Expertise"
-      sc21="Data Exploration"
-      sc22="Data Preprocessing"
-      sc23="Data Analysis"
-      sc24="Statistical Analysis"
-      sc25="PCA Analysis"
-      sc26="Dashboard and Storytelling"
-      sc31="Feature Engineering"
-      sc32="Hyper Parameter Tuning"
-      sc33="Model Creation"
-      sc34="Model Deployment"
-      sc35="Critical Thinking"
-      sc36="Function & Formulas"
+      sc11="Data Structure and Algorithms"
+      sc12="Algorithm Analysis"
+      sc13="Space and Time Complexity Analysis"
+      sc14="Database Management"
+      sc15="Dynamic Programming"
+      sc16="System Designing"
+      sc21="Domain Expertise"
+      sc22="Critical Thinking"
+      sc23="DOM Manipulation"
+      sc24="Source Controlling"
+      sc25="Project Deployment"
+      sc26="Debugging"
+      sc31="Testing"
+      sc32="Data Visualization"
+      sc33="Machine Learning"
+      sc34="Agile Development"
+      sc35="Framework Handling"
+      sc36="Distributed Computing"
       />
       <Domain />
       <div className={styles.ProjectWrapper} id="project">

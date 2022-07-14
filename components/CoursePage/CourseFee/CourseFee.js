@@ -44,27 +44,26 @@ const CourseFee = ({
                 <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist2}</p>
                 <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist3}</p>
                 <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist4}</p>
-                <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist5}</p>
             </div>
             <div className={styles.batch}>
                 <div className={styles.BatchDetailsTop}>
                 <div>
                     <div className={styles.BatchDetails}>
-                      <p className={styles.list}><AiOutlineBars className={styles.icon} />Batch Type</p>
+                      <p className={styles.list}><AiOutlineBars className={styles.icon} /><b>Batch Type</b></p>
                       <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
                       <p className={styles.list}>Weekend Batch (Sat-Sun)</p>
                     </div>
                   </div>
                   <div>
                     <div className={styles.BatchDetails}>
-                      <p className={styles.list}><MdDateRange className={styles.icon} />Date</p>
+                      <p className={styles.list}><MdDateRange className={styles.icon} /><b>Date</b></p>
                       <p className={styles.list}>5 june 2022</p>
                       <p className={styles.list}>5 june 2022</p>
                     </div>
                   </div>
                   <div>
                     <div className={styles.BatchDetails}>
-                      <p className={styles.list}><BiTimeFive className={styles.icon} />Time</p>
+                    <p className={styles.list}><BiTimeFive className={styles.icon} /><b>Time</b></p>
                       <p className={styles.list}>09:00 – 12:00 AM</p>
                       <p className={styles.list}>09:00 – 12:00 AM</p>
                     </div>

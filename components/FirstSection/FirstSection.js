@@ -9,7 +9,7 @@ const FirstSection = () => {
   const el = useRef(null);
   const fancyText = [
     "10,000+ Careers Reshaped",
-    "450% Highest Salary Hike",
+    "300% Highest Salary Hike",
     "97% Average Salary Hike",
     "250+ Hiring Partners",
   ];

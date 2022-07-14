@@ -75,7 +75,7 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="6 IBM Certified AI/ML micro-skill certificates"
+        WeekdayBatchDate="4 IBM Certified AI/ML micro-skill certificates"
         WeekendBatchDate="Specially curated syllabus for technical professionals"
         Project="IT-specific domain-oriented full-stack learning with 8+ domains to choose from"
         Classes="Learn the latest tools and technologies in AI and ML"

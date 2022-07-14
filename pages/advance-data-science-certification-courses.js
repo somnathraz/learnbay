@@ -75,7 +75,7 @@ export default function Home() {
         WeekdayBatchDate="Interview guarantee backed up by 250+ hiring partners"
         WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
         Project="Project experience certification by IBM"
-        Classes="6 micro-skills certificates from IBM"
+        Classes="4 micro-skills certificates from IBM"
         OneLine="Completely live and interactive learning"
         Interview="12 live industry projects & 2 fresh capstone projects"
         Fee="79,000"

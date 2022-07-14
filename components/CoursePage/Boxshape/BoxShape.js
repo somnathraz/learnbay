@@ -83,8 +83,8 @@ const BoxShape = ({
           <div className={styles.imgBack}>
             <div className={styles.formWrapper}>
               <h5>
-              Fill the below details and <br />
-                <span>Talk To Industry Experts Now</span>
+              Talk to our Experts Now <br />
+                <span>Apply For Profile Review</span>
               </h5>
               <Form />
             </div>
