@@ -1,9 +1,10 @@
 import React, { useRef, useState, useEffect } from "react";
 import styles from "./FirstSection.module.css";
 import Typed from "typed.js";
-import { FaChevronDown,FaBell } from "react-icons/fa";
+import { FaChevronDown, FaBell } from "react-icons/fa";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
+import Image from "next/image";
 
 const FirstSection = () => {
   const el = useRef(null);
@@ -31,23 +32,6 @@ const FirstSection = () => {
     }
   });
 
-  useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: fancyText, // Strings to display: ;
-      // Speed settings, try diffrent values untill you get good results
-      startDelay: 100,
-      typeSpeed: 100,
-      backSpeed: 100,
-      backDelay: 100,
-      loop: true,
-    });
-    
-
-    // Destropying
-    return () => {
-      typed.destroy();
-    };
-  }, []);
   return (
     <div className={styles.First}>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -61,22 +45,48 @@ const FirstSection = () => {
         </div>
       </Popup>
       <div className={styles.leftSide}>
-        <p className={styles.FirstP}>Get Guaranteed Career Transition From</p>
-        <h1>India’s Best Domain Specialized Program <span style={{color:"#2d97de"}}>For Experienced Professionals</span></h1>
-        <p className="pTopF">
-          Use your domain expertise to build a meaningful career.
+        <h1>
+          #1 Domain Specialised Certification Program For{" "}
+          <span>Working Professionals</span>
+        </h1>
+        <p className={styles.pTop}>
+          Use you domain Expertise to build a meaningful career. Crack interview
+          in top product based MNCs and FAANG with confidence
         </p>
-        <b><span ref={el}></span></b>
+
         <div className={styles.btnWrapper}>
-          <a href="#course"><button className={styles.outLineBtn}>
-            Courses <FaChevronDown className="bIcon" />
-          </button></a>
-          <button  onClick={popupShow} className={styles.btn}>
+          <a href="#course">
+            <button className={styles.outLineBtn}>
+              Courses <FaChevronDown className="bIconS" />
+            </button>
+          </a>
+          <button onClick={popupShow} className={styles.btn}>
             Enquire Now <FaBell className="bIcons" />
           </button>
         </div>
+        <div className={styles.info}>
+          <div className={styles.left}>
+            <h5>250%</h5>
+            <p>Average Hike</p>
+          </div>
+          <div className={styles.middle}>
+            <h5>10K</h5>
+            <p>Trusted Learners</p>
+          </div>
+          <div className={styles.right}>
+            <h5>100%</h5>
+            <p>Assured Interview</p>
+          </div>
+        </div>
       </div>
-      <div className={styles.rightSide}></div>
+      <div className={styles.rightSide}>
+        <Image
+          src="/home-page-header.webp"
+          width="870"
+          height="666"
+          layout="intrinsic"
+        />
+      </div>
     </div>
   );
 };

@@ -1,9 +1,13 @@
 .LearnSupport {
-    padding: 0px 100px 70px 100px;
+  padding: 0px 100px 70px 100px;
+  background: #ffffff;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  box-shadow: 0px 0px 15px rgba(41, 121, 173, 0.3);
 }
 
 .learnInner {
-  background-image: url("/CTA-1.png");
   padding: 50px;
   border-radius: 20px;
   color: #fff;
@@ -13,112 +17,111 @@
 }
 
 .learnInner1 {
-    padding: 10px;
+  padding: 10px;
 }
 
 .Top1 {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    margin-top: 0;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .Top2 {
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .Top3 {
-    font-size: 22px;
-    font-weight: 400;
-    margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
 }
 
 .learnInner2 {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 20px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
 }
 
 .learnInner2 .btn1 {
-    margin: 10px;
-    text-align: center;
-    margin: auto;
-    font-size: 16px;
-    font-weight: 400;
-    fill: #48C355;
-    color: #fff;
-    background-color: #48C355;
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #48C355;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 5px 0px #48C35550;
-
+  margin: 10px;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400;
+  fill: #48c355;
+  color: #fff;
+  background-color: #48c355;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #48c355;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 5px 0px #48c35550;
 }
 
 .btn1:hover {
-    color: #48C355;
-    background-color: #fff;
+  color: #48c355;
+  background-color: #fff;
 }
 
 .learnInner2 .btn2 {
-    margin: 10px;
-    text-align: center;
-    margin: auto;
-    font-size: 16px;
-    font-weight: 400;
-    fill: #FFFFFF;
-    color: #FFFFFF;
-    background-color: #343870;
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #343870;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 5px 0px rgb(52 56 112 / 31%);
+  margin: 10px;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #343870;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #343870;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 5px 0px rgb(52 56 112 / 31%);
 }
 
 .btn2:hover {
-    background-color: #fff;
-    color: #343870;
+  background-color: #fff;
+  color: #343870;
 }
 
 .bIcon {
-    font-size: 20px;
-    margin-left: 10px;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 @media (max-width: 600px) {
-    .LearnSupport {
-        padding: 30px 0px 30px 0px;
-    }
-    
-    .learnInner {
-      padding: 20px;
-      display: block;
-    }
+  .LearnSupport {
+    padding: 30px 0px 30px 0px;
+  }
 
-    .Top1 {
-        font-size: 16px;
-    }
-    
-    .Top2 {
-        font-size: 36px;
-    }
-    
-    .Top3 {
-        font-size: 18px;
-        font-weight: 400;
-        margin: 0;
-    }
-    .learnInner2 .btn2 {
-        margin-top: 0px;
-    }
+  .learnInner {
+    padding: 20px;
+    display: block;
+  }
+
+  .Top1 {
+    font-size: 16px;
+  }
+
+  .Top2 {
+    font-size: 36px;
+  }
+
+  .Top3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .learnInner2 .btn2 {
+    margin-top: 0px;
+  }
 }

@@ -14,7 +14,8 @@ import BoxSeo from "../components/BoxSeo/BoxSeo";
 import DomainSliderHome from "../components/DomainSliderHome/DomainSliderHome";
 import generateRssFeed from "../lib/generateRss";
 import generateCategoryRssFeed from "../lib/geneRateCategoryRss";
-
+import BoxShape from "../components/BoxShape/BoxShape";
+import MultiTabs from "../components/MultiTabs/MultiTabs";
 
 export default function Home() {
   return (
@@ -25,14 +26,21 @@ export default function Home() {
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <FirstSection />
+      <div className={styles.boxWrap}>
+        <h2>Get Certified And Achieve Your Dream</h2>
+        <p className={styles.boxp}>
+          Our Domain Specialisation and Industry Certified Capstone helps you to
+          make your past work experience relevant
+        </p>
+        <div className={styles.boxShape}>
+          <BoxShape />
+        </div>
+      </div>
       <Course />
       <KeyFeatures />
       <WhyLearnbay />
-      <DomainSliderHome />
-      <BoxSeo />
-      <Benefits />
-      <SpotMedia />
-      <TestimonialVideo />
+      <MultiTabs />
+
       <Switch />
       <CareerImpactHome />
       <LearnSupport />
@@ -51,4 +59,3 @@ export const getStaticProps = async (_context) => {
     },
   };
 };
-
