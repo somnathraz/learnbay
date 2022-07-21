@@ -20,7 +20,7 @@
 }
 .tick {
   font-size: 20px;
-  color: #2d9cd7;
+  color: #0072bc;
 }
 .courses {
   background: #ffffff;
@@ -83,7 +83,7 @@
   margin: 0;
   margin-top: 0px;
 
-  color: #2979ad;
+  color: #0072bc;
 }
 .leftSide p,
 .middleSide p,
@@ -93,7 +93,7 @@
 }
 .checkCircle {
   margin-right: 10px;
-  color: #2979ad;
+  color: #0072bc;
   font-size: 22px;
 }
 .btnWrapper {

@@ -2,22 +2,20 @@
   padding: 100px;
   display: grid;
   grid-template-columns: 45% 55%;
-  background-color: #f4fcfe;
+  background-color: white;
 }
-.First {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
+
 .leftSide {
   display: flex;
   flex-flow: column;
   justify-content: space-evenly;
+  padding-top: 50px;
 }
 .First h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
+  color: #000;
   margin: 0;
   line-height: 54px;
 }
@@ -39,7 +37,7 @@
   background-image: url("/Vector-5-line.svg");
   background-position: 0 3.7rem;
   background-repeat: no-repeat;
-  color: #2979ad;
+  color: #0072bc;
 }
 
 .pTop {
@@ -49,10 +47,10 @@
   font-size: 20px;
   line-height: 27px;
 
-  color: #6c6c6c;
+  color: #4a4a4a;
 }
 .FirstP {
-  color: #28557a;
+  color: #0072bc;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -70,8 +68,8 @@
 }
 .outLineBtn {
   background-color: white;
-  color: #28557a;
-  border: 2px solid #28557a;
+  color: #0072bc;
+  border: 2px solid #0072bc;
 
   padding: 14px 28px;
   font-size: 18px;
@@ -82,7 +80,7 @@
   color: #edb552;
 }
 .btn {
-  background-color: #28557a;
+  background-color: #0072bc;
   padding: 14px 28px;
   font-size: 18px;
   font-weight: 600;
@@ -95,6 +93,7 @@
   display: flex;
   align-items: flex-end;
   margin-right: -30px;
+  padding-top: 50px;
 }
 .info {
   display: flex;
@@ -109,7 +108,7 @@
   line-height: 48px;
   margin: 0;
   text-align: center;
-  color: #2979ad;
+  color: #0072bc;
 }
 
 .left,

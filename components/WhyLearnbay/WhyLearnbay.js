@@ -23,8 +23,9 @@ const WhyLearnbay = () => {
         <div className={styles.FirstText}>
           <h3>Project Innovation Lab</h3>
           <p className={styles.list}>
-            Learnbay offers live, instructor-led learning environment with a
-            custom program created by experienced trainers.
+            Work on Industry Certified Project in offline mode in multiple
+            cities across India. Collaborate with Project Mentors and other
+            learners to get hands-on experience.
           </p>
           <div className={styles.DivIcon}>
             <div className={styles.iconBox}>

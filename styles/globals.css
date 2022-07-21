@@ -17,7 +17,7 @@ a {
 button {
   padding: 15px 20px;
   outline: none;
-  background-color: #2979ad;
+  background-color: #0072bc;
   color: white;
   border: 0;
   cursor: pointer;
@@ -25,7 +25,7 @@ button {
   align-items: center;
   border-radius: 4px;
   font-size: 14px;
-  border: 1px solid #2979ad;
+  border: 1px solid #0072bc;
 }
 
 .buttonline {
@@ -44,8 +44,8 @@ button {
 
 .outLineBtn {
   padding: 15px 20px;
-  border: 2px solid #2979ad;
-  color: #2979ad;
+  border: 2px solid #0072bc;
+  color: #0072bc;
   background-color: transparent;
   cursor: pointer;
   display: flex;
@@ -56,7 +56,7 @@ button {
 .bIcon {
   font-size: 18px;
   margin-left: 8px;
-  color: #2979ad;
+  color: #0072bc;
 }
 .bIcons {
   font-size: 18px;
@@ -78,14 +78,7 @@ button {
   font-size: 28px;
   font-weight: 500;
   padding: 2px 8px;
-  color: #fff;
-  background-image: linear-gradient(
-    90deg,
-    #00669b 0,
-    #1077ad 25%,
-    #2b8dc1 57%,
-    #2d9cd7 80%
-  );
+
   border-radius: 5px;
   line-height: 50px;
 }

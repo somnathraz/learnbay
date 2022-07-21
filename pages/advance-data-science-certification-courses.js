@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
@@ -22,9 +22,17 @@ import Fee from "../components/CoursePage/Fee/Fee";
 import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
-import { FaqData2, DomainFaqData2, PaymentFaqData2, CapstoneFaqData2, CertificationFaqData2, jobFaqData2, MentorshipFaqData2, SupportFaqData2 } from "../components/FAQ/FaqData";
+import {
+  FaqData2,
+  DomainFaqData2,
+  PaymentFaqData2,
+  CapstoneFaqData2,
+  CertificationFaqData2,
+  jobFaqData2,
+  MentorshipFaqData2,
+  SupportFaqData2,
+} from "../components/FAQ/FaqData";
 
- 
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -39,74 +47,63 @@ export default function Home() {
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-          <p>Fill the below details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
-        </div>
-      </Popup>
-      <FirstSection
-        deskTopPara="Choose Specialization over Generalization"
-        mTopPara="Choose Specialization over Generalization"
-        title="Advanced Data Science and AI Program"
-        spanTitleText="with Domain Specialization"
-        desc="Make an impression as a seasoned applicant. With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
-        src="/course2.png"
-        alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf"
-      />
-      <div className={styles.program}>
-        <ProgramInfo
-        p1="Aimed for"
-        p11="Working Professionals"
-        p2="50 LPA to 60 LPA"
-        p22="Salary Package"
-        p3="1:1"
-        p33="Career Support"
-        p4="No Cost EMI"
-        p44="₹ 10k/month (9 Months)"
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            <p>Fill the below details to get started</p>
+            <Form popup={true} setTrigger={setPopups} />
+          </div>
+        </Popup>
+        <FirstSection
+          deskTopPara="Choose Specialization over Generalization"
+          mTopPara="Choose Specialization over Generalization"
+          title="Advanced Data Science and AI Program"
+          spanTitleText="with Domain Specialization"
+          desc="Make an impression as a seasoned applicant. With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
+          src="/course2.png"
+          alt="AiMl Header"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf"
         />
-      </div>
-      <GetHired 
-        WeekdayBatchDate="Interview guarantee backed up by 250+ hiring partners"
-        WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
-        Project="Project experience certification by IBM"
-        Classes="6 micro-skills certificates from IBM"
-        OneLine="Completely live and interactive learning"
-        Interview="12 live industry projects & 2 fresh capstone projects"
-        Fee="79,000"
-        Subscription="3 Year Subscription"
-      />
-      <div className="Feature" id="Feature">
-        <BoxShape
-          title="Why Enroll In This Program"
-          Box1h5="Custom-fit Training"
-          box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
-          Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 8+ electives."
-          Box3h5="Premium Mentoring"
-          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
-          Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
-        />
-      </div>
-      <CareerImpact
-      CareerHead="Career Impact"
-      />
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
+        <div className={styles.program}>
+          <ProgramInfo
+            p1="Aimed for"
+            p11="Working Professionals"
+            p2="50 LPA to 60 LPA"
+            p22="Salary Package"
+            p3="1:1"
+            p33="Career Support"
+            p4="No Cost EMI"
+            p44="₹ 10k/month (9 Months)"
+          />
         </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
+
+        <div className="Feature" id="Feature">
+          <BoxShape
+            title="Why Enroll In This Program"
+            Box1h5="Custom-fit Training"
+            box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
+            Box2h5="Domain Focused"
+            box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 8+ electives."
+            Box3h5="Premium Mentoring"
+            box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
+            Box4h5="Hands-on Experience"
+            box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
+          />
         </div>
-      </div>
-      <Certificate />
-      <OtherCertificate
+        <CareerImpact CareerHead="Career Impact" />
+        <div className={styles.ExpertWrapper}>
+          <div className={styles.expert}>
+            <h5>Our experts are from:</h5>
+          </div>
+          <div className={styles.expertBody}>
+            <OurExpert />
+          </div>
+        </div>
+        <Certificate />
+        <OtherCertificate
           OCHead1="Python for Data Science Certificate"
           OCP1="Get certified on your advanced python skills."
           OCHead2="Data Science Tools"
@@ -115,175 +112,181 @@ export default function Home() {
           OCP3="Validate your python expertise for ML algo designing."
           OCHead4="Data Science Methodology"
           OCP4="Be certified expert of applying variable DS methodologies."
-      />
-      <section className={styles.HiringPartner}>
-        <div>
-        <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
-        <span className={styles.HiringPartnerB}>
-          <Image
-            src="/hiring-2.jpg"
-            alt="Certificate"
-            quality={100}
-            layout="intrinsic"
-            width="1150px"
-            height="350px"
-          />
-        </span>
-        </div>
-    </section>
-    <SyllabusNew
-    HoursSyllabus="275"
-    HoursSyllabusText="Hours Syllabus"
-    Projects="12"
-    ProjectsText="DS & AI Projects"
-    Sessions="100"
-    SessionsText="Live Learning Sessions"
-    JobSessions="8"
-    JobSessionsText="Job Oriented Sessions"
-    Modules="15"
-    ModulesText="Tools & Modules"
-    syllabush1="Preparatory Classes (Programming + Maths)"
-    syllabusb1="6 Hours"
-    SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of Programming"
-    SyllabusBotlist13="Memory Management"
-    SyllabusBotlist14="Compiler and Interpreter"
-    SyllabusBotlist15="Syntax of Python"
-    SyllabusBotlist16="Basics of Statistics"
-    syllabush2="Python Programming (Basic + Advance)"
-    syllabusb2="40 Hours"
-    SyllabusBotlist21="Git and GitHub"
-    SyllabusBotlist22="Operators + Data Types + Loops"
-    SyllabusBotlist23="Functions + Regular Expression"
-    SyllabusBotlist24="Conditional Statement"
-    SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
-    syllabush3="Statistics and Machine Learning"
-    syllabusb3="70 Hours"
-    SyllabusBotlist31="Linear Algebra, Probability"
-    SyllabusBotlist32="Permutation & Combination"
-    SyllabusBotlist33="Descriptive & Inferential Stats"
-    SyllabusBotlist34="Hypothesis Testing"
-    SyllabusBotlist35="Time Series Analysis"
-    SyllabusBotlist36="ML Algorithms"
-    syllabush4="Industrial Projects &
-    Capstone Projects"
-    syllabusb4="
-    12+ Classes"
-    SyllabusBotlist41="Text Classification"
-    SyllabusBotlist42="Human Activity Recognition"
-    SyllabusBotlist43="Forecasting Business KPI's"
-    SyllabusBotlist44="Credit Risk Analysis"
-    SyllabusBotlist45="Customer Churn Prediction"
-    SyllabusBotlist46="Sentiment Analysis"
-    syllabush5="Data Science &
-    AI Tools"
-    syllabusb5="184+ Hours"
-    SyllabusBotlist51="Advance Excel"
-    SyllabusBotlist52="SQL + MongoDB"
-    SyllabusBotlist53="Tableau + PowerBI"
-    SyllabusBotlist54="Deep Learning + NLP"
-    SyllabusBotlist55="Big Data + Business Analytics"
-    SyllabusBotlist56="Deployment (AWS + GCP)"
-    syllabush6="Job Orientation
-    (Interview Prep)"
-    syllabusb6="8+ Classes"
-    SyllabusBotlist61="Resume Built-Up Session"
-    SyllabusBotlist62="1-1 Mock Interviews"
-    SyllabusBotlist63="Job Referrals"
-    SyllabusBotlist64="LinkedIn Profile Building"
-    SyllabusBotlist65="Alumni Portal Access"
-    SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf"
-    />
-      <ToolsCovered 
-      src="/tools-2.png"
-      />
-      <SkillsCovered
-      sc11="Data Collection"
-      sc12="Data Understanding"
-      sc13="Data Cleaning"
-      sc14="Data Munging"
-      sc15="Data Warehousing"
-      sc16="Domain Expertise"
-      sc21="Data Exploration"
-      sc22="Data Preprocessing"
-      sc23="Data Analysis"
-      sc24="Statistical Analysis"
-      sc25="PCA Analysis"
-      sc26="Dashboard and Storytelling"
-      sc31="Feature Engineering"
-      sc32="Hyper Parameter Tuning"
-      sc33="Model Creation"
-      sc34="Model Deployment"
-      sc35="Critical Thinking"
-      sc36="Function & Formulas"
-      />
-      <Domain />
-      <div className={styles.ProjectWrapper} id="project">
-        <Project
-        project="12+"
-        domain="7+"
         />
-      </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
+        <section className={styles.HiringPartner}>
+          <div>
+            <h4 style={{ marginBottom: "20px", textAlign: "center" }}>
+              In Collaboration with 250+ Hiring Partners
+            </h4>
+            <span className={styles.HiringPartnerB}>
+              <Image
+                src="/hiring-2.jpg"
+                alt="Certificate"
+                quality={100}
+                layout="intrinsic"
+                width="1150px"
+                height="350px"
+              />
+            </span>
+          </div>
+        </section>
+        <SyllabusNew
+          HoursSyllabus="275"
+          HoursSyllabusText="Hours Syllabus"
+          Projects="12"
+          ProjectsText="DS & AI Projects"
+          Sessions="100"
+          SessionsText="Live Learning Sessions"
+          JobSessions="8"
+          JobSessionsText="Job Oriented Sessions"
+          Modules="15"
+          ModulesText="Tools & Modules"
+          syllabush1="Preparatory Classes (Programming + Maths)"
+          syllabusb1="6 Hours"
+          SyllabusBotlist11="Anaconda Installation"
+          SyllabusBotlist12="Basics of Programming"
+          SyllabusBotlist13="Memory Management"
+          SyllabusBotlist14="Compiler and Interpreter"
+          SyllabusBotlist15="Syntax of Python"
+          SyllabusBotlist16="Basics of Statistics"
+          syllabush2="Python Programming (Basic + Advance)"
+          syllabusb2="40 Hours"
+          SyllabusBotlist21="Git and GitHub"
+          SyllabusBotlist22="Operators + Data Types + Loops"
+          SyllabusBotlist23="Functions + Regular Expression"
+          SyllabusBotlist24="Conditional Statement"
+          SyllabusBotlist25="File & Exceptional Handling"
+          SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
+          syllabush3="Statistics and Machine Learning"
+          syllabusb3="70 Hours"
+          SyllabusBotlist31="Linear Algebra, Probability"
+          SyllabusBotlist32="Permutation & Combination"
+          SyllabusBotlist33="Descriptive & Inferential Stats"
+          SyllabusBotlist34="Hypothesis Testing"
+          SyllabusBotlist35="Time Series Analysis"
+          SyllabusBotlist36="ML Algorithms"
+          syllabush4="Industrial Projects &
+    Capstone Projects"
+          syllabusb4="
+    12+ Classes"
+          SyllabusBotlist41="Text Classification"
+          SyllabusBotlist42="Human Activity Recognition"
+          SyllabusBotlist43="Forecasting Business KPI's"
+          SyllabusBotlist44="Credit Risk Analysis"
+          SyllabusBotlist45="Customer Churn Prediction"
+          SyllabusBotlist46="Sentiment Analysis"
+          syllabush5="Data Science &
+    AI Tools"
+          syllabusb5="184+ Hours"
+          SyllabusBotlist51="Advance Excel"
+          SyllabusBotlist52="SQL + MongoDB"
+          SyllabusBotlist53="Tableau + PowerBI"
+          SyllabusBotlist54="Deep Learning + NLP"
+          SyllabusBotlist55="Big Data + Business Analytics"
+          SyllabusBotlist56="Deployment (AWS + GCP)"
+          syllabush6="Job Orientation
+    (Interview Prep)"
+          syllabusb6="8+ Classes"
+          SyllabusBotlist61="Resume Built-Up Session"
+          SyllabusBotlist62="1-1 Mock Interviews"
+          SyllabusBotlist63="Job Referrals"
+          SyllabusBotlist64="LinkedIn Profile Building"
+          SyllabusBotlist65="Alumni Portal Access"
+          SyllabusBotlist66="Target Top MNCs & Startups"
+          syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf"
+        />
+        <ToolsCovered src="/tools-2.png" />
+        <SkillsCovered
+          sc11="Data Collection"
+          sc12="Data Understanding"
+          sc13="Data Cleaning"
+          sc14="Data Munging"
+          sc15="Data Warehousing"
+          sc16="Domain Expertise"
+          sc21="Data Exploration"
+          sc22="Data Preprocessing"
+          sc23="Data Analysis"
+          sc24="Statistical Analysis"
+          sc25="PCA Analysis"
+          sc26="Dashboard and Storytelling"
+          sc31="Feature Engineering"
+          sc32="Hyper Parameter Tuning"
+          sc33="Model Creation"
+          sc34="Model Deployment"
+          sc35="Critical Thinking"
+          sc36="Function & Formulas"
+        />
+        <Domain />
+        <div className={styles.ProjectWrapper} id="project">
+          <Project project="12+" domain="7+" />
         </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
+        <div className={styles.cta}>
+          <div className={styles.left}></div>
+          <div className={styles.middle}>
+            <h6>Talk to our team directly.</h6>
+            <p>
+              Reach out and a learning consultant will get in touch with you
+              shortly.
+            </p>
+          </div>
+          <div className={styles.right}>
+            <button onClick={popupShow}>Enquire Now</button>
+          </div>
         </div>
-      </div>
-      <HowApply
-      CCourse="Enroll in Advanced Data Science & AI Program with Domain Specialization."
-      />
-      <Fee
-        sub1="Data Science and AI Foundation Program"
-        Price1="₹65,000 + GST"
-        PFeatures11="225+ Hours"
-        PFeatures12="Early Professionals"
-        PFeatures13="NA"
-        PFeatures14="8+1"
-        PFeatures15="10+"
-        PFeatures16="Yes"
-        PFeatures17="No"
-        PFeatures18="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
-        sub2="Advanced Data Science and AI Program"
-        Price2="₹79,000 + GST"
-        PFeatures21=" 275+ Hours"
-        PFeatures22=" Tech/Non-Tech Professionals"
-        PFeatures23="8+"
-        PFeatures24="12+2"
-        PFeatures25="15+"
-        PFeatures26="Yes"
-        PFeatures27="No"
-        PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-        sub3="Data Science and AI with Job Guarantee Program"
-        Price3="₹1,25,000 + GST"
-        PFeatures31=" 400+ Hours"
-        PFeatures32="Tech/Non-Tech Professionals"
-        PFeatures33="All"
-        PFeatures34="15+3"
-        PFeatures35="18+"
-        PFeatures36="Yes"
-        PFeatures37="Yes"
-        PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
-      />
-      <CourseFee 
-      CourseFeeHead="Advanced Data Science & AI Program : Batch Details"
-      CourseFeePara="Online Classroom"
-      CourseFeelist1="Online Interactive Classes"
-      CourseFeelist2="Weekend and Weekday Batches"
-      CourseFeelist3="Extra Doubt Clearance Sessions"
-      CourseFeelist4="Multiple Domain Selection Options"
-      CourseFeelist5="Company-based Mock Interviews"
-
-      />
-      <ReferSection />
-      <FAQNew FaqDatas={FaqData2} DomainFaqDatas={DomainFaqData2} PaymentFaqDatas={PaymentFaqData2} CapstoneFaqDatas={CapstoneFaqData2} CertificationFaqDatas={CertificationFaqData2} jobFaqDatas={jobFaqData2} MentorshipFaqDatas={MentorshipFaqData2} SupportFaqDatas={SupportFaqData2} />
-      </main> 
+        <HowApply CCourse="Enroll in Advanced Data Science & AI Program with Domain Specialization." />
+        <Fee
+          sub1="Data Science and AI Foundation Program"
+          Price1="₹65,000 + GST"
+          PFeatures11="225+ Hours"
+          PFeatures12="Early Professionals"
+          PFeatures13="NA"
+          PFeatures14="8+1"
+          PFeatures15="10+"
+          PFeatures16="Yes"
+          PFeatures17="No"
+          PFeatures18="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
+          sub2="Advanced Data Science and AI Program"
+          Price2="₹79,000 + GST"
+          PFeatures21=" 275+ Hours"
+          PFeatures22=" Tech/Non-Tech Professionals"
+          PFeatures23="8+"
+          PFeatures24="12+2"
+          PFeatures25="15+"
+          PFeatures26="Yes"
+          PFeatures27="No"
+          PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
+          sub3="Data Science and AI with Job Guarantee Program"
+          Price3="₹1,25,000 + GST"
+          PFeatures31=" 400+ Hours"
+          PFeatures32="Tech/Non-Tech Professionals"
+          PFeatures33="All"
+          PFeatures34="15+3"
+          PFeatures35="18+"
+          PFeatures36="Yes"
+          PFeatures37="Yes"
+          PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
+        />
+        <CourseFee
+          CourseFeeHead="Advanced Data Science & AI Program : Batch Details"
+          CourseFeePara="Online Classroom"
+          CourseFeelist1="Online Interactive Classes"
+          CourseFeelist2="Weekend and Weekday Batches"
+          CourseFeelist3="Extra Doubt Clearance Sessions"
+          CourseFeelist4="Multiple Domain Selection Options"
+          CourseFeelist5="Company-based Mock Interviews"
+        />
+        <ReferSection />
+        <FAQNew
+          FaqDatas={FaqData2}
+          DomainFaqDatas={DomainFaqData2}
+          PaymentFaqDatas={PaymentFaqData2}
+          CapstoneFaqDatas={CapstoneFaqData2}
+          CertificationFaqDatas={CertificationFaqData2}
+          jobFaqDatas={jobFaqData2}
+          MentorshipFaqDatas={MentorshipFaqData2}
+          SupportFaqDatas={SupportFaqData2}
+        />
+      </main>
     </div>
-  )
+  );
 }

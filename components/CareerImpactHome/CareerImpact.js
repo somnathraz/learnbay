@@ -19,7 +19,10 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
   return (
     <section className={styles.CareerImpact}>
       <div className={styles.left}>
-        <h4>{CareerHead}</h4>
+        <h4>What People Say</h4>
+        <p className={styles.pTop}>
+          How it has helped them accelerate their careers to the next level.
+        </p>
         <div className={styles.swiperleft}>
           <Swiper
             slidesPerView={mobile ? 1 : 2}

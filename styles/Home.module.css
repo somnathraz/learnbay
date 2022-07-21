@@ -34,7 +34,8 @@
   margin: 0px;
   text-align: center;
   color: #6c6c6c;
-  font-size: 16px;
+  font-size: 18px;
+  margin: 5px;
 }
 .footer a {
   display: flex;

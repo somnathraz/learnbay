@@ -31,7 +31,7 @@
 .ham {
   display: inline;
   justify-self: flex-start;
-  color: #28557a;
+  color: #0072bc;
   cursor: pointer;
   font-size: 28px;
   margin-right: 10px;
@@ -41,7 +41,7 @@
 .left button {
   padding: 12px 20px;
   outline: none;
-  background-color: #28557a;
+  background-color: #0072bc;
   color: white;
   border: 0;
   border-radius: 8px;
@@ -54,9 +54,9 @@
 }
 .left button:hover {
   background-color: #fff;
-  color: #28557a;
+  color: #0072bc;
   border: 1px solid;
-  box-shadow: #28557a 0px 0px 4px 0px;
+  box-shadow: #0072bc 0px 0px 4px 0px;
 }
 
 .right {
@@ -75,7 +75,7 @@
   font-weight: 600;
 }
 .right span:hover {
-  color: #28557a;
+  color: #0072bc;
   transform: scale(1) translate(-0%, -20%);
   transition: all 0.5s ease-in-out;
   scroll-behavior: smooth;
@@ -89,16 +89,16 @@
 .right button {
   padding: 12px 25px;
   font-size: 16px;
-  color: #28557a;
+  color: #0072bc;
   background-color: transparent;
-  border: 2px solid #28557a;
+  border: 2px solid #0072bc;
   font-weight: 500;
-  /* box-shadow: #28557A 0px 0px 4px 0px; */
+  /* box-shadow: #0072bc 0px 0px 4px 0px; */
 }
 .right button:hover {
-  background-color: #28557a;
+  background-color: #0072bc;
   color: #fff;
-  border: 2px solid #28557a;
+  border: 2px solid #0072bc;
 }
 
 .hoverBtn {

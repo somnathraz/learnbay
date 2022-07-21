@@ -41,15 +41,15 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     institutes in India, it offers a data science course at a
                     low cost. Excellent value for money. Finally, I achieved job
                     satisfaction. I would strongly advise everyone to attend
-                    this institute.<br />
+                    this institute.
+                    <br />
                     <Image
-                        src="/shezanc.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/shezanc.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -80,15 +80,15 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     helpful. They are constantly willing to clarify each
                     individual's doubts and meet the needs of working
                     professionals. The practice interview sessions were simply
-                    like a clone of MNC interviews.<br />
+                    like a clone of MNC interviews.
+                    <br />
                     <Image
-                        src="/veerajc.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/veerajc.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -118,15 +118,15 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     wise. One advantage of joining is you can access their
                     resources for a lifetime, unlike others where you have
                     accessibility only for a year or so. Most importantly, there
-                    is continuous assistance for recruitment.<br />
+                    is continuous assistance for recruitment.
+                    <br />
                     <Image
-                        src="/shubangic.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/shubangic.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -157,15 +157,15 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     within 9 months. The journey was arduous because I was from
                     the core electronics domain and struggling a lot. Mentors
                     are from MAANG companies and are truly dedicated. I liked
-                    the teaching style of Python trainers.<br />
+                    the teaching style of Python trainers.
+                    <br />
                     <Image
-                        src="/pawanc.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/pawanc.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -191,15 +191,20 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                   <p>
-                  The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.<br />
+                    The quality of the content is very nice. What I liked the
+                    most was mainly the instructor concentrating on the
+                    practical part, live project sessions make you feel
+                    confident to attend interviews. Multiple batch options,
+                    access for any instructor class videos or materials. The
+                    totally positive environment around.
+                    <br />
                     <Image
-                        src="/deverajc.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/deverajc.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -231,16 +236,16 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     for modules. You get the flexibility to attend classes from
                     multiple instructors. Very supportive learning environment.
                     I was getting frustrated due to the lack of job satisfaction
-                    as a tech consultant. Thanks a lot Learnbay, for changing
-                    my career.<br />
+                    as a tech consultant. Thanks a lot Learnbay, for changing my
+                    career.
+                    <br />
                     <Image
-                        src="/sumanc.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/sumanc.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -274,15 +279,15 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     institutes in India, it offers a data science course at a
                     low cost. Excellent value for money. Finally, I achieved job
                     satisfaction. I would strongly advise everyone to attend
-                    this institute.<br />
+                    this institute.
+                    <br />
                     <Image
-                        src="/shezanc.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/shezanc.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -313,15 +318,15 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     helpful. They are constantly willing to clarify each
                     individual's doubts and meet the needs of working
                     professionals. The practice interview sessions were simply
-                    like a clone of MNC interviews.<br />
+                    like a clone of MNC interviews.
+                    <br />
                     <Image
-                        src="/veerajc.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/veerajc.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -351,15 +356,15 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     wise. One advantage of joining is you can access their
                     resources for a lifetime, unlike others where you have
                     accessibility only for a year or so. Most importantly, there
-                    is continuous assistance for recruitment.<br />
+                    is continuous assistance for recruitment.
+                    <br />
                     <Image
-                        src="/shubangic.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/shubangic.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -385,15 +390,20 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                   <p>
-                  The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.<br />
+                    The quality of the content is very nice. What I liked the
+                    most was mainly the instructor concentrating on the
+                    practical part, live project sessions make you feel
+                    confident to attend interviews. Multiple batch options,
+                    access for any instructor class videos or materials. The
+                    totally positive environment around.
+                    <br />
                     <Image
-                        src="/deverajc.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/deverajc.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -425,16 +435,16 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     for modules. You get the flexibility to attend classes from
                     multiple instructors. Very supportive learning environment.
                     I was getting frustrated due to the lack of job satisfaction
-                    as a tech consultant. Thanks a lot Learnbay, for changing
-                    my career.<br />
+                    as a tech consultant. Thanks a lot Learnbay, for changing my
+                    career.
+                    <br />
                     <Image
-                        src="/sumanc.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/sumanc.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -465,15 +475,15 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     from core sales profile to satisfactory tech role could
                     never be possible without you, guys. I really appreciate all
                     the instructors for their amazingly personalized training
-                    approach. Hats of Learnbay, and keep it up.<br />
+                    approach. Hats of Learnbay, and keep it up.
+                    <br />
                     <Image
-                        src="/neeleshc.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/neeleshc.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>
@@ -504,15 +514,15 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     within 9 months. The journey was arduous because I was from
                     the core electronics domain and struggling a lot. Mentors
                     are from MAANG companies and are truly dedicated. I liked
-                    the teaching style of Python trainers.<br />
+                    the teaching style of Python trainers.
+                    <br />
                     <Image
-                        src="/pawanc.png"
-                        layout="intrinsic"
-                        width="400"
-                        height="40"
-                        alt="shezan"
-                        textAlign="center"
-                      />
+                      src="/pawanc.png"
+                      layout="intrinsic"
+                      width="400"
+                      height="40"
+                      alt="shezan"
+                    />
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.imgP}>

@@ -220,8 +220,8 @@ const MultiTabs = () => {
             <div className={styles.right}>
               <Image
                 src="/special-classes-beigneers.webp"
-                width="478"
-                height="492"
+                width="400"
+                height="412"
               />
             </div>
           </div>
@@ -260,7 +260,7 @@ const MultiTabs = () => {
               </div>
             </div>
             <div className={styles.right}>
-              <Image src="/flexibility-support.webp" width="419" height="412" />
+              <Image src="/flexibility-support.webp" width="479" height="412" />
             </div>
           </div>
         ) : (

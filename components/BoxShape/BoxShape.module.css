@@ -14,7 +14,7 @@
   border-radius: 20px;
 }
 .boxIcon {
-  color: #2979ad;
+  color: #0072bc;
   font-size: 60px;
 }
 .box:hover {
@@ -28,7 +28,7 @@
   align-items: center;
   height: max-content;
   padding: 44px 25px;
-  background: #2979ad;
+  background: #0072bc;
   border-radius: 20px;
   -webkit-box-shadow: -11px 26px 31px 0px rgba(41, 121, 173, 0.49);
   -moz-box-shadow: -11px 26px 31px 0px rgba(41, 121, 173, 0.49);
@@ -55,7 +55,7 @@
   align-items: center;
   height: max-content;
   padding: 44px 25px;
-  background: #2979ad;
+  background: #0072bc;
   border-radius: 20px;
   -webkit-box-shadow: -11px 26px 31px 0px rgba(41, 121, 173, 0.49);
   -moz-box-shadow: -11px 26px 31px 0px rgba(41, 121, 173, 0.49);
@@ -75,7 +75,7 @@
 .boxActive h5 {
   z-index: 1;
   font-style: normal;
-  color: #28557a;
+  color: #0072bc;
   font-weight: 700;
   margin: 0;
   font-size: 24px;

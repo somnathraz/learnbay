@@ -16,6 +16,7 @@ import generateRssFeed from "../lib/generateRss";
 import generateCategoryRssFeed from "../lib/geneRateCategoryRss";
 import BoxShape from "../components/BoxShape/BoxShape";
 import MultiTabs from "../components/MultiTabs/MultiTabs";
+import FormSection from "../components/FormSection/FormSection";
 
 export default function Home() {
   return (
@@ -40,7 +41,7 @@ export default function Home() {
       <KeyFeatures />
       <WhyLearnbay />
       <MultiTabs />
-
+      <FormSection />
       <Switch />
       <CareerImpactHome />
       <LearnSupport />
