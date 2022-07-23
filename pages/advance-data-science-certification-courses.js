@@ -36,6 +36,7 @@ import {
   SupportFaqData2,
 } from "../components/FAQ/FaqData";
 import {DataScienceCourseData} from "../Data/DataScienceCourse"
+import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -108,15 +109,15 @@ export default function Home() {
         </div>
         <Certificate />
        
-        <SyllabusNew
-           dataScience={true}
+        {/* <SyllabusNew
+          
            syllabus={DataScienceCourseData[0].syllabus}
            syllabusDesc={DataScienceCourseData[0].syllabusDesc}
            popupHead={DataScienceCourseData[0].popupHead}
-        />
+        /> */}
         <ToolsCovered src="/tools-2.png" />
        <ProgramFee/>
-        <Domain />
+        <SliderTab/>
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+" domain="7+" />
         </div>

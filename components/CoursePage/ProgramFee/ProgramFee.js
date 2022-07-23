@@ -12,6 +12,7 @@ export const ProgramFee = () => {
         <p>We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical.</p>
         
     </div>
+    <div className={styles.wrap}>
       <div className={styles.feeWrapper}>
        
         <div className={styles.left}>
@@ -56,6 +57,7 @@ export const ProgramFee = () => {
             <button>Enroll Now</button>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
