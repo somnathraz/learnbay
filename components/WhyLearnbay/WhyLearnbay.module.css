@@ -1,5 +1,6 @@
 .WhyLearnbay {
   padding: 70px 100px;
+  width: 100%;
 }
 
 .divList {
@@ -8,18 +9,20 @@
 }
 
 .list {
-  padding: 0px 10px;
+  padding: 0px;
   font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .divList p {
   margin: 0px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .tickIcon {
-  color: #2F4EA2;
+  color: #2f4ea2;
   font-size: 16px;
   margin: 0px 5px;
 }
@@ -27,7 +30,8 @@
 .FirstDiv {
   display: grid;
   grid-template-columns: 50% 50%;
-  text-align: center;
+  margin-bottom: 90px;
+
   margin-top: 30px;
   align-items: center;
 }
@@ -35,7 +39,14 @@
 .MiddleDiv {
   display: grid;
   grid-template-columns: 50% 50%;
-  text-align: center;
+  background-image: url("/whylearbay-section2-back.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -100px;
+  margin-right: -100px;
+  padding: 0 100px;
+
   margin-top: 30px;
   align-items: center;
 }
@@ -44,51 +55,65 @@
   background-image: url("/interactive-learning.png");
   height: 100%;
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   border-radius: 10px;
-  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+
   background-position: center;
 }
 
 .MiddleImg {
-  background-image: url("/domain-specialized.png");
+  margin-top: 20px;
   height: 100%;
-  background-size: cover;
-  background-repeat:no-repeat;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
-  background-position: center;
-}
-
-.LastImg {
-  background-image: url("/job-oriented.png");
-  height: 100%;
-  background-size: cover;
-  background-repeat:no-repeat;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
-  background-position: center;
+  margin-bottom: -90px;
 }
 
 .FirstText {
+  display: flex;
+  flex-flow: column;
   padding: 50px;
 }
 
 .FirstText h3 {
   font-size: 30px;
-  color: #000;
+  color: #28557a;
+  margin: 0;
 }
-
+.iconBox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 90%;
+}
+.iconBox p {
+  font-size: 17px;
+  line-height: 26px;
+}
 .DivIcon {
   display: flex;
+  gap: 20px;
+  flex-flow: column;
   margin-top: 30px;
 }
-
+.DivIcon button {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.DivIcon button:hover {
+  background-color: #edb552;
+  border: 0;
+}
+.BIcon {
+  color: white;
+  font-size: 20px;
+}
 .BoxIconuser {
   color: white;
   font-size: 50px;
   padding: 10px;
-  background-color: #DB2222;
+  background-color: #db2222;
   border-radius: 10px;
 }
 
@@ -96,7 +121,7 @@
   color: white;
   font-size: 50px;
   padding: 10px;
-  background-color: #335BB0;
+  background-color: #335bb0;
   border-radius: 10px;
 }
 
@@ -104,7 +129,7 @@
   color: white;
   font-size: 50px;
   padding: 10px;
-  background-color: #2FBA8B;
+  background-color: #2fba8b;
   border-radius: 10px;
 }
 
@@ -112,7 +137,7 @@
   color: white;
   font-size: 50px;
   padding: 10px;
-  background-color: #E0769C;
+  background-color: #e0769c;
   border-radius: 10px;
 }
 
@@ -120,7 +145,7 @@
   color: white;
   font-size: 50px;
   padding: 10px;
-  background-color: #F0A211;
+  background-color: #f0a211;
   border-radius: 10px;
 }
 
@@ -128,7 +153,7 @@
   color: white;
   font-size: 50px;
   padding: 10px;
-  background-color: #B72EE6;
+  background-color: #b72ee6;
   border-radius: 10px;
 }
 
@@ -144,7 +169,7 @@
   .FirstText h3 {
     font-size: 24px;
   }
-  
+
   .divList {
     display: block;
     text-align: center;
@@ -154,26 +179,28 @@
     display: block;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 0;
     align-items: center;
   }
-  
+
   .MiddleDiv {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
     margin-top: 30px;
+    width: 100%;
     align-items: center;
   }
-  
+
   .FirstImg {
-    height: 350px;
+    height: 210px;
   }
-  
+
   .MiddleImg {
     height: 350px;
     width: 100%;
   }
-  
+
   .LastImg {
     height: 350px;
   }

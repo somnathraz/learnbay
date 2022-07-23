@@ -14,7 +14,29 @@
   justify-content: center;
   align-items: center;
 }
-
+.boxShape {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 40px;
+}
+.boxWrap {
+  display: flex;
+  flex-flow: column;
+  padding: 30px 100px;
+}
+.boxWrap h2 {
+  margin: 0;
+  font-size: 37px;
+  text-align: center;
+}
+.boxp {
+  margin: 0px;
+  text-align: center;
+  color: #6c6c6c;
+  font-size: 18px;
+  margin: 5px;
+}
 .footer a {
   display: flex;
   justify-content: center;
@@ -130,7 +152,6 @@
   margin: 70px 100px;
 }
 
-
 .ctj {
   display: grid;
   grid-template-columns: 10% 60% 20%;
@@ -149,7 +170,7 @@
 .cta h6 {
   font-size: 20px;
   font-weight: 600;
-  margin: 0px; 
+  margin: 0px;
   color: #fff;
 }
 .cta p {
@@ -161,9 +182,8 @@
 .ctj h6 {
   font-size: 20px;
   font-weight: 600;
-  margin: 0px; 
-    color: #2D9CD7;
-
+  margin: 0px;
+  color: #2d9cd7;
 }
 .ctj p {
   color: #fff;
@@ -187,14 +207,15 @@
   margin-top: 40px;
 }
 .cta button:hover {
-  background-color: #2D9CD7;
+  background-color: #2d9cd7;
 }
 .ExpertWrapper {
   display: grid;
   grid-template-columns: 20% 80%;
   margin-top: 30px;
   align-items: center;
-  margin: 70px 100px;  margin-bottom: 20px;
+  margin: 70px 100px;
+  margin-bottom: 20px;
 }
 .expert {
   display: flex;
@@ -233,10 +254,34 @@
   color: rgb(103, 103, 103);
 }
 
-
 @media (max-width: 481px) {
   .container {
-    padding: 0 1rem;
+    padding: 0 0rem;
+  }
+  .boxWrap {
+    display: flex;
+    flex-flow: column;
+    padding: 30px 20px;
+  }
+  .boxWrap h2 {
+    margin: 0;
+    font-size: 22px;
+    text-align: center;
+  }
+  .boxp {
+    margin: 0px;
+    text-align: center;
+    color: #6c6c6c;
+    font-size: 14px;
+  }
+  .boxShape {
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
   .cta {
     display: flex;
@@ -289,7 +334,7 @@
     font-size: 22px;
     padding-left: 10px;
     margin-right: 90px;
-    color: #2D9CD7;
+    color: #2d9cd7;
   }
   .ctj p {
     font-size: 18px;

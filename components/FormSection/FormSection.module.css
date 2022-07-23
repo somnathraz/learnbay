@@ -1,0 +1,28 @@
+.fromWrap {
+  padding: 40px 100px;
+  margin: 100px 0;
+  background: #f4fcfe;
+  display: grid;
+  grid-template-columns: 20% 75%;
+  gap: 90px;
+  box-shadow: inset 4px 4px 23px rgba(41, 121, 173, 0.1);
+}
+.fromWrap h5 {
+  font-size: 27px;
+}
+.rightForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.rightFormWrap {
+  position: absolute;
+  background: #ffffff;
+  width: 70%;
+  top: -80px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(41, 121, 173, 0.4);
+  padding: 40px 20px;
+}

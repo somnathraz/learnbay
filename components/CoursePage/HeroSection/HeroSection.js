@@ -3,10 +3,8 @@ import styles from "./HeroSection.module.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";import {
-  FaArrowRight,
-  FaDownload,
-} from "react-icons/fa";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { FaArrowRight, FaDownload } from "react-icons/fa";
 import Image from "next/image";
 import Popup from "/components/Popup/Popup";
 import Form from "/components/Form/Form";
@@ -55,236 +53,58 @@ const HeroSection = ({
       </Popup>
       <div className={styles.left}>
         {mobile ? (
-          <p className="pTop"><b className="pTopp">{mTopPara}</b> <br /><br /> {mTopPara1}</p>
-          
+          <p className="pTop">
+            <b className="pTopp">{mTopPara}</b> <br />
+            <br /> {mTopPara1}
+          </p>
         ) : (
-          <p className="pTop"><b className="pTopp">{deskTopPara}</b> <br /> {deskTopPara1}</p>
-          
+          <p className={styles.pTop}>
+            {deskTopPara} <br /> {deskTopPara1}
+          </p>
         )}
 
         <h1>
-          {title}<br /><span className="spanh1"> {spanTitleText}</span>
-        </h1> 
-        <p className="pBot">{desc}</p>
+          {title} <span> {spanTitleText}</span>
+        </h1>
+        <p className={styles.pBot}>{desc}</p>
         <div className={styles.ButtonDiv}>
           <div className={styles.btnWrapper}>
-            <button onClick={popupShow}>Apply for Counselling<FaArrowRight style={{ marginLeft: "10px" }} /></button>
+            <button onClick={popupShow}>
+              Apply for Counselling
+              <FaArrowRight style={{ marginLeft: "10px" }} />
+            </button>
           </div>
           <div className={styles.btnWrapper}>
-            <a href={srcD} target="_blank"><button className="buttonline">Download Brochure<FaDownload style={{ marginLeft: "10px" }} /></button></a>
+            <a href={srcD} target="_blank">
+              <button className="buttonline">
+                Download Brochure
+                <FaDownload style={{ marginLeft: "10px" }} />
+              </button>
+            </a>
           </div>
         </div>
-        <p className={styles.hPara}>Our Proud Alumni</p>
         <div className={styles.bottom}>
-          <Swiper
-            spaceBetween={mobile ? 30 : -150}
-            centeredSlides={true}
-            slidesPerView={mobile ? 3 : 4}
-            slidesPerGroup={1}
-            loop={true}
-            loopFillGroupWithBlank={true}
-            autoplay={{
-              delay: 1000,
-              disableOnInteraction: false,
-            }}
-            grabCursor={true}
-            modules={[Autoplay]}
-            className="mySwiper"
-          >
-            {mobile ? (
-              <>
-                {" "}
-                <SwiperSlide>
-                <Image src="/1-1-1.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/2-2-2.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/3-3-3.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/4-4-4.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/5-5-5.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/6-6-6.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/7-7-7.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/8-8-8.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/9-9-9.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/10-10-10.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/11.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/12.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/13.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/14.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/15.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/16.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/17.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/18.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/19.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/20.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/21.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/22.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/23.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/24.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/25.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/26.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/27.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/28.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/29.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-              </>
-            ) : (
-              <>
-                {" "}
-                <SwiperSlide>
-                <Image src="/1-1-1.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/2-2-2.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/3-3-3.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/4-4-4.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/5-5-5.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/6-6-6.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/7-7-7.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/8-8-8.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <Image src="/9-9-9.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/10-10-10.png" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/11.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/12.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/13.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/14.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/15.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/16.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/17.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/18.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/19.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/20.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/21.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/22.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/23.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/24.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/25.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/26.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/27.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/28.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image src="/29.webp" alt="Learnbay Alumni" width="80" height="118" />
-                </SwiperSlide>
-              </>
-            )}
-          </Swiper>
+          <div className={styles.leftBottom}>
+            <Image
+              src="/review-course-round.jpg"
+              width="261"
+              height="67"
+              layout="intrinsic"
+            />
+          </div>
+          <div className={styles.rightBottom}>
+            <h5>1.6k Successful</h5>
+            <p>Transition</p>
+          </div>
         </div>
       </div>
       <div className={styles.right}>
         <Image
           src={src}
           alt={alt}
-          quality={100}
           layout="intrinsic"
-          width="600"
-          height="550"
+          width="900"
+          height="762"
         />
       </div>
     </section>

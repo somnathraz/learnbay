@@ -5,7 +5,6 @@ import BottomBar from "../components/BottomBar/BottomBar";
 import React from "react";
 
 function MyApp({ Component, pageProps }) {
-
   return (
     <>
       <Navbar />

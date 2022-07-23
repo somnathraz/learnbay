@@ -1,32 +1,36 @@
-import React from 'react'
-import { RiWhatsappFill } from "react-icons/ri";
-import { FaPhone } from "react-icons/fa";
+import React from "react";
+import { MdCall } from "react-icons/md";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 import styles from "./LearnSupport.module.css";
-
+import Image from "next/image";
 
 function LearnSupport() {
   return (
-    <section className={styles.LearnSupport}>
-        <h4>24/7 Learner’s Support</h4>
-        <div className={styles.learnInner}>
-            <div className={styles.learnInner1}>
-                <p className={styles.Top1}>Got more questions?</p>
-                <p className={styles.Top2}>Talk to our team directly.</p>
-                <p className={styles.Top3}>Reach us and a learning consultant will get in touch with you shortly</p>
-            </div>
-            <div className={styles.learnInner2}>
-            <a href="https://wa.me/+917349222263" target="_blank"><button className={styles.btn1}>
-            Whatsapp
-              <RiWhatsappFill className={styles.bIcon} />
-              </button></a>
-              <a href="tel:+917349222263" target="_blank"><button className={styles.btn2}>
-            +91 73492 22263
-              <FaPhone className={styles.bIcon} />
-            </button></a>
-            </div>
+    <>
+      <h4>24/7 Learner’s Support</h4>
+      <div className={styles.LearnSupport}>
+        <div className={styles.learnInnerR}>
+          <img src="/24-7-support-home.webp" className={styles.img} />
         </div>
-    </section>
-  )
+        <div className={styles.learnInner}>
+          <p className={styles.pTop}>Got more questions?</p>
+          <h5>Talk to our team directly</h5>
+          <p className={styles.pBot}>
+            Reach us and a learning consultant will get in touch with you
+            shortly
+          </p>
+          <div className={styles.btnWrap}>
+            <button className={styles.btn1}>
+              <AiOutlineWhatsApp /> Enquire Now
+            </button>
+            <button className={styles.btn2}>
+              <MdCall /> +91 96069 50936
+            </button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default LearnSupport
+export default LearnSupport;

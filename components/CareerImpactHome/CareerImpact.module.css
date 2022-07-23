@@ -2,9 +2,14 @@
   display: block;
   grid-template-columns: 49% 49%;
   align-items: center;
-  margin: 0px 100px 70px 100px;
+  margin: 70px 100px 70px 100px;
   justify-content: space-between;
   height: 100%;
+}
+.pTop {
+  text-align: center;
+  font-size: 18px;
+  margin: 5px;
 }
 
 .RightUp {
@@ -102,23 +107,52 @@
 .slide {
   padding: 10px 20px;
   display: flex;
-  height: 350px;
+  height: 300px;
+
+  margin-top: 15px;
   flex-flow: column-reverse;
   justify-content: center;
   align-items: flex-start;
-  border-radius: 12px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #2d9cd750;
   border-radius: 10px;
-  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
-  margin-bottom: 30px;
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(41, 121, 173, 0.25);
+  border-radius: 34px;
+  margin-bottom: 45px;
 }
-
-.slide p {
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #2d9cd750;
+.content {
+  display: grid;
+  grid-template-columns: 18% 65% 14%;
+  height: inherit;
+  margin-top: 10px;
+}
+.cIcon {
+  margin-top: 20px;
+}
+.contentRight {
+  margin-top: 20px;
+}
+.para {
+  border-left: 5px solid #2d9cd7;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.leftBottom,
+.rightBottom {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.leftBottomC h5 {
+  margin: 0;
+}
+.leftBottomC p {
+  margin: 0;
+  color: #6c6c6c;
 }
 
 .profile {
@@ -146,7 +180,7 @@
   margin: 0;
 }
 .name h5 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0;
   color: #000;
