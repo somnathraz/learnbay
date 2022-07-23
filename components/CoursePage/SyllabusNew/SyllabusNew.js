@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import styles from "./SyllabusNew.module.css";
 import {
-  MdKeyboardArrowDown,
-  MdKeyboardArrowUp,
+ 
   MdOutlineLiveTv,
   MdOutlineLaptopMac,
 } from "react-icons/md";
+import {AiOutlinePlus, AiOutlineMinus} from "react-icons/ai"
 import {
   AiOutlineFundProjectionScreen,
   AiOutlineFieldTime,
@@ -115,9 +115,9 @@ function SyllabusNew({
 
                         <span>
                           {Module0.open ? (
-                            <MdKeyboardArrowUp className="icon" />
+                            <AiOutlineMinus className="icon" />
                           ) : (
-                            <MdKeyboardArrowDown className="icon" />
+                            <AiOutlinePlus className="icon" />
                           )}
                         </span>
                       </div>
@@ -126,9 +126,9 @@ function SyllabusNew({
                         <h2>{Module0.title}</h2>
                         <span>
                           {Module0.open ? (
-                            <MdKeyboardArrowUp className="icon" />
+                            <AiOutlineMinus className="icon" />
                           ) : (
-                            <MdKeyboardArrowDown className="icon" />
+                            <AiOutlinePlus className="icon" />
                           )}
                         </span>
                       </div>

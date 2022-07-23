@@ -17,7 +17,7 @@ import { FiCheckSquare } from "react-icons/fi";
 import { FaDownload } from "react-icons/fa";
 import {GoDeviceDesktop} from "react-icons/go";
 import {AiOutlineBank} from "react-icons/ai";
-
+import ProjectPopup from "../ProjectPopup/ProjectPopup";
 
 
 
@@ -26,9 +26,19 @@ const Project = ({
   project,
   domain,
 }) => {
+  const [popups, setPopups] = useState(false);
   const [slideNumber, setSlideNumber] = useState(0);
   const [device, setDevice] = useState();
   const listRef = useRef();
+  const [img, setImg] =useState("")
+  const [title, setTitle] =useState("")
+  const [desc, setDesc] =useState("")
+
+  const popupShow = () => {
+    setPopups(true);
+  };
+
+
 
   let slideWidth = 365;
   let slidesNumber = ChangeProject ? 11 : 4;
@@ -50,8 +60,9 @@ const Project = ({
         setDevice(481);
       }
     };
-  });
+  },[title]);
 
+ 
   const handleClick = useCallback(
     (direction) => {
       if (device === 1281) {
@@ -554,7 +565,18 @@ const Project = ({
       </div>
     </div>
   ) : (
+
     <div className={styles.projectHeader}>
+      <ProjectPopup
+      trigger={popups}
+      setTrigger={setPopups}
+      title={title}
+      desc={desc}
+      imgsrc={img}
+      />
+        
+
+      
       <div className={styles.headWrapper}>
         <div className={styles.left}>
           
@@ -638,7 +660,7 @@ const Project = ({
                     like Amazon.
                   </h6> */}
                   <p>
-                  IBM intends to boost their HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.
+                  IBM intends to boost their HR department by identifying employees' masked inconsistency. They need models to identify the graphical....
                   </p>
                   {/* <div className={styles.tool}>
                     <span className={styles.lightBlue}>Mongo</span>
@@ -648,7 +670,10 @@ const Project = ({
                     <span className={styles.lightOrange}>NextJs</span>
                     <span className={styles.lightRed}>SQL</span>
                   </div> */}
-                  <span>Learn More</span>
+                  <span onClick={()=>{popupShow();
+                  setTitle("HR Domain")
+                  setDesc("IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.")
+                  setImg("/Hr-domain-img.png")}}>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>
@@ -673,7 +698,7 @@ const Project = ({
                     scratch.
                   </h6> */}
                   <p>
-                  Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools. They also require proper message preparation and delivery of the same to the right audience at the right time. You can help them with text analytics and NLP-based keyword research solutions.
+                  Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools. They also require proper message preparation and delivery of the same to the right audience at the right time.
                   </p>
                   {/* <div className={styles.tool}>
                     <span className={styles.lightBlue}>React</span>
@@ -683,7 +708,10 @@ const Project = ({
                     <span className={styles.lightOrange}>NextJs</span>
                     <span className={styles.lightRed}>SQL</span>
                   </div> */}
-                   <span>Learn More</span>
+                   <span onClick={()=>{popupShow();
+                  setTitle("Marketing Domain")
+                  setDesc("Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools. They also require proper message preparation and delivery of the same to the right audience at the right time. You can help them with text analytics and NLP-based keyword research solutions")
+                  setImg("/Marketing-domain-img.png")}} >Learn More</span>
 
                 </div>
                 <div style={{position:"absolute"}}>
@@ -713,7 +741,7 @@ const Project = ({
                     design a food delivery app.
                   </h6> */}
                   <p>
-                  This project helped BOSCH to predict their internal failures by production line dataset analysis. But still, they are struggling to predict automated faults in their assembly stage. You can help them by building more advanced predictive models for assembly stage monitoring.
+                  This project helped BOSCH to predict their internal failures by production line dataset analysis. But still, they are struggling to predict automated faults in their assembly stage....
                   </p>
                   {/* <div className={styles.tool}>
                     <span className={styles.lightBlue}>React</span>
@@ -723,7 +751,10 @@ const Project = ({
                     <span className={styles.lightOrange}>Deploy</span>
                     <span className={styles.lightRed}>SQL</span>
                   </div> */}
-                   <span>Learn More</span>
+                   <span onClick={()=>{popupShow();
+                  setTitle("Sales Domain")
+                  setDesc("BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects.")
+                  setImg("/Sales-domain.png")}}>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>
@@ -748,7 +779,7 @@ const Project = ({
                     and backend.{" "}
                   </h6> */}
                   <p>
-                  BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects.
+                  BMW allows existing customers to sell used cars, but many competitors are now offering better resale values.....
                   </p>
                   {/* <div className={styles.tool}>
                     <span className={styles.lightBlue}>React</span>
@@ -758,6 +789,10 @@ const Project = ({
                     <span className={styles.lightOrange}>NextJs</span>
                     <span className={styles.lightRed}>SQL</span>
                   </div> */}
+                  <span onClick={()=>{popupShow();
+                  setTitle("Supply chain Domain")
+                  setDesc("An automated inventory management system will keep track of stock levels and upcoming orders. In addition, you can contribute to DataCo's intelligent supply chain software generation project by using ML algorithms and R programming skills.")
+                  setImg("/supplyChain.png")}}>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>

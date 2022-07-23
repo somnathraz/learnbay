@@ -21,6 +21,9 @@ import Domain from "../components/CoursePage/Domain/Domain";
 import Fee from "../components/CoursePage/Fee/Fee";
 import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
+import {ProgramFee} from "../components/CoursePage/ProgramFee/ProgramFee";
+
+
 import React, { useState } from "react";
 import {
   FaqData2,
@@ -112,7 +115,7 @@ export default function Home() {
            popupHead={DataScienceCourseData[0].popupHead}
         />
         <ToolsCovered src="/tools-2.png" />
-       
+       <ProgramFee/>
         <Domain />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+" domain="7+" />

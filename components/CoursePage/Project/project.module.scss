@@ -143,6 +143,7 @@
                 color: #0072BC;
               }
               .rIcon{
+
                 color: #0072BC;
                 font-size: 40px;
               }
@@ -165,7 +166,7 @@
 
         .wrapper {
           position: relative;
-          height: max-content;
+          height: 350px;
 
           .sliderArrowLeft {
             width: 40px;
@@ -236,13 +237,14 @@
             .project {
               margin-top: 40px;
               width: 400px;
+             
               margin-right: 45px;
               padding: 0px 0px;
-              height: max-content;
+              height: 280px;
               background-image: url("/project-background.png");
               border-image-width: 20px;
               background-position: center center;
-              background-size: contain  ;
+              background-size: cover;
               background-repeat: no-repeat;
               border-radius: 15px;
               background-color: white;
@@ -282,14 +284,15 @@
                 }
               }
               .body {
-                padding: 10px 20px;
+                padding: 10px 50px;
                 display: flex;
                 flex-flow: column;
                 justify-content: center;
                 span{
                   color: #0072BC;
                   text-align: center;
-                  margin: auto;
+                  margin: auto;cursor: pointer;
+                
                   border-bottom: 2px dotted #0072BC;
                 }
                 h6 {
