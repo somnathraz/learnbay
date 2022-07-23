@@ -1,6 +1,8 @@
 .certificate {
     padding: 0px 100px;
     margin-top: 40px;
+    display: grid;
+    grid-template-columns: 49% 49%;
 }
 
 .certificate h2 {
@@ -64,7 +66,7 @@
 }
 
 .leftSideP {
-        box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
+       
         padding: 50px;
         width: 100%;
         border-radius: 8px;
@@ -83,24 +85,30 @@
 .leftSide h6,
 .middleSide h6,
 .rightSide h6 {
-    color: #000000;
+    color: #0072BC;
+    margin: 0;
+   
+    margin-top: 20px;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
 }
-
+.contentDiv{
+padding-left: 20px;
+}
 .leftSide p,
 .middleSide p,
 .rightSide p {
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
 .checkCircle {
     margin-right: 15px;
+    font-size: 24px;
     color: #2D9CD7;
 }
 

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import styles from "./Fee.module.css";
 import Popup from "/components/Popup/Popup";
 import Form from "/components/Form/Form";
+import Image from "next/image";
+import {BsArrowRight}from "react-icons/bs";
 
 const Fee = ({
   sub1,
@@ -60,7 +62,7 @@ const Fee = ({
           <div className={styles.first}>
             <span
               className={styles.Price}
-              style={{ marginBottom: "65px", marginTop: "0px" }}
+              style={{ marginBottom: "95px", marginTop: "0px" }}
             >
               Program Features
             </span>
@@ -185,9 +187,10 @@ const Fee = ({
       ) : (
         <div className={styles.priceTable}>
           <div className={styles.first}>
+            <Image src="/code.svg" width="40" height="40"/>
             <span
               className={styles.Price}
-              style={{ marginBottom: "25px", marginTop: "0px" }}
+              style={{ marginBottom: "30px", marginTop: "0px" }}
             >
               Program Features
             </span>
@@ -199,9 +202,16 @@ const Fee = ({
             <span className={styles.PFeatures}> Job Referrals</span>
             <span className={styles.PFeatures}>Job Guarantee / Money Back</span>
             <span className={styles.PFeatures}>Targeted Job Roles</span>
+            <BsArrowRight/>
           </div>
 
-          <div className={hover ? styles.fourth : styles.third}>
+          <div className={ styles.third}
+           onMouseEnter={() => {
+            setHover(true);
+          }}
+          onMouseLeave={() => {
+            setHover(false);
+          }}>
           <span className={styles.sub}>{sub1}</span>
             <span className={styles.Price}>{Price1}</span>
             <span className={styles.PFeatures}>{PFeatures11}</span>
@@ -223,13 +233,8 @@ const Fee = ({
             </span>
           </div>
           <div
-            className={styles.fourth}
-            onMouseEnter={() => {
-              setHover(true);
-            }}
-            onMouseLeave={() => {
-              setHover(false);
-            }}
+            className={hover ? styles.third : styles.fourth}
+           
           >
             <span className={styles.sub}>{sub2}</span>
             <span className={styles.Price}>{Price2}</span>
@@ -246,13 +251,13 @@ const Fee = ({
             </span>
             <span className={styles.PFeatures}>{PFeatures28}</span>
             <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
-              <button className={styles.outButton} onClick={popupShow}>
+              <button className={styles.button} onClick={popupShow}>
                 Enrol Now
               </button>
             </span>
           </div>
           <div
-            className={styles.fourth}
+            className={styles.third}
             onMouseEnter={() => {
               setHover(true);
             }}
@@ -275,7 +280,7 @@ const Fee = ({
             </span>
             <span className={styles.PFeatures}>{PFeatures38}</span>
             <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
-              <button className={styles.outButton} onClick={popupShow}>
+              <button className={styles.button} onClick={popupShow}>
                 Enrol Now
               </button>
             </span>

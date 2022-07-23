@@ -7,45 +7,49 @@ const HowApply = ({
 }) => {
   return (
     <section className={styles.HowApply}>
-        <h4>How to Apply</h4>
-        <div className={styles.HowApplyDiv}>
-            <div className={styles.HowApplyInner}>
-            <Image
-            src="/bookacall.png"
-            alt="Certificate"
-            quality={100}
-            layout="intrinsic"
-            width="50px"
-            height="50px"
-          />
-                <p className={styles.pBotC}>Step 1:<b>&nbsp;Book a Call</b></p>
-                <p className={styles.pBotC}>Get your profile reviewed by our Career Expert.</p>
+        <h4>How to <span>Apply</span></h4>
+        <div className={styles.aboutContent}>
+            <div className={styles.left}>
+              <Image src="/call.svg" width="34" height="34" />
+              <img
+                src="/1_Project.svg"
+                width="73"
+                height="95"
+                className={styles.Numbers}
+              />
+              <h6><span>Book </span>a Call</h6>
+            
+              <p >
+              Get your profile reviewed by our Career Expert
+              </p>
             </div>
-            <div className={styles.HowApplyInner}>
-            <Image
-            src="/getenrolled.png"
-            alt="Certificate"
-            quality={100}
-            layout="intrinsic"
-            width="50px"
-            height="50px"
-          />
-                <p className={styles.pBotC}>Step 2:<b>&nbsp;Get Enrolled</b></p>
-                <p className={styles.pBotC}>{CCourse}</p>
+            <div className={styles.Middle}>
+              <Image src="/Enrolled.svg" width="34" height="34" />
+              <img
+                src="/icons 2_Count.png"
+                width="73"
+                height="95"
+                className={styles.Numbers}
+              />
+              <h6>Get Enrolled</h6>
+              <p>
+              Enroll in Advanced Data Science & AI Program with Domain Specialization
+              </p>
             </div>
-            <div className={styles.HowApplyInner}>
-            <Image
-            src="/getplaced.png"
-            alt="Certificate"
-            quality={100}
-            layout="intrinsic"
-            width="50px"
-            height="50px"
-          />
-                <p className={styles.pBotC}>Step 3:<b>&nbsp;Get Placed</b></p>
-                <p className={styles.pBotC}>Get 100% interview Guarantee accompanied by IBM Certification.</p>
+            <div className={styles.Right}>
+              <Image src="/placed.svg" width="34" height="34" />
+              <img
+                src="/icons 3_Count.png"
+                width="73"
+                height="95"
+                className={styles.Numbers}
+              />
+              <h6>Get Placed</h6>
+              <p>
+              Get 100% interview Guarantee accompanied by IBM Certification
+              </p>
             </div>
-        </div>
+          </div>
     </section>
   )
 }

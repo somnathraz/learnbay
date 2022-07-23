@@ -32,6 +32,7 @@ import {
   MentorshipFaqData2,
   SupportFaqData2,
 } from "../components/FAQ/FaqData";
+import {DataScienceCourseData} from "../Data/DataScienceCourse"
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -103,136 +104,20 @@ export default function Home() {
           </div>
         </div>
         <Certificate />
-        <OtherCertificate
-          OCHead1="Python for Data Science Certificate"
-          OCP1="Get certified on your advanced python skills."
-          OCHead2="Data Science Tools"
-          OCP2="Certification to DS tools handling - Jupyter, Tableau, etc."
-          OCHead3="Machine Learning with Python"
-          OCP3="Validate your python expertise for ML algo designing."
-          OCHead4="Data Science Methodology"
-          OCP4="Be certified expert of applying variable DS methodologies."
-        />
-        <section className={styles.HiringPartner}>
-          <div>
-            <h4 style={{ marginBottom: "20px", textAlign: "center" }}>
-              In Collaboration with 250+ Hiring Partners
-            </h4>
-            <span className={styles.HiringPartnerB}>
-              <Image
-                src="/hiring-2.jpg"
-                alt="Certificate"
-                quality={100}
-                layout="intrinsic"
-                width="1150px"
-                height="350px"
-              />
-            </span>
-          </div>
-        </section>
+       
         <SyllabusNew
-          HoursSyllabus="275"
-          HoursSyllabusText="Hours Syllabus"
-          Projects="12"
-          ProjectsText="DS & AI Projects"
-          Sessions="100"
-          SessionsText="Live Learning Sessions"
-          JobSessions="8"
-          JobSessionsText="Job Oriented Sessions"
-          Modules="15"
-          ModulesText="Tools & Modules"
-          syllabush1="Preparatory Classes (Programming + Maths)"
-          syllabusb1="6 Hours"
-          SyllabusBotlist11="Anaconda Installation"
-          SyllabusBotlist12="Basics of Programming"
-          SyllabusBotlist13="Memory Management"
-          SyllabusBotlist14="Compiler and Interpreter"
-          SyllabusBotlist15="Syntax of Python"
-          SyllabusBotlist16="Basics of Statistics"
-          syllabush2="Python Programming (Basic + Advance)"
-          syllabusb2="40 Hours"
-          SyllabusBotlist21="Git and GitHub"
-          SyllabusBotlist22="Operators + Data Types + Loops"
-          SyllabusBotlist23="Functions + Regular Expression"
-          SyllabusBotlist24="Conditional Statement"
-          SyllabusBotlist25="File & Exceptional Handling"
-          SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
-          syllabush3="Statistics and Machine Learning"
-          syllabusb3="70 Hours"
-          SyllabusBotlist31="Linear Algebra, Probability"
-          SyllabusBotlist32="Permutation & Combination"
-          SyllabusBotlist33="Descriptive & Inferential Stats"
-          SyllabusBotlist34="Hypothesis Testing"
-          SyllabusBotlist35="Time Series Analysis"
-          SyllabusBotlist36="ML Algorithms"
-          syllabush4="Industrial Projects &
-    Capstone Projects"
-          syllabusb4="
-    12+ Classes"
-          SyllabusBotlist41="Text Classification"
-          SyllabusBotlist42="Human Activity Recognition"
-          SyllabusBotlist43="Forecasting Business KPI's"
-          SyllabusBotlist44="Credit Risk Analysis"
-          SyllabusBotlist45="Customer Churn Prediction"
-          SyllabusBotlist46="Sentiment Analysis"
-          syllabush5="Data Science &
-    AI Tools"
-          syllabusb5="184+ Hours"
-          SyllabusBotlist51="Advance Excel"
-          SyllabusBotlist52="SQL + MongoDB"
-          SyllabusBotlist53="Tableau + PowerBI"
-          SyllabusBotlist54="Deep Learning + NLP"
-          SyllabusBotlist55="Big Data + Business Analytics"
-          SyllabusBotlist56="Deployment (AWS + GCP)"
-          syllabush6="Job Orientation
-    (Interview Prep)"
-          syllabusb6="8+ Classes"
-          SyllabusBotlist61="Resume Built-Up Session"
-          SyllabusBotlist62="1-1 Mock Interviews"
-          SyllabusBotlist63="Job Referrals"
-          SyllabusBotlist64="LinkedIn Profile Building"
-          SyllabusBotlist65="Alumni Portal Access"
-          SyllabusBotlist66="Target Top MNCs & Startups"
-          syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf"
+           dataScience={true}
+           syllabus={DataScienceCourseData[0].syllabus}
+           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+           popupHead={DataScienceCourseData[0].popupHead}
         />
         <ToolsCovered src="/tools-2.png" />
-        <SkillsCovered
-          sc11="Data Collection"
-          sc12="Data Understanding"
-          sc13="Data Cleaning"
-          sc14="Data Munging"
-          sc15="Data Warehousing"
-          sc16="Domain Expertise"
-          sc21="Data Exploration"
-          sc22="Data Preprocessing"
-          sc23="Data Analysis"
-          sc24="Statistical Analysis"
-          sc25="PCA Analysis"
-          sc26="Dashboard and Storytelling"
-          sc31="Feature Engineering"
-          sc32="Hyper Parameter Tuning"
-          sc33="Model Creation"
-          sc34="Model Deployment"
-          sc35="Critical Thinking"
-          sc36="Function & Formulas"
-        />
+       
         <Domain />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+" domain="7+" />
         </div>
-        <div className={styles.cta}>
-          <div className={styles.left}></div>
-          <div className={styles.middle}>
-            <h6>Talk to our team directly.</h6>
-            <p>
-              Reach out and a learning consultant will get in touch with you
-              shortly.
-            </p>
-          </div>
-          <div className={styles.right}>
-            <button onClick={popupShow}>Enquire Now</button>
-          </div>
-        </div>
+       
         <HowApply CCourse="Enroll in Advanced Data Science & AI Program with Domain Specialization." />
         <Fee
           sub1="Data Science and AI Foundation Program"

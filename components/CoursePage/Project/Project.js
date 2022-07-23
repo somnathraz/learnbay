@@ -12,9 +12,11 @@ import {
 import { BsPaypal, BsFillCreditCard2BackFill } from "react-icons/bs";
 import { AiOutlineCar, AiFillMobile } from "react-icons/ai";
 import Image from "next/image";
-import { BsCheck2All } from "react-icons/bs";
+import { BsCheck2All, BsCheck2 } from "react-icons/bs";
 import { FiCheckSquare } from "react-icons/fi";
 import { FaDownload } from "react-icons/fa";
+import {GoDeviceDesktop} from "react-icons/go";
+import {AiOutlineBank} from "react-icons/ai";
 
 
 
@@ -555,39 +557,42 @@ const Project = ({
     <div className={styles.projectHeader}>
       <div className={styles.headWrapper}>
         <div className={styles.left}>
-          <p className={styles.sub}>Industry–Partnered Capstone Projects</p>
-          <h3>Hands-on Projects</h3><div className={styles.iconWrapper}>
+          
+          <h3>Hands-on Projects</h3>
+          
+        <div className={styles.iconWrapper}>
         <div className={styles.middle}>
-          <BsCheck2All className={styles.icon} />
+          <BsCheck2 className={styles.icon} />
           <p>Practice with Latest Tools</p>
         </div>
         <div className={styles.middle}>
-          <BsCheck2All className={styles.icon} />
+          <BsCheck2 className={styles.icon} />
           <p>Designed by Industry Experts</p>
         </div>
         <div className={styles.middle}>
-          <BsCheck2All className={styles.icon} />
+          <BsCheck2 className={styles.icon} />
           <p>Get Real-world Experience</p>
         </div>
       </div>
-        </div>
-        <div className={styles.right}>
-          <div className={styles.red}>
-            <h3>{project}</h3>
-            <p>
-              Projects <br />
-              Available
-            </p>
+      <div className={styles.projectNumb}>
+        <div className={styles.leftProjectNumb}>
+          <GoDeviceDesktop className={styles.lIcon}/> 
+          <div>
+            <h5>12+ Projects</h5>
+            <p>Available</p>
           </div>
-          <div className={styles.blue}>
-            <h3>{domain}</h3>
-            <p>
-              Cities with <br />
-              Hybrid Model
+        </div>
+        <div className={styles.rightProjectNumb}>
+        <AiOutlineBank className={styles.rIcon} /> 
+          <div>
+            <h5>7+ Cities</h5>
+            <p>with Hybrid Model</p>
+          </div>
+        </div>
 
-            </p>
-          </div>
+      </div>
         </div>
+      
       </div>
       {/* <div className={styles.iconWrapper}>
         <div className={styles.left}>
@@ -622,8 +627,8 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="450"
-            height="120px"
+            width="90"
+            height="45"
           />
                   </div>
                 </div>
@@ -643,6 +648,7 @@ const Project = ({
                     <span className={styles.lightOrange}>NextJs</span>
                     <span className={styles.lightRed}>SQL</span>
                   </div> */}
+                  <span>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>
@@ -656,8 +662,8 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="450"
-            height="120px"
+            width="90"
+            height="45"
           />
                   </div>
                 </div>
@@ -677,7 +683,13 @@ const Project = ({
                     <span className={styles.lightOrange}>NextJs</span>
                     <span className={styles.lightRed}>SQL</span>
                   </div> */}
+                   <span>Learn More</span>
+
                 </div>
+                <div style={{position:"absolute"}}>
+                <img src="/shadow.png" width="380" height="60" />
+                </div>
+              
               </div>
               <div className={styles.project}>
                 <div className={styles.header}>
@@ -690,8 +702,8 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="450"
-            height="120px"
+            width="90"
+            height="45"
           />
                   </div>
                 </div>
@@ -711,6 +723,7 @@ const Project = ({
                     <span className={styles.lightOrange}>Deploy</span>
                     <span className={styles.lightRed}>SQL</span>
                   </div> */}
+                   <span>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>
