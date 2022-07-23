@@ -10,7 +10,7 @@ function LearnSupport() {
       <h4>24/7 Learner’s Support</h4>
       <div className={styles.LearnSupport}>
         <div className={styles.learnInnerR}>
-          <img src="/24-7-support-home.webp" className={styles.img} />
+          <img src="/24-7-support-home.webp" width="100%" className={styles.img} />
         </div>
         <div className={styles.learnInner}>
           <p className={styles.pTop}>Got more questions?</p>

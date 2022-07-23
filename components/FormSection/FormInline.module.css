@@ -195,3 +195,16 @@
   grid-template-columns: 49% 49%;
   gap: 10px;
 }
+
+@media (max-width: 600px) {
+
+.formGrid {
+  width: 100%;
+  display: block;
+}
+
+.formWrappers {
+  width: 100%;
+}
+  
+}

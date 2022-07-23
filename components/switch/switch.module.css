@@ -60,12 +60,27 @@
   .switch {
     display: block;
     justify-content: center;
+    margin-top: 30px;
   }
 
   .head {
-    padding: 30px 0px;
+    padding: 30px 20px;
+    display: block;
+    margin: 20px;
+    gap: 0px;
   }
   .switchInner {
     margin-bottom: 15px;
   }
+
+  .img {
+    margin: 0px;
+  }
+.switch span {
+  display: none !important;
+}
+.head h4 {
+  text-align: center;
+}
+
 }

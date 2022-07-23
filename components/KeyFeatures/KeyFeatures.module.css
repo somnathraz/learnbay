@@ -88,7 +88,7 @@
     display: block;
     flex-flow: column;
     padding: 0px;
-    margin-top: 30px;
+    margin: 40px 20px;
   }
   .FeatureWrap {
     margin-top: 30px;
@@ -101,12 +101,12 @@
     padding: 20px;
   }
   .RightWrap {
-    background-image: url("/Hiring_Logo.webp");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 230px;
     margin-top: 20px;
+    padding: 20px;
   }
   .topHead {
     font-size: 24px;
@@ -114,4 +114,7 @@
     text-align: center;
     font-weight: 500;
   }
+.btn {
+  margin-left: 0px; 
+}
 }

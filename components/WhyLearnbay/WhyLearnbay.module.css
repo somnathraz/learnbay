@@ -93,6 +93,7 @@
   gap: 20px;
   flex-flow: column;
   margin-top: 30px;
+  align-items: center;
 }
 .DivIcon button {
   width: max-content;
@@ -158,12 +159,12 @@
 }
 
 .iconBox p {
-  margin: 5px;
+  margin: 0px;
 }
 
 @media (max-width: 600px) {
   .WhyLearnbay {
-    padding: 50px 0px;
+    padding: 0px 0px;
   }
 
   .FirstText h3 {
@@ -178,18 +179,18 @@
   .FirstDiv {
     display: block;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 0;
     align-items: center;
+    margin: 30px 20px 0px 20px;
   }
 
   .MiddleDiv {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
-    margin-top: 30px;
-    width: 100%;
+    padding: 10px;
+    width: auto;
     align-items: center;
+    margin: 40px 0px;
   }
 
   .FirstImg {
@@ -208,4 +209,7 @@
   .FirstText {
     padding: 20px;
   }
+.iconBox {
+  width: 100%;
+}
 }
