@@ -21,7 +21,7 @@ import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
 import { FaqData1, PaymentFaqData1, CapstoneFaqData1, CertificationFaqData1, jobFaqData1, MentorshipFaqData1, SupportFaqData1 } from "../components/FAQ/FaqData";
-
+import {DataScienceCourseData} from "../Data/DataScienceCourse"
  
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -128,69 +128,11 @@ export default function Home() {
         </div>
     </section>
     <SyllabusNew
-    HoursSyllabus="225"
-    HoursSyllabusText="Hours Syllabus"
-    Projects="8"
-    ProjectsText="Data Science Projects"
-    Sessions="100"
-    SessionsText="Live Learning Sessions"
-    JobSessions="4"
-    JobSessionsText="Job Oriented Sessions"
-    Modules="10"
-    ModulesText="Tools & Modules"
-    syllabush1="Preparatory Classes (Programming + Maths)"
-    syllabusb1="6 Hours"
-    SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of Programming"
-    SyllabusBotlist13="Memory Management"
-    SyllabusBotlist14="Compiler and Interpreter"
-    SyllabusBotlist15="Syntax of Python"
-    SyllabusBotlist16="Basics of Statistics"
-    syllabush2="Python Programming (Basic + Advance)"
-    syllabusb2="40 Hours"
-    SyllabusBotlist21="Git and GitHub"
-    SyllabusBotlist22="Operators + Data Types + Loops"
-    SyllabusBotlist23="Functions + Regular Expression"
-    SyllabusBotlist24="Conditional Statement"
-    SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
-    syllabush3="Statistics and Machine Learning"
-    syllabusb3="70 Hours"
-    SyllabusBotlist31="Linear Algebra, Probability"
-    SyllabusBotlist32="Permutation & Combination"
-    SyllabusBotlist33="Descriptive & Inferential Stats"
-    SyllabusBotlist34="Hypothesis Testing"
-    SyllabusBotlist35="Time Series Analysis"
-    SyllabusBotlist36="ML Algorithms"
-    syllabush4="Industrial Projects &
-    Capstone Projects"
-    syllabusb4="6+ Classes"
-    SyllabusBotlist41="Review Classification Mode"
-    SyllabusBotlist42="Build a Logistic Regression Model"
-    SyllabusBotlist43="Forecasting Business KPI’s"
-    SyllabusBotlist44="Credit Risk Analysis"
-    SyllabusBotlist45="Sentiment Analysis"
-    SyllabusBotlist46="Loan Eligibility Prediction"
-    syllabush5="Data Science Tools"
-    syllabusb5="116+ Hours"
-    SyllabusBotlist51="Advance Excel"
-    SyllabusBotlist52="SQL + MongoDB"
-    SyllabusBotlist53="Tableau"
-    SyllabusBotlist54="PowerBI"
-    SyllabusBotlist55="Big Data & Spark Analytics"
-    SyllabusBotlist56="Time Series"
-    syllabush6="Job Orientation
-    (Interview Prep)"
-    syllabusb6="4+ Classes"
-    SyllabusBotlist61="Resume Built-Up Session"
-    SyllabusBotlist62="1-1 Mock Interviews"
-    SyllabusBotlist63="Job Referrals"
-    SyllabusBotlist64="LinkedIn Profile Building"
-    SyllabusBotlist65="Alumni Portal Access"
-    SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+Foundation+Program.pdf"
-
-    />
+          
+          syllabus={DataScienceCourseData[0].syllabus}
+          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          popupHead={DataScienceCourseData[0].popupHead}
+       />
       <ToolsCovered 
       src="/tools-1.png"
       />

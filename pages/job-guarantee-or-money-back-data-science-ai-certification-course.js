@@ -22,7 +22,7 @@ import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData5, DomainFaqData5, PaymentFaqData5, CapstoneFaqData5, CertificationFaqData5, jobFaqData5, MentorshipFaqData5, SupportFaqData5 } from "../components/FAQ/FaqData";
-
+import {DataScienceCourseData} from "../Data/DataScienceCourse"
  
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -130,70 +130,11 @@ export default function Home() {
         </div>
     </section>
     <SyllabusNew
-    HoursSyllabus="400"
-    HoursSyllabusText="Hours Syllabus"
-    Projects="15"
-    ProjectsText="DS/AI Projects"
-    Sessions="100"
-    SessionsText="Live Learning Sessions"
-    JobSessions="10"
-    JobSessionsText="Job Oriented Sessions"
-    Modules="18"
-    ModulesText="Tools & Modules"
-    syllabush1="Preparatory Classes (Programming + Maths)"
-    syllabusb1="6 Hours"
-    SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of Programming"
-    SyllabusBotlist13="Memory Management"
-    SyllabusBotlist14="Compiler and Interpreter"
-    SyllabusBotlist15="Syntax of Python"
-    SyllabusBotlist16="Basics of Statistics"
-    syllabush2="Python Programming (Basic + Advance)"
-    syllabusb2="40 Hours"
-    SyllabusBotlist21="Git and GitHub"
-    SyllabusBotlist22="Operators + Data Types + Loops"
-    SyllabusBotlist23="Functions + Regular Expression"
-    SyllabusBotlist24="Conditional Statement"
-    SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
-    syllabush3="Statistics and Machine Learning"
-    syllabusb3="70 Hours"
-    SyllabusBotlist31="Linear Algebra, Probability"
-    SyllabusBotlist32="Permutation & Combination"
-    SyllabusBotlist33="Descriptive & Inferential Stats"
-    SyllabusBotlist34="Hypothesis Testing"
-    SyllabusBotlist35="Time Series Analysis"
-    SyllabusBotlist36="ML Algorithms"
-    syllabush4="Industrial Projects &
-    Capstone Projects"
-    syllabusb4="15+ Classes"
-    SyllabusBotlist41="Hybrid Recommender System"
-    SyllabusBotlist42="Build Streaming Data Pipeline"
-    SyllabusBotlist43="Analytical Platform for Ecommerce"
-    SyllabusBotlist44="Airline Dataset Analysis"
-    SyllabusBotlist45="Image Classifier"
-    SyllabusBotlist46="House Price Prediction"
-    syllabush5="Data Science &
-    AI Tools"
-    syllabusb5="303+ Hours"
-    SyllabusBotlist51="SQL + MongoDB"
-    SyllabusBotlist52="Tableau + PowerBI"
-    SyllabusBotlist53="DL + NLP + Time Series"
-    SyllabusBotlist54="Big Data Analytics"
-    SyllabusBotlist55="Business Analytics + GCP"
-    SyllabusBotlist56="CV + RL + DSA"
-    syllabush6="Job Orientation
-    (Interview Prep)"
-    syllabusb6="10+ Classes"
-    SyllabusBotlist61="Resume Built-Up Session"
-    SyllabusBotlist62="1-1 Mock Interviews"
-    SyllabusBotlist63="Job Referrals"
-    SyllabusBotlist64="LinkedIn Profile Building"
-    SyllabusBotlist65="Alumni Portal Access"
-    SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf"
-
-    />
+          
+           syllabus={DataScienceCourseData[0].syllabus}
+           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+           popupHead={DataScienceCourseData[0].popupHead}
+        />
       <ToolsCovered 
       src="/tools-job.png"
       />

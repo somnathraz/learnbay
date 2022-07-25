@@ -23,7 +23,7 @@ import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered"
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData4, DomainFaqData4, PaymentFaqData4, CapstoneFaqData4, CertificationFaqData4, jobFaqData4, MentorshipFaqData4, SupportFaqData4 } from "../components/FAQ/FaqData";
-
+import {DataScienceCourseData} from "../Data/DataScienceCourse"
 
  
 export default function Home() {
@@ -138,71 +138,11 @@ export default function Home() {
         </div>
     </section>
     <SyllabusNew
-    HoursSyllabus="350"
-    HoursSyllabusText="Hours Syllabus"
-    Projects="15"
-    ProjectsText="DS/AI Projects"
-    Sessions="100"
-    SessionsText="Live Learning Sessions"
-    JobSessions="10"
-    JobSessionsText="Job Oriented Sessions"
-    Modules="16"
-    ModulesText="Tools & Modules"
-    syllabush1="Preparatory Classes (Programming + Maths)"
-    syllabusb1="6 Hours"
-    SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of Programming"
-    SyllabusBotlist13="Memory Management"
-    SyllabusBotlist14="Compiler and Interpreter"
-    SyllabusBotlist15="Syntax of Python"
-    SyllabusBotlist16="Basics of Statistics"
-    syllabush2="Python Programming (Basic + Advance)"
-    syllabusb2="40 Hours"
-    SyllabusBotlist21="Git and GitHub"
-    SyllabusBotlist22="Operators + Data Types + Loops"
-    SyllabusBotlist23="Functions + Regular Expression"
-    SyllabusBotlist24="Conditional Statement"
-    SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc"
-    syllabush3="Statistics and Machine Learning"
-    syllabusb3="70 Hours"
-    SyllabusBotlist31="Linear Algebra, Probability"
-    SyllabusBotlist32="Permutation & Combination"
-    SyllabusBotlist33="Descriptive & Inferential Stats"
-    SyllabusBotlist34="Hypothesis Testing"
-    SyllabusBotlist35="Time Series Analysis"
-    SyllabusBotlist36="ML Algorithms"
-    syllabush4="Industrial Projects &
-    Capstone Projects"
-    syllabusb4="
-    12+ Classes"
-    SyllabusBotlist41="Text Classification"
-    SyllabusBotlist42="Human Activity Recognition"
-    SyllabusBotlist43="Forecasting Business KPI's"
-    SyllabusBotlist44="Credit Risk Analysis"
-    SyllabusBotlist45="Customer Churn Prediction"
-    SyllabusBotlist46="Sentiment Analysis"
-    syllabush5="DS &
-    AI Tools"
-    syllabusb5="244+ Hours"
-    SyllabusBotlist51="SQL + MongoDB"
-    SyllabusBotlist52="Tableau + PowerBI"
-    SyllabusBotlist53="Deep Learning + NLP"
-    SyllabusBotlist54="Big Data + Business Analytics"
-    SyllabusBotlist55="Deployment (AWS + GCP)"
-    SyllabusBotlist56="Domain + Project Expertise"
-    syllabush6="Job Orientation
-    (Interview Prep)"
-    syllabusb6="10+ Classes"
-    SyllabusBotlist61="Resume Built-Up Session"
-    SyllabusBotlist62="1-1 Mock Interviews"
-    SyllabusBotlist63="Job Referrals"
-    SyllabusBotlist64="LinkedIn Profile Building"
-    SyllabusBotlist65="Alumni Portal Access"
-    SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+For+Managers+and+Leaders+Program.pdf"
-
-    />
+          
+          syllabus={DataScienceCourseData[0].syllabus}
+          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          popupHead={DataScienceCourseData[0].popupHead}
+       />
       <ToolsCovered 
       src="/tools-2.png"
       />
