@@ -22,6 +22,7 @@ import Fee from "../components/CoursePage/Fee/Fee";
 import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
 import {ProgramFee} from "../components/CoursePage/ProgramFee/ProgramFee";
+import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 
 
 import React, { useState } from "react";
@@ -37,6 +38,8 @@ import {
 } from "../components/FAQ/FaqData";
 import {DataScienceCourseData} from "../Data/DataScienceCourse"
 import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -98,15 +101,9 @@ export default function Home() {
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
         </div>
-        <CareerImpact CareerHead="Career Impact" />
-        <div className={styles.ExpertWrapper}>
-          <div className={styles.expert}>
-            <h5>Our experts are from:</h5>
-          </div>
-          <div className={styles.expertBody}>
-            <OurExpert />
-          </div>
-        </div>
+     <DomainFaq FaqData={DomainFaqCourseData1}/>
+       
+       <CourseReview/>
         <Certificate />
        
         <SyllabusNew

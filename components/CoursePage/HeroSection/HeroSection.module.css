@@ -30,14 +30,15 @@
     color: #000000;
   }
   .left h1 span {
-    color: #0072bc;
+    color: white;
     margin: 0;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    width: max-content;
     font-size: 36px;
-    padding-bottom: 43px;
-    margin-bottom: 10px;
-    background-image: url("/Vector-5-line.svg");
-    background-position: 0 3.7rem;
-    background-repeat: no-repeat;
+    background-color: #edb552;
+ 
   }
   .pBot {
     margin-top: 60px;
