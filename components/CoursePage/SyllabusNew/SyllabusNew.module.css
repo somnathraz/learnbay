@@ -169,7 +169,7 @@ border-radius: 17px
     margin-bottom: 70px;
   
   }
-  .PProgramInner p, .PProgrammains p {
+  .PProgramInner div, .PProgrammains p {
     display: flex;
     gap: 8px;
     align-items: center;

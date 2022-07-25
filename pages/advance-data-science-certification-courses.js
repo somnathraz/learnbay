@@ -109,12 +109,12 @@ export default function Home() {
         </div>
         <Certificate />
        
-        {/* <SyllabusNew
+        <SyllabusNew
           
            syllabus={DataScienceCourseData[0].syllabus}
            syllabusDesc={DataScienceCourseData[0].syllabusDesc}
            popupHead={DataScienceCourseData[0].popupHead}
-        /> */}
+        />
         <ToolsCovered src="/tools-2.png" />
        <ProgramFee/>
         <SliderTab/>
