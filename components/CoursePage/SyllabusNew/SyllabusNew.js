@@ -143,13 +143,13 @@ function SyllabusNew({
                               <h5>{content.chap.title}</h5>
                               {content.chap.desc.map((desc, i) => {
                                 return (
-                                  <>
+                                  <div key={i}>
                                     {desc === "" ? (
                                       ""
                                     ) : (
                                       <li key={desc}>{desc}</li>
                                     )}
-                                  </>
+                                  </div>
                                 );
                               })}
                             </div>
@@ -174,27 +174,27 @@ function SyllabusNew({
               <p><span>Program High</span>lights</p>
             </div>
             <div className={styles.PProgramInner}>
-              <p>
+              <div>
                 <MdOutlineLiveTv className={styles.PIcons} />
-              <div className={styles.cContent}>
+              <p className={styles.cContent}>
                 350+ Hours<br/><span>Live sessions</span> 
-                </div>
-              </p>
-              <p>
+                </p>
+              </div>
+              <div>
                 <AiOutlineFundProjectionScreen className={styles.PIcons} />
-                <div className={styles.cContent}>
-                15+ Industry<br/><span> Projects</span></div>
-              </p>
-              <p>
+                <p className={styles.cContent}>
+                15+ Industry<br/><span> Projects</span></p>
+              </div>
+              <div>
                 <AiOutlineFieldTime className={styles.PIcons} />
-                <div className={styles.cContent}>
-                Life time <br/><span>accessibility</span></div>
-              </p>
-              <p>
+                <p className={styles.cContent}>
+                Life time <br/><span>accessibility</span></p>
+              </div>
+              <div>
                 <MdOutlineLaptopMac className={styles.PIcons} />
-                <div className={styles.cContent}>
-                Live project <br/><span>experience</span></div>
-              </p>
+                <p className={styles.cContent}>
+                Live project <br/><span>experience</span></p>
+              </div>
             </div>
           </div>
           <div className={styles.PProgrammains} style={{ marginTop: "20px" }}>

@@ -4,6 +4,7 @@ export const viewAllD = [
     img: "/advance-data-science-and-ai.webp",
     title: "Data Science",
     title1: "Foundation Program",
+    tag:"Data science",
     para: [
       "225 hours of Interactive Learning",
       "8 Projects + 1 Capstone",
@@ -18,7 +19,7 @@ export const viewAllD = [
     img: "/advance-data-science-and-ai.webp",
     title: "Advanced Data Science",
     title1: "and AI Program",
-
+    tag:"Data science",
     para: [
       "275 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -33,6 +34,7 @@ export const viewAllD = [
     img: "/Data-science-course-2nd.webp",
     title: "Advance AI and ML Program",
     title1: "for Tech Professionals",
+    tag:"Data science",
     para: [
       "300 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -47,6 +49,7 @@ export const viewAllD = [
     img: "/data -science-AI-Mangers.webp",
     title: "Data Science and AI for ",
     title1: "Managers & Leaders Program",
+    tag:"Data science",
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -61,7 +64,7 @@ export const viewAllD = [
     img: "/data-science-job-guarantee.webp",
     title: "Data Science and AI with ",
     title1: "Job Guarantee Program",
-
+    tag:"Data science",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
@@ -76,6 +79,7 @@ export const viewAllD = [
     img: "/Data-Analytics-1.png",
     title: "Data Analytics",
     title1: "Program",
+    tag:"Data Analytics",
     para: [
       "180 hours of Interactive Learning",
       "5 Projects",
@@ -90,6 +94,7 @@ export const viewAllD = [
     img: "/DABA.png",
     title: "Business Analytics",
     title1: "Program",
+    tag:"Business Analytics",
     para: [
       "200 hours of Interactive Learning",
       "5 Projects",
@@ -104,6 +109,7 @@ export const viewAllD = [
     img: "/full-stack-web-developer.webp",
     title: "Full-Stack Web ",
     title1: "Development Program",
+    tag:"Full stack",
     para: [
       "350 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -118,6 +124,7 @@ export const viewAllD = [
     img: "/Full-stack-software-development-home-course.webp",
     title: "Full-Stack Software",
     title1: "Development Program",
+    tag:"ull Stack",
     para: [
       "400 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
