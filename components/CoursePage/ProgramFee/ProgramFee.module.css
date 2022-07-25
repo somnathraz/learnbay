@@ -1,0 +1,543 @@
+@media (min-width: 1281px) {
+    .header{
+        display: flex;
+        flex-flow: column;
+        padding: 30px 100px;
+        align-items: center;
+    }
+    .header h5{
+        font-size: 36px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .header p{
+        text-align: center;
+    }
+    .wrap{
+      display: flex;
+      width: 100;
+      justify-content: center;
+      padding: 30px 100px;
+      background-image: url("/fee-background.png");
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      align-items: center;
+    }
+    .feeWrapper {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      
+      width: 70%;
+      background: #FFFFFF;
+box-shadow: 0px 0px 10px rgba(0, 114, 188, 0.25);
+border-radius: 20px;
+    }
+    .feeWrapper .left {
+      background-color: white;
+      padding: 20px 40px;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      border-radius: 4px 0 0 4px;
+    }
+    .feeWrapper .left h6 {
+      color: #EDB552;
+      font-size: 16px;
+      text-align: center;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+    }
+    .feeWrapper .left p {
+      color: black;
+      font-size: 16px;
+      text-align: center;
+      padding: 0 40px;
+    }
+    .feeWrapper .left .bottom {
+      
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .feeWrapper .left .bottom h5 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #EDB552;
+      margin: 0;
+      text-align: center;
+    }
+    .feeWrapper .left .bottom button {
+      outline: none;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border: 0;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+     background-color: #EDB552;
+     color: white;
+      padding: 10px 20px;
+      border-radius: 4px;
+      width: max-content;
+    }
+    .feeWrapper .right {
+      padding: 20px 40px;
+      border-left: 1px solid grey;
+      border-radius: 0 4px 4px 0;
+    }
+    .feeWrapper .right h6 {
+      font-size: 16px;
+      text-align: center;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+    }
+    .feeWrapper .right p {
+      font-size: 16px;
+      text-align: center;
+      padding: 0 40px;
+    }
+    .feeWrapper .right .bottom {
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .feeWrapper .right .bottom div {
+      display: flex;
+      width: 100%;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .feeWrapper .right .bottomS h5{
+margin: 0;
+text-align: center;
+font-size: 28px;
+color: #0072BC;
+    }
+    .feeWrapper .right .bottomS button{
+        margin: auto;
+        outline: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+       color: white;
+        padding: 10px 20px;
+        border-radius: 4px;
+        width: max-content;
+    }
+    .feeWrapper .right .bottom p {
+      font-weight: bold;
+      margin: 0;
+      padding: 20px;
+    }
+    .feeWrapper .right .bottom .lefts .icon {
+      color: #0072BC;
+      font-size: 30px;
+    }
+    .feeWrapper .right .bottom .center .icon {
+      color: #0072BC;
+      font-size: 30px;
+    }
+    .feeWrapper .right .bottom .rights .icon {
+      color: #0072BC;
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 1280px) {
+    .feeWrapper {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+    .feeWrapper .left {
+      background-color: #0d4a9b;
+      padding: 20px 40px;
+      border-radius: 4px 0 0 4px;
+    }
+    .feeWrapper .left h6 {
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+    }
+    .feeWrapper .left p {
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      padding: 0 40px;
+    }
+    .feeWrapper .left .bottom {
+      margin-top: 40%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .feeWrapper .left .bottom h5 {
+      font-size: 28px;
+      font-weight: 800;
+      color: white;
+      margin: 0;
+      text-align: center;
+    }
+    .feeWrapper .left .bottom .button {
+      outline: none;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border: 0;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 4px;
+      width: 30%;
+    }
+    .feeWrapper .right {
+      padding: 20px 40px;
+      border: 2px solid #0d4a9b;
+      border-radius: 0 4px 4px 0;
+    }
+    .feeWrapper .right h6 {
+      font-size: 16px;
+      text-align: center;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+    }
+    .feeWrapper .right p {
+      font-size: 16px;
+      text-align: center;
+      padding: 0 40px;
+    }
+    .feeWrapper .right .bottom {
+      margin-top: 45%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .feeWrapper .right .bottom div {
+      display: flex;
+      width: 100%;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .feeWrapper .right .bottom p {
+      font-weight: bold;
+      margin: 0;
+      padding: 20px;
+    }
+    .feeWrapper .right .bottom .lefts .icon {
+      color: #f2b66e;
+      font-size: 30px;
+    }
+    .feeWrapper .right .bottom .center .icon {
+      color: #f26275;
+      font-size: 30px;
+    }
+    .feeWrapper .right .bottom .rights .icon {
+      color: #5cb0e2;
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 1025px) {
+    .feeWrapper {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+    .feeWrapper .left {
+      background-color: #0d4a9b;
+      padding: 20px 40px;
+      border-radius: 4px 0 0 4px;
+    }
+    .feeWrapper .left h6 {
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+    }
+    .feeWrapper .left p {
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      padding: 0 40px;
+    }
+    .feeWrapper .left .bottom {
+      margin-top: 40%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .feeWrapper .left .bottom h5 {
+      font-size: 28px;
+      font-weight: 800;
+      color: white;
+      margin: 0;
+      text-align: center;
+    }
+    .feeWrapper .left .bottom .button {
+      outline: none;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 80%;
+      cursor: pointer;
+      border: 0;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 4px;
+    }
+    .feeWrapper .right {
+      padding: 20px 40px;
+      border: 2px solid #0d4a9b;
+      border-radius: 0 4px 4px 0;
+    }
+    .feeWrapper .right h6 {
+      font-size: 16px;
+      text-align: center;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+    }
+    .feeWrapper .right p {
+      font-size: 16px;
+      text-align: center;
+      padding: 0 40px;
+    }
+    .feeWrapper .right .bottom {
+      margin-top: 45%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .feeWrapper .right .bottom div {
+      display: flex;
+      width: 100%;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .feeWrapper .right .bottom p {
+      font-weight: bold;
+      margin: 0;
+      padding: 20px;
+    }
+    .feeWrapper .right .bottom .lefts .icon {
+      color: #f2b66e;
+      font-size: 30px;
+    }
+    .feeWrapper .right .bottom .center .icon {
+      color: #f26275;
+      font-size: 30px;
+    }
+    .feeWrapper .right .bottom .rights .icon {
+      color: #5cb0e2;
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 600px) {
+    .feeWrapper {
+      display: flex;
+      flex-flow: column;
+    }
+    .feeWrapper .left {
+      background-color: #0d4a9b;
+      padding: 20px 20px;
+      border-radius: 4px 0 0 4px;
+    }
+    .feeWrapper .left h6 {
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+    }
+    .feeWrapper .left p {
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      padding: 0 40px;
+    }
+    .feeWrapper .left .bottom {
+      margin-top: 20%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .feeWrapper .left .bottom h5 {
+      font-size: 28px;
+      font-weight: 800;
+      color: white;
+      margin: 0;
+      text-align: center;
+    }
+    .feeWrapper .left .bottom .button {
+      outline: none;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border: 0;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 4px;
+      width: 30%;
+    }
+    .feeWrapper .right {
+      padding: 20px 20px;
+      border: 2px solid #0d4a9b;
+      border-radius: 0 4px 4px 0;
+    }
+    .feeWrapper .right h6 {
+      font-size: 16px;
+      text-align: center;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+    }
+    .feeWrapper .right p {
+      font-size: 16px;
+      text-align: center;
+      padding: 0 40px;
+    }
+    .feeWrapper .right .bottom {
+      margin-top: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .feeWrapper .right .bottom div {
+      display: flex;
+      width: 100%;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .feeWrapper .right .bottom p {
+      font-weight: bold;
+      margin: 0;
+      padding: 20px;
+    }
+    .feeWrapper .right .bottom .lefts .icon {
+      color: #f2b66e;
+      font-size: 30px;
+    }
+    .feeWrapper .right .bottom .center .icon {
+      color: #f26275;
+      font-size: 30px;
+    }
+    .feeWrapper .right .bottom .rights .icon {
+      color: #5cb0e2;
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 481px) {
+    .feeWrapper {
+      display: flex;
+      flex-flow: column;
+    }
+    .feeWrapper .left {
+      background-color: #0d4a9b;
+      padding: 20px 0px;
+      border-radius: 4px 0 0 4px;
+    }
+    .feeWrapper .left h6 {
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+    }
+    .feeWrapper .left p {
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      padding: 0 10px;
+    }
+    .feeWrapper .left .bottom {
+      margin-top: 20%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .feeWrapper .left .bottom h5 {
+      font-size: 28px;
+      font-weight: 800;
+      color: white;
+      margin: 0;
+      text-align: center;
+    }
+    .feeWrapper .left .bottom .button {
+      outline: none;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border: 0;
+      cursor: pointer;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 4px;
+      width: 50%;
+    }
+    .feeWrapper .right {
+      padding: 20px 0px;
+      border: 2px solid #0d4a9b;
+      border-radius: 0 4px 4px 0;
+    }
+    .feeWrapper .right h6 {
+      font-size: 16px;
+      text-align: center;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+    }
+    .feeWrapper .right p {
+      font-size: 16px;
+      text-align: center;
+      padding: 0 10px;
+    }
+    .feeWrapper .right .bottom {
+      margin-top: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .feeWrapper .right .bottom div {
+      display: flex;
+      width: 100%;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .feeWrapper .right .bottom p {
+      font-weight: bold;
+      margin: 0;
+      padding: 20px;
+    }
+    .feeWrapper .right .bottom .lefts .icon {
+      color: #f2b66e;
+      font-size: 30px;
+    }
+    .feeWrapper .right .bottom .center .icon {
+      color: #f26275;
+      font-size: 30px;
+    }
+    .feeWrapper .right .bottom .rights .icon {
+      color: #5cb0e2;
+      font-size: 30px;
+    }
+  }

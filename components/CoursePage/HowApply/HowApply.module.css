@@ -1,7 +1,10 @@
 .HowApply {
     margin: 70px 100px 70px 100px;
 }
-
+.HowApply h4 span{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #edb552;
+}
 .pBotC {
     font-size: 18px;
     display: flex;
@@ -9,31 +12,78 @@
 }
 
 
-.HowApplyDiv {
+.aboutContent {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 22% 22% 18%;
+    padding-left: 100px;
+    align-items: center;
     justify-content: center;
-    margin: 0px 20px 0px 20px;
-}
+  
+    gap: 20px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    margin-right: -20px;
+    margin-bottom: 40px;
+  }
 
-.HowApplyInner {
-    padding: 30px;
-    margin: 10px;
-    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 3px 0px 0px 0px;
-    border-color: #2D9CD7;
-}
+  .aboutContent div {
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+  }
+  .aboutContent .Middle{
+    padding: 10px 40px;
+  }
+  .aboutContent .Right{
+    padding: 10px 30px;
+  }
+  
+  .aboutContent h6 {
+    font-size: 18px;
+    margin: 0;
+    color: #0072BC;
+    position: relative;
+    margin-top:5px;
+    z-index: 10;
+  }
+  .aboutContent p {
+    margin: 0;
+    position: relative;
+    font-size: 14px;
+    color: #3d3d3d;
+    margin-top: 5px;
+    line-height: 1.4em;
+    margin-bottom: 5px;
+    z-index: 10;
+  }
+  .aboutContent .left p{
+    margin-top: 20px;
+    padding-right: 57px;
+  }
+  .aboutContent .left h6 span{
+border-bottom: 3px solid #0072BC;
+padding-bottom: 5px;
+margin-bottom: 10px;
+  }
+  
+  .Numbers {
+    position: absolute;
+    right: 90px;
+    z-index: 0;
+  }
+  .aboutContent .Middle .Numbers{
+    right: 70px;
+  }
+  .aboutContent .Right .Numbers{
+    right: 30px;
+  }
 
-@media (max-width: 481px) {
-    .HowApply {
-        margin: 30px 0px 30px 0px;
-    }
-
-    .HowApplyDiv {
-        display: flex;
-        margin: 0px;
-        flex-direction: column;
-    }
-}
+  @media (max-width: 481px){
+  .aboutContent {
+    display: flex;
+    flex-flow: column;
+    padding-left: 10px;
+    margin-right: 0;
+    align-items: center;
+    justify-content: center;
+  }}
