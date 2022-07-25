@@ -247,7 +247,7 @@ font-weight: 600;
       margin: 30px 10px;
       display: flex;
       flex-flow: column;
-      gap: 70px;
+      gap: 30px;
     }
   }
   
@@ -255,7 +255,7 @@ font-weight: 600;
     .Syllabus {
       display: grid;
       grid-template-columns: auto;
-      margin: 50px 10px;
+      margin: 50px 20px;
     }
   
     .syllabusLeft {

@@ -337,7 +337,7 @@
     margin: 70px 0px 0px 0px;
   }
   .left {
-    padding: 30px 0px 0px 0px;
+    padding: 30px 20px 0px 20px;
     display: flex;
     flex-flow: column;
   }

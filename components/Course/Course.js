@@ -32,7 +32,6 @@ const Course = () => {
   const filtteredForProgrammersD = ForProgrammersD.filter((post)=> post.tag === "Data science")
   const filtteredForProgrammersF = ForProgrammersD.filter((post)=> post.tag === "Full stack")
   const filtteredNonProgrammerD = ForNonProgrammerD.filter((post)=> post.tag === "Data science")
-  const filtteredNonProgrammerF = ForNonProgrammerD.filter((post)=> post.tag === "Full stack")
   const filtteredJobGuaranteeD = JobGuaranteeD.filter((post)=> post.tag === "Data science")
   const filtteredJobGuaranteeF = JobGuaranteeD.filter((post)=> post.tag === "Full stack")
   const filtteredStackD = StackD.filter((post)=> post.tag === "Data science")
@@ -175,7 +174,7 @@ const Course = () => {
         </div>
         {viewAll ? (
           <>          
-           <h5>Data Science</h5>
+           <h5>Data Science (7) </h5>
           <div className={styles.gridPanel}>
            
           <Swiper
@@ -242,7 +241,7 @@ const Course = () => {
             })}
             </Swiper>
           </div>
-          <h5>Full Stack</h5>
+          <h5>Full Stack (3) </h5>
           <div className={styles.gridPanel}>
            
 
@@ -305,7 +304,7 @@ const Course = () => {
         )}
         {oneYear ? (
           <>          
-          <h5>Data Science</h5>
+          <h5>Data Science (4) </h5>
          <div className={styles.gridPanel}>
           
          <Swiper
@@ -372,7 +371,7 @@ const Course = () => {
            })}
            </Swiper>
          </div>
-         <h5>Full Stack</h5>
+         <h5>Full Stack (2) </h5>
          <div className={styles.gridPanel}>
           
 
@@ -435,7 +434,7 @@ const Course = () => {
        )}
         {nonTech ? (
           <>          
-          <h5>Data Science</h5>
+          <h5>Data Science (6) </h5>
          <div className={styles.gridPanel}>
           
          <Swiper
@@ -509,7 +508,7 @@ const Course = () => {
        )}
         {Guarantee ? (
           <>          
-          <h5>Data Science</h5>
+          <h5>Data Science (1) </h5>
          <div className={styles.gridPanel}>
           
          <Swiper
@@ -576,7 +575,7 @@ const Course = () => {
            })}
            </Swiper>
          </div>
-         <h5>Full Stack</h5>
+         <h5>Full Stack (1) </h5>
          <div className={styles.gridPanel}>
           
 
@@ -639,7 +638,7 @@ const Course = () => {
        )}
         {Stack ? (
           <>          
-         <h5>Full Stack</h5>
+         <h5>Full Stack (3) </h5>
          <div className={styles.gridPanel}>
           
 

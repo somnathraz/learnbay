@@ -135,6 +135,21 @@ export const viewAllD = [
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
   },
+  {
+    id: 10,
+    img: "/Full-stack-software-development-home-course.webp",
+    title: "DSA & ",
+    title1: "System Design",
+    tag:"Full stack",
+    para: [
+      "200 hours of Interactive Learning",
+      "12 Projects + 2 Capstones",
+      "Course Fee : ₹ 70,000 + GST",
+    ],
+    link1: "/dsa-system-design",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
+  },
 ];
 export const ForProgrammersD = [
   {
@@ -382,6 +397,21 @@ export const StackD = [
       "Course Fee : ₹ 1,10,000 + GST",
     ],
     link1: "/full-stack-software-development-program",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
+  },
+  {
+    id: 3,
+    img: "/Full-stack-software-development-home-course.webp",
+    title: "DSA & ",
+    title1: "System Design",
+    tag:"Full stack",
+    para: [
+      "200 hours of Interactive Learning",
+      "12 Projects + 2 Capstones",
+      "Course Fee : ₹ 70,000 + GST",
+    ],
+    link1: "/dsa-system-design",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
   },

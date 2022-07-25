@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
@@ -14,11 +13,8 @@ import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
-import OtherCertificate from "../components/CoursePage/OtherCertificate/OtherCertificate";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
-import Domain from "../components/CoursePage/Domain/Domain";
 import Fee from "../components/CoursePage/Fee/Fee";
-import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
 import {ProgramFee} from "../components/CoursePage/ProgramFee/ProgramFee";
 
