@@ -79,7 +79,7 @@ export const viewAllD = [
     img: "/Data-Analytics-1.png",
     title: "Data Analytics",
     title1: "Program",
-    tag:"Data Analytics",
+    tag:"Data science",
     para: [
       "180 hours of Interactive Learning",
       "5 Projects",
@@ -94,7 +94,8 @@ export const viewAllD = [
     img: "/DABA.png",
     title: "Business Analytics",
     title1: "Program",
-    tag:"Business Analytics",
+    tag:"Data science",
+
     para: [
       "200 hours of Interactive Learning",
       "5 Projects",
@@ -124,7 +125,7 @@ export const viewAllD = [
     img: "/Full-stack-software-development-home-course.webp",
     title: "Full-Stack Software",
     title1: "Development Program",
-    tag:"ull Stack",
+    tag:"Full stack",
     para: [
       "400 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -140,6 +141,7 @@ export const ForProgrammersD = [
     id: 1,
     img: "/advance-data-science-and-ai.webp",
     title: "Advanced Data Science",
+    tag:"Data science",
     title1: "and AI Program",
     para: [
       "275 hours of Interactive Learning",
@@ -154,6 +156,7 @@ export const ForProgrammersD = [
     id: 2,
     img: "/Full-stack-software-development-home-course.webp",
     title: "Full-Stack Software",
+    tag:"Full stack",
     title1: "Development Program",
     para: [
       "400 hours of Interactive Learning",
@@ -168,6 +171,7 @@ export const ForProgrammersD = [
     id: 3,
     img: "/data -science-AI-Mangers.webp",
     title: "Data Science and AI for ",
+    tag:"Data science",
     title1: "Managers & Leaders Program",
     para: [
       "350 hours of Interactive Learning",
@@ -182,6 +186,7 @@ export const ForProgrammersD = [
     id: 4,
     img: "/Data-science-course-2nd.webp",
     title: "Advance AI and ML Program",
+    tag:"Data science",
     title1: "for Tech Professionals",
     para: [
       "300 hours of Interactive Learning",
@@ -196,6 +201,7 @@ export const ForProgrammersD = [
     id: 5,
     img: "/full-stack-web-developer.webp",
     title: "Full-Stack Web ",
+    tag:"Full stack",
     title1: "Development Program",
     para: [
       "350 hours of Interactive Learning",
@@ -211,6 +217,7 @@ export const ForProgrammersD = [
     img: "/data-science-job-guarantee.webp",
     title: "Data Science and AI with ",
     title1: "Job Guarantee Program",
+    tag:"Data science",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
@@ -227,6 +234,7 @@ export const ForNonProgrammerD = [
     img: "/AI-Certificatiom-for-pro.png",
     title: "Data Science",
     title1: "Foundation Program",
+    tag:"Data science",
     para: [
       "225 hours of Interactive Learning",
       "8 Projects + 1 Capstone",
@@ -241,7 +249,7 @@ export const ForNonProgrammerD = [
     img: "/advance-data-science-and-ai.webp",
     title: "Advanced Data Science",
     title1: "and AI Program",
-
+    tag:"Data science",
     para: [
       "275 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -256,6 +264,7 @@ export const ForNonProgrammerD = [
     img: "/Data-science-course-2nd.webp",
     title: "Advance AI and ML Program",
     title1: "for Tech Professionals",
+    tag:"Data science",
     para: [
       "300 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -270,6 +279,7 @@ export const ForNonProgrammerD = [
     img: "/data -science-AI-Mangers.webp",
     title: "Data Science and AI for ",
     title1: "Managers & Leaders Program",
+    tag:"Data science",
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -284,7 +294,7 @@ export const ForNonProgrammerD = [
     img: "/data-science-job-guarantee.webp",
     title: "Data Science and AI with ",
     title1: "Job Guarantee Program",
-
+    tag:"Data science",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
@@ -299,6 +309,8 @@ export const ForNonProgrammerD = [
     img: "/DABA.png",
     title: "Business Analytics",
     title1: "Program",
+    tag:"Data science",
+
     para: [
       "200 hours of Interactive Learning",
       "5 Projects",
@@ -316,6 +328,7 @@ export const JobGuaranteeD = [
     img: "/data-science-job-guarantee.webp",
     title: "Data Science and AI with ",
     title1: "Job Guarantee Program",
+    tag:"Data science",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
@@ -330,6 +343,7 @@ export const JobGuaranteeD = [
     img: "/full-stack-web-developer.webp",
     title: "Full-Stack Web ",
     title1: "Development Program",
+    tag:"Full stack",
     para: [
       "350 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -346,6 +360,7 @@ export const StackD = [
     img: "/full-stack-web-developer.webp",
     title: "Full-Stack Web ",
     title1: "Development Program",
+    tag:"Full stack",
     para: [
       "350 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -360,6 +375,7 @@ export const StackD = [
     img: "/Full-stack-software-development-home-course.webp",
     title: "Full-Stack Software",
     title1: "Development Program",
+    tag:"Full stack",
     para: [
       "400 hours of Interactive Learning",
       "12 Projects + 2 Capstones",

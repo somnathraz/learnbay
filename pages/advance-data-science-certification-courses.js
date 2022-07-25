@@ -34,7 +34,7 @@ import {
   MentorshipFaqData2,
   SupportFaqData2,
 } from "../components/FAQ/FaqData";
-import {DataScienceCourseData} from "../Data/DataScienceCourse"
+import {DataScienceCourseData} from "../Data/DataScienceCourse";
 import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
 
 export default function Home() {

@@ -27,9 +27,16 @@ const Course = () => {
   const [Stack, setStack] = useState(false);
   const [mobile, setMobile] = useState(false);
 
-
   const filtteredViewAllD = viewAllD.filter((post)=> post.tag === "Data science")
   const filtteredViewAllF = viewAllD.filter((post)=> post.tag === "Full stack")
+  const filtteredForProgrammersD = ForProgrammersD.filter((post)=> post.tag === "Data science")
+  const filtteredForProgrammersF = ForProgrammersD.filter((post)=> post.tag === "Full stack")
+  const filtteredNonProgrammerD = ForNonProgrammerD.filter((post)=> post.tag === "Data science")
+  const filtteredNonProgrammerF = ForNonProgrammerD.filter((post)=> post.tag === "Full stack")
+  const filtteredJobGuaranteeD = JobGuaranteeD.filter((post)=> post.tag === "Data science")
+  const filtteredJobGuaranteeF = JobGuaranteeD.filter((post)=> post.tag === "Full stack")
+  const filtteredStackD = StackD.filter((post)=> post.tag === "Data science")
+  const filtteredStackF = StackD.filter((post)=> post.tag === "Full stack")
   return (
     <div className={styles.Course} id="course">
       <h2>Industry Accredited Certification For Professionals</h2>
@@ -183,7 +190,7 @@ const Course = () => {
             {
            
           filtteredViewAllD.map((viewAllData) => {
-              const { id, title, title1, img, para, link1, link2,tag } =
+              const { id, title, title1, img, para, link1, link2 } =
                 viewAllData;
               return (
                <SwiperSlide  className={styles.leftSide}>
@@ -242,7 +249,7 @@ const Course = () => {
            {
            
          filtteredViewAllF.map((viewAllData) => {
-             const { id, title, title1, img, para, link1, link2,tag } =
+             const { id, title, title1, img, para, link1, link2 } =
                viewAllData;
              return (
                <div className={styles.leftSide} key={id}>
@@ -297,225 +304,402 @@ const Course = () => {
           ""
         )}
         {oneYear ? (
-          <div className={styles.gridPanel}>
-            {ForProgrammersD.map((viewAllData) => {
-              const { id, title, title1, img, para, link1, link2 } =
-                viewAllData;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  />
-                  <div className={styles.contentBox}>
-                    <h6>{title}</h6>
-                    <h6>{title1}</h6>
-                    <p>
-                      <BiTimeFive className={styles.checkCircle} />
-                      {para[0]}
-                    </p>
-                    <p>
-                      <AiOutlineFundProjectionScreen
-                        className={styles.checkCircle}
-                        style={{ color: "#edb552" }}
-                      />
-                      {para[1]}
-                    </p>
-                    <p>
-                      <TbCurrencyRupee className={styles.checkCircle} />
-                      {para[2]}
-                    </p>
-                    <div className={styles.btnWrapper}>
-                      <a href={link1}>
-                        <button>View Details</button>
-                      </a>
-                      <a href={link2} target="_blank">
-                        <button
-                          className="outLineBtn"
-                          style={{ padding: "8px 15px" }}
-                        >
-                          Brochure
-                          <FiDownload
-                            className="bIcon"
-                            style={{ color: "#2979AD" }}
-                          />
-                        </button>
-                      </a>
-                    </div>
+          <>          
+          <h5>Data Science</h5>
+         <div className={styles.gridPanel}>
+          
+         <Swiper
+            slidesPerView={mobile ? 1 : 3}
+            spaceBetween={mobile ? 10 : 20}
+            navigation={true}
+            grabCursor={true}
+           
+            modules={[ Navigation]}
+            className="mySwiper"
+          >
+           {
+          
+          filtteredForProgrammersD.map((viewAllData) => {
+             const { id, title, title1, img, para, link1, link2 } =
+               viewAllData;
+             return (
+              <SwiperSlide  className={styles.leftSide}>
+               <div key={id}>
+                 <img
+                   src={img}
+                   layout="intrinsic"
+                   className={styles.courseImg}
+                 />
+                 <div className={styles.contentBox}>
+                   <h6>{title}</h6>
+                   <h6>{title1}</h6>
+                   <p>
+                     <BiTimeFive className={styles.checkCircle} />
+                     {para[0]}
+                   </p>
+                   <p>
+                     <AiOutlineFundProjectionScreen
+                       className={styles.checkCircle}
+                       style={{ color: "#edb552" }}
+                     />
+                     {para[1]}
+                   </p>
+                   <p>
+                     <TbCurrencyRupee className={styles.checkCircle} />
+                     {para[2]}
+                   </p>
+                   <div className={styles.btnWrapper}>
+                     <a href={link1}>
+                       <button>View Details</button>
+                     </a>
+                     <a href={link2} target="_blank">
+                       <button
+                         className="outLineBtn"
+                         style={{ padding: "8px 15px" }}
+                       >
+                         Brochure
+                         <FiDownload
+                           className="bIcon"
+                           style={{ color: "#2979AD" }}
+                         />
+                       </button>
+                     </a>
+                   </div>
+                 </div>
+               </div>
+               </SwiperSlide>
+             );
+           })}
+           </Swiper>
+         </div>
+         <h5>Full Stack</h5>
+         <div className={styles.gridPanel}>
+          
+
+          {
+          
+          filtteredForProgrammersF.map((viewAllData) => {
+            const { id, title, title1, img, para, link1, link2 } =
+              viewAllData;
+            return (
+              <div className={styles.leftSide} key={id}>
+                <img
+                  src={img}
+                  layout="intrinsic"
+                  className={styles.courseImg}
+                />
+                <div className={styles.contentBox}>
+                  <h6>{title}</h6>
+                  <h6>{title1}</h6>
+                  <p>
+                    <BiTimeFive className={styles.checkCircle} />
+                    {para[0]}
+                  </p>
+                  <p>
+                    <AiOutlineFundProjectionScreen
+                      className={styles.checkCircle}
+                      style={{ color: "#edb552" }}
+                    />
+                    {para[1]}
+                  </p>
+                  <p>
+                    <TbCurrencyRupee className={styles.checkCircle} />
+                    {para[2]}
+                  </p>
+                  <div className={styles.btnWrapper}>
+                    <a href={link1}>
+                      <button>View Details</button>
+                    </a>
+                    <a href={link2} target="_blank">
+                      <button
+                        className="outLineBtn"
+                        style={{ padding: "8px 15px" }}
+                      >
+                        Brochure
+                        <FiDownload
+                          className="bIcon"
+                          style={{ color: "#2979AD" }}
+                        />
+                      </button>
+                    </a>
                   </div>
                 </div>
-              );
-            })}
-          </div>
-        ) : (
-          ""
-        )}
+              </div>
+            );
+          })}
+        </div>
+         </>
+
+       ) : (
+         ""
+       )}
         {nonTech ? (
-          <div className={styles.gridPanel}>
-            {ForNonProgrammerD.map((viewAllData) => {
-              const { id, title, title1, img, para, link1, link2 } =
-                viewAllData;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  />
-                  <div className={styles.contentBox}>
-                    <h6>{title}</h6>
-                    <h6>{title1}</h6>
-                    <p>
-                      <BiTimeFive className={styles.checkCircle} />
-                      {para[0]}
-                    </p>
-                    <p>
-                      <AiOutlineFundProjectionScreen
-                        className={styles.checkCircle}
-                        style={{ color: "#edb552" }}
-                      />
-                      {para[1]}
-                    </p>
-                    <p>
-                      <TbCurrencyRupee className={styles.checkCircle} />
-                      {para[2]}
-                    </p>
-                    <div className={styles.btnWrapper}>
-                      <a href={link1}>
-                        <button>View Details</button>
-                      </a>
-                      <a href={link2} target="_blank">
-                        <button
-                          className="outLineBtn"
-                          style={{ padding: "8px 15px" }}
-                        >
-                          Brochure
-                          <FiDownload
-                            className="bIcon"
-                            style={{ color: "#2979AD" }}
-                          />
-                        </button>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        ) : (
-          ""
-        )}
+          <>          
+          <h5>Data Science</h5>
+         <div className={styles.gridPanel}>
+          
+         <Swiper
+            slidesPerView={mobile ? 1 : 3}
+            spaceBetween={mobile ? 10 : 20}
+            navigation={true}
+            grabCursor={true}
+           
+            modules={[ Navigation]}
+            className="mySwiper"
+          >
+           {
+          
+          filtteredNonProgrammerD.map((viewAllData) => {
+             const { id, title, title1, img, para, link1, link2 } =
+               viewAllData;
+             return (
+              <SwiperSlide  className={styles.leftSide}>
+               <div key={id}>
+                 <img
+                   src={img}
+                   layout="intrinsic"
+                   className={styles.courseImg}
+                 />
+                 <div className={styles.contentBox}>
+                   <h6>{title}</h6>
+                   <h6>{title1}</h6>
+                   <p>
+                     <BiTimeFive className={styles.checkCircle} />
+                     {para[0]}
+                   </p>
+                   <p>
+                     <AiOutlineFundProjectionScreen
+                       className={styles.checkCircle}
+                       style={{ color: "#edb552" }}
+                     />
+                     {para[1]}
+                   </p>
+                   <p>
+                     <TbCurrencyRupee className={styles.checkCircle} />
+                     {para[2]}
+                   </p>
+                   <div className={styles.btnWrapper}>
+                     <a href={link1}>
+                       <button>View Details</button>
+                     </a>
+                     <a href={link2} target="_blank">
+                       <button
+                         className="outLineBtn"
+                         style={{ padding: "8px 15px" }}
+                       >
+                         Brochure
+                         <FiDownload
+                           className="bIcon"
+                           style={{ color: "#2979AD" }}
+                         />
+                       </button>
+                     </a>
+                   </div>
+                 </div>
+               </div>
+               </SwiperSlide>
+             );
+           })}
+           </Swiper>
+         </div>
+         </>
+
+       ) : (
+         ""
+       )}
         {Guarantee ? (
-          <div className={styles.gridPanel}>
-            {JobGuaranteeD.map((viewAllData) => {
-              const { id, title, title1, img, para, link1, link2 } =
-                viewAllData;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  />
-                  <div className={styles.contentBox}>
-                    <h6>{title}</h6>
-                    <h6>{title1}</h6>
-                    <p>
-                      <BiTimeFive className={styles.checkCircle} />
-                      {para[0]}
-                    </p>
-                    <p>
-                      <AiOutlineFundProjectionScreen
-                        className={styles.checkCircle}
-                        style={{ color: "#edb552" }}
-                      />
-                      {para[1]}
-                    </p>
-                    <p>
-                      <TbCurrencyRupee className={styles.checkCircle} />
-                      {para[2]}
-                    </p>
-                    <div className={styles.btnWrapper}>
-                      <a href={link1}>
-                        <button>View Details</button>
-                      </a>
-                      <a href={link2} target="_blank">
-                        <button
-                          className="outLineBtn"
-                          style={{ padding: "8px 15px" }}
-                        >
-                          Brochure
-                          <FiDownload
-                            className="bIcon"
-                            style={{ color: "#2979AD" }}
-                          />
-                        </button>
-                      </a>
-                    </div>
+          <>          
+          <h5>Data Science</h5>
+         <div className={styles.gridPanel}>
+          
+         <Swiper
+            slidesPerView={mobile ? 1 : 3}
+            spaceBetween={mobile ? 10 : 20}
+            navigation={true}
+            grabCursor={true}
+           
+            modules={[ Navigation]}
+            className="mySwiper"
+          >
+           {
+          
+          filtteredJobGuaranteeD.map((viewAllData) => {
+             const { id, title, title1, img, para, link1, link2 } =
+               viewAllData;
+             return (
+              <SwiperSlide  className={styles.leftSide}>
+               <div key={id}>
+                 <img
+                   src={img}
+                   layout="intrinsic"
+                   className={styles.courseImg}
+                 />
+                 <div className={styles.contentBox}>
+                   <h6>{title}</h6>
+                   <h6>{title1}</h6>
+                   <p>
+                     <BiTimeFive className={styles.checkCircle} />
+                     {para[0]}
+                   </p>
+                   <p>
+                     <AiOutlineFundProjectionScreen
+                       className={styles.checkCircle}
+                       style={{ color: "#edb552" }}
+                     />
+                     {para[1]}
+                   </p>
+                   <p>
+                     <TbCurrencyRupee className={styles.checkCircle} />
+                     {para[2]}
+                   </p>
+                   <div className={styles.btnWrapper}>
+                     <a href={link1}>
+                       <button>View Details</button>
+                     </a>
+                     <a href={link2} target="_blank">
+                       <button
+                         className="outLineBtn"
+                         style={{ padding: "8px 15px" }}
+                       >
+                         Brochure
+                         <FiDownload
+                           className="bIcon"
+                           style={{ color: "#2979AD" }}
+                         />
+                       </button>
+                     </a>
+                   </div>
+                 </div>
+               </div>
+               </SwiperSlide>
+             );
+           })}
+           </Swiper>
+         </div>
+         <h5>Full Stack</h5>
+         <div className={styles.gridPanel}>
+          
+
+          {
+          
+          filtteredJobGuaranteeF.map((viewAllData) => {
+            const { id, title, title1, img, para, link1, link2 } =
+              viewAllData;
+            return (
+              <div className={styles.leftSide} key={id}>
+                <img
+                  src={img}
+                  layout="intrinsic"
+                  className={styles.courseImg}
+                />
+                <div className={styles.contentBox}>
+                  <h6>{title}</h6>
+                  <h6>{title1}</h6>
+                  <p>
+                    <BiTimeFive className={styles.checkCircle} />
+                    {para[0]}
+                  </p>
+                  <p>
+                    <AiOutlineFundProjectionScreen
+                      className={styles.checkCircle}
+                      style={{ color: "#edb552" }}
+                    />
+                    {para[1]}
+                  </p>
+                  <p>
+                    <TbCurrencyRupee className={styles.checkCircle} />
+                    {para[2]}
+                  </p>
+                  <div className={styles.btnWrapper}>
+                    <a href={link1}>
+                      <button>View Details</button>
+                    </a>
+                    <a href={link2} target="_blank">
+                      <button
+                        className="outLineBtn"
+                        style={{ padding: "8px 15px" }}
+                      >
+                        Brochure
+                        <FiDownload
+                          className="bIcon"
+                          style={{ color: "#2979AD" }}
+                        />
+                      </button>
+                    </a>
                   </div>
                 </div>
-              );
-            })}
-          </div>
-        ) : (
-          ""
-        )}
+              </div>
+            );
+          })}
+        </div>
+         </>
+
+       ) : (
+         ""
+       )}
         {Stack ? (
-          <div className={styles.gridPanel}>
-            {StackD.map((viewAllData) => {
-              const { id, title, title1, img, para, link1, link2 } =
-                viewAllData;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  />
-                  <div className={styles.contentBox}>
-                    <h6>{title}</h6>
-                    <h6>{title1}</h6>
-                    <p>
-                      <BiTimeFive className={styles.checkCircle} />
-                      {para[0]}
-                    </p>
-                    <p>
-                      <AiOutlineFundProjectionScreen
-                        className={styles.checkCircle}
-                        style={{ color: "#edb552" }}
-                      />
-                      {para[1]}
-                    </p>
-                    <p>
-                      <TbCurrencyRupee className={styles.checkCircle} />
-                      {para[2]}
-                    </p>
-                    <div className={styles.btnWrapper}>
-                      <a href={link1}>
-                        <button>View Details</button>
-                      </a>
-                      <a href={link2} target="_blank">
-                        <button
-                          className="outLineBtn"
-                          style={{ padding: "8px 15px" }}
-                        >
-                          Brochure
-                          <FiDownload
-                            className="bIcon"
-                            style={{ color: "#2979AD" }}
-                          />
-                        </button>
-                      </a>
-                    </div>
+          <>          
+         <h5>Full Stack</h5>
+         <div className={styles.gridPanel}>
+          
+
+          {
+          
+          filtteredStackF.map((viewAllData) => {
+            const { id, title, title1, img, para, link1, link2 } =
+              viewAllData;
+            return (
+              <div className={styles.leftSide} key={id}>
+                <img
+                  src={img}
+                  layout="intrinsic"
+                  className={styles.courseImg}
+                />
+                <div className={styles.contentBox}>
+                  <h6>{title}</h6>
+                  <h6>{title1}</h6>
+                  <p>
+                    <BiTimeFive className={styles.checkCircle} />
+                    {para[0]}
+                  </p>
+                  <p>
+                    <AiOutlineFundProjectionScreen
+                      className={styles.checkCircle}
+                      style={{ color: "#edb552" }}
+                    />
+                    {para[1]}
+                  </p>
+                  <p>
+                    <TbCurrencyRupee className={styles.checkCircle} />
+                    {para[2]}
+                  </p>
+                  <div className={styles.btnWrapper}>
+                    <a href={link1}>
+                      <button>View Details</button>
+                    </a>
+                    <a href={link2} target="_blank">
+                      <button
+                        className="outLineBtn"
+                        style={{ padding: "8px 15px" }}
+                      >
+                        Brochure
+                        <FiDownload
+                          className="bIcon"
+                          style={{ color: "#2979AD" }}
+                        />
+                      </button>
+                    </a>
                   </div>
                 </div>
-              );
-            })}
-          </div>
-        ) : (
-          ""
-        )}
+              </div>
+            );
+          })}
+        </div>
+         </>
+
+       ) : (
+         ""
+       )}
       </div>
     </div>
   );

@@ -13,6 +13,7 @@ import ToolsCovered from "../components/CoursePage/ToolsCovered/ToolsCovered";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
 import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
+import {DataScienceCourseData} from "../Data/DataScienceCourse";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
@@ -129,69 +130,11 @@ export default function Home() {
         </div>
     </section>
     <SyllabusNew
-    HoursSyllabus="200"
-    HoursSyllabusText="Hours Syllabus"
-    Projects="5"
-    ProjectsText="BA Projects"
-    Sessions="100"
-    SessionsText="Live Learning Sessions"
-    JobSessions="4"
-    JobSessionsText="Job Oriented Sessions"
-    Modules="8"
-    ModulesText="Tools & Modules"
-    syllabush1="Preparatory Classes (Programming + Maths)"
-    syllabusb1="6 Hours"
-    SyllabusBotlist11="Anaconda Installation"
-    SyllabusBotlist12="Basics of Programming"
-    SyllabusBotlist13="Memory Management"
-    SyllabusBotlist14="Compiler and Interpreter"
-    SyllabusBotlist15="Syntax of Python"
-    SyllabusBotlist16="Basics of Statistics"
-    syllabush2="Python Programming (Basic + Advance)"
-    syllabusb2="40 Hours"
-    SyllabusBotlist21="Git and GitHub"
-    SyllabusBotlist22="Operators + Data Types + Loops"
-    SyllabusBotlist23="Functions + Regular Expression"
-    SyllabusBotlist24="Conditional Statement"
-    SyllabusBotlist25="File & Exceptional Handling"
-    SyllabusBotlist26="Numpy, Pandas, Matplotlib, etc."
-    syllabush3="Statistics"
-    syllabusb3="30 Hours"
-    SyllabusBotlist31="Linear Algebra, Probability"
-    SyllabusBotlist32="Permutation & Combination"
-    SyllabusBotlist33="Descriptive Stats"
-    SyllabusBotlist34="Hypothesis Testing"
-    SyllabusBotlist35="Time Series Analysis"
-    SyllabusBotlist36=" Inferential Stats"
-    syllabush4="Industrial Projects &
-    Capstone Projects"
-    syllabusb4="6+ Classes"
-    SyllabusBotlist41="Market Basket Analysis"
-    SyllabusBotlist42="Analyzing Customer Feedback"
-    SyllabusBotlist43="Loan Eligibility Prediction"
-    SyllabusBotlist44="Customer Churn Prediction"
-    SyllabusBotlist45="Inventory Demand Forecasting"
-    SyllabusBotlist46="Retain Analytics"
-    syllabush5="Business Analytics Tools"
-    syllabusb5="118+ Hours"
-    SyllabusBotlist51="Advance Excel"
-    SyllabusBotlist52="SQL"
-    SyllabusBotlist53="PowerBI"
-    SyllabusBotlist54="Big Data & Spark Analytics"
-    SyllabusBotlist55="Time Series"
-    SyllabusBotlist56="Business Analytics Modules"
-    syllabush6="Job Orientation
-    (Interview Prep)"
-    syllabusb6="4+ Classes"
-    SyllabusBotlist61="Resume Built-Up Session"
-    SyllabusBotlist62="1-1 Mock Interviews"
-    SyllabusBotlist63="Job Referrals"
-    SyllabusBotlist64="LinkedIn Profile Building"
-    SyllabusBotlist65="Alumni Portal Access"
-    SyllabusBotlist66="Target Top MNCs & Startups"
-    syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Business+Analytics+Program.pdf"
-
-    />
+          
+          syllabus={DataScienceCourseData[0].syllabus}
+          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          popupHead={DataScienceCourseData[0].popupHead}
+       />
       <ToolsCovered 
       src="/tools-ba.png"
       />
