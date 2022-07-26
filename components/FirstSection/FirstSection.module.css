@@ -190,4 +190,19 @@
     flex-flow: column;
     justify-content: space-evenly;
   }
+  .left,
+.middle,
+.right {
+  padding-right: 10px;
+}
+.middle,
+.right {
+  padding-left: 10px;
+}
+.info {
+  gap: 0;
+}
+.rightSide {
+  padding-top: 20px;
+}
 }

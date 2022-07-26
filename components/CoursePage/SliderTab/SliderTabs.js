@@ -25,7 +25,7 @@ const SliderTabs = () => {
         pagination={{
           type: "progressbar",
         }}
-        slidesPerView={4}
+        slidesPerView={mobile ? 2 : 3.7}
         spaceBetween={30}
         navigation={true}
         modules={ [Navigation]}

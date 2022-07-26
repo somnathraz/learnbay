@@ -1,9 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
@@ -15,11 +13,8 @@ import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
-import OtherCertificate from "../components/CoursePage/OtherCertificate/OtherCertificate";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
-import Domain from "../components/CoursePage/Domain/Domain";
 import Fee from "../components/CoursePage/Fee/Fee";
-import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
 import {ProgramFee} from "../components/CoursePage/ProgramFee/ProgramFee";
 import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
@@ -36,7 +31,7 @@ import {
   MentorshipFaqData2,
   SupportFaqData2,
 } from "../components/FAQ/FaqData";
-import {DataScienceCourseData} from "../Data/DataScienceCourse"
+import {DataScienceCourseData} from "../Data/DataScienceCourse";
 import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
 import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../components/CoursePage/CourseReview/CourseReview";

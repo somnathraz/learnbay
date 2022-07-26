@@ -1,5 +1,4 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
 import styles from "./switch.module.css";
 import Image from "next/image";
 
@@ -21,6 +20,7 @@ function Switch() {
           width="4"
           height="90"
           layout="intrinsic"
+          className={styles.imgI}
         />
         <div className={styles.switchInner}>
           <img
@@ -35,6 +35,7 @@ function Switch() {
           width="4"
           height="90"
           layout="intrinsic"
+          className={styles.imgI}
         />
         <div className={styles.switchInner}>
           <img

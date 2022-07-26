@@ -47,7 +47,12 @@
  
   margin-top: 20px;
   gap: 20px;
-  padding: 0px 60px;
+  padding: 0px 20px;
+  overflow: auto;
+  position: relative;
+  scroll-behavior: smooth;
+  transition: transform 0.3s ease-out 0s;
+  pointer-events: auto;
 }
 .Course h5{
   font-size: 24px;
@@ -117,7 +122,7 @@ max-height: 230px;
 
 @media (max-width: 481px) {
   .Course {
-    padding: 0 10px;
+    padding: 0 20px;
     margin-top: -50px;
     width: 100%;
   }
@@ -150,16 +155,17 @@ max-height: 230px;
     padding: 10px 15px;
   }
   .gridPanel {
-    grid-template-columns: 85% 85% 85% 85% 85% 85% 85%;
+    grid-template-columns: 85% 85% 85% 85% 85% 85%;
     overflow: scroll;
     padding: 0;
+    height: 550px;
   }
   .leftSide,
   .middleSide,
   .rightSide {
     width: 100%;
     margin: 10px 0px;
-    padding: 10px;
+    padding: 0px;
   }
   .courseImg {
     width: 100%;

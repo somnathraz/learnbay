@@ -16,13 +16,13 @@ import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import Domain from "../components/CoursePage/Domain/Domain";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
+import {DataScienceCourseData} from "../Data/DataScienceCourse";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import Fee from "../components/CoursePage/Fee/Fee";
 import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData5, DomainFaqData5, PaymentFaqData5, CapstoneFaqData5, CertificationFaqData5, jobFaqData5, MentorshipFaqData5, SupportFaqData5 } from "../components/FAQ/FaqData";
-import {DataScienceCourseData} from "../Data/DataScienceCourse"
  
 export default function Home() {
   const [popups, setPopups] = useState(false);

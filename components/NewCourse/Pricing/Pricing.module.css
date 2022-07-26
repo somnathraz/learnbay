@@ -1,0 +1,176 @@
+.Pricing {
+  margin: 70px 100px 70px 100px;
+}
+
+.PricingInner {
+  display: grid;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-template-columns: 33% 33% 33%;
+  align-items: center;
+  justify-content: center;
+}
+.pTops {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0;
+  color: white;
+  text-align: left;
+}
+.button {
+  background-color: white;
+  color: #2D9CD7;
+  padding: 10px 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.Prices {
+  font-size: 34px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 30px;
+  color: white;
+  text-align: left;
+}
+.Courses {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+.PricingBox {
+  padding: 30px 20px;
+
+  display: grid;
+  align-self: start;
+  margin: auto;
+  border-radius: 15px;
+
+  -webkit-box-shadow: 10px 6px 5px 4px rgba(237, 237, 237, 1);
+  -moz-box-shadow: 10px 6px 5px 0px rgba(237, 237, 237, 1);
+  box-shadow: 10px 6px 18px 7px rgba(237, 237, 237, 1);
+  width: 80%;
+}
+.PricingBoxM {
+  background: #2D9CD7;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+  padding: 20px 20px;
+  padding-top: 20px;
+  display: grid;
+  margin: auto;
+  border-radius: 15px;
+
+  width: 80%;
+}
+.PricingBoxM div {
+  margin-bottom: -6px;
+}
+.PricingBoxM .pTop {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.PricingBoxM .Price {
+  font-size: 26px;
+  margin-top: 15px;
+  font-weight: 600;
+  color: white;
+}
+.PricingBoxM .Course {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.PricingBoxM .pricingList {
+  font-size: 14px;
+  color: white;
+}
+
+.bIcons {
+  font-size: 18px;
+  margin-right: 5px;
+  color: white;
+}
+.PricingBoxM .btnI {
+  background-color: white;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.Pricing h4 {
+  margin: 0;
+  margin-top: -10px;
+  padding: 0;
+}
+
+.pTop {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.Price {
+  font-size: 26px;
+  margin-top: 15px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #2D9CD7;
+}
+
+.Course {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 0px;
+  color: #000;
+}
+
+.pricingList {
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 8% 92%;
+
+  color: rgb(103, 101, 101);
+}
+
+.btnI {
+  width: fit-content;
+  margin: auto;
+  padding: 10px 20px;
+  background-color: #2D9CD7;
+
+  color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+@media (max-width: 481px) {
+  .Pricing {
+    margin: 50px 0px 50px 0px;
+  }
+  .PricingInner {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    grid-template-columns: auto;
+  }
+  .PricingBox {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .PricingBoxM {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

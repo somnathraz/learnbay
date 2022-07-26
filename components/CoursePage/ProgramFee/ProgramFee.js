@@ -54,7 +54,7 @@ export const ProgramFee = () => {
           <div className={styles.bottomS}>
             <p>Get professional training affordably</p>
             <h5>₹ 8,500*/month</h5>
-            <button>Enroll Now</button>
+            <button style={{margin:"auto"}}>Enroll Now</button>
           </div>
         </div>
       </div>

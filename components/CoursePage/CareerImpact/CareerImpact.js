@@ -565,7 +565,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
           </div>
           <div className={styles.RightFade}>
             <CountUp
-              end={450}
+              end={300}
               delay={2}
               duration={2}
               suffix="%"

@@ -16,6 +16,7 @@
   top: -40px;
   position: absolute;
 }
+
 .learnInner {
   padding: 50px;
   border-radius: 20px;
@@ -104,7 +105,9 @@
 
 @media (max-width: 600px) {
   .LearnSupport {
-    padding: 30px 0px 30px 0px;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    margin: 20px 20px;
   }
 
   .learnInner {
@@ -128,4 +131,25 @@
   .learnInner2 .btn2 {
     margin-top: 0px;
   }
+
+  .learnInnerR .img {
+    width: 100%;
+    height: auto;
+    top: -40px;
+    position:initial;
+    padding: 10px;
+  }
+
+  .btn2 {
+    margin-top: 20px;
+  }
+
+.btnWrap {
+display: block;
+}
+
+.pBot {
+  padding: 0;
+}
+
 }

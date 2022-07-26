@@ -3,7 +3,7 @@
     border-width: 1px 1px 1px 1px;
     border-color: #A4C3E6;
     box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
-    padding: 10px;
+    padding: 50px 10px;
     width: 95%;
     align-items: center;
     margin: auto;
@@ -21,12 +21,15 @@
 .phead {
     font-size: 30px;
     font-weight: 400;
+    text-align: center;
+    margin: 0;
 }
 
 .listcheck {
     display: flex;
     align-items: center;
     flex-flow: wrap;
+    margin-top: 30px;
 }
 
 .list {

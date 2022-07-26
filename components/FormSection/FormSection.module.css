@@ -26,3 +26,20 @@
   box-shadow: 0px 0px 15px rgba(41, 121, 173, 0.4);
   padding: 40px 20px;
 }
+
+@media (max-width: 600px) {
+
+  .fromWrap {
+    display: block;
+    padding: 30px 20px;
+    margin: 40px 0px;
+  }
+
+  .rightFormWrap {
+    position: initial;
+    margin-top: 30px;
+    width: 100%;
+    top: 0;
+  }
+
+}

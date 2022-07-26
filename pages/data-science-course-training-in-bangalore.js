@@ -75,7 +75,7 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="6 micro-skills certificates from IBM"
+        WeekdayBatchDate="4 micro-skills certificates from IBM"
         WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
         Project="Project experience certification by IBM"
         Classes="Completely live and interactive learning"

@@ -82,6 +82,14 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you-brochure");
       return;
     }
+    if (router.pathname === "/") {
+      router.push("/Thank-you");
+      return;
+    }
+    if(router.pathname === "/" && downloadBrochure){
+      router.push("/Thank-you-brochure");
+      return;
+    }
     if (router.pathname === "/advance-data-science-certification-courses") {
       router.push("/Thank-you");
       return;

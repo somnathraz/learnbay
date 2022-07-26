@@ -19,11 +19,11 @@ import OtherCertificate from "../components/CoursePage/OtherCertificate/OtherCer
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import Domain from "../components/CoursePage/Domain/Domain";
 import Fee from "../components/CoursePage/Fee/Fee";
+import {DataScienceCourseData} from "../Data/DataScienceCourse";
 import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData3, DomainFaqData3, PaymentFaqData3, CapstoneFaqData3, CertificationFaqData3, jobFaqData3, MentorshipFaqData3, SupportFaqData3 } from "../components/FAQ/FaqData";
-import {DataScienceCourseData} from "../Data/DataScienceCourse"
 
  
 export default function Home() {
@@ -75,7 +75,7 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="6 IBM Certified AI/ML micro-skill certificates"
+        WeekdayBatchDate="4 IBM Certified AI/ML micro-skill certificates"
         WeekendBatchDate="Specially curated syllabus for technical professionals"
         Project="IT-specific domain-oriented full-stack learning with 8+ domains to choose from"
         Classes="Learn the latest tools and technologies in AI and ML"

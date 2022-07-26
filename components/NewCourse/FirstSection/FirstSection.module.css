@@ -1,0 +1,248 @@
+.First {
+  margin-top: 70px;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.First h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.First h1 > span {
+  font-size: 35px;
+}
+
+.First span {
+  font-size: 18px;
+  color: #2d9cd7;
+}
+
+.FirstP {
+  font-weight: 700;
+  border-left: 5px solid #12054d;
+  padding-left: 10px;
+  color: #12054d;
+  font-size: 22px;
+}
+.btnWrapper {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+}
+.btnWrapper button {
+  display: flex;
+  justify-content: space-between;
+}
+.outLineBtn {
+  background-color: white;
+  color: #12054d;
+  border: 1px solid #12054d;
+  padding: 14px 28px;
+  font-size: 16px;
+}
+.btn {
+  background-color: #12054d;
+  padding: 14px 28px;
+  font-size: 16px;
+}
+
+.bottom {
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  height: 80px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+.hPara {
+  font-weight: 600;
+  margin-top: 20px;
+  margin-top: 60px;
+}
+
+.ButtonDiv {
+  display: flex;
+}
+
+.btnWrapper {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.btnWrapper button {
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 6px;
+  padding: 16px 35px;
+  box-shadow: #2d9cd7 0px 0px 4px 0px;
+  margin-right: 50px;
+}
+.btnWrapper button:hover {
+  background-color: #fff;
+  color: #2D9CD7;
+  border: 1px solid #2D9CD7;
+}
+
+.btnWrapper h5 {
+  color: rgb(82, 82, 82);
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0;
+  margin-top: 10px;
+}
+.btnWrapper p {
+  font-size: 10px;
+  font-weight: 600;
+  color: rgb(145, 145, 145);
+}
+
+@media (min-width: 	1280px) {
+  .First {
+    margin-top: 70px;
+  
+    padding:70px 100px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+  
+
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .First h1 > span {
+    font-size: 35px;
+  }
+  .bottom {
+    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+    height: 80px;
+    padding-top: 10px;
+    border-radius: 20px;
+  }
+
+  .ButtonDiv {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .btnWrapper {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  
+  .btnWrapper button {
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    padding: 16px 35px;
+    box-shadow: #2d9cd7 0px 0px 4px 0px;
+    margin-right: 50px;
+  }
+  .btnWrapper button:hover {
+    background-color: #fff;
+    color: #2D9CD7;
+    border: 1px solid #2D9CD7;
+  }
+  
+  .btnWrapper h5 {
+    color: rgb(82, 82, 82);
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .btnWrapper p {
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(145, 145, 145);
+  }
+}
+@media (max-width: 600px) {
+  .First {
+    padding: 20px;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }
+  .First h1 {
+    font-size: 24px;
+  }
+  .First h1 > span {
+    font-size: 22px;
+  }
+
+  .btnWrapper {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+  }
+  .FirstP {
+    font-size: 18px;
+  }
+
+  .rightSide {
+    display: none;
+  }
+
+  .bottom {
+    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+    height: 80px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  .ButtonDiv {
+    display: block;
+  }
+
+  .btnWrapper {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-flow: column;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .btnWrapper button {
+    font-size: 14px;
+    font-weight: 600;
+    width: max-content;
+    display: block;
+    margin-top: 20px;
+
+    justify-content: center;
+    border-radius: 10px;
+
+    margin-right: 20px;
+  }
+  .btnWrapper button:hover {
+    background-color: #2D9CD7;
+  }
+
+  .btnWrapper h5 {
+    color: rgb(82, 82, 82);
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .btnWrapper p {
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(145, 145, 145);
+  }
+
+  .hPara {
+    margin-top: 30px;
+  }
+}

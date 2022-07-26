@@ -17,13 +17,13 @@ import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import OtherCertificate from "../components/CoursePage/OtherCertificate6/OtherCertificate";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
+import {DataScienceCourseData} from "../Data/DataScienceCourse";
 import Domain from "../components/CoursePage/Domain/Domain";
 import Fee from "../components/CoursePage/Fee/Fee";
 import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData4, DomainFaqData4, PaymentFaqData4, CapstoneFaqData4, CertificationFaqData4, jobFaqData4, MentorshipFaqData4, SupportFaqData4 } from "../components/FAQ/FaqData";
-import {DataScienceCourseData} from "../Data/DataScienceCourse"
 
  
 export default function Home() {
@@ -74,7 +74,7 @@ export default function Home() {
         />
       </div>
       <GetHired 
-        WeekdayBatchDate="Global Recognition : Earn 8 micro-skill certificates by IBM"
+        WeekdayBatchDate="Global Recognition : Earn 6 micro-skill certificates by IBM"
         WeekendBatchDate="Special Project Management module as per industrial requirement"
         Project="12+ domain electives to choose from "
         Classes="Specially devised for leadership-level professionals"
