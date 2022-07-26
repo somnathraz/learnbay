@@ -39,8 +39,7 @@ const BoxShape = ({
           </div>
           <div
             className={hover ? styles.box : styles.boxActive}
-            onMouseEnter={() => setHover(true)}
-            onMouseLeave={() => setHover(false)}
+           
           >
            
               {hover ? 

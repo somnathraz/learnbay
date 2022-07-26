@@ -3,7 +3,7 @@
     background-image: url("/domainnFAQBack.png");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: grid;
     grid-template-columns: 49% 49% ;
     gap: 0px;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./Course.module.css";
 import { FiDownload } from "react-icons/fi";
 import { BiTimeFive } from "react-icons/bi";
@@ -36,6 +36,16 @@ const Course = () => {
   const filtteredJobGuaranteeF = JobGuaranteeD.filter((post)=> post.tag === "Full stack")
   const filtteredStackD = StackD.filter((post)=> post.tag === "Data science")
   const filtteredStackF = StackD.filter((post)=> post.tag === "Full stack")
+
+
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 600) {
+      setMobile(true);
+    }
+  });
+
+
   return (
     <div className={styles.Course} id="course">
       <h2>Industry Accredited Certification For Professionals</h2>
@@ -192,7 +202,7 @@ const Course = () => {
               const { id, title, title1, img, para, link1, link2 } =
                 viewAllData;
               return (
-               <SwiperSlide  className={styles.leftSide}>
+               <SwiperSlide  className={styles.leftSide} key={id}>
                 <div key={id}>
                   <img
                     src={img}
@@ -322,7 +332,7 @@ const Course = () => {
              const { id, title, title1, img, para, link1, link2 } =
                viewAllData;
              return (
-              <SwiperSlide  className={styles.leftSide}>
+              <SwiperSlide  className={styles.leftSide} key={id}>
                <div key={id}>
                  <img
                    src={img}
@@ -452,7 +462,7 @@ const Course = () => {
              const { id, title, title1, img, para, link1, link2 } =
                viewAllData;
              return (
-              <SwiperSlide  className={styles.leftSide}>
+              <SwiperSlide  className={styles.leftSide} key={id}>
                <div key={id}>
                  <img
                    src={img}
@@ -526,7 +536,7 @@ const Course = () => {
              const { id, title, title1, img, para, link1, link2 } =
                viewAllData;
              return (
-              <SwiperSlide  className={styles.leftSide}>
+              <SwiperSlide  className={styles.leftSide} key={id}>
                <div key={id}>
                  <img
                    src={img}
