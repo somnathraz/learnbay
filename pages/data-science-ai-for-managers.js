@@ -25,7 +25,6 @@ import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData4, DomainFaqData4, PaymentFaqData4, CapstoneFaqData4, CertificationFaqData4, jobFaqData4, MentorshipFaqData4, SupportFaqData4 } from "../components/FAQ/FaqData";
 
-
  
 export default function Home() {
   const [popups, setPopups] = useState(false);

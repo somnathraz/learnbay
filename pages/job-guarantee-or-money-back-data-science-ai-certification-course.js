@@ -23,7 +23,6 @@ import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData5, DomainFaqData5, PaymentFaqData5, CapstoneFaqData5, CertificationFaqData5, jobFaqData5, MentorshipFaqData5, SupportFaqData5 } from "../components/FAQ/FaqData";
-
  
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -132,10 +131,10 @@ export default function Home() {
     </section>
     <SyllabusNew
           
-          syllabus={DataScienceCourseData[0].syllabus}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          popupHead={DataScienceCourseData[0].popupHead}
-       />
+           syllabus={DataScienceCourseData[0].syllabus}
+           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+           popupHead={DataScienceCourseData[0].popupHead}
+        />
       <ToolsCovered 
       src="/tools-job.png"
       />

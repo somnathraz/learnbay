@@ -3,6 +3,9 @@ import React, { useState } from "react";
 import styles from "./BoxShape.module.css";
 import Image from "next/image";
 import Form from "/components/Form/Form";
+import {MdLiveTv} from "react-icons/md"
+import {FiUser} from "react-icons/fi"
+import { BsGraphUp } from "react-icons/bs";
 
 const BoxShape = ({
   title,
@@ -27,16 +30,9 @@ const BoxShape = ({
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
           >
-            <div className={styles.ImgB}>
-              <img
-                src="/custome-fit-learning-module.webp"
-                alt="custome-fit-learning-module"
-                className={styles.icon}
-                width="40"
-                height="40"
-                loading="lazy"
-              />
-            </div>
+         
+              <MdLiveTv className={styles.boxIcon}/>
+            
 
             <h5>{Box1h5}</h5>
             <p>{box1desc}</p>
@@ -46,16 +42,23 @@ const BoxShape = ({
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
           >
-            <div className={styles.ImgC}>
+           
+              {hover ? 
               <img
-                src="/data-science.webp"
-                alt="data-science"
-                className={styles.icon}
-                width="40"
-                height="40"
-                loading="lazy"
-              />
-            </div>
+              src="/Live-classes-home-alt.svg"
+              width="60"
+              height="60"
+              loading="lazy"
+            />: <img
+            src="/capstone-live-home.svg"
+            alt="data-science"
+            className={styles.icon}
+            width="60"
+            height="60"
+            loading="lazy"
+          /> }
+              
+           
             <h5>{Box2h5}</h5>
             <p>{box2desc}</p>
           </div>
@@ -64,16 +67,7 @@ const BoxShape = ({
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
           >
-            <div className={styles.ImgC}>
-              <img
-                src="/job-gauranttee.webp"
-                alt="Job Guarantee"
-                className={styles.icon}
-                width="40"
-                height="40"
-                loading="lazy"
-              />
-            </div>
+            <FiUser className={styles.boxIcon}/>
             <h5>{Box3h5}</h5>
             <p>{box3desc}</p>
           </div>
@@ -82,16 +76,9 @@ const BoxShape = ({
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
           >
-            <div className={styles.ImgC}>
-              <img
-                src="/expertise.webp"
-                alt="Eligibility Criteria"
-                className={styles.icon}
-                width="40"
-                height="40"
-                loading="lazy"
-              />
-            </div>
+            
+            <BsGraphUp className={styles.boxIcon}/>
+            
             <h5>{Box4h5}</h5>
             <p>{box4desc}</p>
           </div>
@@ -113,6 +100,18 @@ const BoxShape = ({
                 <div className={styles.name}>
                   <h5>Shravanti A</h5>
                   <p>Data Scientist</p>
+                </div>
+              </div>
+              <div className={styles.shadow}></div>
+              <div className={styles.content}>
+                <div className={styles.leftContent}>
+                  <h5>+300%</h5>
+                  <p>Highest Salary Hike</p>
+                </div>
+                <div className={styles.rightContent}>
+                <h5>18 LPA</h5>
+                  <p>Average Salary
+Package</p>
                 </div>
               </div>
             </div>

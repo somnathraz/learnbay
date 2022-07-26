@@ -4,6 +4,7 @@ import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
 import Image from "next/image";
 import TabData from "./TabData";
 import styles from "./Tabs.module.css";
+import {BsDot} from  "react-icons/bs";
 
 const Tabs = () => {
   const [viewAll, setViewAll] = useState(true);
@@ -47,6 +48,7 @@ const Tabs = () => {
                   setGuarantee(false);
                   setStack(false);
                 }}
+                className={viewAll ? styles.spanActive : styles.span}
               >
                 {TabData[0].title}
                 <IoIosArrowForward />
@@ -58,20 +60,14 @@ const Tabs = () => {
                 <div className={styles.Row}>
                 <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
-                      <Image
-                        src="/Advance-Data-Science.png"
-                        width="180"
-                        height="55"
-                      />
+                    <h5>Adavance Data Science and AI Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                     </div>
                   </div></a>
                   <a href="/data-science-ai-for-managers"><div className={styles.Program}>
                     <div className={styles.ProLeft}>
-                      <Image
-                        src="/Data-Science-and-AI-for.png"
-                        width="180"
-                        height="55"
-                      />
+                    <h5>Data Science and AI for Mangers & Leaders</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                     </div>
                   </div></a>
                 </div>
@@ -132,6 +128,7 @@ const Tabs = () => {
                   setGuarantee(false);
                   setStack(false);
                 }}
+                className={oneYear ? styles.spanActive : styles.span}
                 onClick={() => setOneYear(!oneYear)}
               >
                 {TabData[1].title}
@@ -148,6 +145,7 @@ const Tabs = () => {
                   setGuarantee(false);
                   setStack(false);
                 }}
+                className={oneYear ? styles.spanActive : styles.span}
               >
                 {TabData[1].title}
                 <IoIosArrowForward />
@@ -241,6 +239,7 @@ const Tabs = () => {
                   setGuarantee(false);
                   setStack(false);
                 }}
+                className={nonTech ? styles.spanActive : styles.span}
               >
                 {TabData[2].title}
                 <IoIosArrowForward />
@@ -302,6 +301,7 @@ const Tabs = () => {
                   setGuarantee(true);
                   setStack(false);
                 }}
+                className={Guarantee ? styles.spanActive : styles.span}
               >
                 {TabData[3].title}
                 <IoIosArrowForward />
@@ -362,6 +362,7 @@ const Tabs = () => {
                   setGuarantee(false);
                   setStack(true);
                 }}
+                className={Stack ? styles.spanActive : styles.span}
               >
                 {TabData[4].title}
                 <IoIosArrowForward />
@@ -476,20 +477,14 @@ const Tabs = () => {
               <div className={styles.Row}>
               <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
                   <div className={styles.ProLeft}>
-                    <Image
-                      src="/Advance-Data-Science.png"
-                      width="300"
-                      height="80"
-                    />
+                  <h5>Adavance Data Science and AI Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                   </div>
                 </div></a>
                 <a href="/data-science-ai-for-managers"><div className={styles.Program}>
                   <div className={styles.ProLeft}>
-                    <Image
-                      src="/Data-Science-and-AI-for.png"
-                      width="300"
-                      height="80"
-                    />
+                  <h5>Data science and Ai course for Managers</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                   </div>
                 </div></a>
               </div>

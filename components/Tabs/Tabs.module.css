@@ -4,11 +4,11 @@
 .MenuTabs {
   display: flex;
   position: absolute;
-  left: 20.2%;
+  left: 0;
 
-  width: max-content;
+  width: 100vw;
   justify-content: space-between;
-  padding: 20px 10px;
+  padding: 20px 90px;
   background-color: white;
   box-shadow: rgba(136, 237, 253, 0.421) 0px 2px 8px 0px;
   top: 60px;
@@ -21,43 +21,72 @@
 .leftPanel .RowWrap {
   display: none;
 }
-.leftPanel span {
+
+.span {
   display: flex;
   align-items: center;
   cursor: pointer;
   justify-content: space-between;
-  width: 250px;
-  color: #2d9cd7;
+  width: 350px;
+  color: black;
   font-size: 16px;
+  padding: 10px 20px;
+  font-weight: 400;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.span:hover {
+  background-color: #eaeaea;
+}
+
+.spanActive {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  width: 350px;
+  color: white;
+  background: #0487d9;
+  font-size: 18px;
+  border-radius: 5px;
   padding: 15px 25px;
   font-weight: 400;
   margin-bottom: 10px;
 }
-.leftPanel span:hover {
-  cursor: pointer;
-  color: white;
-  background-color: #2d9cd7;
+.middlePanel{
+width: 100%;
 }
 .RowWrap {
   display: grid;
 
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 35% 35%;
 }
 .Row {
   width: 100%;
   height: 100%;
 }
+.Row a{
+  width: 280px;
+}
 .Program {
   margin: 10px;
   box-shadow: rgba(150, 230, 250, 0.444) 0px 3px 8px;
-  padding: 0px;
-  width: max-content;
+  padding: 10px 20px;
+  width: 290px;
   border-radius: 8px;
   align-items: center;
   cursor: pointer;
   display: flex;
   height: fit-content;
   justify-content: space-between;
+}
+.Program h5{
+  font-size: 16px;
+  margin: 0;
+}
+.Program span{
+  display: flex;
+ color: #646464;
 }
 @media (max-width: 481px) {
   .MenuTabs {

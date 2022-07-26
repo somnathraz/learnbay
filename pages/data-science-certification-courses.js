@@ -22,7 +22,6 @@ import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
 import { FaqData1, PaymentFaqData1, CapstoneFaqData1, CertificationFaqData1, jobFaqData1, MentorshipFaqData1, SupportFaqData1 } from "../components/FAQ/FaqData";
-
  
 export default function Home() {
   const [popups, setPopups] = useState(false);

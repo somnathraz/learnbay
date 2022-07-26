@@ -32,6 +32,7 @@ function SyllabusNew({
   const popupShow = () => {
     setPopups(true);
   };
+
   const [state, setState] = useState(syllabus);
 
   const handleChange = (index) => {

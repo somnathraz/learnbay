@@ -25,7 +25,6 @@ import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData3, DomainFaqData3, PaymentFaqData3, CapstoneFaqData3, CertificationFaqData3, jobFaqData3, MentorshipFaqData3, SupportFaqData3 } from "../components/FAQ/FaqData";
 
-
  
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -138,10 +137,10 @@ export default function Home() {
     </section>
     <SyllabusNew
           
-           syllabus={DataScienceCourseData[0].syllabus}
-           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-           popupHead={DataScienceCourseData[0].popupHead}
-        />
+          syllabus={DataScienceCourseData[0].syllabus}
+          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          popupHead={DataScienceCourseData[0].popupHead}
+       />
       <ToolsCovered 
       src="/tools-2.png"
       />

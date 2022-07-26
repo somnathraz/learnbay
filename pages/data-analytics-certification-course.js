@@ -14,14 +14,13 @@ import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
 import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
-import {DataScienceCourseData} from "../Data/DataScienceCourse";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
 import { FaqData6, PaymentFaqData6, CapstoneFaqData6, CertificationFaqData6, jobFaqData6, MentorshipFaqData6, SupportFaqData6 } from "../components/FAQ/FaqData";
-
+import {DataScienceCourseData} from "../Data/DataScienceCourse"
  
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -132,10 +131,10 @@ export default function Home() {
     </section>
     <SyllabusNew
           
-          syllabus={DataScienceCourseData[0].syllabus}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          popupHead={DataScienceCourseData[0].popupHead}
-       />
+           syllabus={DataScienceCourseData[0].syllabus}
+           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+           popupHead={DataScienceCourseData[0].popupHead}
+        />
       <ToolsCovered 
       src="/tools-da.png"
       />
