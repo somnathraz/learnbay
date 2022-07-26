@@ -252,7 +252,7 @@ const Course = () => {
             </Swiper>
           </div>
           <h5>Full Stack (3) </h5>
-          <div className={styles.gridPanel}>
+          <div className={styles.gridPanelN}>
            
 
            {
@@ -381,10 +381,8 @@ const Course = () => {
            })}
            </Swiper>
          </div>
-         <h5>Full Stack (2) </h5>
-         <div className={styles.gridPanel}>
-          
-
+         <h5>Full Stack (3) </h5>
+         <div className={styles.gridPanelN}>
           {
           
           filtteredForProgrammersF.map((viewAllData) => {
@@ -587,8 +585,6 @@ const Course = () => {
          </div>
          <h5>Full Stack (1) </h5>
          <div className={styles.gridPanel}>
-          
-
           {
           
           filtteredJobGuaranteeF.map((viewAllData) => {
@@ -649,7 +645,7 @@ const Course = () => {
         {Stack ? (
           <>          
          <h5>Full Stack (3) </h5>
-         <div className={styles.gridPanel}>
+         <div className={styles.gridPanelN}>
           
 
           {

@@ -33,6 +33,7 @@ const Tabs = () => {
                 key={TabData[0].id}
                 id="0"
                 onClick={() => setViewAll(!viewAll)}
+                className={viewAll ? styles.spanActive : styles.span}
               >
                 {TabData[0].title}
                 <IoIosArrowDown />
@@ -73,44 +74,32 @@ const Tabs = () => {
                 </div>
                 <div className={styles.Row}>
                   <a href="/full-stack-software-development-program"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/full-stack-developer.png"
-                        width="180"
-                        height="55"
-                      />
+                  <div className={styles.ProLeft}>
+                    <h5>Full Stack Software Development</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                     </div>
                   </div></a>
                   <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
-                      <div className={styles.ProLeft}>
-                        <Image
-                          src="/Artificial-Intelligence.png"
-                          width="180"
-                          height="55"
-                        />
-                      </div>
+                  <div className={styles.ProLeft}>
+                    <h5>Advance AI & ML Program For Tech Professionals</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                     </div></a>
                 </div>
                 <div className={styles.Row}>
                 <a href="/full-stack-web-development-program"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/full-stack-development.png"
-                        width="180"
-                        height="55"
-                      />
+                <div className={styles.ProLeft}>
+                    <h5>Full Stack Web Development Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                     </div>
                   </div></a>
                 </div>
                 <div className={styles.Row}>
                 <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
-                      <div className={styles.ProLeft}>
-                        <Image
-                          src="/JOB.png"
-                          width="180"
-                          height="55"
-                        />
-                      </div>
+                <div className={styles.ProLeft}>
+                    <h5>Data Science and AI With Job Guarantee</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                   </div></a>
                 </div>
               </div>
@@ -155,64 +144,50 @@ const Tabs = () => {
               <div className={styles.RowWrap}>
               <div className={styles.Row}>
                 <a href="/data-science-certification-courses"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/DATA-SCIENCE-AND-AI.png"
-                      width="180"
-                      height="55"
-                      />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Data Science Foundation Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
+                </div></a>
+                
+                
+              </div>
+              <div className={styles.Row}>
+                <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
+                <div className={styles.ProLeft}>
+                    <h5>Advance Data Science & AI Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
+                </div></a>
+                
+                
+              </div>
+              <div className={styles.Row}>
+              <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
+              <div className={styles.ProLeft}>
+                    <h5>Advance AI & ML Program For Tech Professionals</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
                 <a href="/data-science-ai-for-managers"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/Data-Science-and-AI-for.png"
-                      width="180"
-                      height="55"
-                    />
-                  </div>
-                </div></a>
-              </div>
-              <div className={styles.Row}>
-              <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Advance-Data-Science.png"
-                        width="180"
-                        height="55"
-                      />
+                <div className={styles.ProLeft}>
+                    <h5>Advance AI & ML Program For Tech Professionals</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                     </div>
-                  </div></a>
-                <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/Artificial-Intelligence.png"
-                      width="180"
-                      height="55"
-                    />
-                  </div>
                 </div></a>
               </div>
               <div className={styles.Row}>
-              <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/JOB.png"
-                      width="180"
-                      height="55"
-                    />
-                  </div>
+                <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
+                <div className={styles.ProLeft}>
+                    <h5>Data Science and AI With Job Guarantee</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
-              </div>
-              <div className={styles.Row}>
-              <a href="/business-analytics-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/BA.png"
-                      width="180"
-                      height="55"
-                    />
-                  </div>
+                <a href="/business-analytics-certification-course"><div className={styles.Program}>
+                <div className={styles.ProLeft}>
+                    <h5>Business Analytics<br /> Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
             </div>
@@ -224,6 +199,7 @@ const Tabs = () => {
                 key={TabData[2].id}
                 id="2"
                 onClick={() => setNonTech(!nonTech)}
+                className={viewAll ? styles.spanActive : styles.span}
               >
                 {TabData[2].title}
                 <IoIosArrowDown />
@@ -250,23 +226,17 @@ const Tabs = () => {
               <div className={styles.RowWrap}>
               <div className={styles.Row}>
                 <a href="/full-stack-web-development-program"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/full-stack-development.png"
-                      width="180"
-                      height="55"
-                    />
+                <div className={styles.ProLeft}>
+                  <h5>Full Stack Web Development Program</h5>
+                    <span>9 Months <BsDot/> Live Classes </span>
                   </div>
                 </div></a>
               </div>
               <div className={styles.Row}>
                 <a href="/full-stack-software-development-program"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/full-stack-developer.png"
-                      width="180"
-                      height="55"
-                    />
+                <div className={styles.ProLeft}>
+                  <h5>Full Stack Software Development Program</h5>
+                    <span>9 Months <BsDot/> Live Classes </span>
                   </div>
                 </div></a>
               </div>
@@ -286,6 +256,7 @@ const Tabs = () => {
                   setStack(false);
                 }}
                 onClick={() => setGuarantee(!Guarantee)}
+                className={viewAll ? styles.spanActive : styles.span}
               >
                 {TabData[3].title}
                 <IoIosArrowDown />
@@ -309,29 +280,23 @@ const Tabs = () => {
             )}
             {Guarantee ? (
               <div className={styles.RowWrap}>
-                <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/JOB.png"
-                        width="180"
-                        height="55"
-                      />
-                    </div>
-                  </div></a>
-                </div>
-                <div className={styles.Row}>
-                <a href="/full-stack-web-development-program"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/full-stack-development.png"
-                      width="180"
-                      height="55"
-                    />
+              <div className={styles.Row}>
+                <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
+                <div className={styles.ProLeft}>
+                  <h5>Data Science and AI With Job Guarantee</h5>
+                    <span>9 Months <BsDot/> Live Classes </span>
                   </div>
                 </div></a>
               </div>
+              <div className={styles.Row}>
+                <a href="/full-stack-web-development-program"><div className={styles.Program}>
+                <div className={styles.ProLeft}>
+                  <h5>Full Stack Web Development Program</h5>
+                    <span>9 Months <BsDot/> Live Classes </span>
+                  </div>
+                </div></a>
               </div>
+            </div>
             ) : (
               ""
             )}
@@ -347,6 +312,7 @@ const Tabs = () => {
                   setStack(true);
                 }}
                 onClick={() => setStack(!Stack)}
+                className={viewAll ? styles.spanActive : styles.span}
               >
                 {TabData[4].title}
                 <IoIosArrowDown />
@@ -372,94 +338,68 @@ const Tabs = () => {
               <div className={styles.RowWrap}>
               <div className={styles.Row}>
                 <a href="/data-science-certification-courses"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/DATA-SCIENCE-AND-AI.png"
-                      width="180"
-                      height="55"
-                      />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Data Science Foundation Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
-                <a href="/full-stack-software-development-program"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/full-stack-developer.png"
-                      width="180"
-                      height="55"
-                    />
-                  </div>
+                
+                <a href="/full-stack-web-development-program"><div className={styles.Program}>
+                <div className={styles.ProLeft}>
+                    <h5>Full Stack Web Development Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
               <div className={styles.Row}>
-              <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/Advance-Data-Science.png"
-                      width="180"
-                      height="55"
-                    />
-                  </div>
+                <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
+                <div className={styles.ProLeft}>
+                    <h5>Advance Data Science & AI Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
-                <a href="/full-stack-web-development-program"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/full-stack-development.png"
-                      width="180"
-                      height="55"
-                    />
-                  </div>
+                
+                <a href="/full-stack-software-development-program"><div className={styles.Program}>
+                <div className={styles.ProLeft}>
+                    <h5>Full Stack Software Development</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
               <div className={styles.Row}>
               <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/Artificial-Intelligence.png"
-                      width="180"
-                      height="55"
-                    />
-                  </div>
+              <div className={styles.ProLeft}>
+                    <h5>Advance AI & ML Program For Tech Professionals</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
                 <a href="/data-science-ai-for-managers"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/Data-Science-and-AI-for.png"
-                      width="180"
-                      height="55"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Data Science and AI for Managers & Leaders</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
               <div className={styles.Row}>
                 <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/JOB.png"
-                      width="180"
-                      height="55"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Data Science and AI With Job Guarantee</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
                 <a href="/business-analytics-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/BA.png"
-                      width="180"
-                      height="55"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Business Analytics <br /> Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
               <div className={styles.Row}>
                 <a href="/data-analytics-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/DA.png"
-                      width="180"
-                      height="55"
-                      layout="intrinsic"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Data Analytics <br /> Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
             </div>
@@ -490,43 +430,31 @@ const Tabs = () => {
               </div>
               <div className={styles.Row}>
                 <a href="/full-stack-software-development-program"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/full-stack-developer.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Full Stack Software Development</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
                 <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/Artificial-Intelligence.png"
-                        width="300"
-                        height="80"
-                      />
+                <div className={styles.ProLeft}>
+                    <h5>Advance AI & ML Program For Tech Professionals</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                     </div>
                   </div></a>
               </div>
               <div className={styles.Row}>
               <a href="/full-stack-web-development-program"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/full-stack-development.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+              <div className={styles.ProLeft}>
+                    <h5>Full Stack Web Development Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
               <div className={styles.Row}>
               <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/JOB.png"
-                        width="300"
-                        height="80"
-                      />
+              <div className={styles.ProLeft}>
+                    <h5>Data Science and AI With Job Guarantee</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                     </div>
                 </div></a>
               </div>
@@ -538,68 +466,50 @@ const Tabs = () => {
               <div className={styles.RowWrap}>
               <div className={styles.Row}>
                 <a href="/data-science-certification-courses"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/DATA-SCIENCE-AND-AI.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Data Science Foundation Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
                 
                 
               </div>
               <div className={styles.Row}>
                 <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/Advance-Data-Science.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Advance Data Science & AI Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
                 
                 
               </div>
               <div className={styles.Row}>
               <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/Artificial-Intelligence.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+              <div className={styles.ProLeft}>
+                    <h5>Advance AI & ML Program For Tech Professionals</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
                 <a href="/data-science-ai-for-managers"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/Data-Science-and-AI-for.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Advance AI & ML Program For Tech Professionals</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
               <div className={styles.Row}>
                 <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/JOB.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Data Science and AI With Job Guarantee</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
                 <a href="/business-analytics-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/BA.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Business Analytics<br /> Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
             </div>
@@ -610,23 +520,17 @@ const Tabs = () => {
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
                   <a href="/full-stack-web-development-program"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/full-stack-development.png"
-                        width="300"
-                        height="80"
-                      />
+                  <div className={styles.ProLeft}>
+                    <h5>Full Stack Web Development Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                     </div>
                   </div></a>
                 </div>
                 <div className={styles.Row}>
                   <a href="/full-stack-software-development-program"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/full-stack-developer.png"
-                        width="300"
-                        height="80"
-                      />
+                  <div className={styles.ProLeft}>
+                    <h5>Full Stack Software Development Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                     </div>
                   </div></a>
                 </div>
@@ -638,23 +542,17 @@ const Tabs = () => {
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/JOB.png"
-                        width="300"
-                        height="80"
-                      />
+                  <div className={styles.ProLeft}>
+                    <h5>Data Science and AI With Job Guarantee</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                     </div>
                   </div></a>
                 </div>
                 <div className={styles.Row}>
                   <a href="/full-stack-web-development-program"><div className={styles.Program}>
-                    <div className={styles.ProLeft}>
-                      <Image
-                        src="/full-stack-development.png"
-                        width="300"
-                        height="80"
-                      />
+                  <div className={styles.ProLeft}>
+                    <h5>Full Stack Web Development Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
                     </div>
                   </div></a>
                 </div>
@@ -666,96 +564,68 @@ const Tabs = () => {
               <div className={styles.RowWrap}>
               <div className={styles.Row}>
                 <a href="/data-science-certification-courses"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/DATA-SCIENCE-AND-AI.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Data Science Foundation Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
                 
                 <a href="/full-stack-web-development-program"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/full-stack-development.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Full Stack Web Development Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
               <div className={styles.Row}>
                 <a href="/advance-data-science-certification-courses"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/Advance-Data-Science.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Advance Data Science & AI Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
                 
                 <a href="/full-stack-software-development-program"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/full-stack-developer.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Full Stack Software Development</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
               <div className={styles.Row}>
               <a href="/artificial-intelligence-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/Artificial-Intelligence.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+              <div className={styles.ProLeft}>
+                    <h5>Advance AI & ML Program For Tech Professionals</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
                 <a href="/data-science-ai-for-managers"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/Data-Science-and-AI-for.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Data Science and AI for Managers & Leaders</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
               <div className={styles.Row}>
                 <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/JOB.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Data Science and AI With Job Guarantee</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
                 <a href="/business-analytics-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/BA.png"
-                      width="300"
-                      height="80"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Business Analytics <br /> Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
               <div className={styles.Row}>
                 <a href="/data-analytics-certification-course"><div className={styles.Program}>
-                  <div className={styles.ProLeft}>
-                    <Image
-                      src="/DA.png"
-                      width="300"
-                      height="80"
-                      layout="intrinsic"
-                    />
-                  </div>
+                <div className={styles.ProLeft}>
+                    <h5>Data Analytics <br /> Program</h5>
+                      <span>9 Months <BsDot/> Live Classes </span>
+                    </div>
                 </div></a>
               </div>
             </div>

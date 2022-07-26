@@ -160,10 +160,10 @@
     gap: 0px;
   }
   .listPanel {
-    display: flex;
+    display: grid;
     flex-wrap: nowrap;
     overflow-x: auto;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: 40% 40% 40% 40%;
     box-shadow: rgba(129, 217, 255, 0.612) 0px 7px 29px 0px;
   }
   .listPanel span {
@@ -175,7 +175,6 @@
     grid-template-columns: 85% 85% 85% 85% 85% 85% 85%;
     overflow-x: scroll;
     display: flex;
-    flex-direction: column-reverse;
     padding: 0px;
   }
   .leftSide,

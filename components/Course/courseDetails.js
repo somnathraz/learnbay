@@ -1,7 +1,7 @@
 export const viewAllD = [
   {
     id: 1,
-    img: "/advance-data-science-and-ai.webp",
+    img: "data-science-ai-program.png",
     title: "Data Science",
     title1: "Foundation Program",
     tag:"Data science",
@@ -13,10 +13,10 @@ export const viewAllD = [
     link1: "/data-science-certification-courses",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+Foundation+Program.pdf",
-  },
+  }, 
   {
     id: 2,
-    img: "/advance-data-science-and-ai.webp",
+    img: "advance-data-science-ai-program.png",
     title: "Advanced Data Science",
     title1: "and AI Program",
     tag:"Data science",
@@ -31,7 +31,7 @@ export const viewAllD = [
   },
   {
     id: 3,
-    img: "/Data-science-course-2nd.webp",
+    img: "advance -ai-ml-for-tech-professionals.png",
     title: "Advance AI and ML Program",
     title1: "for Tech Professionals",
     tag:"Data science",
@@ -46,7 +46,7 @@ export const viewAllD = [
   },
   {
     id: 4,
-    img: "/data -science-AI-Mangers.webp",
+    img: "data-science-ai-for managers.png",
     title: "Data Science and AI for ",
     title1: "Managers & Leaders Program",
     tag:"Data science",
@@ -61,7 +61,7 @@ export const viewAllD = [
   },
   {
     id: 5,
-    img: "/data-science-job-guarantee.webp",
+    img: "data-science-ai-with-job-guarantee.png",
     title: "Data Science and AI with ",
     title1: "Job Guarantee Program",
     tag:"Data science",
@@ -76,7 +76,7 @@ export const viewAllD = [
   },
   {
     id: 6,
-    img: "/Data-Analytics-1.png",
+    img: "/data-analytics.png",
     title: "Data Analytics",
     title1: "Program",
     tag:"Data science",
@@ -91,7 +91,7 @@ export const viewAllD = [
   },
   {
     id: 7,
-    img: "/DABA.png",
+    img: "business-analytics.png",
     title: "Business Analytics",
     title1: "Program",
     tag:"Data science",
@@ -107,8 +107,8 @@ export const viewAllD = [
   },
   {
     id: 8,
-    img: "/full-stack-web-developer.webp",
-    title: "Full-Stack Web ",
+    img: "full-stack-web-development.png",
+    title: "Full-Stack Web",
     title1: "Development Program",
     tag:"Full stack",
     para: [
@@ -122,7 +122,7 @@ export const viewAllD = [
   },
   {
     id: 9,
-    img: "/Full-stack-software-development-home-course.webp",
+    img: "full-stack-developer-course.png",
     title: "Full-Stack Software",
     title1: "Development Program",
     tag:"Full stack",
@@ -137,7 +137,7 @@ export const viewAllD = [
   },
   {
     id: 10,
-    img: "/Full-stack-software-development-home-course.webp",
+    img: "full-stack-developer-course.png",
     title: "DSA & ",
     title1: "System Design",
     tag:"Full stack",
@@ -154,7 +154,7 @@ export const viewAllD = [
 export const ForProgrammersD = [
   {
     id: 1,
-    img: "/advance-data-science-and-ai.webp",
+    img: "advance-data-science-ai-program.png",
     title: "Advanced Data Science",
     tag:"Data science",
     title1: "and AI Program",
@@ -169,7 +169,7 @@ export const ForProgrammersD = [
   },
   {
     id: 2,
-    img: "/Full-stack-software-development-home-course.webp",
+    img: "full-stack-developer-course.png",
     title: "Full-Stack Software",
     tag:"Full stack",
     title1: "Development Program",
@@ -184,7 +184,7 @@ export const ForProgrammersD = [
   },
   {
     id: 3,
-    img: "/data -science-AI-Mangers.webp",
+    img: "data-science-ai-for managers.png",
     title: "Data Science and AI for ",
     tag:"Data science",
     title1: "Managers & Leaders Program",
@@ -199,7 +199,7 @@ export const ForProgrammersD = [
   },
   {
     id: 4,
-    img: "/Data-science-course-2nd.webp",
+    img: "advance -ai-ml-for-tech-professionals.png",
     title: "Advance AI and ML Program",
     tag:"Data science",
     title1: "for Tech Professionals",
@@ -214,7 +214,7 @@ export const ForProgrammersD = [
   },
   {
     id: 5,
-    img: "/full-stack-web-developer.webp",
+    img: "full-stack-web-development.png",
     title: "Full-Stack Web ",
     tag:"Full stack",
     title1: "Development Program",
@@ -229,7 +229,7 @@ export const ForProgrammersD = [
   },
   {
     id: 6,
-    img: "/data-science-job-guarantee.webp",
+    img: "data-science-ai-with-job-guarantee.png",
     title: "Data Science and AI with ",
     title1: "Job Guarantee Program",
     tag:"Data science",
@@ -242,11 +242,26 @@ export const ForProgrammersD = [
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf",
   },
+  {
+    id: 7,
+    img: "full-stack-developer-course.png",
+    title: "DSA & ",
+    title1: "System Design",
+    tag:"Full stack",
+    para: [
+      "200 hours of Interactive Learning",
+      "12 Projects + 2 Capstones",
+      "Course Fee : ₹ 70,000 + GST",
+    ],
+    link1: "/dsa-system-design",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
+  },
 ];
 export const ForNonProgrammerD = [
   {
     id: 1,
-    img: "/AI-Certificatiom-for-pro.png",
+    img: "/data-science-ai-program.png",
     title: "Data Science",
     title1: "Foundation Program",
     tag:"Data science",
@@ -261,7 +276,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 2,
-    img: "/advance-data-science-and-ai.webp",
+    img: "advance-data-science-ai-program.png",
     title: "Advanced Data Science",
     title1: "and AI Program",
     tag:"Data science",
@@ -276,7 +291,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 3,
-    img: "/Data-science-course-2nd.webp",
+    img: "advance -ai-ml-for-tech-professionals.png",
     title: "Advance AI and ML Program",
     title1: "for Tech Professionals",
     tag:"Data science",
@@ -291,7 +306,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 4,
-    img: "/data -science-AI-Mangers.webp",
+    img: "data-science-ai-for managers.png",
     title: "Data Science and AI for ",
     title1: "Managers & Leaders Program",
     tag:"Data science",
@@ -306,7 +321,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 5,
-    img: "/data-science-job-guarantee.webp",
+    img: "data-science-ai-with-job-guarantee.png",
     title: "Data Science and AI with ",
     title1: "Job Guarantee Program",
     tag:"Data science",
@@ -321,7 +336,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 6,
-    img: "/DABA.png",
+    img: "business-analytics.png",
     title: "Business Analytics",
     title1: "Program",
     tag:"Data science",
@@ -340,7 +355,7 @@ export const ForNonProgrammerD = [
 export const JobGuaranteeD = [
   {
     id: 1,
-    img: "/data-science-job-guarantee.webp",
+    img: "data-science-ai-with-job-guarantee.png",
     title: "Data Science and AI with ",
     title1: "Job Guarantee Program",
     tag:"Data science",
@@ -355,7 +370,7 @@ export const JobGuaranteeD = [
   },
   {
     id: 2,
-    img: "/full-stack-web-developer.webp",
+    img: "full-stack-web-development.png",
     title: "Full-Stack Web ",
     title1: "Development Program",
     tag:"Full stack",
@@ -372,7 +387,7 @@ export const JobGuaranteeD = [
 export const StackD = [
   {
     id: 1,
-    img: "/full-stack-web-developer.webp",
+    img: "full-stack-web-development.png",
     title: "Full-Stack Web ",
     title1: "Development Program",
     tag:"Full stack",
@@ -387,7 +402,7 @@ export const StackD = [
   },
   {
     id: 2,
-    img: "/Full-stack-software-development-home-course.webp",
+    img: "full-stack-developer-course.png",
     title: "Full-Stack Software",
     title1: "Development Program",
     tag:"Full stack",
@@ -402,7 +417,7 @@ export const StackD = [
   },
   {
     id: 3,
-    img: "/Full-stack-software-development-home-course.webp",
+    img: "full-stack-developer-course.png",
     title: "DSA & ",
     title1: "System Design",
     tag:"Full stack",

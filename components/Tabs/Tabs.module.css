@@ -5,13 +5,13 @@
   display: flex;
   position: absolute;
   left: 0;
-
-  width: 100vw;
+  width: fit-content;
   justify-content: space-between;
-  padding: 20px 90px;
+  padding: 20px 20px 20px 50px;
   background-color: white;
   box-shadow: rgba(136, 237, 253, 0.421) 0px 2px 8px 0px;
   top: 60px;
+
 }
 .leftPanel {
   display: flex;
@@ -58,8 +58,7 @@ width: 100%;
 }
 .RowWrap {
   display: grid;
-
-  grid-template-columns: 35% 35%;
+  grid-template-columns: 49% 49%;
 }
 .Row {
   width: 100%;
@@ -72,7 +71,7 @@ width: 100%;
   margin: 10px;
   box-shadow: rgba(150, 230, 250, 0.444) 0px 3px 8px;
   padding: 10px 20px;
-  width: 290px;
+  width: 280px;
   border-radius: 8px;
   align-items: center;
   cursor: pointer;
@@ -94,6 +93,7 @@ width: 100%;
     height: 100vh;
     width: 100vw;
     flex-flow: column;
+    padding: 20px 20px;
   }
   .leftPanel {
     margin-right: 0px;
@@ -106,5 +106,9 @@ width: 100%;
 
     grid-template-columns: 50% 50%;
     width: 100%;
+  }
+  .Program {
+    width: fit-content;
+    padding: 10px;
   }
 }
