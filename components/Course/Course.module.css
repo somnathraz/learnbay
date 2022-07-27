@@ -84,6 +84,7 @@
   margin-bottom: 20px;
   position: relative;
   border-radius: 8px;
+  width: 33%;
 }
 .contentBox {
   z-index: 1;
@@ -132,6 +133,15 @@
   padding: 10px 15px;
   border-radius: 10px;
   border: 1px solid;
+}
+.gridPanelN {
+  padding: 0;
+  height: 500px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 0px 20px;
 }
 
 @media (max-width: 481px) {
@@ -190,8 +200,18 @@
     grid-template-columns: 85% 85%;
     overflow: scroll;
     padding: 0;
-    height: 550px;
+    height: 500px;
   }
+
+  .gridPanelN {
+    overflow: scroll;
+    padding: 0;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 90% 90% 90%;
+    width: 100%;
+  }
+
   .leftSide,
   .middleSide,
   .rightSide {

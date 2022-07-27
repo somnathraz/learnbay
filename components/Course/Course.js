@@ -241,7 +241,22 @@ const Course = () => {
               setGuarantee(false);
               setStack(false);
             }}
-            className={viewAll ? styles.ActiveSpan : styles.span}
+            style={
+              viewAll
+                ? {
+                    background: "white",
+                    color: "#2D9CD7",
+                    borderTop: "3px solid #2d9cd7",
+                    borderRight: "2px solid #28557a2e",
+                  }
+                : {
+                    background: "white",
+                    borderBottom: "2px solid #28557a2e",
+                    marginTop: "-10px",
+                    paddingTop: "30px",
+                    marginRight: "-3px",
+                  }
+            }
           >
             View All
           </span>
