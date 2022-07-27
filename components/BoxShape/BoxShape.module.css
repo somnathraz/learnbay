@@ -121,10 +121,15 @@
   .box h5,
   .boxActive h5 {
     font-size: 18px;
+    text-align: center;
   }
   .imgBack {
     width: max-content;
   }
+.box:hover {
+  width: 33%;
+  padding: 30px 15px;
+}
 }
 @media (max-width: 801px) {
   .box {

@@ -26,6 +26,7 @@ const Course = () => {
   const [Guarantee, setGuarantee] = useState(false);
   const [Stack, setStack] = useState(false);
   const [mobile, setMobile] = useState(false);
+  const [tab, setTab] = useState(false);
 
   const filtteredViewAllD = viewAllD.filter((post)=> post.tag === "Data science")
   const filtteredViewAllF = viewAllD.filter((post)=> post.tag === "Full stack")
@@ -45,6 +46,12 @@ const Course = () => {
     }
   });
 
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 960) {
+      setTab(true);
+    }
+  });
 
   return (
     <div className={styles.Course} id="course">

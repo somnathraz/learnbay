@@ -16,26 +16,14 @@ const BottomBar = ({ changeBottom }) => {
   };
   return (
     <div className="divWrapper">
-      <Popup
-        trigger={popups}
-        setTrigger={setPopups}
-        className="popupModal"
-        downloadBrochure
-      >
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
-          <div
-            className="whiteP"
-            style={{ width: "350px", height: "400px" }}
-          ></div>
+          <div className="whiteP" />
         </div>
         <div className="RightPopup">
-          <h5>
-            {changeBottom
-              ? "Download Data science course Brochure"
-              : "Download Full stack Brochure"}
-          </h5>
-          <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure />
+          <h5>Apply For Counselling</h5>
+          <p>Fill the below details to get started</p>
+          <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
       <div className="FlDiv">

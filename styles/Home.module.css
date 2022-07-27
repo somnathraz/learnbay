@@ -254,6 +254,15 @@
   color: rgb(103, 103, 103);
 }
 
+@media (max-width: 961px){
+  .boxShape {
+    gap: 10px;
+  }
+.boxWrap {
+  padding: 30px;
+}
+}
+
 @media (max-width: 481px) {
   .container {
     padding: 0 0rem;
@@ -261,7 +270,7 @@
   .boxWrap {
     display: flex;
     flex-flow: column;
-    padding: 75px 20px 40px 20px;
+    padding: 30px 20px 40px 20px;
   }
   .boxWrap h2 {
     margin: 0;
@@ -347,7 +356,7 @@
   }
 
   .ProjectWrapper {
-    padding: 0px;
+    padding: 20px;
     margin: 0px;
   }
   .expertBody {

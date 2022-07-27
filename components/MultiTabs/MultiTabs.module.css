@@ -139,6 +139,18 @@
 
   color: #6c6c6c;
 }
+
+@media (max-width: 961px) {
+  .Course {
+    margin-top: 0px;
+    padding: 0px 30px;
+    margin-bottom: 0px;
+  }
+.gridPanel {
+  gap: 30px;
+}
+}
+
 @media (max-width: 481px) {
   .Course {
     padding: 0 20px;

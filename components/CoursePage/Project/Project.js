@@ -105,42 +105,54 @@ const Project = ({
 
   return ChangeProject ? (
     <div className={styles.projectHeader}>
+      <ProjectPopup
+      trigger={popups}
+      setTrigger={setPopups}
+      title={title}
+      desc={desc}
+      imgsrc={img}
+      />
+        
+
+      
       <div className={styles.headWrapper}>
         <div className={styles.left}>
-          <p className={styles.sub}>Industry–Partnered Capstone Projects</p>
+          
           <h3>Hands-on Projects</h3>
-          <p className={styles.para}>Data sets from the industry</p>
-        </div>
-        <div className={styles.right}>
-          <div className={styles.red}>
-            <h3>{project}</h3>
-            <p>
-              Projects <br />
-              Available
-            </p>
-          </div>
-          <div className={styles.blue}>
-            <h3>{domain}</h3>
-            <p>
-              Domain <br />
-              Covered
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className={styles.iconWrapper}>
-        <div className={styles.left}>
-          <FiCheckSquare className={styles.icon} />
+          
+        <div className={styles.iconWrapper}>
+        <div className={styles.middle}>
+          <BsCheck2 className={styles.icon} />
           <p>Practice with Latest Tools</p>
         </div>
         <div className={styles.middle}>
-          <FiCheckSquare className={styles.icon} />
+          <BsCheck2 className={styles.icon} />
           <p>Designed by Industry Experts</p>
         </div>
-        <div className={styles.right}>
-          <FiCheckSquare className={styles.icon} />
+        <div className={styles.middle}>
+          <BsCheck2 className={styles.icon} />
           <p>Get Real-world Experience</p>
         </div>
+      </div>
+      <div className={styles.projectNumb}>
+        <div className={styles.leftProjectNumb}>
+          <GoDeviceDesktop className={styles.lIcon}/> 
+          <div>
+            <h5>12+ Projects</h5>
+            <p>Available</p>
+          </div>
+        </div>
+        <div className={styles.rightProjectNumb}>
+        <AiOutlineBank className={styles.rIcon} /> 
+          <div>
+            <h5>7+ Cities</h5>
+            <p>with Hybrid Model</p>
+          </div>
+        </div>
+
+      </div>
+        </div>
+      
       </div>
       <div className={styles.projectSlider}>
         <div className={styles.list}>
@@ -153,404 +165,214 @@ const Project = ({
               <div className={styles.project}>
                 <div className={styles.header}>
                   <div className={styles.left}>
-                    <p>project 1</p>
                     <h5>HR Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <BsFillCreditCard2BackFill className={styles.icon} />
+                  <Image
+            src="/1-1.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="90"
+            height="45"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
-                  <h6>Work like credit risk analyst at Moodys</h6>
                   <p>
-                    Develop a prediction model for existing customers to
-                    identify probable credit default
+                  IBM intends to boost their HR department by identifying employees' masked inconsistency...
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <img
-                    src="/Moodys-Project.webp"
-                    alt="Moody's"
-                    loading="lazy"
-                  />
+                  <span onClick={()=>{popupShow();
+                  setTitle("HR Domain")
+                  setDesc("IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.")
+                  setImg("/Hr-domain-img.png")}}>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>
                 <div className={styles.header}>
                   <div className={styles.left}>
-                    <p>project 2</p>
-                    <h5>BANKING</h5>
+                    <h5>Marketing Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <GiBank className={styles.icon} />
+                  <Image
+            src="/2-3.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="90"
+            height="45"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
-                  <h6>Analyze exchange rates like Bloomberg</h6>
                   <p>
-                    Model a program to forecast value of a currency in global
-                    market
+                  Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools...
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
+                   <span onClick={()=>{popupShow();
+                  setTitle("Marketing Domain")
+                  setDesc("Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools. They also require proper message preparation and delivery of the same to the right audience at the right time. You can help them with text analytics and NLP-based keyword research solutions")
+                  setImg("/Marketing-domain-img.png")}} >Learn More</span>
+
                 </div>
-                <div className={styles.projectFooter}>
-                  <img src="/Bloombreg.webp" alt="Bloomberg" loading="lazy" />
+                <div style={{position:"absolute"}}>
+                <img src="/shadow.png" width="380" height="60" />
                 </div>
+              
               </div>
               <div className={styles.project}>
                 <div className={styles.header}>
                   <div className={styles.left}>
-                    <p>project 3</p>
-                    <h5>BANKING</h5>
+                    <h5>Manufacturing Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <BsPaypal className={styles.icon} />
+                  <Image
+            src="/Untitled-design-3.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="90"
+            height="45"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
-                  <h6>Understand mobile banking usage like at Razorpay</h6>
                   <p>
-                    Analyze clusters of customers on the usage of mobile banking
+                  This project helped BOSCH to predict their internal failures by production line dataset analysis...
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <img src="/Razorpay.webp" alt="Razorpay" loading="lazy" />
+                   <span onClick={()=>{popupShow();
+                  setTitle("Sales Domain")
+                  setDesc("BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects.")
+                  setImg("/Sales-domain.png")}}>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>
                 <div className={styles.header}>
                   <div className={styles.left}>
-                    <p>project 4</p>
-                    <h5>AUTOMOBILE</h5>
+                    <h5>Sales Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <AiOutlineCar className={styles.icon} />
+                  <Image
+            src="/Untitled-design-2.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="90"
+            height="45"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
-                  <h6>Predict cab fare like Uber </h6>
-                  <p>Build a model to predict real-time cab fare price.</p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <img src="/Uber.webp" alt="Uber" loading="lazy" />
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 5</p>
-                    <h5>AUTOMOBILE</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <AiOutlineCar className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>Optimize vehicle time to market like Mercedes</h6>
-                  <p>Optimize the time for a car to reach the market</p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <img src="/Mercedez.webp" alt="Mercedes" loading="lazy" />
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 6</p>
-                    <h5>AUTOMOBILE</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <AiOutlineCar className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>Predict Vehicle Motion like Tesla</h6>
                   <p>
-                    Build motion prediction models for self-driving vehicles
+                  BMW allows existing customers to sell used cars, but many competitors are now offering better resale values...
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <img src="/Tesela.webp" alt="Tesela" loading="lazy" />
+                  <span onClick={()=>{popupShow();
+                  setTitle("Supply chain Domain")
+                  setDesc("An automated inventory management system will keep track of stock levels and upcoming orders. In addition, you can contribute to DataCo's intelligent supply chain software generation project by using ML algorithms and R programming skills.")
+                  setImg("/supplyChain.png")}}>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>
                 <div className={styles.header}>
                   <div className={styles.left}>
-                    <p>project 7</p>
-                    <h5>AUTOMOBILE</h5>
+                    <h5>Retail Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <AiOutlineCar className={styles.icon} />
+                  <Image
+            src="/12-1.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="90"
+            height="45"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
-                  <h6>Model like ABB to predict maintenance</h6>
                   <p>
-                    Develop a model to save on unwanted breakdown of machine
-                    failure
+                  Take an active part in the Walmart sales forecasting project. From the huge data set available,...
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/lyft.webp" alt="lyft" />
+                  <span onClick={()=>{popupShow();
+                  setTitle("Retail Domain")
+                  setDesc("Take an active part in the Walmart sales forecasting project. From the huge data set available, you have to perform a sales forecast for 45 Walmart stores. You have to include holiday markdown sales too.")
+                  setImg("/supplyChain.png")}}>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>
                 <div className={styles.header}>
                   <div className={styles.left}>
-                    <p>project 8</p>
-                    <h5>HEALTHCARE</h5>
+                    <h5>Healthcare Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <GiHealthNormal className={styles.icon} />
+                  <Image
+            src="/5(2).png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="90"
+            height="45"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
-                  <h6>Predict human mobility like Google</h6>
-                  <p>Study human mobility to predict the Covid-19 surge</p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/Google.webp" alt="Google" />
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 9</p>
-                    <h5>HEALTHCARE</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <GiHealthNormal className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>Create a model to predict heart failure</h6>
                   <p>
-                    Create a model to predict heart failure before its
-                    occurrence
+                  Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity...
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <GiArtificialIntelligence className="belowIcon" />
+                  <span onClick={()=>{popupShow();
+                  setTitle("Healthcare Domain")
+                  setDesc("Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.")
+                  setImg("/supplyChain.png")}}>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>
                 <div className={styles.header}>
                   <div className={styles.left}>
-                    <p>project 10</p>
-                    <h5>HEALTHCARE</h5>
+                    <h5>E-Commerce Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <GiHealthNormal className={styles.icon} />
+                  <Image
+            src="/4(2).png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="90"
+            height="45"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
-                  <h6>Build AI model like proscia to detect cancer</h6>
                   <p>
-                    Study the human cell to identify whether it is infected or
-                    not infected
+                  Amazon has made a goal to identify the most successful consumer electronic products...
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/proscia.webp" alt="Proscia" />
+                  <span onClick={()=>{popupShow();
+                  setTitle("E-Commerce Domain")
+                  setDesc("Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.")
+                  setImg("/supplyChain.png")}}>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>
                 <div className={styles.header}>
                   <div className={styles.left}>
-                    <p>project 11</p>
-                    <h5>TECHNICAL</h5>
+                    <h5>Entertainment Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <AiFillMobile className={styles.icon} />
+                  <Image
+            src="/9-1.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="90"
+            height="45"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
-                  <h6>Analyze trending videos like YouTube analyst</h6>
-                  <p>Study daily records of YouTube trending video</p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <img loading="lazy" src="Youtube.webp" alt="Youtube" />
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 12</p>
-                    <h5>TECHNICAL</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <AiFillMobile className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>
-                    Predict success factor of apps like Google Playstore analyst
-                  </h6>
                   <p>
-                    Predict the factors that contribute to the success of an
-                    application
+                  Netflix is a global entertainment video streaming site. They offer content in various regional languages...
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <img
-                    loading="lazy"
-                    src="/Google-play.webp"
-                    alt="GooglePlay"
-                  />
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 13</p>
-                    <h5>TECHNICAL</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <AiFillMobile className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>Create a recommendation engine like Spotify</h6>
-                  <p>
-                    Work on the dataset to find a geographical connection with
-                    popular songs
-                  </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/soptify-logo.webp" alt="Spotify" />
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 14</p>
-                    <h5>TECHNICAL</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <AiFillMobile className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>
-                    Find candidates using HR Analytics like McKinsey Analyst
-                  </h6>
-                  <p>
-                    Predict the probability of a candidate looking for a new job
-                  </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>python</span>
-                    <span className={styles.lightOrange}>AWS</span>
-                    <span className={styles.lightRed}>Heroku</span>
-                    <span className={styles.lightBlue}>Scala</span>
-                    <span className={styles.lightOrange}>dJango</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
-                </div>
-                <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/Mckinsey.webp" alt="Mckinsey" />
+                  <span onClick={()=>{popupShow();
+                  setTitle("Entertainment Domain")
+                  setDesc("Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP.")
+                  setImg("/supplyChain.png")}}>Learn More</span>
                 </div>
               </div>
             </div>
@@ -563,6 +385,12 @@ const Project = ({
           </div>
         </div>
       </div>
+      <div>
+            <a href='https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf' target={"_blank"}><button style={{margin:"auto", marginTop:"20px", fontSize:"16px"}}>
+            <FaDownload className={styles.bicon} style={{marginRight:"10px"}} />
+                Project Brochure
+            </button></a>
+        </div>
     </div>
   ) : (
 
@@ -642,7 +470,7 @@ const Project = ({
                 </div>
                 <div className={styles.body}>
                   <p>
-                  IBM intends to boost their HR department by identifying employees' masked inconsistency. They need models to identify the graphical....
+                  IBM intends to boost their HR department by identifying employees' masked inconsistency...
                   </p>
                   <span onClick={()=>{popupShow();
                   setTitle("HR Domain")
@@ -668,7 +496,7 @@ const Project = ({
                 </div>
                 <div className={styles.body}>
                   <p>
-                  Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools. They also require proper message preparation and delivery of the same to the right audience at the right time.
+                  Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools...
                   </p>
                    <span onClick={()=>{popupShow();
                   setTitle("Marketing Domain")
@@ -699,7 +527,7 @@ const Project = ({
                 </div>
                 <div className={styles.body}>
                   <p>
-                  This project helped BOSCH to predict their internal failures by production line dataset analysis. But still, they are struggling to predict automated faults in their assembly stage....
+                  This project helped BOSCH to predict their internal failures by production line dataset analysis...
                   </p>
                    <span onClick={()=>{popupShow();
                   setTitle("Sales Domain")
@@ -718,14 +546,14 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="450"
-            height="120px"
+            width="90"
+            height="45"
           />
                   </div>
                 </div>
                 <div className={styles.body}>
                   <p>
-                  BMW allows existing customers to sell used cars, but many competitors are now offering better resale values.....
+                  BMW allows existing customers to sell used cars, but many competitors are now offering better resale values...
                   </p>
                   <span onClick={()=>{popupShow();
                   setTitle("Supply chain Domain")
@@ -744,15 +572,19 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="450"
-            height="120px"
+            width="90"
+            height="45"
           />
                   </div>
                 </div>
                 <div className={styles.body}>
                   <p>
-                  Take an active part in the Walmart sales forecasting project. From the huge data set available, you have to perform a sales forecast for 45 Walmart stores. You have to include holiday markdown sales too.
+                  Take an active part in the Walmart sales forecasting project. From the huge data set available,...
                   </p>
+                  <span onClick={()=>{popupShow();
+                  setTitle("Retail Domain")
+                  setDesc("Take an active part in the Walmart sales forecasting project. From the huge data set available, you have to perform a sales forecast for 45 Walmart stores. You have to include holiday markdown sales too.")
+                  setImg("/supplyChain.png")}}>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>
@@ -762,69 +594,54 @@ const Project = ({
                   </div>
                   <div className={styles.right}>
                   <Image
-            src="/4(2).png"
-            alt="Learnbay"
-            quality={100}
-            objectFit="contain"
-            width="450"
-            height="120px"
-          />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  {/* <h6>
-                    Build a scalable chatbot application like freshdesk with a
-                    recommendation engine.
-                  </h6> */}
-                  <p>
-                  Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.
-                  </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>React</span>
-                    <span className={styles.lightOrange}>Firebase</span>
-                    <span className={styles.lightRed}>redux</span>
-                    <span className={styles.lightBlue}>Node </span>
-                    <span className={styles.lightOrange}>Mongo</span>
-                    <span className={styles.lightRed}>AWS</span>
-                  </div> */}
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    {/* <p>project 7</p> */}
-                    <h5>E-Commerce Domain</h5>
-                  </div>
-                  <div className={styles.right}>
-                  <Image
             src="/5(2).png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="450"
-            height="120px"
+            width="90"
+            height="45"
           />
                   </div>
                 </div>
                 <div className={styles.body}>
-                  {/* <h6>Build project management dashboard like Trello, Jira.</h6> */}
                   <p>
-                  Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.
+                  Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity...
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>React</span>
-                    <span className={styles.lightOrange}>Firebase</span>
-                    <span className={styles.lightRed}>redux</span>
-                    <span className={styles.lightBlue}>Node </span>
-                    <span className={styles.lightOrange}>Mongo</span>
-                    <span className={styles.lightRed}>Deploy</span>
-                  </div> */}
+                  <span onClick={()=>{popupShow();
+                  setTitle("Healthcare Domain")
+                  setDesc("Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.")
+                  setImg("/supplyChain.png")}}>Learn More</span>
                 </div>
               </div>
               <div className={styles.project}>
                 <div className={styles.header}>
                   <div className={styles.left}>
-                    {/* <p>project 7</p> */}
+                    <h5>E-Commerce Domain</h5>
+                  </div>
+                  <div className={styles.right}>
+                  <Image
+            src="/4(2).png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="90"
+            height="45"
+          />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  Amazon has made a goal to identify the most successful consumer electronic products...
+                  </p>
+                  <span onClick={()=>{popupShow();
+                  setTitle("E-Commerce Domain")
+                  setDesc("Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.")
+                  setImg("/supplyChain.png")}}>Learn More</span>
+                </div>
+              </div>
+              <div className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
                     <h5>Entertainment Domain</h5>
                   </div>
                   <div className={styles.right}>
@@ -833,230 +650,21 @@ const Project = ({
             alt="Learnbay"
             quality={100}
             objectFit="contain"
-            width="450"
-            height="120px"
+            width="90"
+            height="45"
           />
                   </div>
                 </div>
                 <div className={styles.body}>
-                  {/* <h6>Build project management dashboard like Trello, Jira.</h6> */}
                   <p>
-                  Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP.
+                  Netflix is a global entertainment video streaming site. They offer content in various regional languages...
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>React</span>
-                    <span className={styles.lightOrange}>Firebase</span>
-                    <span className={styles.lightRed}>redux</span>
-                    <span className={styles.lightBlue}>Node </span>
-                    <span className={styles.lightOrange}>Mongo</span>
-                    <span className={styles.lightRed}>Deploy</span>
-                  </div> */}
+                  <span onClick={()=>{popupShow();
+                  setTitle("Entertainment Domain")
+                  setDesc("Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP.")
+                  setImg("/supplyChain.png")}}>Learn More</span>
                 </div>
               </div>
-              {/* <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 8</p>
-                    <h5>HEALTHCARE</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <GiHealthNormal className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>Predict human mobility like Google</h6>
-                  <p>Study human mobility to predict the Covid-19 surge</p>
-                  // <div className={styles.tool}>
-                  //   <span className={styles.lightBlue}>python</span>
-                  //   <span className={styles.lightOrange}>AWS</span>
-                  //   <span className={styles.lightRed}>Heroku</span>
-                  //   <span className={styles.lightBlue}>Scala</span>
-                  //   <span className={styles.lightOrange}>dJango</span>
-                  //   <span className={styles.lightRed}>SQL</span>
-                  // </div>
-                </div>
-                <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/Google.webp" alt="Google" />
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 9</p>
-                    <h5>HEALTHCARE</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <GiHealthNormal className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>Create a model to predict heart failure</h6>
-                  <p>
-                    Create a model to predict heart failure before its
-                    occurrence
-                  </p>
-                  // <div className={styles.tool}>
-                  //   <span className={styles.lightBlue}>python</span>
-                  //   <span className={styles.lightOrange}>AWS</span>
-                  //   <span className={styles.lightRed}>Heroku</span>
-                  //   <span className={styles.lightBlue}>Scala</span>
-                  //   <span className={styles.lightOrange}>dJango</span>
-                  //   <span className={styles.lightRed}>SQL</span>
-                  // </div>
-                </div>
-                <div className={styles.projectFooter}>
-                  <GiArtificialIntelligence className="belowIcon" />
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 10</p>
-                    <h5>HEALTHCARE</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <GiHealthNormal className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>Build AI model like proscia to detect cancer</h6>
-                  <p>
-                    Study the human cell to identify whether it is infected or
-                    not infected
-                  </p>
-                  // <div className={styles.tool}>
-                  //   <span className={styles.lightBlue}>python</span>
-                  //   <span className={styles.lightOrange}>AWS</span>
-                  //   <span className={styles.lightRed}>Heroku</span>
-                  //   <span className={styles.lightBlue}>Scala</span>
-                  //   <span className={styles.lightOrange}>dJango</span>
-                  //   <span className={styles.lightRed}>SQL</span>
-                  // </div>
-                </div>
-                <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/proscia.webp" alt="Proscia" />
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 11</p>
-                    <h5>TECHNICAL</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <AiFillMobile className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>Analyze trending videos like YouTube analyst</h6>
-                  <p>Study daily records of YouTube trending video</p>
-                  // <div className={styles.tool}>
-                  //   <span className={styles.lightBlue}>python</span>
-                  //   <span className={styles.lightOrange}>AWS</span>
-                  //   <span className={styles.lightRed}>Heroku</span>
-                  //   <span className={styles.lightBlue}>Scala</span>
-                  //   <span className={styles.lightOrange}>dJango</span>
-                  //   <span className={styles.lightRed}>SQL</span>
-                  // </div>
-                </div>
-                <div className={styles.projectFooter}>
-                  <img loading="lazy" src="Youtube.webp" alt="Youtube" />
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 12</p>
-                    <h5>TECHNICAL</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <AiFillMobile className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>
-                    Predict success factor of apps like Google Playstore analyst
-                  </h6>
-                  <p>
-                    Predict the factors that contribute to the success of an
-                    application
-                  </p>
-                  // <div className={styles.tool}>
-                  //   <span className={styles.lightBlue}>python</span>
-                  //   <span className={styles.lightOrange}>AWS</span>
-                  //   <span className={styles.lightRed}>Heroku</span>
-                  //   <span className={styles.lightBlue}>Scala</span>
-                  //   <span className={styles.lightOrange}>dJango</span>
-                  //   <span className={styles.lightRed}>SQL</span>
-                  // </div>
-                </div>
-                <div className={styles.projectFooter}>
-                  <img
-                    loading="lazy"
-                    src="/Google-play.webp"
-                    alt="GooglePlay"
-                  />
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 13</p>
-                    <h5>TECHNICAL</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <AiFillMobile className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>Create a recommendation engine like Spotify</h6>
-                  <p>
-                    Work on the dataset to find a geographical connection with
-                    popular songs
-                  </p>
-                  // <div className={styles.tool}>
-                  //   <span className={styles.lightBlue}>python</span>
-                  //   <span className={styles.lightOrange}>AWS</span>
-                  //   <span className={styles.lightRed}>Heroku</span>
-                  //   <span className={styles.lightBlue}>Scala</span>
-                  //   <span className={styles.lightOrange}>dJango</span>
-                  //   <span className={styles.lightRed}>SQL</span>
-                  // </div>
-                </div>
-                <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/soptify-logo.webp" alt="Spotify" />
-                </div>
-              </div>
-              <div className={styles.project}>
-                <div className={styles.header}>
-                  <div className={styles.left}>
-                    <p>project 14</p>
-                    <h5>TECHNICAL</h5>
-                  </div>
-                  <div className={styles.right}>
-                    <AiFillMobile className={styles.icon} />
-                  </div>
-                </div>
-                <div className={styles.body}>
-                  <h6>
-                    Find candidates using HR Analytics like McKinsey Analyst
-                  </h6>
-                  <p>
-                    Predict the probability of a candidate looking for a new job
-                  </p>
-                  // <div className={styles.tool}>
-                  //   <span className={styles.lightBlue}>python</span>
-                  //   <span className={styles.lightOrange}>AWS</span>
-                  //   <span className={styles.lightRed}>Heroku</span>
-                  //   <span className={styles.lightBlue}>Scala</span>
-                  //   <span className={styles.lightOrange}>dJango</span>
-                  //   <span className={styles.lightRed}>SQL</span>
-                  // </div>
-                </div>
-                <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/Mckinsey.webp" alt="Mckinsey" />
-                </div>
-              </div> */}
             </div>
 
             <MdKeyboardArrowRight

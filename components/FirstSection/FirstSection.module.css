@@ -169,12 +169,41 @@
     gap: 15px;
   }
 }
+
+@media (max-width: 961px) {
+  .First h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+.First {
+  padding: 50px 30px;
+  gap: 10px;
+}
+.First h1 span {
+  font-size: 35px;
+}
+.pTop {
+  font-size: 18px;
+}
+.btnWrapper {
+  margin-top: 10px;
+}
+.info {
+  margin-top: 30px;
+}
+}
+
+.info p {
+  line-height: 20px;
+}
+
 @media (max-width: 481px) {
   .First {
-    margin-top: 70px;
+    margin-top: 30px;
     display: flex;
     flex-flow: column;
     height: 100vh;
+    padding: 20px;
   }
   .First h1 {
     font-size: 27px;

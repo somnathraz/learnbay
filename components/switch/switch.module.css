@@ -56,6 +56,18 @@
   margin-left: 10px;
 }
 
+@media (max-width: 961px){
+.head {
+  margin: 30px 0px;
+  padding: 30px;
+  gap: 10px;
+}
+.head h4 {
+  font-size: 25px;
+  line-height: 30px;
+}
+}
+
 @media (max-width: 600px) {
   .switch {
     display: block;
