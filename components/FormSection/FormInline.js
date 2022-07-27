@@ -3,6 +3,12 @@ import styles from "./FormInline.module.css";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
+import DatePicker from "react-datepicker";
+import setHours from "date-fns/setHours";
+import setMinutes from "date-fns/setMinutes";
+import addDays from "date-fns/addDays";
+import subDays from "date-fns/subDays";
+import getDay from "date-fns/getDay";
 
 const FormInline = ({ popup, setTrigger, downloadBrochure }) => {
   const router = useRouter();
@@ -11,7 +17,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure }) => {
     today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
   //offset to maintain time zone difference
-
+  const [startDate, setStartDate] = useState();
   const [value, setValue] = useState();
   const [query, setQuery] = useState({
     name: "",
@@ -19,11 +25,11 @@ const FormInline = ({ popup, setTrigger, downloadBrochure }) => {
     phone: "",
     workExperience: "",
     Brief: "",
-    scheduleTime: "",
+    dateTime: "",
     url: router.asPath,
   });
   useEffect(() => {
-    setQuery({ ...query, phone: value });
+    setQuery({ ...query, phone: value, dateTime: startDate  });
   }, [value]);
 
   // Update inputs value
@@ -216,6 +222,17 @@ const FormInline = ({ popup, setTrigger, downloadBrochure }) => {
     return yyyy + "-" + mm + "-" + dd;
   };
 
+  const isWeekday = (date) => {
+    const day = getDay(date);
+    return day !== 0;
+  };
+  const filterPassedTime = (time) => {
+    const currentDate = new Date();
+    const selectedDate = new Date(time);
+
+    return currentDate.getTime() < selectedDate.getTime();
+  };
+
   return (
     <div className={styles.App}>
       <form onSubmit={formSubmit}>
@@ -298,7 +315,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure }) => {
             ""
           )}
         </div>
-        <div className={styles.formWrappers}>
+        {/* <div className={styles.formWrappers}>
           <input
             type="textarea"
             name="Brief"
@@ -308,6 +325,31 @@ const FormInline = ({ popup, setTrigger, downloadBrochure }) => {
             style={{ borderBottom: "1px solid grey" }}
             onChange={handleParam()}
           />
+        </div> */}
+        <div className={styles.formWrappers}>
+              <DatePicker
+                selected={startDate}
+                name="dateTime"
+                id="dateTime"
+                onChange={(date) => setStartDate(date)}
+                showTimeSelect
+                timeIntervals={15}
+                includeDateIntervals={[
+                  {
+                    start: subDays(new Date(), 1),
+                    end: addDays(new Date(), 5),
+                  },
+                ]}
+                filterDate={isWeekday}
+                filterTime={filterPassedTime}
+                wrapperClassName={styles.date}
+                className={styles.datePicker}
+                placeholderText="Select Date and Time"
+                dateFormat="MMMM d, yyyy h:mm aa"
+                required
+                minTime={setHours(setMinutes(new Date(), 0), 10)}
+                maxTime={setHours(setMinutes(new Date(), 0), 22)}
+              />
         </div>
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our

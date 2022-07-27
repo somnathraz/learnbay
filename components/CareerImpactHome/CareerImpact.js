@@ -25,7 +25,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
         </p>
         <div className={styles.swiperleft}>
           <Swiper
-            slidesPerView={mobile ? 1 : 1}
+            slidesPerView={mobile ? 1 : 2}
             spaceBetween={mobile ? 10 : 20}
             navigation={true}
             grabCursor={true}

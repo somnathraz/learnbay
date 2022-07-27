@@ -616,20 +616,6 @@ const Project = ({
         </div>
       
       </div>
-      {/* <div className={styles.iconWrapper}>
-        <div className={styles.left}>
-          <BsCheck2All className={styles.icon} />
-          <p>Practice with Latest Tools</p>
-        </div>
-        <div className={styles.middle}>
-          <BsCheck2All className={styles.icon} />
-          <p>Designed by Industry Experts</p>
-        </div>
-        <div className={styles.right}>
-          <BsCheck2All className={styles.icon} />
-          <p>Get Real-world Experience</p>
-        </div>
-      </div> */}
       <div className={styles.projectSlider}>
         <div className={styles.list}>
           <div className={styles.wrapper}>
@@ -655,21 +641,9 @@ const Project = ({
                   </div>
                 </div>
                 <div className={styles.body}>
-                  {/* <h6>
-                    Work with startups to build scalable e-commerce websites
-                    like Amazon.
-                  </h6> */}
                   <p>
                   IBM intends to boost their HR department by identifying employees' masked inconsistency. They need models to identify the graphical....
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>Mongo</span>
-                    <span className={styles.lightOrange}>Express</span>
-                    <span className={styles.lightRed}>React</span>
-                    <span className={styles.lightBlue}>Node</span>
-                    <span className={styles.lightOrange}>NextJs</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
                   <span onClick={()=>{popupShow();
                   setTitle("HR Domain")
                   setDesc("IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.")
@@ -693,21 +667,9 @@ const Project = ({
                   </div>
                 </div>
                 <div className={styles.body}>
-                  {/* <h6>
-                    Experience Building hotel booking apps like Oyo, Airbnb from
-                    scratch.
-                  </h6> */}
                   <p>
                   Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools. They also require proper message preparation and delivery of the same to the right audience at the right time.
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>React</span>
-                    <span className={styles.lightOrange}>Node </span>
-                    <span className={styles.lightRed}>Mongo</span>
-                    <span className={styles.lightBlue}>Express</span>
-                    <span className={styles.lightOrange}>NextJs</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
                    <span onClick={()=>{popupShow();
                   setTitle("Marketing Domain")
                   setDesc("Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools. They also require proper message preparation and delivery of the same to the right audience at the right time. You can help them with text analytics and NLP-based keyword research solutions")
@@ -736,21 +698,9 @@ const Project = ({
                   </div>
                 </div>
                 <div className={styles.body}>
-                  {/* <h6>
-                    Work like a Full stack developer at Swiggy/Ubereat and
-                    design a food delivery app.
-                  </h6> */}
                   <p>
                   This project helped BOSCH to predict their internal failures by production line dataset analysis. But still, they are struggling to predict automated faults in their assembly stage....
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>React</span>
-                    <span className={styles.lightOrange}>redux</span>
-                    <span className={styles.lightRed}>Node </span>
-                    <span className={styles.lightBlue}>Mongo</span>
-                    <span className={styles.lightOrange}>Deploy</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
                    <span onClick={()=>{popupShow();
                   setTitle("Sales Domain")
                   setDesc("BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects.")
@@ -774,21 +724,9 @@ const Project = ({
                   </div>
                 </div>
                 <div className={styles.body}>
-                  {/* <h6>
-                    Design and build an OTT platform like netflix with frontend
-                    and backend.{" "}
-                  </h6> */}
                   <p>
                   BMW allows existing customers to sell used cars, but many competitors are now offering better resale values.....
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>React</span>
-                    <span className={styles.lightOrange}>Node </span>
-                    <span className={styles.lightRed}>Mongo</span>
-                    <span className={styles.lightBlue}>Deploy</span>
-                    <span className={styles.lightOrange}>NextJs</span>
-                    <span className={styles.lightRed}>SQL</span>
-                  </div> */}
                   <span onClick={()=>{popupShow();
                   setTitle("Supply chain Domain")
                   setDesc("An automated inventory management system will keep track of stock levels and upcoming orders. In addition, you can contribute to DataCo's intelligent supply chain software generation project by using ML algorithms and R programming skills.")
@@ -812,21 +750,9 @@ const Project = ({
                   </div>
                 </div>
                 <div className={styles.body}>
-                  {/* <h6>
-                    Build a scalable social media app like Facebook from scratch
-                    with all major features and deploy it.
-                  </h6> */}
                   <p>
                   Take an active part in the Walmart sales forecasting project. From the huge data set available, you have to perform a sales forecast for 45 Walmart stores. You have to include holiday markdown sales too.
                   </p>
-                  {/* <div className={styles.tool}>
-                    <span className={styles.lightBlue}>React</span>
-                    <span className={styles.lightOrange}>Firebase</span>
-                    <span className={styles.lightRed}>redux</span>
-                    <span className={styles.lightBlue}>Node </span>
-                    <span className={styles.lightOrange}>Mongo</span>
-                    <span className={styles.lightRed}>Deploy</span>
-                  </div> */}
                 </div>
               </div>
               <div className={styles.project}>
