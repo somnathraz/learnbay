@@ -170,7 +170,7 @@
     font-size: 14px;
     width: 100%;
     padding: 15px 10px;
-  }
+  } 
   .gridPanel {
     grid-template-columns: 85% 85% 85% 85% 85% 85% 85%;
     overflow-x: scroll;
