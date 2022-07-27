@@ -93,7 +93,6 @@
   gap: 20px;
   flex-flow: column;
   margin-top: 30px;
-  align-items: center;
 }
 .DivIcon button {
   width: max-content;
@@ -162,6 +161,34 @@
   margin: 0px;
 }
 
+@media (max-width: 961px) {
+  .WhyLearnbay {
+    padding: 70px 0px;
+    width: 100%;
+  }
+.FirstText {
+  padding: 30px;
+}
+.MiddleDiv {
+  padding: 0px 50px 0px 50px;
+  margin: 0px;
+  background-position: right;
+  display: flex;
+}
+.MiddleImg {
+  margin: 0;
+}
+.FirstDiv {
+  padding: 0px 50px 0px 50px;
+  margin: 0px;
+  background-position: right;
+  margin: 50px 0px;
+}
+.FirstImg {
+  margin: 0;
+}
+}
+
 @media (max-width: 600px) {
   .WhyLearnbay {
     padding: 0px 0px;
@@ -211,5 +238,27 @@
   }
 .iconBox {
   width: 100%;
+}
+}
+
+@media (max-width: 481px) {
+  .FirstDiv {
+    padding: 0px;
+  }
+  .MiddleDiv {
+    padding: 20px;
+  }
+  .MiddleImg {
+    height: fit-content;
+    width: 100%;
+  }
+  .FirstText {
+    padding: 20px 0px;
+  }
+.MiddleDiv {
+  background-position: center;
+}
+.DivIcon {
+  align-items: center;
 }
 }

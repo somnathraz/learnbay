@@ -26,6 +26,7 @@ const Course = () => {
   const [Guarantee, setGuarantee] = useState(false);
   const [Stack, setStack] = useState(false);
   const [mobile, setMobile] = useState(false);
+  const [tab, setTab] = useState(false);
 
   const filtteredViewAllD = viewAllD.filter(
     (post) => post.tag === "Data science"

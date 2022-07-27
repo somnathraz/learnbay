@@ -166,6 +166,15 @@
   border: 1px solid #ff9562;
 }
 
+@media (max-width: 961px) {
+  .right span {
+    margin-right: 12px;
+  }
+  .nav {
+    padding: 0px 20px;
+  }
+}
+
 @media (max-width: 481px) {
   .nav {
     width: 100vw;

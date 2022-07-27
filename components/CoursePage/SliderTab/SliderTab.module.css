@@ -150,8 +150,9 @@
   }
   @media (max-width: 481px) {
     .Course {
-      padding: 0 10px;
+      padding: 0 20px;
       margin-top: 50px;
+      margin-bottom:0px;
     }
     .Course h2 {
       font-size: 24px;
@@ -184,6 +185,7 @@
       grid-template-columns: 85% 85% 85% 85% 85% 85% 85%;
       overflow-x: scroll;
       display: block;
+      padding: 20px 0px;
     }
     .leftSide,
     .middleSide,
@@ -203,5 +205,8 @@
     .checkCircle {
       margin-right: 5px;
     }
+  .gridPanel .left {
+    margin-bottom: 20px;
+  }
   }
   

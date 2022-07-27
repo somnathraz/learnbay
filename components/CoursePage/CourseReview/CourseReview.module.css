@@ -115,3 +115,28 @@ border-radius: 34px;
     color: #0072bc;
     margin-top: 20px;
   }
+
+  @media (max-width: 481px) {
+.reviewWrap{
+  padding: 30px 20px;
+}
+.swiperleft {
+  width: 100%;
+}
+.slide {
+  height: fit-content;
+}
+.rightBottom {
+  display: block;
+  gap: 10px;
+  align-items: center;
+}
+.leftBottom{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.bottomReview{
+  padding: 30px 20px;
+}
+  }

@@ -27,6 +27,15 @@
   padding: 40px 20px;
 }
 
+@media (max-width: 961px) {
+.fromWrap {
+  padding: 0px 30px;
+}
+.rightFormWrap {
+  top: -60px;
+}
+}
+
 @media (max-width: 600px) {
 
   .fromWrap {
