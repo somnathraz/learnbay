@@ -1133,6 +1133,7 @@
           font-weight: 600;
           margin: 0px;
         }
+        
       }
     }
     .projectSlider {
@@ -1226,8 +1227,8 @@
               background-repeat: no-repeat;
               border-radius: 30px;
               background-color: white;
-
               position: relative;
+             
 
               .header {
                 display: flex;
@@ -1240,7 +1241,6 @@
                 border: 0;
                 border-radius: 15px 15px 0 0;
                 padding: 10px 00px;
-
                 p {
                   color: #2d9cd7;
                   margin: 10px 0 0 0;
@@ -1271,7 +1271,6 @@
                   text-align: center;
                   margin: auto;
                   cursor: pointer;
-
                   border-bottom: 2px dotted #0072bc;
                 }
                 h6 {

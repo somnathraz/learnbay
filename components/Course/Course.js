@@ -59,6 +59,13 @@ const Course = () => {
     }
   });
 
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 960) {
+      setTab(true);
+    }
+  });
+
   return (
     <div className={styles.Course} id="course">
       <h2>Industry Accredited Certification For Professionals</h2>

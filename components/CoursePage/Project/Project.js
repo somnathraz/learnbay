@@ -219,6 +219,7 @@ const Project = ({ ChangeProject, project, domain }) => {
                 <div style={{ position: "absolute" }}>
                   <img src="/shadow.png" width="380" height="60" />
                 </div>
+              
               </div>
               <div className={styles.project}>
                 <div className={styles.header}>
