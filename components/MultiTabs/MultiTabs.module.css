@@ -172,10 +172,10 @@
     gap: 0px;
   }
   .listPanel {
-    display: grid;
+    display: flex;
+    justify-content: flex-start;
     flex-wrap: nowrap;
     overflow-x: auto;
-    grid-template-columns: 40% 40% 40% 40%;
     box-shadow: rgba(129, 217, 255, 0.612) 0px 7px 29px 0px;
   }
   .listPanel span {
