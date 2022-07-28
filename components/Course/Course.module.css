@@ -144,6 +144,12 @@
   padding: 0px 20px;
 }
 
+@media (max-width: 961px){
+  .Course {
+    padding: 0px 30px;
+  }
+}
+
 @media (max-width: 481px) {
   .Course {
     padding: 0 20px;
@@ -154,11 +160,19 @@
     display: none;
   }
   .span {
-    font-size: 16px;
+    font-size: 18px;
     border: 0;
+    background: aliceblue;
+    border-bottom: 1px solid #2D9CD730;
+    padding: 12px 20px;
   }
+  .leftSide,
+.middleSide,
+.rightSide {
+  max-height: 180px;
+}
   .ActiveSpan {
-    padding: 20px;
+    padding: 10px 20px;
     width: 100%;
     font-size: 16px;
     font-weight: 600;
@@ -181,30 +195,49 @@
     padding: 0px;
     box-shadow: none;
   }
-  .listPanel {
-    display: flex;
-    flex-flow: column;
+  .gridPanel {
+    gap: 0px;
   }
   .listPanel .mPanel {
     display: flex;
     flex-flow: column;
+    margin-top: 20px;
   }
-  .Course h5 {
-    padding: 10px 0;
-  }
-  .leftSide {
+  .listPanel {
+    display: grid;
     width: 100%;
+
+    grid-template-columns: 100%;
+    height: max-content;
+  }
+
+  .gridPanel {
+    grid-template-columns: 85% 85%;
+    overflow: scroll;
+    padding: 0;
+    height: 500px;
+    margin-top: 0px;
   }
 
   .gridPanelN {
-    display: grid;
-    align-items: center;
-
-    grid-template-columns: 85% 85% 85%;
-
     overflow: scroll;
+    padding: 0;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 90% 90% 90%;
+    width: 100%;
   }
 
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0px;
+  }
+  .courseImg {
+    width: 100%;
+  }
   .leftSide h6,
   .middleSide h6,
   .rightSide h6 {
@@ -212,5 +245,11 @@
   }
   .checkCircle {
     margin-right: 5px;
+  }
+  .Course h5 {
+    padding: 10px;
+  }
+  .contentBox {
+    margin-top: -20px;
   }
 }
