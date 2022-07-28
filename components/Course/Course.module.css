@@ -198,10 +198,10 @@
 
   .gridPanelN {
     display: grid;
-    align-items: center;
-
-    grid-template-columns: 85% 85% 85%;
-
+    padding: 0;
+    gap: 10px;
+    grid-template-columns: 90% 90% 90%;
+    justify-content: flex-start;
     overflow: scroll;
   }
 
