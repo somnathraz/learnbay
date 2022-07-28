@@ -37,6 +37,7 @@ export default function Home() {
           <BoxShape />
         </div>
       </div>
+
       <Course />
       <KeyFeatures />
       <WhyLearnbay />

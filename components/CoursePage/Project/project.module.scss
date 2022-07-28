@@ -85,11 +85,11 @@
       grid-template-columns: 32% 37% 32%;
       gap: 15px;
       width: max-content;
-     
+
       div {
         width: max-content;
         display: flex;
-       
+
         align-items: center;
         justify-content: flex-start;
         .icon {
@@ -106,7 +106,7 @@
         }
       }
     }
-    .projectNumb{
+    .projectNumb {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -114,42 +114,40 @@
       margin-top: 20px;
       margin-bottom: -40px;
       gap: 60px;
-      .leftProjectNumb, .rightProjectNumb{
+      .leftProjectNumb,
+      .rightProjectNumb {
         display: flex;
         align-items: center;
         gap: 10px;
-        
-         h5{
+
+        h5 {
           font-size: 20px;
           margin: 0;
         }
-        p{
+        p {
           margin: 0;
           color: #646464;
         }
-            }
-            .leftProjectNumb {
-              h5{
-                color: #EDB552;
-              }
-              .lIcon{
-                color: #EDB552;
-                font-size: 40px;
-
-              }
-            }
-            .rightProjectNumb{
-              h5{
-                color: #0072BC;
-              }
-              .rIcon{
-
-                color: #0072BC;
-                font-size: 40px;
-              }
-            }
+      }
+      .leftProjectNumb {
+        h5 {
+          color: #edb552;
+        }
+        .lIcon {
+          color: #edb552;
+          font-size: 40px;
+        }
+      }
+      .rightProjectNumb {
+        h5 {
+          color: #0072bc;
+        }
+        .rIcon {
+          color: #0072bc;
+          font-size: 40px;
+        }
+      }
     }
-    
 
     .bicon {
       margin-right: 10px;
@@ -211,33 +209,30 @@
             width: max-content;
             transform: translateX(0px);
             transition: all 1s ease;
-            .project:nth-child(2){
-              background-color: #0072BC;
-              .header{
-                h5{
+            .project:nth-child(2) {
+              background-color: #0072bc;
+              .header {
+                h5 {
                   color: white;
                   border-bottom: 3px solid white;
                   padding-bottom: 10px;
                 }
               }
-              .body{
-                span{
+              .body {
+                span {
                   color: white;
                   border-bottom: 2px dotted white;
                 }
-                p{
+                p {
                   color: white;
                 }
-              
               }
-             
-
             }
 
             .project {
               margin-top: 40px;
               width: 400px;
-             
+
               margin-right: 45px;
               padding: 20px;
               height: 280px;
@@ -249,9 +244,7 @@
               border-radius: 15px;
               background-color: white;
 
-            
               position: relative;
-             
 
               .header {
                 display: flex;
@@ -262,7 +255,7 @@
                 margin: 0px 20px;
                 border-radius: 15px 15px 0 0;
                 padding: 10px 00px;
-               
+
                 p {
                   color: #2d9cd7;
                   margin: 10px 0 0 0;
@@ -275,7 +268,7 @@
                   margin: 10px 0 0 0;
                   padding: 0;
                   padding-bottom: 10px;
-                  border-bottom: 3px solid #EDB552;
+                  border-bottom: 3px solid #edb552;
                 }
                 .icon {
                   color: #2d9cd7;
@@ -288,12 +281,13 @@
                 display: flex;
                 flex-flow: column;
                 justify-content: center;
-                span{
-                  color: #0072BC;
+                span {
+                  color: #0072bc;
                   text-align: center;
-                  margin: auto;cursor: pointer;
-                
-                  border-bottom: 2px dotted #0072BC;
+                  margin: auto;
+                  cursor: pointer;
+
+                  border-bottom: 2px dotted #0072bc;
                 }
                 h6 {
                   font-size: 16px;
@@ -879,10 +873,162 @@
     .headWrapper {
       display: flex;
       flex-flow: column;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
       gap: 10px;
 
+      .left {
+        display: flex;
+        flex-flow: column;
+        .sub {
+          color: #2d9cd7;
+          padding: 0;
+          margin: 5px;
+        }
+        h3 {
+          font-size: 36px;
+          font-weight: 600;
+          margin: 0;
+          text-align: center;
+          padding: 0;
+        }
+        .para {
+          padding: 0;
+          margin: 5px;
+          color: rgb(89, 89, 89);
+        }
+      }
+      .right {
+        display: flex;
+        gap: 35px;
+        h3 {
+          font-size: 30px;
+          font-weight: 600;
+        }
+        .red {
+          display: flex;
+          flex-flow: column;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+            rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          h3 {
+            color: white;
+            margin: 0;
+            text-align: center;
+            padding: 0;
+          }
+          p {
+            color: white;
+            text-align: center;
+          }
+          background-color: #ff9562;
+          padding: 10px 10px;
+          height: fit-content;
+          border-radius: 5px;
+        }
+        .blue {
+          display: flex;
+          flex-flow: column;
+          justify-content: center;
+          height: fit-content;
+          align-items: center;
+          padding: 10px 15px;
+          border-radius: 5px;
+          background-color: #2d9cd7;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+            rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          h3 {
+            color: white;
+            margin: 0;
+            padding: 0;
+          }
+          p {
+            color: white;
+            text-align: center;
+          }
+        }
+      }
+
+      .iconWrapper {
+        display: flex;
+        flex-flow: column;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        width: max-content;
+
+        div {
+          width: max-content;
+          display: flex;
+
+          align-items: center;
+          justify-content: flex-start;
+          .icon {
+            font-size: 35px;
+            color: #000;
+            padding: 5px;
+            border-radius: 50%;
+            // background-color: #2D9CD7;
+            // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          }
+          p {
+            font-size: 16px;
+            font-weight: 500;
+          }
+        }
+      }
+      .projectNumb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: -10px;
+        gap: 10px;
+        .leftProjectNumb,
+        .rightProjectNumb {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          h5 {
+            font-size: 20px;
+            margin: 0;
+          }
+          p {
+            margin: 0;
+            color: #646464;
+          }
+        }
+        .leftProjectNumb {
+          h5 {
+            font-size: 15px;
+            color: #edb552;
+          }
+          .lIcon {
+            color: #edb552;
+            font-size: 40px;
+          }
+        }
+        .rightProjectNumb {
+          h5 {
+            font-size: 15px;
+            color: #0072bc;
+          }
+          .rIcon {
+            color: #0072bc;
+            font-size: 40px;
+          }
+        }
+      }
       justify-content: space-between;
       .left {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
         margin-bottom: 20px;
         .sub {
           color: #2d9cd7;
@@ -987,7 +1133,6 @@
           font-weight: 600;
           margin: 0px;
         }
-        
       }
     }
     .projectSlider {
@@ -1018,8 +1163,8 @@
             bottom: 0;
             margin: auto;
             cursor: pointer;
-            top: 120%;
-            left: 46%;
+            top: 126%;
+            left: 30%;
           }
           .sliderArrowRight {
             width: 40px;
@@ -1035,8 +1180,8 @@
             bottom: 0;
             margin: auto;
             cursor: pointer;
-            top: 120%;
-            right: 46%;
+            top: 126%;
+            right: 30%;
           }
           .container {
             margin-left: 20px;
@@ -1047,47 +1192,42 @@
             width: max-content;
             transform: translateX(0px);
             transition: all 1s ease;
-            .project:nth-child(2){
-              background-color: #0072BC;
-              .header{
-                h5{
+            .project:nth-child(2) {
+              background-color: #0072bc;
+              .header {
+                h5 {
                   color: white;
                   border-bottom: 3px solid white;
                   padding-bottom: 10px;
                 }
               }
-              .body{
-                span{
+              .body {
+                span {
                   color: white;
                   border-bottom: 2px dotted white;
                 }
-                p{
+                p {
                   color: white;
                 }
-              
               }
-             
-
             }
 
             .project {
               margin-top: 40px;
-              width: 400px;
-             
-              margin-right: 45px;
+              width: 280px;
+
+              margin-right: 15px;
               padding: 20px;
-              height: 280px;
-              background-image: url("/project-background.png");
+              height: 320px;
+              background-image: url("/project-mobile-line.png");
               border-image-width: 20px;
               background-position: center center;
               background-size: cover;
               background-repeat: no-repeat;
-              border-radius: 15px;
+              border-radius: 30px;
               background-color: white;
 
-            
               position: relative;
-             
 
               .header {
                 display: flex;
@@ -1095,10 +1235,12 @@
 
                 align-items: center;
                 // justify-content: space-between;
-                margin: 0px 20px;
+                margin: 0px 0px;
+                background-color: transparent;
+                border: 0;
                 border-radius: 15px 15px 0 0;
                 padding: 10px 00px;
-               
+
                 p {
                   color: #2d9cd7;
                   margin: 10px 0 0 0;
@@ -1111,7 +1253,7 @@
                   margin: 10px 0 0 0;
                   padding: 0;
                   padding-bottom: 10px;
-                  border-bottom: 3px solid #EDB552;
+                  border-bottom: 3px solid #edb552;
                 }
                 .icon {
                   color: #2d9cd7;
@@ -1120,16 +1262,17 @@
                 }
               }
               .body {
-                padding: 10px 50px;
+                padding: 10px 10px;
                 display: flex;
                 flex-flow: column;
                 justify-content: center;
-                span{
-                  color: #0072BC;
+                span {
+                  color: #0072bc;
                   text-align: center;
-                  margin: auto;cursor: pointer;
-                
-                  border-bottom: 2px dotted #0072BC;
+                  margin: auto;
+                  cursor: pointer;
+
+                  border-bottom: 2px dotted #0072bc;
                 }
                 h6 {
                   font-size: 16px;
