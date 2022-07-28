@@ -144,12 +144,6 @@
   padding: 0px 20px;
 }
 
-@media (max-width: 961px){
-  .Course {
-    padding: 0px 30px;
-  }
-}
-
 @media (max-width: 481px) {
   .Course {
     padding: 0 20px;
@@ -187,47 +181,30 @@
     padding: 0px;
     box-shadow: none;
   }
-  .gridPanel {
-    gap: 0px;
+  .listPanel {
+    display: flex;
+    flex-flow: column;
   }
   .listPanel .mPanel {
     display: flex;
     flex-flow: column;
   }
-  .listPanel {
-    display: grid;
-    width: 100%;
-
-    grid-template-columns: 100%;
-    height: max-content;
+  .Course h5 {
+    padding: 10px 0;
   }
-
-  .gridPanel {
-    grid-template-columns: 85% 85%;
-    overflow: scroll;
-    padding: 0;
-    height: 500px;
+  .leftSide {
+    width: 100%;
   }
 
   .gridPanelN {
-    overflow: scroll;
-    padding: 0;
-    height: 500px;
     display: grid;
-    grid-template-columns: 90% 90% 90%;
-    width: 100%;
+    align-items: center;
+
+    grid-template-columns: 85% 85% 85%;
+
+    overflow: scroll;
   }
 
-  .leftSide,
-  .middleSide,
-  .rightSide {
-    width: 100%;
-    margin: 10px 0px;
-    padding: 0px;
-  }
-  .courseImg {
-    width: 100%;
-  }
   .leftSide h6,
   .middleSide h6,
   .rightSide h6 {

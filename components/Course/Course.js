@@ -150,17 +150,19 @@ const Course = () => {
                 </Swiper>
               </div>
               <h5>Full Stack (2) </h5>
-              <div className={styles.gridPanel}>
+              <div className={styles.gridPanelN}>
                 {filtteredForProgrammersF.map((viewAllData) => {
                   const { id, title, title1, img, para, link1, link2 } =
                     viewAllData;
                   return (
                     <div className={styles.leftSide} key={id}>
-                      <img
-                        src={img}
-                        layout="intrinsic"
-                        className={styles.courseImg}
-                      />
+                      <div className={styles.gridImg}>
+                        <img
+                          src={img}
+                          layout="intrinsic"
+                          className={styles.courseImg}
+                        />
+                      </div>
                       <div className={styles.contentBox}>
                         <h6>{title}</h6>
                         <h6>{title1}</h6>
@@ -249,22 +251,7 @@ const Course = () => {
               setGuarantee(false);
               setStack(false);
             }}
-            style={
-              viewAll
-                ? {
-                    background: "white",
-                    color: "#2D9CD7",
-                    borderTop: "3px solid #2d9cd7",
-                    borderRight: "2px solid #28557a2e",
-                  }
-                : {
-                    background: "white",
-                    borderBottom: "2px solid #28557a2e",
-                    marginTop: "-10px",
-                    paddingTop: "30px",
-                    marginRight: "-3px",
-                  }
-            }
+            className={viewAll ? styles.ActiveSpan : styles.span}
           >
             View All
           </span>
