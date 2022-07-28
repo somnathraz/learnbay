@@ -10,7 +10,9 @@
   display: flex;
   justify-content: space-evenly;
 }
-
+.listPanel .mPanel {
+  display: none;
+}
 .feature p {
   display: flex;
   align-items: center;
@@ -32,19 +34,32 @@
   width: 100%;
   justify-content: space-evenly;
 }
-.listPanel span {
+
+.span {
   padding: 20px;
   width: 100%;
   font-weight: 600;
   cursor: pointer;
-  background-color: #e5f3fa;
+
   justify-content: start;
+  border-bottom: 2px solid #28557a2e;
 }
+.ActiveSpan {
+  padding: 20px;
+  width: 100%;
+  font-weight: 600;
+  cursor: pointer;
+
+  justify-content: start;
+  border-top: 4px solid #2d9cd7;
+  border-right: 2px solid #28557a2e;
+}
+
 .gridPanel {
   display: flex;
   height: 490px;
   width: 100%;
- 
+
   margin-top: 20px;
   gap: 20px;
   padding: 0px 20px;
@@ -54,19 +69,18 @@
   transition: transform 0.3s ease-out 0s;
   pointer-events: auto;
 }
-.Course h5{
+.Course h5 {
   font-size: 24px;
   margin: 0;
 
   padding: 10px 60px;
-  
 }
 .leftSide,
 .middleSide,
 .rightSide {
   padding: 0px;
   background-color: transparent;
-max-height: 230px;
+  max-height: 230px;
   margin-bottom: 20px;
   position: relative;
   border-radius: 8px;
@@ -142,6 +156,25 @@ max-height: 230px;
     margin-top: -50px;
     width: 100%;
   }
+  .middlePanel {
+    display: none;
+  }
+  .span {
+    font-size: 16px;
+    border: 0;
+  }
+  .ActiveSpan {
+    padding: 20px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    background-color: #0072bc;
+    color: white;
+    justify-content: start;
+  }
   .Course h2 {
     font-size: 24px;
   }
@@ -157,21 +190,20 @@ max-height: 230px;
   .gridPanel {
     gap: 0px;
   }
+  .listPanel .mPanel {
+    display: flex;
+    flex-flow: column;
+  }
   .listPanel {
     display: grid;
     width: 100%;
-    overflow: scroll;
-    grid-template-columns: 34% 34% 34% 34% 34%;
+
+    grid-template-columns: 100%;
     height: max-content;
-    box-shadow: rgba(129, 217, 255, 0.612) 0px 7px 29px 0px;
   }
-  .listPanel span {
-    font-size: 16px;
-    width: 100%;
-    padding: 10px 15px;
-  }
+
   .gridPanel {
-    grid-template-columns: 85% 85% 85% 85% 85% 85%;
+    grid-template-columns: 85% 85%;
     overflow: scroll;
     padding: 0;
     height: 500px;
