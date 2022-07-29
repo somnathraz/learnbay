@@ -26,6 +26,10 @@ const Navbar = () => {
     setShow(!show);
   };
 
+  const handleIcon = (data) => {
+    setIcon(data);
+  };
+
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -51,7 +55,10 @@ const Navbar = () => {
       </Popup>
       <nav className={styles.nav}>
         <div className={styles.left}>
-          <GiHamburgerMenu className={styles.ham} onClick={showMenu} />
+          <GiHamburgerMenu className={styles.ham} onClick={() => {
+              showMenu();
+              setIcon(false);
+            }} />
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
             <span>
@@ -106,7 +113,7 @@ const Navbar = () => {
               onMouseOver={() => setIcon(true)}
               onMouseLeave={() => setIcon(false)}
             >
-              <Tabs />
+              <Tabs handleIcon={handleIcon} />
             </div>
           ) : (
             ""
