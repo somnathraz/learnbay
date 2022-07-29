@@ -201,14 +201,11 @@
             right: 46%;
           }
           .container {
-            margin-left: 20px;
             display: flex;
             padding: 0px 0px;
             height: max-content;
             margin-top: 10px;
-            width: max-content;
-            transform: translateX(0px);
-            transition: all 1s ease;
+
             .project:nth-child(2) {
               background-color: #0072bc;
               .header {
@@ -1133,7 +1130,6 @@
           font-weight: 600;
           margin: 0px;
         }
-        
       }
     }
     .projectSlider {
@@ -1228,7 +1224,6 @@
               border-radius: 30px;
               background-color: white;
               position: relative;
-             
 
               .header {
                 display: flex;

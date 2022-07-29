@@ -107,16 +107,19 @@ const Project = ({ ChangeProject, project, domain }) => {
       <div className={styles.projectSlider}>
         <div className={styles.list}>
           <div className={styles.wrapper}>
-            <div className={styles.container} ref={listRef}>
+            <div className={styles.container}>
               <Swiper
-                slidesPerView={mobile ? 1.2 : 1.3}
-                spaceBetween={mobile ? 10 : 20}
+                slidesPerView={mobile ? 1.2 : 3}
+                spaceBetween={mobile ? 10 : 50}
                 pagination={true}
                 grabCursor={true}
                 modules={[Pagination]}
                 className="mySwiper"
               >
-                <SwiperSlide className={styles.project}>
+                <SwiperSlide
+                  className={styles.project}
+                  style={{ width: "400px" }}
+                >
                   <div className={styles.header}>
                     <div className={styles.left}>
                       <h5>HR Domain</h5>
@@ -151,7 +154,10 @@ const Project = ({ ChangeProject, project, domain }) => {
                     </span>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide className={styles.project}>
+                <SwiperSlide
+                  className={styles.project}
+                  style={{ width: "400px" }}
+                >
                   <div className={styles.header}>
                     <div className={styles.left}>
                       <h5>Marketing Domain</h5>
@@ -189,7 +195,10 @@ const Project = ({ ChangeProject, project, domain }) => {
                     <img src="/shadow.png" width="380" height="60" />
                   </div>
                 </SwiperSlide>
-                <SwiperSlide className={styles.project}>
+                <SwiperSlide
+                  className={styles.project}
+                  style={{ width: "400px" }}
+                >
                   <div className={styles.header}>
                     <div className={styles.left}>
                       <h5>Manufacturing Domain</h5>
@@ -224,7 +233,10 @@ const Project = ({ ChangeProject, project, domain }) => {
                     </span>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide className={styles.project}>
+                <SwiperSlide
+                  className={styles.project}
+                  style={{ width: "400px" }}
+                >
                   <div className={styles.header}>
                     <div className={styles.left}>
                       <h5>Sales Domain</h5>
@@ -259,7 +271,10 @@ const Project = ({ ChangeProject, project, domain }) => {
                     </span>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide className={styles.project}>
+                <SwiperSlide
+                  className={styles.project}
+                  style={{ width: "400px" }}
+                >
                   <div className={styles.header}>
                     <div className={styles.left}>
                       <h5>Retail Domain</h5>
@@ -294,7 +309,10 @@ const Project = ({ ChangeProject, project, domain }) => {
                     </span>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide className={styles.project}>
+                <SwiperSlide
+                  className={styles.project}
+                  style={{ width: "400px" }}
+                >
                   <div className={styles.header}>
                     <div className={styles.left}>
                       <h5>Healthcare Domain</h5>
@@ -329,7 +347,10 @@ const Project = ({ ChangeProject, project, domain }) => {
                     </span>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide className={styles.project}>
+                <SwiperSlide
+                  className={styles.project}
+                  style={{ width: "400px" }}
+                >
                   <div className={styles.header}>
                     <div className={styles.left}>
                       <h5>E-Commerce Domain</h5>
@@ -364,7 +385,10 @@ const Project = ({ ChangeProject, project, domain }) => {
                     </span>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide className={styles.project}>
+                <SwiperSlide
+                  className={styles.project}
+                  style={{ width: "400px" }}
+                >
                   <div className={styles.header}>
                     <div className={styles.left}>
                       <h5>Entertainment Domain</h5>
