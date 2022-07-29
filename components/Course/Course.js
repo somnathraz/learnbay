@@ -240,7 +240,7 @@ const Course = () => {
                   modules={[Pagination]}
                   className="mySwiper"
                 >
-                  {filtteredForProgrammersD.map((viewAllData) => {
+                  {filtteredNonProgrammerD.map((viewAllData) => {
                     const { id, title, title1, img, para, link1, link2 } =
                       viewAllData;
                     return (
@@ -395,7 +395,7 @@ const Course = () => {
               <h5>Data Science (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                  slidesPerView={mobile ? 1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -458,7 +458,7 @@ const Course = () => {
               <h5>Full Stack (1) </h5>
               <div className={styles.gridPanel}>
               <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                  slidesPerView={mobile ? 1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}

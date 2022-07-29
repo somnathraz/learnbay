@@ -172,8 +172,9 @@
     gap: 0px;
   }
   .listPanel {
-    display: flex;
+    display: grid;
     justify-content: flex-start;
+    grid-template-columns: 35% 35% 35% 40%;
     flex-wrap: nowrap;
     overflow-x: auto;
     box-shadow: rgba(129, 217, 255, 0.612) 0px 7px 29px 0px;

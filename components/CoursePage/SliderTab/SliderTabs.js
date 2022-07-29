@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
 import "swiper/css";
-import "swiper/css/navigation";
+import "swiper/css/pagination";
 import styles from "./SliderTab.module.css";
 import Image from "next/image";
 
@@ -14,6 +13,23 @@ const SliderTabs = () => {
   const [Guarantee, setGuarantee] = useState(false);
   const [Stack, setStack] = useState(false);
   const [mobile, setMobile] = useState(false);
+  const [tab, setTab] = useState(false);
+
+
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 600) {
+      setMobile(true);
+    }
+  });
+
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 960) {
+      setTab(true);
+    }
+  });
+
   return (
     <div className={styles.Course} id="course">
       <h2>Our Core Features</h2>
@@ -25,10 +41,8 @@ const SliderTabs = () => {
         pagination={{
           type: "progressbar",
         }}
-        slidesPerView={mobile ? 2 : 3.7}
-        spaceBetween={30}
-        navigation={true}
-        modules={ [Navigation]}
+        slidesPerView={mobile ? 2.2 : 3.5}
+        spaceBetween={mobile ? 10 : 30}
         className="mySwiper"
       >
         <SwiperSlide className={styles.slide} >
