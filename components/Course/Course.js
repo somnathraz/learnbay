@@ -89,7 +89,7 @@ const Course = () => {
               <h5>Data Science (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                  slidesPerView={mobile ? 1.2 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -151,65 +151,68 @@ const Course = () => {
               </div>
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
-              <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                <Swiper
+                  slidesPerView={mobile ? 1.2 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
                 >
-                {filtteredStackF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <SwiperSlide className={styles.leftSide} key={id}>
-                      <div className={styles.gridImg}>
-                        <img
-                          src={img}
-                          layout="intrinsic"
-                          className={styles.courseImg}
-                        />
-                      </div>
-                      <div className={styles.contentBox} style={{marginTop:"430px"}}>
-                        <h6>{title}</h6>
-                        <h6>{title1}</h6>
-                        <p>
-                          <BiTimeFive className={styles.checkCircle} />
-                          {para[0]}
-                        </p>
-                        <p>
-                          <AiOutlineFundProjectionScreen
-                            className={styles.checkCircle}
-                            style={{ color: "#edb552" }}
+                  {filtteredStackF.map((viewAllData) => {
+                    const { id, title, title1, img, para, link1, link2 } =
+                      viewAllData;
+                    return (
+                      <SwiperSlide className={styles.leftSide} key={id}>
+                        <div className={styles.gridImg}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            className={styles.courseImg}
                           />
-                          {para[1]}
-                        </p>
-                        <p>
-                          <TbCurrencyRupee className={styles.checkCircle} />
-                          {para[2]}
-                        </p>
-                        <div className={styles.btnWrapper}>
-                          <a href={link1}>
-                            <button>View Details</button>
-                          </a>
-                          <a href={link2} target="_blank">
-                            <button
-                              className="outLineBtn"
-                              style={{ padding: "8px 15px" }}
-                            >
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
-                            </button>
-                          </a>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  );
-                })}
+                        <div
+                          className={styles.contentBox}
+                          style={{ marginTop: "430px" }}
+                        >
+                          <h6>{title}</h6>
+                          <h6>{title1}</h6>
+                          <p>
+                            <BiTimeFive className={styles.checkCircle} />
+                            {para[0]}
+                          </p>
+                          <p>
+                            <AiOutlineFundProjectionScreen
+                              className={styles.checkCircle}
+                              style={{ color: "#edb552" }}
+                            />
+                            {para[1]}
+                          </p>
+                          <p>
+                            <TbCurrencyRupee className={styles.checkCircle} />
+                            {para[2]}
+                          </p>
+                          <div className={styles.btnWrapper}>
+                            <a href={link1}>
+                              <button>View Details</button>
+                            </a>
+                            <a href={link2} target="_blank">
+                              <button
+                                className="outLineBtn"
+                                style={{ padding: "8px 15px" }}
+                              >
+                                Brochure
+                                <FiDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    );
+                  })}
                 </Swiper>
               </div>
             </div>
@@ -233,7 +236,7 @@ const Course = () => {
               <h5>Data Science (6) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                  slidesPerView={mobile ? 1.2 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -313,65 +316,68 @@ const Course = () => {
             <div className={styles.mPanel}>
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
-              <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                <Swiper
+                  slidesPerView={mobile ? 1.2 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
                 >
-                {filtteredForProgrammersF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <SwiperSlide className={styles.leftSide} key={id}>
-                      <div className={styles.gridImg}>
-                        <img
-                          src={img}
-                          layout="intrinsic"
-                          className={styles.courseImg}
-                        />
-                      </div>
-                      <div className={styles.contentBox} style={{marginTop:"430px"}}>
-                        <h6>{title}</h6>
-                        <h6>{title1}</h6>
-                        <p>
-                          <BiTimeFive className={styles.checkCircle} />
-                          {para[0]}
-                        </p>
-                        <p>
-                          <AiOutlineFundProjectionScreen
-                            className={styles.checkCircle}
-                            style={{ color: "#edb552" }}
+                  {filtteredForProgrammersF.map((viewAllData) => {
+                    const { id, title, title1, img, para, link1, link2 } =
+                      viewAllData;
+                    return (
+                      <SwiperSlide className={styles.leftSide} key={id}>
+                        <div className={styles.gridImg}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            className={styles.courseImg}
                           />
-                          {para[1]}
-                        </p>
-                        <p>
-                          <TbCurrencyRupee className={styles.checkCircle} />
-                          {para[2]}
-                        </p>
-                        <div className={styles.btnWrapper}>
-                          <a href={link1}>
-                            <button>View Details</button>
-                          </a>
-                          <a href={link2} target="_blank">
-                            <button
-                              className="outLineBtn"
-                              style={{ padding: "8px 15px" }}
-                            >
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
-                            </button>
-                          </a>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  );
-                })}
+                        <div
+                          className={styles.contentBox}
+                          style={{ marginTop: "430px" }}
+                        >
+                          <h6>{title}</h6>
+                          <h6>{title1}</h6>
+                          <p>
+                            <BiTimeFive className={styles.checkCircle} />
+                            {para[0]}
+                          </p>
+                          <p>
+                            <AiOutlineFundProjectionScreen
+                              className={styles.checkCircle}
+                              style={{ color: "#edb552" }}
+                            />
+                            {para[1]}
+                          </p>
+                          <p>
+                            <TbCurrencyRupee className={styles.checkCircle} />
+                            {para[2]}
+                          </p>
+                          <div className={styles.btnWrapper}>
+                            <a href={link1}>
+                              <button>View Details</button>
+                            </a>
+                            <a href={link2} target="_blank">
+                              <button
+                                className="outLineBtn"
+                                style={{ padding: "8px 15px" }}
+                              >
+                                Brochure
+                                <FiDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    );
+                  })}
                 </Swiper>
               </div>
             </div>
@@ -457,7 +463,7 @@ const Course = () => {
               </div>
               <h5>Full Stack (1) </h5>
               <div className={styles.gridPanel}>
-              <Swiper
+                <Swiper
                   slidesPerView={mobile ? 1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
@@ -465,57 +471,60 @@ const Course = () => {
                   modules={[Pagination]}
                   className="mySwiper"
                 >
-                {filtteredJobGuaranteeF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <SwiperSlide className={styles.leftSide} key={id}>
-                      <div className={styles.gridImg}>
-                        <img
-                          src={img}
-                          layout="intrinsic"
-                          className={styles.courseImg}
-                        />
-                      </div>
-                      <div className={styles.contentBox} style={{marginTop:"430px"}}>
-                        <h6>{title}</h6>
-                        <h6>{title1}</h6>
-                        <p>
-                          <BiTimeFive className={styles.checkCircle} />
-                          {para[0]}
-                        </p>
-                        <p>
-                          <AiOutlineFundProjectionScreen
-                            className={styles.checkCircle}
-                            style={{ color: "#edb552" }}
+                  {filtteredJobGuaranteeF.map((viewAllData) => {
+                    const { id, title, title1, img, para, link1, link2 } =
+                      viewAllData;
+                    return (
+                      <SwiperSlide className={styles.leftSide} key={id}>
+                        <div className={styles.gridImg}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            className={styles.courseImg}
                           />
-                          {para[1]}
-                        </p>
-                        <p>
-                          <TbCurrencyRupee className={styles.checkCircle} />
-                          {para[2]}
-                        </p>
-                        <div className={styles.btnWrapper}>
-                          <a href={link1}>
-                            <button>View Details</button>
-                          </a>
-                          <a href={link2} target="_blank">
-                            <button
-                              className="outLineBtn"
-                              style={{ padding: "8px 15px" }}
-                            >
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
-                            </button>
-                          </a>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  );
-                })}
+                        <div
+                          className={styles.contentBox}
+                          style={{ marginTop: "430px" }}
+                        >
+                          <h6>{title}</h6>
+                          <h6>{title1}</h6>
+                          <p>
+                            <BiTimeFive className={styles.checkCircle} />
+                            {para[0]}
+                          </p>
+                          <p>
+                            <AiOutlineFundProjectionScreen
+                              className={styles.checkCircle}
+                              style={{ color: "#edb552" }}
+                            />
+                            {para[1]}
+                          </p>
+                          <p>
+                            <TbCurrencyRupee className={styles.checkCircle} />
+                            {para[2]}
+                          </p>
+                          <div className={styles.btnWrapper}>
+                            <a href={link1}>
+                              <button>View Details</button>
+                            </a>
+                            <a href={link2} target="_blank">
+                              <button
+                                className="outLineBtn"
+                                style={{ padding: "8px 15px" }}
+                              >
+                                Brochure
+                                <FiDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    );
+                  })}
                 </Swiper>
               </div>
             </div>
@@ -539,7 +548,7 @@ const Course = () => {
               <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                  slidesPerView={mobile ? 1.2 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -601,63 +610,66 @@ const Course = () => {
               </div>
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
-              <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                <Swiper
+                  slidesPerView={mobile ? 1.2 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
                 >
-                {filtteredViewAllF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <SwiperSlide className={styles.leftSide} key={id}>
-                      <img
-                        src={img}
-                        layout="intrinsic"
-                        className={styles.courseImg}
-                      />
-                      <div className={styles.contentBox} style={{marginTop:"430px"}}>
-                        <h6>{title}</h6>
-                        <h6>{title1}</h6>
-                        <p>
-                          <BiTimeFive className={styles.checkCircle} />
-                          {para[0]}
-                        </p>
-                        <p>
-                          <AiOutlineFundProjectionScreen
-                            className={styles.checkCircle}
-                            style={{ color: "#edb552" }}
-                          />
-                          {para[1]}
-                        </p>
-                        <p>
-                          <TbCurrencyRupee className={styles.checkCircle} />
-                          {para[2]}
-                        </p>
-                        <div className={styles.btnWrapper}>
-                          <a href={link1}>
-                            <button>View Details</button>
-                          </a>
-                          <a href={link2} target="_blank">
-                            <button
-                              className="outLineBtn"
-                              style={{ padding: "8px 15px" }}
-                            >
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
-                            </button>
-                          </a>
+                  {filtteredViewAllF.map((viewAllData) => {
+                    const { id, title, title1, img, para, link1, link2 } =
+                      viewAllData;
+                    return (
+                      <SwiperSlide className={styles.leftSide} key={id}>
+                        <img
+                          src={img}
+                          layout="intrinsic"
+                          className={styles.courseImg}
+                        />
+                        <div
+                          className={styles.contentBox}
+                          style={{ marginTop: "430px" }}
+                        >
+                          <h6>{title}</h6>
+                          <h6>{title1}</h6>
+                          <p>
+                            <BiTimeFive className={styles.checkCircle} />
+                            {para[0]}
+                          </p>
+                          <p>
+                            <AiOutlineFundProjectionScreen
+                              className={styles.checkCircle}
+                              style={{ color: "#edb552" }}
+                            />
+                            {para[1]}
+                          </p>
+                          <p>
+                            <TbCurrencyRupee className={styles.checkCircle} />
+                            {para[2]}
+                          </p>
+                          <div className={styles.btnWrapper}>
+                            <a href={link1}>
+                              <button>View Details</button>
+                            </a>
+                            <a href={link2} target="_blank">
+                              <button
+                                className="outLineBtn"
+                                style={{ padding: "8px 15px" }}
+                              >
+                                Brochure
+                                <FiDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a>
+                          </div>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  );
-                })}
+                      </SwiperSlide>
+                    );
+                  })}
                 </Swiper>
               </div>
             </div>
@@ -733,7 +745,7 @@ const Course = () => {
               </div>
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
-              <Swiper
+                <Swiper
                   slidesPerView={mobile ? 1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
@@ -741,55 +753,58 @@ const Course = () => {
                   modules={[Pagination]}
                   className="mySwiper"
                 >
-                {filtteredViewAllF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <SwiperSlide className={styles.leftSide} key={id}>
-                      <img
-                        src={img}
-                        layout="intrinsic"
-                        className={styles.courseImg}
-                      />
-                      <div className={styles.contentBox} style={{marginTop:"430px"}}>
-                        <h6>{title}</h6>
-                        <h6>{title1}</h6>
-                        <p>
-                          <BiTimeFive className={styles.checkCircle} />
-                          {para[0]}
-                        </p>
-                        <p>
-                          <AiOutlineFundProjectionScreen
-                            className={styles.checkCircle}
-                            style={{ color: "#edb552" }}
-                          />
-                          {para[1]}
-                        </p>
-                        <p>
-                          <TbCurrencyRupee className={styles.checkCircle} />
-                          {para[2]}
-                        </p>
-                        <div className={styles.btnWrapper}>
-                          <a href={link1}>
-                            <button>View Details</button>
-                          </a>
-                          <a href={link2} target="_blank">
-                            <button
-                              className="outLineBtn"
-                              style={{ padding: "8px 15px" }}
-                            >
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
-                            </button>
-                          </a>
+                  {filtteredViewAllF.map((viewAllData) => {
+                    const { id, title, title1, img, para, link1, link2 } =
+                      viewAllData;
+                    return (
+                      <SwiperSlide className={styles.leftSide} key={id}>
+                        <img
+                          src={img}
+                          layout="intrinsic"
+                          className={styles.courseImg}
+                        />
+                        <div
+                          className={styles.contentBox}
+                          style={{ marginTop: "430px" }}
+                        >
+                          <h6>{title}</h6>
+                          <h6>{title1}</h6>
+                          <p>
+                            <BiTimeFive className={styles.checkCircle} />
+                            {para[0]}
+                          </p>
+                          <p>
+                            <AiOutlineFundProjectionScreen
+                              className={styles.checkCircle}
+                              style={{ color: "#edb552" }}
+                            />
+                            {para[1]}
+                          </p>
+                          <p>
+                            <TbCurrencyRupee className={styles.checkCircle} />
+                            {para[2]}
+                          </p>
+                          <div className={styles.btnWrapper}>
+                            <a href={link1}>
+                              <button>View Details</button>
+                            </a>
+                            <a href={link2} target="_blank">
+                              <button
+                                className="outLineBtn"
+                                style={{ padding: "8px 15px" }}
+                              >
+                                Brochure
+                                <FiDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a>
+                          </div>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  );
-                })}
+                      </SwiperSlide>
+                    );
+                  })}
                 </Swiper>
               </div>
             </>
@@ -801,7 +816,7 @@ const Course = () => {
               <h5>Data Science (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                  slidesPerView={mobile ? 1.2 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -863,63 +878,65 @@ const Course = () => {
               </div>
               <h5>Full Stack (2) </h5>
               <div className={styles.gridPanel}>
-              <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                <Swiper
+                  slidesPerView={mobile ? 1.2 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
                 >
-                {filtteredForProgrammersF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <SwiperSlide className={styles.leftSide} key={id}>
-                      <img
-                        src={img}
-                        layout="intrinsic"
-                        className={styles.courseImg}
-                      />
-                      <div className={styles.contentBox}>
-                        <h6>{title}</h6>
-                        <h6>{title1}</h6>
-                        <p>
-                          <BiTimeFive className={styles.checkCircle} />
-                          {para[0]}
-                        </p>
-                        <p>
-                          <AiOutlineFundProjectionScreen
-                            className={styles.checkCircle}
-                            style={{ color: "#edb552" }}
+                  {filtteredForProgrammersF.map((viewAllData) => {
+                    const { id, title, title1, img, para, link1, link2 } =
+                      viewAllData;
+                    return (
+                      <SwiperSlide className={styles.leftSide} key={id}>
+                        <div key={id}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            className={styles.courseImg}
                           />
-                          {para[1]}
-                        </p>
-                        <p>
-                          <TbCurrencyRupee className={styles.checkCircle} />
-                          {para[2]}
-                        </p>
-                        <div className={styles.btnWrapper}>
-                          <a href={link1}>
-                            <button>View Details</button>
-                          </a>
-                          <a href={link2} target="_blank">
-                            <button
-                              className="outLineBtn"
-                              style={{ padding: "8px 15px" }}
-                            >
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
+                          <div className={styles.contentBox}>
+                            <h6>{title}</h6>
+                            <h6>{title1}</h6>
+                            <p>
+                              <BiTimeFive className={styles.checkCircle} />
+                              {para[0]}
+                            </p>
+                            <p>
+                              <AiOutlineFundProjectionScreen
+                                className={styles.checkCircle}
+                                style={{ color: "#edb552" }}
                               />
-                            </button>
-                          </a>
+                              {para[1]}
+                            </p>
+                            <p>
+                              <TbCurrencyRupee className={styles.checkCircle} />
+                              {para[2]}
+                            </p>
+                            <div className={styles.btnWrapper}>
+                              <a href={link1}>
+                                <button>View Details</button>
+                              </a>
+                              <a href={link2} target="_blank">
+                                <button
+                                  className="outLineBtn"
+                                  style={{ padding: "8px 15px" }}
+                                >
+                                  Brochure
+                                  <FiDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  );
-                })}
+                      </SwiperSlide>
+                    );
+                  })}
                 </Swiper>
               </div>
             </>
@@ -931,7 +948,7 @@ const Course = () => {
               <h5>Data Science (6) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                  slidesPerView={mobile ? 1.2 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -1000,7 +1017,7 @@ const Course = () => {
               <h5>Data Science (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                  slidesPerView={mobile ? 1.2 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -1062,63 +1079,66 @@ const Course = () => {
               </div>
               <h5>Full Stack (1) </h5>
               <div className={styles.gridPanel}>
-              <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                <Swiper
+                  slidesPerView={mobile ? 1.2 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
                 >
-                {filtteredJobGuaranteeF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <SwiperSlide className={styles.leftSide} key={id}>
-                      <img
-                        src={img}
-                        layout="intrinsic"
-                        className={styles.courseImg}
-                      />
-                      <div className={styles.contentBox}  style={{marginTop:"430px"}}>
-                        <h6>{title}</h6>
-                        <h6>{title1}</h6>
-                        <p>
-                          <BiTimeFive className={styles.checkCircle} />
-                          {para[0]}
-                        </p>
-                        <p>
-                          <AiOutlineFundProjectionScreen
-                            className={styles.checkCircle}
-                            style={{ color: "#edb552" }}
-                          />
-                          {para[1]}
-                        </p>
-                        <p>
-                          <TbCurrencyRupee className={styles.checkCircle} />
-                          {para[2]}
-                        </p>
-                        <div className={styles.btnWrapper}>
-                          <a href={link1}>
-                            <button>View Details</button>
-                          </a>
-                          <a href={link2} target="_blank">
-                            <button
-                              className="outLineBtn"
-                              style={{ padding: "8px 15px" }}
-                            >
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
-                            </button>
-                          </a>
+                  {filtteredJobGuaranteeF.map((viewAllData) => {
+                    const { id, title, title1, img, para, link1, link2 } =
+                      viewAllData;
+                    return (
+                      <SwiperSlide className={styles.leftSide} key={id}>
+                        <img
+                          src={img}
+                          layout="intrinsic"
+                          className={styles.courseImg}
+                        />
+                        <div
+                          className={styles.contentBox}
+                          style={{ marginTop: "430px" }}
+                        >
+                          <h6>{title}</h6>
+                          <h6>{title1}</h6>
+                          <p>
+                            <BiTimeFive className={styles.checkCircle} />
+                            {para[0]}
+                          </p>
+                          <p>
+                            <AiOutlineFundProjectionScreen
+                              className={styles.checkCircle}
+                              style={{ color: "#edb552" }}
+                            />
+                            {para[1]}
+                          </p>
+                          <p>
+                            <TbCurrencyRupee className={styles.checkCircle} />
+                            {para[2]}
+                          </p>
+                          <div className={styles.btnWrapper}>
+                            <a href={link1}>
+                              <button>View Details</button>
+                            </a>
+                            <a href={link2} target="_blank">
+                              <button
+                                className="outLineBtn"
+                                style={{ padding: "8px 15px" }}
+                              >
+                                Brochure
+                                <FiDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a>
+                          </div>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  );
-                })}
+                      </SwiperSlide>
+                    );
+                  })}
                 </Swiper>
               </div>
             </>
@@ -1129,63 +1149,66 @@ const Course = () => {
             <>
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
-              <Swiper
-                  slidesPerView={mobile ? 1.20 : 3}
+                <Swiper
+                  slidesPerView={mobile ? 1.2 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
                 >
-                {filtteredStackF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <SwiperSlide className={styles.leftSide} key={id}>
-                      <img
-                        src={img}
-                        layout="intrinsic"
-                        className={styles.courseImg}
-                      />
-                      <div className={styles.contentBox}  style={{marginTop:"430px"}}>
-                        <h6>{title}</h6>
-                        <h6>{title1}</h6>
-                        <p>
-                          <BiTimeFive className={styles.checkCircle} />
-                          {para[0]}
-                        </p>
-                        <p>
-                          <AiOutlineFundProjectionScreen
-                            className={styles.checkCircle}
-                            style={{ color: "#edb552" }}
-                          />
-                          {para[1]}
-                        </p>
-                        <p>
-                          <TbCurrencyRupee className={styles.checkCircle} />
-                          {para[2]}
-                        </p>
-                        <div className={styles.btnWrapper}>
-                          <a href={link1}>
-                            <button>View Details</button>
-                          </a>
-                          <a href={link2} target="_blank">
-                            <button
-                              className="outLineBtn"
-                              style={{ padding: "8px 15px" }}
-                            >
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
-                            </button>
-                          </a>
+                  {filtteredStackF.map((viewAllData) => {
+                    const { id, title, title1, img, para, link1, link2 } =
+                      viewAllData;
+                    return (
+                      <SwiperSlide className={styles.leftSide} key={id}>
+                        <img
+                          src={img}
+                          layout="intrinsic"
+                          className={styles.courseImg}
+                        />
+                        <div
+                          className={styles.contentBox}
+                          style={{ marginTop: "430px" }}
+                        >
+                          <h6>{title}</h6>
+                          <h6>{title1}</h6>
+                          <p>
+                            <BiTimeFive className={styles.checkCircle} />
+                            {para[0]}
+                          </p>
+                          <p>
+                            <AiOutlineFundProjectionScreen
+                              className={styles.checkCircle}
+                              style={{ color: "#edb552" }}
+                            />
+                            {para[1]}
+                          </p>
+                          <p>
+                            <TbCurrencyRupee className={styles.checkCircle} />
+                            {para[2]}
+                          </p>
+                          <div className={styles.btnWrapper}>
+                            <a href={link1}>
+                              <button>View Details</button>
+                            </a>
+                            <a href={link2} target="_blank">
+                              <button
+                                className="outLineBtn"
+                                style={{ padding: "8px 15px" }}
+                              >
+                                Brochure
+                                <FiDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a>
+                          </div>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  );
-                })}
+                      </SwiperSlide>
+                    );
+                  })}
                 </Swiper>
               </div>
             </>

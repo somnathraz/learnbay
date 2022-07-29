@@ -281,7 +281,8 @@ h4 {
   }
   .pTopp {
     font-size: 24px;
-    line-height: 42px;
+    line-height: 32px;
+    padding: 0;
   }
   .pTop {
     font-size: 16px;

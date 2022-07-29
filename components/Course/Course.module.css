@@ -144,7 +144,7 @@
   padding: 0px 20px;
 }
 
-@media (max-width: 961px){
+@media (max-width: 961px) {
   .Course {
     padding: 0px 30px;
   }
@@ -163,14 +163,14 @@
     font-size: 18px;
     border: 0;
     background: aliceblue;
-    border-bottom: 1px solid #2D9CD730;
+    border-bottom: 1px solid #2d9cd730;
     padding: 12px 20px;
   }
   .leftSide,
-.middleSide,
-.rightSide {
-  max-height: 180px;
-}
+  .middleSide,
+  .rightSide {
+    max-height: 180px;
+  }
   .ActiveSpan {
     padding: 10px 20px;
     width: 100%;
