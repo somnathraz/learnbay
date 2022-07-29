@@ -5,7 +5,7 @@ import { BiTimeFive } from "react-icons/bi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { TbCurrencyRupee } from "react-icons/tb";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
+import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
@@ -89,11 +89,11 @@ const Course = () => {
               <h5>Data Science (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1 : 3}
+                  slidesPerView={mobile ? 1.20 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  navigation={true}
+                  pagination={true}
                   grabCursor={true}
-                  modules={[Navigation]}
+                  modules={[Pagination]}
                   className="mySwiper"
                 >
                   {filtteredForProgrammersD.map((viewAllData) => {
@@ -149,13 +149,21 @@ const Course = () => {
                   })}
                 </Swiper>
               </div>
-              <h5>Full Stack (2) </h5>
-              <div className={styles.gridPanelN}>
-                {filtteredForProgrammersF.map((viewAllData) => {
+              <h5>Full Stack (3) </h5>
+              <div className={styles.gridPanel}>
+              <Swiper
+                  slidesPerView={mobile ? 1.20 : 3}
+                  spaceBetween={mobile ? 10 : 20}
+                  pagination={true}
+                  grabCursor={true}
+                  modules={[Pagination]}
+                  className="mySwiper"
+                >
+                {filtteredStackF.map((viewAllData) => {
                   const { id, title, title1, img, para, link1, link2 } =
                     viewAllData;
                   return (
-                    <div className={styles.leftSide} key={id}>
+                    <SwiperSlide className={styles.leftSide} key={id}>
                       <div className={styles.gridImg}>
                         <img
                           src={img}
@@ -163,7 +171,7 @@ const Course = () => {
                           className={styles.courseImg}
                         />
                       </div>
-                      <div className={styles.contentBox}>
+                      <div className={styles.contentBox} style={{marginTop:"430px"}}>
                         <h6>{title}</h6>
                         <h6>{title1}</h6>
                         <p>
@@ -199,9 +207,10 @@ const Course = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </SwiperSlide>
                   );
                 })}
+                </Swiper>
               </div>
             </div>
           ) : (
@@ -224,11 +233,11 @@ const Course = () => {
               <h5>Data Science (6) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1 : 3}
+                  slidesPerView={mobile ? 1.20 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  navigation={true}
+                  pagination={true}
                   grabCursor={true}
-                  modules={[Navigation]}
+                  modules={[Pagination]}
                   className="mySwiper"
                 >
                   {filtteredNonProgrammerD.map((viewAllData) => {
@@ -303,18 +312,28 @@ const Course = () => {
           {Stack ? (
             <div className={styles.mPanel}>
               <h5>Full Stack (3) </h5>
-              <div className={styles.gridPanelN}>
-                {filtteredStackF.map((viewAllData) => {
+              <div className={styles.gridPanel}>
+              <Swiper
+                  slidesPerView={mobile ? 1.20 : 3}
+                  spaceBetween={mobile ? 10 : 20}
+                  pagination={true}
+                  grabCursor={true}
+                  modules={[Pagination]}
+                  className="mySwiper"
+                >
+                {filtteredForProgrammersF.map((viewAllData) => {
                   const { id, title, title1, img, para, link1, link2 } =
                     viewAllData;
                   return (
-                    <div className={styles.leftSide} key={id}>
-                      <img
-                        src={img}
-                        layout="intrinsic"
-                        className={styles.courseImg}
-                      />
-                      <div className={styles.contentBox}>
+                    <SwiperSlide className={styles.leftSide} key={id}>
+                      <div className={styles.gridImg}>
+                        <img
+                          src={img}
+                          layout="intrinsic"
+                          className={styles.courseImg}
+                        />
+                      </div>
+                      <div className={styles.contentBox} style={{marginTop:"430px"}}>
                         <h6>{title}</h6>
                         <h6>{title1}</h6>
                         <p>
@@ -350,9 +369,10 @@ const Course = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </SwiperSlide>
                   );
                 })}
+                </Swiper>
               </div>
             </div>
           ) : (
@@ -377,9 +397,9 @@ const Course = () => {
                 <Swiper
                   slidesPerView={mobile ? 1 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  navigation={true}
+                  pagination={true}
                   grabCursor={true}
-                  modules={[Navigation]}
+                  modules={[Pagination]}
                   className="mySwiper"
                 >
                   {filtteredJobGuaranteeD.map((viewAllData) => {
@@ -436,18 +456,28 @@ const Course = () => {
                 </Swiper>
               </div>
               <h5>Full Stack (1) </h5>
-              <div className={styles.gridPanelN}>
+              <div className={styles.gridPanel}>
+              <Swiper
+                  slidesPerView={mobile ? 1 : 3}
+                  spaceBetween={mobile ? 10 : 20}
+                  pagination={true}
+                  grabCursor={true}
+                  modules={[Pagination]}
+                  className="mySwiper"
+                >
                 {filtteredJobGuaranteeF.map((viewAllData) => {
                   const { id, title, title1, img, para, link1, link2 } =
                     viewAllData;
                   return (
-                    <div className={styles.leftSide} key={id}>
-                      <img
-                        src={img}
-                        layout="intrinsic"
-                        className={styles.courseImg}
-                      />
-                      <div className={styles.contentBox}>
+                    <SwiperSlide className={styles.leftSide} key={id}>
+                      <div className={styles.gridImg}>
+                        <img
+                          src={img}
+                          layout="intrinsic"
+                          className={styles.courseImg}
+                        />
+                      </div>
+                      <div className={styles.contentBox} style={{marginTop:"430px"}}>
                         <h6>{title}</h6>
                         <h6>{title1}</h6>
                         <p>
@@ -483,9 +513,10 @@ const Course = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </SwiperSlide>
                   );
                 })}
+                </Swiper>
               </div>
             </div>
           ) : (
@@ -504,15 +535,15 @@ const Course = () => {
             View All
           </span>
           {viewAll ? (
-            <>
+            <div className={styles.mPanel}>
               <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1 : 3}
+                  slidesPerView={mobile ? 1.20 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  navigation={true}
+                  pagination={true}
                   grabCursor={true}
-                  modules={[Navigation]}
+                  modules={[Pagination]}
                   className="mySwiper"
                 >
                   {filtteredViewAllD.map((viewAllData) => {
@@ -569,18 +600,26 @@ const Course = () => {
                 </Swiper>
               </div>
               <h5>Full Stack (3) </h5>
-              <div className={styles.gridPanelN}>
+              <div className={styles.gridPanel}>
+              <Swiper
+                  slidesPerView={mobile ? 1.20 : 3}
+                  spaceBetween={mobile ? 10 : 20}
+                  pagination={true}
+                  grabCursor={true}
+                  modules={[Pagination]}
+                  className="mySwiper"
+                >
                 {filtteredViewAllF.map((viewAllData) => {
                   const { id, title, title1, img, para, link1, link2 } =
                     viewAllData;
                   return (
-                    <div className={styles.leftSide} key={id}>
+                    <SwiperSlide className={styles.leftSide} key={id}>
                       <img
                         src={img}
                         layout="intrinsic"
                         className={styles.courseImg}
                       />
-                      <div className={styles.contentBox}>
+                      <div className={styles.contentBox} style={{marginTop:"430px"}}>
                         <h6>{title}</h6>
                         <h6>{title1}</h6>
                         <p>
@@ -616,11 +655,12 @@ const Course = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </SwiperSlide>
                   );
                 })}
+                </Swiper>
               </div>
-            </>
+            </div>
           ) : (
             ""
           )}
@@ -633,9 +673,9 @@ const Course = () => {
                 <Swiper
                   slidesPerView={mobile ? 1 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  navigation={true}
+                  pagination={true}
                   grabCursor={true}
-                  modules={[Navigation]}
+                  modules={[Pagination]}
                   className="mySwiper"
                 >
                   {filtteredViewAllD.map((viewAllData) => {
@@ -693,17 +733,25 @@ const Course = () => {
               </div>
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
+              <Swiper
+                  slidesPerView={mobile ? 1 : 3}
+                  spaceBetween={mobile ? 10 : 20}
+                  pagination={true}
+                  grabCursor={true}
+                  modules={[Pagination]}
+                  className="mySwiper"
+                >
                 {filtteredViewAllF.map((viewAllData) => {
                   const { id, title, title1, img, para, link1, link2 } =
                     viewAllData;
                   return (
-                    <div className={styles.leftSide} key={id}>
+                    <SwiperSlide className={styles.leftSide} key={id}>
                       <img
                         src={img}
                         layout="intrinsic"
                         className={styles.courseImg}
                       />
-                      <div className={styles.contentBox}>
+                      <div className={styles.contentBox} style={{marginTop:"430px"}}>
                         <h6>{title}</h6>
                         <h6>{title1}</h6>
                         <p>
@@ -739,9 +787,10 @@ const Course = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </SwiperSlide>
                   );
                 })}
+                </Swiper>
               </div>
             </>
           ) : (
@@ -752,11 +801,11 @@ const Course = () => {
               <h5>Data Science (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1 : 3}
+                  slidesPerView={mobile ? 1.20 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  navigation={true}
+                  pagination={true}
                   grabCursor={true}
-                  modules={[Navigation]}
+                  modules={[Pagination]}
                   className="mySwiper"
                 >
                   {filtteredForProgrammersD.map((viewAllData) => {
@@ -814,11 +863,19 @@ const Course = () => {
               </div>
               <h5>Full Stack (2) </h5>
               <div className={styles.gridPanel}>
+              <Swiper
+                  slidesPerView={mobile ? 1.20 : 3}
+                  spaceBetween={mobile ? 10 : 20}
+                  pagination={true}
+                  grabCursor={true}
+                  modules={[Pagination]}
+                  className="mySwiper"
+                >
                 {filtteredForProgrammersF.map((viewAllData) => {
                   const { id, title, title1, img, para, link1, link2 } =
                     viewAllData;
                   return (
-                    <div className={styles.leftSide} key={id}>
+                    <SwiperSlide className={styles.leftSide} key={id}>
                       <img
                         src={img}
                         layout="intrinsic"
@@ -860,9 +917,10 @@ const Course = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </SwiperSlide>
                   );
                 })}
+                </Swiper>
               </div>
             </>
           ) : (
@@ -873,11 +931,11 @@ const Course = () => {
               <h5>Data Science (6) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1 : 3}
+                  slidesPerView={mobile ? 1.20 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  navigation={true}
+                  pagination={true}
                   grabCursor={true}
-                  modules={[Navigation]}
+                  modules={[Pagination]}
                   className="mySwiper"
                 >
                   {filtteredNonProgrammerD.map((viewAllData) => {
@@ -942,11 +1000,11 @@ const Course = () => {
               <h5>Data Science (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1 : 3}
+                  slidesPerView={mobile ? 1.20 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  navigation={true}
+                  pagination={true}
                   grabCursor={true}
-                  modules={[Navigation]}
+                  modules={[Pagination]}
                   className="mySwiper"
                 >
                   {filtteredJobGuaranteeD.map((viewAllData) => {
@@ -1004,17 +1062,25 @@ const Course = () => {
               </div>
               <h5>Full Stack (1) </h5>
               <div className={styles.gridPanel}>
+              <Swiper
+                  slidesPerView={mobile ? 1.20 : 3}
+                  spaceBetween={mobile ? 10 : 20}
+                  pagination={true}
+                  grabCursor={true}
+                  modules={[Pagination]}
+                  className="mySwiper"
+                >
                 {filtteredJobGuaranteeF.map((viewAllData) => {
                   const { id, title, title1, img, para, link1, link2 } =
                     viewAllData;
                   return (
-                    <div className={styles.leftSide} key={id}>
+                    <SwiperSlide className={styles.leftSide} key={id}>
                       <img
                         src={img}
                         layout="intrinsic"
                         className={styles.courseImg}
                       />
-                      <div className={styles.contentBox}>
+                      <div className={styles.contentBox}  style={{marginTop:"430px"}}>
                         <h6>{title}</h6>
                         <h6>{title1}</h6>
                         <p>
@@ -1050,9 +1116,10 @@ const Course = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </SwiperSlide>
                   );
                 })}
+                </Swiper>
               </div>
             </>
           ) : (
@@ -1062,17 +1129,25 @@ const Course = () => {
             <>
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
+              <Swiper
+                  slidesPerView={mobile ? 1.20 : 3}
+                  spaceBetween={mobile ? 10 : 20}
+                  pagination={true}
+                  grabCursor={true}
+                  modules={[Pagination]}
+                  className="mySwiper"
+                >
                 {filtteredStackF.map((viewAllData) => {
                   const { id, title, title1, img, para, link1, link2 } =
                     viewAllData;
                   return (
-                    <div className={styles.leftSide} key={id}>
+                    <SwiperSlide className={styles.leftSide} key={id}>
                       <img
                         src={img}
                         layout="intrinsic"
                         className={styles.courseImg}
                       />
-                      <div className={styles.contentBox}>
+                      <div className={styles.contentBox}  style={{marginTop:"430px"}}>
                         <h6>{title}</h6>
                         <h6>{title1}</h6>
                         <p>
@@ -1108,9 +1183,10 @@ const Course = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </SwiperSlide>
                   );
                 })}
+                </Swiper>
               </div>
             </>
           ) : (
