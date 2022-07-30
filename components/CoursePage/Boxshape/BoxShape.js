@@ -126,7 +126,7 @@ const BoxShape = ({
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <p>Learnbay taught me data science. Thanks to Learnabay's domain specialization course, I landed a job in my prior sector and was regarded as an experienced applicant by my firm. I consistently increased my data science knowledge and experience, which led to a 250% hike.</p>
+                <p>Learnbay has tremendously assisted my study of data science because of its outstanding mentorship. I had a good experience online studying the courses. Additionally, thanks to Learnbay's hybrid classes making it simple for me to participate in projects from the offline training center, which has helped me tremendously in cracking the interviews.</p>
                 <div className={styles.profile}>
                   <Image
                     src="/featureReviewIcon.png"
