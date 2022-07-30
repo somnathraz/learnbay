@@ -99,7 +99,10 @@ const Navbar = () => {
             <button
               onMouseEnter={() => setIcon(true)}
               onMouseOver={() => setIcon(true)}
-              onClick={() => setIcon(!icon)}
+              onClick={() => {
+                showMenu();
+                setIcon(false);
+              }}
               className="hoverBtn"
             >
               Courses

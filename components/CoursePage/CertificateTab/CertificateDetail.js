@@ -40,9 +40,9 @@ export const CertificateAdvance2 = [
     img: "/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
-      "Get certified by IBM on completion of industry-level projects.",
-      "Work on latest data science projects for Swiggy, Zomato, Rapido, etc.",
-      "Priority access to startup job sites and requirements for individual projects.",
+      "Globally recognized IBM certification based on industrial-level projects.",
+      "Work with captivating MNC projects with real-time data.",
+      "Individualized project experience with easy access to premium job opportunities.",
     ],
   },
 ];
@@ -88,9 +88,9 @@ export const Certificate6 = [
     img: "/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
-      "Get certified by IBM on completion of industry-level projects.",
-      "Work on latest data science projects for Swiggy, Zomato, Rapido, etc.",
-      "Priority access to startup job sites and requirements for individual projects.",
+      "Globally recognized IBM certification based on industrial-level projects.",
+      "Work with captivating MNC projects with real-time data.",
+      "Individualized project experience with easy access to premium job opportunities.",
     ],
   },
 ];
@@ -112,9 +112,9 @@ export const Certificate8 = [
     img: "/project-certificate.webp",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
-      "Get certified by IBM on completion of industry-level projects.",
+      "Globally recognized IBM certification based on industrial-level projects.",
       "Work on latest full stack projects for Food Panda, UberEats, Domino's Pizza, etc.",
-      "Priority access to startup job sites and requirements for individual projects.",
+      "Individualized project experience with easy access to premium job opportunities.",
     ],
   },
 ];

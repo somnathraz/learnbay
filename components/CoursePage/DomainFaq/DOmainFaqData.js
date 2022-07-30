@@ -1,26 +1,26 @@
 export const DomainFaqCourseData1 = [
     {
       id: 0,
-      ques: "What are the prerequisites for the Data Science Foundation Program?",
-      ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+      ques: "Project Innovation Lab",
+      ans: "Take advantage of interactive, live learning  in comfort of your home. Experts from MNCs and MAANG assist in online and offline project sessions at different project innovation centers around 7+ cities in India. ",
       open: true,
     },
     {
       id: 1,
-      ques: "What if I miss a few classes due to an emergency?",
-      ans: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
+      ques: "Domain Elective Mode",
+      ans: "Get the advantage of experienced candidate to make the most out of it. Make a switch as a professional, not as a fresher by utilizing your existing knowledge through domain specialization.",
       open: false,
     },
     {
       id: 2,
-      ques: "What is a Flexi Subscription in Data Science Foundation Program?",
-      ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+      ques: "Project Certification",
+      ans: `Highlight your profile and get recognition from renowned industries worldwide. Work on latest capstones and achieve a project experience certificate from IBM.`,
       open: false,
     },
     {
       id: 3,
-      ques: "What’s the duration of the Data Science Foundation Program?",
-      ans: "The duration of this Data Science Course is about 7 months (220+ hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 6 months, Monday to Friday – 2 hours/day, Weekend batch – 8 months, Saturday & Sunday – 3.5 hours/day",
+      ques: "3 years Flexible Subscription",
+      ans: "Enjoy 3 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
       open: false,
     },
    

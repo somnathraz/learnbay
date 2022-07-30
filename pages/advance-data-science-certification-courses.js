@@ -86,14 +86,14 @@ export default function Home() {
         <div className="Feature" id="Feature">
           <BoxShape
             title="Why Enroll In This Program"
-            Box1h5="Custom-fit Training"
-            box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
-            Box2h5="Domain Focused"
-            box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 8+ electives."
+            Box1h5="1-on-1 Dedication"
+            box1desc="Live interactive session with expert for every individual"
+            Box2h5="Assured Interview Call"
+            box2desc="Get job referrals powered by 250+ hiring partners"
             Box3h5="Premium Mentoring"
-            box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
-            Box4h5="Hands-on Experience"
-            box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
+            box3desc="Get professionally trained from MAANG and MNC experts"
+            Box4h5="Crafted for professinals"
+            box4desc="Prioritize growth and salary hike with in-demand skillset"
           />
         </div>
      <DomainFaq FaqData={DomainFaqCourseData1}/>

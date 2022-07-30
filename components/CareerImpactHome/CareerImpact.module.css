@@ -107,9 +107,7 @@
 .slide {
   padding: 10px 20px;
   display: flex;
-  height: 300px;
-
-  margin-top: 15px;
+  height: fit-content;
   flex-flow: column-reverse;
   justify-content: center;
   align-items: flex-start;
@@ -117,7 +115,7 @@
   background: #ffffff;
   box-shadow: 4px 4px 20px rgba(41, 121, 173, 0.25);
   border-radius: 34px;
-  margin-bottom: 45px;
+  margin: 20px 10px;
 }
 .content {
   display: grid;
@@ -251,8 +249,10 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+
   .slide {
     height: 100%;
+    margin: 30px 0px 30px 0px;
   }
 
 .rightBottom {

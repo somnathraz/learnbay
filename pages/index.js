@@ -28,7 +28,7 @@ export default function Home() {
       </Head>
       <FirstSection />
       <div className={styles.boxWrap}>
-        <h2>Get Certified And Achieve Your Dream</h2>
+        <h2>Get Certified & Move Towards Your Dream Job</h2>
         <p className={styles.boxp}>
           Our Domain Specialisation and Industry Certified Capstone helps you to
           make your past work experience relevant

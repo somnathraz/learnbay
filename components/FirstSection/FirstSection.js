@@ -51,7 +51,7 @@ const FirstSection = () => {
         </h1>
         <p className={styles.pTop}>
           Use you domain Expertise to build a meaningful career. Crack interview
-          in top product based MNCs and FAANG with confidence
+          in top product based MNCs and MAANG with confidence
         </p>
 
         <div className={styles.btnWrapper}>
@@ -66,16 +66,16 @@ const FirstSection = () => {
         </div>
         <div className={styles.info}>
           <div className={styles.left}>
-            <h5>250%</h5>
-            <p>Average Hike</p>
+            <h5>1:1</h5>
+            <p>Dedicated Mentorship</p>
           </div>
           <div className={styles.middle}>
-            <h5>10K</h5>
-            <p>Trusted Learners</p>
-          </div>
-          <div className={styles.right}>
             <h5>100%</h5>
             <p>Assured Interview</p>
+          </div>
+          <div className={styles.right}>
+            <h5>7+ Cities</h5>
+            <p>Project Innovation Lab</p>
           </div>
         </div>
       </div>

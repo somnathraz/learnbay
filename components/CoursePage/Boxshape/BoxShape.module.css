@@ -17,6 +17,7 @@
 .BoxDiv {
   display: grid;
   grid-template-columns: 55% 45%;
+  padding: 0px 0px 70px 0px;
 }
 .left {
   display: flex;
@@ -141,7 +142,7 @@
   display: flex;
   flex-flow: column;
   gap: 10px;
-  padding: 30px 20px;
+  padding: 20px 20px;
 }
 .profile{
   display: flex;
@@ -166,7 +167,7 @@ box-shadow: 0px 4px 4px rgba(237, 181, 82, 0.7);
   align-items: center;
   gap: 10px;
   justify-content: space-between;
-  padding: 30px 20px;
+  padding: 20px 20px 0px 20px;
 }
 .leftContent{
   flex-basis: 45%;
@@ -215,6 +216,7 @@ box-shadow: 0px 4px 4px rgba(237, 181, 82, 0.7);
   .BoxDiv {
     display: block;
     grid-template-columns: auto;
+    padding: 0px;
   }
   .left {
     display: block;
