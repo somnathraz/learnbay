@@ -1,5 +1,9 @@
-import React, { useState } from "react";
-
+import React, { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import { Pagination } from "swiper";
 import styles from "./BoxShape.module.css";
 import Image from "next/image";
 import Form from "/components/Form/Form";
@@ -19,6 +23,14 @@ const BoxShape = ({
   box4desc,
 }) => {
   const [hover, setHover] = useState(false);
+  const [mobile, setMobile] = useState(false);
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 600) {
+      setMobile(true);
+    }
+  });
+  
   return (
     <div className={styles.boxWrapper}>
       <p className={styles.pTop}>Program Features</p>
@@ -89,18 +101,61 @@ const BoxShape = ({
               career
             </h5>
             <div className={styles.reviewWrap}>
-              <div className={styles.profile}>
-                <Image
-                  src="/featureReviewIcon.png"
-                  width="80"
-                  height="80"
-                  layout="intrinsic"
-                />
-                <div className={styles.name}>
-                  <h5>Shravanti A</h5>
-                  <p>Data Scientist</p>
+            <Swiper
+            slidesPerView={mobile ? 1 : 1}
+            spaceBetween={mobile ? 10 : 20}
+            pagination={true}
+            grabCursor={true}
+            modules={[ Pagination]}
+            className="mySwiper"
+            style={{paddingBottom:"30px"}}
+          >
+              <SwiperSlide>
+                <p>Learnbay taught me data science. Thanks to Learnabay's domain specialization course, I landed a job in my prior sector and was regarded as an experienced applicant by my firm. I consistently increased my data science knowledge and experience, which led to a 250% hike.</p>
+                <div className={styles.profile}>
+                  <Image
+                    src="/featureReviewIcon.png"
+                    width="80"
+                    height="80"
+                    layout="intrinsic"
+                  />
+                  <div className={styles.name}>
+                    <h5>Payal Mishra</h5>
+                    <p>Data Analyst (IBM)</p>
+                  </div>
                 </div>
-              </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p>Learnbay has tremendously assisted my study of data science because of its outstanding mentorship. I had a good experience online studying the courses. Additionally, thanks to Learnbay's hybrid classes making it simple for me to participate in projects from the offline training center, which has helped me tremendously in cracking the interviews.</p>
+                <div className={styles.profile}>
+                  <Image
+                    src="/featureReviewIcon.png"
+                    width="80"
+                    height="80"
+                    layout="intrinsic"
+                  />
+                  <div className={styles.name}>
+                    <h5>Shristi Singh</h5>
+                    <p>Data Architect (Amazon)</p>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p>Thanks to the Learnbay data science course and outstanding assistance, I could ace the TCS interview and secure a job with a 400% pay hike. My understanding of the course was greatly improved by the real-time projects and respective IBM project experience certification, which has given me global recognition and helped me stand out from the crowd.</p>
+                <div className={styles.profile}>
+                  <Image
+                    src="/asrar-home.jpeg"
+                    width="80"
+                    height="80"
+                    layout="intrinsic"
+                  />
+                  <div className={styles.name}>
+                    <h5>Mohammad Israr</h5>
+                    <p>Data scientist (TCS)</p>
+                  </div>
+                </div>
+              </SwiperSlide>
+          </Swiper>
               <div className={styles.shadow}></div>
               <div className={styles.content}>
                 <div className={styles.leftContent}>

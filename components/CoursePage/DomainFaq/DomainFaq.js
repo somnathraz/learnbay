@@ -8,8 +8,7 @@ const DomainFaq = ({FaqData}) => {
     <div className={styles.DomainWrapper}>
         <div className={styles.leftSide}>
             <h5><span>What Ma</span>kes Us Different?</h5>
-            <p>Our Domain Specialisation helps
-you to make your past work experience relevant</p>
+            <p>You have several options when choosing any course from Learnbay as we have never failed our promises.</p>
 <DomainCourseFaq FaqData={FaqData} />
         </div>
         <div className={styles.rightSide}>
