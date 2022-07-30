@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import {
-  FaArrowRight,
-  FaChevronDown,
-  FaChevronUp,
-} from "react-icons/fa";
+import { FaArrowRight, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -51,26 +47,32 @@ const Navbar = () => {
       </Popup>
       <nav className={styles.nav}>
         <div className={styles.left}>
-          <GiHamburgerMenu className={styles.ham} onClick={showMenu} />
+          <GiHamburgerMenu
+            className={styles.ham}
+            onClick={() => {
+              showMenu();
+              setIcon(false);
+            }}
+          />
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
-            <span>
-            <Link href="/">Home</Link>
-          </span>
-          <span>
-            <Link href="/about-us">About Us</Link>
-          </span>
-          <span>
-            <Link href="/demo">Demo</Link>
-          </span>
+              <span>
+                <Link href="/">Home</Link>
+              </span>
+              <span>
+                <Link href="/about-us">About Us</Link>
+              </span>
+              <span>
+                <Link href="/demo">Demo</Link>
+              </span>
 
-          <span>
-            <Link href="/blog">Blog</Link>
-          </span>
+              <span>
+                <Link href="/blog">Blog</Link>
+              </span>
 
-          <span>
-            <Link href="/contact-us">Contact Us</Link>
-          </span>
+              <span>
+                <Link href="/contact-us">Contact Us</Link>
+              </span>
             </div>
           </div>
           <a href="/">
