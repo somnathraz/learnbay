@@ -91,7 +91,13 @@ const Navbar = () => {
             />
           </a>
           {mobile ? (
-            <button onClick={() => setIcon(!icon)} className="hoverBtn">
+            <button
+              onClick={() => {
+                setIcon(!icon);
+                setShow(!show);
+              }}
+              className="hoverBtn"
+            >
               Courses
               {icon ? <FaChevronUp /> : <FaChevronDown />}
             </button>
@@ -101,7 +107,7 @@ const Navbar = () => {
               onMouseOver={() => setIcon(true)}
               onClick={() => {
                 setIcon(!icon);
-                setShow(false);
+                setShow(!show);
               }}
               className="hoverBtn"
             >

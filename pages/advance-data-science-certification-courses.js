@@ -16,9 +16,8 @@ import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import Fee from "../components/CoursePage/Fee/Fee";
 import FAQNew from "../components/FAQNew/FAQNew";
-import {ProgramFee} from "../components/CoursePage/ProgramFee/ProgramFee";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
-
 
 import React, { useState } from "react";
 import {
@@ -31,7 +30,7 @@ import {
   MentorshipFaqData2,
   SupportFaqData2,
 } from "../components/FAQ/FaqData";
-import {DataScienceCourseData} from "../Data/DataScienceCourse";
+import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
 import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
@@ -83,7 +82,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="Feature" id="Feature">
+        <div className={styles.Feature} id="Feature">
           <BoxShape
             title="Why Enroll In This Program"
             Box1h5="1-on-1 Dedication"
@@ -96,24 +95,23 @@ export default function Home() {
             box4desc="Prioritize growth and salary hike with in-demand skillset"
           />
         </div>
-     <DomainFaq FaqData={DomainFaqCourseData1}/>
-       
-       <CourseReview/>
+        <DomainFaq FaqData={DomainFaqCourseData1} />
+
+        <CourseReview />
         <Certificate />
-       
+
         <SyllabusNew
-          
-           syllabus={DataScienceCourseData[0].syllabus}
-           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-           popupHead={DataScienceCourseData[0].popupHead}
+          syllabus={DataScienceCourseData[0].syllabus}
+          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          popupHead={DataScienceCourseData[0].popupHead}
         />
         <ToolsCovered src="/tools-2.png" />
-       <ProgramFee/>
-        <SliderTab/>
+        <ProgramFee />
+        <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+" domain="7+" />
         </div>
-       
+
         <HowApply CCourse="Enroll in Advanced Data Science & AI Program with Domain Specialization." />
         <Fee
           sub1="Data Science and AI Foundation Program"

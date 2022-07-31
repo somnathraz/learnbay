@@ -253,14 +253,26 @@
   font-family: 600;
   color: rgb(103, 103, 103);
 }
+@media (max-width: 1281px) {
+  .program {
+    height: 90px;
+  }
+  .Feature {
+    margin-top: 20px;
+  }
+  .ProjectWrapper {
+    padding-top: 0px;
+    margin: 30px 40px 70px 40px;
+  }
+}
 
-@media (max-width: 961px){
+@media (max-width: 961px) {
   .boxShape {
     gap: 10px;
   }
-.boxWrap {
-  padding: 30px;
-}
+  .boxWrap {
+    padding: 30px;
+  }
 }
 
 @media (max-width: 481px) {

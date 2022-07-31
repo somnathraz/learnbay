@@ -32,6 +32,14 @@
 .right img {
   border-radius: 0px 6px 6px 0px;
 }
+@media (max-width: 1281px) {
+  .Certifcate {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 49% 49%;
+    margin: 70px 40px 70px 40px;
+  }
+}
 @media (max-width: 481px) {
   .Certifcate {
     display: block;

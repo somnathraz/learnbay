@@ -1,84 +1,100 @@
 .HowApply {
-    margin: 70px 100px 70px 100px;
+  margin: 70px 100px 70px 100px;
 }
-.HowApply h4 span{
-    padding-bottom: 5px;
-    border-bottom: 3px solid #edb552;
+.HowApply h4 span {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #edb552;
 }
 .pBotC {
-    font-size: 18px;
-    display: flex;
-    margin: 12px 0px;
+  font-size: 18px;
+  display: flex;
+  margin: 12px 0px;
 }
 
-
 .aboutContent {
+  display: grid;
+  grid-template-columns: 22% 22% 18%;
+  padding-left: 100px;
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  margin-right: -20px;
+  margin-bottom: 40px;
+}
+
+.aboutContent div {
+  padding: 10px 20px;
+  border-radius: 8px;
+  position: relative;
+}
+.aboutContent .Middle {
+  padding: 10px 40px;
+}
+.aboutContent .Right {
+  padding: 10px 30px;
+}
+
+.aboutContent h6 {
+  font-size: 18px;
+  margin: 0;
+  color: #0072bc;
+  position: relative;
+  margin-top: 5px;
+  z-index: 10;
+}
+.aboutContent p {
+  margin: 0;
+  position: relative;
+  font-size: 14px;
+  color: #3d3d3d;
+  margin-top: 5px;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+  z-index: 10;
+}
+.aboutContent .left p {
+  margin-top: 20px;
+  padding-right: 57px;
+}
+.aboutContent .left h6 span {
+  border-bottom: 3px solid #0072bc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.Numbers {
+  position: absolute;
+  right: 90px;
+  z-index: 0;
+}
+.aboutContent .Middle .Numbers {
+  right: 70px;
+}
+.aboutContent .Right .Numbers {
+  right: 30px;
+}
+@media (max-width: 1281px) {
+  .HowApply {
+    margin: 30px 40px 70px 40px;
+  }
+  .aboutContent {
     display: grid;
-    grid-template-columns: 22% 22% 18%;
-    padding-left: 100px;
+    grid-template-columns: 25% 25% 22%;
+    padding-left: 0px;
     align-items: center;
     justify-content: center;
-  
+
     gap: 20px;
     padding-top: 0px;
     padding-bottom: 40px;
     margin-right: -20px;
     margin-bottom: 40px;
   }
-
-  .aboutContent div {
-    padding: 10px 20px;
-    border-radius: 8px;
-    position: relative;
-  }
-  .aboutContent .Middle{
-    padding: 10px 40px;
-  }
-  .aboutContent .Right{
-    padding: 10px 30px;
-  }
-  
-  .aboutContent h6 {
-    font-size: 18px;
-    margin: 0;
-    color: #0072BC;
-    position: relative;
-    margin-top:5px;
-    z-index: 10;
-  }
-  .aboutContent p {
-    margin: 0;
-    position: relative;
-    font-size: 14px;
-    color: #3d3d3d;
-    margin-top: 5px;
-    line-height: 1.4em;
-    margin-bottom: 5px;
-    z-index: 10;
-  }
-  .aboutContent .left p{
-    margin-top: 20px;
-    padding-right: 57px;
-  }
-  .aboutContent .left h6 span{
-border-bottom: 3px solid #0072BC;
-padding-bottom: 5px;
-margin-bottom: 10px;
-  }
-  
-  .Numbers {
-    position: absolute;
-    right: 90px;
-    z-index: 0;
-  }
-  .aboutContent .Middle .Numbers{
-    right: 70px;
-  }
-  .aboutContent .Right .Numbers{
-    right: 30px;
-  }
-
-  @media (max-width: 481px){
+}
+@media (max-width: 481px) {
   .aboutContent {
     display: flex;
     flex-flow: column;
@@ -89,11 +105,11 @@ margin-bottom: 10px;
   }
   .HowApply {
     margin: 30px 20px;
-}
-.aboutContent .Right{
-  padding: 20px;
-}
-  .aboutContent .Middle{
+  }
+  .aboutContent .Right {
+    padding: 20px;
+  }
+  .aboutContent .Middle {
     padding: 20px;
   }
   .Numbers {
@@ -101,10 +117,10 @@ margin-bottom: 10px;
     right: 30px;
     z-index: 0;
   }
-  .aboutContent .Middle .Numbers{
+  .aboutContent .Middle .Numbers {
     right: 30px;
   }
-  .aboutContent .Right .Numbers{
+  .aboutContent .Right .Numbers {
     right: 30px;
   }
 }

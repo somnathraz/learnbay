@@ -97,6 +97,10 @@
   text-align: center;
   color: white;
 }
+.boxActive img {
+  width: 60px;
+  height: auto;
+}
 .box h5 {
   font-size: 22px;
   font-weight: 600;
@@ -144,52 +148,116 @@
   gap: 10px;
   padding: 20px 20px;
 }
-.profile{
+.profile {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.profile h5{
+.profile h5 {
   margin: 0ch;
   font-size: 24px;
 }
-.profile p{
-margin: 0;
-color: #0072bc;
+.profile p {
+  margin: 0;
+  color: #0072bc;
 }
-.shadow{
+.shadow {
   margin-top: 20px;
-  border: 0.6px solid #FFFFFF;
-box-shadow: 0px 4px 4px rgba(237, 181, 82, 0.7);
+  border: 0.6px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(237, 181, 82, 0.7);
 }
-.content{
+.content {
   display: flex;
   align-items: center;
   gap: 10px;
   justify-content: space-between;
   padding: 20px 20px 0px 20px;
 }
-.leftContent{
+.leftContent {
   flex-basis: 45%;
   border-right: 1px solid grey;
 }
-.leftContent h5{
+.leftContent h5 {
   margin: 0;
-  color: #EDB552;
+  color: #edb552;
   font-size: 28px;
   font-weight: 600;
-
 }
-.rightContent h5{
+.rightContent h5 {
   margin: 0;
   color: #0072bc;
   font-size: 28px;
   font-weight: 600;
 }
-.leftContent p, .rightContent p{
+.leftContent p,
+.rightContent p {
   margin: 0;
   color: #646464;
   width: 80%;
+}
+@media (max-width: 1281px) {
+  .boxIcon {
+    font-size: 40px;
+  }
+  .boxWrapper {
+    margin-bottom: 30px;
+    margin: 0px 40px;
+  }
+  .boxWrapper h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+  .box,
+  .boxActive {
+    margin-bottom: 0;
+  }
+
+  .box h5,
+  .boxActive h5 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .boxActive img,
+  .box img {
+    width: 40px;
+    height: 40px;
+  }
+  .imgBack h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+    line-height: 35px;
+
+    color: #000000;
+  }
+  .profile h5 {
+    font-size: 18px;
+  }
+  .leftContent h5 {
+    margin: 0;
+    color: #edb552;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .rightContent h5 {
+    margin: 0;
+    color: #0072bc;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .leftContent p,
+  .rightContent p {
+    margin: 0;
+    font-size: 14px;
+    color: #646464;
+    width: 80%;
+  }
 }
 
 @media (max-width: 481px) {
@@ -207,12 +275,12 @@ box-shadow: 0px 4px 4px rgba(237, 181, 82, 0.7);
   .formWrapper h5 span {
     font-size: 24px;
   }
-.imgBack h5 {
-  font-size: 22px;
-}
-.boxActive {
-  width: 100%;
-}
+  .imgBack h5 {
+    font-size: 22px;
+  }
+  .boxActive {
+    width: 100%;
+  }
   .BoxDiv {
     display: block;
     grid-template-columns: auto;

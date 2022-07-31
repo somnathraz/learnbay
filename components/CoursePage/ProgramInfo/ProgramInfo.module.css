@@ -6,7 +6,7 @@
   .feature .container {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    background-color: #F8F8F8;
+    background-color: #f8f8f8;
     padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -21,7 +21,7 @@
     font-weight: 600;
     text-align: center;
     margin: 2px;
-    color: #2D9CD7;
+    color: #2d9cd7;
     padding: 0px;
   }
   .feature .container h5 {
@@ -39,11 +39,11 @@
     align-items: center;
   }
   .feature .container .middle {
-    border-right: 1px solid #2D9CD750;
-    border-left: 1px solid #2D9CD750;
+    border-right: 1px solid #2d9cd750;
+    border-left: 1px solid #2d9cd750;
   }
   .feature .container .rightr {
-    border-left: 1px solid #2D9CD750;
+    border-left: 1px solid #2d9cd750;
   }
 }
 @media (max-width: 1280px) {
@@ -58,6 +58,7 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     margin-left: 3em;
+    box-shadow: #2d9cd750 0px 0px 4px 0px;
     background-color: white;
     margin-right: 3em;
     padding-left: 40px;
@@ -71,7 +72,7 @@
   .feature .container p {
     font-size: 16px;
     font-weight: 600;
-    color: #2D9CD7;
+    color: #2d9cd7;
     text-align: center;
     margin: 5px;
     padding: 0px;
@@ -91,11 +92,11 @@
     align-items: center;
   }
   .feature .container .middle {
-    border-right: 1px solid #2D9CD750;
-    border-left: 1px solid #2D9CD750;
+    border-right: 1px solid #2d9cd750;
+    border-left: 1px solid #2d9cd750;
   }
   .feature .container .rightr {
-    border-left: 1px solid #2D9CD750;
+    border-left: 1px solid #2d9cd750;
   }
 }
 @media (max-width: 600px) {
@@ -127,7 +128,7 @@
     font-weight: 600;
     text-align: center;
     margin: 5px;
-    color: #2D9CD7;
+    color: #2d9cd7;
     padding: 0px;
   }
   .feature .container h5 {
@@ -178,7 +179,7 @@
     font-weight: 600;
     text-align: center;
     margin: 5px;
-    color: #2D9CD7;
+    color: #2d9cd7;
     padding: 0px;
   }
   .feature .container h5 {

@@ -7,8 +7,8 @@ import { Pagination } from "swiper";
 import styles from "./BoxShape.module.css";
 import Image from "next/image";
 import Form from "/components/Form/Form";
-import {MdLiveTv} from "react-icons/md"
-import {FiUser} from "react-icons/fi"
+import { MdLiveTv } from "react-icons/md";
+import { FiUser } from "react-icons/fi";
 import { BsGraphUp } from "react-icons/bs";
 
 const BoxShape = ({
@@ -30,7 +30,7 @@ const BoxShape = ({
       setMobile(true);
     }
   });
-  
+
   return (
     <div className={styles.boxWrapper}>
       <p className={styles.pTop}>Program Features</p>
@@ -42,34 +42,23 @@ const BoxShape = ({
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
           >
-         
-              <MdLiveTv className={styles.boxIcon}/>
-            
+            <MdLiveTv className={styles.boxIcon} />
 
             <h5>{Box1h5}</h5>
             <p>{box1desc}</p>
           </div>
-          <div
-            className={hover ? styles.box : styles.boxActive}
-           
-          >
-           
-              {hover ? 
+          <div className={hover ? styles.box : styles.boxActive}>
+            {hover ? (
+              <img src="/Live-classes-home-alt.svg" loading="lazy" />
+            ) : (
               <img
-              src="/Live-classes-home-alt.svg"
-              width="60"
-              height="60"
-              loading="lazy"
-            />: <img
-            src="/capstone-live-home.svg"
-            alt="data-science"
-            className={styles.icon}
-            width="60"
-            height="60"
-            loading="lazy"
-          /> }
-              
-           
+                src="/capstone-live-home.svg"
+                alt="data-science"
+                className={styles.icon}
+                loading="lazy"
+              />
+            )}
+
             <h5>{Box2h5}</h5>
             <p>{box2desc}</p>
           </div>
@@ -78,7 +67,7 @@ const BoxShape = ({
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
           >
-            <FiUser className={styles.boxIcon}/>
+            <FiUser className={styles.boxIcon} />
             <h5>{Box3h5}</h5>
             <p>{box3desc}</p>
           </div>
@@ -87,9 +76,8 @@ const BoxShape = ({
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
           >
-            
-            <BsGraphUp className={styles.boxIcon}/>
-            
+            <BsGraphUp className={styles.boxIcon} />
+
             <h5>{Box4h5}</h5>
             <p>{box4desc}</p>
           </div>
@@ -101,61 +89,81 @@ const BoxShape = ({
               career
             </h5>
             <div className={styles.reviewWrap}>
-            <Swiper
-            slidesPerView={mobile ? 1 : 1}
-            spaceBetween={mobile ? 10 : 20}
-            pagination={true}
-            grabCursor={true}
-            modules={[ Pagination]}
-            className="mySwiper"
-            style={{paddingBottom:"30px"}}
-          >
-              <SwiperSlide>
-                <p>Learnbay taught me data science. Thanks to Learnabay's domain specialization course, I landed a job in my prior sector and was regarded as an experienced applicant by my firm. I consistently increased my data science knowledge and experience, which led to a 250% hike.</p>
-                <div className={styles.profile}>
-                  <Image
-                    src="/featureReviewIcon.png"
-                    width="80"
-                    height="80"
-                    layout="intrinsic"
-                  />
-                  <div className={styles.name}>
-                    <h5>Payal Mishra</h5>
-                    <p>Data Analyst (IBM)</p>
+              <Swiper
+                slidesPerView={mobile ? 1 : 1}
+                spaceBetween={mobile ? 10 : 20}
+                pagination={true}
+                grabCursor={true}
+                modules={[Pagination]}
+                className="mySwiper"
+                style={{ paddingBottom: "30px" }}
+              >
+                <SwiperSlide>
+                  <p>
+                    Learnbay taught me data science. Thanks to Learnabay's
+                    domain specialization course, I landed a job in my prior
+                    sector and was regarded as an experienced applicant by my
+                    firm. I consistently increased my data science knowledge and
+                    experience, which led to a 250% hike.
+                  </p>
+                  <div className={styles.profile}>
+                    <Image
+                      src="/featureReviewIcon.png"
+                      width="80"
+                      height="80"
+                      layout="intrinsic"
+                    />
+                    <div className={styles.name}>
+                      <h5>Payal Mishra</h5>
+                      <p>Data Analyst (IBM)</p>
+                    </div>
                   </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <p>Learnbay has tremendously assisted my study of data science because of its outstanding mentorship. I had a good experience online studying the courses. Additionally, thanks to Learnbay's hybrid classes making it simple for me to participate in projects from the offline training center, which has helped me tremendously in cracking the interviews.</p>
-                <div className={styles.profile}>
-                  <Image
-                    src="/featureReviewIcon.png"
-                    width="80"
-                    height="80"
-                    layout="intrinsic"
-                  />
-                  <div className={styles.name}>
-                    <h5>Shristi Singh</h5>
-                    <p>Data Architect (Amazon)</p>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <p>
+                    Learnbay has tremendously assisted my study of data science
+                    because of its outstanding mentorship. I had a good
+                    experience online studying the courses. Additionally, thanks
+                    to Learnbay's hybrid classes making it simple for me to
+                    participate in projects from the offline training center,
+                    which has helped me tremendously in cracking the interviews.
+                  </p>
+                  <div className={styles.profile}>
+                    <Image
+                      src="/featureReviewIcon.png"
+                      width="80"
+                      height="80"
+                      layout="intrinsic"
+                    />
+                    <div className={styles.name}>
+                      <h5>Shristi Singh</h5>
+                      <p>Data Architect (Amazon)</p>
+                    </div>
                   </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <p>Thanks to the Learnbay data science course and outstanding assistance, I could ace the TCS interview and secure a job with a 400% pay hike. My understanding of the course was greatly improved by the real-time projects and respective IBM project experience certification, which has given me global recognition and helped me stand out from the crowd.</p>
-                <div className={styles.profile}>
-                  <Image
-                    src="/asrar-home.jpeg"
-                    width="80"
-                    height="80"
-                    layout="intrinsic"
-                  />
-                  <div className={styles.name}>
-                    <h5>Mohammad Israr</h5>
-                    <p>Data scientist (TCS)</p>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <p>
+                    Thanks to the Learnbay data science course and outstanding
+                    assistance, I could ace the TCS interview and secure a job
+                    with a 400% pay hike. My understanding of the course was
+                    greatly improved by the real-time projects and respective
+                    IBM project experience certification, which has given me
+                    global recognition and helped me stand out from the crowd.
+                  </p>
+                  <div className={styles.profile}>
+                    <Image
+                      src="/asrar-home.jpeg"
+                      width="80"
+                      height="80"
+                      layout="intrinsic"
+                    />
+                    <div className={styles.name}>
+                      <h5>Mohammad Israr</h5>
+                      <p>Data scientist (TCS)</p>
+                    </div>
                   </div>
-                </div>
-              </SwiperSlide>
-          </Swiper>
+                </SwiperSlide>
+              </Swiper>
               <div className={styles.shadow}></div>
               <div className={styles.content}>
                 <div className={styles.leftContent}>
@@ -163,9 +171,8 @@ const BoxShape = ({
                   <p>Highest Salary Hike</p>
                 </div>
                 <div className={styles.rightContent}>
-                <h5>18 LPA</h5>
-                  <p>Average Salary
-Package</p>
+                  <h5>18 LPA</h5>
+                  <p>Average Salary Package</p>
                 </div>
               </div>
             </div>
