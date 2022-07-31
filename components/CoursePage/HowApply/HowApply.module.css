@@ -13,9 +13,8 @@
 
 
 .aboutContent {
-    display: grid;
+    display: flex;
     grid-template-columns: 22% 22% 18%;
-    padding-left: 100px;
     align-items: center;
     justify-content: center;
   

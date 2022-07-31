@@ -49,7 +49,7 @@ const CourseReview = () => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    <div className={styles.rightBottom}>
+                    {/* <div className={styles.rightBottom}>
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
@@ -59,7 +59,7 @@ const CourseReview = () => {
                         height="60"
                         layout="intrinsic"
                       />
-                    </div>
+                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -111,7 +111,7 @@ const CourseReview = () => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    <div className={styles.rightBottom}>
+                    {/* <div className={styles.rightBottom}>
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
@@ -121,7 +121,7 @@ const CourseReview = () => {
                         height="60"
                         layout="intrinsic"
                       />
-                    </div>
+                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -176,12 +176,12 @@ const CourseReview = () => {
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
-                      <Image
+                      <a href="https://www.youtube.com/watch?v=x_EmBJ-h7DE"><Image
                         src="/reviewYtIcon.png"
                         width="107"
                         height="60"
                         layout="intrinsic"
-                      />
+                      /></a>
                     </div>
                   </div>
                   <div className={styles.content}>
@@ -209,7 +209,7 @@ const CourseReview = () => {
                     </div>
                     <div className={styles.cIcon}>
                       <Image
-                        src="/amazon-review.png"
+                        src="/TCS.png"
                         width="99"
                         height="30"
                         layout="intrinsic"
@@ -231,7 +231,7 @@ const CourseReview = () => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    <div className={styles.rightBottom}>
+                    {/* <div className={styles.rightBottom}>
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
@@ -241,7 +241,7 @@ const CourseReview = () => {
                         height="60"
                         layout="intrinsic"
                       />
-                    </div>
+                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -273,7 +273,7 @@ const CourseReview = () => {
                     </div>
                     <div className={styles.cIcon}>
                       <Image
-                        src="/amazon-review.png"
+                        src="/Capgemini.png"
                         width="99"
                         height="30"
                         layout="intrinsic"
@@ -295,7 +295,7 @@ const CourseReview = () => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    <div className={styles.rightBottom}>
+                    {/* <div className={styles.rightBottom}>
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
@@ -305,7 +305,7 @@ const CourseReview = () => {
                         height="60"
                         layout="intrinsic"
                       />
-                    </div>
+                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -336,7 +336,7 @@ const CourseReview = () => {
                     </div>
                     <div className={styles.cIcon}>
                       <Image
-                        src="/amazon-review.png"
+                        src="/i2i.webp"
                         width="99"
                         height="30"
                         layout="intrinsic"
@@ -358,7 +358,7 @@ const CourseReview = () => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    <div className={styles.rightBottom}>
+                    {/* <div className={styles.rightBottom}>
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
@@ -368,7 +368,7 @@ const CourseReview = () => {
                         height="60"
                         layout="intrinsic"
                       />
-                    </div>
+                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -400,9 +400,9 @@ const CourseReview = () => {
                     </div>
                     <div className={styles.cIcon}>
                       <Image
-                        src="/amazon-review.png"
-                        width="99"
-                        height="30"
+                        src="/amantya.png"
+                        width="400"
+                        height="50"
                         layout="intrinsic"
                       />
                     </div>
@@ -426,12 +426,12 @@ const CourseReview = () => {
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
-                      <Image
+                      <a href="https://www.youtube.com/watch?v=vSjfKdIzUjY"><Image
                         src="/reviewYtIcon.png"
                         width="107"
                         height="60"
                         layout="intrinsic"
-                      />
+                      /></a>
                     </div>
                   </div>
                   <div className={styles.content}>
@@ -463,8 +463,8 @@ const CourseReview = () => {
                     </div>
                     <div className={styles.cIcon}>
                       <Image
-                        src="/amazon-review.png"
-                        width="99"
+                        src="/HCL.png"
+                        width="200"
                         height="30"
                         layout="intrinsic"
                       />

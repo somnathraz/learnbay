@@ -8,10 +8,10 @@ const FormSection = () => {
     <div className={styles.fromWrap}>
       <div className={styles.leftForm}>
         <h5>Apply For Free Career Counselling</h5>
-        <button>
+        <a href="tel:+919606950936"><button>
           <MdCall />
           +91 96069 50936
-        </button>
+        </button></a>
       </div>
       <div className={styles.rightForm}>
         <div className={styles.rightFormWrap}>
