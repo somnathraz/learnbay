@@ -51,7 +51,6 @@ const Navbar = () => {
       </Popup>
       <nav className={styles.nav}>
         <div className={styles.left}>
-<<<<<<< HEAD
           <GiHamburgerMenu
             className={styles.ham}
             onClick={() => {
@@ -59,12 +58,7 @@ const Navbar = () => {
               setIcon(false);
             }}
           />
-=======
-          <GiHamburgerMenu className={styles.ham} onClick={() => {
-              showMenu();
-              setIcon(false);
-            }} />
->>>>>>> bc0a235d8953b6fa509276dd3ef89d7967caaa86
+
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
               <span>
@@ -106,8 +100,8 @@ const Navbar = () => {
               onMouseEnter={() => setIcon(true)}
               onMouseOver={() => setIcon(true)}
               onClick={() => {
-                showMenu();
-                setIcon(false);
+                setIcon(!icon);
+                setShow(false);
               }}
               className="hoverBtn"
             >
