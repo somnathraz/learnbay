@@ -89,7 +89,7 @@ const Course = () => {
               <h5>Data Science (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -152,7 +152,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -236,7 +236,7 @@ const Course = () => {
               <h5>Data Science (6) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -317,7 +317,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -548,7 +548,7 @@ const Course = () => {
               <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -611,7 +611,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -816,7 +816,7 @@ const Course = () => {
               <h5>Data Science (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -876,10 +876,10 @@ const Course = () => {
                   })}
                 </Swiper>
               </div>
-              <h5>Full Stack (2) </h5>
+              <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -948,7 +948,7 @@ const Course = () => {
               <h5>Data Science (6) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -1017,7 +1017,7 @@ const Course = () => {
               <h5>Data Science (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -1080,7 +1080,7 @@ const Course = () => {
               <h5>Full Stack (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}
@@ -1150,7 +1150,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={true}
                   grabCursor={true}

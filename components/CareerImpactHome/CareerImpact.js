@@ -24,8 +24,8 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
         </p>
         <div className={styles.swiperleft}>
           <Swiper
-            slidesPerView={mobile ? 1.02 : 2.1}
-            spaceBetween={mobile ? 10 : 20}
+            slidesPerView={mobile ? 1.02 : 2.04}
+            spaceBetween={mobile ? 10 : 10}
             pagination={true}
             grabCursor={true}
             modules={[ Pagination]}
@@ -45,7 +45,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    <div className={styles.rightBottom}>
+                    {/* <div className={styles.rightBottom}>
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
@@ -55,7 +55,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         height="60"
                         layout="intrinsic"
                       />
-                    </div>
+                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -103,11 +103,74 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         layout="intrinsic"
                       />
                       <div className={styles.leftBottomC}>
-                        <h5>230%</h5>
+                        <h5>235%</h5>
                         <p>Salary Hike</p>
                       </div>
                     </div>
                     <div className={styles.rightBottom}>
+                      <div className={styles.leftBottomC}>
+                        <p>Watch More On</p>
+                      </div>
+                      <a href="https://www.youtube.com/watch?v=vSjfKdIzUjY"><Image
+                        src="/reviewYtIcon.png"
+                        width="107"
+                        height="60"
+                        layout="intrinsic"
+                      /></a>
+                    </div>
+                  </div>
+                  <div className={styles.content}>
+                    <div className={styles.imgP}>
+                    <Image
+                        src="/preksha-home.jpeg"
+                        layout="intrinsic"
+                        width="100"
+                        height="100"
+                        alt="preksha-home"
+                      />
+                    </div>
+
+                    <div className={styles.contentRight}>
+                      <div className={styles.name}>
+                      <p> Working at HCL</p>
+                      <h5>Preksha Mishra</h5>
+                      </div>
+                      <div>
+                      <p className={styles.para}>
+                      I had a great learning experience at Learnbay. The faculties
+                    here are top notch. Right from enrollment to getting a good
+                    job, they keep putting enormous efforts for each and every
+                    candidate. Thanks to all the trainers, backend team, the HR
+                    team and to the directors for making this journey smooth.
+                        <br />
+                      </p>
+                      </div>
+                    </div>
+                    <div className={styles.cIcon}>
+                      <Image
+                        src="/HCL.png"
+                        width="230"
+                        height="40"
+                        layout="intrinsic"
+                      />
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                  <div className={styles.bottom}>
+                    <div className={styles.leftBottom}>
+                      <Image
+                        src="/hike.svg"
+                        width="41"
+                        height="41"
+                        layout="intrinsic"
+                      />
+                      <div className={styles.leftBottomC}>
+                        <h5>230%</h5>
+                        <p>Salary Hike</p>
+                      </div>
+                    </div>
+                    {/* <div className={styles.rightBottom}>
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
@@ -117,7 +180,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         height="60"
                         layout="intrinsic"
                       />
-                    </div>
+                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -172,12 +235,12 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
-                      <Image
+                      <a href="https://www.youtube.com/watch?v=x_EmBJ-h7DE"><Image
                         src="/reviewYtIcon.png"
                         width="107"
                         height="60"
                         layout="intrinsic"
-                      />
+                      /></a>
                     </div>
                   </div>
                   <div className={styles.content}>
@@ -205,7 +268,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     </div>
                     <div className={styles.cIcon}>
                       <Image
-                        src="/amazon-review.png"
+                        src="/TCS.png"
                         width="99"
                         height="30"
                         layout="intrinsic"
@@ -213,6 +276,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     </div>
                   </div>
                 </SwiperSlide>
+                
                 <SwiperSlide className={styles.slide}>
                   <div className={styles.bottom}>
                     <div className={styles.leftBottom}>
@@ -227,7 +291,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    <div className={styles.rightBottom}>
+                    {/* <div className={styles.rightBottom}>
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
@@ -237,7 +301,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         height="60"
                         layout="intrinsic"
                       />
-                    </div>
+                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -269,7 +333,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     </div>
                     <div className={styles.cIcon}>
                       <Image
-                        src="/amazon-review.png"
+                        src="/Capgemini.png"
                         width="99"
                         height="30"
                         layout="intrinsic"
@@ -291,7 +355,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    <div className={styles.rightBottom}>
+                    {/* <div className={styles.rightBottom}>
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
@@ -301,7 +365,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         height="60"
                         layout="intrinsic"
                       />
-                    </div>
+                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -332,7 +396,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     </div>
                     <div className={styles.cIcon}>
                       <Image
-                        src="/amazon-review.png"
+                        src="/i2i.webp"
                         width="99"
                         height="30"
                         layout="intrinsic"
@@ -354,7 +418,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    <div className={styles.rightBottom}>
+                    {/* <div className={styles.rightBottom}>
                       <div className={styles.leftBottomC}>
                         <p>Watch More On</p>
                       </div>
@@ -364,7 +428,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         height="60"
                         layout="intrinsic"
                       />
-                    </div>
+                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -379,7 +443,7 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
 
                     <div className={styles.contentRight}>
                       <div className={styles.name}>
-                      <p>Working at Amanthya</p>
+                      <p>Working at Amantya</p>
                       <h5>Saurab Maurya</h5>
                       </div>
                       <div>
@@ -396,72 +460,9 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     </div>
                     <div className={styles.cIcon}>
                       <Image
-                        src="/amazon-review.png"
-                        width="99"
-                        height="30"
-                        layout="intrinsic"
-                      />
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
-                  <div className={styles.bottom}>
-                    <div className={styles.leftBottom}>
-                      <Image
-                        src="/hike.svg"
-                        width="41"
-                        height="41"
-                        layout="intrinsic"
-                      />
-                      <div className={styles.leftBottomC}>
-                        <h5>235%</h5>
-                        <p>Salary Hike</p>
-                      </div>
-                    </div>
-                    <div className={styles.rightBottom}>
-                      <div className={styles.leftBottomC}>
-                        <p>Watch More On</p>
-                      </div>
-                      <Image
-                        src="/reviewYtIcon.png"
-                        width="107"
-                        height="60"
-                        layout="intrinsic"
-                      />
-                    </div>
-                  </div>
-                  <div className={styles.content}>
-                    <div className={styles.imgP}>
-                    <Image
-                        src="/preksha-home.jpeg"
-                        layout="intrinsic"
-                        width="100"
-                        height="100"
-                        alt="preksha-home"
-                      />
-                    </div>
-
-                    <div className={styles.contentRight}>
-                      <div className={styles.name}>
-                      <p> Working at HCL</p>
-                      <h5>Preksha Mishra</h5>
-                      </div>
-                      <div>
-                      <p className={styles.para}>
-                      I had a great learning experience at Learnbay. The faculties
-                    here are top notch. Right from enrollment to getting a good
-                    job, they keep putting enormous efforts for each and every
-                    candidate. Thanks to all the trainers, backend team, the HR
-                    team and to the directors for making this journey smooth.
-                        <br />
-                      </p>
-                      </div>
-                    </div>
-                    <div className={styles.cIcon}>
-                      <Image
-                        src="/amazon-review.png"
-                        width="99"
-                        height="30"
+                        src="/amantya.png"
+                        width="420"
+                        height="50"
                         layout="intrinsic"
                       />
                     </div>

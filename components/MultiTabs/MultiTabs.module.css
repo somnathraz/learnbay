@@ -136,7 +136,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 27px;
-
   color: #6c6c6c;
 }
 
@@ -211,5 +210,12 @@
 
 .gridPanel .left {
   margin-top: 20px;
+}
+
+.info .middle {
+  margin-top: 20px;
+}
+.info p {
+  line-height: 20px;
 }
 }
