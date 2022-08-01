@@ -12,7 +12,9 @@ import Form from "/components/Form/Form";
 const HeroSection = ({
   deskTopPara,
   title,
+  mTitle,
   spanTitleText,
+  spanMTitleText,
   desc,
   mTopPara,
   src,
@@ -55,17 +57,23 @@ const HeroSection = ({
         {mobile ? (
           <p className="pTop">
             <b className="pTopp">{mTopPara}</b> <br />
-            <br /> {mTopPara1}
+            <br /> <b className="pTopp">{mTopPara1}</b>
           </p>
         ) : (
           <p className={styles.pTop}>
             {deskTopPara} <br /> {deskTopPara1}
           </p>
         )}
+        {mobile ? (
+          <h1>
+            {mTitle} <span> {spanMTitleText}</span>
+          </h1>
+        ) : (
+          <h1>
+            {title} <span> {spanTitleText}</span>
+          </h1>
+        )}
 
-        <h1>
-          {title} <span> {spanTitleText}</span>
-        </h1>
         <p className={styles.pBot}>{desc}</p>
         <div className={styles.ButtonDiv}>
           <div className={styles.btnWrapper}>
@@ -87,14 +95,14 @@ const HeroSection = ({
           <div className={styles.leftBottom}>
             <Image
               src="/review-course-round.jpg"
-              width="261"
-              height="67"
+              width={mobile ? 180 : 261}
+              height={mobile ? 46.2 : 67}
               layout="intrinsic"
             />
           </div>
           <div className={styles.rightBottom}>
             <h5>1.6k Successful</h5>
-            <p>Transition</p>
+            <p>Career Transition</p>
           </div>
         </div>
       </div>
