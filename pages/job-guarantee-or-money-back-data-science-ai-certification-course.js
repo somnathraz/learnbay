@@ -23,7 +23,12 @@ import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData5, DomainFaqData5, PaymentFaqData5, CapstoneFaqData5, CertificationFaqData5, jobFaqData5, MentorshipFaqData5, SupportFaqData5 } from "../components/FAQ/FaqData";
- 
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
+  
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -73,7 +78,7 @@ export default function Home() {
         p44="₹ 16k/month (9 Months)"
         />
       </div>
-      <GetHired 
+      {/* <GetHired 
         WeekdayBatchDate="Global Recognition : Course Completion Certificate from IBM"
         WeekendBatchDate="Within 18 months, get placed or avail full refund"
         Project="15 live industry projects & 3 fresh capstones project"
@@ -82,7 +87,7 @@ export default function Home() {
         Interview="Special coding classes for non-programmers"
         Fee="1,25,000"
         Subscription="3 Year Subscription"
-      />
+      /> */}
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
@@ -96,7 +101,10 @@ export default function Home() {
           box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
       </div>
-      <CareerImpact
+      <DomainFaq FaqData={DomainFaqCourseData1} />
+
+<CourseReview />
+      {/* <CareerImpact
       CareerHead="Career Impact"
       />
       <div className={styles.ExpertWrapper}>
@@ -106,7 +114,7 @@ export default function Home() {
         <div className={styles.expertBody}>
           <OurExpert />
         </div>
-      </div>
+      </div> */}
       <Certificate
         title="Course Completion Certificate from IBM"
         desc="Complete your training with the internationally recognized certificate."
@@ -114,7 +122,7 @@ export default function Home() {
         desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
         src="/DS-AI-1.jpeg"
       />
-      <section className={styles.HiringPartner}>
+      {/* <section className={styles.HiringPartner}>
         <div>
         <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
         <span className={styles.HiringPartnerB}>
@@ -128,14 +136,14 @@ export default function Home() {
           />
         </span>
         </div>
-    </section>
+    </section> */}
     <SyllabusNew
           
            syllabus={DataScienceCourseData[0].syllabus}
            syllabusDesc={DataScienceCourseData[0].syllabusDesc}
            popupHead={DataScienceCourseData[0].popupHead}
         />
-      <ToolsCovered 
+      {/* <ToolsCovered 
       src="/tools-job.png"
       />
       <SkillsCovered
@@ -151,7 +159,7 @@ export default function Home() {
       sc32="Model Creation"
       sc33="Model Deployment"
       sc34="and more..."
-      />
+      /> */}
       <div className={styles.ctj}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
@@ -161,14 +169,26 @@ export default function Home() {
           <a href="/terms-conditions-job" target="_blank"><button>Terms & Conditions</button></a>
         </div>
       </div>
-      <Domain />
+      {/* <Domain /> */}
+      <OurExpert
+        img1="/Wipro.png"
+        img2="/4(2).png"
+        img3="/Capgemini.png"
+        img4="/Flipkart.png"
+        img5="/TCS.png"
+        img6="/Myntra.png"
+        img7="/Microsoft.png"
+        img8="/Google.png"
+        />
+        <ProgramFee />
+        <SliderTab />
       <div className={styles.ProjectWrapper} id="project">
         <Project
         project="15+"
         domain="7+"
         />
       </div>
-      <div className={styles.cta}>
+      {/* <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
           <h6>Talk to our team directly.</h6>
@@ -177,10 +197,10 @@ export default function Home() {
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>
         </div>
-      </div>
-      <HowApply
+      </div> */}
+      {/* <HowApply
       CCourse="Enroll in Data Science and AI Program with Job Guarantee."
-      />
+      /> */}
       <Fee
         sub1="Data Science and AI Foundation Program"
         Price1="₹65,000 + GST"

@@ -345,10 +345,6 @@ const SliderTabs = () => {
               </div>
               <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf" target="_blank"><button>Download Brochure</button></a>
             </div>
-<<<<<<< HEAD
-            <div className={styles.right}>
-              <Image src="/Bnking domain.png" width="557" height="442" />
-=======
  
            <div className={styles.right}>
               <Image
@@ -356,7 +352,6 @@ const SliderTabs = () => {
                 width="557"
                 height="442"
               />
->>>>>>> 59ba1df4ee94ab8ca41c23daac07146a10f2fdbb
             </div>
           </div>
         ) : (

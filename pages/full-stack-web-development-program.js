@@ -14,14 +14,20 @@ import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
 import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../components/CoursePage/Syllabusfsw/Syllabus";
+import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
+import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
+import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
 import { FaqData8, PaymentFaqData8, CapstoneFaqData8, CertificationFaqData8, jobFaqData8, MentorshipFaqData8, SupportFaqData8 } from "../components/FAQ/FaqData";
 
- 
+  
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -67,7 +73,7 @@ export default function Home() {
         p44="₹ 9k to 15k*(9 Months)"
         />
       </div>
-      <GetHired 
+      {/* <GetHired 
         WeekdayBatchDate="Assured interview calls powered by 250+ hiring partners"
         WeekendBatchDate="Hybrid learning option across multiple cities"
         Project="12+ live projects and 2 capstone projects"
@@ -77,7 +83,7 @@ export default function Home() {
         Fee="79,000"
         Fees="₹79,000"
         Subscription="3 Year Subscription"
-      />
+      /> */}
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
@@ -91,7 +97,10 @@ export default function Home() {
           box4desc="Gain diligent experience in real-world projects ranging from advanced level complexity to amazing deployment scopes."
         />
       </div>
-      <CareerImpact
+      <DomainFaq FaqData={DomainFaqCourseData1} />
+      <CourseReview />
+        <Certificate />
+      {/* <CareerImpact
       CareerHead="Career Impact"
       />
       <div className={styles.ExpertWrapper}>
@@ -117,9 +126,25 @@ export default function Home() {
           />
         </span>
         </div>
-    </section>
-    <SyllabusNew/>
-      <ToolsCovered 
+    </section> */}
+    <SyllabusNew
+          syllabus={FullStackSoftwareCourseData[0].syllabus}
+          syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
+          popupHead={FullStackSoftwareCourseData[0].popupHead}
+        />
+        <OurExpert
+        img1="/Wipro.png"
+        img2="/4(2).png"
+        img3="/Capgemini.png"
+        img4="/Flipkart.png"
+        img5="/TCS.png"
+        img6="/Myntra.png"
+        img7="/Microsoft.png"
+        img8="/Google.png"
+        />
+            <ProgramFee />
+    <SliderTab />
+      {/* <ToolsCovered 
       src="/tools-fs.png"
       />
       <SkillsCovered
@@ -141,14 +166,14 @@ export default function Home() {
       sc34="Model Deployment"
       sc35="Critical Thinking"
       sc36="Function & Formulas"
-      />
+      /> */}
       <div className={styles.ProjectWrapper} id="project">
         <Project
         project="12+"
         domain="7+"
         />
       </div>
-      <div className={styles.cta}>
+      {/* <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
           <h6>Talk to our team directly.</h6>
@@ -157,10 +182,10 @@ export default function Home() {
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>
         </div>
-      </div>
-      <HowApply
+      </div> */}
+      {/* <HowApply
       CCourse="Enroll in Full Stack Web Development Program."
-      />
+      /> */}
       <CourseFee 
       CourseFeeHead="Full Stack Web Development: Batch Details"
       CourseFeePara="Online Classroom"

@@ -105,7 +105,17 @@ export default function Home() {
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           popupHead={DataScienceCourseData[0].popupHead}
         />
-        <ToolsCovered src="/tools-2.png" />
+        {/* <ToolsCovered src="/tools-2.png" width /> */}
+        <OurExpert
+        img1="/Wipro.png"
+        img2="/4(2).png"
+        img3="/Capgemini.png"
+        img4="/Flipkart.png"
+        img5="/TCS.png"
+        img6="/Myntra.png"
+        img7="/Microsoft.png"
+        img8="/Google.png"
+        />
         <ProgramFee />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">

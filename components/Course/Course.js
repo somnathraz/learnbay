@@ -105,6 +105,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -168,6 +170,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                         </div>
@@ -252,6 +256,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -333,6 +339,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                         </div>
@@ -417,6 +425,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -480,6 +490,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                         </div>
@@ -564,6 +576,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -626,6 +640,8 @@ const Course = () => {
                         <img
                           src={img}
                           layout="intrinsic"
+                          width="423px"
+                          height="252px"
                           className={styles.courseImg}
                         />
                         <div
@@ -699,6 +715,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -761,6 +779,8 @@ const Course = () => {
                         <img
                           src={img}
                           layout="intrinsic"
+                          width="423px"
+                          height="252px"
                           className={styles.courseImg}
                         />
                         <div
@@ -832,6 +852,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -895,6 +917,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -964,6 +988,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -1033,6 +1059,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -1095,6 +1123,8 @@ const Course = () => {
                         <img
                           src={img}
                           layout="intrinsic"
+                          width="423px"
+                          height="252px"
                           className={styles.courseImg}
                         />
                         <div
@@ -1165,6 +1195,8 @@ const Course = () => {
                         <img
                           src={img}
                           layout="intrinsic"
+                          width="423px"
+                          height="252px"
                           className={styles.courseImg}
                         />
                         <div

@@ -443,8 +443,8 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
 
                     <div className={styles.contentRight}>
                       <div className={styles.name}>
-                      <p>Working at Amantya</p>
-                      <h5>Saurab Maurya</h5>
+                      <p>Working at HCL</p>
+                      <h5>Sourabh Mourya</h5>
                       </div>
                       <div>
                       <p className={styles.para}>
@@ -460,9 +460,9 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                     </div>
                     <div className={styles.cIcon}>
                       <Image
-                        src="/amantya.png"
-                        width="420"
-                        height="50"
+                        src="/HCL.png"
+                        width="230"
+                        height="40"
                         layout="intrinsic"
                       />
                     </div>

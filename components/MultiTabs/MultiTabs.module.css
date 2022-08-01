@@ -87,7 +87,7 @@
 .gridPanel .left h6 {
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 30px;
   margin: 0;
   margin-top: -10px;
@@ -156,7 +156,8 @@
     margin-top: 0px;
   }
   .Course h2 {
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 700;
   }
   .feature {
     flex-flow: column;

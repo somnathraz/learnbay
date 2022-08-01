@@ -12,7 +12,6 @@
 }
 
 .aboutContent {
-<<<<<<< HEAD
   display: grid;
   grid-template-columns: 22% 22% 18%;
   padding-left: 100px;
@@ -85,10 +84,6 @@
     display: grid;
     grid-template-columns: 25% 25% 22%;
     padding-left: 0px;
-=======
-    display: flex;
-    grid-template-columns: 22% 22% 18%;
->>>>>>> 59ba1df4ee94ab8ca41c23daac07146a10f2fdbb
     align-items: center;
     justify-content: center;
 

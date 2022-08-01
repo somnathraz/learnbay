@@ -15,6 +15,8 @@ import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import {DataScienceCourseData} from "../Data/DataScienceCourse";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import Fee from "../components/CoursePage/Fee/Fee";
@@ -22,6 +24,9 @@ import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
 import { FaqData1, PaymentFaqData1, CapstoneFaqData1, CertificationFaqData1, jobFaqData1, MentorshipFaqData1, SupportFaqData1 } from "../components/FAQ/FaqData";
+import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
  
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -71,7 +76,7 @@ export default function Home() {
         p44="₹ 8.5k/month (9 Months)"
         />
       </div>
-      <GetHired 
+      {/* <GetHired 
         WeekdayBatchDate="Specially devised for early professionals"
         WeekendBatchDate="Special coding classes for non-programmers"
         Project="Learn directly from MNC experts"
@@ -80,7 +85,7 @@ export default function Home() {
         Interview="100% interview call guarantee "
         Fee="65,000"
         Subscription="1.5 Year Subscription"
-      />
+      /> */}
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
@@ -94,7 +99,7 @@ export default function Home() {
           box4desc="Get the diligent experience of real-world projects, spanning from starters, directly from relevant establishments."
         />
       </div>
-      <CareerImpact
+      {/* <CareerImpact
       CareerHead="Career Impact"
       />
       <div className={styles.ExpertWrapper}>
@@ -104,15 +109,25 @@ export default function Home() {
         <div className={styles.expertBody}>
           <OurExpert />
         </div>
-      </div>
-      <Certificate
+      </div> */}
+          <DomainFaq FaqData={DomainFaqCourseData1} />
+
+<CourseReview />
+<Certificate
         title="Course Completion Certificate from IBM"
         desc="Complete your training with the internationally recognized certificate."
         desc2 ="Validate your Data Science skills with IBM Course Completion Certificate."
         desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
         src="/certificate-1.jpg"
       />
-      <section className={styles.HiringPartner}>
+
+<SyllabusNew
+  syllabus={DataScienceCourseData[0].syllabus}
+  syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+  popupHead={DataScienceCourseData[0].popupHead}
+/>
+
+      {/* <section className={styles.HiringPartner}>
         <div>
         <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
         <span className={styles.HiringPartnerB}>
@@ -126,14 +141,9 @@ export default function Home() {
           />
         </span>
         </div>
-    </section>
-    <SyllabusNew
-          
-          syllabus={DataScienceCourseData[0].syllabus}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          popupHead={DataScienceCourseData[0].popupHead}
-       />
-      <ToolsCovered 
+    </section> */}
+
+      {/* <ToolsCovered 
       src="/tools-1.png"
       />
       <SkillsCovered
@@ -149,14 +159,26 @@ export default function Home() {
       sc32="Model Creation"
       sc33="Model Deployment"
       sc34="and more..."
-      />
+      /> */}
       <div className={styles.ProjectWrapper} id="project">
         <Project
         project="8+"
         domain="7+"
         />
       </div>
-      <div className={styles.cta}>
+      <OurExpert
+        img1="/Wipro.png"
+        img2="/4(2).png"
+        img3="/Capgemini.png"
+        img4="/Flipkart.png"
+        img5="/TCS.png"
+        img6="/Myntra.png"
+        img7="/Microsoft.png"
+        img8="/Google.png"
+        />
+        <ProgramFee />
+        <SliderTab />
+      {/* <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
           <h6>Talk to our team directly.</h6>
@@ -168,7 +190,7 @@ export default function Home() {
       </div>
       <HowApply
       CCourse="Enroll in Data Science Foundation Program."
-      />
+      /> */}
       <Fee
         sub1="Data Science Foundation Program"
         Price1="₹65,000 + GST"
