@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import styles from "./SliderTab.module.css";
 import Image from "next/image";
+import { BiDownArrowAlt, BiUpArrowAlt } from "react-icons/bi";
 
 const SliderTabs = () => {
   const [viewAll, setViewAll] = useState(false);
@@ -40,730 +41,685 @@ const SliderTabs = () => {
 
       <div className={styles.courses}>
         <div className={styles.listPanel}>
-          <Swiper
-            pagination={{
-              type: "progressbar",
+          <span
+            onClick={() => {
+              setViewAll(false);
+              setOneYear(true);
+              setNonTech(false);
+              setStack(false);
+              setGuarantee(false);
+              setRetail(false);
+              setTesting(false);
+              setAutomotive(false);
+              setCloud(false);
+              setOil(false);
             }}
-            slidesPerView={mobile ? 1.2 : 2.9}
-            spaceBetween={mobile ? 0 : 30}
-            className="mySwiper"
+            className={oneYear ? styles.ActiveSpan : styles.span}
           >
-            <SwiperSlide className={styles.slide}>
-              <span
-                onClick={() => {
-                  setViewAll(false);
-                  setOneYear(true);
-                  setNonTech(false);
-                  setStack(false);
-                  setGuarantee(false);
-                  setRetail(false);
-                  setTesting(false);
-                  setAutomotive(false);
-                  setCloud(false);
-                  setOil(false);
-                }}
-                style={
-                  oneYear
-                    ? {
-                        background: "white",
-                        color: "#edb552",
-                        borderBottom: "3px solid #edb552",
-                      }
-                    : { background: "white" }
-                }
-              >
-                Banking, Finance, Services & Insurance
-              </span>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <span
-                onClick={() => {
-                  setViewAll(false);
-                  setOneYear(false);
-                  setNonTech(true);
-                  setStack(false);
-                  setGuarantee(false);
-                  setOil(false);
-                  setTesting(false);
-                  setAutomotive(false);
-                  setCloud(false);
-                  setRetail(false);
-                }}
-                style={
-                  nonTech
-                    ? {
-                        background: "white",
-                        color: "#edb552",
-                        borderBottom: "3px solid #edb552",
-                      }
-                    : { background: "white" }
-                }
-              >
-                Sales, Marketing & HR
-              </span>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <span
-                onClick={() => {
-                  setViewAll(false);
-                  setOneYear(false);
-                  setNonTech(false);
-                  setStack(true);
-                  setGuarantee(false);
-                  setOil(false);
-                  setTesting(false);
-                  setAutomotive(false);
-                  setCloud(false);
-                  setRetail(false);
-                }}
-                style={
-                  Stack
-                    ? {
-                        background: "white",
-                        color: "#edb552",
-                        borderBottom: "3px solid #edb552",
-                      }
-                    : { background: "white" }
-                }
-              >
-                Healthcare, Pharma, and Clinical Research
-              </span>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <span
-                onClick={() => {
-                  setViewAll(false);
-                  setOneYear(false);
-                  setNonTech(false);
-                  setStack(false);
-                  setGuarantee(false);
-                  setOil(false);
-                  setTesting(false);
-                  setCloud(false);
-                  setRetail(true);
-                  setAutomotive(false);
-                }}
-                style={
-                  Retail
-                    ? {
-                        background: "white",
-                        color: "#edb552",
-                        borderBottom: "3px solid #edb552",
-                      }
-                    : { background: "white" }
-                }
-              >
-                Retail, eCommerce and Supply Chain
-              </span>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <span
-                onClick={() => {
-                  setViewAll(false);
-                  setOneYear(false);
-                  setNonTech(false);
-                  setStack(false);
-                  setGuarantee(true);
-                  setTesting(false);
-                  setAutomotive(false);
-                  setCloud(false);
-                  setOil(false);
-                  setRetail(false);
-                }}
-                style={
-                  Guarantee
-                    ? {
-                        background: "white",
-                        color: "#edb552",
-                        borderBottom: "3px solid #edb552",
-                      }
-                    : { background: "white" }
-                }
-              >
-                Media, Hospitality, and Transportation
-              </span>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <span
-                onClick={() => {
-                  setOneYear(false);
-                  setNonTech(false);
-                  setStack(false);
-                  setRetail(false);
-                  setGuarantee(false);
-                  setOil(false);
-                  setAutomotive(false);
-                  setCloud(false);
-                  setTesting(false);
-                  setViewAll(true);
-                }}
-                style={
-                  viewAll
-                    ? {
-                        background: "white",
-                        color: "#edb552",
-                        borderBottom: "3px solid #edb552",
-                      }
-                    : { background: "white" }
-                }
-              >
-                Manufacturing, Mechanical & Telecom
-              </span>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <span
-                onClick={() => {
-                  setOneYear(false);
-                  setNonTech(false);
-                  setStack(false);
-                  setRetail(false);
-                  setGuarantee(false);
-                  setViewAll(false);
-                  setAutomotive(false);
-                  setCloud(false);
-                  setOil(true);
-                  setTesting(false);
-                }}
-                style={
-                  Oil
-                    ? {
-                        background: "white",
-                        color: "#edb552",
-                        borderBottom: "3px solid #edb552",
-                      }
-                    : { background: "white" }
-                }
-              >
-                Energy, Oil & Gas
-              </span>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <span
-                onClick={() => {
-                  setOneYear(false);
-                  setNonTech(false);
-                  setStack(false);
-                  setRetail(false);
-                  setGuarantee(false);
-                  setAutomotive(false);
-                  setViewAll(false);
-                  setCloud(false);
-                  setOil(false);
-                  setTesting(true);
-                }}
-                style={
-                  Testing
-                    ? {
-                        background: "white",
-                        color: "#edb552",
-                        borderBottom: "3px solid #edb552",
-                      }
-                    : { background: "white" }
-                }
-              >
-                Development and testing
-              </span>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <span
-                onClick={() => {
-                  setOneYear(false);
-                  setNonTech(false);
-                  setStack(false);
-                  setRetail(false);
-                  setGuarantee(false);
-                  setViewAll(false);
-                  setOil(false);
-                  setCloud(false);
-                  setTesting(false);
-                  setAutomotive(true);
-                }}
-                style={
-                  Automotive
-                    ? {
-                        background: "white",
-                        color: "#edb552",
-                        borderBottom: "3px solid #edb552",
-                      }
-                    : { background: "white" }
-                }
-              >
-                Automotive, IoT& Embedded Engineers
-              </span>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <span
-                onClick={() => {
-                  setOneYear(false);
-                  setNonTech(false);
-                  setStack(false);
-                  setRetail(false);
-                  setGuarantee(false);
-                  setViewAll(false);
-                  setOil(false);
-                  setTesting(false);
-                  setAutomotive(false);
-                  setCloud(true);
-                }}
-                style={
-                  Cloud
-                    ? {
-                        background: "white",
-                        color: "#edb552",
-                        borderBottom: "3px solid #edb552",
-                      }
-                    : { background: "white" }
-                }
-              >
-                Cloud & DevOps{" "}
-              </span>
-            </SwiperSlide>
-          </Swiper>
+            BFSI
+            {mobile ? oneYear ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+          </span>
+          {oneYear ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Work on real-time projects using live data from companies like
+                  J.P Morgan, HDFC, etc.
+                </h6>
+                <p className={styles.para}>
+                  Know the finance domain-specific best practices for building
+                  recommendation systems, handling chatbots, and upcoming stock
+                  market prediction.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>240%</h4>
+                    <p>Average Hike</p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4>10K</h4>
+                    <p>Trusted Learners</p>
+                  </div>
+                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
+              </div>
+
+              <div className={styles.right}>
+                <Image src="/Bnking domain.png" width="350" height="350" />
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+          <span
+            onClick={() => {
+              setViewAll(false);
+              setOneYear(false);
+              setNonTech(true);
+              setStack(false);
+              setGuarantee(false);
+              setOil(false);
+              setTesting(false);
+              setAutomotive(false);
+              setCloud(false);
+              setRetail(false);
+            }}
+            className={nonTech ? styles.ActiveSpan : styles.span}
+          >
+            Sales, Marketing & HR
+            {mobile ? nonTech ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+          </span>
+          {nonTech ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Learn about competitive marketplaces, opportunities, costs,
+                  and other aspects of sales
+                </h6>
+                <p className={styles.para}>
+                  You will be wholly involved with the essential functional
+                  aspects of a business, management, Operations, Finance, and
+                  Research & Development with hands-on capstone projects.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>Dual</h4>
+                    <p>Certification</p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4>Global</h4>
+                    <p>Accreditation</p>
+                  </div>
+                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
+              </div>
+              <div className={styles.right}>
+                <Image src="/gobal-industry.webp" width="296" height="345" />
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+          <span
+            onClick={() => {
+              setViewAll(false);
+              setOneYear(false);
+              setNonTech(false);
+              setStack(true);
+              setGuarantee(false);
+              setOil(false);
+              setTesting(false);
+              setAutomotive(false);
+              setCloud(false);
+              setRetail(false);
+            }}
+            className={Stack ? styles.ActiveSpan : styles.span}
+          >
+            Healthcare
+            {mobile ? Stack ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+          </span>
+          {Stack ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Understand the health care industry from the aspect of data
+                  and data-driven insights.
+                </h6>
+                <p className={styles.para}>
+                  Any working professional choosing this domain with prior
+                  experience will indeed be offered the maximum possible salary
+                  hike and job security.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>20+</h4>
+                    <p>Assignments </p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4>Globally</h4>
+                    <p>Recognized Certificate</p>
+                  </div>
+                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
+              </div>
+              <div className={styles.right} style={{ paddingBottom: "40px" }}>
+                <Image src="/Healthcare-domain.webp" width="351" height="332" />
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+          <span
+            onClick={() => {
+              setViewAll(false);
+              setOneYear(false);
+              setNonTech(false);
+              setStack(false);
+              setGuarantee(false);
+              setOil(false);
+              setTesting(false);
+              setCloud(false);
+              setRetail(true);
+              setAutomotive(false);
+            }}
+            className={Retail ? styles.ActiveSpan : styles.span}
+          >
+            Retail & eCommerce
+            {mobile ? Retail ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+          </span>
+          {Retail ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Gain a deeper understanding of business requirements and it's
+                  functionalities.
+                </h6>
+                <p className={styles.para}>
+                  With enhanced supply chain management and customer services,
+                  e-commerce-related domains aid in improving the accuracy and
+                  flexibility of the firm.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>Domain-Specific</h4>
+                    <p>Training</p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4> Project Certificate</h4>
+                    <p> From IBM</p>
+                  </div>
+                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
+              </div>
+              <div className={styles.right}>
+                <Image
+                  src="/Retail-domain.webp"
+                  width="314"
+                  height="360"
+                  layout="intrinsic"
+                />
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+          <span
+            onClick={() => {
+              setViewAll(false);
+              setOneYear(false);
+              setNonTech(false);
+              setStack(false);
+              setGuarantee(true);
+              setTesting(false);
+              setAutomotive(false);
+              setCloud(false);
+              setOil(false);
+              setRetail(false);
+            }}
+            className={Guarantee ? styles.ActiveSpan : styles.span}
+          >
+            Media and Hospitality
+            {mobile ? Guarantee ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+          </span>
+          {Guarantee ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Study about how Data Science & AI is applicable in
+                  Manufacturing, Automotive and Telecom Domain
+                </h6>
+                <p className={styles.para}>
+                  A deeper understanding of the manufacturing and
+                  telecommunications industries, where you learn in-depth about
+                  robotics, novel materials, nanotechnology, computer-aided
+                  design, and geomechanics.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>Special Classes</h4>
+                    <p>For Non Programmers</p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4>1:1 Daily</h4>
+                    <p>Doubt Session</p>
+                  </div>
+                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
+              </div>
+              <div className={styles.right}>
+                <Image
+                  src="/Mediacal-domain.webp"
+                  width="296"
+                  height="361"
+                  layout="intrinsic"
+                />
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+          <span
+            onClick={() => {
+              setOneYear(false);
+              setNonTech(false);
+              setStack(false);
+              setRetail(false);
+              setGuarantee(false);
+              setOil(false);
+              setAutomotive(false);
+              setCloud(false);
+              setTesting(false);
+              setViewAll(true);
+            }}
+            className={viewAll ? styles.ActiveSpan : styles.span}
+          >
+            Manufacturing
+            {mobile ? viewAll ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+          </span>
+          {viewAll ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Get in-depth knowledge of the most rewarding domain in the
+                  current economic situation.
+                </h6>
+                <p className={styles.para}>
+                  Earn a better insight into areas like personalized marketing,
+                  real-time analytics, revenue management, booking engines,
+                  enhanced customer service, and identification of most valuable
+                  customers.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>20+</h4>
+                    <p>Case Studies </p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4> Dual</h4>
+                    <p> Certification</p>
+                  </div>
+                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
+              </div>
+              <div className={styles.right}>
+                <Image
+                  src="/Manufacturing-domain-slider.webp"
+                  width="271"
+                  height="353"
+                />
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+          <span
+            onClick={() => {
+              setOneYear(false);
+              setNonTech(false);
+              setStack(false);
+              setRetail(false);
+              setGuarantee(false);
+              setViewAll(false);
+              setAutomotive(false);
+              setCloud(false);
+              setOil(true);
+              setTesting(false);
+            }}
+            className={Oil ? styles.ActiveSpan : styles.span}
+          >
+            Energy, Oil & Gas
+            {mobile ? Oil ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+          </span>
+          {Oil ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Obtain a better understanding of how an industry expands
+                  exponentially with AI in the oil and gas sector.
+                </h6>
+                <p className={styles.para}>
+                  Pursue projects on recording sensors in seismic,
+                  manufacturing, and exploration operations to logging While
+                  Drilling (LWD) technology, enabling real-time recording of
+                  drilling data.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>1:1 Personal</h4>
+                    <p>Mentorship</p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4>1:1 Daily</h4>
+                    <p>Doubt Session</p>
+                  </div>
+                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
+              </div>
+              <div className={styles.right}>
+                <img
+                  src="/oil-gas.webp"
+                  width="568"
+                  height="412"
+                  layout="intrinsic"
+                />
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
+        <div className={styles.middlePanel}>
+          {oneYear ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Work on real-time projects using live data from companies like
+                  J.P Morgan, HDFC, etc.
+                </h6>
+                <p className={styles.para}>
+                  Know the finance domain-specific best practices for building
+                  recommendation systems, handling chatbots, and upcoming stock
+                  market prediction.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>240%</h4>
+                    <p>Average Hike</p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4>10K</h4>
+                    <p>Trusted Learners</p>
+                  </div>
+                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
+              </div>
 
-        {oneYear ? (
-          <div className={styles.gridPanel}>
-            <div className={styles.left}>
-              <h6>
-                Work on real-time projects using live data from companies like
-                J.P Morgan, HDFC, etc.
-              </h6>
-              <p className={styles.para}>
-                Know the finance domain-specific best practices for building
-                recommendation systems, handling chatbots, and upcoming stock
-                market prediction.
-              </p>
-              <div className={styles.info}>
-                <div className={styles.left}>
-                  <h4>240%</h4>
-                  <p>Average Hike</p>
-                </div>
-                <div className={styles.middle}>
-                  <h4>10K</h4>
-                  <p>Trusted Learners</p>
-                </div>
+              <div className={styles.right}>
+                <Image src="/Bnking domain.png" width="350" height="350" />
               </div>
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
-                target="_blank"
-              >
-                <button>Download Brochure</button>
-              </a>
             </div>
-
-            <div className={styles.right}>
-              <Image src="/Bnking domain.png" width="557" height="442" />
-            </div>
-          </div>
-        ) : (
-          ""
-        )}
-        {nonTech ? (
-          <div className={styles.gridPanel}>
-            <div className={styles.left}>
-              <h5>Global Industry Certification</h5>
-              <img
-                src="/short-line.svg"
-                width="120px"
-                height="15px"
-                layout="intrinsic"
-                className={styles.img}
-              />
-              <h6>
-                Learn about competitive marketplaces, opportunities, costs, and
-                other aspects of sales.
-              </h6>
-              <p className={styles.para}>
-                You will be wholly involved with the essential functional
-                aspects of a business, management, Operations, Finance, and
-                Research & Development with hands-on capstone projects.
-              </p>
-              <div className={styles.info}>
-                <div className={styles.left}>
-                  <h4>Dual</h4>
-                  <p>Certification</p>
+          ) : (
+            ""
+          )}
+          {nonTech ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Learn about competitive marketplaces, opportunities, costs,
+                  and other aspects of sales
+                </h6>
+                <p className={styles.para}>
+                  You will be wholly involved with the essential functional
+                  aspects of a business, management, Operations, Finance, and
+                  Research & Development with hands-on capstone projects.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>Dual</h4>
+                    <p>Certification</p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4>Global</h4>
+                    <p>Accreditation</p>
+                  </div>
                 </div>
-                <div className={styles.middle}>
-                  <h4>Global</h4>
-                  <p>Accreditation</p>
-                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
               </div>
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
-                target="_blank"
-              >
-                <button>Download Brochure</button>
-              </a>
-            </div>
-            <div className={styles.right}>
-              <Image src="/gobal-industry.webp" width="504" height="383" />
-            </div>
-          </div>
-        ) : (
-          ""
-        )}
-        {Guarantee ? (
-          <div className={styles.gridPanel}>
-            <div className={styles.left}>
-              <h5>Special Classes For Beginners</h5>
-              <img
-                src="/short-line.svg"
-                width="120px"
-                height="15px"
-                layout="intrinsic"
-                className={styles.img}
-              />
-              <h6>
-                Get in-depth knowledge of media, hospitality, and transportation
-                sectors which have been among the most rewarding domain in the
-                current economic situation.
-              </h6>
-              <p className={styles.para}>
-                Earn a better insight into areas like personalized marketing,
-                real-time analytics, revenue management, booking engines,
-                enhanced customer service, and identification of most valuable
-                customers.
-              </p>
-              <div className={styles.info}>
-                <div className={styles.left}>
-                  <h4>Special Classes</h4>
-                  <p>For Non Programmers</p>
-                </div>
-                <div className={styles.middle}>
-                  <h4>1:1 Daily</h4>
-                  <p>Doubt Session</p>
-                </div>
+              <div className={styles.right}>
+                <Image src="/gobal-industry.webp" width="296" height="345" />
               </div>
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf"
-                target="_blank"
-              >
-                <button>Download Brochure</button>
-              </a>
             </div>
-            <div className={styles.right}>
-              <Image
-                src="/special-classes-beigneers.webp"
-                width="400"
-                height="412"
-              />
-            </div>
-          </div>
-        ) : (
-          ""
-        )}
-        {Stack ? (
-          <div className={styles.gridPanel}>
-            <div className={styles.left}>
-              <h5>1:1 Personal Mentorship</h5>
-              <img
-                src="/short-line.svg"
-                width="120px"
-                height="15px"
-                layout="intrinsic"
-                className={styles.img}
-              />
-              <h6>
-                This domain elective aids in understanding the health care
-                industry from the aspect of data and data-driven insights.
-              </h6>
-              <p className={styles.para}>
-                Any working professional choosing this domain with prior
-                experience will indeed be offered the maximum possible salary
-                hike and job security.
-              </p>
-              <div className={styles.info}>
-                <div className={styles.left}>
-                  <h4>1:1 Personal</h4>
-                  <p>Mentorship</p>
+          ) : (
+            ""
+          )}
+          {Guarantee ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Study about how Data Science & AI is applicable in
+                  Manufacturing, Automotive and Telecom Domain
+                </h6>
+                <p className={styles.para}>
+                  A deeper understanding of the manufacturing and
+                  telecommunications industries, where you learn in-depth about
+                  robotics, novel materials, nanotechnology, computer-aided
+                  design, and geomechanics.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>Special Classes</h4>
+                    <p>For Non Programmers</p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4>1:1 Daily</h4>
+                    <p>Doubt Session</p>
+                  </div>
                 </div>
-                <div className={styles.middle}>
-                  <h4>1:1 Daily</h4>
-                  <p>Doubt Session</p>
-                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
               </div>
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf"
-                target="_blank"
-              >
-                <button>Download Brochure</button>
-              </a>
-            </div>
-            <div className={styles.right}>
-              <Image src="/flexibility-support.webp" width="479" height="412" />
-            </div>
-          </div>
-        ) : (
-          ""
-        )}
-        {viewAll ? (
-          <div className={styles.gridPanel}>
-            <div className={styles.left}>
-              <h5>1:1 Personal Mentorship</h5>
-              <img
-                src="/short-line.svg"
-                width="120px"
-                height="15px"
-                layout="intrinsic"
-                className={styles.img}
-              />
-              <h6>
-                A deeper understanding of the manufacturing and
-                telecommunications industries, where you learn in-depth about
-                robotics, novel materials, nanotechnology, computer-aided
-                design, and geomechanics.
-              </h6>
-              <p className={styles.para}>
-                Additionally, maintains and operates the telecommunications
-                network and enables global communication via the internet or
-                phone.
-              </p>
-              <div className={styles.info}>
-                <div className={styles.left}>
-                  <h4>1:1 Personal</h4>
-                  <p>Mentorship</p>
-                </div>
-                <div className={styles.middle}>
-                  <h4>1:1 Daily</h4>
-                  <p>Doubt Session</p>
-                </div>
+              <div className={styles.right}>
+                <Image
+                  src="/Mediacal-domain.webp"
+                  width="296"
+                  height="361"
+                  layout="intrinsic"
+                />
               </div>
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
-                target="_blank"
-              >
-                <button>Download Brochure</button>
-              </a>
             </div>
-            <div className={styles.right}>
-              <Image src="/flexibility-support.webp" width="479" height="412" />
-            </div>
-          </div>
-        ) : (
-          ""
-        )}
-        {Retail ? (
-          <div className={styles.gridPanel}>
-            <div className={styles.left}>
-              <h5>1:1 Personal Mentorship</h5>
-              <img
-                src="/short-line.svg"
-                width="120px"
-                height="15px"
-                layout="intrinsic"
-                className={styles.img}
-              />
-              <h6>
-                With enhanced supply chain management and customer services,
-                e-commerce-related domains aid in improving the accuracy and
-                flexibility of the firm.
-              </h6>
-              <p className={styles.para}>
-                Additionally, it aids in gaining a deeper understanding of
-                business acumen and credentials with the functional aspects of
-                Data warehousing.
-              </p>
-              <div className={styles.info}>
-                <div className={styles.left}>
-                  <h4>1:1 Personal</h4>
-                  <p>Mentorship</p>
+          ) : (
+            ""
+          )}
+          {Stack ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Understand the health care industry from the aspect of data
+                  and data-driven insights.
+                </h6>
+                <p className={styles.para}>
+                  Any working professional choosing this domain with prior
+                  experience will indeed be offered the maximum possible salary
+                  hike and job security.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>20+</h4>
+                    <p>Assignments </p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4>Globally</h4>
+                    <p>Recognized Certificate</p>
+                  </div>
                 </div>
-                <div className={styles.middle}>
-                  <h4>1:1 Daily</h4>
-                  <p>Doubt Session</p>
-                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
               </div>
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
-                target="_blank"
-              >
-                <button>Download Brochure</button>
-              </a>
-            </div>
-            <div className={styles.right}>
-              <Image src="/flexibility-support.webp" width="479" height="412" />
-            </div>
-          </div>
-        ) : (
-          ""
-        )}
-        {Oil ? (
-          <div className={styles.gridPanel}>
-            <div className={styles.left}>
-              <h5>1:1 Personal Mentorship</h5>
-              <img
-                src="/short-line.svg"
-                width="120px"
-                height="15px"
-                layout="intrinsic"
-                className={styles.img}
-              />
-              <h6>
-                Obtain a better understanding of how an industry expands
-                exponentially with the advent of AI and DS in the oil and gas
-                sector.
-              </h6>
-              <p className={styles.para}>
-                Pursue projects on recording sensors in seismic, manufacturing,
-                and exploration operations to logging While Drilling (LWD)
-                technology, enabling real-time recording of drilling data.
-              </p>
-              <div className={styles.info}>
-                <div className={styles.left}>
-                  <h4>1:1 Personal</h4>
-                  <p>Mentorship</p>
-                </div>
-                <div className={styles.middle}>
-                  <h4>1:1 Daily</h4>
-                  <p>Doubt Session</p>
-                </div>
+              <div className={styles.right} style={{ paddingBottom: "40px" }}>
+                <Image src="/Healthcare-domain.webp" width="351" height="332" />
               </div>
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf"
-                target="_blank"
-              >
-                <button>Download Brochure</button>
-              </a>
             </div>
-            <div className={styles.right}>
-              <Image src="/flexibility-support.webp" width="479" height="412" />
-            </div>
-          </div>
-        ) : (
-          ""
-        )}
-        {Testing ? (
-          <div className={styles.gridPanel}>
-            <div className={styles.left}>
-              <h5>1:1 Personal Mentorship</h5>
-              <img
-                src="/short-line.svg"
-                width="120px"
-                height="15px"
-                layout="intrinsic"
-                className={styles.img}
-              />
-              <h6>
-                In the development and testing domain, get enhanced with a
-                better understanding of deriving data sets and missing data.
-              </h6>
-              <p className={styles.para}>
-                Additionally, Learn about custom data science solutions and
-                algorithm models from the actual source of implemented models.
-              </p>
-              <div className={styles.info}>
-                <div className={styles.left}>
-                  <h4>1:1 Personal</h4>
-                  <p>Mentorship</p>
+          ) : (
+            ""
+          )}
+          {viewAll ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Get in-depth knowledge of the most rewarding domain in the
+                  current economic situation.
+                </h6>
+                <p className={styles.para}>
+                  Earn a better insight into areas like personalized marketing,
+                  real-time analytics, revenue management, booking engines,
+                  enhanced customer service, and identification of most valuable
+                  customers.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>20+</h4>
+                    <p>Case Studies </p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4> Dual</h4>
+                    <p> Certification</p>
+                  </div>
                 </div>
-                <div className={styles.middle}>
-                  <h4>1:1 Daily</h4>
-                  <p>Doubt Session</p>
-                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
               </div>
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Development+and+Testing+Domain.pdf"
-                target="_blank"
-              >
-                <button>Download Brochure</button>
-              </a>
-            </div>
-            <div className={styles.right}>
-              <Image src="/flexibility-support.webp" width="479" height="412" />
-            </div>
-          </div>
-        ) : (
-          ""
-        )}
-        {Automotive ? (
-          <div className={styles.gridPanel}>
-            <div className={styles.left}>
-              <h5>1:1 Personal Mentorship</h5>
-              <img
-                src="/short-line.svg"
-                width="120px"
-                height="15px"
-                layout="intrinsic"
-                className={styles.img}
-              />
-              <h6>
-                Get a brief understanding of big data, cloud management, and
-                automation with real-time projects.
-              </h6>
-              <p className={styles.para}>
-                More prominently, discover AI in the automation sector and
-                embedded systems that transfer data to the cloud as a result of
-                stunning IoT products.
-              </p>
-              <div className={styles.info}>
-                <div className={styles.left}>
-                  <h4>1:1 Personal</h4>
-                  <p>Mentorship</p>
-                </div>
-                <div className={styles.middle}>
-                  <h4>1:1 Daily</h4>
-                  <p>Doubt Session</p>
-                </div>
+              <div className={styles.right}>
+                <Image
+                  src="/Manufacturing-domain-slider.webp"
+                  width="271"
+                  height="353"
+                />
               </div>
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
-                target="_blank"
-              >
-                <button>Download Brochure</button>
-              </a>
             </div>
-            <div className={styles.right}>
-              <Image src="/flexibility-support.webp" width="479" height="412" />
-            </div>
-          </div>
-        ) : (
-          ""
-        )}
-        {Cloud ? (
-          <div className={styles.gridPanel}>
-            <div className={styles.left}>
-              <h5>1:1 Personal Mentorship</h5>
-              <img
-                src="/short-line.svg"
-                width="120px"
-                height="15px"
-                layout="intrinsic"
-                className={styles.img}
-              />
-              <h6>
-                Cloud and DevOps domains thoroughly provide information on cloud
-                management, storage, and distributed networks.
-              </h6>
-              <p className={styles.para}>
-                Gain a better understanding of the collaboration between
-                software development and operational environments from the
-                perspective of data management.
-              </p>
-              <div className={styles.info}>
-                <div className={styles.left}>
-                  <h4>1:1 Personal</h4>
-                  <p>Mentorship</p>
+          ) : (
+            ""
+          )}
+          {Retail ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Gain a deeper understanding of business requirements and it's
+                  functionalities.
+                </h6>
+                <p className={styles.para}>
+                  With enhanced supply chain management and customer services,
+                  e-commerce-related domains aid in improving the accuracy and
+                  flexibility of the firm.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>Domain-Specific</h4>
+                    <p>Training</p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4> Project Certificate</h4>
+                    <p> From IBM</p>
+                  </div>
                 </div>
-                <div className={styles.middle}>
-                  <h4>1:1 Daily</h4>
-                  <p>Doubt Session</p>
-                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
               </div>
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Cloud+and+Devops+Domain.pdf"
-                target="_blank"
-              >
-                <button>Download Brochure</button>
-              </a>
+              <div className={styles.right}>
+                <Image
+                  src="/Retail-domain.webp"
+                  width="314"
+                  height="360"
+                  layout="intrinsic"
+                />
+              </div>
             </div>
-
-            <div className={styles.right}>
-              <Image src="/flexibility-support.webp" width="479" height="412" />
+          ) : (
+            ""
+          )}
+          {Oil ? (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>
+                  Obtain a better understanding of how an industry expands
+                  exponentially with AI in the oil and gas sector.
+                </h6>
+                <p className={styles.para}>
+                  Pursue projects on recording sensors in seismic,
+                  manufacturing, and exploration operations to logging While
+                  Drilling (LWD) technology, enabling real-time recording of
+                  drilling data.
+                </p>
+                <div className={styles.info}>
+                  <div className={styles.left}>
+                    <h4>1:1 Personal</h4>
+                    <p>Mentorship</p>
+                  </div>
+                  <div className={styles.middle}>
+                    <h4>1:1 Daily</h4>
+                    <p>Doubt Session</p>
+                  </div>
+                </div>
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf"
+                  target="_blank"
+                >
+                  <button>Download Brochure</button>
+                </a>
+              </div>
+              <div className={styles.right}>
+                <img
+                  src="/oil-gas.webp"
+                  width="568"
+                  height="412"
+                  layout="intrinsic"
+                />
+              </div>
             </div>
-          </div>
-        ) : (
-          ""
-        )}
+          ) : (
+            ""
+          )}
+        </div>
       </div>
     </div>
   );

@@ -114,7 +114,6 @@ export default function Home() {
           <Project project="12+" domain="7+" />
         </div>
 
-        <HowApply CCourse="Enroll in Advanced Data Science & AI Program with Domain Specialization." />
         <Fee
           sub1="Data Science and AI Foundation Program"
           Price1="₹65,000 + GST"

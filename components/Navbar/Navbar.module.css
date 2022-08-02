@@ -198,6 +198,7 @@
 @media (max-width: 481px) {
   .nav {
     width: 100vw;
+    height: max-content;
     scroll-behavior: smooth;
     font-size: 14px;
     position: fixed;

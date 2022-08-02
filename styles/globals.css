@@ -109,7 +109,10 @@ button {
   line-height: 1.5em;
   color: rgb(89, 89, 89);
 }
-
+.megaMenu {
+  height: 100vh;
+  overflow-y: scroll;
+}
 .vIcon {
   font-size: 42px;
   color: #2d9cd7;
@@ -179,7 +182,7 @@ h4 {
 .RightPopup {
   display: flex;
   flex-flow: column;
-
+  margin-top: -30px;
   margin-left: 40px;
 
   justify-content: center;
@@ -199,6 +202,7 @@ h4 {
   padding: 0;
 }
 .RightPopup p {
+  margin: 0;
   font-size: 18px;
   color: rgb(143, 143, 143);
 }

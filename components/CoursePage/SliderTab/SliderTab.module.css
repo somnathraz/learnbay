@@ -17,6 +17,7 @@
 }
 .feature {
   display: flex;
+  flex-flow: column;
   justify-content: space-evenly;
 }
 
@@ -33,42 +34,57 @@
 }
 .courses {
   background: #ffffff;
-
+  display: grid;
+  grid-template-columns: 22% 77%;
+  gap: 10px;
   margin-top: 30px;
 }
 
 .listPanel {
   display: flex;
   width: 100%;
+  flex-flow: column;
   background: #ffffff;
-  box-shadow: 0px 0px 10px rgba(237, 181, 82, 0.3);
+
   border-radius: 16px;
-  justify-content: space-evenly;
+}
+.listPanel .gridPanel {
+  display: none;
 }
 .slide {
   width: max-content;
 }
-.listPanel span {
-  padding: 20px;
-  width: max-content;
+
+.ActiveSpan {
+  padding: 15px 20px;
+  width: 100%;
   font-weight: 600;
   cursor: pointer;
-  background-color: #e5f3fa;
+  border-radius: 8px;
+  justify-content: start;
+  background-color: #2979ad;
+  color: white;
+}
+.span {
+  padding: 10px 20px;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  color: black;
+  background-color: white;
   justify-content: start;
 }
-
 .gridPanel {
   display: grid;
   grid-template-columns: 49% 49%;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 18px;
   gap: 40px;
   padding: 0px 60px;
 }
 .gridPanel .left {
   display: flex;
   flex-flow: column;
-  justify-content: center;
 }
 .gridPanel .left h5 {
   font-style: normal;
@@ -96,16 +112,27 @@
 .gridPanel .left h6 {
   font-style: normal;
   font-weight: 600;
+
   font-size: 24px;
   line-height: 30px;
   margin: 0;
   margin-top: -10px;
   color: #2979ad;
 }
-.gridPanel .left h6 .gridPanel .right {
+.gridPanel .left h6 {
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.gridPanel .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.gridPanel .right img {
+  margin-top: -70px;
 }
 .info {
   display: flex;
@@ -118,8 +145,8 @@
 .info h4 {
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 48px;
+  font-size: 20px;
+  line-height: 38px;
   margin: 0;
   text-align: left;
   color: #2979ad;
@@ -127,14 +154,14 @@
 
 .info .left {
   border-right: 1px solid grey;
-  padding-right: 20px;
+  padding-right: 0px;
 }
 .info .left,
 .info .middle {
-  padding-right: 30px;
+  padding-right: 20px;
 }
 .info .middle {
-  padding-left: 30px;
+  padding-left: 0px;
 }
 .info .middle h4 {
   color: #edb552;
@@ -182,6 +209,7 @@
   }
   .courses {
     padding: 0px;
+    display: flex;
     box-shadow: none;
   }
   .gridPanel {
@@ -189,22 +217,31 @@
   }
   .listPanel {
     display: flex;
-    flex-wrap: nowrap;
+    flex-flow: column;
+    width: 100%;
     overflow-x: auto;
     padding-left: 0;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    box-shadow: rgba(129, 217, 255, 0.612) 0px 7px 29px 0px;
   }
   .listPanel span {
     font-size: 14px;
-    width: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     padding: 15px 10px;
   }
-  .gridPanel {
+  .listPanel .gridPanel {
     grid-template-columns: 85% 85% 85% 85% 85% 85% 85%;
     overflow-x: scroll;
     display: block;
-    padding: 20px 0px;
+    padding: 0px;
+  }
+  .listPanel .gridPanel img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+  .gridPanel {
+    display: none;
   }
   .leftSide,
   .middleSide,

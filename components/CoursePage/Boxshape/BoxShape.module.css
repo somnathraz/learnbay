@@ -284,6 +284,7 @@
     font-size: 24px;
   }
   .imgBack h5 {
+    display: none;
     font-size: 22px;
   }
   .boxActive {
@@ -312,7 +313,7 @@
     height: 290px;
   }
   .box h5 {
-    font-size: 16px;
+    font-size: 20px;
   }
   .box {
     margin-top: 30px;
@@ -325,7 +326,7 @@
     margin-top: 30px;
   }
   .box p {
-    font-size: 14px;
+    font-size: 16px;
     padding-right: 0px;
   }
   .imgBack {

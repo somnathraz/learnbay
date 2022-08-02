@@ -118,7 +118,7 @@ const Navbar = () => {
 
           {icon ? (
             <div
-              className="megaMenu"
+              className={styles.megaMenu}
               onMouseOver={() => setIcon(true)}
               onMouseLeave={() => setIcon(false)}
             >

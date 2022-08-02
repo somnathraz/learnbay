@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Popup.module.scss";
-import { AiFillCloseCircle } from "react-icons/ai";
+import { IoClose } from "react-icons/io5";
 
 const Popup = (props) => {
   let color = "transparent";
@@ -20,14 +20,14 @@ const Popup = (props) => {
         }
       >
         {props.downloadBrochure ? (
-          <AiFillCloseCircle
+          <IoClose
             className={styles.closeBtn}
             onClick={() => {
               props.setTrigger(false);
             }}
           />
         ) : (
-          <AiFillCloseCircle
+          <IoClose
             className={styles.closeBtn}
             onClick={() => {
               props.setTrigger(false);

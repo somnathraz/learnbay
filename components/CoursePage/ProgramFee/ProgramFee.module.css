@@ -588,7 +588,7 @@
   }
   .feeWrapper .right {
     padding: 20px 40px;
-
+    display: none;
     border-radius: 0 4px 4px 0;
   }
   .feeWrapper .right h6 {

@@ -3,7 +3,7 @@
 }
 .MenuTabs {
   display: flex;
-  position: absolute;
+  position: fixed;
   left: 0;
   width: fit-content;
   justify-content: space-between;
@@ -11,7 +11,6 @@
   background-color: white;
   box-shadow: rgba(136, 237, 253, 0.421) 0px 2px 8px 0px;
   top: 60px;
-
 }
 .leftPanel {
   display: flex;
@@ -53,8 +52,8 @@
   font-weight: 400;
   margin-bottom: 10px;
 }
-.middlePanel{
-width: 100%;
+.middlePanel {
+  width: 100%;
 }
 .RowWrap {
   display: grid;
@@ -64,7 +63,7 @@ width: 100%;
   width: 100%;
   height: 100%;
 }
-.Row a{
+.Row a {
   width: 280px;
 }
 .Program {
@@ -79,18 +78,19 @@ width: 100%;
   height: fit-content;
   justify-content: space-between;
 }
-.Program h5{
+.Program h5 {
   font-size: 16px;
   margin: 0;
 }
-.Program span{
+.Program span {
   display: flex;
- color: #646464;
+  color: #646464;
 }
 @media (max-width: 481px) {
   .MenuTabs {
     left: 0;
-    height: fit-content;
+    height: 90vh;
+    overflow-y: auto;
     width: 100vw;
     flex-flow: column;
     padding: 20px 20px;
@@ -106,6 +106,7 @@ width: 100%;
 
     grid-template-columns: 50% 50%;
     width: 100%;
+    overflow: scroll;
   }
   .Program {
     width: fit-content;
