@@ -197,7 +197,7 @@
   }
   .listPanel span {
     font-size: 14px;
-    width: max-content;
+    width: fit-content;
     padding: 15px 10px;
   }
   .gridPanel {

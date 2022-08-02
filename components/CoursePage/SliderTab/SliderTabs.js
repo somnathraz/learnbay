@@ -13,9 +13,9 @@ const SliderTabs = () => {
   const [Retail, setRetail] = useState(false);
   const [Oil, setOil] = useState(false);
   const [Stack, setStack] = useState(false);
-  const [Cloud, setCloud] = useState(false);
-  const [Automotive, setAutomotive] = useState(false);
-  const [Testing, setTesting] = useState(false);
+  // const [Cloud, setCloud] = useState(false);
+  // const [Automotive, setAutomotive] = useState(false);
+  // const [Testing, setTesting] = useState(false);
   const [mobile, setMobile] = useState(false);
   const [tab, setTab] = useState(false);
 
@@ -44,8 +44,8 @@ const SliderTabs = () => {
             pagination={{
               type: "progressbar",
             }}
-            slidesPerView={mobile ? 1.2 : 2.9}
-            spaceBetween={mobile ? 0 : 30}
+            slidesPerView={mobile ? 2.5 : 5.5}
+            spaceBetween={mobile ? 10 : 30}
             className="mySwiper"
           >
             <SwiperSlide className={styles.slide}>
@@ -57,9 +57,9 @@ const SliderTabs = () => {
                   setStack(false);
                   setGuarantee(false);
                   setRetail(false);
-                  setTesting(false);
-                  setAutomotive(false);
-                  setCloud(false);
+                  // setTesting(false);
+                  // setAutomotive(false);
+                  // setCloud(false);
                   setOil(false);
                 }}
                 style={
@@ -72,7 +72,7 @@ const SliderTabs = () => {
                     : { background: "white" }
                 }
               >
-                Banking, Finance, Services & Insurance
+                BFSI
               </span>
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
@@ -84,9 +84,9 @@ const SliderTabs = () => {
                   setStack(false);
                   setGuarantee(false);
                   setOil(false);
-                  setTesting(false);
-                  setAutomotive(false);
-                  setCloud(false);
+                  // setTesting(false);
+                  // setAutomotive(false);
+                  // setCloud(false);
                   setRetail(false);
                 }}
                 style={
@@ -111,9 +111,9 @@ const SliderTabs = () => {
                   setStack(true);
                   setGuarantee(false);
                   setOil(false);
-                  setTesting(false);
-                  setAutomotive(false);
-                  setCloud(false);
+                  // setTesting(false);
+                  // setAutomotive(false);
+                  // setCloud(false);
                   setRetail(false);
                 }}
                 style={
@@ -126,7 +126,7 @@ const SliderTabs = () => {
                     : { background: "white" }
                 }
               >
-                Healthcare, Pharma, and Clinical Research
+                Healthcare
               </span>
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
@@ -138,10 +138,10 @@ const SliderTabs = () => {
                   setStack(false);
                   setGuarantee(false);
                   setOil(false);
-                  setTesting(false);
-                  setCloud(false);
+                  // setTesting(false);
+                  // setCloud(false);
                   setRetail(true);
-                  setAutomotive(false);
+                  // setAutomotive(false);
                 }}
                 style={
                   Retail
@@ -153,7 +153,7 @@ const SliderTabs = () => {
                     : { background: "white" }
                 }
               >
-                Retail, eCommerce and Supply Chain
+                Retail & Ecommerce
               </span>
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
@@ -164,9 +164,9 @@ const SliderTabs = () => {
                   setNonTech(false);
                   setStack(false);
                   setGuarantee(true);
-                  setTesting(false);
-                  setAutomotive(false);
-                  setCloud(false);
+                  // setTesting(false);
+                  // setAutomotive(false);
+                  // setCloud(false);
                   setOil(false);
                   setRetail(false);
                 }}
@@ -180,7 +180,7 @@ const SliderTabs = () => {
                     : { background: "white" }
                 }
               >
-                Media, Hospitality, and Transportation
+                Media & Hospitality
               </span>
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
@@ -192,9 +192,9 @@ const SliderTabs = () => {
                   setRetail(false);
                   setGuarantee(false);
                   setOil(false);
-                  setAutomotive(false);
-                  setCloud(false);
-                  setTesting(false);
+                  // setAutomotive(false);
+                  // setCloud(false);
+                  // setTesting(false);
                   setViewAll(true);
                 }}
                 style={
@@ -207,7 +207,7 @@ const SliderTabs = () => {
                     : { background: "white" }
                 }
               >
-                Manufacturing, Mechanical & Telecom
+                Manufacturing & Mechanical
               </span>
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
@@ -219,10 +219,10 @@ const SliderTabs = () => {
                   setRetail(false);
                   setGuarantee(false);
                   setViewAll(false);
-                  setAutomotive(false);
-                  setCloud(false);
+                  // setAutomotive(false);
+                  // setCloud(false);
                   setOil(true);
-                  setTesting(false);
+                  // setTesting(false);
                 }}
                 style={
                   Oil
@@ -237,7 +237,7 @@ const SliderTabs = () => {
                 Energy, Oil & Gas
               </span>
             </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
+            {/* <SwiperSlide className={styles.slide}>
               <span
                 onClick={() => {
                   setOneYear(false);
@@ -317,7 +317,7 @@ const SliderTabs = () => {
               >
                 Cloud & DevOps{" "}
               </span>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
 
@@ -632,7 +632,7 @@ const SliderTabs = () => {
         ) : (
           ""
         )}
-        {Testing ? (
+        {/* {Testing ? (
           <div className={styles.gridPanel}>
             <div className={styles.left}>
               <h5>1:1 Personal Mentorship</h5>
@@ -763,7 +763,7 @@ const SliderTabs = () => {
           </div>
         ) : (
           ""
-        )}
+        )} */}
       </div>
     </div>
   );
