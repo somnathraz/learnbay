@@ -176,7 +176,7 @@ const Course = () => {
                         </div>
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -345,7 +345,7 @@ const Course = () => {
                         </div>
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -496,7 +496,7 @@ const Course = () => {
                         </div>
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -645,7 +645,7 @@ const Course = () => {
                         />
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -784,7 +784,7 @@ const Course = () => {
                         />
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -1128,7 +1128,7 @@ const Course = () => {
                         />
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -1200,7 +1200,7 @@ const Course = () => {
                         />
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>

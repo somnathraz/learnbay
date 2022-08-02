@@ -207,7 +207,7 @@ const SliderTabs = () => {
                     : { background: "white" }
                 }
               >
-                Manufacturing & Mechanical
+                Manufacturing & Automative
               </span>
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
@@ -325,22 +325,19 @@ const SliderTabs = () => {
           <div className={styles.gridPanel}>
             <div className={styles.left}>
               <h6>
-                Work on real-time projects using live data from companies like
-                J.P Morgan, HDFC, etc.
+              Work on real-time projects using live data from companies like J.P Morgan, HDFC, etc. 
               </h6>
               <p className={styles.para}>
-                Know the finance domain-specific best practices for building
-                recommendation systems, handling chatbots, and upcoming stock
-                market prediction.
+              Know the finance domain-specific best practices for building recommendation systems, handling chatbots, and upcoming stock market prediction.
               </p>
               <div className={styles.info}>
                 <div className={styles.left}>
-                  <h4>240%</h4>
-                  <p>Average Hike</p>
+                  <h4>1:1 Support</h4>
+                  <p>For Non Programmers</p>
                 </div>
                 <div className={styles.middle}>
-                  <h4>10K</h4>
-                  <p>Trusted Learners</p>
+                  <h4>3 Years</h4>
+                  <p>Flexible Subscription</p>
                 </div>
               </div>
               <a
@@ -361,31 +358,20 @@ const SliderTabs = () => {
         {nonTech ? (
           <div className={styles.gridPanel}>
             <div className={styles.left}>
-              <h5>Global Industry Certification</h5>
-              <img
-                src="/short-line.svg"
-                width="120px"
-                height="15px"
-                layout="intrinsic"
-                className={styles.img}
-              />
               <h6>
-                Learn about competitive marketplaces, opportunities, costs, and
-                other aspects of sales.
+              Learn about competitive marketplaces, opportunities, costs, and other aspects of sales.
               </h6>
               <p className={styles.para}>
-                You will be wholly involved with the essential functional
-                aspects of a business, management, Operations, Finance, and
-                Research & Development with hands-on capstone projects.
+              You will be wholly involved with the essential functional aspects of a business, management, Operations, Finance, and Research & Development with hands-on capstone projects.
               </p>
               <div className={styles.info}>
                 <div className={styles.left}>
-                  <h4>Dual</h4>
-                  <p>Certification</p>
+                  <h4>Dual Certification </h4>
+                  <p>From IBM</p>
                 </div>
                 <div className={styles.middle}>
-                  <h4>Global</h4>
-                  <p>Accreditation</p>
+                  <h4>Get trained by</h4>
+                  <p>Industry Experts</p>
                 </div>
               </div>
               <a
@@ -414,24 +400,19 @@ const SliderTabs = () => {
                 className={styles.img}
               />
               <h6>
-                Get in-depth knowledge of media, hospitality, and transportation
-                sectors which have been among the most rewarding domain in the
-                current economic situation.
+              Understand the health care industry from the aspect of data and data-driven insights.
               </h6>
               <p className={styles.para}>
-                Earn a better insight into areas like personalized marketing,
-                real-time analytics, revenue management, booking engines,
-                enhanced customer service, and identification of most valuable
-                customers.
+              Any working professional choosing this domain with prior experience will indeed be offered the maximum possible salary hike and job security.
               </p>
               <div className={styles.info}>
                 <div className={styles.left}>
-                  <h4>Special Classes</h4>
-                  <p>For Non Programmers</p>
+                  <h4>20+</h4>
+                  <p>Assignments</p>
                 </div>
                 <div className={styles.middle}>
-                  <h4>1:1 Daily</h4>
-                  <p>Doubt Session</p>
+                  <h4>Globally</h4>
+                  <p>Recognized Certificate</p>
                 </div>
               </div>
               <a

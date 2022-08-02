@@ -104,7 +104,7 @@ const CourseReview = () => {
                   <div className={styles.content}>
                     <div className={styles.imgP}>
                       <Image
-                        src="/abhishek-home.jpeg"
+                        src="/abhishek-home.png"
                         layout="intrinsic"
                         width="100"
                         height="100"
@@ -165,7 +165,7 @@ const CourseReview = () => {
                   <div className={styles.content}>
                     <div className={styles.imgP}>
                     <Image
-                        src="/asrar-home.jpeg"
+                        src="/asrar-home.png"
                         layout="intrinsic"
                         width="100"
                         height="100"
@@ -213,7 +213,7 @@ const CourseReview = () => {
                   <div className={styles.content}>
                     <div className={styles.imgP}>
                       <Image
-                        src="/ritesh-home.jpeg"
+                        src="/ritesh-home.png"
                         layout="intrinsic"
                         width="100"
                         height="100"
@@ -266,7 +266,7 @@ const CourseReview = () => {
                   <div className={styles.content}>
                     <div className={styles.imgP}>
                     <Image
-                        src="/vishal-home.jpeg"
+                        src="/vishal-home.png"
                         layout="intrinsic"
                         width="100"
                         height="100"
@@ -318,7 +318,7 @@ const CourseReview = () => {
                   <div className={styles.content}>
                     <div className={styles.imgP}>
                     <Image
-                        src="/saurabh-home.jpeg"
+                        src="/saurabh-home.png"
                         layout="intrinsic"
                         width="100"
                         height="100"
@@ -382,7 +382,7 @@ const CourseReview = () => {
                   <div className={styles.content}>
                     <div className={styles.imgP}>
                     <Image
-                        src="/preksha-home.jpeg"
+                        src="/preksha-home.png"
                         layout="intrinsic"
                         width="100"
                         height="100"
