@@ -14,9 +14,9 @@ const SliderTabs = () => {
   const [Retail, setRetail] = useState(false);
   const [Oil, setOil] = useState(false);
   const [Stack, setStack] = useState(false);
-  const [Cloud, setCloud] = useState(false);
-  const [Automotive, setAutomotive] = useState(false);
-  const [Testing, setTesting] = useState(false);
+  // const [Cloud, setCloud] = useState(false);
+  // const [Automotive, setAutomotive] = useState(false);
+  // const [Testing, setTesting] = useState(false);
   const [mobile, setMobile] = useState(false);
   const [tab, setTab] = useState(false);
 
@@ -54,6 +54,7 @@ const SliderTabs = () => {
               setCloud(false);
               setOil(false);
             }}
+<<<<<<< HEAD
             className={oneYear ? styles.ActiveSpan : styles.span}
           >
             BFSI
@@ -442,6 +443,283 @@ const SliderTabs = () => {
           ) : (
             ""
           )}
+=======
+            slidesPerView={mobile ? 2.5 : 5.5}
+            spaceBetween={mobile ? 10 : 30}
+            className="mySwiper"
+          >
+            <SwiperSlide className={styles.slide}>
+              <span
+                onClick={() => {
+                  setViewAll(false);
+                  setOneYear(true);
+                  setNonTech(false);
+                  setStack(false);
+                  setGuarantee(false);
+                  setRetail(false);
+                  // setTesting(false);
+                  // setAutomotive(false);
+                  // setCloud(false);
+                  setOil(false);
+                }}
+                style={
+                  oneYear
+                    ? {
+                        background: "white",
+                        color: "#edb552",
+                        borderBottom: "3px solid #edb552",
+                      }
+                    : { background: "white" }
+                }
+              >
+                BFSI
+              </span>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <span
+                onClick={() => {
+                  setViewAll(false);
+                  setOneYear(false);
+                  setNonTech(true);
+                  setStack(false);
+                  setGuarantee(false);
+                  setOil(false);
+                  // setTesting(false);
+                  // setAutomotive(false);
+                  // setCloud(false);
+                  setRetail(false);
+                }}
+                style={
+                  nonTech
+                    ? {
+                        background: "white",
+                        color: "#edb552",
+                        borderBottom: "3px solid #edb552",
+                      }
+                    : { background: "white" }
+                }
+              >
+                Sales, Marketing & HR
+              </span>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <span
+                onClick={() => {
+                  setViewAll(false);
+                  setOneYear(false);
+                  setNonTech(false);
+                  setStack(true);
+                  setGuarantee(false);
+                  setOil(false);
+                  // setTesting(false);
+                  // setAutomotive(false);
+                  // setCloud(false);
+                  setRetail(false);
+                }}
+                style={
+                  Stack
+                    ? {
+                        background: "white",
+                        color: "#edb552",
+                        borderBottom: "3px solid #edb552",
+                      }
+                    : { background: "white" }
+                }
+              >
+                Healthcare
+              </span>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <span
+                onClick={() => {
+                  setViewAll(false);
+                  setOneYear(false);
+                  setNonTech(false);
+                  setStack(false);
+                  setGuarantee(false);
+                  setOil(false);
+                  // setTesting(false);
+                  // setCloud(false);
+                  setRetail(true);
+                  // setAutomotive(false);
+                }}
+                style={
+                  Retail
+                    ? {
+                        background: "white",
+                        color: "#edb552",
+                        borderBottom: "3px solid #edb552",
+                      }
+                    : { background: "white" }
+                }
+              >
+                Retail & Ecommerce
+              </span>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <span
+                onClick={() => {
+                  setViewAll(false);
+                  setOneYear(false);
+                  setNonTech(false);
+                  setStack(false);
+                  setGuarantee(true);
+                  // setTesting(false);
+                  // setAutomotive(false);
+                  // setCloud(false);
+                  setOil(false);
+                  setRetail(false);
+                }}
+                style={
+                  Guarantee
+                    ? {
+                        background: "white",
+                        color: "#edb552",
+                        borderBottom: "3px solid #edb552",
+                      }
+                    : { background: "white" }
+                }
+              >
+                Media & Hospitality
+              </span>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <span
+                onClick={() => {
+                  setOneYear(false);
+                  setNonTech(false);
+                  setStack(false);
+                  setRetail(false);
+                  setGuarantee(false);
+                  setOil(false);
+                  // setAutomotive(false);
+                  // setCloud(false);
+                  // setTesting(false);
+                  setViewAll(true);
+                }}
+                style={
+                  viewAll
+                    ? {
+                        background: "white",
+                        color: "#edb552",
+                        borderBottom: "3px solid #edb552",
+                      }
+                    : { background: "white" }
+                }
+              >
+                Manufacturing & Automative
+              </span>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <span
+                onClick={() => {
+                  setOneYear(false);
+                  setNonTech(false);
+                  setStack(false);
+                  setRetail(false);
+                  setGuarantee(false);
+                  setViewAll(false);
+                  // setAutomotive(false);
+                  // setCloud(false);
+                  setOil(true);
+                  // setTesting(false);
+                }}
+                style={
+                  Oil
+                    ? {
+                        background: "white",
+                        color: "#edb552",
+                        borderBottom: "3px solid #edb552",
+                      }
+                    : { background: "white" }
+                }
+              >
+                Energy, Oil & Gas
+              </span>
+            </SwiperSlide>
+            {/* <SwiperSlide className={styles.slide}>
+              <span
+                onClick={() => {
+                  setOneYear(false);
+                  setNonTech(false);
+                  setStack(false);
+                  setRetail(false);
+                  setGuarantee(false);
+                  setAutomotive(false);
+                  setViewAll(false);
+                  setCloud(false);
+                  setOil(false);
+                  setTesting(true);
+                }}
+                style={
+                  Testing
+                    ? {
+                        background: "white",
+                        color: "#edb552",
+                        borderBottom: "3px solid #edb552",
+                      }
+                    : { background: "white" }
+                }
+              >
+                Development and testing
+              </span>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <span
+                onClick={() => {
+                  setOneYear(false);
+                  setNonTech(false);
+                  setStack(false);
+                  setRetail(false);
+                  setGuarantee(false);
+                  setViewAll(false);
+                  setOil(false);
+                  setCloud(false);
+                  setTesting(false);
+                  setAutomotive(true);
+                }}
+                style={
+                  Automotive
+                    ? {
+                        background: "white",
+                        color: "#edb552",
+                        borderBottom: "3px solid #edb552",
+                      }
+                    : { background: "white" }
+                }
+              >
+                Automotive, IoT& Embedded Engineers
+              </span>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <span
+                onClick={() => {
+                  setOneYear(false);
+                  setNonTech(false);
+                  setStack(false);
+                  setRetail(false);
+                  setGuarantee(false);
+                  setViewAll(false);
+                  setOil(false);
+                  setTesting(false);
+                  setAutomotive(false);
+                  setCloud(true);
+                }}
+                style={
+                  Cloud
+                    ? {
+                        background: "white",
+                        color: "#edb552",
+                        borderBottom: "3px solid #edb552",
+                      }
+                    : { background: "white" }
+                }
+              >
+                Cloud & DevOps{" "}
+              </span>
+            </SwiperSlide> */}
+          </Swiper>
+>>>>>>> d5784665cf9c6a905076ffec29f99a24417304f9
         </div>
         <div className={styles.middlePanel}>
           {oneYear ? (
@@ -474,10 +752,32 @@ const SliderTabs = () => {
                 </a>
               </div>
 
+<<<<<<< HEAD
               <div className={styles.right}>
                 <Image src="/Bnking domain.png" width="350" height="350" />
+=======
+        {oneYear ? (
+          <div className={styles.gridPanel}>
+            <div className={styles.left}>
+              <h6>
+              Work on real-time projects using live data from companies like J.P Morgan, HDFC, etc. 
+              </h6>
+              <p className={styles.para}>
+              Know the finance domain-specific best practices for building recommendation systems, handling chatbots, and upcoming stock market prediction.
+              </p>
+              <div className={styles.info}>
+                <div className={styles.left}>
+                  <h4>1:1 Support</h4>
+                  <p>For Non Programmers</p>
+                </div>
+                <div className={styles.middle}>
+                  <h4>3 Years</h4>
+                  <p>Flexible Subscription</p>
+                </div>
+>>>>>>> d5784665cf9c6a905076ffec29f99a24417304f9
               </div>
             </div>
+<<<<<<< HEAD
           ) : (
             ""
           )}
@@ -502,6 +802,33 @@ const SliderTabs = () => {
                     <h4>Global</h4>
                     <p>Accreditation</p>
                   </div>
+=======
+
+            <div className={styles.right}>
+              <Image src="/Bnking domain.png" width="557" height="442" />
+            </div>
+          </div>
+        ) : (
+          ""
+        )}
+        {nonTech ? (
+          <div className={styles.gridPanel}>
+            <div className={styles.left}>
+              <h6>
+              Learn about competitive marketplaces, opportunities, costs, and other aspects of sales.
+              </h6>
+              <p className={styles.para}>
+              You will be wholly involved with the essential functional aspects of a business, management, Operations, Finance, and Research & Development with hands-on capstone projects.
+              </p>
+              <div className={styles.info}>
+                <div className={styles.left}>
+                  <h4>Dual Certification </h4>
+                  <p>From IBM</p>
+                </div>
+                <div className={styles.middle}>
+                  <h4>Get trained by</h4>
+                  <p>Industry Experts</p>
+>>>>>>> d5784665cf9c6a905076ffec29f99a24417304f9
                 </div>
                 <a
                   href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
@@ -510,8 +837,51 @@ const SliderTabs = () => {
                   <button>Download Brochure</button>
                 </a>
               </div>
+<<<<<<< HEAD
               <div className={styles.right}>
                 <Image src="/gobal-industry.webp" width="296" height="345" />
+=======
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+                target="_blank"
+              >
+                <button>Download Brochure</button>
+              </a>
+            </div>
+            <div className={styles.right}>
+              <Image src="/gobal-industry.webp" width="504" height="383" />
+            </div>
+          </div>
+        ) : (
+          ""
+        )}
+        {Guarantee ? (
+          <div className={styles.gridPanel}>
+            <div className={styles.left}>
+              <h5>Special Classes For Beginners</h5>
+              <img
+                src="/short-line.svg"
+                width="120px"
+                height="15px"
+                layout="intrinsic"
+                className={styles.img}
+              />
+              <h6>
+              Understand the health care industry from the aspect of data and data-driven insights.
+              </h6>
+              <p className={styles.para}>
+              Any working professional choosing this domain with prior experience will indeed be offered the maximum possible salary hike and job security.
+              </p>
+              <div className={styles.info}>
+                <div className={styles.left}>
+                  <h4>20+</h4>
+                  <p>Assignments</p>
+                </div>
+                <div className={styles.middle}>
+                  <h4>Globally</h4>
+                  <p>Recognized Certificate</p>
+                </div>
+>>>>>>> d5784665cf9c6a905076ffec29f99a24417304f9
               </div>
             </div>
           ) : (
@@ -592,6 +962,7 @@ const SliderTabs = () => {
                 <Image src="/Healthcare-domain.webp" width="351" height="332" />
               </div>
             </div>
+<<<<<<< HEAD
           ) : (
             ""
           )}
@@ -617,6 +988,42 @@ const SliderTabs = () => {
                     <h4> Dual</h4>
                     <p> Certification</p>
                   </div>
+=======
+            <div className={styles.right}>
+              <Image src="/flexibility-support.webp" width="479" height="412" />
+            </div>
+          </div>
+        ) : (
+          ""
+        )}
+        {/* {Testing ? (
+          <div className={styles.gridPanel}>
+            <div className={styles.left}>
+              <h5>1:1 Personal Mentorship</h5>
+              <img
+                src="/short-line.svg"
+                width="120px"
+                height="15px"
+                layout="intrinsic"
+                className={styles.img}
+              />
+              <h6>
+                In the development and testing domain, get enhanced with a
+                better understanding of deriving data sets and missing data.
+              </h6>
+              <p className={styles.para}>
+                Additionally, Learn about custom data science solutions and
+                algorithm models from the actual source of implemented models.
+              </p>
+              <div className={styles.info}>
+                <div className={styles.left}>
+                  <h4>1:1 Personal</h4>
+                  <p>Mentorship</p>
+                </div>
+                <div className={styles.middle}>
+                  <h4>1:1 Daily</h4>
+                  <p>Doubt Session</p>
+>>>>>>> d5784665cf9c6a905076ffec29f99a24417304f9
                 </div>
                 <a
                   href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
@@ -716,10 +1123,17 @@ const SliderTabs = () => {
                 />
               </div>
             </div>
+<<<<<<< HEAD
           ) : (
             ""
           )}
         </div>
+=======
+          </div>
+        ) : (
+          ""
+        )} */}
+>>>>>>> d5784665cf9c6a905076ffec29f99a24417304f9
       </div>
     </div>
   );

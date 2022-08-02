@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper";
+import { Navigation } from "swiper";
 import Image from "next/image";
 import styles from "./CourseReview.module.css";
 import {MdKeyboardArrowDown} from "react-icons/md";
@@ -49,17 +49,6 @@ const CourseReview = () => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    {/* <div className={styles.rightBottom}>
-                      <div className={styles.leftBottomC}>
-                        <p>Watch More On</p>
-                      </div>
-                      <Image
-                        src="/reviewYtIcon.png"
-                        width="107"
-                        height="60"
-                        layout="intrinsic"
-                      />
-                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -111,22 +100,11 @@ const CourseReview = () => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    {/* <div className={styles.rightBottom}>
-                      <div className={styles.leftBottomC}>
-                        <p>Watch More On</p>
-                      </div>
-                      <Image
-                        src="/reviewYtIcon.png"
-                        width="107"
-                        height="60"
-                        layout="intrinsic"
-                      />
-                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
                       <Image
-                        src="/abhishek-home.jpeg"
+                        src="/abhishek-home.png"
                         layout="intrinsic"
                         width="100"
                         height="100"
@@ -187,7 +165,7 @@ const CourseReview = () => {
                   <div className={styles.content}>
                     <div className={styles.imgP}>
                     <Image
-                        src="/asrar-home.jpeg"
+                        src="/asrar-home.png"
                         layout="intrinsic"
                         width="100"
                         height="100"
@@ -231,22 +209,11 @@ const CourseReview = () => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    {/* <div className={styles.rightBottom}>
-                      <div className={styles.leftBottomC}>
-                        <p>Watch More On</p>
-                      </div>
-                      <Image
-                        src="/reviewYtIcon.png"
-                        width="107"
-                        height="60"
-                        layout="intrinsic"
-                      />
-                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
                       <Image
-                        src="/ritesh-home.jpeg"
+                        src="/ritesh-home.png"
                         layout="intrinsic"
                         width="100"
                         height="100"
@@ -295,22 +262,11 @@ const CourseReview = () => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    {/* <div className={styles.rightBottom}>
-                      <div className={styles.leftBottomC}>
-                        <p>Watch More On</p>
-                      </div>
-                      <Image
-                        src="/reviewYtIcon.png"
-                        width="107"
-                        height="60"
-                        layout="intrinsic"
-                      />
-                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
                     <Image
-                        src="/vishal-home.jpeg"
+                        src="/vishal-home.png"
                         layout="intrinsic"
                         width="100"
                         height="100"
@@ -358,22 +314,11 @@ const CourseReview = () => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    {/* <div className={styles.rightBottom}>
-                      <div className={styles.leftBottomC}>
-                        <p>Watch More On</p>
-                      </div>
-                      <Image
-                        src="/reviewYtIcon.png"
-                        width="107"
-                        height="60"
-                        layout="intrinsic"
-                      />
-                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
                     <Image
-                        src="/saurabh-home.jpeg"
+                        src="/saurabh-home.png"
                         layout="intrinsic"
                         width="100"
                         height="100"
@@ -384,7 +329,7 @@ const CourseReview = () => {
                     <div className={styles.contentRight}>
                       <div className={styles.name}>
                       <p>Working at Amanthya</p>
-                      <h5>Saurab Maurya</h5>
+                      <h5>Sourabh Mourya</h5>
                       </div>
                       <div>
                       <p className={styles.para}>
@@ -400,7 +345,7 @@ const CourseReview = () => {
                     </div>
                     <div className={styles.cIcon}>
                       <Image
-                        src="/amantya.png"
+                        src="/HCL.png"
                         width="400"
                         height="50"
                         layout="intrinsic"
@@ -437,7 +382,7 @@ const CourseReview = () => {
                   <div className={styles.content}>
                     <div className={styles.imgP}>
                     <Image
-                        src="/preksha-home.jpeg"
+                        src="/preksha-home.png"
                         layout="intrinsic"
                         width="100"
                         height="100"

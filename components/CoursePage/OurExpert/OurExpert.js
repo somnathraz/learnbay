@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const OurExpert = () => {
+const OurExpert = ({ img1, img2, img3, img4, img5, img6, img7, img8 }) => {
   const [mobile, setMobile] = useState(false);
 
   useEffect(() => {
@@ -19,6 +19,7 @@ const OurExpert = () => {
   return (
     <section className={styles.GetHired}>
       <div className={styles.CInner}>
+        <h5>Tools Covered</h5>
         <div>
           <Swiper
             spaceBetween={10}
@@ -37,7 +38,7 @@ const OurExpert = () => {
           >
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/4(2).png"
+                src={img1}
                 alt="amazon"
                 layout="intrinsic"
                 width="100"
@@ -47,7 +48,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Capgemini.png"
+                src={img2}
                 alt="capgemini"
                 layout="intrinsic"
                 width="150"
@@ -56,7 +57,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Flipkart.png"
+                src={img3}
                 alt="Flipkart"
                 quality={100}
                 layout="intrinsic"
@@ -66,7 +67,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Google.png"
+                src={img4}
                 alt="Google"
                 layout="intrinsic"
                 width="150"
@@ -75,7 +76,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Microsoft.png"
+                src={img5}
                 alt="Microsoft"
                 layout="intrinsic"
                 width="150"
@@ -84,7 +85,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Myntra.png"
+                src={img6}
                 alt="Myntra"
                 layout="intrinsic"
                 width="150"
@@ -93,7 +94,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/TCS.png"
+                src={img7}
                 alt="Tcs"
                 layout="intrinsic"
                 width="150"
@@ -102,7 +103,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Wipro.png"
+                src={img8}
                 alt="Wipro"
                 layout="intrinsic"
                 objectFit="contain"

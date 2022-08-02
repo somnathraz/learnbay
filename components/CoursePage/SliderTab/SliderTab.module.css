@@ -224,9 +224,13 @@
   }
   .listPanel span {
     font-size: 14px;
+<<<<<<< HEAD
     width: 100%;
     display: flex;
     justify-content: space-between;
+=======
+    width: fit-content;
+>>>>>>> d5784665cf9c6a905076ffec29f99a24417304f9
     padding: 15px 10px;
   }
   .listPanel .gridPanel {

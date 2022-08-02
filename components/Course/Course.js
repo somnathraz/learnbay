@@ -49,7 +49,6 @@ const Course = () => {
   const filtteredJobGuaranteeF = JobGuaranteeD.filter(
     (post) => post.tag === "Full stack"
   );
-  const filtteredStackD = StackD.filter((post) => post.tag === "Data science");
   const filtteredStackF = StackD.filter((post) => post.tag === "Full stack");
 
   useEffect(() => {
@@ -105,6 +104,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -168,12 +169,14 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                         </div>
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -252,6 +255,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -333,12 +338,14 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                         </div>
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -417,6 +424,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -480,12 +489,14 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                         </div>
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -564,6 +575,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -626,11 +639,13 @@ const Course = () => {
                         <img
                           src={img}
                           layout="intrinsic"
+                          width="423px"
+                          height="252px"
                           className={styles.courseImg}
                         />
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -699,6 +714,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -761,11 +778,13 @@ const Course = () => {
                         <img
                           src={img}
                           layout="intrinsic"
+                          width="423px"
+                          height="252px"
                           className={styles.courseImg}
                         />
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -832,6 +851,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -895,6 +916,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -964,6 +987,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -1033,6 +1058,8 @@ const Course = () => {
                           <img
                             src={img}
                             layout="intrinsic"
+                            width="423px"
+                            height="252px"
                             className={styles.courseImg}
                           />
                           <div className={styles.contentBox}>
@@ -1095,11 +1122,13 @@ const Course = () => {
                         <img
                           src={img}
                           layout="intrinsic"
+                          width="423px"
+                          height="252px"
                           className={styles.courseImg}
                         />
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -1165,11 +1194,13 @@ const Course = () => {
                         <img
                           src={img}
                           layout="intrinsic"
+                          width="423px"
+                          height="252px"
                           className={styles.courseImg}
                         />
                         <div
                           className={styles.contentBox}
-                          style={{ marginTop: "430px" }}
+                          style={{ marginTop: "452px" }}
                         >
                           <h6>{title}</h6>
                           <h6>{title1}</h6>

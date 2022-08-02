@@ -115,7 +115,7 @@
   background: #ffffff;
   box-shadow: 4px 4px 20px rgba(41, 121, 173, 0.25);
   border-radius: 34px;
-  margin: 20px 10px;
+  margin: 30px 10px 40px 10px;
 }
 .content {
   display: grid;

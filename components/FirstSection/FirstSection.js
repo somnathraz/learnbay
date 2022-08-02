@@ -1,19 +1,11 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./FirstSection.module.css";
-import Typed from "typed.js";
 import { FaChevronDown, FaBell } from "react-icons/fa";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 import Image from "next/image";
 
 const FirstSection = () => {
-  const el = useRef(null);
-  const fancyText = [
-    "10,000+ Careers Reshaped",
-    "300% Highest Salary Hike",
-    "97% Average Salary Hike",
-    "250+ Hiring Partners",
-  ];
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -74,8 +66,8 @@ const FirstSection = () => {
             <p>Assured Interview</p>
           </div>
           <div className={styles.right}>
-            <h5>7+ Cities</h5>
-            <p>Project Innovation Lab</p>
+            <h5>20+</h5>
+            <p>Domain Electives</p>
           </div>
         </div>
       </div>

@@ -1,26 +1,25 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/Certificatejob/Certificate";
 import Project from "../components/CoursePage/Project/Project";
-import ToolsCovered from "../components/CoursePage/ToolsCovered/ToolsCovered";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
-import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
-import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
 import { FaqData6, PaymentFaqData6, CapstoneFaqData6, CertificationFaqData6, jobFaqData6, MentorshipFaqData6, SupportFaqData6 } from "../components/FAQ/FaqData";
-import {DataScienceCourseData} from "../Data/DataScienceCourse"
+import { DataScienceCourseData } from "../Data/DataScienceCourse";
+import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
  
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -52,7 +51,6 @@ export default function Home() {
         mTopPara="Get ahead of the competition "
         mTopPara1="with popular skill sets."
         title="Data Analytics Certification Program"
-        // spanTitleText="Certification Program"
         desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
         src="/course6.png"
         alt="AiMl Header"
@@ -70,17 +68,6 @@ export default function Home() {
         p44="₹ 11.8k/month (6 Months)"
         />
       </div>
-      <GetHired 
-        WeekdayBatchDate="Best in class industrial training with live projects"
-        WeekendBatchDate="250+ employer allowance & 100% interview guarantee"
-        Project="Career guidance from industrial experts"
-        Classes="Basic coding classes for non-technical professions"
-        OneLine="Live & interactive training by industry experts"
-        Interview="Course completion certificate from IBM"
-        Fee="60,000"
-        Subscription="1.5 Year Subscription"
-
-      />
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
@@ -94,18 +81,10 @@ export default function Home() {
           box4desc="Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies."
         />
       </div>
-      <CareerImpact
-      CareerHead="Career Impact"
-      />
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
-        </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div>
-      <Certificate
+      <DomainFaq FaqData={DomainFaqCourseData1} />
+
+<CourseReview />
+<Certificate
         title="Course Completion Certificate from IBM"
         desc="Complete your training with the internationally recognized certificate."
         desc2 ="Validate your Data Analytics skills with IBM Course Completion Certificate."
@@ -114,63 +93,30 @@ export default function Home() {
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+Program.pdf"
 
       />
-      <section className={styles.HiringPartner}>
-        <div>
-        <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
-        <span className={styles.HiringPartnerB}>
-          <Image
-            src="/hiring-6.png"
-            alt="Certificate"
-            quality={100}
-            layout="intrinsic"
-            width="1150px"
-            height="350px"
-          />
-        </span>
-        </div>
-    </section>
-    <SyllabusNew
-          
-           syllabus={DataScienceCourseData[0].syllabus}
-           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-           popupHead={DataScienceCourseData[0].popupHead}
+
+<SyllabusNew
+  syllabus={DataScienceCourseData[0].syllabus}
+  syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+  popupHead={DataScienceCourseData[0].popupHead}
+/>
+              <OurExpert
+        img1="/Wipro.png"
+        img2="/4(2).png"
+        img3="/Capgemini.png"
+        img4="/Flipkart.png"
+        img5="/TCS.png"
+        img6="/Myntra.png"
+        img7="/Microsoft.png"
+        img8="/Google.png"
         />
-      <ToolsCovered 
-      src="/tools-da.png"
-      />
-      <SkillsCovered
-      sc11="Data Collection & Cleaning"
-      sc12="Data Understanding"
-      sc13="PCA Analysis"
-      sc14="Data Munging"
-      sc21="Data Preprocessing"
-      sc22="Data Analysis & Exploration"
-      sc23="Statistical Analysis"
-      sc24="Dashboard and Storytelling"
-      sc31="Quantitative Skills"
-      sc32="Critical Thinking"
-      sc33="Decision Analytics"
-      sc34="and more..."
-      />
+        <ProgramFee />
+        <SliderTab />
       <div className={styles.ProjectWrapper} id="project">
         <Project
         project="6+"
         domain="7+"
         />
       </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
-        </div>
-      </div>
-      <HowApply
-      CCourse="Enroll in IBM Certified Data Analytics Program."
-      />
       <CourseFee 
       CourseFeeHead="Data Analytics Program : Batch Details"
       CourseFeePara="Online Classroom"

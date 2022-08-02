@@ -18,7 +18,7 @@ export const viewAllD = [
     id: 2,
     img: "advance-data-science-ai-program.png",
     title: "Advanced Data Science",
-    title1: "and AI Program",
+    title1: "& AI Program",
     tag:"Data science",
     para: [
       "275 hours of Interactive Learning",
@@ -32,7 +32,7 @@ export const viewAllD = [
   {
     id: 3,
     img: "advance -ai-ml-for-tech-professionals.png",
-    title: "Advance AI and ML Program",
+    title: "Advance AI & ML Program",
     title1: "for Tech Professionals",
     tag:"Data science",
     para: [
@@ -47,8 +47,8 @@ export const viewAllD = [
   {
     id: 4,
     img: "data-science-ai-for managers.png",
-    title: "Data Science and AI for ",
-    title1: "Managers & Leaders Program",
+    title: "Data Science & AI ",
+    title1: "For Managers",
     tag:"Data science",
     para: [
       "350 hours of Interactive Learning",
@@ -62,7 +62,7 @@ export const viewAllD = [
   {
     id: 5,
     img: "data-science-ai-with-job-guarantee.png",
-    title: "Data Science and AI with ",
+    title: "Data Science & AI with ",
     title1: "Job Guarantee Program",
     tag:"Data science",
     para: [
@@ -137,7 +137,7 @@ export const viewAllD = [
   },
   {
     id: 10,
-    img: "full-stack-developer-course.png",
+    img: "dsa&system.png",
     title: "DSA & ",
     title1: "System Design",
     tag:"Full stack",
@@ -157,7 +157,7 @@ export const ForProgrammersD = [
     img: "advance-data-science-ai-program.png",
     title: "Advanced Data Science",
     tag:"Data science",
-    title1: "and AI Program",
+    title1: "& AI Program",
     para: [
       "275 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -185,9 +185,9 @@ export const ForProgrammersD = [
   {
     id: 3,
     img: "data-science-ai-for managers.png",
-    title: "Data Science and AI for ",
+    title: "Data Science & AI ",
     tag:"Data science",
-    title1: "Managers & Leaders Program",
+    title1: "For Managers",
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -200,7 +200,7 @@ export const ForProgrammersD = [
   {
     id: 4,
     img: "advance -ai-ml-for-tech-professionals.png",
-    title: "Advance AI and ML Program",
+    title: "Advance AI & ML Program",
     tag:"Data science",
     title1: "for Tech Professionals",
     para: [
@@ -230,7 +230,7 @@ export const ForProgrammersD = [
   {
     id: 6,
     img: "data-science-ai-with-job-guarantee.png",
-    title: "Data Science and AI with ",
+    title: "Data Science & AI with ",
     title1: "Job Guarantee Program",
     tag:"Data science",
     para: [
@@ -244,7 +244,7 @@ export const ForProgrammersD = [
   },
   {
     id: 7,
-    img: "full-stack-developer-course.png",
+    img: "dsa&system.png",
     title: "DSA & ",
     title1: "System Design",
     tag:"Full stack",
@@ -278,7 +278,7 @@ export const ForNonProgrammerD = [
     id: 2,
     img: "advance-data-science-ai-program.png",
     title: "Advanced Data Science",
-    title1: "and AI Program",
+    title1: "& AI Program",
     tag:"Data science",
     para: [
       "275 hours of Interactive Learning",
@@ -292,7 +292,7 @@ export const ForNonProgrammerD = [
   {
     id: 3,
     img: "advance -ai-ml-for-tech-professionals.png",
-    title: "Advance AI and ML Program",
+    title: "Advance AI & ML Program",
     title1: "for Tech Professionals",
     tag:"Data science",
     para: [
@@ -307,8 +307,8 @@ export const ForNonProgrammerD = [
   {
     id: 4,
     img: "data-science-ai-for managers.png",
-    title: "Data Science and AI for ",
-    title1: "Managers & Leaders Program",
+    title: "Data Science & AI ",
+    title1: "For Managers",
     tag:"Data science",
     para: [
       "350 hours of Interactive Learning",
@@ -322,7 +322,7 @@ export const ForNonProgrammerD = [
   {
     id: 5,
     img: "data-science-ai-with-job-guarantee.png",
-    title: "Data Science and AI with ",
+    title: "Data Science & AI with ",
     title1: "Job Guarantee Program",
     tag:"Data science",
     para: [
@@ -356,7 +356,7 @@ export const JobGuaranteeD = [
   {
     id: 1,
     img: "data-science-ai-with-job-guarantee.png",
-    title: "Data Science and AI with ",
+    title: "Data Science & AI with ",
     title1: "Job Guarantee Program",
     tag:"Data science",
     para: [
@@ -417,7 +417,7 @@ export const StackD = [
   },
   {
     id: 3,
-    img: "full-stack-developer-course.png",
+    img: "dsa&system.png",
     title: "DSA & ",
     title1: "System Design",
     tag:"Full stack",

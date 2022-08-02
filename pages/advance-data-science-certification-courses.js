@@ -7,13 +7,10 @@ import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../components/CoursePage/Project/Project";
-import ToolsCovered from "../components/CoursePage/ToolsCovered/ToolsCovered";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
-import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import Fee from "../components/CoursePage/Fee/Fee";
 import FAQNew from "../components/FAQNew/FAQNew";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
@@ -107,7 +104,16 @@ export default function Home() {
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           popupHead={DataScienceCourseData[0].popupHead}
         />
-        <ToolsCovered src="/tools-2.png" />
+        <OurExpert
+          img1="/Wipro.png"
+          img2="/4(2).png"
+          img3="/Capgemini.png"
+          img4="/Flipkart.png"
+          img5="/TCS.png"
+          img6="/Myntra.png"
+          img7="/Microsoft.png"
+          img8="/Google.png"
+        />
         <ProgramFee />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">

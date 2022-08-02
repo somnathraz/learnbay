@@ -43,9 +43,6 @@ const FormInline = ({ popup, setTrigger, downloadBrochure }) => {
   };
 
   let endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // if (router.pathname === "/data-science-certification-courses") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
 
   // Form Submit function
   const formSubmit = (e) => {
@@ -315,17 +312,6 @@ const FormInline = ({ popup, setTrigger, downloadBrochure }) => {
             ""
           )}
         </div>
-        {/* <div className={styles.formWrappers}>
-          <input
-            type="textarea"
-            name="Brief"
-            className={popup ? styles.NameInputs : styles.NameInput}
-            placeholder="Job Description"
-            value={query.Brief}
-            style={{ borderBottom: "1px solid grey" }}
-            onChange={handleParam()}
-          />
-        </div> */}
         <div className={styles.formWrappers}>
               <DatePicker
                 selected={startDate}

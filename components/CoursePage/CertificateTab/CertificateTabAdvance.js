@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./CertificateTab.module.css";
 import Image from 'next/image'
 import { BsCheck2 } from "react-icons/bs";

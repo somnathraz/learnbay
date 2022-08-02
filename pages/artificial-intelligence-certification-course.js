@@ -1,29 +1,28 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTab3";
 import Project from "../components/CoursePage/Project/Project";
-import ToolsCovered from "../components/CoursePage/ToolsCovered/ToolsCovered";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import OtherCertificate from "../components/CoursePage/OtherCertificate/OtherCertificate";
-import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
-import Domain from "../components/CoursePage/Domain/Domain";
 import Fee from "../components/CoursePage/Fee/Fee";
 import {DataScienceCourseData} from "../Data/DataScienceCourse";
-import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData3, DomainFaqData3, PaymentFaqData3, CapstoneFaqData3, CertificationFaqData3, jobFaqData3, MentorshipFaqData3, SupportFaqData3 } from "../components/FAQ/FaqData";
+import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
+import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+
 
  
 export default function Home() {
@@ -74,17 +73,6 @@ export default function Home() {
         p44="₹ 12k/month (9 Months)"
         />
       </div>
-      <GetHired 
-        WeekdayBatchDate="4 IBM Certified AI/ML micro-skill certificates"
-        WeekendBatchDate="Specially curated syllabus for technical professionals"
-        Project="IT-specific domain-oriented full-stack learning with 8+ domains to choose from"
-        Classes="Learn the latest tools and technologies in AI and ML"
-        OneLine="12 live industry projects & 2 fresh capstone projects"
-        Interview="Assured interview calls from 250+ recruiter network"
-        Fee="95,000"
-        Subscription="3 Year Subscription"
-
-      />
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
@@ -98,18 +86,10 @@ export default function Home() {
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
         />
       </div>
-      <CareerImpact
-      CareerHead="Career Impact"
-      />
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
-        </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div>
-      <Certificate />
+            <DomainFaq FaqData={DomainFaqCourseData1} />
+
+<CourseReview />
+<Certificate />
       <OtherCertificate
           OCHead1="Deep Learning Fundamentals"
           OCP1="Earn industrial badge on neural networks, and convolutional networks like DL skills."
@@ -120,70 +100,29 @@ export default function Home() {
           OCHead4="Accelerating Deep Learning with GPUs"
           OCP4="Industrial badge on GPU handling mastery for Cloud, AI & ML."
       />
-      <section className={styles.HiringPartner}>
-        <div>
-        <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
-        <span className={styles.HiringPartnerB}>
-          <Image
-            src="/hiring-3.png"
-            alt="Certificate"
-            quality={100}
-            layout="intrinsic"
-            width="1150px"
-            height="350px"
-          />
-        </span>
-        </div>
-    </section>
-    <SyllabusNew
-          
+      <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           popupHead={DataScienceCourseData[0].popupHead}
-       />
-      <ToolsCovered 
-      src="/tools-2.png"
-      />
-      <SkillsCovered
-      sc11="Data Collection"
-      sc12="Data Understanding"
-      sc13="Data Cleaning"
-      sc14="Data Munging"
-      sc15="Data Warehousing"
-      sc16="Domain Expertise"
-      sc21="Data Exploration"
-      sc22="Data Preprocessing"
-      sc23="Data Analysis"
-      sc24="Statistical Analysis"
-      sc25="PCA Analysis"
-      sc26="Dashboard and Storytelling"
-      sc31="Feature Engineering"
-      sc32="Hyper Parameter Tuning"
-      sc33="Model Creation"
-      sc34="Model Deployment"
-      sc35="Critical Thinking"
-      sc36="Function & Formulas"
-      />
-      <Domain />
+        />
+        <OurExpert
+        img1="/Wipro.png"
+        img2="/4(2).png"
+        img3="/Capgemini.png"
+        img4="/Flipkart.png"
+        img5="/TCS.png"
+        img6="/Myntra.png"
+        img7="/Microsoft.png"
+        img8="/Google.png"
+        />
+        <ProgramFee />
+        <SliderTab />
       <div className={styles.ProjectWrapper} id="project">
         <Project
         project="12+"
         domain="7+"
         />
       </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
-        </div>
-      </div>
-      <HowApply
-      CCourse="Enroll in AI and ML Program with Domain Specialization."
-      />
       <Fee
         sub1="Data Science and AI Foundation Program"
         Price1="₹65,000 + GST"

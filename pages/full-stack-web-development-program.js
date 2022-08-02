@@ -1,27 +1,27 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../components/CoursePage/GetHiredFsw/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTabWeb";
 import Project from "../components/CoursePage/Projectfswd/Project";
-import ToolsCovered from "../components/CoursePage/ToolsCovered/ToolsCovered";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../components/CoursePage/Syllabusfsw/Syllabus";
-import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
-import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered";
+import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
+import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
+import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
 import { FaqData8, PaymentFaqData8, CapstoneFaqData8, CertificationFaqData8, jobFaqData8, MentorshipFaqData8, SupportFaqData8 } from "../components/FAQ/FaqData";
 
- 
+  
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -67,17 +67,6 @@ export default function Home() {
         p44="₹ 9k to 15k*(9 Months)"
         />
       </div>
-      <GetHired 
-        WeekdayBatchDate="Assured interview calls powered by 250+ hiring partners"
-        WeekendBatchDate="Hybrid learning option across multiple cities"
-        Project="12+ live projects and 2 capstone projects"
-        Classes="Project experience certificate by IBM"
-        OneLine="1000+ trending practical assignments"
-        Interview="Exclusive MNC expert hosted hackathons"
-        Fee="79,000"
-        Fees="₹79,000"
-        Subscription="3 Year Subscription"
-      />
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
@@ -91,76 +80,32 @@ export default function Home() {
           box4desc="Gain diligent experience in real-world projects ranging from advanced level complexity to amazing deployment scopes."
         />
       </div>
-      <CareerImpact
-      CareerHead="Career Impact"
-      />
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
-        </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div>
-      <Certificate />
-      <section className={styles.HiringPartner}>
-        <div>
-        <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
-        <span className={styles.HiringPartnerB}>
-          <Image
-            src="/hiring-2.jpg"
-            alt="Certificate"
-            quality={100}
-            layout="intrinsic"
-            width="1150px"
-            height="350px"
-          />
-        </span>
-        </div>
-    </section>
-    <SyllabusNew/>
-      <ToolsCovered 
-      src="/tools-fs.png"
-      />
-      <SkillsCovered
-      sc11="Data Collection"
-      sc12="Data Understanding"
-      sc13="Data Cleaning"
-      sc14="Data Munging"
-      sc15="Data Warehousing"
-      sc16="Domain Expertise"
-      sc21="Data Exploration"
-      sc22="Data Preprocessing"
-      sc23="Data Analysis"
-      sc24="Statistical Analysis"
-      sc25="PCA Analysis"
-      sc26="Dashboard and Storytelling"
-      sc31="Feature Engineering"
-      sc32="Hyper Parameter Tuning"
-      sc33="Model Creation"
-      sc34="Model Deployment"
-      sc35="Critical Thinking"
-      sc36="Function & Formulas"
-      />
+      <DomainFaq FaqData={DomainFaqCourseData1} />
+      <CourseReview />
+        <Certificate />
+    <SyllabusNew
+          syllabus={FullStackSoftwareCourseData[0].syllabus}
+          syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
+          popupHead={FullStackSoftwareCourseData[0].popupHead}
+        />
+        <OurExpert
+        img1="/Wipro.png"
+        img2="/4(2).png"
+        img3="/Capgemini.png"
+        img4="/Flipkart.png"
+        img5="/TCS.png"
+        img6="/Myntra.png"
+        img7="/Microsoft.png"
+        img8="/Google.png"
+        />
+            <ProgramFee />
+    <SliderTab />
       <div className={styles.ProjectWrapper} id="project">
         <Project
         project="12+"
         domain="7+"
         />
       </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
-        </div>
-      </div>
-      <HowApply
-      CCourse="Enroll in Full Stack Web Development Program."
-      />
       <CourseFee 
       CourseFeeHead="Full Stack Web Development: Batch Details"
       CourseFeePara="Online Classroom"

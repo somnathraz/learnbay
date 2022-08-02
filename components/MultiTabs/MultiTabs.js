@@ -2,14 +2,6 @@ import React, { useState } from "react";
 import styles from "./MultiTabs.module.css";
 import Image from "next/image";
 
-import {
-  viewAllD,
-  ForProgrammersD,
-  ForNonProgrammerD,
-  JobGuaranteeD,
-  StackD,
-} from "../Course/courseDetails";
-
 const MultiTabs = () => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
