@@ -49,7 +49,6 @@ const Course = () => {
   const filtteredJobGuaranteeF = JobGuaranteeD.filter(
     (post) => post.tag === "Full stack"
   );
-  const filtteredStackD = StackD.filter((post) => post.tag === "Data science");
   const filtteredStackF = StackD.filter((post) => post.tag === "Full stack");
 
   useEffect(() => {

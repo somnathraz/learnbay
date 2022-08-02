@@ -1,22 +1,16 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/Certificatejob/Certificate";
 import Project from "../components/CoursePage/Project/Project";
-import ToolsCovered from "../components/CoursePage/ToolsCovered/ToolsCovered";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
-import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
-import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
 import { FaqData7, PaymentFaqData7, CapstoneFaqData7, CertificationFaqData7, jobFaqData7, MentorshipFaqData7, SupportFaqData7 } from "../components/FAQ/FaqData";
@@ -57,7 +51,6 @@ export default function Home() {
         mTopPara="Develop Work-Ready Skills"
         mTopPara1="You Can Use Right Away"
         title="Business Analytics Certification Program"
-        // spanTitleText="Certification Program"
         desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
         src="/course7.png"
         alt="AiMl Header"
@@ -76,17 +69,6 @@ export default function Home() {
         p44="₹ 12.8k/month (6 Months)"
         />
       </div>
-      {/* <GetHired 
-        WeekdayBatchDate="Industry-curated training via real-time analytics projects"
-        WeekendBatchDate="Industrial Business Analytics certification from IBM"
-        Project="Special programming classes for non-technical professionals"
-        Classes="Specially designed for early professionals or aspirants with a career gap"
-        OneLine="Learn the most trending analytical trick from MNC experts"
-        Interview="5 live industry projects and 100% interview call assurance"
-        Fee="65,000"
-        Subscription="1.5 Year Subscription"
-
-      /> */}
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
@@ -100,19 +82,7 @@ export default function Home() {
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
         />
       </div>
-      {/* <CareerImpact
-      CareerHead="Career Impact"
-      />
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
-        </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div> */}
       <DomainFaq FaqData={DomainFaqCourseData1} />
-
 <CourseReview />
 <Certificate
         title="Course Completion Certificate from IBM"
@@ -127,40 +97,7 @@ export default function Home() {
   syllabusDesc={DataScienceCourseData[0].syllabusDesc}
   popupHead={DataScienceCourseData[0].popupHead}
 />
-      
-      {/* <section className={styles.HiringPartner}>
-        <div>
-        <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
-        <span className={styles.HiringPartnerB}>
-          <Image
-            src="/hiring-7.gif"
-            alt="Certificate"
-            quality={100}
-            layout="intrinsic"
-            width="1150px"
-            height="350px"
-          />
-        </span>
-        </div>
-    </section> */}
-      {/* <ToolsCovered 
-      src="/tools-ba.png"
-      />
-      <SkillsCovered
-      sc11="Data Collection & Cleaning"
-      sc12="Data Understanding"
-      sc13="PCA Analysis & Literacy"
-      sc14="Data Munging"
-      sc21="Data Preprocessing"
-      sc22="Data Analysis & Exploration"
-      sc23="Statistical Analysis"
-      sc24="Dashboard and Storytelling"
-      sc31="Diagnostic Analytics"
-      sc32="Predictive Analytics"
-      sc33="Prescriptive analytics"
-      sc34="and more..."
-      /> */}
-              <OurExpert
+        <OurExpert
         img1="/Wipro.png"
         img2="/4(2).png"
         img3="/Capgemini.png"
@@ -178,19 +115,6 @@ export default function Home() {
         domain="7+"
         />
       </div>
-      {/* <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
-        </div>
-      </div>
-      <HowApply
-      CCourse="Enroll in the Industrial Business Analytics Program."
-      /> */}
       <CourseFee 
       CourseFeeHead="Business Analytics Program : Batch Details"
       CourseFeePara="Online Classroom"

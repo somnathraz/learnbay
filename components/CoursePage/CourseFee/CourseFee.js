@@ -3,7 +3,7 @@ import styles from "./CourseFee.module.css";
 import { BiCheck } from "react-icons/bi";
 import { MdDateRange } from "react-icons/md";
 import { AiOutlineBars } from "react-icons/ai";
-import { BiTimeFive, BiBookOpen } from "react-icons/bi";
+import { BiTimeFive } from "react-icons/bi";
 import Popup from "/components/Popup/Popup";
 import Form from "/components/Form/Form";
 

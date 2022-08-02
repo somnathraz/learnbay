@@ -7,7 +7,7 @@ import { Pagination } from "swiper";
 import Image from "next/image";
 import styles from "./CareerImpact.module.css";
 
-const CareerImpact = ({ CareerHead, changeReview }) => {
+const CareerImpact = () => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -45,17 +45,6 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    {/* <div className={styles.rightBottom}>
-                      <div className={styles.leftBottomC}>
-                        <p>Watch More On</p>
-                      </div>
-                      <Image
-                        src="/reviewYtIcon.png"
-                        width="107"
-                        height="60"
-                        layout="intrinsic"
-                      />
-                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -170,17 +159,6 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    {/* <div className={styles.rightBottom}>
-                      <div className={styles.leftBottomC}>
-                        <p>Watch More On</p>
-                      </div>
-                      <Image
-                        src="/reviewYtIcon.png"
-                        width="107"
-                        height="60"
-                        layout="intrinsic"
-                      />
-                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -291,17 +269,6 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    {/* <div className={styles.rightBottom}>
-                      <div className={styles.leftBottomC}>
-                        <p>Watch More On</p>
-                      </div>
-                      <Image
-                        src="/reviewYtIcon.png"
-                        width="107"
-                        height="60"
-                        layout="intrinsic"
-                      />
-                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -355,17 +322,6 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    {/* <div className={styles.rightBottom}>
-                      <div className={styles.leftBottomC}>
-                        <p>Watch More On</p>
-                      </div>
-                      <Image
-                        src="/reviewYtIcon.png"
-                        width="107"
-                        height="60"
-                        layout="intrinsic"
-                      />
-                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>
@@ -418,17 +374,6 @@ const CareerImpact = ({ CareerHead, changeReview }) => {
                         <p>Salary Hike</p>
                       </div>
                     </div>
-                    {/* <div className={styles.rightBottom}>
-                      <div className={styles.leftBottomC}>
-                        <p>Watch More On</p>
-                      </div>
-                      <Image
-                        src="/reviewYtIcon.png"
-                        width="107"
-                        height="60"
-                        layout="intrinsic"
-                      />
-                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.imgP}>

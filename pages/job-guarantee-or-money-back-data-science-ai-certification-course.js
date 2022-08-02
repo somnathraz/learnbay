@@ -1,25 +1,18 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/Certificatejob/Certificate";
 import Project from "../components/CoursePage/Project/Project";
-import ToolsCovered from "../components/CoursePage/ToolsCovered/ToolsCovered";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
-import Domain from "../components/CoursePage/Domain/Domain";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import {DataScienceCourseData} from "../Data/DataScienceCourse";
-import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import Fee from "../components/CoursePage/Fee/Fee";
-import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData5, DomainFaqData5, PaymentFaqData5, CapstoneFaqData5, CertificationFaqData5, jobFaqData5, MentorshipFaqData5, SupportFaqData5 } from "../components/FAQ/FaqData";
@@ -59,7 +52,6 @@ export default function Home() {
         mTopPara="Boost your career opportunities "
         mTopPara1="by developing relevant skills."
         title="Data Science and AI Program with 100% Job Guarantee"
-        // spanTitleText="with 100% Job Guarantee"
         desc="✓ Domain Orientated approach ✓ Assured placement within 18 months."
         src="/course5.png"
         alt="AiMl Header"
@@ -78,16 +70,6 @@ export default function Home() {
         p44="₹ 16k/month (9 Months)"
         />
       </div>
-      {/* <GetHired 
-        WeekdayBatchDate="Global Recognition : Course Completion Certificate from IBM"
-        WeekendBatchDate="Within 18 months, get placed or avail full refund"
-        Project="15 live industry projects & 3 fresh capstones project"
-        Classes="8+ Domain-electives associated with full-stack modules"
-        OneLine="Specially devised for leadership-level professionals"
-        Interview="Special coding classes for non-programmers"
-        Fee="1,25,000"
-        Subscription="3 Year Subscription"
-      /> */}
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
@@ -104,17 +86,6 @@ export default function Home() {
       <DomainFaq FaqData={DomainFaqCourseData1} />
 
 <CourseReview />
-      {/* <CareerImpact
-      CareerHead="Career Impact"
-      />
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
-        </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div> */}
       <Certificate
         title="Course Completion Certificate from IBM"
         desc="Complete your training with the internationally recognized certificate."
@@ -122,44 +93,12 @@ export default function Home() {
         desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
         src="/DS-AI-1.jpeg"
       />
-      {/* <section className={styles.HiringPartner}>
-        <div>
-        <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
-        <span className={styles.HiringPartnerB}>
-          <Image
-            src="/hiring-5.png"
-            alt="Certificate"
-            quality={100}
-            layout="intrinsic"
-            width="1150px"
-            height="350px"
-          />
-        </span>
-        </div>
-    </section> */}
     <SyllabusNew
           
            syllabus={DataScienceCourseData[0].syllabus}
            syllabusDesc={DataScienceCourseData[0].syllabusDesc}
            popupHead={DataScienceCourseData[0].popupHead}
         />
-      {/* <ToolsCovered 
-      src="/tools-job.png"
-      />
-      <SkillsCovered
-      sc11="Data Collection"
-      sc12="Data Understanding"
-      sc13="Data Cleaning"
-      sc14="Data Munging"
-      sc21="Data Preprocessing"
-      sc22="Data Analysis"
-      sc23="Statistical Analysis"
-      sc24="Dashboard and Storytelling"
-      sc31="Feature Engineering"
-      sc32="Model Creation"
-      sc33="Model Deployment"
-      sc34="and more..."
-      /> */}
       <div className={styles.ctj}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
@@ -169,7 +108,6 @@ export default function Home() {
           <a href="/terms-conditions-job" target="_blank"><button>Terms & Conditions</button></a>
         </div>
       </div>
-      {/* <Domain /> */}
       <OurExpert
         img1="/Wipro.png"
         img2="/4(2).png"
@@ -188,19 +126,6 @@ export default function Home() {
         domain="7+"
         />
       </div>
-      {/* <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
-        </div>
-      </div> */}
-      {/* <HowApply
-      CCourse="Enroll in Data Science and AI Program with Job Guarantee."
-      /> */}
       <Fee
         sub1="Data Science and AI Foundation Program"
         Price1="₹65,000 + GST"

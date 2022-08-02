@@ -50,7 +50,7 @@ const Footer = () => {
           <a href="/about-us"><p className={styles.FooterInnerli}>About Us</p></a>
           <a href="/contact-us"><p className={styles.FooterInnerli}>Contact Us</p></a>
           <a href="/demo"><p className={styles.FooterInnerli}>Demo</p></a>
-          <a href="/blog"><p className={styles.FooterInnerli}>Blogs</p></a>
+          <a href="blog.learnbay.co"><p className={styles.FooterInnerli}>Blogs</p></a>
           <p className={styles.FooterInnerP}>Terms</p>
           <a href="/terms-conditions"><p className={styles.FooterInnerli}>Terms and Conditions</p></a>
           <a href="/refund-cancellation-policy"><p className={styles.FooterInnerli}>Refund/Cancellation policy</p></a>
@@ -60,24 +60,6 @@ const Footer = () => {
           <p className={styles.FooterInnerP}>Get Our Apps On</p>
           <a href="/"><button className={styles.btnout}><FaApple className="bIcons" style={{fontSize:"30px"}}  />Get Our IOS App</button></a>
           <a href="https://play.google.com/store/apps/details?id=com.app.learnbay"><button className={styles.btnout}><FaAndroid className="bIcons" style={{fontSize:"30px"}}  />Get Our Android App</button></a>
-          
-          {/* <Grid item xs={12} md={12} sx={{ height: "200px", width: "100px" }}>
-                <GoogleMapReact
-                  bootstrapURLKeys={{ key: "AIzaSyB5eZjplt5xQnMe2e95aIB9NkTnpyZ-cB0" }}
-                  defaultCenter={{
-                    lat: 12.924735788872667,
-                    lng: 77.631741
-                  }}
-                  defaultZoom={10}
-                  
-                >
-                  <RoomIcon
-                    lat={12.944812455402625}
-                    lng={77.63998074606795}
-                    style={{ color: "red", fontSize: "35px" }}
-                  />
-                </GoogleMapReact>
-              </Grid> */}
         </div>
         </div>
         <div className={styles.FooterDiv} style={{borderTop: "1px solid", borderBottom: "1px solid", borderColor:"#ffffff50"}}>

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styles from "./BoxShape.module.css";
 import { MdOutlineLiveTv } from "react-icons/md";
 import { BsGraphUp } from "react-icons/bs";
-import { TbCertificate } from "react-icons/tb";
 
 import { HomeBoxData } from "./BoxShapeData";
 const BoxShape = () => {

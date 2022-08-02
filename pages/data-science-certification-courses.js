@@ -1,26 +1,20 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/Certificatejob/Certificate";
 import Project from "../components/CoursePage/Project/Project";
-import ToolsCovered from "../components/CoursePage/ToolsCovered/ToolsCovered";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import HowApply from "../components/CoursePage/HowApply/HowApply";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import {DataScienceCourseData} from "../Data/DataScienceCourse";
-import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import Fee from "../components/CoursePage/Fee/Fee";
-import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
 import { FaqData1, PaymentFaqData1, CapstoneFaqData1, CertificationFaqData1, jobFaqData1, MentorshipFaqData1, SupportFaqData1 } from "../components/FAQ/FaqData";
@@ -76,16 +70,6 @@ export default function Home() {
         p44="₹ 8.5k/month (9 Months)"
         />
       </div>
-      {/* <GetHired 
-        WeekdayBatchDate="Specially devised for early professionals"
-        WeekendBatchDate="Special coding classes for non-programmers"
-        Project="Learn directly from MNC experts"
-        Classes="8 live industry projects + 1 fresh Capstone"
-        OneLine="Completely live and interactive learning"
-        Interview="100% interview call guarantee "
-        Fee="65,000"
-        Subscription="1.5 Year Subscription"
-      /> */}
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
@@ -99,17 +83,6 @@ export default function Home() {
           box4desc="Get the diligent experience of real-world projects, spanning from starters, directly from relevant establishments."
         />
       </div>
-      {/* <CareerImpact
-      CareerHead="Career Impact"
-      />
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
-        </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div> */}
           <DomainFaq FaqData={DomainFaqCourseData1} />
 
 <CourseReview />
@@ -126,40 +99,6 @@ export default function Home() {
   syllabusDesc={DataScienceCourseData[0].syllabusDesc}
   popupHead={DataScienceCourseData[0].popupHead}
 />
-
-      {/* <section className={styles.HiringPartner}>
-        <div>
-        <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
-        <span className={styles.HiringPartnerB}>
-          <Image
-            src="/hiring-1.png"
-            alt="Certificate"
-            quality={100}
-            layout="intrinsic"
-            width="1150px"
-            height="350px"
-          />
-        </span>
-        </div>
-    </section> */}
-
-      {/* <ToolsCovered 
-      src="/tools-1.png"
-      />
-      <SkillsCovered
-      sc11="Data Collection"
-      sc12="Data Understanding"
-      sc13="Data Cleaning"
-      sc14="Data Munging"
-      sc21="Data Preprocessing"
-      sc22="Data Analysis"
-      sc23="Statistical Analysis"
-      sc24="Dashboard and Storytelling"
-      sc31="Feature Engineering"
-      sc32="Model Creation"
-      sc33="Model Deployment"
-      sc34="and more..."
-      /> */}
       <div className={styles.ProjectWrapper} id="project">
         <Project
         project="8+"
@@ -178,19 +117,6 @@ export default function Home() {
         />
         <ProgramFee />
         <SliderTab />
-      {/* <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
-        </div>
-      </div>
-      <HowApply
-      CCourse="Enroll in Data Science Foundation Program."
-      /> */}
       <Fee
         sub1="Data Science Foundation Program"
         Price1="₹65,000 + GST"

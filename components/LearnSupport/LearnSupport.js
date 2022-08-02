@@ -2,7 +2,6 @@ import React from "react";
 import { MdCall } from "react-icons/md";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import styles from "./LearnSupport.module.css";
-import Image from "next/image";
 
 function LearnSupport() {
   return (

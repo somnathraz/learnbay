@@ -72,7 +72,7 @@ const Navbar = () => {
               </span>
 
               <span>
-                <Link href="/blog">Blog</Link>
+                <Link href="blog.learnbay.co">Blog</Link>
               </span>
 
               <span>
@@ -140,7 +140,7 @@ const Navbar = () => {
           </span>
 
           <span>
-            <Link href="/blog">Blog</Link>
+            <Link href="blog.learnbay.co">Blog</Link>
           </span>
 
           <span>

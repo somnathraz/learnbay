@@ -4,7 +4,6 @@ import "swiper/css";
 
 import styles from "./BoxShape.module.css";
 import Image from "next/image";
-import Form from "/components/Form/Form";
 import { MdLiveTv } from "react-icons/md";
 import { FiUser } from "react-icons/fi";
 import { BsGraphUp } from "react-icons/bs";

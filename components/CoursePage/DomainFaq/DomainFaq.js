@@ -13,7 +13,6 @@ const DomainFaq = ({FaqData}) => {
         </div>
         <div className={styles.rightSide}>
             <Image src="/Domain-faq-right.png" width="519" height="312" layout="intrinsic"/> 
-         
         </div>
     </div>
   )

@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import styles from "./HeroSection.module.css";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Autoplay } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
 import Image from "next/image";
 import Popup from "/components/Popup/Popup";
@@ -65,7 +63,7 @@ const HeroSection = ({
           </p>
         )}
         {mobile ? (
-          <h1>
+          <h1> 
             {mTitle} <span> {spanMTitleText}</span>
           </h1>
         ) : (

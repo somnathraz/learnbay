@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import {
-  FaArrowRight,
-  FaDownload,
-} from "react-icons/fa";
+  FaArrowRight } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Link from "next/dist/client/link";
 import Popup from "../Popup/Popup";
