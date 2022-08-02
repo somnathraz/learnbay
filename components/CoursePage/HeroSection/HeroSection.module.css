@@ -366,6 +366,7 @@
     grid-template-columns: 100%;
     margin: 70px 0px 0px 0px;
   }
+
   .left {
     padding: 30px 20px;
     display: flex;
@@ -375,20 +376,26 @@
   .left h1 {
     font-size: 24px;
     margin: 0;
-    margin-top: 20px;
+    margin-right: 40px;
+    margin-top: 10px;
     font-weight: bold;
     padding: 0;
   }
-  .left h1 p {
-    color: #2d9cd7;
+  .left h1 span {
+    color: white;
     margin: 0;
-    font-size: 22px;
+    line-height: 45px;
+    display: inline;
+    padding: 5px;
+
+    font-size: 24px;
+    background-color: #edb552;
   }
+
   .left p {
-    font-size: 18px;
+    font-size: 14px;
 
     margin: 0;
-    margin-top: 10px;
   }
   .mobileDivWrapper {
     display: flex;
@@ -494,13 +501,21 @@
     display: none;
   }
   .bottom {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     height: 100%;
     padding: 20px;
+    display: flex;
+    flex-flow: column;
     margin-top: 10px;
+
     border-radius: 20px;
-    background-color: #fff;
   }
+  .bottom h5 {
+    font-size: 22px;
+    margin: 0;
+
+    color: #edb552;
+  }
+
   .gIcon {
     background-color: #2d9cd7;
     font-size: 30px;

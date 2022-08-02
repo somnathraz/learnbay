@@ -44,8 +44,8 @@ const SliderTabs = () => {
             pagination={{
               type: "progressbar",
             }}
-            slidesPerView={mobile ? 2.2 : 2.9}
-            spaceBetween={mobile ? 10 : 30}
+            slidesPerView={mobile ? 1.2 : 2.9}
+            spaceBetween={mobile ? 0 : 30}
             className="mySwiper"
           >
             <SwiperSlide className={styles.slide}>
@@ -343,15 +343,16 @@ const SliderTabs = () => {
                   <p>Trusted Learners</p>
                 </div>
               </div>
-              <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf" target="_blank"><button>Download Brochure</button></a>
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
+                target="_blank"
+              >
+                <button>Download Brochure</button>
+              </a>
             </div>
- 
-           <div className={styles.right}>
-              <Image
-                src="/Bnking domain.png"
-                width="557"
-                height="442"
-              />
+
+            <div className={styles.right}>
+              <Image src="/Bnking domain.png" width="557" height="442" />
             </div>
           </div>
         ) : (
@@ -386,9 +387,13 @@ const SliderTabs = () => {
                   <h4>Global</h4>
                   <p>Accreditation</p>
                 </div>
-
               </div>
-                            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf" target="_blank"><button>Download Brochure</button></a>
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+                target="_blank"
+              >
+                <button>Download Brochure</button>
+              </a>
             </div>
             <div className={styles.right}>
               <Image src="/gobal-industry.webp" width="504" height="383" />
@@ -428,9 +433,13 @@ const SliderTabs = () => {
                   <h4>1:1 Daily</h4>
                   <p>Doubt Session</p>
                 </div>
-
               </div>
-                            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf" target="_blank"><button>Download Brochure</button></a>
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Media%2C+Hospitality+and+Transportation+Domain.pdf"
+                target="_blank"
+              >
+                <button>Download Brochure</button>
+              </a>
             </div>
             <div className={styles.right}>
               <Image
@@ -472,9 +481,13 @@ const SliderTabs = () => {
                   <h4>1:1 Daily</h4>
                   <p>Doubt Session</p>
                 </div>
-
               </div>
-                            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf" target="_blank"><button>Download Brochure</button></a>
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf"
+                target="_blank"
+              >
+                <button>Download Brochure</button>
+              </a>
             </div>
             <div className={styles.right}>
               <Image src="/flexibility-support.webp" width="479" height="412" />
@@ -514,9 +527,13 @@ const SliderTabs = () => {
                   <h4>1:1 Daily</h4>
                   <p>Doubt Session</p>
                 </div>
-
               </div>
-                            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf" target="_blank"><button>Download Brochure</button></a>
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+                target="_blank"
+              >
+                <button>Download Brochure</button>
+              </a>
             </div>
             <div className={styles.right}>
               <Image src="/flexibility-support.webp" width="479" height="412" />
@@ -555,9 +572,13 @@ const SliderTabs = () => {
                   <h4>1:1 Daily</h4>
                   <p>Doubt Session</p>
                 </div>
-
               </div>
-                            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf" target="_blank"><button>Download Brochure</button></a>
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
+                target="_blank"
+              >
+                <button>Download Brochure</button>
+              </a>
             </div>
             <div className={styles.right}>
               <Image src="/flexibility-support.webp" width="479" height="412" />
@@ -596,9 +617,13 @@ const SliderTabs = () => {
                   <h4>1:1 Daily</h4>
                   <p>Doubt Session</p>
                 </div>
-
               </div>
-                            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf" target="_blank"><button>Download Brochure</button></a>
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf"
+                target="_blank"
+              >
+                <button>Download Brochure</button>
+              </a>
             </div>
             <div className={styles.right}>
               <Image src="/flexibility-support.webp" width="479" height="412" />
@@ -635,9 +660,13 @@ const SliderTabs = () => {
                   <h4>1:1 Daily</h4>
                   <p>Doubt Session</p>
                 </div>
-
               </div>
-                            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Development+and+Testing+Domain.pdf" target="_blank"><button>Download Brochure</button></a>
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Development+and+Testing+Domain.pdf"
+                target="_blank"
+              >
+                <button>Download Brochure</button>
+              </a>
             </div>
             <div className={styles.right}>
               <Image src="/flexibility-support.webp" width="479" height="412" />
@@ -675,9 +704,13 @@ const SliderTabs = () => {
                   <h4>1:1 Daily</h4>
                   <p>Doubt Session</p>
                 </div>
-
               </div>
-                            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf" target="_blank"><button>Download Brochure</button></a>
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
+                target="_blank"
+              >
+                <button>Download Brochure</button>
+              </a>
             </div>
             <div className={styles.right}>
               <Image src="/flexibility-support.webp" width="479" height="412" />
@@ -716,10 +749,15 @@ const SliderTabs = () => {
                   <p>Doubt Session</p>
                 </div>
               </div>
-              <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Cloud+and+Devops+Domain.pdf" target="_blank"><button>Download Brochure</button></a>           
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Cloud+and+Devops+Domain.pdf"
+                target="_blank"
+              >
+                <button>Download Brochure</button>
+              </a>
             </div>
- 
-          <div className={styles.right}>
+
+            <div className={styles.right}>
               <Image src="/flexibility-support.webp" width="479" height="412" />
             </div>
           </div>

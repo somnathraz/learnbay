@@ -276,6 +276,9 @@
 }
 
 @media (max-width: 481px) {
+  .program {
+    height: 390px;
+  }
   .container {
     padding: 0 0rem;
   }

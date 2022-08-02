@@ -62,6 +62,8 @@ export default function Home() {
         <FirstSection
           deskTopPara="Choose Specialization over Generalization"
           mTopPara="Choose Specialization over Generalization"
+          mTitle="Advanced Data Science and AI Program with"
+          spanMTitleText="Domain Specialization"
           title="Advanced Data Science and AI Program"
           spanTitleText="with Domain Specialization"
           desc="Make an impression as a seasoned applicant. With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."

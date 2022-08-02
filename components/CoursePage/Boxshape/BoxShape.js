@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import { Pagination } from "swiper";
+
 import styles from "./BoxShape.module.css";
 import Image from "next/image";
 import Form from "/components/Form/Form";
@@ -84,21 +82,15 @@ const BoxShape = ({
         </div>
         <div className={styles.right}>
           <div className={styles.imgBack}>
-            <h5>
-              How Domain Specialization has helped our learners to expand their
-              career
-            </h5>
+            <h5>How domain specialization helped our students succeed</h5>
             <div className={styles.reviewWrap}>
               <Swiper
                 slidesPerView={mobile ? 1 : 1}
                 spaceBetween={mobile ? 10 : 20}
-                pagination={true}
                 grabCursor={true}
-                modules={[Pagination]}
                 className="mySwiper"
-                style={{ paddingBottom: "30px" }}
               >
-                <SwiperSlide>
+                <SwiperSlide className={styles.swiperSlideer}>
                   <p>
                     Learnbay taught me data science. Thanks to Learnabay's
                     domain specialization course, I landed a job in my prior

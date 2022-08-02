@@ -94,7 +94,7 @@ const Navbar = () => {
             <button
               onClick={() => {
                 setIcon(!icon);
-                setShow(!show);
+                setShow(false);
               }}
               className="hoverBtn"
             >
@@ -107,7 +107,7 @@ const Navbar = () => {
               onMouseOver={() => setIcon(true)}
               onClick={() => {
                 setIcon(!icon);
-                setShow(!show);
+                setShow(false);
               }}
               className="hoverBtn"
             >
