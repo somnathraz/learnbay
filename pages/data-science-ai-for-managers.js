@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTab4";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Project from "../components/CoursePage/Project/Project";
 import ToolsCovered from "../components/CoursePage/ToolsCovered/ToolsCovered";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
@@ -16,6 +17,7 @@ import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import OtherCertificate from "../components/CoursePage/OtherCertificate6/OtherCertificate";
+import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import CareerImpact from "../components/CoursePage/CareerImpact/CareerImpact";
 import {DataScienceCourseData} from "../Data/DataScienceCourse";
 import Domain from "../components/CoursePage/Domain/Domain";
@@ -24,6 +26,9 @@ import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered"
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData4, DomainFaqData4, PaymentFaqData4, CapstoneFaqData4, CertificationFaqData4, jobFaqData4, MentorshipFaqData4, SupportFaqData4 } from "../components/FAQ/FaqData";
+import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
 
  
 export default function Home() {
@@ -73,7 +78,7 @@ export default function Home() {
         p44="₹ 12k/month (9 Months)"
         />
       </div>
-      <GetHired 
+      {/* <GetHired 
         WeekdayBatchDate="Global Recognition : Earn 6 micro-skill certificates by IBM"
         WeekendBatchDate="Special Project Management module as per industrial requirement"
         Project="12+ domain electives to choose from "
@@ -82,7 +87,7 @@ export default function Home() {
         Interview="Assured interview calls from 250+ recruiter network"
         Fee="95,000"
         Subscription="3 Year Subscription"
-      />
+      /> */}
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
@@ -96,19 +101,11 @@ export default function Home() {
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
         />
       </div>
-      <CareerImpact
-      CareerHead="Career Impact"
-      />
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
-        </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div>
-      <Certificate />
-      <OtherCertificate
+      <DomainFaq FaqData={DomainFaqCourseData1} />
+
+        <CourseReview />
+        <Certificate />
+        <OtherCertificate
           OCHead1="Machine Learning with Python"
           OCP1="Validate your python expertise for ML algo designing."
           OCHead2="Python for Data Science"
@@ -122,7 +119,38 @@ export default function Home() {
           OCHead6="Sectoral Analytics Fundamentals – Finance"
           OCP6="Obtain certification in the use of analytical best practices in financial decision-making."
       />
-      <section className={styles.HiringPartner}>
+
+        <SyllabusNew
+          syllabus={DataScienceCourseData[0].syllabus}
+          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          popupHead={DataScienceCourseData[0].popupHead}
+        />
+        <OurExpert
+        img1="/Wipro.png"
+        img2="/4(2).png"
+        img3="/Capgemini.png"
+        img4="/Flipkart.png"
+        img5="/TCS.png"
+        img6="/Myntra.png"
+        img7="/Microsoft.png"
+        img8="/Google.png"
+        />
+        <ProgramFee />
+        <SliderTab />
+      {/* <CareerImpact
+      CareerHead="Career Impact"
+      />
+      <div className={styles.ExpertWrapper}>
+        <div className={styles.expert}>
+          <h5>Our experts are from:</h5>
+        </div>
+        <div className={styles.expertBody}>
+          <OurExpert />
+        </div>
+      </div>
+      <Certificate /> */}
+      
+      {/* <section className={styles.HiringPartner}>
         <div>
         <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
         <span className={styles.HiringPartnerB}>
@@ -165,15 +193,15 @@ export default function Home() {
       sc34="Model Deployment"
       sc35="Critical Thinking"
       sc36="Function & Formulas"
-      />
-      <Domain />
+      /> */}
+      {/* <Domain /> */}
       <div className={styles.ProjectWrapper} id="project">
         <Project
         project="15+"
         domain="7+"
         />
       </div>
-      <div className={styles.cta}>
+      {/* <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
           <h6>Talk to our team directly.</h6>
@@ -185,7 +213,7 @@ export default function Home() {
       </div>
       <HowApply
       CCourse="Enroll in Data Science and AI for Managers and Leaders course."
-      />
+      /> */}
       <Fee
         sub1="Data Science and AI Foundation Program"
         Price1="₹65,000 + GST"
@@ -218,7 +246,7 @@ export default function Home() {
         PFeatures36="Yes"
         PFeatures37="Yes"
         PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
-      />
+      /> 
       <CourseFee 
       CourseFeeHead="Data Science & AI For Managers Program : Batch Details"
       CourseFeePara="Online Classroom"

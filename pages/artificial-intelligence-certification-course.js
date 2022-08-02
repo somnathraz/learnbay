@@ -24,6 +24,12 @@ import SkillsCovered from "../components/CoursePage/SkillsCovered/SkillsCovered"
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
 import { FaqData3, DomainFaqData3, PaymentFaqData3, CapstoneFaqData3, CertificationFaqData3, jobFaqData3, MentorshipFaqData3, SupportFaqData3 } from "../components/FAQ/FaqData";
+import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
+import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+
 
  
 export default function Home() {
@@ -74,7 +80,7 @@ export default function Home() {
         p44="₹ 12k/month (9 Months)"
         />
       </div>
-      <GetHired 
+      {/* <GetHired 
         WeekdayBatchDate="4 IBM Certified AI/ML micro-skill certificates"
         WeekendBatchDate="Specially curated syllabus for technical professionals"
         Project="IT-specific domain-oriented full-stack learning with 8+ domains to choose from"
@@ -84,7 +90,7 @@ export default function Home() {
         Fee="95,000"
         Subscription="3 Year Subscription"
 
-      />
+      /> */}
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
@@ -98,7 +104,7 @@ export default function Home() {
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
         />
       </div>
-      <CareerImpact
+      {/* <CareerImpact
       CareerHead="Career Impact"
       />
       <div className={styles.ExpertWrapper}>
@@ -108,8 +114,11 @@ export default function Home() {
         <div className={styles.expertBody}>
           <OurExpert />
         </div>
-      </div>
-      <Certificate />
+      </div> */}
+            <DomainFaq FaqData={DomainFaqCourseData1} />
+
+<CourseReview />
+<Certificate />
       <OtherCertificate
           OCHead1="Deep Learning Fundamentals"
           OCP1="Earn industrial badge on neural networks, and convolutional networks like DL skills."
@@ -120,7 +129,24 @@ export default function Home() {
           OCHead4="Accelerating Deep Learning with GPUs"
           OCP4="Industrial badge on GPU handling mastery for Cloud, AI & ML."
       />
-      <section className={styles.HiringPartner}>
+      <SyllabusNew
+          syllabus={DataScienceCourseData[0].syllabus}
+          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          popupHead={DataScienceCourseData[0].popupHead}
+        />
+        <OurExpert
+        img1="/Wipro.png"
+        img2="/4(2).png"
+        img3="/Capgemini.png"
+        img4="/Flipkart.png"
+        img5="/TCS.png"
+        img6="/Myntra.png"
+        img7="/Microsoft.png"
+        img8="/Google.png"
+        />
+        <ProgramFee />
+        <SliderTab />
+      {/* <section className={styles.HiringPartner}>
         <div>
         <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
         <span className={styles.HiringPartnerB}>
@@ -134,8 +160,8 @@ export default function Home() {
           />
         </span>
         </div>
-    </section>
-    <SyllabusNew
+    </section> */}
+    {/* <SyllabusNew
           
           syllabus={DataScienceCourseData[0].syllabus}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
@@ -164,14 +190,14 @@ export default function Home() {
       sc35="Critical Thinking"
       sc36="Function & Formulas"
       />
-      <Domain />
+      <Domain /> */}
       <div className={styles.ProjectWrapper} id="project">
         <Project
         project="12+"
         domain="7+"
         />
       </div>
-      <div className={styles.cta}>
+      {/* <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
           <h6>Talk to our team directly.</h6>
@@ -180,10 +206,10 @@ export default function Home() {
         <div className={styles.right}>
           <button onClick={popupShow}>Enquire Now</button>
         </div>
-      </div>
-      <HowApply
+      </div> */}
+      {/* <HowApply
       CCourse="Enroll in AI and ML Program with Domain Specialization."
-      />
+      /> */}
       <Fee
         sub1="Data Science and AI Foundation Program"
         Price1="₹65,000 + GST"

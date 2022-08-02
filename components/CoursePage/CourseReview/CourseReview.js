@@ -384,7 +384,7 @@ const CourseReview = () => {
                     <div className={styles.contentRight}>
                       <div className={styles.name}>
                       <p>Working at Amanthya</p>
-                      <h5>Saurab Maurya</h5>
+                      <h5>Sourabh Mourya</h5>
                       </div>
                       <div>
                       <p className={styles.para}>
@@ -400,7 +400,7 @@ const CourseReview = () => {
                     </div>
                     <div className={styles.cIcon}>
                       <Image
-                        src="/amantya.png"
+                        src="/HCL.png"
                         width="400"
                         height="50"
                         layout="intrinsic"

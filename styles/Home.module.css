@@ -294,6 +294,7 @@
   }
   .boxp {
     margin: 0px;
+    margin-top: 10px;
     text-align: center;
     color: #6c6c6c;
     font-size: 14px;

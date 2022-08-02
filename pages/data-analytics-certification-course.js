@@ -20,7 +20,12 @@ import SkillsCovered from "../components/SkillsCovered6/SkillsCovered";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
 import React, { useState } from "react";
 import { FaqData6, PaymentFaqData6, CapstoneFaqData6, CertificationFaqData6, jobFaqData6, MentorshipFaqData6, SupportFaqData6 } from "../components/FAQ/FaqData";
-import {DataScienceCourseData} from "../Data/DataScienceCourse"
+import { DataScienceCourseData } from "../Data/DataScienceCourse";
+import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
  
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -70,7 +75,7 @@ export default function Home() {
         p44="₹ 11.8k/month (6 Months)"
         />
       </div>
-      <GetHired 
+      {/* <GetHired 
         WeekdayBatchDate="Best in class industrial training with live projects"
         WeekendBatchDate="250+ employer allowance & 100% interview guarantee"
         Project="Career guidance from industrial experts"
@@ -80,7 +85,7 @@ export default function Home() {
         Fee="60,000"
         Subscription="1.5 Year Subscription"
 
-      />
+      /> */}
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
@@ -94,7 +99,25 @@ export default function Home() {
           box4desc="Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies."
         />
       </div>
-      <CareerImpact
+      <DomainFaq FaqData={DomainFaqCourseData1} />
+
+<CourseReview />
+<Certificate
+        title="Course Completion Certificate from IBM"
+        desc="Complete your training with the internationally recognized certificate."
+        desc2 ="Validate your Data Analytics skills with IBM Course Completion Certificate."
+        desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
+        src="/BA-DA.jpeg"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+Program.pdf"
+
+      />
+
+<SyllabusNew
+  syllabus={DataScienceCourseData[0].syllabus}
+  syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+  popupHead={DataScienceCourseData[0].popupHead}
+/>
+      {/* <CareerImpact
       CareerHead="Career Impact"
       />
       <div className={styles.ExpertWrapper}>
@@ -104,17 +127,9 @@ export default function Home() {
         <div className={styles.expertBody}>
           <OurExpert />
         </div>
-      </div>
-      <Certificate
-        title="Course Completion Certificate from IBM"
-        desc="Complete your training with the internationally recognized certificate."
-        desc2 ="Validate your Data Analytics skills with IBM Course Completion Certificate."
-        desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-        src="/BA-DA.jpeg"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+Program.pdf"
-
-      />
-      <section className={styles.HiringPartner}>
+      </div> */}
+      
+      {/* <section className={styles.HiringPartner}>
         <div>
         <h4 style={{ marginBottom: "20px", textAlign:"center" }}>In Collaboration with 250+ Hiring Partners</h4>
         <span className={styles.HiringPartnerB}>
@@ -128,14 +143,9 @@ export default function Home() {
           />
         </span>
         </div>
-    </section>
-    <SyllabusNew
-          
-           syllabus={DataScienceCourseData[0].syllabus}
-           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-           popupHead={DataScienceCourseData[0].popupHead}
-        />
-      <ToolsCovered 
+    </section> */}
+
+      {/* <ToolsCovered 
       src="/tools-da.png"
       />
       <SkillsCovered
@@ -151,14 +161,26 @@ export default function Home() {
       sc32="Critical Thinking"
       sc33="Decision Analytics"
       sc34="and more..."
-      />
+      /> */}
+              <OurExpert
+        img1="/Wipro.png"
+        img2="/4(2).png"
+        img3="/Capgemini.png"
+        img4="/Flipkart.png"
+        img5="/TCS.png"
+        img6="/Myntra.png"
+        img7="/Microsoft.png"
+        img8="/Google.png"
+        />
+        <ProgramFee />
+        <SliderTab />
       <div className={styles.ProjectWrapper} id="project">
         <Project
         project="6+"
         domain="7+"
         />
       </div>
-      <div className={styles.cta}>
+      {/* <div className={styles.cta}>
         <div className={styles.left}></div>
         <div className={styles.middle}>
           <h6>Talk to our team directly.</h6>
@@ -170,7 +192,7 @@ export default function Home() {
       </div>
       <HowApply
       CCourse="Enroll in IBM Certified Data Analytics Program."
-      />
+      /> */}
       <CourseFee 
       CourseFeeHead="Data Analytics Program : Batch Details"
       CourseFeePara="Online Classroom"
