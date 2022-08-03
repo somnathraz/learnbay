@@ -56,7 +56,7 @@ export default function Home() {
         desc="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
         src="/course4.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+For+Managers+and+Leaders+Program.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf"
 
       />
       <div className={styles.program}>

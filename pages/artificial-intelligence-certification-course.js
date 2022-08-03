@@ -58,7 +58,7 @@ export default function Home() {
         desc="With demanding industry projects, you can acquire the most advanced technical expertise possible. Be a master even without a master's degree."
         src="/course3.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Artificial+Intelligence+and+Machine+Learning+Program.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
 
       />
       <div className={styles.program}>

@@ -54,7 +54,7 @@ export default function Home() {
         desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
         src="/course6.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+Program.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
       />
       <div className={styles.program}>
         <ProgramInfo
@@ -90,7 +90,7 @@ export default function Home() {
         desc2 ="Validate your Data Analytics skills with IBM Course Completion Certificate."
         desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
         src="/BA-DA.jpeg"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+Program.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
 
       />
 

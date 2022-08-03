@@ -55,7 +55,7 @@ export default function Home() {
         desc="✓ Domain Orientated approach ✓ Assured placement within 18 months."
         src="/course5.png"
         alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/JOB+GUARANTEE+DSAI.pdf"
 
       />
       <div className={styles.program}>

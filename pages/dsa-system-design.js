@@ -5,22 +5,23 @@ import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
-import Certificate from "../components/CoursePage/Certificatejob/Certificate";
-import Project from "../components/CoursePage/Project/Project";
+import Certificate from "../components/CoursePage/CertificateTab/CertificateTabWeb";
+import Project from "../components/CoursePage/Projectfswd/Project";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
-import FAQNew from "../components/FAQNew/FAQNewDomain";
-import React, { useState } from "react";
-import { FaqData7, PaymentFaqData7, CapstoneFaqData7, CertificationFaqData7, jobFaqData7, MentorshipFaqData7, SupportFaqData7 } from "../components/FAQ/FaqData";
-import { DataScienceCourseData } from "../Data/DataScienceCourse";
-import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
 import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
-import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
- 
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
+import FAQNew from "../components/FAQNew/FAQNewDomain";
+import React, { useState } from "react";
+import { FaqData8, PaymentFaqData8, CapstoneFaqData8, CertificationFaqData8, jobFaqData8, MentorshipFaqData8, SupportFaqData8 } from "../components/FAQ/FaqData";
+
+  
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -46,57 +47,47 @@ export default function Home() {
         </div>
       </Popup>
       <FirstSection
-       deskTopPara="Develop Work-Ready Skills"
-        deskTopPara1="You Can Use Right Away"
-        mTopPara="Develop Work-Ready Skills"
-        mTopPara1="You Can Use Right Away"
-        title="Business Analytics Certification Program"
-        desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
-        src="/course7.png"
-        alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
-
+        deskTopPara="Be a demanding Developer to stay ahead"
+        mTopPara="Be a demanding Developer to stay ahead"
+        title="Full Stack Web Development Program"
+        desc="Archive a stunning appearance in the job market as a seasoned web developer. Learn the ninja techniques from MNC experts via real-time projects."
+        src="/header-home.webp"
+        alt="Full Stack"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSA+%26+System+Design.pdf"
       />
       <div className={styles.program}>
         <ProgramInfo
-        p1="Aimed for"
-        p11="Early professionals"
-        p2="12 LPA - 20 LPA"
+        p1="Custom-fit"
+        p11="Aid for Product MNCs"
+        p2="60 LPA to 95 LPA"
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
         p4="No Cost EMI"
-        p44="₹ 12.8k/month (6 Months)"
+        p44="₹ 9k to 15k*(9 Months)"
         />
       </div>
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
           Box1h5="Custom-fit Training"
-          box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
-          Box2h5="Exclusive Hackathons"
-          box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
+          box1desc="Learn with modules created just for your dream job. Become  an extraordinarily demanding web developer."
+          Box2h5="Interactive Learning"
+          box2desc="Enjoy an offline-like learning experience, even online. 100% interactive and live classes. Hybrid learning option also available."
           Box3h5="Premium Mentoring"
-          box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
+          box3desc="Take advantage of MAANG web developer simulated mock interviews. Hone your skills through webathons."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
+          box4desc="Gain diligent experience in real-world projects ranging from advanced level complexity to amazing deployment scopes."
         />
       </div>
       <DomainFaq FaqData={DomainFaqCourseData1} />
-<CourseReview />
-<Certificate
-        title="Course Completion Certificate from IBM"
-        desc="Complete your training with the internationally recognized certificate."
-        desc2 ="Validate your Business Analytics skills with IBM Course Completion Certificate."
-        desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-        src="/BA-DA.jpeg"
-      />
-
-<SyllabusNew
-  syllabus={DataScienceCourseData[0].syllabus}
-  syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-  popupHead={DataScienceCourseData[0].popupHead}
-/>
+      <CourseReview />
+        <Certificate />
+    <SyllabusNew
+          syllabus={FullStackSoftwareCourseData[0].syllabus}
+          syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
+          popupHead={FullStackSoftwareCourseData[0].popupHead}
+        />
         <OurExpert
         img1="/Wipro.png"
         img2="/4(2).png"
@@ -107,27 +98,26 @@ export default function Home() {
         img7="/Microsoft.png"
         img8="/Google.png"
         />
-        <ProgramFee />
-        <SliderTab />
+            <ProgramFee />
+    <SliderTab />
       <div className={styles.ProjectWrapper} id="project">
         <Project
-        project="5+"
+        project="12+"
         domain="7+"
         />
       </div>
       <CourseFee 
-      CourseFeeHead="Business Analytics Program : Batch Details"
+      CourseFeeHead="Full Stack Web Development: Batch Details"
       CourseFeePara="Online Classroom"
       CourseFeelist1="Online Interactive Classes"
       CourseFeelist2="Weekend and Weekday Batches"
       CourseFeelist3="Extra Doubt Clearance Sessions"
-      CourseFeelist4="Project-Based Learning"
+      CourseFeelist4="Multiple Domain Selection Options"
       CourseFeelist5="Company-based Mock Interviews"
 
       />
       <ReferSection />
-      <FAQNew FaqDatas={FaqData7} PaymentFaqDatas={PaymentFaqData7} CapstoneFaqDatas={CapstoneFaqData7} CertificationFaqDatas={CertificationFaqData7} jobFaqDatas={jobFaqData7} MentorshipFaqDatas={MentorshipFaqData7} SupportFaqDatas={SupportFaqData7} />
-
+      <FAQNew FaqDatas={FaqData8} PaymentFaqDatas={PaymentFaqData8} CapstoneFaqDatas={CapstoneFaqData8} CertificationFaqDatas={CertificationFaqData8} jobFaqDatas={jobFaqData8} MentorshipFaqDatas={MentorshipFaqData8} SupportFaqDatas={SupportFaqData8} />
       </main> 
     </div>
   )
