@@ -6,7 +6,7 @@ export const viewAllD = [
     title1: "Foundation Program",
     tag:"Data science",
     para: [
-      "225 hours of Interactive Learning",
+      "200 hours of Interactive Learning",
       "8 Projects + 1 Capstone",
       "Course Fee : ₹ 65,000 + GST",
     ],
@@ -21,7 +21,7 @@ export const viewAllD = [
     title1: "& AI Program",
     tag:"Data science",
     para: [
-      "275 hours of Interactive Learning",
+      "250 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 79,000 + GST",
     ],
@@ -36,7 +36,7 @@ export const viewAllD = [
     title1: "for Tech Professionals",
     tag:"Data science",
     para: [
-      "300 hours of Interactive Learning",
+      "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
@@ -51,7 +51,7 @@ export const viewAllD = [
     title1: "For Managers",
     tag:"Data science",
     para: [
-      "350 hours of Interactive Learning",
+      "400 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
@@ -66,7 +66,7 @@ export const viewAllD = [
     title1: "Job Guarantee Program",
     tag:"Data science",
     para: [
-      "400 hours of Interactive Learning",
+      "500 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
@@ -112,7 +112,7 @@ export const viewAllD = [
     title1: "Development Program",
     tag:"Full stack",
     para: [
-      "350 hours of Interactive Learning",
+      "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,20,000 + GST",
     ],
@@ -127,7 +127,7 @@ export const viewAllD = [
     title1: "Development Program",
     tag:"Full stack",
     para: [
-      "400 hours of Interactive Learning",
+      "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
@@ -159,7 +159,7 @@ export const ForProgrammersD = [
     tag:"Data science",
     title1: "& AI Program",
     para: [
-      "275 hours of Interactive Learning",
+      "250 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 79,000 + GST",
     ],
@@ -174,7 +174,7 @@ export const ForProgrammersD = [
     tag:"Full stack",
     title1: "Development Program",
     para: [
-      "400 hours of Interactive Learning",
+      "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
@@ -189,8 +189,8 @@ export const ForProgrammersD = [
     tag:"Data science",
     title1: "For Managers",
     para: [
-      "350 hours of Interactive Learning",
-      "15 Projects + 2 Capstones",
+      "400 hours of Interactive Learning",
+      "40 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
     link1: "/data-science-ai-for-managers",
@@ -204,7 +204,7 @@ export const ForProgrammersD = [
     tag:"Data science",
     title1: "for Tech Professionals",
     para: [
-      "300 hours of Interactive Learning",
+      "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
@@ -219,7 +219,7 @@ export const ForProgrammersD = [
     tag:"Full stack",
     title1: "Development Program",
     para: [
-      "350 hours of Interactive Learning",
+      "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,20,000 + GST",
     ],
@@ -234,7 +234,7 @@ export const ForProgrammersD = [
     title1: "Job Guarantee Program",
     tag:"Data science",
     para: [
-      "400 hours of Interactive Learning",
+      "500 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
@@ -266,7 +266,7 @@ export const ForNonProgrammerD = [
     title1: "Foundation Program",
     tag:"Data science",
     para: [
-      "225 hours of Interactive Learning",
+      "200 hours of Interactive Learning",
       "8 Projects + 1 Capstone",
       "Course Fee : ₹ 65,000 + GST",
     ],
@@ -281,7 +281,7 @@ export const ForNonProgrammerD = [
     title1: "& AI Program",
     tag:"Data science",
     para: [
-      "275 hours of Interactive Learning",
+      "250 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 79,000 + GST",
     ],
@@ -296,7 +296,7 @@ export const ForNonProgrammerD = [
     title1: "for Tech Professionals",
     tag:"Data science",
     para: [
-      "300 hours of Interactive Learning",
+      "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
@@ -311,7 +311,7 @@ export const ForNonProgrammerD = [
     title1: "For Managers",
     tag:"Data science",
     para: [
-      "350 hours of Interactive Learning",
+      "400 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
@@ -326,7 +326,7 @@ export const ForNonProgrammerD = [
     title1: "Job Guarantee Program",
     tag:"Data science",
     para: [
-      "400 hours of Interactive Learning",
+      "500 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
@@ -360,7 +360,7 @@ export const JobGuaranteeD = [
     title1: "Job Guarantee Program",
     tag:"Data science",
     para: [
-      "400 hours of Interactive Learning",
+      "500 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
@@ -375,7 +375,7 @@ export const JobGuaranteeD = [
     title1: "Development Program",
     tag:"Full stack",
     para: [
-      "350 hours of Interactive Learning",
+      "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,20,000 + GST",
     ],
@@ -392,7 +392,7 @@ export const StackD = [
     title1: "Development Program",
     tag:"Full stack",
     para: [
-      "350 hours of Interactive Learning",
+      "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,20,000 + GST",
     ],
@@ -407,7 +407,7 @@ export const StackD = [
     title1: "Development Program",
     tag:"Full stack",
     para: [
-      "400 hours of Interactive Learning",
+      "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],

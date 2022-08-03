@@ -17,7 +17,7 @@ a {
 }
 
 button {
-  padding: 15px 20px;
+  padding: 12px 30px;
   outline: none;
   background-color: #0072bc;
   color: white;
@@ -291,8 +291,9 @@ h4 {
     margin-bottom: 20px;
   }
   .pTopp {
-    font-size: 14px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
     padding: 0;
     color: #0072bc;
   }

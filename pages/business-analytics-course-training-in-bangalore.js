@@ -59,6 +59,8 @@ export default function Home() {
         title="Business Analytics Course Training In Bangalore "
         desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
         src="/course7.png"
+        width="900"
+        height="762"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
 

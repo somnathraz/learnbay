@@ -22,7 +22,6 @@
   background: #ffffff;
   box-shadow: 4px 4px 20px rgba(41, 121, 173, 0.25);
   border-radius: 34px;
-  margin-bottom: 45px;
 }
 .content {
   display: grid;
@@ -91,7 +90,7 @@
   color: #000;
 }
 .bottomReview {
-  margin-top: -180px;
+  margin-top: -120px;
   padding: 30px 100px;
   padding-top: 140px;
   display: flex;
@@ -129,7 +128,7 @@
 }
 @media (max-width: 481px) {
   .reviewWrap {
-    padding: 30px 20px;
+    padding: 30px 20px 0px 20px;
   }
   .swiperleft {
     width: 100%;

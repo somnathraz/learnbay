@@ -41,7 +41,7 @@ const CareerImpact = () => {
                         layout="intrinsic"
                       />
                       <div className={styles.leftBottomC}>
-                        <h5>235%</h5>
+                        <h5>240%</h5>
                         <p>Salary Hike</p>
                       </div>
                     </div>
@@ -104,7 +104,7 @@ const CareerImpact = () => {
                         layout="intrinsic"
                       />
                       <div className={styles.leftBottomC}>
-                        <h5>234%</h5>
+                        <h5>200%</h5>
                         <p>Salary Hike</p>
                       </div>
                     </div>
@@ -163,7 +163,7 @@ const CareerImpact = () => {
                         layout="intrinsic"
                       />
                       <div className={styles.leftBottomC}>
-                        <h5>245%</h5>
+                        <h5>120%</h5>
                         <p>Salary Hike</p>
                       </div>
                     </div>
@@ -216,7 +216,7 @@ const CareerImpact = () => {
                         layout="intrinsic"
                       />
                       <div className={styles.leftBottomC}>
-                        <h5>260%</h5>
+                        <h5>100%</h5>
                         <p>Salary Hike</p>
                       </div>
                     </div>
@@ -269,7 +269,7 @@ const CareerImpact = () => {
                         layout="intrinsic"
                       />
                       <div className={styles.leftBottomC}>
-                        <h5>230%</h5>
+                        <h5>125%</h5>
                         <p>Salary Hike</p>
                       </div>
                     </div>
@@ -320,7 +320,7 @@ const CareerImpact = () => {
                         layout="intrinsic"
                       />
                       <div className={styles.leftBottomC}>
-                        <h5>258%</h5>
+                        <h5>147%</h5>
                         <p>Salary Hike</p>
                       </div>
                     </div>
@@ -373,7 +373,7 @@ const CareerImpact = () => {
                         layout="intrinsic"
                       />
                       <div className={styles.leftBottomC}>
-                        <h5>250%</h5>
+                        <h5>142%</h5>
                         <p>Salary Hike</p>
                       </div>
                     </div>

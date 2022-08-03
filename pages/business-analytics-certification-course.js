@@ -53,6 +53,8 @@ export default function Home() {
         title="Business Analytics Certification Program"
         desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
         src="/course7.png"
+        width="900"
+        height="762"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
 

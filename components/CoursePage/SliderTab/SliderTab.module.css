@@ -62,7 +62,7 @@
   cursor: pointer;
   border-radius: 8px;
   justify-content: start;
-  background-color: #2979ad;
+  background-color: #2979ad !important;
   color: white;
 }
 .span {
@@ -223,11 +223,12 @@
     padding-left: 0;
   }
   .listPanel span {
-    font-size: 14px;
+    font-size: 16px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 15px 10px;
+    background-color: aliceblue;
   }
   .listPanel .gridPanel {
     grid-template-columns: 85% 85% 85% 85% 85% 85% 85%;

@@ -52,6 +52,8 @@ export default function Home() {
         title="Full Stack Web Development Program"
         desc="Archive a stunning appearance in the job market as a seasoned web developer. Learn the ninja techniques from MNC experts via real-time projects."
         src="/header-home.webp"
+        width="900"
+        height="762"
         alt="Full Stack"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSA+%26+System+Design.pdf"
       />
