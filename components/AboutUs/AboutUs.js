@@ -79,7 +79,14 @@ function AboutUs() {
               </div>
             </div>
           </div>
-          <div className={styles.MiddleImg}></div>
+          <div className={styles.MiddleImg}>
+            <Image
+              src="/vision.png"
+              width="517"
+              height="330"
+              layout="intrinsic"
+            />
+          </div>
         </div>
       </div>
       <div className={styles.Placement}>

@@ -252,7 +252,7 @@ const MultiTabs = () => {
               </div>
             </div>
             <div className={styles.right}>
-              <Image src="/flexibility-support.webp" width="479" height="412" />
+              <Image src="/flexibility-support.webp" width="478" height="474" />
             </div>
           </div>
         ) : (
