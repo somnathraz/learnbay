@@ -65,6 +65,8 @@ export default function Home() {
           spanTitleText="with Domain Specialization"
           desc="Make an impression as a seasoned applicant. With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
           src="/course2.png"
+          width="900"
+          height="762"
           alt="AiMl Header"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf"
         />

@@ -15,6 +15,8 @@ const HeroSection = ({
   spanMTitleText,
   desc,
   mTopPara,
+  width,
+  height,
   src,
   alt,
   srcD,
@@ -63,7 +65,7 @@ const HeroSection = ({
           </p>
         )}
         {mobile ? (
-          <h1> 
+          <h1>
             {mTitle} <span> {spanMTitleText}</span>
           </h1>
         ) : (
@@ -109,8 +111,8 @@ const HeroSection = ({
           src={src}
           alt={alt}
           layout="intrinsic"
-          width="900"
-          height="762"
+          width={width}
+          height={height}
         />
       </div>
     </section>

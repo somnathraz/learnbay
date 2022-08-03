@@ -25,15 +25,16 @@
   .left h1 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 48px;
+    line-height: 58px;
     margin: 0;
     color: #000000;
   }
   .left h1 span {
     color: white;
     margin: 0;
+
     padding: 5px;
-    display: flex;
+    display: inline;
     align-items: center;
     width: max-content;
     font-size: 36px;
@@ -42,6 +43,8 @@
   .pBot {
     margin-top: 60px;
     font-size: 18px;
+
+    padding-right: 50px;
   }
   .left p b {
     margin-bottom: 10px;
