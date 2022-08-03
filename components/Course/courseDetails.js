@@ -12,7 +12,7 @@ export const viewAllD = [
     ],
     link1: "/data-science-certification-courses",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+Foundation+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/FOUNDATION+DS.pdf",
   }, 
   {
     id: 2,
@@ -27,7 +27,7 @@ export const viewAllD = [
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf",
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ export const viewAllD = [
     ],
     link1: "/artificial-intelligence-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Artificial+Intelligence+and+Machine+Learning+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf",
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const viewAllD = [
     ],
     link1: "/data-science-ai-for-managers",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+For+Managers+and+Leaders+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf",
   },
   {
     id: 5,
@@ -72,11 +72,11 @@ export const viewAllD = [
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/JOB+GUARANTEE+DSAI.pdf",
   },
   {
     id: 6,
-    img: "/data-analytics.png",
+    img: "/dsa-system.png",
     title: "Data Analytics",
     title1: "Program",
     tag:"Data science",
@@ -87,7 +87,7 @@ export const viewAllD = [
     ],
     link1: "/data-analytics-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf",
   },
   {
     id: 7,
@@ -103,7 +103,7 @@ export const viewAllD = [
     ],
     link1: "/business-analytics-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Business+Analytics+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf",
   },
   {
     id: 8,
@@ -165,7 +165,7 @@ export const ForProgrammersD = [
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf",
   },
   {
     id: 2,
@@ -195,7 +195,7 @@ export const ForProgrammersD = [
     ],
     link1: "/data-science-ai-for-managers",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+For+Managers+and+Leaders+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf",
   },
   {
     id: 4,
@@ -210,7 +210,7 @@ export const ForProgrammersD = [
     ],
     link1: "/artificial-intelligence-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Artificial+Intelligence+and+Machine+Learning+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf",
   },
   {
     id: 5,
@@ -240,7 +240,7 @@ export const ForProgrammersD = [
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/JOB+GUARANTEE+DSAI.pdf",
   },
   {
     id: 7,
@@ -272,7 +272,7 @@ export const ForNonProgrammerD = [
     ],
     link1: "/data-science-certification-courses",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+Foundation+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/FOUNDATION+DS.pdf",
   },
   {
     id: 2,
@@ -287,7 +287,7 @@ export const ForNonProgrammerD = [
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+AI+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf",
   },
   {
     id: 3,
@@ -302,7 +302,7 @@ export const ForNonProgrammerD = [
     ],
     link1: "/artificial-intelligence-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Artificial+Intelligence+and+Machine+Learning+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf",
   },
   {
     id: 4,
@@ -317,7 +317,7 @@ export const ForNonProgrammerD = [
     ],
     link1: "/data-science-ai-for-managers",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+For+Managers+and+Leaders+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf",
   },
   {
     id: 5,
@@ -332,7 +332,7 @@ export const ForNonProgrammerD = [
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/JOB+GUARANTEE+DSAI.pdf",
   },
   {
     id: 6,
@@ -348,7 +348,7 @@ export const ForNonProgrammerD = [
     ],
     link1: "/business-analytics-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Business+Analytics+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf",
   },
 ];
 
@@ -366,7 +366,7 @@ export const JobGuaranteeD = [
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/JOB+GUARANTEE+DSAI.pdf",
   },
   {
     id: 2,

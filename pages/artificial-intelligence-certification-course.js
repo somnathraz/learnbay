@@ -68,6 +68,38 @@ export default function Home() {
           src="/course3.png"
           alt="AiMl Header"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Artificial+Intelligence+and+Machine+Learning+Program.pdf"
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+        <div className="leftPopup">
+          <div className="whiteP" />
+        </div>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          <p>Fill the below details to get started</p>
+          <Form popup={true} setTrigger={setPopups} />
+        </div>
+      </Popup>
+      <FirstSection
+        deskTopPara="Boost Your Professional Growth"
+        deskTopPara1="To a Whole New Level"
+        mTopPara="Boost Your Professional Growth"
+        mTopPara1="To a Whole New Level"
+        title="Artificial Intelligence and Machine Learning Program"
+        desc="With demanding industry projects, you can acquire the most advanced technical expertise possible. Be a master even without a master's degree."
+        src="/course3.png"
+        alt="AiMl Header"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+
+      />
+      <div className={styles.program}>
+        <ProgramInfo
+        p1="Eligibility"
+        p11="Tech Professionals"
+        p2="50 LPA - 60 LPA"
+        p22="Salary Package"
+        p3="1:1"
+        p33="Career Support"
+        p4="No Cost EMI"
+        p44="₹ 12k/month (9 Months)"
         />
         <div className={styles.program}>
           <ProgramInfo

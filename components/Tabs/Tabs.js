@@ -31,6 +31,13 @@ const Tabs = ({ handleIcon }) => {
               <span
                 key={TabData[0].id}
                 id="0"
+                onMouseOver={() => {
+                  setViewAll(true);
+                  setOneYear(false);
+                  setNonTech(false);
+                  setGuarantee(false);
+                  setStack(false);
+                }}
                 onClick={() => setViewAll(!viewAll)}
                 className={viewAll ? styles.spanActive : styles.span}
               >
@@ -265,66 +272,8 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Advance Data Science & AI Program</h5>
-                        <span>
-                          9 Months <BsDot /> Live Classes{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/artificial-intelligence-certification-course">
-                    <div
-                      className={styles.Program}
-                      onClick={() => handleIcon(false)}
-                    >
-                      <div className={styles.ProLeft}>
-                        <h5>Advance AI & ML Program For Tech Professionals</h5>
-                        <span>
-                          9 Months <BsDot /> Live Classes{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="/data-science-ai-for-managers">
-                    <div
-                      className={styles.Program}
-                      onClick={() => handleIcon(false)}
-                    >
-                      <div className={styles.ProLeft}>
-                        <h5>Data Science and AI for Mangers & Leaders</h5>
-                        <span>
-                          9 Months <BsDot /> Live Classes{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
-                    <div
-                      className={styles.Program}
-                      onClick={() => handleIcon(false)}
-                    >
-                      <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
-                        <span>
-                          9 Months <BsDot /> Live Classes{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="/business-analytics-certification-course">
-                    <div
-                      className={styles.Program}
-                      onClick={() => handleIcon(false)}
-                    >
-                      <div className={styles.ProLeft}>
-                        <h5>
-                          Business Analytics
-                          <br /> Program
-                        </h5>
+                        <h5>Data Analytics
+                          <br /> Program</h5>
                         <span>
                           9 Months <BsDot /> Live Classes{" "}
                         </span>
@@ -340,8 +289,15 @@ const Tabs = ({ handleIcon }) => {
               <span
                 key={TabData[2].id}
                 id="2"
+                onMouseOver={() => {
+                  setViewAll(false);
+                  setOneYear(false);
+                  setNonTech(true);
+                  setGuarantee(false);
+                  setStack(false);
+                }}
                 onClick={() => setNonTech(!nonTech)}
-                className={viewAll ? styles.spanActive : styles.span}
+                className={nonTech ? styles.spanActive : styles.span}
               >
                 {TabData[2].title}
                 <IoIosArrowDown />
@@ -412,7 +368,7 @@ const Tabs = ({ handleIcon }) => {
                   setStack(false);
                 }}
                 onClick={() => setGuarantee(!Guarantee)}
-                className={viewAll ? styles.spanActive : styles.span}
+                className={Guarantee ? styles.spanActive : styles.span}
               >
                 {TabData[3].title}
                 <IoIosArrowDown />
@@ -482,7 +438,7 @@ const Tabs = ({ handleIcon }) => {
                   setStack(true);
                 }}
                 onClick={() => setStack(!Stack)}
-                className={viewAll ? styles.spanActive : styles.span}
+                className={Stack ? styles.spanActive : styles.span}
               >
                 {TabData[4].title}
                 <IoIosArrowDown />
@@ -618,105 +574,13 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                </div>
-
-                <div className={styles.Row}>
-                  <a href="/advance-data-science-certification-courses">
+                  <a href="/dsa-system-design">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Advance Data Science & AI Program</h5>
-                        <span>
-                          9 Months <BsDot /> Live Classes{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-
-                  <a href="/full-stack-software-development-program">
-                    <div
-                      className={styles.Program}
-                      onClick={() => handleIcon(false)}
-                    >
-                      <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development</h5>
-                        <span>
-                          9 Months <BsDot /> Live Classes{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/artificial-intelligence-certification-course">
-                    <div
-                      className={styles.Program}
-                      onClick={() => handleIcon(false)}
-                    >
-                      <div className={styles.ProLeft}>
-                        <h5>Advance AI & ML Program For Tech Professionals</h5>
-                        <span>
-                          9 Months <BsDot /> Live Classes{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="/data-science-ai-for-managers">
-                    <div
-                      className={styles.Program}
-                      onClick={() => handleIcon(false)}
-                    >
-                      <div className={styles.ProLeft}>
-                        <h5>Data Science and AI for Managers & Leaders</h5>
-                        <span>
-                          9 Months <BsDot /> Live Classes{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
-                    <div
-                      className={styles.Program}
-                      onClick={() => handleIcon(false)}
-                    >
-                      <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
-                        <span>
-                          9 Months <BsDot /> Live Classes{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="/business-analytics-certification-course">
-                    <div
-                      className={styles.Program}
-                      onClick={() => handleIcon(false)}
-                    >
-                      <div className={styles.ProLeft}>
-                        <h5>
-                          Business Analytics <br /> Program
-                        </h5>
-                        <span>
-                          9 Months <BsDot /> Live Classes{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className={styles.Row}>
-                  <a href="/data-analytics-certification-course">
-                    <div
-                      className={styles.Program}
-                      onClick={() => handleIcon(false)}
-                    >
-                      <div className={styles.ProLeft}>
-                        <h5>
-                          Data Analytics <br /> Program
-                        </h5>
+                        <h5>DSA & <br/>System Design</h5>
                         <span>
                           9 Months <BsDot /> Live Classes{" "}
                         </span>
