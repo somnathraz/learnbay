@@ -1,82 +1,82 @@
 .CourseFee {
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #A4C3E6;
-    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
-    padding: 50px 10px;
-    width: 95%;
-    align-items: center;
-    margin: auto;
-    border-radius: 10px;
-    /* background: url("/coursefee.png") center center, no-repeat; */
-    /* background: linear-gradient(90deg, #CBE4F9, #D6CDEA); */
-    background-size: cover;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #a4c3e6;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  padding: 50px 10px;
+  width: 95%;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+  /* background: url("/coursefee.png") center center, no-repeat; */
+  /* background: linear-gradient(90deg, #CBE4F9, #D6CDEA); */
+  background-size: cover;
 }
 
 .CourseFeeh {
-    margin: 70px 100px 70px 100px;
-
+  margin: 70px 100px 70px 100px;
 }
 
 .phead {
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
-    margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
 }
 
 .listcheck {
-    display: flex;
-    align-items: center;
-    flex-flow: wrap;
-    margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  margin-top: 30px;
 }
 
 .list {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    color: black;
-    margin: 0px 0px 10px 20px;
-    display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: black;
+  margin: 0px 0px 10px 20px;
+  display: flex;
 }
 
 .icon {
-    font-size: 24px;
-    color: #2D9CD7;
-    margin-right: 5px;
+  font-size: 24px;
+  color: #2d9cd7;
+  margin-right: 5px;
 }
 
 .BatchDetailsTop {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
 }
 
 @media (max-width: 481px) {
-    .CourseFeeh {
-        margin: 40px 0px 30px 0px;
-    }
+  .CourseFeeh {
+    margin: 40px 0px 30px 0px;
+  }
 
-    .BatchDetailsTop {
-        display: grid;
-        align-items: center;
-        justify-content: start;
-        margin-top: 20px;
-        gap: 10px;
-    }
-    .list {
-        margin: 0px 0px 10px 10px;
-    }
-    .phead {
-        font-size: 30px;
-        font-weight: 400;
-        margin: 10px;
-    }
-    .CourseFee {
-        padding: 30px 10px;
-        margin: 20px;
-        width: auto;
-    }
+  .BatchDetailsTop {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .list {
+    margin: 0px 0px 10px 10px;
+  }
+  .phead {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px;
+  }
+  .CourseFee {
+    padding: 30px 10px;
+    margin: 20px;
+    width: auto;
+  }
 }

@@ -339,6 +339,9 @@ h4 {
     display: flex;
     flex-flow: column;
     margin-left: 0;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
   }
 
