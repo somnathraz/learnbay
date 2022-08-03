@@ -144,7 +144,8 @@
 .swiperSlideer {
   display: flex;
   flex-flow: column-reverse;
-  height: 220px;
+  height: fit-content;
+  margin-bottom: 20px;
 }
 .reviewWrap {
   background: #ffffff;
@@ -170,7 +171,6 @@
   color: #0072bc;
 }
 .shadow {
-  margin-top: -30px;
   border: 0.6px solid #ffffff;
   box-shadow: 0px 4px 4px rgba(237, 181, 82, 0.7);
 }

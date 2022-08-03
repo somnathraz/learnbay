@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-
+import "swiper/css/free-mode";
 import styles from "./BoxShape.module.css";
 import Image from "next/image";
 import { MdLiveTv } from "react-icons/md";
 import { FiUser } from "react-icons/fi";
 import { BsGraphUp } from "react-icons/bs";
+import "swiper/css/pagination";
+import { Pagination } from "swiper";
 
 const BoxShape = ({
   title,
@@ -87,6 +89,8 @@ const BoxShape = ({
                 slidesPerView={mobile ? 1 : 1}
                 spaceBetween={mobile ? 10 : 20}
                 grabCursor={true}
+                modules={[ Pagination]}
+                pagination={true}
                 className="mySwiper"
               >
                 <SwiperSlide className={styles.swiperSlideer}>
@@ -110,7 +114,7 @@ const BoxShape = ({
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className={styles.swiperSlideer}>
                   <p>
                     Learnbay has tremendously assisted my study of data science
                     because of its outstanding mentorship. I had a good
@@ -132,7 +136,7 @@ const BoxShape = ({
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide  className={styles.swiperSlideer}>
                   <p>
                     Thanks to the Learnbay data science course and outstanding
                     assistance, I could ace the TCS interview and secure a job
