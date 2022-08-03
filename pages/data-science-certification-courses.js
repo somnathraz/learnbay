@@ -54,6 +54,8 @@ export default function Home() {
         title="Data Science Foundation Program"
         desc="This program ensures a smooth transition into Jr. Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions."
         src="/course1.png"
+        width="900"
+        height="762"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/FOUNDATION+DS.pdf"
 

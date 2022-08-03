@@ -59,6 +59,8 @@ export default function Home() {
         title="Data Analytics Course Training in Mumbai"
         desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
         src="/course6.png"
+        width="900"
+        height="762"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
 

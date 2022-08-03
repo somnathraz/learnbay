@@ -59,6 +59,8 @@ export default function Home() {
         title="Data Science Course Training In Delhi"
         desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
         src="/course2.png"
+        width="900"
+        height="762"
         alt="AiMl Header"
         srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf"
 
