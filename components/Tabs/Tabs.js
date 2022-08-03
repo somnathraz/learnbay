@@ -73,7 +73,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Adavance Data Science and AI Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -86,7 +86,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI for Mangers & Leaders</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          400+ Hours <BsDot /> 11 & 13 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -101,7 +101,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Software Development</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -114,7 +114,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Advance AI & ML Program For Tech Professionals</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          350+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -129,7 +129,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -144,7 +144,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI With Job Guarantee</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -199,7 +199,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science Foundation Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -211,7 +211,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Advance Data Science & AI Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -223,7 +223,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Advance AI & ML Program For Tech Professionals</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          350+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -233,7 +233,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI for Mangers & Leaders</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          400+ Hours <BsDot /> 11 & 13 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -245,7 +245,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI With Job Guarantee</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -258,7 +258,7 @@ const Tabs = ({ handleIcon }) => {
                           <br /> Program
                         </h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -275,7 +275,7 @@ const Tabs = ({ handleIcon }) => {
                         <h5>Data Analytics
                           <br /> Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          180+ Hours <BsDot /> 5 & 6.5 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -331,7 +331,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -346,7 +346,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Software Development Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -401,7 +401,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI With Job Guarantee</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -416,7 +416,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -471,7 +471,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science Foundation Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -486,7 +486,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -498,7 +498,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Advance Data Science & AI Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -509,7 +509,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Software Development</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -521,7 +521,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Advance AI & ML Program For Tech Professionals</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          350+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -531,7 +531,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI for Managers & Leaders</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          400+ Hours <BsDot /> 11 & 13 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -543,7 +543,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI With Job Guarantee</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -555,7 +555,7 @@ const Tabs = ({ handleIcon }) => {
                           Business Analytics <br /> Program
                         </h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -569,7 +569,7 @@ const Tabs = ({ handleIcon }) => {
                           Data Analytics <br /> Program
                         </h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                        180+ Hours <BsDot /> 5 & 6.5 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -582,7 +582,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>DSA & <br/>System Design</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -609,7 +609,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Adavance Data Science and AI Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -622,7 +622,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI for Mangers & Leaders</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          400+ Hours <BsDot /> 11 & 13 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -637,7 +637,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Software Development</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -650,7 +650,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Advance AI & ML Program For Tech Professionals</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          350+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -665,7 +665,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -678,7 +678,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>DSA & <br/>System Design</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -693,7 +693,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI With Job Guarantee</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -714,7 +714,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science Foundation Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -727,7 +727,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Advance Data Science & AI Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -739,7 +739,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Advance AI & ML Program For Tech Professionals</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          350+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -749,7 +749,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI for Mangers & Leaders</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          400+ Hours <BsDot /> 11 & 13 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -761,7 +761,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI With Job Guarantee</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -774,7 +774,7 @@ const Tabs = ({ handleIcon }) => {
                           <br /> Program
                         </h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -793,7 +793,7 @@ const Tabs = ({ handleIcon }) => {
                           <br /> Program
                         </h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                        180+ Hours <BsDot /> 5 & 6.5 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -814,7 +814,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -829,7 +829,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Software Development Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -844,7 +844,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>DSA & <br/>System Design</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -866,7 +866,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI With Job Guarantee</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -881,7 +881,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -902,7 +902,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science Foundation Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -917,7 +917,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -929,7 +929,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Advance Data Science & AI Program</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -940,7 +940,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Software Development</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -952,7 +952,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Advance AI & ML Program For Tech Professionals</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          350+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -962,7 +962,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI for Managers & Leaders</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          400+ Hours <BsDot /> 11 & 13 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -974,7 +974,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI With Job Guarantee</h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -986,7 +986,7 @@ const Tabs = ({ handleIcon }) => {
                           Business Analytics <br /> Program
                         </h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -1000,7 +1000,7 @@ const Tabs = ({ handleIcon }) => {
                           Data Analytics <br /> Program
                         </h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                        180+ Hours <BsDot /> 5 & 6.5 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -1012,7 +1012,7 @@ const Tabs = ({ handleIcon }) => {
                           DSA & <br />System Design
                         </h5>
                         <span>
-                          9 Months <BsDot /> Live Classes{" "}
+                          200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
                       </div>
                     </div>
