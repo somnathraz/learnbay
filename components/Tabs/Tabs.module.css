@@ -102,14 +102,13 @@
     width: 100%;
   }
   .leftPanel .RowWrap {
-    display: grid;
-
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     overflow: scroll;
   }
   .Program {
-    width: fit-content;
+    width: auto;
     padding: 10px;
   }
 }
