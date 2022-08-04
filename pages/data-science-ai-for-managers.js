@@ -41,8 +41,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>Data Science and Artificial Intelligence Program For Managers and Leaders</title>
+        <meta name="description" content="Data Science and Artificial Intelligence Program For Managers and Leaders" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
@@ -66,7 +66,7 @@ export default function Home() {
           width="758"
           height="602"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+For+Managers+and+Leaders+Program.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -76,8 +76,8 @@ export default function Home() {
             p22="Salary Package"
             p3="1:1"
             p33="Career Support"
-            p4="No Cost EMI"
-            p44="₹ 12k/month (9 Months)"
+            p4="Financing as low as"
+            p44="₹ 9,342/month"
           />
         </div>
         <div className="Feature" id="Feature">

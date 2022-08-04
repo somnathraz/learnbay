@@ -38,8 +38,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>Full Stack Web Development Program</title>
+        <meta name="description" content="Full Stack Web Development Program" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
@@ -62,7 +62,7 @@ export default function Home() {
           width="780"
           height="603"
           alt="Full Stack"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program+(1).pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay+(1).pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -72,7 +72,7 @@ export default function Home() {
             p22="Salary Package"
             p3="1:1"
             p33="Career Support"
-            p4="No Cost EMI"
+            p4="Financing as low as"
             p44="₹ 9k to 15k*(9 Months)"
           />
         </div>

@@ -73,8 +73,8 @@ export default function Home() {
         p22="Salary Package"
         p3="1:1"
         p33="Career Support"
-        p4="No Cost EMI"
-        p44="₹ 12.8k/month (6 Months)"
+        p4="Financing as low as"
+        p44="₹  6,392/month"
         />
       </div>
       <GetHired 

@@ -41,8 +41,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>Advanced Data Science and AI Program with Domain Specialization</title>
+        <meta name="description" content="Advanced Data Science and AI Program with Domain Specialization" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
@@ -78,8 +78,8 @@ export default function Home() {
             p22="Salary Package"
             p3="1:1"
             p33="Career Support"
-            p4="No Cost EMI"
-            p44="₹ 10k/month (9 Months)"
+            p4="Financing as low as"
+            p44="₹ 7,768/month"
           />
         </div>
 

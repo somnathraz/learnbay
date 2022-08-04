@@ -19,7 +19,7 @@ export const ProgramFee = () => {
           <h6>The EMI option</h6>
           <p>
             With a 0% interest rate, we provide you affordable financing
-            solutions such as No cost EMI. Besides, the program fees structure
+            solutions such as Financing as low as. Besides, the program fees structure
             is transparent and not attached with any hidden expenses.
           </p>
           <Image src="/programFeeIcon.png" width="225" height="111" layout="intrinsic"/>
@@ -48,7 +48,7 @@ export const ProgramFee = () => {
             </div>
             <div className={styles.rights}>
               <GiWallet className={styles.icon} />
-              <p>No Cost EMI</p>
+              <p>Financing as low as</p>
             </div>
           </div>
           <div className={styles.bottomS}>

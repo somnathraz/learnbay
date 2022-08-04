@@ -118,7 +118,7 @@ export const viewAllD = [
     ],
     link1: "/full-stack-web-development-program",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program+(1).pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay+(1).pdf",
   },
   {
     id: 9,
@@ -133,7 +133,7 @@ export const viewAllD = [
     ],
     link1: "/full-stack-software-development-program",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
   },
   {
     id: 10,
@@ -148,7 +148,7 @@ export const viewAllD = [
     ],
     link1: "/dsa-system-design",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSA+%26+System+Design.pdf",
   },
 ];
 export const ForProgrammersD = [
@@ -180,7 +180,7 @@ export const ForProgrammersD = [
     ],
     link1: "/full-stack-software-development-program",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
   },
   {
     id: 3,
@@ -225,7 +225,7 @@ export const ForProgrammersD = [
     ],
     link1: "/full-stack-web-development-program",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program+(1).pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay+(1).pdf",
   },
   {
     id: 6,
@@ -255,7 +255,7 @@ export const ForProgrammersD = [
     ],
     link1: "/dsa-system-design",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSA+%26+System+Design.pdf",
   },
 ];
 export const ForNonProgrammerD = [
@@ -381,7 +381,7 @@ export const JobGuaranteeD = [
     ],
     link1: "/full-stack-web-development-program",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program+(1).pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay+(1).pdf",
   },
 ];
 export const StackD = [
@@ -398,7 +398,7 @@ export const StackD = [
     ],
     link1: "/full-stack-web-development-program",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Web+Development+Program+(1).pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay+(1).pdf",
   },
   {
     id: 2,
@@ -413,7 +413,7 @@ export const StackD = [
     ],
     link1: "/full-stack-software-development-program",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
   },
   {
     id: 3,
@@ -428,6 +428,6 @@ export const StackD = [
     ],
     link1: "/dsa-system-design",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advanced+Software+Development+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSA+%26+System+Design.pdf",
   },
 ];

@@ -7,8 +7,8 @@ function terms() {
   return (
     <div>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>Learnbay's Terms & Conditions</title>
+        <meta name="description" content="Learnbay's Terms & Conditions" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>

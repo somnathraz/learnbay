@@ -38,8 +38,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>DSA & System Design</title>
+        <meta name="description" content="DSA & System Design" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
@@ -56,7 +56,7 @@ export default function Home() {
         <FirstSection
           deskTopPara="Be a demanding Developer to stay ahead"
           mTopPara="Be a demanding Developer to stay ahead"
-          title="Full Stack Web Development Program"
+          title="DSA & System Design"
           desc="Archive a stunning appearance in the job market as a seasoned web developer. Learn the ninja techniques from MNC experts via real-time projects."
           src="/dsa-header-image.png"
           width="776"
@@ -72,8 +72,8 @@ export default function Home() {
             p22="Salary Package"
             p3="1:1"
             p33="Career Support"
-            p4="No Cost EMI"
-            p44="₹ 9k to 15k*(9 Months)"
+            p4="Financing as low as"
+            p44="₹ 6,883/month"
           />
         </div>
         <div className="Feature" id="Feature">

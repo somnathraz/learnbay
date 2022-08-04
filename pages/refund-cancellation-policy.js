@@ -7,8 +7,8 @@ function refund() {
   return (
     <div>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>Learnbay's Refund & Cancellation Policy</title>
+        <meta name="description" content="Learnbay's Refund & Cancellation Policy" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>

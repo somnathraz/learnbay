@@ -7,8 +7,8 @@ function privacy() {
   return (
     <div>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>Learnbay's Privacy Policy</title>
+        <meta name="description" content="Learnbay's Privacy Policy" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>

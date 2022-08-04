@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>Learnbay's Reviews</title>
+        <meta name="description" content="Learnbay's Reviews" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
