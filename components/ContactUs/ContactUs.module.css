@@ -1,111 +1,116 @@
 .ContactUs {
-    margin: 70px 0px;
-    padding: 0px;
+  margin: 70px 0px;
+  padding: 0px;
 }
 
 .BackC {
-    background: url("/contact-us.png");
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    display: flex;
-align-items: center;
-margin: auto;
-padding: 0px 100px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  width: 100%;
+
+  margin: auto;
+  padding: 0px 100px;
 }
 
+.BackC div {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
 .CInner {
-    padding: 50px 100px;
+  padding: 50px 100px;
+}
+.BackC h4 {
+  text-align: left;
 }
 
 .CInner h3 {
-    font-size: 34px;
+  font-size: 34px;
 }
 
 .CInner p {
-    font-size: 20px;
-    text-align: center;
-    padding: 0px 150px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px 150px;
 }
 
 .tick {
-    fill: #2A9CD7;
-    color: #2A9CD7;
-    border-color: #2A9CD7;
-    padding: 10px;
-    font-size: 70px;
-    border: 3px solid #2A9CD7;
-    border-radius: 50%;
+  fill: #2a9cd7;
+  color: #2a9cd7;
+  border-color: #2a9cd7;
+  padding: 10px;
+  font-size: 70px;
+  border: 3px solid #2a9cd7;
+  border-radius: 50%;
 }
 
 .Inner {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
 }
 
 .InnerBox {
-    padding: 30px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    margin: 20px;
-    height: 90%;
-    text-align: center;
+  padding: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 20px;
+  height: 90%;
+  text-align: center;
 }
 
 .Inner h3 {
-    font-size: 24px;
-    margin: 10px;
-    text-align: center;
+  font-size: 24px;
+  margin: 10px;
+  text-align: center;
 }
 
 .Inner p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .InnerBox button {
-    background: #2D9CD7;
-    margin: auto;
-    padding: 14px 26px;
-    font-size: 16px;
-    border-radius: 0px;
+  background: #2d9cd7;
+  margin: auto;
+  padding: 14px 26px;
+  font-size: 16px;
+  border-radius: 0px;
 }
 
 .InnerBox button:hover {
-    color: #2D9CD7;
-    background-color: #fff;
-    border: 1px solid #2D9CD7;
-    margin: auto;
-    padding: 14px 26px;
-    font-size: 16px;
+  color: #2d9cd7;
+  background-color: #fff;
+  border: 1px solid #2d9cd7;
+  margin: auto;
+  padding: 14px 26px;
+  font-size: 16px;
 }
 
 @media (max-width: 600px) {
-
-    .BackC {
-        height: 50vh;
-        text-align: left;
+  .BackC {
+    height: 50vh;
+    text-align: left;
     padding: 20px;
-    }
+  }
 
-    .ContactUs {
-        margin: 20px 0px;
-    }
+  .ContactUs {
+    margin: 20px 0px;
+  }
 
-    .CInner {
-        padding: 30px 0px;
-    }
+  .CInner {
+    padding: 30px 0px;
+  }
 
-    .CInner p {
-        font-size: 20px;
-        text-align: center;
-        padding: 0px;
-    }
+  .CInner p {
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+  }
 
-    .Inner {
-        display: block;
-        text-align: center;
-    }
-
+  .Inner {
+    display: block;
+    text-align: center;
+  }
 }
