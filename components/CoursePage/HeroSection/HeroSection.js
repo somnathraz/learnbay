@@ -27,6 +27,8 @@ const HeroSection = ({
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
 
+  console.log(width, height);
+
   const popupShow = () => {
     setPopups(true);
   };
@@ -61,7 +63,8 @@ const HeroSection = ({
           </p>
         ) : (
           <p className={styles.pTop}>
-            {deskTopPara} <br /> {deskTopPara1}
+            {deskTopPara}
+            {deskTopPara1}
           </p>
         )}
         {mobile ? (

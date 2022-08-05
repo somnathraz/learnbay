@@ -15,6 +15,7 @@ import Fee from "../components/CoursePage/Fee/Fee";
 import FAQNew from "../components/FAQNew/FAQNew";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import LearnSupport from "../components/LearnSupport/LearnSupport";
 
 import React, { useState } from "react";
 import {
@@ -174,6 +175,7 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData2}
           SupportFaqDatas={SupportFaqData2}
         />
+        <LearnSupport />
       </main>
     </div>
   );

@@ -56,11 +56,12 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          deskTopPara="Boost your career opportunities"
+          deskTopPara="Boost your career opportunities "
           deskTopPara1="by developing relevant skills."
           mTopPara="Boost your career opportunities "
           mTopPara1="by developing relevant skills."
-          title="Data Science and AI Program with 100% Job Guarantee"
+          title="Data Science and AI Program "
+          spanTitleText="with 100% Job Guarantee"
           desc="✓ Domain Orientated approach ✓ Assured placement within 18 months."
           src="/course5.png"
           width="829"
@@ -94,18 +95,6 @@ export default function Home() {
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
-
-        <FirstSection
-          deskTopPara="Boost your career opportunities"
-          deskTopPara1="by developing relevant skills."
-          mTopPara="Boost your career opportunities "
-          mTopPara1="by developing relevant skills."
-          title="Data Science and AI Program with 100% Job Guarantee"
-          desc="✓ Domain Orientated approach ✓ Assured placement within 18 months."
-          src="/course5.png"
-          alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/JOB+GUARANTEE+DSAI.pdf"
-        />
 
         <CourseReview />
         <Certificate

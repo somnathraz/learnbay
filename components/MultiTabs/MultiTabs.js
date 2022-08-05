@@ -8,7 +8,7 @@ const MultiTabs = () => {
   const [nonTech, setNonTech] = useState(false);
   const [Guarantee, setGuarantee] = useState(false);
   const [Stack, setStack] = useState(false);
-  const [mobile, setMobile] = useState(false);
+
   return (
     <div className={styles.Course} id="course">
       <h2>Our Core Features</h2>
@@ -120,7 +120,7 @@ const MultiTabs = () => {
               </p>
               <div className={styles.info}>
                 <div className={styles.left}>
-                  <h4>240%</h4>
+                  <h4>97%</h4>
                   <p>Average Hike</p>
                 </div>
                 <div className={styles.middle}>
@@ -172,7 +172,11 @@ const MultiTabs = () => {
               </div>
             </div>
             <div className={styles.right}>
-              <Image src="/gobal-industry.webp" width="504" height="383" />
+              <Image
+                src="/IBM-certified-capstone.png"
+                width="504"
+                height="383"
+              />
             </div>
           </div>
         ) : (
@@ -252,7 +256,7 @@ const MultiTabs = () => {
               </div>
             </div>
             <div className={styles.right}>
-              <Image src="/flexibility-support.webp" width="478" height="474" />
+              <Image src="/flexibility-support.webp" width="391" height="377" />
             </div>
           </div>
         ) : (

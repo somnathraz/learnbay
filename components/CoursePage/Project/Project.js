@@ -186,9 +186,6 @@ const Project = ({ ChangeProject, project, domain }) => {
                 Learn More
               </span>
             </div>
-            <div style={{ position: "absolute" }}>
-              <img src="/shadow.png" width="380" height="60" />
-            </div>
           </SwiperSlide>
           <SwiperSlide
             className={styles.project}

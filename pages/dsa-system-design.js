@@ -57,6 +57,7 @@ export default function Home() {
           deskTopPara="Be a demanding Developer to stay ahead"
           mTopPara="Be a demanding Developer to stay ahead"
           title="Full Stack Web Development Program"
+          spanTitleText="with Domain Specialization"
           desc="Archive a stunning appearance in the job market as a seasoned web developer. Learn the ninja techniques from MNC experts via real-time projects."
           src="/dsa-header-image.png"
           width="776"

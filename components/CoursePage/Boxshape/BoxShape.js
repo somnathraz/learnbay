@@ -89,7 +89,7 @@ const BoxShape = ({
                 slidesPerView={mobile ? 1 : 1}
                 spaceBetween={mobile ? 10 : 20}
                 grabCursor={true}
-                modules={[ Pagination]}
+                modules={[Pagination]}
                 pagination={true}
                 className="mySwiper"
               >
@@ -136,7 +136,7 @@ const BoxShape = ({
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide  className={styles.swiperSlideer}>
+                <SwiperSlide className={styles.swiperSlideer}>
                   <p>
                     Thanks to the Learnbay data science course and outstanding
                     assistance, I could ace the TCS interview and secure a job
@@ -162,7 +162,7 @@ const BoxShape = ({
               <div className={styles.shadow}></div>
               <div className={styles.content}>
                 <div className={styles.leftContent}>
-                  <h5>+300%</h5>
+                  <h5>+250%</h5>
                   <p>Highest Salary Hike</p>
                 </div>
                 <div className={styles.rightContent}>
