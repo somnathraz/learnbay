@@ -6,8 +6,8 @@ function contactus() {
   return (
     <div>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>Contact Us</title>
+        <meta name="description" content="Contact Us" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>

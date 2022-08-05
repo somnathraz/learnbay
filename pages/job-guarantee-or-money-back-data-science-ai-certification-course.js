@@ -40,8 +40,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>Data Science and AI Program with 100% Job Guarantee</title>
+        <meta
+          name="description"
+          content="Data Science and AI Program with 100% Job Guarantee"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
@@ -67,7 +70,7 @@ export default function Home() {
           width="829"
           height="646"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+AI+with+100%25+Job+Guarantee.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/JOB+GUARANTEE+DSAI.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -77,8 +80,8 @@ export default function Home() {
             p22="Salary Package"
             p3="1:1"
             p33="Career Support"
-            p4="No Cost EMI"
-            p44="₹ 16k/month (9 Months)"
+            p4="Financing as low as"
+            p44="₹ 12,292/month"
           />
         </div>
         <div className="Feature" id="Feature">
@@ -95,7 +98,6 @@ export default function Home() {
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
-
         <CourseReview />
         <Certificate
           title="Course Completion Certificate from IBM"

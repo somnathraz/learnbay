@@ -61,13 +61,10 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Work on real-time projects using live data from companies like
-                  J.P Morgan, HDFC, etc.
+Understand the best practices for the finance sector.
                 </h6>
                 <p className={styles.para}>
-                  Know the finance domain-specific best practices for building
-                  recommendation systems, handling chatbots, and upcoming stock
-                  market prediction.
+                  Work on real-time projects using live data from companies like J.P Morgan, HDFC, etc for building recommendation systems, handling chatbots, and upcoming stock market prediction.
                 </p>
                 <div className={styles.info}>
                   <div className={styles.left}>
@@ -114,8 +111,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Learn about competitive marketplaces, opportunities, costs,
-                  and other aspects of sales
+Know data-driven consumer and market insights.
                 </h6>
                 <p className={styles.para}>
                   You will be wholly involved with the essential functional
@@ -166,8 +162,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Understand the health care industry from the aspect of data
-                  and data-driven insights.
+Incorporate future proof practices with Data Science and AI.
                 </h6>
                 <p className={styles.para}>
                   Any working professional choosing this domain with prior
@@ -220,8 +215,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Gain a deeper understanding of business requirements and it's
-                  functionalities.
+Gain a deeper understanding of business requirements and it's functionalities.
                 </h6>
                 <p className={styles.para}>
                   With enhanced supply chain management and customer services,
@@ -277,8 +271,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Study about how Data Science & AI is applicable in
-                  Manufacturing, Automotive and Telecom Domain
+                  Study about applications of DS & AI is applicable in Manufacturing & Automotive.
                 </h6>
                 <p className={styles.para}>
                   A deeper understanding of the manufacturing and
@@ -335,8 +328,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Get in-depth knowledge of the most rewarding domain in the
-                  current economic situation.
+                  Work on projects implemented for business growth.
                 </h6>
                 <p className={styles.para}>
                   Earn a better insight into areas like personalized marketing,
@@ -392,8 +384,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Obtain a better understanding of how an industry expands
-                  exponentially with AI in the oil and gas sector.
+Understand how an industry expands exponentially with AI.
                 </h6>
                 <p className={styles.para}>
                   Pursue projects on recording sensors in seismic,
@@ -436,13 +427,10 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Work on real-time projects using live data from companies like
-                  J.P Morgan, HDFC, etc.
+Understand the best practices for the finance sector.
                 </h6>
                 <p className={styles.para}>
-                  Know the finance domain-specific best practices for building
-                  recommendation systems, handling chatbots, and upcoming stock
-                  market prediction.
+                  Work on real-time projects using live data from companies like J.P Morgan, HDFC, etc for building recommendation systems, handling chatbots, and upcoming stock market prediction.
                 </p>
                 <div className={styles.info}>
                   <div className={styles.left}>
@@ -473,8 +461,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Learn about competitive marketplaces, opportunities, costs,
-                  and other aspects of sales
+Know data-driven consumer and market insights.
                 </h6>
                 <p className={styles.para}>
                   You will be wholly involved with the essential functional
@@ -509,8 +496,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Study about how Data Science & AI is applicable in
-                  Manufacturing, Automotive and Telecom Domain
+                  Study about applications of DS & AI is applicable in Manufacturing & Automotive.
                 </h6>
                 <p className={styles.para}>
                   A deeper understanding of the manufacturing and
@@ -551,8 +537,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Understand the health care industry from the aspect of data
-                  and data-driven insights.
+Incorporate future proof practices with Data Science and AI.
                 </h6>
                 <p className={styles.para}>
                   Any working professional choosing this domain with prior
@@ -587,8 +572,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Get in-depth knowledge of the most rewarding domain in the
-                  current economic situation.
+                  Work on projects implemented for business growth.
                 </h6>
                 <p className={styles.para}>
                   Earn a better insight into areas like personalized marketing,
@@ -628,8 +612,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Gain a deeper understanding of business requirements and it's
-                  functionalities.
+Gain a deeper understanding of business requirements and it's functionalities.
                 </h6>
                 <p className={styles.para}>
                   With enhanced supply chain management and customer services,
@@ -669,8 +652,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Obtain a better understanding of how an industry expands
-                  exponentially with AI in the oil and gas sector.
+Understand how an industry expands exponentially with AI.
                 </h6>
                 <p className={styles.para}>
                   Pursue projects on recording sensors in seismic,
