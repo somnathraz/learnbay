@@ -6,20 +6,17 @@
 }
 
 .CInner h5 {
-  font-size: 32px;
-    font-weight: 600;
-    margin: 0px 0px 50px 0px;
-    text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0px 0px 50px 0px;
+  text-align: center;
 }
 
 @media (max-width: 481px) {
   .CInner h5 {
-      margin: 0px 0px 30px 0px;
+    margin: 0px 0px 30px 0px;
   }
   .GetHired {
     margin: 40px 20px 0px 20px;
   }
 }
-
-
-

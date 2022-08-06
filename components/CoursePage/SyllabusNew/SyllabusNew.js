@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import styles from "./SyllabusNew.module.css";
-import {
- 
-  MdOutlineLiveTv,
-  MdOutlineLaptopMac,
-} from "react-icons/md";
-import {AiOutlinePlus, AiOutlineMinus} from "react-icons/ai"
+import { MdOutlineLiveTv, MdOutlineLaptopMac } from "react-icons/md";
+import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import {
   AiOutlineFundProjectionScreen,
   AiOutlineFieldTime,
@@ -172,35 +168,48 @@ function SyllabusNew({
         <div className={styles.syllabusRight}>
           <div className={styles.PProgrammain}>
             <div className={styles.PProgram}>
-              <p><span>Program High</span>lights</p>
+              <p>
+                <span>Program High</span>lights
+              </p>
             </div>
             <div className={styles.PProgramInner}>
               <div>
                 <MdOutlineLiveTv className={styles.PIcons} />
-              <p className={styles.cContent}>
-                350+ Hours<br/><span>Live sessions</span> 
+                <p className={styles.cContent}>
+                  350+ Hours
+                  <br />
+                  <span>Live sessions</span>
                 </p>
               </div>
               <div>
                 <AiOutlineFundProjectionScreen className={styles.PIcons} />
                 <p className={styles.cContent}>
-                15+ Industry<br/><span> Projects</span></p>
+                  15+ Industry
+                  <br />
+                  <span> Projects</span>
+                </p>
               </div>
               <div>
                 <AiOutlineFieldTime className={styles.PIcons} />
                 <p className={styles.cContent}>
-                Life time <br/><span>accessibility</span></p>
+                  Life time <br />
+                  <span>accessibility</span>
+                </p>
               </div>
               <div>
                 <MdOutlineLaptopMac className={styles.PIcons} />
                 <p className={styles.cContent}>
-                Live project <br/><span>experience</span></p>
+                  Live project <br />
+                  <span>experience</span>
+                </p>
               </div>
             </div>
           </div>
           <div className={styles.PProgrammains} style={{ marginTop: "20px" }}>
             <div className={styles.PPrograms}>
-              <h5>Requ<span>est More Inform</span>ation</h5>
+              <h5>
+                Requ<span>est More Inform</span>ation
+              </h5>
             </div>
             <div className={styles.PProgramInners}>
               <Form
@@ -212,9 +221,8 @@ function SyllabusNew({
                 redirectDe={redirectDe}
               />
             </div>
-
           </div>
-          <img src="/blue-shadow.svg" className={styles.shadowImg}/>
+          <img src="/blue-shadow.svg" className={styles.shadowImg} />
         </div>
       </div>
     </section>

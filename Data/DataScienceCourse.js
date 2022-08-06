@@ -58,16 +58,20 @@ export const DataScienceCourseData = [
     syllabus: [
       {
         Module0: {
-          title: "Module 0 Introduction",
+          title: "Module 0",
           content: [
             {
               chap: {
-                title: "Chapter 1: Introduction to Programming ( 3 hrs )",
+                title: "Cohort Orientation ",
                 desc: [
-                  "Source code Vs bytecode Vs machine code, Compiler Vs Interpreter, C/C++, Java Vs Python.",
+                  "A brief introduction to tools related to data ",
+                  "Learn about particular real-time projects and Capstone projects ",
+                  "Data and its impact on career opportunities",
+                  "Utilizing data, to enhance industrial operations and management",
                 ],
               },
             },
+
             {
               chap: {
                 title: "Chapter 2: code editors basics (1 hrs)",
@@ -99,11 +103,11 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "Module 1 - Programming Essentials",
+          title: "Term 1",
           content: [
             {
               chap: {
-                title: "Chapter 1:PROGRAMMING INTRODUCTION ( 3 hrs )",
+                title: "Module 1 Python Programming ",
                 desc: [
                   "Different types of Programming Language.",
                   "What is Compiler?",

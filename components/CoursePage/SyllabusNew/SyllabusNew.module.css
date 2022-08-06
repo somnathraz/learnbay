@@ -9,8 +9,12 @@
   position: relative;
 }
 .syllabusLeft p {
-  font-size: 16px;
+  font-size: 18px;
   color: #646464;
+}
+.syllabusLeft h4 {
+  font-size: 36px;
+  font-weight: 800;
 }
 .Syllabusbutton {
   display: flex;
@@ -192,7 +196,7 @@
 .PProgramInner p {
   font-size: 14px;
   font-weight: 600;
-  color: #edb552;
+  color: black;
 }
 .PProgramInner p span {
   font-size: 11px;

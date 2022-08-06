@@ -10,7 +10,7 @@
 }
 .boxWrapper h2 {
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 800;
   margin: 0;
   padding: 0;
 }
@@ -93,7 +93,7 @@
 .box:hover p,
 .boxActive p {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   color: white;
 }
@@ -113,7 +113,7 @@
 }
 .box p {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   color: #54595f;
   text-align: center;
 }

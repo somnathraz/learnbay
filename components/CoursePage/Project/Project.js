@@ -106,7 +106,7 @@ const Project = ({ ChangeProject, project, domain }) => {
         <Swiper
           slidesPerView={mobile ? 1.2 : 3}
           spaceBetween={mobile ? 10 : 50}
-          pagination={true}
+          pagination={{ clickable: true }}
           grabCursor={true}
           modules={[Pagination]}
           className="mySwiper"

@@ -39,7 +39,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Full Stack Software Development Program</title>
-        <meta name="description" content="Full Stack Software Development Program" />
+        <meta
+          name="description"
+          content="Full Stack Software Development Program"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
@@ -67,12 +70,12 @@ export default function Home() {
         />
         <div className={styles.program}>
           <ProgramInfo
-            p1="100% guaranteed"
-            p11="Job Referrals In MNCs"
-            p2="300% Highest"
-            p22="Salary Acheived"
-            p3="1:1 Dedicated"
-            p33="Personal Mentor"
+            p1="Premium Job"
+            p11="Placement Support"
+            p2="Job Advancement"
+            p22="Skills"
+            p3="Practice with"
+            p33="real-time projects"
             p4="Financing as low as"
             p44="Starting at ₹7999"
           />

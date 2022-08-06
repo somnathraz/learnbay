@@ -42,8 +42,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Advanced Data Science and AI Program with Domain Specialization</title>
-        <meta name="description" content="Advanced Data Science and AI Program with Domain Specialization" />
+        <title>
+          Advanced Data Science and AI Program with Domain Specialization
+        </title>
+        <meta
+          name="description"
+          content="Advanced Data Science and AI Program with Domain Specialization"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
@@ -73,12 +78,12 @@ export default function Home() {
         />
         <div className={styles.program}>
           <ProgramInfo
-            p1="Aimed for"
-            p11="Working Professionals"
-            p2="50 LPA to 60 LPA"
-            p22="Salary Package"
-            p3="1:1"
-            p33="Career Support"
+            p1="Global Recognition"
+            p11="From IBM"
+            p2="Industry Standard"
+            p22="Training"
+            p3="Career Assistance"
+            p33="For Professionals"
             p4="Financing as low as"
             p44="₹ 7,768/month"
           />

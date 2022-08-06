@@ -104,7 +104,7 @@ const HeroSection = ({
             />
           </div>
           <div className={styles.rightBottom}>
-            <h5>1.6k Successful</h5>
+            <h5>10k Successful</h5>
             <p>Career Transition</p>
           </div>
         </div>

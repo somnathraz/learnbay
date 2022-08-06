@@ -43,7 +43,9 @@ button {
   font-size: 14px;
   border: 1px solid #2d9cd7;
 }
-
+h2 {
+  font-weight: 800;
+}
 .outLineBtn {
   padding: 15px 20px;
   border: 2px solid #0072bc;
@@ -305,7 +307,7 @@ h4 {
     font-size: 18px;
   }
   .pBot {
-    font-size: 16px;
+    font-size: 18px;
   }
   .hoverBtn {
     padding: 8px 10px;

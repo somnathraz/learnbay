@@ -41,8 +41,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Science and Artificial Intelligence Program For Managers and Leaders</title>
-        <meta name="description" content="Data Science and Artificial Intelligence Program For Managers and Leaders" />
+        <title>
+          Data Science and Artificial Intelligence Program For Managers and
+          Leaders
+        </title>
+        <meta
+          name="description"
+          content="Data Science and Artificial Intelligence Program For Managers and Leaders"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
@@ -70,12 +76,12 @@ export default function Home() {
         />
         <div className={styles.program}>
           <ProgramInfo
-            p1="Eligibility"
-            p11="Executive-level experience"
-            p2="35 LPA - 65 LPA"
-            p22="Salary Package"
-            p3="1:1"
-            p33="Career Support"
+            p1="Global Recognition"
+            p11="From IBM"
+            p2="Industry Standard"
+            p22="Training"
+            p3="Career Assistance"
+            p33="For Professionals"
             p4="Financing as low as"
             p44="₹ 9,342/month"
           />
