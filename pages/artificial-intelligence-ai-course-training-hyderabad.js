@@ -79,7 +79,10 @@ export default function Home() {
         <FirstSection
           deskTopPara="Become an AI Expert in Product-based MNC"
           mTopPara="Become an AI Expert in Product-based MNC"
-          title="Artificial Intelligence(Ai) Course Training In Hyderabad"
+          mTitle="Artificial Intelligence(Ai) Course "
+          spanMTitleText="Training In Hyderabad"
+          title="Artificial Intelligence(Ai) Course"
+          spanTitleText="Training In Hyderabad"
           desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
           src="/course4.png"
           width="900"

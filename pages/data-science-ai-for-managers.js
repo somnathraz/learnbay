@@ -18,6 +18,7 @@ import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import Fee from "../components/CoursePage/Fee/Fee";
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
+import LearnSupport from "../components/LearnSupport/LearnSupport";
 import {
   FaqData4,
   DomainFaqData4,
@@ -191,6 +192,7 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData4}
           SupportFaqDatas={SupportFaqData4}
         />
+        <LearnSupport />
       </main>
     </div>
   );

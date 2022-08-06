@@ -18,6 +18,8 @@ import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
 import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
+import LearnSupport from "../components/LearnSupport/LearnSupport";
+import { FullStackWebCourseData } from "../Data/FullStackWebData";
 import React, { useState } from "react";
 import {
   FaqData8,
@@ -56,7 +58,10 @@ export default function Home() {
         <FirstSection
           deskTopPara="Be a demanding Developer to stay ahead"
           mTopPara="Be a demanding Developer to stay ahead"
+          mTitle="Full Stack Web Development Program"
+          spanMTitleText="Crack MAANG Interviews"
           title="Full Stack Web Development Program"
+          spanTitleText="Crack MAANG Interviews"
           desc="Archive a stunning appearance in the job market as a seasoned web developer. Learn the ninja techniques from MNC experts via real-time projects."
           src="/header-home.webp"
           width="780"
@@ -93,9 +98,9 @@ export default function Home() {
         <CourseReview />
         <Certificate />
         <SyllabusNew
-          syllabus={FullStackSoftwareCourseData[0].syllabus}
-          syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
-          popupHead={FullStackSoftwareCourseData[0].popupHead}
+          syllabus={FullStackWebCourseData[0].syllabus}
+          syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
+          popupHead={FullStackWebCourseData[0].popupHead}
         />
         <OurExpert
           img1="/Wipro.png"
@@ -131,6 +136,7 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData8}
           SupportFaqDatas={SupportFaqData8}
         />
+        <LearnSupport />
       </main>
     </div>
   );

@@ -15,6 +15,7 @@ import OtherCertificate from "../components/CoursePage/OtherCertificate/OtherCer
 import Fee from "../components/CoursePage/Fee/Fee";
 import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import FAQNew from "../components/FAQNew/FAQNew";
+import LearnSupport from "../components/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import {
   FaqData3,
@@ -184,6 +185,7 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData3}
           SupportFaqDatas={SupportFaqData3}
         />
+        <LearnSupport />
       </main>
     </div>
   );

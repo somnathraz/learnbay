@@ -14,6 +14,7 @@ import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import Fee from "../components/CoursePage/Fee/Fee";
 import FAQNew from "../components/FAQNew/FAQNew";
+import LearnSupport from "../components/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import {
   FaqData5,
@@ -61,6 +62,8 @@ export default function Home() {
         <FirstSection
           deskTopPara="Boost your career opportunities "
           deskTopPara1="by developing relevant skills."
+          mTitle="Data Science and AI Program"
+          spanMTitleText="With Job Guarantee"
           mTopPara="Boost your career opportunities "
           mTopPara1="by developing relevant skills."
           title="Data Science and AI Program "
@@ -193,6 +196,7 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData5}
           SupportFaqDatas={SupportFaqData5}
         />
+        <LearnSupport />
       </main>
     </div>
   );

@@ -1,4 +1,4 @@
-export const DataScienceCourseData = [
+export const BusinessAnalyticsCourseData = [
   {
     FirstSection: {
       deskTopPara: "Certification course for professionals",
@@ -62,10 +62,10 @@ export const DataScienceCourseData = [
           content: [
             {
               chap: {
-                title: "Cohort Orientation ",
+                title: "Chapter 1:Cohort Orientation ",
                 desc: [
                   "A brief introduction to tools related to data ",
-                  "Learn about particular real-time projects and Capstone projects",
+                  "Learn about particular real-time projects and Capstone projects ",
                   "Data and its impact on career opportunities",
                   "Utilizing data, to enhance industrial operations and management",
                 ],
@@ -93,8 +93,6 @@ export const DataScienceCourseData = [
               },
             },
           ],
-          id: 0,
-          open: true,
         },
       },
       {
@@ -109,15 +107,12 @@ export const DataScienceCourseData = [
                   "Python Programming Overview",
                   "Strings, Decisions & Loop Control",
                   "Python Data Types",
-                  "Functions And Modules",
-                  "Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class",
-                  "File I/O And Exceptional Handling and Regular Expression",
-                  "Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling",
+                  "Functions And Modules Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class.",
+                  "File I/O And Exceptional Handling and Regular Expression Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling.",
                   "Data Analysis Using Numpy",
                   "Data Analysis Using Pandas",
                   "Data Visualization using Matplotlib",
-                  "Data Visualization using Seaborn",
-                  "Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
+                  "Data Visualization using Seaborn 3 Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
                 ],
               },
             },
@@ -130,25 +125,17 @@ export const DataScienceCourseData = [
           content: [
             {
               chap: {
-                title: "Module 2 Machine Learning",
+                title: "Module 1 Statistics",
                 desc: [
-                  "Introduction to Machine Learning",
-                  "Regression and Classification Models",
-                  "Linear Regression Model",
-                  "Data Preprocessing",
-                  "Encoding the Data",
-                  "Logistic Regression Model",
-                  "Evaluation Metrics for Classification model",
-                  "K Nearest Neighbours Model",
-                  "Decision Tree Model",
-                  "Random Forest Model",
-                  "Hyperparameter Tuning",
-                  "Naive Baye’s Model",
-                  "Case Study on Kart Model Business & Random Forest",
-                  "K Means and Hierarchical Clustering",
-                  "Hierarchical Clustering",
-                  "Principal Component Analysis(PCA):",
-                  "Support Vector Machine(SVM)",
+                  "Fundamentals of Math and Probability",
+                  "All about Population & Sample",
+                  "Introduction to Statistics, Statistical Thinking",
+                  "Descriptive Statistics",
+                  "Inferential Statistics",
+                  "Hypothesis Testing",
+                  "Linear Algebra",
+                  "Data Processing & Exploratory Data Analysis",
+                  "EDA Statistics Assignments: Total 4 practice sets and Assignments from Statistics",
                 ],
               },
             },
@@ -173,26 +160,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Module 2 MongoDB",
-                desc: ["Introduction to MongoDB", "MongoDB (Advance)"],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 3 Tableau ",
-                desc: [
-                  "Introduction to Tableau",
-                  "Visual Analytics",
-                  "Dashboard and Stories",
-                  "Hands-on: Connecting data source and data cleansing",
-                  "Working with various charts, Deployment of Predictive model in visualization",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 4 PowerBI",
+                title: "Module 2 PowerBI",
                 desc: [
                   "Getting Started With Power BI",
                   "Programming with Power BI",
@@ -201,22 +169,20 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Module 5 Big Data & Spark Analytics",
+                title: "Module 3 Big Data & Spark Analytics",
                 desc: [
                   "Introduction To Hadoop & Big Data",
                   "What is Spark",
-                  "Getting to know PySpark",
-                  "Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD programming",
+                  "Getting to know PySpark Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD programming",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 6 Time Series",
+                title: "Module 4 Time Series",
                 desc: [
                   "Introduction to Time Series Forecasting",
-                  "Introduction to ARIMA Models",
-                  "Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
+                  " Introduction to ARIMA Models Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
                 ],
               },
             },
@@ -225,40 +191,34 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "Term 4",
+          title: "Term 4-Essentials",
           content: [
             {
               chap: {
-                title: "Module 1 Deep Learning Using Tensorflow",
+                title: "Business Analytics",
                 desc: [
-                  "Introduction to Deep Learning And TensorFlow",
-                  "TensorFlow Classification Examples",
-                  "Understanding Neural Networks With TensorFlow",
-                  "Convolutional Neural Network (CNN)",
-                  "Project on Building a CNN for Image Classification",
+                  "Introduction to Business Analysis",
+                  "Stakeholders in Business Analysis",
+                  "Formulating Requirements",
+                  "Flowchart and Modelling",
+                  "Analysing and Transforming Requirements",
+                  "Finalising Requirements",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 Natural Language Processing (NLP)",
+                title: "Excel",
                 desc: [
-                  "Natural Language Processing",
-                  "Text Analysis",
-                  "KNN",
-                  "Use cases on NLP: Sentiment analysis for marketing",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3 Model Training & Deployment Using (AWS GCP)",
-                desc: [
-                  "AWS (Amazon Web Services)?",
-                  "GCP (Google Cloud Platform)",
-                  "Introduction to AWS and GCP Cloud ML Engine,",
-                  "Deploying Machine Learning Model",
-                  "Training Machine Learning Model",
+                  "Getting started with Excel",
+                  "Using Excel Toolbars: Hiding, Displaying, and Moving Toolbars",
+                  "Switching Between Sheets in a Workbook",
+                  "Entering Date Values and using AutoComplete",
+                  "Inserting and Deleting Cells, Rows, and Columns",
+                  "Working with the Forms Menu",
+                  "Creating & Working with Charts",
+                  "Changing a Chart Type and Working with Pie Charts",
+                  "Data Analysis & Pivot Tables",
                 ],
               },
             },

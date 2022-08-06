@@ -1231,7 +1231,6 @@
       right: 35%;
     }
     .container {
-      margin-left: 20px;
       display: flex;
       padding: 0px 0px;
       height: max-content;
@@ -1260,10 +1259,9 @@
 
       .project {
         margin-top: 40px;
-        width: 285px !important;
 
-        margin-right: 15px;
         padding: 20px;
+        margin-right: 45 !important;
         margin-bottom: 40px;
         height: 320px;
         background-image: url("/project-mobile-line.png");

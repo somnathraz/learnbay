@@ -10,6 +10,7 @@ import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
+import LearnSupport from "../components/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import {
   ArtificialFaqDataB,
@@ -79,7 +80,10 @@ export default function Home() {
         <FirstSection
           deskTopPara="Industry Curated Artificial Intelligence Program"
           mTopPara="Industry Curated Artificial Intelligence Program"
-          title="Artificial intelligence (AI) training in Bangalore"
+          title="Artificial intelligence (AI) "
+          spanTitleText="training in Bangalore"
+          mTitle="Artificial intelligence (AI)"
+          spanMTitleText="training in Bangalore"
           desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
           src="/course4.png"
           width="900"
@@ -256,6 +260,7 @@ export default function Home() {
               MentorshipFaqDatas={ArtificialMentorshipFaqDataB}
               SupportFaqDatas={ArtificialSupportFaqDataB}
             />
+            <LearnSupport />
           </div>
         </div>
         <CityText

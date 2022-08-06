@@ -10,6 +10,7 @@ import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
+import LearnSupport from "../components/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import {
   ArtificialFaqDataP,
@@ -252,6 +253,7 @@ export default function Home() {
               MentorshipFaqDatas={ArtificialMentorshipFaqDataP}
               SupportFaqDatas={ArtificialSupportFaqDataP}
             />
+            <LearnSupport />
           </div>
         </div>
         <CityText

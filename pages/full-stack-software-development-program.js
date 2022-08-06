@@ -18,6 +18,8 @@ import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
 import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import FAQNew from "../components/FAQNew/FAQNewcer";
+import LearnSupport from "../components/LearnSupport/LearnSupport";
+
 import React, { useState } from "react";
 import {
   FaqData9,
@@ -59,6 +61,8 @@ export default function Home() {
         <FirstSection
           deskTopPara="Full Stack Software Development Program"
           mTopPara="Full Stack Software Development Program"
+          mTitle="Ace Your Coding Interview at FAANG and"
+          spanMTitleText="Acheive Your Dream Job"
           title="Ace Your Coding Interview at FAANG and"
           spanTitleText=" Acheive Your Dream Job"
           desc="Best Interview Prep Course for Top Product Based MNCs"
@@ -135,6 +139,7 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData9}
           SupportFaqDatas={SupportFaqData9}
         />
+        <LearnSupport />
       </main>
     </div>
   );

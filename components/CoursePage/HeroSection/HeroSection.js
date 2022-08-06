@@ -27,8 +27,6 @@ const HeroSection = ({
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
 
-  console.log(width, height);
-
   const popupShow = () => {
     setPopups(true);
   };

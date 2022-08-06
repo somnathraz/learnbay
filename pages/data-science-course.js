@@ -16,22 +16,31 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Learnbay Courses</title>
-        <meta name="description" content="Data Science Course in Bangalore. Learnbay is Advanced Data Science Training Course Institute in Bangalore with 100% job placement Guarantee" />
-<meta name="Keywords" content="Data Science course in Bangalore, Data Science training in Bangalore, Data Science institute in Bangalore, best Data Science institute in Bangalore, data scientist course in Bangalore, data scientist certification in Bangalore, Data Science training institute in Bangalore, advanced Data Science course in Bangalore, Data Science course with placement guarantee, Data Science course" />
-<link rel="canonical" href="https://www.learnbay.co/" />
-<meta name="robots" content="NOODP,NOYDIR" />
-<meta name="HandheldFriendly" content="true" />
-<meta name="distribution" content="global" />
-<meta name="copyright" content="Learnbay: Data Science Courses Certification Training India" />
-<meta name="language" content="English" />
-<meta name="rating" content="general" />
-<meta name="revisit-after" content="Daily" />
-<meta name="author" content="Learnbay" />
-<meta name="googlebot" content="index,follow" />
-<meta name="bingbot" content="index,follow" />
-<meta name="expires" content="never" />
-<meta name="coverage" content="Worldwide" />
-<meta name="robots" content="ALL" />
+        <meta
+          name="description"
+          content="Data Science Course in Bangalore. Learnbay is Advanced Data Science Training Course Institute in Bangalore with 100% job placement Guarantee"
+        />
+        <meta
+          name="Keywords"
+          content="Data Science course in Bangalore, Data Science training in Bangalore, Data Science institute in Bangalore, best Data Science institute in Bangalore, data scientist course in Bangalore, data scientist certification in Bangalore, Data Science training institute in Bangalore, advanced Data Science course in Bangalore, Data Science course with placement guarantee, Data Science course"
+        />
+        <link rel="canonical" href="https://www.learnbay.co/" />
+        <meta name="robots" content="NOODP,NOYDIR" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="distribution" content="global" />
+        <meta
+          name="copyright"
+          content="Learnbay: Data Science Courses Certification Training India"
+        />
+        <meta name="language" content="English" />
+        <meta name="rating" content="general" />
+        <meta name="revisit-after" content="Daily" />
+        <meta name="author" content="Learnbay" />
+        <meta name="googlebot" content="index,follow" />
+        <meta name="bingbot" content="index,follow" />
+        <meta name="expires" content="never" />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="robots" content="ALL" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <FirstSection />
@@ -57,4 +66,3 @@ export default function Home() {
     </div>
   );
 }
-

@@ -11,6 +11,7 @@ import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import React, { useState } from "react";
+import LearnSupport from "../components/LearnSupport/LearnSupport";
 import {
   AdvanceFaqDataDu,
   AdvanceDomainFaqDataDu,
@@ -263,6 +264,7 @@ export default function Home() {
               MentorshipFaqDatas={AdvanceMentorshipFaqDataDu}
               SupportFaqDatas={AdvanceSupportFaqDataDu}
             />
+            <LearnSupport />
           </div>
         </div>
         <CityText

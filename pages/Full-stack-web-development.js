@@ -18,6 +18,8 @@ import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
 import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
+
+import LearnSupport from "../components/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import {
   FaqData8,
@@ -56,8 +58,10 @@ export default function Home() {
         <FirstSection
           deskTopPara="Be a demanding Developer to stay ahead"
           mTopPara="Be a demanding Developer to stay ahead"
+          mTitle="Full Stack Web Development Program"
+          spanMTitleText="Crack MAANG Interviews"
           title="Full Stack Web Development Program"
-          spanTitleText="with Domain Specialization"
+          spanTitleText="Crack MAANG Interviews"
           desc="As a seasoned web developer, you'll have an advantage in the job market. Learn ultimate methods from MNC specialists with real-world projects."
           src="/dsa-header-image.png"
           width="776"
@@ -132,6 +136,7 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData8}
           SupportFaqDatas={SupportFaqData8}
         />
+        <LearnSupport />
       </main>
     </div>
   );
