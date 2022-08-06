@@ -14,7 +14,7 @@ import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import OtherCertificate from "../components/CoursePage/OtherCertificate6/OtherCertificate";
 import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
-import { DataScienceCourseData } from "../Data/DataScienceCourse";
+import { ManagersCourseData } from "../Data/JobCourse";
 import Fee from "../components/CoursePage/Fee/Fee";
 import FAQNew from "../components/FAQNew/FAQNew";
 import React, { useState } from "react";
@@ -120,9 +120,9 @@ export default function Home() {
         />
 
         <SyllabusNew
-          syllabus={DataScienceCourseData[0].syllabus}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          popupHead={DataScienceCourseData[0].popupHead}
+          syllabus={ManagersCourseData[0].syllabus}
+          syllabusDesc={ManagersCourseData[0].syllabusDesc}
+          popupHead={ManagersCourseData[0].popupHead}
         />
         <OurExpert
           img1="/Wipro.png"
