@@ -15,6 +15,7 @@ import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import Fee from "../components/CoursePage/Fee/Fee";
 import FAQNew from "../components/FAQNew/FAQNew";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
+import { JobGuaranteeCourseData } from "../Data/JobGuaranteeData";
 import React, { useState } from "react";
 import {
   FaqData5,
@@ -110,9 +111,9 @@ export default function Home() {
           src="/DS-AI-1.jpeg"
         />
         <SyllabusNew
-          syllabus={DataScienceCourseData[0].syllabus}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          popupHead={DataScienceCourseData[0].popupHead}
+          syllabus={JobGuaranteeCourseData[0].syllabus}
+          syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
+          popupHead={JobGuaranteeCourseData[0].popupHead}
         />
         <div className={styles.ctj}>
           <div className={styles.left}></div>
