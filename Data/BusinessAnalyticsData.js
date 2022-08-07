@@ -93,6 +93,8 @@ export const BusinessAnalyticsCourseData = [
               },
             },
           ],
+          id: 0,
+          open: true,
         },
       },
       {
@@ -117,6 +119,8 @@ export const BusinessAnalyticsCourseData = [
               },
             },
           ],
+          id: 1,
+          open: false,
         },
       },
       {
@@ -140,6 +144,8 @@ export const BusinessAnalyticsCourseData = [
               },
             },
           ],
+          id: 2,
+          open: false,
         },
       },
       {
@@ -187,6 +193,8 @@ export const BusinessAnalyticsCourseData = [
               },
             },
           ],
+          id: 3,
+          open: false,
         },
       },
       {
@@ -223,6 +231,8 @@ export const BusinessAnalyticsCourseData = [
               },
             },
           ],
+          id: 4,
+          open: false,
         },
       },
     ],

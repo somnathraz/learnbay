@@ -6,7 +6,7 @@ import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-export const ProgramFee = () => {
+export const ProgramFee = ({ Fee, Emi }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -37,9 +37,9 @@ export const ProgramFee = () => {
           <div className={styles.left}>
             <h6>The EMI option</h6>
             <p>
-              With a 0% interest rate, we provide you affordable financing
-              solutions such as No cost EMI. Besides, the program fees structure
-              is transparent and not attached with any hidden expenses.
+              We have partnered with the following financing companies to
+              provide competitive finance options at 0% interest rate with no
+              hidden costs.
             </p>
             <Image
               src="/programFeeIcon.png"
@@ -49,17 +49,15 @@ export const ProgramFee = () => {
             />
             <div className={styles.bottom}>
               <p>Get professional training affordably</p>
-              <h5>₹ 8,500*/month</h5>
+              <h5>{Fee}</h5>
               <button onClick={popupShow}>Enroll Now</button>
             </div>
           </div>
           <div className={styles.right}>
-            <h6>Alternative Options of Financing</h6>
+            <h6>Financing as low as</h6>
             <p>
               If one-time payment is your thing other than EMI, you can rely on
-              services such as Internet banking or credit/debit cards. We accept
-              course fees payment in these specified modes, whichever you feel
-              comfortable with.
+              services such as Internet banking or credit/debit cards.
             </p>
             <div className={styles.bottom}>
               <div className={styles.lefts}>
@@ -77,7 +75,7 @@ export const ProgramFee = () => {
             </div>
             <div className={styles.bottomS}>
               <p>Get professional training affordably</p>
-              <h5>₹ 8,500*/month</h5>
+              <h5>{Emi}</h5>
               <button style={{ margin: "auto" }} onClick={popupShow}>
                 Enroll Now
               </button>

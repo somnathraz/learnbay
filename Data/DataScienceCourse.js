@@ -122,6 +122,8 @@ export const DataScienceCourseData = [
               },
             },
           ],
+          id: 1,
+          open: false,
         },
       },
       {
@@ -153,6 +155,8 @@ export const DataScienceCourseData = [
               },
             },
           ],
+          id: 2,
+          open: false,
         },
       },
       {
@@ -221,6 +225,8 @@ export const DataScienceCourseData = [
               },
             },
           ],
+          id: 3,
+          open: false,
         },
       },
       {
@@ -263,6 +269,8 @@ export const DataScienceCourseData = [
               },
             },
           ],
+          id: 4,
+          open: false,
         },
       },
     ],

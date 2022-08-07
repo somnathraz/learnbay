@@ -63,11 +63,14 @@ export default function Home() {
           deskTopPara1="You Can Use Right Away"
           mTopPara="Develop Work-Ready Skills"
           mTopPara1="You Can Use Right Away"
+          mTitle="Business Analytics Certification Program"
+          spanMTitleText="For Non-tech Professionals"
           title="Business Analytics Certification Program"
+          spanTitleText="For Non-tech Professionals"
           desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
           src="/course7.png"
-          width="900"
-          height="762"
+          width="674"
+          height="623"
           alt="AiMl Header"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
         />
@@ -121,7 +124,7 @@ export default function Home() {
           img7="/Microsoft.png"
           img8="/Google.png"
         />
-        <ProgramFee />
+        <ProgramFee Fee="₹  65,000 + GST" Emi="₹  6,392/month" />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="5+" domain="7+" />

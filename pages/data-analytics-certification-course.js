@@ -63,11 +63,14 @@ export default function Home() {
           deskTopPara1="with popular skill sets."
           mTopPara="Get ahead of the competition "
           mTopPara1="with popular skill sets."
+          mTitle="Data Analytics Certification Program"
+          spanMTitleText="For Professionals"
           title="Data Analytics Certification Program"
+          spanTitleText="For Professionals"
           desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
           src="/course6.png"
-          width="900"
-          height="762"
+          width="760"
+          height="611"
           alt="AiMl Header"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
         />
@@ -123,7 +126,7 @@ export default function Home() {
           img7="/Microsoft.png"
           img8="/Google.png"
         />
-        <ProgramFee />
+        <ProgramFee Emi="₹ 6,392/month" Fee="₹ 60,000 +GST" />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="6+" domain="7+" />
