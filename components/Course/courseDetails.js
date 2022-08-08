@@ -4,7 +4,7 @@ export const viewAllD = [
     img: "data-science-ai-program.png",
     title: "Data Science",
     title1: "Foundation Program",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "200 hours of Interactive Learning",
       "8 Projects + 1 Capstone",
@@ -13,13 +13,13 @@ export const viewAllD = [
     link1: "/data-science-certification-courses",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/FOUNDATION+DS.pdf",
-  }, 
+  },
   {
     id: 2,
     img: "advance-data-science-ai-program.png",
     title: "Advanced Data Science",
     title1: "& AI Program",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "250 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -34,7 +34,7 @@ export const viewAllD = [
     img: "advance -ai-ml-for-tech-professionals.png",
     title: "Advance AI & ML Program",
     title1: "for Tech Professionals",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -49,7 +49,7 @@ export const viewAllD = [
     img: "data-science-ai-for managers.png",
     title: "Data Science & AI ",
     title1: "For Managers",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -64,7 +64,7 @@ export const viewAllD = [
     img: "data-science-ai-with-job-guarantee.png",
     title: "Data Science & AI with ",
     title1: "Job Guarantee Program",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "500 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
@@ -79,7 +79,7 @@ export const viewAllD = [
     img: "/dsa-system.png",
     title: "Data Analytics",
     title1: "Program",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "180 hours of Interactive Learning",
       "5 Projects",
@@ -94,7 +94,7 @@ export const viewAllD = [
     img: "business-analytics.png",
     title: "Business Analytics",
     title1: "Program",
-    tag:"Data science",
+    tag: "Data science",
 
     para: [
       "200 hours of Interactive Learning",
@@ -110,7 +110,7 @@ export const viewAllD = [
     img: "full-stack-web-development.png",
     title: "Full-Stack Web",
     title1: "Development Program",
-    tag:"Full stack",
+    tag: "Full stack",
     para: [
       "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -125,7 +125,7 @@ export const viewAllD = [
     img: "full-stack-developer-course.png",
     title: "Full-Stack Software",
     title1: "Development Program",
-    tag:"Full stack",
+    tag: "Full stack",
     para: [
       "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -138,9 +138,9 @@ export const viewAllD = [
   {
     id: 10,
     img: "dsa&system.png",
-    title: "DSA & ",
+    title: "Data Structures Algorithms And ",
     title1: "System Design",
-    tag:"Full stack",
+    tag: "Full stack",
     para: [
       "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -156,7 +156,7 @@ export const ForProgrammersD = [
     id: 1,
     img: "advance-data-science-ai-program.png",
     title: "Advanced Data Science",
-    tag:"Data science",
+    tag: "Data science",
     title1: "& AI Program",
     para: [
       "250 hours of Interactive Learning",
@@ -171,7 +171,7 @@ export const ForProgrammersD = [
     id: 2,
     img: "full-stack-developer-course.png",
     title: "Full-Stack Software",
-    tag:"Full stack",
+    tag: "Full stack",
     title1: "Development Program",
     para: [
       "300 hours of Interactive Learning",
@@ -186,7 +186,7 @@ export const ForProgrammersD = [
     id: 3,
     img: "data-science-ai-for managers.png",
     title: "Data Science & AI ",
-    tag:"Data science",
+    tag: "Data science",
     title1: "For Managers",
     para: [
       "400 hours of Interactive Learning",
@@ -201,7 +201,7 @@ export const ForProgrammersD = [
     id: 4,
     img: "advance -ai-ml-for-tech-professionals.png",
     title: "Advance AI & ML Program",
-    tag:"Data science",
+    tag: "Data science",
     title1: "for Tech Professionals",
     para: [
       "350 hours of Interactive Learning",
@@ -216,7 +216,7 @@ export const ForProgrammersD = [
     id: 5,
     img: "full-stack-web-development.png",
     title: "Full-Stack Web ",
-    tag:"Full stack",
+    tag: "Full stack",
     title1: "Development Program",
     para: [
       "300 hours of Interactive Learning",
@@ -232,7 +232,7 @@ export const ForProgrammersD = [
     img: "data-science-ai-with-job-guarantee.png",
     title: "Data Science & AI with ",
     title1: "Job Guarantee Program",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "500 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
@@ -245,9 +245,9 @@ export const ForProgrammersD = [
   {
     id: 7,
     img: "dsa&system.png",
-    title: "DSA & ",
+    title: "Data Structures Algorithms And",
     title1: "System Design",
-    tag:"Full stack",
+    tag: "Full stack",
     para: [
       "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -264,7 +264,7 @@ export const ForNonProgrammerD = [
     img: "/data-science-ai-program.png",
     title: "Data Science",
     title1: "Foundation Program",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "200 hours of Interactive Learning",
       "8 Projects + 1 Capstone",
@@ -279,7 +279,7 @@ export const ForNonProgrammerD = [
     img: "advance-data-science-ai-program.png",
     title: "Advanced Data Science",
     title1: "& AI Program",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "250 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -294,7 +294,7 @@ export const ForNonProgrammerD = [
     img: "advance -ai-ml-for-tech-professionals.png",
     title: "Advance AI & ML Program",
     title1: "for Tech Professionals",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -309,7 +309,7 @@ export const ForNonProgrammerD = [
     img: "data-science-ai-for managers.png",
     title: "Data Science & AI ",
     title1: "For Managers",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
@@ -324,7 +324,7 @@ export const ForNonProgrammerD = [
     img: "data-science-ai-with-job-guarantee.png",
     title: "Data Science & AI with ",
     title1: "Job Guarantee Program",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "500 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
@@ -339,7 +339,7 @@ export const ForNonProgrammerD = [
     img: "business-analytics.png",
     title: "Business Analytics",
     title1: "Program",
-    tag:"Data science",
+    tag: "Data science",
 
     para: [
       "200 hours of Interactive Learning",
@@ -358,7 +358,7 @@ export const JobGuaranteeD = [
     img: "data-science-ai-with-job-guarantee.png",
     title: "Data Science & AI with ",
     title1: "Job Guarantee Program",
-    tag:"Data science",
+    tag: "Data science",
     para: [
       "500 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
@@ -373,7 +373,7 @@ export const JobGuaranteeD = [
     img: "full-stack-web-development.png",
     title: "Full-Stack Web ",
     title1: "Development Program",
-    tag:"Full stack",
+    tag: "Full stack",
     para: [
       "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -390,7 +390,7 @@ export const StackD = [
     img: "full-stack-web-development.png",
     title: "Full-Stack Web ",
     title1: "Development Program",
-    tag:"Full stack",
+    tag: "Full stack",
     para: [
       "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -405,7 +405,7 @@ export const StackD = [
     img: "full-stack-developer-course.png",
     title: "Full-Stack Software",
     title1: "Development Program",
-    tag:"Full stack",
+    tag: "Full stack",
     para: [
       "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -418,9 +418,9 @@ export const StackD = [
   {
     id: 3,
     img: "dsa&system.png",
-    title: "DSA & ",
+    title: "Data Structures Algorithms And",
     title1: "System Design",
-    tag:"Full stack",
+    tag: "Full stack",
     para: [
       "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",

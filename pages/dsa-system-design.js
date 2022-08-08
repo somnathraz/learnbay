@@ -16,7 +16,7 @@ import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
 import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
-import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
+import { DsaCourseData } from "../Data/DsaData";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
 
 import LearnSupport from "../components/LearnSupport/LearnSupport";
@@ -98,9 +98,9 @@ export default function Home() {
         <CourseReview />
         <Certificate />
         <SyllabusNew
-          syllabus={FullStackSoftwareCourseData[0].syllabus}
-          syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
-          popupHead={FullStackSoftwareCourseData[0].popupHead}
+          syllabus={DsaCourseData[0].syllabus}
+          syllabusDesc={DsaCourseData[0].syllabusDesc}
+          popupHead={DsaCourseData[0].popupHead}
         />
         <OurExpert
           img1="/Wipro.png"
@@ -112,7 +112,7 @@ export default function Home() {
           img7="/Microsoft.png"
           img8="/Google.png"
         />
-        <ProgramFee />
+        <ProgramFee Fee="₹ 70,000 + GST" Emi="" />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+" domain="7+" />

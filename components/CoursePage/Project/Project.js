@@ -85,26 +85,19 @@ const Project = ({ ChangeProject, project, domain }) => {
           navigation={true}
           grabCursor={true}
           breakpoints={{
-            640: {
-              slidesPerView: 2,
-              spaceBetween: 20,
-            },
             768: {
               slidesPerView: 4,
               spaceBetween: 40,
             },
             1024: {
-              slidesPerView: 5,
+              slidesPerView: 3,
               spaceBetween: 50,
             },
           }}
           modules={[Pagination, Navigation]}
           className="mySwiper"
         >
-          <SwiperSlide
-            className={styles.project}
-            style={mobile ? { width: "280px" } : { width: "400px" }}
-          >
+          <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
                 <h5>HR Domain</h5>
@@ -139,10 +132,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </span>
             </div>
           </SwiperSlide>
-          <SwiperSlide
-            className={styles.project}
-            style={mobile ? { width: "280px" } : { width: "400px" }}
-          >
+          <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
                 <h5>Marketing Domain</h5>
@@ -177,10 +167,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </span>
             </div>
           </SwiperSlide>
-          <SwiperSlide
-            className={styles.project}
-            style={mobile ? { width: "280px" } : { width: "400px" }}
-          >
+          <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
                 <h5>Manufacturing Domain</h5>
@@ -215,10 +202,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </span>
             </div>
           </SwiperSlide>
-          <SwiperSlide
-            className={styles.project}
-            style={mobile ? { width: "280px" } : { width: "400px" }}
-          >
+          <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
                 <h5>Sales Domain</h5>
@@ -253,10 +237,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </span>
             </div>
           </SwiperSlide>
-          <SwiperSlide
-            className={styles.project}
-            style={mobile ? { width: "280px" } : { width: "400px" }}
-          >
+          <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
                 <h5>Retail Domain</h5>
@@ -291,10 +272,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </span>
             </div>
           </SwiperSlide>
-          <SwiperSlide
-            className={styles.project}
-            style={mobile ? { width: "280px" } : { width: "400px" }}
-          >
+          <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
                 <h5>Healthcare Domain</h5>
@@ -329,10 +307,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </span>
             </div>
           </SwiperSlide>
-          <SwiperSlide
-            className={styles.project}
-            style={mobile ? { width: "280px" } : { width: "400px" }}
-          >
+          <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
                 <h5>E-Commerce Domain</h5>
@@ -367,10 +342,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </span>
             </div>
           </SwiperSlide>
-          <SwiperSlide
-            className={styles.project}
-            style={mobile ? { width: "280px" } : { width: "400px" }}
-          >
+          <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
                 <h5>Entertainment Domain</h5>

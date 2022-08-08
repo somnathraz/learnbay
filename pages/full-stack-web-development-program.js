@@ -112,7 +112,7 @@ export default function Home() {
           img7="/Microsoft.png"
           img8="/Google.png"
         />
-        <ProgramFee />
+        <ProgramFee Fee="₹ 1,20,000 + GST" Emi="₹ 9k to 15k" />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+" domain="7+" />

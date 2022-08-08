@@ -1,0 +1,57 @@
+.OfferPopup {
+  position: fixed;
+
+  background-image: url("/software_pattern__.webp");
+  /* backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%); */
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 12px 12px 0px 0px;
+  box-shadow: rgba(13, 75, 155, 0.4) 0px 10px 50px;
+  z-index: 999;
+  height: fit-content;
+  width: 350px;
+  padding: 20px;
+  bottom: 0;
+  left: 15px;
+}
+.Offer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-flow: column;
+  justify-content: center;
+}
+.Offer h6 {
+  font-size: 24px;
+  margin: 0;
+}
+.Offer p {
+  margin: 0;
+  font-weight: 600;
+  color: #000;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.Offer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Icon {
+  position: absolute;
+  font-size: 20px;
+  color: #0d4a9b;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+.faded {
+  color: rgb(201, 201, 201);
+}

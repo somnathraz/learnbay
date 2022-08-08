@@ -9,7 +9,11 @@ function LearnSupport() {
       <h4>24/7 Learner’s Support</h4>
       <div className={styles.LearnSupport}>
         <div className={styles.learnInnerR}>
-          <img src="/24-7-support-home.webp" width="100%" className={styles.img} />
+          <img
+            src="/24-7-support-home.webp"
+            width="100%"
+            className={styles.img}
+          />
         </div>
         <div className={styles.learnInner}>
           <p className={styles.pTop}>Got more questions?</p>
@@ -19,12 +23,19 @@ function LearnSupport() {
             shortly
           </p>
           <div className={styles.btnWrap}>
-            <button className={styles.btn1}>
-              <AiOutlineWhatsApp /> Enquire Now
-            </button>
-            <button className={styles.btn2}>
-              <MdCall /> +91 96069 50936
-            </button>
+            <a
+              href="https://api.whatsapp.com/send?phone=917349222263&text=Hello,"
+              target="_blank"
+            >
+              <button className={styles.btn1}>
+                <AiOutlineWhatsApp /> Enquire Now
+              </button>
+            </a>
+            <a href="tel:+919606950936">
+              <button className={styles.btn2}>
+                <MdCall /> +91 96069 50936
+              </button>
+            </a>
           </div>
         </div>
       </div>

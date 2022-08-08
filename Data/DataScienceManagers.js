@@ -1,4 +1,4 @@
-export const DataScienceCourseData = [
+export const DsaiManagersCourseData = [
   {
     FirstSection: {
       deskTopPara: "Certification course for professionals",
@@ -53,7 +53,7 @@ export const DataScienceCourseData = [
       desc: "Our Advanced Data science and AI course with 100% job guarantee follows a project-based learning approach. Further, it       focuses on helping learners build relevant experience in the technologies to land your super dream job.",
     },
     syllabusDesc:
-      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
+      "Skillslash’s best Data Science course in Bangalore comes with a 100% job guarantee. Besides, the Data Science and AI courses are curated by leading faculties and industry leaders. Especially, with the aim to provide practical data science learning experience with live interactive classes and projects.",
     popupHead: "Download Data science Course Brochure",
     syllabus: [
       {
@@ -64,8 +64,8 @@ export const DataScienceCourseData = [
               chap: {
                 title: "Cohort Orientation ",
                 desc: [
-                  "A brief introduction to tools related to data ",
-                  "Learn about particular real-time projects and Capstone projects",
+                  "A brief introduction to tools related to data  ",
+                  "Learn about particular real-time projects and Capstone projects ",
                   "Data and its impact on career opportunities",
                   "Utilizing data, to enhance industrial operations and management",
                 ],
@@ -74,9 +74,9 @@ export const DataScienceCourseData = [
 
             {
               chap: {
-                title: "Chapter 2: Fundamentals of programming",
+                title: "Chapter 2:  Fundamentals of programming ",
                 desc: [
-                  "Introduction to Anaconda & Jupyter notebook",
+                  "Introduction to Anaconda & Jupyter notebook ",
                   "Flavors of python Introduction to Git, GitHub",
                   "Python Fundamentals",
                 ],
@@ -84,61 +84,72 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: Fundamentals of Statistics",
+                title: "Fundamentals of Statistics",
                 desc: [
-                  "Mean, Median, Mode",
-                  "Standard Deviation, Average. Probability, permutations, and combinations",
+                  "Mean, Median, Mode.",
+                  "Standard Deviation, Average. Probability, permutations, and combinations ",
                   "Introduction to Linear Algebra",
                 ],
               },
             },
           ],
-          id: 0,
-          open: true,
         },
       },
+
       {
         Module0: {
           title: "Term 1",
           content: [
             {
               chap: {
-                title: "Module 1 Python Programming",
+                title: "Module 1 Python Programming ",
                 desc: [
-                  "Programming Basics & Environment Setup",
-                  "Python Programming Overview",
-                  "Strings, Decisions & Loop Control",
-                  "Python Data Types",
-                  "Functions And Modules",
-                  "Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class",
-                  "File I/O And Exceptional Handling and Regular Expression",
-                  "Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling",
-                  "Data Analysis Using Numpy",
+                  "Programming Basics & Environment Setup.",
+                  " Python Programming Overview ",
+                  " Strings, Decisions & Loop Control ",
+                  " Python Data Types ",
+                  "Functions And Modules ,Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class",
+                  "File I/O And Exceptional Handling and Regular Expression,Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling.",
+                  " Data Analysis Using Numpy",
                   "Data Analysis Using Pandas",
                   "Data Visualization using Matplotlib",
-                  "Data Visualization using Seaborn",
-                  "Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
+                  "Data Visualization using Seaborn,3 Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
                 ],
               },
             },
           ],
-          id: 1,
-          open: false,
         },
       },
+
       {
         Module0: {
           title: "Term 2",
           content: [
             {
               chap: {
-                title: "Module 2 Machine Learning",
+                title: "Module 2 - Statistics",
+                desc: [
+                  " Fundamentals of Math and Probability",
+                  "All about Population & Sample",
+                  "Introduction to Statistics, Statistical Thinking",
+                  " Descriptive Statistics",
+                  " Inferential Statistics",
+                  " Hypothesis Testing",
+                  "Linear Algebra",
+                  "Data Processing & Exploratory Data Analysis",
+                  " EDA,Statistics Assignments: Total 4 practice sets and Assignments from Statistics",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2-Machine Learning",
                 desc: [
                   "Introduction to Machine Learning",
                   "Regression and Classification Models",
                   "Linear Regression Model",
-                  "Data Preprocessing",
-                  "Encoding the Data",
+                  " Data Preprocessing",
+                  "Encoding the Model",
                   "Logistic Regression Model",
                   "Evaluation Metrics for Classification model",
                   "K Nearest Neighbours Model",
@@ -147,56 +158,53 @@ export const DataScienceCourseData = [
                   "Hyperparameter Tuning",
                   "Naive Baye’s Model",
                   "Case Study on Kart Model Business & Random Forest",
-                  "K Means and Hierarchical Clustering",
-                  "Hierarchical Clustering",
-                  "Principal Component Analysis(PCA):",
-                  "Support Vector Machine(SVM)",
+                  " K Means and Hierarchical Clustering",
+                  " Hierarchical Clustering",
+                  "Principal Component Analysis(PCA)",
+                  " Support Vector Machine(SVM),Case Study on Recommendation Engine for e-commerce/retail chain & Twitter data analysis using NLP",
                 ],
               },
             },
           ],
-          id: 2,
-          open: false,
         },
       },
+
       {
         Module0: {
           title: "Term 3",
           content: [
             {
               chap: {
-                title: "Module 1 SQL",
+                title: "Module 1-SQL",
                 desc: [
                   "SQL and RDBMS",
-                  "Advance SQL",
+                  " Advance SQL",
                   "NoSQL, HBase & MongoDB",
                   "JSON Data & CRUD",
-                  "Programming with SQL",
+                  " Programming with SQL",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 MongoDB",
-                desc: ["Introduction to MongoDB", "MongoDB (Advance)"],
+                title: "Module 2-MongoDB",
+                desc: ["Introduction to MongoDB", " MongoDB (Advance)"],
               },
             },
-
             {
               chap: {
-                title: "Module 3 Tableau ",
+                title: "Module 3-Tableau ",
                 desc: [
                   "Introduction to Tableau",
                   "Visual Analytics",
                   "Dashboard and Stories",
-                  "Hands-on: Connecting data source and data cleansing",
-                  "Working with various charts, Deployment of Predictive model in visualization",
+                  "ableau (Advance),Hands-on: Connecting data source and data cleansing, Working with various charts, Deployment of Predictive model in visualization",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 4 PowerBI",
+                title: "Module 4- PowerBI",
                 desc: [
                   "Getting Started With Power BI",
                   "Programming with Power BI",
@@ -205,72 +213,110 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Module 5 Big Data & Spark Analytics",
+                title: "Module 5-Big Data & Spark Analytics",
                 desc: [
-                  "Introduction To Hadoop & Big Data",
+                  " Introduction To Hadoop & Big Data",
                   "What is Spark",
-                  "Getting to know PySpark",
-                  "Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD programming",
+                  "Getting to know PySpark,Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD  programming  ",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 6 Time Series",
+                title: "Module 6-Time Series",
                 desc: [
-                  "Introduction to Time Series Forecasting",
-                  "Introduction to ARIMA Models",
-                  "Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
+                  " Introduction to Time Series Forecasting",
+                  " Introduction to ARIMA Models,Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
                 ],
               },
             },
           ],
-          id: 3,
-          open: false,
         },
       },
+
       {
         Module0: {
           title: "Term 4",
           content: [
             {
               chap: {
-                title: "Module 1 Deep Learning Using Tensorflow",
+                title: "Module 1-Deep Learning Using Tensorflow",
                 desc: [
                   "Introduction to Deep Learning And TensorFlow",
                   "TensorFlow Classification Examples",
                   "Understanding Neural Networks With TensorFlow",
-                  "Convolutional Neural Network (CNN)",
-                  "Project on Building a CNN for Image Classification",
+                  "Convolutional Neural Network (CNN),Project on Building a CNN for Image Classification",
+                  " Introducing Recurrent Neural Networks skflow: RNNs in skflow",
+                  " Understanding Of TFLearn APIs",
+                  " Understanding Keras API for implementing Neural Networks,Real-Time Project on SPAM Prediction using RNN & Image Classifier using PyTorch",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 Natural Language Processing (NLP)",
+                title: "Module 2-Natural Language Processing (NLP)",
                 desc: [
-                  "Natural Language Processing",
+                  " Natural Language Processing",
                   "Text Analysis",
-                  "KNN",
-                  "Use cases on NLP: Sentiment analysis for marketing",
+                  " KNN ,Use cases on NLP : Sentiment analysis for marketing",
+                  " Text Pre Processing Techniques,",
+                  " Stemming,Projects And Case Study on Sentiment analysis for Twitter, web articles & Advanced Text Analytics & NLP",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 3 Model Training & Deployment Using (AWS GCP)",
+                title: "Module 3-Computer Vision",
                 desc: [
-                  "AWS (Amazon Web Services)?",
+                  " Computer Vision overview",
+                  "Image Filtering",
+                  " Image Processing",
+                  "Image Classification and segmentation",
+                  "Project: The Problem of Scale and Shape,Real Time Use Case:  Single Shot MultiBox Detector & Object Localization",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4-Reinforcement Learning",
+                desc: [
+                  " What is Reinforcement Learning - Basics",
+                  "Approximation Methods for Reinforcement Learning,Projects and Case Studies on Solving Taxi Environment & Solving Frozen Lake  ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 5-Model Training & Deployment Using (AWS GCP).",
+                desc: [
+                  " AWS (Amazon Web Services)",
                   "GCP (Google Cloud Platform)",
-                  "Introduction to AWS and GCP Cloud ML Engine,",
-                  "Deploying Machine Learning Model",
-                  "Training Machine Learning Model",
+                  " Introduction to AWS and GCP Cloud ML Engine",
+                  " Deploying Machine Learning Model",
+                  " Training Machine Learning Model",
                 ],
               },
             },
           ],
-          id: 4,
-          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Term 5",
+          content: [
+            {
+              chap: {
+                title: "Essentials-Project Management Module",
+                desc: [
+                  "Jira process",
+                  "PM approaches for Technical Projects",
+                  " JIRA Process",
+                  " Agile",
+                ],
+              },
+            },
+          ],
         },
       },
     ],
