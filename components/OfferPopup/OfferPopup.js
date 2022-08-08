@@ -27,7 +27,7 @@ const OfferPopup = ({ link, title, p1, p2, batch1, batch2 }) => {
 
         <p className={styles.faded}>** Terms & Conditions applied.</p>
         <button onClick={handelOpen}>
-          <a href={link} target="_blank">
+          <a href="/submit-info" target="_blank">
             Apply For Scholarship Now!
           </a>
         </button>
