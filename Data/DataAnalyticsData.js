@@ -58,7 +58,7 @@ export const DataAnalyticsCourseData = [
     syllabus: [
       {
         Module0: {
-          title: "Module 0",
+          title: "Module 0 :- Preparatory Classes (Programming + Maths)",
           content: [
             {
               chap: {
@@ -103,7 +103,7 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Term 1",
+          title: "Term 1 :- Python for Data Science",
           content: [
             {
               chap: {
@@ -256,7 +256,7 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Module 2 - Applied Statistics",
+          title: "Module 2 :- Applied Statistics",
           content: [
             {
               chap: {
@@ -317,7 +317,7 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Module 3 - Advance Machine Learning",
+          title: "Module 3 :- Advance Machine Learning",
           content: [
             {
               chap: {
@@ -444,7 +444,7 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Module 4 - Deep Learning",
+          title: "Module 4 :- Deep Learning",
           content: [
             {
               chap: {
@@ -517,7 +517,7 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Module 5 - NLP",
+          title: "Module 5 :- NLP",
           content: [
             {
               chap: {
@@ -571,7 +571,7 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Module 6- Reinforcement Learning",
+          title: "Module 6 :- Reinforcement Learning",
           content: [
             {
               chap: {
@@ -594,7 +594,7 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Module 7- Computer Vision",
+          title: "Module 7 :- Computer Vision",
           content: [
             {
               chap: {
@@ -616,7 +616,7 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Module 8- Explainable Ai and Risk Management",
+          title: "Module 8 :- Explainable Ai and Risk Management",
           content: [
             {
               chap: {
@@ -638,7 +638,7 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Module 9 - TOOLS",
+          title: "Module 9 :- TOOLS",
           content: [
             {
               chap: {

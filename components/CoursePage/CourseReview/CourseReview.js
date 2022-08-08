@@ -41,7 +41,7 @@ const CourseReview = () => {
                     layout="intrinsic"
                   />
                   <div className={styles.leftBottomC}>
-                    <h5>240%</h5>
+                    <h5>140%</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ const CourseReview = () => {
                     layout="intrinsic"
                   />
                   <div className={styles.leftBottomC}>
-                    <h5>200%</h5>
+                    <h5>210%</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
@@ -172,7 +172,7 @@ const CourseReview = () => {
                     layout="intrinsic"
                   />
                   <div className={styles.leftBottomC}>
-                    <h5>120%</h5>
+                    <h5>150%</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
@@ -191,7 +191,7 @@ const CourseReview = () => {
                 <div className={styles.contentRight}>
                   <div className={styles.name}>
                     <p>Working at Capgemini</p>
-                    <h5>Ritish</h5>
+                    <h5>Ritish Kumar</h5>
                   </div>
                   <div>
                     <p className={styles.para}>
@@ -216,7 +216,7 @@ const CourseReview = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
-              <div className={styles.bottom}>
+              {/* <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
                     src="/hike.svg"
@@ -229,7 +229,7 @@ const CourseReview = () => {
                     <p>Salary Hike</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
@@ -269,7 +269,7 @@ const CourseReview = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
-              <div className={styles.bottom}>
+              {/* <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
                     src="/hike.svg"
@@ -282,7 +282,7 @@ const CourseReview = () => {
                     <p>Salary Hike</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
@@ -320,7 +320,7 @@ const CourseReview = () => {
             </SwiperSlide>
 
             <SwiperSlide className={styles.slide}>
-              <div className={styles.bottom}>
+              {/* <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
                     src="/hike.svg"
@@ -333,7 +333,7 @@ const CourseReview = () => {
                     <p>Salary Hike</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
@@ -373,7 +373,7 @@ const CourseReview = () => {
             </SwiperSlide>
 
             <SwiperSlide className={styles.slide}>
-              <div className={styles.bottom}>
+              {/* <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
                     src="/hike.svg"
@@ -386,7 +386,7 @@ const CourseReview = () => {
                     <p>Salary Hike</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
@@ -434,9 +434,9 @@ const CourseReview = () => {
           height="82"
           layout="intrinsic"
         />
-        <button>
+        <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf" target="_blank"><button>
           Download Placement Report <MdKeyboardArrowDown />
-        </button>
+        </button></a>
       </div>
     </>
   );

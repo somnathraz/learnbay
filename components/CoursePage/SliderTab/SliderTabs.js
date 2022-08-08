@@ -36,7 +36,7 @@ const SliderTabs = () => {
 
   return (
     <div className={styles.Course} id="course">
-      <h2>Our Core Features</h2>
+      <h2>Domain Electives</h2>
       <p className={styles.pTop}>Learnbay Advantage - How are we Different?</p>
 
       <div className={styles.courses}>

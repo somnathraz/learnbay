@@ -60,7 +60,7 @@ const Project = ({ ChangeProject, project, domain }) => {
             <div className={styles.leftProjectNumb}>
               <GoDeviceDesktop className={styles.lIcon} />
               <div>
-                <h5>12+ Projects</h5>
+                <h5>{project}</h5>
                 <p>Available</p>
               </div>
             </div>
@@ -382,7 +382,7 @@ const Project = ({ ChangeProject, project, domain }) => {
 
       <div>
         <a
-          href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf"
+          href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
           target={"_blank"}
         >
           <button

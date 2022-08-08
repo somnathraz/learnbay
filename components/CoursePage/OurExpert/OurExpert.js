@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const OurExpert = ({ img1, img2, img3, img4, img5, img6, img7, img8 }) => {
+const OurExpert = ({ img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23  }) => {
   const [mobile, setMobile] = useState(false);
 
   useEffect(() => {
@@ -39,7 +39,7 @@ const OurExpert = ({ img1, img2, img3, img4, img5, img6, img7, img8 }) => {
             <SwiperSlide className={styles.slide}>
               <Image
                 src={img1}
-                alt="amazon"
+                alt="github"
                 layout="intrinsic"
                 width="100"
                 height="60"
@@ -49,7 +49,7 @@ const OurExpert = ({ img1, img2, img3, img4, img5, img6, img7, img8 }) => {
             <SwiperSlide className={styles.slide}>
               <Image
                 src={img2}
-                alt="capgemini"
+                alt="python"
                 layout="intrinsic"
                 width="150"
                 height="60"
@@ -58,7 +58,7 @@ const OurExpert = ({ img1, img2, img3, img4, img5, img6, img7, img8 }) => {
             <SwiperSlide className={styles.slide}>
               <Image
                 src={img3}
-                alt="Flipkart"
+                alt="jupytor"
                 quality={100}
                 layout="intrinsic"
                 width="150"
@@ -68,7 +68,7 @@ const OurExpert = ({ img1, img2, img3, img4, img5, img6, img7, img8 }) => {
             <SwiperSlide className={styles.slide}>
               <Image
                 src={img4}
-                alt="Google"
+                alt="excel"
                 layout="intrinsic"
                 width="150"
                 height="60"
@@ -77,7 +77,7 @@ const OurExpert = ({ img1, img2, img3, img4, img5, img6, img7, img8 }) => {
             <SwiperSlide className={styles.slide}>
               <Image
                 src={img5}
-                alt="Microsoft"
+                alt="sql"
                 layout="intrinsic"
                 width="150"
                 height="60"
@@ -86,7 +86,7 @@ const OurExpert = ({ img1, img2, img3, img4, img5, img6, img7, img8 }) => {
             <SwiperSlide className={styles.slide}>
               <Image
                 src={img6}
-                alt="Myntra"
+                alt="numpy"
                 layout="intrinsic"
                 width="150"
                 height="60"
@@ -95,7 +95,7 @@ const OurExpert = ({ img1, img2, img3, img4, img5, img6, img7, img8 }) => {
             <SwiperSlide className={styles.slide}>
               <Image
                 src={img7}
-                alt="Tcs"
+                alt="pandas"
                 layout="intrinsic"
                 width="150"
                 height="60"
@@ -104,7 +104,157 @@ const OurExpert = ({ img1, img2, img3, img4, img5, img6, img7, img8 }) => {
             <SwiperSlide className={styles.slide}>
               <Image
                 src={img8}
-                alt="Wipro"
+                alt="matplotlib"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img9}
+                alt="pytorch"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img10}
+                alt="tensorflow"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img11}
+                alt="keras"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img12}
+                alt="seaborn"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img13}
+                alt="learn"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img14}
+                alt="tableau"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img15}
+                alt="powerbi"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img16}
+                alt="spark"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img17}
+                alt="hadoop"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img18}
+                alt="mongodb"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img19}
+                alt="aws"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img20}
+                alt="statistics"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img21}
+                alt="cv"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img22}
+                alt="rl"
+                layout="intrinsic"
+                objectFit="contain"
+                width="120"
+                height="60"
+              />
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                src={img23}
+                alt="pm"
                 layout="intrinsic"
                 objectFit="contain"
                 width="120"

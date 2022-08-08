@@ -53,12 +53,12 @@ export const FullStackSoftwareCourseData = [
       desc: "Our Advanced Data science and AI course with 100% job guarantee follows a project-based learning approach. Further, it       focuses on helping learners build relevant experience in the technologies to land your super dream job.",
     },
     syllabusDesc:
-      "Skillslash’s best Data Science course in Bangalore comes with a 100% job guarantee. Besides, the Data Science and AI courses are curated by leading faculties and industry leaders. Especially, with the aim to provide practical data science learning experience with live interactive classes and projects.",
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Data science Course Brochure",
     syllabus: [
       {
         Module0: {
-          title: "Module 0 Introduction",
+          title: "Module 0 :- Introduction",
           content: [
             {
               chap: {
@@ -99,7 +99,7 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Module 1 - Programming Essentials",
+          title: "Module 1 :- Programming Essentials",
           content: [
             {
               chap: {
@@ -252,7 +252,7 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Module 2 - Applied Statistics",
+          title: "Module 2 :- Applied Statistics",
           content: [
             {
               chap: {
@@ -313,7 +313,7 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Module 3 - Advance Machine Learning",
+          title: "Module 3 :- Advance Machine Learning",
           content: [
             {
               chap: {
@@ -440,7 +440,7 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Module 4 - Deep Learning",
+          title: "Module 4 :- Deep Learning",
           content: [
             {
               chap: {
@@ -513,7 +513,7 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Module 5 - NLP",
+          title: "Module 5 :- NLP",
           content: [
             {
               chap: {
@@ -567,7 +567,7 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Module 6- Reinforcement Learning",
+          title: "Module 6 :- Reinforcement Learning",
           content: [
             {
               chap: {
@@ -590,7 +590,7 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Module 7- Computer Vision",
+          title: "Module 7 :- Computer Vision",
           content: [
             {
               chap: {
@@ -612,7 +612,7 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Module 8- Explainable Ai and Risk Management",
+          title: "Module 8 :- Explainable Ai and Risk Management",
           content: [
             {
               chap: {
@@ -634,7 +634,7 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Module 9 - TOOLS",
+          title: "Module 9 :- TOOLS",
           content: [
             {
               chap: {

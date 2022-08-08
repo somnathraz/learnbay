@@ -103,47 +103,37 @@ const BoxShape = ({
                   </p>
                   <div className={styles.profile}>
                     <Image
-                      src="/featureReviewIcon.png"
+                      src="/Chandni.jpeg"
                       width="80"
                       height="80"
                       layout="intrinsic"
                     />
                     <div className={styles.name}>
-                      <h5>Payal Mishra</h5>
-                      <p>Data Analyst (IBM)</p>
+                      <h5>Chandni Priya</h5>
+                      <p>Associate Data scientist at The Math Company</p>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperSlideer}>
                   <p>
-                    Learnbay has tremendously assisted my study of data science
-                    because of its outstanding mentorship. I had a good
-                    experience online studying the courses. Additionally, thanks
-                    to Learnbay's hybrid classes making it simple for me to
-                    participate in projects from the offline training center,
-                    which has helped me tremendously in cracking the interviews.
+                  Recommended to anyone who is trying to learn Data Science. Teachers go through every detail and in between they tells you what questions is mostly likely to ask in the interview! Which is important! Also gives you assignments for weekends! Overall really good experience! Worth it!
                   </p>
                   <div className={styles.profile}>
                     <Image
-                      src="/featureReviewIcon.png"
+                      src="/Shravanthi.jpeg"
                       width="80"
                       height="80"
                       layout="intrinsic"
                     />
                     <div className={styles.name}>
-                      <h5>Shristi Singh</h5>
-                      <p>Data Architect (Amazon)</p>
+                      <h5>Shravanthi A</h5>
+                      <p>Data Scientist</p>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperSlideer}>
                   <p>
-                    Thanks to the Learnbay data science course and outstanding
-                    assistance, I could ace the TCS interview and secure a job
-                    with a 400% pay hike. My understanding of the course was
-                    greatly improved by the real-time projects and respective
-                    IBM project experience certification, which has given me
-                    global recognition and helped me stand out from the crowd.
+                  Learnbay has helped me a lot to learn data science applications in the e-commerce industry. The live class concept was really helpful in receiving proper DS training. Thanks to all my mentors and the placement team.
                   </p>
                   <div className={styles.profile}>
                     <Image

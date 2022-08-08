@@ -69,7 +69,7 @@ export default function Home() {
           spanMTitleText="Domain Specialization"
           title="Advanced Data Science and AI Program"
           spanTitleText="with Domain Specialization"
-          desc="Make an impression as a seasoned applicant. With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
+          desc="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
           src="/course2.png"
           width="900"
           height="762"
@@ -98,7 +98,7 @@ export default function Home() {
             box2desc="Get job referrals powered by 250+ hiring partners"
             Box3h5="Premium Mentoring"
             box3desc="Get professionally trained from MAANG and MNC experts"
-            Box4h5="Crafted for professinals"
+            Box4h5="Crafted for professional"
             box4desc="Prioritize growth and salary hike with in-demand skillset"
           />
         </div>
@@ -111,21 +111,40 @@ export default function Home() {
           syllabus={DataScienceCourseData[0].syllabus}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           popupHead={DataScienceCourseData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf"
+          hours="250+ Hours"
+          project="12+ Real Time"
         />
         <OurExpert
-          img1="/Wipro.png"
-          img2="/4(2).png"
-          img3="/Capgemini.png"
-          img4="/Flipkart.png"
-          img5="/TCS.png"
-          img6="/Myntra.png"
-          img7="/Microsoft.png"
-          img8="/Google.png"
+          img1="/logos/1.png"
+          img2="/logos/2.png"
+          img3="/logos/3.png"
+          img4="/logos/4.png"
+          img5="/logos/5.png"
+          img6="/logos/6.png"
+          img7="/logos/7.png"
+          img8="/logos/8.png"
+          img9="/logos/9.png"
+          img10="/logos/10.png"
+          img11="/logos/11.png"
+          img12="/logos/12.png"
+          img13="/logos/13.png"
+          img14="/logos/14.png"
+          img15="/logos/15.png"
+          img16="/logos/16.png"
+          img17="/logos/17.png"
+          img18="/logos/18.png"
+          img19="/logos/19.png"
+          img21="/logos/7.png"
+          img22="/logos/8.png"
+          img23="/logos/9.png"
+          img20="/logos/24.jpeg"
+
         />
         <ProgramFee Fee="₹1,25,000 + GST" Emi="₹ 7,768/month" />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="12+" domain="7+" />
+          <Project project="12+ Projects" domain="7+" />
         </div>
 
         <Fee
@@ -169,7 +188,6 @@ export default function Home() {
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />
-        <ReferSection />
         <FAQNew
           FaqDatas={FaqData2}
           DomainFaqDatas={DomainFaqData2}

@@ -58,7 +58,7 @@ export const JobGuaranteeCourseData = [
     syllabus: [
       {
         Module0: {
-          title: "Module 0",
+          title: "Module 0 :- Preparatory Classes (Programming + Maths)",
           content: [
             {
               chap: {
@@ -99,7 +99,7 @@ export const JobGuaranteeCourseData = [
       },
       {
         Module0: {
-          title: "Term 1",
+          title: "Term 1 :- Python for Data Science",
           content: [
             {
               chap: {
@@ -261,7 +261,7 @@ export const JobGuaranteeCourseData = [
       },
       {
         Module0: {
-          title: "Term 2",
+          title: "Term 2 :- Statistics and Machine Learning",
           content: [
             {
               chap: {
@@ -302,32 +302,6 @@ export const JobGuaranteeCourseData = [
                 ],
               },
             },
-            /*
-              {
-                chap: {
-                  title:
-                    "Chapter 3: Hypothesis Testing and its Applications (1 hrs)",
-                  desc: [
-                    "Basic Concepts - Formulation of Hypothesis, Making a decision",
-                    "Advanced Concepts - Choice of Test - t test vs z test",
-                    "Evaluation of Test - P value and Critical Value approach",
-                    "Confidence Intervals, Type 1 and 2 errors",
-                  ],
-                },
-              },
-              {
-                chap: {
-                  title:
-                    "Chapter 4: Exploratory Data Analysis and the Art of Storytelling (1 hrs)",
-                  desc: [
-                    "Ingest data",
-                    "Data cleaning",
-                    "Outlier detection and treatment",
-                    "Missing value imputation",
-                    "Capstone project for Business Analysis",
-                  ],
-                },
-              },*/
           ],
           id: 2,
           open: false,
@@ -335,7 +309,7 @@ export const JobGuaranteeCourseData = [
       },
       {
         Module0: {
-          title: "Term 3",
+          title: "Term 3 :- Data Science Tools",
           content: [
             {
               chap: {
@@ -394,55 +368,6 @@ export const JobGuaranteeCourseData = [
                 ],
               },
             },
-            /* {
-                chap: {
-                  title: "Chapter 7: Decision Trees",
-                  desc: [
-                    "Nonlinear models for classification",
-                    "Intro to decision trees",
-                    "Why are they called Greedy Algorithms?",
-                    "Information Theory - Measures of Impurity",
-                  ],
-                },
-              },
-              {
-                chap: {
-                  title: "Chapter 8: Ensemble Techniques",
-                  desc: [
-                    "Introduction to Bagging as an Ensemble technique",
-                    "Bootstrap Aggregation and Out of Bag error",
-                    "Random Forests and its Applications in Feature selection",
-                    "How Bagging overcomes the overfitting problem?",
-                    "Scent and Boosting",
-                    "How Boosting overcomes the Bias - Variance Tradeoff",
-                    "Gradient Boosting and Xgboost as regularised boosting",
-                  ],
-                },
-              },
-    
-              {
-                chap: {
-                  title: "Chapter 11: Time-series Analysis",
-                  desc: [
-                    "Intro to Time series",
-                    "Autocorrelation and ACF/PACF plots",
-                    "The Random Walk model and Stationarity of Time Series",
-                    "Tests for Stationarity - ADF and Dickey- Fuller test, AR, MA, ARIMA, SARIMA models",
-                    "A regression approach to time series forecasting.",
-                  ],
-                },
-              },
-              {
-                chap: {
-                  title: "Chapter 12: Machine Learning Pipeline & auto ML",
-                  desc: [
-                    "Feature engineering & selection techniques",
-                    "Principal Component Analysis",
-                    "Linear Discriminant Analysis",
-                    "Serving the model via Rest API & Keras.",
-                  ],
-                },
-              },*/
           ],
           id: 3,
           open: false,
@@ -450,7 +375,7 @@ export const JobGuaranteeCourseData = [
       },
       {
         Module0: {
-          title: "Term 4",
+          title: "Term 4 :- Artificial Intelligence Tools",
           content: [
             {
               chap: {
@@ -510,18 +435,6 @@ export const JobGuaranteeCourseData = [
                 ],
               },
             },
-            /* {
-                chap: {
-                  title:
-                    "Chapter 6: Restricted Boltzmann Machines and Autoencoders.",
-                  desc: [
-                    "Intro to RBMs, Autoencoders",
-                    "Application of RBMs in Collaborative filtering",
-                    "Autoencoders for Anomaly detection",
-                    "Capstone Project -Self-driving cars, Facial recognization.",
-                  ],
-                },
-              },*/
           ],
           id: 4,
           open: false,
@@ -529,7 +442,7 @@ export const JobGuaranteeCourseData = [
       },
       {
         Module0: {
-          title: "Term 5 Essentials",
+          title: "Term 5 :- Essentials Tools",
           content: [
             {
               chap: {

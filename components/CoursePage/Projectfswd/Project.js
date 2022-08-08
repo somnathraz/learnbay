@@ -87,7 +87,7 @@ const Project = ({ ChangeProject, project, domain }) => {
             <div className={styles.leftProjectNumb}>
               <GoDeviceDesktop className={styles.lIcon} />
               <div>
-                <h5>12+ Projects</h5>
+                <h5>{project}</h5>
                 <p>Available</p>
               </div>
             </div>
@@ -116,12 +116,9 @@ const Project = ({ ChangeProject, project, domain }) => {
             style={mobile ? { width: "280px" } : { width: "400px" }}
           >
             <div className={styles.header}>
-              <div className={styles.left}>
-                <h5>HR Domain</h5>
-              </div>
               <div className={styles.right}>
                 <Image
-                  src="/1-1.png"
+                  src="/project/2.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -132,59 +129,12 @@ const Project = ({ ChangeProject, project, domain }) => {
             </div>
             <div className={styles.body}>
               <p>
-                IBM intends to boost their HR department by identifying
-                employees' masked inconsistency...
+              Create an online application that
+displays the contents of a database in
+list form, modify or delete each record
+and add new ones.
+
               </p>
-              <span
-                onClick={() => {
-                  popupShow();
-                  setTitle("HR Domain");
-                  setDesc(
-                    "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities."
-                  );
-                  setImg("/Hr-domain-img.png");
-                }}
-              >
-                Learn More
-              </span>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide
-            className={styles.project}
-            style={mobile ? { width: "280px" } : { width: "400px" }}
-          >
-            <div className={styles.header}>
-              <div className={styles.left}>
-                <h5>Marketing Domain</h5>
-              </div>
-              <div className={styles.right}>
-                <Image
-                  src="/2-3.png"
-                  alt="Learnbay"
-                  quality={100}
-                  objectFit="contain"
-                  width="90"
-                  height="45"
-                />
-              </div>
-            </div>
-            <div className={styles.body}>
-              <p>
-                Swiggy seeks a broad marketing campaign. But they need automated
-                keyword generation tools...
-              </p>
-              <span
-                onClick={() => {
-                  popupShow();
-                  setTitle("Marketing Domain");
-                  setDesc(
-                    "Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools. They also require proper message preparation and delivery of the same to the right audience at the right time. You can help them with text analytics and NLP-based keyword research solutions"
-                  );
-                  setImg("/Marketing-domain-img.png");
-                }}
-              >
-                Learn More
-              </span>
             </div>
             <div style={{ position: "absolute" }}>
               <img src="/shadow.png" width="380" height="60" />
@@ -195,12 +145,9 @@ const Project = ({ ChangeProject, project, domain }) => {
             style={mobile ? { width: "280px" } : { width: "400px" }}
           >
             <div className={styles.header}>
-              <div className={styles.left}>
-                <h5>Manufacturing Domain</h5>
-              </div>
               <div className={styles.right}>
                 <Image
-                  src="/Untitled-design-3.png"
+                  src="/project/4.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -211,21 +158,12 @@ const Project = ({ ChangeProject, project, domain }) => {
             </div>
             <div className={styles.body}>
               <p>
-                This project helped BOSCH to predict their internal failures by
-                production line dataset analysis...
+              Learn advanced API integration to
+connect two or more applications, via
+their APIs, that lets those systems
+exchange data.
+
               </p>
-              <span
-                onClick={() => {
-                  popupShow();
-                  setTitle("Sales Domain");
-                  setDesc(
-                    "BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
-                  );
-                  setImg("/Sales-domain.png");
-                }}
-              >
-                Learn More
-              </span>
             </div>
           </SwiperSlide>
           <SwiperSlide
@@ -233,12 +171,9 @@ const Project = ({ ChangeProject, project, domain }) => {
             style={mobile ? { width: "280px" } : { width: "400px" }}
           >
             <div className={styles.header}>
-              <div className={styles.left}>
-                <h5>Sales Domain</h5>
-              </div>
               <div className={styles.right}>
                 <Image
-                  src="/Untitled-design-2.png"
+                  src="/project/5.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -249,21 +184,14 @@ const Project = ({ ChangeProject, project, domain }) => {
             </div>
             <div className={styles.body}>
               <p>
-                BMW allows existing customers to sell used cars, but many
-                competitors are now offering better resale values...
+              The connected website must offer
+signup, login/logout, and profile
+creation/editing. This must include a
+"wishlist box," a "order tracker,"
+personalized suggestions, personalized
+and occasional discount features, a
+chatbot, etc.
               </p>
-              <span
-                onClick={() => {
-                  popupShow();
-                  setTitle("Supply chain Domain");
-                  setDesc(
-                    "An automated inventory management system will keep track of stock levels and upcoming orders. In addition, you can contribute to DataCo's intelligent supply chain software generation project by using ML algorithms and R programming skills."
-                  );
-                  setImg("/supplyChain.png");
-                }}
-              >
-                Learn More
-              </span>
             </div>
           </SwiperSlide>
           <SwiperSlide
@@ -271,12 +199,9 @@ const Project = ({ ChangeProject, project, domain }) => {
             style={mobile ? { width: "280px" } : { width: "400px" }}
           >
             <div className={styles.header}>
-              <div className={styles.left}>
-                <h5>Retail Domain</h5>
-              </div>
               <div className={styles.right}>
                 <Image
-                  src="/12-1.png"
+                  src="/project/1.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -287,21 +212,13 @@ const Project = ({ ChangeProject, project, domain }) => {
             </div>
             <div className={styles.body}>
               <p>
-                Take an active part in the Walmart sales forecasting project.
-                From the huge data set available,...
+              Develop Authentication technology that
+provides access control for systems by
+checking to see if a user’s credentials
+match the credentials in a database of
+authorized users or in a data
+authentication server.
               </p>
-              <span
-                onClick={() => {
-                  popupShow();
-                  setTitle("Retail Domain");
-                  setDesc(
-                    "Take an active part in the Walmart sales forecasting project. From the huge data set available, you have to perform a sales forecast for 45 Walmart stores. You have to include holiday markdown sales too."
-                  );
-                  setImg("/supplyChain.png");
-                }}
-              >
-                Learn More
-              </span>
             </div>
           </SwiperSlide>
           <SwiperSlide
@@ -309,12 +226,9 @@ const Project = ({ ChangeProject, project, domain }) => {
             style={mobile ? { width: "280px" } : { width: "400px" }}
           >
             <div className={styles.header}>
-              <div className={styles.left}>
-                <h5>Healthcare Domain</h5>
-              </div>
               <div className={styles.right}>
                 <Image
-                  src="/5(2).png"
+                  src="/project/6.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -325,21 +239,11 @@ const Project = ({ ChangeProject, project, domain }) => {
             </div>
             <div className={styles.body}>
               <p>
-                Samsung will launch a new healthcare app soon. The key goal of
-                this app is accurate human activity...
+              This is a full-stack web development
+project at the advanced level that
+includes seamless audio-video call
+management services. 
               </p>
-              <span
-                onClick={() => {
-                  popupShow();
-                  setTitle("Healthcare Domain");
-                  setDesc(
-                    "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
-                  );
-                  setImg("/supplyChain.png");
-                }}
-              >
-                Learn More
-              </span>
             </div>
           </SwiperSlide>
           <SwiperSlide
@@ -347,12 +251,9 @@ const Project = ({ ChangeProject, project, domain }) => {
             style={mobile ? { width: "280px" } : { width: "400px" }}
           >
             <div className={styles.header}>
-              <div className={styles.left}>
-                <h5>E-Commerce Domain</h5>
-              </div>
               <div className={styles.right}>
                 <Image
-                  src="/4(2).png"
+                  src="/project/7.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -363,21 +264,13 @@ const Project = ({ ChangeProject, project, domain }) => {
             </div>
             <div className={styles.body}>
               <p>
-                Amazon has made a goal to identify the most successful consumer
-                electronic products...
+              Nothing more than creating a basic
+content management system is being
+done here. An increased content optimization
+feature and graphics optimization
+feature are required for such a website
+or application.
               </p>
-              <span
-                onClick={() => {
-                  popupShow();
-                  setTitle("E-Commerce Domain");
-                  setDesc(
-                    "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
-                  );
-                  setImg("/supplyChain.png");
-                }}
-              >
-                Learn More
-              </span>
             </div>
           </SwiperSlide>
           <SwiperSlide
@@ -385,12 +278,9 @@ const Project = ({ ChangeProject, project, domain }) => {
             style={mobile ? { width: "280px" } : { width: "400px" }}
           >
             <div className={styles.header}>
-              <div className={styles.left}>
-                <h5>Entertainment Domain</h5>
-              </div>
               <div className={styles.right}>
                 <Image
-                  src="/9-1.png"
+                  src="/project/3.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -401,21 +291,37 @@ const Project = ({ ChangeProject, project, domain }) => {
             </div>
             <div className={styles.body}>
               <p>
-                Netflix is a global entertainment video streaming site. They
-                offer content in various regional languages...
+              Learn to integrate the payment gateway
+which is used to authorize and process
+credit card and debit payments for
+online businesses.
               </p>
-              <span
-                onClick={() => {
-                  popupShow();
-                  setTitle("Entertainment Domain");
-                  setDesc(
-                    "Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP."
-                  );
-                  setImg("/supplyChain.png");
-                }}
-              >
-                Learn More
-              </span>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide
+            className={styles.project}
+            style={mobile ? { width: "280px" } : { width: "400px" }}
+          >
+            <div className={styles.header}>
+              <div className={styles.right}>
+                <Image
+                  src="/project/8.png"
+                  alt="Learnbay"
+                  quality={100}
+                  objectFit="contain"
+                  width="90"
+                  height="45"
+                />
+              </div>
+            </div>
+            <div className={styles.body}>
+              <p>
+              These days workout trackers go far
+beyond the common pedometer.
+Workout trackers like Strava and FitBit
+track and store user data like heart rates
+and run times.
+              </p>
             </div>
           </SwiperSlide>
         </Swiper>
@@ -423,7 +329,7 @@ const Project = ({ ChangeProject, project, domain }) => {
 
       <div>
         <a
-          href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf"
+          href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
           target={"_blank"}
         >
           <button

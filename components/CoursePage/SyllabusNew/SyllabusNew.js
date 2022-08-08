@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./SyllabusNew.module.css";
 import { MdOutlineLiveTv, MdOutlineLaptopMac } from "react-icons/md";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { FaArrowRight, FaDownload } from "react-icons/fa";
 import {
   AiOutlineFundProjectionScreen,
   AiOutlineFieldTime,
@@ -22,6 +23,9 @@ function SyllabusNew({
   redirectDe,
   redirectBa,
   redirectBl,
+  project,
+  hours,
+  srcD,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -78,12 +82,13 @@ function SyllabusNew({
           <div>
             <h4>Syllabus</h4>
           </div>
-          <div>
-            <button className={styles.Button} onClick={popupShow}>
-              {" "}
-              <AiOutlineDownload className="bIcons" />
-              Download Brochure
-            </button>
+          <div className={styles.btnWrapper}>
+            <a href={srcD} target="_blank">
+              <button>
+                Download Brochure
+                <FaDownload style={{ marginLeft: "10px" }} />
+              </button>
+            </a>
           </div>
         </div>
         <p>{syllabusDesc}</p>
@@ -176,7 +181,7 @@ function SyllabusNew({
               <div>
                 <MdOutlineLiveTv className={styles.PIcons} />
                 <p className={styles.cContent}>
-                  350+ Hours
+                  {hours}
                   <br />
                   <span>Live sessions</span>
                 </p>
@@ -184,9 +189,9 @@ function SyllabusNew({
               <div>
                 <AiOutlineFundProjectionScreen className={styles.PIcons} />
                 <p className={styles.cContent}>
-                  15+ Industry
+                  {project}
                   <br />
-                  <span> Projects</span>
+                  <span>Industrial Projects</span>
                 </p>
               </div>
               <div>

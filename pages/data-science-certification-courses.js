@@ -8,12 +8,11 @@ import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/Certificatejob/Certificate";
 import Project from "../components/CoursePage/Project/Project";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
-import { DataScienceCourseData } from "../Data/DataScienceCourse";
+import { DomainFaqCourseData2 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import { FoundtionCourseData } from "../Data/FoundtionCourse";
 import Fee from "../components/CoursePage/Fee/Fee";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
@@ -27,7 +26,6 @@ import {
   MentorshipFaqData1,
   SupportFaqData1,
 } from "../components/FAQ/FaqData";
-import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
 import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
 
@@ -58,9 +56,11 @@ export default function Home() {
         <FirstSection
           deskTopPara="Enhance your earning potential"
           deskTopPara1="with industry-specific training"
+          spanMTitleText=" Foundation Program"
           mTopPara="Enhance your earning potential"
+          spanTitleText=" Foundation Program"
           mTopPara1="with industry-specific training"
-          title="Data Science Foundation Program"
+          title="Data Science"
           desc="This program ensures a smooth transition into Jr. Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions."
           src="/course1.png"
           width="900"
@@ -93,7 +93,7 @@ export default function Home() {
             box4desc="Get the diligent experience of real-world projects, spanning from starters, directly from relevant establishments."
           />
         </div>
-        <DomainFaq FaqData={DomainFaqCourseData1} />
+        <DomainFaq FaqData={DomainFaqCourseData2} />
 
         <CourseReview />
         <Certificate
@@ -105,25 +105,42 @@ export default function Home() {
         />
 
         <SyllabusNew
-          syllabus={DataScienceCourseData[0].syllabus}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          popupHead={DataScienceCourseData[0].popupHead}
+          syllabus={FoundtionCourseData[0].syllabus}
+          syllabusDesc={FoundtionCourseData[0].syllabusDesc}
+          popupHead={FoundtionCourseData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/FOUNDATION+DS.pdf"
+          hours="200+ Hours"
+          project="8+ Real Time"
         />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="8+" domain="7+" />
+          <Project project="8+ Projects" domain="7+" />
         </div>
         <OurExpert
-          img1="/Wipro.png"
-          img2="/4(2).png"
-          img3="/Capgemini.png"
-          img4="/Flipkart.png"
-          img5="/TCS.png"
-          img6="/Myntra.png"
-          img7="/Microsoft.png"
-          img8="/Google.png"
+          img1="/logos/1.png"
+          img2="/logos/2.png"
+          img3="/logos/3.png"
+          img4="/logos/4.png"
+          img5="/logos/5.png"
+          img6="/logos/6.png"
+          img7="/logos/7.png"
+          img8="/logos/8.png"
+          img9="/logos/9.png"
+          img10="/logos/10.png"
+          img11="/logos/11.png"
+          img12="/logos/12.png"
+          img13="/logos/13.png"
+          img14="/logos/14.png"
+          img15="/logos/15.png"
+          img16="/logos/16.png"
+          img17="/logos/17.png"
+          img18="/logos/18.png"
+          img19="/logos/19.png"
+          img21="/logos/7.png"
+          img22="/logos/8.png"
+          img23="/logos/9.png"
+          img20="/logos/10.png"
         />
-        <ProgramFee />
-        <SliderTab />
+        <ProgramFee Emi="₹ 6,391/month" Fee="₹ 65,000 +GST" />
         <Fee
           sub1="Data Science Foundation Program"
           Price1="₹65,000 + GST"
@@ -165,7 +182,6 @@ export default function Home() {
           CourseFeelist4="Project-Based Learning"
           CourseFeelist5="Company-based Mock Interviews"
         />
-        <ReferSection />
         <FAQNew
           FaqDatas={FaqData1}
           PaymentFaqDatas={PaymentFaqData1}

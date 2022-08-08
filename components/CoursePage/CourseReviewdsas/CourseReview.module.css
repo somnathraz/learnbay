@@ -1,0 +1,153 @@
+.reviewWrap {
+  padding: 30px 100px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiperleft {
+  width: 60%;
+}
+.slide {
+  padding: 10px 20px;
+  display: flex;
+  height: 220px;
+
+  margin-top: 15px;
+  flex-flow: column-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(41, 121, 173, 0.25);
+  border-radius: 34px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 18% 65% 14%;
+  height: inherit;
+  margin-top: 10px;
+}
+.cIcon {
+  margin-top: 20px;
+}
+.contentRight {
+  margin-top: 20px;
+}
+.para {
+  border-left: 5px solid #2d9cd7;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.leftBottom,
+.rightBottom {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.leftBottomC h5 {
+  margin: 0;
+}
+.leftBottomC p {
+  margin: 0;
+  color: #6c6c6c;
+}
+
+.profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.profile img {
+  border-radius: 50%;
+}
+.RIcon {
+  color: #f7d800;
+  font-size: 16px;
+}
+.name {
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: flex-start;
+  gap: 5px;
+}
+.name p {
+  font-size: 16px;
+  color: #2d9cd7;
+  margin: 0;
+}
+.name h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+.bottomReview {
+  margin-top: -120px;
+  padding: 30px 100px;
+  padding-top: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+
+  background-color: #0072bc;
+}
+.bottomReview h5 {
+  font-size: 27px;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+.bottomReview p {
+  color: white;
+}
+.bottomReview button {
+  background-color: white;
+  color: #0072bc;
+  margin-top: 20px;
+}
+@media (max-width: 1281px) {
+  .reviewWrap {
+    padding: 30px 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .swiperleft {
+    width: 65%;
+  }
+}
+@media (max-width: 481px) {
+  .reviewWrap {
+    padding: 30px 20px 0px 20px;
+  }
+  .swiperleft {
+    width: 100%;
+  }
+  .slide {
+    height: fit-content;
+  }
+  .rightBottom {
+    display: block;
+    gap: 10px;
+    align-items: center;
+  }
+  .leftBottom {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .bottomReview {
+    padding: 30px 20px;
+    margin-top: 0;
+  }
+}

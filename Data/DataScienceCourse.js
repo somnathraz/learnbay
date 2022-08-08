@@ -58,7 +58,7 @@ export const DataScienceCourseData = [
     syllabus: [
       {
         Module0: {
-          title: "Module 0",
+          title: "Module 0 :- Preparatory Classes (Programming + Maths)",
           content: [
             {
               chap: {
@@ -99,7 +99,7 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "Term 1",
+          title: "Term 1 :- Python for Data Science",
           content: [
             {
               chap: {
@@ -128,8 +128,25 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "Term 2",
+          title: "Term 2 :- Statistics and Machine Learning",
           content: [
+            {
+              chap: {
+                title: "Module 1 Statistics",
+                desc: [
+                  "Fundamentals of Math and Probability",
+                  "All about Population & Sample",
+                  "Introduction to Statistics, Statistical Thinking",
+                  "Descriptive Statistics",
+                  " Inferential Statistics",
+                  "Hypothesis Testing",
+                  "Linear Algebra",
+                  "Data Processing & Exploratory Data Analysis",
+                  "EDA",
+                  "Statistics Assignments: Total 4 practice sets and Assignments from Statistics",
+                ],
+              },
+            },
             {
               chap: {
                 title: "Module 2 Machine Learning",
@@ -161,7 +178,7 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "Term 3",
+          title: "Term 3 :- Data Science Tools",
           content: [
             {
               chap: {
@@ -231,7 +248,7 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "Term 4",
+          title: "Term 4 :- Artificial Intelligence Tools",
           content: [
             {
               chap: {

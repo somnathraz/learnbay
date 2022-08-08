@@ -58,7 +58,7 @@ export const BusinessAnalyticsCourseData = [
     syllabus: [
       {
         Module0: {
-          title: "Module 0",
+          title: "Module 0 :- Preparatory Classes (Programming + Maths)",
           content: [
             {
               chap: {
@@ -99,7 +99,7 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Term 1",
+          title: "Term 1 :- Python for Data Science",
           content: [
             {
               chap: {
@@ -125,7 +125,7 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Term 2",
+          title: "Term 2:- Statistics",
           content: [
             {
               chap: {
@@ -150,7 +150,7 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Term 3",
+          title: "Term 3 :- Data Science Tools",
           content: [
             {
               chap: {
@@ -199,7 +199,7 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Term 4-Essentials",
+          title: "Term 4 :- Essentials",
           content: [
             {
               chap: {
