@@ -190,7 +190,7 @@ export const ForProgrammersD = [
     title1: "For Managers",
     para: [
       "400 hours of Interactive Learning",
-      "40 Projects + 2 Capstones",
+      "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
     link1: "/data-science-ai-for-managers",

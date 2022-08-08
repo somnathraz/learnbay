@@ -326,7 +326,7 @@ const CitiesRight = ({
                 </div>
             </div>
             <div className={styles.Button}>
-            <a href='https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Project+Brochure+by+learnbay.pdf'><button style={{margin:"auto"}}>View All Projects</button></a>
+            <a href='https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf'><button style={{margin:"auto"}}>View All Projects</button></a>
             </div>
         </div>
         <div id="Alumni">

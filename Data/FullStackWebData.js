@@ -58,7 +58,7 @@ export const FullStackWebCourseData = [
     syllabus: [
       {
         Module0: {
-          title: "Term 1",
+          title: "Term 1 :- Preparatory Session",
           content: [
             {
               chap: {
@@ -75,7 +75,7 @@ export const FullStackWebCourseData = [
       },
       {
         Module0: {
-          title: "Term 2 Web Development Tools",
+          title: "Term 2 :- Web Development Tools",
           content: [
             {
               chap: {
@@ -144,7 +144,7 @@ export const FullStackWebCourseData = [
 
       {
         Module0: {
-          title: "Term 3",
+          title: "Term 3 :- Real-time use cases & projects",
           content: [
             {
               chap: {

@@ -29,7 +29,7 @@ import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
 import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import { DomainFaqCourseData2 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -99,7 +99,7 @@ export default function Home() {
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
         </div>
-        <DomainFaq FaqData={DomainFaqCourseData1} />
+        <DomainFaq FaqData={DomainFaqCourseData2} />
         <CourseReview />
         <Certificate
           title="Course Completion Certificate from IBM"
@@ -113,21 +113,38 @@ export default function Home() {
           syllabus={BusinessAnalyticsCourseData[0].syllabus}
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           popupHead={BusinessAnalyticsCourseData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
+          hours="200+ Hours"
+          project="5+ Real Time"
         />
         <OurExpert
-          img1="/Wipro.png"
-          img2="/4(2).png"
-          img3="/Capgemini.png"
-          img4="/Flipkart.png"
-          img5="/TCS.png"
-          img6="/Myntra.png"
-          img7="/Microsoft.png"
-          img8="/Google.png"
+          img1="/logos/1.png"
+          img2="/logos/2.png"
+          img3="/logos/3.png"
+          img4="/logos/4.png"
+          img5="/logos/5.png"
+          img6="/logos/6.png"
+          img7="/logos/7.png"
+          img8="/logos/8.png"
+          img9="/logos/9.png"
+          img10="/logos/10.png"
+          img11="/logos/11.png"
+          img12="/logos/12.png"
+          img13="/logos/13.png"
+          img14="/logos/14.png"
+          img15="/logos/15.png"
+          img16="/logos/16.png"
+          img17="/logos/17.png"
+          img18="/logos/18.png"
+          img19="/logos/19.png"
+          img21="/logos/7.png"
+          img22="/logos/8.png"
+          img23="/logos/9.png"
+          img20="/logos/10.png"
         />
         <ProgramFee Fee="₹  65,000 + GST" Emi="₹  6,392/month" />
-        <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="5+" domain="7+" />
+          <Project project="5+ Projects" domain="7+" />
         </div>
         <CourseFee
           CourseFeeHead="Business Analytics Program : Batch Details"
@@ -138,7 +155,6 @@ export default function Home() {
           CourseFeelist4="Project-Based Learning"
           CourseFeelist5="Company-based Mock Interviews"
         />
-        <ReferSection />
         <FAQNew
           FaqDatas={FaqData7}
           PaymentFaqDatas={PaymentFaqData7}

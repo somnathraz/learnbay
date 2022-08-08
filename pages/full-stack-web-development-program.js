@@ -2,21 +2,18 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
+import BoxShape from "../components/CoursePage/Boxshapeweb/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTabWeb";
 import Project from "../components/CoursePage/Projectfswd/Project";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
-import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
-import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import CourseReview from "../components/CoursePage/CourseReviewfull/CourseReview";
+import { DomainFaqCourseDataweb } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
-import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import { FullStackWebCourseData } from "../Data/FullStackWebData";
@@ -62,7 +59,7 @@ export default function Home() {
           spanMTitleText="Crack MAANG Interviews"
           title="Full Stack Web Development Program"
           spanTitleText="Crack MAANG Interviews"
-          desc="Archive a stunning appearance in the job market as a seasoned web developer. Learn the ninja techniques from MNC experts via real-time projects."
+          desc="Learn ultimate methods from MNC specialists with real-world projects"
           src="/header-home.webp"
           width="780"
           height="603"
@@ -71,51 +68,72 @@ export default function Home() {
         />
         <div className={styles.program}>
           <ProgramInfo
-            p1="Custom-fit"
-            p11="Aid for Product MNCs"
-            p2="60 LPA to 95 LPA"
-            p22="Salary Package"
-            p3="1:1"
-            p33="Career Support"
+            p1="Premium Job"
+            p11="Placement Support"
+            p2="Job Advancement"
+            p22="Skills"
+            p3="Practice With"
+            p33="Real-Time Projects"
             p4="Financing as low as"
-            p44="₹ 9k to 15k*(9 Months)"
+            p44="₹ 7375/month"
           />
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
             title="Why Enroll In This Program"
             Box1h5="Custom-fit Training"
-            box1desc="Learn with modules created just for your dream job. Become  an extraordinarily demanding web developer."
+            box1desc="Learn latest tools & modules. Become an demanding developer."
             Box2h5="Interactive Learning"
-            box2desc="Enjoy an offline-like learning experience, even online. 100% interactive and live classes. Hybrid learning option also available."
+            box2desc="100% interactive and live classes. Hybrid learning option also available."
             Box3h5="Premium Mentoring"
-            box3desc="Take advantage of MAANG web developer simulated mock interviews. Hone your skills through webathons."
+            box3desc="Take advantage of MAANG web developer simulated mock interviews."
             Box4h5="Hands-on Experience"
-            box4desc="Gain diligent experience in real-world projects ranging from advanced level complexity to amazing deployment scopes."
+            box4desc="Gain real-time experience with industrial projects."
+            Box5h5="1-on-1 Dedication"
+            box5desc="Live interactive session with expert for every individual"
+            Box6h5="Assured Interview Call"
+            box6desc="Get job referrals powered by 250+ hiring partners"
           />
         </div>
-        <DomainFaq FaqData={DomainFaqCourseData1} />
+        <DomainFaq FaqData={DomainFaqCourseDataweb} />
         <CourseReview />
         <Certificate />
         <SyllabusNew
           syllabus={FullStackWebCourseData[0].syllabus}
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
           popupHead={FullStackWebCourseData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay+(1).pdf"
+          hours="300+ Hours"
+          project="12+ Real Time"
         />
         <OurExpert
-          img1="/Wipro.png"
-          img2="/4(2).png"
-          img3="/Capgemini.png"
-          img4="/Flipkart.png"
-          img5="/TCS.png"
-          img6="/Myntra.png"
-          img7="/Microsoft.png"
-          img8="/Google.png"
+          img1="/logosf/1.png"
+          img2="/logosf/2.png"
+          img3="/logosf/3.png"
+          img4="/logosf/4.png"
+          img5="/logosf/5.png"
+          img6="/logosf/6.png"
+          img7="/logosf/7.png"
+          img8="/logosf/8.png"
+          img9="/logosf/9.png"
+          img10="/logosf/10.png"
+          img11="/logosf/11.png"
+          img12="/logosf/12.png"
+          img13="/logosf/13.png"
+          img14="/logosf/14.png"
+          img15="/logosf/15.png"
+          img16="/logosf/16.png"
+          img17="/logosf/17.png"
+          img18="/logosf/18.png"
+          img19="/logosf/19.png"
+          img21="/logosf/7.png"
+          img22="/logosf/8.png"
+          img23="/logosf/9.png"
+          img20="/logosf/10.png"
         />
-        <ProgramFee Fee="₹ 1,20,000 + GST" Emi="₹ 9k to 15k" />
-        <SliderTab />
+        <ProgramFee Fee="₹ 1,20,000 + GST" Emi="₹ 7375/month" />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="12+" domain="7+" />
+          <Project project="12+ Projects" domain="7+" />
         </div>
         <CourseFee
           CourseFeeHead="Full Stack Web Development: Batch Details"
@@ -126,7 +144,6 @@ export default function Home() {
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />
-        <ReferSection />
         <FAQNew
           FaqDatas={FaqData8}
           PaymentFaqDatas={PaymentFaqData8}

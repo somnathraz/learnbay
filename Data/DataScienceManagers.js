@@ -53,12 +53,12 @@ export const DsaiManagersCourseData = [
       desc: "Our Advanced Data science and AI course with 100% job guarantee follows a project-based learning approach. Further, it       focuses on helping learners build relevant experience in the technologies to land your super dream job.",
     },
     syllabusDesc:
-      "Skillslash’s best Data Science course in Bangalore comes with a 100% job guarantee. Besides, the Data Science and AI courses are curated by leading faculties and industry leaders. Especially, with the aim to provide practical data science learning experience with live interactive classes and projects.",
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Data science Course Brochure",
     syllabus: [
       {
         Module0: {
-          title: "Module 0",
+          title: "Module 0 :- Preparatory Classes (Programming + Maths)",
           content: [
             {
               chap: {
@@ -98,7 +98,7 @@ export const DsaiManagersCourseData = [
 
       {
         Module0: {
-          title: "Term 1",
+          title: "Term 1 :- Python for Data Science",
           content: [
             {
               chap: {
@@ -123,11 +123,11 @@ export const DsaiManagersCourseData = [
 
       {
         Module0: {
-          title: "Term 2",
+          title: "Term 2 :- Statistics and Machine Learning",
           content: [
             {
               chap: {
-                title: "Module 2 - Statistics",
+                title: "Module 1 - Statistics",
                 desc: [
                   " Fundamentals of Math and Probability",
                   "All about Population & Sample",
@@ -171,7 +171,7 @@ export const DsaiManagersCourseData = [
 
       {
         Module0: {
-          title: "Term 3",
+          title: "Term 3 :-  Data Science Tools",
           content: [
             {
               chap: {
@@ -236,7 +236,7 @@ export const DsaiManagersCourseData = [
 
       {
         Module0: {
-          title: "Term 4",
+          title: "Term 4 :- Artificial Intelligence Tools",
           content: [
             {
               chap: {
@@ -303,7 +303,7 @@ export const DsaiManagersCourseData = [
 
       {
         Module0: {
-          title: "Term 5",
+          title: "Term 5 :- Essentials Tools",
           content: [
             {
               chap: {

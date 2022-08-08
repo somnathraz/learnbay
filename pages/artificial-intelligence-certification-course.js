@@ -13,7 +13,7 @@ import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import OtherCertificate from "../components/CoursePage/OtherCertificate/OtherCertificate";
 import Fee from "../components/CoursePage/Fee/Fee";
-import { DataScienceCourseData } from "../Data/DataScienceCourse";
+import { AiMlCourseData } from "../Data/AiMlData";
 import FAQNew from "../components/FAQNew/FAQNew";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import React, { useState } from "react";
@@ -63,9 +63,11 @@ export default function Home() {
         <FirstSection
           deskTopPara="Boost Your Professional Growth"
           deskTopPara1="To a Whole New Level"
+          spanTitleText="Advance Program"
           mTopPara="Boost Your Professional Growth"
+          spanMTitleText="Advance Program"
           mTopPara1="To a Whole New Level"
-          title="Artificial Intelligence and Machine Learning Program"
+          title="Artificial Intelligence and Machine Learning"
           desc="With demanding industry projects, you can acquire the most advanced technical expertise possible. Be a master even without a master's degree."
           width="721"
           height="632"
@@ -113,24 +115,42 @@ export default function Home() {
           OCP4="Industrial badge on GPU handling mastery for Cloud, AI & ML."
         />
         <SyllabusNew
-          syllabus={DataScienceCourseData[0].syllabus}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          popupHead={DataScienceCourseData[0].popupHead}
+          syllabus={AiMlCourseData[0].syllabus}
+          syllabusDesc={AiMlCourseData[0].syllabusDesc}
+          popupHead={AiMlCourseData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+          hours="350+ Hours"
+          project="15+ Real Time"
         />
         <OurExpert
-          img1="/Wipro.png"
-          img2="/4(2).png"
-          img3="/Capgemini.png"
-          img4="/Flipkart.png"
-          img5="/TCS.png"
-          img6="/Myntra.png"
-          img7="/Microsoft.png"
-          img8="/Google.png"
+          img1="/logos/1.png"
+          img2="/logos/2.png"
+          img3="/logos/3.png"
+          img4="/logos/4.png"
+          img5="/logos/5.png"
+          img6="/logos/6.png"
+          img7="/logos/7.png"
+          img8="/logos/8.png"
+          img9="/logos/9.png"
+          img10="/logos/10.png"
+          img11="/logos/11.png"
+          img12="/logos/12.png"
+          img13="/logos/13.png"
+          img14="/logos/14.png"
+          img15="/logos/15.png"
+          img16="/logos/16.png"
+          img17="/logos/17.png"
+          img18="/logos/18.png"
+          img19="/logos/19.png"
+          img21="/logos/21.png"
+          img22="/logos/22.png"
+          img23="/logos/23.png"
+          img20="/logos/24.jpeg"
         />
         <ProgramFee />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="12+" domain="7+" />
+          <Project project="15+ Projects" domain="7+" />
         </div>
         <Fee
           sub1="Data Science and AI Foundation Program"
@@ -174,7 +194,6 @@ export default function Home() {
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />
-        <ReferSection />
         <FAQNew
           FaqDatas={FaqData3}
           PaymentFaqDatas={PaymentFaqData3}

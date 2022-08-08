@@ -53,16 +53,16 @@ export const DsaCourseData = [
       desc: "Our Advanced Data science and AI course with 100% job guarantee follows a project-based learning approach. Further, it       focuses on helping learners build relevant experience in the technologies to land your super dream job.",
     },
     syllabusDesc:
-      "Skillslash’s best Data Science course in Bangalore comes with a 100% job guarantee. Besides, the Data Science and AI courses are curated by leading faculties and industry leaders. Especially, with the aim to provide practical data science learning experience with live interactive classes and projects.",
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Data science Course Brochure",
     syllabus: [
       {
         Module0: {
-          title: "Module 0",
+          title: "Module 0 :- Preparatory Classes",
           content: [
             {
               chap: {
-                title: "Module 0 ",
+                title: "Module 0 :- Preparatory Classes",
                 desc: [
                   "Cohort Orientation ",
                   "Significance of projects & case studies ",
@@ -80,7 +80,7 @@ export const DsaCourseData = [
 
       {
         Module0: {
-          title: "Term 1",
+          title: "Term 1 :- DSA & System Design",
           content: [
             {
               chap: {
@@ -123,7 +123,7 @@ export const DsaCourseData = [
 
       {
         Module0: {
-          title: "Term 2",
+          title: "Term 2 :- Real time use cases and projects",
           content: [
             {
               chap: {
