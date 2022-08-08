@@ -11,7 +11,7 @@ import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
 import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
-import { DataScienceCourseData } from "../Data/DataScienceCourse";
+import { JobCourseData } from "../Data/JobCourse";
 import Fee from "../components/CoursePage/Fee/Fee";
 import FAQNew from "../components/FAQNew/FAQNew";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
