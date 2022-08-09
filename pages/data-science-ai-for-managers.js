@@ -64,10 +64,12 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          deskTopPara="Be a leader with Domain Specialization"
+          deskTopPara="Be a leader with Domain Specialization" 
           mTopPara="Be a leader with Domain Specialization"
           title="Data Science and Artificial Intelligence Program"
+          mTitle="Data Science and Artificial Intelligence Program"
           spanTitleText=" For Managers and Leaders"
+          spanMTitleText=" For Managers and Leaders"
           desc="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
           src="/course4.png"
           width="758"

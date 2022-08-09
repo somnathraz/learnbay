@@ -17,3 +17,17 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 481px) {
+  .Wrapper {
+    display: block;
+    padding: 70px 20px 0px 20px;
+  }
+  .right {
+margin: 20px 0px;
+  }
+  .Wrapper h6 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

@@ -64,6 +64,7 @@ export default function Home() {
           deskTopPara="Boost Your Professional Growth"
           deskTopPara1="To a Whole New Level"
           spanTitleText="Advance Program"
+          mTitle="Artificial Intelligence and Machine Learning"
           mTopPara="Boost Your Professional Growth"
           spanMTitleText="Advance Program"
           mTopPara1="To a Whole New Level"

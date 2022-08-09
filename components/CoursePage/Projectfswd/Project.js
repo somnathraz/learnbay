@@ -104,7 +104,7 @@ const Project = ({ ChangeProject, project, domain }) => {
 
       <div className={styles.container}>
         <Swiper
-          slidesPerView={mobile ? 1.2 : 3}
+          slidesPerView={mobile ? 1.2 : 1.2}
           spaceBetween={mobile ? 10 : 50}
           pagination={true}
           grabCursor={true}
