@@ -62,21 +62,31 @@ const Navbar = () => {
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
               <span>
-                <Link href="/">Home</Link>
+                <Link href="/" onClick={setShow(false)}>
+                  Home
+                </Link>
               </span>
               <span>
-                <Link href="/about-us">About Us</Link>
+                <Link href="/about-us" onClick={setShow(false)}>
+                  About Us
+                </Link>
               </span>
               <span>
-                <Link href="/demo">Demo</Link>
+                <Link href="/demo" onClick={setShow(false)}>
+                  Demo
+                </Link>
               </span>
 
               <span>
-                <Link href="blog.learnbay.co">Blog</Link>
+                <Link href="blog.learnbay.co" onClick={setShow(false)}>
+                  Blog
+                </Link>
               </span>
 
               <span>
-                <Link href="/contact-us">Contact Us</Link>
+                <Link href="/contact-us" onClick={setShow(false)}>
+                  Contact Us
+                </Link>
               </span>
             </div>
           </div>
