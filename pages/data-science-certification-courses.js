@@ -56,6 +56,7 @@ export default function Home() {
         <FirstSection
           deskTopPara="Enhance your earning potential"
           deskTopPara1="with industry-specific training"
+          mTitle="Data Science"
           spanMTitleText=" Foundation Program"
           mTopPara="Enhance your earning potential"
           spanTitleText=" Foundation Program"

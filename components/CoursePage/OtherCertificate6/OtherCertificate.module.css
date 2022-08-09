@@ -36,6 +36,6 @@
         display: block;
     }
     .OtherCertificateInner {
-        width: fit-content;
+        width: auto;
     }
 }

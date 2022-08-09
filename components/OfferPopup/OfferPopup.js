@@ -3,7 +3,7 @@ import styles from "./OfferPopup.module.css";
 import { AiFillCloseCircle } from "react-icons/ai";
 import Link from "next/link";
 
-const OfferPopup = ({ link, title, p1, p2, batch1, batch2 }) => {
+const OfferPopup = ({ link, title, p1, p2, batch1, batch11, batch2, batch22 }) => {
   const [open, setOpen] = useState(false);
   const handelOpen = () => {
     setOpen(false);
@@ -20,10 +20,10 @@ const OfferPopup = ({ link, title, p1, p2, batch1, batch2 }) => {
       <AiFillCloseCircle className={styles.Icon} onClick={handelOpen} />
       <div className={styles.Offer}>
         <h6>{title}</h6>
-        <p>{p1}</p>
+        <p><b>{p1}</b></p>
         <p>{p2}</p>
-        <li>{batch1}</li>
-        <li>{batch2}</li>
+        <li><b>{batch1}</b>{batch11}</li>
+        <li><b>{batch2}</b>{batch22}</li>
 
         <p className={styles.faded}>** Terms & Conditions applied.</p>
         <button onClick={handelOpen}>

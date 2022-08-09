@@ -90,9 +90,14 @@
 
 @media (max-width: 600px) {
   .BackC {
-    height: 50vh;
+    height: 100%;
     text-align: left;
-    padding: 20px;
+    padding: 100px 20px 30px 20px;
+    display: block;
+  }
+
+  .BackC h4 {
+    margin: 0;
   }
 
   .ContactUs {
