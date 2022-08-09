@@ -75,6 +75,8 @@ export const DsaCourseData = [
               },
             },
           ],
+          id: 0,
+            open: true,
         },
       },
 
@@ -118,6 +120,8 @@ export const DsaCourseData = [
               },
             },
           ],
+          id: 1,
+            open: false,
         },
       },
 
@@ -149,6 +153,40 @@ export const DsaCourseData = [
               },
             },
           ],
+          id: 2,
+            open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 3 :- Interview Preparation",
+          content: [
+            {
+              chap: {
+                title: "Chapter 1:- Interview Preparation: Crack MAANG",
+                desc: [
+                  " Searching and Sorting Interview Questions",
+                  " Top 20 Dynamic Programming Interview Questions",
+                  " Top 100 Interview Questions on Advance data structures",
+                  " On-Demand Home Service Application",
+                  " Top 50 Interview Questions on Elementary data structures",
+                  " Top 15 Puzzles to solve and practice",
+                  " Practice the Most Popular Algorithms",
+                  " Programming Knowledge",
+                  " Aptitude, Reasoning & English",
+                  " Quantitative Aptitude",
+                  " Behavioral",
+                  " Logical Ability",
+                  " Computer Science & Programming",
+                  " Chatting/Messaging Application",
+                  " Prefix Sum and Sliding Window",
+                  " Bit Magic",
+                ],
+              },
+            },
+          ],
+          id: 3,
+            open: false,
         },
       },
     ],
