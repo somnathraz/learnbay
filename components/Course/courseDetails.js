@@ -46,7 +46,7 @@ export const viewAllD = [
   },
   {
     id: 4,
-    img: "data-science-ai-for Managers.png",
+    img: "data-science-ai-for-managers.png",
     title: "Data Science & AI ",
     title1: "For Managers",
     tag: "Data science",
@@ -184,7 +184,7 @@ export const ForProgrammersD = [
   },
   {
     id: 3,
-    img: "data-science-ai-for Managers.png",
+    img: "data-science-ai-for-managers.png",
     title: "Data Science & AI ",
     tag: "Data science",
     title1: "For Managers",
@@ -306,7 +306,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 4,
-    img: "data-science-ai-for Managers.png",
+    img: "data-science-ai-for-managers.png",
     title: "Data Science & AI ",
     title1: "For Managers",
     tag: "Data science",
