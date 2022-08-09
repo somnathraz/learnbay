@@ -197,7 +197,7 @@ function SyllabusNew({
               <div>
                 <AiOutlineFieldTime className={styles.PIcons} />
                 <p className={styles.cContent}>
-                  Life time <br />
+                  Lifetime <br />
                   <span>accessibility</span>
                 </p>
               </div>

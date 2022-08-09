@@ -54,14 +54,14 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          deskTopPara="Enhance your earning potential"
-          deskTopPara1="with industry-specific training"
-          mTitle="Data Science"
-          spanMTitleText=" Foundation Program"
-          mTopPara="Enhance your earning potential"
-          spanTitleText=" Foundation Program"
-          mTopPara1="with industry-specific training"
-          title="Data Science"
+          deskTopPara="Data Science"
+          deskTopPara1=" Foundation Program"
+          mTitle="Enhance your earning potential "
+          spanMTitleText="with industry-specific training"
+          mTopPara="Data Science"
+          spanTitleText="with industry-specific training"
+          mTopPara1=" Foundation Program"
+          title="Enhance your earning potential "
           desc="This program ensures a smooth transition into Jr. Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions."
           src="/course1.png"
           width="900"
@@ -83,7 +83,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream role. Learn trending Data Science applications."
             Box2h5="Exclusive Hackathons"
@@ -145,7 +145,7 @@ export default function Home() {
         <Fee
           sub1="Data Science Foundation Program"
           Price1="₹65,000 + GST"
-          PFeatures11="225+ Hours"
+          PFeatures11="200+ Hours"
           PFeatures12="Early Professionals"
           PFeatures13="NA"
           PFeatures14="8+1"
@@ -155,7 +155,7 @@ export default function Home() {
           PFeatures18="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
           sub2="Advanced Data Science and AI Program"
           Price2="₹79,000 + GST"
-          PFeatures21=" 275+ Hours"
+          PFeatures21=" 250+ Hours"
           PFeatures22=" Tech/Non-Tech Professionals"
           PFeatures23="8+"
           PFeatures24="12+2"
@@ -165,7 +165,7 @@ export default function Home() {
           PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
           sub3="Data Science and AI with Job Guarantee Program"
           Price3="₹1,25,000 + GST"
-          PFeatures31=" 400+ Hours"
+          PFeatures31=" 500+ Hours"
           PFeatures32="Tech/Non-Tech Professionals"
           PFeatures33="All"
           PFeatures34="15+3"

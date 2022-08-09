@@ -23,26 +23,27 @@ const Footer = () => {
               </a>
               <p className={styles.FooterInnerli}>Enroll now for Data Science Classroom (Bangalore) or online training with us and Master Data Analytics Skills which will help you to transform your career and start your career as a Data Scientist.</p>
               <div className={styles.FooterSocial}>
-              <a href="https://twitter.com/Learnbay1"><FaTwitter className="bIcons"  /></a>
-              <a href="https://www.facebook.com/learnbay/"><FaFacebookF className="bIcons"  /></a>
-              <a href="https://www.linkedin.com/company/learnbay/"><FaLinkedinIn className="bIcons"  /></a>
-              <a href="https://www.youtube.com/c/LearnbayDataScienceandAI"><FaYoutube className="bIcons"  /></a>
-              <a href="https://www.instagram.com/learnbay_datascience/"><FaInstagram className="bIcons"  /></a>
+              <a href="https://twitter.com/Learnbay" target="_blank"><FaTwitter className="bIcons"  /></a>
+              <a href="https://www.facebook.com/learnbay/" target="_blank"><FaFacebookF className="bIcons"  /></a>
+              <a href="https://www.linkedin.com/company/learnbay/" target="_blank"><FaLinkedinIn className="bIcons"  /></a>
+              <a href="https://bit.ly/Learnbay_YouTube" target="_blank"><FaYoutube className="bIcons"  /></a>
+              <a href="https://instagram.com/learnbayofficial" target="_blank"><FaInstagram className="bIcons"  /></a>
               </div>
-              <span style={{display:"flex", marginTop:"20px"}}><IoMailSharp className="bIcons"  /><Link href="mailto:contacts@learnbay.co">contacts@learnbay.co</Link></span>
-              <span style={{display:"flex", marginTop:"10px"}}><BsFillTelephoneFill className="bIcons"  /><Link href="tel:+919606950936">(+91) 96069 50936</Link></span>
+              <span style={{display:"flex", marginTop:"20px"}}><IoMailSharp className="bIcons"  /><Link href="mailto:contacts@learnbay.co" target="_blank">contacts@learnbay.co</Link></span>
+              <span style={{display:"flex", marginTop:"10px"}}><BsFillTelephoneFill className="bIcons"  /><Link href="tel:+917795687988" target="_blank">(+91) 77956 87988</Link></span>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Courses</p>
           <a href="/data-science-certification-courses"><p className={styles.FooterInnerli}>Data Science Foundation Program</p></a>
-          <a href="/advance-data-science-certification-courses"><p className={styles.FooterInnerli}>Advanced DS and AI Program with Domain Specialization</p></a>
+          <a href="/advance-data-science-certification-courses"><p className={styles.FooterInnerli}>Advanced DS and AI Program</p></a>
           <a href="/full-stack-web-development-program"><p className={styles.FooterInnerli}>Full Stack Web Development Program</p></a>
-          <a href="/full-stack-software-development-program"><p className={styles.FooterInnerli}>Full-Stack Software Development Program</p></a>
-          <a href="/artificial-intelligence-certification-course"><p className={styles.FooterInnerli}>Artificial Intelligence and Machine Learning Program With Domain Specialization Training</p></a>
-          <a href="/data-science-ai-for-managers"><p className={styles.FooterInnerli}>Data Science and Artificial Intelligence For Managers and Leaders</p></a>
-          <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><p className={styles.FooterInnerli}>Data Science and AI Program with 100% Job Guarantee</p></a>
-          <a href="/business-analytics-certification-course"><p className={styles.FooterInnerli}>Business Analytics Certification Program</p></a>
-          <a href="/data-analytics-certification-course"><p className={styles.FooterInnerli}>Data Analytics Certification Program</p></a>
+          <a href="/full-stack-software-development-program"><p className={styles.FooterInnerli}>Full Stack Software Development Program</p></a>
+          <a href="/artificial-intelligence-certification-course"><p className={styles.FooterInnerli}>Advance AI & ML Program for Tech Professionals</p></a>
+          <a href="/data-science-ai-for-Managers"><p className={styles.FooterInnerli}>Data Science & AI For Managers</p></a>
+          <a href="/job-guarantee-or-money-back-data-science-ai-certification-course"><p className={styles.FooterInnerli}>Data Science & AI with Job Guarantee Program</p></a>
+          <a href="/business-analytics-certification-course"><p className={styles.FooterInnerli}>Business Analytics Program</p></a>
+          <a href="/data-analytics-certification-course"><p className={styles.FooterInnerli}>Data Analytics Program</p></a>
+          <a href="/dsa-system-design"><p className={styles.FooterInnerli}>Data Structures Algorithms And System Design</p></a>
 
           </div>
           <div className={styles.FooterDivInner}>
@@ -59,7 +60,9 @@ const Footer = () => {
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Get Our Apps On</p>
           <a href="/"><button className={styles.btnout}><FaApple className="bIcons" style={{fontSize:"30px"}}  />Get Our IOS App</button></a>
-          <a href="https://play.google.com/store/apps/details?id=com.app.learnbay"><button className={styles.btnout}><FaAndroid className="bIcons" style={{fontSize:"30px"}}  />Get Our Android App</button></a>
+          <a href="https://play.google.com/store/apps/details?id=com.app.learnbay" target="_blank"><button className={styles.btnout}><FaAndroid className="bIcons" style={{fontSize:"30px"}}  />Get Our Android App</button></a>
+          <p className={styles.FooterInnerP}>Find Us Here</p>
+          <a href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank"><p className={styles.FooterInnerli}>#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)</p></a>
         </div>
         </div>
         <div className={styles.FooterDiv} style={{borderTop: "1px solid", borderBottom: "1px solid", borderColor:"#ffffff50"}}>

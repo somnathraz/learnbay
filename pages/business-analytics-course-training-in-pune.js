@@ -114,7 +114,7 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
             Box2h5="Exclusive Hackathons"
@@ -186,11 +186,11 @@ export default function Home() {
               Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities."
               src3="/BMW.png"
               ProjectsH3="BMW Used Car Price Optimization"
-              Projectsp3="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
+              Projectsp3="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
               src4="/SAMSUNG.png"
               ProjectsH4="Samsung Health Monitor App"
               Projectsp4="Samsung will launch a new healthcare app soon. The key goal of this app is the accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
-              AlumniBot1="Learnbay has converted a lot of early-stage non-analytical working professionals into successful and expert  Business analysts. After completing the concerned business analytics certification course, approx 800+ candidates were recruited by top global companies and leading startups across Pune. Many got recruited within a month. Even candidates with 5 to 6 years of work experience were hired as junior managers and leaders. Below are a few Learnbay alumni sharing their hard work and success as business analysts. "
+              AlumniBot1="Learnbay has converted a lot of early-stage non-analytical working professionals into successful and expert  Business analysts. After completing the concerned business analytics certification course, approx 800+ candidates were recruited by top global companies and leading startups across Pune. Many got recruited within a month. Even candidates with 5 to 6 years of work experience were hired as junior Managers and leaders. Below are a few Learnbay alumni sharing their hard work and success as business analysts. "
               Asrc1="/devraj.jpg"
               AlumniH1="Deveraj"
               Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."
@@ -213,9 +213,10 @@ export default function Home() {
               MentorshipFaqDatas={BusinessAMentorshipFaqDataP}
               SupportFaqDatas={BusinessASupportFaqDataP}
             />
-            <LearnSupport />
           </div>
         </div>
+        <LearnSupport />
+
         <CityText
           CityTextB="Business Analytics Course Certification Training locations in Pune "
           CityText=" : Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Pune City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337]."

@@ -104,12 +104,12 @@ const FormInline = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you-brochure");
       return;
     }
-    if (router.pathname === "/data-science-ai-for-managers") {
+    if (router.pathname === "/data-science-ai-for-Managers") {
       router.push("/Thank-you");
       return;
     }
     if (
-      router.pathname === "/data-science-ai-for-managers" &&
+      router.pathname === "/data-science-ai-for-Managers" &&
       downloadBrochure
     ) {
       router.push("/Thank-you-brochure");

@@ -31,7 +31,7 @@ function LearnSupport() {
                 <AiOutlineWhatsApp /> Enquire Now
               </button>
             </a>
-            <a href="tel:+919606950936">
+            <a href="tel:+917795687988">
               <button className={styles.btn2}>
                 <MdCall /> +91 96069 50936
               </button>

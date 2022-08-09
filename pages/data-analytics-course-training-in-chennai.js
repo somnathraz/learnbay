@@ -106,12 +106,12 @@ export default function Home() {
           Classes="Basic coding classes for non-technical professions"
           OneLine="Live & interactive training by industry experts"
           Interview="Course completion certificate from IBM"
-          Fee="60,000"
+          Fee="65,000"
           Subscription="1.5 Year Subscription"
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools."
             Box2h5="Exclusive Hackathons"
@@ -205,7 +205,7 @@ export default function Home() {
               Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
               src4="/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
-              Projectsp4=" BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
+              Projectsp4=" BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
               AlumniBot1="Learnbay has continuously worked towards fulfilling the professions of many aspiring data analysts in Chennai. Our strong ties with MNCs and IBM have helped many students get placed in the top leading firms with a minimum possible timeline. More than 700 learners have already secured lucrative positions in Amazon, TCS, EY, JP Morgan, and Mercedes like multinational business giants."
               Asrc1="/devraj.jpg"
               AlumniH1="Deveraj"
@@ -230,9 +230,10 @@ export default function Home() {
               MentorshipFaqDatas={AnalyticsMentorshipFaqDataC}
               SupportFaqDatas={AnalyticsSupportFaqDataC}
             />
-            <LearnSupport />
           </div>
         </div>
+        <LearnSupport />
+
         <CityText
           CityTextB="Data Analytics Course Certification Training locations in Chennai "
           CityText=" : Anna Nagar [600040],Thousand Lights [600006], Adyar [600020],Nungambakkam [600034], Perambur [600011], OMR [600119], Guindy [600032], Thiruvanmiyur [600041],Perungudi [600096], Thoraipakkam [600097],Sholinganallur [600119], Siruseri [603103], Tambaram [600045], Velachery [600042], Meenambakkam [600027], Chrompet [600044], T nagar [600017],Chennai central [600020],Erukkancheri [600118],World University Centre [600031],Madras University [600005],Indian Institute Of Technology [600036]"

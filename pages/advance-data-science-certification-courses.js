@@ -91,7 +91,7 @@ export default function Home() {
 
         <div className={styles.Feature} id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="1-on-1 Dedication"
             box1desc="Live interactive session with expert for every individual"
             Box2h5="Assured Interview Call"
@@ -141,16 +141,16 @@ export default function Home() {
           img20="/logos/24.jpeg"
 
         />
-        <ProgramFee Fee="₹1,25,000 + GST" Emi="₹ 7,768/month" />
+        <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+ Projects" domain="7+" />
         </div>
 
         <Fee
-          sub1="Data Science and AI Foundation Program"
+          sub1="Data Science Foundation Program"
           Price1="₹65,000 + GST"
-          PFeatures11="225+ Hours"
+          PFeatures11="200+ Hours"
           PFeatures12="Early Professionals"
           PFeatures13="NA"
           PFeatures14="8+1"
@@ -159,8 +159,8 @@ export default function Home() {
           PFeatures17="No"
           PFeatures18="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
           sub2="Advanced Data Science and AI Program"
-          Price2="₹79,000 + GST"
-          PFeatures21=" 275+ Hours"
+          Price2="₹ 79,000 + GST"
+          PFeatures21=" 250+ Hours"
           PFeatures22=" Tech/Non-Tech Professionals"
           PFeatures23="8+"
           PFeatures24="12+2"
@@ -170,7 +170,7 @@ export default function Home() {
           PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
           sub3="Data Science and AI with Job Guarantee Program"
           Price3="₹1,25,000 + GST"
-          PFeatures31=" 400+ Hours"
+          PFeatures31=" 500+ Hours"
           PFeatures32="Tech/Non-Tech Professionals"
           PFeatures33="All"
           PFeatures34="15+3"

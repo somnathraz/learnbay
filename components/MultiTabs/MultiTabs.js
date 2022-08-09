@@ -110,12 +110,12 @@ const MultiTabs = () => {
                 className={styles.img}
               />
               <h6>
-                Get Assured Job Referrals in Product Based MNCs with dedicated
-                placement support
+                Get Assured Job Referrals in Product Based MNCs with Dedicated
+                Placement Support
               </h6>
               <p className={styles.para}>
-                Become Job Ready with our Resume Preparation and mock interview
-                Sessions from industry experts. Crack interview in top companies
+                Become job ready with our resume preparation and mock interview
+                sessions from industry experts. Crack interview in top companies
                 with confidence
               </p>
               <div className={styles.info}>
@@ -152,11 +152,11 @@ const MultiTabs = () => {
                 className={styles.img}
               />
               <h6>
-                Work on Domain Specialised Capstone Certified With IBM to get
+                Work on Domain Specialised Capstone Projects With IBM to get
                 handson experience
               </h6>
               <p className={styles.para}>
-                Upon Successful completion of the course , you will receive the
+                Upon Successful completion of the course, you will receive the
                 globally recognised certificate from IBM which helps you to get
                 industry ready
               </p>
@@ -199,7 +199,7 @@ const MultiTabs = () => {
               </h6>
               <p className={styles.para}>
                 We believe that professionals coming from non programming
-                backgrounds need special assistance and support so that you can
+                backgrounds need special assistance and support so that they can
                 learn from scratch.
               </p>
               <div className={styles.info}>
@@ -241,7 +241,7 @@ const MultiTabs = () => {
               </h6>
               <p className={styles.para}>
                 Our experts are available 1:1 to help you for any doubts after
-                your live classes.You can attend classes from multiple
+                your live classes. You can attend classes from multiple
                 instructors, change batches, get backup classes
               </p>
               <div className={styles.info}>

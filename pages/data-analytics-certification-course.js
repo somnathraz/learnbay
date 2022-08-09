@@ -59,9 +59,9 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          deskTopPara="Get ahead of the competition"
+          deskTopPara="Get ahead of the competition "
           deskTopPara1="with popular skill sets."
-          mTopPara="Get ahead of the competition "
+          mTopPara="Get ahead of the competition  "
           mTopPara1="with popular skill sets."
           mTitle="Data Analytics Certification Program"
           spanMTitleText="For Professionals"
@@ -88,7 +88,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools."
             Box2h5="Exclusive Hackathons"
@@ -144,7 +144,7 @@ export default function Home() {
           img23="/logos/9.png"
           img20="/logos/10.png"
         />
-        <ProgramFee Emi="₹ 6,392/month" Fee="₹ 60,000 +GST" />
+        <ProgramFee Emi="₹ 6,392/month" Fee="₹ 65,000 +GST" />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="5+ Projects" domain="7+" />
         </div>

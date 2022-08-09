@@ -12,10 +12,10 @@
   display: grid;
   grid-template-columns: 20% 77%;
   gap: 60px;
-  margin-top: 190px;
+  margin-top: 140px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 }
 .img {
   margin-top: 20px;

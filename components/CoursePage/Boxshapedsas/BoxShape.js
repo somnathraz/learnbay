@@ -8,7 +8,8 @@ import { MdLiveTv } from "react-icons/md";
 import { FiUser } from "react-icons/fi";
 import { BsGraphUp } from "react-icons/bs";
 import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import "swiper/css/autoplay";
+import { Autoplay, Pagination } from "swiper";
 
 const BoxShape = ({
   title,
@@ -89,8 +90,12 @@ const BoxShape = ({
                 slidesPerView={mobile ? 1 : 1}
                 spaceBetween={mobile ? 10 : 20}
                 grabCursor={true}
-                modules={[Pagination]}
+                autoplay={{
+                  delay: 2500,
+                }}
+                modules={[Pagination, Autoplay]}
                 pagination={true}
+                Autoplay={true}
                 className="mySwiper"
               >
                 <SwiperSlide className={styles.swiperSlideer}>

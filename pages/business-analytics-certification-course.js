@@ -59,9 +59,9 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          deskTopPara="Develop Work-Ready Skills"
+          deskTopPara="Develop Work-Ready Skills "
           deskTopPara1="You Can Use Right Away"
-          mTopPara="Develop Work-Ready Skills"
+          mTopPara="Develop Work-Ready Skills "
           mTopPara1="You Can Use Right Away"
           mTitle="Business Analytics Certification Program"
           spanMTitleText="For Non-tech Professionals"
@@ -88,7 +88,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
             Box2h5="Exclusive Hackathons"

@@ -74,7 +74,7 @@ export const JobGuaranteeCourseData = [
 
             {
               chap: {
-                title: "Chapter 2:Fundamentals of programming",
+                title: "Chapter 2:Fundamentals of Programming",
                 desc: [
                   "Introduction to Anaconda & Jupyter notebook",
                   "Flavors of python Introduction to Git, GitHub",
@@ -87,7 +87,7 @@ export const JobGuaranteeCourseData = [
                 title: "Chapter 3:  Fundamentals of Statistics",
                 desc: [
                   "Mean, Median, Mode",
-                  "Standard Deviation, Average. Probability, permutations, and combinations",
+                  "Standard Deviation, Average. Probability, Permutations, and Combinations",
                   "Introduction to Linear Algebra",
                 ],
               },
@@ -122,7 +122,7 @@ export const JobGuaranteeCourseData = [
 
             {
               chap: {
-                title: "Chapter 2: PYTHON INTRODUCTION (1 hrs)",
+                title: "Chapter 2: Python Introduction ",
                 desc: [
                   "How a Python Program runs on our system?",
                   "Features of Python Memory Management in Python,",
@@ -132,13 +132,13 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: CONDITIONAL AND LOOPS (1 hrs)",
+                title: "Chapter 3: Conditional And Loops  ",
                 desc: ["Conditional Statement", "Loop Statement."],
               },
             },
             {
               chap: {
-                title: "Chapter 4: PYTHON PROGRAMMING COMPONENTS",
+                title: "Chapter 4: Python Programming Components",
                 desc: [
                   "Linting",
                   "Formatting",
@@ -150,7 +150,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 5: FUNCTION",
+                title: "Chapter 5: Function",
                 desc: [
                   "Working with functions",
                   "Parameters vs Arguments",
@@ -161,7 +161,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 6: EXPECTION HANDELING",
+                title: "Chapter 6: Expection Handling",
                 desc: [
                   "Introduction to Exception Handling",
                   "Type of Errors",
@@ -171,7 +171,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 7: MODULES IN PYTHON",
+                title: "Chapter 7: Modules in Python",
                 desc: [
                   "Introduction to Modular Programming",
                   "Importing Modules and different import statement",
@@ -181,7 +181,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 8: FILE HANDELING",
+                title: "Chapter 8: File Handeling",
                 desc: [
                   "Use of File Handling?",
                   "Type of Files",
@@ -195,7 +195,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 9: REGULAR EXPRESSION",
+                title: "Chapter 9: Regular Expression",
                 desc: [
                   "Intro & use of Regular Expression?",
                   "Regex module & important methods,",
@@ -205,10 +205,10 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 10: NUMPY IN PYTHON",
+                title: "Chapter 10: Numpy In Python",
                 desc: [
                   "Intro & use of numpy, What is an array?",
-                  "Array Operations using Numpy",
+                  "Array Operations Using Numpy",
                   "Numpy and Scipy,",
                   "Numpy and Pandas",
                 ],
@@ -216,11 +216,11 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 11: PANDAS IN PYTHON",
+                title: "Chapter 11: Pandas In Python",
                 desc: [
                   "Numpy vs Pandas",
                   "Exporting Dataframe to CSV and Excel",
-                  "EDA using Pandas.",
+                  "EDA Using Pandas.",
                 ],
               },
             },
@@ -297,8 +297,8 @@ export const JobGuaranteeCourseData = [
                   "Naive Baye’s Model Case Study on Kart Model Business & Random Forest",
                   "K Means and Hierarchical Clustering",
                   "Hierarchical Clustering",
-                  "Principal Component Analysis(PCA):",
-                  " Support Vector Machine(SVM) Case Study on Recommendation Engine for e-commerce/retail chain & Twitter data analysis using NLP",
+                  "Principal Component Analysis (PCA):",
+                  " Support Vector Machine (SVM) Case Study on Recommendation Engine for e-commerce/retail chain & Twitter data analysis using NLP",
                 ],
               },
             },
@@ -516,12 +516,12 @@ export const JobGuaranteeCourseData = [
     ],
     Review: {
       title: "Why get enrolled in our Advanced Data Science and AI course?",
-      desc: " Skillslash’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
+      desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
     },
     Fee: {
       desc: " The Advanced Data science and AI fee start from INR 59,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
       desc1:
-        "Skillslash's courses are designed giving importance to affordability. The Advanced Data Science and AI course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
+        "Learnbay's courses are designed giving importance to affordability. The Advanced Data Science and AI course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
       BasicPrice: "₹ 59,000 + GST",
       BasicDesc: "Get data science training from Industry experts",
       ProPrice: "₹ 89,000 + GST",

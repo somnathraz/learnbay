@@ -80,10 +80,10 @@ const WhyLearnbay = () => {
                 portfolio
               </p>
             </div>
-            <button>
+            <a href="tel:+917795687988" target="_blank"><button>
               <IoCallOutline className={styles.BIcon} />
               Talk To Our Domain Expert
-            </button>
+            </button></a>
           </div>
         </div>
         <div className={styles.MiddleImg}>

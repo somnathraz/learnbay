@@ -111,7 +111,7 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -140,7 +140,7 @@ export default function Home() {
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"
               Courselink3="/artificial-intelligence-certification-course"
-              Courselink4="/data-science-ai-for-managers"
+              Courselink4="/data-science-ai-for-Managers"
               Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
@@ -215,7 +215,7 @@ export default function Home() {
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf"
               JobHead1="Interview preparation in Learnbay’s IBM data science courses, Chennai"
               JobBot1=" Learnbay’s data science curriculum includes a job assistance program for its students."
-              JobBot2="By the end of the IBM data science course, students will be provided with CV preparation and soft skills training sessions. Various company-specific mock interviews instill confidence in our students prior to the interviews. In addition, our officials ensure that your portfolio is up to industry standard and appealing to hiring managers. Even you get an option of a data science course with a money-back guarantee in Chennai. If you remain unable to land a data science job role within six months (post-course completion), you can apply for the data science course fee refund."
+              JobBot2="By the end of the IBM data science course, students will be provided with CV preparation and soft skills training sessions. Various company-specific mock interviews instill confidence in our students prior to the interviews. In addition, our officials ensure that your portfolio is up to industry standard and appealing to hiring Managers. Even you get an option of a data science course with a money-back guarantee in Chennai. If you remain unable to land a data science job role within six months (post-course completion), you can apply for the data science course fee refund."
               JobBot5="We have partnered with top leading organizations like IBM, EY, TCS, Accenture, and others. Over 1000 Learnbay alumni are successfully working in a variety of data science roles in Chennai city."
               JobHead2="Data science and its demand in Chennai "
               JobBot3="Data science is a fascinating field that combines data and science to discover beneficial information for mankind. Today, many corporations and businesses rely on data for their sustainability and profitability. Data science is a key driver of innovation and competitiveness in many industries, including retail, finance, and health care."
@@ -235,7 +235,7 @@ export default function Home() {
               Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
               src4="/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
-              Projectsp4="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
+              Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
               AlumniBot1="Learnbay’s IBM data science course aims to provide quality data scientists across Chennai. Many of our students have achieved data scientist jobs and other data science roles along with a 200% salary hike. Even More than 300 Learnbay data science and AI course alumni are in lead and management positions in top leading firms. Some of our alumni have shared their experiences:"
               Asrc1="/devraj.jpg"
               AlumniH1="Deveraj"
@@ -260,9 +260,10 @@ export default function Home() {
               MentorshipFaqDatas={AdvanceMentorshipFaqDataC}
               SupportFaqDatas={AdvanceSupportFaqDataC}
             />
-            <LearnSupport />
           </div>
         </div>
+        <LearnSupport />
+
         <CityText
           CityTextB="Data Science Course Certification Training locations in Chennai "
           CityText=" :  Anna Nagar [600040],Thousand Lights [600006], Adyar [600020],Nungambakkam [600034], Perambur [600011], OMR [600119], Guindy [600032], Thiruvanmiyur [600041],Perungudi [600096], Thoraipakkam [600097],Sholinganallur [600119], Siruseri [603103], Tambaram [600045], Velachery [600042], Meenambakkam [600027], Chrompet [600044], T nagar [600017],Chennai central [600020],Erukkancheri [600118],World University Centre [600031],Madras University [600005],Indian Institute Of Technology [600036]."

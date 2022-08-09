@@ -74,7 +74,7 @@ export const DataAnalyticsCourseData = [
 
             {
               chap: {
-                title: "Chapter 2: code editors basics (1 hrs)",
+                title: "Chapter 2: code editors basics  ",
                 desc: [
                   "Different type of code editors in python, Introduction to Anaconda and IDEs",
                 ],
@@ -82,7 +82,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: python basics (1 hrs)",
+                title: "Chapter 3: python basics  ",
                 desc: [
                   "Variable Vs Identifiers, Strings Operators Vs Operand, Procedure oriented Vs Modular programming.",
                 ],
@@ -90,7 +90,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 4: statistics basics & probability (1 hrs)",
+                title: "Chapter 4: statistics basics & probability  ",
                 desc: [
                   "Measures of Central Tendency & dispersion, Inferential statistics and Sampling theory.",
                 ],
@@ -117,7 +117,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: PYTHON INTRODUCTION (1 hrs)",
+                title: "Chapter 2: Python Introduction ",
                 desc: [
                   "How a Python Program runs on our system?",
                   "Features of Python Memory Management in Python,",
@@ -127,13 +127,13 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: CONDITIONAL AND LOOPS (1 hrs)",
+                title: "Chapter 3: Conditional And Loops  ",
                 desc: ["Conditional Statement", "Loop Statement."],
               },
             },
             {
               chap: {
-                title: "Chapter 4: PYTHON PROGRAMMING COMPONENTS",
+                title: "Chapter 4: Python Programming Components",
                 desc: [
                   "Linting",
                   "Formatting",
@@ -145,7 +145,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 5: FUNCTION",
+                title: "Chapter 5: Function",
                 desc: [
                   "Working with functions",
                   "Parameters vs Arguments",
@@ -156,7 +156,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 6: EXPECTION HANDELING",
+                title: "Chapter 6: Expection Handling",
                 desc: [
                   "Introduction to Exception Handling",
                   "Type of Errors",
@@ -166,7 +166,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 7: MODULES IN PYTHON",
+                title: "Chapter 7: Modules in Python",
                 desc: [
                   "Introduction to Modular Programming",
                   "Importing Modules and different import statement",
@@ -176,7 +176,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 8: FILE HANDELING",
+                title: "Chapter 8: File Handeling",
                 desc: [
                   "Use of File Handling?",
                   "Type of Files",
@@ -190,7 +190,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 9: REGULAR EXPRESSION",
+                title: "Chapter 9: Regular Expression",
                 desc: [
                   "Intro & use of Regular Expression?",
                   "Regex module & important methods,",
@@ -200,10 +200,10 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 10: NUMPY IN PYTHON",
+                title: "Chapter 10: Numpy In Python",
                 desc: [
                   "Intro & use of numpy, What is an array?",
-                  "Array Operations using Numpy",
+                  "Array Operations Using Numpy",
                   "Numpy and Scipy,",
                   "Numpy and Pandas",
                 ],
@@ -211,11 +211,11 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 11: PANDAS IN PYTHON",
+                title: "Chapter 11: Pandas In Python",
                 desc: [
                   "Numpy vs Pandas",
                   "Exporting Dataframe to CSV and Excel",
-                  "EDA using Pandas.",
+                  "EDA Using Pandas.",
                 ],
               },
             },
@@ -275,7 +275,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: Statistics Foundations (1 hrs)",
+                title: "Chapter 2: Statistics Foundations  ",
                 desc: [
                   "Elements of Descriptive Statistics",
                   "Measures of Central tendency and Dispersion",
@@ -288,7 +288,7 @@ export const DataAnalyticsCourseData = [
             {
               chap: {
                 title:
-                  "Chapter 3: Hypothesis Testing and its Applications (1 hrs)",
+                  "Chapter 3: Hypothesis Testing and its Applications  ",
                 desc: [
                   "Basic Concepts - Formulation of Hypothesis, Making a decision",
                   "Advanced Concepts - Choice of Test - t test vs z test",
@@ -300,7 +300,7 @@ export const DataAnalyticsCourseData = [
             {
               chap: {
                 title:
-                  "Chapter 4: Exploratory Data Analysis and the Art of Storytelling (1 hrs)",
+                  "Chapter 4: Exploratory Data Analysis and the Art of Storytelling  ",
                 desc: [
                   "Ingest data",
                   "Data cleaning",
@@ -1143,12 +1143,12 @@ export const DataAnalyticsCourseData = [
     ],
     Review: {
       title: "Why get enrolled in our Advanced Data Science and AI course?",
-      desc: " Skillslash’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
+      desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
     },
     Fee: {
       desc: " The Advanced Data science and AI fee start from INR 59,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
       desc1:
-        "Skillslash's courses are designed giving importance to affordability. The Advanced Data Science and AI course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
+        "Learnbay's courses are designed giving importance to affordability. The Advanced Data Science and AI course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
       BasicPrice: "₹ 59,000 + GST",
       BasicDesc: "Get data science training from Industry experts",
       ProPrice: "₹ 89,000 + GST",

@@ -106,12 +106,12 @@ export default function Home() {
           Classes="Basic coding classes for non-technical professions"
           OneLine="Live & interactive training by industry experts"
           Interview="Course completion certificate from IBM"
-          Fee="60,000"
+          Fee="65,000"
           Subscription="1.5 Year Subscription"
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools."
             Box2h5="Exclusive Hackathons"
@@ -196,7 +196,7 @@ export default function Home() {
               Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
               src4="/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
-              Projectsp4="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
+              Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
               AlumniBot1="Learnbay data analytics course includes both theory and hands-on techniques, which makes our students eligible for real-world data analytics jobs in Dubai. We have trained almost 1000+ students so far from all over the world. They currently are working in supervisory and managerial positions in large tech companies like SAP, Adobe, Salesforce, and other Dubai companies. Learnbay Students Reviews:"
               Asrc1="/devraj.jpg"
               AlumniH1="Deveraj"
@@ -221,15 +221,9 @@ export default function Home() {
               MentorshipFaqDatas={AnalyticsMentorshipFaqDataDu}
               SupportFaqDatas={AnalyticsSupportFaqDataDu}
             />
-            <LearnSupport />
           </div>
         </div>
-        <CityText
-          CityTextB="Data Analytics Course Certification Training locations in Dubai "
-          CityText=" : Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Dubai City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337]."
-          CityTextLB="Locations Offered"
-          CityTextL=" :Data Analytics Course viman nagar,Data Analytics Training in kalyan nagar,Data Analytics Training in magarpetta,Data Analytics Training in pimpri chinchwad,Data Analytics Classes in yerwada,Data Analytics Classes in kharadi,Data Analytics Classes in vishrantwadi,Data Analytics Classes in deccan,Data Analytics Course in Katraj,Data Analytics Training in warje,,Data Analytics Certification Training in bavdhan,Data Analytics Certification in boat club road,Data Analytics Certification in model colony,Best Data Analytics Training in Dubai,Best Data Analytics Course in Dubai"
-        />
+        <LearnSupport />
       </main>
     </div>
   );

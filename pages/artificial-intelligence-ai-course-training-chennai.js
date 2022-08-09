@@ -86,7 +86,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -112,7 +112,7 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
             Box2h5="Domain Destined"
@@ -139,7 +139,7 @@ export default function Home() {
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"
               Courselink3="/artificial-intelligence-certification-course"
-              Courselink4="/data-science-ai-for-managers"
+              Courselink4="/data-science-ai-for-Managers"
               Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
@@ -210,7 +210,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf"
               JobBot1="Learnbay's career coaches and mentors will help you develop your resume and portfolio, as well as refer your profiles to other companies. They ensure that you get guaranteed interviews with top leading organizations in Chennai. In addition, you'll also get multiple mock artificial intelligence interviews to make you ready for challenging real interviews."
               JobBot2="The Job or Money-back Guarantee program ensures that you get a full AI course fee to refund if you do not get placed within 6 months after the course."
               JobHead2="Is artificial intelligence a good career in Chennai?"
@@ -229,7 +229,7 @@ export default function Home() {
               Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a"
               src4="/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
-              Projectsp4="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
+              Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
               AlumniBot1="Learnbay has trained several graduates who are able to grow alongside the industry they work in. Learnbay's Artificial Intelligence training guarantee job placement for students and has already placed over 1000 students in leading startups and MNCs across Chennai. Take a peek at some of the stories of our alumni."
               Asrc1="/devraj.jpg"
               AlumniH1="Deveraj"
@@ -254,9 +254,9 @@ export default function Home() {
               MentorshipFaqDatas={ArtificialMentorshipFaqDataC}
               SupportFaqDatas={ArtificialSupportFaqDataC}
             />
-            <LearnSupport />
           </div>
         </div>
+        <LearnSupport />
         <CityText
           CityTextB="Artificial Intelligence Course Certification Training locations in Chennai "
           CityText=" : Anna Nagar [600040],Thousand Lights [600006], Adyar [600020],Nungambakkam [600034], Perambur [600011], OMR [600119], Guindy [600032], Thiruvanmiyur [600041],Perungudi [600096], Thoraipakkam [600097],Sholinganallur [600119], Siruseri [603103], Tambaram [600045], Velachery [600042], Meenambakkam [600027], Chrompet [600044], T nagar [600017],Chennai central [600020],Erukkancheri [600118],World University Centre [600031],Madras University [600005],Indian Institute Of Technology [600036]"

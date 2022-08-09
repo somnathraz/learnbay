@@ -74,7 +74,7 @@ export const BusinessAnalyticsCourseData = [
 
             {
               chap: {
-                title: "Chapter 2: Fundamentals of programming",
+                title: "Chapter 2: Fundamentals of Programming",
                 desc: [
                   "Introduction to Anaconda & Jupyter notebook",
                   "Flavors of python Introduction to Git, GitHub",
@@ -87,7 +87,7 @@ export const BusinessAnalyticsCourseData = [
                 title: "Chapter 3: Fundamentals of Statistics",
                 desc: [
                   "Mean, Median, Mode",
-                  "Standard Deviation, Average. Probability, permutations, and combinations",
+                  "Standard Deviation, Average. Probability, Permutations, and Combinations",
                   "Introduction to Linear Algebra",
                 ],
               },
@@ -238,12 +238,12 @@ export const BusinessAnalyticsCourseData = [
     ],
     Review: {
       title: "Why get enrolled in our Advanced Data Science and AI course?",
-      desc: " Skillslash’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
+      desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
     },
     Fee: {
       desc: " The Advanced Data science and AI fee start from INR 59,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
       desc1:
-        "Skillslash's courses are designed giving importance to affordability. The Advanced Data Science and AI course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
+        "Learnbay's courses are designed giving importance to affordability. The Advanced Data Science and AI course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
       BasicPrice: "₹ 59,000 + GST",
       BasicDesc: "Get data science training from Industry experts",
       ProPrice: "₹ 89,000 + GST",

@@ -112,6 +112,7 @@
   .box h5,
   .boxActive h5 {
     font-size: 22px;
+    text-align: center;
   }
   .imgBack {
     width: 19%;

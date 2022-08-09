@@ -10,7 +10,7 @@ export const AdvanceFaqDataM = [
     linkText4: "Data Science Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
     link4: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -114,8 +114,8 @@ export const AdvancePaymentFaqDataM = [
     ans: `The total course fee for the 
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.`,
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -276,8 +276,8 @@ export const ArtificialFaqDataM = [
     linkText5: " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
-    link4: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
+    link4: "/data-science-ai-for-Managers",
     link5: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -408,8 +408,8 @@ export const ArtificialPaymentFaqDataM = [
     ans: `The total course fee for the 
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -1057,7 +1057,7 @@ export const BusinessAFaqDataM = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Mumbai?",
-    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -1227,7 +1227,7 @@ export const AdvanceFaqDataH = [
     linkText4: "Data Science Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
     link4: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -1330,8 +1330,8 @@ export const AdvancePaymentFaqDataH = [
     ans: `The total course fee for the 
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.`,
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   //check this same <Please check with our sales team to know more>
@@ -1491,8 +1491,8 @@ export const ArtificialFaqDataH = [
     linkText5: "Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
-    link4: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
+    link4: "/data-science-ai-for-Managers",
     link5: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -1622,8 +1622,8 @@ export const ArtificialPaymentFaqDataH = [
     ans: `The total course fee for the 
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -2270,7 +2270,7 @@ export const BusinessAFaqDataH = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Hyderabad?",
-    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -2440,7 +2440,7 @@ export const AdvanceFaqDataB = [
     linkText4: "Data Science Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
     link4: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -2543,8 +2543,8 @@ export const AdvancePaymentFaqDataB = [
     ans: `The total course fee for the 
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.`,
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -2827,8 +2827,8 @@ export const ArtificialPaymentFaqDataB = [
     ans: `The total course fee for the 
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -3477,7 +3477,7 @@ export const BusinessAFaqDataB = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Bengalore?",
-    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -3650,7 +3650,7 @@ export const AdvanceFaqDataC = [
     linkText4: "Data Science Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
     link4: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -3753,8 +3753,8 @@ export const AdvancePaymentFaqDataC = [
     ans: `The total course fee for the 
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.`,
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -3911,8 +3911,8 @@ export const ArtificialFaqDataC = [
     linkText5: " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
-    link4: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
+    link4: "/data-science-ai-for-Managers",
     link5: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -4042,8 +4042,8 @@ export const ArtificialPaymentFaqDataC = [
     ans: `The total course fee for the 
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -4689,7 +4689,7 @@ export const BusinessAFaqDataC = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Chennai?",
-    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -4863,7 +4863,7 @@ export const AdvanceFaqDataCa = [
     linkText4: "Data Science Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
     link4: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -4966,8 +4966,8 @@ export const AdvancePaymentFaqDataCa = [
     ans: `The total course fee for the 
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.`,
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -5125,8 +5125,8 @@ export const ArtificialFaqDataCa = [
     linkText5: " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
-    link4: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
+    link4: "/data-science-ai-for-Managers",
     link5: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -5256,8 +5256,8 @@ export const ArtificialPaymentFaqDataCa = [
     ans: `The total course fee for the 
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -5906,7 +5906,7 @@ export const BusinessAFaqDataCa = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Canada?",
-    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -6085,7 +6085,7 @@ export const AdvanceFaqDataD = [
     linkText4: "Data Science Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
     link4: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
 
@@ -6183,8 +6183,8 @@ export const AdvancePaymentFaqDataD = [
     ans: `The total course fee for the 
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.`,
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -6341,8 +6341,8 @@ export const ArtificialFaqDataD = [
     linkText5: " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
-    link4: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
+    link4: "/data-science-ai-for-Managers",
     link5: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -6472,8 +6472,8 @@ export const ArtificialPaymentFaqDataD = [
     ans: `The total course fee for the 
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -7121,7 +7121,7 @@ export const BusinessAFaqDataD = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Delhi?",
-    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -7298,7 +7298,7 @@ export const AdvanceFaqDataDu = [
     linkText4: "Data Science Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
     link4: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -7402,8 +7402,8 @@ export const AdvancePaymentFaqDataDu = [
     ans: `The total course fee for the 
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.`,
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -7560,8 +7560,8 @@ export const ArtificialFaqDataDu = [
     linkText5: " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
-    link4: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
+    link4: "/data-science-ai-for-Managers",
     link5: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -7691,8 +7691,8 @@ export const ArtificialPaymentFaqDataDu = [
     ans: `The total course fee for the 
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -7807,11 +7807,11 @@ export const ArtificialjobFaqDataDu = [
   {
     id: 3,
     ques: "What is a Job or 100% money back Guarantee?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: linkText1: " Terms and conditions ",
+    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. Note: `,
+    linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
-    link: true,`,
+    link: true,
     open: false,
   },
 ];
@@ -8340,7 +8340,7 @@ export const BusinessAFaqDataDu = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Dubai?",
-    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -8515,7 +8515,7 @@ export const AdvanceFaqDataP = [
     linkText4: "Data Science Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
     link4: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -8618,8 +8618,8 @@ export const AdvancePaymentFaqDataP = [
     ans: `The total course fee for the 
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.`,
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -8776,8 +8776,8 @@ export const ArtificialFaqDataP = [
     linkText5: " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
-    link3: "/data-science-ai-for-managers",
-    link4: "/data-science-ai-for-managers",
+    link3: "/data-science-ai-for-Managers",
+    link4: "/data-science-ai-for-Managers",
     link5: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
@@ -8908,8 +8908,8 @@ export const ArtificialPaymentFaqDataP = [
     ans: `The total course fee for the 
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,12,,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,,500/- inclusive of GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -9557,7 +9557,7 @@ export const BusinessAFaqDataP = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Certification course in Pune?",
-    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {

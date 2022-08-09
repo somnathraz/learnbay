@@ -19,7 +19,7 @@ export const DomainFaqCourseData1 = [
     },
     {
       id: 3,
-      ques: "3 years Flexible Subscription",
+      ques: "3 Years Flexible Subscription",
       ans: "Enjoy 3 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
       open: false,
     },
@@ -75,8 +75,8 @@ export const DomainFaqCourseData1 = [
     },
     {
       id: 3,
-      ques: "1.5 years Flexible Subscription",
-      ans: "Enjoy 1.5 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
+      ques: "3 Years Flexible Subscription",
+      ans: "Enjoy 3 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
       open: false,
     },
    
@@ -103,7 +103,7 @@ export const DomainFaqCourseData1 = [
     },
     {
       id: 3,
-      ques: "3 years Flexible Subscription",
+      ques: "3 Years Flexible Subscription",
       ans: "Enjoy 3 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
       open: false,
     },
@@ -125,13 +125,13 @@ export const DomainFaqCourseData1 = [
     },
     {
       id: 2,
-      ques: "It's made for the professionals",
+      ques: "It's Made For The Professionals",
       ans: `For working professionals, we concentrate on helping them get to the top of success without losing their position or discarding their prior knowledge.`,
       open: false,
     },
     {
       id: 3,
-      ques: "3 years Flexible Subscription",
+      ques: "3 Years Flexible Subscription",
       ans: "Enjoy 3 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
       open: false,
     },
