@@ -16,14 +16,14 @@ import { GoDeviceDesktop } from "react-icons/go";
 import { AiOutlineBank } from "react-icons/ai";
 import ProjectPopup from "../ProjectPopup/ProjectPopup";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
+import { Navigation, Pagination } from "swiper";
 import "swiper/css";
 
 import "swiper/css/pagination";
 
 const Project = ({ ChangeProject, project, domain }) => {
   const [popups, setPopups] = useState(false);
-  const [slideNumber, setSlideNumber] = useState(0);
+
   const [device, setDevice] = useState();
 
   const [img, setImg] = useState("");
@@ -35,25 +35,25 @@ const Project = ({ ChangeProject, project, domain }) => {
     setPopups(true);
   };
 
-  let minus = 170;
-  useEffect(() => {
-    return () => {
-      const width = window.innerWidth;
+  // let minus = 170;
+  // useEffect(() => {
+  //   return () => {
+  //     const width = window.innerWidth;
 
-      if (width > 1280) {
-        setDevice(1281);
-      } else if (width < 1280) {
-        setDevice(1279);
-      }
-      if (width < 1025) {
-        setDevice(1025);
-      }
-      if (width < 481) {
-        setDevice(481);
-        setMobile(true);
-      }
-    };
-  }, [title]);
+  //     if (width > 1280) {
+  //       setDevice(1281);
+  //     } else if (width < 1280) {
+  //       setDevice(1279);
+  //     }
+  //     if (width < 1025) {
+  //       setDevice(1025);
+  //     }
+  //     if (width < 481) {
+  //       setDevice(481);
+  //       setMobile(true);
+  //     }
+  //   };
+  // }, [title]);
 
   return (
     <div className={styles.projectHeader}>
@@ -103,12 +103,25 @@ const Project = ({ ChangeProject, project, domain }) => {
       </div>
 
       <div className={styles.container}>
-        <Swiper
-          slidesPerView={mobile ? 1.2 : 1.2}
-          spaceBetween={mobile ? 10 : 50}
-          pagination={true}
+      <Swiper
+          slidesPerView={1}
+          spaceBetween={30}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
           grabCursor={true}
-          modules={[Pagination]}
+          breakpoints={{
+            768: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          }}
+          modules={[Pagination, Navigation]}
           className="mySwiper"
         >
           <SwiperSlide

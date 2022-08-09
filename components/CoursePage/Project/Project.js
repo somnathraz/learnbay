@@ -191,11 +191,11 @@ const Project = ({ ChangeProject, project, domain }) => {
               <span
                 onClick={() => {
                   popupShow();
-                  setTitle("Sales Domain");
+                  setTitle("Supply chain Domain");
                   setDesc(
-                    "BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
+                    "An automated inventory management system will keep track of stock levels and upcoming orders. In addition, you can contribute to DataCo's intelligent supply chain software generation project by using ML algorithms and R programming skills."
                   );
-                  setImg("/Sales-domain.png");
+                  setImg("/supplyChain.png");
                 }}
               >
                 Learn More
@@ -220,17 +220,17 @@ const Project = ({ ChangeProject, project, domain }) => {
             </div>
             <div className={styles.body}>
               <p>
-                BMW allows existing customers to sell used cars, but many
+                BMW allows existing customers to sell used cars but many
                 competitors are now offering better resale values...
               </p>
-              <span
+                <span
                 onClick={() => {
                   popupShow();
-                  setTitle("Supply chain Domain");
+                  setTitle("Sales Domain");
                   setDesc(
-                    "An automated inventory management system will keep track of stock levels and upcoming orders. In addition, you can contribute to DataCo's intelligent supply chain software generation project by using ML algorithms and R programming skills."
+                    "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
                   );
-                  setImg("/supplyChain.png");
+                  setImg("/Sales-domain.png");
                 }}
               >
                 Learn More

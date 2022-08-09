@@ -42,7 +42,7 @@ const FirstSection = () => {
           <span>Working Professionals</span>
         </h1>
         <p className={styles.pTop}>
-          Use you domain Expertise to build a meaningful career. Crack interview
+          Use your domain expertise to build a meaningful career. Crack interview
           in top product based MNCs and MAANG with confidence
         </p>
 

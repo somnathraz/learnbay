@@ -106,12 +106,12 @@ export default function Home() {
           Classes="Basic coding classes for non-technical professions"
           OneLine="Live & interactive training by industry experts"
           Interview="Course completion certificate from IBM"
-          Fee="60,000"
+          Fee="65,000"
           Subscription="1.5 Year Subscription"
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools."
             Box2h5="Exclusive Hackathons"
@@ -179,7 +179,7 @@ export default function Home() {
               SyllabusBotlist46="Movie Recommendation"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
               JobHead1="Interview preparation process at Learnbay:"
-              JobBot1="Learnbay Provides a dedicated job assistance program for its learners. Resume built-up sessions, interview preparations, access to the alumni network, and LinkedIn profile building are all part of this assistance feature. Additionally, our data analyst students will be trained through personalized mock interviews with various hiring managers allowing them to develop confidence at the actual interview table."
+              JobBot1="Learnbay Provides a dedicated job assistance program for its learners. Resume built-up sessions, interview preparations, access to the alumni network, and LinkedIn profile building are all part of this assistance feature. Additionally, our data analyst students will be trained through personalized mock interviews with various hiring Managers allowing them to develop confidence at the actual interview table."
               JobBot2="Many of our students have been placed in prestigious organizations in Delhi and all over India as a consequence of our close ties with MNCs and IBM."
               JobHead2="The demand for data analysts in Delhi:"
               JobBot3="Data Analytics is the study of extracting meaning from large data sets in order to gain useful insights. The skills and tools provided by this course will give you the knowledge, confidence, and hands-on experience to be able to go out into your organization and start making a difference."
@@ -198,7 +198,7 @@ export default function Home() {
               Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
               src4="/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
-              Projectsp4="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
+              Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
               AlumniBot1="Learnbay has over 250+ corporate partners across the globe, such as Adobe, IBM, Salesforce, Oracle, and many more. Numerous students have been successfully placed in profitable positions within 2 to 3  months of completing our data analytics course in Delhi."
               Asrc1="/devraj.jpg"
               AlumniH1="Deveraj"
@@ -223,9 +223,10 @@ export default function Home() {
               MentorshipFaqDatas={AnalyticsMentorshipFaqDataD}
               SupportFaqDatas={AnalyticsSupportFaqDataD}
             />
-            <LearnSupport />
           </div>
         </div>
+        <LearnSupport />
+
         <CityText
           CityTextB="Data Analytics Course Certification Training locations in Delhi "
           CityText=" : Asaf Ali Road [110006] , Bhikaji Cama Place [110029] , Chandni Chowk Old Delhi [110006] ,Chattarpur [110074 ], Chirag Enclave [110048] , Civil Lines [110054] , Connaught Place [110001] , Defence Colony [110024] , Diplomatic Enclave [110021] , Dwarka [110075] , East of Kailash [110065] , Friends Colony [110025] , Golf Links [110003] , Greater Kailash [110048] , Green Park [110016] , Karol Bagh [110005] , Lajpat Nagar [110024], Mayur Vihar [110091] , Mehrauli Gurgaon Road [110037] , Naraina [110028] , Narela [110040] , Nehru Place [110019] , Nizammuddin [110013] , Paharganj [110055] , Panchshil Enclave [110017] , Paschim Vihar [110063] , Patel Nagar [110008] , Pushpanjali Farms [110037] , Qutabgarh Village [110039] , Rajendra Place [110008] , Rajokri [110038] , Saket [110017] , Samalkha [110037] , Shahdara [110032] , Shalimar Bagh [110088] , Shiv Murti [110037] , Sukhdev Vihar [110025] , Sundar Nagar [110013],Vasant Kunj [110070] , Vasant Vihar [110057] , Janakapuri [110058] , Noida [201301] , Ajmeri Gate [110002] , Aram Bagh [110055] , Sidipura [110005] , Azadpur [110052] , Karol Bagh 110005, Old rajinder nagar 110060, Rajouri garden 110027, Vishwa vidyalaya 110009, Kamla nagar 110007, Kalu sarai 110016, Nehru park 190001, (N.S.P) Netaji Subhash Place 110034, J N U 110067,Connaught Place 110001, Saket 110017, Pitampura 110034, East kidwai nagar 110023 , Shakur pur [110034]."

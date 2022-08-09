@@ -11,10 +11,10 @@ function ContactUs() {
           <h4>
             <b>Contact Us</b>
           </h4>
-          <p>
+          {/* <p>
             Do you have a certain course in mind? We'd love to hear from you and
             assist you in making a decision.
-          </p>
+          </p> */}
         </div>
 
         <div>
@@ -30,26 +30,24 @@ function ContactUs() {
         <h4>We`re Here To Help You</h4>
         <p>
           Got A Course In Mind? We’d Love To Hear And Help You Decide On A
-          Course. Take Five Minutes To Fill Out The Form So That We Can Get To
-          Know You And Understand Your Requirements.
+          Course.
         </p>
         <div className={styles.Inner}>
           <div className={styles.InnerBox}>
-            <FaMapMarkedAlt className={styles.tick} />
+            <a href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank"><FaMapMarkedAlt className={styles.tick} /></a>
             <h3>HSR Layout</h3>
-            <p>
-              1090 1st floor, 18th Cross Rd, above Sangam Sweets, Sector 3, HSR
-              Layout, Bengaluru, Karnataka 560102
-            </p>
+            <a href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank"><p>
+            #1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)
+            </p></a>
           </div>
           <div className={styles.InnerBox}>
-            <FaEnvelope className={styles.tick} />
+          <a href="mailto:contacts@learnbay.co" target="_blank"><FaEnvelope className={styles.tick} /></a>
             <h3>Contact Us</h3>
-            <p>Email :- contacts@learnbay.co</p>
-            <p>Phone :- (+91) 77956 87988</p>
+            <a href="mailto:contacts@learnbay.co" target="_blank"><p>Email :- contacts@learnbay.co</p></a>
+            <a href="tel:+917795687988" target="_blank"><p>Phone :- (+91) 77956 87988</p></a>
           </div>
           <div className={styles.InnerBox}>
-            <FaWhatsapp className={styles.tick} />
+          <a href="https://wa.me/+917795687988" target="_blank"><FaWhatsapp className={styles.tick} /></a>
             <h3>Whatsapp</h3>
             <a href="https://wa.me/+917795687988" target="_blank">
               <button className={styles.btn1}>(+91) 77956 87988</button>

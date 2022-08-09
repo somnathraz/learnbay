@@ -52,9 +52,9 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          deskTopPara="MAANG's Best Interview Preparation Course trained by Top Experts"
-          mTopPara="MAANG's Best Interview Preparation Course trained by Top Experts"
-          mTitle="MAANG's Best Interview Preparation Course trained by"
+          deskTopPara="DSA & System Design"
+          mTopPara="DSA & System Design"
+          mTitle="Data Structure & Algorithms"
           spanMTitleText="Top Experts"
           title="MAANG's Best Interview Preparation Course trained by"
           spanTitleText="Top Experts"
@@ -79,7 +79,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Crack MAANG Interview"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"

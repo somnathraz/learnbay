@@ -75,12 +75,12 @@ export default function Home() {
             p3="Practice With"
             p33="Real-Time Projects"
             p4="Financing as low as"
-            p44="₹ 7375/month"
+            p44="₹ 11,800/month"
           />
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Learn latest tools & modules. Become an demanding developer."
             Box2h5="Interactive Learning"
@@ -121,17 +121,17 @@ export default function Home() {
           img12="/logosf/12.png"
           img13="/logosf/13.png"
           img14="/logosf/14.png"
-          img15="/logosf/15.png"
-          img16="/logosf/16.png"
-          img17="/logosf/17.png"
-          img18="/logosf/18.png"
-          img19="/logosf/19.png"
-          img21="/logosf/7.png"
-          img22="/logosf/8.png"
-          img23="/logosf/9.png"
-          img20="/logosf/10.png"
+          img15="/logosf/1.png"
+          img16="/logosf/2.png"
+          img17="/logosf/3.png"
+          img18="/logosf/4.png"
+          img19="/logosf/5.png"
+          img21="/logosf/6.png"
+          img22="/logosf/7.png"
+          img23="/logosf/8.png"
+          img20="/logosf/9.png"
         />
-        <ProgramFee Fee="₹ 1,20,000 + GST" Emi="₹ 7375/month" />
+        <ProgramFee Fee="₹ 1,20,000 + GST" Emi="₹ 11,800/month" />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+ Projects" domain="7+" />
         </div>

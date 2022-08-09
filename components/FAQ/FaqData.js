@@ -20,7 +20,7 @@ export const FaqData1 = [
   {
     id: 3,
     ques: "What’s the duration of the Data Science Foundation Program?",
-    ans: "The duration of this Data Science Course is about 7 months (220+ hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 6 months, Monday to Friday – 2 hours/day, Weekend batch – 8 months, Saturday & Sunday – 3.5 hours/day",
+    ans: "The duration of this Data Science Course is about 7 months (200+ hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 5 months, Monday to Friday – 2 hours/day, Weekend batch – 7 months, Saturday & Sunday – 3.5 hours/day",
     open: false,
   },
   {
@@ -302,7 +302,7 @@ export const PaymentFaqData2 = [
   {
     id: 0,
     ques: "What is the total Fee for the Advanced Data Science and AI Program?",
-    ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 95000 + GST.",
+    ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 79,000 + GST.",
     open: true,
   },
   {
@@ -468,7 +468,7 @@ export const FaqData3 = [
     ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
     Classes will be conducted on weekdays and weekend batches.
-    Weekday batch – 9.5 months, Monday to Friday – 2 hours/day,
+    Weekday batch – 9 months, Monday to Friday – 2 hours/day,
     Weekend batch -11 months, Saturday & Sunday – 3.5 hours/day.`,
     open: false,
   },
@@ -797,7 +797,7 @@ export const PaymentFaqData4 = [
   },
   {
     id: 3,
-    ques: "What is the refund policy for the data science courses at learnbay?",
+    ques: "What is the refund policy for the data science courses at Learnbay?",
     ans: "Candidates are advised to read ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
@@ -1033,7 +1033,7 @@ export const PaymentFaqData5 = [
   },
   {
     id: 3,
-    ques: "What is the refund policy for the Data Science and AI Foundation Program at Learnbay?",
+    ques: "What is the refund policy for the Data Science Foundation Program at Learnbay?",
     ans: "Candidates are advised to read  ",
     linkText1: "Learnbay’s Refund/Cancellation Policy",
     link1: "/refund-cancellation-policy",
@@ -1174,8 +1174,8 @@ export const FaqData6 = [
     ans: `The duration of this Data Analytics Course is about 6 months (180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
-    Weekday batch – 4.5 months, Monday to Friday – 2 hours/day,
-    Weekend batch – 6 months, Saturday & Sunday – 3.5 hours/day.`,
+    Weekday batch – 5 months, Monday to Friday – 2 hours/day,
+    Weekend batch – 6.5 months, Saturday & Sunday – 3.5 hours/day.`,
     open: false,
   },
   {
@@ -1203,12 +1203,12 @@ export const PaymentFaqData6 = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program?",
-    ans: "We offer industry-specific full-stack Data Analytics modules, via which you learn the respective industry’s best practices.The total program fee for the Data Analytics Program is INR 60,000 + GST.",
+    ans: "We offer industry-specific full-stack Data Analytics modules, via which you learn the respective industry’s best practices.The total program fee for the Data Analytics Program is INR 65,000 + GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 60,000 + GST ?",
+    ques: "Can I pay in installments for INR 65,000 + GST ?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
@@ -1340,7 +1340,7 @@ export const FaqData7 = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Business Analytics Program?",
-    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -1350,7 +1350,7 @@ export const FaqData7 = [
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch – 5 months, Monday to Friday – 2 hours/day,
-    Weekend batch – 6.5 months, Saturday & Sunday – 3.5 hours/day.`,
+    Weekend batch – 7 months, Saturday & Sunday – 3.5 hours/day.`,
     open: false,
   },
   {
@@ -1520,12 +1520,12 @@ export const FaqData8 = [
   {
     id: 3,
     ques: "What’s the duration of the Full-Stack Web Development Course?",
-    ans: `The duration of this course is about 9 months (X hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this course is about 9 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and Weekend Batches.
     Weekday batch - 8 months
        Monday to Friday - 2 hours/day
-    Weekend batch - 10 months
+    Weekend batch - 9 months
     Saturday & Sunday - 3.5hours/day
     
     After the completion of term 3, you can start working on real-time projects and attend job interviews.`,
@@ -1564,7 +1564,7 @@ export const PaymentFaqData8 = [
   {
     id: 1,
     ques: "Can I pay in installments for this Full-stack Web Development program?",
-    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR XXX/month up to X months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
+    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR 11,800/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -1668,7 +1668,7 @@ export const jobFaqData8 = [
   {
     id: 4,
     ques: "What is Job or 100% moneyback Guarantee?",
-    ans: "If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees.    But for that, you must enroll in the full-stack web development course with a job guarantee.",
+    ans: "If you don’t get a job within 18 months of your course completion, we will initiate a full refund of your course fees.    But for that, you must enroll in the full-stack web development course with a job guarantee.",
     open: false,
   },
   {
@@ -1732,12 +1732,12 @@ export const FaqData9 = [
   {
     id: 3,
     ques: "What’s the duration of this Software Development training program?",
-    ans: `The duration of this advanced software development program is about 6.5 months (X hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this advanced software development program is about 6.5 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on Weekdays and Weekend Batches.
-    Weekday batch - 11 months
+    Weekday batch - 8 months
        Monday to Friday - 2 hours/day
-    Weekend batch - 12 months
+    Weekend batch - 9 months
     Saturday & Sunday - 3.5 hours/day
     After the completion of term 3, you can start working on real-time projects and attend job interviews.`,
     open: false,
@@ -1802,14 +1802,14 @@ export const PaymentFaqData9 = [
   {
     id: 0,
     ques: "What is the total fee for the Advanced Software Development course?",
-    ans: "The total program fee for this course is ,  INR  X + GST (Without Job Guarantee),  INR Y + GST (With Job Guarantee)",    
+    ans: "The total program fee for this course is ,  INR  1,10,000 + GST",    
  
     open: true,
   },
   {
     id: 1,
     ques: "Can I pay in installments for the course fees?",
-    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR XXX/month up to X months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
+    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -1842,7 +1842,7 @@ export const CapstoneFaqData9 = [
   {
     id: 0,
     ques: "How many real-time projects will be there?",
-    ans: "We have a set of X real-time projects from multiple domains.",
+    ans: "We have a set of 12 real-time projects from multiple domains.",
     linkText1: " Click here to download the list of the projects.",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
@@ -1850,7 +1850,7 @@ export const CapstoneFaqData9 = [
   {
     id: 1,
     ques: "How many capstone projects will be there?",
-    ans: "There will be Y capstone projects.",
+    ans: "There will be 2 capstone projects.",
     open: false,
   },
   {
@@ -1897,7 +1897,7 @@ export const jobFaqData9 = [
   {
     id: 4,
     ques: "What is Job or 100% moneyback Guarantee?",
-    ans: "If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees.But for that, you must enroll in the advanced software development course with a job guarantee.",
+    ans: "If you don’t get a job within 18 months of your course completion, we will initiate a full refund of your course fees.But for that, you must enroll in the advanced software development course with a job guarantee.",
     open: false,
   },
   {

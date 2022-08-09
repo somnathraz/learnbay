@@ -97,7 +97,7 @@ function AboutUs() {
               <BsGraphUp className={styles.BoxIcon} />
               <div>
                 <CountUp
-                  end={450}
+                  end={250}
                   delay={2}
                   duration={2}
                   suffix="%"

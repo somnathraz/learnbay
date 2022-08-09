@@ -73,7 +73,7 @@ const ThankYou = () => {
           </div>
           <div>
           <Image
-            src="/managers.png"
+            src="/Managers.png"
             alt="data-science-course"
             quality={100}
             layout="intrinsic"
@@ -85,7 +85,7 @@ const ThankYou = () => {
           </p>
           <button className={styles.Button}>
                   <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf" target="_blank" >
+                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf" target="_blank" >
                     Download Brochure
                   </a>
                 </button>

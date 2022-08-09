@@ -71,20 +71,20 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Adavance Data Science and AI Program</h5>
+                        <h5>Advance Data Science and AI Program</h5>
                         <span>
                           250+ Hours <BsDot /> 7 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
                   </a>
-                  <a href="/data-science-ai-for-managers">
+                  <a href="/data-science-ai-for-Managers">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI for Mangers & Leaders</h5>
+                        <h5>Data Science and AI for Managers & Leaders</h5>
                         <span>
                           400+ Hours <BsDot /> 11 & 13 Months{" "}
                         </span>
@@ -228,10 +228,10 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/data-science-ai-for-managers">
+                  <a href="/data-science-ai-for-Managers">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI for Mangers & Leaders</h5>
+                        <h5>Data Science and AI for Managers & Leaders</h5>
                         <span>
                           400+ Hours <BsDot /> 11 & 13 Months{" "}
                         </span>
@@ -526,7 +526,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/data-science-ai-for-managers">
+                  <a href="/data-science-ai-for-Managers">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI for Managers & Leaders</h5>
@@ -607,20 +607,20 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Adavance Data Science and AI Program</h5>
+                        <h5>Advance Data Science and AI Program</h5>
                         <span>
                           250+ Hours <BsDot /> 7 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
                   </a>
-                  <a href="/data-science-ai-for-managers">
+                  <a href="/data-science-ai-for-Managers">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI for Mangers & Leaders</h5>
+                        <h5>Data Science and AI for Managers & Leaders</h5>
                         <span>
                           400+ Hours <BsDot /> 11 & 13 Months{" "}
                         </span>
@@ -744,10 +744,10 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/data-science-ai-for-managers">
+                  <a href="/data-science-ai-for-Managers">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI for Mangers & Leaders</h5>
+                        <h5>Data Science and AI for Managers & Leaders</h5>
                         <span>
                           400+ Hours <BsDot /> 11 & 13 Months{" "}
                         </span>
@@ -957,7 +957,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/data-science-ai-for-managers">
+                  <a href="/data-science-ai-for-Managers">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI for Managers & Leaders</h5>

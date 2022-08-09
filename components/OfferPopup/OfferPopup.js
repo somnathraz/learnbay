@@ -25,12 +25,10 @@ const OfferPopup = ({ link, title, p1, p2, batch1, batch11, batch2, batch22 }) =
         <li><b>{batch1}</b>{batch11}</li>
         <li><b>{batch2}</b>{batch22}</li>
 
-        <p className={styles.faded}>** Terms & Conditions applied.</p>
-        <button onClick={handelOpen}>
-          <a href="/submit-info" target="_blank">
+        <p className={styles.faded}>*Terms & Conditions applied.</p>
+        <a href="/submit-info" target="_blank"><button onClick={handelOpen} style={{width:"100%"}}>
             Apply For Scholarship Now!
-          </a>
-        </button>
+        </button></a>
       </div>
     </div>
   );

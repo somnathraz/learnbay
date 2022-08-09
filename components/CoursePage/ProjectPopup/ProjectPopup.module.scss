@@ -1,4 +1,3 @@
-@media (min-width: 1281px) {
   .popup {
     top: 0;
     left: 0;
@@ -123,107 +122,106 @@
         font-size: 25px;
       }
     }
-  }
 }
 
-@media (max-width: 1280px) {
-  .popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.23);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
+// @media (max-width: 1280px) {
+//   .popup {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100vw;
+//     height: 100vh;
+//     background-color: rgba(0, 0, 0, 0.23);
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     z-index: 9999;
 
-    .popupInner {
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      padding: 30px 60px;
-      width: 80%;
-      border-radius: 5px;
-      border: 2px solid #2d9cd7;
-      height: 100%;
-      background-color: white;
+//     .popupInner {
+//       background-size: cover;
+//       background-repeat: no-repeat;
+//       background-position: center center;
+//       position: relative;
+//       display: flex;
+//       align-items: center;
+//       justify-content: space-evenly;
+//       padding: 30px 60px;
+//       width: 80%;
+//       border-radius: 5px;
+//       border: 2px solid #2d9cd7;
+//       height: 100%;
+//       background-color: white;
 
-      .closeBtn {
-        position: absolute;
-        background-color: white;
-        cursor: pointer;
-        border-radius: 50%;
-        border: 1px solid #2d9cd7;
-        border-color: blue;
-        color: #2d9cd7;
-        top: 5px;
-        right: 10px;
-        font-size: 25px;
-        font-size: 25px;
-      }
-    }
-    .popupInners {
-      background-color: white;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      padding: 30px 60px;
-      width: max-content;
-      border-radius: 5px;
-      border: 2px solid #2d9cd7;
-      max-width: 70%;
-      background-color: white;
+//       .closeBtn {
+//         position: absolute;
+//         background-color: white;
+//         cursor: pointer;
+//         border-radius: 50%;
+//         border: 1px solid #2d9cd7;
+//         border-color: blue;
+//         color: #2d9cd7;
+//         top: 5px;
+//         right: 10px;
+//         font-size: 25px;
+//         font-size: 25px;
+//       }
+//     }
+//     .popupInners {
+//       background-color: white;
+//       position: relative;
+//       display: flex;
+//       align-items: center;
+//       justify-content: space-evenly;
+//       padding: 30px 60px;
+//       width: max-content;
+//       border-radius: 5px;
+//       border: 2px solid #2d9cd7;
+//       max-width: 70%;
+//       background-color: white;
 
-      .closeBtn {
-        position: absolute;
-        background-color: white;
-        cursor: pointer;
-        border-radius: 50%;
-        border: 1px solid #2d9cd7;
-        border-color: blue;
-        color: #2d9cd7;
-        top: 5px;
-        right: 10px;
-        font-size: 25px;
-      }
-    }
-    .popupInnersW {
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      padding: 30px 60px;
-      width: max-content;
-      border-radius: 5px;
-      border: 2px solid #2d9cd7;
-      max-width: 70%;
-      background-color: white;
+//       .closeBtn {
+//         position: absolute;
+//         background-color: white;
+//         cursor: pointer;
+//         border-radius: 50%;
+//         border: 1px solid #2d9cd7;
+//         border-color: blue;
+//         color: #2d9cd7;
+//         top: 5px;
+//         right: 10px;
+//         font-size: 25px;
+//       }
+//     }
+//     .popupInnersW {
+//       background-size: cover;
+//       background-repeat: no-repeat;
+//       background-position: center center;
+//       position: relative;
+//       display: flex;
+//       align-items: center;
+//       justify-content: space-evenly;
+//       padding: 30px 60px;
+//       width: max-content;
+//       border-radius: 5px;
+//       border: 2px solid #2d9cd7;
+//       max-width: 70%;
+//       background-color: white;
 
-      .closeBtn {
-        position: absolute;
-        background-color: white;
-        cursor: pointer;
-        border-radius: 50%;
-        border: 1px solid #2d9cd7;
-        border-color: blue;
-        color: #2d9cd7;
-        top: 5px;
-        right: 10px;
-        font-size: 25px;
-      }
-    }
-  }
-}
+//       .closeBtn {
+//         position: absolute;
+//         background-color: white;
+//         cursor: pointer;
+//         border-radius: 50%;
+//         border: 1px solid #2d9cd7;
+//         border-color: blue;
+//         color: #2d9cd7;
+//         top: 5px;
+//         right: 10px;
+//         font-size: 25px;
+//       }
+//     }
+//   }
+// }
 
 @media (max-width: 1025px) {
   .popupInner {

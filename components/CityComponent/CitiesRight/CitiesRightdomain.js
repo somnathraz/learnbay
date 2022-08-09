@@ -28,6 +28,7 @@ const CitiesRight = ({
     CertificationBot1,
     CertificationBot2,
     src,
+    syllabussrc,
     ModuleHead1,
     ModuleHead2,
     ModuleHead3,
@@ -173,7 +174,7 @@ const CitiesRight = ({
                 </div>
             </div>
             <div className={styles.Button}>
-            <a href='#'><button style={{margin:"auto"}}>View Detailed Brochure</button></a>
+            <a href={syllabussrc} target="_blank"><button style={{margin:"auto"}}>View Detailed Brochure</button></a>
             </div>
         </div>
         <div id="Job">
@@ -243,7 +244,7 @@ const CitiesRight = ({
                 </div>
             </div>
             <div className={styles.Button}>
-            <a href='#'><button style={{margin:"auto"}}>View All Projects</button></a>
+            <a href='https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf' target="_blank"><button style={{margin:"auto"}}>View All Projects</button></a>
             </div>
         </div>
         <div id="Alumni">
@@ -278,7 +279,7 @@ const CitiesRight = ({
                 </div>
             </div>
             <div className={styles.Button}>
-            <a href='#'><button style={{margin:"auto"}}>View All Reviews</button></a>
+            <a href="/reviews" target="_blank"><button style={{margin:"auto"}}>View All Reviews</button></a>
             </div>
         </div>
         <div id="FAQ">

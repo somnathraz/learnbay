@@ -114,7 +114,7 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
             Box2h5="Exclusive Hackathons"
@@ -180,7 +180,7 @@ export default function Home() {
               SyllabusBotlist46="Retain Analytics"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
               JobHead1="Interview preparation sessions:"
-              JobBot1="Learnbay mentors constantly support students and ensure that they get placed in highly lucrative positions. Once students finish their modules, our coaches start training them with soft skills, resume preparation, project management, and presentation abilities. They also conduct various mock interviews with hiring managers so that students learn from their mistakes and enhance their overall interview skills."
+              JobBot1="Learnbay mentors constantly support students and ensure that they get placed in highly lucrative positions. Once students finish their modules, our coaches start training them with soft skills, resume preparation, project management, and presentation abilities. They also conduct various mock interviews with hiring Managers so that students learn from their mistakes and enhance their overall interview skills."
               JobBot5="With our business analytics course training, students will easily get interviews with MNCs and top-tier companies across Delhi."
               JobHead2="The role of a Business Analyst in Delhi"
               JobBot3="Analytics is about the understanding, interpretation, and communication of data. A business analyst focuses on the applications of analytics to derive valuable insights from data. It is the primary responsibility of a business analyst to interpret business requirements in written form as well as visual formats such as charts and diagrams - to enable everyone in the organization/project to have clear visibility of progress and future goals."
@@ -196,7 +196,7 @@ export default function Home() {
               Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities."
               src3="/BMW.png"
               ProjectsH3="BMW Used Car Price Optimization"
-              Projectsp3="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
+              Projectsp3="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
               src4="/SAMSUNG.png"
               ProjectsH4="Samsung Health Monitor App"
               Projectsp4="Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
@@ -223,9 +223,9 @@ export default function Home() {
               MentorshipFaqDatas={BusinessAMentorshipFaqDataD}
               SupportFaqDatas={BusinessASupportFaqDataD}
             />
-            <LearnSupport />
           </div>
         </div>
+        <LearnSupport />
         <CityText
           CityTextB="Business Analytics Course Certification Training locations in Delhi "
           CityText=" : Asaf Ali Road [110006] , Bhikaji Cama Place [110029] , Chandni Chowk Old Delhi [110006] ,Chattarpur [110074 ], Chirag Enclave [110048] , Civil Lines [110054] , Connaught Place [110001] , Defence Colony [110024] , Diplomatic Enclave [110021] , Dwarka [110075] , East of Kailash [110065] , Friends Colony [110025] , Golf Links [110003] , Greater Kailash [110048] , Green Park [110016] , Karol Bagh [110005] , Lajpat Nagar [110024], Mayur Vihar [110091] , Mehrauli Gurgaon Road [110037] , Naraina [110028] , Narela [110040] , Nehru Place [110019] , Nizammuddin [110013] , Paharganj [110055] , Panchshil Enclave [110017] , Paschim Vihar [110063] , Patel Nagar [110008] , Pushpanjali Farms [110037] , Qutabgarh Village [110039] , Rajendra Place [110008] , Rajokri [110038] , Saket [110017] , Samalkha [110037] , Shahdara [110032] , Shalimar Bagh [110088] , Shiv Murti [110037] , Sukhdev Vihar [110025] , Sundar Nagar [110013],Vasant Kunj [110070] , Vasant Vihar [110057] , Janakapuri [110058] , Noida [201301] , Ajmeri Gate [110002] , Aram Bagh [110055] , Sidipura [110005] , Azadpur [110052] , Karol Bagh 110005, Old rajinder nagar 110060, Rajouri garden 110027, Vishwa vidyalaya 110009, Kamla nagar 110007, Kalu sarai 110016, Nehru park 190001, (N.S.P) Netaji Subhash Place 110034, J N U 110067,Connaught Place 110001, Saket 110017, Pitampura 110034, East kidwai nagar 110023 , Shakur pur [110034]."

@@ -30,7 +30,7 @@ const KeyFeatures = () => {
               <AiOutlineCheck className={styles.tickIcon} />A successful career
               transition even with 0 coding experience.
             </p>
-            <a href="/about-us">
+            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf" target="_blank">
               <button className={styles.btn}>
                 Download Placement Report
                 <FaArrowRight className={styles.bIcon} />

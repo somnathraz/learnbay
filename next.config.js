@@ -282,8 +282,8 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/data-science-course/data-science-ai-for-managers',
-        destination: '/data-science-ai-for-managers',
+        source: '/data-science-course/data-science-ai-for-Managers',
+        destination: '/data-science-ai-for-Managers',
         permanent: true,
       },
       {
@@ -307,8 +307,8 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/data-science-course/how-does-data-science-promote-project-managers-to-a-new-perspective-of-success',
-        destination: '/blog/how-does-data-science-promote-project-managers-to-a-new-perspective-of-success',
+        source: '/data-science-course/how-does-data-science-promote-project-Managers-to-a-new-perspective-of-success',
+        destination: '/blog/how-does-data-science-promote-project-Managers-to-a-new-perspective-of-success',
         permanent: true,
       },
       {

@@ -24,7 +24,7 @@
       justify-content: space-evenly;
       padding: 10px 40px;
       width: 60%;
-      height: 80%;
+      height: fit-content;
       border-radius: 10px;
 
       background-color: white;
@@ -80,7 +80,7 @@
       justify-content: space-evenly;
       padding: 30px 60px;
       width: 70%;
-      height: 80%;
+      height: 100%;
       border-radius: 5px;
       border: 2px solid #2d9cd7;
       background-color: white;
@@ -128,7 +128,7 @@
       width: 80%;
       border-radius: 5px;
       border: 2px solid #2d9cd7;
-      height: 100%;
+      height: fit-content;
       background-color: white;
 
       .closeBtn {

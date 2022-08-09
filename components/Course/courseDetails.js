@@ -46,7 +46,7 @@ export const viewAllD = [
   },
   {
     id: 4,
-    img: "data-science-ai-for managers.png",
+    img: "data-science-ai-for Managers.png",
     title: "Data Science & AI ",
     title1: "For Managers",
     tag: "Data science",
@@ -55,9 +55,9 @@ export const viewAllD = [
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
-    link1: "/data-science-ai-for-managers",
+    link1: "/data-science-ai-for-Managers",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf",
   },
   {
     id: 5,
@@ -83,7 +83,7 @@ export const viewAllD = [
     para: [
       "180 hours of Interactive Learning",
       "5 Projects",
-      "Course Fee : ₹ 60,000 + GST",
+      "Course Fee : ₹ 65,000 + GST",
     ],
     link1: "/data-analytics-certification-course",
     link2:
@@ -184,7 +184,7 @@ export const ForProgrammersD = [
   },
   {
     id: 3,
-    img: "data-science-ai-for managers.png",
+    img: "data-science-ai-for Managers.png",
     title: "Data Science & AI ",
     tag: "Data science",
     title1: "For Managers",
@@ -193,9 +193,9 @@ export const ForProgrammersD = [
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
-    link1: "/data-science-ai-for-managers",
+    link1: "/data-science-ai-for-Managers",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf",
   },
   {
     id: 4,
@@ -306,7 +306,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 4,
-    img: "data-science-ai-for managers.png",
+    img: "data-science-ai-for Managers.png",
     title: "Data Science & AI ",
     title1: "For Managers",
     tag: "Data science",
@@ -315,9 +315,9 @@ export const ForNonProgrammerD = [
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
-    link1: "/data-science-ai-for-managers",
+    link1: "/data-science-ai-for-Managers",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf",
   },
   {
     id: 5,

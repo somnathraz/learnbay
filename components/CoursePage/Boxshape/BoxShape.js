@@ -8,7 +8,8 @@ import { MdLiveTv } from "react-icons/md";
 import { FiUser } from "react-icons/fi";
 import { BsGraphUp } from "react-icons/bs";
 import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import "swiper/css/autoplay";
+import { Autoplay, Pagination } from "swiper";
 
 const BoxShape = ({
   title,
@@ -83,19 +84,23 @@ const BoxShape = ({
         </div>
         <div className={styles.right}>
           <div className={styles.imgBack}>
-            <h5>How domain specialization helped our students succeed</h5>
+            <h5>Watch ours alumni’s making successful career transition</h5>
             <div className={styles.reviewWrap}>
               <Swiper
                 slidesPerView={mobile ? 1 : 1}
                 spaceBetween={mobile ? 10 : 20}
                 grabCursor={true}
-                modules={[Pagination]}
+                autoplay={{
+                  delay: 2500,
+                }}
+                modules={[Pagination, Autoplay]}
+                Autoplay={true}
                 pagination={true}
                 className="mySwiper"
               >
                 <SwiperSlide className={styles.swiperSlideer}>
                   <p>
-                    Learnbay taught me data science. Thanks to Learnabay's
+                    Learnbay taught me data science. Thanks to Learnbay's
                     domain specialization course, I landed a job in my prior
                     sector and was regarded as an experienced applicant by my
                     firm. I consistently increased my data science knowledge and

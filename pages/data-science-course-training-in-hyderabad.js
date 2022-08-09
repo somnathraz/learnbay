@@ -111,7 +111,7 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -138,7 +138,7 @@ export default function Home() {
               ProgramHead5="Data Science Courses by Learnbay in Hyderabad :"
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"
-              Courselink4="/data-science-ai-for-managers"
+              Courselink4="/data-science-ai-for-Managers"
               Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
@@ -208,7 +208,7 @@ export default function Home() {
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf"
-              JobBot1="The Data science curriculum at Learnbay includes a job placement program. Students will receive CV preparation and soft skills training sessions by the end of the IBM Data science course. Our students gain confidence before the interviews by participating in various company-specific mock interviews. Furthermore, our representatives verify that your portfolio meets industry standards and appeals to hiring managers. In Hyderabad, you can also take a Data science course with a money-back guarantee. You can claim a Data science course fee refund if you cannot find a Data science career role within six months of completing the course."
+              JobBot1="The Data science curriculum at Learnbay includes a job placement program. Students will receive CV preparation and soft skills training sessions by the end of the IBM Data science course. Our students gain confidence before the interviews by participating in various company-specific mock interviews. Furthermore, our representatives verify that your portfolio meets industry standards and appeals to hiring Managers. In Hyderabad, you can also take a Data science course with a money-back guarantee. You can claim a Data science course fee refund if you cannot find a Data science career role within six months of completing the course."
               JobBot2="We have collaborated with lead organizations like IBM, TCS, EY, Accenture, and others. Over 1000 Learnbay alumni have already started working in data science roles all over Hyderabad."
               ProjectsHead1="Industry curated live data science projects."
               ProjectsBot1="Learners can comprehend Data science Projects and methodologies using Learnbay's premium cloud lab feature. You can choose from 8 to 15 real-time projects in your chosen domains in Learnbay’s Advanced Data science courses in Hyderabad. This cloud lab also allows you to see and practice various data mining, data wrangling, and real MNC data projects. Students will have the opportunity to work on two to three Data science capstone projects, after which an IBM Project experience credential will be issued."
@@ -224,7 +224,7 @@ export default function Home() {
               Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
               src4="/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
-              Projectsp4=" BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
+              Projectsp4=" BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
               AlumniBot1="The IBM data science course offered by Learnbay is dedicated to generating amazingly skilled Data scientists in Hyderabad. Many of our students have joined Data scientist roles and other Data science positions, with pay increases of up to 200 percent. More than 300 Learnbay Data science course alumni have secured leadership and management in the data science field in some of the world's most prestigious companies. Read what our alumni have to say about their success from Learnbay."
               Asrc1="/devraj.jpg"
               AlumniH1="Deveraj"
@@ -249,9 +249,10 @@ export default function Home() {
               MentorshipFaqDatas={AdvanceMentorshipFaqDataH}
               SupportFaqDatas={AdvanceSupportFaqDataH}
             />
-            <LearnSupport />
           </div>
         </div>
+        <LearnSupport />
+
         <CityText
           CityTextB="Data Science Course Certification Training locations in Hyderabad "
           CityText=" : Medipalli[500098], A.G.College [500030], HMT Township [500054], Hal Hyderabad [500042], Kondapur [500084], Fatehdarwaza [500065], Begumpet [500016], Lingampalli [500019], Kattedan Ie [500077], Falaknuma [500053], Peerzadiguda [500039], Jillellaguda [500079], I.M.Colony [500082], Gajularamaram [500055], Banjara Hills [500034], Gachibowli [500032], Badangpet [500058], Film Nagar [500096], A.Gs. Staff Quarters [500045], Malakpet Colony [500036], Balanagar Township [500037], Amberpet [500013], Bharat Nagar Colony [500018], Chitkul [502307], Don Bosco Nagar [500086], Gsisr Bandlaguda [500068], Yakutpura [500023], Chaithanyapuri Colony [500060], Chandanagar [500050], Appa Himayathsagar [500008], Hyderabad Jubilee [500002], Meerpet [500097], Humayunnagar [500028], Aie Bollaram [502325], Chetlapotharam [502319], Srinagar Colony [500073], Gandhi Bhawan Hyderabad [500001], Darushifa [500024], Gandhinagar Hyderabad [500080], Sarada Nagar [500070], Barkatpura [500027], Gagan Mahal [500029], Elmela [502300], Sanjeev Reddy Nagar [500038], Manikonda [500089], Cyberabad [500081], Boduppal [500092], Dr.B R Ambedkar O.U [500033], Kphb Colony [500072], Huda Residential Complex [500035], Miyapur [500049], L B Nagar [500074], Ashoknagar Hyderabad [500020], Saidabad Colony [500059], Jntu Kukat Pally [500085], Bowenpally [500011], Icrisat [502324], Administrative Buildings [500007], Aziz Nagar [500075], Afzalgunj [500012], Karwan Sahu [500006],Gaganpahad [500052], Ibrahim Bagh Lines [500031], Putlibowli [500095], Bahadurpura [500064], A.Gs Office [500004], Bachupally [500090], A.I.E. R.C.Puram [502032], Ambernagar [500044]."

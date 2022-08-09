@@ -86,7 +86,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -112,7 +112,7 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
             Box2h5="Domain Destined"
@@ -139,7 +139,7 @@ export default function Home() {
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"
               Courselink3="/artificial-intelligence-certification-course"
-              Courselink4="/data-science-ai-for-managers"
+              Courselink4="/data-science-ai-for-Managers"
               Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
@@ -212,12 +212,12 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf"
               JobHead1="What is the Job Assist Program in the Learnbay AI courses?"
               JobBot1="Learnbay career coaches help students in developing impressive portfolios as well as refer their profiles to other renowned companies. They ensure you get guaranteed interviews in top Canadian firms. Besides this, you’ll also be provided with multiple mock interviews for AI and ML positions to help you in facing real-world interviews."
               JobBot2="In our job or money-back guarantee program, you will receive a full refund of your AI course fee in case you are unable to find a relevant job within 6 months after the course completion."
               JobHead2="Scope of  Artificial Intelligence in Canada:"
-              JobBot3="An artificial intelligence (AI) field of computer science is concerned with creating machines that are capable of performing certain human-like tasks. It is replacing humans' grunt work, saving big businesses billions of dollars each year. Contrarily, many Canadian IT firms are built on AI and ML. Artificial Intelligence appears to have an endless capacity for improving and simplifying jobs performed by humans, such as speech recognition and business management processing. And it's only becoming smarter, faster, and better."
+              JobBot3="An Artificial Intelligence (AI) field of computer science is concerned with creating machines that are capable of performing certain human-like tasks. It is replacing humans' grunt work, saving big businesses billions of dollars each year. Contrarily, many Canadian IT firms are built on AI and ML. Artificial Intelligence appears to have an endless capacity for improving and simplifying jobs performed by humans, such as speech recognition and business management processing. And it's only becoming smarter, faster, and better."
               JobBot4="As you can see, the world of AI and Machine Learning is growing exponentially every single year, creating a number of opportunities for you to learn and get work on the latest and most significant projects in many IT enterprises."
               JobBot6="There are numerous career opportunities available to you, including AI engineer, Data scientist,  Machine Learning Engineer, Robotics engineer, and more."
               ProjectsHead1="Live Artificial Intelligence and Data Science projects:"
@@ -233,7 +233,7 @@ export default function Home() {
               Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a"
               src4="/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
-              Projectsp4="BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects. Take a look at some of the reviews of our alumni."
+              Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects. Take a look at some of the reviews of our alumni."
               AlumniBot1="Learnbay has trained several enthusiastic learners to secure their careers in artificial Intelligence. It has guaranteed job placement for students and has already placed over 1000+ learners in prestigious companies like IBM, MindTree, Accenture, and other Canadian companies."
               Asrc1="/devraj.jpg"
               AlumniH1="Deveraj"
@@ -258,15 +258,10 @@ export default function Home() {
               MentorshipFaqDatas={ArtificialMentorshipFaqDataCa}
               SupportFaqDatas={ArtificialSupportFaqDataCa}
             />{" "}
-            <LearnSupport />
           </div>
         </div>
-        <CityText
-          CityTextB="Artificial Intelligence Course Certification Training locations in Canada "
-          CityText=" : Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Canada City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337]."
-          CityTextLB="Locations Offered"
-          CityTextL=" :Artificial Intelligence Course viman nagar,Artificial Intelligence Training in kalyan nagar,Artificial Intelligence Training in magarpetta,Artificial Intelligence Training in pimpri chinchwad,Artificial Intelligence Classes in yerwada,Artificial Intelligence Classes in kharadi,Artificial Intelligence Classes in vishrantwadi,Artificial Intelligence Classes in deccan,Artificial Intelligence Course in Katraj,Artificial Intelligence Training in warje,,Artificial Intelligence Certification Training in bavdhan,Artificial Intelligence Certification in boat club road,Artificial Intelligence Certification in model colony,Best Artificial Intelligence Training in Canada,Best Artificial Intelligence Course in Canada"
-        />
+        <LearnSupport />
+
       </main>
     </div>
   );

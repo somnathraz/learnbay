@@ -120,7 +120,7 @@ Know data-driven consumer and market insights.
                 </p>
                 <div className={styles.info}>
                   <div className={styles.left}>
-                    <h4>Dual</h4>
+                    <h4>IBM</h4>
                     <p>Certification</p>
                   </div>
                   <div className={styles.middle}>
@@ -270,14 +270,14 @@ Gain a deeper understanding of business requirements and it's functionalities.
           {Guarantee ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-                  Study about applications of DS & AI is applicable in Manufacturing & Automotive.
+              <h6>
+                  Work on projects implemented for business growth.
                 </h6>
                 <p className={styles.para}>
-                  A deeper understanding of the manufacturing and
-                  telecommunications industries, where you learn in-depth about
-                  robotics, novel materials, nanotechnology, computer-aided
-                  design, and geomechanics.
+                  Earn a better insight into areas like personalized marketing,
+                  real-time analytics, revenue management, booking engines,
+                  enhanced customer service, and identification of most valuable
+                  customers.
                 </p>
                 <div className={styles.info}>
                   <div className={styles.left}>
@@ -327,14 +327,14 @@ Gain a deeper understanding of business requirements and it's functionalities.
           {viewAll ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-                  Work on projects implemented for business growth.
+              <h6>
+                  Study about applications of DS & AI is applicable in Manufacturing & Automotive.
                 </h6>
                 <p className={styles.para}>
-                  Earn a better insight into areas like personalized marketing,
-                  real-time analytics, revenue management, booking engines,
-                  enhanced customer service, and identification of most valuable
-                  customers.
+                  A deeper understanding of the manufacturing and
+                  telecommunication industries, where you learn in-depth about
+                  robotics, novel materials, nanotechnology, computer-aided
+                  design, and geomechanics.
                 </p>
                 <div className={styles.info}>
                   <div className={styles.left}>
@@ -342,7 +342,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
                     <p>Case Studies </p>
                   </div>
                   <div className={styles.middle}>
-                    <h4> Dual</h4>
+                    <h4> IBM</h4>
                     <p> Certification</p>
                   </div>
                 </div>
@@ -388,7 +388,7 @@ Understand how an industry expands exponentially with AI.
                 </h6>
                 <p className={styles.para}>
                   Pursue projects on recording sensors in seismic,
-                  manufacturing, and exploration operations to logging While
+                  manufacturing, and exploration operations to Logging While
                   Drilling (LWD) technology, enabling real-time recording of
                   drilling data.
                 </p>
@@ -470,7 +470,7 @@ Know data-driven consumer and market insights.
                 </p>
                 <div className={styles.info}>
                   <div className={styles.left}>
-                    <h4>Dual</h4>
+                    <h4>IBM</h4>
                     <p>Certification</p>
                   </div>
                   <div className={styles.middle}>
@@ -495,14 +495,14 @@ Know data-driven consumer and market insights.
           {Guarantee ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-                  Study about applications of DS & AI is applicable in Manufacturing & Automotive.
+              <h6>
+                  Work on projects implemented for business growth.
                 </h6>
                 <p className={styles.para}>
-                  A deeper understanding of the manufacturing and
-                  telecommunications industries, where you learn in-depth about
-                  robotics, novel materials, nanotechnology, computer-aided
-                  design, and geomechanics.
+                  Earn a better insight into areas like personalized marketing,
+                  real-time analytics, revenue management, booking engines,
+                  enhanced customer service, and identification of most valuable
+                  customers.
                 </p>
                 <div className={styles.info}>
                   <div className={styles.left}>
@@ -571,14 +571,14 @@ Incorporate future proof practices with Data Science and AI.
           {viewAll ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-                  Work on projects implemented for business growth.
+              <h6>
+                  Study about applications of DS & AI is applicable in Manufacturing & Automotive.
                 </h6>
                 <p className={styles.para}>
-                  Earn a better insight into areas like personalized marketing,
-                  real-time analytics, revenue management, booking engines,
-                  enhanced customer service, and identification of most valuable
-                  customers.
+                  A deeper understanding of the manufacturing and
+                  telecommunication industries, where you learn in-depth about
+                  robotics, novel materials, nanotechnology, computer-aided
+                  design, and geomechanics.
                 </p>
                 <div className={styles.info}>
                   <div className={styles.left}>
@@ -586,7 +586,7 @@ Incorporate future proof practices with Data Science and AI.
                     <p>Case Studies </p>
                   </div>
                   <div className={styles.middle}>
-                    <h4> Dual</h4>
+                    <h4> IBM</h4>
                     <p> Certification</p>
                   </div>
                 </div>
@@ -656,7 +656,7 @@ Understand how an industry expands exponentially with AI.
                 </h6>
                 <p className={styles.para}>
                   Pursue projects on recording sensors in seismic,
-                  manufacturing, and exploration operations to logging While
+                  manufacturing, and exploration operations to Logging While
                   Drilling (LWD) technology, enabling real-time recording of
                   drilling data.
                 </p>

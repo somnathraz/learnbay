@@ -49,7 +49,7 @@ const CourseReview = () => {
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
                   </div>
-                  <a href="https://www.youtube.com/watch?v=vSjfKdIzUjY">
+                  <a href="https://www.youtube.com/watch?v=vSjfKdIzUjY" target="_blank">
                     <Image
                       src="/reviewYtIcon.png"
                       width="107"
@@ -115,7 +115,7 @@ const CourseReview = () => {
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
                   </div>
-                  <a href="https://www.youtube.com/watch?v=x_EmBJ-h7DE">
+                  <a href="https://www.youtube.com/watch?v=x_EmBJ-h7DE" target="_blank">
                     <Image
                       src="/reviewYtIcon.png"
                       width="107"
@@ -155,6 +155,69 @@ const CourseReview = () => {
                 <div className={styles.cIcon}>
                   <Image
                     src="/TCS.png"
+                    width="99"
+                    height="30"
+                    layout="intrinsic"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <div className={styles.bottom}>
+                <div className={styles.leftBottom}>
+                  <Image
+                    src="/hike.svg"
+                    width="41"
+                    height="41"
+                    layout="intrinsic"
+                  />
+                  <div className={styles.leftBottomC}>
+                    <h5>142%</h5>
+                    <p>Salary Hike</p>
+                  </div>
+                </div>
+                <div className={styles.rightBottom}>
+                  <div className={styles.leftBottomC}>
+                    <p>Watch More On</p>
+                  </div>
+                  <a href="https://youtu.be/hewBtR_WoDM" target="_blank">
+                    <Image
+                      src="/reviewYtIcon.png"
+                      width="107"
+                      height="60"
+                      layout="intrinsic"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.content}>
+                <div className={styles.imgP}>
+                  <Image
+                    src="/aravind-home.png"
+                    layout="intrinsic"
+                    width="100"
+                    height="100"
+                    alt="aravind-home"
+                  />
+                </div>
+
+                <div className={styles.contentRight}>
+                  <div className={styles.name}>
+                    <p>Senior Associate - Data Scientist</p>
+                    <h5>Aravind Kumar</h5>
+                  </div>
+                  <p className={styles.para}>
+                    Choosing Learnbay was my best decision ever. The instructors
+                    were encouraging and glad to answer questions. The best
+                    feature is that their flexible modules & small size batches.
+                    I was able to manage my time and learn while working. Thanks
+                    to Learnbay for my lucrative placement.
+                    <br />
+                  </p>
+                </div>
+                <div className={styles.cIcon}>
+                  <Image
+                    src="/amazon-review.png"
                     width="99"
                     height="30"
                     layout="intrinsic"
@@ -364,57 +427,6 @@ const CourseReview = () => {
                 <div className={styles.cIcon}>
                   <Image
                     src="/i2i.webp"
-                    width="99"
-                    height="30"
-                    layout="intrinsic"
-                  />
-                </div>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide className={styles.slide}>
-              {/* <div className={styles.bottom}>
-                <div className={styles.leftBottom}>
-                  <Image
-                    src="/hike.svg"
-                    width="41"
-                    height="41"
-                    layout="intrinsic"
-                  />
-                  <div className={styles.leftBottomC}>
-                    <h5>147%</h5>
-                    <p>Salary Hike</p>
-                  </div>
-                </div>
-              </div> */}
-              <div className={styles.content}>
-                <div className={styles.imgP}>
-                  <Image
-                    src="/aravind-home.png"
-                    layout="intrinsic"
-                    width="100"
-                    height="100"
-                    alt="aravind-home"
-                  />
-                </div>
-
-                <div className={styles.contentRight}>
-                  <div className={styles.name}>
-                    <p>Domain: IT</p>
-                    <h5>Aravind Kumar</h5>
-                  </div>
-                  <p className={styles.para}>
-                    Choosing Learnbay was my best decision ever. The instructors
-                    were encouraging and glad to answer questions. The best
-                    feature is that their flexible modules & small size batches.
-                    I was able to manage my time and learn while working. Thanks
-                    to Learnbay for my lucrative placement.
-                    <br />
-                  </p>
-                </div>
-                <div className={styles.cIcon}>
-                  <Image
-                    src="/amazon-review.png"
                     width="99"
                     height="30"
                     layout="intrinsic"

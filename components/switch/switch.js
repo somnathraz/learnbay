@@ -7,14 +7,14 @@ function Switch() {
     <section className={styles.head}>
       <h4>Top Sites That Ranked Us</h4>
       <div className={styles.switch}>
-        <div className={styles.switchInner}>
+      <a href="https://www.coursereport.com/schools/learnbay" target="_blank"><div className={styles.switchInner}>
           <img
             src="/course-report.webp"
             width="180"
             height="94"
             className={styles.img}
           />
-        </div>
+        </div></a>
         <Image
           src="/vertical-line.svg"
           width="4"
@@ -22,14 +22,14 @@ function Switch() {
           layout="intrinsic"
           className={styles.imgI}
         />
-        <div className={styles.switchInner}>
+        <a href="https://www.switchup.org/bootcamps/learnbay" target="_blank"><div className={styles.switchInner}>
           <img
             src="/switch-UP.webp"
             width="256"
             height="125"
             className={styles.img}
           />
-        </div>
+        </div></a>
         <Image
           src="/vertical-line.svg"
           width="4"
@@ -37,14 +37,14 @@ function Switch() {
           layout="intrinsic"
           className={styles.imgI}
         />
-        <div className={styles.switchInner}>
+        <a href="https://www.google.com/search?q=learnbay&rlz=1C1VDKB_enIN998IN998&tbm=lcl&ei=hgryYtaHNa3Sz7sP3N6moA4&oq=learnbay&gs_l=psy-ab.3...0.0.0.9493.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.6ObhuVFzJhI#lrd=0x3bae13b203864921:0xcd2b3d47edc34b69,1,,,&rlfi=hd:;si:14783977580914756457,l,CghsZWFybmJheUj0z4qEu66AgAhaFBAAGAAiCGxlYXJuYmF5KgQIAhAAkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRl;mv:[[12.9145905,77.66061049999999],[12.8624004,77.6400626]]" target="_blank"><div className={styles.switchInner}>
           <img
             src="/Google-review.webp"
             width="206"
             height="121"
             className={styles.img}
           />
-        </div>
+        </div></a>
       </div>
     </section>
   );

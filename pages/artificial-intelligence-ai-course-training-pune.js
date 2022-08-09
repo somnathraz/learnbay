@@ -80,13 +80,13 @@ export default function Home() {
         <FirstSection
           deskTopPara="IBM Certified AI training With Domain Specialization and Job Guarantee"
           mTopPara="IBM Certified AI training With Domain Specialization and Job Guarantee"
-          title="Artificial Intelligence (ai) Course Training in Pune"
+          title="Artificial Intelligence (AI) Course Training in Pune"
           desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
           src="/course4.png"
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -112,7 +112,7 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
             Box2h5="Domain Destined"
@@ -129,14 +129,14 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramBot1="Learnbay is a leading institute for Artificial intelligence (AI) training in Pune. Our faculties are industry experts with more than 8 years of  MAANG company work experience. Learnbay faculties always work hard for students' growth and career development. We even provide a wide range of Domain electives, assuring students a Full-stack AI expertise in any chosen domain. Learnbay Artificial intelligence courses in Pune teach students with real-time MNC and capstone projects, and all our courses are certified by IBM. Our guides are always ready to solve any queries of students with the most precise solutions so that students do not face any barriers during training."
-              ProgramHead3="Why is Learnbay the best artificial intelligence (AI) training course provider in Pune?"
+              ProgramBot1="Learnbay is a leading institute for Artificial Intelligence (AI) training in Pune. Our faculties are industry experts with more than 8 years of  MAANG company work experience. Learnbay faculties always work hard for students' growth and career development. We even provide a wide range of Domain electives, assuring students a Full-stack AI expertise in any chosen domain. Learnbay Artificial intelligence courses in Pune teach students with real-time MNC and capstone projects, and all our courses are certified by IBM. Our guides are always ready to solve any queries of students with the most precise solutions so that students do not face any barriers during training."
+              ProgramHead3="Why is Learnbay the best Artificial Intelligence (AI) training course provider in Pune?"
               ProgramBot3="Whether you are a techie or non-techie, you can still learn Artificial Intelligence at Learnbay. There has been a lot of improvement in Artificial Intelligence, but there are very few skilled Artificial intelligence experts who can work along with the changes that Artificial intelligence has brought to a particular domain. So becoming an Artificial intelligence expert is a big plus for a career for both techies and non-techies."
               ProgramBot31="Learnbay offers a variety of Artificial Intelligence courses to choose from, even if you just graduated or have been working professionally for 4+ years. Learnbay has a course for all and every Domain."
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"
               Courselink3="/artificial-intelligence-certification-course"
-              Courselink4="/data-science-ai-for-managers"
+              Courselink4="/data-science-ai-for-Managers"
               Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
@@ -205,7 +205,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+MANAGERS.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf"
               JobBot1="Learnbay Artificial Intelligence certifications in Pune even come with a job or money-back guarantee. The artificial intelligence courses offered by Learnbay come with mock interview training sessions, resume help, and an unlimited number of MNC and start-up referrals, until you land on suitable AI job role."
               JobBot2="The roles and responsibilities you can target by competing Learbbay AI Course are:"
               JobBot3="Business intelligence developer.
@@ -228,7 +228,7 @@ export default function Home() {
     "
               src4="/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
-              Projectsp4=" BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
+              Projectsp4=" BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
               AlumniBot1="Learnbay Artificial intelligence course training in Pune has helped many students in the recruitment process. Most of our students have been recruited by top MNC companies. About 70% of our students get the offer letter, while the 85% of the course completion stage. Here are a few of our Alumni sharing the success that they achieved through Learnbay:"
               Asrc1="/devraj.jpg"
               AlumniH1="Deveraj"
@@ -253,9 +253,9 @@ export default function Home() {
               MentorshipFaqDatas={ArtificialMentorshipFaqDataP}
               SupportFaqDatas={ArtificialSupportFaqDataP}
             />
-            <LearnSupport />
           </div>
         </div>
+        <LearnSupport />
         <CityText
           CityTextB="Artificial Intelligence Course Certification Training locations in Pune "
           CityText=" : Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Pune City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337]."

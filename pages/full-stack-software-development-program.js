@@ -82,7 +82,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program"
+            title="Why Enroll In This Program?"
             Box1h5="Crack MAANG Interview"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
