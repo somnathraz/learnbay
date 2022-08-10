@@ -93,6 +93,8 @@ export const DsaiManagersCourseData = [
               },
             },
           ],
+          id: 0,
+          open: true,
         },
       },
 
@@ -118,6 +120,8 @@ export const DsaiManagersCourseData = [
               },
             },
           ],
+          id: 1,
+          open: false,
         },
       },
 
@@ -166,6 +170,8 @@ export const DsaiManagersCourseData = [
               },
             },
           ],
+          id: 2,
+          open: false,
         },
       },
 
@@ -231,6 +237,8 @@ export const DsaiManagersCourseData = [
               },
             },
           ],
+          id: 3,
+          open: false,
         },
       },
 
@@ -298,6 +306,8 @@ export const DsaiManagersCourseData = [
               },
             },
           ],
+          id: 4,
+          open: false,
         },
       },
 
@@ -317,6 +327,8 @@ export const DsaiManagersCourseData = [
               },
             },
           ],
+          id: 5,
+          open: false,
         },
       },
     ],

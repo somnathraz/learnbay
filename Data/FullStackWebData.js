@@ -71,6 +71,8 @@ export const FullStackWebCourseData = [
               },
             },
           ],
+          id: 0,
+          open: true,
         },
       },
       {
@@ -139,6 +141,8 @@ export const FullStackWebCourseData = [
               },
             },
           ],
+          id: 1,
+          open: false,
         },
       },
 
@@ -169,6 +173,8 @@ export const FullStackWebCourseData = [
               },
             },
           ],
+          id: 2,
+          open: false,
         },
       },
     ],
