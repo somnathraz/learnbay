@@ -85,7 +85,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -202,7 +202,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
               JobBot1="Learnbay does its best at training young enthusiasts as well as highly experienced professionals. It ensures that all students are placed in desirable positions at top MAANG/ MNC companies. This is why we have included a dedicated job assistance program for our IBM machine learning courses. We provide end-to-end machine learning interview sessions by ML experts. Such sessions include resume preparation, company-specific mock interviews, and project portfolio management. Our experts will continue to guide them until they are placed in relevant ML positions."
               JobBot5="We have a strong network of over 250 hiring partners like Accenture, Adobe, etc., in Dubai and other cities worldwide."
               JobHead2="What is the ML market trend in Dubai?"

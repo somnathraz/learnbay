@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Get Our Apps On</p>
-          <a href="/"><button className={styles.btnout}><FaApple className="bIcons" style={{fontSize:"30px"}}  />Get Our IOS App</button></a>
+          {/* <a href="/"><button className={styles.btnout}><FaApple className="bIcons" style={{fontSize:"30px"}}  />Get Our IOS App</button></a> */}
           <a href="https://play.google.com/store/apps/details?id=com.app.learnbay" target="_blank"><button className={styles.btnout}><FaAndroid className="bIcons" style={{fontSize:"30px"}}  />Get Our Android App</button></a>
           <p className={styles.FooterInnerP}>Find Us Here</p>
           <a href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank"><p className={styles.FooterInnerli}>#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)</p></a>

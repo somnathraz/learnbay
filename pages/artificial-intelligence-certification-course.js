@@ -74,7 +74,7 @@ export default function Home() {
           height="632"
           src="/course3.png"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -119,7 +119,7 @@ export default function Home() {
           syllabus={AiMlCourseData[0].syllabus}
           syllabusDesc={AiMlCourseData[0].syllabusDesc}
           popupHead={AiMlCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
           hours="350+ Hours"
           project="15+ Real Time"
         />

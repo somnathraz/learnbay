@@ -86,7 +86,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -212,7 +212,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
               JobHead1="How does the Job assistance program work at Learnbay in Chennai?"
               JobBot1="Learnbay’s machine learning job placement program is an assistance provided by various sources to job seekers from all walks of life. Job assistance in machine learning certification includes career counseling, talent assessment, and communication assessment. Moreover, it involves assistance with resume writing, portfolio building, and 1:1 mock interviews as per the candidate screening standard of top MNCs in Chennai."
               JobBot2="This prime feature of Learnbay has helped countless machine learning enthusiasts crack the interviews and get placed in several startups and multinational organizations such as Oracle, SAP, Salesforce, etc. Following that, our job placement officials assist job seekers in finding relevant job roles and preparing for interviews. After the completion of the IBM machine learning course, your IBM and other certificates get unlocked, and you'll be prepared to ace the machine learning interviews. We have a channel of 250+ hiring partners."

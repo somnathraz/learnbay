@@ -86,7 +86,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -205,7 +205,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
               JobBot1="Learnbay Artificial Intelligence certifications in Pune even come with a job or money-back guarantee. The artificial intelligence courses offered by Learnbay come with mock interview training sessions, resume help, and an unlimited number of MNC and start-up referrals, until you land on suitable AI job role."
               JobBot2="The roles and responsibilities you can target by competing Learbbay AI Course are:"
               JobBot3="Business intelligence developer.

@@ -85,7 +85,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -177,7 +177,7 @@ export default function Home() {
               SyllabusBotlist44="Web Scrapping"
               SyllabusBotlist45="Fake News Detection"
               SyllabusBotlist46="Movie Recommendation"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
               JobHead1="Interview preparation process at Learnbay:"
               JobBot1="Learnbay Provides a dedicated job assistance program for its learners. Resume built-up sessions, interview preparations, access to the alumni network, and LinkedIn profile building are all part of this assistance feature. Additionally, our data analyst students will be trained through personalized mock interviews with various hiring Managers allowing them to develop confidence at the actual interview table."
               JobBot2="Many of our students have been placed in prestigious organizations in Delhi and all over India as a consequence of our close ties with MNCs and IBM."

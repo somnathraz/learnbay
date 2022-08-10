@@ -63,7 +63,7 @@ export default function Home() {
           width="776"
           height="682"
           alt="Full Stack"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSA+%26+System+Design.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -96,7 +96,7 @@ export default function Home() {
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
           popupHead={DsaCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSA+%26+System+Design.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
           hours="200+ Hours"
           project="12+ Real Time"
         />

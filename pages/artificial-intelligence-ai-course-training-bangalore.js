@@ -89,7 +89,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -212,7 +212,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
               JobBot1="Learnbay Artificial intelligence program in Bangalore ensures guaranteed job or returns your fees. Learnbay’s guides and mentors build your resume and portfolio and also refer your profiles so that you get a guaranteed job. Other than the job-guaranteed AI course, even in other courses, you get at least the promise of assured AI job interviews in Bangalore."
               JobHead2="What are the job roles you find in Bangalore as an Artificial engineer?"
               JobBot3="Artificial Intelligence has created a lot of new job roles like:"

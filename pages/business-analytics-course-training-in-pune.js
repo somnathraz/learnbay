@@ -88,7 +88,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -173,7 +173,7 @@ export default function Home() {
               SyllabusBotlist44="Customer Churn Prediction"
               SyllabusBotlist45="Inventory Demand Forecasting"
               SyllabusBotlist46="Retain Analytics"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
               JobBot1="Learnbay's guides and mentors always work hard and ensure that top Multinational companies and leading startups recruit our students. Once students complete their Business Analytics course along with the project work, faculties start to train them for interviews and help them prepare resumes and portfolios. Learnbay experts even concentrate on developing our students' soft skills, which is essential with other technical abilities. Through Learnbay Business analytics training associated job assistance program, students can quickly get through interviews to work as successful Business analysts."
               JobHead2="What type of responsibility should you expert as a business analyst in Pune?"
               JobBot3="Business analysts make crucial Business decisions that are critical for future business processes. These decisions taken by Business analysts improve the company's performance and productivity. However, every business proposing new strategies in systems must even analyze their business performance and process. After a student or a professional completes a Business analytics course in Pune, they get job roles such as Business analytics consultant, Junior Business Analyst, Database administrator, etc."

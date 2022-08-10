@@ -88,7 +88,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -186,7 +186,7 @@ export default function Home() {
               SyllabusBotlist44="Customer Churn Prediction"
               SyllabusBotlist45="Inventory Demand Forecasting"
               SyllabusBotlist46="Retain Analytics"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
               JobHead1="Interview Preparation program at Learnbay:"
               JobBot1="Learnbay offers a dedicated feature of a job assistance program for its students. This support includes strong portfolio building and soft skills training. In addition, we also offer 1:1 mock interviews with various hiring Managers to assist you in gaining the confidence to crack difficult interviews. Apart from this, we also prepare our students with presentation and communication skills which are very crucial for business analyst roles."
               JobHead2="Scope of business analytics in Canada:"

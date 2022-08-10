@@ -88,7 +88,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -178,7 +178,7 @@ export default function Home() {
               SyllabusBotlist44="Customer Churn Prediction"
               SyllabusBotlist45="Inventory Demand Forecasting"
               SyllabusBotlist46="Retain Analytics"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
               JobHead1="Interview preparation sessions:"
               JobBot1="Learnbay mentors constantly support students and ensure that they get placed in highly lucrative positions. Once students finish their modules, our coaches start training them with soft skills, resume preparation, project management, and presentation abilities. They also conduct various mock interviews with hiring Managers so that students learn from their mistakes and enhance their overall interview skills."
               JobBot5="With our business analytics course training, students will easily get interviews with MNCs and top-tier companies across Delhi."

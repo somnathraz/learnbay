@@ -12,7 +12,7 @@ export const viewAllD = [
     ],
     link1: "/data-science-certification-courses",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/FOUNDATION+DS.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const viewAllD = [
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ export const viewAllD = [
     ],
     link1: "/artificial-intelligence-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const viewAllD = [
     ],
     link1: "/data-science-ai-for-Managers",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
   },
   {
     id: 5,
@@ -72,7 +72,7 @@ export const viewAllD = [
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/JOB+GUARANTEE+DSAI.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
   },
   {
     id: 6,
@@ -87,7 +87,7 @@ export const viewAllD = [
     ],
     link1: "/data-analytics-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
   },
   {
     id: 7,
@@ -103,7 +103,7 @@ export const viewAllD = [
     ],
     link1: "/business-analytics-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
   },
   {
     id: 8,
@@ -118,7 +118,7 @@ export const viewAllD = [
     ],
     link1: "/full-stack-web-development-program",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay+(1).pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
   },
   {
     id: 9,
@@ -138,8 +138,8 @@ export const viewAllD = [
   {
     id: 10,
     img: "dsa&system.png",
-    title: "Data Structures Algorithms And ",
-    title1: "System Design",
+    title: "Data Structures Algorithms ",
+    title1: "And System Design",
     tag: "Full stack",
     para: [
       "200 hours of Interactive Learning",
@@ -148,7 +148,7 @@ export const viewAllD = [
     ],
     link1: "/dsa-system-design",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSA+%26+System+Design.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
   },
 ];
 export const ForProgrammersD = [
@@ -165,7 +165,7 @@ export const ForProgrammersD = [
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
   },
   {
     id: 2,
@@ -195,7 +195,7 @@ export const ForProgrammersD = [
     ],
     link1: "/data-science-ai-for-Managers",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
   },
   {
     id: 4,
@@ -210,7 +210,7 @@ export const ForProgrammersD = [
     ],
     link1: "/artificial-intelligence-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
   },
   {
     id: 5,
@@ -225,7 +225,7 @@ export const ForProgrammersD = [
     ],
     link1: "/full-stack-web-development-program",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay+(1).pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
   },
   {
     id: 6,
@@ -240,13 +240,13 @@ export const ForProgrammersD = [
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/JOB+GUARANTEE+DSAI.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
   },
   {
     id: 7,
     img: "dsa&system.png",
-    title: "Data Structures Algorithms And",
-    title1: "System Design",
+    title: "Data Structures Algorithms",
+    title1: "And System Design",
     tag: "Full stack",
     para: [
       "200 hours of Interactive Learning",
@@ -255,7 +255,7 @@ export const ForProgrammersD = [
     ],
     link1: "/dsa-system-design",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSA+%26+System+Design.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
   },
 ];
 export const ForNonProgrammerD = [
@@ -272,7 +272,7 @@ export const ForNonProgrammerD = [
     ],
     link1: "/data-science-certification-courses",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/FOUNDATION+DS.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf",
   },
   {
     id: 2,
@@ -287,7 +287,7 @@ export const ForNonProgrammerD = [
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
   },
   {
     id: 3,
@@ -302,7 +302,7 @@ export const ForNonProgrammerD = [
     ],
     link1: "/artificial-intelligence-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
   },
   {
     id: 4,
@@ -317,7 +317,7 @@ export const ForNonProgrammerD = [
     ],
     link1: "/data-science-ai-for-Managers",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
   },
   {
     id: 5,
@@ -332,7 +332,7 @@ export const ForNonProgrammerD = [
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/JOB+GUARANTEE+DSAI.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
   },
   {
     id: 6,
@@ -348,7 +348,22 @@ export const ForNonProgrammerD = [
     ],
     link1: "/business-analytics-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  {
+    id: 7,
+    img: "/dsa-system.png",
+    title: "Data Analytics",
+    title1: "Program",
+    tag: "Data science",
+    para: [
+      "180 hours of Interactive Learning",
+      "5 Projects",
+      "Course Fee : ₹ 65,000 + GST",
+    ],
+    link1: "/data-analytics-certification-course",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
   },
 ];
 
@@ -366,7 +381,7 @@ export const JobGuaranteeD = [
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/JOB+GUARANTEE+DSAI.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
   },
   {
     id: 2,
@@ -381,7 +396,7 @@ export const JobGuaranteeD = [
     ],
     link1: "/full-stack-web-development-program",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay+(1).pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
   },
 ];
 export const StackD = [
@@ -398,7 +413,7 @@ export const StackD = [
     ],
     link1: "/full-stack-web-development-program",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay+(1).pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
   },
   {
     id: 2,
@@ -418,8 +433,8 @@ export const StackD = [
   {
     id: 3,
     img: "dsa&system.png",
-    title: "Data Structures Algorithms And",
-    title1: "System Design",
+    title: "Data Structures Algorithms",
+    title1: "And System Design",
     tag: "Full stack",
     para: [
       "200 hours of Interactive Learning",
@@ -428,6 +443,6 @@ export const StackD = [
     ],
     link1: "/dsa-system-design",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSA+%26+System+Design.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
   },
 ];

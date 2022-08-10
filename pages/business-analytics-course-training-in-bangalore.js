@@ -88,7 +88,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -174,7 +174,7 @@ export default function Home() {
               SyllabusBotlist44="Customer Churn Prediction"
               SyllabusBotlist45="Inventory Demand Forecasting"
               SyllabusBotlist46="Retain Analytics"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
               JobBot1="Learnbay's mentors are dedicated to providing job assistance to its learners until they get placed. Once the Business Analytics program is completed, Learnbay faculties provide you with a resume prep session, one on one mock interviews, and soft skill enhancement training. We even help students improve their presentational and communication skills to a professional level, which is one of the main skills required to be a Business Analyst. Students can easily crack business analytics interviews and even start working as Business Analysts in top MNCs."
               JobHead2="Job Role Associated with Business Analytics Field In Bangalore"
               JobBot3="The role of a Business Analyst is to lead a team in taking critical business decisions about the company's operations, processes, and other future decisions of products or solutions. Usually, Business Analyst decisions are based on the company's performance and increased productivity. As businesses move to different locations, they must analyze logistics and propose new techniques. Once you complete the Learnbay business analytics course you target the following job roles like database administrator, Business analytics consultant,  Junior Business analyst, etc. "
