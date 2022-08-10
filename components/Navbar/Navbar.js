@@ -72,7 +72,7 @@ const Navbar = () => {
               </span>
 
               <span onClick={showMenu}>
-                <Link href="https://blog.learnbay.co/">Blog</Link>
+                <Link href="https://blog.learnbay.co/">Blog</Link> 
               </span>
 
               <span onClick={showMenu}>
