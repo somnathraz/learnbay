@@ -46,7 +46,7 @@
 
 .BatchDetailsTop {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 20px;
 }
@@ -60,6 +60,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+  justify-content: flex-start;
+
 
     margin-top: 20px;
     gap: 10px;
