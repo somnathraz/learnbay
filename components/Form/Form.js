@@ -212,7 +212,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             type="email"
             name="email"
             required
-            placeholder="Enter Your Email*"
+            placeholder="Enter your Email*"
             className={popup ? styles.EmailInputs : styles.EmailInput}
             value={query.email}
             onChange={handleParam()}
