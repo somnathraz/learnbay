@@ -78,7 +78,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/data-science-ai-for-Managers">
+                  <a href="/data-science-ai-for-managers">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -228,7 +228,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/data-science-ai-for-Managers">
+                  <a href="/data-science-ai-for-managers">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI for Managers & Leaders</h5>
@@ -526,7 +526,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/data-science-ai-for-Managers">
+                  <a href="/data-science-ai-for-managers">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI for Managers & Leaders</h5>
@@ -614,7 +614,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/data-science-ai-for-Managers">
+                  <a href="/data-science-ai-for-managers">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -744,7 +744,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/data-science-ai-for-Managers">
+                  <a href="/data-science-ai-for-managers">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI for Managers & Leaders</h5>
@@ -957,7 +957,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/data-science-ai-for-Managers">
+                  <a href="/data-science-ai-for-managers">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>Data Science and AI for Managers & Leaders</h5>
