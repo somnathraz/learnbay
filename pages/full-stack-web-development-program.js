@@ -64,7 +64,7 @@ export default function Home() {
           width="780"
           height="603"
           alt="Full Stack"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay+(1).pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -102,7 +102,7 @@ export default function Home() {
           syllabus={FullStackWebCourseData[0].syllabus}
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
           popupHead={FullStackWebCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay+(1).pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf"
           hours="300+ Hours"
           project="12+ Real Time"
         />

@@ -236,7 +236,7 @@ const Course = () => {
           </span>
           {nonTech ? (
             <div className={styles.mPanel}>
-              <h5>Data Science (6) </h5>
+              <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
@@ -968,7 +968,7 @@ const Course = () => {
           )}
           {nonTech ? (
             <>
-              <h5>Data Science (6) </h5>
+              <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}

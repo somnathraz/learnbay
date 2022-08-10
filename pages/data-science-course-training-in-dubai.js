@@ -85,7 +85,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -219,7 +219,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
               JobHead1="Interview preparation sessions at Learnbay"
               JobBot1="As part of our data science training in Dubai, students will undergo several practice interviews for a thorough interview preparation process on data science. Our dedicated career coaches will guide you with resume building, conducting mock interviews, and evaluate their competencies, and providing feedback. They ensure that every learner is professionally trained to crack a potential data science job in Dubai."
               JobBot2="Learnbay also provides a Job Guaranteed data science course that offers a complete refund of course fees in case of an unsuccessful placement."

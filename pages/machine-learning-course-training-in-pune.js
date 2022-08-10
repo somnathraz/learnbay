@@ -85,7 +85,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -201,7 +201,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
               JobHead1="How does Learnbay train students to crack the interviews for Machine Learning MNC jobs in Pune?"
               JobBot1="The Learnbay Machine Learning course in Pune consists of an end-to-end job assistance program. It helps students create their resumes and project portfolios, so recruiters highlight their profiles."
               JobBot2="The Learnbay teaching faculty guides students on how to face product MNC Machine Learning Interviews. Industry curated mock interviews by Learnbay with Job referrals."

@@ -8,8 +8,6 @@
   align-items: center;
   margin: auto;
   border-radius: 10px;
-  /* background: url("/coursefee.png") center center, no-repeat; */
-  /* background: linear-gradient(90deg, #CBE4F9, #D6CDEA); */
   background-size: cover;
 }
 
@@ -48,7 +46,7 @@
 
 .BatchDetailsTop {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 20px;
 }

@@ -86,7 +86,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -183,7 +183,7 @@ export default function Home() {
               SyllabusBotlist44="Web Scrapping"
               SyllabusBotlist45="Fake News Detection"
               SyllabusBotlist46="Movie Recommendation"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
               JobHead1="What does the Data Analytics Job Assistance Program by Learnbay in Bangalore include?"
               JobBot1="Learnbay Data Analytics training in Bangalore helps learners get placed in startups and top MNCs to build a career as Data analysts across Bangalore as well as India. Our IBM data analytics course includes 4 plus job-oriented sessions. We prepare students by conducting mock interviews as per the current industry demand of Bangalore and abroad as well."
               JobBot2="Learnbay even works on soft-skill, portfolio, and resume-building guidance. Many of our students had a breakthrough in their careers as they got recruited by leading global companies like TCS, salesforce, Mercedes, HDFC, JP Morgan, EY, etc."

@@ -86,7 +86,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -209,7 +209,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
               JobBot1="Learnbay is the best machine learning training institute in Hyderabad with job assistance. Our specialist faculty can help you prepare for product MNC Machine learning interviews in the most effective way possible. Candidates are given mock interviews and job referrals that are the best fit. You will also receive assistance with creating a resume and portfolio so that they remain at the top of the recruiter's list. Please keep in mind that we guarantee interview calls."
               JobBot5="In addition, there are several industry-specific hackathons and webinars to attend. Referrals are also more likely as a result of this."
               ProjectsBot1="Learnbay encourages candidates to work on projects with creativity and skills. Machine learning projects and capstones are important in resumes and portfolios. Leanbay machine learning in Hyderabad consists of 15 real-time projects and 2 capstone projects. Each project is certified by IBM and is issued after the course and project completion. Students even get separate certificates for industrial project experience from IBM."

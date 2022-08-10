@@ -86,7 +86,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -212,7 +212,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DSAI+Managers.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
               JobHead1="What is the Job Assist Program in the Learnbay AI courses?"
               JobBot1="Learnbay career coaches help students in developing impressive portfolios as well as refer their profiles to other renowned companies. They ensure you get guaranteed interviews in top Canadian firms. Besides this, you’ll also be provided with multiple mock interviews for AI and ML positions to help you in facing real-world interviews."
               JobBot2="In our job or money-back guarantee program, you will receive a full refund of your AI course fee in case you are unable to find a relevant job within 6 months after the course completion."

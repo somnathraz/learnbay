@@ -85,7 +85,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -176,7 +176,7 @@ export default function Home() {
               SyllabusBotlist44="Customer Churn Prediction"
               SyllabusBotlist45="Inventory Demand Forecasting"
               SyllabusBotlist46="Retain Analytics"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/BUSINESS+ANALYTICS.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
               JobHead1="Job orientation program in Business analytics training by Learnbay"
               JobBot1="Learnbay offers job assistantships for those who complete the business analytics course in Dubai. This support involves sessions on soft skills training (including presentation), resume writing, and project portfolio management. Apart from this, we also offer 1:1 mock interviews with the leading organizations to practice your interview abilities. Our career experts ensure that you are eligible to ace any business analytics job interview at the earliest given a chance. Learnbay has a great network of over 200 hiring partners in Dubai and other countries."
               JobHead2="Scope and career opportunities of Business analytics in Dubai :"

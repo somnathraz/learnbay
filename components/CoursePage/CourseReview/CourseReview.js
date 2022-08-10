@@ -279,7 +279,7 @@ const CourseReview = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
-              {/* <div className={styles.bottom}>
+              <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
                     src="/hike.svg"
@@ -292,7 +292,7 @@ const CourseReview = () => {
                     <p>Salary Hike</p>
                   </div>
                 </div>
-              </div> */}
+              </div>
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
@@ -332,7 +332,7 @@ const CourseReview = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
-              {/* <div className={styles.bottom}>
+              <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
                     src="/hike.svg"
@@ -341,11 +341,11 @@ const CourseReview = () => {
                     layout="intrinsic"
                   />
                   <div className={styles.leftBottomC}>
-                    <h5>125%</h5>
+                    <h5>132%</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
-              </div> */}
+              </div>
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
@@ -383,7 +383,7 @@ const CourseReview = () => {
             </SwiperSlide>
 
             <SwiperSlide className={styles.slide}>
-              {/* <div className={styles.bottom}>
+              <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
                     src="/hike.svg"
@@ -392,11 +392,11 @@ const CourseReview = () => {
                     layout="intrinsic"
                   />
                   <div className={styles.leftBottomC}>
-                    <h5>147%</h5>
+                    <h5>127%</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
-              </div> */}
+              </div>
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image

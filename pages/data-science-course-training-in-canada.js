@@ -85,7 +85,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -208,7 +208,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
               JobHead1="Job Assurance Program at Learnbay Data Science and AI"
               JobBot1="By the end of the IBM data science certification, students will get support for job placement which includes, Resume preparation, Soft skills training as well as mock interviews. These company-specific practice interviews will boost our trainee’s confidence ahead of their interviews."
               JobBot2="Placement drives are aided by our collaboration with major tech corporations. We have partnered with globally renowned companies such as Accenture, EY, Salesforce, etc. Over 1000+ alums have been placed in various data science roles within short timeframes."

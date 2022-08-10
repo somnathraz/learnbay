@@ -67,7 +67,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/FOUNDATION+DS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -109,7 +109,7 @@ export default function Home() {
           syllabus={FoundtionCourseData[0].syllabus}
           syllabusDesc={FoundtionCourseData[0].syllabusDesc}
           popupHead={FoundtionCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/FOUNDATION+DS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf"
           hours="200+ Hours"
           project="8+ Real Time"
         />

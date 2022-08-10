@@ -89,7 +89,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -210,7 +210,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/AIML.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
               JobHead1="How does Learnbay’s ML certification become the most promising training for cracking MNC machine learning interviews?"
               JobBot1="Learnbay is the best machine learning training institute in Bangalore from the perspective of job assistance. Our expert faculty offer you guidance on facing the product MNC Machine learning interviews with maximum possible efficacy. They prepare candidates with mock interviews and offer best-fit job referrals. Also, you get help with creating a resume and portfolio so that the same remains on top of the recruiter's list. Please note we provide guaranteed interview calls."
               JobHead2="Industrial Training with Ultimate Machine Learning Job Assistance"

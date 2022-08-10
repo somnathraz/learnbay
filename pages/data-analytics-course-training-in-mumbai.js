@@ -85,7 +85,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -183,7 +183,7 @@ export default function Home() {
               SyllabusBotlist44="Web Scrapping"
               SyllabusBotlist45="Fake News Detection"
               SyllabusBotlist46="Movie Recommendation"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
               JobHead1="How is the job orientation program associated with Learnbay business analytics training in Mumbai?"
               JobBot1="Learnbay is dedicated to providing the most comprehensive data analytics training in Mumbai."
               JobBot2="We provide specialized mock interviews for candidates looking for jobs in data analytics as part of our job aid program. We also assist students with résumé writing, technical skills training, and soft skill development. Our strong links with MNCs and IBM have aided numerous students in obtaining positions in the top leading organizations in the shortest period possible. After completing the course, approximately 700+ Learnbay students have already achieved lucrative roles in worldwide corporate giants such as Amazon, TCS, EY, JP Morgan, and Mercedes."

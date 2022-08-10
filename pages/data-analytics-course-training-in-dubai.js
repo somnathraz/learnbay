@@ -85,7 +85,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -176,7 +176,7 @@ export default function Home() {
               SyllabusBotlist44="Web Scrapping"
               SyllabusBotlist45="Fake News Detection"
               SyllabusBotlist46="Movie Recommendation"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
               JobBot1="Learnbay Data analytics course will train you such that you learn the job-ready skills in Dubai. Learners who successfully complete our IBM data analytics course will get access to our job placement service. Our career experts conduct mock interviews with various firms. They also guide them with portfolio and project management along with interpersonal skills training. After completion of data analytics certification, around 700+ students have got placed in high-paying positions in Dubai firms."
               JobHead2="What is data analytics in Dubai?"
               JobBot3="Data Analytics is the process of obtaining useful information from data. It helps in achieving efficiency and providing insights into a business operation."

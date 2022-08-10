@@ -85,7 +85,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -215,7 +215,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
               JobHead1="Data Science Interview Preparation in Mumbai"
               JobBot1="Learnbay Data science classes help prepare for interviews. Several company-specific mock interviews ensure our students' confidence at the interview table. Learnbay instructors keep your CV and portfolio competent to attract recruiters. As stated previously, you will receive domain-specific full-stack data scientist training, so your interview preparation will also experience the reflection of the same."
               JobBot2="All of our data science courses offer an interview guarantee from top MNC and growing startups across Mumbai as well as India. But in the case of the Data Science program with a job guarantee, you can have a money-back option in case of unsuccessful placement (which is very rare in Learnbay). More than 1000 Learnbay Alumni are proudly working in different data science job roles across Mumbai and the entire of India."

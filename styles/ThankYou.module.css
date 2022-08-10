@@ -53,11 +53,11 @@
 }
 
 .Ptopp {
-  font-size: 16px;
+  font-size: 20px;
   margin: 20px 10px;
   color: Black;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .mainb {
@@ -125,7 +125,7 @@
   }
 
   .Ptopp {
-    font-size: 16px;
+    font-size: 20px;
     margin: 20px 2px;
     color: Black;
     text-align: center;

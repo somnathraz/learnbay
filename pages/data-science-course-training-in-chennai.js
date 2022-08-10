@@ -85,7 +85,7 @@ export default function Home() {
           width="900"
           height="762"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -212,7 +212,7 @@ export default function Home() {
               SyllabusBotlist44="Credit Risk Analysis"
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
-              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+DSAI+(1).pdf"
+              syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
               JobHead1="Interview preparation in Learnbay’s IBM data science courses, Chennai"
               JobBot1=" Learnbay’s data science curriculum includes a job assistance program for its students."
               JobBot2="By the end of the IBM data science course, students will be provided with CV preparation and soft skills training sessions. Various company-specific mock interviews instill confidence in our students prior to the interviews. In addition, our officials ensure that your portfolio is up to industry standard and appealing to hiring Managers. Even you get an option of a data science course with a money-back guarantee in Chennai. If you remain unable to land a data science job role within six months (post-course completion), you can apply for the data science course fee refund."

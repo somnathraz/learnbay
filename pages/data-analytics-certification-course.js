@@ -72,7 +72,7 @@ export default function Home() {
           width="760"
           height="611"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -108,14 +108,14 @@ export default function Home() {
           desc2="Validate your Data Analytics skills with IBM Course Completion Certificate."
           desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
           src="/BA-DA.jpeg"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
 
         <SyllabusNew
           syllabus={DataAnalyticsCourseData[0].syllabus}
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           popupHead={DataAnalyticsCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/DATA+ANALYTICS.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
           hours="180+ Hours"
           project="5+ Real Time"
         />

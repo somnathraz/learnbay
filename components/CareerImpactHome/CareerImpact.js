@@ -41,7 +41,7 @@ const CareerImpact = () => {
                     layout="intrinsic"
                   />
                   <div className={styles.leftBottomC}>
-                    <h5>240%</h5>
+                    <h5>140%</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ const CareerImpact = () => {
                     layout="intrinsic"
                   />
                   <div className={styles.leftBottomC}>
-                    <h5>200%</h5>
+                    <h5>210%</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
@@ -172,7 +172,70 @@ const CareerImpact = () => {
                     layout="intrinsic"
                   />
                   <div className={styles.leftBottomC}>
-                    <h5>120%</h5>
+                    <h5>142%</h5>
+                    <p>Salary Hike</p>
+                  </div>
+                </div>
+                <div className={styles.rightBottom}>
+                  <div className={styles.leftBottomC}>
+                    <p>Watch More On</p>
+                  </div>
+                  <a href="https://youtu.be/hewBtR_WoDM" target="_blank">
+                    <Image
+                      src="/reviewYtIcon.png"
+                      width="107"
+                      height="60"
+                      layout="intrinsic"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.content}>
+                <div className={styles.imgP}>
+                  <Image
+                    src="/aravind-home.png"
+                    layout="intrinsic"
+                    width="100"
+                    height="100"
+                    alt="aravind-home"
+                  />
+                </div>
+
+                <div className={styles.contentRight}>
+                  <div className={styles.name}>
+                    <p>Senior Associate - Data Scientist</p>
+                    <h5>Aravind Kumar</h5>
+                  </div>
+                  <p className={styles.para}>
+                    Choosing Learnbay was my best decision ever. The instructors
+                    were encouraging and glad to answer questions. The best
+                    feature is that their flexible modules & small size batches.
+                    I was able to manage my time and learn while working. Thanks
+                    to Learnbay for my lucrative placement.
+                    <br />
+                  </p>
+                </div>
+                <div className={styles.cIcon}>
+                  <Image
+                    src="/amazon-review.png"
+                    width="99"
+                    height="30"
+                    layout="intrinsic"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <div className={styles.bottom}>
+                <div className={styles.leftBottom}>
+                  <Image
+                    src="/hike.svg"
+                    width="41"
+                    height="41"
+                    layout="intrinsic"
+                  />
+                  <div className={styles.leftBottomC}>
+                    <h5>150%</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
@@ -191,7 +254,7 @@ const CareerImpact = () => {
                 <div className={styles.contentRight}>
                   <div className={styles.name}>
                     <p>Working at Capgemini</p>
-                    <h5>Ritish</h5>
+                    <h5>Ritish Kumar</h5>
                   </div>
                   <div>
                     <p className={styles.para}>
@@ -278,7 +341,7 @@ const CareerImpact = () => {
                     layout="intrinsic"
                   />
                   <div className={styles.leftBottomC}>
-                    <h5>125%</h5>
+                    <h5>132%</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
@@ -328,70 +391,7 @@ const CareerImpact = () => {
                     layout="intrinsic"
                   />
                   <div className={styles.leftBottomC}>
-                    <h5>142%</h5>
-                    <p>Salary Hike</p>
-                  </div>
-                </div>
-                <div className={styles.rightBottom}>
-                  <div className={styles.leftBottomC}>
-                    <p>Watch More On</p>
-                  </div>
-                  <a href="https://youtu.be/hewBtR_WoDM" target="_blank">
-                    <Image
-                      src="/reviewYtIcon.png"
-                      width="107"
-                      height="60"
-                      layout="intrinsic"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div className={styles.content}>
-                <div className={styles.imgP}>
-                  <Image
-                    src="/aravind-home.png"
-                    layout="intrinsic"
-                    width="100"
-                    height="100"
-                    alt="aravind-home"
-                  />
-                </div>
-
-                <div className={styles.contentRight}>
-                  <div className={styles.name}>
-                    <p>Senior Associate - Data Scientist</p>
-                    <h5>Aravind Kumar</h5>
-                  </div>
-                  <p className={styles.para}>
-                    Choosing Learnbay was my best decision ever. The instructors
-                    were encouraging and glad to answer questions. The best
-                    feature is that their flexible modules & small size batches.
-                    I was able to manage my time and learn while working. Thanks
-                    to Learnbay for my lucrative placement.
-                    <br />
-                  </p>
-                </div>
-                <div className={styles.cIcon}>
-                  <Image
-                    src="/amazon-review.png"
-                    width="99"
-                    height="30"
-                    layout="intrinsic"
-                  />
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <div className={styles.bottom}>
-                <div className={styles.leftBottom}>
-                  <Image
-                    src="/hike.svg"
-                    width="41"
-                    height="41"
-                    layout="intrinsic"
-                  />
-                  <div className={styles.leftBottomC}>
-                    <h5>147%</h5>
+                    <h5>127%</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
