@@ -14,12 +14,12 @@ function MyApp({ Component, pageProps }) {
       <Footer />
       <OfferPopup
         title="New batch starting from 26th August"
-        p1="Avail scholarship of upto 15000/-"
+        p1="Avail Scholarship upto 15000/- valid till 20th August"
         p2="Available Batch Details :"
-        batch1="Weekday Evening"
-        batch11=" : 12th August, 08:00 p.m. to 10:00 p.m."
-        batch2="Weekend Morning"
-        batch22=" : 21st August, 08.30 a.m. to 12.00 p.m."
+        batch1="Weekend Morning"
+        batch11=" : 21st August, 08:30 a.m. to 12:00 p.m."
+        batch2="Weekday Evening"
+        batch22=" : 26th August, 08.00 p.m. to 10.00 p.m."
       />
       <BottomBar />
     </>

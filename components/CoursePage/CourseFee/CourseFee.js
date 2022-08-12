@@ -57,7 +57,7 @@ const CourseFee = ({
                   <div>
                     <div className={styles.BatchDetails}>
                       <p className={styles.list}><MdDateRange className={styles.icon} /><b>Date</b></p>
-                      <p className={styles.list}>12th August 2022</p>
+                      <p className={styles.list}>26th August 2022</p>
                       <p className={styles.list}>21st August 2022</p>
                     </div>
                   </div>

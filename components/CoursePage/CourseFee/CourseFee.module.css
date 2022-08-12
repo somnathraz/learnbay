@@ -27,6 +27,7 @@
   align-items: center;
   flex-flow: wrap;
   margin-top: 30px;
+  justify-content: center;
 }
 
 .list {
@@ -79,4 +80,7 @@
     margin: 20px;
     width: auto;
   }
+.listcheck {
+  justify-content: flex-start;
+}
 }
