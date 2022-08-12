@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Navigation, Pagination } from "swiper";
 import Image from "next/image";
 import styles from "./CourseReview.module.css";
-import { MdKeyboardArrowDown } from "react-icons/md";
 
 const CourseReview = () => {
   const [mobile, setMobile] = useState(false);

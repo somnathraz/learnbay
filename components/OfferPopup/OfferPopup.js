@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "./OfferPopup.module.css";
 import { AiFillCloseCircle } from "react-icons/ai";
-import Link from "next/link";
 
-const OfferPopup = ({ link, title, p1, p2, batch1, batch11, batch2, batch22 }) => {
+const OfferPopup = ({ title, p1, p2, batch1, batch11, batch2, batch22 }) => {
   const [open, setOpen] = useState(false);
   const handelOpen = () => {
     setOpen(false);

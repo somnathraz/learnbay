@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./WhyLearnbay.module.css";
-import { FaCheck,FaUserFriends,FaCompress,FaUserCheck,FaFlag,FaAddressCard,FaClone } from "react-icons/fa";
-import Image from "next/image";
+import { FaCheck,FaUserFriends,FaCompress,FaAddressCard,FaClone } from "react-icons/fa";
 
 
 const WhyLearnbay = () => {

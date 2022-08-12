@@ -20,10 +20,18 @@ function demo() {
   return (
     <section className={styles.Demo}>
       <VideoPopup triggers={video} setTriggers={setVideo} ids={value} />
-      <div className={styles.BackD}>
+      <div className={styles.Back}>
         <h4>
-          <b>Demo Session And Sample Class Recordings</b>
+        Demo Session And Sample Class Recordings
         </h4>
+        <div className={styles.right}>
+          <Image
+            src="/demo-header.png"
+            width="522"
+            height="380"
+            layout="intrinsic"
+          />
+        </div>
       </div>
       <div className={styles.DemoInner}>
         <div className={styles.certificate}>

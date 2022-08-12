@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./Certificate.module.css";
 import Image from "next/image";
 import { BiCheckCircle } from "react-icons/bi";

@@ -3,17 +3,22 @@
     padding: 0px;
 }
 
-.BackD {
-    background: url("/demo-img.png");
+.Back {
+    background-color: #f4fcfe;
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    display: flex;
-align-items: center;
-margin: auto;
-padding: 0px 100px;
-}
+    display: grid;
+    grid-template-columns: 59% 39%;
+    align-items: center;
+    margin: auto;
+    padding: 0px 100px;
+  }
+
+  .Back h4 {
+    text-align: left;
+  }
 
 .DemoInner {
     padding: 30px 100px;
@@ -53,11 +58,16 @@ padding: 0px 100px;
 
 @media (max-width: 600px) {
 
-    .BackD {
-        height: 50vh;
+    .Back {
+        height: 100%;
         text-align: left;
-        padding: 20px;
-    }
+        padding: 100px 20px 30px 20px;
+        display: block;
+      }
+
+      .Back h4 {
+        text-align: center;
+      }
 
     .Demo {
         margin: 20px 0px;

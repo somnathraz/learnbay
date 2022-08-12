@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./SyllabusNew.module.css";
 import { MdOutlineLiveTv, MdOutlineLaptopMac } from "react-icons/md";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
-import { FaArrowRight, FaDownload } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import {
   AiOutlineFundProjectionScreen,
   AiOutlineFieldTime,

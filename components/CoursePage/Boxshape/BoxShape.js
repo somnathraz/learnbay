@@ -142,7 +142,7 @@ const BoxShape = ({
                   </p>
                   <div className={styles.profile}>
                     <Image
-                      src="/asrar-home.jpeg"
+                      src="/asrar-home.png"
                       width="80"
                       height="80"
                       layout="intrinsic"

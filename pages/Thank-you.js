@@ -13,25 +13,18 @@ const ThankYou = () => {
         <meta name="description" content="Thank you!" />
       </Head>
       <section className={styles.mains}>
-        <div className={styles.left}>
-          <h4 className={styles.hptop}>
-            <b>Thank you!</b>
-            <br />
-          </h4>
-          <p className={styles.Ptop}>
-          We Received your request and look forward to getting in touch soon.
-          </p>
-          <div>
-            <div className={styles.mainb}>
-              <div>
-                <button className={styles.Button}>
-                  <FaArrowRight className="bIcons" />
-                  <a href="/">Go To Home</a>
-                </button>
-              </div>
-            </div>
-          </div>
+      <div className={styles.Back}>
+        <h4>
+        Thank you!<br/>We Received your request and look forward to getting in touch soon.</h4>
+        <div>
+          <Image
+            src="/thank-header.png"
+            width="522"
+            height="380"
+            layout="intrinsic"
+          />
         </div>
+      </div>
         <div className={styles.right}>
           <div>
           <Image

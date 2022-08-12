@@ -40,9 +40,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
   };
 
   let endPoint = "https://getform.io/f/69076866-e1f7-4cf3-a7d2-12603819a5a4";
-  // if (router.pathname === "/data-science-certification-courses") {
-  //   endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  // }
+
 
   // Form Submit function
   const formSubmit = (e) => {

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styles from "./ReferSection.module.css";
 import Image from 'next/image'
 import Popup from "/components/Popup/Popup";

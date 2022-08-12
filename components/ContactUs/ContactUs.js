@@ -11,10 +11,6 @@ function ContactUs() {
           <h4>
             <b>Contact Us</b>
           </h4>
-          {/* <p>
-            Do you have a certain course in mind? We'd love to hear from you and
-            assist you in making a decision.
-          </p> */}
         </div>
 
         <div>

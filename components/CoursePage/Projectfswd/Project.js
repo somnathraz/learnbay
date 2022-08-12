@@ -1,16 +1,7 @@
 import styles from "./project.module.scss";
-import React, { useRef, useState, useCallback, useEffect } from "react";
-import {
-  GiArtificialIntelligence,
-  GiBank,
-  GiHealthNormal,
-} from "react-icons/gi";
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
-import { BsPaypal, BsFillCreditCard2BackFill } from "react-icons/bs";
-import { AiOutlineCar, AiFillMobile } from "react-icons/ai";
+import React, { useState } from "react";
 import Image from "next/image";
-import { BsCheck2All, BsCheck2 } from "react-icons/bs";
-import { FiCheckSquare } from "react-icons/fi";
+import { BsCheck2 } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
 import { GoDeviceDesktop } from "react-icons/go";
 import { AiOutlineBank } from "react-icons/ai";
@@ -34,26 +25,6 @@ const Project = ({ ChangeProject, project, domain }) => {
   const popupShow = () => {
     setPopups(true);
   };
-
-  // let minus = 170;
-  // useEffect(() => {
-  //   return () => {
-  //     const width = window.innerWidth;
-
-  //     if (width > 1280) {
-  //       setDevice(1281);
-  //     } else if (width < 1280) {
-  //       setDevice(1279);
-  //     }
-  //     if (width < 1025) {
-  //       setDevice(1025);
-  //     }
-  //     if (width < 481) {
-  //       setDevice(481);
-  //       setMobile(true);
-  //     }
-  //   };
-  // }, [title]);
 
   return (
     <div className={styles.projectHeader}>

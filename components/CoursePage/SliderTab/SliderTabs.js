@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import styles from "./SliderTab.module.css";
@@ -14,9 +13,6 @@ const SliderTabs = () => {
   const [Retail, setRetail] = useState(false);
   const [Oil, setOil] = useState(false);
   const [Stack, setStack] = useState(false);
-  // const [Cloud, setCloud] = useState(false);
-  // const [Automotive, setAutomotive] = useState(false);
-  // const [Testing, setTesting] = useState(false);
   const [mobile, setMobile] = useState(false);
   const [tab, setTab] = useState(false);
 

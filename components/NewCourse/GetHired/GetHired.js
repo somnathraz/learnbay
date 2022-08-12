@@ -6,8 +6,6 @@ import Form from "/components/Form/Form";
 const GetHired = ({
   WeekdayBatchDate,
   WeekendBatchDate,
-  WeekdayTime,
-  WeekendTime,
   Project,
   Classes,
   OneLine,
