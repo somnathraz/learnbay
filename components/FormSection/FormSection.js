@@ -10,7 +10,7 @@ const FormSection = () => {
         <h5>Apply For Free Career Counselling</h5>
         <a href="tel:+917795687988"><button>
           <MdCall />
-          +91 96069 50936
+          +91 77956 87988
         </button></a>
       </div>
       <div className={styles.rightForm}>
