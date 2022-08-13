@@ -69,7 +69,7 @@ export default function Home() {
           title="Data Science and AI Program "
           spanTitleText="with 100% Job Guarantee"
           desc="✓ Domain Orientated approach ✓ Assured placement within 18 months."
-          src="/course5.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course5.png"
           width="829"
           height="646"
           alt="AiMl Header"
@@ -107,7 +107,7 @@ export default function Home() {
           desc="Complete your training with the internationally recognized certificate."
           desc2="Validate your Data Science and AI skills with IBM Course Completion Certificate."
           desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-          src="/DS-AI-1.jpeg"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/DS-AI-1.jpeg"
         />
         <SyllabusNew
           syllabus={JobGuaranteeCourseData[0].syllabus}

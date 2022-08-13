@@ -21,7 +21,7 @@ const CourseReview = () => {
         <h5>Get Assured Interview Call from Top Recruiters</h5>
         <p>Over 250+ Hiring Partners</p>
         <Image
-          src="/Hiring-partner-review.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hiring-partner-review.png"
           width="1603"
           height="82"
           layout="intrinsic"

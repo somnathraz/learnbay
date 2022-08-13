@@ -81,7 +81,7 @@ Understand the best practices for the finance sector.
               </div>
 
               <div className={styles.right}>
-                <Image src="/Bnking domain.png" width="350" height="350" />
+                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Bnking domain.png" width="350" height="350" />
               </div>
             </div>
           ) : (
@@ -132,7 +132,7 @@ Know data-driven consumer and market insights.
                 </a>
               </div>
               <div className={styles.right}>
-                <Image src="/gobal-industry.webp" width="296" height="345" />
+                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp" width="296" height="345" />
               </div>
             </div>
           ) : (
@@ -183,7 +183,7 @@ Incorporate future proof practices with Data Science and AI.
                 </a>
               </div>
               <div className={styles.right} style={{ paddingBottom: "40px" }}>
-                <Image src="/Healthcare-domain.webp" width="351" height="332" />
+                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp" width="351" height="332" />
               </div>
             </div>
           ) : (
@@ -237,7 +237,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/Retail-domain.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Retail-domain.webp"
                   width="314"
                   height="360"
                   layout="intrinsic"
@@ -294,7 +294,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/Mediacal-domain.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Mediacal-domain.webp"
                   width="296"
                   height="361"
                   layout="intrinsic"
@@ -351,7 +351,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/Manufacturing-domain-slider.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manufacturing-domain-slider.webp"
                   width="271"
                   height="353"
                 />
@@ -407,7 +407,7 @@ Understand how an industry expands exponentially with AI.
               </div>
               <div className={styles.right}>
                 <img
-                  src="/oil-gas.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/oil-gas.webp"
                   width="568"
                   height="412"
                   layout="intrinsic"
@@ -447,7 +447,7 @@ Understand the best practices for the finance sector.
               </div>
 
               <div className={styles.right}>
-                <Image src="/Bnking domain.png" width="350" height="350" />
+                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Bnking domain.png" width="350" height="350" />
               </div>
             </div>
           ) : (
@@ -482,7 +482,7 @@ Know data-driven consumer and market insights.
                 </a>
               </div>
               <div className={styles.right}>
-                <Image src="/gobal-industry.webp" width="296" height="345" />
+                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp" width="296" height="345" />
               </div>
             </div>
           ) : (
@@ -519,7 +519,7 @@ Know data-driven consumer and market insights.
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/Mediacal-domain.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Mediacal-domain.webp"
                   width="296"
                   height="361"
                   layout="intrinsic"
@@ -558,7 +558,7 @@ Incorporate future proof practices with Data Science and AI.
                 </a>
               </div>
               <div className={styles.right} style={{ paddingBottom: "40px" }}>
-                <Image src="/Healthcare-domain.webp" width="351" height="332" />
+                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp" width="351" height="332" />
               </div>
             </div>
           ) : (
@@ -595,7 +595,7 @@ Incorporate future proof practices with Data Science and AI.
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/Manufacturing-domain-slider.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manufacturing-domain-slider.webp"
                   width="271"
                   height="353"
                 />
@@ -634,7 +634,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/Retail-domain.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Retail-domain.webp"
                   width="314"
                   height="360"
                   layout="intrinsic"
@@ -675,7 +675,7 @@ Understand how an industry expands exponentially with AI.
               </div>
               <div className={styles.right}>
                 <img
-                  src="/oil-gas.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/oil-gas.webp"
                   width="568"
                   height="412"
                   layout="intrinsic"

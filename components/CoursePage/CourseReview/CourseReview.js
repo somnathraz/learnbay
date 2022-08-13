@@ -35,7 +35,7 @@ const CourseReview = () => {
               <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
-                    src="/hike.svg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hike.svg"
                     width="41"
                     height="41"
                     layout="intrinsic"
@@ -51,7 +51,7 @@ const CourseReview = () => {
                   </div>
                   <a href="https://www.youtube.com/watch?v=vSjfKdIzUjY" target="_blank">
                     <Image
-                      src="/reviewYtIcon.png"
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/reviewYtIcon.png"
                       width="107"
                       height="60"
                       layout="intrinsic"
@@ -62,7 +62,7 @@ const CourseReview = () => {
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/preksha-home.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/preksha-home.png"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -89,7 +89,7 @@ const CourseReview = () => {
                 </div>
                 <div className={styles.cIcon}>
                   <Image
-                    src="/HCL.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/HCL.png"
                     width="230"
                     height="40"
                     layout="intrinsic"
@@ -101,7 +101,7 @@ const CourseReview = () => {
               <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
-                    src="/hike.svg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hike.svg"
                     width="41"
                     height="41"
                     layout="intrinsic"
@@ -117,7 +117,7 @@ const CourseReview = () => {
                   </div>
                   <a href="https://www.youtube.com/watch?v=x_EmBJ-h7DE" target="_blank">
                     <Image
-                      src="/reviewYtIcon.png"
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/reviewYtIcon.png"
                       width="107"
                       height="60"
                       layout="intrinsic"
@@ -128,7 +128,7 @@ const CourseReview = () => {
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/asrar-home.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -154,7 +154,7 @@ const CourseReview = () => {
                 </div>
                 <div className={styles.cIcon}>
                   <Image
-                    src="/TCS.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/TCS.png"
                     width="99"
                     height="30"
                     layout="intrinsic"
@@ -166,7 +166,7 @@ const CourseReview = () => {
               <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
-                    src="/hike.svg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hike.svg"
                     width="41"
                     height="41"
                     layout="intrinsic"
@@ -182,7 +182,7 @@ const CourseReview = () => {
                   </div>
                   <a href="https://youtu.be/hewBtR_WoDM" target="_blank">
                     <Image
-                      src="/reviewYtIcon.png"
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/reviewYtIcon.png"
                       width="107"
                       height="60"
                       layout="intrinsic"
@@ -193,7 +193,7 @@ const CourseReview = () => {
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/aravind-home.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/aravind-home.png"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -217,7 +217,7 @@ const CourseReview = () => {
                 </div>
                 <div className={styles.cIcon}>
                   <Image
-                    src="/amazon-review.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon-review.png"
                     width="99"
                     height="30"
                     layout="intrinsic"
@@ -229,7 +229,7 @@ const CourseReview = () => {
               <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
-                    src="/hike.svg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hike.svg"
                     width="41"
                     height="41"
                     layout="intrinsic"
@@ -243,7 +243,7 @@ const CourseReview = () => {
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/ritesh-home.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ritesh-home.png"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -270,7 +270,7 @@ const CourseReview = () => {
                 </div>
                 <div className={styles.cIcon}>
                   <Image
-                    src="/Capgemini.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Capgemini.png"
                     width="99"
                     height="30"
                     layout="intrinsic"
@@ -282,7 +282,7 @@ const CourseReview = () => {
               <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
-                    src="/hike.svg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hike.svg"
                     width="41"
                     height="41"
                     layout="intrinsic"
@@ -296,7 +296,7 @@ const CourseReview = () => {
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/saurabh-home.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/saurabh-home.png"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -323,7 +323,7 @@ const CourseReview = () => {
                 </div>
                 <div className={styles.cIcon}>
                   <Image
-                    src="/HCL.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/HCL.png"
                     width="230"
                     height="40"
                     layout="intrinsic"
@@ -335,7 +335,7 @@ const CourseReview = () => {
               <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
-                    src="/hike.svg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hike.svg"
                     width="41"
                     height="41"
                     layout="intrinsic"
@@ -349,7 +349,7 @@ const CourseReview = () => {
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/abhishek-home.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/abhishek-home.png"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -373,7 +373,7 @@ const CourseReview = () => {
                 </div>
                 <div className={styles.cIcon}>
                   <Image
-                    src="/amazon-review.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon-review.png"
                     width="99"
                     height="30"
                     layout="intrinsic"
@@ -386,7 +386,7 @@ const CourseReview = () => {
               <div className={styles.bottom}>
                 <div className={styles.leftBottom}>
                   <Image
-                    src="/hike.svg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hike.svg"
                     width="41"
                     height="41"
                     layout="intrinsic"
@@ -400,7 +400,7 @@ const CourseReview = () => {
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/vishal-home.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vishal-home.png"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -426,7 +426,7 @@ const CourseReview = () => {
                 </div>
                 <div className={styles.cIcon}>
                   <Image
-                    src="/i2i.webp"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/i2i.webp"
                     width="99"
                     height="30"
                     layout="intrinsic"
@@ -441,7 +441,7 @@ const CourseReview = () => {
         <h5>Get Assured Interview Call from Top Recruiters</h5>
         <p>Over 250+ Hiring Partners</p>
         <Image
-          src="/Hiring-partner-review.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hiring-partner-review.png"
           width="1603"
           height="82"
           layout="intrinsic"

@@ -63,7 +63,7 @@ export default function Home() {
           mTopPara1=" Foundation Program"
           title="Enhance your earning potential "
           desc="This program ensures a smooth transition into Jr. Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions."
-          src="/course1.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course1.png"
           width="900"
           height="762"
           alt="AiMl Header"
@@ -102,7 +102,7 @@ export default function Home() {
           desc="Complete your training with the internationally recognized certificate."
           desc2="Validate your Data Science skills with IBM Course Completion Certificate."
           desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-          src="/certificate-1.jpg"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate-1.jpg"
         />
 
         <SyllabusNew

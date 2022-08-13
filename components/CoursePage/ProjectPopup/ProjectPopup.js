@@ -41,7 +41,7 @@ const ProjectPopup = (props) => {
           <img src={props.imgsrc} />
         </div>
         <div className={styles.contentWrap}>
-         <img src="/Learnbay-Logo.webp" width="205px" height="auto"/>
+         <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp" width="205px" height="auto"/>
          <h5  >{props.title}</h5>
          <p>{props.desc}</p>
         </div>

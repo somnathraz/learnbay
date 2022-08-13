@@ -72,7 +72,7 @@ export default function Home() {
           desc="With demanding industry projects, you can acquire the most advanced technical expertise possible. Be a master even without a master's degree."
           width="721"
           height="632"
-          src="/course3.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course3.png"
           alt="AiMl Header"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />

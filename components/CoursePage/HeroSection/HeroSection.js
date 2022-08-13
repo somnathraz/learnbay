@@ -95,7 +95,7 @@ const HeroSection = ({
         <div className={styles.bottom}>
           <div className={styles.leftBottom}>
             <Image
-              src="/review-course-round.jpg"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/review-course-round.jpg"
               width={mobile ? 180 : 261}
               height={mobile ? 46.2 : 67}
               layout="intrinsic"

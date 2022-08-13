@@ -59,7 +59,7 @@ export default function Home() {
           title="MAANG's Best Interview Preparation Course trained by"
           spanTitleText="Top Experts"
           desc="Perform real-world industrial projects and use-cases."
-          src="/dsa-header-image.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa-header-image.png"
           width="776"
           height="682"
           alt="Full Stack"

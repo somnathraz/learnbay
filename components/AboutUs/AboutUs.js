@@ -23,7 +23,7 @@ function AboutUs() {
         </h4>
         <div className={styles.right}>
           <Image
-            src="/about-us.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/about-us.png"
             width="522"
             height="380"
             layout="intrinsic"
@@ -34,7 +34,7 @@ function AboutUs() {
         <div className={styles.FirstDiv}>
           <div className={styles.FirstImg}>
             <Image
-              src="/mission.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mission.png"
               width="517"
               height="380"
               layout="intrinsic"
@@ -81,7 +81,7 @@ function AboutUs() {
           </div>
           <div className={styles.MiddleImg}>
             <Image
-              src="/vision.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vision.png"
               width="517"
               height="330"
               layout="intrinsic"

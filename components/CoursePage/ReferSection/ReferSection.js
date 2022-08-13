@@ -26,7 +26,7 @@ function ReferSection() {
       </Popup>
           <div className={styles.first}>
           <Image
-            src="/refer.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/refer.png"
             alt="Certificate"
             quality={100}
             layout="intrinsic"

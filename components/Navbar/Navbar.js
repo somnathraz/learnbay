@@ -82,7 +82,7 @@ const Navbar = () => {
           </div>
           <a href="/">
             <Image
-              src="/Learnbay-Logo.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
               alt="Learnbay"
               quality={100}
               objectFit="contain"

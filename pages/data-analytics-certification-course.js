@@ -68,7 +68,7 @@ export default function Home() {
           title="Data Analytics Certification Program"
           spanTitleText="For Professionals"
           desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
-          src="/course6.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png"
           width="760"
           height="611"
           alt="AiMl Header"
@@ -107,7 +107,7 @@ export default function Home() {
           desc="Complete your training with the internationally recognized certificate."
           desc2="Validate your Data Analytics skills with IBM Course Completion Certificate."
           desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-          src="/BA-DA.jpeg"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
 

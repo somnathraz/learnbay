@@ -62,7 +62,7 @@ export default function Home() {
           title="Ace Your Coding Interview at MAANG and"
           spanTitleText=" Achieve Your Dream Job"
           desc="Best Interview Prep Course for Top Product Based MNCs"
-          src="/course9.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course9.png"
           width="791"
           height="659"
           alt="Full Stack"

@@ -13,7 +13,7 @@ const Footer = () => {
         <div className={styles.FooterDivInner}>
           <a href="/">
                 <Image
-                  src="/logo-light.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logo-light.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"

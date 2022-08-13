@@ -103,7 +103,7 @@ const MultiTabs = () => {
             <div className={styles.left}>
               <h5>Job Assistance Program</h5>
               <img
-                src="/short-line.svg"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/short-line.svg"
                 width="120px"
                 height="15px"
                 layout="intrinsic"
@@ -131,7 +131,7 @@ const MultiTabs = () => {
             </div>
             <div className={styles.right}>
               <Image
-                src="/dedicate-placement-cell.webp"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dedicate-placement-cell.webp"
                 width="419"
                 height="412"
               />
@@ -145,7 +145,7 @@ const MultiTabs = () => {
             <div className={styles.left}>
               <h5>Global Industry Certification</h5>
               <img
-                src="/short-line.svg"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/short-line.svg"
                 width="120px"
                 height="15px"
                 layout="intrinsic"
@@ -173,7 +173,7 @@ const MultiTabs = () => {
             </div>
             <div className={styles.right}>
               <Image
-                src="/IBM-certified-capstone.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/IBM-certified-capstone.png"
                 width="504"
                 height="383"
               />
@@ -187,7 +187,7 @@ const MultiTabs = () => {
             <div className={styles.left}>
               <h5>Special Classes For Beginners</h5>
               <img
-                src="/short-line.svg"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/short-line.svg"
                 width="120px"
                 height="15px"
                 layout="intrinsic"
@@ -215,7 +215,7 @@ const MultiTabs = () => {
             </div>
             <div className={styles.right}>
               <Image
-                src="/special-classes-beigneers.webp"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/special-classes-beigneers.webp"
                 width="400"
                 height="412"
               />
@@ -229,7 +229,7 @@ const MultiTabs = () => {
             <div className={styles.left}>
               <h5>1:1 Personal Mentorship</h5>
               <img
-                src="/short-line.svg"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/short-line.svg"
                 width="120px"
                 height="15px"
                 layout="intrinsic"
@@ -256,7 +256,7 @@ const MultiTabs = () => {
               </div>
             </div>
             <div className={styles.right}>
-              <Image src="/flexibility-support.webp" width="391" height="377" />
+              <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/flexibility-support.webp" width="391" height="377" />
             </div>
           </div>
         ) : (

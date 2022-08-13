@@ -227,7 +227,7 @@ function SyllabusNew({
               />
             </div>
           </div>
-          <img src="/blue-shadow.svg" className={styles.shadowImg} />
+          <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg" className={styles.shadowImg} />
         </div>
       </div>
     </section>

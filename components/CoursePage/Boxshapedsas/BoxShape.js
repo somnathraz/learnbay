@@ -49,10 +49,10 @@ const BoxShape = ({
           </div>
           <div className={hover ? styles.box : styles.boxActive}>
             {hover ? (
-              <img src="/Live-classes-home-alt.svg" loading="lazy" />
+              <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg" loading="lazy" />
             ) : (
               <img
-                src="/capstone-live-home.svg"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/capstone-live-home.svg"
                 alt="data-science"
                 className={styles.icon}
                 loading="lazy"
@@ -104,7 +104,7 @@ const BoxShape = ({
                   </p>
                   <div className={styles.profile}>
                     <Image
-                      src="/harsh.jpeg"
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/harsh.jpeg"
                       width="80"
                       height="80"
                       layout="intrinsic"
@@ -121,7 +121,7 @@ const BoxShape = ({
                   </p>
                   <div className={styles.profile}>
                     <Image
-                      src="/neha.jpeg"
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/neha.jpeg"
                       width="80"
                       height="80"
                       layout="intrinsic"
@@ -138,7 +138,7 @@ const BoxShape = ({
                   </p>
                   <div className={styles.profile}>
                     <Image
-                      src="/nikhil-g.jpeg"
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/nikhil-g.jpeg"
                       width="80"
                       height="80"
                       layout="intrinsic"

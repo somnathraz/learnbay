@@ -73,7 +73,7 @@ const FirstSection = () => {
       </div>
       <div className={styles.rightSide}>
         <Image
-          src="/home-page-header.webp"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp"
           width="870"
           height="666"
           layout="intrinsic"

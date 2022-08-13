@@ -10,7 +10,7 @@ function LearnSupport() {
       <div className={styles.LearnSupport}>
         <div className={styles.learnInnerR}>
           <img
-            src="/24-7-support-home.webp"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/24-7-support-home.webp"
             width="100%"
             className={styles.img}
           />

@@ -61,7 +61,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
           <SwiperSlide>
             <img
               className="shadow"
-              src="/certificate.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate.webp"
               alt="learnbay"
               quality={100}
               layout="intrinsic"
@@ -72,7 +72,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
           <SwiperSlide>
             <img
               className="shadow"
-              src="/certificate-png.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate-png.webp"
               alt="learnbay"
               quality={100}
               layout="intrinsic"

@@ -26,7 +26,7 @@ function demo() {
         </h4>
         <div className={styles.right}>
           <Image
-            src="/demo-header.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/demo-header.png"
             width="522"
             height="380"
             layout="intrinsic"

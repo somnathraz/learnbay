@@ -35,7 +35,7 @@ const CourseReview = () => {
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/akanksha.jpg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/akanksha.jpg"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -64,7 +64,7 @@ referrals to product-based companies.
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/rahul.jpg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/rahul.jpg"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -96,7 +96,7 @@ before course completion.
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/kamlesh.jpg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/kamlesh.jpg"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -129,7 +129,7 @@ easily.
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/Ashutosh.jpg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Ashutosh.jpg"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -163,7 +163,7 @@ this course helped me achieve it .
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/Vishrut.jpg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Vishrut.jpg"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -197,7 +197,7 @@ based companies.
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/Manav.jpg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manav.jpg"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -229,7 +229,7 @@ helped me in my career.
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="/Manish.jpg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manish.jpg"
                     layout="intrinsic"
                     width="100"
                     height="100"
@@ -264,7 +264,7 @@ gave a good boost to my career
         <h5>Get Assured Interview Call from Top Recruiters</h5>
         <p>Over 250+ Hiring Partners</p>
         <Image
-          src="/Hiring-partner-review.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hiring-partner-review.png"
           width="1603"
           height="82"
           layout="intrinsic"

@@ -104,7 +104,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/1-1.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/1-1.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -139,7 +139,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/2-3.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/2-3.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -174,7 +174,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/Untitled-design-3.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Untitled-design-3.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -209,7 +209,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/Untitled-design-2.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Untitled-design-2.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -244,7 +244,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/12-1.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/12-1.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -279,7 +279,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/5(2).png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/5(2).png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -314,7 +314,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/4(2).png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/4(2).png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -349,7 +349,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="/9-1.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/9-1.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"

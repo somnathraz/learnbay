@@ -30,7 +30,7 @@ const WhyLearnbay = () => {
           <div className={styles.DivIcon}>
             <div className={styles.iconBox}>
               <Image
-                src="/Live-classes-home-section.svg"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-section.svg"
                 width="50"
                 height="50"
                 layout="intrinsic"
@@ -41,7 +41,7 @@ const WhyLearnbay = () => {
             </div>
             <div className={styles.iconBox}>
               <Image
-                src="/why-learnbay-project.svg"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/why-learnbay-project.svg"
                 width="50"
                 height="50"
                 layout="intrinsic"
@@ -61,7 +61,7 @@ const WhyLearnbay = () => {
           <div className={styles.DivIcon}>
             <div className={styles.iconBox}>
               <img
-                src="/Live-classes-home-alt.svg"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg"
                 width="40"
                 height="40"
                 loading="lazy"
@@ -70,7 +70,7 @@ const WhyLearnbay = () => {
             </div>
             <div className={styles.iconBox}>
               <img
-                src="/domain-in-why-learnbay.svg"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domain-in-why-learnbay.svg"
                 width="40"
                 height="40"
                 loading="lazy"
@@ -88,7 +88,7 @@ const WhyLearnbay = () => {
         </div>
         <div className={styles.MiddleImg}>
           <Image
-            src="/domain-specialized.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domain-specialized.png"
             width="656"
             height="457"
             layout="intrinsic"

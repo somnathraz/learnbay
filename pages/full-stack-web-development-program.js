@@ -60,7 +60,7 @@ export default function Home() {
           title="Full Stack Web Development Program"
           spanTitleText="Crack MAANG Interviews"
           desc="Learn ultimate methods from MNC specialists with real-world projects"
-          src="/header-home.webp"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/header-home.webp"
           width="780"
           height="603"
           alt="Full Stack"

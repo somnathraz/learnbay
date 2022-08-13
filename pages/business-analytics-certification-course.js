@@ -68,7 +68,7 @@ export default function Home() {
           title="Business Analytics Certification Program"
           spanTitleText="For Non-tech Professionals"
           desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
-          src="/course7.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course7.png"
           width="674"
           height="623"
           alt="AiMl Header"
@@ -106,7 +106,7 @@ export default function Home() {
           desc="Complete your training with the internationally recognized certificate."
           desc2="Validate your Business Analytics skills with IBM Course Completion Certificate."
           desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-          src="/BA-DA.jpeg"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
         />
 
         <SyllabusNew

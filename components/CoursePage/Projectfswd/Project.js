@@ -102,7 +102,7 @@ const Project = ({ ChangeProject, project, domain }) => {
             <div className={styles.header}>
               <div className={styles.right}>
                 <Image
-                  src="/project/2.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/2.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -128,7 +128,7 @@ and add new ones.
             <div className={styles.header}>
               <div className={styles.right}>
                 <Image
-                  src="/project/4.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/4.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -154,7 +154,7 @@ exchange data.
             <div className={styles.header}>
               <div className={styles.right}>
                 <Image
-                  src="/project/5.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/5.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -182,7 +182,7 @@ chatbot, etc.
             <div className={styles.header}>
               <div className={styles.right}>
                 <Image
-                  src="/project/1.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/1.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -209,7 +209,7 @@ authentication server.
             <div className={styles.header}>
               <div className={styles.right}>
                 <Image
-                  src="/project/6.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/6.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -234,7 +234,7 @@ management services.
             <div className={styles.header}>
               <div className={styles.right}>
                 <Image
-                  src="/project/7.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/7.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -261,7 +261,7 @@ or application.
             <div className={styles.header}>
               <div className={styles.right}>
                 <Image
-                  src="/project/3.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/3.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -286,7 +286,7 @@ online businesses.
             <div className={styles.header}>
               <div className={styles.right}>
                 <Image
-                  src="/project/8.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/8.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"

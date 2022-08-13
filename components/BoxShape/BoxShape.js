@@ -25,7 +25,7 @@ const BoxShape = () => {
           <div className={hover ? styles.blurDivS : styles.blurDiv}></div>
           {hover ? (
             <img
-              src="/Live-classes-home-alt.svg"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg"
               width="60"
               height="60"
               loading="lazy"

@@ -39,7 +39,7 @@ const KeyFeatures = () => {
           </div>
           <div className={styles.RightWrap}>
             <Image
-              src="/Hiring-logo-home.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hiring-logo-home.webp"
               width="879"
               height="557"
               layout="intrinsic"
