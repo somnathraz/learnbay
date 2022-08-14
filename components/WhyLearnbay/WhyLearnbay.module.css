@@ -39,7 +39,7 @@
 .MiddleDiv {
   display: grid;
   grid-template-columns: 50% 50%;
-  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/whylearbay-section2-back.png");
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/whylearbay-section2-back.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -166,27 +166,27 @@
     padding: 70px 0px;
     width: 100%;
   }
-.FirstText {
-  padding: 30px;
-}
-.MiddleDiv {
-  padding: 0px 50px 0px 50px;
-  margin: 0px;
-  background-position: right;
-  display: flex;
-}
-.MiddleImg {
-  margin: 0;
-}
-.FirstDiv {
-  padding: 0px 50px 0px 50px;
-  margin: 0px;
-  background-position: right;
-  margin: 50px 0px;
-}
-.FirstImg {
-  margin: 0;
-}
+  .FirstText {
+    padding: 30px;
+  }
+  .MiddleDiv {
+    padding: 0px 50px 0px 50px;
+    margin: 0px;
+    background-position: right;
+    display: flex;
+  }
+  .MiddleImg {
+    margin: 0;
+  }
+  .FirstDiv {
+    padding: 0px 50px 0px 50px;
+    margin: 0px;
+    background-position: right;
+    margin: 50px 0px;
+  }
+  .FirstImg {
+    margin: 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -236,9 +236,9 @@
   .FirstText {
     padding: 20px;
   }
-.iconBox {
-  width: 100%;
-}
+  .iconBox {
+    width: 100%;
+  }
 }
 
 @media (max-width: 481px) {
@@ -256,10 +256,10 @@
     padding: 20px 0px;
     text-align: left;
   }
-.MiddleDiv {
-  background-position: center;
-}
-.DivIcon {
-  align-items: center;
-}
+  .MiddleDiv {
+    background-position: center;
+  }
+  .DivIcon {
+    align-items: center;
+  }
 }

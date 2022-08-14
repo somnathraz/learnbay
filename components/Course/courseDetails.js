@@ -76,7 +76,7 @@ export const viewAllD = [
   },
   {
     id: 6,
-    img: "/dsa-system.png",
+    img: "/dsa-system.webp",
     title: "Data Analytics",
     title1: "Program",
     tag: "Data science",
@@ -91,7 +91,7 @@ export const viewAllD = [
   },
   {
     id: 7,
-    img: "business-analytics.png",
+    img: "business-analytics.webp",
     title: "Business Analytics",
     title1: "Program",
     tag: "Data science",
@@ -154,7 +154,7 @@ export const viewAllD = [
 export const ForProgrammersD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.webp",
     title: "Advanced Data Science",
     tag: "Data science",
     title1: "& AI Program",
@@ -261,7 +261,7 @@ export const ForProgrammersD = [
 export const ForNonProgrammerD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-program.webp",
     title: "Data Science",
     title1: "Foundation Program",
     tag: "Data science",
@@ -276,7 +276,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.webp",
     title: "Advanced Data Science",
     title1: "& AI Program",
     tag: "Data science",
@@ -336,7 +336,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 6,
-    img: "business-analytics.png",
+    img: "business-analytics.webp",
     title: "Business Analytics",
     title1: "Program",
     tag: "Data science",
@@ -352,7 +352,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 7,
-    img: "/dsa-system.png",
+    img: "/dsa-system.webp",
     title: "Data Analytics",
     title1: "Program",
     tag: "Data science",
