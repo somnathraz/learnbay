@@ -140,7 +140,7 @@
   grid-template-columns: 20% 60% 20%;
   justify-content: space-between;
   border-radius: 25px;
-  background-image: url("/Cta(2).webp");
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Cta(2).webp");
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -311,7 +311,7 @@
   .cta {
     display: flex;
     justify-content: space-between;
-    background-image: url("/cta-m.png");
+    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/cta-m.png");
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
@@ -333,7 +333,7 @@
     display: block;
     justify-content: space-between;
     border-radius: 25px;
-    background-image: url("/mobile-view.webp");
+    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mobile-view.webp");
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;

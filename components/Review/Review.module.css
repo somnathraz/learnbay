@@ -5,7 +5,7 @@
 }
 
 .Back {
-    background: url("/review.png");
+    background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/review.png");
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;

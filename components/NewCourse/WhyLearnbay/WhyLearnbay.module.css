@@ -41,7 +41,7 @@
 }
 
 .FirstImg {
-  background-image: url("/interactive-learning.png");
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/interactive-learning.png");
   height: 100%;
   background-size: cover;
   background-repeat:no-repeat;
@@ -51,7 +51,7 @@
 }
 
 .MiddleImg {
-  background-image: url("/domain-specialized.png");
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domain-specialized.png");
   height: 100%;
   background-size: cover;
   background-repeat:no-repeat;
@@ -61,7 +61,7 @@
 }
 
 .LastImg {
-  background-image: url("/job-oriented.png");
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/job-oriented.png");
   height: 100%;
   background-size: cover;
   background-repeat:no-repeat;

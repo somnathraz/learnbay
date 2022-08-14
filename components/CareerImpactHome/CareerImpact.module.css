@@ -81,7 +81,7 @@
 
 .ReviewLeft {
   background: linear-gradient(rgba(35, 35, 35, 0.525), rgba(61, 60, 60, 0.8)),
-    url("/Video-testimonial-and-reviews-learnbay.webp"); /* Chrome 10-25, Safari 5.1-6 */
+    url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Video-testimonial-and-reviews-learnbay.webp"); /* Chrome 10-25, Safari 5.1-6 */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -227,7 +227,7 @@
 
   .ReviewLeft {
     background: linear-gradient(rgba(35, 35, 35, 0.525), rgba(61, 60, 60, 0.8)),
-      url("/Video-testimonial-and-reviews-learnbay.webp"); /* Chrome 10-25, Safari 5.1-6 */
+      url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Video-testimonial-and-reviews-learnbay.webp"); /* Chrome 10-25, Safari 5.1-6 */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

@@ -1,6 +1,6 @@
 .OfferPopup {
   position: fixed;
-  background-image: url("/software_pattern__.webp");
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/software_pattern__.webp");
   background-color: rgb(255, 255, 255);
   border-top: 3px solid #edb552;
   filter: drop-shadow(0px 0px 10px rgba(237, 181, 82, 0.22));
