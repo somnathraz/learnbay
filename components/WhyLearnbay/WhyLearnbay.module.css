@@ -39,7 +39,7 @@
 .MiddleDiv {
   display: grid;
   grid-template-columns: 50% 50%;
-  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/whylearbay-section2-back.webp");
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/whylearbay-section2-back.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
