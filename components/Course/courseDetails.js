@@ -154,7 +154,7 @@ export const viewAllD = [
 export const ForProgrammersD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.webp",
     title: "Advanced Data Science",
     tag: "Data science",
     title1: "& AI Program",
@@ -276,7 +276,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.webp",
     title: "Advanced Data Science",
     title1: "& AI Program",
     tag: "Data science",
