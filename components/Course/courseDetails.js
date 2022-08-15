@@ -221,7 +221,7 @@ export const ForProgrammersD = [
     para: [
       "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,20,000 + GST",
+      "Course Fee : ₹1,20,000 + GST",
     ],
     link1: "/full-stack-web-development-program",
     link2:
