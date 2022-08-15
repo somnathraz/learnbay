@@ -16,7 +16,7 @@ export const viewAllD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.webp",
     title: "Advanced Data Science",
     title1: "& AI Program",
     tag: "Data science",
@@ -91,7 +91,7 @@ export const viewAllD = [
   },
   {
     id: 7,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/business-analytics.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/business-analytics.png",
     title: "Business Analytics",
     title1: "Program",
     tag: "Data science",
@@ -336,7 +336,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 6,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/business-analytics.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/business-analytics.png",
     title: "Business Analytics",
     title1: "Program",
     tag: "Data science",
@@ -352,7 +352,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 7,
-    img: "/dsa-system.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa&system.webp",
     title: "Data Analytics",
     title1: "Program",
     tag: "Data science",
