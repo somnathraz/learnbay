@@ -16,8 +16,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>Learnbay - Advance Data Science Course With IBM Certification</title>
+        <meta name="description" content="Learnbay - Advance Data Science Course With IBM Certification" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <Navbar popup={true} radio={true} />

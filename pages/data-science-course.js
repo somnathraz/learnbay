@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learnbay Courses</title>
+        <title>Learnbay - Advance Data Science Course With IBM Certification</title>
         <meta
           name="description"
           content="Data Science Course in Bangalore. Learnbay is Advanced Data Science Training Course Institute in Bangalore with 100% job placement Guarantee"
