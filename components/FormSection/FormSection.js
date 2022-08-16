@@ -15,7 +15,7 @@ const FormSection = () => {
       </div>
       <div className={styles.rightForm}>
         <div className={styles.rightFormWrap}>
-          <FormInline />
+          <FormInline radio={true}  />
         </div>
       </div>
     </div>

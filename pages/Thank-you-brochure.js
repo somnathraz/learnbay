@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/ThankYou.module.css";
 import Head from "next/head";
+import Navbar from "../components/Navbar/Navbar";
 import Image from "next/image";
 import { AiOutlineDownload } from "react-icons/ai";
 import { BsArrowLeftShort } from "react-icons/bs";
@@ -12,6 +13,7 @@ const ThankYou = () => {
         <title>Thank you!</title>
         <meta name="description" content="Thank you!" />
       </Head>
+      <Navbar popup={true} />
       <section className={styles.mains}>
         <div className={styles.left}>
           <h4 className={styles.hptop}>

@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { FiDownload } from "react-icons/fi";
 import { FaArrowRight } from "react-icons/fa";
+import Navbar from "../components/Navbar/Navbar";
 
 const ThankYou = () => {
   return (
@@ -12,6 +13,7 @@ const ThankYou = () => {
         <title>Thank you!</title>
         <meta name="description" content="Thank you!" />
       </Head>
+      <Navbar popup={true} />
       <section className={styles.mains}>
         <div className={styles.Back}>
           <h4>

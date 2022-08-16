@@ -55,7 +55,7 @@ export const viewAllD = [
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
-    link1: "/data-science-ai-for-Managers",
+    link1: "/data-science-ai-for-managers",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
   },
@@ -193,7 +193,7 @@ export const ForProgrammersD = [
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
-    link1: "/data-science-ai-for-Managers",
+    link1: "/data-science-ai-for-managers",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
   },
@@ -315,7 +315,7 @@ export const ForNonProgrammerD = [
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
-    link1: "/data-science-ai-for-Managers",
+    link1: "/data-science-ai-for-managers",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
   },

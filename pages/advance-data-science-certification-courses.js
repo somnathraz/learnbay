@@ -5,6 +5,7 @@ import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
+import Navbar from "../components/Navbar/Navbar";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../components/CoursePage/Project/Project";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
@@ -51,7 +52,8 @@ export default function Home() {
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
-      <main>
+      <main>  <Navbar popup={true} />
+
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />

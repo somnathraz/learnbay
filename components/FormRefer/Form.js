@@ -70,99 +70,72 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       off();
     }
 
-    if (router.pathname === "/data-science-certification-courses") {
-      router.push("/Thank-you");
-      return;
-    }
     if (
-      router.pathname === "/data-science-certification-courses" &&
-      downloadBrochure
+      router.pathname === "/about-us" ||
+      router.pathname === "/advance-data-science-certification-courses" ||
+      router.pathname === "/artificial-intelligence-ai-course-training-bangalore" ||
+      router.pathname === "/artificial-intelligence-ai-course-training-canada" ||
+      router.pathname === "/artificial-intelligence-ai-course-training-chennai" ||
+      router.pathname === "/artificial-intelligence-ai-course-training-delhi" ||
+      router.pathname === "/artificial-intelligence-ai-course-training-dubai" ||
+      router.pathname === "/artificial-intelligence-ai-course-training-hyderabad" ||
+      router.pathname === "/artificial-intelligence-ai-course-training-mumbai" ||
+      router.pathname === "/artificial-intelligence-ai-course-training-pune" ||
+      router.pathname === "/artificial-intelligence-certification-course" ||
+      router.pathname === "/business-analytics-certification-course" ||
+      router.pathname === "/business-analytics-course-training-in-bangalore" ||
+      router.pathname === "/business-analytics-course-training-in-canada" ||
+      router.pathname === "/business-analytics-course-training-in-chennai" ||
+      router.pathname === "/business-analytics-course-training-in-delhi" ||
+      router.pathname === "/business-analytics-course-training-in-dubai" ||
+      router.pathname === "/business-analytics-course-training-in-hyderabad" ||
+      router.pathname === "/business-analytics-course-training-in-mumbai" ||
+      router.pathname === "/business-analytics-course-training-in-pune" ||
+      router.pathname === "/contact-us" ||
+      router.pathname === "/data-analytics-certification-course" ||
+      router.pathname === "/data-analytics-course-training-in-bangalore" ||
+      router.pathname === "/data-analytics-course-training-in-canada" ||
+      router.pathname === "/data-analytics-course-training-in-chennai" ||
+      router.pathname === "/data-analytics-course-training-in-delhi" ||
+      router.pathname === "/data-analytics-course-training-in-dubai" ||
+      router.pathname === "/data-analytics-course-training-in-hyderabad" ||
+      router.pathname === "/data-analytics-course-training-in-mumbai" ||
+      router.pathname === "/data-analytics-course-training-in-pune" ||
+      router.pathname === "/data-science-ai-for-managers" ||
+      router.pathname === "/data-science-certification-courses" ||
+      router.pathname === "/data-science-course-training-in-bangalore" ||
+      router.pathname === "/data-science-course-training-in-canada" ||
+      router.pathname === "/data-science-course-training-in-chennai" ||
+      router.pathname === "/data-science-course-training-in-delhi" ||
+      router.pathname === "/data-science-course-training-in-dubai" ||
+      router.pathname === "/data-science-course-training-in-hyderabad" ||
+      router.pathname === "/data-science-course-training-in-mumbai" ||
+      router.pathname === "/data-science-course-training-in-pune" ||
+      router.pathname === "/data-science-course" ||
+      router.pathname === "/demo" ||
+      router.pathname === "/dsa-system-design" ||
+      router.pathname === "/full-stack-software-development-program" ||
+      router.pathname === "/full-stack-web-development-program" ||
+      router.pathname === "/" ||
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-certification-course" ||
+      router.pathname === "/machine-learning-course-training-in-bangalore" ||
+      router.pathname === "/machine-learning-course-training-in-canada" ||
+      router.pathname === "/machine-learning-course-training-in-chennai" ||
+      router.pathname === "/machine-learning-course-training-in-delhi" ||
+      router.pathname === "/machine-learning-course-training-in-dubai" ||
+      router.pathname === "/machine-learning-course-training-in-hyderabad" ||
+      router.pathname === "/machine-learning-course-training-in-mumbai" ||
+      router.pathname === "/machine-learning-course-training-in-pune" ||
+      router.pathname === "/privacy-policy" ||
+      router.pathname === "/refund-cancellation-policy" ||
+      router.pathname === "/reviews" ||
+      router.pathname === "/terms-conditions-job" ||
+      router.pathname === "/submit-info" ||
+      router.pathname === "/terms-conditions" ||
+      router.pathname === "/Thank-you" ||
+      router.pathname === "/"
     ) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/advance-data-science-certification-courses") {
       router.push("/Thank-you");
-      return;
-    }
-    if (
-      router.pathname === "/advance-data-science-certification-courses" &&
-      downloadBrochure
-    ) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/artificial-intelligence-certification-course") {
-      router.push("/Thank-you");
-      return;
-    }
-    if (
-      router.pathname === "/artificial-intelligence-certification-course" &&
-      downloadBrochure
-    ) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/data-science-ai-for-Managers") {
-      router.push("/Thank-you");
-      return;
-    }
-    if (
-      router.pathname === "/data-science-ai-for-Managers" &&
-      downloadBrochure
-    ) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (
-      router.pathname ===
-      "/job-guarantee-or-money-back-data-science-ai-certification-course"
-    ) {
-      router.push("/Thank-you");
-      return;
-    }
-    if (
-      router.pathname ===
-        "/job-guarantee-or-money-back-data-science-ai-certification-course" &&
-      downloadBrochure
-    ) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/business-analytics-certification-course") {
-      router.push("/Thank-you");
-      return;
-    }
-    if (
-      router.pathname === "/business-analytics-certification-course" &&
-      downloadBrochure
-    ) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/data-analytics-certification-course") {
-      router.push("/Thank-you");
-      return;
-    }
-    if (
-      router.pathname === "/data-analytics-certification-course" &&
-      downloadBrochure
-    ) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/full-stack-software-development-program") {
-      router.push("/Thank-you");
-    }
-    if (router.pathname === "/full-stack-software-development-program" && downloadBrochure) {
-      router.push("/Thank-you-brochure");
-      return;
-    }
-    if (router.pathname === "/full-stack-web-development-program") {
-      router.push("/Thank-you");
-    }
-    if (router.pathname === "/full-stack-web-development-program" && downloadBrochure) {
-      router.push("/Thank-you-brochure");
       return;
     }
   };

@@ -5,6 +5,7 @@ import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
+import Navbar from "../components/Navbar/Navbar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -65,7 +66,8 @@ export default function Home() {
         <meta name="robots" content="ALL" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
-      <main>
+      <main>  <Navbar popup={true} />
+
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -138,7 +140,7 @@ export default function Home() {
               ProgramBot6="There are four available Data Science and AI Certification Courses by Learnbay in Canada, which are listed below :"
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"
-              Courselink4="/data-science-ai-for-Managers"
+              Courselink4="/data-science-ai-for-managers"
               Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"

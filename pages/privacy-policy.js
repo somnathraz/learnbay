@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Privacy from "../components/privacy/privacy";
-
+import Navbar from "../components/Navbar/Navbar";
 
 function privacy() {
   return (
@@ -11,7 +11,8 @@ function privacy() {
         <meta name="description" content="Learnbay's Privacy Policy" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
-      <main>
+      <main>  <Navbar popup={true} />
+
       <Privacy />
       </main>
     </div>

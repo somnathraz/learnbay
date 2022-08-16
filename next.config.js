@@ -282,8 +282,8 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/data-science-course/data-science-ai-for-Managers',
-        destination: '/data-science-ai-for-Managers',
+        source: '/data-science-course/data-science-ai-for-managers',
+        destination: '/data-science-ai-for-managers',
         permanent: true,
       },
       {
@@ -544,6 +544,56 @@ module.exports = {
       {
         source: '/data-science-course/evolution-of-data-science-in-india',
         destination: '/blog/evolution-of-data-science-in-india',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/data-science-certification-courses',
+        destination: '/data-science-certification-courses',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/business-analytics-course-in-bangalore',
+        destination: '/business-analytics-course-training-in-bangalore',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/data-analytics-online-training-in-bangalore',
+        destination: '/data-analytics-course-training-in-bangalore',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/webinar',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/shop',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/contact',
+        destination: '/contact-us',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/reviews',
+        destination: '/reviews',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/team',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/thank-you',
+        destination: '/Thank-you',
+        permanent: true,
+      },
+      {
+        source: '/data-science-course/decision-tree',
+        destination: '/',
         permanent: true,
       },
     ]

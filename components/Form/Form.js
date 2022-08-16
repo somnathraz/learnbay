@@ -10,7 +10,7 @@ import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
 
-const Form = ({ popup, setTrigger, downloadBrochure }) => {
+const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   const router = useRouter();
   let today = new Date();
   let time =
@@ -212,6 +212,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             onChange={handleParam()}
           >
             <option value="Work Experience">Work Experience</option>
+            <option value="1 to 3 year">fresher or 0 year</option>
             <option value="1 to 3 year">1 to 3 years</option>
             <option value="3 to 7 year">3 to 7 years</option>
             <option value="7 to 12 year">7 to 12 years</option>
@@ -258,6 +259,30 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
               />
             </div>
           </div>
+          {radio ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <input
+              id="Data Science Program"
+              value="Data Science Program"
+              name="platform"
+              required
+              type="radio"
+              onChange={handleParam()}
+            />
+            Data Science Program&nbsp;
+            <input
+              id="Full Stack Program"
+              value="Full Stack Program"
+              name="platform"
+              required
+              type="radio"
+              onChange={handleParam()}
+            />
+            Full Stack Program
+          </div>
+        ) : (
+          ""
+        )}
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.

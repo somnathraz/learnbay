@@ -9,7 +9,7 @@ import Form from "../Form/Form";
 import { useRouter } from "next/router";
 import Tabs from "../Tabs/Tabs";
 
-const Navbar = () => {
+const Navbar = ({ radio }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <p>Fill the below details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} radio={radio} />
         </div>
       </Popup>
       <nav className={styles.nav}>
