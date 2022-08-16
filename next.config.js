@@ -1,9 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+// const nextConfig = {
+//   reactStrictMode: true,
+// }
 
 module.exports = {
+  reactStrictMode: true,
+  images: {
+    domains: ["learnbay-wb.s3.ap-south-1.amazonaws.com"],
+  },
   async redirects() {
     return [
       {
@@ -599,11 +603,11 @@ module.exports = {
   },
 }
 
-module.exports = {
-  images: {
-    domains: ["learnbay-wb.s3.ap-south-1.amazonaws.com"],
-  },
-};
+// module.exports = {
+//   images: {
+//     domains: ["learnbay-wb.s3.ap-south-1.amazonaws.com"],
+//   },
+// };
 
 // module.exports = nextConfig;
 
