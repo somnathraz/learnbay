@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Navbar from "../components/Navbar/Navbar";
 import ContactUs from "../components/ContactUs/ContactUs";
 
 function contactus() {
@@ -10,7 +11,8 @@ function contactus() {
         <meta name="description" content="Contact Us" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
-      <main>
+      <main>  <Navbar popup={true} />
+
         <ContactUs />
       </main>
     </div>

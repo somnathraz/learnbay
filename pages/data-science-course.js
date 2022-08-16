@@ -6,6 +6,7 @@ import KeyFeatures from "../components/KeyFeatures/KeyFeatures";
 import WhyLearnbay from "../components/WhyLearnbay/WhyLearnbay";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import CareerImpactHome from "../components/CareerImpactHome/CareerImpact";
+import Navbar from "../components/Navbar/Navbar";
 import Switch from "../components/switch/switch";
 import BoxShape from "../components/BoxShape/BoxShape";
 import MultiTabs from "../components/MultiTabs/MultiTabs";
@@ -15,7 +16,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learnbay Courses</title>
+        <title>Learnbay - Advance Data Science Course With IBM Certification</title>
         <meta
           name="description"
           content="Data Science Course in Bangalore. Learnbay is Advanced Data Science Training Course Institute in Bangalore with 100% job placement Guarantee"
@@ -43,6 +44,7 @@ export default function Home() {
         <meta name="robots" content="ALL" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
+      <Navbar popup={true} radio={true} />
       <FirstSection />
       <div className={styles.boxWrap}>
         <h2>Get Certified & Move Towards Your Dream Job</h2>

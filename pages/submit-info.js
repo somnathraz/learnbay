@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "../components/Form/Form";
 import styles from "../styles/Submit.module.css";
+import Navbar from "../components/Navbar/Navbar";
 import Image from "next/image";
 import Head from "next/head";
 
@@ -11,9 +12,10 @@ const sumbit = () => {
         <title>Apply For Counselling</title>
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
+      <Navbar popup={true} />
       <div className={styles.left}>
         <h6>Apply For Counselling</h6>
-        <Form />
+        <Form radio={true} />
       </div>
       <div className={styles.right}>
         <Image

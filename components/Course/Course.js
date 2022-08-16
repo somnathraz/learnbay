@@ -88,9 +88,11 @@ const Course = () => {
               <h5>Data Science (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.1 : 3.2}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -155,7 +157,9 @@ const Course = () => {
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -239,9 +243,11 @@ const Course = () => {
               <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.1 : 3.2}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -324,7 +330,9 @@ const Course = () => {
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -410,7 +418,9 @@ const Course = () => {
                 <Swiper
                   slidesPerView={mobile ? 1 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -475,7 +485,9 @@ const Course = () => {
                 <Swiper
                   slidesPerView={mobile ? 1 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -559,9 +571,11 @@ const Course = () => {
               <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.1 : 3.2}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -626,7 +640,9 @@ const Course = () => {
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -698,9 +714,11 @@ const Course = () => {
               <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1 : 3}
+                  slidesPerView={mobile ? 1 : 3.2}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -765,7 +783,9 @@ const Course = () => {
                 <Swiper
                   slidesPerView={mobile ? 1 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -835,9 +855,11 @@ const Course = () => {
               <h5>Data Science (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.1 : 3.2}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -902,7 +924,9 @@ const Course = () => {
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -971,9 +995,11 @@ const Course = () => {
               <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.1 : 3.2}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -1044,7 +1070,9 @@ const Course = () => {
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -1109,7 +1137,9 @@ const Course = () => {
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -1181,7 +1211,9 @@ const Course = () => {
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
-                  pagination={true}
+                  pagination={{
+            clickable: true,
+          }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"

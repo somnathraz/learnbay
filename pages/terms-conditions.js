@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Terms from "../components/terms/terms";
+import Navbar from "../components/Navbar/Navbar";
 
 
 function terms() {
@@ -12,6 +13,7 @@ function terms() {
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
+      <Navbar popup={true} />
       <Terms />
       </main>
     </div>

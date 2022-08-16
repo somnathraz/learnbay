@@ -5,6 +5,7 @@ import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
+import Navbar from "../components/Navbar/Navbar";
 import Form from "../components/Form/Form";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import CityText from "../components/CityComponent/CityText/CityText";
@@ -66,7 +67,8 @@ export default function Home() {
         <meta name="robots" content="ALL" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
-      <main>
+      <main>  <Navbar popup={true} />
+
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />

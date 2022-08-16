@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Refund from "../components/refund/refund";
+import Navbar from "../components/Navbar/Navbar";
 
 
 function refund() {
@@ -11,7 +12,8 @@ function refund() {
         <meta name="description" content="Learnbay's Refund & Cancellation Policy" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
-      <main>
+      <main>  <Navbar popup={true} />
+
       <Refund />
       </main>
     </div>
