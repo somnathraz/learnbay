@@ -10,7 +10,7 @@ const OfferPopup = ({ title, p1, p2, batch1, batch11, batch2, batch22 }) => {
   useEffect(() => {
     setTimeout(() => {
       setOpen(true);
-    }, 5000);
+    }, 10000);
     return;
   }, []);
 
