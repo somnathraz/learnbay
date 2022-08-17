@@ -74,7 +74,7 @@ export const DsaiManagersCourseData = [
 
             {
               chap: {
-                title: "Chapter 2:  Fundamentals of programming ",
+                title: "Topic 2:  Fundamentals of programming ",
                 desc: [
                   "Introduction to Anaconda & Jupyter notebook ",
                   "Flavors of python Introduction to Git, GitHub",

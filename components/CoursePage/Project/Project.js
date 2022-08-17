@@ -125,7 +125,7 @@ const Project = ({ ChangeProject, project, domain }) => {
                   setDesc(
                     "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities."
                   );
-                  setImg("/Hr-domain-img.png");
+                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hr-domain-img.png");
                 }}
               >
                 Learn More
@@ -160,7 +160,7 @@ const Project = ({ ChangeProject, project, domain }) => {
                   setDesc(
                     "Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools. They also require proper message preparation and delivery of the same to the right audience at the right time. You can help them with text analytics and NLP-based keyword research solutions"
                   );
-                  setImg("/Marketing-domain-img.png");
+                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Marketing-domain-img.png");
                 }}
               >
                 Learn More
@@ -195,7 +195,7 @@ const Project = ({ ChangeProject, project, domain }) => {
                   setDesc(
                     "An automated inventory management system will keep track of stock levels and upcoming orders. In addition, you can contribute to DataCo's intelligent supply chain software generation project by using ML algorithms and R programming skills."
                   );
-                  setImg("/supplyChain.png");
+                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png");
                 }}
               >
                 Learn More
@@ -230,7 +230,7 @@ const Project = ({ ChangeProject, project, domain }) => {
                   setDesc(
                     "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
                   );
-                  setImg("/Sales-domain.png");
+                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Sales-domain.png");
                 }}
               >
                 Learn More
@@ -265,7 +265,7 @@ const Project = ({ ChangeProject, project, domain }) => {
                   setDesc(
                     "Take an active part in the Walmart sales forecasting project. From the huge data set available, you have to perform a sales forecast for 45 Walmart stores. You have to include holiday markdown sales too."
                   );
-                  setImg("/supplyChain.png");
+                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png");
                 }}
               >
                 Learn More
@@ -300,7 +300,7 @@ const Project = ({ ChangeProject, project, domain }) => {
                   setDesc(
                     "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
                   );
-                  setImg("/supplyChain.png");
+                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png");
                 }}
               >
                 Learn More
@@ -335,7 +335,7 @@ const Project = ({ ChangeProject, project, domain }) => {
                   setDesc(
                     "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
                   );
-                  setImg("/supplyChain.png");
+                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png");
                 }}
               >
                 Learn More
@@ -370,7 +370,7 @@ const Project = ({ ChangeProject, project, domain }) => {
                   setDesc(
                     "Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP."
                   );
-                  setImg("/supplyChain.png");
+                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png");
                 }}
               >
                 Learn More

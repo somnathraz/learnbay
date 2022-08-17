@@ -74,7 +74,7 @@ export const JobGuaranteeCourseData = [
 
             {
               chap: {
-                title: "Chapter 2:Fundamentals of Programming",
+                title: "Topic 2:Fundamentals of Programming",
                 desc: [
                   "Introduction to Anaconda & Jupyter notebook",
                   "Flavors of python Introduction to Git, GitHub",
@@ -84,7 +84,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3:  Fundamentals of Statistics",
+                title: "Topic 3:  Fundamentals of Statistics",
                 desc: [
                   "Mean, Median, Mode",
                   "Standard Deviation, Average. Probability, Permutations, and Combinations",
@@ -122,7 +122,7 @@ export const JobGuaranteeCourseData = [
 
             {
               chap: {
-                title: "Chapter 2: Python Introduction ",
+                title: "Module 2: Python Introduction ",
                 desc: [
                   "How a Python Program runs on our system?",
                   "Features of Python Memory Management in Python,",
@@ -132,13 +132,13 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: Conditional And Loops  ",
+                title: "Module 3: Conditional And Loops  ",
                 desc: ["Conditional Statement", "Loop Statement."],
               },
             },
             {
               chap: {
-                title: "Chapter 4: Python Programming Components",
+                title: "Module 4: Python Programming Components",
                 desc: [
                   "Linting",
                   "Formatting",
@@ -150,7 +150,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 5: Function",
+                title: "Module 5: Function",
                 desc: [
                   "Working with functions",
                   "Parameters vs Arguments",
@@ -161,7 +161,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 6: Expection Handling",
+                title: "Module 6: Expection Handling",
                 desc: [
                   "Introduction to Exception Handling",
                   "Type of Errors",
@@ -171,7 +171,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 7: Modules in Python",
+                title: "Module 7: Modules in Python",
                 desc: [
                   "Introduction to Modular Programming",
                   "Importing Modules and different import statement",
@@ -181,7 +181,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 8: File Handeling",
+                title: "Module 8: File Handeling",
                 desc: [
                   "Use of File Handling?",
                   "Type of Files",
@@ -195,7 +195,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 9: Regular Expression",
+                title: "Module 9: Regular Expression",
                 desc: [
                   "Intro & use of Regular Expression?",
                   "Regex module & important methods,",
@@ -205,7 +205,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 10: Numpy In Python",
+                title: "Module 10: Numpy In Python",
                 desc: [
                   "Intro & use of numpy, What is an array?",
                   "Array Operations Using Numpy",
@@ -216,7 +216,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 11: Pandas In Python",
+                title: "Module 11: Pandas In Python",
                 desc: [
                   "Numpy vs Pandas",
                   "Exporting Dataframe to CSV and Excel",
@@ -226,7 +226,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 12: MatplotLib",
+                title: "Module 12: MatplotLib",
                 desc: [
                   "Lines & markers",
                   "Figures",
@@ -239,7 +239,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 13: Seaborn",
+                title: "Module 13: Seaborn",
                 desc: [
                   "Working with seaborn on titanic dataset",
                   "Introduction & installation",
@@ -250,7 +250,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 14: Other visualisation libraries",
+                title: "Module 14: Other visualisation libraries",
                 desc: ["Plotly", "Pygal", "Geopltlib etc."],
               },
             },
@@ -265,7 +265,7 @@ export const JobGuaranteeCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1:Statistics",
+                title: "Module 1:Statistics",
                 desc: [
                   " Fundamentals of Math and Probability",
                   "All about Population & Sample",
@@ -281,7 +281,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: Machine Learning",
+                title: "Module 2: Machine Learning",
                 desc: [
                   "Introduction to Machine Learning",
                   "Regression and Classification Models",
@@ -313,7 +313,7 @@ export const JobGuaranteeCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1: SQL",
+                title: "Module 1: SQL",
                 desc: [
                   "SQL and RDBMS",
                   "Advance SQL",
@@ -325,13 +325,13 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: MongoDB",
+                title: "Module 2: MongoDB",
                 desc: [" Introduction to MongoDB", "MongoDB (Advance)"],
               },
             },
             {
               chap: {
-                title: "Chapter 3: Tableau",
+                title: "Module 3: Tableau",
                 desc: [
                   " Introduction to Tableau",
                   "Visual Analytics",
@@ -342,7 +342,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 4: PowerBI",
+                title: "Module 4: PowerBI",
                 desc: [
                   "Getting Started With Power BI",
                   "Programming with Power BI",
@@ -351,7 +351,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 5: Big Data & Spark Analytics",
+                title: "Module 5: Big Data & Spark Analytics",
                 desc: [
                   "Introduction To Hadoop & Big Data",
                   "What is Spark",
@@ -361,7 +361,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 6: Time Series",
+                title: "Module 6: Time Series",
                 desc: [
                   " Introduction to Time Series Forecasting",
                   "Introduction to ARIMA Models Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
@@ -379,7 +379,7 @@ export const JobGuaranteeCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1:- Deep Learning Using Tensorflow",
+                title: "Module 1:- Deep Learning Using Tensorflow",
                 desc: [
                   " Introduction to Deep Learning And TensorFlow",
                   "TensorFlow Classification Examples",
@@ -393,7 +393,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: Natural Language Processing (NLP)",
+                title: "Module 2: Natural Language Processing (NLP)",
                 desc: [
                   "Natural Language Processing",
                   "Text Analysis",
@@ -405,7 +405,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: Computer Vision",
+                title: "Module 3: Computer Vision",
                 desc: [
                   "Computer Vision overview",
                   " Image Filtering",
@@ -416,7 +416,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 4: Reinforcement Learning",
+                title: "Module 4: Reinforcement Learning",
                 desc: [
                   "What is Reinforcement Learning - Basics",
                   " Approximation Methods for Reinforcement Learning Projects and Case Studies on Solving Taxi Environment & Solving Frozen Lake",
@@ -425,7 +425,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 5: Model Training & Deployment Using (AWS GCP)",
+                title: "Module 5: Model Training & Deployment Using (AWS GCP)",
                 desc: [
                   " AWS (Amazon Web Services)",
                   "GCP (Google Cloud Platform)",
@@ -446,7 +446,7 @@ export const JobGuaranteeCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1:-DSA ",
+                title: "Module 1:-DSA ",
                 desc: [
                   "Array Overview",
                   "String",
@@ -470,7 +470,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: Business Analytics ",
+                title: "Module 2: Business Analytics ",
                 desc: [
                   "Introduction to Business Analysis",
                   "Stakeholders in Business Analysis",
@@ -483,7 +483,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: Project Management Module",
+                title: "Module 3: Project Management Module",
                 desc: [
                   "Jira process",
                   "PM approaches for Technical Projects",
@@ -494,7 +494,7 @@ export const JobGuaranteeCourseData = [
             },
             {
               chap: {
-                title: "Chapter 4: Excel",
+                title: "Module 4: Excel",
                 desc: [
                   "Getting started with Excel",
                   "Using Excel Toolbars: Hiding, Displaying, and Moving Toolbars",

@@ -81,7 +81,7 @@ export const FullStackWebCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1: Front End Development)",
+                title: "Module 1: Front End Development)",
                 desc: [
                   "HTML5",
                   "CSS3",
@@ -96,7 +96,7 @@ export const FullStackWebCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: Back End Development)",
+                title: "Module 2: Back End Development)",
                 desc: [
                   "SQL",
                   "NoSQL",
@@ -110,7 +110,7 @@ export const FullStackWebCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: Creating web applications from scratch",
+                title: "Module 3: Creating web applications from scratch",
                 desc: [
                   "Real - Time Use Case: On-Demand Home Service Application",
                 ],
@@ -118,25 +118,25 @@ export const FullStackWebCourseData = [
             },
             {
               chap: {
-                title: "Chapter 4: Database",
+                title: "Module 4: Database",
                 desc: ["MySQL", "MongoDB", "PostgreSQL"],
               },
             },
             {
               chap: {
-                title: "Chapter 4: Database",
+                title: "Module 4: Database",
                 desc: ["MySQL", "MongoDB", "PostgreSQL"],
               },
             },
             {
               chap: {
-                title: "Chapter 5: Essential Tools",
+                title: "Module 5: Essential Tools",
                 desc: ["Git GitHub", "Selenium", "PostMan", "Trello", "Jira"],
               },
             },
             {
               chap: {
-                title: "Chapter 6: Deploying Web Applications on Cloud",
+                title: "Module 6: Deploying Web Applications on Cloud",
                 desc: ["AWS", "Firebase", "Google Cloud Platform"],
               },
             },

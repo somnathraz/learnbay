@@ -24,7 +24,7 @@ const OurExpert = ({ img1, img2, img3, img4, img5, img6, img7, img8, img9, img10
           <Swiper
             spaceBetween={10}
             centeredSlides={true}
-            slidesPerView={mobile ? 3 : 5}
+            slidesPerView={mobile ? 3 : 7}
             slidesPerGroup={1}
             loop={true}
             loopFillGroupWithBlank={true}

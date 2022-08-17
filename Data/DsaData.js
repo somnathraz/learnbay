@@ -131,7 +131,7 @@ export const DsaCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1:- Real time use cases and projects",
+                title: "Module 1:- Real time use cases and projects",
                 desc: [
                   " Authentication",
                   " CRUD",
@@ -163,7 +163,7 @@ export const DsaCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1:- Interview Preparation: Crack MAANG",
+                title: "Module 1:- Interview Preparation: Crack MAANG",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",

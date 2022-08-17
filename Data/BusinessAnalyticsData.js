@@ -62,7 +62,7 @@ export const BusinessAnalyticsCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1:Cohort Orientation ",
+                title: "Topic 1:Cohort Orientation ",
                 desc: [
                   "A brief introduction to tools related to data ",
                   "Learn about particular real-time projects and Capstone projects ",
@@ -74,7 +74,7 @@ export const BusinessAnalyticsCourseData = [
 
             {
               chap: {
-                title: "Chapter 2: Fundamentals of Programming",
+                title: "Topic 2: Fundamentals of Programming",
                 desc: [
                   "Introduction to Anaconda & Jupyter notebook",
                   "Flavors of python Introduction to Git, GitHub",
@@ -84,7 +84,7 @@ export const BusinessAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: Fundamentals of Statistics",
+                title: "Topic 3: Fundamentals of Statistics",
                 desc: [
                   "Mean, Median, Mode",
                   "Standard Deviation, Average. Probability, Permutations, and Combinations",

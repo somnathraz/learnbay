@@ -74,7 +74,7 @@ export const DataAnalyticsCourseData = [
 
             {
               chap: {
-                title: "Chapter 2: code editors basics  ",
+                title: "Topic 2: code editors basics  ",
                 desc: [
                   "Different type of code editors in python, Introduction to Anaconda and IDEs",
                 ],
@@ -82,7 +82,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: python basics  ",
+                title: "Topic 3: python basics  ",
                 desc: [
                   "Variable Vs Identifiers, Strings Operators Vs Operand, Procedure oriented Vs Modular programming.",
                 ],
@@ -90,7 +90,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 4: statistics basics & probability  ",
+                title: "Topic 4: statistics basics & probability  ",
                 desc: [
                   "Measures of Central Tendency & dispersion, Inferential statistics and Sampling theory.",
                 ],
@@ -117,7 +117,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: Python Introduction ",
+                title: "Module 2: Python Introduction ",
                 desc: [
                   "How a Python Program runs on our system?",
                   "Features of Python Memory Management in Python,",
@@ -127,13 +127,13 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: Conditional And Loops  ",
+                title: "Module 3: Conditional And Loops  ",
                 desc: ["Conditional Statement", "Loop Statement."],
               },
             },
             {
               chap: {
-                title: "Chapter 4: Python Programming Components",
+                title: "Module 4: Python Programming Components",
                 desc: [
                   "Linting",
                   "Formatting",
@@ -145,7 +145,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 5: Function",
+                title: "Module 5: Function",
                 desc: [
                   "Working with functions",
                   "Parameters vs Arguments",
@@ -156,7 +156,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 6: Expection Handling",
+                title: "Module 6: Expection Handling",
                 desc: [
                   "Introduction to Exception Handling",
                   "Type of Errors",
@@ -166,7 +166,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 7: Modules in Python",
+                title: "Module 7: Modules in Python",
                 desc: [
                   "Introduction to Modular Programming",
                   "Importing Modules and different import statement",
@@ -176,7 +176,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 8: File Handeling",
+                title: "Module 8: File Handeling",
                 desc: [
                   "Use of File Handling?",
                   "Type of Files",
@@ -190,7 +190,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 9: Regular Expression",
+                title: "Module 9: Regular Expression",
                 desc: [
                   "Intro & use of Regular Expression?",
                   "Regex module & important methods,",
@@ -200,7 +200,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 10: Numpy In Python",
+                title: "Module 10: Numpy In Python",
                 desc: [
                   "Intro & use of numpy, What is an array?",
                   "Array Operations Using Numpy",
@@ -211,7 +211,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 11: Pandas In Python",
+                title: "Module 11: Pandas In Python",
                 desc: [
                   "Numpy vs Pandas",
                   "Exporting Dataframe to CSV and Excel",
@@ -221,7 +221,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 12: MatplotLib",
+                title: "Module 12: MatplotLib",
                 desc: [
                   "Lines & markers",
                   "Figures",
@@ -234,7 +234,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 13: Seaborn",
+                title: "Module 13: Seaborn",
                 desc: [
                   "Working with seaborn on titanic dataset",
                   "Introduction & installation",
@@ -245,7 +245,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 14: Other visualisation libraries",
+                title: "Module 14: Other visualisation libraries",
                 desc: ["Plotly", "Pygal", "Geopltlib etc."],
               },
             },
@@ -261,7 +261,7 @@ export const DataAnalyticsCourseData = [
             {
               chap: {
                 title:
-                  "Chapter 1:- Probability theory and Statistical Inferences ( 4 hrs )",
+                  "Module 1:- Probability theory and Statistical Inferences ( 4 hrs )",
                 desc: [
                   "Introduction to Probability Principles",
                   "Random Variables and Probability principles",
@@ -275,7 +275,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: Statistics Foundations  ",
+                title: "Module 2: Statistics Foundations  ",
                 desc: [
                   "Elements of Descriptive Statistics",
                   "Measures of Central tendency and Dispersion",
@@ -288,7 +288,7 @@ export const DataAnalyticsCourseData = [
             {
               chap: {
                 title:
-                  "Chapter 3: Hypothesis Testing and its Applications  ",
+                  "Module 3: Hypothesis Testing and its Applications  ",
                 desc: [
                   "Basic Concepts - Formulation of Hypothesis, Making a decision",
                   "Advanced Concepts - Choice of Test - t test vs z test",
@@ -300,7 +300,7 @@ export const DataAnalyticsCourseData = [
             {
               chap: {
                 title:
-                  "Chapter 4: Exploratory Data Analysis and the Art of Storytelling  ",
+                  "Module 4: Exploratory Data Analysis and the Art of Storytelling  ",
                 desc: [
                   "Ingest data",
                   "Data cleaning",
@@ -321,7 +321,7 @@ export const DataAnalyticsCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1:A primer on Machine Learning ( 3 hrs )",
+                title: "Module 1:A primer on Machine Learning ( 3 hrs )",
                 desc: [
                   "Types of Learning - Supervised, Unsupervised and Reinforcement",
                   "Statistics vs Machine Learning",
@@ -332,7 +332,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: Regression",
+                title: "Module 2: Regression",
                 desc: [
                   "Correlation vs Causation",
                   "Simple and Multiple linear regression",
@@ -345,7 +345,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: Classification",
+                title: "Module 3: Classification",
                 desc: [
                   "Introduction to Classification problems",
                   "Logistic Regression for Binary problems",
@@ -357,7 +357,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 4: Clustering-K means",
+                title: "Module 4: Clustering-K means",
                 desc: [
                   "Introduction to Unsupervised Learning",
                   "Hierarchical and Non-Hierarchical techniques",
@@ -368,7 +368,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 5: KNN",
+                title: "Module 5: KNN",
                 desc: [
                   "Introduction to KNNs",
                   "KNNs as a classifier",
@@ -379,7 +379,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 6: Advance Regression Model",
+                title: "Module 6: Advance Regression Model",
                 desc: [
                   "Introduction to regularization",
                   "Understanding ridge regression",
@@ -390,7 +390,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 7: Decision Trees",
+                title: "Module 7: Decision Trees",
                 desc: [
                   "Nonlinear models for classification",
                   "Intro to decision trees",
@@ -401,7 +401,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 8: Ensemble Techniques",
+                title: "Module 8: Ensemble Techniques",
                 desc: [
                   "Introduction to Bagging as an Ensemble technique",
                   "Bootstrap Aggregation and Out of Bag error",
@@ -416,7 +416,7 @@ export const DataAnalyticsCourseData = [
 
             {
               chap: {
-                title: "Chapter 11: Time-series Analysis",
+                title: "Module 11: Time-series Analysis",
                 desc: [
                   "Intro to Time series",
                   "Autocorrelation and ACF/PACF plots",
@@ -428,7 +428,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 12: Machine Learning Pipeline & auto ML",
+                title: "Module 12: Machine Learning Pipeline & auto ML",
                 desc: [
                   "Feature engineering & selection techniques",
                   "Principal Component Analysis",
@@ -448,7 +448,7 @@ export const DataAnalyticsCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1:- Neural Networks",
+                title: "Module 1:- Neural Networks",
                 desc: [
                   "Introduction to Neural Networks",
                   "Layered Neural networks",
@@ -459,7 +459,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: Tensor Flow",
+                title: "Module 2: Tensor Flow",
                 desc: [
                   "Introduction to TensorFlow",
                   "Working with TensorFlow",
@@ -470,7 +470,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: Deep Neural Networks",
+                title: "Module 3: Deep Neural Networks",
                 desc: [
                   "Designing a deep neural network",
                   "Optimal choice of Loss Function",
@@ -481,7 +481,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 4: Convolutional Neural networks",
+                title: "Module 4: Convolutional Neural networks",
                 desc: [
                   "Architecture and design of a Convolutional network,",
                   "Deep convolutional models & image augmentation",
@@ -490,7 +490,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 5: Recurrent Neural networks and LSTMs.",
+                title: "Module 5: Recurrent Neural networks and LSTMs.",
                 desc: [
                   "RN N & LSTM structure, Bidirectional RNNs and Applications on Sequential data",
                   "Advanced Time series forecasting using RNNs with LSTMs",
@@ -501,7 +501,7 @@ export const DataAnalyticsCourseData = [
             {
               chap: {
                 title:
-                  "Chapter 6: Restricted Boltzmann Machines and Autoencoders.",
+                  "Module 6: Restricted Boltzmann Machines and Autoencoders.",
                 desc: [
                   "Intro to RBMs, Autoencoders",
                   "Application of RBMs in Collaborative filtering",
@@ -521,7 +521,7 @@ export const DataAnalyticsCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1:- Language modelling",
+                title: "Module 1:- Language modelling",
                 desc: [
                   "Intro to the NLTK library",
                   "N-gram Language models: Perplexity and Smoothing",
@@ -534,7 +534,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: Vector space models ",
+                title: "Module 2: Vector space models ",
                 desc: [
                   "Explicit and Implicit matrix factorization",
                   "Word2vec and Doc2vec models.",
@@ -543,7 +543,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: Sequence to Sequence tasks",
+                title: "Module 3: Sequence to Sequence tasks",
                 desc: [
                   "Introduction to Machine translation",
                   "Natural language processing",
@@ -556,7 +556,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 4: Capstone Project",
+                title: "Module 4: Capstone Project",
                 desc: [
                   "Fully functional chatbot",
                   " Front end",
@@ -642,7 +642,7 @@ export const DataAnalyticsCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1: Excel Fundamentals",
+                title: "Module 1: Excel Fundamentals",
                 desc: [
                   "Introduction to Excel interface.",
                   "Customizing Excel Quick Access Toolbar.",
@@ -665,7 +665,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 2: Worksheet Customization",
+                title: "Module 2: Worksheet Customization",
                 desc: [
                   "Adjusting Page Margins and Orientation.",
                   "Creating Headers, Footers, and Page Numbers.",
@@ -687,7 +687,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: Images and Shapes into Excel Worksheet ",
+                title: "Module 3: Images and Shapes into Excel Worksheet ",
                 desc: [
                   "Inserting Excel Shapes.",
                   "Formatting Excel Shapes.",
@@ -698,7 +698,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 4: Basic work on Excel",
+                title: "Module 4: Basic work on Excel",
                 desc: [
                   "Entering and selecting values. Using numeric data in excel",
                   "Working with forms menu, cell references, conditional",
@@ -710,7 +710,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 5: Excel Formulae",
+                title: "Module 5: Excel Formulae",
                 desc: [
                   "Creating basic formulae in excel",
                   "Im plementing excel formulae in worksheet",
@@ -726,7 +726,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 6: Excel Functions",
+                title: "Module 6: Excel Functions",
                 desc: [
                   "Working with functions like SUM(), AVERAGE() etc",
                   "Adjacent cells error in excel calculations",
@@ -737,7 +737,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 7: Working with Charts and Graphs",
+                title: "Module 7: Working with Charts and Graphs",
                 desc: [
                   "Creating a column chart.",
                   "Working with the excel chart ribbon.",
@@ -756,7 +756,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 8: Support Vector Machines",
+                title: "Module 8: Support Vector Machines",
                 desc: [
                   "Intro to Pivot Tables",
                   "Structuring Source Data for Analysis in Excel",
@@ -773,7 +773,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 9: Basic Macros",
+                title: "Module 9: Basic Macros",
                 desc: [
                   "Introduction to macros",
                   "Automating Tasks with Macros",
@@ -785,7 +785,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 10: Introduction to SQL",
+                title: "Module 10: Introduction to SQL",
                 desc: [
                   "What is a Database?",
                   "Why SQL?",
@@ -805,7 +805,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 11: No SQL Databases",
+                title: "Module 11: No SQL Databases",
                 desc: [
                   "Topics - What is HBase?",
                   "HBase Architecture.",
@@ -829,7 +829,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 12: SQL Databases",
+                title: "Module 12: SQL Databases",
                 desc: [
                   "Introduction to database",
                   "Creating Data base, Dropping Database",
@@ -844,7 +844,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 13: SQL Fundamantel Statement",
+                title: "Module 13: SQL Fundamantel Statement",
                 desc: [
                   "SELECT Statement.",
                   "COUNT.",
@@ -859,7 +859,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 14: Refining Selection",
+                title: "Module 14: Refining Selection",
                 desc: [
                   "SELECT DISTINCT.",
                   "LIKE, NOT LIKE, ILIKE.",
@@ -871,7 +871,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 15: SQL Statements & Functions",
+                title: "Module 15: SQL Statements & Functions",
                 desc: [
                   "Multiple INSERT.",
                   "INSERT INTO.",
@@ -893,7 +893,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 16: JOINS & Functions",
+                title: "Module 16: JOINS & Functions",
                 desc: [
                   "Introduction to JOINs",
                   "Types of JOINS",
@@ -907,7 +907,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 17: Advance SQL",
+                title: "Module 17: Advance SQL",
                 desc: [
                   "Local, Session, Global Variables",
                   "Timestamps and Extract, CURRENT DATE & TIME, EXTRACT",
@@ -919,7 +919,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 18: Basics and CRUD Operation",
+                title: "Module 18: Basics and CRUD Operation",
                 desc: [
                   "Data bases",
                   "Collection & Documents",
@@ -933,7 +933,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 19: Mongo DB",
+                title: "Module 19: Mongo DB",
                 desc: [
                   "What is MongoDB?",
                   "Characteristics, Structure and Features.",
@@ -951,7 +951,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 20: Introduction To Tableau",
+                title: "Module 20: Introduction To Tableau",
                 desc: [
                   "What is TABLEAU?",
                   "Why to use TABLEAU?",
@@ -971,7 +971,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 21: Data Types in Tableau",
+                title: "Module 21: Data Types in Tableau",
                 desc: [
                   "Pre-attentive processing.",
                   "Length and position.",
@@ -994,7 +994,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 22: Mapping and Analytics",
+                title: "Module 22: Mapping and Analytics",
                 desc: [
                   "Getting started with visual analytics.",
                   "Geospatial data.",
@@ -1014,7 +1014,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 23: Calculations",
+                title: "Module 23: Calculations",
                 desc: [
                   "Aggregation and its types",
                   "level of detail common calculation functions",
@@ -1024,7 +1024,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 24: Dashboard and Stories",
+                title: "Module 24: Dashboard and Stories",
                 desc: [
                   "Tiled vs Floating",
                   "Working in views with Dashboard and stories",
@@ -1034,7 +1034,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 25: Introducation To Power BI",
+                title: "Module 25: Introducation To Power BI",
                 desc: [
                   "Why Power BI?",
                   "Account Types.",
@@ -1047,7 +1047,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 26: Query Editor",
+                title: "Module 26: Query Editor",
                 desc: [
                   "Connecting Power BI Desktop to Source Files.",
                   "Keeping & Removing Rows.",
@@ -1071,7 +1071,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 27: Power BI",
+                title: "Module 27: Power BI",
                 desc: [
                   "Power BI",
                   "Working with Time series Understanding aggregation and granularity",
@@ -1083,7 +1083,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 28: Data Models",
+                title: "Module 28: Data Models",
                 desc: [
                   "Understanding Relationships.",
                   "Many-to-One & One-to-One.",
@@ -1115,7 +1115,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 29: Time Intelligence",
+                title: "Module 29: Time Intelligence",
                 desc: [
                   "Create data table in M and DAX, Display last refresh Date.",
                 ],
@@ -1123,7 +1123,7 @@ export const DataAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Chapter 30: Modelling",
+                title: "Module 30: Modelling",
                 desc: [
                   "Create your first report.",
                   "Modelling basics to advance.",
