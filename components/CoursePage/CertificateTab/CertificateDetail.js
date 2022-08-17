@@ -1,7 +1,7 @@
 export const CertificateD = [
   {
     id: 1,
-    img: "/certificate.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate.webp",
     title: "Course Completion Certificate from IBM",
     para: [
       "End up with a globally recognized AI/ML certificate.",
@@ -13,7 +13,7 @@ export const CertificateD = [
 export const CertificateDD = [
   {
     id: 1,
-    img: "/project-certificate.jpg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
       "Get certified by IBM on completion of industry-level ML projects.",
@@ -25,7 +25,7 @@ export const CertificateDD = [
 export const CertificateAdvance1 = [
   {
     id: 1,
-    img: "/DS-AI-1.jpeg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/DS-AI-1.jpeg",
     title: "Course Completion Certificate from IBM",
     para: [
       "Complete your training with the internationally recognized certificate.",
@@ -37,7 +37,7 @@ export const CertificateAdvance1 = [
 export const CertificateAdvance2 = [
   {
     id: 1,
-    img: "/project-certificate.jpg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",
@@ -49,7 +49,7 @@ export const CertificateAdvance2 = [
 export const Certificate3 = [
   {
     id: 1,
-    img: "/Advanced-AI-ML.jpeg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Advanced-AI-ML.jpeg",
     title: "Course Completion Certificate from IBM",
     para: [
       "End up with a globally recognized AI/ML certificate.",
@@ -61,7 +61,7 @@ export const Certificate3 = [
 export const Certificate4 = [
   {
     id: 1,
-    img: "/project-certificate.jpg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
       "Get certified by IBM on completion of industry-level ML projects.",
@@ -73,7 +73,7 @@ export const Certificate4 = [
 export const Certificate5 = [
   {
     id: 1,
-    img: "/Managers-4.jpeg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Managers-4.jpeg",
     title: "Course Completion Certificate from IBM",
     para: [
       "Complete your training with the internationally recognized certificate.",
@@ -85,7 +85,7 @@ export const Certificate5 = [
 export const Certificate6 = [
   {
     id: 1,
-    img: "/project-certificate.jpg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.jpg",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",
@@ -97,7 +97,7 @@ export const Certificate6 = [
 export const Certificate7 = [
   {
     id: 1,
-    img: "/certificate-web.jpg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate-web.jpg",
     title: "Course Completion Certificate from IBM",
     para: [
       "Complete your training with the internationally recognized certificate.",
@@ -109,7 +109,7 @@ export const Certificate7 = [
 export const Certificate8 = [
   {
     id: 1,
-    img: "/project-certificate.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.webp",
     title: "Capstone Project Completion Certificate from IBM",
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",

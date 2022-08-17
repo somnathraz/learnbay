@@ -7,12 +7,13 @@ import Head from "next/head";
 
 const sumbit = () => {
   return (
-    <div className={styles.Wrapper}>
+    <div>
       <Head>
         <title>Apply For Counselling</title>
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <Navbar popup={true} />
+      <div className={styles.Wrapper}>
       <div className={styles.left}>
         <h6>Apply For Counselling</h6>
         <Form radio={true} />
@@ -24,6 +25,7 @@ const sumbit = () => {
           height="600"
           layout="intrinsic"
         />
+      </div>
       </div>
     </div>
   );
