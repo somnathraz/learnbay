@@ -1,16 +1,16 @@
 export const HomeBoxData = [
   {
     id: 1,
-    img: "/Live-classes-home.svg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home.svg",
     title: "100% Live Online Classes",
     desc: "Faculty led Live Interactive online classes. Ask doubts in live classroom",
     active: true,
   },
   {
     id: 2,
-    img: "capstone-live-home.svg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/capstone-live-home.svg",
     title: "IBM Certified Capstone",
-    desc: "Work on industry projects certified from IBM and stand out from the crowd",
+    desc: "Work on industry projects certified from IBM and get recognized",
     active: false,
   },
   {
