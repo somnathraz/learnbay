@@ -82,7 +82,10 @@ export default function Home() {
         <FirstSection
           deskTopPara="Artificial Intelligence and Machine Learning Program with domain specialization"
           mTopPara="Artificial Intelligence and Machine Learning Program with domain specialization"
+          spanMTitleText="Advance Program"
+          spanTitleText="Advance Program"
           title="Machine Learning Course Training In Canada"
+          mTitle="Machine Learning Course Training In Canada"
           desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course3.png"
           width="900"

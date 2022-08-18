@@ -78,6 +78,9 @@ export default function Home() {
         </Popup>
         <FirstSection
           deskTopPara="Foundational and Advanced Data Science Courses"
+          spanTitleText="with Domain Specialization"
+          spanMTitleText="Domain Specialization"
+          mTitle="Advanced Data Science and AI Program with"
           mTopPara="Foundational and Advanced Data Science Courses"
           title="Data Science Course Training in Bangalore"
           desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."

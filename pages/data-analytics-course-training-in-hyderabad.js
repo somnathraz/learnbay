@@ -82,7 +82,10 @@ export default function Home() {
         <FirstSection
           deskTopPara="First-Track Industrial Training For Early Professionals"
           mTopPara="First-Track Industrial Training For Early Professionals"
+          spanTitleText="For Professionals"
+          spanMTitleText="For Professionals"
           title="Data Analytics Course Training in Hyderabad"
+          mTitle="Data Analytics Course Training in Hyderabad"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png"
           width="900"

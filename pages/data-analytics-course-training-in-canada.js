@@ -81,7 +81,10 @@ export default function Home() {
         <FirstSection
           deskTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
           mTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
+          spanTitleText="For Professionals"
+          spanMTitleText="For Professionals"
           title="Data Analytics Course Training in Canada"
+          mTitle="Data Analytics Course Training in Canada"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png"
           width="900"

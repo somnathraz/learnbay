@@ -81,6 +81,9 @@ export default function Home() {
         <FirstSection
           deskTopPara="Foundational or Advanced Job-oriented Program"
           mTopPara="Foundational or Advanced Job-oriented Program"
+          spanTitleText="with Domain Specialization"
+          spanMTitleText="Domain Specialization"
+          mTitle="Data Science Course Training In Canada"
           title="Data Science Course Training In Canada"
           desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"

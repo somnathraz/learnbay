@@ -70,19 +70,20 @@
       }
     }
     .popupInners {
-      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Brochure.webp");
-      background-position: center center;
+      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/popup-back.webp");
       background-size: cover;
       background-repeat: no-repeat;
+      background-position: center center;
       position: relative;
-      display: flex;
+      display: grid;
+      grid-template-columns: 49% 49%;
       align-items: center;
       justify-content: space-evenly;
-      padding: 30px 60px;
-      width: 70%;
-      height: 100%;
-      border-radius: 5px;
-      border: 2px solid #2d9cd7;
+      padding: 10px 40px;
+      width: 60%;
+      height: fit-content;
+      border-radius: 10px;
+
       background-color: white;
       text-align: center;
 
@@ -172,20 +173,22 @@
       }
     }
     .popupInnersW {
-      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Brochre.webp");
+      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/popup-back.webp");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
       position: relative;
-      display: flex;
+      display: grid;
+      grid-template-columns: 49% 49%;
       align-items: center;
       justify-content: space-evenly;
-      padding: 30px 60px;
-      width: max-content;
-      border-radius: 5px;
-      border: 2px solid #2d9cd7;
-      max-width: 70%;
+      padding: 10px 40px;
+      width: 60%;
+      height: fit-content;
+      border-radius: 10px;
+
       background-color: white;
+      text-align: center;
 
       .closeBtn {
         position: absolute;

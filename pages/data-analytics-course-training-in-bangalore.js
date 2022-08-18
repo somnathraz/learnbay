@@ -82,7 +82,10 @@ export default function Home() {
         <FirstSection
           deskTopPara="IBM Certified Industry-paced Training"
           mTopPara="IBM Certified Industry-paced Training"
+          spanTitleText="For Professionals"
+          spanMTitleText="For Professionals"
           title="Data Analytics Course Training in Bangalore"
+          mTitle="Data Analytics Course Training in Bangalore"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png"
           width="900"

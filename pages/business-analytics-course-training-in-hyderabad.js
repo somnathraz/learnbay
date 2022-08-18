@@ -81,7 +81,9 @@ export default function Home() {
         <FirstSection
           deskTopPara="IBM Certified Business Analytics Course for Early Professionals"
           mTopPara="IBM Certified Business Analytics Course for Early Professionals"
-          title="Business Analytics Course Training In Hyderabad"
+          spanTitleText="For Non-tech Professionals"
+          spanMTitleText="For Non-tech Professionals"
+          mTitle="Business Analytics Course Training In Hyderabad"
           desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course7.png"
           width="900"
