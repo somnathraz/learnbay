@@ -90,12 +90,12 @@ const BoxShape = ({
                 slidesPerView={mobile ? 1 : 1}
                 spaceBetween={mobile ? 10 : 20}
                 grabCursor={true}
-                autoplay={{
+                autoplay={{ 
                   delay: 2500,
                 }}
                 modules={[Pagination, Autoplay]}
                 pagination={true}
-                Autoplay={true}
+                autoPlay={true}
                 className="mySwiper"
               >
                 <SwiperSlide className={styles.swiperSlideer}>
