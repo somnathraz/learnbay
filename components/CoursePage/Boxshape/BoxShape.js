@@ -94,7 +94,7 @@ const BoxShape = ({
                   delay: 2500,
                 }}
                 modules={[Pagination, Autoplay]}
-                Autoplay={true}
+                autoPlay={true}
                 pagination={true}
                 className="mySwiper"
               >
