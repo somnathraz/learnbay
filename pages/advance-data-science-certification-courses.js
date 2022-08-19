@@ -148,10 +148,10 @@ export default function Home() {
         </div>
 
         <Fee
-          sub1="Data Science Foundation Program"
+          sub1="Data Science Foundation Certification Program"
           Price1="₹65,000 + GST"
           PFeatures11="200+ Hours"
-          PFeatures12="Early Professionals"
+          PFeatures12="Non-Tech Professional"
           PFeatures13="NA"
           PFeatures14="8+1"
           PFeatures15="10+"
@@ -159,10 +159,10 @@ export default function Home() {
           PFeatures17="No"
           PFeatures18="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
           sub2="Advanced Data Science and AI Program"
-          Price2="₹ 79,000 + GST"
+          Price2="₹79,000 + GST"
           PFeatures21=" 250+ Hours"
           PFeatures22=" Tech/Non-Tech Professionals"
-          PFeatures23="8+"
+          PFeatures23="All"
           PFeatures24="12+2"
           PFeatures25="15+"
           PFeatures26="Yes"

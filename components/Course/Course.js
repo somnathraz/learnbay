@@ -103,13 +103,13 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                          <img
+                          <a href={link1}><img
                             src={img}
                             layout="intrinsic"
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
-                          />
+                          /></a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -170,13 +170,13 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div className={styles.gridImg}>
-                          <img
+                        <a href={link1}><img
                             src={img}
                             layout="intrinsic"
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
-                          />
+                          /></a>
                         </div>
                         <div
                           className={styles.contentBox}
@@ -258,13 +258,13 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                          <img
+                        <a href={link1}><img
                             src={img}
                             layout="intrinsic"
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
-                          />
+                          /></a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -343,13 +343,13 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div className={styles.gridImg}>
-                          <img
+                        <a href={link1}><img
                             src={img}
                             layout="intrinsic"
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
-                          />
+                          /></a>
                         </div>
                         <div
                           className={styles.contentBox}
@@ -431,13 +431,13 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                          <img
+                        <a href={link1}><img
                             src={img}
                             layout="intrinsic"
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
-                          />
+                          /></a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -498,13 +498,13 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div className={styles.gridImg}>
-                          <img
+                        <a href={link1}><img
                             src={img}
                             layout="intrinsic"
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
-                          />
+                          /></a>
                         </div>
                         <div
                           className={styles.contentBox}
@@ -586,13 +586,13 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                          <img
+                        <a href={link1}><img
                             src={img}
                             layout="intrinsic"
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
-                          />
+                          /></a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -652,13 +652,13 @@ const Course = () => {
                       viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
-                        <img
+                        <a href={link1}><img
                           src={img}
                           layout="intrinsic"
                           width="423px"
                           height="252px"
                           className={styles.courseImg}
-                        />
+                        /></a>
                         <div
                           className={styles.contentBox}
                           style={{ marginTop: "452px" }}
@@ -729,13 +729,13 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                          <img
+                        <a href={link1}><img
                             src={img}
                             layout="intrinsic"
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
-                          />
+                          /></a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -795,13 +795,13 @@ const Course = () => {
                       viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
-                        <img
+                        <a href={link1}><img
                           src={img}
                           layout="intrinsic"
                           width="423px"
                           height="252px"
                           className={styles.courseImg}
-                        />
+                        /></a>
                         <div
                           className={styles.contentBox}
                           style={{ marginTop: "452px" }}
@@ -870,13 +870,13 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                          <img
+                        <a href={link1}><img
                             src={img}
                             layout="intrinsic"
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
-                          />
+                          /></a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -937,13 +937,13 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                          <img
+                        <a href={link1}><img
                             src={img}
                             layout="intrinsic"
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
-                          />
+                          /></a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -1010,13 +1010,13 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                          <img
+                        <a href={link1}><img
                             src={img}
                             layout="intrinsic"
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
-                          />
+                          /></a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -1083,13 +1083,13 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                          <img
+                        <a href={link1}><img
                             src={img}
                             layout="intrinsic"
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
-                          />
+                          /></a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -1149,13 +1149,13 @@ const Course = () => {
                       viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
-                        <img
+                        <a href={link1}><img
                           src={img}
                           layout="intrinsic"
                           width="423px"
                           height="252px"
                           className={styles.courseImg}
-                        />
+                        /></a>
                         <div
                           className={styles.contentBox}
                           style={{ marginTop: "452px" }}
@@ -1223,13 +1223,13 @@ const Course = () => {
                       viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
-                        <img
+                        <a href={link1}><img
                           src={img}
                           layout="intrinsic"
                           width="423px"
                           height="252px"
                           className={styles.courseImg}
-                        />
+                        /></a>
                         <div
                           className={styles.contentBox}
                           style={{ marginTop: "452px" }}

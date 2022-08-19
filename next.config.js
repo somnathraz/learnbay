@@ -673,6 +673,11 @@ module.exports = {
         destination: 'https://www.learnbay.co/',
         permanent: true,
       },
+      {
+        source: '/data-science-course',
+        destination: 'https://www.learnbay.co/',
+        permanent: true,
+      },
     ]
   },
 }

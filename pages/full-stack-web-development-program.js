@@ -38,8 +38,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Full Stack Web Development Program</title>
-        <meta name="description" content="Full Stack Web Development Program" />
+        <title>Full Stack Web Development Course - Learnbay</title>
+<meta name="description" content="Full Stack Web Development Course with IBM certification. Learnbay provide advanced full stack developer course with placement guarantee. Enrol in our full stack web developer course to enhance your career" />
+<meta name="Keywords" content="Full Stack Web Development Course, Full Stack Web Development Course training , Full Stack Web Development Course institute in India, best Full Stack Web Development Course institute, Full Stack Web developer Course ,Full Stack Web developer Course certification, Full Stack Web developer Course training institute , advanced Full Stack Web developer Course , Full Stack Web developer Course with placement guarantee, Full Stack Web developer Course with IBM certification"/>
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>  <Navbar popup={true} />
