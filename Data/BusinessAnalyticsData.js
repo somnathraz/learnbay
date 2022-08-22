@@ -62,7 +62,7 @@ export const BusinessAnalyticsCourseData = [
           content: [
             {
               chap: {
-                title: "Topic 1:Cohort Orientation ",
+                title: "Topic 1 :- Cohort Orientation ",
                 desc: [
                   "A brief introduction to tools related to data ",
                   "Learn about particular real-time projects and Capstone projects ",
@@ -74,7 +74,7 @@ export const BusinessAnalyticsCourseData = [
 
             {
               chap: {
-                title: "Topic 2: Fundamentals of Programming",
+                title: "Topic 2 :- Fundamentals of Programming",
                 desc: [
                   "Introduction to Anaconda & Jupyter notebook",
                   "Flavors of python Introduction to Git, GitHub",
@@ -84,7 +84,7 @@ export const BusinessAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Topic 3: Fundamentals of Statistics",
+                title: "Topic 3 :- Fundamentals of Statistics",
                 desc: [
                   "Mean, Median, Mode",
                   "Standard Deviation, Average. Probability, Permutations, and Combinations",
@@ -103,7 +103,7 @@ export const BusinessAnalyticsCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1 Python Programming",
+                title: "Module 1 :- Python Programming",
                 desc: [
                   "Programming Basics & Environment Setup",
                   "Python Programming Overview",
@@ -125,11 +125,11 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Term 2:- Statistics",
+          title: "Term 2 :- Statistics",
           content: [
             {
               chap: {
-                title: "Module 1 Statistics",
+                title: "Module 1 :- Statistics",
                 desc: [
                   "Fundamentals of Math and Probability",
                   "All about Population & Sample",
@@ -154,7 +154,7 @@ export const BusinessAnalyticsCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1 SQL",
+                title: "Module 1 :- SQL",
                 desc: [
                   "SQL and RDBMS",
                   "Advance SQL",
@@ -166,7 +166,7 @@ export const BusinessAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Module 2 PowerBI",
+                title: "Module 2 :- PowerBI",
                 desc: [
                   "Getting Started With Power BI",
                   "Programming with Power BI",
@@ -175,7 +175,7 @@ export const BusinessAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Module 3 Big Data & Spark Analytics",
+                title: "Module 3 :- Big Data & Spark Analytics",
                 desc: [
                   "Introduction To Hadoop & Big Data",
                   "What is Spark",
@@ -185,7 +185,7 @@ export const BusinessAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Module 4 Time Series",
+                title: "Module 4 :- Time Series",
                 desc: [
                   "Introduction to Time Series Forecasting",
                   " Introduction to ARIMA Models Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
@@ -199,11 +199,11 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Term 4 :- Essentials",
+          title: "Term 4 :- Essentials Tools",
           content: [
             {
               chap: {
-                title: "Business Analytics",
+                title: "Module 1 :- Business Analytics",
                 desc: [
                   "Introduction to Business Analysis",
                   "Stakeholders in Business Analysis",
@@ -216,7 +216,7 @@ export const BusinessAnalyticsCourseData = [
             },
             {
               chap: {
-                title: "Excel",
+                title: "Module 2 :- Excel",
                 desc: [
                   "Getting started with Excel",
                   "Using Excel Toolbars: Hiding, Displaying, and Moving Toolbars",

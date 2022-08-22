@@ -62,7 +62,7 @@ export const AiMlCourseData = [
             content: [
               {
                 chap: {
-                  title: "Cohort Orientation ",
+                  title: "Topic 1 :- Cohort Orientation ",
                   desc: [
                     "A brief introduction to tools related to data ",
                     "Learn about particular real-time projects and Capstone projects ",
@@ -74,7 +74,7 @@ export const AiMlCourseData = [
   
               {
                 chap: {
-                  title: "Topic 2: Fundamentals of Programming ",
+                  title: "Topic 2 :- Fundamentals of Programming ",
                   desc: [
                     "Introduction to Anaconda & Jupyter notebook",
             "Flavors of python Introduction to Git, GitHub",
@@ -84,7 +84,7 @@ export const AiMlCourseData = [
               },
               {
                 chap: {
-                  title: "Topic 3:  Fundamentals of Statistics",
+                  title: "Topic 3 :- Fundamentals of Statistics",
                   desc: [
                     "Mean, Median, Mode",
                     "Standard Deviation, Average. Probability, Permutations, and Combinations" ,
@@ -104,7 +104,7 @@ export const AiMlCourseData = [
             content: [
               {
                 chap: {
-                  title: "Module 1 Python Programming",
+                  title: "Module 1 :- Python Programming",
                   desc: [
                     "Programming Basics & Environment Setup",
                     " Python Programming Overview",
@@ -134,7 +134,7 @@ export const AiMlCourseData = [
             content: [
               {
                 chap: {
-                  title: "Module 1 Statistics",
+                  title: "Module 1 :- Statistics",
                   desc: [
                            "Fundamentals of Math and Probability",
                       "All about Population & Sample",
@@ -151,7 +151,7 @@ export const AiMlCourseData = [
               },
           { 
                 chap: {
-                  title: "Module 2 Machine Learning",
+                  title: "Module 2 :- Machine Learning",
                   desc: [
               "Introduction to Machine Learning",
               "Regression and Classification Models",
@@ -185,7 +185,7 @@ export const AiMlCourseData = [
             content: [
               {
                 chap: {
-                  title: "Module 1 SQL",
+                  title: "Module 1 :- SQL",
                   desc: [
                     "SQL and RDBMS",
                 "Advance SQL",
@@ -198,7 +198,7 @@ export const AiMlCourseData = [
               },
               {
                 chap: {
-                  title: "Module 2 MongoDB",
+                  title: "Module 2 :- MongoDB",
                   desc: [
                     "Introduction to MongoDB",
                     "MongoDB (Advance)",
@@ -207,7 +207,7 @@ export const AiMlCourseData = [
               },
               {
                 chap: {
-                  title: "Module 3 Tableau ",
+                  title: "Module 3 :- Tableau ",
                   desc: [
                     "Introduction to Tableau",
                     " Visual Analytics",
@@ -221,7 +221,7 @@ export const AiMlCourseData = [
               },
               {
                 chap: {
-                  title: " Module 4 PowerBI",                    
+                  title: "Module 4 :- PowerBI",                    
                   desc: [
                     "Getting Started With Power BI",
                     "Programming with Power BI",
@@ -231,7 +231,7 @@ export const AiMlCourseData = [
               },
               {
                 chap: {
-                  title: "Module 5 Big Data & Spark Analytics",
+                  title: "Module 5 :- Big Data & Spark Analytics",
                   desc: [
                     "Introduction To Hadoop & Big Data",
                     "What is Spark",
@@ -243,7 +243,7 @@ export const AiMlCourseData = [
               },
               {
                 chap: {
-                  title: "Module 6 Time Series",
+                  title: "Module 6 :- Time Series",
                   desc: [
                     "Introduction to Time Series Forecasting",
                     "Introduction to ARIMA Models",
@@ -264,7 +264,7 @@ export const AiMlCourseData = [
             content: [
               {
                 chap: {
-                  title: "Module 1 Deep Learning Using Tensorflow",                                 
+                  title: "MModule 1 :- Deep Learning Using Tensorflow",                                 
                   desc: [
                     "Introduction to Deep Learning And TensorFlow",
                     "TensorFlow Classification Examples",
@@ -280,7 +280,7 @@ export const AiMlCourseData = [
               },
               {
                 chap: {
-                  title: "Module 2 Natural Language Processing (NLP):",
+                  title: "Module 2 :- Natural Language Processing (NLP):",
                   desc: [
                     "Natural Language Processing",
                     "Text Analysis",
@@ -295,7 +295,7 @@ export const AiMlCourseData = [
               },
               {
                 chap: {
-                  title: "Module 3 Computer Vision",
+                  title: "Module 3 :- Computer Vision",
   
                   desc: [
                     "Computer Vision overview",
@@ -310,7 +310,7 @@ export const AiMlCourseData = [
               },
               {
                 chap: {
-                  title: "Module 4 Reinforcement Learning",
+                  title: "Module 4 :- Reinforcement Learning",
                   desc: [
                     "What is Reinforcement Learning - Basics",
                     "Approximation Methods for Reinforcement Learning",
@@ -321,7 +321,7 @@ export const AiMlCourseData = [
               },
               {
                 chap: {
-                  title: "Module 5 Model Training & Deployment Using (AWS GCP)",
+                  title: "Module 5 :- Model Training & Deployment Using (AWS GCP)",
                   desc: [
                     "AWS (Amazon Web Services)",
                 "GCP (Google Cloud Platform)",
@@ -342,8 +342,7 @@ export const AiMlCourseData = [
             content: [
               {
                 chap: {
-                  title:
-                    "DSA",
+                  title: "Module 1 :- DSA",
                   desc: [
                     " Array Overview",
                      "String",

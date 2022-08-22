@@ -62,7 +62,7 @@ export const DataAnalyticsCourseData = [
           content: [
             {
               chap: {
-                title: "Cohort Orientation ",
+                title: "Topic 1 :- Cohort Orientation",
                 desc: [
                   "A brief introduction to tools related to data ",
                   "Learn about particular real-time projects and Capstone projects ",
@@ -74,25 +74,23 @@ export const DataAnalyticsCourseData = [
 
             {
               chap: {
-                title: "Topic 2: code editors basics  ",
+                title: "Topic 2 :- Fundamentals of programming ",
                 desc: [
-                  "Different type of code editors in python, Introduction to Anaconda and IDEs",
+                  "Introduction to Anaconda & Jupyter notebook ",
+
+                  "Flavors of python Introduction to Git, GitHub ", 
+                  "Python Fundamentals ",
+
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 3: python basics  ",
+                title: "Topic 3 :- Fundamentals of Statistics",
                 desc: [
-                  "Variable Vs Identifiers, Strings Operators Vs Operand, Procedure oriented Vs Modular programming.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 4: statistics basics & probability  ",
-                desc: [
-                  "Measures of Central Tendency & dispersion, Inferential statistics and Sampling theory.",
+                  "Mean, Median, Mode .",
+                  "Standard Deviation, Average. Probability, permutations, and combinations ",
+                  "Introduction to Linear Algebra",
                 ],
               },
             },
@@ -103,210 +101,123 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Term 1 :- Python for Data Science",
+          title: "Term 1 :- Python Programming",
           content: [
             {
               chap: {
-                title: "Module 1 Python Programming ",
+                title: "Module 1 :- Python Programming ",
                 desc: [
-                  "Different types of Programming Language.",
-                  "What is Compiler?",
-                  "What is an Interpreter?",
+                  " Programming Basics & Environment Setup.",
+                  " Python Programming Overview",
+                  "  Python Data Types",
+                   "  Functions And Modules ,Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class",
+
+                   " File I/O And Exceptional Handling and Regular Expression,Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling.",
+                    "Data Analysis Using Numpy",
+                  " Data Analysis Using Pandas",
+                  "Data Visualization using Matplotlib",
+                  ". Data Visualization using Seaborn,3 Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
+
                 ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2: Python Introduction ",
-                desc: [
-                  "How a Python Program runs on our system?",
-                  "Features of Python Memory Management in Python,",
-                  "Different Implementations of Python.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3: Conditional And Loops  ",
-                desc: ["Conditional Statement", "Loop Statement."],
-              },
-            },
-            {
-              chap: {
-                title: "Module 4: Python Programming Components",
-                desc: [
-                  "Linting",
-                  "Formatting",
-                  "Understanding Python code",
-                  "Command Line Arguments",
-                  "Python Operators",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 5: Function",
-                desc: [
-                  "Working with functions",
-                  "Parameters vs Arguments",
-                  "Namespace vs Scope",
-                  "Function call vs Function referencing",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 6: Expection Handling",
-                desc: [
-                  "Introduction to Exception Handling",
-                  "Type of Errors",
-                  "Nestedtry-except block & Default except for block.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 7: Modules in Python",
-                desc: [
-                  "Introduction to Modular Programming",
-                  "Importing Modules and different import statement",
-                  "Types of Modules.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 8: File Handeling",
-                desc: [
-                  "Use of File Handling?",
-                  "Type of Files",
-                  "File Operation",
-                  "What is File Handling?",
-                  "Why do we need File Handling?",
-                  "Type of Files",
-                  "File Operation",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 9: Regular Expression",
-                desc: [
-                  "Intro & use of Regular Expression?",
-                  "Regex module & important methods,",
-                  "Regex pattern and it’s interpretation.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 10: Numpy In Python",
-                desc: [
-                  "Intro & use of numpy, What is an array?",
-                  "Array Operations Using Numpy",
-                  "Numpy and Scipy,",
-                  "Numpy and Pandas",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 11: Pandas In Python",
-                desc: [
-                  "Numpy vs Pandas",
-                  "Exporting Dataframe to CSV and Excel",
-                  "EDA Using Pandas.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 12: MatplotLib",
-                desc: [
-                  "Lines & markers",
-                  "Figures",
-                  "Watermark",
-                  "Shapes",
-                  "Polygons and arrows Color maps",
-                  "Autocorrelation study",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 13: Seaborn",
-                desc: [
-                  "Working with seaborn on titanic dataset",
-                  "Introduction & installation",
-                  "Controlling figure asthetics",
-                  "Different plots in seaborn",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 14: Other visualisation libraries",
-                desc: ["Plotly", "Pygal", "Geopltlib etc."],
               },
             },
           ],
           id: 1,
           open: false,
         },
-      },
+      },  
       {
         Module0: {
-          title: "Module 2 :- Applied Statistics",
+          title: "Term 2 :- Statistics & Basic Machine Learning",
           content: [
             {
               chap: {
                 title:
-                  "Module 1:- Probability theory and Statistical Inferences ( 4 hrs )",
+                  "Module 1 :- Statistics",
                 desc: [
-                  "Introduction to Probability Principles",
-                  "Random Variables and Probability principles",
+                  "Fundamentals of Math and Probability",
+                  "All about Population & Sample",
                   "Discrete Probability Distributions - Binomial, Poisson etc",
-                  "Continuous Probability Distributions - Gaussian, Normal, etc",
-                  "Joint and Conditional Probabilities",
-                  "Bayes theorem and its applications",
-                  "Central Limit Theorem and Applications",
+                  "Introduction to Statistics, Statistical Thinking",
+                  " Descriptive Statistics",
+                  " Inferential Statistics",
+                  " Hypothesis Testing",
+                  "Linear Algebra",
+                  "Data Processing & Exploratory Data Analysis",
+                  "EDA,Statistics Assignments: Total 4 practice sets and Assignments from Statistics",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2: Statistics Foundations  ",
+                title: "Module 2 :- Machine Learning",
                 desc: [
-                  "Elements of Descriptive Statistics",
-                  "Measures of Central tendency and Dispersion",
-                  "Inferential Statistics fundamentals",
-                  "Sampling theory and scales of measurement",
-                  "Covariance and correlation",
+                  "Introduction to Machine Learning",
+                  "Regression and Classification Models",
+                  "Linear Regression Model",
+                  "Data Preprocessing",
+                  "Encoding the Data",
+                   "Logistic Regression Model",
+                   "Evaluation Metrics for Classification model",
+                   "K Nearest Neighbours Model",
+                   "Decision Tree Model",
+                   "Random Forest Model",
+                   "Hyperparameter Tuning",
+                   "Naive Baye’s Model,Case Study on Kart Model Business & Random Forest",
+
+
+                ],
+              },
+            },
+          ],
+          id: 2,
+          open: false,
+        },
+      },  
+      {
+        Module0: {
+          title: "Term 3 :- Data Analytics Tools",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- SQL",
+                desc: [
+                  "SQL and RDBMS",
+                  "Advance SQL",
+                  "NoSQL, HBase & MongoDB",
+                  "JSON Data & CRUD",
+                   "Programming with SQL",
                 ],
               },
             },
             {
               chap: {
-                title:
-                  "Module 3: Hypothesis Testing and its Applications  ",
+                title: "Module 2 :- PowerBI",
                 desc: [
-                  "Basic Concepts - Formulation of Hypothesis, Making a decision",
-                  "Advanced Concepts - Choice of Test - t test vs z test",
-                  "Evaluation of Test - P value and Critical Value approach",
-                  "Confidence Intervals, Type 1 and 2 errors",
+                  "Getting Started With Power BI",
+                  " Programming with Power BI",
+                  
                 ],
               },
             },
             {
               chap: {
-                title:
-                  "Module 4: Exploratory Data Analysis and the Art of Storytelling  ",
+                title: "Module 3 :- Big Data & Spark Analytics",
                 desc: [
-                  "Ingest data",
-                  "Data cleaning",
-                  "Outlier detection and treatment",
-                  "Missing value imputation",
-                  "Capstone project for Business Analysis",
+                  " Introduction To Hadoop & Big Data",
+                  "What is Spark",
+                  " Getting to know PySpark Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD       programming",
+                 
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- Time Series",
+                desc: [
+                  " Introduction to Time Series Forecasting",
+                  "Introduction to ARIMA Models,Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
+                  
                 ],
               },
             },
@@ -317,826 +228,26 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Module 3 :- Advance Machine Learning",
+          title: "Term 4 :- Essentials Tools",
           content: [
             {
               chap: {
-                title: "Module 1:A primer on Machine Learning ( 3 hrs )",
+                title: "Module 1 :- Essentials Excel",
                 desc: [
-                  "Types of Learning - Supervised, Unsupervised and Reinforcement",
-                  "Statistics vs Machine Learning",
-                  "Types of Analysis - Descriptive, Predictive, and Prescriptive",
-                  "Bias Variance Tradeoff - Overfitting vs Underfitting",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2: Regression",
-                desc: [
-                  "Correlation vs Causation",
-                  "Simple and Multiple linear regression",
-                  "Linear regression with Polynomial features",
-                  "What is linear in Linear Regression?",
-                  "OLS Estimation and Gradient descent",
-                  "Model Evaluation Metrics for regression problems - MAE, RMSE, MSE, and MAP",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3: Classification",
-                desc: [
-                  "Introduction to Classification problems",
-                  "Logistic Regression for Binary problems",
-                  "Maximum Likelihood estimation",
-                  "Data Imbalance and redressal methodology",
-                  "Up sampling, Down sampling and SMOTE",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 4: Clustering-K means",
-                desc: [
-                  "Introduction to Unsupervised Learning",
-                  "Hierarchical and Non-Hierarchical techniques",
-                  "K Means Algorithms - Partition based model for clustering",
-                  "Model Evaluation metrics – Clustering",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 5: KNN",
-                desc: [
-                  "Introduction to KNNs",
-                  "KNNs as a classifier",
-                  "Non-Parametric algorithms and Lazy learning ideology",
-                  "Applications in Missing value imputes and Balancing datasets",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 6: Advance Regression Model",
-                desc: [
-                  "Introduction to regularization",
-                  "Understanding ridge regression",
-                  "Working with Lasso regression",
-                  "Tackling multicollinearitywith regression",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 7: Decision Trees",
-                desc: [
-                  "Nonlinear models for classification",
-                  "Intro to decision trees",
-                  "Why are they called Greedy Algorithms?",
-                  "Information Theory - Measures of Impurity",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 8: Ensemble Techniques",
-                desc: [
-                  "Introduction to Bagging as an Ensemble technique",
-                  "Bootstrap Aggregation and Out of Bag error",
-                  "Random Forests and its Applications in Feature selection",
-                  "How Bagging overcomes the overfitting problem?",
-                  "Scent and Boosting",
-                  "How Boosting overcomes the Bias - Variance Tradeoff",
-                  "Gradient Boosting and Xgboost as regularised boosting",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 11: Time-series Analysis",
-                desc: [
-                  "Intro to Time series",
-                  "Autocorrelation and ACF/PACF plots",
-                  "The Random Walk model and Stationarity of Time Series",
-                  "Tests for Stationarity - ADF and Dickey- Fuller test, AR, MA, ARIMA, SARIMA models",
-                  "A regression approach to time series forecasting.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 12: Machine Learning Pipeline & auto ML",
-                desc: [
-                  "Feature engineering & selection techniques",
-                  "Principal Component Analysis",
-                  "Linear Discriminant Analysis",
-                  "Serving the model via Rest API & Keras.",
+                  "Getting started with Excel",
+                  "Using Excel Toolbars: Hiding, Displaying, and Moving Toolbars",
+                  "Switching Between Sheets in a Workbook",
+                  "Entering Date Values and using AutoComplete",
+                  "Inserting and Deleting Cells, Rows, and Columns",
+                  "Working with the Forms Menu",
+                  "Creating & Working with Charts",
+                  "Changing a Chart Type and Working with Pie Charts",
+                  "Data Analysis & Pivot Tables",
                 ],
               },
             },
           ],
-          id: 3,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Module 4 :- Deep Learning",
-          content: [
-            {
-              chap: {
-                title: "Module 1:- Neural Networks",
-                desc: [
-                  "Introduction to Neural Networks",
-                  "Layered Neural networks",
-                  "Activation Functions and their application",
-                  "Backpropagation and Gradient Descent",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2: Tensor Flow",
-                desc: [
-                  "Introduction to TensorFlow",
-                  "Working with TensorFlow",
-                  "Linear regression with TensorFlow",
-                  "Logistic regression with TensorFlow",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3: Deep Neural Networks",
-                desc: [
-                  "Designing a deep neural network",
-                  "Optimal choice of Loss Function",
-                  "Tools for deep learning models - Tflearn and Pytorch",
-                  "The problem of Exploding and Vanishing gradients",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 4: Convolutional Neural networks",
-                desc: [
-                  "Architecture and design of a Convolutional network,",
-                  "Deep convolutional models & image augmentation",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 5: Recurrent Neural networks and LSTMs.",
-                desc: [
-                  "RN N & LSTM structure, Bidirectional RNNs and Applications on Sequential data",
-                  "Advanced Time series forecasting using RNNs with LSTMs",
-                  "LSTMs vs GRUs.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title:
-                  "Module 6: Restricted Boltzmann Machines and Autoencoders.",
-                desc: [
-                  "Intro to RBMs, Autoencoders",
-                  "Application of RBMs in Collaborative filtering",
-                  "Autoencoders for Anomaly detection",
-                  "Capstone Project -Self-driving cars, Facial recognization.",
-                ],
-              },
-            },
-          ],
-          id: 4,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Module 5 :- NLP",
-          content: [
-            {
-              chap: {
-                title: "Module 1:- Language modelling",
-                desc: [
-                  "Intro to the NLTK library",
-                  "N-gram Language models: Perplexity and Smoothing",
-                  "Introduction to Hidden Markov models, Viterbi algorithms",
-                  "MEMMs and CRFs for named entity recognition",
-                  "Neural Language models",
-                  "Application of LSTMs to predict the next word.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2: Vector space models ",
-                desc: [
-                  "Explicit and Implicit matrix factorization",
-                  "Word2vec and Doc2vec models.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3: Sequence to Sequence tasks",
-                desc: [
-                  "Introduction to Machine translation",
-                  "Natural language processing",
-                  "NLP with machine translation for text analysis",
-                  "Word Alignment models",
-                  "Encoder-Decoder Architecture",
-                  "How to implement a conversational Chatbot",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 4: Capstone Project",
-                desc: [
-                  "Fully functional chatbot",
-                  " Front end",
-                  "backend and  deployment process for chatbot",
-                ],
-              },
-            },
-          ],
-          id: 5,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Module 6 :- Reinforcement Learning",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "What is RL? – High-level overview",
-                  "The multi-armed bandit problem and the explore-exploit dilemma",
-                  "Markov Decision Processes (MDPs)",
-                  "Dynamic Programming",
-                  "Monte Carlo Control",
-                  "Temporal Difference (TD) Learning (Q-Learning and SARSA)",
-                  "Approximation Methods (i.e., how to plug in a deep neural network or other differentiable model into your RL algorithm)",
-                ],
-              },
-            },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Module 7 :- Computer Vision",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Mathematics for Computer",
-                  "Vision Intro to Transfer Learning",
-                  "R-CNN and RetinaNet models for Object detection using Tensorflow",
-                  "FCN architecture for Image segmentation",
-                  "IoU and Dice score for model evaluation",
-                  "Face detection with OpenCV",
-                ],
-              },
-            },
-          ],
-          id: 7,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Module 8 :- Explainable Ai and Risk Management",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Ethical Risk Analysis – Identification and Mitigation",
-                  "Managing Privacy risks",
-                  "Modeling personas with minimal private data sharing",
-                  "Homomorphic encryption and Zero-Knowledge protocols",
-                  "Managing Accountability risks with a Responsibility Assignment Matrix",
-                  "Managing Transparency and Explainability risks",
-                ],
-              },
-            },
-          ],
-          id: 8,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Module 9 :- TOOLS",
-          content: [
-            {
-              chap: {
-                title: "Module 1: Excel Fundamentals",
-                desc: [
-                  "Introduction to Excel interface.",
-                  "Customizing Excel Quick Access Toolbar.",
-                  "Structure of Excel Workbook.",
-                  "Excel Menus.",
-                  "Excel Toolbars: Hiding, Displaying, and Moving Toolbars.",
-                  "Switching Between Sheets in a Workbook.",
-                  "Inserting and Deleting Worksheets.",
-                  "Renaming and Moving Worksheets.",
-                  "Protecting a Workbook.",
-                  "Hiding and Unhiding Columns, Rows and Sheets.",
-                  "Splitting and Freezing a Window.",
-                  "Inserting Page Breaks.",
-                  "Advanced Printing Options.",
-                  "Opening, saving and closing Excel document.",
-                  "Common Excel Shortcut Keys.",
-                  "Quiz.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2: Worksheet Customization",
-                desc: [
-                  "Adjusting Page Margins and Orientation.",
-                  "Creating Headers, Footers, and Page Numbers.",
-                  "Adding Print Titles and Gridlines.",
-                  "Formatting Fonts & Values.",
-                  "Adjusting Row Height and Column Width.",
-                  "Changing Cell Alignment.",
-                  "Adding Borders.",
-                  "Applying Colours and Patterns.",
-                  "Using the Format Painter.",
-                  "Formatting Data as Currency Values.",
-                  "Formatting Percentages.",
-                  "Merging Cells, Rotating Text.",
-                  "Using Auto Fill.",
-                  "Moving and Copying Data in an Excel Worksheet.",
-                  "Inserting and Deleting Rows and Columns.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3: Images and Shapes into Excel Worksheet ",
-                desc: [
-                  "Inserting Excel Shapes.",
-                  "Formatting Excel Shapes.",
-                  "Inserting Images.",
-                  "Working with Excel SmartArt.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 4: Basic work on Excel",
-                desc: [
-                  "Entering and selecting values. Using numeric data in excel",
-                  "Working with forms menu, cell references, conditional",
-                  "Formatting and data validation",
-                  "Finding and replacing information from worksheet",
-                  "Inserting & deleting cells, rows and columns.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 5: Excel Formulae",
-                desc: [
-                  "Creating basic formulae in excel",
-                  "Im plementing excel formulae in worksheet",
-                  "Relative cell referencing",
-                  "Absolute cell referencing",
-                  "Relative vs Absol ute cell references in formulae",
-                  "Understanding the order of operation",
-                  "Entering and Editing text, Fixing errors in your formulae",
-                  "Formulae with several operators, Formulae with cell ranges",
-                  "Quiz.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 6: Excel Functions",
-                desc: [
-                  "Working with functions like SUM(), AVERAGE() etc",
-                  "Adjacent cells error in excel calculations",
-                  "Use of AutoSum & autofill command",
-                  "Quiz",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 7: Working with Charts and Graphs",
-                desc: [
-                  "Creating a column chart.",
-                  "Working with the excel chart ribbon.",
-                  "Adding and modifying data on an Excel chart.",
-                  "Formatting an excel chart.",
-                  "Moving a chart to another worksheet.",
-                  "Resizing a chart.",
-                  "Changing a chart’s source data.",
-                  "Adding titles, gridlines and a data table.",
-                  "Formatting a data series and chart axis.",
-                  "Using fill effects.",
-                  "Changing a chart type and working with pie charts.",
-                  "Quiz.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 8: Support Vector Machines",
-                desc: [
-                  "Intro to Pivot Tables",
-                  "Structuring Source Data for Analysis in Excel",
-                  "Creating a PivotTable",
-                  "Exploring Pivot Ta ble Analyse & Desig n Options",
-                  "Working with and on pivot tables",
-                  "Dealing with Growing Source Data",
-                  "Enriching data with Pivot table calculated values & fields",
-                  "Formatting and charting a PivotTable",
-                  "Pivot Table Case Study",
-                  "Quiz",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 9: Basic Macros",
-                desc: [
-                  "Introduction to macros",
-                  "Automating Tasks with Macros",
-                  "Recording a Macro",
-                  "Playing a Macro",
-                  "Assigning a Macro a Shortcut Key.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 10: Introduction to SQL",
-                desc: [
-                  "What is a Database?",
-                  "Why SQL?",
-                  "All about SQL Difference between SQL & MongoDB.",
-                  "Different Structured Query languages Why MySQL?",
-                  "Installation of MySQL.",
-                  "DDL.",
-                  "SQL Keywords.",
-                  "DCL.",
-                  "TCL.",
-                  "Database Vs Excel Sheets.",
-                  "Relational and database schema.",
-                  "Foreign and Primary Keys.",
-                  "Database manipulation, management, and administration.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 11: No SQL Databases",
-                desc: [
-                  "Topics - What is HBase?",
-                  "HBase Architecture.",
-                  "HBase Components.",
-                  "Storage Model of HBase.",
-                  "HBase vs RDBMS.",
-                  "Introduction to Mongo DB, CRUD.",
-                  "Advantages of MongoDB over RDBMS.",
-                  "Use cases.",
-                  "First Step in SQL Database.",
-                  "Creating Database.",
-                  "Dropping Database.",
-                  "Using Database.",
-                  "Introduction to Tables.",
-                  "Data types in SQL.",
-                  "Creating a table.",
-                  "Dropping table.",
-                  "Coding best practices in SQL.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 12: SQL Databases",
-                desc: [
-                  "Introduction to database",
-                  "Creating Data base, Dropping Database",
-                  "Using Database",
-                  "Introduction to Tables",
-                  "Data types in SQL",
-                  "Use case of different data",
-                  "Working with tables",
-                  "Coding best practices in SQL",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 13: SQL Fundamantel Statement",
-                desc: [
-                  "SELECT Statement.",
-                  "COUNT.",
-                  "SELECT WHERE.",
-                  "ORDER BY.",
-                  "IN, NOT IN.",
-                  "NULL and NOT_NULL.",
-                  "Comparison Operators (=, >, >=, <=).",
-                  "MySQL Warnings (Understand and Debug).",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 14: Refining Selection",
-                desc: [
-                  "SELECT DISTINCT.",
-                  "LIKE, NOT LIKE, ILIKE.",
-                  "LIMIT.",
-                  "BETWEEN.",
-                  "BETWEEN – AND",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 15: SQL Statements & Functions",
-                desc: [
-                  "Multiple INSERT.",
-                  "INSERT INTO.",
-                  "GROUP BY.",
-                  "HAVING.",
-                  "WHERE vs HAVING.",
-                  "UPDATE.",
-                  "DELETE.",
-                  "AS.",
-                  "EXISTS-NOT EXISTS.",
-                  "Aggregator functions.",
-                  "Application of group by.",
-                  "Count function.",
-                  "MIN and MAX.",
-                  "Sum Function.",
-                  "Avg Function.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 16: JOINS & Functions",
-                desc: [
-                  "Introduction to JOINs",
-                  "Types of JOINS",
-                  "Usage of different types of JOINS",
-                  "Loading Data",
-                  "Usage of string functions like; CONCAT, SUBSTRING etc",
-                  "INNER join,",
-                  "OUTER join, Full join, Left Join, Right Join, UNION.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 17: Advance SQL",
-                desc: [
-                  "Local, Session, Global Variables",
-                  "Timestamps and Extract, CURRENT DATE & TIME, EXTRACT",
-                  "AGE, TO_CHAR, Mathematical Functions and Operators",
-                  "CEIL & FLOOR, POWER, RANDOM,",
-                  "ROUND, SETSEED, Operators and their precedence.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 18: Basics and CRUD Operation",
-                desc: [
-                  "Data bases",
-                  "Collection & Documents",
-                  "Shell & MongoDB drivers",
-                  "What is JSON Data",
-                  "Create, Read, Update, Delete",
-                  "Working with Arrays",
-                  "Understanding Schemas and Relations.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 19: Mongo DB",
-                desc: [
-                  "What is MongoDB?",
-                  "Characteristics, Structure and Features.",
-                  "MongoDB Ecosystem.",
-                  "Installation process.",
-                  "Connecting to MongoDB database.",
-                  "What are Object Ids in MongoDb.",
-                  "Data Formats in MongoDB.",
-                  "MongoDB Aggregation Framework.",
-                  "Aggregating Documents.",
-                  "What are MongoDB Drivers?",
-                  "Finding, Deleting, Updating, Inserting Elements.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 20: Introduction To Tableau",
-                desc: [
-                  "What is TABLEAU?",
-                  "Why to use TABLEAU?",
-                  "Installation of TABLEAU.",
-                  "Connecting to data source.",
-                  "Navigating Tableau.",
-                  "Creating Calculated Fields.",
-                  "Adding Colours",
-                  "Adding Labels and Formatting.",
-                  "Exporting Your Worksheet.",
-                  "Creating dashboard pages.",
-                  "Different charts on TABLEAU (Bar graphs, Line graphs, Scatter graphs, Crosstabs, Histogram, Heatmap, Tree maps, Bullet graphs, etc.)",
-                  "Dashboard Tricks.",
-                  "Hands on exercises.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 21: Data Types in Tableau",
-                desc: [
-                  "Pre-attentive processing.",
-                  "Length and position.",
-                  "Reference Lines.",
-                  "Parameters.",
-                  "Tooltips.",
-                  "Data over time.",
-                  "Implementation.",
-                  "Advance table calculations.",
-                  "Creating multiple joins in Tableau.",
-                  "Relationships vs Joins.",
-                  "Calculated Fields vs Table calculations.",
-                  "Creating advanced table calculations.",
-                  "Saving a Quick table calculation.",
-                  "Writing your own Table calculations.",
-                  "Adding a second layer moving average.",
-                  "Trendlines for power-insights.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 22: Mapping and Analytics",
-                desc: [
-                  "Getting started with visual analytics.",
-                  "Geospatial data.",
-                  "Mapping workspace.",
-                  "Map layers.",
-                  "Custom territories.",
-                  "Common mapping issues.",
-                  "Creating a map, working with hierarchies.",
-                  "Coordinate points.",
-                  "Plotting latitude and longitude.",
-                  "Custom geocoding.",
-                  "Polygon Maps.",
-                  "WMS and Background.",
-                  "Image Creating a Scatter Plot, Applying Filters to Multiple Worksheets.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 23: Calculations",
-                desc: [
-                  "Aggregation and its types",
-                  "level of detail common calculation functions",
-                  "creating parameters",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 24: Dashboard and Stories",
-                desc: [
-                  "Tiled vs Floating",
-                  "Working in views with Dashboard and stories",
-                  "Legends, Quick filters.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 25: Introducation To Power BI",
-                desc: [
-                  "Why Power BI?",
-                  "Account Types.",
-                  "Installing Power BI.",
-                  "Understanding the Power BI Desktop Workflow.",
-                  "Exploring the Interface of the Data Model.",
-                  "Understanding the Query Editor Interface.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 26: Query Editor",
-                desc: [
-                  "Connecting Power BI Desktop to Source Files.",
-                  "Keeping & Removing Rows.",
-                  "Removing Empty Rows.",
-                  "Create calculate columns.",
-                  "Make first row as headers.",
-                  "Change Data type.",
-                  "Rearrange the columns.",
-                  "Remove duplicates.",
-                  "Unpivot columns and split columns.",
-                  "Working with filters.",
-                  "Appending queries.",
-                  "Working with columns.",
-                  "Replacing values.",
-                  "Splitting columns.",
-                  "Formatting data & handling formatting errors.",
-                  "Pivoting & unpivoting data.",
-                  "Query duplicates vs references",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 27: Power BI",
-                desc: [
-                  "Power BI",
-                  "Working with Time series Understanding aggregation and granularity",
-                  "Filters and Slicers in Power BI",
-                  "Maps, Scatterplots and BI Reports",
-                  "Creating a Customer Seq mentation.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 28: Data Models",
-                desc: [
-                  "Understanding Relationships.",
-                  "Many-to-One & One-to-One.",
-                  "Cross Filter Direction & Many-to-Many.",
-                  "M-Language vs DAX (Data Analysis Expressions).",
-                  "Basics of DAX.",
-                  "DAX Data Types.",
-                  "DAX Operators and Syntax.",
-                  "Importing Data for DAX Learning.",
-                  "Resources for DAX Learning.",
-                  "M vs DAX.",
-                  "Understanding IF & RELATED.",
-                  "Create a Column.",
-                  "Rules to Create Measures.",
-                  "Calculated Columns vs Calculated Measures.",
-                  "Understanding CALCULATE & FILTER.",
-                  "Understanding Data Category",
-                  "SUM, AVERAGE, MIN, MAX, SUMX, COUNT, DIVIDE, COUNT, COUNTROOMS, CALCULATE, FILTER, ALL",
-                  "Time Intelligence.",
-                  "Create date table in M.",
-                  "Create date table in DAX.",
-                  "Display last refresh date.",
-                  "SAMEPERIODLASTYEAR.",
-                  "TOTALYTD.",
-                  "DATEADD.",
-                  "PREVIOUSMONTH.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 29: Time Intelligence",
-                desc: [
-                  "Create data table in M and DAX, Display last refresh Date.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 30: Modelling",
-                desc: [
-                  "Create your first report.",
-                  "Modelling basics to advance.",
-                  "Modelling and relationship.",
-                  "Ways of creating relationship.",
-                  "Normalisation – De-normalisation.",
-                  "OLTP vs OLAP.",
-                  "Star schema vs Snowflake schema.",
-                ],
-              },
-            },
-          ],
-          id: 8,
+          id: 2,
           open: false,
         },
       },

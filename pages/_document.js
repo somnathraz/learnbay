@@ -29,25 +29,28 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        <Script strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `application/ld+json"> {
-              "@context": "https://schema.org/",
-              "@type": "Product",
-              "name": ""Learnbay: Data Science Courses Certification Training India",
-              "brand": {
-              "@type": "Brand",
-              "name": "Learnbay"
-              },
-              "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "bestRating": "5",
-              "worstRating": "1",
-              "ratingCount": "12657"
-              }
-             } `,
-          }}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(
+                `application/ld+json"> {
+                  "@context": "https://schema.org/",
+                  "@type": "Product",
+                  "name": ""Learnbay: Data Science Courses Certification Training India",
+                  "brand": {
+                  "@type": "Brand",
+                  "name": "Learnbay"
+                  },
+                  "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.9",
+                  "bestRating": "5",
+                  "worstRating": "1",
+                  "ratingCount": "12657"
+                  }
+                 } `
+              ),
+            }}
           />
       </Head>
       <body>

@@ -62,7 +62,7 @@ export const DsaiManagersCourseData = [
           content: [
             {
               chap: {
-                title: "Cohort Orientation ",
+                title: "Topic 1 :- Cohort Orientation ",
                 desc: [
                   "A brief introduction to tools related to data  ",
                   "Learn about particular real-time projects and Capstone projects ",
@@ -74,7 +74,7 @@ export const DsaiManagersCourseData = [
 
             {
               chap: {
-                title: "Topic 2:  Fundamentals of programming ",
+                title: "Topic 2 :-  Fundamentals of programming ",
                 desc: [
                   "Introduction to Anaconda & Jupyter notebook ",
                   "Flavors of python Introduction to Git, GitHub",
@@ -84,7 +84,7 @@ export const DsaiManagersCourseData = [
             },
             {
               chap: {
-                title: "Fundamentals of Statistics",
+                title: " Topic 3 :- Fundamentals of Statistics",
                 desc: [
                   "Mean, Median, Mode.",
                   "Standard Deviation, Average. Probability, Permutations, and Combinations ",
@@ -104,7 +104,7 @@ export const DsaiManagersCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1 Python Programming ",
+                title: "Module 1 :- Python Programming ",
                 desc: [
                   "Programming Basics & Environment Setup.",
                   " Python Programming Overview ",
@@ -131,7 +131,7 @@ export const DsaiManagersCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1 - Statistics",
+                title: "Module 1 :- Statistics",
                 desc: [
                   " Fundamentals of Math and Probability",
                   "All about Population & Sample",
@@ -147,7 +147,7 @@ export const DsaiManagersCourseData = [
             },
             {
               chap: {
-                title: "Module 2-Machine Learning",
+                title: "Module 2 :- Machine Learning",
                 desc: [
                   "Introduction to Machine Learning",
                   "Regression and Classification Models",
@@ -181,7 +181,7 @@ export const DsaiManagersCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1-SQL",
+                title: "Module 1 :- SQL",
                 desc: [
                   "SQL and RDBMS",
                   " Advance SQL",
@@ -193,13 +193,13 @@ export const DsaiManagersCourseData = [
             },
             {
               chap: {
-                title: "Module 2-MongoDB",
+                title: "Module 2 :- MongoDB",
                 desc: ["Introduction to MongoDB", " MongoDB (Advance)"],
               },
             },
             {
               chap: {
-                title: "Module 3-Tableau ",
+                title: "Module 3 :- Tableau ",
                 desc: [
                   "Introduction to Tableau",
                   "Visual Analytics",
@@ -210,7 +210,7 @@ export const DsaiManagersCourseData = [
             },
             {
               chap: {
-                title: "Module 4- PowerBI",
+                title: "Module 4 :- PowerBI",
                 desc: [
                   "Getting Started With Power BI",
                   "Programming with Power BI",
@@ -219,7 +219,7 @@ export const DsaiManagersCourseData = [
             },
             {
               chap: {
-                title: "Module 5-Big Data & Spark Analytics",
+                title: "Module 5 :- Big Data & Spark Analytics",
                 desc: [
                   " Introduction To Hadoop & Big Data",
                   "What is Spark",
@@ -229,7 +229,7 @@ export const DsaiManagersCourseData = [
             },
             {
               chap: {
-                title: "Module 6-Time Series",
+                title: "Module 6 :- Time Series",
                 desc: [
                   " Introduction to Time Series Forecasting",
                   " Introduction to ARIMA Models,Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
@@ -248,7 +248,7 @@ export const DsaiManagersCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1-Deep Learning Using Tensorflow",
+                title: "Module 1 :- Deep Learning Using Tensorflow",
                 desc: [
                   "Introduction to Deep Learning And TensorFlow",
                   "TensorFlow Classification Examples",
@@ -262,7 +262,7 @@ export const DsaiManagersCourseData = [
             },
             {
               chap: {
-                title: "Module 2-Natural Language Processing (NLP)",
+                title: "Module 2 :- Natural Language Processing (NLP)",
                 desc: [
                   " Natural Language Processing",
                   "Text Analysis",
@@ -274,7 +274,7 @@ export const DsaiManagersCourseData = [
             },
             {
               chap: {
-                title: "Module 3-Computer Vision",
+                title: "Module 3 :- Computer Vision",
                 desc: [
                   " Computer Vision overview",
                   "Image Filtering",
@@ -286,7 +286,7 @@ export const DsaiManagersCourseData = [
             },
             {
               chap: {
-                title: "Module 4-Reinforcement Learning",
+                title: "Module 4 :- Reinforcement Learning",
                 desc: [
                   " What is Reinforcement Learning - Basics",
                   "Approximation Methods for Reinforcement Learning,Projects and Case Studies on Solving Taxi Environment & Solving Frozen Lake  ",
@@ -295,7 +295,7 @@ export const DsaiManagersCourseData = [
             },
             {
               chap: {
-                title: "Module 5-Model Training & Deployment Using (AWS GCP).",
+                title: "Module 5 :- Model Training & Deployment Using (AWS GCP).",
                 desc: [
                   " AWS (Amazon Web Services)",
                   "GCP (Google Cloud Platform)",
@@ -317,7 +317,7 @@ export const DsaiManagersCourseData = [
           content: [
             {
               chap: {
-                title: "Essentials-Project Management Module",
+                title: "Module 1 :- Essentials-Project Management Module",
                 desc: [
                   "Jira process",
                   "PM approaches for Technical Projects",

@@ -58,21 +58,36 @@ export const FullStackWebCourseData = [
     syllabus: [
       {
         Module0: {
-          title: "Term 1 :- Preparatory Session",
+          title: "Module 0 :- Preparatory Classes",
           content: [
             {
               chap: {
-                title: "Cohort Orientation ",
+                title: "Topic 1 :- Cohort Orientation",
                 desc: [
-                  "Preparatory Session (14 Hours)",
-                  "Understanding elite domains",
-                  "Programming Language Refresher: (Java & Python)",
+                  "A quick guide to Full Stack Web Development",
+                  "Significance of projects",
+                  "Job Opportunities in IT industry",
+                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "All about - MEAN stack and MERN stack",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 2 :- Programming Language Refresher: (Java & Python)",
+                desc: [
+                  "Syntax, Data Types, Variables, Loops, Conditionals, and If Statement", 
+                  "OOPs, Built-in Modules in Python and Java", 
+                  "Coding fundamentals", 
+                  "Master the command line interface", 
+                  "File Handling, Regular Expression, Exceptional Handling", 
+                  "Collection, Framework, Modules & Packages",
                 ],
               },
             },
           ],
           id: 0,
-          open: true,
+            open: true,
         },
       },
       {
@@ -81,7 +96,7 @@ export const FullStackWebCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1: Front End Development)",
+                title: "Module 1 :- Front End Development)",
                 desc: [
                   "HTML5",
                   "CSS3",
@@ -96,7 +111,7 @@ export const FullStackWebCourseData = [
             },
             {
               chap: {
-                title: "Module 2: Back End Development)",
+                title: "Module 2 :- Back End Development)",
                 desc: [
                   "SQL",
                   "NoSQL",
@@ -110,7 +125,7 @@ export const FullStackWebCourseData = [
             },
             {
               chap: {
-                title: "Module 3: Creating web applications from scratch",
+                title: "Module 3 :- Creating web applications from scratch",
                 desc: [
                   "Real - Time Use Case: On-Demand Home Service Application",
                 ],
@@ -118,25 +133,19 @@ export const FullStackWebCourseData = [
             },
             {
               chap: {
-                title: "Module 4: Database",
+                title: "Module 4 :- Database",
                 desc: ["MySQL", "MongoDB", "PostgreSQL"],
               },
             },
             {
               chap: {
-                title: "Module 4: Database",
-                desc: ["MySQL", "MongoDB", "PostgreSQL"],
-              },
-            },
-            {
-              chap: {
-                title: "Module 5: Essential Tools",
+                title: "Module 5 :- Essential Tools",
                 desc: ["Git GitHub", "Selenium", "PostMan", "Trello", "Jira"],
               },
             },
             {
               chap: {
-                title: "Module 6: Deploying Web Applications on Cloud",
+                title: "Module 6 :- Deploying Web Applications on Cloud",
                 desc: ["AWS", "Firebase", "Google Cloud Platform"],
               },
             },
@@ -152,7 +161,7 @@ export const FullStackWebCourseData = [
           content: [
             {
               chap: {
-                title: "Real-time use cases and projects)",
+                title: "Module 1 :- Real-time use cases and projects)",
                 desc: [
                   "Authentication",
                   "CRUD",
@@ -169,6 +178,29 @@ export const FullStackWebCourseData = [
                   "Chatting/Messaging Application",
                   "Food Delivery Application",
                   "VR-Based Application",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Interview Preparation: Crack MAANG",
+                desc: [
+                  " Searching and Sorting Interview Questions",
+                  " Top 20 Dynamic Programming Interview Questions",
+                  " Top 100 Interview Questions on Advance data structures",
+                  " On-Demand Home Service Application",
+                  " Top 50 Interview Questions on Elementary data structures",
+                  " Top 15 Puzzles to solve and practice",
+                  " Practice the Most Popular Algorithms",
+                  " Programming Knowledge",
+                  " Aptitude, Reasoning & English",
+                  " Quantitative Aptitude",
+                  " Behavioral",
+                  " Logical Ability",
+                  " Computer Science & Programming",
+                  " Chatting/Messaging Application",
+                  " Prefix Sum and Sliding Window",
+                  " Bit Magic",
                 ],
               },
             },
