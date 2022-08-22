@@ -62,15 +62,24 @@ export const DsaCourseData = [
           content: [
             {
               chap: {
-                title: "Module 0 :- Preparatory Classes",
+                title: "Topic 1 :- Cohort Orientation",
                 desc: [
-                  "Cohort Orientation ",
-                  "Significance of projects & case studies ",
-                  "Analysis of Algorithms, Space and Time complexity",
-                  " How to make it big in the IT Industry and crack MAANG Interviews",
+                  "A quick guide to Software Development", 
+                  "Significance of projects & case studies", 
+                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "Interview process of top product based MNCs and Unicorns.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 1 :- Analysis of Algorithms, Space and Time complexity",
+                desc: [
+                  "Big-O, Big-Omega, and Big-Theta notations ",
+                  "Best, average, and worst-case Complexities hierarchy",
                   "Complexity classes (P vs. NP problem)",
                   "Asymptotic Analysis",
-                  " Analysis of Loops",
+                  "Analysis of Loops",
                 ],
               },
             },
@@ -86,7 +95,7 @@ export const DsaCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1-DSA ",
+                title: "Module 1 :- DSA ",
                 desc: [
                   " Array Overview",
                   "String",
@@ -110,7 +119,7 @@ export const DsaCourseData = [
             },
             {
               chap: {
-                title: "Module 2-System Design",
+                title: "Module 2 :- System Design",
                 desc: [
                   " Introduction to System Design",
                   " High Level Design With Projects",
@@ -131,7 +140,7 @@ export const DsaCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1:- Real time use cases and projects",
+                title: "Module 1 :- Real time use cases and projects",
                 desc: [
                   " Authentication",
                   " CRUD",
@@ -152,18 +161,9 @@ export const DsaCourseData = [
                 ],
               },
             },
-          ],
-          id: 2,
-            open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Term 3 :- Interview Preparation",
-          content: [
             {
               chap: {
-                title: "Module 1:- Interview Preparation: Crack MAANG",
+                title: "Module 2 :- Interview Preparation: Crack MAANG",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",
@@ -185,7 +185,7 @@ export const DsaCourseData = [
               },
             },
           ],
-          id: 3,
+          id: 2,
             open: false,
         },
       },

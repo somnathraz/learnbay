@@ -62,7 +62,7 @@ export const FoundtionCourseData = [
             content: [
               {
                 chap: {
-                  title: "Cohort Orientation",
+                  title: "Topic 1 :- Cohort Orientation",
                   desc: [
                     "A brief introduction to tools related to data",
                     "Learn about particular real-time projects and Capstone projects ",
@@ -74,7 +74,7 @@ export const FoundtionCourseData = [
     
               {
                 chap: {
-                  title: "Topic 2:Fundamentals of Programming",
+                  title: "Topic 2 :- Fundamentals of Programming",
                   desc: [
                     "Introduction to Anaconda & Jupyter notebook",
                     "Flavours of python Introduction to Git, GitHub",
@@ -84,7 +84,7 @@ export const FoundtionCourseData = [
               },
               {
                 chap: {
-                  title: "Topic 3:  Fundamentals of Statistics",
+                  title: "Topic 3 :- Fundamentals of Statistics",
                   desc: [
                     "Mean, Median, Mode",
                     "Standard Deviation, Average. Probability, Permutations, and Combinations",
@@ -104,7 +104,7 @@ export const FoundtionCourseData = [
             content: [
               {
                 chap: {
-                  title: "Python Programming ",
+                  title: "Module 1 :- Python Programming ",
                   desc: [
                     " Programming Basics & Environment Setup",
                     "Python Programming Overview",
@@ -131,7 +131,7 @@ export const FoundtionCourseData = [
             content: [
               {
                 chap: {
-                  title:"Module 1:Statistics",
+                  title:"Module 1 :- Statistics",
                   desc: [
                    " Fundamentals of Math and Probability",
                    "All about Population & Sample",
@@ -148,7 +148,7 @@ export const FoundtionCourseData = [
               },
               {
                 chap: {
-                  title: "Module 2: Machine Learning",
+                  title: "Module 2 :- Machine Learning",
                   desc: [
                     "Introduction to Machine Learning",
                     "Regression and Classification Models",
@@ -180,7 +180,7 @@ export const FoundtionCourseData = [
             content: [
               {
                 chap: {
-                  title: "Module 1: SQL",
+                  title: "Module 1 :- SQL",
                   desc: [
                     "SQL and RDBMS",
                     "Advance SQL",
@@ -192,7 +192,7 @@ export const FoundtionCourseData = [
               },
               {
                 chap: {
-                  title: "Module 2: MongoDB",
+                  title: "Module 2 :- MongoDB",
                   desc: [
                     " Introduction to MongoDB",
                     "MongoDB (Advance)",
@@ -201,7 +201,7 @@ export const FoundtionCourseData = [
               },
               {
                 chap: {
-                  title: "Module 3: Tableau",
+                  title: "Module 3 :- Tableau",
                   desc: [
                    " Introduction to Tableau",
                    "Visual Analytics",
@@ -212,7 +212,7 @@ export const FoundtionCourseData = [
               },
               {
                 chap: {
-                  title: "Module 4: PowerBI",
+                  title: "Module 4 :- PowerBI",
                   desc: [
                    "Getting Started With Power BI",
                    "Programming with Power BI",
@@ -221,7 +221,7 @@ export const FoundtionCourseData = [
               },
               {
                 chap: {
-                  title: "Module 5: Big Data & Spark Analytics",
+                  title: "Module 5 :- Big Data & Spark Analytics",
                   desc: [
                    "Introduction To Hadoop & Big Data",
                    "What is Spark",
@@ -232,7 +232,7 @@ export const FoundtionCourseData = [
               },
               {
                 chap: {
-                  title: "Module 6: Time Series",
+                  title: "Module 6 :- Time Series",
                   desc: [
                     " Introduction to Time Series Forecasting",
                     "Introduction to ARIMA Models Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
@@ -246,11 +246,11 @@ export const FoundtionCourseData = [
         },
         {
           Module0: {
-            title: "ARIMA Models",
+            title: "Term 1 :- ARIMA Models",
             content: [
               {
                 chap: {
-                  title: "Introduction to ARIMA Models",
+                  title: "Module 1 :- Introduction to ARIMA Models",
                   desc: [
                     "Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
                   ],

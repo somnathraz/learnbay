@@ -675,7 +675,7 @@ module.exports = {
       },
       {
         source: '/data-science-course',
-        destination: 'https://www.learnbay.co/',
+        destination: '/data-science-course-training-in-bangalore',
         permanent: true,
       },
     ]

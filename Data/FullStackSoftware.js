@@ -58,26 +58,34 @@ export const FullStackSoftwareCourseData = [
     syllabus: [
       {
         Module0: {
-          title: "Module 0 :- Preparatory Session",
+          title: "Module 0 :- Preparatory Classes",
           content: [
             {
               chap: {
-                title: "Cohort Orientation ",
+                title: "Topic 1 :- Cohort Orientation",
                 desc: [
-                  " Cohort Orientation",
-                  " Significance of projects & case studies",
-                  " Analysis of Algorithms, Space and Time complexity",
-                  " How to make it big in the IT Industry and crack MAANG Interviews",
-                   "Complexity classes (P vs. NP problem)",
-                   " Asymptotic Analysis",
-                   " Analysis of Loops",
-
+                  "A quick guide to Software Development", 
+                  "Significance of projects & case studies", 
+                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "Interview process of top product based MNCs and Unicorns.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 1 :- Analysis of Algorithms, Space and Time complexity",
+                desc: [
+                  "Big-O, Big-Omega, and Big-Theta notations ",
+                  "Best, average, and worst-case Complexities hierarchy",
+                  "Complexity classes (P vs. NP problem)",
+                  "Asymptotic Analysis",
+                  "Analysis of Loops",
                 ],
               },
             },
           ],
-          id: 1,
-          open: true,
+          id: 0,
+            open: true,
         },
       },
       {
@@ -86,7 +94,7 @@ export const FullStackSoftwareCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1-DSA",
+                title: "Module 1 :- DSA",
                 desc: [
                   "Array Overview",
 	          "String",
@@ -110,7 +118,7 @@ export const FullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Module 2-System Design",
+                title: "Module 2 :- System Design",
                 desc: [
                   "Introduction to System Design",
 	          " High Level Design With Projects",
@@ -130,7 +138,7 @@ export const FullStackSoftwareCourseData = [
           content: [
             {
               chap: {
-                title: "Real time use cases and projects",
+                title: "Module 1 :- Real time use cases and projects",
                 desc: [
                       "Authentication",
 	              " CRUD",
@@ -151,6 +159,29 @@ export const FullStackSoftwareCourseData = [
                     ],
                   },
                 },
+                {
+                  chap: {
+                    title: "Module 2 :- Interview Preparation: Crack MAANG",
+                    desc: [
+                      " Searching and Sorting Interview Questions",
+                      " Top 20 Dynamic Programming Interview Questions",
+                      " Top 100 Interview Questions on Advance data structures",
+                      " On-Demand Home Service Application",
+                      " Top 50 Interview Questions on Elementary data structures",
+                      " Top 15 Puzzles to solve and practice",
+                      " Practice the Most Popular Algorithms",
+                      " Programming Knowledge",
+                      " Aptitude, Reasoning & English",
+                      " Quantitative Aptitude",
+                      " Behavioral",
+                      " Logical Ability",
+                      " Computer Science & Programming",
+                      " Chatting/Messaging Application",
+                      " Prefix Sum and Sliding Window",
+                      " Bit Magic",
+                    ],
+                  },
+                },
               ],
               id: 3,
               open: false,
@@ -162,7 +193,7 @@ export const FullStackSoftwareCourseData = [
         content: [
           {
             chap: {
-              title: "FullStack",
+              title: "Module 1 :- FullStack",
               desc: [
                 "Programming Essentials",
                 "Frontend",
@@ -172,7 +203,7 @@ export const FullStackSoftwareCourseData = [
           },
           {
             chap: {
-              title: " Product Engineer/Manager",
+              title: "Module 2 :- Product Engineer/Manager",
               desc: [
                 "Fundamentals of team management",
                 "Recognize functional specifications",
@@ -185,7 +216,7 @@ export const FullStackSoftwareCourseData = [
           },
           {
             chap: {
-              title: " Data Science and AI",
+              title: "Module 3 :- Data Science and AI",
               desc: [
                 "An overview of Machine Learning",
                 "Exploratory Data Analysis",
@@ -198,7 +229,7 @@ export const FullStackSoftwareCourseData = [
           },
           {
             chap: {
-              title: " Web 3.0 Developer",
+              title: "Module 4 :- Web 3.0 Developer",
               desc: [
                 "Overview of Bitcoin",
                 "Blockchain - Genesis Block, Hashing Algorithm",
@@ -211,7 +242,7 @@ export const FullStackSoftwareCourseData = [
           },
           {
             chap: {
-              title: "Devops & Clouds",
+              title: "Module 5 :- Devops & Clouds",
               desc: [
                 "In-Depth knowledge of Agile Principles",
                 "Understanding Project Development Process",
