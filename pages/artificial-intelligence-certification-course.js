@@ -156,10 +156,10 @@ export default function Home() {
           <Project project="15+ Projects" domain="7+" />
         </div>
         <Fee
-          sub1="Data Science Foundation Program"
+          sub1="Data Science Foundation Certification Program"
           Price1="₹65,000 + GST"
           PFeatures11="200+ Hours"
-          PFeatures12="Early Professionals"
+          PFeatures12="Non-Tech Professional"
           PFeatures13="NA"
           PFeatures14="8+1"
           PFeatures15="10+"
@@ -171,7 +171,7 @@ export default function Home() {
           Price2="₹95,000 + GST"
           PFeatures21="350+ Hours"
           PFeatures22="Tech Professionals"
-          PFeatures23="8+"
+          PFeatures23="All"
           PFeatures24="15+2"
           PFeatures25="18+"
           PFeatures26="Yes"

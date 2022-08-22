@@ -67,7 +67,7 @@ const Footer = () => {
         <div className={styles.FooterDiv} style={{borderTop: "1px solid", borderBottom: "1px solid", borderColor:"#ffffff50"}}>
           <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Pune</p>
-            <p className={styles.FooterInnerli}>Data Science Course Training in Pune</p>
+            <a href="/data-science-course-training-in-pune"><p className={styles.FooterInnerli}>Data Science Course Training in Pune</p></a>
             <a href="/machine-learning-course-training-in-pune"><p className={styles.FooterInnerli}>Machine learning course training in pune</p></a>
             <a href="/data-analytics-course-training-in-pune"><p className={styles.FooterInnerli}>data analytics course training in pune</p></a>
             <a href="/business-analytics-course-training-in-pune"><p className={styles.FooterInnerli}>business analytics course training in pune</p></a>

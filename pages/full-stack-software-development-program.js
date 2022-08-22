@@ -37,12 +37,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Full Stack Software Development Program</title>
-        <meta
-          name="description"
-          content="Full Stack Software Development Program"
-        />
+      <title>Full Stack Software Development Course - Learnbay</title>
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <meta name="description" content="Full Stack Software Development Course with IBM certification. Learnbay provide advanced full stack Software developer course with placement guarantee. Enrol in our full stack Software developer course to enhance your career" />
+<meta name="Keywords" content="Full Stack Software Development Course, Full Stack Software Development Course training , Full Stack Software Development Course institute in India, best Full Stack Software Development Course institute, Full Stack Software developer Course ,Full Stack Software developer Course certification, Full Stack Software developer Course training institute , advanced Full Stack Software developer Course , Full Stack Software developer Course with placement guarantee, Full Stack Software developer Course with IBM certification"/>
       </Head>
       <main>  <Navbar popup={true} />
 
