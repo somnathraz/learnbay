@@ -179,7 +179,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio }) => {
               name="name"
               className={popup ? styles.NameInputs : styles.NameInput}
               required
-              placeholder="Enter your Full Name*"
+              placeholder="Enter your Full Name"
               value={query.name}
               style={{ borderBottom: "1px solid grey" }}
               onChange={handleParam()}
@@ -190,7 +190,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio }) => {
               type="email"
               name="email"
               required
-              placeholder="Enter your Email*"
+              placeholder="Enter your Email"
               className={popup ? styles.EmailInputs : styles.EmailInput}
               value={query.email}
               onChange={handleParam()}

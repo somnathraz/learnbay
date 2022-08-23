@@ -10,7 +10,7 @@ const sumbit = () => {
     <div>
       <Head>
         <title>Apply For Counselling</title>
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
       <Navbar popup={true} />
       <div className={styles.Wrapper}>

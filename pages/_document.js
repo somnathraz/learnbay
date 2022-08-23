@@ -34,9 +34,9 @@ export default function Document() {
             dangerouslySetInnerHTML={{
               __html: JSON.stringify(
                 `application/ld+json"> {
-                  "@context": "https://schema.org/",
-                  "@type": "Product",
-                  "name": ""Learnbay: Data Science Courses Certification Training India",
+                  "@context": "https://schema.org/", 
+                  "@type": "Product", 
+                  "name": "Data Science Course in Bangalore | Data Science Course Training In Bangalore - Learnbay",
                   "brand": {
                   "@type": "Brand",
                   "name": "Learnbay"

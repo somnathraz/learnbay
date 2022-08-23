@@ -9,7 +9,7 @@ function privacy() {
       <Head>
         <title>Learnbay's Privacy Policy</title>
         <meta name="description" content="Learnbay's Privacy Policy" />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
       <main>  <Navbar popup={true} />
 
