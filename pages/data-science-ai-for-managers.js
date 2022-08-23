@@ -51,7 +51,7 @@ export default function Home() {
           name="description"
           content="Data Science and Artificial Intelligence Program For Managers and Leaders"
         />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
       <main>  <Navbar popup={true} />
 

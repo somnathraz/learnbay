@@ -59,6 +59,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
         name: "",
         email: "",
         phone: "",
+        jobDescription: "",
         workExperience: "",
         dateTime: "",
         url: "",
@@ -114,9 +115,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/data-science-course-training-in-pune" ||
       router.pathname === "/data-science-course" ||
       router.pathname === "/demo" ||
-      router.pathname === "/dsa-system-design" ||
-      router.pathname === "/full-stack-software-development-program" ||
-      router.pathname === "/full-stack-web-development-program" ||
       router.pathname === "/" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-certification-course" ||
       router.pathname === "/machine-learning-course-training-in-bangalore" ||
@@ -137,6 +135,15 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/"
     ) {
       router.push("/Thank-you");
+      return;
+    }
+
+    if (
+      router.pathname === "/dsa-system-design" ||
+      router.pathname === "/full-stack-software-development-program" ||
+      router.pathname === "/full-stack-web-development-program" 
+    ) {
+      router.push("/Thank-you-fsd");
       return;
     }
   };
@@ -160,7 +167,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
             name="name"
             className={popup ? styles.NameInputs : styles.NameInput}
             required
-            placeholder="Enter your Full Name*"
+            placeholder="Enter your Full Name"
             value={query.name}
             style={{ borderBottom: "1px solid grey" }}
             onChange={handleParam()}
@@ -171,7 +178,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
             type="email"
             name="email"
             required
-            placeholder="Enter your Email*"
+            placeholder="Enter your Email"
             className={popup ? styles.EmailInputs : styles.EmailInput}
             value={query.email}
             onChange={handleParam()}
@@ -202,6 +209,16 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
             value={value}
             onChange={setValue}
             required
+          />
+        </div>
+        <div className={styles.formWrapper}>
+          <input
+            type="text"
+            name="jobDescription"
+            placeholder="Job Description"
+            className={popup ? styles.EmailInputs : styles.EmailInput}
+            value={query.jobDescription}
+            onChange={handleParam()}
           />
         </div>
         <div className={popup ? styles.formWrappers : styles.formWrapper}>

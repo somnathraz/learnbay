@@ -46,7 +46,7 @@ export default function Home() {
           name="description"
           content="Business Analytics Certification Program"
         />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
       <main>  <Navbar popup={true} />
 
