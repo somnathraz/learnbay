@@ -266,7 +266,7 @@ const Tabs = ({ handleIcon }) => {
                 </div>
 
                 <div className={styles.Row}>
-                  <a href="/advance-data-science-certification-courses">
+                  <a href="/data-analytics-certification-course">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
