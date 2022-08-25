@@ -41,15 +41,11 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
       <OfferPopup
-        title="New batch starting from 26th August"
-        p1="Avail Scholarship upto 15000/- valid till 20th August"
+        title="Batch closing on 26th August"
+        p1="Note:- Only 10 seats left!"
         p2="Available Batch Details :"
-        batch1="Weekend Morning"
-        batch11=" : 21st August, 08:30 a.m. to 12:00 p.m."
-        batch2="Weekday Evening"
-        batch22=" : 26th August, 08.00 p.m. to 10.00 p.m."
-        batch3="Weekday Morning"
-        batch33=" : 25th August, 08:00 a.m. to 10:00 a.m."
+        batch1="Weekday Evening"
+        batch11=" : 26th August, 08.00 p.m. to 10.00 p.m."
       />
       <BottomBar />
     </>

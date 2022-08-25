@@ -75,7 +75,7 @@ export default function Home() {
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
  "description": "You just have to follow 3 easy steps to enroll in our advanced data science course",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "totalTime": "PT6M",
  "estimatedCost": {
  "@type": "MonetaryAmount",
@@ -93,19 +93,19 @@ export default function Home() {
  "step": [{
  "@type": "HowToStep",
  "text": "Visit our website and fill the enquiry form",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "name": "Fill Enquiry Form",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2021/05/Untitled-design-2021-05-22T113616.025.png",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
  "@type": "HowToStep",
  "text": "Get enrollment in our data science course",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "name": "Get enrollment",
  "url": "https://www.learnbay.co/"
  }] 
@@ -127,7 +127,7 @@ export default function Home() {
  },
  "headline": "Data Science Course Training in Pune",
  "description": "Data science course in Pune. Learnbay is Advanced Data Science Course Training Institute in Pune. Data science course in Pune will enhance your career",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg", 
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
  "author": {
  "@type": "Organization",
  "name": "Learnbay",
@@ -138,7 +138,7 @@ export default function Home() {
  "name": "Learnbay",
  "logo": {
  "@type": "ImageObject",
- "url": "https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png"
+ "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
  }
  },
  "datePublished": "2021-10-01",
@@ -363,7 +363,7 @@ export default function Home() {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Data Science Course Training in Pune",
 "description": "Data science course in Pune. Learnbay is Advanced Data Science Course Training Institute in Pune. Data science course in Pune will enhance your career.",
-"image" : "https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png",
+"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
 "performer":"Learnbay", 
 "offers":{
 "@type": "AggregateOffer",
