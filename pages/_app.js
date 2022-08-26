@@ -41,11 +41,13 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
       <OfferPopup
-        title="Batch closing on 26th August"
-        p1="Note:- Only 10 seats left!"
+        title="Special Batch for Non Programmers Starts from 31st August"
+        p1="Avail 20% discount on all"
         p2="Available Batch Details :"
-        batch1="Weekday Evening"
-        batch11=" : 26th August, 08.00 p.m. to 10.00 p.m."
+        batch1="Weekend Afternoon"
+        batch11=" : 4th September, 12:30 p.m. to 4 p.m."
+        batch2="Weekday Evening"
+        batch22=" : 9th September, 8 p.m. to 10 p.m."
       />
       <BottomBar />
     </>

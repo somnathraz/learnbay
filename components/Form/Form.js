@@ -249,7 +249,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
           ""
         )}
 
-<div className={popup ? styles.formWrappers : styles.formWrapper}>
+{/* <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <div className={styles.inner}>
               <DatePicker
                 selected={startDate}
@@ -275,7 +275,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
                 maxTime={setHours(setMinutes(new Date(), 0), 22)}
               />
             </div>
-          </div>
+          </div> */}
           {radio ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <input
