@@ -1,0 +1,634 @@
+.container {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Back {
+  background-color: #f4fcfe;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 59% 39%;
+  align-items: center;
+  margin: auto;
+  padding: 0px 100px;
+  margin-top: 70px;
+}
+.Page {
+  display: block;
+  position: relative;
+  margin-top: 75px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.Page2 {
+  display: grid;
+  grid-template-columns: 68% 28%;
+}
+.Pages {
+  display: grid;
+  margin-top: 90px;
+  grid-template-columns: 90% 10%;
+}
+
+.left {
+  margin: 50px 20px 50px 100px
+}
+
+/* .right {
+  position: sticky;
+  z-index: 990;
+  right: 90px;
+  top: 90px;
+} */
+.Pages .prgrmFeature {
+  margin: 0 90px;
+}
+.form {
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 5px 0 rgb(45 156 215 / 31%);
+  position: sticky;
+    top: 80px;
+    margin-top: 50px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.timer,
+.timerS {
+  margin-top: 20px;
+  display: flex;
+
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0 5px 0 rgb(45 156 215 / 31%);
+
+  border-radius: 8px;
+}
+.timer a {
+  width: 100%;
+}
+.timer button {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  font-size: large;
+  align-items: center;
+  justify-content: center;
+}
+.timerS button {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  cursor: none;
+  font-size: large;
+  align-items: center;
+  background-color: grey;
+  justify-content: center;
+}
+.header p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #0077b5;
+  font-weight: 500;
+}
+.Icon {
+  margin-right: 5px;
+  color: #0077b5;
+}
+.why {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 0px;
+}
+.line {
+  width: 150px;
+  margin-bottom: 30px;
+  background-color: #ECB552;
+  height: 4px;
+  border-radius: 8px;
+}
+.whyLeft {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.whyLeft p {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-top: 0px;
+  line-height: 1.2em;
+  color: #3d3d3d;
+}
+.whyRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.WhyWrap h6 {
+  font-size: 36px;
+  margin: 0;
+  margin-top: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+.WhyWrap {
+  display: flex;
+  flex-flow: column;
+  margin-top: 40px;
+}
+.Who {
+  display: grid;
+  background-color: #faf9ff;
+  grid-template-columns: 35% 65%;
+  margin-top: 50px;
+  border-radius: 8px;
+  gap: 20px;
+  margin-bottom: 60px;
+  padding: 20px 20px;
+}
+.whoLeft {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  padding: 0;
+  background-color: #ECB552;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.whoLeft h6 {
+  font-size: 26px;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  color: white;
+}
+.wrapper {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nIcon {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 1px;
+}
+.nContent h6 {
+  margin: 0;
+  font-size: 18px;
+}
+.nContent p {
+  margin: 0;
+  margin-top: 5px;
+  margin-right: 60px;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+.nContent {
+  margin-bottom: 10px;
+}
+.number {
+  display: flex;
+  align-items: flex-start;
+}
+.gIcon {
+  margin-top: 20px;
+  color: white;
+  border-radius: 50%;
+  font-size: 35px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.eReview {
+  margin-bottom: 20px;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+
+  padding-top: 30px;
+  margin-right: -20px;
+}
+.aboutLeft h6 {
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+}
+.aboutRight p {
+  font-size: 16px;
+  color: #3d3d3d;
+}
+.aboutContent {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  padding-left: 100px;
+
+  gap: 10px;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  margin-right: -20px;
+  margin-bottom: 40px;
+}
+.aboutContent div {
+  padding: 10px 20px;
+  border-radius: 8px;
+  position: relative;
+}
+.aboutContent h6 {
+  font-size: 18px;
+  margin: 0;
+  position: relative;
+  margin-top: 20px;
+  z-index: 10;
+}
+.aboutContent p {
+  margin: 0;
+  position: relative;
+  font-size: 14px;
+  color: #3d3d3d;
+  margin-top: 5px;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+  z-index: 10;
+}
+
+.Numbers {
+  position: absolute;
+  right: 40px;
+  z-index: 0;
+}
+.aboutUS {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 40px;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.aboutUS .aRight {
+  margin-left: 20px;
+}
+.aboutUS h6 {
+  font-size: 36px;
+  margin: 0;
+}
+.aboutUS p {
+  color: #3d3d3d;
+  line-height: 1.4em;
+  margin-right: 90px;
+}
+.PrpLeft {
+  display: flex;
+  flex-flow: column;
+
+  justify-content: flex-start;
+}
+.PrpLeft h6 span {
+  font-size: 27px;
+  font-weight: 500;
+  color: #0077b5;
+  margin-left: 5px;
+}
+.bracket {
+  color: black;
+}
+.Profile {
+  border-radius: 8px;
+  position: relative;
+  padding: 20px 40px;
+  margin-top: 80px;
+  background-color: #F2FBFD;
+}
+.profilePic {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.prpWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.prpWrap p {
+  font-size: 14px;
+  margin: 0;
+}
+.prpWrap h6 {
+  font-size: 36px;
+  color: #f28705;
+  margin: 0;
+}
+.infoWrap {
+  display: flex;
+  gap: 10px;
+  margin-bottom: -10px;
+}
+.infoWrap p {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(245, 234, 227, 0.549);
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.Profile p {
+  display: flex;
+}
+.PH {
+  font-size: 18px;
+  margin: 0;
+}
+.Tick {
+  border-radius: 2px;
+  font-size: 18px;
+  color: #f28705;
+  margin-right: 10px;
+}
+.workImg {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+
+  gap: 20px;
+}
+
+/*  Event Main Page styles  */
+.headWrap {
+  padding: 0px 100px;
+  height: 70px;
+  position: relative;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  position: relative;
+}
+.content .left {
+  display: flex;
+  flex-flow: column;
+  z-index: 1;
+}
+.content .left h4 {
+  margin: 0;
+  font-size: 27px;
+  color: white;
+}
+
+.content .left p {
+  color: white;
+  margin: 0;
+}
+.content button {
+  background-color: white;
+  color: #0077b5;
+}
+
+.event {
+  margin-top: 20px;
+  padding: 20px 100px;
+}
+
+/* event main page style end*/
+
+@media (max-width: 1281px) {
+  .Page {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .right {
+    right: 20px;
+  }
+  .WhyWrap {
+    margin-left: 20px;
+  }
+  .Who {
+    margin-left: 20px;
+  }
+  /*  Event Main Page styles  */
+  .event {
+    padding: 20px 40px;
+  }
+
+  /* event main page style end*/
+}
+
+@media (max-width: 801px) {
+  .event {
+    padding: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .Page {
+    display: flex;
+    flex-flow: column;
+    background-image: none !important;
+  }
+  .Back {
+    height: 100%;
+    text-align: left;
+    padding: 100px 20px 30px 20px;
+    display: block;
+  }
+  .event {
+    padding: 20px;
+  }
+
+  .left {
+    margin: 0px
+  }
+  .headWrap {
+    margin-top: 70px;
+    padding: 0px 10px;
+    height: max-content;
+    position: relative;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+  }
+  .content .left {
+    display: flex;
+    flex-flow: column;
+    z-index: 1;
+  }
+  .content .left h4 {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+  }
+
+  .content .left p {
+    color: white;
+    margin: 0;
+  }
+  .content button {
+    padding: 8px 12px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: #0077b5;
+  }
+  .PageContent {
+    margin-left: -15px;
+    margin-right: -17px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    height: max-content;
+    padding-right: 10px;
+  }
+  .right {
+    display: flex;
+    position: unset;
+    z-index: 0;
+    flex-flow: column;
+  }
+  .Page2,
+  .Pages {
+    grid-template-columns: 100%;
+    padding: 30px 20px;
+  }
+
+  .why {
+    display: flex;
+    flex-flow: column;
+    margin-top: 0px;
+  }
+  .WhyWrap h6 {
+    margin-top: 0;
+    font-size: 30px;
+  }
+  .WhyWrap {
+    margin: 40px 0px;
+  }
+  .Who {
+    display: flex;
+    flex-flow: column;
+    margin: 0px;
+    padding: 20px;
+    justify-content: center;
+  }
+  .whoLeft h6 {
+    font-size: 27px;
+  }
+  .whoLeft {
+    margin-right: 0;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .gIcon {
+    font-size: 30px;
+  }
+  .whoRight {
+    padding-left: 20px;
+  }
+  .nContent p {
+    margin-right: 20px;
+  }
+  .aboutUS {
+    display: flex;
+    flex-flow: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .aRight {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .aRight h6 {
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left: -15px;
+    text-align: center;
+  }
+  .aboutUS p {
+    margin-right: 0;
+  }
+  .line {
+    margin: 5px 0px 30px 0px;
+  }
+  .about {
+    display: flex;
+    flex-flow: column;
+    margin-left: 0;
+    margin: 0;
+    padding-left: 10px;
+  }
+  .aboutLeft h6 {
+    font-size: 27px;
+  }
+  .aboutLeft p {
+    text-align: center;
+  }
+  .aboutContent {
+    display: flex;
+    flex-flow: column;
+    padding-left: 10px;
+    margin-right: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .Profile {
+    margin-left: 0px;
+    padding: 20px;
+  }
+  .prpWrap {
+    align-items: center;
+  }
+  .PrpLeft {
+    justify-content: center;
+  }
+  .prpWrap h6 {
+    font-size: 26px;
+    margin-left: 0px;
+    text-align: left;
+  }
+  .prpWrap p {
+    font-size: 12px;
+  }
+  .profilePic {
+    margin-top: 0;
+  }
+  .infoWrap {
+    gap: 0px;
+
+    display: flex;
+    flex-flow: column;
+  }
+  .infoWrap p {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    margin: 3px;
+  }
+  .dots {
+    color: #f28705;
+    font-size: 46px;
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "metaInfo": {
+    "title": "Introduction to Full Stack Web Development",
+    "desc": "Enroll in the Full stack course Event and learn from live classes. Get Knowledge by working on industry projects.",
+    "keyword": "Web Development",
+    "canonical": "https://learnbay.com/Event/Introduction-to-Full-Stack-Web-Development"
+  },
+  "mainData": {
+    "title": "Introduction to Full Stack Web Development",
+    "eventDate": "10th to 11th September",
+    "tag": "Fullstack",
+    "eventTime": "11 a.m. to 1 p.m.",
+    "Duration": "120min",
+    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/about-us.png",
+    "register": "843"
+  },
+  "header": {
+    "title": "Introduction to Full Stack ",
+    "titleSpan": "Web Development",
+    "desc": "For SDEs with 1+ years working Exp",
+    "eventDate": "10th to 11th September",
+    "eventTime": "11 a.m. to 1 p.m.",
+    "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png",
+    "register": "843",
+    "width": "600",
+    "height": "560",
+    "alt": "Header",
+    "instructor": "Mr. Wazid",
+    "link": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png",
+    "backImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png",
+    "mBackImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png"
+  },
+
+  "feature": {
+    "title": "Full Stack Masterclass Features",
+    "h1": "Customized learning",
+    "p1": "Fulfill your learning goals and get expert assistance.",
+    "h2": "Live Classes",
+    "p2": "Get 100% live sessions led by Full stack experts.",
+    "h3": "Shareable certification",
+    "p3": "Attend the training and get acknowledged certification.",
+    "img1": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Customized-Learning.png",
+    "img2": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-Classes.png",
+    "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shareable-Certification.png"
+  },
+  "profile": {
+    "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/avatar-02.webp",
+    "desc": "Full Stack Developer",
+    "pName": "Mr. Wazid",
+    "link": "https://www.linkedin.com/in/davedhaval87",
+    "mIcon": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
+    "list1": "9+ years of experience in Backend",
+    "list2": "2 Open-source contribution",
+    "list3": " Alumnus of National Institute of Technology Warangal.",
+    "list4": "  Problem Solving, Designing, Optimize solution for performance enhancement.",
+    "list5": "  Research paper selected and Presented in IEEE- ICACCI & TrustCom.",
+    "workAt": "Previously worked at",
+    "cIcon1": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/HCL.png",
+    "cIcon2": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/TCS.png",
+    "cIcon3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon-review.png"
+  },
+  "whyUs": {
+    "title": "You will learn about",
+    "l1": "Introduction to Web Development",
+    "l2": "What is Full Stack Web Development",
+    "l3": "Web Development Job Roles and Market Demand",
+    "l4": "Hands-On project"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack    development.",
+    "heading3": "About learnbay Academy",
+    "para3": " learnbay Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  }
+}
