@@ -1,0 +1,113 @@
+.eFeature {
+  display: flex;
+  flex-flow: column;
+}
+.eFeature h2 {
+  font-size: 36px;
+  margin: 0px 0px 20px 0px;
+}
+.bodyContent {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: space-evenly;
+}
+
+.eLeft,
+.eMiddle,
+.eRight {
+  position: relative;
+  padding: 15px 20px;
+  -webkit-box-shadow: 0 0 5px 0 rgb(45 156 215 / 31%);
+  -moz-box-shadow: 0 0 5px 0 rgb(45 156 215 / 31%);
+  box-shadow: 0 0 5px 0 rgb(45 156 215 / 31%);
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.imgBack {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.eLeft h6,
+.eMiddle h6,
+.eRight h6 {
+  font-size: 18px;
+  margin: 0;
+
+  margin-top: 70px;
+  margin-bottom: 5px;
+  z-index: 1;
+}
+.eLeft p,
+.eMiddle p,
+.eRight p {
+  margin: 0;
+  color: rgb(80, 80, 80);
+  z-index: 1;
+  padding-right: 60px;
+}
+.eFIcon {
+  font-size: 48px;
+  color: #f14d5d;
+}
+@media (max-width: 1281px) {
+  .eFeature {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .eFeature h2 {
+    font-size: 27px;
+  }
+  .bodyContent {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .eFeature h2 {
+    font-size: 27px;
+    text-align: center;
+  }
+  .eLeft,
+  .eMiddle,
+  .eRight {
+    padding-left: 110px;
+    height: 120px;
+    width: 90%;
+  }
+  .eMiddle {
+    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-Classes-mobile.png");
+    width: 100%;
+    padding-left: 90px;
+  }
+  .eRight {
+    width: 100%;
+    padding-left: 90px;
+    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shareable-Certification-mobile.png");
+  }
+  .eLeft {
+    width: 100%;
+    padding-left: 90px;
+    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Customized-Learning-mobile.png");
+  }
+  .eLeft h6,
+  .eMiddle h6,
+  .eRight h6 {
+    margin-top: 8px;
+  }
+  .eLeft p,
+  .eMiddle p,
+  .eRight p {
+    padding-right: 10px;
+  }
+}

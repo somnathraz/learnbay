@@ -1,0 +1,186 @@
+.wrapper {
+  background-color: #f4fcfe;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  padding: 20px 100px 20px;
+  margin-top: 70px;
+}
+.left {
+  display: flex;
+  flex-flow: column;
+}
+.left1,
+.middle {
+  border-right: 1px solid grey;
+  padding-right: 20px;
+}
+.left,
+.middle,
+.right1 {
+  padding-right: 30px;
+}
+.middle,
+.right1 {
+  padding-left: 30px;
+}
+.middle h5 {
+  color: #edb552;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.info p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0;
+  text-align: center;
+  color: #0072bc;
+}
+
+.btnWrapper {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+}
+.btnWrapper button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info h5 {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #6c6c6c;
+}
+
+.left h1 {
+  font-size: 42px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 5px;
+}
+.Wrapper .left span {
+  font-size: 42px;
+  font-weight: 800;
+}
+.TrainerInfo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.TrainerInfo .right p {
+  font-size: 20px;
+  font-weight: 400px;
+}
+.eIcon {
+  color: #f28705;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.EventInfo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.lefts,
+.rights {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  padding: 0px 10px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  box-shadow: rgba(242, 135, 5, 0.2) 0px 8px 24px;
+  margin-right: 20px;
+}
+.img {
+  margin-top: 20px;
+}
+/* @media (min-width: 1025px) {
+  .left h1 {
+    margin-top: 0px;
+  }
+} */
+@media (max-width: 480px) {
+
+  .wrapper {
+    display: block;
+    padding: 50px 20px 30px;
+  }
+
+  .left,
+.middle,
+.right1 {
+  padding: 0px;
+}
+.left1,
+.middle {
+  padding-right: 10px;
+}
+.middle,
+.right1 {
+  padding: 0px;
+}
+.middle,
+.right1 {
+  padding: 0px;
+}
+.info {
+  margin-top: 20px;
+}
+  .left h1 {
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: 600;
+  }
+  .Wrapper .left span {
+    font-size: 24px;
+  }
+  .Wrapper {
+    display: flex;
+    padding-top: 10px;
+  }
+  .info p {
+    font-size: 18px;
+    line-height: 24x;
+  }
+  .EventInfo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .EventInfo p {
+    font-size: 14px;
+    line-height: 10px;
+  }
+  .lefts,
+  .rights {
+    width: max-content;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .btnWrapper {
+    margin: 30px 0px; 
+  }
+  .img {
+    margin-top: 30px;
+  }
+  .info h5 {
+    font-size: 16px;
+    line-height: 27px;
+    margin: 0;
+  }
+}
