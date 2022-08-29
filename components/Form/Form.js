@@ -10,7 +10,7 @@ import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
 
-const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
+const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
   const router = useRouter();
   let today = new Date();
   let time =
@@ -136,6 +136,10 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     ) {
       router.push("/Thank-you");
       return;
+    }
+
+    if (event) {
+      router.push("/event/Thank-You-event");
     }
 
     if (
