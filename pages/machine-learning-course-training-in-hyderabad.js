@@ -238,7 +238,7 @@ export default function Home() {
     "@type": "Answer",
     "text": "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects."
     }
-    }
+    },
     {
    "@type": "Question",
         "name": "Can I change my domain electives later?",
@@ -246,7 +246,7 @@ export default function Home() {
         "@type": "Answer",
         "text": "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration."
         }
-        }
+        },
         {
             "@type": "Question",
             "name": "What is the total Fee for this machine learning course in Hyderabad?",
@@ -254,7 +254,7 @@ export default function Home() {
             "@type": "Answer",
             "text": "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,12,100/- Inclusive of GST."
             }
-            }
+            },
             {
                 "@type": "Question",
                 "name": "Can I pay in installments for 1,12,100/-?",
@@ -262,7 +262,7 @@ export default function Home() {
                 "@type": "Answer",
                 "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
                 }
-                }
+                },
                 {
                     "@type": "Question",
                     "name": "Is there any scholarship available for the Machine Learning certification? What is Group Discount?",
@@ -270,7 +270,7 @@ export default function Home() {
                     "@type": "Answer",
                     "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+."
                     }
-                    }
+                    },
                     {
                         "@type": "Question",
                         "name": "What is the refund policy for this Machine Learning training course at Learnbay in Hyderabad?",
@@ -278,7 +278,7 @@ export default function Home() {
                         "@type": "Answer",
                         "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
                         }
-                        }
+                        },
                         {
                             "@type": "Question",
                             "name": "How many capstone machine learning projects will be there?",
@@ -286,7 +286,7 @@ export default function Home() {
                             "@type": "Answer",
                             "text": "In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training."
                             }
-                            }
+                            },
                             {
                                 "@type": "Question",
                                 "name": "How many real-time projects will be there?",
@@ -294,7 +294,7 @@ export default function Home() {
                                 "@type": "Answer",
                                 "text": "We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on. Click here to download the list of the projects."
                                 }
-                                }
+                                },
                                 {
                                     "@type": "Question",
                                     "name": "How will the project be executed?",
@@ -302,7 +302,7 @@ export default function Home() {
                                     "@type": "Answer",
                                     "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
                                     }
-                                    }
+                                    },
                                     {
                                         "@type": "Question",
                                         "name": "Is there any accredited certification after this machine learning course completion in Hyderabad?",
@@ -310,7 +310,7 @@ export default function Home() {
                                         "@type": "Answer",
                                         "text": "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course."
                                         }
-                                        }
+                                        },
                                         {
                                             "@type": "Question",
                                             "name": "What categories of certifications might I expect to receive?",
@@ -318,7 +318,7 @@ export default function Home() {
                                             "@type": "Answer",
                                             "text": "Deep Learning Fundamentals Deep Learning with TensorFlow Machine Learning with Python Accelerating Deep Learning with GPUs Advance AI & ML Certificate (final) Capstone Project Certificate by IBM."
                                             }
-                                            }
+                                            },
                                             {
                                                 "@type": "Question",
                                                 "name": "What's the eligibility for a job assistance program at Learnbay?",
@@ -326,7 +326,7 @@ export default function Home() {
                                                 "@type": "Answer",
                                                 "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
                                                 }
-                                                }
+                                                },
                                                 {
                                                     "@type": "Question",
                                                     "name": "How long will I get support for job assistance?",
@@ -334,7 +334,7 @@ export default function Home() {
                                                     "@type": "Answer",
                                                     "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
                                                     }
-                                                    }
+                                                    },
                                                     {
                                                         "@type": "Question",
                                                         "name": "What is a job-readiness program?",
@@ -342,7 +342,7 @@ export default function Home() {
                                                         "@type": "Answer",
                                                         "text": "Job readiness programs help you prepare for interviews which include: Resume Preparation sessions Preparing projects for a strong portfolio Interview guidance and prep sessions 1:1 Mock interviews based on targeted companies and roles"
                                                         }
-                                                        }
+                                                        },
                                                         {
                                                             "@type": "Question",
                                                             "name": "Will I get job referrals at Learnbay?",
@@ -350,7 +350,7 @@ export default function Home() {
                                                             "@type": "Answer",
                                                             "text": "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies."
                                                             }
-                                                            }
+                                                            },
                                                             {
                                                                 "@type": "Question",
                                                                 "name": "Until when will the Learnbay students in Hyderabad get the facility of mentorship?",
@@ -358,7 +358,7 @@ export default function Home() {
                                                                 "@type": "Answer",
                                                                 "text": "Our Mentors will provide ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes."
                                                                 }
-                                                                }
+                                                                },
                                                                 {
                                                                     "@type": "Question",
                                                                     "name": "Can a Learnbay student in Hyderabad choose to study from their desired mentor?",
@@ -366,7 +366,7 @@ export default function Home() {
                                                                     "@type": "Answer",
                                                                     "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
                                                                     }
-                                                                    }
+                                                                    },
                                                                     {
                                                                         "@type": "Question",
                                                                         "name": "When is the job assistance provided and for how long I will get the service?",
@@ -374,7 +374,7 @@ export default function Home() {
                                                                         "@type": "Answer",
                                                                         "text": "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company."
                                                                         }
-                                                                        }
+                                                                        },
                                                                         {
                                                                             "@type": "Question",
                                                                             "name": "How long will I get Job referrals?",
@@ -382,7 +382,7 @@ export default function Home() {
                                                                             "@type": "Answer",
                                                                             "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
                                                                             }
-                                                                            }
+                                                                            },
     ]
    } `
             }}

@@ -208,7 +208,7 @@ export default function Home() {
             "@type": "Answer",
             "text": "The total program fee for the Business Analytics Program is INR 76,700/- inclusive of GST."
             }
-            }
+            },
             {
                 "@type": "Question",
                 "name": "Can I pay in installments for INR 76,700/-?",
@@ -216,7 +216,7 @@ export default function Home() {
                 "@type": "Answer",
                 "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more +917795687988."
                 }
-                }
+                },
                 {
                     "@type": "Question",
                     "name": "Is there any scholarship/discount available for the Business Analytics Program? What is Group Discount?",
@@ -224,7 +224,7 @@ export default function Home() {
                     "@type": "Answer",
                     "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+."
                     }
-                    }
+                    },
                     {
                         "@type": "Question",
                         "name": "What is the refund policy for the Business Analytics Program at Learnbay?",
@@ -232,7 +232,7 @@ export default function Home() {
                         "@type": "Answer",
                         "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the program."
                         }
-                        }
+                        },
                         {
                             "@type": "Question",
                             "name": "How many real-time projects/case studies will be there?",
@@ -240,7 +240,7 @@ export default function Home() {
                             "@type": "Answer",
                             "text": "We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc."
                             }
-                            }
+                            },
                             {
                                 "@type": "Question",
                                 "name": "How many real-time projects will be there?",
@@ -248,7 +248,7 @@ export default function Home() {
                                 "@type": "Answer",
                                 "text": "We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc."
                                 }
-                                }
+                                },
                                 {
                                     "@type": "Question",
                                     "name": "How will the project be executed?",
@@ -256,7 +256,7 @@ export default function Home() {
                                     "@type": "Answer",
                                     "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
                                     }
-                                    }
+                                    },
                                     {
                                         "@type": "Question",
                                         "name": "Is there any accredited certification after course completion?",
@@ -264,7 +264,7 @@ export default function Home() {
                                         "@type": "Answer",
                                         "text": "Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion."
                                         }
-                                        }
+                                        },
                                         
                                             {
                                                 "@type": "Question",
@@ -273,7 +273,7 @@ export default function Home() {
                                                 "@type": "Answer",
                                                 "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
                                                 }
-                                                }
+                                                },
                                                 {
                                                     "@type": "Question",
                                                     "name": "How long will I get support for job assistance at Learnbay?",
@@ -281,7 +281,7 @@ export default function Home() {
                                                     "@type": "Answer",
                                                     "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
                                                     }
-                                                    }
+                                                    },
                                                     {
                                                         "@type": "Question",
                                                         "name": "What is a job-readiness program?",
@@ -289,7 +289,7 @@ export default function Home() {
                                                         "@type": "Answer",
                                                         "text": "Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
                                                         }
-                                                        }
+                                                        },
                                                         {
                                                             "@type": "Question",
                                                             "name": "Will I get job referrals at Learnbay?",
@@ -297,7 +297,7 @@ export default function Home() {
                                                             "@type": "Answer",
                                                             "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
                                                             }
-                                                            }
+                                                            },
                                                             {
                                                                 "@type": "Question",
                                                                 "name": "Until when will the students get the facility of mentorship?",
@@ -305,7 +305,7 @@ export default function Home() {
                                                                 "@type": "Answer",
                                                                 "text": "Our mentors will provide data science training to the students until the completion of the course."
                                                                 }
-                                                                }
+                                                                },
                                                                 {
                                                                     "@type": "Question",
                                                                     "name": "Can a Learnbay student choose to study from their desired mentor?",                             
@@ -313,7 +313,7 @@ export default function Home() {
                                                                     "@type": "Answer",
                                                                     "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
                                                                     }
-                                                                    }
+                                                                    },
                                                                     {
                                                                         "@type": "Question",
                                                                         "name": "When is the job assistance provided at Learnbay?",
@@ -321,7 +321,7 @@ export default function Home() {
                                                                         "@type": "Answer",
                                                                         "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
                                                                         }
-                                                                        }
+                                                                        },
                                                                         {
                                                                             "@type": "Question",
                                                                             "name": "How long will I get Job referrals?",
@@ -329,7 +329,7 @@ export default function Home() {
                                                                             "@type": "Answer",
                                                                             "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
                                                                           }
-                                                                        }
+                                                                        },
 ]
 }
              } `

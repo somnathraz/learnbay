@@ -4,6 +4,9 @@
 // }
 
 module.exports = {
+  eslint: {
+    ignoreDuringBuilds: true
+  },
   reactStrictMode: true,
   images: {
     domains: ["learnbay-wb.s3.ap-south-1.amazonaws.com"],
