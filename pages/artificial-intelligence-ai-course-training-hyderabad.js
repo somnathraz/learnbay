@@ -65,13 +65,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
-   <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
     "@context": "https://schema.org/", 
     "@type": "HowTo", 
     "name": "How to apply for Artificial Intelligence(Ai) course?",
@@ -111,15 +112,13 @@ export default function Home() {
     "url": "https://www.learnbay.co/"
     }] 
    }
-                 } `
-            }}
-          /> 
-   
-   <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     "mainEntityOfPage": {
@@ -146,13 +145,13 @@ export default function Home() {
     "dateModified": "2022-04-21"
 
    }
-                 } `
-            }}
-          /> <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                 } `,
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [{
@@ -199,7 +198,7 @@ export default function Home() {
     "@type": "Answer",
     "text": "We provide both classroom and online AI training modes. Based on your requirement, you can choose your preferred mode."
     }
-    }{
+    },{
     "@type": "Question",
     "name": "How can I opt for a Hybrid mode of learning in IBM artificial intelligence training courses in Hyderabad, At Learnbay?",
     "acceptedAnswer": {
@@ -269,7 +268,7 @@ export default function Home() {
             "@type": "Answer",
             "text": "The total course fee for the Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST. Advance Data Science and AI Certification course is 93,220/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST. Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST. Machine learning and AI Certification is 1,12,100/-inclusive of GST."
             }
-            }
+            },
             {
                 "@type": "Question",
                 "name": "Can I pay in installments for these AI Certification courses in Hyderabad?",
@@ -277,7 +276,7 @@ export default function Home() {
                 "@type": "Answer",
                 "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
                 }
-                }
+                },
                 {
                     "@type": "Question",
                     "name": "Is there any scholarship/discount available for these Artificial intelligence training courses available in Hyderabad? What is Group Discount?",
@@ -285,7 +284,7 @@ export default function Home() {
                     "@type": "Answer",
                     "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+."
                     }
-                    }
+                    },
                     {
                         "@type": "Question",
                         "name": "What is the refund policy for the Artificial Intelligence Certification courses at Learnbay?",
@@ -293,7 +292,7 @@ export default function Home() {
                         "@type": "Answer",
                         "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
                         }
-                        }
+                        },
                         {
                             "@type": "Question",
                             "name": "How many capstone projects will be there?",
@@ -301,7 +300,7 @@ export default function Home() {
                             "@type": "Answer",
                             "text": "Depending on the course you choose the number of capstone projects will vary. Foundational Artificial Intelligence Training Course - 1 Capstone. Advance Data Science and AI Certification course -2 Capstones. Data Science and AI Certification Course for Managers and Leaders- 2 Capstones. Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 3 Capstones. Machine learning and AI Certification- 2 Capstones."
                             }
-                            }
+                            },
                             {
                                 "@type": "Question",
                                 "name": "How many real-time projects/case studies will be covered in these artificial intelligence certification courses in Hyderabad?",
@@ -309,7 +308,7 @@ export default function Home() {
                                 "@type": "Answer",
                                 "text": "Depending on the course you choose the number of live projects will vary. Foundational Data Science and Artificial Intelligence Training Course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects. Machine learning and AI Certification- 15 projects. Click here to download the list of the projects."
                                 }
-                                }
+                                },
                                 {
                                     "@type": "Question",
                                     "name": "How will the projects be executed in Hyderabad?",
@@ -317,7 +316,7 @@ export default function Home() {
                                     "@type": "Answer",
                                     "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
                                     }
-                                    }
+                                    },
                                     {
                                         "@type": "Question",
                                         "name": "Is there any accredited AI certification after course completion?",
@@ -325,7 +324,7 @@ export default function Home() {
                                         "@type": "Answer",
                                         "text": "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 1 Course Completion Certificates Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. *All the certificates accredited by IBM. For more details, please refer to the respective course brochures."
                                         }
-                                        }
+                                        },
                                         
                                             {
                                                 "@type": "Question",
@@ -334,7 +333,7 @@ export default function Home() {
                                                 "@type": "Answer",
                                                 "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
                                                 }
-                                                }
+                                                },
                                                 {
                                                     "@type": "Question",
                                                     "name": "How long will I get support for job assistance at Learnbay in Hyderabad?",
@@ -342,7 +341,7 @@ export default function Home() {
                                                     "@type": "Answer",
                                                     "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year. What is a job-readiness program? The Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
                                                     }
-                                                    }
+                                                    },
                                                     {
                                                         "@type": "Question",
                                                         "name": "Will I get job referrals at Learnbay?",
@@ -350,7 +349,7 @@ export default function Home() {
                                                         "@type": "Answer",
                                                         "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
                                                         }
-                                                        }
+                                                        },
                                                         {
                                                             "@type": "Question",
                                                             "name": "What is a Job or 100% money back Guarantee?",
@@ -358,7 +357,7 @@ export default function Home() {
                                                             "@type": "Answer",
                                                             "text": "In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. Note: Terms and conditions applied."
                                                             }
-                                                            }
+                                                            },
                                                             {
                                                                 "@type": "Question",
                                                                 "name": "Until when do the students get the facility of mentorship?",
@@ -366,7 +365,7 @@ export default function Home() {
                                                                 "@type": "Answer",
                                                                 "text": "Our Mentors will provide AI training to the students until the completion of the course."
                                                                 }
-                                                                }
+                                                                },
                                                                 {
                                                                     "@type": "Question",
                                                                     "name": "Can a Learnbay student in Hyderabad choose to study from their desired mentor?",                             
@@ -374,7 +373,7 @@ export default function Home() {
                                                                     "@type": "Answer",
                                                                     "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
                                                                     }
-                                                                    }
+                                                                    },
                                                                     {
                                                                         "@type": "Question",
                                                                         "name": "When is the job assistance provided at Learnbay and how long will I get it?",
@@ -382,7 +381,7 @@ export default function Home() {
                                                                         "@type": "Answer",
                                                                         "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
                                                                         }
-                                                                        }
+                                                                        },
                                                                         {
                                                                             "@type": "Question",
                                                                             "name": "How long will I get Job referrals?",
@@ -390,18 +389,16 @@ export default function Home() {
                                                                             "@type": "Answer",
                                                                             "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
                                                                             }
-                                                                            }
+                                                                            },
     ]
    }
-                 } `
-            }}
-          /> 
-   
-   <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
    "@context": "http://schema.org",
    "@type": "EducationEvent","name": "Artificial Intelligence(Ai) Course Training in Hyderabad",
    "description": "Learnbay offers a Artificial Intelligence(Ai) course in Hyderabad, the most comprehensive Artificial Intelligence(Ai) course in the market, covering the complete Artificial Intelligence(Ai) lifecycle.",
@@ -447,13 +444,13 @@ export default function Home() {
     "name": "Learnbay",
     "url": "https://www.learnbay.co"
   }
-} `
-}}
-/>
-
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -608,7 +605,7 @@ export default function Home() {
               src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png"
               ProjectsH1="Samsung Health Monitor App"
               Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
-              src2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/mainhttps://learnbay-wb.s3.ap-south-1.amazonaws.com/main/IBM.png"
+              src2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/IBM.png"
               ProjectsH2="IBM HR Analytics"
               Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities."
               src3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png"
@@ -621,7 +618,7 @@ export default function Home() {
               Asrc1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/devraj.jpg"
               AlumniH1="Deveraj"
               Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."
-              Asrc2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/mainhttps://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shezan.png"
+              Asrc2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shezan.png"
               AlumniH2="Shezan Baig"
               Alumnip2="Learnbay is one of the most remarkable data science institutes I've come across. Compared to other institutes in India, it offers a data science course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute."
               Asrc3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/viraj.png"
