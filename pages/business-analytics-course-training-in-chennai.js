@@ -6,6 +6,7 @@ import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
@@ -230,13 +231,14 @@ export default function Home() {
             />
           </div>
         </div>
-        <LearnSupport />
+                <LearnSupport />
         <CityText
           CityTextB="Business Analytics Course Certification Training locations in Chennai "
           CityText=" : Anna Nagar [600040],Thousand Lights [600006], Adyar [600020],Nungambakkam [600034], Perambur [600011], OMR [600119], Guindy [600032], Thiruvanmiyur [600041],Perungudi [600096], Thoraipakkam [600097],Sholinganallur [600119], Siruseri [603103], Tambaram [600045], Velachery [600042], Meenambakkam [600027], Chrompet [600044], T nagar [600017],Chennai central [600020],Erukkancheri [600118],World University Centre [600031],Madras University [600005],Indian Institute Of Technology [600036]"
           CityTextLB="Locations Offered"
           CityTextL=" :  Business Analytics Training in Chennai, Business Analytics Course in Chennai, Business Analytics Training in Anna Nagar, Business Analytics Training in Guindy, Business Analytics Institute in Chennai, Business Analytics Training in Siruseri, Business Analytics Training in Perungudi, Business Analytics Training in OMR, Business Analytics Training Institute in Adyar, Business Analytics Course in Anna Nagar, Business Analytics Course in chrompet, Business Analytics Course in Velchery, Business Analytics Course Nungambakkam, Business Analytics Training in Thoraipakkam, Business Analytics Course in OMR, Business Analytics Training in Madras university, Business Analytics Training in Tambaram, Business Analytics Online Classes in Anna Nagar, Business Analytics Course in Indian Institute Of Technology , Business Analytics Training in Chennai, Business Analytics Certification in Chennai, Business Analytics Certification Training in Chennai, Business Analytics Certification in Anna Nagar, Business Analytics Certification in Adyar, Best Business Analytics Training, Best Business Analytics Course."
         />
+        <Footer />
       </main>
     </div>
   );

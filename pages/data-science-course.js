@@ -7,7 +7,7 @@ import WhyLearnbay from "../components/WhyLearnbay/WhyLearnbay";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import CareerImpactHome from "../components/CareerImpactHome/CareerImpact";
 import Navbar from "../components/Navbar/Navbar";
-import Switch from "../components/switch/switch";
+import Footer from "../components/Footer/Footer";import Switch from "../components/switch/switch";
 import BoxShape from "../components/BoxShape/BoxShape";
 import MultiTabs from "../components/MultiTabs/MultiTabs";
 import FormSection from "../components/FormSection/FormSection";
@@ -64,7 +64,8 @@ export default function Home() {
       <FormSection />
       <Switch />
       <CareerImpactHome />
-      <LearnSupport />
+              <LearnSupport />
+        <Footer />
     </div>
   );
 }

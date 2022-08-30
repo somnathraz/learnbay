@@ -5,6 +5,7 @@ import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTab4";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
@@ -52,6 +53,7 @@ export default function Home() {
           content="Data Science and Artificial Intelligence Program For Managers and Leaders"
         />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link rel="canonical" href="https://www.learnbay.co/data-science-ai-for-managers" />
       </Head>
       <main>  <Navbar popup={true} />
 
@@ -213,7 +215,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData4}
           SupportFaqDatas={SupportFaqData4}
         />
-        <LearnSupport />
+                <LearnSupport />
+        <Footer />
       </main>
     </div>
   );

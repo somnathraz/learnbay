@@ -6,6 +6,7 @@ import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -267,7 +268,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <LearnSupport />
+                <LearnSupport />
 
         <CityText
           CityTextB="Data Science Course Certification Training locations in Chennai "
@@ -275,6 +276,7 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :  Data Science Training in Chennai, Data Science Course in Chennai, Data Science Training in Anna Nagar, Data Science Training in Guindy, Data Science Institute in Chennai, Data Science Training in Siruseri, Data Science Training in Perungudi, Data Science Training in OMR, Data Science Training Institute in Adyar, Data Science Course in Anna Nagar, Data Science Course in chrompet, Data Science Course in Velchery, Data Science Course Nungambakkam, Data Science Training in Thoraipakkam, Data Science Course in OMR, Data Science Training in Madras university, Data Science Training in Tambaram, Data Science Online Classes in Anna Nagar, Data Science Course in Indian Institute Of Technology , Data Science Training in Chennai, Data Science Certification in Chennai, Data Science Certification Training in Chennai, Data Science Certification in Anna Nagar, Data Science Certification in Adyar, Best Data Science Training, Best Data Science Course."
         />
+        <Footer />
       </main>
     </div>
   );

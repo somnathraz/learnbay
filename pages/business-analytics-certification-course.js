@@ -5,6 +5,7 @@ import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/Certificatejob/Certificate";
 import Project from "../components/CoursePage/Project/Project";
@@ -47,6 +48,7 @@ export default function Home() {
           content="Business Analytics Certification Program"
         />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link rel="canonical" href="https://www.learnbay.co/business-analytics-certification-course" />
       </Head>
       <main>  <Navbar popup={true} />
 
@@ -166,7 +168,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData7}
           SupportFaqDatas={SupportFaqData7}
         />
-        <LearnSupport />
+                <LearnSupport />
+        <Footer />
       </main>
     </div>
   );

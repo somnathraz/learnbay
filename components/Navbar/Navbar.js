@@ -9,7 +9,7 @@ import Form from "../Form/Form";
 import { useRouter } from "next/router";
 import Tabs from "../Tabs/Tabs";
 
-const Navbar = ({ radio }) => {
+const Navbar = ({ radio, event }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -61,6 +61,22 @@ const Navbar = ({ radio }) => {
 
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
+            {event ? (
+            <>
+            <span>
+                <Link href="#Feature">Program Features</Link>
+              </span>
+
+              <span>
+                <Link href="#trainer">Trainer Details</Link>
+              </span>
+              <span>
+                <Link href="#About">Learn About</Link>
+              </span>
+              </>
+          ) : (
+            <>
+              {" "}
               <span onClick={showMenu}>
                 <Link href="/">Home</Link>
               </span>
@@ -78,9 +94,11 @@ const Navbar = ({ radio }) => {
               <span onClick={showMenu}>
                 <Link href="/contact-us">Contact Us</Link>
               </span>
+              </>
+          )}
             </div>
           </div>
-          <a href="/">
+          <a href="#">
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
               alt="Learnbay"
@@ -90,6 +108,12 @@ const Navbar = ({ radio }) => {
               height="60px"
             />
           </a>
+          {event ? (
+            <>
+              </>
+          ) : (
+            <>
+              {" "}
           {mobile ? (
             <button
               onClick={() => {
@@ -115,6 +139,9 @@ const Navbar = ({ radio }) => {
               {icon ? <FaChevronUp /> : <FaChevronDown />}
             </button>
           )}
+                        </>
+          )}
+          
 
           {icon ? (
             <div
@@ -129,6 +156,22 @@ const Navbar = ({ radio }) => {
           )}
         </div>
         <div className={styles.right}>
+        {event ? (
+            <>
+            <span>
+                <Link href="#Feature">Program Features</Link>
+              </span>
+
+              <span>
+                <Link href="#trainer">Trainer Details</Link>
+              </span>
+              <span>
+                <Link href="#About">Learn About</Link>
+              </span>
+              </>
+          ) : (
+            <>
+              {" "}
           <span>
             <Link href="/">Home</Link>
           </span>
@@ -151,7 +194,8 @@ const Navbar = ({ radio }) => {
             Apply For Counselling
             <FaArrowRight className={styles.icon} />
           </button>
-
+          </>
+          )}
           <Popup></Popup>
         </div>
       </nav>

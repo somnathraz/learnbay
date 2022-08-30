@@ -6,6 +6,7 @@ import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -260,7 +261,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <LearnSupport />
+                <LearnSupport />
 
         <CityText
           CityTextB="Artificial Intelligence Course Certification Training locations in Delhi "
@@ -268,6 +269,7 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Artificial Intelligence Training in delhi, Artificial Intelligence Course in delhi, Artificial Intelligence Training in Connaught Place, Artificial Intelligence Training in Karol Bagh , Artificial Intelligence Institute in Delhi, Artificial Intelligence Training in kamla nagar, Artificial Intelligence Training in kalu sarai, Artificial Intelligence Training in J N U, Artificial Intelligence Training Institute in Connaught Place, Artificial Intelligence Course in Connaught Place, Artificial Intelligence Course in Saket, Artificial Intelligence Course in old rajinder nagar, Artificial Intelligence Course Connaught Place , Artificial Intelligence Training in (N.S.P) Netaji Subhash Place, Artificial Intelligence Training in Pitampura, Artificial Intelligence Classes in Connaught Place, Artificial Intelligence Classes in J N U, Artificial Intelligence Classes in Connaught Place, Artificial Intelligence Classes in Delhi, Artificial Intelligence Course in vishwa vidyalaya, Artificial Intelligence Training in kalu sarai, Artificial Intelligence Certification in Delhi, Artificial Intelligence Certification Training in Delhi, Artificial Intelligence Certification in Connaught Place, Artificial Intelligence Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Artificial Intelligence Training, Best Artificial Intelligence Course, Best Data Scientist course, Best Data Scientist Training"
         />
+        <Footer />
       </main>
     </div>
   );

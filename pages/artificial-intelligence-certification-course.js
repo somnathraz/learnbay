@@ -4,6 +4,7 @@ import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTab3";
@@ -49,6 +50,7 @@ export default function Home() {
           content="Artificial Intelligence and Machine Learning Program"
         />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link rel="canonical" href="https://www.learnbay.co/artificial-intelligence-certification-course" />
       </Head>
       <main>  <Navbar popup={true} />
 
@@ -207,7 +209,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData3}
           SupportFaqDatas={SupportFaqData3}
         />
-        <LearnSupport />
+                <LearnSupport />
+        <Footer />
       </main>
     </div>
   );

@@ -6,6 +6,7 @@ import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -260,7 +261,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <LearnSupport />
+                <LearnSupport />
 
         <CityText
           CityTextB="Data Science Course Certification Training locations in Bangalore "
@@ -268,6 +269,7 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" : Data Science Training in Bangalore, Data Science Course in Bangalore, Data Science Training in BTM, Data Science Training in Marathahalli, Data Science Institute in Bangalore, Data Science Training in Whitefield, Data Science Training in Kundalahalli, Data Science Training in ITPL, Data Science Training Institute in Marathahalli, Data Science Course in BTM, Data Science Course in Marathahalli, Data Science Course in Whitefield, Data Science Course Bommanahalli, Data Science Training in Bommanahalli, Data Science Training in Electronic city, Data Science Training in Koramangala, Data Science Classes in BTM, Data Science Classes in Bommanahalli, Data Science Classes in Whitefield, Data Science Classes in Marathahalli, Data Science Course in Koramangala, Data Science Training in Jayanagar, Data Science Certification in Bangalore, Data Science Certification Training in Bangalore, Data Science Certification in BTM, Data Science Certification in Whitefield, Best Data Science Training, Best Data Science Course"
         />
+        <Footer />
       </main>
     </div>
   );

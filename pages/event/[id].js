@@ -17,6 +17,7 @@ export default function DataScienceEvent({ eventData }) {
 
   let today = new Date();
   let eventDateInfo = new Date(eventData.data.mainData.eventDate);
+  console.log(eventDateInfo, "ammar");
 
   useEffect(() => {
     let width = window.innerWidth;
@@ -34,21 +35,23 @@ export default function DataScienceEvent({ eventData }) {
       <Head>
         <title>{eventData.data.metaInfo.title}</title>
         <meta name="description" content={eventData.data.metaInfo.desc} />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link rel="canonical" href="https://www.learnbay.co/event" />
       </Head>
-      <Navbar event={true} />
+      <Navbar event={true}/>
       <div>
           <EventHeader
             title={eventData.data.header.title}
             titleSpan={eventData.data.header.titleSpan}
             desc={eventData.data.header.desc}
-            eventDate={eventData.data.header.eventDate}
+            eventDate={eventData.data.mainData.eventDate}
             eventTime={eventData.data.header.eventTime}
             imgSrc={eventData.data.header.imgSrc}
             alt={eventData.data.header.alt}
             width={eventData.data.header.width}
             height={eventData.data.header.height}
             instructor={eventData.data.header.instructor}
+            href1={eventData.data.header.href1}
           />
       </div>
       
@@ -69,7 +72,7 @@ export default function DataScienceEvent({ eventData }) {
               img3={eventData.data.feature.img3}
             />
           </div>
-          <div className={styles.Profile}>
+          <div className={styles.Profile} id="trainer">
             {/* <div className="bgWrap">
               <Image
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Instructor_info_bg-09.webp"
@@ -103,14 +106,14 @@ export default function DataScienceEvent({ eventData }) {
                 </div>
               </div>
 
-              <div className={styles.PrpRight}>
+              {/* <div className={styles.PrpRight}>
                 <Image
                   width="40"
                   height="40"
                   src={eventData.data.profile.mIcon}
                   layout="intrinsic"
                 />
-              </div>
+              </div> */}
             </div>
 
             <div className={styles.infoWrap}>
@@ -136,7 +139,7 @@ export default function DataScienceEvent({ eventData }) {
               {eventData.data.profile.list5}
             </p>
             <h6 className={styles.PH}>{eventData.data.profile.workAt}</h6>
-            <div className={styles.workImg}>
+            {/* <div className={styles.workImg}>
               <img
                 width="40"
                 height="40"
@@ -155,10 +158,10 @@ export default function DataScienceEvent({ eventData }) {
                 src={eventData.data.profile.cIcon3}
                 className={styles.ProfImg}
               />
-            </div>
+            </div> */}
           </div>
 
-          <div className={styles.WhyWrap}>
+          <div className={styles.WhyWrap} id="About">
             <div className={styles.why}>
               <div className={styles.whyLeft}>
                 <h6>{eventData.data.whyUs.title}</h6>
@@ -192,7 +195,7 @@ export default function DataScienceEvent({ eventData }) {
             </div>
           </div>
 
-          <div className={styles.Who} id="who">
+          <div className={styles.Who} >
             <div className={styles.whoLeft}>
               <h6>{eventData.data.whoCan.title}</h6>
               {mobile ? (

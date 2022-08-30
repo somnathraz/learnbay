@@ -5,6 +5,7 @@ import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
@@ -261,13 +262,14 @@ export default function Home() {
             />
           </div>
         </div>
-        <LearnSupport />
+                <LearnSupport />
         <CityText
           CityTextB="Artificial Intelligence Course Certification Training locations in Chennai "
           CityText=" : Anna Nagar [600040],Thousand Lights [600006], Adyar [600020],Nungambakkam [600034], Perambur [600011], OMR [600119], Guindy [600032], Thiruvanmiyur [600041],Perungudi [600096], Thoraipakkam [600097],Sholinganallur [600119], Siruseri [603103], Tambaram [600045], Velachery [600042], Meenambakkam [600027], Chrompet [600044], T nagar [600017],Chennai central [600020],Erukkancheri [600118],World University Centre [600031],Madras University [600005],Indian Institute Of Technology [600036]"
           CityTextLB="Locations Offered"
           CityTextL=" :  Artificial Intelligence Training in Chennai, Artificial Intelligence Course in Chennai, Artificial Intelligence Training in Anna Nagar, Artificial Intelligence Training in Guindy, Artificial Intelligence Institute in Chennai, Artificial Intelligence Training in Siruseri, Artificial Intelligence Training in Perungudi, Artificial Intelligence Training in OMR, Artificial Intelligence Training Institute in Adyar, Artificial Intelligence Course in Anna Nagar, Artificial Intelligence Course in chrompet, Artificial Intelligence Course in Velchery, Artificial Intelligence Course Nungambakkam, Artificial Intelligence Training in Thoraipakkam, Artificial Intelligence Course in OMR, Artificial Intelligence Training in Madras university, Artificial Intelligence Training in Tambaram, Artificial Intelligence Online Classes in Anna Nagar, Artificial Intelligence Course in Indian Institute Of Technology , Artificial Intelligence Training in Chennai, Artificial Intelligence Certification in Chennai, Artificial Intelligence Certification Training in Chennai, Artificial Intelligence Certification in Anna Nagar, Artificial Intelligence Certification in Adyar, Best Artificial Intelligence Training, Best Artificial Intelligence Course."
         />
+        <Footer />
       </main>
     </div>
   );

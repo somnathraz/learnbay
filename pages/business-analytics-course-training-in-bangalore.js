@@ -5,6 +5,7 @@ import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
@@ -218,7 +219,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <LearnSupport />
+                <LearnSupport />
 
         <CityText
           CityTextB="Business Analytics Course Certification Training locations in Bangalore "
@@ -226,6 +227,7 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Business Analytics Training in Bangalore, Business Analytics Course in Bangalore, Business Analytics Training in BTM, Business Analytics Training in Marathahalli, Business Analytics Institute in Bangalore, Business Analytics Training in Whitefield, Business Analytics Training in Kundalahalli, Business Analytics Training in ITPL, Business Analytics Training Institute in Marathahalli, Business Analytics Course in BTM, Business Analytics Course in Marathahalli, Business Analytics Course in Whitefield, Business Analytics Course Bommanahalli, Business Analytics Training in Bommanahalli, Business Analytics Training in Electronic city, Business Analytics Training in Koramangala, Business Analytics Classes in BTM, Business Analytics Classes in Bommanahalli, Business Analytics Classes in Whitefield, Business Analytics Classes in Marathahalli, Business Analytics Course in Koramangala, Business Analytics Training in Jayanagar, Business Analytics Certification in Bangalore, Business Analytics Certification Training in Bangalore, Business Analytics Certification in BTM, Business Analytics Certification in Whitefield, Best Business Analytics Training, Best Business Analytics Course"
         />
+        <Footer />
       </main>
     </div>
   );
