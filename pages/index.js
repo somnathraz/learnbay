@@ -2,7 +2,7 @@ import Head from "next/head";
 import FirstSection from "../components/FirstSection/FirstSection";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
-import Course from "../components/Course/Course";
+import Footer from "../components/Footer/Footer";import Course from "../components/Course/Course";
 import KeyFeatures from "../components/KeyFeatures/KeyFeatures";
 import WhyLearnbay from "../components/WhyLearnbay/WhyLearnbay";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
@@ -18,7 +18,7 @@ export default function Home() {
       <Head>
         <title>Learnbay - Advance Data Science Course With IBM Certification</title>
         <meta name="description" content="Advance data science course with IBM certification. Learnbay is advanced data science course training institute in India. Enrol in our data science course to enhance your career" />
-
+        <link rel="canonical" href="https://www.learnbay.co/" />
 <meta name="Keywords" content="data science course, data science training , data science institute in India, best data science institute, data scientist course ,data scientist certification, data science training institute , advanced data science course , data science course with placement guarantee, data science course with IBM certification" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
@@ -42,7 +42,8 @@ export default function Home() {
       <FormSection />
       <Switch />
       <CareerImpactHome />
-      <LearnSupport />
+              <LearnSupport />
+        <Footer />
     </div>
   );
 }

@@ -6,6 +6,7 @@ import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -257,7 +258,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <LearnSupport />
+                <LearnSupport />
 
         <CityText
           CityTextB="Machine Learning Course Certification Training locations in Bangalore "
@@ -265,6 +266,7 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Machine Learning Training in Bangalore, Machine Learning Course in Bangalore, Machine Learning Training in BTM, Machine Learning Training in Marathahalli, Machine Learning Institute in Bangalore, Machine Learning Training in Whitefield, Machine Learning Training in Kundalahalli, Machine Learning Training in ITPL, Machine Learning Training Institute in Marathahalli, Machine Learning Course in BTM, Machine Learning Course in Marathahalli, Machine Learning Course in Whitefield, Machine Learning Course Bommanahalli, Machine Learning Training in Bommanahalli, Machine Learning Training in Electronic city, Machine Learning Training in Koramangala, Machine Learning Classes in BTM, Machine Learning Classes in Bommanahalli, Machine Learning Classes in Whitefield, Machine Learning Classes in Marathahalli, Machine Learning Course in Koramangala, Machine Learning Training in Jayanagar, Machine Learning Certification in Bangalore, Machine Learning Certification Training in Bangalore, Machine Learning Certification in BTM, Machine Learning Certification in Whitefield, Best Machine Learning Training, Best Machine Learning Course"
         />
+        <Footer />
       </main>
     </div>
   );

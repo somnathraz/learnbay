@@ -5,6 +5,7 @@ import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../components/CoursePage/Boxshapedsas/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import Project from "../components/CoursePage/Projectfswd/Project";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
@@ -39,6 +40,7 @@ export default function Home() {
       <Head>
       <title>Full Stack Software Development Course - Learnbay</title>
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link rel="canonical" href="https://www.learnbay.co/full-stack-software-development-program" />
         <meta name="description" content="Full Stack Software Development Course with IBM certification. Learnbay provide advanced full stack Software developer course with placement guarantee. Enrol in our full stack Software developer course to enhance your career" />
 <meta name="Keywords" content="Full Stack Software Development Course, Full Stack Software Development Course training , Full Stack Software Development Course institute in India, best Full Stack Software Development Course institute, Full Stack Software developer Course ,Full Stack Software developer Course certification, Full Stack Software developer Course training institute , advanced Full Stack Software developer Course , Full Stack Software developer Course with placement guarantee, Full Stack Software developer Course with IBM certification"/>
       </Head>
@@ -126,7 +128,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData9}
           SupportFaqDatas={SupportFaqData9}
         />
-        <LearnSupport />
+                <LearnSupport />
+        <Footer />
       </main>
     </div>
   );

@@ -6,6 +6,7 @@ import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -267,7 +268,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <LearnSupport />
+                <LearnSupport />
 
         <CityText
           CityTextB="Machine Learning Course Certification Training locations in Chennai "
@@ -275,6 +276,7 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :  Machine Learning Training in Chennai, Machine Learning Course in Chennai, Machine Learning Training in Anna Nagar, Machine Learning Training in Guindy, Machine Learning Institute in Chennai, Machine Learning Training in Siruseri, Machine Learning Training in Perungudi, Machine Learning Training in OMR, Machine Learning Training Institute in Adyar, Machine Learning Course in Anna Nagar, Machine Learning Course in chrompet, Machine Learning Course in Velchery, Machine Learning Course Nungambakkam, Machine Learning Training in Thoraipakkam, Machine Learning Course in OMR, Machine Learning Training in Madras university, Machine Learning Training in Tambaram, Machine Learning Online Classes in Anna Nagar, Machine Learning Course in Indian Institute Of Technology , Machine Learning Training in Chennai, Machine Learning Certification in Chennai, Machine Learning Certification Training in Chennai, Machine Learning Certification in Anna Nagar, Machine Learning Certification in Adyar, Best Machine Learning Training, Best Machine Learning Course."
         />
+        <Footer />
       </main>
     </div>
   );

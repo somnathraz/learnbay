@@ -6,6 +6,7 @@ import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -632,7 +633,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <LearnSupport />
+                <LearnSupport />
 
         <CityText
           CityTextB="Machine Learning Course Certification Training locations in Pune "
@@ -640,6 +641,7 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Machine Learning Course viman nagar,Machine Learning Training in kalyan nagar,Machine Learning Training in magarpetta,Machine Learning Training in pimpri chinchwad,Machine Learning Classes in yerwada,Machine Learning Classes in kharadi,Machine Learning Classes in vishrantwadi,Machine Learning Classes in deccan,Machine Learning Course in Katraj,Machine Learning Training in warje,,Machine Learning Certification Training in bavdhan,Machine Learning Certification in boat club road,Machine Learning Certification in model colony,Best Machine Learning Training in pune,Best Machine Learning Course in pune"
         />
+        <Footer />
       </main>
     </div>
   );

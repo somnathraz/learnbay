@@ -22,8 +22,9 @@ export default function index({ eventData }) {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
+        <link rel="canonical" href="https://www.learnbay.co/event" />
       </Head>
-      <Navbar course={false} />
+      <Navbar event={true} />
       <div className={styles.Back}>
         <h4 style={{ textAlign: "left" }}>
         <b>Events on learnbay</b>

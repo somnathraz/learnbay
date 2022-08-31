@@ -43,6 +43,18 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
   };
 
   let endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  if (event || router.pathname === "/event" ) {
+    endPoint = "https://getform.io/f/69076866-e1f7-4cf3-a7d2-12603819a5a4";
+  }
+
+  if (event) {
+    endPoint = "https://getform.io/f/69076866-e1f7-4cf3-a7d2-12603819a5a4";
+  }
+
+  let btnText = "Apply Now";
+  if (event) {
+    btnText = "Register Now";
+  }
 
   // Form Submit function
   const formSubmit = (e) => {
@@ -138,7 +150,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
       return;
     }
 
-    if (event) {
+    if (event || router.pathname === "/event")  {
       router.push("/event/Thank-You-event");
     }
 
@@ -309,7 +321,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
           Privacy Policy.
         </p>
         <button type="submit" className={styles.button}>
-          {downloadBrochure ? "Download Now" : "Apply For Counselling"}
+          {downloadBrochure ? "Download Now" : btnText}{" "}
         </button>
       </form>
     </div>

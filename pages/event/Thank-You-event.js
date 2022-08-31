@@ -11,8 +11,9 @@ const ThankYou = () => {
         <title>Thank you!</title>
         <meta name="description" content="Thank you!" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link rel="canonical" href="https://www.learnbay.co/Thank-You-event" />
       </Head>
-      <Navbar popup={true} />
+      <Navbar event={true}  />
       <section className={styles.mains}>
         <div className={styles.Back}>
           <h4>

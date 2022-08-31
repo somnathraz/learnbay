@@ -5,6 +5,7 @@ import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/Certificatejob/Certificate";
 import Project from "../components/CoursePage/Project/Project";
@@ -46,6 +47,7 @@ export default function Home() {
           name="description"
           content="Data Science and AI Program with 100% Job Guarantee"
         />
+                  <link rel="canonical" href="https://www.learnbay.co/job-guarantee-or-money-back-data-science-ai-certification-course" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
       <main>  <Navbar popup={true} />
@@ -214,7 +216,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData5}
           SupportFaqDatas={SupportFaqData5}
         />
-        <LearnSupport />
+                <LearnSupport />
+        <Footer />
       </main>
     </div>
   );

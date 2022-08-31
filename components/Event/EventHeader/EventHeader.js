@@ -3,8 +3,10 @@ import Image from "next/image";
 import styles from "./EventHeader.module.css";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import { BsArrowRightCircleFill, BsDot } from "react-icons/bs";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
 import { BsCalendarCheck } from "react-icons/bs";
+import { FiUserCheck } from "react-icons/fi";
 import { AiOutlineClockCircle } from "react-icons/ai";
 
 export const EventHeader = ({
@@ -18,9 +20,15 @@ export const EventHeader = ({
   eventDate,
   eventTime,
   imgSrc,
+  href1,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [popups, setPopups] = useState(false);
+  let today = new Date();
+  console.log(today, "ammar1");
+  let eventDateInfo = new Date(eventDate);
+  console.log(eventDateInfo, "ammar");
+  // let eventDateInfo = new Date(eventData);
   const popupShow = () => {
     setPopups(true);
   };
@@ -49,7 +57,7 @@ export const EventHeader = ({
         </div>
         <div className="RightPopup">
           <h5>Register Now for Webinar</h5>
-          <Form setTrigger={setPopups} downloadBrochure />
+          <Form setTrigger={setPopups} event={true}/>
         </div>
       </Popup>
       <div className={styles.left}>
@@ -74,13 +82,23 @@ export const EventHeader = ({
             <p>{eventTime}</p>
           </div>
         </div>
-        <div className={styles.btnWrapper}>
-            <button className={styles.Button} onClick={popupShow}>
+        <div className={styles.right}>
+          <section className={styles.form}>
+            {today > eventDateInfo ? (
+            <a href={href1}><button className={styles.Button}>
+                          {" "}
+              Recorded Webinar
+              <FaArrowRight className="bIcons" />
+          </button></a>
+          ) : (
+              <button className={styles.Button} onClick={popupShow}>
               {" "}
-              <FaDownload className="bIcons" />
               Register Now
+              <FaArrowRight className="bIcons" />
             </button>
-          </div>
+          )}
+          </section>
+        </div>
       </div>
       <div className={styles.right}>
         <Image

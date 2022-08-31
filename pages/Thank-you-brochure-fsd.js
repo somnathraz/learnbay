@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/ThankYou.module.css";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Image from "next/image";
 import { FaDownload } from "react-icons/fa";
 
@@ -11,6 +12,7 @@ const ThankYou = () => {
       <Head>
         <title>Thank you!</title>
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link rel="canonical" href="https://www.learnbay.co/Thank-you-brochure-fsd" />
         <meta name="description" content="Thank you!" />
       </Head>
       <Navbar popup={true} />
@@ -106,6 +108,7 @@ const ThankYou = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

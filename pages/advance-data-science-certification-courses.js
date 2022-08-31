@@ -6,6 +6,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../components/CoursePage/Project/Project";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
@@ -50,6 +51,7 @@ export default function Home() {
           content="Advanced Data Science and AI Program with Domain Specialization"
         />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link rel="canonical" href="https://www.learnbay.co/advance-data-science-certification-courses" />
       </Head>
       <main>  <Navbar popup={true} />
 
@@ -198,7 +200,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData2}
           SupportFaqDatas={SupportFaqData2}
         />
-        <LearnSupport />
+                <LearnSupport />
+        <Footer />
       </main>
     </div>
   );

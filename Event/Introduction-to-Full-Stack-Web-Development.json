@@ -7,7 +7,7 @@
   },
   "mainData": {
     "title": "Introduction to Full Stack Web Development",
-    "eventDate": "10th to 11th September",
+    "eventDate": "September 10, 2022",
     "tag": "Fullstack",
     "eventTime": "11 a.m. to 1 p.m.",
     "Duration": "120min",
@@ -26,9 +26,7 @@
     "height": "560",
     "alt": "Header",
     "instructor": "Mr. Wazid",
-    "link": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png",
-    "backImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png",
-    "mBackImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png"
+    "href1": ""
   },
 
   "feature": {
@@ -71,7 +69,7 @@
     "heading1": "Software Developers",
     "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
     "heading2": "Peer Working Professionals",
-    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack    development.",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack development.",
     "heading3": "About learnbay Academy",
     "para3": " learnbay Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
   }

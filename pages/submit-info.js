@@ -2,7 +2,7 @@ import React from "react";
 import Form from "../components/Form/Form";
 import styles from "../styles/Submit.module.css";
 import Navbar from "../components/Navbar/Navbar";
-import Image from "next/image";
+import Footer from "../components/Footer/Footer";import Image from "next/image";
 import Head from "next/head";
 
 const sumbit = () => {
@@ -11,6 +11,7 @@ const sumbit = () => {
       <Head>
         <title>Apply For Counselling</title>
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link rel="canonical" href="https://www.learnbay.co/submit-info" />
       </Head>
       <Navbar popup={true} />
       <div className={styles.Wrapper}>
@@ -27,6 +28,7 @@ const sumbit = () => {
         />
       </div>
       </div>
+      <Footer />
     </div>
   );
 };

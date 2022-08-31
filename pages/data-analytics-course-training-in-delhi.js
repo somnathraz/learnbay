@@ -6,6 +6,7 @@ import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
@@ -230,7 +231,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <LearnSupport />
+                <LearnSupport />
 
         <CityText
           CityTextB="Data Analytics Course Certification Training locations in Delhi "
@@ -238,6 +239,7 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Data Analytics Training in delhi, Data Analytics Course in delhi, Data Analytics Training in Connaught Place, Data Analytics Training in Karol Bagh , Data Analytics Institute in Delhi, Data Analytics Training in kamla nagar, Data Analytics Training in kalu sarai, Data Analytics Training in J N U, Data Analytics Training Institute in Connaught Place, Data Analytics Course in Connaught Place, Data Analytics Course in Saket, Data Analytics Course in old rajinder nagar, Data Analytics Course Connaught Place , Data Analytics Training in (N.S.P) Netaji Subhash Place, Data Analytics Training in Pitampura, Data Analytics Classes in Connaught Place, Data Analytics Classes in J N U, Data Analytics Classes in Connaught Place, Data Analytics Classes in Delhi, Data Analytics Course in vishwa vidyalaya, Data Analytics Training in kalu sarai, Data Analytics Certification in Delhi, Data Analytics Certification Training in Delhi, Data Analytics Certification in Connaught Place, Data Analytics Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Data Analytics Training, Best Data Analytics Course, Best Data Scientist course, Best Data Scientist Training"
         />
+        <Footer />
       </main>
     </div>
   );
