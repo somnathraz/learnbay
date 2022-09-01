@@ -17,7 +17,7 @@ const sumbit = () => {
       <div className={styles.Wrapper}>
       <div className={styles.left}>
         <h6>Apply For Counselling</h6>
-        <Form radio={true} />
+        <Form radio={true} dataScience={true}/>
       </div>
       <div className={styles.right}>
         <Image

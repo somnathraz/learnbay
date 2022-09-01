@@ -15,7 +15,7 @@ const ThankYou = () => {
         <link rel="canonical" href="https://www.learnbay.co/Thank-you-brochure-fsd" />
         <meta name="description" content="Thank you!" />
       </Head>
-      <Navbar popup={true} />
+      <Navbar popup={true} fullStack={true}/>
       <section className={styles.mains}>
         <div className={styles.Back}>
           <h4>

@@ -37,6 +37,7 @@ const Fee = ({
   PFeatures37,
   PFeatures38,
   changeFee,
+  dataScience, fullStack,
 }) => {
   const [hover, setHover] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -54,7 +55,7 @@ const Fee = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} fullStack={fullStack} dataScience={dataScience} />
         </div>
       </Popup>
       {changeFee ? (

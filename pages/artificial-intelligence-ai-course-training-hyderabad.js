@@ -389,13 +389,12 @@ export default function Home() {
                                                                             "acceptedAnswer": {
                                                                             "@type": "Answer",
                                                                             "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
-                                                                            }
-                                                                            },
-    ]
-   }
-                 } `,
-          }}
-        />
+                                                                          }
+                                                                        }]
+                                                                                          }
+                                                                                         } `
+                                                                                    }}
+                                                                                  />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -437,17 +436,16 @@ export default function Home() {
         "@type": "GeoCoordinates",
         "latitude": "12.914745887585838",
         "longitude": "77.64087553886982"
-      }
-    }
+      } 
     }], 
    "organizer": {
     "@type": "Organization",
     "name": "Learnbay",
     "url": "https://www.learnbay.co"
   }
-} `,
-          }}
-        />
+} `
+}}
+/>
       </Head>
       <main>
         {" "}

@@ -3,11 +3,7 @@ import Image from "next/image";
 import styles from "./EventHeader.module.css";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
-import { BsArrowRightCircleFill, BsDot } from "react-icons/bs";
-import { FaArrowRight, FaDownload } from "react-icons/fa";
-import { BsCalendarCheck } from "react-icons/bs";
-import { FiUserCheck } from "react-icons/fi";
-import { AiOutlineClockCircle } from "react-icons/ai";
+import { FaArrowRight } from "react-icons/fa";
 
 export const EventHeader = ({
   title,
@@ -25,10 +21,7 @@ export const EventHeader = ({
   const [mobile, setMobile] = useState(false);
   const [popups, setPopups] = useState(false);
   let today = new Date();
-  console.log(today, "ammar1");
   let eventDateInfo = new Date(eventDate);
-  console.log(eventDateInfo, "ammar");
-  // let eventDateInfo = new Date(eventData);
   const popupShow = () => {
     setPopups(true);
   };
@@ -85,7 +78,7 @@ export const EventHeader = ({
         <div className={styles.right}>
           <section className={styles.form}>
             {today > eventDateInfo ? (
-            <a href={href1}><button className={styles.Button}>
+            <a href={href1} target="_blank"><button className={styles.Button}>
                           {" "}
               Recorded Webinar
               <FaArrowRight className="bIcons" />

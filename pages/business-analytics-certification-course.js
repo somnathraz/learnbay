@@ -50,7 +50,7 @@ export default function Home() {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/business-analytics-certification-course" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -59,10 +59,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
+        <FirstSection dataScience={true}
           deskTopPara="Develop Work-Ready Skills "
           deskTopPara1="You Can Use Right Away"
           mTopPara="Develop Work-Ready Skills "
@@ -113,7 +113,7 @@ export default function Home() {
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
         />
 
-        <SyllabusNew
+        <SyllabusNew dataScience={true}
           syllabus={BusinessAnalyticsCourseData[0].syllabus}
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           popupHead={BusinessAnalyticsCourseData[0].popupHead}
@@ -146,11 +146,11 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee Fee="₹  65,000 + GST" Emi="₹  6,392/month" />
+        <ProgramFee Fee="₹  65,000 + GST" Emi="₹  6,392/month" dataScience={true} />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="5+ Projects" domain="7+" />
         </div>
-        <CourseFee
+        <CourseFee dataScience={true}
           CourseFeeHead="Business Analytics Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"

@@ -13,7 +13,7 @@ const ThankYou = () => {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/Thank-you" />
       </Head>
-      <Navbar popup={true} />
+      <Navbar popup={true} dataScience={true} />
       <section className={styles.mains}>
         <div className={styles.Back}>
           <h4>

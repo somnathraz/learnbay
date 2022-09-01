@@ -9,7 +9,7 @@ import Form from "../Form/Form";
 import { useRouter } from "next/router";
 import Tabs from "../Tabs/Tabs";
 
-const Navbar = ({ radio, event }) => {
+const Navbar = ({ radio, event, dataScience, fullStack}) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -46,7 +46,7 @@ const Navbar = ({ radio, event }) => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} radio={radio} />
+          <Form popup={true} setTrigger={setPopups} radio={radio} fullStack={fullStack} dataScience={dataScience} />
         </div>
       </Popup>
       <nav className={styles.nav}>
@@ -98,7 +98,9 @@ const Navbar = ({ radio, event }) => {
           )}
             </div>
           </div>
-          <a href="#">
+          {event ? (
+            <>
+            <a href="#">
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
               alt="Learnbay"
@@ -108,6 +110,22 @@ const Navbar = ({ radio, event }) => {
               height="60px"
             />
           </a>
+              </>
+          ) : (
+            <>
+              {" "}
+              <a href="/">
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+              alt="Learnbay"
+              quality={100}
+              objectFit="contain"
+              width={mobile ? "180" : "230"}
+              height="60px"
+            />
+          </a>
+          </>
+          )}
           {event ? (
             <>
               </>

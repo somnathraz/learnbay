@@ -14,7 +14,7 @@ const ThankYou = () => {
         <link rel="canonical" href="https://www.learnbay.co/Thank-You-event" />
       </Head>
       <Navbar event={true}  />
-      <section className={styles.mains}>
+      <section className={styles.mains} style={{height:"100vh", background:"#F3FCFE"}}>
         <div className={styles.Back}>
           <h4>
             <b>Thank you</b>

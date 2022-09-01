@@ -18,14 +18,10 @@ function SyllabusNew({
   syllabusDesc,
   popupHead,
   dataScience,
-  redirectDs,
-  redirectFs,
-  redirectDe,
-  redirectBa,
-  redirectBl,
   project,
   hours,
   srcD,
+   fullStack,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -68,12 +64,7 @@ function SyllabusNew({
           <Form
             setTrigger={setPopups}
             downloadBrochure
-            dataScience={dataScience}
-            redirectDs={redirectDs}
-            redirectFs={redirectFs}
-            redirectBa={redirectBa}
-            redirectBl={redirectBl}
-            redirectDe={redirectDe}
+            fullStack={fullStack} dataScience={dataScience}
           />
         </div>
       </Popup>
@@ -219,11 +210,7 @@ function SyllabusNew({
             <div className={styles.PProgramInners}>
               <Form
                 dataScience={dataScience}
-                redirectDs={redirectDs}
-                redirectFs={redirectFs}
-                redirectBa={redirectBa}
-                redirectBl={redirectBl}
-                redirectDe={redirectDe}
+                fullStack={fullStack}
               />
             </div>
           </div>

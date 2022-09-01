@@ -67,7 +67,7 @@ export default function Home() {
         <meta name="robots" content="ALL" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -76,11 +76,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
-          deskTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
+        <FirstSection dataScience={true}          deskTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
           mTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
@@ -105,8 +104,7 @@ export default function Home() {
             p44="₹ 6,392/month"
           />
         </div>
-        <GetHired
-          WeekdayBatchDate="Best in class industrial training with live projects"
+        <GetHired dataScience={true}          WeekdayBatchDate="Best in class industrial training with live projects"
           WeekendBatchDate="250+ employer allowance & 100% interview guarantee"
           Project="Career guidance from industrial experts"
           Classes="Basic coding classes for non-technical professions"

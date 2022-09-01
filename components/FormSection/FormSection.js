@@ -3,7 +3,7 @@ import styles from "./FormSection.module.css";
 import { MdCall } from "react-icons/md";
 import FormInline from "./FormInline";
 
-const FormSection = () => {
+const FormSection = (dataScience) => {
   return (
     <div className={styles.fromWrap}>
       <div className={styles.leftForm}>
@@ -15,7 +15,7 @@ const FormSection = () => {
       </div>
       <div className={styles.rightForm}>
         <div className={styles.rightFormWrap}>
-          <FormInline radio={true}  />
+          <FormInline radio={true} dataScience={dataScience} />
         </div>
       </div>
     </div>

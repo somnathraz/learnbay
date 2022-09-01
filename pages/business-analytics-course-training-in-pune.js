@@ -126,7 +126,7 @@ export default function Home() {
  "@id": "https://www.learnbay.co/"
  },
  "headline": "Business Analytics Course Training In Pune",
- "description": Business Analytics Course in Pune. Learnbay is Advanced Business Analytics Course Training Institute in Pune. Business Analytics course in Pune will enhance your career.",
+ "description": "Business Analytics Course in Pune. Learnbay is Advanced Business Analytics Course Training Institute in Pune. Business Analytics course in Pune will enhance your career.",
  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
  "author": {
  "@type": "Organization",
@@ -346,7 +346,6 @@ export default function Home() {
     "@type": "GeoCoordinates",
     "latitude": "12.914745887585838",
     "longitude": "77.64087553886982"
-  }
 }
 }], 
 "organizer": {
@@ -368,11 +367,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
-          deskTopPara="IBM-Certified Business Analytics training Program with Live Industrial Projects"
+        <FirstSection dataScience={true}          deskTopPara="IBM-Certified Business Analytics training Program with Live Industrial Projects"
           mTopPara="IBM-Certified Business Analytics training Program with Live Industrial Projects"
           title="Business Analytics Course"
           mTitle="Business Analytics Course"
@@ -397,8 +395,7 @@ export default function Home() {
             p44="₹  6,392/month"
           />
         </div>
-        <GetHired
-          WeekdayBatchDate="Industry-curated training via real-world analytics"
+        <GetHired dataScience={true}          WeekdayBatchDate="Industry-curated training via real-world analytics"
           WeekendBatchDate="Special programming classes for non-technical professionals"
           Project="Especially designed for early pros or aspirants with career gap"
           Classes="Learn the most trending analytical trick from MNC experts"

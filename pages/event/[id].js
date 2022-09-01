@@ -17,7 +17,6 @@ export default function DataScienceEvent({ eventData }) {
 
   let today = new Date();
   let eventDateInfo = new Date(eventData.data.mainData.eventDate);
-  console.log(eventDateInfo, "ammar");
 
   useEffect(() => {
     let width = window.innerWidth;
@@ -40,7 +39,7 @@ export default function DataScienceEvent({ eventData }) {
       </Head>
       <Navbar event={true}/>
       <div>
-          <EventHeader
+          <EventHeader 
             title={eventData.data.header.title}
             titleSpan={eventData.data.header.titleSpan}
             desc={eventData.data.header.desc}
@@ -73,16 +72,6 @@ export default function DataScienceEvent({ eventData }) {
             />
           </div>
           <div className={styles.Profile} id="trainer">
-            {/* <div className="bgWrap">
-              <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Instructor_info_bg-09.webp"
-                layout="fill"
-                objectFit="cover"
-                quality={100}
-                loading="lazy"
-                alt="backImg"
-              />
-            </div> */}
             <div className={styles.prpWrap}>
               <div className={styles.profilePic}>
                 <div className={styles.Pic}>
@@ -105,15 +94,6 @@ export default function DataScienceEvent({ eventData }) {
                   </h6>
                 </div>
               </div>
-
-              {/* <div className={styles.PrpRight}>
-                <Image
-                  width="40"
-                  height="40"
-                  src={eventData.data.profile.mIcon}
-                  layout="intrinsic"
-                />
-              </div> */}
             </div>
 
             <div className={styles.infoWrap}>
@@ -126,41 +106,7 @@ export default function DataScienceEvent({ eventData }) {
                 {eventData.data.profile.list2}
               </p>
             </div>
-            <p>
-              <TiTick className={styles.Tick} />
-              {eventData.data.profile.list3}
-            </p>
-            <p>
-              <TiTick className={styles.Tick} />
-              {eventData.data.profile.list4}
-            </p>
-            <p>
-              <TiTick className={styles.Tick} />
-              {eventData.data.profile.list5}
-            </p>
-            <h6 className={styles.PH}>{eventData.data.profile.workAt}</h6>
-            {/* <div className={styles.workImg}>
-              <img
-                width="40"
-                height="40"
-                src={eventData.data.profile.cIcon1}
-                className={styles.ProfImg}
-              />
-              <img
-                width="30"
-                height="30"
-                src={eventData.data.profile.cIcon2}
-                className={styles.ProfImg}
-              />
-              <img
-                width="40"
-                height="40"
-                src={eventData.data.profile.cIcon3}
-                className={styles.ProfImg}
-              />
-            </div> */}
           </div>
-
           <div className={styles.WhyWrap} id="About">
             <div className={styles.why}>
               <div className={styles.whyLeft}>
@@ -242,23 +188,6 @@ export default function DataScienceEvent({ eventData }) {
 
               <Form event={true} />
             </section>
-            {/* {today === eventDateInfo ? (
-              <div className={styles.timer}>
-                <a href={eventData.data.header.link}>
-                  <button>
-                    Join Masterclass
-                    <BsArrowRightCircleFill />
-                  </button>
-                </a>
-              </div>
-            ) : (
-              <div className={styles.timerS}>
-                <button>
-                  Join Masterclass
-                  <BsArrowRightCircleFill />
-                </button>
-              </div>
-            )} */}
           </div>
         )}
       </div>

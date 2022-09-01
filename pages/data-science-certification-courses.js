@@ -45,7 +45,7 @@ export default function Home() {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/data-science-certification-courses" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -54,10 +54,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
+        <FirstSection dataScience={true}
           deskTopPara="Data Science"
           deskTopPara1=" Foundation Program"
           mTitle="Enhance your earning potential "
@@ -109,7 +109,7 @@ export default function Home() {
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate-1.jpg"
         />
 
-        <SyllabusNew
+        <SyllabusNew dataScience={true}
           syllabus={FoundtionCourseData[0].syllabus}
           syllabusDesc={FoundtionCourseData[0].syllabusDesc}
           popupHead={FoundtionCourseData[0].popupHead}
@@ -145,8 +145,8 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee Emi="₹ 6,391/month" Fee="₹ 65,000 +GST" />
-        <Fee
+        <ProgramFee Emi="₹ 6,391/month" Fee="₹ 65,000 +GST" dataScience={true} />
+        <Fee dataScience={true}
           sub2="Data Science Foundation Certification Program"
           Price2="₹65,000 + GST"
           PFeatures21="200+ Hours"
@@ -178,7 +178,7 @@ export default function Home() {
           PFeatures37="Yes"
           PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
         />
-        <CourseFee
+        <CourseFee dataScience={true}
           CourseFeeHead="Data Science Foundation Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"

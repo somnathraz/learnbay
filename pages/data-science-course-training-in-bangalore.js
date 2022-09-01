@@ -65,7 +65,7 @@ export default function Home() {
         <meta name="robots" content="ALL" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -74,11 +74,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
-          deskTopPara="Foundational and Advanced Data Science Courses"
+        <FirstSection dataScience={true}          deskTopPara="Foundational and Advanced Data Science Courses"
           spanTitleText="with Domain Specialization"
           spanMTitleText="Domain Specialization"
           mTitle="Advanced Data Science and AI Program with"
@@ -103,8 +102,7 @@ export default function Home() {
             p44="₹ 7,768/month"
           />
         </div>
-        <GetHired
-          WeekdayBatchDate="4 micro-skills certificates from IBM"
+        <GetHired dataScience={true}          WeekdayBatchDate="4 micro-skills certificates from IBM"
           WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
           Project="Project experience certification by IBM"
           Classes="Completely live and interactive learning"

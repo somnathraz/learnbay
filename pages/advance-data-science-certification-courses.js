@@ -53,7 +53,7 @@ export default function Home() {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/advance-data-science-certification-courses" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -62,10 +62,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true}/>
           </div>
         </Popup>
-        <FirstSection
+        <FirstSection dataScience={true}
           deskTopPara="Choose Specialization over Generalization"
           mTopPara="Choose Specialization over Generalization"
           mTitle="Advanced Data Science and AI Program with"
@@ -110,7 +110,7 @@ export default function Home() {
         <CourseReview />
         <Certificate />
 
-        <SyllabusNew
+        <SyllabusNew dataScience={true}
           syllabus={DataScienceCourseData[0].syllabus}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           popupHead={DataScienceCourseData[0].popupHead}
@@ -143,13 +143,13 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" />
+        <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" dataScience={true} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+ Projects" domain="7+" />
         </div>
 
-        <Fee
+        <Fee dataScience={true}
           sub1="Data Science Foundation Certification Program"
           Price1="₹65,000 + GST"
           PFeatures11="200+ Hours"
@@ -181,7 +181,7 @@ export default function Home() {
           PFeatures37="Yes"
           PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
         />
-        <CourseFee
+        <CourseFee dataScience={true}
           CourseFeeHead="Advanced Data Science & AI Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"

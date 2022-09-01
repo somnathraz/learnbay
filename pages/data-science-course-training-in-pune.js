@@ -408,7 +408,7 @@ export default function Home() {
 }}
 />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -417,10 +417,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
+        <FirstSection dataScience={true}
           deskTopPara="Foundational and Advance Job-ready Data Science Programs"
           mTopPara="Foundational and Advance Job-ready Data Science Programs"
           title="Data Science Course Training in Pune"
@@ -446,7 +446,7 @@ export default function Home() {
             p44="₹ 7,768/month"
           />
         </div>
-        <GetHired
+        <GetHired dataScience={true}
           WeekdayBatchDate="4 micro-skills certificates from IBM"
           WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
           Project="Project experience certification by IBM"

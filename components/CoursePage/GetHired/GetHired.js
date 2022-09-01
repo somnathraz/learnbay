@@ -14,6 +14,7 @@ const GetHired = ({
   Interview,
   Fee,
   Subscription,
+  dataScience, fullStack,
 }) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
@@ -51,7 +52,7 @@ const GetHired = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} fullStack={fullStack} dataScience={dataScience} />
         </div>
       </Popup>
       <div className={styles.CInner}>

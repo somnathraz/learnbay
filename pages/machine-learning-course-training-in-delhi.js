@@ -67,7 +67,7 @@ export default function Home() {
         <meta name="robots" content="ALL" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -76,11 +76,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
-          deskTopPara="Job-ready Machine Learning training  with Domain Specialization"
+        <FirstSection dataScience={true}          deskTopPara="Job-ready Machine Learning training  with Domain Specialization"
           mTopPara="Job-ready Machine Learning training  with Domain Specialization"
           title="Machine Learning Course Training In Delhi"
           mTitle="Machine Learning Course Training In Delhi"
@@ -105,8 +104,7 @@ export default function Home() {
             p44="₹ 9,342/month"
           />
         </div>
-        <GetHired
-          WeekdayBatchDate="4 IBM Certified AI/ML micro-skill certificates"
+        <GetHired dataScience={true}          WeekdayBatchDate="4 IBM Certified AI/ML micro-skill certificates"
           WeekendBatchDate="IT-specific domain-oriented full-stack learning with 8+ domains to choose from"
           Project="Learn the latest tools and technologies in AI and ML"
           Classes="Specially curated syllabus for technical professionals"
