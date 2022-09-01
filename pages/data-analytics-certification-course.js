@@ -50,7 +50,7 @@ export default function Home() {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/data-analytics-certification-course" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -59,10 +59,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
+        <FirstSection dataScience={true}
           deskTopPara="Get ahead of the competition "
           deskTopPara1="with popular skill sets."
           mTopPara="Get ahead of the competition  "
@@ -115,7 +115,7 @@ export default function Home() {
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
 
-        <SyllabusNew
+        <SyllabusNew dataScience={true}
           syllabus={DataAnalyticsCourseData[0].syllabus}
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           popupHead={DataAnalyticsCourseData[0].popupHead}
@@ -148,11 +148,11 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee Emi="₹ 6,392/month" Fee="₹ 65,000 +GST" />
+        <ProgramFee Emi="₹ 6,392/month" Fee="₹ 65,000 +GST" dataScience={true} />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="5+ Projects" domain="7+" />
         </div>
-        <CourseFee
+        <CourseFee dataScience={true}
           CourseFeeHead="Data Analytics Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"

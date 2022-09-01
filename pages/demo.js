@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/demo" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Demo />
         <Footer />

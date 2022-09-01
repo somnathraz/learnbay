@@ -43,7 +43,7 @@ export default function Home() {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/dsa-system-design" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} fullStack={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -52,10 +52,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection
+        <FirstSection fullStack={true}
           deskTopPara="DSA & System Design"
           mTopPara="DSA & System Design"
           mTitle="Data Structure & Algorithms"
@@ -96,7 +96,7 @@ export default function Home() {
         </div>
         <DomainFaq FaqData={DomainFaqCourseDataDSA} />
         <CourseReview />
-        <SyllabusNew
+        <SyllabusNew fullStack={true}
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
           popupHead={DsaCourseData[0].popupHead}
@@ -104,11 +104,11 @@ export default function Home() {
           hours="200+ Hours"
           project="12+ Real Time"
         />
-        <ProgramFee Fee="₹ 70,000 + GST" Emi="₹ 6,883/month" />
+        <ProgramFee Fee="₹ 70,000 + GST" Emi="₹ 6,883/month" fullStack={true} />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+ Projects" domain="7+" />
         </div>
-        <CourseFee
+        <CourseFee fullStack={true}
           CourseFeeHead="Full Stack Web Development: Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"

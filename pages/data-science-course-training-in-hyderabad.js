@@ -373,13 +373,12 @@ export default function Home() {
                                                                     "acceptedAnswer": {
                                                                     "@type": "Answer",
                                                                     "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
-                                                                    }
-                                                                    },
-    ]
- }
-                 } `,
-          }}
-        />
+                                                                  }
+                                                                }]
+                                                                                  }
+                                                                                 } `
+                                                                            }}
+                                                                          />
 
         <script
           type="application/ld+json"
@@ -422,18 +421,16 @@ export default function Home() {
         "@type": "GeoCoordinates",
         "latitude": "12.914745887585838",
         "longitude": "77.64087553886982"
-      }
-    }
+      } 
     }], 
    "organizer": {
     "@type": "Organization",
     "name": "Learnbay",
     "url": "https://www.learnbay.co"
-  } 
-}
-                } `,
-          }}
-        />
+  }
+} `
+}}
+/>
       </Head>
       <main>
         {" "}
@@ -445,11 +442,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
-          deskTopPara="Foundational and Advanced Data Science Courses with job Guarantee"
+        <FirstSection dataScience={true}          deskTopPara="Foundational and Advanced Data Science Courses with job Guarantee"
           mTopPara="Foundational and Advanced Data Science Courses with job Guarantee"
           title="Data Science Course Training in Hyderabad"
           mTitle="Data Science Course Training in Hyderabad"
@@ -474,8 +470,7 @@ export default function Home() {
             p44="₹ 7,768/month"
           />
         </div>
-        <GetHired
-          WeekdayBatchDate="4 micro-skills certificates from IBM"
+        <GetHired dataScience={true}          WeekdayBatchDate="4 micro-skills certificates from IBM"
           WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
           Project="Project experience certification by IBM"
           Classes="Completely live and interactive learning"

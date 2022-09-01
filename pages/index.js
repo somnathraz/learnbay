@@ -22,8 +22,8 @@ export default function Home() {
 <meta name="Keywords" content="data science course, data science training , data science institute in India, best data science institute, data scientist course ,data scientist certification, data science training institute , advanced data science course , data science course with placement guarantee, data science course with IBM certification" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
-      <Navbar popup={true} radio={true} />
-      <FirstSection popup={true} />
+      <Navbar popup={true} radio={true} dataScience={true} />
+      <FirstSection popup={true} dataScience={true} />
       <div className={styles.boxWrap}>
         <h2>Get Certified & Move Towards Your Dream Job</h2>
         <p className={styles.boxp}>
@@ -39,7 +39,7 @@ export default function Home() {
       <KeyFeatures />
       <WhyLearnbay />
       <MultiTabs />
-      <FormSection />
+      <FormSection dataScience={true} />
       <Switch />
       <CareerImpactHome />
               <LearnSupport />

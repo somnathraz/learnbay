@@ -52,7 +52,7 @@ export default function Home() {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/artificial-intelligence-certification-course" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -61,10 +61,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
+        <FirstSection dataScience={true}
           deskTopPara="Boost Your Professional Growth "
           deskTopPara1="To a Whole New Level"
           spanTitleText="Advance Program"
@@ -119,7 +119,7 @@ export default function Home() {
           OCHead4="Accelerating Deep Learning with GPUs"
           OCP4="Industrial badge on GPU handling mastery for Cloud, AI & ML."
         />
-        <SyllabusNew
+        <SyllabusNew dataScience={true}
           syllabus={AiMlCourseData[0].syllabus}
           syllabusDesc={AiMlCourseData[0].syllabusDesc}
           popupHead={AiMlCourseData[0].popupHead}
@@ -152,12 +152,12 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" />
+        <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="15+ Projects" domain="7+" />
         </div>
-        <Fee
+        <Fee dataScience={true}
           sub1="Data Science Foundation Certification Program"
           Price1="₹65,000 + GST"
           PFeatures11="200+ Hours"
@@ -190,7 +190,7 @@ export default function Home() {
           PFeatures37="Yes"
           PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
         />
-        <CourseFee
+        <CourseFee dataScience={true}
           CourseFeeHead="Artificial Intelligence & Machine Learning Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"

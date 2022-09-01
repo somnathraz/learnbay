@@ -67,7 +67,7 @@ export default function Home() {
         <meta name="robots" content="ALL" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -76,11 +76,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
-          deskTopPara="Job-oriented Data Science Training for working professionals"
+        <FirstSection dataScience={true}          deskTopPara="Job-oriented Data Science Training for working professionals"
           mTopPara="Job-oriented Data Science Training for working professionals"
           title="Artificial Intelligence (AI) course training in Dubai"
           mTitle="Artificial Intelligence (AI) course training in Dubai"
@@ -105,8 +104,7 @@ export default function Home() {
             p44="₹ 9,342/month"
           />
         </div>
-        <GetHired
-          WeekdayBatchDate="Global Recognition : Earn 6 micro-skill certificates by IBM"
+        <GetHired dataScience={true}          WeekdayBatchDate="Global Recognition : Earn 6 micro-skill certificates by IBM"
           WeekendBatchDate="Special Project Management module as per industrial requirement"
           Project="12+ domain electives to choose from "
           Classes="Specially devised for leadership-level professionals"

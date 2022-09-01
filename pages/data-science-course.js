@@ -44,8 +44,8 @@ export default function Home() {
         <meta name="robots" content="ALL" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
-      <Navbar popup={true} radio={true} />
-      <FirstSection />
+      <Navbar popup={true} dataScience={true} />
+      <FirstSection dataScience={true} />
       <div className={styles.boxWrap}>
         <h2>Get Certified & Move Towards Your Dream Job</h2>
         <p className={styles.boxp}>

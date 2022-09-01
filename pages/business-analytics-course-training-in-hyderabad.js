@@ -330,12 +330,11 @@ export default function Home() {
                                                                             "@type": "Answer",
                                                                             "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
                                                                           }
-                                                                        },
-]
-}
-             } `
-        }}
-      /> 
+                                                                        }]
+                                                                                          }
+                                                                                         } `
+                                                                                    }}
+                                                                                  />
    
       <script
       type="application/ld+json"
@@ -379,8 +378,7 @@ export default function Home() {
         "@type": "GeoCoordinates",
         "latitude": "12.914745887585838",
         "longitude": "77.64087553886982"
-      }
-    }
+      } 
     }], 
    "organizer": {
     "@type": "Organization",
@@ -402,11 +400,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
-          deskTopPara="IBM Certified Business Analytics Course for Early Professionals"
+        <FirstSection dataScience={true}          deskTopPara="IBM Certified Business Analytics Course for Early Professionals"
           mTopPara="IBM Certified Business Analytics Course for Early Professionals"
           spanTitleText="For Non-tech Professionals"
           spanMTitleText="For Non-tech Professionals"
@@ -430,8 +427,7 @@ export default function Home() {
             p44="₹  6,392/month"
           />
         </div>
-        <GetHired
-          WeekdayBatchDate="Industry-curated training via real-world analytics"
+        <GetHired dataScience={true}          WeekdayBatchDate="Industry-curated training via real-world analytics"
           WeekendBatchDate="Special programming classes for non-technical professionals"
           Project="Especially designed for early pros or aspirants with career gap"
           Classes="Learn the most trending analytical trick from MNC experts"

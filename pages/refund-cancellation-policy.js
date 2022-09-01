@@ -13,7 +13,7 @@ function refund() {
         <link rel="canonical" href="https://www.learnbay.co/refund-cancellation-policy" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
       <Refund />
       <Footer />

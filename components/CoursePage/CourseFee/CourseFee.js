@@ -15,7 +15,8 @@ const CourseFee = ({
   CourseFeelist3,
   CourseFeelist4,
   CourseFeelist5,
-
+  fullStack,
+  dataScience,
 }) => {
     const [popups, setPopups] = useState(false);
 
@@ -31,7 +32,7 @@ const CourseFee = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} fullStack={fullStack} dataScience={dataScience} />
         </div>
       </Popup>
         <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>

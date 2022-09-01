@@ -6,7 +6,7 @@ import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-export const ProgramFee = ({ Fee, Emi }) => {
+export const ProgramFee = ({ Fee, Emi, fullStack, dataScience }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -21,7 +21,7 @@ export const ProgramFee = ({ Fee, Emi }) => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} fullStack={fullStack} dataScience={dataScience} />
         </div>
       </Popup>
       <div className={styles.header}>

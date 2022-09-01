@@ -45,7 +45,7 @@ export default function Home() {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/full-stack-web-development-program" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} fullStack={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -54,10 +54,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection
+        <FirstSection fullStack={true}
           deskTopPara="Be a demanding Developer to stay ahead"
           mTopPara="Be a demanding Developer to stay ahead"
           mTitle="Full Stack Web Development Program"
@@ -103,7 +103,7 @@ export default function Home() {
         <DomainFaq FaqData={DomainFaqCourseDataweb} />
         <CourseReview />
         <Certificate />
-        <SyllabusNew
+        <SyllabusNew fullStack={true}
           syllabus={FullStackWebCourseData[0].syllabus}
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
           popupHead={FullStackWebCourseData[0].popupHead}
@@ -136,11 +136,11 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/8.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/9.png"
         />
-        <ProgramFee Fee="₹ 1,20,000 + GST" Emi="₹ 11,800/month" />
+        <ProgramFee Fee="₹ 1,20,000 + GST" Emi="₹ 11,800/month" fullStack={true} />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+ Projects" domain="7+" />
         </div>
-        <CourseFee
+        <CourseFee fullStack={true}
           CourseFeeHead="Full Stack Web Development: Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"

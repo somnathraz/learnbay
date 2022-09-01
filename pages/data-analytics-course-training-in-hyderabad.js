@@ -325,12 +325,12 @@ export default function Home() {
                                                                             "acceptedAnswer": {
                                                                             "@type": "Answer",
                                                                             "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
-                                                                            }
-                                                                            },
-    ]
-   } `
-            }}
-          /> 
+                                                                          }
+                                                                        }]
+                                                                                          }
+                                                                                         } `
+                                                                                    }}
+                                                                                  />
    
    <script
             type="application/ld+json"
@@ -374,20 +374,19 @@ export default function Home() {
         "@type": "GeoCoordinates",
         "latitude": "12.914745887585838",
         "longitude": "77.64087553886982"
-      }
-    }
+      } 
     }], 
    "organizer": {
     "@type": "Organization",
     "name": "Learnbay",
     "url": "https://www.learnbay.co"
-   }
-  } `
+  }
+} `
 }}
 />
 
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -396,11 +395,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
-          deskTopPara="First-Track Industrial Training For Early Professionals"
+        <FirstSection dataScience={true}          deskTopPara="First-Track Industrial Training For Early Professionals"
           mTopPara="First-Track Industrial Training For Early Professionals"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
@@ -425,8 +423,7 @@ export default function Home() {
             p44="₹ 6,392/month"
           />
         </div>
-        <GetHired
-          WeekdayBatchDate="Best in class industrial training with live projects"
+        <GetHired dataScience={true}          WeekdayBatchDate="Best in class industrial training with live projects"
           WeekendBatchDate="250+ employer allowance & 100% interview guarantee"
           Project="Career guidance from industrial experts"
           Classes="Basic coding classes for non-technical professions"

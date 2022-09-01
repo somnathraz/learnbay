@@ -44,7 +44,7 @@ export default function Home() {
         <meta name="description" content="Full Stack Software Development Course with IBM certification. Learnbay provide advanced full stack Software developer course with placement guarantee. Enrol in our full stack Software developer course to enhance your career" />
 <meta name="Keywords" content="Full Stack Software Development Course, Full Stack Software Development Course training , Full Stack Software Development Course institute in India, best Full Stack Software Development Course institute, Full Stack Software developer Course ,Full Stack Software developer Course certification, Full Stack Software developer Course training institute , advanced Full Stack Software developer Course , Full Stack Software developer Course with placement guarantee, Full Stack Software developer Course with IBM certification"/>
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} fullStack={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -53,10 +53,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection
+        <FirstSection fullStack={true}
           deskTopPara="Full Stack Software Development Program"
           mTopPara="Full Stack Software Development Program"
           mTitle="Ace Your Coding Interview at MAANG and"
@@ -97,7 +97,7 @@ export default function Home() {
         </div>
         <DomainFaq FaqData={DomainFaqCourseDatasoft} />
         <CourseReview />
-        <SyllabusNew
+        <SyllabusNew fullStack={true}
           syllabus={FullStackSoftwareCourseData[0].syllabus}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
           popupHead={FullStackSoftwareCourseData[0].popupHead}
@@ -105,11 +105,11 @@ export default function Home() {
           hours="300+ Hours"
           project="12+ Real Time"
         />
-        <ProgramFee Fee="₹ 1,10,000 + GST" Emi="₹10,816" />
+        <ProgramFee Fee="₹ 1,10,000 + GST" Emi="₹10,816" fullStack={true} />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+ Projects" domain="7+" />
         </div>
-        <CourseFee
+        <CourseFee fullStack={true}
           CourseFeeHead="Full Stack Web Development: Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"

@@ -14,7 +14,7 @@ function terms() {
         <link rel="canonical" href="https://www.learnbay.co/terms-conditions" />
       </Head>
       <main>
-      <Navbar popup={true} />
+      <Navbar popup={true} dataScience={true}/>
       <Terms />
       <Footer />
       </main>

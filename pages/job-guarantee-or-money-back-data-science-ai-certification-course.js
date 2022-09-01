@@ -50,7 +50,7 @@ export default function Home() {
                   <link rel="canonical" href="https://www.learnbay.co/job-guarantee-or-money-back-data-science-ai-certification-course" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -59,10 +59,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
+        <FirstSection dataScience={true}
           deskTopPara="Boost your career opportunities "
           deskTopPara1="by developing relevant skills."
           mTitle="Data Science and AI Program "
@@ -112,7 +112,7 @@ export default function Home() {
           desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/DS-AI-1.jpeg"
         />
-        <SyllabusNew
+        <SyllabusNew dataScience={true}
           syllabus={JobGuaranteeCourseData[0].syllabus}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           popupHead={JobGuaranteeCourseData[0].popupHead}
@@ -159,12 +159,12 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee Emi="₹ 12,292/month" Fee="₹ 1,25,000 +GST" />
+        <ProgramFee Emi="₹ 12,292/month" Fee="₹ 1,25,000 +GST" dataScience={true} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="15+ Projects" domain="7+" />
         </div>
-        <Fee
+        <Fee dataScience={true}
           sub1="Data Science Foundation Certification Program"
           Price1="₹65,000 + GST"
           PFeatures11="200+ Hours"
@@ -196,7 +196,7 @@ export default function Home() {
           PFeatures27="Yes"
           PFeatures28="Project Manager, Team Lead, Project Lead, Project Head, Etc."
         />
-        <CourseFee
+        <CourseFee dataScience={true}
           CourseFeeHead="Data Science and AI with
       Job Guarantee Program : Batch Details"
           CourseFeePara="Online Classroom"

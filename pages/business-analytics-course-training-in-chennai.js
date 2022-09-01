@@ -67,7 +67,7 @@ export default function Home() {
         <meta name="robots" content="ALL" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  <Navbar popup={true} dataScience={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -76,11 +76,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection
-          deskTopPara="Professional Business Analytics Program"
+        <FirstSection dataScience={true}          deskTopPara="Professional Business Analytics Program"
           mTopPara="Professional Business Analytics Program"
           title="Business Analytics Course"
           mTitle="Business Analytics Course"
@@ -105,8 +104,7 @@ export default function Home() {
             p44="₹  6,392/month"
           />
         </div>
-        <GetHired
-          WeekdayBatchDate="Industry-curated training via real-world analytics"
+        <GetHired dataScience={true}          WeekdayBatchDate="Industry-curated training via real-world analytics"
           WeekendBatchDate="Special programming classes for non-technical professionals"
           Project="Especially designed for early pros or aspirants with career gap"
           Classes="Learn the most trending analytical trick from MNC experts"
