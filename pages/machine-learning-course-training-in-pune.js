@@ -67,29 +67,6 @@ export default function Home() {
         <meta name="robots" content="ALL" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
 
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
- "@context": "https://schema.org/", 
- "@type": "Product", 
- "name": "Machine Learning Course in Pune | Machine Learning Training in Pune - Learnbay",
- "brand": {
- "@type": "Brand",
- "name": "Learnbay"
- },
- "aggregateRating": {
- "@type": "AggregateRating",
- "ratingValue": "4.9",
- "bestRating": "5",
- "worstRating": "1",
- "ratingCount": "12657"
-}
-} `
-}}
-/> 
-
 <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
@@ -123,7 +100,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp/",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -424,7 +401,7 @@ export default function Home() {
  "url" : "https://www.learnbay.co/"
  },{
   "@type": "Place",
-  "name": "Learnbay - Data Science, Data Analytics Course Training in Bangalore",
+  "name": "Learnbay - Data Science, Data Analytics Course Training in Pune",
   "address": {
   "@type": "PostalAddress",
   "streetAddress": " #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3,(Above Sangam Sweets)",

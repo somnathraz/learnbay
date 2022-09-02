@@ -343,7 +343,7 @@ export default function Home() {
  "url" : "https://www.learnbay.co/"
  },{
  "@type": "Place",
- "name": "Learnbay - Data Science, Data Analytics Course Training in Bangalore",
+ "name": "Learnbay - Data Science, Data Analytics Course Training in Pune",
  "address": {
  "@type": "PostalAddress",
  "streetAddress": " #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3,(Above Sangam Sweets)",

@@ -333,7 +333,7 @@ export default function Home() {
  "url" : "https://www.learnbay.co/"
  },{
   "@type": "Place",
-  "name": "Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Hyderabad",
+  "name": "Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Pune",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)",

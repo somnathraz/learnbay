@@ -36,7 +36,7 @@ const Footer = () => {
           <p className={styles.FooterInnerP}>Courses</p>
           <a href="/data-science-certification-courses"><p className={styles.FooterInnerli}>Data Science Foundation Program</p></a>
           <a href="/advance-data-science-certification-courses"><p className={styles.FooterInnerli}>Advanced DS and AI Program</p></a>
-          <a href="/full-stack-web-development-program"><p className={styles.FooterInnerli}>Full Stack Web Development Program</p></a>
+          {/* <a href="/full-stack-web-development-program"><p className={styles.FooterInnerli}>Full Stack Web Development Program</p></a> */}
           <a href="/full-stack-software-development-program"><p className={styles.FooterInnerli}>Full Stack Software Development Program</p></a>
           <a href="/artificial-intelligence-certification-course"><p className={styles.FooterInnerli}>Advance AI & ML Program for Tech Professionals</p></a>
           <a href="/data-science-ai-for-managers"><p className={styles.FooterInnerli}>Data Science & AI For Managers</p></a>

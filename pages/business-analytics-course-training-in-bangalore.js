@@ -65,10 +65,307 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-      </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
 
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
+ "@context": "https://schema.org/", 
+ "@type": "HowTo", 
+ "name": "How to apply for data science course?",
+ "description": "You just have to follow 3 easy steps to enroll in our advanced data science course",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+ "totalTime": "PT6M",
+ "estimatedCost": {
+ "@type": "MonetaryAmount",
+ "currency": "INR",
+ "value": "6"
+ },
+ "supply": {
+ "@type": "HowToSupply",
+ "name": "We provide Advanced data science course in Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai"
+ },
+ "tool": {
+ "@type": "HowToTool",
+ "name": "Data science, machine learning, artificial intelligence, data analytics"
+ },
+ "step": [{
+ "@type": "HowToStep",
+ "text": "Visit our website and fill the enquiry form",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+ "name": "Fill Enquiry Form",
+ "url": "https://www.learnbay.co/data-science-course/"
+ },{
+ "@type": "HowToStep",
+ "text": "Talk to our experts for career counseling",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "name": "Talk to Expert",
+ "url": "https://www.learnbay.co/data-science-course/"
+ },{
+ "@type": "HowToStep",
+ "text": "Get enrollment in our data science course",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+ "name": "Get enrollment",
+ "url": "https://www.learnbay.co/"
+}] 
+
+}
+} `
+}}
+/> 
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
+ "@context": "https://schema.org",
+ "@type": "NewsArticle",
+ "mainEntityOfPage": {
+ "@type": "WebPage",
+ "@id": "https://www.learnbay.co/"
+ },
+ "headline": "Business Analytics Course Training In Bangalore",
+ "description": "Business Analytics Course in Bangalore. Learnbay is Advanced Business Analytics Course Training Institute in Bangalore. Business Analytics course in Bangalore will enhance your career",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
+ "author": {
+ "@type": "Organization",
+ "name": "Learnbay",
+ "url": "https://www.learnbay.co/"
+ }, 
+ "publisher": {
+ "@type": "Organization",
+ "name": "Learnbay",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+ }
+ },
+ "datePublished": "2021-10-01",
+ "dateModified": "2022-04-21"
+
+}
+} `
+}}
+/> 
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
+ "@context": "https://schema.org",
+
+ "@type": "FAQPage",
+ "mainEntity": [{
+ "@type": "Question",
+ "name": "What are the prerequisites for the Business Analytics Training Course in Bengalore?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "There are no prerequisites for this Business Analytics certification course in Bengalore as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
+ }
+ },{
+ "@type": "Question",
+ "name": "What if I miss a few classes due to an emergency?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch."
+ }
+ },{
+ "@type": "Question",
+ "name": "What is a Flexi Subscription in the Data Analytics Certification Program in Bengalore?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
+ }
+ },{
+ "@type": "Question",
+ "name": "What’s the duration of the Business Analytics Program in Bengalore?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 5 months Monday to Friday - 2 hours/day Weekend batch - 6.5 months Saturday & Sunday - 3.5 hours/day"
+ }
+ },{
+ "@type": "Question",
+ "name": "What is the mode of data science training at Learnbay, Bengalore?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
+ }
+ },{
+ "@type": "Question",
+ "name": "How can I opt for a Hybrid mode of learning in Bengalore?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions"
+ }
+ },{
+ "@type": "Question",
+ "name": "What is the total fee for the Business Analytics Program in Bengalore?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "The total program fee for the Business Analytics Program is INR 76,700/- inclusive of GST."
+ }
+ },{
+ "@type": "Question",
+ "name": "Can I pay in installments for INR 76,700/-?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.Please check with our sales team to know more +917795687988"
+ }
+ },{
+ "@type": "Question",
+ "name": "Is there any scholarship/discount available for the Business Analytics Program? What is Group Discount?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"
+ }
+ },{
+ "@type": "Question",
+ "name": "What is the refund policy for the Business Analytics Program at Learnbay?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
+ }
+ },{
+ "@type": "Question",
+ "name": "How many real-time projects will be there?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc. Click here to download the list of the projects."
+ }
+ },{
+ "@type": "Question",
+ "name": "How will the project be executed?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
+ }
+ },{
+ "@type": "Question",
+ "name": "Is there any accredited certification after course completion?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion"
+ }
+ },{
+ "@type": "Question",
+ "name": "What's the eligibility for a job assistance program in Learnbay?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+ }
+ },{
+ "@type": "Question",
+ "name": "How long will I get support for job assistance at Learnbay?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
+ }
+ },{
+ "@type": "Question",
+ "name": "What is a job-readiness program?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
+ }
+ },{
+ "@type": "Question",
+ "name": "Will I get job referrals at Learnbay?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
+ }
+ },{
+ "@type": "Question",
+ "name": "Until when will the students get the facility of mentorship?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Our mentors will provide Business Analytics training to the students until the completion of the course."
+ }
+ },{
+ "@type": "Question",
+ "name": "Can a Learnbay student choose to study from their desired mentor?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+ }
+ },{
+ "@type": "Question",
+ "name": "When is the job assistance provided at Learnbay?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
+ }
+ },{
+ "@type": "Question",
+ "name": "How long will I get Job referrals?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+}
+}]
+                  }
+                 } `
+            }}
+          />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
+"@context": "http://schema.org",
+"@type": "EducationEvent","name": "Business Analytics Course Training In Bangalore",
+"description": "Business Analytics Course in Bangalore. Learnbay is Advanced Business Analytics Course Training Institute in Bangalore. Business Analytics course in Bangalore will enhance your career",
+"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
+"performer":"Learnbay", 
+"offers":{
+"@type": "AggregateOffer",
+"lowPrice": "39999",
+"highPrice": "110000",
+"url" : "https://www.learnbay.co/",
+"availability" : "https://schema.org/InStock",
+"price": "39999",
+"priceCurrency": "INR",
+"validFrom": "2022-05-01"},
+"startDate":"2022-05-01",
+"endDate": "2022-08-31",
+"url" : "https://www.learnbay.co/","duration":"80", 
+"eventAttendanceMode":"https://schema.org/MixedEventAttendanceMode",
+"eventStatus":"http://schema.org/EventScheduled",
+ "location": [{
+ "@type": "VirtualLocation",
+ "url" : "https://www.learnbay.co/"
+ },{
+  "@type": "Place",
+  "name": "Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Bangalore",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)",
+
+    "addressLocality": "HSR Sector 3",
+    "postalCode": "560102",
+    "addressCountry": "Bengaluru, Karnataka,INDIA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "12.914745887585838",
+    "longitude": "77.64087553886982"
+  } 
+}], 
+"organizer": {
+ "@type": "Organization",
+ "name": "Learnbay",
+ "url": "https://www.learnbay.co"
+}
+} `
+}}
+/>
+      </Head>
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -79,7 +376,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Job-ready Business Analytics Program with Live Industrial Projects"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Job-ready Business Analytics Program with Live Industrial Projects"
           mTopPara="Job-ready Business Analytics Program with Live Industrial Projects"
           title="Business Analytics Course "
           mTitle="Business Analytics Course"
@@ -104,7 +403,9 @@ export default function Home() {
             p44="₹  6,392/month"
           />
         </div>
-        <GetHired dataScience={true}          WeekdayBatchDate="Industry-curated training via real-world analytics"
+        <GetHired
+          dataScience={true}
+          WeekdayBatchDate="Industry-curated training via real-world analytics"
           WeekendBatchDate="Special programming classes for non-technical professionals"
           Project="Especially designed for early pros or aspirants with career gap"
           Classes="Learn the most trending analytical trick from MNC experts"
@@ -217,8 +518,7 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-
+        <LearnSupport />
         <CityText
           CityTextB="Business Analytics Course Certification Training locations in Bangalore "
           CityText=" :Ammrutha halli [560092], Maruthi Seva Nagar [560033], Kuvempu Layout [560077], Bellandur [560103], Jayanagar III Block [560011], Anandnagar [560024], Nandinilayout [560096], B SK II Stage [560070], Indiranagar [560038], Yelahanka [560063], Chickpet [560053], Domlur [560071], Bansashankari III Stage [560085], Vimanapura [560017], Nagarbhavi [560072], Basaveshwaranagar [560079], Bommanahalli [560068], Mico Layout [560076], Electronic City [560100], Taverekere [560029], Nehru Nagar [560020], Agram[560007], Halsuru Pete [560002], Basavanagudi [560004], R.M.V. Extension II [560094], Jayanagar [560041], Carmelaram [560035], New Thippasandra [560075], Kanakanagar [560032], Nayandahalli [560039], Fraser Town [560005], Jalahalli East [560014], Kacharakanahalli [560084], Malleswaram West [560055], Bannerghatta [560083], Srirampuram [560021], Rajarajeshwarinagar [560098], Sivan Chetty Gardens [560042], Dommasandra [562125], Whitefield [560066], Vidyaranyapura [560097], Bolare [560082], Mathikere [560054], Doddanekkundi [560037], Hampinnagar [560104], C.V.Raman Nagar [560093], Chikkabanavara [560090], Attur [560064], Kumbalagodu [560074], Bhattarahalli [560049], Chikkalasandra [560061], Sharada Nagar [560065], Jalahalli West [560015], H.K.P Road [560051], Jp Nagar III Phase [560078], Sadashiva nagar [560080], Krishnarajapuram R S [560016], Mahalakshipuram Layout [560086], Guddadahalli [560026], Chudenapura [560060], Vidhana Soudha [560001], Shanthinagar [560027], Rajaji Nagar [560010], Chandapura [560099], Ramakrishna Hegde Nagar [560045], Shalabh Bhatnagar [560012], Peenya [560058], Ashoknagar [560050], Jalahalli Nacen [560013], Banawadi [560043], Malleswaram [560003], Doddakallasandra [560062], K.G Road [560009], Muthusandra [560087], Marathahalli [560056], JC Nagar [560006], Chamrajpet [560018], HSR Layout [560102], Devanagundi [560067], Yeswanthpura [560022], Mahadevapura [560048],Hulsur Bazaar [560008],Magadi Road [560023], Adugodi [560030], Bagalgunte [560073], Devasandra [560036], Rv Niketan [560059], Narasimharaja Colony [560019], Koramangala VI Bk [560095], Agara [560034], Vijayanagar East [560040], Benson Town [560046], Viveknagar S.O [560047], Dasarahalli [560057], Bapagrama [560091], Richmond Town [560025]."
