@@ -35,7 +35,7 @@ const ThankYou = () => {
       </section>
       <section className={styles.mains}  style={{ marginBottom: "50px" }}>
         <div className={styles.right}>
-          <div>
+          {/* <div>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp"
               alt="data-science-course"
@@ -57,7 +57,7 @@ const ThankYou = () => {
                 Download Brochure
               </button>
             </a>
-          </div>
+          </div> */}
           <div>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-developer-course.webp"

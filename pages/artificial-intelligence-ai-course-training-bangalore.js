@@ -68,31 +68,6 @@ export default function Home() {
         <meta name="robots" content="ALL" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
 
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
- "@context": "https://schema.org/", 
- "@type": "Product", 
- "name": "Data Science Course in Bangalore | Data Scientist Training In Bangalore - Learnbay",
- "brand": {
- "@type": "Brand",
- "name": "Learnbay"
- },
- "aggregateRating": {
- "@type": "AggregateRating",
- "ratingValue": "4.9",
- "bestRating": "5",
- "worstRating": "1",
- "ratingCount": "12657"
- }
-
-  }
-} `
-}}
-/> 
-
 <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
@@ -166,7 +141,7 @@ export default function Home() {
  "name": "Learnbay",
  "logo": {
  "@type": "ImageObject",
- "url": "https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png"
+ "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
  }
  },
  "datePublished": "2021-10-01",
@@ -416,7 +391,7 @@ export default function Home() {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Artificial Intelligence (AI) training in Bangalore",
 "description": "Artificial Intelligence Course in Bangalore. Learnbay is Advanced Artificial Intelligence Course Training Institute in Bangalore. Artificial Intelligence course in Bangalore will enhance your career",
-"image" : "https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png",
+"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
 "performer":"Learnbay", 
 "offers":{
 "@type": "AggregateOffer",
@@ -437,7 +412,7 @@ export default function Home() {
  "url" : "https://www.learnbay.co/"
  },{
   "@type": "Place",
-  "name": "Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Hyderabad",
+  "name": "Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Bengalore",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)",
