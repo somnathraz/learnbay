@@ -10,7 +10,7 @@ import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
 
-const FormInline = ({ popup, setTrigger, downloadBrochure, radio }) => {
+const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience }) => {
   const router = useRouter();
   let today = new Date();
   let time =
@@ -72,12 +72,6 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio }) => {
     }
     if (dataScience) {
       router.push("/Thank-you");
-    }
-    if (fullStack) {
-      router.push("/Thank-you-fsd");
-    }
-    if (event)  {
-      router.push("/event/Thank-You-event");
     }
   };
   const pastDates = () => {
