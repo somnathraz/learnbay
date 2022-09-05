@@ -5,7 +5,7 @@ import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 import Image from "next/image";
 
-const FirstSection = () => {
+const FirstSection = ({dataScience}) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -33,9 +33,9 @@ const FirstSection = () => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} radio={true} />
+          <Form popup={true} setTrigger={setPopups} radio={true} dataScience={dataScience} />
         </div>
-      </Popup>
+      </Popup> 
       <div className={styles.leftSide}>
         <h1>
           #1 Domain Specialised Certification Program For{" "}
