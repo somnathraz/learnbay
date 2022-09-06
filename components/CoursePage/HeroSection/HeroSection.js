@@ -100,6 +100,7 @@ const HeroSection = ({
               width={mobile ? 180 : 261}
               height={mobile ? 46.2 : 67}
               layout="intrinsic"
+               alt="data science course in bangalore"
             />
           </div>
           <div className={styles.rightBottom}>
@@ -111,7 +112,7 @@ const HeroSection = ({
       <div className={styles.right}>
         <Image
           src={src}
-          alt={alt}
+           alt="data science course in bangalore"
           layout="intrinsic"
           width={width}
           height={height}

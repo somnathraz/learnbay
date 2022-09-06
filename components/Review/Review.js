@@ -20,7 +20,8 @@ function Review() {
                   <img
                     src={img}
                     layout="intrinsic"
-                    className={styles.ReviewImg} 
+                    className={styles.ReviewImg}
+              alt="Learnbay"
                   />
                   </div>
                   <p className={styles.title}>{title}</p>

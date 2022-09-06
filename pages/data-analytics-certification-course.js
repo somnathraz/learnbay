@@ -9,8 +9,8 @@ import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/Certificatejob/Certificate";
 import Project from "../components/CoursePage/Project/Project";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
@@ -171,6 +171,8 @@ export default function Home() {
           SupportFaqDatas={SupportFaqData6}
         />
                 <LearnSupport />
+                 
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

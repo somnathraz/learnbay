@@ -39,6 +39,7 @@ const CourseReview = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>140%</h5>
@@ -55,6 +56,7 @@ const CourseReview = () => {
                       width="107"
                       height="60"
                       layout="intrinsic"
+                                    alt="Learnbay data science course"
                     />
                   </a>
                 </div>
@@ -64,9 +66,10 @@ const CourseReview = () => {
                   <Image
                     src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/preksha-home.png"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                     width="100"
                     height="100"
-                    alt="preksha-home"
+                    
                   />
                 </div>
 
@@ -93,6 +96,7 @@ const CourseReview = () => {
                     width="230"
                     height="40"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                 </div>
               </div>
@@ -105,6 +109,7 @@ const CourseReview = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>210%</h5>
@@ -121,6 +126,7 @@ const CourseReview = () => {
                       width="107"
                       height="60"
                       layout="intrinsic"
+                                    alt="Learnbay data science course"
                     />
                   </a>
                 </div>
@@ -130,9 +136,10 @@ const CourseReview = () => {
                   <Image
                     src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                     width="100"
                     height="100"
-                    alt="preksha-home"
+                    
                   />
                 </div>
 
@@ -158,6 +165,7 @@ const CourseReview = () => {
                     width="99"
                     height="30"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                 </div>
               </div>
@@ -170,6 +178,7 @@ const CourseReview = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>142%</h5>
@@ -186,6 +195,7 @@ const CourseReview = () => {
                       width="107"
                       height="60"
                       layout="intrinsic"
+                                    alt="Learnbay data science course"
                     />
                   </a>
                 </div>
@@ -195,9 +205,10 @@ const CourseReview = () => {
                   <Image
                     src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/aravind-home.png"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                     width="100"
                     height="100"
-                    alt="aravind-home"
+                    
                   />
                 </div>
 
@@ -221,6 +232,7 @@ const CourseReview = () => {
                     width="99"
                     height="30"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                 </div>
               </div>
@@ -233,6 +245,7 @@ const CourseReview = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>150%</h5>
@@ -245,9 +258,10 @@ const CourseReview = () => {
                   <Image
                     src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ritesh-home.png"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                     width="100"
                     height="100"
-                    alt="ritesh-home"
+                    
                   />
                 </div>
 
@@ -274,6 +288,7 @@ const CourseReview = () => {
                     width="99"
                     height="30"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                 </div>
               </div>
@@ -286,6 +301,7 @@ const CourseReview = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>100%</h5>
@@ -298,9 +314,10 @@ const CourseReview = () => {
                   <Image
                     src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/saurabh-home.png"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                     width="100"
                     height="100"
-                    alt="saurabh-home"
+                    
                   />
                 </div>
 
@@ -327,6 +344,7 @@ const CourseReview = () => {
                     width="230"
                     height="40"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                 </div>
               </div>
@@ -339,6 +357,7 @@ const CourseReview = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>132%</h5>
@@ -351,9 +370,10 @@ const CourseReview = () => {
                   <Image
                     src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/abhishek-home.png"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                     width="100"
                     height="100"
-                    alt="aravind-home"
+                    
                   />
                 </div>
 
@@ -377,6 +397,7 @@ const CourseReview = () => {
                     width="99"
                     height="30"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                 </div>
               </div>
@@ -390,6 +411,7 @@ const CourseReview = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>127%</h5>
@@ -402,9 +424,10 @@ const CourseReview = () => {
                   <Image
                     src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vishal-home.png"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                     width="100"
                     height="100"
-                    alt="vishal-home"
+                    
                   />
                 </div>
 
@@ -430,6 +453,7 @@ const CourseReview = () => {
                     width="99"
                     height="30"
                     layout="intrinsic"
+                                  alt="Learnbay data science course"
                   />
                 </div>
               </div>
@@ -445,6 +469,7 @@ const CourseReview = () => {
           width="1603"
           height="82"
           layout="intrinsic"
+                        alt="Learnbay data science course"
         />
         <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf" target="_blank"><button>
           Download Placement Report <MdKeyboardArrowDown />

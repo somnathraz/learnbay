@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/ThankYou.module.css";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
 import Image from "next/image";
 import { FaDownload } from "react-icons/fa";
@@ -212,6 +213,8 @@ const ThankYou = () => {
           </div>
         </div>
       </section>
+       
+        <OfferPopup offer={false} />                      
       <Footer />
     </div>
   );

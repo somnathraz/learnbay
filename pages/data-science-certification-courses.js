@@ -13,6 +13,7 @@ import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { DomainFaqCourseData2 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import { FoundtionCourseData } from "../Data/FoundtionCourse";
 import Fee from "../components/CoursePage/Fee/Fee";
@@ -197,6 +198,8 @@ export default function Home() {
           SupportFaqDatas={SupportFaqData1}
         />
                 <LearnSupport />
+                 
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

@@ -39,7 +39,8 @@ const CourseReview = () => {
                     layout="intrinsic"
                     width="100"
                     height="100"
-                    alt="akanksha-home"
+                                  alt="Learnbay data science course"
+
                   />
                 </div>
 
@@ -68,7 +69,8 @@ referrals to product-based companies.
                     layout="intrinsic"
                     width="100"
                     height="100"
-                    alt="akanksha-home"
+                                  alt="Learnbay data science course"
+
                   />
                 </div>
 
@@ -100,7 +102,8 @@ before course completion.
                     layout="intrinsic"
                     width="100"
                     height="100"
-                    alt="akanksha-home"
+                                  alt="Learnbay data science course"
+
                   />
                 </div>
 
@@ -133,7 +136,8 @@ easily.
                     layout="intrinsic"
                     width="100"
                     height="100"
-                    alt="akanksha-home"
+                                  alt="Learnbay data science course"
+
                   />
                 </div>
 
@@ -167,7 +171,8 @@ this course helped me achieve it .
                     layout="intrinsic"
                     width="100"
                     height="100"
-                    alt="akanksha-home"
+                                  alt="Learnbay data science course"
+
                   />
                 </div>
 
@@ -201,7 +206,8 @@ based companies.
                     layout="intrinsic"
                     width="100"
                     height="100"
-                    alt="akanksha-home"
+                                  alt="Learnbay data science course"
+
                   />
                 </div>
 
@@ -233,7 +239,8 @@ helped me in my career.
                     layout="intrinsic"
                     width="100"
                     height="100"
-                    alt="akanksha-home"
+                                  alt="Learnbay data science course"
+
                   />
                 </div>
 
@@ -268,6 +275,7 @@ gave a good boost to my career
           width="1603"
           height="82"
           layout="intrinsic"
+          alt="Learnbay"
         />
         <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf" target="_blank"><button>
           Download Placement Report <MdKeyboardArrowDown />

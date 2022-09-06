@@ -33,7 +33,7 @@ function CertificateTab() {
           />
             <div className={styles.contentDiv}>
             <h6>{title}</h6>
-                    <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/horizintal-blue-line.svg" width="90" height="4" layout="intrinsic"/>
+                    <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/horizintal-blue-line.svg" width="90" height="4" layout="intrinsic"  alt="data science course in bangalore"/>
                   <p>
                     <BsCheck2 className={styles.checkCircle} />
                     {para[0]}
@@ -72,7 +72,7 @@ function CertificateTab() {
           />      
             <div className={styles.contentDiv}>
              <h6>{title}</h6>
-                    <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/horizintal-blue-line.svg" width="90" height="4" layout="intrinsic"/>
+                    <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/horizintal-blue-line.svg" width="90" height="4" layout="intrinsic"  alt="data science course in bangalore"/>
                   <p>
                     <BsCheck2 className={styles.checkCircle} />
                     {para[0]}

@@ -82,6 +82,7 @@ const CitiesRight = ({
             Domainlink8,
             Domainlink9,
             Domainlink10,
+            alt1, alt2, alt3, alt4, alt5, alt6, alt7, alt8, alt9,
   }) => {
   return (
     <section className={styles.CitiesRightHead}>
@@ -157,7 +158,7 @@ const CitiesRight = ({
                 <p className={styles.pHead}>{CertificationHead1}</p>
                 <p className={styles.pp}>{CertificationBot1}</p>
                 <p className={styles.pp}>{CertificationBot2}</p>
-                <img src={src}></img>
+                <img src={src} alt={alt1}></img>
             </div>
         </div>
         <div id="Module">
@@ -289,7 +290,7 @@ const CitiesRight = ({
                 <div className={styles.ProjectsBot}>
                     <div className={styles.ProjectsBotHead}>
                         <div className={styles.ProjectsBotI}>
-                            <img src={src1}></img>
+                            <img src={src1} alt={alt2}></img>
                             <p className={styles.ppp}>{ProjectsH1}</p>
                         </div>
                         <p className={styles.pp}>{Projectsp1}</p>
@@ -298,7 +299,7 @@ const CitiesRight = ({
                 <div className={styles.ProjectsBot}>
                     <div className={styles.ProjectsBotHead}>
                         <div className={styles.ProjectsBotI}>
-                            <img src={src2}></img>
+                            <img src={src2}  alt={alt3}></img>
                             <p className={styles.ppp}>{ProjectsH2}</p>
                         </div>
                         <p className={styles.pp}>{Projectsp2}</p>
@@ -309,7 +310,7 @@ const CitiesRight = ({
                 <div className={styles.ProjectsBot}>
                     <div className={styles.ProjectsBotHead}>
                         <div className={styles.ProjectsBotI}>
-                            <img src={src3}></img>
+                            <img src={src3}  alt={alt4}></img>
                             <p className={styles.ppp}>{ProjectsH3}</p>
                         </div>
                         <p className={styles.pp}>{Projectsp3}</p>
@@ -318,7 +319,7 @@ const CitiesRight = ({
                 <div className={styles.ProjectsBot}>
                     <div className={styles.ProjectsBotHead}>
                         <div className={styles.ProjectsBotI}>
-                            <img src={src4}></img>
+                            <img src={src4}  alt={alt5}></img>
                             <p className={styles.ppp}>{ProjectsH4}</p>
                         </div>
                         <p className={styles.pp}>{Projectsp4}</p>
@@ -338,24 +339,24 @@ const CitiesRight = ({
             </div>
             <div className={styles.Alumni}>
                 <div className={styles.AlumniBot}>
-                    <img src={Asrc1} style={{width:"100px"}}></img>
+                    <img src={Asrc1} style={{width:"100px"}} alt={alt6}></img>
                     <p className={styles.ppa}>{AlumniH1}</p>
                     <p className={styles.pp}>{Alumnip1}</p>
                 </div>
                 <div className={styles.AlumniBot}>
-                    <img src={Asrc2} style={{width:"100px"}}></img>
+                    <img src={Asrc2} style={{width:"100px"}} alt={alt7}></img>
                     <p className={styles.ppa}>{AlumniH2}</p>
                     <p className={styles.pp}>{Alumnip2}</p>
                 </div>
             </div>
             <div className={styles.Alumni1}>
                 <div className={styles.AlumniBot}>
-                    <img src={Asrc3} style={{width:"100px"}}></img>
+                    <img src={Asrc3} style={{width:"100px"}} alt={alt8}></img>
                     <p className={styles.ppa}>{AlumniH3}</p>
                     <p className={styles.pp}>{Alumnip3}</p>
                 </div>
                 <div className={styles.AlumniBot}>
-                    <img src={Asrc4} style={{width:"100px"}}></img>
+                    <img src={Asrc4} style={{width:"100px"}} alt={alt9}></img>
                     <p className={styles.ppa}>{AlumniH4}</p>
                     <p className={styles.pp}>{Alumnip4}</p>
                 </div>

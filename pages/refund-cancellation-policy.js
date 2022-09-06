@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Refund from "../components/refund/refund";
 import Navbar from "../components/Navbar/Navbar";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
 
 function refund() {
@@ -16,6 +17,8 @@ function refund() {
       <main>  <Navbar popup={true} dataScience={true} />
 
       <Refund />
+       
+        <OfferPopup offer={false} />                      
       <Footer />
       </main>
     </div>

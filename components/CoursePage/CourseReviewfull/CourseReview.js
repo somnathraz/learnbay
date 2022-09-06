@@ -25,6 +25,7 @@ const CourseReview = () => {
           width="1603"
           height="82"
           layout="intrinsic"
+          alt="Learnbay data science course"
         />
       </div>
     </>

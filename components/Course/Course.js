@@ -109,6 +109,7 @@ const Course = () => {
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
+                             alt="data science course in bangalore"
                           /></a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
@@ -176,6 +177,7 @@ const Course = () => {
                             width="423px"
                             height="252px"
                             className={styles.courseImg}
+                             alt="data science course in bangalore"
                           /></a>
                         </div>
                         <div
@@ -263,6 +265,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
+                             alt="data science course in bangalore"
                             className={styles.courseImg}
                           /></a>
                           <div className={styles.contentBox}>
@@ -348,6 +351,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
+                            alt="data science course"
                             className={styles.courseImg}
                           /></a>
                         </div>
@@ -436,6 +440,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
+                            alt="data science course"
                             className={styles.courseImg}
                           /></a>
                           <div className={styles.contentBox}>
@@ -503,6 +508,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
+                            alt="data science course"
                             className={styles.courseImg}
                           /></a>
                         </div>
@@ -591,6 +597,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
+                             alt="data science course in bangalore"
                             className={styles.courseImg}
                           /></a>
                           <div className={styles.contentBox}>
@@ -657,6 +664,7 @@ const Course = () => {
                           layout="intrinsic"
                           width="423px"
                           height="252px"
+                           alt="data science course in bangalore"
                           className={styles.courseImg}
                         /></a>
                         <div
@@ -734,6 +742,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
+                             alt="data science course in bangalore"
                             className={styles.courseImg}
                           /></a>
                           <div className={styles.contentBox}>
@@ -800,6 +809,7 @@ const Course = () => {
                           layout="intrinsic"
                           width="423px"
                           height="252px"
+                           alt="data science course in bangalore"
                           className={styles.courseImg}
                         /></a>
                         <div
@@ -875,6 +885,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
+                            alt="data science course"
                             className={styles.courseImg}
                           /></a>
                           <div className={styles.contentBox}>
@@ -942,6 +953,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
+                            alt="data science course"
                             className={styles.courseImg}
                           /></a>
                           <div className={styles.contentBox}>
@@ -1015,6 +1027,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
+                            alt="data science course"
                             className={styles.courseImg}
                           /></a>
                           <div className={styles.contentBox}>
@@ -1088,6 +1101,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
+                             alt="data science course in bangalore"
                             className={styles.courseImg}
                           /></a>
                           <div className={styles.contentBox}>
@@ -1154,6 +1168,7 @@ const Course = () => {
                           layout="intrinsic"
                           width="423px"
                           height="252px"
+                           alt="data science course in bangalore"
                           className={styles.courseImg}
                         /></a>
                         <div
@@ -1228,6 +1243,7 @@ const Course = () => {
                           layout="intrinsic"
                           width="423px"
                           height="252px"
+                           alt="data science course in bangalore"
                           className={styles.courseImg}
                         /></a>
                         <div

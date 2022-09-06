@@ -10,6 +10,7 @@ import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import React, { useState } from "react";
@@ -34,7 +35,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Science Course in Bangalore with Placement Guarantee</title>
+        <title>Data Science Course in Bangalore | Data Science Training in Bangalore</title>
         <meta
           name="description"
           content="Data Science Course in Bangalore. Learnbay is Advanced Data Science Training Course Institute in Bangalore with 100% job placement Guarantee"
@@ -423,7 +424,7 @@ export default function Home() {
           spanMTitleText="Domain Specialization"
           mTitle="Advanced Data Science and AI Program with"
           mTopPara="Foundational and Advanced Data Science Courses"
-          title="Data Science Course Training in Bangalore"
+          title="Data Science Course in Bangalore"
           desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
@@ -472,7 +473,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               ProgramHead1="Industrial Data science training in Bangalore-"
-              ProgramBot1="Learnbay is the best Data Science course & training institute in Bangalore. Our faculties are industrial experts from top-notch MNCs. They share their experience and knowledge throughout their offline and online Data science courses. The courses are custom-designed for learners who want to shift into a Data Science Career, even after working in any domain for years. In one word, it's the ultimate destination where you can find the best foundational and advanced Data science courses for working professionals."
+              ProgramBot1="Learnbay is the best Data Science course institute in Bangalore. Our faculties are industrial experts from top-notch MNCs. They share their experience and knowledge throughout their offline and online Data science courses. The courses are custom-designed for learners who want to shift into a Data Science Career, even after working in any domain for years. In one word, it's the ultimate destination where you can find the best foundational and advanced Data science courses for working professionals."
               ProgramBot2="The Learnbay Data science course for working professionals in Bangalore implies practical knowledge and theoretical concepts for balanced learning. This institute offers the best value in Data Science certification programs available across Bangalore. So that aspirants can build a strong future in data science. Learnbay Data Science training in Bangalore is created and designed to meet industrial and organizational needs changes."
               ProgramHead3="Why is Learnbay the best institute for advanced  Data Science courses in Bangalore?"
               ProgramBot3="Here, you get hassle-free live classes and multiple instructors. You also get a Data science course with a job guarantee and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. All of their Data science course in Bangalore has 1 on 1 live doubt clearance sessions from experienced MAANG Data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads."
@@ -587,6 +588,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="data science course in bangalore"
+              alt2="data science course in bangalore"
+              alt3="data science course in bangalore"
+              alt4="data science course in bangalore"
+              alt5="data science course in bangalore"
+              alt6="data science course in bangalore"
+              alt7="data science course in bangalore"
+              alt8="data science course in bangalore"
+              alt9="data science course in bangalore"
             />
             <FAQNew
               FaqDatas={AdvanceFaqDataB}
@@ -608,6 +618,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" : Data Science Training in Bangalore, Data Science Course in Bangalore, Data Science Training in BTM, Data Science Training in Marathahalli, Data Science Institute in Bangalore, Data Science Training in Whitefield, Data Science Training in Kundalahalli, Data Science Training in ITPL, Data Science Training Institute in Marathahalli, Data Science Course in BTM, Data Science Course in Marathahalli, Data Science Course in Whitefield, Data Science Course Bommanahalli, Data Science Training in Bommanahalli, Data Science Training in Electronic city, Data Science Training in Koramangala, Data Science Classes in BTM, Data Science Classes in Bommanahalli, Data Science Classes in Whitefield, Data Science Classes in Marathahalli, Data Science Course in Koramangala, Data Science Training in Jayanagar, Data Science Certification in Bangalore, Data Science Certification Training in Bangalore, Data Science Certification in BTM, Data Science Certification in Whitefield, Best Data Science Training, Best Data Science Course"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

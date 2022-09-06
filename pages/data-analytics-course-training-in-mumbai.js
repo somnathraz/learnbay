@@ -10,6 +10,7 @@ import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
 import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
@@ -524,6 +525,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="data analytics course training in mumbai"
+              alt2="data analytics course training in mumbai"
+              alt3="data analytics course training in mumbai"
+              alt4="data analytics course training in mumbai"
+              alt5="data analytics course training in mumbai"
+              alt6="data analytics course training in mumbai"
+              alt7="data analytics course training in mumbai"
+              alt8="data analytics course training in mumbai"
+              alt9="data analytics course training in mumbai"
             />
             <FAQNew
               FaqDatas={AnalyticsFaqDataM}
@@ -545,6 +555,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Data Analytics course training in Mumbai, Data Analytics course training in Thane, Data Analytics course in Bhandup, Data Analytics Training in Chembur, Data Analytics course institute in powai, Data Analytics course in Tehsil, Data Analytics training in Ghatkopar, Data Analytics institute in Sion, Data Analytics certification in Shivaji nagar, Data Analytics course in Mulund, Data Analytics training in sewri, Data Analytics institute in Kannamwar nagar, Data Analytics course in Parel, Data Analytics certification in Anushakti Nagar, Data Analytics Training in Sakinaka, Data Analytics institute in kharodi, Data Analytics certification in Madh, Data Analytics course training in malad, Data Analytics course training in Andheri, Data Analytics training in Coal Bunder, Data Analytics institute in Dharavi, Data Analytics certification in Worli, Data Analytics course in Aswini, Data Analytics training in Goregaon, Data Analytics institute in Kandivali, Data Analytics course in Borivali, Data Analytics certification in juhu, Data Analytics training in Marol Naka, Data Analytics institute in Jogheswari, Data Analytics certification in vakola, Data Analytics course in Bandra, Data Analytics training in Kurla, Data Analytics course training in navi mumbai, Data Analytics course training in Kalyan ."
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

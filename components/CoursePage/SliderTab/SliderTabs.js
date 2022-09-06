@@ -81,7 +81,7 @@ Understand the best practices for the finance sector.
               </div>
 
               <div className={styles.right}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Bnking domain.png" width="350" height="350" />
+                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Bnking domain.png" width="350" height="350" alt="Learnbay data science"/>
               </div>
             </div>
           ) : (
@@ -132,7 +132,7 @@ Know data-driven consumer and market insights.
                 </a>
               </div>
               <div className={styles.right}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp" width="296" height="345" />
+                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp" width="296" height="345" alt="Learnbay data science"/>
               </div>
             </div>
           ) : (
@@ -183,7 +183,7 @@ Incorporate future proof practices with Data Science and AI.
                 </a>
               </div>
               <div className={styles.right} style={{ paddingBottom: "40px" }}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp" width="351" height="332" />
+                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp" width="351" height="332" alt="Learnbay data science course" />
               </div>
             </div>
           ) : (
@@ -241,6 +241,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
                   width="314"
                   height="360"
                   layout="intrinsic"
+                  alt="Learnbay data science course"
                 />
               </div>
             </div>
@@ -298,6 +299,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
                   width="296"
                   height="361"
                   layout="intrinsic"
+                  alt="Learnbay data science course"
                 />
               </div>
             </div>
@@ -354,6 +356,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manufacturing-domain-slider.webp"
                   width="271"
                   height="353"
+                  alt="Learnbay data science course"
                 />
               </div>
             </div>
@@ -411,6 +414,7 @@ Understand how an industry expands exponentially with AI.
                   width="568"
                   height="412"
                   layout="intrinsic"
+                   alt="data science course in bangalore"
                 />
               </div>
             </div>
@@ -447,7 +451,7 @@ Understand the best practices for the finance sector.
               </div>
 
               <div className={styles.right}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Bnking domain.png" width="350" height="350" />
+                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Bnking domain.png" width="350" height="350" alt="Learnbay data science course" />
               </div>
             </div>
           ) : (
@@ -482,7 +486,7 @@ Know data-driven consumer and market insights.
                 </a>
               </div>
               <div className={styles.right}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp" width="296" height="345" />
+                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp" width="296" height="345"  alt="data science course in bangalore"/>
               </div>
             </div>
           ) : (
@@ -523,6 +527,7 @@ Know data-driven consumer and market insights.
                   width="296"
                   height="361"
                   layout="intrinsic"
+                   alt="data science course in bangalore"
                 />
               </div>
             </div>
@@ -558,7 +563,7 @@ Incorporate future proof practices with Data Science and AI.
                 </a>
               </div>
               <div className={styles.right} style={{ paddingBottom: "40px" }}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp" width="351" height="332" />
+                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp" width="351" height="332"  alt="data science course in bangalore"/>
               </div>
             </div>
           ) : (
@@ -598,6 +603,7 @@ Incorporate future proof practices with Data Science and AI.
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manufacturing-domain-slider.webp"
                   width="271"
                   height="353"
+                   alt="data science course in bangalore"
                 />
               </div>
             </div>
@@ -638,6 +644,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
                   width="314"
                   height="360"
                   layout="intrinsic"
+                  alt="Learnbay data science course"
                 />
               </div>
             </div>
@@ -679,6 +686,7 @@ Understand how an industry expands exponentially with AI.
                   width="568"
                   height="412"
                   layout="intrinsic"
+                   alt="data science course in bangalore"
                 />
               </div>
             </div>

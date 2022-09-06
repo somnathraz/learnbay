@@ -10,13 +10,13 @@ import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTab3";
 import Project from "../components/CoursePage/Project/Project";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import OtherCertificate from "../components/CoursePage/OtherCertificate/OtherCertificate";
 import Fee from "../components/CoursePage/Fee/Fee";
 import { AiMlCourseData } from "../Data/AiMlData";
 import FAQNew from "../components/FAQNew/FAQNew";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import {
@@ -209,7 +209,9 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData3}
           SupportFaqDatas={SupportFaqData3}
         />
+               
                 <LearnSupport />
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

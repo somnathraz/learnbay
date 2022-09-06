@@ -43,7 +43,7 @@ export default function DataScienceEvent({ eventData }) {
             title={eventData.data.header.title}
             titleSpan={eventData.data.header.titleSpan}
             desc={eventData.data.header.desc}
-            eventDate={eventData.data.mainData.eventDate}
+            eventDate={eventData.data.header.eventDate}
             eventTime={eventData.data.header.eventTime}
             imgSrc={eventData.data.header.imgSrc}
             alt={eventData.data.header.alt}
@@ -86,11 +86,6 @@ export default function DataScienceEvent({ eventData }) {
                   <p>{eventData.data.profile.desc}</p>
                   <h6>
                     {eventData.data.profile.pName}
-                    <span>
-                      <a href={eventData.data.profile.link} target="_blank">
-                        (Linkedin)
-                      </a>
-                    </span>
                   </h6>
                 </div>
               </div>

@@ -10,6 +10,7 @@ import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
 import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
@@ -66,6 +67,351 @@ export default function Home() {
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
+ "@context": "https://schema.org/", 
+ "@type": "HowTo", 
+ "name": "How to apply for data science course?",
+ "description": "You just have to follow 3 easy steps to enroll in our advanced data science course",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+ "totalTime": "PT6M",
+ "estimatedCost": {
+ "@type": "MonetaryAmount",
+ "currency": "INR",
+ "value": "6"
+ },
+ "supply": {
+ "@type": "HowToSupply",
+ "name": "We provide Advanced data science course in Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai"
+ },
+ "tool": {
+ "@type": "HowToTool",
+ "name": "Data science, machine learning, artificial intelligence, data analytics"
+ },
+ "step": [{
+ "@type": "HowToStep",
+ "text": "Visit our website and fill the enquiry form",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+ "name": "Fill Enquiry Form",
+ "url": "https://www.learnbay.co/data-science-course/"
+ },{
+ "@type": "HowToStep",
+ "text": "Talk to our experts for career counseling",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "name": "Talk to Expert",
+ "url": "https://www.learnbay.co/data-science-course/"
+ },{
+ "@type": "HowToStep",
+ "text": "Get enrollment in our data science course",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+ "name": "Get enrollment",
+ "url": "https://www.learnbay.co/"
+}] 
+
+}
+} `
+}}
+/> 
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
+ "@context": "https://schema.org",
+ "@type": "NewsArticle",
+ "mainEntityOfPage": {
+ "@type": "WebPage",
+ "@id": "https://www.learnbay.co/"
+ },
+ "headline": "Business Analytics Course Training In Chennai",
+ "description": "Business Analytics Course in Chennai. Learnbay is Advanced Business Analytics Course Training Institute in Chennai. Business Analytics course in Chennai will enhance your career",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
+ "author": {
+ "@type": "Organization",
+ "name": "Learnbay",
+ "url": "https://www.learnbay.co/"
+ }, 
+ "publisher": {
+ "@type": "Organization",
+ "name": "Learnbay",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+ }
+ },
+ "datePublished": "2021-10-01",
+ "dateModified": "2022-04-21"
+}
+} `
+}}
+/>         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [{
+ "@type": "Question",
+ "name": "What are the prerequisites for the Business Analytics Training Course in Chennai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "There are no prerequisites for this Business Analytics certification course in Chennai as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
+ }
+ },{
+ "@type": "Question",
+ "name": "What if I miss a few classes due to an emergency?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch."
+ }
+ },{
+ "@type": "Question",
+ "name": "What is a Flexi Subscription in the Business Analytics Certification course in Chennai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
+ }
+ },{
+ "@type": "Question",
+ "name": "What’s the duration of the Business Analytics Program in Chennai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 5 months Monday to Friday - 2 hours/day Weekend batch - 6.5 months Saturday & Sunday - 3.5 hours/day."
+ }
+ },{
+ "@type": "Question",
+ "name": "What’s the duration of this Machine Learning course in Chennai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate. Classes will be conducted on weekdays and weekend batches. Weekday batch - 9.5 months Monday to Friday - 2 hours/day Weekend batch -11 months Saturday & Sunday - 3.5 hours/day."
+ }
+ },{
+ "@type": "Question",
+ "name": "What is the mode of ML training at Learnbay, in Chennai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "We provide both classroom and online machine learning training modes. Based on your requirement, you can choose your preferred mode.”"
+ }
+ },{
+ "@type": "Question",
+ "name": "How can I opt for a Hybrid mode of learning?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions"
+ }
+ },{
+ "@type": "Question",
+ "name": "What is domain specialization associated with the Learnbay machine learning certification course in Chennai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices."
+ }
+ },{
+ "@type": "Question",
+ "name": "What are the available elective domain options?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc."
+ }
+ },{
+ "@type": "Question",
+ "name": "Which domain elective is best suited for me?.",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988."
+ }
+ },{
+ "@type": "Question",
+ "name": "Why is domain specialization important?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "After enrolling in the ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation."
+ }
+ },{
+ "@type": "Question",
+ "name": "Can I select multiple domain electives and do I need to pay extra charges?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum."
+ }
+ },{
+ "@type": "Question",
+ "name": "What if I don't have any prior experience in any domain?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects."
+ }
+ },{
+ "@type": "Question",
+ "name": "Can I change my domain electives later?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration."
+ }
+ },{
+ "@type": "Question",
+ "name": "Can I pay in installments for 1,12,100/-?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
+ }
+ },{
+ "@type": "Question",
+ "name": "How many capstone machine learning projects will be there?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.."
+ }
+ },{
+ "@type": "Question",
+ "name": "How many real-time projects will be there?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on. Click here to download the list of the projects."
+ }
+ },{
+ "@type": "Question",
+ "name": "Is there any accredited certification after this machine learning course completion in Chennai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course."
+ }
+ },{
+ "@type": "Question",
+ "name": "What categories of certifications might I expect to receive?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Deep Learning Fundamentals Deep Learning with TensorFlow Machine Learning with Python Accelerating Deep Learning with GPUs Advance AI & ML Certificate (final) Capstone Project Certificate by IBM."
+ }
+ },{
+ "@type": "Question",
+ "name": "Is there any accredited certification after this machine learning course completion in Chennai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course."
+ }
+ },{
+ "@type": "Question",
+ "name": "What categories of certifications might I expect to receive?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Deep Learning Fundamentals Deep Learning with TensorFlow Machine Learning with Python Accelerating Deep Learning with GPUs Advance AI & ML Certificate (final) Capstone Project Certificate by IBM."
+ }
+ },{
+ "@type": "Question",
+ "name": "What's the eligibility for a job assistance program at Learnbay?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+ }
+ },{
+ "@type": "Question",
+ "name": "How long will I get support for job assistance?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year,"
+ }
+ },{
+ "@type": "Question",
+ "name": "What is a job-readiness program?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Job readiness programs help you prepare for interviews which include: Resume Preparation sessions Preparing projects for a strong portfolio Interview guidance and prep sessions 1:1 Mock interviews based on targeted companies and roles."
+ }
+ },{
+ "@type": "Question",
+ "name": "Will I get job referrals at Learnbay?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies,"
+ }
+ },{
+ "@type": "Question",
+ "name": "Until when will the Learnbay students in Chennai get the facility of mentorship?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Our Mentors will provide ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes."
+ }
+ },{
+ "@type": "Question",
+ "name": "Can a Learnbay student in Chennai choose to study from their desired mentor?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+ }
+ },{
+ "@type": "Question",
+ "name": "When is the job assistance provided and for how long I will get the service?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company."
+ }
+ },{
+ "@type": "Question",
+ "name": "How long will I get Job referrals?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+}
+}]
+                  }
+                 } `
+            }}
+          />
+
+<script
+type="application/ld+json"
+dangerouslySetInnerHTML={{
+  __html: ` {
+"@context": "http://schema.org",
+"@type": "EducationEvent","name": "Business analytics Course Training In Chennai",
+"description": "Learnbay offers a Business analytics  course in chennai, the most comprehensive Business analytics  course in the market, covering the complete Data Science lifecycle.",
+"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
+"performer":"Learnbay", 
+"offers":{
+"@type": "AggregateOffer",
+"lowPrice": "39999",
+"highPrice": "110000",
+"url" : "https://www.learnbay.co/",
+"availability" : "https://schema.org/InStock",
+"price": "95,000",
+"priceCurrency": "INR",
+"validFrom": "2022-05-01"},
+"startDate":"2022-05-01",
+"endDate": "2022-10-31",
+"url" : "https://www.learnbay.co/","duration":"80", 
+"eventAttendanceMode":"https://schema.org/MixedEventAttendanceMode",
+"eventStatus":"http://schema.org/EventScheduled",
+ "location": [{
+ "@type": "VirtualLocation",
+ "url" : "https://www.learnbay.co/"
+ },{
+ "@type": "Place",
+ "name": "Learnbay - Data Science, Machine Learning Course Training In Chennai",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": " #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Bangalore - 560102 (Above Sangam Sweets)",
+  "addressLocality": "HSR Sector 3",
+  "postalCode": "560102",
+  "addressCountry": "Bengaluru, Karnataka,INDIA"
+  } 
+  ,"geo": {
+  "@type": "GeoCoordinates",
+  "latitude": "12.911762714349765,",
+  "longitude": "77.64127379352328"
+  } 
+  }], 
+ "organizer": {
+  "@type": "Organization",
+  "name": "Learnbay",
+  "url": "https://www.learnbay.co"
+}
+} `
+}}
+/>
       </Head>
       <main>  <Navbar popup={true} dataScience={true} />
 
@@ -217,6 +563,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="business analytics course training in chennai"
+              alt2="business analytics course training in chennai"
+              alt3="business analytics course training in chennai"
+              alt4="business analytics course training in chennai"
+              alt5="business analytics course training in chennai"
+              alt6="business analytics course training in chennai"
+              alt7="business analytics course training in chennai"
+              alt8="business analytics course training in chennai"
+              alt9="business analytics course training in chennai"
             />
             <FAQNew
               FaqDatas={BusinessAFaqDataC}
@@ -236,6 +591,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :  Business Analytics Training in Chennai, Business Analytics Course in Chennai, Business Analytics Training in Anna Nagar, Business Analytics Training in Guindy, Business Analytics Institute in Chennai, Business Analytics Training in Siruseri, Business Analytics Training in Perungudi, Business Analytics Training in OMR, Business Analytics Training Institute in Adyar, Business Analytics Course in Anna Nagar, Business Analytics Course in chrompet, Business Analytics Course in Velchery, Business Analytics Course Nungambakkam, Business Analytics Training in Thoraipakkam, Business Analytics Course in OMR, Business Analytics Training in Madras university, Business Analytics Training in Tambaram, Business Analytics Online Classes in Anna Nagar, Business Analytics Course in Indian Institute Of Technology , Business Analytics Training in Chennai, Business Analytics Certification in Chennai, Business Analytics Certification Training in Chennai, Business Analytics Certification in Anna Nagar, Business Analytics Certification in Adyar, Best Business Analytics Training, Best Business Analytics Course."
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

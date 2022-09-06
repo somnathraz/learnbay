@@ -13,6 +13,7 @@ function LearnSupport() {
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/24-7-support-home.webp"
             width="100%"
             className={styles.img}
+             alt="data science course in bangalore"
           />
         </div>
         <div className={styles.learnInner}>

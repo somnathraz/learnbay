@@ -1,7 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
 import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";import ContactUs from "../components/ContactUs/ContactUs";
+import Footer from "../components/Footer/Footer";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
+import ContactUs from "../components/ContactUs/ContactUs";
 
 function contactus() {
   return (
@@ -15,6 +17,8 @@ function contactus() {
       <main>  <Navbar popup={true} dataScience={true} />
 
         <ContactUs />
+        <OfferPopup offer={false} />                      
+         
         <Footer />
       </main>
     </div>

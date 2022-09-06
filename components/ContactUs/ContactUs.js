@@ -19,6 +19,7 @@ function ContactUs() {
             width="400"
             height="300"
             layout="intrinsic"
+            alt="data science course"
           />
         </div>
       </div>
@@ -43,7 +44,7 @@ function ContactUs() {
             <a href="tel:+917795687988" target="_blank"><p>Phone :- (+91) 77956 87988</p></a>
           </div>
           <div className={styles.InnerBox}>
-          <a href="https://wa.me/+917795687988" target="_blank"><FaWhatsapp className={styles.tick} /></a>
+          <a href="https://wa.me/+917795687988" target="_blank"><FaWhatsapp className={styles.tick}  /></a>
             <h3>Whatsapp</h3>
             <a href="https://wa.me/+917795687988" target="_blank">
               <button className={styles.btn1}>(+91) 77956 87988</button>

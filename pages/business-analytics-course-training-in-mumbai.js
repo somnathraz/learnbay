@@ -10,6 +10,7 @@ import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
 import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
@@ -515,6 +516,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="business analytics course training in mumbai"
+              alt2="business analytics course training in mumbai"
+              alt3="business analytics course training in mumbai"
+              alt4="business analytics course training in mumbai"
+              alt5="business analytics course training in mumbai"
+              alt6="business analytics course training in mumbai"
+              alt7="business analytics course training in mumbai"
+              alt8="business analytics course training in mumbai"
+              alt9="business analytics course training in mumbai"
             />
             <FAQNew
               FaqDatas={BusinessAFaqDataM}
@@ -534,6 +544,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Business Analytics course training in Mumbai, Business Analytics course training in Thane, Business Analytics course in Bhandup, Business Analytics Training in Chembur, Business Analytics course institute in powai, Business Analytics course in Tehsil, Business Analytics training in Ghatkopar, Business Analytics institute in Sion, Business Analytics certification in Shivaji nagar, Business Analytics course in Mulund, Business Analytics training in sewri, Business Analytics institute in Kannamwar nagar, Business Analytics course in Parel, Business Analytics certification in Anushakti Nagar, Business Analytics Training in Sakinaka, Business Analytics institute in kharodi, Business Analytics certification in Madh, Business Analytics course training in malad, Business Analytics course training in Andheri, Business Analytics training in Coal Bunder, Business Analytics institute in Dharavi, Business Analytics certification in Worli, Business Analytics course in Aswini, Business Analytics training in Goregaon, Business Analytics institute in Kandivali, Business Analytics course in Borivali, Business Analytics certification in juhu, Business Analytics training in Marol Naka, Business Analytics institute in Jogheswari, Business Analytics certification in vakola, Business Analytics course in Bandra, Business Analytics training in Kurla, Business Analytics course training in navi mumbai, Business Analytics course training in Kalyan ."
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

@@ -30,6 +30,7 @@ function demo() {
             width="522"
             height="380"
             layout="intrinsic"
+             alt="data science course in bangalore"
           />
         </div>
       </div>
@@ -119,6 +120,7 @@ function demo() {
                           height="282"
                           layout="intrinsic"
                           cursor="pointer"
+                           alt="data science course in bangalore"
                         />
                       </a>
                     </div>
@@ -143,6 +145,7 @@ function demo() {
                           height="282"
                           layout="intrinsic"
                           cursor="pointer"
+                           alt="data science course in bangalore"
                         />
                       </a>
                     </div>
@@ -167,6 +170,7 @@ function demo() {
                           height="282"
                           layout="intrinsic"
                           cursor="pointer"
+                           alt="data science course in bangalore"
                         />
                       </a>
                     </div>
@@ -191,6 +195,7 @@ function demo() {
                           height="282"
                           layout="intrinsic"
                           cursor="pointer"
+                           alt="data science course in bangalore"
                         />
                       </a>
                     </div>
@@ -215,6 +220,7 @@ function demo() {
                           height="282"
                           layout="intrinsic"
                           cursor="pointer"
+                           alt="data science course in bangalore"
                         />
                       </a>
                     </div>

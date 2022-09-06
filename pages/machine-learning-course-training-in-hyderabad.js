@@ -14,6 +14,7 @@ import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import React, { useState } from "react";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import {
   MachineFaqDataH,
   MachineDomainFaqDataH,
@@ -619,6 +620,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="machine learning course training in hyderabad"
+              alt2="machine learning course training in hyderabad"
+              alt3="machine learning course training in hyderabad"
+              alt4="machine learning course training in hyderabad"
+              alt5="machine learning course training in hyderabad"
+              alt6="machine learning course training in hyderabad"
+              alt7="machine learning course training in hyderabad"
+              alt8="machine learning course training in hyderabad"
+              alt9="machine learning course training in hyderabad"
             />
             <FAQNew
               FaqDatas={MachineFaqDataH}
@@ -640,6 +650,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Machine Learning Training in Hyderabad, Machine Learning Course in Hyderabad, Machine Learning Course in Gachibowli, Machine Learning Training in Gachibowli,Machine Learning Course in Madhapur, Machine Learning Training in Madhapur, Machine Learning Training Institute in Hyderabad, Machine Learning Course in Kondapur, Machine Learning Training in Kondapur, Machine Learning Course in Begumpet, Machine Learning Course in Lingampalli, Machine Learning Course in Banjara hills, Machine Learning Course in L B Nagar, Machine Learning Course in Boduppal, Machine Learning Course in Kphb Colony, Machine Learning Training in Begumpet, Machine Learning Training in Lingampalli, Machine Learning Training in Banjara hills, Machine Learning Training in L B Nagar, Machine Learning Training in Boduppal, Machine Learning Training in KPhb Colony, Machine Learning Classroom Training in Hyderabad, Machine Learning Training near me, Machine Learning Course near me, Machine Learning Institute near me, Data Scientist Course, Machine Learning Certification, Machine Learning Certification in Hyderabad, Best Machine Learning Course, Best Machine Learning Training"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

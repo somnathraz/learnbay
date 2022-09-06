@@ -12,6 +12,7 @@ import LearnSupport from "../components/LearnSupport/LearnSupport";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
 import {
@@ -517,6 +518,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="data analytics course training in bangalore"
+              alt2="data analytics course training in bangalore"
+              alt3="data analytics course training in bangalore"
+              alt4="data analytics course training in bangalore"
+              alt5="data analytics course training in bangalore"
+              alt6="data analytics course training in bangalore"
+              alt7="data analytics course training in bangalore"
+              alt8="data analytics course training in bangalore"
+              alt9="data analytics course training in bangalore"
             />
             <FAQNew
               FaqDatas={AnalyticsFaqDataB}
@@ -538,6 +548,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Data Analytics Training in Bangalore, Data Analytics Course in Bangalore, Data Analytics Training in BTM, Data Analytics Training in Marathahalli, Data Analytics Institute in Bangalore, Data Analytics Training in Whitefield, Data Analytics Training in Kundalahalli, Data Analytics Training in ITPL, Data Analytics Training Institute in Marathahalli, Data Analytics Course in BTM, Data Analytics Course in Marathahalli, Data Analytics Course in Whitefield, Data Analytics Course Bommanahalli, Data Analytics Training in Bommanahalli, Data Analytics Training in Electronic city, Data Analytics Training in Koramangala, Data Analytics Classes in BTM, Data Analytics Classes in Bommanahalli, Data Analytics Classes in Whitefield, Data Analytics Classes in Marathahalli, Data Analytics Course in Koramangala, Data Analytics Training in Jayanagar, Data Analytics Certification in Bangalore, Data Analytics Certification Training in Bangalore, Data Analytics Certification in BTM, Data Analytics Certification in Whitefield, Best Data Analytics Training, Best Data Analytics Course"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

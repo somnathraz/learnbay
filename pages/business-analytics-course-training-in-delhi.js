@@ -10,6 +10,7 @@ import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
 import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
@@ -196,7 +197,7 @@ export default function Home() {
  "name": "How can I opt for a Hybrid mode of learning?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions..
+ "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions."
  }
  },{
  "@type": "Question",
@@ -290,22 +291,22 @@ export default function Home() {
  "text": "Our mentors will provide data science training to the students until the completion of the course."
  }
  },{
- "@type": "Can a Learnbay student choose to study from their desired mentor?"
- "name": ",
+  "@type": "Question",
+ "name": "Can a Learnbay student choose to study from their desired mentor?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
  }
  },{
- "@type": "When is the job assistance provided at Learnbay?",
- "name": ",
+  "@type": "Question",
+ "name": "When is the job assistance provided at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
  }
  },{
- "@type": "How long will I get Job referrals?"
- "name": ",
+  "@type": "Question",
+ "name": "How long will I get Job referrals?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -515,6 +516,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="business analytics course training in delhi"
+              alt2="business analytics course training in delhi"
+              alt3="business analytics course training in delhi"
+              alt4="business analytics course training in delhi"
+              alt5="business analytics course training in delhi"
+              alt6="business analytics course training in delhi"
+              alt7="business analytics course training in delhi"
+              alt8="business analytics course training in delhi"
+              alt9="business analytics course training in delhi"
             />
             <FAQNew
               FaqDatas={BusinessAFaqDataD}
@@ -534,6 +544,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Business Analytics Training in delhi, Business Analytics Course in delhi, Business Analytics Training in Connaught Place, Business Analytics Training in Karol Bagh , Business Analytics Institute in Delhi, Business Analytics Training in kamla nagar, Business Analytics Training in kalu sarai, Business Analytics Training in J N U, Business Analytics Training Institute in Connaught Place, Business Analytics Course in Connaught Place, Business Analytics Course in Saket, Business Analytics Course in old rajinder nagar, Business Analytics Course Connaught Place , Business Analytics Training in (N.S.P) Netaji Subhash Place, Business Analytics Training in Pitampura, Business Analytics Classes in Connaught Place, Business Analytics Classes in J N U, Business Analytics Classes in Connaught Place, Business Analytics Classes in Delhi, Business Analytics Course in vishwa vidyalaya, Business Analytics Training in kalu sarai, Business Analytics Certification in Delhi, Business Analytics Certification Training in Delhi, Business Analytics Certification in Connaught Place, Business Analytics Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Business Analytics Training, Best Business Analytics Course, Best Data Scientist course, Best Data Scientist Training"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

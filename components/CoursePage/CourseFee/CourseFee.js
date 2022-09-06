@@ -17,8 +17,9 @@ const CourseFee = ({
   CourseFeelist5,
   fullStack,
   dataScience,
+  timeFsd,
 }) => {
-    const [popups, setPopups] = useState(false);
+  const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
@@ -32,54 +33,126 @@ const CourseFee = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} fullStack={fullStack} dataScience={dataScience} />
+          <Form
+            popup={true}
+            setTrigger={setPopups}
+            fullStack={fullStack}
+            dataScience={dataScience}
+          />
         </div>
       </Popup>
-        <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>
-        <div className={styles.CourseFee}>
-            <div className={styles.heading}>
-                <p className={styles.phead}>{CourseFeePara}</p>
-            </div>
-            <div className={styles.listcheck}>
-                <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist1}</p>
-                <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist2}</p>
-                <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist3}</p>
-                <p className={styles.list}><BiCheck className={styles.icon} />{CourseFeelist4}</p>
-            </div>
-            <div className={styles.batch}>
-                <div className={styles.BatchDetailsTop}>
-                <div>
-                    <div className={styles.BatchDetails}>
-                      <p className={styles.list}><AiOutlineBars className={styles.icon} /><b>Batch Type</b></p>
-                      <p className={styles.list}>Weekend Batch (Sat-Sun)</p>
-                      <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
-                      {/* <p className={styles.list}>Weekday Batch (Mon-Fri)</p> */}
-                    </div>
-                  </div>
-                  <div>
-                    <div className={styles.BatchDetails}>
-                      <p className={styles.list}><MdDateRange className={styles.icon} /><b>Date</b></p>
-                      <p className={styles.list}>4th September 2022</p>
-                      <p className={styles.list}>9th September 2022</p>
-                      {/* <p className={styles.list}>26th August 2022</p> */}
-                    </div>
-                  </div>
-                  <div>
-                    <div className={styles.BatchDetails}>
-                    <p className={styles.list}><BiTimeFive className={styles.icon} /><b>Time</b></p>
-                    <p className={styles.list}>12:30 p.m. to 4 p.m.</p>
-                      <p className={styles.list}>8 p.m. to 10 p.m.</p>
-                      {/* <p className={styles.list}>08:00 p.m. to 10:00 p.m.</p> */}
-                    </div>
-                  </div>
-                  <div className={styles.btnWrapper}>
-          <button onClick={popupShow}>Enroll Now</button>
+      <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>
+      <div className={styles.CourseFee}>
+        <div className={styles.heading}>
+          <p className={styles.phead}>{CourseFeePara}</p>
         </div>
-                </div>
-            </div>
+        <div className={styles.listcheck}>
+          <p className={styles.list}>
+            <BiCheck className={styles.icon} />
+            {CourseFeelist1}
+          </p>
+          <p className={styles.list}>
+            <BiCheck className={styles.icon} />
+            {CourseFeelist2}
+          </p>
+          <p className={styles.list}>
+            <BiCheck className={styles.icon} />
+            {CourseFeelist3}
+          </p>
+          <p className={styles.list}>
+            <BiCheck className={styles.icon} />
+            {CourseFeelist4}
+          </p>
         </div>
+        <div className={styles.batch}>
+        {timeFsd ? (
+            <>
+          <div className={styles.BatchDetailsTop}>
+            <div>
+              <div className={styles.BatchDetails}>
+                <p className={styles.list}>
+                  <AiOutlineBars className={styles.icon} />
+                  <b>Batch Type</b>
+                </p>
+                <p className={styles.list}>Weekend Batch (Sat-Sun)</p>
+                <p className={styles.list}>Weekend Batch (Mon-Fri)</p>
+                {/* <p className={styles.list}>Weekday Batch (Mon-Fri)</p> */}
+              </div>
+            </div>
+            <div>
+              <div className={styles.BatchDetails}>
+                <p className={styles.list}>
+                  <MdDateRange className={styles.icon} />
+                  <b>Date</b>
+                </p>
+                <p className={styles.list}>4th September 2022</p>
+                <p className={styles.list}>25th September 2022</p>
+                {/* <p className={styles.list}>26th August 2022</p> */}
+              </div>
+            </div>
+            <div>
+              <div className={styles.BatchDetails}>
+                <p className={styles.list}>
+                  <BiTimeFive className={styles.icon} />
+                  <b>Time</b>
+                </p>
+                <p className={styles.list}>8 a.m. to 12 p.m.</p>
+                <p className={styles.list}>8 a.m. to 12 p.m.</p>
+                {/* <p className={styles.list}>08:00 p.m. to 10:00 p.m.</p> */}
+              </div>
+            </div>
+            <div className={styles.btnWrapper}>
+              <button onClick={popupShow}>Enroll Now</button>
+            </div>
+          </div>
+          </>
+          ) : ( 
+            <>
+              {" "} 
+          <div className={styles.BatchDetailsTop}>
+            <div>
+              <div className={styles.BatchDetails}>
+                <p className={styles.list}>
+                  <AiOutlineBars className={styles.icon} />
+                  <b>Batch Type</b>
+                </p>
+                <p className={styles.list}>Weekday Batch (Sat-Sun)</p>
+                <p className={styles.list}>Weekend Batch (Mon-Fri)</p>
+                {/* <p className={styles.list}>Weekday Batch (Mon-Fri)</p> */}
+              </div>
+            </div>
+            <div>
+              <div className={styles.BatchDetails}>
+                <p className={styles.list}>
+                  <MdDateRange className={styles.icon} />
+                  <b>Date</b>
+                </p>
+                <p className={styles.list}>9th September 2022</p>
+                <p className={styles.list}>16th September 2022</p>
+                {/* <p className={styles.list}>26th August 2022</p> */}
+              </div>
+            </div>
+            <div>
+              <div className={styles.BatchDetails}>
+                <p className={styles.list}>
+                  <BiTimeFive className={styles.icon} />
+                  <b>Time</b>
+                </p>
+                <p className={styles.list}>8 p.m. to 10 p.m.</p>
+                <p className={styles.list}>8 a.m. to 10 a.m.</p>
+                {/* <p className={styles.list}>08:00 p.m. to 10:00 p.m.</p> */}
+              </div>
+            </div>
+            <div className={styles.btnWrapper}>
+              <button onClick={popupShow}>Enroll Now</button>
+            </div>
+          </div>
+          </>
+          )}
+        </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default CourseFee
+export default CourseFee;

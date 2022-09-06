@@ -12,7 +12,7 @@ const DomainFaq = ({FaqData}) => {
 <DomainCourseFaq FaqData={FaqData} />
         </div>
         <div className={styles.rightSide}>
-            <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Domain-faq-right.png" width="519" height="312" layout="intrinsic"/> 
+            <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Domain-faq-right.png" width="519" height="312" layout="intrinsic" alt="learnbay data science"/> 
         </div>
     </div>
   )

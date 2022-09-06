@@ -10,10 +10,10 @@ import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/Certificatejob/Certificate";
 import Project from "../components/CoursePage/Project/Project";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import FAQNew from "../components/FAQNew/FAQNewDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { BusinessAnalyticsCourseData } from "../Data/BusinessAnalyticsData";
 import React, { useState } from "react";
 import {
@@ -168,7 +168,9 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData7}
           SupportFaqDatas={SupportFaqData7}
         />
+               
                 <LearnSupport />
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

@@ -10,6 +10,7 @@ import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
@@ -563,6 +564,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="data science course training in mumbai"
+              alt2="data science course training in mumbai"
+              alt3="data science course training in mumbai"
+              alt4="data science course training in mumbai"
+              alt5="data science course training in mumbai"
+              alt6="data science course training in mumbai"
+              alt7="data science course training in mumbai"
+              alt8="data science course training in mumbai"
+              alt9="data science course training in mumbai"
             />
             <FAQNew
               FaqDatas={AdvanceFaqDataM}
@@ -584,6 +594,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Data Science course training in Mumbai, Data Science course training in Thane, Data Science course in Bhandup, Data Science Training in Chembur, Data Science course institute in powai, Data Science course in Tehsil, Data Science training in Ghatkopar, Data Science institute in Sion, Data Science certification in Shivaji nagar, Data Science course in Mulund, Data Science training in sewri, Data Science institute in Kannamwar nagar, Data Science course in Parel, Data Science certification in Anushakti Nagar, Data Science Training in Sakinaka, Data Science institute in kharodi, Data Science certification in Madh, Data Science course training in malad, Data Science course training in Andheri, Data Science training in Coal Bunder, Data Science institute in Dharavi, Data Science certification in Worli, Data Science course in Aswini, Data Science training in Goregaon, Data Science institute in Kandivali, Data Science course in Borivali, Data Science certification in juhu, Data science training in Marol Naka, Data Science institute in Jogheswari, Data science certification in vakola, data Science course in Bandra, Data Science training in Kurla, data Science course training in navi mumbai, data Science course training in Kalyan ."
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

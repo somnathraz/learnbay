@@ -8,8 +8,8 @@ import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
-import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import React, { useState } from "react";
@@ -66,6 +66,343 @@ export default function Home() {
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+
+<script
+type="application/ld+json"
+dangerouslySetInnerHTML={{
+  __html: ` {
+ "@context": "https://schema.org/", 
+ "@type": "HowTo", 
+ "name": "How to apply for data science course?",
+ "description": "You just have to follow 3 easy steps to enroll in our advanced data science course",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+ "totalTime": "PT6M",
+ "estimatedCost": {
+ "@type": "MonetaryAmount",
+ "currency": "INR",
+ "value": "6"
+ },
+ "supply": {
+ "@type": "HowToSupply",
+ "name": "We provide Advanced data science course in Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai"
+ },
+ "tool": {
+ "@type": "HowToTool",
+ "name": "Data science, machine learning, artificial intelligence, data analytics"
+ },
+ "step": [{
+ "@type": "HowToStep",
+ "text": "Visit our website and fill the enquiry form",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+ "name": "Fill Enquiry Form",
+ "url": "https://www.learnbay.co/data-science-course/"
+ },{
+ "@type": "HowToStep",
+ "text": "Talk to our experts for career counseling",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "name": "Talk to Expert",
+ "url": "https://www.learnbay.co/data-science-course/"
+ },{
+ "@type": "HowToStep",
+ "text": "Get enrollment in our data science course",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+ "name": "Get enrollment",
+ "url": "https://www.learnbay.co/"
+}] 
+}
+              } `,
+       }}
+     />
+
+<script
+type="application/ld+json"
+dangerouslySetInnerHTML={{
+  __html: ` {
+ "@context": "https://schema.org",
+ "@type": "NewsArticle",
+ "mainEntityOfPage": {
+ "@type": "WebPage",
+ "@id": "https://www.learnbay.co/"
+ },
+ "headline": "Data Science Course Training in Dubai",
+ "description": "Data science course in Dubai. Learnbay is Advanced Data Science Course Training Institute in Dubai. Data science course in Dubai will enhance your career",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
+ "author": {
+ "@type": "Organization",
+ "name": "Learnbay",
+ "url": "https://www.learnbay.co/"
+ }, 
+ "publisher": {
+ "@type": "Organization",
+ "name": "Learnbay",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+ }
+ },
+ "datePublished": "2021-10-01",
+ "dateModified": "2022-04-21"
+}
+} `,
+}}
+/> <script
+type="application/ld+json"
+dangerouslySetInnerHTML={{
+  __html: ` {
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [{
+ "@type": "Question",
+ "name": "What are Data Science Training courses available at Learnbay in Dubai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Job or Money-back Guarantee"
+ }
+ },{
+ "@type": "Question",
+ "name": "What are the prerequisites for these Data Science training Courses in Dubai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
+ }
+ },{
+ "@type": "Question",
+ "name": "What if I miss a few classes due to an emergency?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch."
+ }
+ },{
+ "@type": "Question",
+ "name": "What is a Flexi Subscription in these advanced data science courses in Dubai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Job or Money-back Guarantee - 3-years."
+ }
+ },{
+ "@type": "Question",
+ "name": "What’s the duration of these advanced data science courses in Dubai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9 months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13 months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15 months"
+ }
+ },{
+ "@type": "Question",
+ "name": "What is the mode of data science training in Dubai at Learnbay?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
+ }
+ },{
+ "@type": "Question",
+ "name": "How can I opt for a Hybrid mode of learning in IBM data science training courses in Dubai, At Learnbay?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions."
+ }
+ },{
+ "@type": "Question",
+ "name": "Are real-time projects covered in the program?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, we do cover real-time projects in a data science course in Bangalore guided by industrial experts. These projects are from various domains BFSI, Healthcare, Retail, Supply chain, E-Commerce, Automotive, Manufacturing, etc."
+ }
+ },{
+ "@type": "Question",
+ "name": "Why Domain expertise is important for professionals?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Data science skill efficacy is all about using your data science and AI knowledge in a specific domain to solve business problems. Let’s take an example, if you’re building Machine Learning models to predict fraudulent insurance claims, then you need to have knowledge about life insurance industry, its processes etc."
+ }
+ },{
+ "@type": "Question",
+ "name": "Which domain specialization is suitable for me ? I need guidance.",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "You can select domains based on your prior work experience, academics, and career goal. Of course, we provide free profile reviews and career guidance. You can book a slot with an industry expert."
+ }
+ },{
+ "@type": "Question",
+ "name": "Can I select multiple domain electives and do i need to pay any extra charges?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Of course, you can select multiple electives based on your career goal and work experience/academics. You don’t have to pay anything extra as domain electives & capstone industry projects are part of our curriculum."
+ }
+ },{
+ "@type": "Question",
+ "name": "What if I don't have any prior experience in any domain?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Even if you don’t have any prior experience, you can still opt for any elective to gain Domain Expertise and work on Real-Time Industrial Projects."
+ }
+ },{
+ "@type": "Question",
+ "name": "Can I change my domain electives later ?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Indeed, you can change your elective or repeat the training later within the Data science Course Accessibility Duration"
+ }
+ },{
+ "@type": "Question",
+ "name": "What is the total fee for Data Science Certifications courses in Dubai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "The total course fee for the Foundational Data Science and AI Training course is 76,700/- inclusive of GST. Advance Data Science and AI Certification course is 93,220/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST. Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST."
+ }
+ },{
+ "@type": "Question",
+ "name": "Can I pay in installments for these Data Science Certification courses in Dubai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
+ }
+ },{
+ "@type": "Question",
+ "name": "Is there any scholarship/discount available for these Data Science training courses available in Dubai? What is Group Discount?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Group of 4+"
+ }
+ },{
+ "@type": "Question",
+ "name": "What is the refund policy for the Data Science Certification courses at Learnbay?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
+ }
+ },{
+ "@type": "Question",
+ "name": "How many capstone projects will be there?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Depending on the course you choose the number of capstone projects will vary. Foundational Data Science and AI Training Course - 1 Capstone. Advance Data Science and AI Certification Course -2 Capstones. Data Science and AI Certification Course for Managers and Leaders- 2 Capstones. Data Science and AI Training with Job or Money-back Guarantee- 3 Capstones. How many real-time projects/case studies will be covered in these Data Science certification courses in Dubai? Depending on the course you choose the number of live projects will vary. Foundational Data Science and AI Training course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and AI Training with Job or Money-back Guarantee- 15 projects. Click here to download the list of the projects."
+ }
+ },{
+ "@type": "Question",
+ "name": "How will the projects be executed in Dubai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
+ }
+ },{
+ "@type": "Question",
+ "name": "Is there any accredited data science certification after course completion?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and AI Training course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and AI Training with Job or Money-back Guarantee- 1 Course Completion Certificate *All the certificates accredited by IBM. For more details, please refer to the respective course brochures."
+ }
+ },{
+ "@type": "Question",
+ "name": "What's the eligibility for a job assistance Program in Learnbay Data science training courses in Dubai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+ }
+ },{
+ "@type": "Question",
+ "name": "How long will I get support for job assistance at Learnbay in Dubai?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year. What is a job-readiness program? The Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
+ }
+ },{
+ "@type": "Question",
+ "name": "Will I get job referrals at Learnbay?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
+ }
+ },{
+ "@type": "Question",
+ "name": "What is a Job or 100% money back Guarantee?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. Note: Terms and conditions applied."
+ }
+ },{
+ "@type": "Question",
+ "name": "Until when do the students get the facility of mentorship?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Our mentors will provide data science training to the students until the completion of the course."
+ }
+ },{
+ "@type": "Question",
+ "name": "Can a Learnbay student in Dubai choose to study from their desired mentor?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+ }
+ },{
+ "@type": "Question",
+ "name": "When is the job assistance provided at Learnbay and how long will I get it?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
+ }
+ },{
+ "@type": "Question",
+ "name": "How long will I get Job referrals?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+}
+}]
+                  }
+                 } `
+            }}
+          />
+
+<script
+type="application/ld+json"
+dangerouslySetInnerHTML={{
+  __html: ` {
+"@context": "http://schema.org",
+"@type": "EducationEvent","name": "Data Science Course Training in Dubai",
+"description": "Data science course in Dubai. Learnbay is Advanced Data Science Course Training Institute in Dubai. Data science course in Dubai will enhance your career",
+"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
+"performer":"Learnbay", 
+"offers":{
+"@type": "AggregateOffer",
+"lowPrice": "39999",
+"highPrice": "110000",
+"url" : "https://www.learnbay.co/",
+"availability" : "https://schema.org/InStock",
+"price": "79000",
+"priceCurrency": "INR",
+"validFrom": "2022-05-01"},
+"startDate":"2022-05-01",
+"endDate": "2022-10-31",
+"url" : "https://www.learnbay.co/","duration":"80", 
+"eventAttendanceMode":"https://schema.org/MixedEventAttendanceMode",
+"eventStatus":"http://schema.org/EventScheduled",
+ "location": [{
+ "@type": "VirtualLocation",
+ "url" : "https://www.learnbay.co/"
+ },{
+ "@type": "Place",
+ "name": "Learnbay - Data Science, Data Analytics Course Training in Dubai",
+ "address": {
+ "@type": "PostalAddress",
+ "streetAddress": " 1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Bangalore - 560102 (Above Sangam Sweets)",
+ "addressLocality": "HSR Layout Sector 3",
+ "postalCode": "560102",
+ "addressCountry": "Bengaluru, Karnataka,INDIA"
+ } 
+ ,"geo": {
+ "@type": "GeoCoordinates",
+ "latitude": "12.911762714349765",
+ "longitude": "77.64127379352328"
+ } 
+ }], 
+"organizer": {
+ "@type": "Organization",
+ "name": "Learnbay",
+ "url": "https://www.learnbay.co"
+}
+} `
+}}
+/>
       </Head>
       <main>  <Navbar popup={true} dataScience={true} />
 
@@ -257,6 +594,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="data science course training in dubai"
+              alt2="data science course training in dubai"
+              alt3="data science course training in dubai"
+              alt4="data science course training in dubai"
+              alt5="data science course training in dubai"
+              alt6="data science course training in dubai"
+              alt7="data science course training in dubai"
+              alt8="data science course training in dubai"
+              alt9="data science course training in dubai"
             />
             <FAQNew
               FaqDatas={AdvanceFaqDataDu}
@@ -271,6 +617,8 @@ export default function Home() {
           </div>
         </div>
                 <LearnSupport />
+                 
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

@@ -8,8 +8,8 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
-import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
 import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
@@ -76,7 +76,7 @@ export default function Home() {
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
  "description": "You just have to follow 3 easy steps to enroll in our advanced data science course",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "totalTime": "PT6M",
  "estimatedCost": {
  "@type": "MonetaryAmount",
@@ -94,19 +94,19 @@ export default function Home() {
  "step": [{
  "@type": "HowToStep",
  "text": "Visit our website and fill the enquiry form",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "name": "Fill Enquiry Form",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2021/05/Untitled-design-2021-05-22T113616.025.png",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
  "@type": "HowToStep",
  "text": "Get enrollment in our data science course",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "name": "Get enrollment",
  "url": "https://www.learnbay.co/"
 }] 
@@ -129,7 +129,7 @@ export default function Home() {
  },
  "headline": "business analytics course training in canada",
  "description": "Business Analytics Course in Canada. Learnbay is Advanced Business Analytics Course Training Institute in Canada. Business Analytics course in Canada will enhance your career",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg", 
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
  "author": {
  "@type": "Organization",
  "name": "Learnbay",
@@ -140,7 +140,7 @@ export default function Home() {
  "name": "Learnbay",
  "logo": {
  "@type": "ImageObject",
- "url": "https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png"
+ "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
  }
  },
  "datePublished": "2021-10-01",
@@ -316,7 +316,7 @@ export default function Home() {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Data Science Course Training in canada",
 "description": "Learnbay offers a Data Science course in canada, the most comprehensive Data Science course in the market, covering the complete Data Science lifecycle.",
-"image" : "https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png",
+"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
 "performer":"Learnbay", 
 "offers":{
 "@type": "AggregateOffer",
@@ -515,6 +515,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="business analytics course training in canada"
+              alt2="business analytics course training in canada"
+              alt3="business analytics course training in canada"
+              alt4="business analytics course training in canada"
+              alt5="business analytics course training in canada"
+              alt6="business analytics course training in canada"
+              alt7="business analytics course training in canada"
+              alt8="business analytics course training in canada"
+              alt9="business analytics course training in canada"
             />
             <FAQNew
               FaqDatas={BusinessAFaqDataCa}
@@ -528,6 +537,8 @@ export default function Home() {
           </div>
         </div>
                 <LearnSupport />
+                 
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

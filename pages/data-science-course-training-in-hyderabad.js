@@ -11,6 +11,7 @@ import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import React, { useState } from "react";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
@@ -608,6 +609,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="data science course training in hyderabad"
+              alt2="data science course training in hyderabad"
+              alt3="data science course training in hyderabad"
+              alt4="data science course training in hyderabad"
+              alt5="data science course training in hyderabad"
+              alt6="data science course training in hyderabad"
+              alt7="data science course training in hyderabad"
+              alt8="data science course training in hyderabad"
+              alt9="data science course training in hyderabad"
             />
             <FAQNew
               FaqDatas={AdvanceFaqDataH}
@@ -628,6 +638,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Data Science Training in Hyderabad, Data Science Course in Hyderabad, Data Science Course in Gachibowli, Data Science Training in Gachibowli,Data Science Course in Madhapur, Data Science Training in Madhapur, Data Science Training Institute in Hyderabad, Data Science Course in Kondapur, Data Science Training in Kondapur, Data Science Course in Begumpet, Data Science Course in Lingampalli, Data Science Course in Banjara hills, Data Science Course in L B Nagar, Data Science Course in Boduppal, Data Science Course in Kphb Colony, Data Science Training in Begumpet, Data Science Training in Lingampalli, Data Science Training in Banjara hills, Data Science Training in L B Nagar, Data Science Training in Boduppal, Data Science Training in KPhb Colony, Data Science Classroom Training in Hyderabad, Data Science Training near me, Data Science Course near me, Data Science Institute near me, Data Scientist Course, Data Science Certification, Data Science Certification in Hyderabad, Best Data Science Course, Best Data Science Training"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

@@ -188,7 +188,7 @@ const Fee = ({
       ) : (
         <div className={styles.priceTable}>
           <div className={styles.first}>
-            <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/code.svg" width="40" height="40"/>
+            <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/code.svg" width="40" height="40"  alt="data science course in bangalore"/>
             <span
               className={styles.Price}
               style={{ marginBottom: "30px", marginTop: "0px" }}

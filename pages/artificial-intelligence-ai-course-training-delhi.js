@@ -12,6 +12,7 @@ import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import {
@@ -599,6 +600,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="artificial intelligence ai course training in delhi"
+              alt2="artificial intelligence ai course training in delhi"
+              alt3="artificial intelligence ai course training in delhi"
+              alt4="artificial intelligence ai course training in delhi"
+              alt5="artificial intelligence ai course training in delhi"
+              alt6="artificial intelligence ai course training in delhi"
+              alt7="artificial intelligence ai course training in delhi"
+              alt8="artificial intelligence ai course training in delhi"
+              alt9="artificial intelligence ai course training in delhi"
             />
             <FAQNew
               FaqDatas={ArtificialFaqDataD}
@@ -620,6 +630,7 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Artificial Intelligence Training in delhi, Artificial Intelligence Course in delhi, Artificial Intelligence Training in Connaught Place, Artificial Intelligence Training in Karol Bagh , Artificial Intelligence Institute in Delhi, Artificial Intelligence Training in kamla nagar, Artificial Intelligence Training in kalu sarai, Artificial Intelligence Training in J N U, Artificial Intelligence Training Institute in Connaught Place, Artificial Intelligence Course in Connaught Place, Artificial Intelligence Course in Saket, Artificial Intelligence Course in old rajinder nagar, Artificial Intelligence Course Connaught Place , Artificial Intelligence Training in (N.S.P) Netaji Subhash Place, Artificial Intelligence Training in Pitampura, Artificial Intelligence Classes in Connaught Place, Artificial Intelligence Classes in J N U, Artificial Intelligence Classes in Connaught Place, Artificial Intelligence Classes in Delhi, Artificial Intelligence Course in vishwa vidyalaya, Artificial Intelligence Training in kalu sarai, Artificial Intelligence Certification in Delhi, Artificial Intelligence Certification Training in Delhi, Artificial Intelligence Certification in Connaught Place, Artificial Intelligence Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Artificial Intelligence Training, Best Artificial Intelligence Course, Best Data Scientist course, Best Data Scientist Training"
         />
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

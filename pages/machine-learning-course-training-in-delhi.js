@@ -12,6 +12,7 @@ import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import React, { useState } from "react";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import {
@@ -128,7 +129,7 @@ export default function Home() {
  "@id": "https://www.learnbay.co/"
  },
  "headline": "Machine Learning Course Training in Delhi",
- "description": "Machine Learning Course in Dubai. Learnbay is Advanced Machine Learning Course Training Institute in Dubai. Machine Learning course in Dubai will enhance your career",
+ "description": "Machine Learning Course in Delhi. Learnbay is Advanced Machine Learning Course Training Institute in Delhi. Machine Learning course in Delhi will enhance your career",
  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
  "author": {
  "@type": "Organization",
@@ -157,7 +158,7 @@ export default function Home() {
  "@type": "FAQPage",
  "mainEntity": [{
  "@type": "Question",
- "name": "What are the prerequisites for the Machine Learning course with Domain Specialization in Dubai?",
+ "name": "What are the prerequisites for the Machine Learning course with Domain Specialization in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch."
@@ -171,35 +172,35 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is a Flexi Subscription in the Machine learning certification course of Learnbay in Dubai?",
+ "name": "What is a Flexi Subscription in the Machine learning certification course of Learnbay in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Those who enroll for machine learning live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
  }
  },{
  "@type": "Question",
- "name": "What’s the duration of this Machine Learning course in Dubai?",
+ "name": "What’s the duration of this Machine Learning course in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate. Classes will be conducted on weekdays and weekend batches. Weekday batch - 9.5 months Monday to Friday - 2 hours/day Weekend batch -11 months Saturday & Sunday - 3.5 hours/day."
  }
  },{
  "@type": "Question",
- "name": "What is the mode of ML training at Learnbay, in Dubai?",
+ "name": "What is the mode of ML training at Learnbay, in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We provide both classroom and online machine learning training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
- "name": "How can I opt for a Hybrid mode of learning??",
+ "name": "How can I opt for a Hybrid mode of learning?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions.
+ "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions."
  }
  },{
  "@type": "Question",
- "name": "What is domain specialization associated with the Learnbay machine learning certification course in Dubai?",
+ "name": "What is domain specialization associated with the Learnbay machine learning certification course in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices."
@@ -262,7 +263,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is the total Fee for this machine learning course in Dubai?",
+ "name": "What is the total Fee for this machine learning course in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,12,100/- Inclusive of GST."
@@ -283,98 +284,98 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is the refund policy for this Machine Learning training course at Learnbay in Dubai?",
+ "name": "What is the refund policy for this Machine Learning training course at Learnbay in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
  }
  },{
- "@type": "How many capstone machine learning projects will be there?"
- "name": ",
+  "@type": "Question",
+ "name": "How many capstone machine learning projects will be there?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training."
  }
  },{
- "@type": "How many real-time projects will be there?"
- "name": ",
+  "@type": "Question",
+ "name": "How many real-time projects will be there?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on."
  }
  },{
- "@type": "How will the project be executed?"
- "name": ",
+  "@type": "Question",
+ "name": "How will the project be executed?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
  }
  },{
- "@type": "Is there any accredited certification after this machine learning course completion in Dubai?"
- "name": ",
+  "@type": "Question",
+ "name": "Is there any accredited certification after this machine learning course completion in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course."
  }
  },{
- "@type": "What categories of certifications might I expect to receive?"
- "name": ",
+  "@type": "Question",
+ "name": "What categories of certifications might I expect to receive?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Deep Learning Fundamentals Deep Learning with TensorFlow Machine Learning with Python Accelerating Deep Learning with GPUs Advance AI & ML Certificate (final) Capstone Project Certificate by IBM."
  }
  },{
- "@type": "What's the eligibility for a job assistance program at Learnbay?"
- "name": ",
+  "@type": "Question",
+ "name": "What's the eligibility for a job assistance program at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
  }
  },{
- "@type": "How long will I get support for job assistance?"
- "name": ",
+  "@type": "Question",
+ "name": "How long will I get support for job assistance?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
  }
  },{
- "@type": "What is a job-readiness program?"
- "name": ",
+  "@type": "Question",
+ "name": "What is a job-readiness program?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Job readiness programs help you prepare for interviews which include: Resume Preparation sessions Preparing projects for a strong portfolio Interview guidance and prep sessions 1:1 Mock interviews based on targeted companies and roles"
  }
  },{
- "@type": "Will I get job referrals at Learnbay?"
- "name": ",
+  "@type": "Question",
+ "name": "Will I get job referrals at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies."
  }
  },{
- "@type": "Until when will the Learnbay students in Dubai get the facility of mentorship?"
- "name": ",
+  "@type": "Question",
+ "name": "Until when will the Learnbay students in Delhi get the facility of mentorship?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Our Mentors will provide ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes."
  }
  },{
- "@type": "Can a Learnbay student in Dubai choose to study from their desired mentor?"
- "name": ",
+  "@type": "Question",
+ "name": "Can a Learnbay student in Delhi choose to study from their desired mentor?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
  }
  },{
- "@type": "When is the job assistance provided and for how long I will get the service?"
- "name": ",
+  "@type": "Question",
+ "name": "When is the job assistance provided and for how long I will get the service?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company."
  }
  },{
- "@type": "How long will I get Job referrals?"
- "name": ",
+  "@type": "Question",
+ "name": "How long will I get Job referrals?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -392,7 +393,7 @@ export default function Home() {
                 ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Machine Learning Course Training in Delhi",
-"description": "Machine Learning Course in Dubai. Learnbay is Advanced Machine Learning Course Training Institute in Dubai. Machine Learning course in Dubai will enhance your career",
+"description": "Machine Learning Course in Delhi. Learnbay is Advanced Machine Learning Course Training Institute in Delhi. Machine Learning course in Delhi will enhance your career",
 "image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
 "performer":"Learnbay", 
 "offers":{
@@ -608,6 +609,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="machine learning course training in delhi"
+              alt2="machine learning course training in delhi"
+              alt3="machine learning course training in delhi"
+              alt4="machine learning course training in delhi"
+              alt5="machine learning course training in delhi"
+              alt6="machine learning course training in delhi"
+              alt7="machine learning course training in delhi"
+              alt8="machine learning course training in delhi"
+              alt9="machine learning course training in delhi"
             />
             <FAQNew
               FaqDatas={MachineFaqDataD}
@@ -629,6 +639,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Machine Learning Training in delhi, Machine Learning Course in delhi, Machine Learning Training in Connaught Place, Machine Learning Training in Karol Bagh , Machine Learning Institute in Delhi, Machine Learning Training in kamla nagar, Machine Learning Training in kalu sarai, Machine Learning Training in J N U, Machine Learning Training Institute in Connaught Place, Machine Learning Course in Connaught Place, Machine Learning Course in Saket, Machine Learning Course in old rajinder nagar, Machine Learning Course Connaught Place , Machine Learning Training in (N.S.P) Netaji Subhash Place, Machine Learning Training in Pitampura, Machine Learning Classes in Connaught Place, Machine Learning Classes in J N U, Machine Learning Classes in Connaught Place, Machine Learning Classes in Delhi, Machine Learning Course in vishwa vidyalaya, Machine Learning Training in kalu sarai, Machine Learning Certification in Delhi, Machine Learning Certification Training in Delhi, Machine Learning Certification in Connaught Place, Machine Learning Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Machine Learning Training, Best Machine Learning Course, Best Data Scientist course, Best Data Scientist Training"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

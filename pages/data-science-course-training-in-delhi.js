@@ -10,6 +10,7 @@ import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import React, { useState } from "react";
@@ -195,7 +196,7 @@ export default function Home() {
  "name": "What is the mode of data science training in Delhi at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.
+ "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
@@ -289,71 +290,71 @@ export default function Home() {
  "text": "Depending on the course you choose the number of capstone projects will vary. Foundational Data Science and AI Training Course - 1 Capstone. Advance Data Science and AI Certification Course -2 Capstones. Data Science and AI Certification Course for Managers and Leaders- 2 Capstones. Data Science and AI Training with Job or Money-back Guarantee- 3 Capstones. How many real-time projects/case studies will be covered in these Data Science certification courses in Delhi? Depending on the course you choose the number of live projects will vary. Foundational Data Science and AI Training course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and AI Training with Job or Money-back Guarantee- 15 projects. Click here to download the list of the projects."
  }
  },{
- "@type": "How will the projects be executed in Delhi?"
- "name": ",
+  "@type": "Question",
+ "name": "How will the projects be executed in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
  }
  },{
- "@type": "Is there any accredited data science certification after course completion?",
- "name": ",
+  "@type": "Question",
+ "name": "Is there any accredited data science certification after course completion?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and AI Training course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and AI Training with Job or Money-back Guarantee- 1 Course Completion Certificate *All the certificates accredited by IBM. For more details, please refer to the respective course brochures."
  }
  },{
- "@type": "What's the eligibility for a job assistance Program in Learnbay Data science training courses in Delhi?"
- "name": ",
+  "@type": "Question",
+ "name": "What's the eligibility for a job assistance Program in Learnbay Data science training courses in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
  }
  },{
- "@type": "How long will I get support for job assistance at Learnbay in Delhi?"
- "name": ",
+  "@type": "Question",
+ "name": "How long will I get support for job assistance at Learnbay in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year. What is a job-readiness program? The Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
  }
  },{
- "@type": "Will I get job referrals at Learnbay?"
- "name": ",
+  "@type": "Question",
+ "name": "Will I get job referrals at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
  }
  },{
- "@type": "What is a Job or 100% money back Guarantee?"
- "name": ",
+  "@type": "Question",
+ "name": "What is a Job or 100% money back Guarantee?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. Note: Terms and conditions applied."
  }
  },{
- "@type": "Until when do the students get the facility of mentorship?"
- "name": ",
+  "@type": "Question",
+ "name": "Until when do the students get the facility of mentorship?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Our mentors will provide data science training to the students until the completion of the course."
  }
  },{
- "@type": "Can a Learnbay student in Delhi choose to study from their desired mentor?"
- "name": ",
+  "@type": "Question",
+ "name": "Can a Learnbay student in Delhi choose to study from their desired mentor?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
  }
  },{
- "@type": "When is the job assistance provided at Learnbay and how long will I get it?"
- "name": ",
+  "@type": "Question",
+ "name": "When is the job assistance provided at Learnbay and how long will I get it?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
  }
  },{
- "@type": "How long will I get Job referrals?"
- "name": ",
+  "@type": "Question",
+ "name": "How long will I get Job referrals?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -597,6 +598,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="data science course training in delhi"
+              alt2="data science course training in delhi"
+              alt3="data science course training in delhi"
+              alt4="data science course training in delhi"
+              alt5="data science course training in delhi"
+              alt6="data science course training in delhi"
+              alt7="data science course training in delhi"
+              alt8="data science course training in delhi"
+              alt9="data science course training in delhi"
             />
             <FAQNew
               FaqDatas={AdvanceFaqDataD}
@@ -618,6 +628,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Data Science Training in delhi, Data Science Course in delhi, Data Science Training in Connaught Place, Data Science Training in Karol Bagh , Data Science Institute in Delhi, Data Science Training in kamla nagar, Data Science Training in kalu sarai, Data Science Training in J N U, Data Science Training Institute in Connaught Place, Data Science Course in Connaught Place, Data Science Course in Saket, Data Science Course in old rajinder nagar, Data Science Course Connaught Place , Data Science Training in (N.S.P) Netaji Subhash Place, Data Science Training in Pitampura, Data Science Classes in Connaught Place, Data Science Classes in J N U, Data Science Classes in Connaught Place, Data Science Classes in Delhi, Data Science Course in vishwa vidyalaya, Data Science Training in kalu sarai, Data Science Certification in Delhi, Data Science Certification Training in Delhi, Data Science Certification in Connaught Place, Data Science Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Data Science Training, Best Data Science Course, Best Data Scientist course, Best Data Scientist Training"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

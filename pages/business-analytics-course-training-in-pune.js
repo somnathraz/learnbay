@@ -10,6 +10,7 @@ import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
 import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
@@ -495,6 +496,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="business analytics course training in pune"
+              alt2="business analytics course training in pune"
+              alt3="business analytics course training in pune"
+              alt4="business analytics course training in pune"
+              alt5="business analytics course training in pune"
+              alt6="business analytics course training in pune"
+              alt7="business analytics course training in pune"
+              alt8="business analytics course training in pune"
+              alt9="business analytics course training in pune"
             />
             <FAQNew
               FaqDatas={BusinessAFaqDataP}
@@ -514,6 +524,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Business Analytics Course viman nagar,Business Analytics Training in kalyan nagar,Business Analytics Training in magarpetta,Business Analytics Training in pimpri chinchwad,Business Analytics Classes in yerwada,Business Analytics Classes in kharadi,Business Analytics Classes in vishrantwadi,Business Analytics Classes in deccan,Business Analytics Course in Katraj,Business Analytics Training in warje,,Business Analytics Certification Training in bavdhan,Business Analytics Certification in boat club road,Business Analytics Certification in model colony,Best Business Analytics Training in pune,Best Business Analytics Course in pune"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

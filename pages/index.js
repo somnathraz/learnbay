@@ -10,6 +10,7 @@ import CareerImpactHome from "../components/CareerImpactHome/CareerImpact";
 import Switch from "../components/switch/switch";
 import BoxShape from "../components/BoxShape/BoxShape";
 import MultiTabs from "../components/MultiTabs/MultiTabs";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import FormSection from "../components/FormSection/FormSection";
 
 export default function Home() {
@@ -43,6 +44,7 @@ export default function Home() {
       <Switch />
       <CareerImpactHome />
               <LearnSupport />
+        <OfferPopup offer={false} />                      
         <Footer />
     </div>
   );

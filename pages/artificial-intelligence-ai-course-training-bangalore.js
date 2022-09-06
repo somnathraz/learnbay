@@ -13,6 +13,7 @@ import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import React, { useState } from "react";
 import {
   ArtificialFaqDataB,
@@ -621,6 +622,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="artificial intelligence ai course training in bangalore"
+              alt2="artificial intelligence ai course training in bangalore"
+              alt3="artificial intelligence ai course training in bangalore"
+              alt4="artificial intelligence ai course training in bangalore"
+              alt5="artificial intelligence ai course training in bangalore"
+              alt6="artificial intelligence ai course training in bangalore"
+              alt7="artificial intelligence ai course training in bangalore"
+              alt8="artificial intelligence ai course training in bangalore"
+              alt9="artificial intelligence ai course training in bangalore"
             />
             <FAQNew
               FaqDatas={ArtificialFaqDataB}
@@ -641,6 +651,7 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Artificial Intelligence Training in Bangalore, Artificial Intelligence Course in Bangalore, Artificial Intelligence Training in BTM, Artificial Intelligence Training in Marathahalli, Artificial Intelligence Institute in Bangalore, Artificial Intelligence Training in Whitefield, Artificial Intelligence Training in Kundalahalli, Artificial Intelligence Training in ITPL, Artificial Intelligence Training Institute in Marathahalli, Artificial Intelligence Course in BTM, Artificial Intelligence Course in Marathahalli, Artificial Intelligence Course in Whitefield, Artificial Intelligence Course Bommanahalli, Artificial Intelligence Training in Bommanahalli, Artificial Intelligence Training in Electronic city, Artificial Intelligence Training in Koramangala, Artificial Intelligence Classes in BTM, Artificial Intelligence Classes in Bommanahalli, Artificial Intelligence Classes in Whitefield, Artificial Intelligence Classes in Marathahalli, Artificial Intelligence Course in Koramangala, Artificial Intelligence Training in Jayanagar, Artificial Intelligence Certification in Bangalore, Artificial Intelligence Certification Training in Bangalore, Artificial Intelligence Certification in BTM, Artificial Intelligence Certification in Whitefield, Best Artificial Intelligence Training, Best Artificial Intelligence Course"
         />
+        <OfferPopup offer={false} />      
         <Footer />
       </main>
     </div>

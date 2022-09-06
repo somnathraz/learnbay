@@ -49,7 +49,7 @@ const BoxShape = ({
           </div>
           <div className={hover ? styles.box : styles.boxActive}>
             {hover ? (
-              <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg" loading="lazy" />
+              <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg" loading="lazy" alt="data science course"/>
             ) : (
               <img
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/capstone-live-home.svg"
@@ -112,6 +112,7 @@ const BoxShape = ({
                       width="80"
                       height="80"
                       layout="intrinsic"
+                      alt="data science course"
                     />
                     <div className={styles.name}>
                       <h5>Chandni Priya</h5>
@@ -129,6 +130,7 @@ const BoxShape = ({
                       width="80"
                       height="80"
                       layout="intrinsic"
+                       alt="data science course in bangalore"
                     />
                     <div className={styles.name}>
                       <h5>Shravanthi A</h5>
@@ -146,6 +148,7 @@ const BoxShape = ({
                       width="80"
                       height="80"
                       layout="intrinsic"
+                       alt="data science course in bangalore"
                     />
                     <div className={styles.name}>
                       <h5>Mohammad Israr</h5>
