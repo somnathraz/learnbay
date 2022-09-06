@@ -43,6 +43,7 @@ const KeyFeatures = () => {
               width="879"
               height="557"
               layout="intrinsic"
+               alt="data science course in bangalore"
             />
           </div>
         </div>

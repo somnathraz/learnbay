@@ -38,10 +38,10 @@ const ProjectPopup = (props) => {
 
        <div className={styles.InnerGrid}>
         <div className={styles.imgWrap}>
-          <img src={props.imgsrc} />
+          <img src={props.imgsrc}  alt="data science course in bangalore"/>
         </div>
         <div className={styles.contentWrap}>
-         <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp" width="205px" height="auto"/>
+         <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp" width="205px" height="auto"  alt="data science course in bangalore"/>
          <h5  >{props.title}</h5>
          <p>{props.desc}</p>
         </div>

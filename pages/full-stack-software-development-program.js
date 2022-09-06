@@ -16,6 +16,7 @@ import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../components/CoursePage/CourseReviewdsas/CourseReview";
 import { DomainFaqCourseDatasoft } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import FAQNew from "../components/FAQNew/FAQNewcer";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 
 import React, { useState } from "react";
@@ -109,7 +110,7 @@ export default function Home() {
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+ Projects" domain="7+" />
         </div>
-        <CourseFee fullStack={true}
+        <CourseFee fullStack={true} timeFsd={true}
           CourseFeeHead="Full Stack Web Development: Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
@@ -129,6 +130,7 @@ export default function Home() {
           SupportFaqDatas={SupportFaqData9}
         />
                 <LearnSupport />
+              <OfferPopup offer={true}/>
         <Footer />
       </main>
     </div>

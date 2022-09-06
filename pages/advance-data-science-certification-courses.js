@@ -17,6 +17,7 @@ import FAQNew from "../components/FAQNew/FAQNew";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 
 import React, { useState } from "react";
 import {
@@ -76,7 +77,7 @@ export default function Home() {
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
-          alt="AiMl Header"
+          alt="data science course"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
@@ -201,6 +202,7 @@ export default function Home() {
           SupportFaqDatas={SupportFaqData2}
         />
                 <LearnSupport />
+                <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

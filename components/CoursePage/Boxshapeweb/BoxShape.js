@@ -49,7 +49,7 @@ const BoxShape = ({
           </div>
           <div className={hover ? styles.box : styles.boxActive}>
             {hover ? (
-              <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg" loading="lazy" />
+              <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg" loading="lazy"  alt="data science course in bangalore"/>
             ) : (
               <img
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/capstone-live-home.svg"

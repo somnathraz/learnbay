@@ -10,6 +10,7 @@ import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
 import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
@@ -521,6 +522,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="data analytics course training in pune"
+              alt2="data analytics course training in pune"
+              alt3="data analytics course training in pune"
+              alt4="data analytics course training in pune"
+              alt5="data analytics course training in pune"
+              alt6="data analytics course training in pune"
+              alt7="data analytics course training in pune"
+              alt8="data analytics course training in pune"
+              alt9="data analytics course training in pune"
             />
             <FAQNew
               FaqDatas={AnalyticsFaqDataP}
@@ -542,6 +552,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Data Analytics Course viman nagar,Data Analytics Training in kalyan nagar,Data Analytics Training in magarpetta,Data Analytics Training in pimpri chinchwad,Data Analytics Classes in yerwada,Data Analytics Classes in kharadi,Data Analytics Classes in vishrantwadi,Data Analytics Classes in deccan,Data Analytics Course in Katraj,Data Analytics Training in warje,,Data Analytics Certification Training in bavdhan,Data Analytics Certification in boat club road,Data Analytics Certification in model colony,Best Data Analytics Training in pune,Best Data Analytics Course in pune"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

@@ -214,7 +214,7 @@ function SyllabusNew({
               />
             </div>
           </div>
-          <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg" className={styles.shadowImg} />
+          <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg" className={styles.shadowImg} alt="Learnbay data science" />
         </div>
       </div>
     </section>

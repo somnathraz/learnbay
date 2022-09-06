@@ -2,7 +2,9 @@ import React from "react";
 import Form from "../components/Form/Form";
 import styles from "../styles/Submit.module.css";
 import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";import Image from "next/image";
+import Footer from "../components/Footer/Footer";
+import Image from "next/image";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Head from "next/head";
 
 const sumbit = () => {
@@ -28,6 +30,8 @@ const sumbit = () => {
         />
       </div>
       </div>
+       
+        <OfferPopup offer={false} />                      
       <Footer />
     </div>
   );

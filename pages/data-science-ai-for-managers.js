@@ -11,10 +11,10 @@ import Certificate from "../components/CoursePage/CertificateTab/CertificateTab4
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Project from "../components/CoursePage/Project/Project";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import ReferSection from "../components/CoursePage/ReferSection/ReferSection";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import OtherCertificate from "../components/CoursePage/OtherCertificate6/OtherCertificate";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import { DsaiManagersCourseData } from "../Data/DataScienceManagers";
 import Fee from "../components/CoursePage/Fee/Fee";
@@ -215,7 +215,9 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData4}
           SupportFaqDatas={SupportFaqData4}
         />
+               
                 <LearnSupport />
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

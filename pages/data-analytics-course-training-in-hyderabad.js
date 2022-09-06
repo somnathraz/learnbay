@@ -10,6 +10,7 @@ import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
 import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
@@ -537,6 +538,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="data analytics course training in hyderabad"
+              alt2="data analytics course training in hyderabad"
+              alt3="data analytics course training in hyderabad"
+              alt4="data analytics course training in hyderabad"
+              alt5="data analytics course training in hyderabad"
+              alt6="data analytics course training in hyderabad"
+              alt7="data analytics course training in hyderabad"
+              alt8="data analytics course training in hyderabad"
+              alt9="data analytics course training in hyderabad"
             />
             <FAQNew
               FaqDatas={AnalyticsFaqDataH}
@@ -558,6 +568,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Data Analytics Training in Hyderabad, Data Analytics Course in Hyderabad, Data Analytics Course in Gachibowli, Data Analytics Training in Gachibowli,Data Analytics Course in Madhapur, Data Analytics Training in Madhapur, Data Analytics Training Institute in Hyderabad, Data Analytics Course in Kondapur, Data Analytics Training in Kondapur, Data Analytics Course in Begumpet, Data Analytics Course in Lingampalli, Data Analytics Course in Banjara hills, Data Analytics Course in L B Nagar, Data Analytics Course in Boduppal, Data Analytics Course in Kphb Colony, Data Analytics Training in Begumpet, Data Analytics Training in Lingampalli, Data Analytics Training in Banjara hills, Data Analytics Training in L B Nagar, Data Analytics Training in Boduppal, Data Analytics Training in KPhb Colony, Data Analytics Classroom Training in Hyderabad, Data Analytics Training near me, Data Analytics Course near me, Data Analytics Institute near me, Data Scientist Course, Data Analytics Certification, Data Analytics Certification in Hyderabad, Best Data Analytics Course, Best Data Analytics Training"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

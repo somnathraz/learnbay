@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Privacy from "../components/privacy/privacy";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 function privacy() {
   return (
     <div>
@@ -15,6 +16,8 @@ function privacy() {
       <main>  <Navbar popup={true} dataScience={true} />
 
       <Privacy />
+       
+        <OfferPopup offer={false} />                      
       <Footer />
       </main>
     </div>

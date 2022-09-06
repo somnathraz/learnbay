@@ -2,6 +2,7 @@ import Head from "next/head";
 import AboutUs from "../components/AboutUs/AboutUs";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 export default function Home() {
     return (
       <div>
@@ -14,6 +15,7 @@ export default function Home() {
         <main>
       <Navbar popup={true} />
             <AboutUs />
+        <OfferPopup offer={false} />      
         <Footer />
         </main>
       </div>

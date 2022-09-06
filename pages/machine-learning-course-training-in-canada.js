@@ -8,11 +8,11 @@ import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
-import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import React, { useState } from "react";
 import {
   MachineFaqDataCa,
@@ -77,7 +77,7 @@ export default function Home() {
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
  "description": "You just have to follow 3 easy steps to enroll in our advanced data science course",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "totalTime": "PT6M",
  "estimatedCost": {
  "@type": "MonetaryAmount",
@@ -95,19 +95,19 @@ export default function Home() {
  "step": [{
  "@type": "HowToStep",
  "text": "Visit our website and fill the enquiry form",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "name": "Fill Enquiry Form",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2021/05/Untitled-design-2021-05-22T113616.025.png",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
  "@type": "HowToStep",
  "text": "Get enrollment in our data science course",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "name": "Get enrollment",
  "url": "https://www.learnbay.co/"
 }] 
@@ -130,7 +130,7 @@ export default function Home() {
  },
  "headline": "machine-learning-course-training-in-canada",
  "description": "Machine learning course in Canada. Learnbay is Advanced Machine Learning Course Training Institute in Canada. Machine Learning course in Canada will enhance your career",
- "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg", 
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
  "author": {
  "@type": "Organization",
  "name": "Learnbay",
@@ -141,7 +141,7 @@ export default function Home() {
  "name": "Learnbay",
  "logo": {
  "@type": "ImageObject",
- "url": "https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png"
+ "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
  }
  },
  "datePublished": "2021-10-01",
@@ -381,7 +381,7 @@ Note: This Money back guarantee policy is only specific to “Job Guarantee or M
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Machine learning Course Training in Bangalore",
 "description": "Learnbay offers a Machine learning course in canada, the most comprehensive Machine learning course in the market, covering the complete Data Science lifecycle.",
-"image" : "https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png",
+"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
 "performer":"Learnbay", 
 "offers":{
 "@type": "AggregateOffer",
@@ -590,6 +590,15 @@ Note: This Money back guarantee policy is only specific to “Job Guarantee or M
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="machine learning course training in canada"
+              alt2="machine learning course training in canada"
+              alt3="machine learning course training in canada"
+              alt4="machine learning course training in canada"
+              alt5="machine learning course training in canada"
+              alt6="machine learning course training in canada"
+              alt7="machine learning course training in canada"
+              alt8="machine learning course training in canada"
+              alt9="machine learning course training in canada"
             />
             <FAQNew
               FaqDatas={MachineFaqDataCa}
@@ -604,6 +613,8 @@ Note: This Money back guarantee policy is only specific to “Job Guarantee or M
           </div>
         </div>
                 <LearnSupport />
+                 
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

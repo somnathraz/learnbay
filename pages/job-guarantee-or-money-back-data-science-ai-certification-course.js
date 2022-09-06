@@ -12,6 +12,7 @@ import Project from "../components/CoursePage/Project/Project";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Fee from "../components/CoursePage/Fee/Fee";
 import FAQNew from "../components/FAQNew/FAQNew";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
@@ -217,6 +218,8 @@ export default function Home() {
           SupportFaqDatas={SupportFaqData5}
         />
                 <LearnSupport />
+                 
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

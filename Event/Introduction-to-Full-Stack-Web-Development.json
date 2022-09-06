@@ -11,7 +11,7 @@
     "tag": "Fullstack",
     "eventTime": "11 a.m. to 1 p.m.",
     "Duration": "120min",
-    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/about-us.png",
+    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Intro+to+Full+Stack+Web+Development.png",
     "register": "843"
   },
   "header": {
@@ -42,10 +42,9 @@
     "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shareable-Certification.png"
   },
   "profile": {
-    "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/avatar-02.webp",
+    "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/2.png",
     "desc": "Full Stack Developer",
     "pName": "Mr. Wazid",
-    "link": "https://www.linkedin.com/in/mohd-wazid70/",
     "mIcon": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
     "list1": "2+ years of experience in Web Development",
     "list2": "2 Open-source contribution"

@@ -10,6 +10,7 @@ import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
 import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
@@ -506,6 +507,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="business analytics course training in bangalore"
+              alt2="business analytics course training in bangalore"
+              alt3="business analytics course training in bangalore"
+              alt4="business analytics course training in bangalore"
+              alt5="business analytics course training in bangalore"
+              alt6="business analytics course training in bangalore"
+              alt7="business analytics course training in bangalore"
+              alt8="business analytics course training in bangalore"
+              alt9="business analytics course training in bangalore"
             />
             <FAQNew
               FaqDatas={BusinessAFaqDataB}
@@ -525,6 +535,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Business Analytics Training in Bangalore, Business Analytics Course in Bangalore, Business Analytics Training in BTM, Business Analytics Training in Marathahalli, Business Analytics Institute in Bangalore, Business Analytics Training in Whitefield, Business Analytics Training in Kundalahalli, Business Analytics Training in ITPL, Business Analytics Training Institute in Marathahalli, Business Analytics Course in BTM, Business Analytics Course in Marathahalli, Business Analytics Course in Whitefield, Business Analytics Course Bommanahalli, Business Analytics Training in Bommanahalli, Business Analytics Training in Electronic city, Business Analytics Training in Koramangala, Business Analytics Classes in BTM, Business Analytics Classes in Bommanahalli, Business Analytics Classes in Whitefield, Business Analytics Classes in Marathahalli, Business Analytics Course in Koramangala, Business Analytics Training in Jayanagar, Business Analytics Certification in Bangalore, Business Analytics Certification Training in Bangalore, Business Analytics Certification in BTM, Business Analytics Certification in Whitefield, Best Business Analytics Training, Best Business Analytics Course"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

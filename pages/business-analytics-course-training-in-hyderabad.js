@@ -10,6 +10,7 @@ import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
 import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
@@ -532,6 +533,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="business analytics course training in hyderabad"
+              alt2="business analytics course training in hyderabad"
+              alt3="business analytics course training in hyderabad"
+              alt4="business analytics course training in hyderabad"
+              alt5="business analytics course training in hyderabad"
+              alt6="business analytics course training in hyderabad"
+              alt7="business analytics course training in hyderabad"
+              alt8="business analytics course training in hyderabad"
+              alt9="business analytics course training in hyderabad"
             />
             <FAQNew
               FaqDatas={BusinessAFaqDataH}
@@ -551,6 +561,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Business Analytics Training in Hyderabad, Business Analytics Course in Hyderabad, Business Analytics Course in Gachibowli, Business Analytics Training in Gachibowli,Business Analytics Course in Madhapur, Business Analytics Training in Madhapur, Business Analytics Training Institute in Hyderabad, Business Analytics Course in Kondapur, Business Analytics Training in Kondapur, Business Analytics Course in Begumpet, Business Analytics Course in Lingampalli, Business Analytics Course in Banjara hills, Business Analytics Course in L B Nagar, Business Analytics Course in Boduppal, Business Analytics Course in Kphb Colony, Business Analytics Training in Begumpet, Business Analytics Training in Lingampalli, Business Analytics Training in Banjara hills, Business Analytics Training in L B Nagar, Business Analytics Training in Boduppal, Business Analytics Training in KPhb Colony, Business Analytics Classroom Training in Hyderabad, Business Analytics Training near me, Business Analytics Course near me, Business Analytics Institute near me, Business Scientist Course, Business Analytics Certification, Business Analytics Certification in Hyderabad, Best Business Analytics Course, Best Business Analytics Training"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

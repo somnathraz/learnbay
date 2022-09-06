@@ -13,6 +13,7 @@ import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import React, { useState } from "react";
 import {
   MachineFaqDataP,
@@ -595,6 +596,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="machine learning course training in pune"
+              alt2="machine learning course training in pune"
+              alt3="machine learning course training in pune"
+              alt4="machine learning course training in pune"
+              alt5="machine learning course training in pune"
+              alt6="machine learning course training in pune"
+              alt7="machine learning course training in pune"
+              alt8="machine learning course training in pune"
+              alt9="machine learning course training in pune"
             />
             <FAQNew
               FaqDatas={MachineFaqDataP}
@@ -616,6 +626,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Machine Learning Course viman nagar,Machine Learning Training in kalyan nagar,Machine Learning Training in magarpetta,Machine Learning Training in pimpri chinchwad,Machine Learning Classes in yerwada,Machine Learning Classes in kharadi,Machine Learning Classes in vishrantwadi,Machine Learning Classes in deccan,Machine Learning Course in Katraj,Machine Learning Training in warje,,Machine Learning Certification Training in bavdhan,Machine Learning Certification in boat club road,Machine Learning Certification in model colony,Best Machine Learning Training in pune,Best Machine Learning Course in pune"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

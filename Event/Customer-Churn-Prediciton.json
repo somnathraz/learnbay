@@ -11,7 +11,7 @@
       "tag": "Data science",
       "eventTime": "7 P.M. to 9 P.M.",
       "Duration": "120min",
-      "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/about-us.png",
+      "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Customer+Churn+OTT.png",
       "register": "843"
     },
     "header": {
@@ -42,10 +42,10 @@
       "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shareable-Certification.png"
     },
     "profile": {
-      "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/avatar-02.webp",
+      "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/3.png",
       "desc": "Data Scientist",
       "pName": "Mr. Ashish",
-      "link": "https://www.linkedin.com/in/davedhaval87",
+ 
       "mIcon": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
       "list1": "4+ years of experience in Python",
       "list2": "2 Open-source contribution"

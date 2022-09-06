@@ -12,6 +12,7 @@ import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import React, { useState } from "react";
 import {
@@ -583,6 +584,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="machine learning course training in bangalore"
+              alt2="machine learning course training in bangalore"
+              alt3="machine learning course training in bangalore"
+              alt4="machine learning course training in bangalore"
+              alt5="machine learning course training in bangalore"
+              alt6="machine learning course training in bangalore"
+              alt7="machine learning course training in bangalore"
+              alt8="machine learning course training in bangalore"
+              alt9="machine learning course training in bangalore"
             />
             <FAQNew
               FaqDatas={MachineFaqDataB}
@@ -604,6 +614,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Machine Learning Training in Bangalore, Machine Learning Course in Bangalore, Machine Learning Training in BTM, Machine Learning Training in Marathahalli, Machine Learning Institute in Bangalore, Machine Learning Training in Whitefield, Machine Learning Training in Kundalahalli, Machine Learning Training in ITPL, Machine Learning Training Institute in Marathahalli, Machine Learning Course in BTM, Machine Learning Course in Marathahalli, Machine Learning Course in Whitefield, Machine Learning Course Bommanahalli, Machine Learning Training in Bommanahalli, Machine Learning Training in Electronic city, Machine Learning Training in Koramangala, Machine Learning Classes in BTM, Machine Learning Classes in Bommanahalli, Machine Learning Classes in Whitefield, Machine Learning Classes in Marathahalli, Machine Learning Course in Koramangala, Machine Learning Training in Jayanagar, Machine Learning Certification in Bangalore, Machine Learning Certification Training in Bangalore, Machine Learning Certification in BTM, Machine Learning Certification in Whitefield, Best Machine Learning Training, Best Machine Learning Course"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

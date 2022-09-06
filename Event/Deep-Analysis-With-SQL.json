@@ -7,9 +7,9 @@
     },
     "mainData": {
       "title": "Deep Analysis with SQL",
-      "eventDate": "August 20, 2022",
+      "eventDate": "September 03, 2022",
       "tag": "Data science",
-      "eventTime": "10 A.M. to 12 P.M.",
+      "eventTime": "12 P.M. to 2 P.M.",
       "Duration": "120min",
       "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Deep-Analysis-With-SQL.png",
       "register": "843"
@@ -17,16 +17,16 @@
     "header": {
       "title": "Deep Analysis with SQL",
       "titleSpan": "With Industry Expert",
-      "desc": "For Professionals with 1+ years Working Exp",
-      "eventDate": "20th to 21st August",
-      "eventTime": "10 A.M. to 12 P.M.",
-      "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Silvia-Mam.png",
+      "desc": "For Professionals with 5+ years Working Exp",
+      "eventDate": "3rd to 4th September",
+      "eventTime": "12 P.M. to 2 P.M.",
+      "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Nitish-Sir.png",
       "register": "843",
       "width": "600",
       "height": "560",
       "alt": "Header",
-      "instructor": "Mrs. Sylvia",
-      "href1": "https://www.youtube.com/watch?v=G3bo5R6QjL4&list=PLl1gyDCKkiQR22wqibrHRCC_PwEeUWcZT&index=28"
+      "instructor": "Mr. Nitish", 
+      "href1": "#"
     },
     "feature": {
       "title": "Data Science Masterclass Features",
@@ -41,22 +41,22 @@
       "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shareable-Certification.png"
     },
     "profile": {
-      "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/avatar-02.webp",
+      "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/4.png",
       "desc": "Data Scientist",
-      "pName": "Mrs. Sylvia",
-      "link": "https://www.linkedin.com/in/davedhaval87",
+      "pName": "Mr. Nitish",
+ 
       "mIcon": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
-      "list1": "4+ years of experience in Big Data",
+      "list1": "Data Scientist (5+)",
       "list2": "2 Open-source contribution"
     },
     "whyUs": {
       "title": "You will learn about",
-      "l1": "Database Management",
-      "l2": "Aggregate Queries & Summarize Views",
-      "l3": "Work on Constraints and Data Tables",
-      "l4": "Solve SQL Coding Problems",
-      "l5": "Learn about Complex SQL",
-      "l6": " Solve Business Question using SQL"
+      "l1": "When to use Data Visualization",
+      "l2": "Which chart is preferred?",
+      "l3": "How many chart are there to represent work",
+      "l4": "Software installations",
+      "l5": "How to do Visualization using Python",
+      "l6": "Steps to be followed"
      
     },
     "whoCan": {

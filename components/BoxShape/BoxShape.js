@@ -29,6 +29,7 @@ const BoxShape = () => {
               width="60"
               height="60"
               loading="lazy"
+             alt="data science course in bangalore"
             />
           ) : (
             <img
@@ -36,6 +37,7 @@ const BoxShape = () => {
               width="60"
               height="60"
               loading="lazy"
+             alt="data science course in bangalore"
             />
           )}
         </div>

@@ -34,6 +34,7 @@ const WhyLearnbay = () => {
                 width="50"
                 height="50"
                 layout="intrinsic"
+                 alt="data science course in bangalore"
               />
               <p>
                 Live 1:1 - Resolve any doubts about projects and assignments
@@ -45,6 +46,7 @@ const WhyLearnbay = () => {
                 width="50"
                 height="50"
                 layout="intrinsic"
+                 alt="data science course in bangalore"
               />
               <p>Extensive hands-on expertise across several domains</p>
             </div>
@@ -65,6 +67,7 @@ const WhyLearnbay = () => {
                 width="40"
                 height="40"
                 loading="lazy"
+                alt="data science course"
               />
               <p>Get certificate from IBM for your capstone project</p>
             </div>
@@ -74,6 +77,7 @@ const WhyLearnbay = () => {
                 width="40"
                 height="40"
                 loading="lazy"
+                alt="data science course"
               />
               <p>
                 Create visually appealing and industry-demanding project
@@ -94,6 +98,7 @@ const WhyLearnbay = () => {
             width="656"
             height="457"
             layout="intrinsic"
+             alt="data science course in bangalore"
           />
         </div>
       </div>

@@ -27,7 +27,7 @@ function ReferSection() {
           <div className={styles.first}>
           <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/refer.png"
-            alt="Certificate"
+            alt="refer"
             quality={100}
             layout="intrinsic"
             width="320px"

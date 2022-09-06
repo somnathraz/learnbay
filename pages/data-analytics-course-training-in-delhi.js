@@ -10,6 +10,7 @@ import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
 import FAQNew from "../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
@@ -251,7 +252,7 @@ export default function Home() {
  "name": "Is there any accredited certification after course completion?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion.
+ "text": "Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion."
  }
  },{
  "@type": "Question",
@@ -262,7 +263,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "How long will I get support for job assistance at Learnbay?,
+ "name": "How long will I get support for job assistance at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -289,29 +290,29 @@ export default function Home() {
  "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
  }
  },{
- "@type": "Until when will the students get the facility of mentorship?"
- "name": ",
+  "@type": "Question",
+ "name": "Until when will the students get the facility of mentorship?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Our mentors will provide data science training to the students until the completion of the course."
  }
  },{
- "@type": "Can a Learnbay student choose to study from their desired mentor?",
- "name": ",
+  "@type": "Question",
+ "name": "Can a Learnbay student choose to study from their desired mentor?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
  }
  },{
- "@type": "When is the job assistance provided at Learnbay?"
- "name": ",
+  "@type": "Question",
+ "name": "When is the job assistance provided at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
  }
  },{
- "@type": "How long will I get Job referrals?"
- "name": ",
+  "@type": "Question",
+ "name": "How long will I get Job referrals?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -523,6 +524,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="data analytics course training in delhi"
+              alt2="data analytics course training in delhi"
+              alt3="data analytics course training in delhi"
+              alt4="data analytics course training in delhi"
+              alt5="data analytics course training in delhi"
+              alt6="data analytics course training in delhi"
+              alt7="data analytics course training in delhi"
+              alt8="data analytics course training in delhi"
+              alt9="data analytics course training in delhi"
             />
             <FAQNew
               FaqDatas={AnalyticsFaqDataD}
@@ -544,6 +554,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Data Analytics Training in delhi, Data Analytics Course in delhi, Data Analytics Training in Connaught Place, Data Analytics Training in Karol Bagh , Data Analytics Institute in Delhi, Data Analytics Training in kamla nagar, Data Analytics Training in kalu sarai, Data Analytics Training in J N U, Data Analytics Training Institute in Connaught Place, Data Analytics Course in Connaught Place, Data Analytics Course in Saket, Data Analytics Course in old rajinder nagar, Data Analytics Course Connaught Place , Data Analytics Training in (N.S.P) Netaji Subhash Place, Data Analytics Training in Pitampura, Data Analytics Classes in Connaught Place, Data Analytics Classes in J N U, Data Analytics Classes in Connaught Place, Data Analytics Classes in Delhi, Data Analytics Course in vishwa vidyalaya, Data Analytics Training in kalu sarai, Data Analytics Certification in Delhi, Data Analytics Certification Training in Delhi, Data Analytics Certification in Connaught Place, Data Analytics Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Data Analytics Training, Best Data Analytics Course, Best Data Scientist course, Best Data Scientist Training"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

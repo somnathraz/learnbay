@@ -13,6 +13,7 @@ import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import React, { useState } from "react";
 import {
   MachineFaqDataM,
@@ -110,6 +111,8 @@ export default function Home() {
  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "name": "Get enrollment",
  "url": "https://www.learnbay.co/"
+}] 
+
 }
 } `
 }}
@@ -244,102 +247,119 @@ export default function Home() {
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration."
+ }
  },{
  "@type": "Question",
  "name": "What is the total Fee for this machine learning course in Mumbai?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,12,100/- Inclusive of GST."
+ }
  },{
  "@type": "Question",
  "name": "Is there any scholarship available for the Machine Learning certification? What is Group Discount?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"
+ }
  },{
  "@type": "Question",
  "name": "What is the refund policy for this Machine Learning training course at Learnbay in Mumbai?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the program."
+ }
  },{
  "@type": "Question",
  "name": "How many capstone machine learning projects will be there?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training."
+ }
  },{
  "@type": "Question",
  "name": "How many real-time projects will be there?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on. Click here to download the list of the projects."
+ }
  },{
  "@type": "Question",
  "name": "How will the project be executed?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
+ }
  },{
  "@type": "Question",
  "name": "Is there any accredited certification after this machine learning course completion in Mumbai?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course."
+ }
  },{
  "@type": "Question",
  "name": "What categories of certifications might I expect to receive?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Deep Learning Fundamentals Deep Learning with TensorFlow Machine Learning with Python Accelerating Deep Learning with GPUs Advance AI & ML Certificate (final) Capstone Project Certificate by IBM"
+ }
  },{
  "@type": "Question",
  "name": "What's the eligibility for a job assistance program at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+ }
  },{
  "@type": "Question",
  "name": "How long will I get support for job assistance?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+ }
  },{
  "@type": "Question",
  "name": "What is a job-readiness program?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Job readiness programs help you prepare for interviews which include: Resume Preparation sessions Preparing projects for a strong portfolio Interview guidance and prep sessions 1:1 Mock interviews based on targeted companies and roles"
+ }
  },{
  "@type": "Question",
  "name": "Will I get job referrals at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies."
+ }
  },{
  "@type": "Question",
  "name": "Until when will the Learnbay students in Mumbai get the facility of mentorship?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Our Mentors will provide ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes."
+ }
  },{
  "@type": "Question",
  "name": "Can a Learnbay student in Mumbai choose to study from their desired mentor?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+ }
  },{
  "@type": "Question",
  "name": "When is the job assistance provided and for how long I will get the service?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company."
+ }
  },{
  "@type": "Question",
  "name": "How long will I get Job referrals?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+ }
  },{
  "@type": "Question",
  "name": "",
@@ -385,26 +405,26 @@ export default function Home() {
  "name": "Learnbay - Data Science, Data Analytics Course Training in Bangalore",
  "address": {
   "@type": "PostalAddress",
-  "streetAddress": "#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)",
-
+  "streetAddress": " #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Bangalore - 560102 (Above Sangam Sweets)",
   "addressLocality": "HSR Sector 3",
   "postalCode": "560102",
   "addressCountry": "Bengaluru, Karnataka,INDIA"
-},
-"geo": {
+  } 
+  ,"geo": {
   "@type": "GeoCoordinates",
-  "latitude": "12.914745887585838",
-  "longitude": "77.64087553886982"
-} 
-}], 
-"organizer": {
-"@type": "Organization",
-"name": "Learnbay",
-"url": "https://www.learnbay.co"
+  "latitude": "12.911762714349765,",
+  "longitude": "77.64127379352328"
+  } 
+  }], 
+ "organizer": {
+  "@type": "Organization",
+  "name": "Learnbay",
+  "url": "https://www.learnbay.co"
 }
 } `
 }}
 />
+
       </Head>
       <main>  <Navbar popup={true} dataScience={true} />
 
@@ -581,6 +601,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="machine learning course training in mumbai"
+              alt2="machine learning course training in mumbai"
+              alt3="machine learning course training in mumbai"
+              alt4="machine learning course training in mumbai"
+              alt5="machine learning course training in mumbai"
+              alt6="machine learning course training in mumbai"
+              alt7="machine learning course training in mumbai"
+              alt8="machine learning course training in mumbai"
+              alt9="machine learning course training in mumbai"
             />
             <FAQNew
               FaqDatas={MachineFaqDataM}
@@ -602,6 +631,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Machine Learning course training in Mumbai, Machine Learning course training in Thane, Machine Learning course in Bhandup, Machine Learning Training in Chembur, Machine Learning course institute in powai, Machine Learning course in Tehsil, Machine Learning training in Ghatkopar, Machine Learning institute in Sion, Machine Learning certification in Shivaji nagar, Machine Learning course in Mulund, Machine Learning training in sewri, Machine Learning institute in Kannamwar nagar, Machine Learning course in Parel, Machine Learning certification in Anushakti Nagar, Machine Learning Training in Sakinaka, Machine Learning institute in kharodi, Machine Learning certification in Madh, Machine Learning course training in malad, Machine Learning course training in Andheri, Machine Learning training in Coal Bunder, Machine Learning institute in Dharavi, Machine Learning certification in Worli, Machine Learning course in Aswini, Machine Learning training in Goregaon, Machine Learning institute in Kandivali, Machine Learning course in Borivali, Machine Learning certification in juhu, Machine Learning training in Marol Naka, Machine Learning institute in Jogheswari, Machine Learning certification in vakola, Machine Learning course in Bandra, Machine Learning training in Kurla, Machine Learning course training in navi mumbai, Machine Learning course training in Kalyan ."
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>

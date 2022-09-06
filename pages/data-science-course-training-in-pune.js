@@ -10,6 +10,7 @@ import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
 import FAQNew from "../components/FAQNewCity/FAQNew";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
@@ -587,6 +588,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="data science course training in pune"
+              alt2="data science course training in pune"
+              alt3="data science course training in pune"
+              alt4="data science course training in pune"
+              alt5="data science course training in pune"
+              alt6="data science course training in pune"
+              alt7="data science course training in pune"
+              alt8="data science course training in pune"
+              alt9="data science course training in pune"
             />
             <FAQNew
               FaqDatas={AdvanceFaqDataP}
@@ -608,6 +618,8 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Data Science Course viman nagar,Data Science Training in kalyan nagar,Data Science Training in magarpetta,Data Science Training in pimpri chinchwad,Data Science Classes in yerwada,Data Science Classes in kharadi,Data Science Classes in vishrantwadi,Data Science Classes in deccan,Data Science Course in Katraj,Data Science Training in warje,,Data Science Certification Training in bavdhan,Data Science Certification in boat club road,Data Science Certification in model colony,Best Data Science Training in pune,Best Data Science Course in pune"
         />
+               
+        <OfferPopup offer={false} />                      
         <Footer />
       </main>
     </div>
