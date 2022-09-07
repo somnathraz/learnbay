@@ -75,7 +75,7 @@ const CourseFee = ({
                   <b>Batch Type</b>
                 </p>
                 <p className={styles.list}>Weekend Batch (Sat-Sun)</p>
-                <p className={styles.list}>Weekend Batch (Mon-Fri)</p>
+                <p className={styles.list}>Weekend Batch (Sat-Sun)</p>
                 {/* <p className={styles.list}>Weekday Batch (Mon-Fri)</p> */}
               </div>
             </div>
@@ -116,8 +116,8 @@ const CourseFee = ({
                   <AiOutlineBars className={styles.icon} />
                   <b>Batch Type</b>
                 </p>
-                <p className={styles.list}>Weekday Batch (Sat-Sun)</p>
-                <p className={styles.list}>Weekend Batch (Mon-Fri)</p>
+                <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
+                <p className={styles.list}>Weekend Batch (Sat-Sun)</p>
                 {/* <p className={styles.list}>Weekday Batch (Mon-Fri)</p> */}
               </div>
             </div>
