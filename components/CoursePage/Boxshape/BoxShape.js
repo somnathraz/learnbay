@@ -21,6 +21,7 @@ const BoxShape = ({
   box3desc,
   Box4h5,
   box4desc,
+  alt,
 }) => {
   const [hover, setHover] = useState(false);
   const [mobile, setMobile] = useState(false);
@@ -53,7 +54,7 @@ const BoxShape = ({
             ) : (
               <img
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/capstone-live-home.svg"
-                alt="data-science"
+                alt={alt}
                 className={styles.icon}
                 loading="lazy"
               />
@@ -107,12 +108,12 @@ const BoxShape = ({
                     experience, which led to a 250% hike.
                   </p>
                   <div className={styles.profile}>
-                    <Image
+                    <img style={{width:"80px", height:"80px"}}
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Chandni.jpeg"
                       width="80"
                       height="80"
                       layout="intrinsic"
-                      alt="data science course"
+                      alt={alt}
                     />
                     <div className={styles.name}>
                       <h5>Chandni Priya</h5>
@@ -125,12 +126,12 @@ const BoxShape = ({
                   Recommended to anyone who is trying to learn Data Science. Teachers go through every detail and in between they tells you what questions is mostly likely to ask in the interview! Which is important! Also gives you assignments for weekends! Overall really good experience! Worth it!
                   </p>
                   <div className={styles.profile}>
-                    <Image
+                    <img style={{width:"80px", height:"80px"}}
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shravanthi.jpeg"
                       width="80"
                       height="80"
                       layout="intrinsic"
-                       alt="data science course in bangalore"
+                       alt={alt}
                     />
                     <div className={styles.name}>
                       <h5>Shravanthi A</h5>
@@ -143,12 +144,12 @@ const BoxShape = ({
                   Learnbay has helped me a lot to learn data science applications in the e-commerce industry. The live class concept was really helpful in receiving proper DS training. Thanks to all my mentors and the placement team.
                   </p>
                   <div className={styles.profile}>
-                    <Image
+                    <img style={{width:"80px", height:"80px"}}
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png"
-                      width="80"
-                      height="80"
+                      width="80px"
+                      height="80px"
                       layout="intrinsic"
-                       alt="data science course in bangalore"
+                       alt={alt}
                     />
                     <div className={styles.name}>
                       <h5>Mohammad Israr</h5>

@@ -448,7 +448,7 @@ Note: This Money back guarantee policy is only specific to “Job Guarantee or M
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course3.png"
           width="900"
           height="762"
-          alt="AiMl Header"
+          alt="machine learning course training in canada"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
@@ -474,7 +474,8 @@ Note: This Money back guarantee policy is only specific to “Job Guarantee or M
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program?"
+          alt="machine learning course training in canada"
+          title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
             Box2h5="Domain Focused"
