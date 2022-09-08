@@ -389,7 +389,7 @@ export default function Home() {
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course7.png"
           width="900"
           height="762"
-          alt="AiMl Header"
+          alt="business analytics course training in bangalore"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
@@ -417,7 +417,8 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program?"
+          alt="business analytics course training in bangalore"
+          title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
             Box2h5="Exclusive Hackathons"

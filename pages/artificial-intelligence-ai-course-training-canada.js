@@ -441,7 +441,7 @@ export default function Home() {
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png"
           width="900"
           height="762"
-          alt="AiMl Header"
+          alt="artificial intelligence ai course training in canada"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
         />
         <div className={styles.program}>
@@ -467,7 +467,7 @@ export default function Home() {
           Subscription="3 Year Subscription"
         />
         <div className="Feature" id="Feature">
-          <BoxShape
+          <BoxShape alt="artificial intelligence ai course training in canada"
             title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
