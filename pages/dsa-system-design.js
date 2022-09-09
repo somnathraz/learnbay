@@ -38,8 +38,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>DSA & System Design</title>
-        <meta name="description" content="DSA & System Design" />
+        <title>Data Structure Algorithms (DSA) & System Design Course - Learnbay</title>
+        <meta name="description" content="Data Structure Algorithms (DSA) & System Design Course. Learnbay provide Data Structure Algorithms (DSA) & System Design Course which help you to enhance you skills." />
+        <meta
+          name="Keywords"
+          content="Data Structure Algorithms (DSA) & System Design Course, Data Structure Algorithms course, System Design Course, Data Structure course"
+        />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/dsa-system-design" />
       </Head>

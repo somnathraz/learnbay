@@ -26,23 +26,28 @@ const OfferPopup = ({
     return;
   }, []);
   return (
-    <div className={open ? styles.OfferPopup : styles.hide}>
+    <div className={open ? styles.OfferPopup : styles.hide} >
       <AiFillCloseCircle className={styles.Icon} onClick={handelOpen} />
       {offer ? (
             <>
       <div className={styles.Offer}>
-        <h6>Ace Your Interview at MAANG with DSA & Software Development Program</h6>
+        <h6>Ace Your Interview at MAANG with Data Structures Algorithms & Software Development Program</h6>
         {/* <p><b>{p1}</b></p> */}
         <p>Available Batch Details :</p>
         {/* <p>{p3}</p> */}
-        <li>
+        {/* <li>
           <b>Weekend Morning</b>
           : 4th September, 8 a.m. to 12 p.m.
 
+        </li> */}
+        <li>
+          <b>Weekend Morning</b><br/>
         </li>
         <li>
-          <b>Weekend Morning</b>
-          : 25th September, 8 a.m to 12 p.m
+          <b>Date</b> : 25th September<br/>
+        </li>
+        <li>
+          <b>Time</b> : 8 a.m to 12 p.m
         </li>
         {/* <li><b>{batch3}</b>{batch33}</li> */}
         <p style={{ fontSize: "12px" }}>*Terms & Conditions applied.</p>
@@ -61,10 +66,10 @@ const OfferPopup = ({
         {/* <p><b>{p1}</b></p> */}
         <p>Available Batch Details :</p>
         {/* <p>{p3}</p> */}
-        <li>
+        {/* <li>
           <b>Weekday Evening</b>
           : 9th September, 8 p.m. to 10 p.m.
-        </li>
+        </li> */}
         <li>
           <b>weekday Morning</b>
           : 16th September, 8 a.m. to 10 a.m.
