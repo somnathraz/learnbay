@@ -161,10 +161,10 @@ export default function Home() {
  "@type": "FAQPage",
  "mainEntity": [{
  "@type": "Question",
- "name": "What are the prerequisites for the Business Analytics Training Course in Bengalore?",
+ "name": "What are the prerequisites for the Business Analytics Training Course in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "There are no prerequisites for this Business Analytics certification course in Bengalore as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
+ "text": "There are no prerequisites for this Business Analytics certification course in Bangalore as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
  }
  },{
  "@type": "Question",
@@ -175,35 +175,35 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is a Flexi Subscription in the Data Analytics Certification Program in Bengalore?",
+ "name": "What is a Flexi Subscription in the Data Analytics Certification Program in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
  }
  },{
  "@type": "Question",
- "name": "What’s the duration of the Business Analytics Program in Bengalore?",
+ "name": "What’s the duration of the Business Analytics Program in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 5 months Monday to Friday - 2 hours/day Weekend batch - 6.5 months Saturday & Sunday - 3.5 hours/day"
  }
  },{
  "@type": "Question",
- "name": "What is the mode of data science training at Learnbay, Bengalore?",
+ "name": "What is the mode of data science training at Learnbay, Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
- "name": "How can I opt for a Hybrid mode of learning in Bengalore?",
+ "name": "How can I opt for a Hybrid mode of learning in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions"
  }
  },{
  "@type": "Question",
- "name": "What is the total fee for the Business Analytics Program in Bengalore?",
+ "name": "What is the total fee for the Business Analytics Program in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The total program fee for the Business Analytics Program is INR 76,700/- inclusive of GST."

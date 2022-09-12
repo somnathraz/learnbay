@@ -62,7 +62,7 @@ const OfferPopup = ({
             <>
               {" "} 
       <div className={styles.Offer}>
-        <h6>Special Programming Session Starts from 6th to 8th September</h6>
+        <h6>Special Programming Session Starts from 13th to 15th September</h6>
         {/* <p><b>{p1}</b></p> */}
         <p>Available Batch Details :</p>
         {/* <p>{p3}</p> */}

@@ -54,24 +54,24 @@ const CitiesRight = ({
                 <span>About The Program</span>
             </div>
             <div className={styles.CitiesRightInner}>
-                <p className={styles.pHead}>{ProgramHead1}</p>
-                <p className={styles.pHead}>{ProgramHead2}</p>
+                <h2 className={styles.pHead}>{ProgramHead1}</h2>
+                <h2 className={styles.pHead}>{ProgramHead2}</h2>
                 <p className={styles.pp}>{ProgramBot1}</p>
                 <p className={styles.pp}>{ProgramBot2}</p>
-                <p className={styles.pHead}>{ProgramHead3}</p>
+                <h2 className={styles.pHead}>{ProgramHead3}</h2>
                 <p className={styles.pp}>{ProgramBot3}</p>
                 <p className={styles.pp}>{ProgramBot31}</p>
                 <p className={styles.pp}>{ProgramBot32}</p>
-                <p className={styles.pHead}>{ProgramHead4}</p>
+                <h2 className={styles.pHead}>{ProgramHead4}</h2>
                 <p className={styles.pp}>{ProgramBot4}</p>
-                <p className={styles.pHead}>{ProgramHead5}</p>
+                <h2 className={styles.pHead}>{ProgramHead5}</h2>
                 <p className={styles.pp}>{ProgramBot5}</p>
-                <p className={styles.pHead}>{ProgramHead6}</p>
+                <h2 className={styles.pHead}>{ProgramHead6}</h2>
                 <p className={styles.pp}>{ProgramBot6}</p>
-                <p className={styles.pHead}>{ProgramHead7}</p>
+                <h2 className={styles.pHead}>{ProgramHead7}</h2>
                 <p className={styles.pp}>{ProgramBot8}</p>
                 <p className={styles.pp}>{ProgramBot9}</p>
-                <p className={styles.pHead}>{ProgramHead8}</p>
+                <h2 className={styles.pHead}>{ProgramHead8}</h2>
                 <p className={styles.pp}>{ProgramBot10}</p>
 
             </div>
@@ -81,7 +81,7 @@ const CitiesRight = ({
                 <span>Certification Details</span>
             </div>
             <div className={styles.CitiesRightInner} >
-                <p className={styles.pHead}>{CertificationHead1}</p>
+                <h2 className={styles.pHead}>{CertificationHead1}</h2>
                 <p className={styles.pp}>{CertificationBot1}</p>
                 <p className={styles.pp}>{CertificationBot2}</p>
                 <img src={src} alt={alt1}></img>
@@ -92,13 +92,13 @@ const CitiesRight = ({
                 <span>Module-Details</span>
             </div>
             <div className={styles.CitiesRightInner}>
-                <p className={styles.pHead}>{ModuleHead1}</p>
-                <p className={styles.pHead}>{ModuleHead4}</p>
+                <h2 className={styles.pHead}>{ModuleHead1}</h2>
+                <h2 className={styles.pHead}>{ModuleHead4}</h2>
                 <p className={styles.pp}>{ModuleBot1}</p>
                 <p className={styles.pp}>{ModuleBot2}</p>
-                <p className={styles.pHead}>{ModuleHead2}</p>
+                <h2 className={styles.pHead}>{ModuleHead2}</h2>
                 <p className={styles.pp}>{ModuleBot3}</p>
-                <p className={styles.pHead}>{ModuleHead3}</p>
+                <h2 className={styles.pHead}>{ModuleHead3}</h2>
                 <p className={styles.pp}>{ModuleBot4}</p>
                 <p className={styles.pp}>Module Details:</p>
                 <div className={styles.SyllabusBot}>
@@ -183,13 +183,13 @@ const CitiesRight = ({
                 <span>Job Assist Program</span>
             </div>
             <div className={styles.CitiesRightInner}>
-                <p className={styles.pHead}>{JobHead1}</p>
+                <h2 className={styles.pHead}>{JobHead1}</h2>
                 <p className={styles.pp}>{JobBot1}</p>
                 <p className={styles.pp}>{JobBot2}</p>
                 <p className={styles.pp}>{JobBot5}</p>
-                <p className={styles.pHead}>{JobHead2}</p>
+                <h2 className={styles.pHead}>{JobHead2}</h2>
                 <p className={styles.pp}>{JobBot3}</p>
-                <p className={styles.pHead}>{JobHead3}</p>
+                <h2 className={styles.pHead}>{JobHead3}</h2>
                 <p className={styles.pp}>{JobBot4}</p>
                 <p className={styles.pp}>{JobBot6}</p>
             </div>
@@ -199,9 +199,9 @@ const CitiesRight = ({
                 <span>Know Our Projects</span>
             </div>
             <div className={styles.CitiesRightInner}>
-                <p className={styles.pHead}>{ProjectsHead1}</p>
+                <h2 className={styles.pHead}>{ProjectsHead1}</h2>
                 <p className={styles.pp}>{ProjectsBot1}</p>
-                <p className={styles.pHead}>{ProjectsHead2}</p>
+                <h2 className={styles.pHead}>{ProjectsHead2}</h2>
                 <p className={styles.pp}>{ProjectsBot2}</p>
             </div>
             <div className={styles.Projects}>
