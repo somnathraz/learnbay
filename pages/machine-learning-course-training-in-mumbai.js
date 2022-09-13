@@ -359,13 +359,6 @@ export default function Home() {
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
- }
- },{
- "@type": "Question",
- "name": "",
- "acceptedAnswer": {
- "@type": "Answer",
- "text": ""
 }
 }]
                   }

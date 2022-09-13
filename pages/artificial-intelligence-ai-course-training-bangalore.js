@@ -161,14 +161,14 @@ export default function Home() {
  "@type": "FAQPage",
  "mainEntity": [{
  "@type": "Question",
- "name": "What are Artificial Intelligence (AI) training courses available at Learnbay in Bengalore?",
+ "name": "What are Artificial Intelligence (AI) training courses available at Learnbay in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Foundational data science and Artificial Intelligence Training Course Advanced data science and AI Certification Course Machine learning and AI Certification Data Science and AI Certification Course for Managers and Leaders Data Science and Artificial Intelligence Training with Job or Money-back Guarantee"
  }
  },{
  "@type": "Question",
- "name": "What are the prerequisites for these AI training Courses in Bengalore?",
+ "name": "What are the prerequisites for these AI training Courses in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "There are no prerequisites for this artificial certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
@@ -182,42 +182,42 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is a Flexi Subscription in these advanced artificial intelligence courses in Bengalore?",
+ "name": "What is a Flexi Subscription in these advanced artificial intelligence courses in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Those who enroll for AI live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational data science and Artificial Intelligence Training Course- 1 Year Advanced data science and AI Certification Course- 3 Years Machine learning and AI Certification- 3 Years Data Science and AI Certification Course for Managers and Leaders- 3 Years Data Science and Artificial Intelligence Training with Job or Money-back Guarantee - 3-years"
  }
  },{
  "@type": "Question",
- "name": "What’s the duration of these advanced AI in Bengalore?",
+ "name": "What’s the duration of these advanced AI in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day Foundational Data Science and Artificial Intelligence Training Course (220+ hours) Weekday batch - 6 months Weekend batch - 8 months Machine learning and AI Certification (280+ hours) Weekday batch - 9.5 months Weekend batch - 11 months Advanced Data Science and AI Certification Course (270+ hours) Weekday batch - 7 months Weekend batch - 9 months Data Science and AI Certification Course for Managers and Leaders (340+ hours) Weekday batch - 11 months Weekend batch - 13 months Data Science and Artificial Intelligence Training with Job or Money-back Guarantee (380+ hours) Weekday batch - 13 months Weekend batch - 15 months"
  }
  },{
  "@type": "Question",
- "name": "What is the learning mode of Artificial Intelligence Certification courses in Bengalore at Learnbay?",
+ "name": "What is the learning mode of Artificial Intelligence Certification courses in Bangalore at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We provide both classroom and online AI training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
- "name": "How can I opt for a Hybrid mode of learning in IBM artificial intelligence training courses in Bengalore, At Learnbay?",
+ "name": "How can I opt for a Hybrid mode of learning in IBM artificial intelligence training courses in Bangalore, At Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions."
  }
  },{
  "@type": "Question",
- "name": "What is domain specialization in the professional AI certification courses provided by Learnbay in Bengalore?",
+ "name": "What is domain specialization in the professional AI certification courses provided by Learnbay in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We offer industry-specific full-stack AI modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational AI course."
  }
  },{
  "@type": "Question",
- "name": "What are the available elective domain options in the different artificial intelligence training courses of Learnbay in Bengalore?",
+ "name": "What are the available elective domain options in the different artificial intelligence training courses of Learnbay in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI; Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy"
@@ -253,7 +253,7 @@ export default function Home() {
 },
 {
  "@type": "Question",
- "name": "What is the total fee for Learnbay AI Certifications courses in Bengalore?",
+ "name": "What is the total fee for Learnbay AI Certifications courses in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The total course fee for the Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST. Advance Data Science and AI Certification course is 93,220/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST. Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST. Machine learning and AI Certification is 1,12,100/-inclusive of GST"
@@ -261,7 +261,7 @@ export default function Home() {
 },
 {
  "@type": "Question",
- "name": "Can I pay in installments for these AI Certification courses in Bengalore?",
+ "name": "Can I pay in installments for these AI Certification courses in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
@@ -269,7 +269,7 @@ export default function Home() {
 },
 {
  "@type": "Question",
- "name": "Is there any scholarship/discount available for these Artificial intelligence training courses available in Bengalore? What is Group Discount?",
+ "name": "Is there any scholarship/discount available for these Artificial intelligence training courses available in Bangalore? What is Group Discount?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"
@@ -293,7 +293,7 @@ export default function Home() {
 },
 {
  "@type": "Question",
- "name": "How many real-time projects/case studies will be covered in these artificial intelligence certification courses in Bengalore?",
+ "name": "How many real-time projects/case studies will be covered in these artificial intelligence certification courses in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Depending on the course you choose the number of live projects will vary. Foundational Data Science and Artificial Intelligence Training Course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects. Machine learning and AI Certification- 15 projects. Click here to download the list of the projects."
@@ -301,7 +301,7 @@ export default function Home() {
 },
 { 
  "@type": "Question",
- "name": "How will the projects be executed in Bengalore?",
+ "name": "How will the projects be executed in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
@@ -317,7 +317,7 @@ export default function Home() {
 },
 {
  "@type": "Question",
- "name": "What's the eligibility for a job assistance Program in Learnbay artificial intelligence training courses in Bengalore?",
+ "name": "What's the eligibility for a job assistance Program in Learnbay artificial intelligence training courses in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
@@ -325,7 +325,7 @@ export default function Home() {
 },
 {
  "@type": "Question",
- "name": "How long will I get support for job assistance at Learnbay in Bengalore?",
+ "name": "How long will I get support for job assistance at Learnbay in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year. What is a job-readiness program? The Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
@@ -357,7 +357,7 @@ export default function Home() {
 },
 {
  "@type": "Question",
- "name": "Can a Learnbay student in Bengalore choose to study from their desired mentor?",
+ "name": "Can a Learnbay student in Bangalore choose to study from their desired mentor?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
@@ -413,7 +413,7 @@ export default function Home() {
  "url" : "https://www.learnbay.co/"
  },{
   "@type": "Place",
-  "name": "Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Bengalore",
+  "name": "Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Bangalore",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)",

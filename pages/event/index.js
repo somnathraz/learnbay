@@ -27,11 +27,13 @@ export default function index({ eventData }) {
       <Navbar event={true} />
       <div className={styles.Back}>
         <h4 style={{ textAlign: "left" }}>
-        <b>Events on learnbay</b>
+        <b>Enhance your practical knowledge<br/>
+And move ahead in your career
+</b>
         </h4>
         <div>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/about-us.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Events+Page.png"
             width="522"
             height="380"
             layout="intrinsic"

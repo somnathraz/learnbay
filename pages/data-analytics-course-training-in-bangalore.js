@@ -157,10 +157,10 @@ export default function Home() {
  "@type": "FAQPage",
  "mainEntity": [{
  "@type": "Question",
- "name": "What are the prerequisites for the Data Analytics Training Course in Bengalore?",
+ "name": "What are the prerequisites for the Data Analytics Training Course in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "There are no prerequisites for this Data Analytics certification course in Bengalore as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
+ "text": "There are no prerequisites for this Data Analytics certification course in Bangalore as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
  }
  },{
  "@type": "Question",
@@ -171,35 +171,35 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is a Flexi Subscription in the Data Analytics Certification Program in Bengalore?",
+ "name": "What is a Flexi Subscription in the Data Analytics Certification Program in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
  }
  },{
  "@type": "Question",
- "name": "What’s the duration of the Data Analytics Program in Bengalore?",
+ "name": "What’s the duration of the Data Analytics Program in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day"
  }
  },{
  "@type": "Question",
- "name": "What is the mode of data science training at Learnbay, Bengalore?",
+ "name": "What is the mode of data science training at Learnbay, Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
- "name": "How can I opt for a Hybrid mode of learning in Bengalore?",
+ "name": "How can I opt for a Hybrid mode of learning in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions"
  }
  },{
  "@type": "Question",
- "name": "What is the total fee for the Data Analytics Program in Bengalore?",
+ "name": "What is the total fee for the Data Analytics Program in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The total program fee for the Data Analytics Program is INR 70,800/- inclusive of GST."
@@ -213,7 +213,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "Is there any scholarship/discount available for the Data Analytics Certification in Bengalore? What is Group Discount?",
+ "name": "Is there any scholarship/discount available for the Data Analytics Certification in Bangalore? What is Group Discount?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"

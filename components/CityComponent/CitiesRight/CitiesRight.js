@@ -91,39 +91,39 @@ const CitiesRight = ({
                 <span>About The Program</span>
             </div>
             <div className={styles.CitiesRightInner}>
-                <p className={styles.pHead}>{ProgramHead1}</p>
-                <p className={styles.pHead}>{ProgramHead2}</p>
+                <h2 className={styles.pHead}>{ProgramHead1}</h2>
+                <h2 className={styles.pHead}>{ProgramHead2}</h2>
                 <p className={styles.pp}>{ProgramBot1}</p>
                 <p className={styles.pp}>{ProgramBot2}</p>
-                <p className={styles.pHead}>{ProgramHead3}</p>
+                <h2 className={styles.pHead}>{ProgramHead3}</h2>
                 <p className={styles.pp}>{ProgramBot3}</p>
                 <p className={styles.pp}>{ProgramBot31}</p>
                 <p className={styles.pp}>{ProgramBot32}</p>
-                <p className={styles.pHead}>{ProgramHead4}</p>
+                <h2 className={styles.pHead}>{ProgramHead4}</h2>
                 <p className={styles.pp}>{ProgramBot4}</p>
-                <p className={styles.pHead}>{ProgramHead5}</p>
+                <h2 className={styles.pHead}>{ProgramHead5}</h2>
                 <p className={styles.pp}>{ProgramBot5}</p>
-                <p className={styles.pHead}>{ProgramHead6}</p>
+                <h2 className={styles.pHead}>{ProgramHead6}</h2>
                 <p className={styles.pp}>{ProgramBot6}</p>
-                <p className={styles.pHead}>{ProgramHead7}</p>
+                <h2 className={styles.pHead}>{ProgramHead7}</h2>
                 <p className={styles.pp}>{ProgramBot8}</p>
                 <p className={styles.pp}>{ProgramBot9}</p>
-                <p className={styles.pHead}>{ProgramHead8}</p>
+                <h2 className={styles.pHead}>{ProgramHead8}</h2>
                 <p className={styles.pp}>{ProgramBot10}</p>
-                <p className={styles.pHead}>{ProgramHead9}</p>
+                <h2 className={styles.pHead}>{ProgramHead9}</h2>
                 <p className={styles.pp}>{ProgramBot11}</p>
-                <p className={styles.pHead}>{ProgramHead10}</p>
+                <h2 className={styles.pHead}>{ProgramHead10}</h2>
                 <p className={styles.pp}>{ProgramBot12}</p>
-                <p className={styles.pHead}>{ProgramHead11}</p>
+                <h2 className={styles.pHead}>{ProgramHead11}</h2>
                 <p className={styles.pp}>{ProgramBot13}</p>
-                <a href={Courselink1}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course1}</p></a>
-                <a href={Courselink2}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course2}</p></a>
-                <a href={Courselink3}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course3}</p></a>
-                <a href={Courselink4}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course4}</p></a>
-                <a href={Courselink5}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course5}</p></a>
-                <a href={Courselink6}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course6}</p></a>
-                <a href={Courselink7}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course7}</p></a>
-                <a href={Courselink8}><p className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course8}</p></a>
+                <a href={Courselink1}><h2 className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course1}</h2></a>
+                <a href={Courselink2}><h2 className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course2}</h2></a>
+                <a href={Courselink3}><h2 className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course3}</h2></a>
+                <a href={Courselink4}><h2 className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course4}</h2></a>
+                <a href={Courselink5}><h2 className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course5}</h2></a>
+                <a href={Courselink6}><h2 className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course6}</h2></a>
+                <a href={Courselink7}><h2 className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course7}</h2></a>
+                <a href={Courselink8}><h2 className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course8}</h2></a>
                 
             </div>
         </div>
@@ -132,7 +132,7 @@ const CitiesRight = ({
                 <span>Domain Specialization</span>
             </div>
             <div className={styles.CitiesRightInner}>
-                <p className={styles.pHead}>{DomainHead1}</p>
+                <h2 className={styles.pHead}>{DomainHead1}</h2>
                 <p className={styles.pp}>{DomainBot1}</p>
                 <p className={styles.pp}>{DomainBot2}</p>
                 <p className={styles.pp}>{DomainBot3}</p>
@@ -155,7 +155,7 @@ const CitiesRight = ({
                 <span>Certification Details</span>
             </div>
             <div className={styles.CitiesRightInner} >
-                <p className={styles.pHead}>{CertificationHead1}</p>
+                <h2 className={styles.pHead}>{CertificationHead1}</h2>
                 <p className={styles.pp}>{CertificationBot1}</p>
                 <p className={styles.pp}>{CertificationBot2}</p>
                 <img src={src} alt={alt1}></img>
@@ -166,12 +166,12 @@ const CitiesRight = ({
                 <span>Module-Details</span>
             </div>
             <div className={styles.CitiesRightInner}>
-                <p className={styles.pHead}>{ModuleHead1}</p>
+                <h2 className={styles.pHead}>{ModuleHead1}</h2>
                 <p className={styles.pp}>{ModuleBot1}</p>
                 <p className={styles.pp}>{ModuleBot2}</p>
-                <p className={styles.pHead}>{ModuleHead2}</p>
+                <h2 className={styles.pHead}>{ModuleHead2}</h2>
                 <p className={styles.pp}>{ModuleBot3}</p>
-                <p className={styles.pHead}>{ModuleHead3}</p>
+                <h2 className={styles.pHead}>{ModuleHead3}</h2>
                 <p className={styles.pp}>{ModuleBot4}</p>
                 <p className={styles.pp}>{ModuleBot41}</p>
                 <p className={styles.pp}>Module Details:</p>
@@ -257,22 +257,22 @@ const CitiesRight = ({
                 <span>Job Assist Program</span>
             </div>
             <div className={styles.CitiesRightInner}>
-                <p className={styles.pHead}>{JobHead1}</p>
+                <h2 className={styles.pHead}>{JobHead1}</h2>
                 <p className={styles.pp}>{JobBot1}</p>
                 <p className={styles.pp}>{JobBot2}</p>
                 <p className={styles.pp}>{JobBot5}</p>
-                <p className={styles.pHead}>{JobHead2}</p>
+                <h2 className={styles.pHead}>{JobHead2}</h2>
                 <p className={styles.pp}>{JobBot3}</p>
                 <p className={styles.pp}>{JobBot4}</p>
                 <p className={styles.pp}>{JobBot6}</p>
-                <p className={styles.pHead}>{JobHead3}</p>
+                <h2 className={styles.pHead}>{JobHead3}</h2>
                 <p className={styles.pp}>{JobBot7}</p>
-                <p className={styles.pHead}>{JobHead4}</p>
+                <h2 className={styles.pHead}>{JobHead4}</h2>
                 <p className={styles.pp}>{JobBot8}</p>
-                <p className={styles.pHead}>{JobHead5}</p>
+                <h2 className={styles.pHead}>{JobHead5}</h2>
                 <p className={styles.pp}>{JobBot9}</p>
                 <p className={styles.pp}>{JobBot10}</p>
-                <p className={styles.pHead}>{JobHead6}</p>
+                <h2 className={styles.pHead}>{JobHead6}</h2>
                 <p className={styles.pp}>{JobBot11}</p>
             </div>
         </div>
@@ -281,9 +281,9 @@ const CitiesRight = ({
                 <span>Know Our Projects</span>
             </div>
             <div className={styles.CitiesRightInner}>
-                <p className={styles.pHead}>{ProjectsHead1}</p>
+                <h2 className={styles.pHead}>{ProjectsHead1}</h2>
                 <p className={styles.pp}>{ProjectsBot1}</p>
-                <p className={styles.pHead}>{ProjectsHead2}</p>
+                <h2 className={styles.pHead}>{ProjectsHead2}</h2>
                 <p className={styles.pp}>{ProjectsBot2}</p>
             </div>
             <div className={styles.Projects}>

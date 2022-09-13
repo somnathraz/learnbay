@@ -157,7 +157,7 @@ export default function Home() {
  "@type": "FAQPage",
  "mainEntity": [{
  "@type": "Question",
- "name": "What are the prerequisites for the Machine Learning course with Domain Specialization in Bengalore?",
+ "name": "What are the prerequisites for the Machine Learning course with Domain Specialization in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Basic programming & mathematics knowledge is enough. For strengthening your programming skills we provide special programming classes. We teach required statistics from a very basic level."
@@ -171,28 +171,28 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is a Flexi Subscription in the Machine learning certification course of Learnbay in Bengalore?",
+ "name": "What is a Flexi Subscription in the Machine learning certification course of Learnbay in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Those who enroll for machine learning live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
  }
  },{
  "@type": "Question",
- "name": "What’s the duration of this Machine Learning course in Bengalore?",
+ "name": "What’s the duration of this Machine Learning course in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate. Classes will be conducted on weekdays and weekend batches. Weekday batch - 9.5 months Monday to Friday - 2 hours/day Weekend batch -11 months Saturday & Sunday - 3.5 hours/day"
  }
  },{
  "@type": "Question",
- "name": "What is the mode of ML training at Learnbay, in Bengalore?",
+ "name": "What is the mode of ML training at Learnbay, in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We provide both classroom and online machine learning training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
- "name": "What is domain specialization associated with the Learnbay machine learning certification course in Bengalore?",
+ "name": "What is domain specialization associated with the Learnbay machine learning certification course in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices."
@@ -241,7 +241,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is the total Fee for this machine learning course in Bengalore?",
+ "name": "What is the total Fee for this machine learning course in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,12,100/- Inclusive of GST."
@@ -262,7 +262,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is the refund policy for this Machine Learning training course at Learnbay in Bengalore?",
+ "name": "What is the refund policy for this Machine Learning training course at Learnbay in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
@@ -283,7 +283,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "Is there any accredited certification after this machine learning course completion in Bengalore?",
+ "name": "Is there any accredited certification after this machine learning course completion in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course."
@@ -325,7 +325,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "Until when will the Learnbay students in Bengalore get the facility of mentorship?",
+ "name": "Until when will the Learnbay students in Bangalore get the facility of mentorship?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Our Mentors will provide ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes."
