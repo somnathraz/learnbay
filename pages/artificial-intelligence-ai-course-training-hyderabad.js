@@ -496,7 +496,7 @@ export default function Home() {
           Interview="Assured interview calls from 250+ recruiter network"
           Fee="95,000"
           Subscription="3 Year Subscription"
-        />
+        /> 
         <div className="Feature" id="Feature">
           <BoxShape
           alt="artificial intelligence ai course training in hyderabad"
