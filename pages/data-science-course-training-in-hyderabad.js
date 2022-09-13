@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
@@ -446,8 +447,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Foundational and Advanced Data Science Courses with job Guarantee"
-          mTopPara="Foundational and Advanced Data Science Courses with job Guarantee"
+        <FirstSection dataScience={true}          deskTopPara="Industry-Specific Capstone Certified by IBM"
+          mTopPara="Industry-Specific Capstone Certified by IBM"
           title="Data Science Course Training in Hyderabad"
           mTitle="Data Science Course Training in Hyderabad"
           spanTitleText="with Domain Specialization"
@@ -471,19 +472,11 @@ export default function Home() {
             p44="₹ 7,768/month"
           />
         </div>
-        <GetHired dataScience={true}          WeekdayBatchDate="4 micro-skills certificates from IBM"
-          WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
-          Project="Project experience certification by IBM"
-          Classes="Completely live and interactive learning"
-          OneLine="12 live industry projects & 2 fresh capstone projects"
-          Interview="Interview guarantee backed up by 250+ hiring partners"
-          Fee="79,000"
-          Subscription="3 Year Subscription"
-        />
+                <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" dataScience={true} />
         <div className="Feature" id="Feature">
           <BoxShape
           alt="data science course training in hyderabad"
-          title="Why Enroll In This Program?"
+          title="Why Enroll In Data Science Course Training in Hyderabad?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -500,11 +493,10 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramBot1="Learnbay Is a premier Data science training institute in Hyderabad for anyone interested in becoming an industry competent data scientist. Learnbay’s IBM certified advanced Data science course was created with great care by industry specialists. Our professors are Industry-leaders with a decade of experience. Learnbay mentors make sure you learn everything from scratch and according to the complex industrial requirements."
+              ProgramBot1="Learnbay Is a premier Data science training institute in Hyderabad for anyone interested in becoming an industry competent data scientist. Learnbay’s IBM certified advanced Data science course in Hyderabad is created with great care by industry specialists. Our professors are Industry-leaders with a decade of experience. Learnbay mentors make sure you learn everything from scratch and according to the complex industrial requirements."
               ProgramBot2="Learnbay’s advanced Data science certification in the Hyderabad curriculum helps students learn in-demand Data science skills such as programming, data visualization, statistics, and other topics."
-              ProgramHead3="What do candidates get in the  Advanced data science courses in Hyderabad?"
-              ProgramBot3="For a richer learning experience, Learnbay focuses on providing both practical and theoretical learning modules. Moreover, Our advanced Data science certification in Hyderabad is cost-effective and even offers an MNC interview guarantee. Besides, you can choose a data science course with a job or 100% money-back assurance at Learnbay. In case you find yourself too weak in statistics, and you are not able to cope with the complexity of the advanced data science modules, you can opt for the Foundational data science learning module."
-              ProgramBot31="So Learnbay is able to fulfill every aspirant's data science learning needs in Hyderabad."
+              ProgramHead3="What does candidates get in the  Advanced data science course in Hyderabad?"
+              ProgramBot3="For a richer learning experience, Learnbay focuses on providing both practical and theoretical learning modules. Moreover, Our advanced Data science certification in Hyderabad is cost-effective and even offers an MNC interview guarantee. Besides, you can choose a data science course with a job or 100% money-back assurance at Learnbay. In case you find yourself too weak in statistics, and you are not able to cope with the complexity of the advanced data science modules, you can opt for the Foundational data science learning module. So Learnbay is able to fulfill every aspirant's data science learning needs in Hyderabad."
               ProgramBot32="Here, Students get one-on-one counseling sessions with a Data science career expert and a one to three-year Flexi pass ( based on course selection), allowing them to attend any live classes whenever they want. You may also use your mobile device to access Learnbay LMS for more convenient learning. Learnbay's advanced data science course in Hyderabad offers you the flexibility of attending various sessions with different professors."
               ProgramBot4="Another factor of our data science IBM certification In Hyderabad is that you can choose from a range of Foundational or Advanced Data science courses depending on your present professional level. Each of these courses is organized into modules based on your previous job."
               ProgramHead5="Data Science Courses by Learnbay in Hyderabad :"
@@ -519,7 +511,7 @@ export default function Home() {
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Our domain-specific courses are intended to assist students in approaching the complexities of business problems from a certain industry or domain with the most profitable data scientific solutions."
               DomainBot2="A domain-specific Data scientist will have a much better grasp of the domain and its nuances and the essential business concerns that must be addressed. Recruiters are looking for domain-specific Data scientists at present. One cannot deliver precise analytical insights without subject understanding. As a result, it's critical to select courses that include domain electives."
-              DomainBot3="Learnbay Advanced data science course training covers domains in almost all sectors like"
+              DomainBot3="Learnbay's Advanced data science course training covers domains in almost all sectors like"
               DomainList1="HR, Sales, and Marketing"
               DomainList2="Energy, oil, and Gas"
               DomainList3="Mechanical, manufacturing, and telecom"

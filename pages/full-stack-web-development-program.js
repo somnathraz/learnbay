@@ -61,9 +61,9 @@ export default function Home() {
         <FirstSection fullStack={true}
           deskTopPara="Be a demanding Developer to stay ahead"
           mTopPara="Be a demanding Developer to stay ahead"
-          mTitle="Full Stack Web Development Program"
+          mTitle="Full Stack Web Development Course"
           spanMTitleText="Crack MAANG Interviews"
-          title="Full Stack Web Development Program"
+          title="Full Stack Web Development Course"
           spanTitleText="Crack MAANG Interviews"
           desc="Learn ultimate methods from MNC specialists with real-world projects"
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/header-home.webp"
@@ -86,7 +86,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program?"
+            title="Why Enroll In Full Stack Web Development Course?"
             Box1h5="Custom-fit Training"
             box1desc="Learn latest tools & modules. Become an demanding developer."
             Box2h5="Interactive Learning"
@@ -142,7 +142,7 @@ export default function Home() {
           <Project project="12+ Projects" domain="7+" />
         </div>
         <CourseFee fullStack={true} timeFsd={true}
-          CourseFeeHead="Full Stack Web Development: Batch Details"
+          CourseFeeHead="Full Stack Web Development Course: Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"

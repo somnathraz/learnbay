@@ -15,6 +15,8 @@ const CitiesRight = ({
     ProgramHead9,
     ProgramHead10,
     ProgramHead11,
+    ProgramHead12,
+    ProgramHead13,
     ProgramBot6,
     ProgramHead7,
     ProgramBot8,
@@ -31,6 +33,12 @@ const CitiesRight = ({
     ProgramBot4,
     ProgramBot5,
     DomainHead1,
+    DomainHead2,
+    DomainHead3,
+    DomainHead4,
+    DomainHead5,
+    DomainHead6,
+    DomainHead7,
     DomainBot1,
     DomainBot2,
     DomainBot3,
@@ -116,6 +124,8 @@ const CitiesRight = ({
                 <p className={styles.pp}>{ProgramBot12}</p>
                 <h2 className={styles.pHead}>{ProgramHead11}</h2>
                 <p className={styles.pp}>{ProgramBot13}</p>
+                <h2 className={styles.pHead}>{ProgramHead12}</h2>
+                <h2 className={styles.pHead}>{ProgramHead13}</h2>
                 <a href={Courselink1}><h2 className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course1}</h2></a>
                 <a href={Courselink2}><h2 className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course2}</h2></a>
                 <a href={Courselink3}><h2 className={styles.pp} style={{color:"#2D9CD7", fontWeight:"600"}}>{Course3}</h2></a>
@@ -136,6 +146,12 @@ const CitiesRight = ({
                 <p className={styles.pp}>{DomainBot1}</p>
                 <p className={styles.pp}>{DomainBot2}</p>
                 <p className={styles.pp}>{DomainBot3}</p>
+                <h2 className={styles.pHead}>{DomainHead2}</h2>
+                <h2 className={styles.pHead}>{DomainHead3}</h2>
+                <h2 className={styles.pHead}>{DomainHead4}</h2>
+                <h2 className={styles.pHead}>{DomainHead5}</h2>
+                <h2 className={styles.pHead}>{DomainHead6}</h2>
+                <h2 className={styles.pHead}>{DomainHead7}</h2>
                 <ul>
                 <a href={Domainlink1}><li style={{color:"#2D9CD7", fontWeight:"600"}}>{DomainList1}</li></a>
                 <a href={Domainlink2}><li style={{color:"#2D9CD7", fontWeight:"600"}}>{DomainList2}</li></a>

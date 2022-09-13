@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
@@ -408,8 +409,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Foundational and Advanced Data Science Courses with job Guarantee"
-          mTopPara="Foundational and Advanced Data Science Courses with job Guarantee"
+        <FirstSection dataScience={true}          deskTopPara="Industry-Specific Capstone Certified by IBM"
+          mTopPara="Industry-Specific Capstone Certified by IBM"
           title="Data Science Course Training in Chennai"
           mTitle="Data Science Course Training in Chennai"
           spanTitleText="with Domain Specialization"
@@ -433,19 +434,11 @@ export default function Home() {
             p44="₹ 7,768/month"
           />
         </div>
-        <GetHired dataScience={true}          WeekdayBatchDate="4 micro-skills certificates from IBM"
-          WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
-          Project="Project experience certification by IBM"
-          Classes="Completely live and interactive learning"
-          OneLine="12 live industry projects & 2 fresh capstone projects"
-          Interview="Interview guarantee backed up by 250+ hiring partners"
-          Fee="79,000"
-          Subscription="3 Year Subscription"
-        />
+                <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" dataScience={true} />
         <div className="Feature" id="Feature">
           <BoxShape
           alt="data science course in bangalore"
-          title="Why Enroll In This Program?"
+          title="Why Enroll In Data Science Course Training in Chennai?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -510,7 +503,7 @@ export default function Home() {
               CertificationBot2="To learn more about micro-skill certificates, please refer to the respective course brochures."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate.webp"
               ModuleHead1="Learn the most in-demand skills used by data scientists in Chennai"
-              ModuleBot1="The modules of data science training are comprehensively designed by expert data scientists. In the data science certification course, you’ll learn different data science tools and techniques to understand business problems. Chennai learners can maximize their potential as data scientists by enrolling in this IBM data science course. Our courses are designed to be easy to follow and understand while giving you the best possible foundation in data science. We use real-life examples to show how your data science skills will be applied in the future."
+              ModuleBot1="The modules of data science course in Chennai are comprehensively designed by expert data scientists. In the data science certification course, you’ll learn different data science tools and techniques to understand business problems. Chennai learners can maximize their potential as data scientists by enrolling in this IBM data science course. Our courses are designed to be easy to follow and understand while giving you the best possible foundation in data science. We use real-life examples to show how your data science skills will be applied in the future."
               ModuleBot2="In addition to Python and R programming, our data science course will help you master job-ready data science skills like Statistics, MongoDB, TensorFlow, Deep Learning, Deployment GCP, Time Series, and other data science tools."
               syllabush1="Preparatory Classes (Programming + Maths)"
               syllabusb1="6 Hours"
@@ -547,7 +540,7 @@ export default function Home() {
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
-              JobHead1="Interview preparation in Learnbay’s IBM data science courses, Chennai"
+              JobHead1="Interview preparation in Learnbay’s IBM data science courses in Chennai"
               JobBot1=" Learnbay’s data science curriculum includes a job assistance program for its students."
               JobBot2="By the end of the IBM data science course, students will be provided with CV preparation and soft skills training sessions. Various company-specific mock interviews instill confidence in our students prior to the interviews. In addition, our officials ensure that your portfolio is up to industry standard and appealing to hiring Managers. Even you get an option of a data science course with a money-back guarantee in Chennai. If you remain unable to land a data science job role within six months (post-course completion), you can apply for the data science course fee refund."
               JobBot5="We have partnered with top leading organizations like IBM, EY, TCS, Accenture, and others. Over 1000 Learnbay alumni are successfully working in a variety of data science roles in Chennai city."

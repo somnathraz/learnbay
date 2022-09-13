@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
@@ -190,7 +191,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is the mode of data science training in Bangalore at Learnbay?",
+ "name": "What is the mode of Data Science Course In Bangalore at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
@@ -422,7 +423,7 @@ export default function Home() {
         <FirstSection dataScience={true}          deskTopPara="Foundational and Advanced Data Science Courses"
           spanTitleText="with Domain Specialization"
           spanMTitleText="Domain Specialization"
-          mTitle="Advanced Data Science and AI Program with"
+          mTitle="Data Science Course in Bangalore with"
           mTopPara="Foundational and Advanced Data Science Courses"
           title="Data Science Course in Bangalore"
           desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
@@ -444,19 +445,11 @@ export default function Home() {
             p44="₹ 7,768/month"
           />
         </div>
-        <GetHired dataScience={true}          WeekdayBatchDate="4 micro-skills certificates from IBM"
-          WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
-          Project="Project experience certification by IBM"
-          Classes="Completely live and interactive learning"
-          OneLine="12 live industry projects & 2 fresh capstone projects"
-          Interview="Interview guarantee backed up by 250+ hiring partners"
-          Fee="79,000"
-          Subscription="3 Year Subscription"
-        />
+                <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" dataScience={true} />
         <div className="Feature" id="Feature">
           <BoxShape
           alt="data science course in bangalore"
-          title="Why Enroll In This Program?"
+          title="Why Enroll In Data Science Course in Bangalore?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -475,7 +468,7 @@ export default function Home() {
             <CitiesRight
               ProgramHead1="Industrial Data science training in Bangalore-"
               ProgramBot1="Learnbay is the best Data Science course institute in Bangalore. Our faculties are industrial experts from top-notch MNCs. They share their experience and knowledge throughout their offline and online Data science courses. The courses are custom-designed for learners who want to shift into a Data Science Career, even after working in any domain for years. In one word, it's the ultimate destination where you can find the best foundational and advanced Data science courses for working professionals."
-              ProgramBot2="The Learnbay Data science course for working professionals in Bangalore implies practical knowledge and theoretical concepts for balanced learning. This institute offers the best value in Data Science certification programs available across Bangalore. So that aspirants can build a strong future in data science. Learnbay Data Science training in Bangalore is created and designed to meet industrial and organizational needs changes."
+              ProgramBot2="The Learnbay Data science course for working professionals in Bangalore implies practical knowledge and theoretical concepts for balanced learning. This institute offers the best value in Data Science certification programs available across Bangalore. So that aspirants can build a strong future in data science. Learnbay Data Science Course In Bangalore is created and designed to meet industrial and organizational needs changes."
               ProgramHead3="Why is Learnbay the best institute for advanced  Data Science courses in Bangalore?"
               ProgramBot3="Here, you get hassle-free live classes and multiple instructors. You also get a Data science course with a job guarantee and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. All of their Data science course in Bangalore has 1 on 1 live doubt clearance sessions from experienced MAANG Data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads."
               ProgramHead4="Available Data Science Certification Courses by Learnbay in Bangalore "
@@ -488,7 +481,7 @@ export default function Home() {
               Course4="Data Science and AI Program for Managers and Leaders"
               Course5="AI and Data Science Course with Job Guarantee or Money back"
               DomainHead1="Why Domain Specialization?"
-              DomainBot1="Choosing the correct domain affects your course and career. Our mentors and experts at Learnbay will guide you to choose the right domain after analyzing your profile. Your domain will help you understand the course and project better, and you will excel in the same domain as an expert once you complete advanced data science training in Bangalore by Learnbay. "
+              DomainBot1="Choosing the correct domain affects your course and career. Our mentors and experts at Learnbay will guide you to choose the right domain after analyzing your profile. Your domain will help you understand the course and project better, and you will excel in the same domain as an expert once you complete advanced Data Science Course In Bangalore by Learnbay. "
               DomainBot2="Moreover, in today's competitive data science job market companies are lacking data scientists having core domain expertise. Just for an example, if you have been appointed as a data scientist in a pharmaceutical company then without the pharma or chemical knowledge you can’t offer the best achievable analytical reports/ insights."
               DomainBot3="Learnbay Data science programs in Bangalore have a wide range of domains for students."
               DomainList1="HR, Sales, and Marketing"
@@ -553,7 +546,7 @@ export default function Home() {
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
               JobHead1="Data science job assistance and Data Science Interview preparation in Bangalore."
-              JobBot1="Learnbay Data science training in Bangalore assures guaranteed job as per the specified domain chosen by the student. They help students and learners to get placed in startups and top MNCs to build a career as Data scientists. We prepare students by conducting mock interviews as per the program. Learnbay even works on soft-skill, portfolio, and resume building. Many of our students had a breakthrough in their careers as they got recruited by leading global companies like TCS, Amazon, Mercedes, JP Morgan, and EY."
+              JobBot1="Learnbay Data Science Course In Bangalore assures guaranteed job as per the specified domain chosen by the student. They help students and learners to get placed in startups and top MNCs to build a career as Data scientists. We prepare students by conducting mock interviews as per the program. Learnbay even works on soft-skill, portfolio, and resume building. Many of our students had a breakthrough in their careers as they got recruited by leading global companies like TCS, Amazon, Mercedes, JP Morgan, and EY."
               JobHead2="What are the advantages of becoming a Data Scientist in Bangalore?"
               JobBot3="Data scientists are in great demand as many corporations want to recruit data scientists, but properly skilled data scientists are scarce. It is a highly paid career with a promising future. Data science is versatile, and Data scientists have a great role in businesses. Becoming a Data scientist is a fun task that makes products and services smart and adequately effective."
               JobHead3="What is Data Science?"
@@ -576,7 +569,7 @@ export default function Home() {
               src4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
               Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
-              AlumniBot1="Learnbay has emplaced thousands of Data science aspirants in top Startups and MNCs. Students have started working in their careers as Data scientists and have completed their course from Learnbay data science training in Bangalore."
+              AlumniBot1="Learnbay has emplaced thousands of Data science aspirants in top Startups and MNCs. Students have started working in their careers as Data scientists and have completed their course from Learnbay Data Science Course In Bangalore."
               Asrc1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/devraj.jpg"
               AlumniH1="Deveraj"
               Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."

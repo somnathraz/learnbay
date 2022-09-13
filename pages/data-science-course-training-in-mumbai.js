@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
@@ -414,19 +415,11 @@ export default function Home() {
             p44="₹ 7,768/month"
           />
         </div>
-        <GetHired dataScience={true}          WeekdayBatchDate="4 micro-skills certificates from IBM"
-          WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
-          Project="Project experience certification by IBM"
-          Classes="Completely live and interactive learning"
-          OneLine="12 live industry projects & 2 fresh capstone projects"
-          Interview="Interview guarantee backed up by 250+ hiring partners"
-          Fee="79,000"
-          Subscription="3 Year Subscription"
-        />
+                <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" dataScience={true} />
         <div className="Feature" id="Feature">
           <BoxShape
           alt="data science course training in mumbai"
-          title="Why Enroll In This Program?"
+          title="Why Enroll In Data Science Course Training in Mumbai?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -444,14 +437,14 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               ProgramHead1="Job-ready Data science training in Mumbai-"
-              ProgramHead2="What is the Learnbay Job-ready Data Science Program in Mumbai?"
+              ProgramHead2="What is the Learnbay Job-ready Data Science Course In Mumbai?"
               ProgramBot1="The best data scientist training provider in Mumbai is Learnbay. Industrial expertise from top-tier MNCs is the specialization of our faculty. Throughout the offline as well as online data science courses, you get the advantage of their experience and knowledge. The courses are tailored to learners who wish to transition into a Data Science career or become a great Data scientist after years of experience in any field. In a nutshell, it's the top destination for working professionals looking for the greatest data science and AI training."
               ProgramBot2="The Learnbay data science course for working professionals in Mumbai includes both practical (core industrial) and theoretical topics for balanced learning. This institute provides the most cost-effective Data Science classes in Mumbai. The best part is that you get a full-stack data science program with placement."
               ProgramHead3="Why is Learnbay the best institute for Data scientist courses in Mumbai?"
               ProgramBot3="Being all of the well-known costly cities of India, it is expected that even for professional courses, this city will charge high. But the artificial intelligence and data science courses provided by Learnbay in Mumbai seem comparatively cheaper. Above all, even at a comparatively cheaper cost, you get the best of the data science learning experience along with an assured job guarantee."
               ProgramBot31="Besides, you can get different data science course options based on your present career stage. Each of these courses consists of custom-fit modules that take care of your existing career experience."
               ProgramBot32="Also, you get 1 to 1 discussion sessions and 3 years of flexi pass to attend any live and interactive classes at your convenience, experts mentors from top-tire MNCs. Options are available for choosing offline, online, or blended learning mode. However, due to the 100% live and interactive sessions, even in an online data science course, you get offline learning satisfaction at Learnbay. You may use Learnbay LMS on your mobile device to learn on the go."
-              ProgramHead4="How much will the spending be on data science course fees?"
+              ProgramHead4="How much will the spending be on data science course fees in Mumbai?"
               ProgramBot4="Learnbay's subscription plans range from 65K to 1.2 lakh INR. The class timings are flexible, and you can access any batches or teachers at any time. You can even go to many sessions with various instructors. Our Data Science and Artificial intelligence courses include one-on-one live doubt clearing sessions with seasoned MAANG Data scientists. After enrolling, students can take a break followed by resumption and complete their course within one to three years (depending on the course)."
               ProgramHead5="Available Data Science and AI Certification Courses by Learnbay in Mumbai"
               Courselink1="/data-science-certification-courses"
@@ -486,7 +479,7 @@ export default function Home() {
               Domainlink8="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
               Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
               Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
-              CertificationHead1="IBM Data  Science Certifications in Mumbai"
+              CertificationHead1="IBM Data  Science Certification Course in Mumbai"
               CertificationBot1="Under the Learnbay provided IBM Data Scientist Course, you may take advantage of live lessons with multiple instructors without dealing with any hassles. Aside from that, you will receive several IBM certifications for different data science and AI micro-skills. So, it's basically a data science course with a career guarantee. Based on the course you choose, you get 1 to 8 certificates. The best part is that once you complete the capstone project associated with the Data Science and AI course available in Mumbai, you get an IBM Project Experience Certificate. Please refer to the respective course brochures to know more about micro-skill certificates."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate.webp"
               ModuleHead1="What are the most crucial tools and modules for securing a Data Science Job position in Mumbai?"

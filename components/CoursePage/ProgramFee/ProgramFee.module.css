@@ -18,7 +18,7 @@
     display: flex;
     width: 100;
     justify-content: center;
-    padding: 30px 100px;
+    padding: 30px 100px 60px 100px;
     background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/fee-background.png");
     background-position: center center;
     background-size: contain;
