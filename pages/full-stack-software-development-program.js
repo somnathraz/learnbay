@@ -58,8 +58,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection fullStack={true}
-          deskTopPara="Full Stack Software Development Program"
-          mTopPara="Full Stack Software Development Program"
+          deskTopPara="Full Stack Software Development Course"
+          mTopPara="Full Stack Software Development Course"
           mTitle="Ace Your Coding Interview at MAANG and"
           spanMTitleText="Achieve Your Dream Job"
           title="Ace Your Coding Interview at MAANG and"
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program?"
+            title="Why Enroll In Full Stack Software Development Course?"
             Box1h5="Crack MAANG Interview"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
@@ -111,7 +111,7 @@ export default function Home() {
           <Project project="12+ Projects" domain="7+" />
         </div>
         <CourseFee fullStack={true} timeFsd={true}
-          CourseFeeHead="Full Stack Web Development: Batch Details"
+          CourseFeeHead="Full Stack Software Development Course: Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"

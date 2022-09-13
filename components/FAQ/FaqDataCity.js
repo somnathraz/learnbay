@@ -3,7 +3,7 @@
 export const AdvanceFaqDataM = [
   {
     id: 0,
-    ques: "What are Data Science Training courses available at Learnbay in Mumbai?",
+    ques: "What are Data Science Courses available at Learnbay in Mumbai?",
     linkText1: "Foundational Data Science Training Course, ",
     linkText2: "Advance Data Science Certification Course, ",
     linkText3: "Data Science Certification Course for Managers and Leaders, ",
@@ -18,7 +18,7 @@ export const AdvanceFaqDataM = [
   },
   {
     id: 1,
-    ques: "What are the prerequisites for these Data Science training Courses in Mumbai?",
+    ques: "What are the prerequisites for these Data Science Courses in Mumbai?",
     ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: false,
   },
@@ -43,7 +43,7 @@ export const AdvanceFaqDataM = [
   },
   {
     id: 5,
-    ques: "What is the mode of data science training in Mumbai at Learnbay?",
+    ques: "What is the mode of data science in Mumbai at Learnbay?",
     ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
     open: false,
   },
@@ -2472,7 +2472,7 @@ export const AdvanceFaqDataB = [
   },
   {
     id: 5,
-    ques: "What is the mode of data science training in Bangalore at Learnbay?",
+    ques: "What is the mode of Data Science Course In Bangalore at Learnbay?",
     ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
     open: false,
   },
@@ -3682,7 +3682,7 @@ export const AdvanceFaqDataC = [
   },
   {
     id: 5,
-    ques: "What is the mode of data science training in Chennai at Learnbay?",
+    ques: "What is the mode of Data Science Course In Chennai at Learnbay?",
     ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
     open: false,
   },
@@ -4856,7 +4856,7 @@ export const BusinessASupportFaqDataC = [
 export const AdvanceFaqDataCa = [
   {
     id: 0,
-    ques: "What are Data Science Training courses available at Learnbay in Canada?",
+    ques: "What are data science training courses available in Canada?",
     linkText1: "Foundational Data Science Training Course, ",
     linkText2: "Advance Data Science Certification Course, ",
     linkText3: "Data Science Certification Course for Managers and Leaders, ",
@@ -6067,7 +6067,7 @@ export const BusinessASupportFaqDataCa = [
 ];
 
 
-// 1st Course data science course training in Delhi
+// 1st Course Data Science Course In Delhi
 
 export const AdvanceFaqDataD = [
   {

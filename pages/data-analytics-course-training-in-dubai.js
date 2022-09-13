@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
@@ -399,19 +400,11 @@ dangerouslySetInnerHTML={{
             p44="₹ 6,392/month"
           />
         </div>
-        <GetHired dataScience={true}          WeekdayBatchDate="Best in class industrial training with live projects"
-          WeekendBatchDate="250+ employer allowance & 100% interview guarantee"
-          Project="Career guidance from industrial experts"
-          Classes="Basic coding classes for non-technical professions"
-          OneLine="Live & interactive training by industry experts"
-          Interview="Course completion certificate from IBM"
-          Fee="65,000"
-          Subscription="1.5 Year Subscription"
-        />
+                <ProgramFee Emi="₹ 6,392/month" Fee="₹ 65,000 +GST" dataScience={true} />
         <div className="Feature" id="Feature">
           <BoxShape
           alt="data analytics course training in dubai"
-          title="Why Enroll In This Program?"
+          title="Why Enroll In Data Analytics Course Training in Dubai?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools."
             Box2h5="Exclusive Hackathons"

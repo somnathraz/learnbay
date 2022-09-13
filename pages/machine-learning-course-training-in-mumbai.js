@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
@@ -431,8 +432,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Industrial Project-based  job-Oriented Training"
-          mTopPara="Industrial Project-based  job-Oriented Training"
+        <FirstSection dataScience={true}          deskTopPara="Industrial project-based job-oriented training"
+          mTopPara="Industrial project-based job-oriented training"
           title="Machine Learning Course Training in Mumbai"
           mTitle="Machine Learning Course Training in Mumbai"
           spanMTitleText="Advance Program"
@@ -456,19 +457,12 @@ export default function Home() {
             p44="₹ 9,342/month"
           />
         </div>
-        <GetHired dataScience={true}          WeekdayBatchDate="4 IBM Certified AI/ML micro-skill certificates"
-          WeekendBatchDate="IT-specific domain-oriented full-stack learning with 8+ domains to choose from"
-          Project="Learn the latest tools and technologies in AI and ML"
-          Classes="Specially curated syllabus for technical professionals"
-          OneLine="12 live industry projects & 2 fresh capstone projects"
-          Interview="Assured interview calls from 250+ recruiter network"
-          Fee="95,000"
-          Subscription="3 Year Subscription"
-        />
+        <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
+
         <div className="Feature" id="Feature">
           <BoxShape
           alt="machine learning course training in mumbai"
-          title="Why Enroll In This Program?"
+          title="Why Enroll In Machine Learning Course Training In Mumbai?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
             Box2h5="Domain Focused"

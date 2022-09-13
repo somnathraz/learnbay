@@ -5,6 +5,7 @@ import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
@@ -434,8 +435,8 @@ dangerouslySetInnerHTML={{
         </Popup>
         <FirstSection dataScience={true}          deskTopPara="Job-oriented Data Science Training for working professionals"
           mTopPara="Job-oriented Data Science Training for working professionals"
-          title="Artificial Intelligence (AI) course training in Dubai"
-          mTitle="Artificial Intelligence (AI) course training in Dubai"
+          title="Artificial Intelligence (AI) Course Training in Dubai"
+          mTitle="Artificial Intelligence (AI) Course Training in Dubai"
           spanTitleText=" For Managers and Leaders"
           spanMTitleText=" For Managers and Leaders"
           desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
@@ -457,19 +458,11 @@ dangerouslySetInnerHTML={{
             p44="₹ 9,342/month"
           />
         </div>
-        <GetHired dataScience={true}          WeekdayBatchDate="Global Recognition : Earn 6 micro-skill certificates by IBM"
-          WeekendBatchDate="Special Project Management module as per industrial requirement"
-          Project="12+ domain electives to choose from "
-          Classes="Specially devised for leadership-level professionals"
-          OneLine="15 live industry projects & 2 fresh Capstones"
-          Interview="Assured interview calls from 250+ recruiter network"
-          Fee="95,000"
-          Subscription="3 Year Subscription"
-        />
+                <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
         <div className="Feature" id="Feature">
           <BoxShape
           alt="artificial intelligence ai course training in dubai"
-            title="Why Enroll In This Program?"
+            title="Why Enroll In Artificial Intelligence Course Training in Dubai?"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
             Box2h5="Domain Destined"

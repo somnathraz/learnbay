@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
@@ -451,8 +452,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Artificial Intelligence and Machine Learning Program with domain specialization"
-          mTopPara="Artificial Intelligence and Machine Learning Program with domain specialization"
+        <FirstSection dataScience={true}          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
+          mTopPara="Machine Learning Course For Experienced Tech Professionals"
           title="Machine Learning Course Training In Chennai"
           mTitle="Machine Learning Course Training In Chennai"
           spanMTitleText="Advance Program"
@@ -476,19 +477,11 @@ export default function Home() {
             p44="₹ 9,342/month"
           />
         </div>
-        <GetHired dataScience={true}          WeekdayBatchDate="4 IBM Certified AI/ML micro-skill certificates"
-          WeekendBatchDate="IT-specific domain-oriented full-stack learning with 8+ domains to choose from"
-          Project="Learn the latest tools and technologies in AI and ML"
-          Classes="Specially curated syllabus for technical professionals"
-          OneLine="12 live industry projects & 2 fresh capstone projects"
-          Interview="Assured interview calls from 250+ recruiter network"
-          Fee="95,000"
-          Subscription="3 Year Subscription"
-        />
+               <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
         <div className="Feature" id="Feature">
           <BoxShape
           alt="machine learning course training in chennai"
-          title="Why Enroll In This Program?"
+          title="Why Enroll In Machine Learning Course Training In Chennai?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
             Box2h5="Domain Focused"

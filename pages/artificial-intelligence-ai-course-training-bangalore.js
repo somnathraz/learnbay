@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../components/CoursePage/GetHired/GetHired";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
@@ -454,9 +454,9 @@ export default function Home() {
           deskTopPara="Industry Curated Artificial Intelligence Program"
           mTopPara="Industry Curated Artificial Intelligence Program"
           title="Artificial Intelligence (AI) "
-          spanTitleText="training in Bangalore"
+          spanTitleText="Training in Bangalore"
           mTitle="Artificial Intelligence (AI)"
-          spanMTitleText="training in Bangalore"
+          spanMTitleText="Training in Bangalore"
           desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png"
           width="900"
@@ -476,19 +476,11 @@ export default function Home() {
             p44="₹ 9,342/month"
           />
         </div>
-        <GetHired dataScience={true}
-          WeekdayBatchDate="Global Recognition : Earn 6 micro-skill certificates by IBM"
-          WeekendBatchDate="Special Project Management module as per industrial requirement"
-          Project="12+ domain electives to choose from "
-          Classes="Specially devised for leadership-level professionals"
-          OneLine="15 live industry projects & 2 fresh Capstones"
-          Interview="Assured interview calls from 250+ recruiter network"
-          Fee="95,000"
-          Subscription="3 Year Subscription"
-        />
+        <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
+
         <div className="Feature" id="Feature">
           <BoxShape alt="artificial intelligence ai course training in bangalore"
-            title="Why Enroll In This Program?"
+            title="Why Enroll In Artificial Intelligence Course Training in Bangalore?"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
             Box2h5="Domain Destined"

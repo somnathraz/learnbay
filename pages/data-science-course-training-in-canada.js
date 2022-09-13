@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
@@ -455,19 +456,11 @@ export default function Home() {
             p44="₹ 7,768/month"
           />
         </div>
-        <GetHired dataScience={true}          WeekdayBatchDate="4 micro-skills certificates from IBM"
-          WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
-          Project="Project experience certification by IBM"
-          Classes="Completely live and interactive learning"
-          OneLine="12 live industry projects & 2 fresh capstone projects"
-          Interview="Interview guarantee backed up by 250+ hiring partners"
-          Fee="79,000"
-          Subscription="3 Year Subscription"
-        />
+                <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" dataScience={true} />
         <div className="Feature" id="Feature">
           <BoxShape
           alt="data science course in bangalore"
-          title="Why Enroll In This Program?"
+          title="Why Enroll In Data Science Course Training In Canada?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -484,11 +477,11 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramHead1="What is the data science training program at Learnbay?"
-              ProgramBot1="Learnbay is the premier institute offering data science and AI courses in Canada which are intended for working professionals. The data science course is built by experts with real-life experience and touchpoints to every aspect of data science."
+              ProgramHead1="What is the data science course training in Canada?"
+              ProgramBot1="Learnbay is the premier institute offering data science and AI courses in Canada which are intended for working professionals. The data science course in Canada is built by experts with real-life experience and touchpoints to every aspect of data science."
               ProgramBot2="Our trainers ensure that you receive the complete theoretical and practical training to become an industry-competent data scientist in Canada. With our training, learning data science will be a piece of cake. The data science course with placement is the equivalent of a 9-months course taught through live interactive classes."
               ProgramBot3="In this course, you'll learn how to set up and manage a data science project. Learnbay’s instructor-led classes provide a hands-on approach and real-world examples of how to apply data science to big data analysis. You'll also learn how to generate insights from raw data and use powerful tools like Python, Pandas, NumPy, and SciPy."
-              ProgramHead4="Why choose Learnbay for your Data Science Career?"
+              ProgramHead4="Why choose Learnbay for your Data Science Career in Canada?"
               ProgramBot4="This IBM data science course is offered entirely online, with extremely convenient scheduling options. That means you have the option of choosing your preferred batch as per timing and even mentors. In contrast, the artificial intelligence and data science courses seem to be affordable because of their reasonable data science course fees and come with an assured job guarantee."
               ProgramBot5="Here you get a 3-year Flexi subscription to Learnbay LMS, where you can learn in the comfort of your own home and as per your time convenience. However, all the learning sessions will be live and interactive only."
               ProgramBot6="There are four available Data Science and AI Certification Courses by Learnbay in Canada, which are listed below :"
@@ -523,11 +516,11 @@ export default function Home() {
               Domainlink8="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
               Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
               Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
-              CertificationHead1="IBM certified data science and AI course"
+              CertificationHead1="IBM certified data science and AI course in Canada"
               CertificationBot1="The interesting part of the data science and AI course is that students will receive not one but multiple IBM certificates for completing different sub-modules of the data science course. Besides this, you will obtain an IBM Project Experience Certificate after successfully completing the capstone project included in the Data Science and AI course."
               CertificationBot2="You can earn 1 to 8 certificates depending on your course. To learn more about micro-skills certificates, refer to the respective course brochures."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate.webp"
-              ModuleHead1="What does the module of the Learnbay data science courses include?"
+              ModuleHead1="What does the module of the Learnbay data science course in Canada include?"
               ModuleBot1="Our data science courses are designed to be straightforward and simple to follow while providing the greatest possible foundation in data science. Our instructor-led online data science course teaches students the key principles of data science and how to use these skills in the workplace. Topics include data visualization, machine learning, statistical inference and time series analysis, and other data science tools. Our instructor explains each concept using real-world scenarios."
               ModuleBot2="Additionally, we've added Module 0 to the data science curriculum package, which focuses on Python and R programming. Non-technical individuals can take advantage of these specialized classes to accelerate their learning in each module."
               syllabush1="Preparatory Classes (Programming + Maths)"
@@ -565,7 +558,7 @@ export default function Home() {
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
-              JobHead1="Job Assurance Program at Learnbay Data Science and AI"
+              JobHead1="Job Assurance Program at Learnbay Data Science and AI in Canada"
               JobBot1="By the end of the IBM data science certification, students will get support for job placement which includes, Resume preparation, Soft skills training as well as mock interviews. These company-specific practice interviews will boost our trainee’s confidence ahead of their interviews."
               JobBot2="Placement drives are aided by our collaboration with major tech corporations. We have partnered with globally renowned companies such as Accenture, EY, Salesforce, etc. Over 1000+ alums have been placed in various data science roles within short timeframes."
               JobBot5="Learnbay also offers a data science and AI course that comes with a money-back guarantee. You may be entitled to a refund of your data science course fees if you are unable to secure a data science job within six months of completing your training."

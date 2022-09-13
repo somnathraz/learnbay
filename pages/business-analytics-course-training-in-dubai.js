@@ -4,6 +4,7 @@ import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Popup from "../components/Popup/Popup";
@@ -372,8 +373,8 @@ dangerouslySetInnerHTML={{
           mTopPara="Industrial program for working professionals"
           spanTitleText="For Non-tech Professionals"
           spanMTitleText="For Non-tech Professionals"
-          title="Business Analytics Course training in Dubai"
-          mTitle="Business Analytics Course training in Dubai"
+          title="Business Analytics Course Training in Dubai"
+          mTitle="Business Analytics Course Training in Dubai"
           desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course7.png"
           width="900"
@@ -393,19 +394,11 @@ dangerouslySetInnerHTML={{
             p44="₹  6,392/month"
           />
         </div>
-        <GetHired dataScience={true}          WeekdayBatchDate="Industry-curated training via real-world analytics"
-          WeekendBatchDate="Special programming classes for non-technical professionals"
-          Project="Especially designed for early pros or aspirants with career gap"
-          Classes="Learn the most trending analytical trick from MNC experts"
-          OneLine="Industrial Business Analytics certifications for IBM"
-          Interview="5 live industry projects and 100% interview call assurance"
-          Fee="65,000"
-          Subscription="1.5 Year Subscription"
-        />
+                <ProgramFee Fee="₹  65,000 + GST" Emi="₹  6,392/month" dataScience={true} />
         <div className="Feature" id="Feature">
           <BoxShape
           alt="business analytics course training in dubai"
-          title="Why Enroll In This Program?"
+          title="Why Enroll In Business Analytics Course Training In Dubai?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
             Box2h5="Exclusive Hackathons"

@@ -4,6 +4,7 @@ import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Popup from "../components/Popup/Popup";
@@ -487,20 +488,11 @@ export default function Home() {
             p44="₹ 9,342/month"
           />
         </div>
-        <GetHired
-          WeekdayBatchDate="Global Recognition : Earn 6 micro-skill certificates by IBM"
-          WeekendBatchDate="Special Project Management module as per industrial requirement"
-          Project="12+ domain electives to choose from "
-          Classes="Specially devised for leadership-level professionals"
-          OneLine="15 live industry projects & 2 fresh Capstones"
-          Interview="Assured interview calls from 250+ recruiter network"
-          Fee="95,000"
-          Subscription="3 Year Subscription"
-        /> 
+                <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
         <div className="Feature" id="Feature">
           <BoxShape
           alt="artificial intelligence ai course training in hyderabad"
-          title="Why Enroll In This Program?"
+          title="Why Enroll In Artificial Intelligence Course Training In Hyderabad?"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
             Box2h5="Domain Destined"

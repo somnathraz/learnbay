@@ -60,9 +60,9 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection fullStack={true}
-          deskTopPara="DSA & System Design"
-          mTopPara="DSA & System Design"
-          mTitle="Data Structure & Algorithms"
+          deskTopPara="Data Structures Algorithms & System Design"
+          mTopPara="Data Structures Algorithms & System Design"
+          mTitle="Data Structures & Algorithms"
           spanMTitleText="Top Experts"
           title="MAANG's Best Interview Preparation Course trained by"
           spanTitleText="Top Experts"
@@ -87,7 +87,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program?"
+            title="Why Enroll In Data Structures Algorithms & System Design?"
             Box1h5="Crack MAANG Interview"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
@@ -113,7 +113,7 @@ export default function Home() {
           <Project project="12+ Projects" domain="7+" />
         </div>
         <CourseFee fullStack={true} timeFsd={true}
-          CourseFeeHead="Full Stack Web Development: Batch Details"
+          CourseFeeHead="Data Structures Algorithms & System Design: Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"

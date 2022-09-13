@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
 import GetHired from "../components/CoursePage/GetHired/GetHired";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
@@ -439,7 +440,7 @@ export default function Home() {
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
-          alt="data science course training in delhi"
+          alt="Data Science Course In Delhi"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
@@ -454,19 +455,11 @@ export default function Home() {
             p44="₹ 7,768/month"
           />
         </div>
-        <GetHired dataScience={true}          WeekdayBatchDate="4 micro-skills certificates from IBM"
-          WeekendBatchDate="8+ Domain-electives associated with full-stack modules"
-          Project="Project experience certification by IBM"
-          Classes="Completely live and interactive learning"
-          OneLine="12 live industry projects & 2 fresh capstone projects"
-          Interview="Interview guarantee backed up by 250+ hiring partners"
-          Fee="79,000"
-          Subscription="3 Year Subscription"
-        />
+                <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" dataScience={true} />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="data science course training in delhi"
-          title="Why Enroll In This Program?"
+          alt="Data Science Course In Delhi"
+          title="Why Enroll In Data Science Course Training In Delhi?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -485,7 +478,7 @@ export default function Home() {
             <CitiesRight
               ProgramBot1="Learnbay is the premier data scientist training institute in Delhi. We have a very strong team of instructors and mentors owning an industrial experience of more than 8 years. Most of them are from top-tier MNCs. You can benefit from their experience and knowledge throughout the offline and online data science courses. The courses are designed for learners who want to move into a Data Science job from any tech or non-tech domain along with a lucrative salary hike. Learnbay data science courses help you become a successful Data scientist even after having years of experience in other fields. In a nutshell, it's the best place to go for working people who want to learn the most about data science and artificial intelligence. Moreover, you get a series of custom-fit learning modules as per your personal career goal."
               ProgramBot2="For a balanced learning experience, the Learnbay data science courses for working professionals in Delhi combine practical (core industrial) and theoretical topics in a 70:30 ratio. In Delhi, this institute offers the most cost-effective Data Science classes. The best thing is that you will receive a full-stack data science course and job placement."
-              ProgramHead3="Why choose Learnbay advanced Data science course training in Delhi?"
+              ProgramHead3="Why choose Learnbay advanced Data Science Course In Delhi?"
               ProgramBot3="Because this city is India's capital city, this city is becoming the most significant job hub in India, from the perspective of both government and private jobs. As data science and AI is the most future-proof field, every single business is getting dependent on them. A huge number of options for advanced data science certification courses are available in Delhi. However, when it comes to the question of getting an assured job after completion of the course, then the list becomes too short. Again from the perspective of cost-effectiveness, the list shrinks further. Learnbay's artificial intelligence and data science courses in Delhi are more affordable. Above all, even at a lower price, you get the best data science learning experience possible along with a job guarantee."
               ProgramBot31="Furthermore, depending on your current professional level, you can choose from various data science course options. Each of these courses is made up of modules tailored to your previous work experience."
               ProgramBot32="Data science course fees for the courses offered by Learnbay range from 65K to 1.2 lakh INR. The lesson schedule is flexible, and you can enroll in any batch or with any teacher. You can even attend multiple sessions with different instructors. One-on-one live doubt clearing sessions with seasoned MAANG Data scientists are included in our Data Science and Artificial Intelligence courses. Students can take a break after enrolling, then return to finish their studies in one to three years (depending on the course)."
@@ -599,15 +592,15 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
-              alt1="data science course training in delhi"
-              alt2="data science course training in delhi"
-              alt3="data science course training in delhi"
-              alt4="data science course training in delhi"
-              alt5="data science course training in delhi"
-              alt6="data science course training in delhi"
-              alt7="data science course training in delhi"
-              alt8="data science course training in delhi"
-              alt9="data science course training in delhi"
+              alt1="Data Science Course In Delhi"
+              alt2="Data Science Course In Delhi"
+              alt3="Data Science Course In Delhi"
+              alt4="Data Science Course In Delhi"
+              alt5="Data Science Course In Delhi"
+              alt6="Data Science Course In Delhi"
+              alt7="Data Science Course In Delhi"
+              alt8="Data Science Course In Delhi"
+              alt9="Data Science Course In Delhi"
             />
             <FAQNew
               FaqDatas={AdvanceFaqDataD}
