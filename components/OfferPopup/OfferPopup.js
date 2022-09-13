@@ -31,7 +31,7 @@ const OfferPopup = ({
       {offer ? (
             <>
       <div className={styles.Offer}>
-        <h6>Ace Your Interview at MAANG with Data Structures Algorithms & Software Development Program</h6>
+        <h6>Ace Your Interview at MAANG with DSA & Software Development Program</h6>
         {/* <p><b>{p1}</b></p> */}
         <p>Available Batch Details :</p>
         {/* <p>{p3}</p> */}
