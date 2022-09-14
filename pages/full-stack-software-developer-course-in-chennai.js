@@ -46,7 +46,7 @@ export default function Home() {
         <meta
           name="Keywords"
           content="Full-Stack Software Developer Course in Chennai, Full-Stack Software Developer Course training in Chennai, Full-Stack Software Developer Course institute in Chennai, best Full-Stack Software Developer Course institute in Chennai, data scientist course in Chennai,data scientist certification in Chennai, Full-Stack Software Developer Course training institute in Chennai, advanced Full-Stack Software Developer Course in Chennai, Full-Stack Software Developer Course with placement guarantee, Full-Stack Software Developer Course"
-        />
+        /> 
         <link
           rel="canonical"
           href="https://www.learnbay.co/data-science-course-training-in-chennai"
