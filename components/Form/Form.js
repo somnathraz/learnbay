@@ -219,8 +219,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event,   dataScience
               />
             </div>
           </div> */}
-          {radio ? (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          <div className={popup ? styles.formWrappers : styles.formWrapper} >
             <input
               id="Data Science Program"
               value="Data Science Program"
@@ -230,7 +229,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event,   dataScience
               onChange={handleParam()}
             />
             Data Science Program&nbsp;
-            <input
+            <br/><input
               id="Full Stack Program"
               value="Full Stack Program"
               name="platform"
@@ -240,9 +239,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event,   dataScience
             />
             Full Stack Program
           </div>
-        ) : (
-          ""
-        )}
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.

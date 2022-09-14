@@ -158,7 +158,7 @@ h2 {
 .MainCities {
   display: grid;
   grid-template-columns: 30% 70%;
-  margin: 70px 100px;
+  margin: 0px 100px 70px 100px;
 }
 
 h4 {

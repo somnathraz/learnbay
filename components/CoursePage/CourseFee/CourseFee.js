@@ -96,9 +96,9 @@ const CourseFee = ({
                   <BiTimeFive className={styles.icon} />
                   <b>Time</b>
                 </p>
-                {/* <p className={styles.list}>8 a.m. to 12 p.m.</p> */}
-                <p className={styles.list}>8 a.m. to 12 p.m.</p>
-                {/* <p className={styles.list}>08:00 p.m. to 10:00 p.m.</p> */}
+                {/* <p className={styles.list}>8 AM to 12 PM</p> */}
+                <p className={styles.list}>12:30 PM to 4 PM</p>
+                {/* <p className={styles.list}>08:00 PM to 10:00 PM</p> */}
               </div>
             </div>
             <div className={styles.btnWrapper}>
@@ -138,9 +138,9 @@ const CourseFee = ({
                   <BiTimeFive className={styles.icon} />
                   <b>Time</b>
                 </p>
-                {/* <p className={styles.list}>8 p.m. to 10 p.m.</p> */}
-                <p className={styles.list}>8 a.m. to 10 a.m.</p>
-                <p className={styles.list}>8:30 a.m. to 12:00 p.m.</p>
+                {/* <p className={styles.list}>8 PM to 10 PM</p> */}
+                <p className={styles.list}>8 AM to 10 AM</p>
+                <p className={styles.list}>8:30 AM to 12:00 PM</p>
               </div>
             </div>
             <div className={styles.btnWrapper}>

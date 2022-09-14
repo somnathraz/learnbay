@@ -47,7 +47,7 @@ const OfferPopup = ({
           <b>Date</b> : 25th September<br/>
         </li>
         <li>
-          <b>Time</b> : 8 a.m to 12 p.m
+          <b>Time</b> : 12:30 PM to 4 PM
         </li>
         {/* <li><b>{batch3}</b>{batch33}</li> */}
         <p style={{ fontSize: "12px" }}>*Terms & Conditions applied.</p>
@@ -72,11 +72,11 @@ const OfferPopup = ({
         </li> */}
         <li>
           <b>weekday Morning</b>
-          : 16th September, 8 a.m. to 10 a.m.
+          : 16th September, 8 AM to 10 AM
         </li>
         <li>
           <b>weekend Morning</b>
-          : 18th September, 8:30 a.m. to 12 p.m.
+          : 18th September, 8:30 AM to 12 PM
         </li>
         {/* <li><b>{batch3}</b>{batch33}</li> */}
         <p style={{ fontSize: "12px" }}>*Terms & Conditions applied.</p>
