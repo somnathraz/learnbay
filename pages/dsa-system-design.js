@@ -64,7 +64,7 @@ export default function Home() {
           mTopPara="Data Structures Algorithms & System Design"
           mTitle="Data Structures & Algorithms"
           spanMTitleText="Top Experts"
-          title="MAANG's Best Interview Preparation Course trained by"
+          title="MAANG's Best Interview Preparation Course Trained by"
           spanTitleText="Top Experts"
           desc="Perform real-world industrial projects and use-cases."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa-header-image.png"
