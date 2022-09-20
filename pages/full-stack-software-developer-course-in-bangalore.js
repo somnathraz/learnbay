@@ -62,7 +62,7 @@ export default function Home() {
 
 
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
+      <main>  <Navbar popup={true} fullStack={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -71,7 +71,7 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
         <FirstSection fullStack={true}

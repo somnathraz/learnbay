@@ -136,7 +136,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div> */}
                 <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
+                  <a href="/data-science-ai-masters-program">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -240,7 +240,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
+                  <a href="/data-science-ai-masters-program">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5> Data Science and AI Master's Program</h5>
@@ -395,7 +395,7 @@ const Tabs = ({ handleIcon }) => {
             {Guarantee ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
+                  <a href="/data-science-ai-masters-program">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -540,7 +540,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
+                  <a href="/data-science-ai-masters-program">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5> Data Science and AI Master's Program</h5>
@@ -693,7 +693,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
+                  <a href="/data-science-ai-masters-program">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -764,7 +764,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
+                  <a href="/data-science-ai-masters-program">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5> Data Science and AI Master's Program</h5>
@@ -868,7 +868,7 @@ const Tabs = ({ handleIcon }) => {
             {Guarantee ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
+                  <a href="/data-science-ai-masters-program">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -966,7 +966,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
+                  <a href="/data-science-ai-masters-program">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5> Data Science and AI Master's Program</h5>

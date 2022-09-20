@@ -41,7 +41,6 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
 
   let endPoint = "https://getform.io/f/69076866-e1f7-4cf3-a7d2-12603819a5a4";
 
-
   // Form Submit function
   const formSubmit = (e) => {
     e.preventDefault();
@@ -73,13 +72,18 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     if (
       router.pathname === "/about-us" ||
       router.pathname === "/advance-data-science-certification-courses" ||
-      router.pathname === "/artificial-intelligence-ai-course-training-bangalore" ||
-      router.pathname === "/artificial-intelligence-ai-course-training-canada" ||
-      router.pathname === "/artificial-intelligence-ai-course-training-chennai" ||
+      router.pathname ===
+        "/artificial-intelligence-ai-course-training-bangalore" ||
+      router.pathname ===
+        "/artificial-intelligence-ai-course-training-canada" ||
+      router.pathname ===
+        "/artificial-intelligence-ai-course-training-chennai" ||
       router.pathname === "/artificial-intelligence-ai-course-training-delhi" ||
       router.pathname === "/artificial-intelligence-ai-course-training-dubai" ||
-      router.pathname === "/artificial-intelligence-ai-course-training-hyderabad" ||
-      router.pathname === "/artificial-intelligence-ai-course-training-mumbai" ||
+      router.pathname ===
+        "/artificial-intelligence-ai-course-training-hyderabad" ||
+      router.pathname ===
+        "/artificial-intelligence-ai-course-training-mumbai" ||
       router.pathname === "/artificial-intelligence-ai-course-training-pune" ||
       router.pathname === "/artificial-intelligence-certification-course" ||
       router.pathname === "/business-analytics-certification-course" ||
@@ -117,7 +121,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.pathname === "/full-stack-software-development-program" ||
       router.pathname === "/full-stack-web-development-program" ||
       router.pathname === "/" ||
-      router.pathname === "/job-guarantee-or-money-back-data-science-ai-certification-course" ||
+      router.pathname === "/data-science-ai-masters-program" ||
       router.pathname === "/machine-learning-course-training-in-bangalore" ||
       router.pathname === "/machine-learning-course-training-in-canada" ||
       router.pathname === "/machine-learning-course-training-in-chennai" ||

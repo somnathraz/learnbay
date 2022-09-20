@@ -70,7 +70,7 @@ export const viewAllD = [
       "20 Projects + 3 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
-    link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
+    link1: "/data-science-ai-masters-program",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
@@ -238,7 +238,7 @@ export const ForProgrammersD = [
       "20 Projects + 3 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
-    link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
+    link1: "/data-science-ai-masters-program",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
@@ -330,7 +330,7 @@ export const ForNonProgrammerD = [
       "20 Projects + 3 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
-    link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
+    link1: "/data-science-ai-masters-program",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
@@ -379,7 +379,7 @@ export const JobGuaranteeD = [
       "20 Projects + 3 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
-    link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
+    link1: "/data-science-ai-masters-program",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },

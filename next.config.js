@@ -294,7 +294,7 @@ module.exports = {
       },
       {
         source: '/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course',
-        destination: '/job-guarantee-or-money-back-data-science-ai-certification-course',
+        destination: '/data-science-ai-masters-program',
         permanent: true,
       },
       {
@@ -623,7 +623,7 @@ module.exports = {
       },
       {
         source: '/data-science-course/data-science-and-ai-for-fresh-graduates-learnbay',
-        destination: '/job-guarantee-or-money-back-data-science-ai-certification-course',
+        destination: '/data-science-ai-masters-program',
         permanent: true,
       },
       {
@@ -679,6 +679,11 @@ module.exports = {
       {
         source: '/data-science-course',
         destination: '/data-science-course-training-in-bangalore',
+        permanent: true,
+      },
+      {
+        source: '/job-guarantee-or-money-back-data-science-ai-certification-course',
+        destination: '/data-science-ai-masters-program',
         permanent: true,
       },
     ]

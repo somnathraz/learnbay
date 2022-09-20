@@ -491,7 +491,7 @@ export default function Home() {
               Courselink2="/advance-data-science-certification-courses"
               Courselink3="/artificial-intelligence-certification-course"
               Courselink4="/data-science-ai-for-managers"
-              Courselink5="/job-guarantee-or-money-back-data-science-ai-certification-course"
+              Courselink5="/data-science-ai-masters-program"
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course3="Artificial Intelligence and Machine Learning Program with Domain Specialization"

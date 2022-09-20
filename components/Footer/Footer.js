@@ -93,7 +93,7 @@ const Footer = () => {
               Data Science & AI For Managers
             </p>
           </a>
-          <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
+          <a href="/data-science-ai-masters-program">
             <p className={styles.FooterInnerli}>
               Data Science & AI Master's Program
             </p>
@@ -190,6 +190,11 @@ const Footer = () => {
               artificial intelligence AI course training pune
             </p>
           </a>
+          <a href="/full-stack-software-developer-course-in-pune">
+            <p className={styles.FooterInnerli}>
+            Full stack software developer course in Pune 
+            </p>
+          </a>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Mumbai</p>
@@ -216,6 +221,11 @@ const Footer = () => {
           <a href="/artificial-intelligence-ai-course-training-mumbai">
             <p className={styles.FooterInnerli}>
               artificial intelligence AI course training Mumbai
+            </p>
+          </a>
+          <a href="/full-stack-software-developer-course-in-mumbai">
+            <p className={styles.FooterInnerli}>
+            Full stack software developer course in mumbai 
             </p>
           </a>
         </div>
@@ -246,6 +256,11 @@ const Footer = () => {
               artificial intelligence AI course training Chennai
             </p>
           </a>
+          <a href="/full-stack-software-developer-course-in-chennai">
+            <p className={styles.FooterInnerli}>
+            Full-stack software developer course in Chennai
+            </p>
+          </a>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Canada</p>
@@ -272,6 +287,11 @@ const Footer = () => {
           <a href="/artificial-intelligence-ai-course-training-canada">
             <p className={styles.FooterInnerli}>
               artificial intelligence AI course training Canada
+            </p>
+          </a>
+          <a href="/full-stack-software-developer-course-in-canada">
+            <p className={styles.FooterInnerli}>
+            full-stack software developer course in Canada 
             </p>
           </a>
         </div>
@@ -304,6 +324,11 @@ const Footer = () => {
               artificial intelligence AI course training Bangalore
             </p>
           </a>
+          <a href="/full-stack-software-developer-course-in-bangalore">
+            <p className={styles.FooterInnerli}>
+            Full-stack software developer course in Bangalore 
+            </p>
+          </a>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Hyderabad</p>
@@ -330,6 +355,11 @@ const Footer = () => {
           <a href="/artificial-intelligence-ai-course-training-hyderabad">
             <p className={styles.FooterInnerli}>
               artificial intelligence AI course training Hyderabad
+            </p>
+          </a>
+          <a href="/full-stack-software-developer-course-in-hyderabad">
+            <p className={styles.FooterInnerli}>
+            Full-stack software developer course in hyderabad 
             </p>
           </a>
         </div>
@@ -360,6 +390,11 @@ const Footer = () => {
               artificial intelligence AI course training Dubai
             </p>
           </a>
+          <a href="/full-stack-software-developer-course-in-dubai">
+            <p className={styles.FooterInnerli}>
+            Full-stack software devloper course in Dubai 
+            </p>
+          </a>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Delhi</p>
@@ -386,6 +421,11 @@ const Footer = () => {
           <a href="/artificial-intelligence-ai-course-training-delhi">
             <p className={styles.FooterInnerli}>
               artificial intelligence AI course training Delhi
+            </p>
+          </a>
+          <a href="/full-stack-software-developer-course-in-delhi">
+            <p className={styles.FooterInnerli}>
+            Full-stack software developer course in Delhi
             </p>
           </a>
         </div>
