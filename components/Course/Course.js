@@ -103,14 +103,16 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                          <a href={link1}><img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                            className={styles.courseImg}
-                             alt="data science course in bangalore"
-                          /></a>
+                          <a href={link1}>
+                            <img
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              className={styles.courseImg}
+                              alt="data science course in bangalore"
+                            />
+                          </a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -159,8 +161,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -171,14 +173,16 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div className={styles.gridImg}>
-                        <a href={link1}><img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                            className={styles.courseImg}
-                             alt="data science course in bangalore"
-                          /></a>
+                          <a href={link1}>
+                            <img
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              className={styles.courseImg}
+                              alt="data science course in bangalore"
+                            />
+                          </a>
                         </div>
                         <div
                           className={styles.contentBox}
@@ -248,8 +252,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1.1 : 3.2}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -260,14 +264,16 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                        <a href={link1}><img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                             alt="data science course in bangalore"
-                            className={styles.courseImg}
-                          /></a>
+                          <a href={link1}>
+                            <img
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course in bangalore"
+                              className={styles.courseImg}
+                            />
+                          </a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -334,8 +340,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -346,14 +352,16 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div className={styles.gridImg}>
-                        <a href={link1}><img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                            alt="data science course"
-                            className={styles.courseImg}
-                          /></a>
+                          <a href={link1}>
+                            <img
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
                         </div>
                         <div
                           className={styles.contentBox}
@@ -413,7 +421,7 @@ const Course = () => {
             }}
             className={Guarantee ? styles.ActiveSpan : styles.span}
           >
-            100% Job Guaranteed
+            Master's Program
           </span>
           {Guarantee ? (
             <div className={styles.mPanel}>
@@ -423,8 +431,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -435,14 +443,16 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                        <a href={link1}><img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                            alt="data science course"
-                            className={styles.courseImg}
-                          /></a>
+                          <a href={link1}>
+                            <img
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -491,8 +501,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -503,14 +513,16 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div className={styles.gridImg}>
-                        <a href={link1}><img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                            alt="data science course"
-                            className={styles.courseImg}
-                          /></a>
+                          <a href={link1}>
+                            <img
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
                         </div>
                         <div
                           className={styles.contentBox}
@@ -580,8 +592,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1.1 : 3.2}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -592,14 +604,16 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                        <a href={link1}><img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                             alt="data science course in bangalore"
-                            className={styles.courseImg}
-                          /></a>
+                          <a href={link1}>
+                            <img
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course in bangalore"
+                              className={styles.courseImg}
+                            />
+                          </a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -648,8 +662,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -659,14 +673,16 @@ const Course = () => {
                       viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
-                        <a href={link1}><img
-                          src={img}
-                          layout="intrinsic"
-                          width="423px"
-                          height="252px"
-                           alt="data science course in bangalore"
-                          className={styles.courseImg}
-                        /></a>
+                        <a href={link1}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            width="423px"
+                            height="252px"
+                            alt="data science course in bangalore"
+                            className={styles.courseImg}
+                          />
+                        </a>
                         <div
                           className={styles.contentBox}
                           style={{ marginTop: "452px" }}
@@ -725,8 +741,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1 : 3.2}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -737,14 +753,16 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                        <a href={link1}><img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                             alt="data science course in bangalore"
-                            className={styles.courseImg}
-                          /></a>
+                          <a href={link1}>
+                            <img
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course in bangalore"
+                              className={styles.courseImg}
+                            />
+                          </a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -793,8 +811,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -804,14 +822,16 @@ const Course = () => {
                       viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
-                        <a href={link1}><img
-                          src={img}
-                          layout="intrinsic"
-                          width="423px"
-                          height="252px"
-                           alt="data science course in bangalore"
-                          className={styles.courseImg}
-                        /></a>
+                        <a href={link1}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            width="423px"
+                            height="252px"
+                            alt="data science course in bangalore"
+                            className={styles.courseImg}
+                          />
+                        </a>
                         <div
                           className={styles.contentBox}
                           style={{ marginTop: "452px" }}
@@ -868,8 +888,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1.1 : 3.2}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -880,14 +900,16 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                        <a href={link1}><img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                            alt="data science course"
-                            className={styles.courseImg}
-                          /></a>
+                          <a href={link1}>
+                            <img
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -936,8 +958,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -948,14 +970,16 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                        <a href={link1}><img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                            alt="data science course"
-                            className={styles.courseImg}
-                          /></a>
+                          <a href={link1}>
+                            <img
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -1010,8 +1034,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1.1 : 3.2}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -1022,14 +1046,16 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                        <a href={link1}><img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                            alt="data science course"
-                            className={styles.courseImg}
-                          /></a>
+                          <a href={link1}>
+                            <img
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -1084,8 +1110,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -1096,14 +1122,16 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
-                        <a href={link1}><img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                             alt="data science course in bangalore"
-                            className={styles.courseImg}
-                          /></a>
+                          <a href={link1}>
+                            <img
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course in bangalore"
+                              className={styles.courseImg}
+                            />
+                          </a>
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
@@ -1227,8 +1255,8 @@ const Course = () => {
                   slidesPerView={mobile ? 1.1 : 3}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -1238,14 +1266,16 @@ const Course = () => {
                       viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
-                        <a href={link1}><img
-                          src={img}
-                          layout="intrinsic"
-                          width="423px"
-                          height="252px"
-                           alt="data science course in bangalore"
-                          className={styles.courseImg}
-                        /></a>
+                        <a href={link1}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            width="423px"
+                            height="252px"
+                            alt="data science course in bangalore"
+                            className={styles.courseImg}
+                          />
+                        </a>
                         <div
                           className={styles.contentBox}
                           style={{ marginTop: "452px" }}

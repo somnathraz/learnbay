@@ -66,12 +66,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
  "name": "How to apply for machine learning course?",
@@ -112,13 +114,12 @@ dangerouslySetInnerHTML={{
 }] 
 }
               } `,
-       }}
-     />
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "NewsArticle",
  "mainEntityOfPage": {
@@ -145,11 +146,12 @@ dangerouslySetInnerHTML={{
  "dateModified": "2022-04-21"
 }
 } `,
-}}
-/> <script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [{
@@ -357,14 +359,13 @@ dangerouslySetInnerHTML={{
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Machine learning Course Training in Dubai",
 "description": "Machine learning course in Dubai. Learnbay is Advanced Machine Learning Course Training Institute in Dubai. Machine Learning course in Dubai will enhance your career",
@@ -408,12 +409,13 @@ dangerouslySetInnerHTML={{
   "name": "Learnbay",
   "url": "https://www.learnbay.co"
  }
- } `
- }}
- />
+ } `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -424,7 +426,9 @@ dangerouslySetInnerHTML={{
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Product MNC Job-Ready Machine Learning Certification"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Product MNC Job-Ready Machine Learning Certification"
           mTopPara="Product MNC Job-Ready Machine Learning Certification"
           title="Machine learning course training in Dubai"
           mTitle="Machine learning course training in Dubai"
@@ -449,12 +453,15 @@ dangerouslySetInnerHTML={{
             p44="₹ 9,342/month"
           />
         </div>
-        <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
-
+        <ProgramFee
+          Emi="₹ 9,342/month"
+          Fee="₹ 95,000 +GST"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="machine learning course training in dubai"
-          title="Why Enroll In Machine Learning Course Training In Dubai?"
+            alt="machine learning course training in dubai"
+            title="Why Enroll In Machine Learning Course Training In Dubai?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
             Box2h5="Domain Focused"
@@ -603,9 +610,8 @@ dangerouslySetInnerHTML={{
             />
           </div>
         </div>
-                <LearnSupport />
-                 
-        <OfferPopup offer={false} />                      
+        <LearnSupport />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

@@ -68,8 +68,11 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-<script
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -113,11 +116,10 @@ export default function Home() {
 }] 
 
 }
-} `
-}}
-/> 
-
-<script
+} `,
+          }}
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -147,9 +149,10 @@ export default function Home() {
  "dateModified": "2022-04-21"
 
 }
-} `
-}}
-/>  <script
+} `,
+          }}
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -256,7 +259,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "How long will I get support for job assistance at Learnbay?",
+ "name": "How many interview calls will i get at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -305,11 +308,10 @@ export default function Home() {
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
+                 } `,
+          }}
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -357,12 +359,13 @@ export default function Home() {
  "name": "Learnbay",
  "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -373,7 +376,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="IBM Certified Industry-paced Training"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="IBM Certified Industry-paced Training"
           mTopPara="IBM Certified Industry-paced Training"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
@@ -398,11 +403,15 @@ export default function Home() {
             p44="₹ 6,392/month"
           />
         </div>
-                <ProgramFee Emi="₹ 6,392/month" Fee="₹ 65,000 +GST" dataScience={true} />
+        <ProgramFee
+          Emi="₹ 6,392/month"
+          Fee="₹ 65,000 +GST"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="data analytics course training in bangalore"
-          title="Why Enroll In Data Analytics Course Training in Bangalore?"
+            alt="data analytics course training in bangalore"
+            title="Why Enroll In Data Analytics Course Training in Bangalore?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools."
             Box2h5="Exclusive Hackathons"
@@ -534,16 +543,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-
+        <LearnSupport />
         <CityText
           CityTextB="Data Analytics Course Certification Training locations in Bangalore "
           CityText=" :Ammrutha halli [560092], Maruthi Seva Nagar [560033], Kuvempu Layout [560077], Bellandur [560103], Jayanagar III Block [560011], Anandnagar [560024], Nandinilayout [560096], B SK II Stage [560070], Indiranagar [560038], Yelahanka [560063], Chickpet [560053], Domlur [560071], Bansashankari III Stage [560085], Vimanapura [560017], Nagarbhavi [560072], Basaveshwaranagar [560079], Bommanahalli [560068], Mico Layout [560076], Electronic City [560100], Taverekere [560029], Nehru Nagar [560020], Agram[560007], Halsuru Pete [560002], Basavanagudi [560004], R.M.V. Extension II [560094], Jayanagar [560041], Carmelaram [560035], New Thippasandra [560075], Kanakanagar [560032], Nayandahalli [560039], Fraser Town [560005], Jalahalli East [560014], Kacharakanahalli [560084], Malleswaram West [560055], Bannerghatta [560083], Srirampuram [560021], Rajarajeshwarinagar [560098], Sivan Chetty Gardens [560042], Dommasandra [562125], Whitefield [560066], Vidyaranyapura [560097], Bolare [560082], Mathikere [560054], Doddanekkundi [560037], Hampinnagar [560104], C.V.Raman Nagar [560093], Chikkabanavara [560090], Attur [560064], Kumbalagodu [560074], Bhattarahalli [560049], Chikkalasandra [560061], Sharada Nagar [560065], Jalahalli West [560015], H.K.P Road [560051], Jp Nagar III Phase [560078], Sadashiva nagar [560080], Krishnarajapuram R S [560016], Mahalakshipuram Layout [560086], Guddadahalli [560026], Chudenapura [560060], Vidhana Soudha [560001], Shanthinagar [560027], Rajaji Nagar [560010], Chandapura [560099], Ramakrishna Hegde Nagar [560045], Shalabh Bhatnagar [560012], Peenya [560058], Ashoknagar [560050], Jalahalli Nacen [560013], Banawadi [560043], Malleswaram [560003], Doddakallasandra [560062], K.G Road [560009], Muthusandra [560087], Marathahalli [560056], JC Nagar [560006], Chamrajpet [560018], HSR Layout [560102], Devanagundi [560067], Yeswanthpura [560022], Mahadevapura [560048],Hulsur Bazaar [560008],Magadi Road [560023], Adugodi [560030], Bagalgunte [560073], Devasandra [560036], Rv Niketan [560059], Narasimharaja Colony [560019], Koramangala VI Bk [560095], Agara [560034], Vijayanagar East [560040], Benson Town [560046], Viveknagar S.O [560047], Dasarahalli [560057], Bapagrama [560091], Richmond Town [560025]."
           CityTextLB="Locations Offered"
           CityTextL=" :Data Analytics Training in Bangalore, Data Analytics Course in Bangalore, Data Analytics Training in BTM, Data Analytics Training in Marathahalli, Data Analytics Institute in Bangalore, Data Analytics Training in Whitefield, Data Analytics Training in Kundalahalli, Data Analytics Training in ITPL, Data Analytics Training Institute in Marathahalli, Data Analytics Course in BTM, Data Analytics Course in Marathahalli, Data Analytics Course in Whitefield, Data Analytics Course Bommanahalli, Data Analytics Training in Bommanahalli, Data Analytics Training in Electronic city, Data Analytics Training in Koramangala, Data Analytics Classes in BTM, Data Analytics Classes in Bommanahalli, Data Analytics Classes in Whitefield, Data Analytics Classes in Marathahalli, Data Analytics Course in Koramangala, Data Analytics Training in Jayanagar, Data Analytics Certification in Bangalore, Data Analytics Certification Training in Bangalore, Data Analytics Certification in BTM, Data Analytics Certification in Whitefield, Best Data Analytics Training, Best Data Analytics Course"
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

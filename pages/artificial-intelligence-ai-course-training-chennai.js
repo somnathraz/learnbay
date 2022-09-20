@@ -68,12 +68,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
@@ -114,13 +116,12 @@ dangerouslySetInnerHTML={{
 }] 
 }
               } `,
-       }}
-     />
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "NewsArticle",
  "mainEntityOfPage": {
@@ -147,11 +148,12 @@ dangerouslySetInnerHTML={{
  "dateModified": "2022-04-21"
 }
 } `,
-}}
-/>  <script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [{
@@ -366,14 +368,13 @@ dangerouslySetInnerHTML={{
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Artificial Intelligence Course Training in Chennai",
 "description": "Artificial Intelligence Course in Chennai. Learnbay is Advanced Artificial Intelligence Course Training Institute in Chennai. Artificial Intelligence course in Chennai will enhance your career.",
@@ -418,12 +419,13 @@ dangerouslySetInnerHTML={{
 "name": "Learnbay",
 "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -434,7 +436,8 @@ dangerouslySetInnerHTML={{
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}
+        <FirstSection
+          dataScience={true}
           deskTopPara="Industry-curated Training With Domain Specialization"
           mTopPara="Industry-curated Training With Domain Specialization"
           title="Artificial Intelligence(Ai) Course Training In chennai"
@@ -460,10 +463,14 @@ dangerouslySetInnerHTML={{
             p44="₹ 9,342/month"
           />
         </div>
-                <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
+        <ProgramFee
+          Emi="₹ 9,342/month"
+          Fee="₹ 95,000 +GST"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="artificial intelligence ai course training in chennai"
+            alt="artificial intelligence ai course training in chennai"
             title="Why Enroll In Artificial Intelligence Course Training In chennai?"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
@@ -617,14 +624,14 @@ dangerouslySetInnerHTML={{
             />
           </div>
         </div>
-                <LearnSupport />
+        <LearnSupport />
         <CityText
           CityTextB="Artificial Intelligence Course Certification Training locations in Chennai "
           CityText=" : Anna Nagar [600040],Thousand Lights [600006], Adyar [600020],Nungambakkam [600034], Perambur [600011], OMR [600119], Guindy [600032], Thiruvanmiyur [600041],Perungudi [600096], Thoraipakkam [600097],Sholinganallur [600119], Siruseri [603103], Tambaram [600045], Velachery [600042], Meenambakkam [600027], Chrompet [600044], T nagar [600017],Chennai central [600020],Erukkancheri [600118],World University Centre [600031],Madras University [600005],Indian Institute Of Technology [600036]"
           CityTextLB="Locations Offered"
           CityTextL=" :  Artificial Intelligence Training in Chennai, Artificial Intelligence Course in Chennai, Artificial Intelligence Training in Anna Nagar, Artificial Intelligence Training in Guindy, Artificial Intelligence Institute in Chennai, Artificial Intelligence Training in Siruseri, Artificial Intelligence Training in Perungudi, Artificial Intelligence Training in OMR, Artificial Intelligence Training Institute in Adyar, Artificial Intelligence Course in Anna Nagar, Artificial Intelligence Course in chrompet, Artificial Intelligence Course in Velchery, Artificial Intelligence Course Nungambakkam, Artificial Intelligence Training in Thoraipakkam, Artificial Intelligence Course in OMR, Artificial Intelligence Training in Madras university, Artificial Intelligence Training in Tambaram, Artificial Intelligence Online Classes in Anna Nagar, Artificial Intelligence Course in Indian Institute Of Technology , Artificial Intelligence Training in Chennai, Artificial Intelligence Certification in Chennai, Artificial Intelligence Certification Training in Chennai, Artificial Intelligence Certification in Anna Nagar, Artificial Intelligence Certification in Adyar, Best Artificial Intelligence Training, Best Artificial Intelligence Course."
-        />     
-        <OfferPopup offer={false} />         
+        />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

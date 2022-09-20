@@ -142,7 +142,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5> Data Science and AI Master's Program</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -243,7 +243,7 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5> Data Science and AI Master's Program</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -272,8 +272,10 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Analytics
-                          <br /> Program</h5>
+                        <h5>
+                          Data Analytics
+                          <br /> Program
+                        </h5>
                         <span>
                           180+ Hours <BsDot /> 5 & 6.5 Months{" "}
                         </span>
@@ -399,7 +401,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5> Data Science and AI Master's Program</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -541,7 +543,7 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5> Data Science and AI Master's Program</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -569,7 +571,7 @@ const Tabs = ({ handleIcon }) => {
                           Data Analytics <br /> Program
                         </h5>
                         <span>
-                        180+ Hours <BsDot /> 5 & 6.5 Months{" "}
+                          180+ Hours <BsDot /> 5 & 6.5 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -580,7 +582,10 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>DSA & <br/>System Design</h5>
+                        <h5>
+                          DSA & <br />
+                          System Design
+                        </h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
@@ -676,7 +681,10 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>DSA & <br/>System Design</h5>
+                        <h5>
+                          DSA & <br />
+                          System Design
+                        </h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
@@ -691,7 +699,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5> Data Science and AI Master's Program</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -759,7 +767,7 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5> Data Science and AI Master's Program</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -788,12 +796,12 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                      <h5>
+                        <h5>
                           Data Analytics
                           <br /> Program
                         </h5>
                         <span>
-                        180+ Hours <BsDot /> 5 & 6.5 Months{" "}
+                          180+ Hours <BsDot /> 5 & 6.5 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -842,7 +850,10 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>DSA & <br/>System Design</h5>
+                        <h5>
+                          DSA & <br />
+                          System Design
+                        </h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
@@ -851,7 +862,6 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
               </div>
-              
             ) : (
               ""
             )}
@@ -864,7 +874,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5> Data Science and AI Master's Program</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -934,7 +944,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div> */}
                 <div className={styles.Row}>
-                <a href="/advance-data-science-certification-courses">
+                  <a href="/advance-data-science-certification-courses">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>Advance Data Science & AI Program</h5>
@@ -956,11 +966,10 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  
-                <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
+                  <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5> Data Science and AI Master's Program</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -978,16 +987,16 @@ const Tabs = ({ handleIcon }) => {
                     </div>
                   </a>
                 </div>
-                
+
                 <div className={styles.Row}>
-                <a href="/data-analytics-certification-course">
+                  <a href="/data-analytics-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>
                           Data Analytics <br /> Program
                         </h5>
                         <span>
-                        180+ Hours <BsDot /> 5 & 6.5 Months{" "}
+                          180+ Hours <BsDot /> 5 & 6.5 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -1006,12 +1015,12 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  
                   <a href="/dsa-system-design">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>
-                          DSA & <br />System Design
+                          DSA & <br />
+                          System Design
                         </h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 6 Months{" "}

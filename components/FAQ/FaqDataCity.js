@@ -14,7 +14,6 @@ export const AdvanceFaqDataM = [
     link4: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link: true,
     open: true,
-
   },
   {
     id: 1,
@@ -165,7 +164,8 @@ export const AdvanceCapstoneFaqDataM = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -262,18 +262,20 @@ export const AdvanceSupportFaqDataM = [
   },
 ];
 
-
 // 2st Course artificial intelligence certification course
 
 export const ArtificialFaqDataM = [
   {
     id: 0,
     ques: "What are Artificial Intelligence (AI) training courses available at Learnbay in Mumbai?",
-    linkText1: "Foundational data science and Artificial Intelligence Training Course, ",
+    linkText1:
+      "Foundational data science and Artificial Intelligence Training Course, ",
     linkText2: "Advanced data science and AI Certification Course, ",
     linkText3: " Machine learning and AI Certification, ",
-    linkText4: "Data Science and AI Certification Course for Managers and Leaders",
-    linkText5: " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+    linkText4:
+      "Data Science and AI Certification Course for Managers and Leaders",
+    linkText5:
+      " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -467,7 +469,8 @@ export const ArtificialCapstoneFaqDataM = [
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -564,7 +567,6 @@ export const ArtificialSupportFaqDataM = [
   },
 ];
 
-
 // 3rd Course machine learning course training in mumbai
 
 export const MachineFaqDataM = [
@@ -611,7 +613,6 @@ export const MachineFaqDataM = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 export const MachineDomainFaqDataM = [
   {
@@ -712,7 +713,8 @@ export const MachineCapstoneFaqDataM = [
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -806,8 +808,6 @@ export const MachineSupportFaqDataM = [
   },
 ];
 
-
-
 // 4th Course data analytics course training in mumbai
 
 export const AnalyticsFaqDataM = [
@@ -854,7 +854,6 @@ export const AnalyticsFaqDataM = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 //NO Domain Page in Analytics
 export const AnalyticsDomainFaqDataM = [
@@ -914,7 +913,7 @@ export const AnalyticsPaymentFaqDataM = [
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
-   //Text
+    //Text
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -951,7 +950,8 @@ export const AnalyticsCapstoneFaqDataM = [
     ques: "How many real-time projects/case studies will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -988,7 +988,7 @@ export const AnalyticsjobFaqDataM = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -1085,7 +1085,6 @@ export const BusinessAFaqDataM = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
     open: false,
   },
-  
 ];
 
 export const BusinessAPaymentFaqDataM = [
@@ -1142,8 +1141,6 @@ export const BusinessACapstoneFaqDataM = [
     ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
     open: false,
   },
-
-
 ];
 export const BusinessACertificationFaqDataM = [
   {
@@ -1165,7 +1162,7 @@ export const BusinessAjobFaqDataM = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -1383,7 +1380,8 @@ export const AdvanceCapstoneFaqDataH = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -1476,19 +1474,21 @@ export const AdvanceSupportFaqDataH = [
   },
 ];
 
-
 // 2st Course artificial intelligence certification course
 
 export const ArtificialFaqDataH = [
   {
     id: 0,
     ques: "What are Artificial Intelligence (AI) training courses available at Learnbay in Hyderabad?",
-    
-    linkText1: "Foundational data science and Artificial Intelligence Training Course, ",
+
+    linkText1:
+      "Foundational data science and Artificial Intelligence Training Course, ",
     linkText2: "Advanced data science and AI Certification Course, ",
     linkText3: "Machine learning and AI Certification, ",
-    linkText4: "Data Science and AI Certification Course for Managers and Leaders",
-    linkText5: "Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+    linkText4:
+      "Data Science and AI Certification Course for Managers and Leaders",
+    linkText5:
+      "Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -1631,7 +1631,7 @@ export const ArtificialPaymentFaqDataH = [
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Hyderabad?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
-   //check this
+    //check this
     open: false,
   },
   {
@@ -1682,7 +1682,8 @@ export const ArtificialCapstoneFaqDataH = [
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -1780,7 +1781,6 @@ export const ArtificialSupportFaqDataH = [
   },
 ];
 
-
 // 3rd Course machine learning course training in Hyderabad
 
 export const MachineFaqDataH = [
@@ -1827,7 +1827,6 @@ export const MachineFaqDataH = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 export const MachineDomainFaqDataH = [
   {
@@ -1928,8 +1927,9 @@ export const MachineCapstoneFaqDataH = [
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
     linkText1: " Click here to download the list of the projects.",
- link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
- link: true,
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link: true,
     open: false,
   },
   {
@@ -2022,8 +2022,6 @@ export const MachineSupportFaqDataH = [
   },
 ];
 
-
-
 // 4th Course data analytics course training in Hyderabad
 
 export const AnalyticsFaqDataH = [
@@ -2070,7 +2068,6 @@ export const AnalyticsFaqDataH = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 //NO Domain Page in Analytics
 export const AnalyticsDomainFaqDataH = [
@@ -2201,7 +2198,7 @@ export const AnalyticsjobFaqDataH = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -2298,7 +2295,6 @@ export const BusinessAFaqDataH = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
     open: false,
   },
-  
 ];
 
 export const BusinessAPaymentFaqDataH = [
@@ -2355,8 +2351,6 @@ export const BusinessACapstoneFaqDataH = [
     ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
     open: false,
   },
-
-
 ];
 export const BusinessACertificationFaqDataH = [
   {
@@ -2378,7 +2372,7 @@ export const BusinessAjobFaqDataH = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -2551,7 +2545,7 @@ export const AdvancePaymentFaqDataB = [
     id: 1,
     ques: "Can I pay in installments for these Data Science Certification courses in Bangalore?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
-   //Check This
+    //Check This
     open: false,
   },
   {
@@ -2595,7 +2589,8 @@ export const AdvanceCapstoneFaqDataB = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -2687,7 +2682,6 @@ export const AdvanceSupportFaqDataB = [
     open: false,
   },
 ];
-
 
 // 2st Course artificial intelligence certification course
 
@@ -2836,7 +2830,7 @@ export const ArtificialPaymentFaqDataB = [
     id: 1,
     ques: "Can I pay in installments for these AI Certification courses in Bangalore?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
-  //Check
+    //Check
     open: false,
   },
   {
@@ -2887,7 +2881,8 @@ export const ArtificialCapstoneFaqDataB = [
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -2984,7 +2979,6 @@ export const ArtificialSupportFaqDataB = [
   },
 ];
 
-
 // 3rd Course machine learning course training in Bangalore
 
 export const MachineFaqDataB = [
@@ -3031,7 +3025,6 @@ export const MachineFaqDataB = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 export const MachineDomainFaqDataB = [
   {
@@ -3132,7 +3125,8 @@ export const MachineCapstoneFaqDataB = [
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -3226,8 +3220,6 @@ export const MachineSupportFaqDataB = [
   },
 ];
 
-
-
 // 4th Course data analytics course training in Bangalore
 
 export const AnalyticsFaqDataB = [
@@ -3274,7 +3266,6 @@ export const AnalyticsFaqDataB = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 //NO Domain Page in Analytics
 export const AnalyticsDomainFaqDataB = [
@@ -3377,7 +3368,8 @@ export const AnalyticsCapstoneFaqDataB = [
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -3408,7 +3400,7 @@ export const AnalyticsjobFaqDataB = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -3505,7 +3497,6 @@ export const BusinessAFaqDataB = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
     open: false,
   },
-  
 ];
 
 export const BusinessAPaymentFaqDataB = [
@@ -3555,7 +3546,8 @@ export const BusinessACapstoneFaqDataB = [
     ques: "How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -3565,8 +3557,6 @@ export const BusinessACapstoneFaqDataB = [
     ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
     open: false,
   },
-
-
 ];
 export const BusinessACertificationFaqDataB = [
   {
@@ -3588,7 +3578,7 @@ export const BusinessAjobFaqDataB = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -3804,7 +3794,8 @@ export const AdvanceCapstoneFaqDataC = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -3897,18 +3888,20 @@ export const AdvanceSupportFaqDataC = [
   },
 ];
 
-
 // 2st Course artificial intelligence certification course
 
 export const ArtificialFaqDataC = [
   {
     id: 0,
     ques: "What are Artificial Intelligence (AI) training courses available at Learnbay in Chennai?",
-    linkText1: "Foundational data science and Artificial Intelligence Training Course, ",
+    linkText1:
+      "Foundational data science and Artificial Intelligence Training Course, ",
     linkText2: "Advanced data science and AI Certification Course, ",
     linkText3: " Machine learning and AI Certification, ",
-    linkText4: "Data Science and AI Certification Course for Managers and Leaders",
-    linkText5: " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+    linkText4:
+      "Data Science and AI Certification Course for Managers and Leaders",
+    linkText5:
+      " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -4101,7 +4094,8 @@ export const ArtificialCapstoneFaqDataC = [
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -4198,7 +4192,6 @@ export const ArtificialSupportFaqDataC = [
   },
 ];
 
-
 // 3rd Course machine learning course training in Chennai
 
 export const MachineFaqDataC = [
@@ -4245,7 +4238,6 @@ export const MachineFaqDataC = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 export const MachineDomainFaqDataC = [
   {
@@ -4345,7 +4337,8 @@ export const MachineCapstoneFaqDataC = [
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -4439,8 +4432,6 @@ export const MachineSupportFaqDataC = [
   },
 ];
 
-
-
 // 4th Course data analytics course training in Chennai
 
 export const AnalyticsFaqDataC = [
@@ -4487,7 +4478,6 @@ export const AnalyticsFaqDataC = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 //NO Domain Page in Analytics
 export const AnalyticsDomainFaqDataC = [
@@ -4583,7 +4573,8 @@ export const AnalyticsCapstoneFaqDataC = [
     ques: "How many real-time projects/case studies will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -4620,7 +4611,7 @@ export const AnalyticsjobFaqDataC = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -4717,7 +4708,6 @@ export const BusinessAFaqDataC = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
     open: false,
   },
-  
 ];
 
 export const BusinessAPaymentFaqDataC = [
@@ -4767,7 +4757,8 @@ export const BusinessACapstoneFaqDataC = [
     ques: "How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -4777,8 +4768,6 @@ export const BusinessACapstoneFaqDataC = [
     ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
     open: false,
   },
-
-
 ];
 export const BusinessACertificationFaqDataC = [
   {
@@ -4800,7 +4789,7 @@ export const BusinessAjobFaqDataC = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -4849,7 +4838,6 @@ export const BusinessASupportFaqDataC = [
     open: false,
   },
 ];
-
 
 // 1st Course Data Science course training in Canada
 
@@ -5017,7 +5005,8 @@ export const AdvanceCapstoneFaqDataCa = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
 
     open: true,
@@ -5111,18 +5100,20 @@ export const AdvanceSupportFaqDataCa = [
   },
 ];
 
-
 // 2st Course artificial intelligence certification course
 
 export const ArtificialFaqDataCa = [
   {
     id: 0,
     ques: "What are Artificial Intelligence (AI) training courses available at Learnbay in Canada?",
-    linkText1: "Foundational data science and Artificial Intelligence Training Course, ",
+    linkText1:
+      "Foundational data science and Artificial Intelligence Training Course, ",
     linkText2: "Advanced data science and AI Certification Course, ",
     linkText3: " Machine learning and AI Certification, ",
-    linkText4: "Data Science and AI Certification Course for Managers and Leaders",
-    linkText5: " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+    linkText4:
+      "Data Science and AI Certification Course for Managers and Leaders",
+    linkText5:
+      " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -5315,7 +5306,8 @@ export const ArtificialCapstoneFaqDataCa = [
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
 
     open: false,
@@ -5413,7 +5405,6 @@ export const ArtificialSupportFaqDataCa = [
   },
 ];
 
-
 // 3rd Course machine learning course training in Canada
 
 export const MachineFaqDataCa = [
@@ -5460,7 +5451,6 @@ export const MachineFaqDataCa = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 export const MachineDomainFaqDataCa = [
   {
@@ -5560,7 +5550,8 @@ export const MachineCapstoneFaqDataCa = [
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -5654,8 +5645,6 @@ export const MachineSupportFaqDataCa = [
   },
 ];
 
-
-
 // 4th Course data analytics course training in Canada
 
 export const AnalyticsFaqDataCa = [
@@ -5702,7 +5691,6 @@ export const AnalyticsFaqDataCa = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 //NO Domain Page in Analytics
 export const AnalyticsDomainFaqDataCa = [
@@ -5805,7 +5793,8 @@ export const AnalyticsCapstoneFaqDataCa = [
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
 
     open: false,
@@ -5837,7 +5826,7 @@ export const AnalyticsjobFaqDataCa = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -5934,7 +5923,6 @@ export const BusinessAFaqDataCa = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
     open: false,
   },
-  
 ];
 
 export const BusinessAPaymentFaqDataCa = [
@@ -5972,7 +5960,8 @@ export const BusinessAPaymentFaqDataCa = [
     ques: " What is the refund policy for the Business Analytics Program at Learnbay?",
     ans: `Candidates are advised to read  `,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -5983,7 +5972,8 @@ export const BusinessACapstoneFaqDataCa = [
     ques: "How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -5993,8 +5983,6 @@ export const BusinessACapstoneFaqDataCa = [
     ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
     open: false,
   },
-
-
 ];
 export const BusinessACertificationFaqDataCa = [
   {
@@ -6016,7 +6004,7 @@ export const BusinessAjobFaqDataCa = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -6065,7 +6053,6 @@ export const BusinessASupportFaqDataCa = [
     open: false,
   },
 ];
-
 
 // 1st Course Data Science Course In Delhi
 
@@ -6234,7 +6221,8 @@ export const AdvanceCapstoneFaqDataD = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -6327,18 +6315,20 @@ export const AdvanceSupportFaqDataD = [
   },
 ];
 
-
 // 2st Course artificial intelligence certification course
 
 export const ArtificialFaqDataD = [
   {
     id: 0,
     ques: "What are Artificial Intelligence (AI) training courses available at Learnbay in Delhi?",
-    linkText1: "Foundational data science and Artificial Intelligence Training Course, ",
+    linkText1:
+      "Foundational data science and Artificial Intelligence Training Course, ",
     linkText2: "Advanced data science and AI Certification Course, ",
     linkText3: " Machine learning and AI Certification, ",
-    linkText4: "Data Science and AI Certification Course for Managers and Leaders",
-    linkText5: " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+    linkText4:
+      "Data Science and AI Certification Course for Managers and Leaders",
+    linkText5:
+      " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -6532,7 +6522,8 @@ export const ArtificialCapstoneFaqDataD = [
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -6629,7 +6620,6 @@ export const ArtificialSupportFaqDataD = [
   },
 ];
 
-
 // 3rd Course machine learning course training in Delhi
 
 export const MachineFaqDataD = [
@@ -6676,7 +6666,6 @@ export const MachineFaqDataD = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 export const MachineDomainFaqDataD = [
   {
@@ -6776,7 +6765,8 @@ export const MachineCapstoneFaqDataD = [
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
 
     open: false,
@@ -6871,8 +6861,6 @@ export const MachineSupportFaqDataD = [
   },
 ];
 
-
-
 // 4th Course data analytics course training in Delhi
 
 export const AnalyticsFaqDataD = [
@@ -6919,7 +6907,6 @@ export const AnalyticsFaqDataD = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 //NO Domain Page in Analytics
 export const AnalyticsDomainFaqDataD = [
@@ -7015,7 +7002,8 @@ export const AnalyticsCapstoneFaqDataD = [
     ques: "How many real-time projects/case studies will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -7052,7 +7040,7 @@ export const AnalyticsjobFaqDataD = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -7149,7 +7137,6 @@ export const BusinessAFaqDataD = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
     open: false,
   },
-  
 ];
 
 export const BusinessAPaymentFaqDataD = [
@@ -7201,7 +7188,8 @@ export const BusinessACapstoneFaqDataD = [
     ques: "How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
 
     open: true,
@@ -7212,8 +7200,6 @@ export const BusinessACapstoneFaqDataD = [
     ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
     open: false,
   },
-
-
 ];
 export const BusinessACertificationFaqDataD = [
   {
@@ -7235,7 +7221,7 @@ export const BusinessAjobFaqDataD = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -7284,7 +7270,6 @@ export const BusinessASupportFaqDataD = [
     open: false,
   },
 ];
-
 
 // 1st Course data science course training in Dubai
 
@@ -7453,7 +7438,8 @@ export const AdvanceCapstoneFaqDataDu = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -7546,18 +7532,20 @@ export const AdvanceSupportFaqDataDu = [
   },
 ];
 
-
 // 2st Course artificial intelligence certification course
 
 export const ArtificialFaqDataDu = [
   {
     id: 0,
     ques: "What are Artificial Intelligence (AI) training courses available at Learnbay in Dubai?",
-    linkText1: "Foundational data science and Artificial Intelligence Training Course, ",
+    linkText1:
+      "Foundational data science and Artificial Intelligence Training Course, ",
     linkText2: "Advanced data science and AI Certification Course, ",
     linkText3: " Machine learning and AI Certification, ",
-    linkText4: "Data Science and AI Certification Course for Managers and Leaders",
-    linkText5: " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+    linkText4:
+      "Data Science and AI Certification Course for Managers and Leaders",
+    linkText5:
+      " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -7750,7 +7738,8 @@ export const ArtificialCapstoneFaqDataDu = [
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -7846,7 +7835,6 @@ export const ArtificialSupportFaqDataDu = [
   },
 ];
 
-
 // 3rd Course machine learning course training in Dubai
 
 export const MachineFaqDataDu = [
@@ -7893,7 +7881,6 @@ export const MachineFaqDataDu = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 export const MachineDomainFaqDataDu = [
   {
@@ -7995,7 +7982,8 @@ export const MachineCapstoneFaqDataDu = [
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
 
     open: false,
@@ -8090,8 +8078,6 @@ export const MachineSupportFaqDataDu = [
   },
 ];
 
-
-
 // 4th Course data analytics course training in Dubai
 
 export const AnalyticsFaqDataDu = [
@@ -8138,7 +8124,6 @@ export const AnalyticsFaqDataDu = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 //NO Domain Page in Analytics
 export const AnalyticsDomainFaqDataDu = [
@@ -8234,7 +8219,8 @@ export const AnalyticsCapstoneFaqDataDu = [
     ques: "How many real-time projects/case studies will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -8271,7 +8257,7 @@ export const AnalyticsjobFaqDataDu = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -8368,7 +8354,6 @@ export const BusinessAFaqDataDu = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
     open: false,
   },
-  
 ];
 
 export const BusinessAPaymentFaqDataDu = [
@@ -8418,7 +8403,8 @@ export const BusinessACapstoneFaqDataDu = [
     ques: "How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
 
     open: true,
@@ -8429,8 +8415,6 @@ export const BusinessACapstoneFaqDataDu = [
     ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
     open: false,
   },
-
-
 ];
 export const BusinessACertificationFaqDataDu = [
   {
@@ -8452,7 +8436,7 @@ export const BusinessAjobFaqDataDu = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -8501,7 +8485,6 @@ export const BusinessASupportFaqDataDu = [
     open: false,
   },
 ];
-
 
 // 1st Course data science course training in Pune
 
@@ -8669,7 +8652,8 @@ export const AdvanceCapstoneFaqDataP = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -8762,18 +8746,20 @@ export const AdvanceSupportFaqDataP = [
   },
 ];
 
-
 // 2st Course artificial intelligence certification course
 
 export const ArtificialFaqDataP = [
   {
     id: 0,
     ques: "What are Artificial Intelligence (AI) training courses available at Learnbay in Pune?",
-    linkText1: "Foundational data science and Artificial Intelligence Training Course, ",
+    linkText1:
+      "Foundational data science and Artificial Intelligence Training Course, ",
     linkText2: "Advanced data science and AI Certification Course, ",
     linkText3: " Machine learning and AI Certification, ",
-    linkText4: "Data Science and AI Certification Course for Managers and Leaders",
-    linkText5: " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+    linkText4:
+      "Data Science and AI Certification Course for Managers and Leaders",
+    linkText5:
+      " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -8966,10 +8952,11 @@ export const ArtificialCapstoneFaqDataP = [
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
     Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
-    
- linkText1: " Click here to download the list of the projects.",
- link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
- link: true,
+
+    linkText1: " Click here to download the list of the projects.",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link: true,
     open: false,
   },
   {
@@ -9065,7 +9052,6 @@ export const ArtificialSupportFaqDataP = [
   },
 ];
 
-
 // 3rd Course machine learning course training in Pune
 
 export const MachineFaqDataP = [
@@ -9112,7 +9098,6 @@ export const MachineFaqDataP = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 export const MachineDomainFaqDataP = [
   {
@@ -9212,7 +9197,8 @@ export const MachineCapstoneFaqDataP = [
     ques: " How many real-time projects will be there?",
     ans: `We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -9306,8 +9292,6 @@ export const MachineSupportFaqDataP = [
   },
 ];
 
-
-
 // 4th Course data analytics course training in Pune
 
 export const AnalyticsFaqDataP = [
@@ -9354,7 +9338,6 @@ export const AnalyticsFaqDataP = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions. ",
     open: false,
   },
-  
 ];
 //NO Domain Page in Analytics
 export const AnalyticsDomainFaqDataP = [
@@ -9451,7 +9434,8 @@ export const AnalyticsCapstoneFaqDataP = [
     ques: "How many real-time projects/case studies will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -9488,7 +9472,7 @@ export const AnalyticsjobFaqDataP = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -9585,7 +9569,6 @@ export const BusinessAFaqDataP = [
     ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
     open: false,
   },
-  
 ];
 
 export const BusinessAPaymentFaqDataP = [
@@ -9636,7 +9619,8 @@ export const BusinessACapstoneFaqDataP = [
     ques: "How many real-time projects will be there?",
     ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -9646,8 +9630,6 @@ export const BusinessACapstoneFaqDataP = [
     ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
     open: false,
   },
-
-
 ];
 export const BusinessACertificationFaqDataP = [
   {
@@ -9669,7 +9651,7 @@ export const BusinessAjobFaqDataP = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -9719,11 +9701,2123 @@ export const BusinessASupportFaqDataP = [
   },
 ];
 
+// 1st Course full stack course training in Pune
 
+export const FullStackFaqDataP = [
+  {
+    id: 0,
+    ques: "What is Learnbay’s full-stack developer course in Pune?",
+    ans: "Learnbay's full-stack developer course is essentially the finest course in software development available in Pune. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What types of topics will this full-stack development course cover?",
+    ans: "It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., software and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a 'Flexi Subscription' in the full stack software development course in Pune?",
+    ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What are the essential skills in a software development course in pune?",
+    ans: "Programming, Object Oriented Design (OOD), Software Testing and Debugging, Problem Solving, and Logical Thinking are the mandatory skills you need to master. Learnbay's full-stack development course trains learners on this topic via real-time working experience.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What will be the program duration for this full-stack software developer course in pune?",
+    ans: "This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "What is the mode of training for this advanced software development course at Learnbay?",
+    ans: "You can select your preferred mode based on your needs. ",
+    ansAfter: "1. Online Mode :- You can only participate in live, interactive classes online (no recorded video-based session is available). Project sessions will also be conducted online. ",
+    ans1: "2. Hybrid Mode :- For all theoretical sessions, you must participate in live, interactive online lectures. Project-based sessions will be conducted offline.",
+    open: false,
+  },
+  {
+    id: 6,
+    ques: "How does hybrid learning work, and what are its benefits?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. There you will be doing your project work under the direct supervision of your respective domain expert. The dedicated counselor assigned to you will help you in this regard. The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune.",
+    open: false,
+  },
+  {
+    id: 7,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "You will be given substitute classes in other batches if you miss a few classes. But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch.",
+    open: false,
+  },
+  {
+    id: 8,
+    ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
+    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    open: false,
+  },
+];
+export const FullStackDomainFaqDataP = [
+  {
+    id: 0,
+    ques: "What is Domain Specialization associated with the full-stack software developer course in Pune?",
+    ans: "In the full-stack software developer course of Learnbay, we offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can select a specific elective. Based on your chosen domain, all the learning modules of your course will receive customization. So you will be trained with all the best practices of software development that are exclusive to your chosen domain.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What are specialized domain options provided in this Program?",
+    ans: "In Pune, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is it possible to choose more than one domain in a particular full-stack software developer course?",
+    ans: `Yes, it is possible to select more than one domain in a full-stack developer course based on someone's preferences and eligibility.`,
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Can I switch my domain later or in between the course, and if so, is there any extra cost involved?",
+    ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. And doing so is free of cost.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What if I don't have any prior experience in any domain?",
+    ans: `If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.`,
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I know which domain suits me the best?",
+    ans: "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for a free profile review and career guidance on the full-stack developer course.",
+    open: false,
+  },
+];
+export const FullStackPaymentFaqDataP = [
+  {
+    id: 0,
+    ques: "How much is the full-stack software developer course fee in Pune?",
+    ans: `The total cost of the full-stack software development course in Pune is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any Installment / EMI option available for this course in Pune?",
+    ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
+    linkText1: "@ +917795687988",
+    link1: "tel:+917795687988",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: " Will It be required to pay any additional fees for EMI transactions? Is there a refund or rescheduling policy for this Program?",
+    ans: `There are no additional fees from Learnbay for any EMI transactions, and it is completely dependent on the banking and finance company norms. Candidates are advised to read `,
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the course.",
+    link: true,
+    open: false,
+  },
+];
+export const FullStackCapstoneFaqDataP = [
+  {
+    id: 0,
+    ques: "How many real-time projects will be there in the full-stack developer course?",
+    ans: `In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How do Learnbay’s full-stack software developer course projects help crack the MNC interview?",
+    ans: "Because of the specialized projects, you will be able to concentrate on a particular subject, which will make it easier for you to react with better clarity and accuracy to questions asked during interviews. After all, you will be skilled in domain-specific best practices.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: " What is Learnbay’s project innovation lab?",
+    ans: "Learnbay‘s project innovation lab is an essential approach to the hybrid learning process. where students may complete their projects offline at one of the seven training centers that Learnbay offers across India.",
+    open: false,
+  },
+];
+export const FullStackjobFaqDataP = [
+  {
+    id: 0,
+    ques: "What is a job assistance program?",
 
+    ans: `Learnbay's Job assistance program assists you in obtaining job offers from major MNCs. The Program guides you through the resume-building and project portfolio preparation process. Here you get mock interviews with extensive learning support based on targeted companies and roles. All the mock interviews are conducted by highly experienced software developers.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any job assistance provided with this full-stack software developer course?",
+    ans: `You should have completed the course with: A minimum score of 70% in assessments. You should have completed the assignments and case studies, Worked, and successfully completed the minimum recommended number of real-time projects.`,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is the duration of the job assistance?",
+    ans: `You’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+];
+export const FullStackeligibleFaqDataP = [
+  {
+    id: 0,
+    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
 
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "I have no prior experience with coding; will this full-stack software developer course be beneficial to me?",
+    ans: "Learnbay offers specialized sessions for beginners who have no prior expertise with computer programming. So, this is not a concern; only you should have the aptitude to master coding. We will support you from scratch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the prerequisites for the Full-stack Software Development Program?",
+    ans: "Nothing but basic coding knowledge is required to start with this course.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "I am a working professional; will the course interfere with my professional life?",
+    ans: "Learnbay delivers weekend batches and weekday evening batches with specific time slots for working professionals, allowing them to choose the timings in a manner that does not interfere with their professional lives.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the documents required to enroll in the full-stack developer program in Pune?",
+    ans: "The admissions procedure is conducted online and personalized to your educational and career background. Only a few academic documents are required for the application procedure.",
+    open: false,
+  },
+];
+export const FullStackMentorshipFaqDataP = [
+  {
+    id: 0,
+    ques: "Can a student change mentors based on specific interests after enrolment?",
 
+    ans: "Every batch at Learnbay has a specific mentor, but if a student is unhappy with the way their mentor teaches, they can bring it up with a dedicated contact point, who will address the problem by finding new mentors or by changing the batch.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any option for 1-on-1 learning?",
+    ans: "Learnbay Provides students with 1-on-1 doubt-clearing sessions. If a person has a specific question and wants to understand certain crucial topics, he or she might certainly benefit from such a session.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "How long do students get access to mentor support?",
+    ans: "Our Mentors will provide advanced software development training and career insights/guidance to the students until the completion of the course, depending on the specialization. Post-course- completion also students can reach out to specialized mentors for project and placement purposes.",
+    open: false,
+  },
+];
+export const FullStackgenericFaqDataP = [
+  {
+    id: 0,
+    ques: "What does a full-stack developer do?",
 
+    ans: "The term Full-Stack developer refers to a person proficient in both the front-end and back-end of software development. They create and keep up-and-running fully-fledged systems with databases or servers.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What is the average full-stack software developer salary in Pune?",
+    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is a full-stack developer a software engineer?",
+    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    open: false,
+  },
+];
+export const FullStackSupportFaqDataP = [
+  {
+    id: 0,
+    ques: "Does Learnbay provide webinars and hackathons in full-stack development courses in Pune?",
 
+    ans: "Learnbay offers a full-stack development course that includes webinars and hackathons. Students can enhance their knowledge further by enrolling in webinars and hackathons led by industry experts.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I receive job referrals after completing a full-stack development course in pune?",
+    ans: "In full-stack software development, you’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
 
+// 1st Course full stack course training in Bangalore
+
+export const FullStackFaqDataB = [
+  {
+    id: 0,
+    ques: "What is Learnbay’s full-stack developer course in Bangalore?",
+    ans: "Learnbay's full-stack developer course is essentially the finest course in software development available in Bangalore. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What types of topics will this full-stack development course cover?",
+    ans: "It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., software and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a 'Flexi Subscription' in the full stack software development course in Bangalore?",
+    ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What are the essential skills in a software development course in Bangalore?",
+    ans: "Programming, Object Oriented Design (OOD), Software Testing and Debugging, Problem Solving, and Logical Thinking are the mandatory skills you need to master. Learnbay's full-stack development course trains learners on this topic via real-time working experience.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What will be the program duration for this full-stack software developer course in Bangalore?",
+    ans: "This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "What is the mode of training for this advanced software development course at Learnbay?",
+    ans: "You can select your preferred mode based on your needs. ",
+    ansAfter: "1. Online Mode :- You can only participate in live, interactive classes online (no recorded video-based session is available). Project sessions will also be conducted online. ",
+    ans1: "2. Hybrid Mode :- For all theoretical sessions, you must participate in live, interactive online lectures. Project-based sessions will be conducted offline.",
+    open: false,
+  },
+  {
+    id: 6,
+    ques: "How does hybrid learning work, and what are its benefits?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. There you will be doing your project work under the direct supervision of your respective domain expert. The dedicated counselor assigned to you will help you in this regard. The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune.",
+    open: false,
+  },
+  {
+    id: 7,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "You will be given substitute classes in other batches if you miss a few classes. But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch.",
+    open: false,
+  },
+  {
+    id: 8,
+    ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
+    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    open: false,
+  },
+];
+export const FullStackDomainFaqDataB = [
+  {
+    id: 0,
+    ques: "What is Domain Specialization associated with the full-stack software developer course in Bangalore?",
+    ans: "In the full-stack software developer course of Learnbay, we offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can select a specific elective. Based on your chosen domain, all the learning modules of your course will receive customization. So you will be trained with all the best practices of software development that are exclusive to your chosen domain.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What are specialized domain options provided in this Program?",
+    ans: "In Bangalore, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is it possible to choose more than one domain in a particular full-stack software developer course?",
+    ans: `Yes, it is possible to select more than one domain in a full-stack developer course based on someone's preferences and eligibility.`,
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Can I switch my domain later or in between the course, and if so, is there any extra cost involved?",
+    ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. And doing so is free of cost.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What if I don't have any prior experience in any domain?",
+    ans: `If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.`,
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I know which domain suits me the best?",
+    ans: "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for a free profile review and career guidance on the full-stack developer course.",
+    open: false,
+  },
+];
+export const FullStackPaymentFaqDataB = [
+  {
+    id: 0,
+    ques: "How much is the full-stack software developer course fee in Bangalore?",
+    ans: `The total cost of the full-stack software development course in Bangalore is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any Installment / EMI option available for this course in Bangalore?",
+    ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
+    linkText1: "@ +917795687988",
+    link1: "tel:+917795687988",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: " Will It be required to pay any additional fees for EMI transactions? Is there a refund or rescheduling policy for this Program?",
+    ans: `There are no additional fees from Learnbay for any EMI transactions, and it is completely dependent on the banking and finance company norms. Candidates are advised to read `,
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the course.",
+    link: true,
+    open: false,
+  },
+];
+export const FullStackCapstoneFaqDataB = [
+  {
+    id: 0,
+    ques: "How many real-time projects will be there in the full-stack developer course?",
+    ans: `In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How do Learnbay’s full-stack software developer course projects help crack the MNC interview?",
+    ans: "Because of the specialized projects, you will be able to concentrate on a particular subject, which will make it easier for you to react with better clarity and accuracy to questions asked during interviews. After all, you will be skilled in domain-specific best practices.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: " What is Learnbay’s project innovation lab?",
+    ans: "Learnbay‘s project innovation lab is an essential approach to the hybrid learning process. where students may complete their projects offline at one of the seven training centers that Learnbay offers across India.",
+    open: false,
+  },
+];
+export const FullStackjobFaqDataB = [
+  {
+    id: 0,
+    ques: "What is a job assistance program?",
+
+    ans: `Learnbay's Job assistance program assists you in obtaining job offers from major MNCs. The Program guides you through the resume-building and project portfolio preparation process. Here you get mock interviews with extensive learning support based on targeted companies and roles. All the mock interviews are conducted by highly experienced software developers.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any job assistance provided with this full-stack software developer course?",
+    ans: `You should have completed the course with: A minimum score of 70% in assessments. You should have completed the assignments and case studies, Worked, and successfully completed the minimum recommended number of real-time projects.`,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is the duration of the job assistance?",
+    ans: `You’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+];
+export const FullStackeligibleFaqDataB = [
+  {
+    id: 0,
+    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "I have no prior experience with coding; will this full-stack software developer course be beneficial to me?",
+    ans: "Learnbay offers specialized sessions for beginners who have no prior expertise with computer programming. So, this is not a concern; only you should have the aptitude to master coding. We will support you from scratch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the prerequisites for the Full-stack Software Development Program?",
+    ans: "Nothing but basic coding knowledge is required to start with this course.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "I am a working professional; will the course interfere with my professional life?",
+    ans: "Learnbay delivers weekend batches and weekday evening batches with specific time slots for working professionals, allowing them to choose the timings in a manner that does not interfere with their professional lives.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the documents required to enroll in the full-stack developer program in Bangalore?",
+    ans: "The admissions procedure is conducted online and personalized to your educational and career background. Only a few academic documents are required for the application procedure.",
+    open: false,
+  },
+];
+export const FullStackMentorshipFaqDataB = [
+  {
+    id: 0,
+    ques: "Can a student change mentors based on specific interests after enrolment?",
+
+    ans: "Every batch at Learnbay has a specific mentor, but if a student is unhappy with the way their mentor teaches, they can bring it up with a dedicated contact point, who will address the problem by finding new mentors or by changing the batch.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any option for 1-on-1 learning?",
+    ans: "Learnbay Provides students with 1-on-1 doubt-clearing sessions. If a person has a specific question and wants to understand certain crucial topics, he or she might certainly benefit from such a session.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "How long do students get access to mentor support?",
+    ans: "Our Mentors will provide advanced software development training and career insights/guidance to the students until the completion of the course, depending on the specialization. Post-course- completion also students can reach out to specialized mentors for project and placement purposes.",
+    open: false,
+  },
+];
+export const FullStackgenericFaqDataB = [
+  {
+    id: 0,
+    ques: "What does a full-stack developer do?",
+
+    ans: "The term Full-Stack developer refers to a person proficient in both the front-end and back-end of software development. They create and keep up-and-running fully-fledged systems with databases or servers.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What is the average full-stack software developer salary in Bangalore?",
+    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is a full-stack developer a software engineer?",
+    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    open: false,
+  },
+];
+export const FullStackSupportFaqDataB = [
+  {
+    id: 0,
+    ques: "Does Learnbay provide webinars and hackathons in full-stack development courses in Bangalore?",
+
+    ans: "Learnbay offers a full-stack development course that includes webinars and hackathons. Students can enhance their knowledge further by enrolling in webinars and hackathons led by industry experts.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I receive job referrals after completing a full-stack development course in Bangalore?",
+    ans: "In full-stack software development, you’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
+
+// 1st Course full stack course training in Canada
+
+export const FullStackFaqDataCa = [
+  {
+    id: 0,
+    ques: "What is Learnbay’s full-stack developer course in Canada?",
+    ans: "Learnbay's full-stack developer course is essentially the finest course in software development available in Canada. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What types of topics will this full-stack development course cover?",
+    ans: "It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., software and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a 'Flexi Subscription' in the full stack software development course in Canada?",
+    ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What are the essential skills in a software development course in Canada?",
+    ans: "Programming, Object Oriented Design (OOD), Software Testing and Debugging, Problem Solving, and Logical Thinking are the mandatory skills you need to master. Learnbay's full-stack development course trains learners on this topic via real-time working experience.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What will be the program duration for this full-stack software developer course in Canada?",
+    ans: "This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "What is the mode of training for this advanced software development course at Learnbay?",
+    ans: "You can select your preferred mode based on your needs. ",
+    ansAfter: "1. Online Mode :- You can only participate in live, interactive classes online (no recorded video-based session is available). Project sessions will also be conducted online. ",
+    ans1: "2. Hybrid Mode :- For all theoretical sessions, you must participate in live, interactive online lectures. Project-based sessions will be conducted offline.",
+    open: false,
+  },
+  {
+    id: 6,
+    ques: "How does hybrid learning work, and what are its benefits?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. There you will be doing your project work under the direct supervision of your respective domain expert. The dedicated counselor assigned to you will help you in this regard. The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune.",
+    open: false,
+  },
+  {
+    id: 7,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "You will be given substitute classes in other batches if you miss a few classes. But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch.",
+    open: false,
+  },
+  {
+    id: 8,
+    ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
+    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    open: false,
+  },
+];
+export const FullStackDomainFaqDataCa = [
+  {
+    id: 0,
+    ques: "What is Domain Specialization associated with the full-stack software developer course in Canada?",
+    ans: "In the full-stack software developer course of Learnbay, we offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can select a specific elective. Based on your chosen domain, all the learning modules of your course will receive customization. So you will be trained with all the best practices of software development that are exclusive to your chosen domain.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What are specialized domain options provided in this Program?",
+    ans: "In Canada, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is it possible to choose more than one domain in a particular full-stack software developer course?",
+    ans: `Yes, it is possible to select more than one domain in a full-stack developer course based on someone's preferences and eligibility.`,
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Can I switch my domain later or in between the course, and if so, is there any extra cost involved?",
+    ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. And doing so is free of cost.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What if I don't have any prior experience in any domain?",
+    ans: `If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.`,
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I know which domain suits me the best?",
+    ans: "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for a free profile review and career guidance on the full-stack developer course.",
+    open: false,
+  },
+];
+export const FullStackPaymentFaqDataCa = [
+  {
+    id: 0,
+    ques: "How much is the full-stack software developer course fee in Canada?",
+    ans: `The total cost of the full-stack software development course in Canada is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any Installment / EMI option available for this course in Canada?",
+    ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
+    linkText1: "@ +917795687988",
+    link1: "tel:+917795687988",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: " Will It be required to pay any additional fees for EMI transactions? Is there a refund or rescheduling policy for this Program?",
+    ans: `There are no additional fees from Learnbay for any EMI transactions, and it is completely dependent on the banking and finance company norms. Candidates are advised to read `,
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the course.",
+    link: true,
+    open: false,
+  },
+];
+export const FullStackCapstoneFaqDataCa = [
+  {
+    id: 0,
+    ques: "How many real-time projects will be there in the full-stack developer course?",
+    ans: `In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How do Learnbay’s full-stack software developer course projects help crack the MNC interview?",
+    ans: "Because of the specialized projects, you will be able to concentrate on a particular subject, which will make it easier for you to react with better clarity and accuracy to questions asked during interviews. After all, you will be skilled in domain-specific best practices.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: " What is Learnbay’s project innovation lab?",
+    ans: "Learnbay‘s project innovation lab is an essential approach to the hybrid learning process. where students may complete their projects offline at one of the seven training centers that Learnbay offers across India.",
+    open: false,
+  },
+];
+export const FullStackjobFaqDataCa = [
+  {
+    id: 0,
+    ques: "What is a job assistance program?",
+
+    ans: `Learnbay's Job assistance program assists you in obtaining job offers from major MNCs. The Program guides you through the resume-building and project portfolio preparation process. Here you get mock interviews with extensive learning support based on targeted companies and roles. All the mock interviews are conducted by highly experienced software developers.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any job assistance provided with this full-stack software developer course?",
+    ans: `You should have completed the course with: A minimum score of 70% in assessments. You should have completed the assignments and case studies, Worked, and successfully completed the minimum recommended number of real-time projects.`,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is the duration of the job assistance?",
+    ans: `You’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+];
+export const FullStackeligibleFaqDataCa = [
+  {
+    id: 0,
+    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "I have no prior experience with coding; will this full-stack software developer course be beneficial to me?",
+    ans: "Learnbay offers specialized sessions for beginners who have no prior expertise with computer programming. So, this is not a concern; only you should have the aptitude to master coding. We will support you from scratch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the prerequisites for the Full-stack Software Development Program?",
+    ans: "Nothing but basic coding knowledge is required to start with this course.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "I am a working professional; will the course interfere with my professional life?",
+    ans: "Learnbay delivers weekend batches and weekday evening batches with specific time slots for working professionals, allowing them to choose the timings in a manner that does not interfere with their professional lives.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the documents required to enroll in the full-stack developer program in Canada?",
+    ans: "The admissions procedure is conducted online and personalized to your educational and career background. Only a few academic documents are required for the application procedure.",
+    open: false,
+  },
+];
+export const FullStackMentorshipFaqDataCa = [
+  {
+    id: 0,
+    ques: "Can a student change mentors based on specific interests after enrolment?",
+
+    ans: "Every batch at Learnbay has a specific mentor, but if a student is unhappy with the way their mentor teaches, they can bring it up with a dedicated contact point, who will address the problem by finding new mentors or by changing the batch.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any option for 1-on-1 learning?",
+    ans: "Learnbay Provides students with 1-on-1 doubt-clearing sessions. If a person has a specific question and wants to understand certain crucial topics, he or she might certainly benefit from such a session.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "How long do students get access to mentor support?",
+    ans: "Our Mentors will provide advanced software development training and career insights/guidance to the students until the completion of the course, depending on the specialization. Post-course- completion also students can reach out to specialized mentors for project and placement purposes.",
+    open: false,
+  },
+];
+export const FullStackgenericFaqDataCa = [
+  {
+    id: 0,
+    ques: "What does a full-stack developer do?",
+
+    ans: "The term Full-Stack developer refers to a person proficient in both the front-end and back-end of software development. They create and keep up-and-running fully-fledged systems with databases or servers.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What is the average full-stack software developer salary in Canada?",
+    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is a full-stack developer a software engineer?",
+    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    open: false,
+  },
+];
+export const FullStackSupportFaqDataCa = [
+  {
+    id: 0,
+    ques: "Does Learnbay provide webinars and hackathons in full-stack development courses in Canada?",
+
+    ans: "Learnbay offers a full-stack development course that includes webinars and hackathons. Students can enhance their knowledge further by enrolling in webinars and hackathons led by industry experts.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I receive job referrals after completing a full-stack development course in Canada?",
+    ans: "In full-stack software development, you’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
+
+// 1st Course full stack course training in Chennai
+
+export const FullStackFaqDataC = [
+  {
+    id: 0,
+    ques: "What is Learnbay’s full-stack developer course in Chennai?",
+    ans: "Learnbay's full-stack developer course is essentially the finest course in software development available in Chennai. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What types of topics will this full-stack development course cover?",
+    ans: "It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., software and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a 'Flexi Subscription' in the full stack software development course in Chennai?",
+    ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What are the essential skills in a software development course in Chennai?",
+    ans: "Programming, Object Oriented Design (OOD), Software Testing and Debugging, Problem Solving, and Logical Thinking are the mandatory skills you need to master. Learnbay's full-stack development course trains learners on this topic via real-time working experience.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What will be the program duration for this full-stack software developer course in Chennai?",
+    ans: "This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "What is the mode of training for this advanced software development course at Learnbay?",
+    ans: "You can select your preferred mode based on your needs. ",
+    ansAfter: "1. Online Mode :- You can only participate in live, interactive classes online (no recorded video-based session is available). Project sessions will also be conducted online. ",
+    ans1: "2. Hybrid Mode :- For all theoretical sessions, you must participate in live, interactive online lectures. Project-based sessions will be conducted offline.",
+    open: false,
+  },
+  {
+    id: 6,
+    ques: "How does hybrid learning work, and what are its benefits?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. There you will be doing your project work under the direct supervision of your respective domain expert. The dedicated counselor assigned to you will help you in this regard. The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune.",
+    open: false,
+  },
+  {
+    id: 7,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "You will be given substitute classes in other batches if you miss a few classes. But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch.",
+    open: false,
+  },
+  {
+    id: 8,
+    ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
+    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    open: false,
+  },
+];
+export const FullStackDomainFaqDataC = [
+  {
+    id: 0,
+    ques: "What is Domain Specialization associated with the full-stack software developer course in Chennai?",
+    ans: "In the full-stack software developer course of Learnbay, we offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can select a specific elective. Based on your chosen domain, all the learning modules of your course will receive customization. So you will be trained with all the best practices of software development that are exclusive to your chosen domain.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What are specialized domain options provided in this Program?",
+    ans: "In Chennai, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is it possible to choose more than one domain in a particular full-stack software developer course?",
+    ans: `Yes, it is possible to select more than one domain in a full-stack developer course based on someone's preferences and eligibility.`,
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Can I switch my domain later or in between the course, and if so, is there any extra cost involved?",
+    ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. And doing so is free of cost.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What if I don't have any prior experience in any domain?",
+    ans: `If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.`,
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I know which domain suits me the best?",
+    ans: "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for a free profile review and career guidance on the full-stack developer course.",
+    open: false,
+  },
+];
+export const FullStackPaymentFaqDataC = [
+  {
+    id: 0,
+    ques: "How much is the full-stack software developer course fee in Chennai?",
+    ans: `The total cost of the full-stack software development course in Chennai is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any Installment / EMI option available for this course in Chennai?",
+    ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
+    linkText1: "@ +917795687988",
+    link1: "tel:+917795687988",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: " Will It be required to pay any additional fees for EMI transactions? Is there a refund or rescheduling policy for this Program?",
+    ans: `There are no additional fees from Learnbay for any EMI transactions, and it is completely dependent on the banking and finance company norms. Candidates are advised to read `,
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the course.",
+    link: true,
+    open: false,
+  },
+];
+export const FullStackCapstoneFaqDataC = [
+  {
+    id: 0,
+    ques: "How many real-time projects will be there in the full-stack developer course?",
+    ans: `In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How do Learnbay’s full-stack software developer course projects help crack the MNC interview?",
+    ans: "Because of the specialized projects, you will be able to concentrate on a particular subject, which will make it easier for you to react with better clarity and accuracy to questions asked during interviews. After all, you will be skilled in domain-specific best practices.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: " What is Learnbay’s project innovation lab?",
+    ans: "Learnbay‘s project innovation lab is an essential approach to the hybrid learning process. where students may complete their projects offline at one of the seven training centers that Learnbay offers across India.",
+    open: false,
+  },
+];
+export const FullStackjobFaqDataC = [
+  {
+    id: 0,
+    ques: "What is a job assistance program?",
+
+    ans: `Learnbay's Job assistance program assists you in obtaining job offers from major MNCs. The Program guides you through the resume-building and project portfolio preparation process. Here you get mock interviews with extensive learning support based on targeted companies and roles. All the mock interviews are conducted by highly experienced software developers.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any job assistance provided with this full-stack software developer course?",
+    ans: `You should have completed the course with: A minimum score of 70% in assessments. You should have completed the assignments and case studies, Worked, and successfully completed the minimum recommended number of real-time projects.`,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is the duration of the job assistance?",
+    ans: `You’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+];
+export const FullStackeligibleFaqDataC = [
+  {
+    id: 0,
+    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "I have no prior experience with coding; will this full-stack software developer course be beneficial to me?",
+    ans: "Learnbay offers specialized sessions for beginners who have no prior expertise with computer programming. So, this is not a concern; only you should have the aptitude to master coding. We will support you from scratch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the prerequisites for the Full-stack Software Development Program?",
+    ans: "Nothing but basic coding knowledge is required to start with this course.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "I am a working professional; will the course interfere with my professional life?",
+    ans: "Learnbay delivers weekend batches and weekday evening batches with specific time slots for working professionals, allowing them to choose the timings in a manner that does not interfere with their professional lives.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the documents required to enroll in the full-stack developer program in Chennai?",
+    ans: "The admissions procedure is conducted online and personalized to your educational and career background. Only a few academic documents are required for the application procedure.",
+    open: false,
+  },
+];
+export const FullStackMentorshipFaqDataC = [
+  {
+    id: 0,
+    ques: "Can a student change mentors based on specific interests after enrolment?",
+
+    ans: "Every batch at Learnbay has a specific mentor, but if a student is unhappy with the way their mentor teaches, they can bring it up with a dedicated contact point, who will address the problem by finding new mentors or by changing the batch.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any option for 1-on-1 learning?",
+    ans: "Learnbay Provides students with 1-on-1 doubt-clearing sessions. If a person has a specific question and wants to understand certain crucial topics, he or she might certainly benefit from such a session.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "How long do students get access to mentor support?",
+    ans: "Our Mentors will provide advanced software development training and career insights/guidance to the students until the completion of the course, depending on the specialization. Post-course- completion also students can reach out to specialized mentors for project and placement purposes.",
+    open: false,
+  },
+];
+export const FullStackgenericFaqDataC = [
+  {
+    id: 0,
+    ques: "What does a full-stack developer do?",
+
+    ans: "The term Full-Stack developer refers to a person proficient in both the front-end and back-end of software development. They create and keep up-and-running fully-fledged systems with databases or servers.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What is the average full-stack software developer salary in Chennai?",
+    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is a full-stack developer a software engineer?",
+    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    open: false,
+  },
+];
+export const FullStackSupportFaqDataC = [
+  {
+    id: 0,
+    ques: "Does Learnbay provide webinars and hackathons in full-stack development courses in Chennai?",
+
+    ans: "Learnbay offers a full-stack development course that includes webinars and hackathons. Students can enhance their knowledge further by enrolling in webinars and hackathons led by industry experts.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I receive job referrals after completing a full-stack development course in Chennai?",
+    ans: "In full-stack software development, you’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
+
+// 1st Course full stack course training in Delhi
+
+export const FullStackFaqDataDe = [
+  {
+    id: 0,
+    ques: "What is Learnbay’s full-stack developer course in Delhi?",
+    ans: "Learnbay's full-stack developer course is essentially the finest course in software development available in Delhi. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What types of topics will this full-stack development course cover?",
+    ans: "It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., software and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a 'Flexi Subscription' in the full stack software development course in Delhi?",
+    ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What are the essential skills in a software development course in Delhi?",
+    ans: "Programming, Object Oriented Design (OOD), Software Testing and Debugging, Problem Solving, and Logical Thinking are the mandatory skills you need to master. Learnbay's full-stack development course trains learners on this topic via real-time working experience.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What will be the program duration for this full-stack software developer course in Delhi?",
+    ans: "This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "What is the mode of training for this advanced software development course at Learnbay?",
+    ans: "You can select your preferred mode based on your needs. ",
+    ansAfter: "1. Online Mode :- You can only participate in live, interactive classes online (no recorded video-based session is available). Project sessions will also be conducted online. ",
+    ans1: "2. Hybrid Mode :- For all theoretical sessions, you must participate in live, interactive online lectures. Project-based sessions will be conducted offline.",
+    open: false,
+  },
+  {
+    id: 6,
+    ques: "How does hybrid learning work, and what are its benefits?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. There you will be doing your project work under the direct supervision of your respective domain expert. The dedicated counselor assigned to you will help you in this regard. The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune.",
+    open: false,
+  },
+  {
+    id: 7,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "You will be given substitute classes in other batches if you miss a few classes. But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch.",
+    open: false,
+  },
+  {
+    id: 8,
+    ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
+    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    open: false,
+  },
+];
+export const FullStackDomainFaqDataDe = [
+  {
+    id: 0,
+    ques: "What is Domain Specialization associated with the full-stack software developer course in Delhi?",
+    ans: "In the full-stack software developer course of Learnbay, we offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can select a specific elective. Based on your chosen domain, all the learning modules of your course will receive customization. So you will be trained with all the best practices of software development that are exclusive to your chosen domain.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What are specialized domain options provided in this Program?",
+    ans: "In Delhi, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is it possible to choose more than one domain in a particular full-stack software developer course?",
+    ans: `Yes, it is possible to select more than one domain in a full-stack developer course based on someone's preferences and eligibility.`,
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Can I switch my domain later or in between the course, and if so, is there any extra cost involved?",
+    ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. And doing so is free of cost.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What if I don't have any prior experience in any domain?",
+    ans: `If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.`,
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I know which domain suits me the best?",
+    ans: "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for a free profile review and career guidance on the full-stack developer course.",
+    open: false,
+  },
+];
+export const FullStackPaymentFaqDataDe = [
+  {
+    id: 0,
+    ques: "How much is the full-stack software developer course fee in Delhi?",
+    ans: `The total cost of the full-stack software development course in Delhi is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any Installment / EMI option available for this course in Delhi?",
+    ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
+    linkText1: "@ +917795687988",
+    link1: "tel:+917795687988",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: " Will It be required to pay any additional fees for EMI transactions? Is there a refund or rescheduling policy for this Program?",
+    ans: `There are no additional fees from Learnbay for any EMI transactions, and it is completely dependent on the banking and finance company norms. Candidates are advised to read `,
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the course.",
+    link: true,
+    open: false,
+  },
+];
+export const FullStackCapstoneFaqDataDe = [
+  {
+    id: 0,
+    ques: "How many real-time projects will be there in the full-stack developer course?",
+    ans: `In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How do Learnbay’s full-stack software developer course projects help crack the MNC interview?",
+    ans: "Because of the specialized projects, you will be able to concentrate on a particular subject, which will make it easier for you to react with better clarity and accuracy to questions asked during interviews. After all, you will be skilled in domain-specific best practices.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: " What is Learnbay’s project innovation lab?",
+    ans: "Learnbay‘s project innovation lab is an essential approach to the hybrid learning process. where students may complete their projects offline at one of the seven training centers that Learnbay offers across India.",
+    open: false,
+  },
+];
+export const FullStackjobFaqDataDe = [
+  {
+    id: 0,
+    ques: "What is a job assistance program?",
+
+    ans: `Learnbay's Job assistance program assists you in obtaining job offers from major MNCs. The Program guides you through the resume-building and project portfolio preparation process. Here you get mock interviews with extensive learning support based on targeted companies and roles. All the mock interviews are conducted by highly experienced software developers.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any job assistance provided with this full-stack software developer course?",
+    ans: `You should have completed the course with: A minimum score of 70% in assessments. You should have completed the assignments and case studies, Worked, and successfully completed the minimum recommended number of real-time projects.`,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is the duration of the job assistance?",
+    ans: `You’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+];
+export const FullStackeligibleFaqDataDe = [
+  {
+    id: 0,
+    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "I have no prior experience with coding; will this full-stack software developer course be beneficial to me?",
+    ans: "Learnbay offers specialized sessions for beginners who have no prior expertise with computer programming. So, this is not a concern; only you should have the aptitude to master coding. We will support you from scratch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the prerequisites for the Full-stack Software Development Program?",
+    ans: "Nothing but basic coding knowledge is required to start with this course.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "I am a working professional; will the course interfere with my professional life?",
+    ans: "Learnbay delivers weekend batches and weekday evening batches with specific time slots for working professionals, allowing them to choose the timings in a manner that does not interfere with their professional lives.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the documents required to enroll in the full-stack developer program in Delhi?",
+    ans: "The admissions procedure is conducted online and personalized to your educational and career background. Only a few academic documents are required for the application procedure.",
+    open: false,
+  },
+];
+export const FullStackMentorshipFaqDataDe = [
+  {
+    id: 0,
+    ques: "Can a student change mentors based on specific interests after enrolment?",
+
+    ans: "Every batch at Learnbay has a specific mentor, but if a student is unhappy with the way their mentor teaches, they can bring it up with a dedicated contact point, who will address the problem by finding new mentors or by changing the batch.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any option for 1-on-1 learning?",
+    ans: "Learnbay Provides students with 1-on-1 doubt-clearing sessions. If a person has a specific question and wants to understand certain crucial topics, he or she might certainly benefit from such a session.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "How long do students get access to mentor support?",
+    ans: "Our Mentors will provide advanced software development training and career insights/guidance to the students until the completion of the course, depending on the specialization. Post-course- completion also students can reach out to specialized mentors for project and placement purposes.",
+    open: false,
+  },
+];
+export const FullStackgenericFaqDataDe = [
+  {
+    id: 0,
+    ques: "What does a full-stack developer do?",
+
+    ans: "The term Full-Stack developer refers to a person proficient in both the front-end and back-end of software development. They create and keep up-and-running fully-fledged systems with databases or servers.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What is the average full-stack software developer salary in Delhi?",
+    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is a full-stack developer a software engineer?",
+    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    open: false,
+  },
+];
+export const FullStackSupportFaqDataDe = [
+  {
+    id: 0,
+    ques: "Does Learnbay provide webinars and hackathons in full-stack development courses in Delhi?",
+
+    ans: "Learnbay offers a full-stack development course that includes webinars and hackathons. Students can enhance their knowledge further by enrolling in webinars and hackathons led by industry experts.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I receive job referrals after completing a full-stack development course in Delhi?",
+    ans: "In full-stack software development, you’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
+
+// 1st Course full stack course training in Dubai
+
+export const FullStackFaqDataDu = [
+  {
+    id: 0,
+    ques: "What is Learnbay’s full-stack developer course in Dubai?",
+    ans: "Learnbay's full-stack developer course is essentially the finest course in software development available in Dubai. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What types of topics will this full-stack development course cover?",
+    ans: "It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., software and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a 'Flexi Subscription' in the full stack software development course in Dubai?",
+    ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What are the essential skills in a software development course in Dubai?",
+    ans: "Programming, Object Oriented Design (OOD), Software Testing and Debugging, Problem Solving, and Logical Thinking are the mandatory skills you need to master. Learnbay's full-stack development course trains learners on this topic via real-time working experience.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What will be the program duration for this full-stack software developer course in Dubai?",
+    ans: "This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "What is the mode of training for this advanced software development course at Learnbay?",
+    ans: "You can select your preferred mode based on your needs. ",
+    ansAfter: "1. Online Mode :- You can only participate in live, interactive classes online (no recorded video-based session is available). Project sessions will also be conducted online. ",
+    ans1: "2. Hybrid Mode :- For all theoretical sessions, you must participate in live, interactive online lectures. Project-based sessions will be conducted offline.",
+    open: false,
+  },
+  {
+    id: 6,
+    ques: "How does hybrid learning work, and what are its benefits?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. There you will be doing your project work under the direct supervision of your respective domain expert. The dedicated counselor assigned to you will help you in this regard. The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune.",
+    open: false,
+  },
+  {
+    id: 7,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "You will be given substitute classes in other batches if you miss a few classes. But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch.",
+    open: false,
+  },
+  {
+    id: 8,
+    ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
+    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    open: false,
+  },
+];
+export const FullStackDomainFaqDataDu = [
+  {
+    id: 0,
+    ques: "What is Domain Specialization associated with the full-stack software developer course in Dubai?",
+    ans: "In the full-stack software developer course of Learnbay, we offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can select a specific elective. Based on your chosen domain, all the learning modules of your course will receive customization. So you will be trained with all the best practices of software development that are exclusive to your chosen domain.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What are specialized domain options provided in this Program?",
+    ans: "In Dubai, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is it possible to choose more than one domain in a particular full-stack software developer course?",
+    ans: `Yes, it is possible to select more than one domain in a full-stack developer course based on someone's preferences and eligibility.`,
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Can I switch my domain later or in between the course, and if so, is there any extra cost involved?",
+    ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. And doing so is free of cost.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What if I don't have any prior experience in any domain?",
+    ans: `If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.`,
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I know which domain suits me the best?",
+    ans: "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for a free profile review and career guidance on the full-stack developer course.",
+    open: false,
+  },
+];
+export const FullStackPaymentFaqDataDu = [
+  {
+    id: 0,
+    ques: "How much is the full-stack software developer course fee in Dubai?",
+    ans: `The total cost of the full-stack software development course in Dubai is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any Installment / EMI option available for this course in Dubai?",
+    ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
+    linkText1: "@ +917795687988",
+    link1: "tel:+917795687988",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: " Will It be required to pay any additional fees for EMI transactions? Is there a refund or rescheduling policy for this Program?",
+    ans: `There are no additional fees from Learnbay for any EMI transactions, and it is completely dependent on the banking and finance company norms. Candidates are advised to read `,
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the course.",
+    link: true,
+    open: false,
+  },
+];
+export const FullStackCapstoneFaqDataDu = [
+  {
+    id: 0,
+    ques: "How many real-time projects will be there in the full-stack developer course?",
+    ans: `In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How do Learnbay’s full-stack software developer course projects help crack the MNC interview?",
+    ans: "Because of the specialized projects, you will be able to concentrate on a particular subject, which will make it easier for you to react with better clarity and accuracy to questions asked during interviews. After all, you will be skilled in domain-specific best practices.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: " What is Learnbay’s project innovation lab?",
+    ans: "Learnbay‘s project innovation lab is an essential approach to the hybrid learning process. where students may complete their projects offline at one of the seven training centers that Learnbay offers across India.",
+    open: false,
+  },
+];
+export const FullStackjobFaqDataDu = [
+  {
+    id: 0,
+    ques: "What is a job assistance program?",
+
+    ans: `Learnbay's Job assistance program assists you in obtaining job offers from major MNCs. The Program guides you through the resume-building and project portfolio preparation process. Here you get mock interviews with extensive learning support based on targeted companies and roles. All the mock interviews are conducted by highly experienced software developers.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any job assistance provided with this full-stack software developer course?",
+    ans: `You should have completed the course with: A minimum score of 70% in assessments. You should have completed the assignments and case studies, Worked, and successfully completed the minimum recommended number of real-time projects.`,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is the duration of the job assistance?",
+    ans: `You’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+];
+export const FullStackeligibleFaqDataDu = [
+  {
+    id: 0,
+    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "I have no prior experience with coding; will this full-stack software developer course be beneficial to me?",
+    ans: "Learnbay offers specialized sessions for beginners who have no prior expertise with computer programming. So, this is not a concern; only you should have the aptitude to master coding. We will support you from scratch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the prerequisites for the Full-stack Software Development Program?",
+    ans: "Nothing but basic coding knowledge is required to start with this course.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "I am a working professional; will the course interfere with my professional life?",
+    ans: "Learnbay delivers weekend batches and weekday evening batches with specific time slots for working professionals, allowing them to choose the timings in a manner that does not interfere with their professional lives.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the documents required to enroll in the full-stack developer program in Dubai?",
+    ans: "The admissions procedure is conducted online and personalized to your educational and career background. Only a few academic documents are required for the application procedure.",
+    open: false,
+  },
+];
+export const FullStackMentorshipFaqDataDu = [
+  {
+    id: 0,
+    ques: "Can a student change mentors based on specific interests after enrolment?",
+
+    ans: "Every batch at Learnbay has a specific mentor, but if a student is unhappy with the way their mentor teaches, they can bring it up with a dedicated contact point, who will address the problem by finding new mentors or by changing the batch.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any option for 1-on-1 learning?",
+    ans: "Learnbay Provides students with 1-on-1 doubt-clearing sessions. If a person has a specific question and wants to understand certain crucial topics, he or she might certainly benefit from such a session.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "How long do students get access to mentor support?",
+    ans: "Our Mentors will provide advanced software development training and career insights/guidance to the students until the completion of the course, depending on the specialization. Post-course- completion also students can reach out to specialized mentors for project and placement purposes.",
+    open: false,
+  },
+];
+export const FullStackgenericFaqDataDu = [
+  {
+    id: 0,
+    ques: "What does a full-stack developer do?",
+
+    ans: "The term Full-Stack developer refers to a person proficient in both the front-end and back-end of software development. They create and keep up-and-running fully-fledged systems with databases or servers.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What is the average full-stack software developer salary in Dubai?",
+    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is a full-stack developer a software engineer?",
+    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    open: false,
+  },
+];
+export const FullStackSupportFaqDataDu = [
+  {
+    id: 0,
+    ques: "Does Learnbay provide webinars and hackathons in full-stack development courses in Dubai?",
+
+    ans: "Learnbay offers a full-stack development course that includes webinars and hackathons. Students can enhance their knowledge further by enrolling in webinars and hackathons led by industry experts.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I receive job referrals after completing a full-stack development course in Dubai?",
+    ans: "In full-stack software development, you’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
+
+// 1st Course full stack course training in Hyderabad
+
+export const FullStackFaqDataHy = [
+  {
+    id: 0,
+    ques: "What is Learnbay’s full-stack developer course in Hyderabad?",
+    ans: "Learnbay's full-stack developer course is essentially the finest course in software development available in Hyderabad. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What types of topics will this full-stack development course cover?",
+    ans: "It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., software and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a 'Flexi Subscription' in the full stack software development course in Hyderabad?",
+    ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What are the essential skills in a software development course in Hyderabad?",
+    ans: "Programming, Object Oriented Design (OOD), Software Testing and Debugging, Problem Solving, and Logical Thinking are the mandatory skills you need to master. Learnbay's full-stack development course trains learners on this topic via real-time working experience.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What will be the program duration for this full-stack software developer course in Hyderabad?",
+    ans: "This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "What is the mode of training for this advanced software development course at Learnbay?",
+    ans: "You can select your preferred mode based on your needs. ",
+    ansAfter: "1. Online Mode :- You can only participate in live, interactive classes online (no recorded video-based session is available). Project sessions will also be conducted online. ",
+    ans1: "2. Hybrid Mode :- For all theoretical sessions, you must participate in live, interactive online lectures. Project-based sessions will be conducted offline.",
+    open: false,
+  },
+  {
+    id: 6,
+    ques: "How does hybrid learning work, and what are its benefits?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. There you will be doing your project work under the direct supervision of your respective domain expert. The dedicated counselor assigned to you will help you in this regard. The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune.",
+    open: false,
+  },
+  {
+    id: 7,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "You will be given substitute classes in other batches if you miss a few classes. But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch.",
+    open: false,
+  },
+  {
+    id: 8,
+    ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
+    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    open: false,
+  },
+];
+export const FullStackDomainFaqDataHy = [
+  {
+    id: 0,
+    ques: "What is Domain Specialization associated with the full-stack software developer course in Hyderabad?",
+    ans: "In the full-stack software developer course of Learnbay, we offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can select a specific elective. Based on your chosen domain, all the learning modules of your course will receive customization. So you will be trained with all the best practices of software development that are exclusive to your chosen domain.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What are specialized domain options provided in this Program?",
+    ans: "In Hyderabad, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is it possible to choose more than one domain in a particular full-stack software developer course?",
+    ans: `Yes, it is possible to select more than one domain in a full-stack developer course based on someone's preferences and eligibility.`,
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Can I switch my domain later or in between the course, and if so, is there any extra cost involved?",
+    ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. And doing so is free of cost.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What if I don't have any prior experience in any domain?",
+    ans: `If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.`,
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I know which domain suits me the best?",
+    ans: "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for a free profile review and career guidance on the full-stack developer course.",
+    open: false,
+  },
+];
+export const FullStackPaymentFaqDataHy = [
+  {
+    id: 0,
+    ques: "How much is the full-stack software developer course fee in Hyderabad?",
+    ans: `The total cost of the full-stack software development course in Hyderabad is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any Installment / EMI option available for this course in Hyderabad?",
+    ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
+    linkText1: "@ +917795687988",
+    link1: "tel:+917795687988",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: " Will It be required to pay any additional fees for EMI transactions? Is there a refund or rescheduling policy for this Program?",
+    ans: `There are no additional fees from Learnbay for any EMI transactions, and it is completely dependent on the banking and finance company norms. Candidates are advised to read `,
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the course.",
+    link: true,
+    open: false,
+  },
+];
+export const FullStackCapstoneFaqDataHy = [
+  {
+    id: 0,
+    ques: "How many real-time projects will be there in the full-stack developer course?",
+    ans: `In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How do Learnbay’s full-stack software developer course projects help crack the MNC interview?",
+    ans: "Because of the specialized projects, you will be able to concentrate on a particular subject, which will make it easier for you to react with better clarity and accuracy to questions asked during interviews. After all, you will be skilled in domain-specific best practices.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: " What is Learnbay’s project innovation lab?",
+    ans: "Learnbay‘s project innovation lab is an essential approach to the hybrid learning process. where students may complete their projects offline at one of the seven training centers that Learnbay offers across India.",
+    open: false,
+  },
+];
+export const FullStackjobFaqDataHy = [
+  {
+    id: 0,
+    ques: "What is a job assistance program?",
+
+    ans: `Learnbay's Job assistance program assists you in obtaining job offers from major MNCs. The Program guides you through the resume-building and project portfolio preparation process. Here you get mock interviews with extensive learning support based on targeted companies and roles. All the mock interviews are conducted by highly experienced software developers.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any job assistance provided with this full-stack software developer course?",
+    ans: `You should have completed the course with: A minimum score of 70% in assessments. You should have completed the assignments and case studies, Worked, and successfully completed the minimum recommended number of real-time projects.`,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is the duration of the job assistance?",
+    ans: `You’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+];
+export const FullStackeligibleFaqDataHy = [
+  {
+    id: 0,
+    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "I have no prior experience with coding; will this full-stack software developer course be beneficial to me?",
+    ans: "Learnbay offers specialized sessions for beginners who have no prior expertise with computer programming. So, this is not a concern; only you should have the aptitude to master coding. We will support you from scratch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the prerequisites for the Full-stack Software Development Program?",
+    ans: "Nothing but basic coding knowledge is required to start with this course.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "I am a working professional; will the course interfere with my professional life?",
+    ans: "Learnbay delivers weekend batches and weekday evening batches with specific time slots for working professionals, allowing them to choose the timings in a manner that does not interfere with their professional lives.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the documents required to enroll in the full-stack developer program in Hyderabad?",
+    ans: "The admissions procedure is conducted online and personalized to your educational and career background. Only a few academic documents are required for the application procedure.",
+    open: false,
+  },
+];
+export const FullStackMentorshipFaqDataHy = [
+  {
+    id: 0,
+    ques: "Can a student change mentors based on specific interests after enrolment?",
+
+    ans: "Every batch at Learnbay has a specific mentor, but if a student is unhappy with the way their mentor teaches, they can bring it up with a dedicated contact point, who will address the problem by finding new mentors or by changing the batch.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any option for 1-on-1 learning?",
+    ans: "Learnbay Provides students with 1-on-1 doubt-clearing sessions. If a person has a specific question and wants to understand certain crucial topics, he or she might certainly benefit from such a session.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "How long do students get access to mentor support?",
+    ans: "Our Mentors will provide advanced software development training and career insights/guidance to the students until the completion of the course, depending on the specialization. Post-course- completion also students can reach out to specialized mentors for project and placement purposes.",
+    open: false,
+  },
+];
+export const FullStackgenericFaqDataHy = [
+  {
+    id: 0,
+    ques: "What does a full-stack developer do?",
+
+    ans: "The term Full-Stack developer refers to a person proficient in both the front-end and back-end of software development. They create and keep up-and-running fully-fledged systems with databases or servers.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What is the average full-stack software developer salary in Hyderabad?",
+    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is a full-stack developer a software engineer?",
+    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    open: false,
+  },
+];
+export const FullStackSupportFaqDataHy = [
+  {
+    id: 0,
+    ques: "Does Learnbay provide webinars and hackathons in full-stack development courses in Hyderabad?",
+
+    ans: "Learnbay offers a full-stack development course that includes webinars and hackathons. Students can enhance their knowledge further by enrolling in webinars and hackathons led by industry experts.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I receive job referrals after completing a full-stack development course in Hyderabad?",
+    ans: "In full-stack software development, you’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
+
+// 1st Course full stack course training in Mumbai
+
+export const FullStackFaqDataM = [
+  {
+    id: 0,
+    ques: "What is Learnbay’s full-stack developer course in Mumbai?",
+    ans: "Learnbay's full-stack developer course is essentially the finest course in software development available in Mumbai. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What types of topics will this full-stack development course cover?",
+    ans: "It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., software and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a 'Flexi Subscription' in the full stack software development course in Mumbai?",
+    ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What are the essential skills in a software development course in Mumbai?",
+    ans: "Programming, Object Oriented Design (OOD), Software Testing and Debugging, Problem Solving, and Logical Thinking are the mandatory skills you need to master. Learnbay's full-stack development course trains learners on this topic via real-time working experience.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What will be the program duration for this full-stack software developer course in Mumbai?",
+    ans: "This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "What is the mode of training for this advanced software development course at Learnbay?",
+    ans: "You can select your preferred mode based on your needs. ",
+    ansAfter: "1. Online Mode :- You can only participate in live, interactive classes online (no recorded video-based session is available). Project sessions will also be conducted online. ",
+    ans1: "2. Hybrid Mode :- For all theoretical sessions, you must participate in live, interactive online lectures. Project-based sessions will be conducted offline.",
+    open: false,
+  },
+  {
+    id: 6,
+    ques: "How does hybrid learning work, and what are its benefits?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. There you will be doing your project work under the direct supervision of your respective domain expert. The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune.",
+    open: false,
+  },
+  {
+    id: 7,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "You will be given substitute classes in other batches if you miss a few classes. But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch.",
+    open: false,
+  },
+  {
+    id: 8,
+    ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
+    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    open: false,
+  },
+];
+export const FullStackDomainFaqDataM = [
+  {
+    id: 0,
+    ques: "What is Domain Specialization associated with the full-stack software developer course in Mumbai?",
+    ans: "In the full-stack software developer course of Learnbay, we offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can select a specific elective. Based on your chosen domain, all the learning modules of your course will receive customization. So you will be trained with all the best practices of software development that are exclusive to your chosen domain.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What are specialized domain options provided in this Program?",
+    ans: "In Mumbai, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is it possible to choose more than one domain in a particular full-stack software developer course?",
+    ans: `Yes, it is possible to select more than one domain in a full-stack developer course based on someone's preferences and eligibility.`,
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Can I switch my domain later or in between the course, and if so, is there any extra cost involved?",
+    ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. And doing so is free of cost.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What if I don't have any prior experience in any domain?",
+    ans: `If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.`,
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I know which domain suits me the best?",
+    ans: "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for a free profile review and career guidance on the full-stack developer course.",
+    open: false,
+  },
+];
+export const FullStackPaymentFaqDataM = [
+  {
+    id: 0,
+    ques: "How much is the full-stack software developer course fee in Mumbai?",
+    ans: `The total cost of the full-stack software development course in Mumbai is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any Installment / EMI option available for this course in Mumbai?",
+    ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
+    linkText1: "@ +917795687988",
+    link1: "tel:+917795687988",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: " Will It be required to pay any additional fees for EMI transactions? Is there a refund or rescheduling policy for this Program?",
+    ans: `There are no additional fees from Learnbay for any EMI transactions, and it is completely dependent on the banking and finance company norms. Candidates are advised to read `,
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the course.",
+    link: true,
+    open: false,
+  },
+];
+export const FullStackCapstoneFaqDataM = [
+  {
+    id: 0,
+    ques: "How many real-time projects will be there in the full-stack developer course?",
+    ans: `In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.In the full-stack developer course, we have a set of 12+ real-time projects from multiple domains.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How do Learnbay’s full-stack software developer course projects help crack the MNC interview?",
+    ans: "Because of the specialized projects, you will be able to concentrate on a particular subject, which will make it easier for you to react with better clarity and accuracy to questions asked during interviews. After all, you will be skilled in domain-specific best practices.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: " What is Learnbay’s project innovation lab?",
+    ans: "Learnbay‘s project innovation lab is an essential approach to the hybrid learning process. where students may complete their projects offline at one of the seven training centers that Learnbay offers across India.",
+    open: false,
+  },
+];
+export const FullStackjobFaqDataM = [
+  {
+    id: 0,
+    ques: "What is a job assistance program?",
+
+    ans: `Learnbay's Job assistance program assists you in obtaining job offers from major MNCs. The Program guides you through the resume-building and project portfolio preparation process. Here you get mock interviews with extensive learning support based on targeted companies and roles. All the mock interviews are conducted by highly experienced software developers.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any job assistance provided with this full-stack software developer course?",
+    ans: `You should have completed the course with: A minimum score of 70% in assessments. You should have completed the assignments and case studies, Worked, and successfully completed the minimum recommended number of real-time projects.`,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is the duration of the job assistance?",
+    ans: `You’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+];
+export const FullStackeligibleFaqDataM = [
+  {
+    id: 0,
+    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "I have no prior experience with coding; will this full-stack software developer course be beneficial to me?",
+    ans: "Learnbay offers specialized sessions for beginners who have no prior expertise with computer programming. So, this is not a concern; only you should have the aptitude to master coding. We will support you from scratch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the prerequisites for the Full-stack Software Development Program?",
+    ans: "Nothing but basic coding knowledge is required to start with this course.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "I am a working professional; will the course interfere with my professional life?",
+    ans: "Learnbay delivers weekend batches and weekday evening batches with specific time slots for working professionals, allowing them to choose the timings in a manner that does not interfere with their professional lives.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What are the documents required to enroll in the full-stack developer program in Mumbai?",
+    ans: "The admissions procedure is conducted online and personalized to your educational and career background. Only a few academic documents are required for the application procedure.",
+    open: false,
+  },
+];
+export const FullStackMentorshipFaqDataM = [
+  {
+    id: 0,
+    ques: "Can a student change mentors based on specific interests after enrolment?",
+
+    ans: "Every batch at Learnbay has a specific mentor, but if a student is unhappy with the way their mentor teaches, they can bring it up with a dedicated contact point, who will address the problem by finding new mentors or by changing the batch.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Is there any option for 1-on-1 learning?",
+    ans: "Learnbay Provides students with 1-on-1 doubt-clearing sessions. If a person has a specific question and wants to understand certain crucial topics, he or she might certainly benefit from such a session.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "How long do students get access to mentor support?",
+    ans: "Our Mentors will provide advanced software development training and career insights/guidance to the students until the completion of the course, depending on the specialization. Post-course- completion also students can reach out to specialized mentors for project and placement purposes.",
+    open: false,
+  },
+];
+export const FullStackgenericFaqDataM = [
+  {
+    id: 0,
+    ques: "What does a full-stack developer do?",
+
+    ans: "The term Full-Stack developer refers to a person proficient in both the front-end and back-end of software development. They create and keep up-and-running fully-fledged systems with databases or servers.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What is the average full-stack software developer salary in Mumbai?",
+    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is a full-stack developer a software engineer?",
+    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    open: false,
+  },
+];
+export const FullStackSupportFaqDataM = [
+  {
+    id: 0,
+    ques: "Does Learnbay provide webinars and hackathons in full-stack development courses in Mumbai?",
+
+    ans: "Learnbay offers a full-stack development course that includes webinars and hackathons. Students can enhance their knowledge further by enrolling in webinars and hackathons led by industry experts.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I receive job referrals after completing a full-stack development course in Mumbai?",
+    ans: "In full-stack software development, you’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
 

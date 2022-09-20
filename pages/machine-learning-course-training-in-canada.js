@@ -67,13 +67,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
@@ -114,15 +115,13 @@ export default function Home() {
 }] 
 
 }
-} `
-}}
-/> 
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "NewsArticle",
  "mainEntityOfPage": {
@@ -148,13 +147,13 @@ export default function Home() {
  "datePublished": "2021-10-01",
  "dateModified": "2022-04-21"
 }
-} `
-}}
-/> <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [{
@@ -370,15 +369,13 @@ Note: This Money back guarantee policy is only specific to “Job Guarantee or M
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Machine learning Course Training in Bangalore",
 "description": "Learnbay offers a Machine learning course in canada, the most comprehensive Machine learning course in the market, covering the complete Data Science lifecycle.",
@@ -423,12 +420,13 @@ Note: This Money back guarantee policy is only specific to “Job Guarantee or M
 "name": "Learnbay",
 "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -439,7 +437,9 @@ Note: This Money back guarantee policy is only specific to “Job Guarantee or M
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
           mTopPara="Machine Learning Course For Experienced Tech Professionals"
           spanMTitleText="Advance Program"
           spanTitleText="Advance Program"
@@ -464,11 +464,15 @@ Note: This Money back guarantee policy is only specific to “Job Guarantee or M
             p44="₹ 9,342/month"
           />
         </div>
-               <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
+        <ProgramFee
+          Emi="₹ 9,342/month"
+          Fee="₹ 95,000 +GST"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="machine learning course training in canada"
-          title="Why Enroll In Machine Learning Course Training In Canada?"
+            alt="machine learning course training in canada"
+            title="Why Enroll In Machine Learning Course Training In Canada?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
             Box2h5="Domain Focused"
@@ -606,9 +610,8 @@ Note: This Money back guarantee policy is only specific to “Job Guarantee or M
             />
           </div>
         </div>
-                <LearnSupport />
-                 
-        <OfferPopup offer={false} />                      
+        <LearnSupport />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

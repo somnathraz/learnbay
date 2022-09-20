@@ -67,13 +67,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
@@ -114,15 +115,13 @@ export default function Home() {
 }] 
 
 }
-} `
-}}
-/> 
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "NewsArticle",
  "mainEntityOfPage": {
@@ -148,13 +147,13 @@ export default function Home() {
  "datePublished": "2021-10-01",
  "dateModified": "2022-04-21"
 }
-} `
-}}
-/> <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [{
@@ -341,15 +340,13 @@ export default function Home() {
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Machine Learning Course Training In Chennai",
 "description": "Learnbay offers a Data Science course in Bangalore, the most comprehensive Data Science course in the market, covering the complete Data Science lifecycle.",
@@ -393,12 +390,13 @@ export default function Home() {
   "name": "Learnbay",
   "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -409,7 +407,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Industry-Specific Capstone Certified by IBM"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Industry-Specific Capstone Certified by IBM"
           mTopPara="Industry-Specific Capstone Certified by IBM"
           title="Data Science Course Training in Chennai"
           mTitle="Data Science Course Training in Chennai"
@@ -434,11 +434,15 @@ export default function Home() {
             p44="₹ 7,768/month"
           />
         </div>
-                <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" dataScience={true} />
+        <ProgramFee
+          Fee="₹79,000 + GST"
+          Emi="₹ 7,768/month"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="data science course in bangalore"
-          title="Why Enroll In Data Science Course Training in Chennai?"
+            alt="data science course in bangalore"
+            title="Why Enroll In Data Science Course Training in Chennai?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -598,16 +602,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-
+        <LearnSupport />
         <CityText
           CityTextB="Data Science Course Certification Training locations in Chennai "
           CityText=" :  Anna Nagar [600040],Thousand Lights [600006], Adyar [600020],Nungambakkam [600034], Perambur [600011], OMR [600119], Guindy [600032], Thiruvanmiyur [600041],Perungudi [600096], Thoraipakkam [600097],Sholinganallur [600119], Siruseri [603103], Tambaram [600045], Velachery [600042], Meenambakkam [600027], Chrompet [600044], T nagar [600017],Chennai central [600020],Erukkancheri [600118],World University Centre [600031],Madras University [600005],Indian Institute Of Technology [600036]."
           CityTextLB="Locations Offered"
           CityTextL=" :  Data Science Training in Chennai, Data Science Course in Chennai, Data Science Training in Anna Nagar, Data Science Training in Guindy, Data Science Institute in Chennai, Data Science Training in Siruseri, Data Science Training in Perungudi, Data Science Training in OMR, Data Science Training Institute in Adyar, Data Science Course in Anna Nagar, Data Science Course in chrompet, Data Science Course in Velchery, Data Science Course Nungambakkam, Data Science Training in Thoraipakkam, Data Science Course in OMR, Data Science Training in Madras university, Data Science Training in Tambaram, Data Science Online Classes in Anna Nagar, Data Science Course in Indian Institute Of Technology , Data Science Training in Chennai, Data Science Certification in Chennai, Data Science Certification Training in Chennai, Data Science Certification in Anna Nagar, Data Science Certification in Adyar, Best Data Science Training, Best Data Science Course."
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

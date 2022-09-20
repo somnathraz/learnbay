@@ -15,7 +15,7 @@ import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import OtherCertificate from "../components/CoursePage/OtherCertificate6/OtherCertificate";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
-import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import { DomainFaqCourseData3 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import { DsaiManagersCourseData } from "../Data/DataScienceManagers";
 import Fee from "../components/CoursePage/Fee/Fee";
 import FAQNew from "../components/FAQNew/FAQNew";
@@ -52,11 +52,18 @@ export default function Home() {
           name="description"
           content="Data Science and Artificial Intelligence Program For Managers and Leaders"
         />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <link rel="canonical" href="https://www.learnbay.co/data-science-ai-for-managers" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/data-science-ai-for-managers"
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -67,8 +74,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}
-          deskTopPara="Be a leader with Domain Specialization" 
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Be a leader with Domain Specialization"
           mTopPara="Be a leader with Domain Specialization"
           title="Data Science and Artificial Intelligence Program"
           mTitle="Data Science and Artificial Intelligence Program"
@@ -98,16 +106,15 @@ export default function Home() {
             title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
-            Box2h5="Domain Destined"
-            box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 12+ electives."
+            Box2h5="Domain Specialized"
+            box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 7 domains."
             Box3h5="Premium Mentoring"
             box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
             Box4h5="Hands-on Experience"
-            box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
+            box4desc="Work on 15+ real-time projects & 1 capstone project cerrtified by IBM."
           />
         </div>
-        <DomainFaq FaqData={DomainFaqCourseData1} />
-
+        <DomainFaq FaqData={DomainFaqCourseData3} />
         <CourseReview />
         <Certificate />
         <OtherCertificate
@@ -124,8 +131,8 @@ export default function Home() {
           OCHead6="Sectoral Analytics Fundamentals – Finance"
           OCP6="Obtain certification in the use of analytical best practices in financial decision-making."
         />
-
-        <SyllabusNew dataScience={true}
+        <SyllabusNew
+          dataScience={true}
           syllabus={DsaiManagersCourseData[0].syllabus}
           syllabusDesc={DsaiManagersCourseData[0].syllabusDesc}
           popupHead={DsaiManagersCourseData[0].popupHead}
@@ -133,7 +140,7 @@ export default function Home() {
           hours="400+ Hours"
           project="15+ Real Time"
         />
-                <OurExpert
+        <OurExpert
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -158,45 +165,47 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
+        <ProgramFee
+          Emi="₹ 9,342/month"
+          Fee="₹ 95,000 +GST"
+          dataScience={true}
+        />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="15+ Projects" domain="7+" />
         </div>
-        <Fee dataScience={true}
-          sub1="Data Science Foundation Certification Program"
-          Price1="₹65,000 + GST"
-          PFeatures11="200+ Hours"
-          PFeatures12="Non-Tech Professional"
-          PFeatures13="NA"
-          PFeatures14="8+1"
-          PFeatures15="10+"
-          PFeatures16="Yes"
-          PFeatures17="No"
-          PFeatures18="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
-          sub2="Data Science & AI
-        For Managers Program"
+        <Fee
+          dataScience={true}
+          sub1="Advanced Data Science and AI Program"
+          Price1="₹85,000 + GST"
+          PFeatures11=" 250+ Hours"
+          PFeatures12=" Tech/Non-Tech Professionals"
+          PFeatures13="2"
+          PFeatures14="12 + 1"
+          PFeatures15="15+"
+          PFeatures16="10"
+          PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
+          sub2="Data Science & AI For Managers Program"
           Price2="₹95,000 + GST"
           PFeatures21="400+ Hours"
           PFeatures22="Tech Lead, Managers"
-          PFeatures23="All"
-          PFeatures24="15+2"
+          PFeatures23="2"
+          PFeatures24="15 + 1"
           PFeatures25="16+"
-          PFeatures26="Yes"
-          PFeatures27="No"
+          PFeatures26="10"
           PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-          sub3="Data Science and AI with Job Guarantee Program"
-          Price3="₹1,25,000 + GST"
+          sub3="Data Science and AI Master's Program"
+          Price3="₹1,10,000 + GST"
           PFeatures31=" 500+ Hours"
           PFeatures32="Tech/Non-Tech Professionals"
-          PFeatures33="All"
-          PFeatures34="15+3"
+          PFeatures33="7"
+          PFeatures34="20 + 3"
           PFeatures35="18+"
-          PFeatures36="Yes"
-          PFeatures37="Yes"
+          PFeatures36="Unlimited"
           PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
         />
-        <CourseFee dataScience={true}
+        <CourseFee
+          dataScience={true}
           CourseFeeHead="Data Science & AI For Managers Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
@@ -215,9 +224,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData4}
           SupportFaqDatas={SupportFaqData4}
         />
-               
-                <LearnSupport />
-        <OfferPopup offer={false} />                      
+        <LearnSupport />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

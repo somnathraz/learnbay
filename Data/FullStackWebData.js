@@ -34,7 +34,7 @@ export const FullStackWebCourseData = [
       AfterBR: " for career transition in data science.",
     },
     Benefits: {
-      desc: " Learn Data science with multiple domain specialization and become a data scientist with our 100% job Guaranteed program.",
+      desc: " Learn Data science with multiple domain specialization and become a data scientist with our Master's Program program.",
       InterviewT: "Become data scientist in top Companies",
       InterviewD:
         "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
@@ -74,20 +74,21 @@ export const FullStackWebCourseData = [
             },
             {
               chap: {
-                title: "Topic 2 :- Programming Language Refresher: (Java & Python)",
+                title:
+                  "Topic 2 :- Programming Language Refresher: (Java & Python)",
                 desc: [
-                  "Syntax, Data Types, Variables, Loops, Conditionals, and If Statement", 
-                  "OOPs, Built-in Modules in Python and Java", 
-                  "Coding fundamentals", 
-                  "Master the command line interface", 
-                  "File Handling, Regular Expression, Exceptional Handling", 
+                  "Syntax, Data Types, Variables, Loops, Conditionals, and If Statement",
+                  "OOPs, Built-in Modules in Python and Java",
+                  "Coding fundamentals",
+                  "Master the command line interface",
+                  "File Handling, Regular Expression, Exceptional Handling",
                   "Collection, Framework, Modules & Packages",
                 ],
               },
             },
           ],
           id: 0,
-            open: true,
+          open: true,
         },
       },
       {

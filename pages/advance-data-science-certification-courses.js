@@ -15,7 +15,7 @@ import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import Fee from "../components/CoursePage/Fee/Fee";
 import FAQNew from "../components/FAQNew/FAQNew";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import { DomainFaqCourseData3 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 
@@ -51,11 +51,18 @@ export default function Home() {
           name="description"
           content="Advanced Data Science and AI Program with Domain Specialization"
         />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <link rel="canonical" href="https://www.learnbay.co/advance-data-science-certification-courses" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/advance-data-science-certification-courses"
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -63,10 +70,11 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true}/>
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}
+        <FirstSection
+          dataScience={true}
           deskTopPara="Choose Specialization over Generalization"
           mTopPara="Choose Specialization over Generalization"
           mTitle="Advanced Data Science and AI Program with"
@@ -89,10 +97,9 @@ export default function Home() {
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 7,768/month"
+            p44="₹ 8,358/month"
           />
         </div>
-
         <div className={styles.Feature} id="Feature">
           <BoxShape
             title="Why Enroll In This Program?"
@@ -106,12 +113,11 @@ export default function Home() {
             box4desc="Prioritize growth and salary hike with in-demand skillset"
           />
         </div>
-        <DomainFaq FaqData={DomainFaqCourseData1} />
-
+        <DomainFaq FaqData={DomainFaqCourseData3} />
         <CourseReview />
         <Certificate />
-
-        <SyllabusNew dataScience={true}
+        <SyllabusNew
+          dataScience={true}
           syllabus={DataScienceCourseData[0].syllabus}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           popupHead={DataScienceCourseData[0].popupHead}
@@ -144,45 +150,47 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" dataScience={true} />
+        <ProgramFee
+          Fee="₹85,000 + GST"
+          Emi="₹ 8,358/month"
+          dataScience={true}
+        />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+ Projects" domain="7+" />
         </div>
-
-        <Fee dataScience={true}
-          sub1="Data Science Foundation Certification Program"
-          Price1="₹65,000 + GST"
-          PFeatures11="200+ Hours"
-          PFeatures12="Non-Tech Professional"
-          PFeatures13="NA"
-          PFeatures14="8+1"
-          PFeatures15="10+"
-          PFeatures16="Yes"
-          PFeatures17="No"
-          PFeatures18="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
+        <Fee
+          dataScience={true}
+          sub1="Data Science & AI For Managers Program"
+          Price1="₹95,000 + GST"
+          PFeatures11="400+ Hours"
+          PFeatures12="Tech Lead, Managers"
+          PFeatures13="2"
+          PFeatures14="15 + 1"
+          PFeatures15="16+"
+          PFeatures16="10"
+          PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
           sub2="Advanced Data Science and AI Program"
-          Price2="₹79,000 + GST"
+          Price2="₹85,000 + GST"
           PFeatures21=" 250+ Hours"
           PFeatures22=" Tech/Non-Tech Professionals"
-          PFeatures23="All"
-          PFeatures24="12+2"
+          PFeatures23="2"
+          PFeatures24="12 + 1"
           PFeatures25="15+"
-          PFeatures26="Yes"
-          PFeatures27="No"
+          PFeatures26="10"
           PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-          sub3="Data Science and AI with Job Guarantee Program"
-          Price3="₹1,25,000 + GST"
+          sub3="Data Science and AI Master's Program"
+          Price3="₹1,10,000 + GST"
           PFeatures31=" 500+ Hours"
           PFeatures32="Tech/Non-Tech Professionals"
-          PFeatures33="All"
-          PFeatures34="15+3"
+          PFeatures33="7"
+          PFeatures34="20 + 3"
           PFeatures35="18+"
-          PFeatures36="Yes"
-          PFeatures37="Yes"
+          PFeatures36="Unlimited"
           PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
         />
-        <CourseFee dataScience={true}
+        <CourseFee
+          dataScience={true}
           CourseFeeHead="Advanced Data Science & AI Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
@@ -201,8 +209,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData2}
           SupportFaqDatas={SupportFaqData2}
         />
-                <LearnSupport />
-                <OfferPopup offer={false} />
+        <LearnSupport />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

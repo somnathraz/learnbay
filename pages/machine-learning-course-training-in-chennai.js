@@ -68,13 +68,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
@@ -115,15 +116,13 @@ export default function Home() {
 }] 
 
 }
-} `
-}}
-/> 
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "NewsArticle",
  "mainEntityOfPage": {
@@ -149,13 +148,13 @@ export default function Home() {
  "datePublished": "2021-10-01",
  "dateModified": "2022-04-21"
 }
-} `
-}}
-/> <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [{
@@ -384,15 +383,13 @@ export default function Home() {
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Machine Learning Course Training In Chennai",
 "description": "Learnbay offers a Data Science course in Bangalore, the most comprehensive Data Science course in the market, covering the complete Data Science lifecycle.",
@@ -436,12 +433,13 @@ export default function Home() {
   "name": "Learnbay",
   "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -452,7 +450,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
           mTopPara="Machine Learning Course For Experienced Tech Professionals"
           title="Machine Learning Course Training In Chennai"
           mTitle="Machine Learning Course Training In Chennai"
@@ -477,11 +477,15 @@ export default function Home() {
             p44="₹ 9,342/month"
           />
         </div>
-               <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
+        <ProgramFee
+          Emi="₹ 9,342/month"
+          Fee="₹ 95,000 +GST"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="machine learning course training in chennai"
-          title="Why Enroll In Machine Learning Course Training In Chennai?"
+            alt="machine learning course training in chennai"
+            title="Why Enroll In Machine Learning Course Training In Chennai?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
             Box2h5="Domain Focused"
@@ -640,16 +644,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-
+        <LearnSupport />
         <CityText
           CityTextB="Machine Learning Course Certification Training locations in Chennai "
           CityText=" :Anna Nagar [600040],Thousand Lights [600006], Adyar [600020],Nungambakkam [600034], Perambur [600011], OMR [600119], Guindy [600032], Thiruvanmiyur [600041],Perungudi [600096], Thoraipakkam [600097],Sholinganallur [600119], Siruseri [603103], Tambaram [600045], Velachery [600042], Meenambakkam [600027], Chrompet [600044], T nagar [600017],Chennai central [600020],Erukkancheri [600118],World University Centre [600031],Madras University [600005],Indian Institute Of Technology [600036]"
           CityTextLB="Locations Offered"
           CityTextL=" :  Machine Learning Training in Chennai, Machine Learning Course in Chennai, Machine Learning Training in Anna Nagar, Machine Learning Training in Guindy, Machine Learning Institute in Chennai, Machine Learning Training in Siruseri, Machine Learning Training in Perungudi, Machine Learning Training in OMR, Machine Learning Training Institute in Adyar, Machine Learning Course in Anna Nagar, Machine Learning Course in chrompet, Machine Learning Course in Velchery, Machine Learning Course Nungambakkam, Machine Learning Training in Thoraipakkam, Machine Learning Course in OMR, Machine Learning Training in Madras university, Machine Learning Training in Tambaram, Machine Learning Online Classes in Anna Nagar, Machine Learning Course in Indian Institute Of Technology , Machine Learning Training in Chennai, Machine Learning Certification in Chennai, Machine Learning Certification Training in Chennai, Machine Learning Certification in Anna Nagar, Machine Learning Certification in Adyar, Best Machine Learning Training, Best Machine Learning Course."
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

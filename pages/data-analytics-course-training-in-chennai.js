@@ -67,13 +67,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
@@ -114,15 +115,13 @@ export default function Home() {
 }] 
 
 }
-} `
-}}
-/>  
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "NewsArticle",
  "mainEntityOfPage": {
@@ -148,13 +147,13 @@ export default function Home() {
  "datePublished": "2021-10-01",
  "dateModified": "2022-04-21"
 }
-} `
-}}
-/> <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [{
@@ -251,7 +250,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "How long will I get support for job assistance at Learnbay?",
+ "name": "How many interview calls will i get at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -299,15 +298,13 @@ export default function Home() {
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Artificial Intelligence Course Training in Chennai",
 "description": "Artificial Intelligence Course in Chennai. Learnbay is Advanced Artificial Intelligence Course Training Institute in Chennai. Artificial Intelligence course in Chennai will enhance your career.",
@@ -351,12 +348,13 @@ export default function Home() {
   "name": "Learnbay",
   "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -367,7 +365,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Industrial Program For Early Pros"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Industrial Program For Early Pros"
           mTopPara="Industrial Program For Early Pros"
           title="Data Analytics Course Training in Chennai"
           mTitle="Data Analytics Course Training in Chennai"
@@ -392,11 +392,15 @@ export default function Home() {
             p44="₹ 6,392/month"
           />
         </div>
-                <ProgramFee Emi="₹ 6,392/month" Fee="₹ 65,000 +GST" dataScience={true} />
+        <ProgramFee
+          Emi="₹ 6,392/month"
+          Fee="₹ 65,000 +GST"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="data analytics course training in chennai"
-          title="Why Enroll In Data Analytics Course Training in Chennai?"
+            alt="data analytics course training in chennai"
+            title="Why Enroll In Data Analytics Course Training in Chennai?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools."
             Box2h5="Exclusive Hackathons"
@@ -526,16 +530,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-
+        <LearnSupport />
         <CityText
           CityTextB="Data Analytics Course Certification Training locations in Chennai "
           CityText=" : Anna Nagar [600040],Thousand Lights [600006], Adyar [600020],Nungambakkam [600034], Perambur [600011], OMR [600119], Guindy [600032], Thiruvanmiyur [600041],Perungudi [600096], Thoraipakkam [600097],Sholinganallur [600119], Siruseri [603103], Tambaram [600045], Velachery [600042], Meenambakkam [600027], Chrompet [600044], T nagar [600017],Chennai central [600020],Erukkancheri [600118],World University Centre [600031],Madras University [600005],Indian Institute Of Technology [600036]"
           CityTextLB="Locations Offered"
           CityTextL=" :  Data Analytics Training in Chennai, Data Analytics Course in Chennai, Data Analytics Training in Anna Nagar, Data Analytics Training in Guindy, Data Analytics Institute in Chennai, Data Analytics Training in Siruseri, Data Analytics Training in Perungudi, Data Analytics Training in OMR, Data Analytics Training Institute in Adyar, Data Analytics Course in Anna Nagar, Data Analytics Course in chrompet, Data Analytics Course in Velchery, Data Analytics Course Nungambakkam, Data Analytics Training in Thoraipakkam, Data Analytics Course in OMR, Data Analytics Training in Madras university, Data Analytics Training in Tambaram, Data Analytics Online Classes in Anna Nagar, Data Analytics Course in Indian Institute Of Technology , Data Analytics Training in Chennai, Data Analytics Certification in Chennai, Data Analytics Certification Training in Chennai, Data Analytics Certification in Anna Nagar, Data Analytics Certification in Adyar, Best Data Analytics Training, Best Data Analytics Course."
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

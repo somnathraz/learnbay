@@ -12,11 +12,17 @@ const ThankYou = () => {
     <div className={styles.main}>
       <Head>
         <title>Thank you!</title>
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <link rel="canonical" href="https://www.learnbay.co/Thank-you-brochure" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/Thank-you-brochure"
+        />
         <meta name="description" content="Thank you!" />
       </Head>
-      <Navbar popup={true} dataScience={true}/>
+      <Navbar popup={true} dataScience={true} />
       <section className={styles.mains}>
         <div className={styles.Back}>
           <h4>
@@ -145,10 +151,10 @@ const ThankYou = () => {
             />
             <p className={styles.Ptopp}>
               Data Science & AI <br />
-              with Job Guarantee Program
+              Master's Program
             </p>
             <a
-              href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf"
+              href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf"
               target="_blank"
             >
               <button className={styles.Button}>
@@ -213,8 +219,8 @@ const ThankYou = () => {
           </div>
         </div>
       </section>
-       
-        <OfferPopup offer={false} />                      
+
+      <OfferPopup offer={false} />
       <Footer />
     </div>
   );

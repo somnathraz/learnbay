@@ -67,13 +67,15 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
 
-   <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
     "@context": "https://schema.org/", 
     "@type": "HowTo", 
     "name": "How to apply for Business Analytics course?",
@@ -113,15 +115,14 @@ export default function Home() {
     "url": "https://www.learnbay.co/"
     }] 
   }
-} `
-}}
-/>  
-   
-   <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     "mainEntityOfPage": {
@@ -148,15 +149,14 @@ export default function Home() {
     "dateModified": "2022-04-21"
 
   }
-} `
-}}
-/>    
-   
-   <script
-   type="application/ld+json"
-   dangerouslySetInnerHTML={{
-     __html:
-       ` {
+} `,
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [{
@@ -279,7 +279,7 @@ export default function Home() {
                                                 },
                                                 {
                                                     "@type": "Question",
-                                                    "name": "How long will I get support for job assistance at Learnbay?",
+                                                    "name": "How many interview calls will i get at Learnbay?",
                                                     "acceptedAnswer": {
                                                     "@type": "Answer",
                                                     "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -334,15 +334,14 @@ export default function Home() {
                                                                           }
                                                                         }]
                                                                                           }
-                                                                                         } `
-                                                                                    }}
-                                                                                  />
-   
-      <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html:
-          ` {
+                                                                                         } `,
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
    "@context": "http://schema.org",
    "@type": "EducationEvent","name": "Business Analytics Course Training in Hyderabad",
    "description": "Learnbay offers a Business Analytics course in Hyderabad, the most comprehensive Business Analytics course in the market, covering the complete Business Analytics lifecycle.",
@@ -387,14 +386,13 @@ export default function Home() {
     "name": "Learnbay",
     "url": "https://www.learnbay.co"
   }
-} `
-}}
-/>
-
-
-</Head>
-<main>  <Navbar popup={true} />
-
+} `,
+          }}
+        />
+      </Head>
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -405,7 +403,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="IBM Certified Business Analytics Course for Early Professionals"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="IBM Certified Business Analytics Course for Early Professionals"
           mTopPara="IBM Certified Business Analytics Course for Early Professionals"
           spanTitleText="For Non-tech Professionals"
           spanMTitleText="For Non-tech Professionals"
@@ -429,11 +429,15 @@ export default function Home() {
             p44="₹  6,392/month"
           />
         </div>
-                <ProgramFee Fee="₹  65,000 + GST" Emi="₹  6,392/month" dataScience={true} />
+        <ProgramFee
+          Fee="₹  65,000 + GST"
+          Emi="₹  6,392/month"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="business analytics course training in hyderabad"
-          title="Why Enroll In Business Analytics Course Training In Hyderabad?"
+            alt="business analytics course training in hyderabad"
+            title="Why Enroll In Business Analytics Course Training In Hyderabad?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
             Box2h5="Exclusive Hackathons"
@@ -548,15 +552,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
+        <LearnSupport />
         <CityText
           CityTextB="Business Analytics Course Certification Training locations in Hyderabad "
           CityText=" : Medipalli[500098], A.G.College [500030], HMT Township [500054], Hal Hyderabad [500042], Kondapur [500084], Fatehdarwaza [500065], Begumpet [500016], Lingampalli [500019], Kattedan Ie [500077], Falaknuma [500053], Peerzadiguda [500039], Jillellaguda [500079], I.M.Colony [500082], Gajularamaram [500055], Banjara Hills [500034], Gachibowli [500032], Badangpet [500058], Film Nagar [500096], A.Gs. Staff Quarters [500045], Malakpet Colony [500036], Balanagar Township [500037], Amberpet [500013], Bharat Nagar Colony [500018], Chitkul [502307], Don Bosco Nagar [500086], Gsisr Bandlaguda [500068], Yakutpura [500023], Chaithanyapuri Colony [500060], Chandanagar [500050], Appa Himayathsagar [500008], Hyderabad Jubilee [500002], Meerpet [500097], Humayunnagar [500028], Aie Bollaram [502325], Chetlapotharam [502319], Srinagar Colony [500073], Gandhi Bhawan Hyderabad [500001], Darushifa [500024], Gandhinagar Hyderabad [500080], Sarada Nagar [500070], Barkatpura [500027], Gagan Mahal [500029], Elmela [502300], Sanjeev Reddy Nagar [500038], Manikonda [500089], Cyberabad [500081], Boduppal [500092], Dr.B R Ambedkar O.U [500033], Kphb Colony [500072], Huda Residential Complex [500035], Miyapur [500049], L B Nagar [500074], Ashoknagar Hyderabad [500020], Saidabad Colony [500059], Jntu Kukat Pally [500085], Bowenpally [500011], Icrisat [502324], Administrative Buildings [500007], Aziz Nagar [500075], Afzalgunj [500012], Karwan Sahu [500006],Gaganpahad [500052], Ibrahim Bagh Lines [500031], Putlibowli [500095], Bahadurpura [500064], A.Gs Office [500004], Bachupally [500090], A.I.E. R.C.Puram [502032], Ambernagar [500044]."
           CityTextLB="Locations Offered"
           CityTextL=" :Business Analytics Training in Hyderabad, Business Analytics Course in Hyderabad, Business Analytics Course in Gachibowli, Business Analytics Training in Gachibowli,Business Analytics Course in Madhapur, Business Analytics Training in Madhapur, Business Analytics Training Institute in Hyderabad, Business Analytics Course in Kondapur, Business Analytics Training in Kondapur, Business Analytics Course in Begumpet, Business Analytics Course in Lingampalli, Business Analytics Course in Banjara hills, Business Analytics Course in L B Nagar, Business Analytics Course in Boduppal, Business Analytics Course in Kphb Colony, Business Analytics Training in Begumpet, Business Analytics Training in Lingampalli, Business Analytics Training in Banjara hills, Business Analytics Training in L B Nagar, Business Analytics Training in Boduppal, Business Analytics Training in KPhb Colony, Business Analytics Classroom Training in Hyderabad, Business Analytics Training near me, Business Analytics Course near me, Business Analytics Institute near me, Business Scientist Course, Business Analytics Certification, Business Analytics Certification in Hyderabad, Best Business Analytics Course, Best Business Analytics Training"
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

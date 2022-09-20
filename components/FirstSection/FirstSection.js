@@ -66,7 +66,7 @@ const FirstSection = ({dataScience}) => {
             <p>Assured Interview</p>
           </div>
           <div className={styles.right}>
-            <h5>20+</h5>
+            <h5>7+</h5>
             <p>Domain Electives</p>
           </div>
         </div>

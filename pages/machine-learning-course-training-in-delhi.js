@@ -67,13 +67,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
@@ -114,15 +115,13 @@ export default function Home() {
 }] 
 
 }
-} `
-}}
-/> 
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "NewsArticle",
  "mainEntityOfPage": {
@@ -148,13 +147,13 @@ export default function Home() {
  "datePublished": "2021-10-01",
  "dateModified": "2022-04-21"
 }
-} `
-}}
-/> <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [{
@@ -383,15 +382,13 @@ export default function Home() {
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Machine Learning Course Training in Delhi",
 "description": "Machine Learning Course in Delhi. Learnbay is Advanced Machine Learning Course Training Institute in Delhi. Machine Learning course in Delhi will enhance your career",
@@ -435,12 +432,13 @@ export default function Home() {
   "name": "Learnbay",
   "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -451,7 +449,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Job-Ready Machine Learning Training with Domain Specialization"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Job-Ready Machine Learning Training with Domain Specialization"
           mTopPara="Job-Ready Machine Learning Training with Domain Specialization"
           title="Machine Learning Course Training In Delhi"
           mTitle="Machine Learning Course Training In Delhi"
@@ -476,11 +476,15 @@ export default function Home() {
             p44="₹ 9,342/month"
           />
         </div>
-               <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
+        <ProgramFee
+          Emi="₹ 9,342/month"
+          Fee="₹ 95,000 +GST"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="machine learning course training in delhi"
-          title="Why Enroll In Machine Learning Course Training In Delhi?"
+            alt="machine learning course training in delhi"
+            title="Why Enroll In Machine Learning Course Training In Delhi?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
             Box2h5="Domain Focused"
@@ -625,16 +629,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-
+        <LearnSupport />
         <CityText
           CityTextB="Machine Learning Course Certification Training locations in Delhi "
           CityText=" :Asaf Ali Road [110006] , Bhikaji Cama Place [110029] , Chandni Chowk Old Delhi [110006] ,Chattarpur [110074 ], Chirag Enclave [110048] , Civil Lines [110054] , Connaught Place [110001] , Defence Colony [110024] , Diplomatic Enclave [110021] , Dwarka [110075] , East of Kailash [110065] , Friends Colony [110025] , Golf Links [110003] , Greater Kailash [110048] , Green Park [110016] , Karol Bagh [110005] , Lajpat Nagar [110024], Mayur Vihar [110091] , Mehrauli Gurgaon Road [110037] , Naraina [110028] , Narela [110040] , Nehru Place [110019] , Nizammuddin [110013] , Paharganj [110055] , Panchshil Enclave [110017] , Paschim Vihar [110063] , Patel Nagar [110008] , Pushpanjali Farms [110037] , Qutabgarh Village [110039] , Rajendra Place [110008] , Rajokri [110038] , Saket [110017] , Samalkha [110037] , Shahdara [110032] , Shalimar Bagh [110088] , Shiv Murti [110037] , Sukhdev Vihar [110025] , Sundar Nagar [110013],Vasant Kunj [110070] , Vasant Vihar [110057] , Janakapuri [110058] , Noida [201301] , Ajmeri Gate [110002] , Aram Bagh [110055] , Sidipura [110005] , Azadpur [110052] , Karol Bagh 110005, Old rajinder nagar 110060, Rajouri garden 110027, Vishwa vidyalaya 110009, Kamla nagar 110007, Kalu sarai 110016, Nehru park 190001, (N.S.P) Netaji Subhash Place 110034, J N U 110067,Connaught Place 110001, Saket 110017, Pitampura 110034, East kidwai nagar 110023 , Shakur pur [110034]."
           CityTextLB="Locations Offered"
           CityTextL=" :Machine Learning Training in delhi, Machine Learning Course in delhi, Machine Learning Training in Connaught Place, Machine Learning Training in Karol Bagh , Machine Learning Institute in Delhi, Machine Learning Training in kamla nagar, Machine Learning Training in kalu sarai, Machine Learning Training in J N U, Machine Learning Training Institute in Connaught Place, Machine Learning Course in Connaught Place, Machine Learning Course in Saket, Machine Learning Course in old rajinder nagar, Machine Learning Course Connaught Place , Machine Learning Training in (N.S.P) Netaji Subhash Place, Machine Learning Training in Pitampura, Machine Learning Classes in Connaught Place, Machine Learning Classes in J N U, Machine Learning Classes in Connaught Place, Machine Learning Classes in Delhi, Machine Learning Course in vishwa vidyalaya, Machine Learning Training in kalu sarai, Machine Learning Certification in Delhi, Machine Learning Certification Training in Delhi, Machine Learning Certification in Connaught Place, Machine Learning Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Machine Learning Training, Best Machine Learning Course, Best Data Scientist course, Best Data Scientist Training"
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

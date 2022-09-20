@@ -14,7 +14,7 @@ export const FaqData1 = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in Data Science Foundation Program?",
-    ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -90,7 +90,7 @@ export const PaymentFaqData1 = [
   {
     id: 1,
     ques: "Can I pay in installments for Data Science Foundation Program?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -131,7 +131,8 @@ export const CapstoneFaqData1 = [
     ques: "How many real-time projects/case-studies will be covered in the Data Science Foundation Program?",
     ans: "We have a set of 8 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.",
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -160,8 +161,8 @@ export const jobFaqData1 = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
-    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    ques: "How many interview calls will i get at Learnbay?",
+    ans: "You’ll be provided 5 interview calls after the completion of the course.",
     open: false,
   },
   {
@@ -229,7 +230,7 @@ export const FaqData2 = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Advance Data Science and AI Program?",
-    ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 2 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -302,13 +303,13 @@ export const PaymentFaqData2 = [
   {
     id: 0,
     ques: "What is the total Fee for the Advanced Data Science and AI Program?",
-    ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 79,000 + GST.",
+    ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 85,000 + GST.",
     open: true,
   },
   {
     id: 1,
     ques: "Can I pay in installments for the Advanced Data Science and AI Program?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.5K/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8.5K/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -339,7 +340,7 @@ export const CapstoneFaqData2 = [
   {
     id: 0,
     ques: "How many capstone projects will be there?",
-    ans: "In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
+    ans: "In this course, you’ll be required to work on 1 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
     open: true,
   },
   {
@@ -347,7 +348,8 @@ export const CapstoneFaqData2 = [
     ques: "How many real-time projects will be there?",
     ans: "We have a set of 12 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -390,8 +392,8 @@ export const jobFaqData2 = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
-    ans: "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    ques: "How many interview calls will i get at Learnbay?",
+    ans: "You’ll be provided 10 interview calls after the completion of the course.",
     open: false,
   },
   {
@@ -459,7 +461,7 @@ export const FaqData3 = [
   {
     id: 2,
     ques: "What is a Flexi Subscription?",
-    ans: `Those who enroll for AI/ML live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for AI/ML live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 2 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -517,7 +519,7 @@ export const DomainFaqData3 = [
   {
     id: 4,
     ques: "Can I select multiple domain electives and do I need to pay extra charges?",
-    ans: "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
+    ans: "You can select up to 2 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
     open: false,
   },
   {
@@ -542,9 +544,9 @@ export const PaymentFaqData3 = [
   },
   {
     id: 1,
-    ques: "Can I pay in installments for 95,000 + GST?",/*1,12,100/-  check for price*/
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12K/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
-   //Check this section
+    ques: "Can I pay in installments for 95,000 + GST?" /*1,12,100/-  check for price*/,
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 9.3K/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    //Check this section
     open: false,
   },
   {
@@ -575,7 +577,7 @@ export const CapstoneFaqData3 = [
   {
     id: 0,
     ques: "How many capstone projects will be there?",
-    ans: "In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
+    ans: "In this course, you’ll be required to work on 1 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
     open: true,
   },
   {
@@ -583,7 +585,8 @@ export const CapstoneFaqData3 = [
     ques: "How many real-time projects will be there?",
     ans: "We have a set of 15 Real-time projects from multiple domains such as Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on.",
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -626,8 +629,8 @@ export const jobFaqData3 = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
-    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    ques: "How many interview calls will i get at Learnbay?",
+    ans: "You’ll be provided 10 interview calls after the completion of the course.",
     open: false,
   },
   {
@@ -695,7 +698,7 @@ export const FaqData4 = [
   {
     id: 2,
     ques: "What is a Flexi Subscription?",
-    ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 2 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -779,7 +782,7 @@ export const PaymentFaqData4 = [
   {
     id: 1,
     ques: "Can I pay in installments for 95,000/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12K/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 9.3K/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -810,7 +813,7 @@ export const CapstoneFaqData4 = [
   {
     id: 0,
     ques: "How many capstone projects will be there?",
-    ans: "In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
+    ans: "In this course, you’ll be required to work on 1 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
     open: true,
   },
   {
@@ -818,7 +821,8 @@ export const CapstoneFaqData4 = [
     ques: "How many real-time projects will be there?",
     ans: "We have a set of 15 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -863,8 +867,8 @@ export const jobFaqData4 = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
-    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    ques: "How many interview calls will i get at Learnbay?",
+    ans: "You’ll be provided 10 interview calls after the completion of the course.",
     open: false,
   },
   {
@@ -919,7 +923,7 @@ export const SupportFaqData4 = [
 export const FaqData5 = [
   {
     id: 0,
-    ques: "What are the prerequisites for Data Science and AI with Job or Money-back?",
+    ques: "What are the prerequisites for Data Science and AI Master's Program with Unlimited Interview calls?",
     ans: "Basic programming & mathematics knowledge is enough. For strengthening your programming skills we provide special programming classes. We teach required statistics from a very basic.",
     open: true,
   },
@@ -937,8 +941,8 @@ export const FaqData5 = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Science and AI with Job Guarantee Program?",
-    ans: `The duration of this course is about 15 months (400 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
+    ques: "What’s the duration of the Data Science and AI Master's Program?",
+    ans: `The duration of this course is about 15 months (500 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch – 13 months, Monday to Friday – 2 hours/day,
@@ -983,7 +987,7 @@ export const DomainFaqData5 = [
   {
     id: 3,
     ques: "Why is domain specialization important?",
-    ans: "After enrolling in the Data Science and AI with Job Guarantee Program course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
+    ans: "After enrolling in the Data Science and AI Master's Program course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
     open: false,
   },
   {
@@ -1008,19 +1012,19 @@ export const DomainFaqData5 = [
 export const PaymentFaqData5 = [
   {
     id: 0,
-    ques: "What is the total Fee for the Data Science and AI with Job Guarantee Program?",
-    ans: "The total program fee for the Data Science and AI with Job Guarantee Program is INR ₹1,25,000 + GST.",
+    ques: "What is the total Fee for the Data Science and AI Master's Program?",
+    ans: "The total program fee for the Data Science and AI Master's Program is INR ₹1,10,000 + GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for ₹1,25,000 + GST?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 16K/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for ₹1,10,000 + GST?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11K/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
     id: 2,
-    ques: "Is there any scholarship available for the Data Science and AI with Job Guarantee Program? What is Group Discount?",
+    ques: "Is there any scholarship available for the Data Science and AI Master's Program? What is Group Discount?",
     ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
     Please check our website or contact our sales team to know more about the applicable discounts.
     
@@ -1052,9 +1056,10 @@ export const CapstoneFaqData5 = [
   {
     id: 1,
     ques: "How many real-time projects will be there?",
-    ans: "We have a set of 15 Real-time projects from multiple domains such as Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; etc. Based on your interest you can choose your project to work on.",
+    ans: "We have a set of 20 Real-time projects from multiple domains such as Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; etc. Based on your interest you can choose your project to work on.",
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: false,
   },
@@ -1086,8 +1091,8 @@ export const jobFaqData5 = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
-    ans: "You’ll be provided with job assistance after the completion of the course for a period of 18 months.",
+    ques: "How many interview calls will i get at Learnbay?",
+    ans: "You’ll be provided unlimited interview calls after the completion of the course.",
     open: false,
   },
   {
@@ -1106,16 +1111,16 @@ export const jobFaqData5 = [
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
     open: false,
   },
-  {
-    id: 4,
-    ques: "What is job or 100% moneyback Gurantee?",
-    ans: "If you don’t get a job within 18 months of your course completion, we will initiate a full refund of your course fees. ",
-    linkText1: " Terms and conditions ",
-    link1: "/terms-conditions-job",
-    ansAfter: "applied.",
-    link: true,
-    open: false,
-  },
+  // {
+  //   id: 4,
+  //   ques: "What is job or 100% moneyback Gurantee?",
+  //   ans: "If you don’t get a job within 18 months of your course completion, we will initiate a full refund of your course fees. ",
+  //   linkText1: " Terms and conditions ",
+  //   link1: "/terms-conditions-job",
+  //   ansAfter: "applied.",
+  //   link: true,
+  //   open: false,
+  // },
 ];
 export const MentorshipFaqData5 = [
   {
@@ -1142,8 +1147,8 @@ export const SupportFaqData5 = [
   },
   {
     id: 1,
-    ques: "How long will I get Job referrals?",
-    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    ques: "How many interview calls will i get at Learnbay?",
+    ans: "You’ll be provided unlimited interview calls after the completion of the course.",
     open: false,
   },
 ];
@@ -1165,7 +1170,7 @@ export const FaqData6 = [
   {
     id: 2,
     ques: "What is a Flexi Subscription in the Data Analytics Program?",
-    ans: `Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ans: `Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
@@ -1244,9 +1249,10 @@ export const CapstoneFaqData6 = [
   {
     id: 0,
     ques: "How many real-time projects/case studies will be there?",
-    ans: "We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.",
+    ans: "We have a set of 8 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.",
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
 
     open: true,
@@ -1271,8 +1277,8 @@ export const jobFaqData6 = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
-    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    ques: "How many interview calls will i get at Learnbay?",
+    ans: "You’ll be provided 5 interview calls after the completion of the course.",
     open: false,
   },
   {
@@ -1418,9 +1424,10 @@ export const CapstoneFaqData7 = [
   {
     id: 0,
     ques: "How many real-time projects will be there?",
-    ans: "We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.",
+    ans: "We have a set of 8 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.",
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
     open: true,
   },
@@ -1444,8 +1451,8 @@ export const jobFaqData7 = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
-    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    ques: "How many interview calls will i get at Learnbay?",
+    ans: "You’ll be provided 5 interview calls after the completion of the course.",
     open: false,
   },
   {
@@ -1496,7 +1503,6 @@ export const SupportFaqData7 = [
   },
 ];
 
-
 // 8th page
 export const FaqData8 = [
   {
@@ -1535,7 +1541,7 @@ export const FaqData8 = [
     //Check how to do this 5th Question
     id: 4,
     ques: "What is the mode of training at Learnbay?",
-    ans: "We provide both Online and Hybrid training modes. Based on your requirement, you can choose your preferred mode.Online Mode: You have to attend live and interactive online classes only (no recorded video-based session is available)Hybrid Mode: You have to attend live and interactive online classes for all the theoretical sessions, while for practical, mainly project sessions, you have to visit our authorized training centers. Note: Authorized training centers are available across different Indian cities like Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune. Live online mode is available across India, US, and Canada.",// Do this
+    ans: "We provide both Online and Hybrid training modes. Based on your requirement, you can choose your preferred mode.Online Mode: You have to attend live and interactive online classes only (no recorded video-based session is available)Hybrid Mode: You have to attend live and interactive online classes for all the theoretical sessions, while for practical, mainly project sessions, you have to visit our authorized training centers. Note: Authorized training centers are available across different Indian cities like Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune. Live online mode is available across India, US, and Canada.", // Do this
     open: false,
   },
   {
@@ -1557,8 +1563,8 @@ export const PaymentFaqData8 = [
   {
     id: 0,
     ques: "What is the total Fee for the full-stack Web Development program?",
-    ans: "The total program fee for this course will depend on which package you choose. This course comes with two different packages , Without Job Guarantee:  INR 75,000 + GST,    With Job Guarantee: INR 1,20,000 + GST.",    
- 
+    ans: "The total program fee for this course will depend on which package you choose. This course comes with two different packages , Without Job Guarantee:  INR 75,000 + GST,    With Job Guarantee: INR 1,20,000 + GST.",
+
     open: true,
   },
   {
@@ -1605,7 +1611,8 @@ export const CapstoneFaqData8 = [
     ques: "How many real-time projects will be there?",
     ans: "We have a set of 12 Real-time projects from multiple industries. Using premium cloud lab (which comes free with a Learnbay course subscription), you can observe, learn, and practice the trending web development tips and tricks of top-notch MNCs.",
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     open: false,
   },
   {
@@ -1627,7 +1634,7 @@ export const CertificationFaqData9 = [
     id: 1,
     ques: "What categories of certifications might I expect to receive?",
     ans: "Full-Stack Web Development Certificate by IBM (final), Capstone Project Certificate by IBM",
-   
+
     open: true,
   },
 ];
@@ -1708,7 +1715,6 @@ export const SupportFaqData8 = [
   },
 ];
 
-
 // 9th page  Advanced Software Development Program
 export const FaqData9 = [
   {
@@ -1746,7 +1752,7 @@ export const FaqData9 = [
     //Check how to do this 5th Question
     id: 4,
     ques: "What is the mode of training for this advanced software development course at Learnbay?",
-    ans: "We offer both online and hybrid modes of training. You can select your preferred mode based on your needs.Online Mode: You can only participate in live, interactive classes online (no recorded video-based session is available),Hybrid Mode: For all theoretical sessions, you must participate in live, interactive online lectures. However, for practical sessions, which are typically project-based, you must travel to one of our approved training sites within your city.The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune. India, the US, and Canada all have access to the live online mode.",// Do this
+    ans: "We offer both online and hybrid modes of training. You can select your preferred mode based on your needs.Online Mode: You can only participate in live, interactive classes online (no recorded video-based session is available),Hybrid Mode: For all theoretical sessions, you must participate in live, interactive online lectures. However, for practical sessions, which are typically project-based, you must travel to one of our approved training sites within your city.The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune. India, the US, and Canada all have access to the live online mode.", // Do this
     open: false,
   },
   {
@@ -1795,15 +1801,14 @@ export const DomainFaqData9 = [
     ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
     open: false,
   },
- 
 ];
 
 export const PaymentFaqData9 = [
   {
     id: 0,
     ques: "What is the total fee for the Advanced Software Development course?",
-    ans: "The total program fee for this course is ,  INR  1,10,000 + GST",    
- 
+    ans: "The total program fee for this course is ,  INR  1,10,000 + GST",
+
     open: true,
   },
   {
@@ -1844,7 +1849,8 @@ export const CapstoneFaqData9 = [
     ques: "How many real-time projects will be there?",
     ans: "We have a set of 12 real-time projects from multiple domains.",
     linkText1: " Click here to download the list of the projects.",
-    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
     link: true,
   },
   {
@@ -1873,7 +1879,7 @@ export const jobFaqData9 = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay?",
+    ques: "How many interview calls will i get at Learnbay?",
     ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year",
     open: false,
   },

@@ -7,7 +7,7 @@ import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
-import Certificate from "../components/CoursePage/Certificatejob/Certificate";
+import Certificate from "../components/CoursePage/CertificateTab/CertificateTabjob";
 import Project from "../components/CoursePage/Project/Project";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
@@ -48,11 +48,18 @@ export default function Home() {
           name="description"
           content="Data Science and AI Program with 100% Job Guarantee"
         />
-                  <link rel="canonical" href="https://www.learnbay.co/job-guarantee-or-money-back-data-science-ai-certification-course" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/job-guarantee-or-money-back-data-science-ai-certification-course"
+        />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -63,21 +70,22 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}
+        <FirstSection
+          dataScience={true}
           deskTopPara="Boost your career opportunities "
-          deskTopPara1="by developing relevant skills."
-          mTitle="Data Science and AI Program "
-          spanMTitleText="With Job Guarantee"
+          deskTopPara1="by developing relevant skills"
+          mTitle="Data Science and AI Master's Program "
+          spanMTitleText="With Unlimited Interview Calls"
           mTopPara="Boost your career opportunities "
-          mTopPara1="by developing relevant skills."
-          title="Data Science and AI Program "
-          spanTitleText="with 100% Job Guarantee"
-          desc="✓ Domain Orientated approach ✓ Assured placement within 18 months."
+          mTopPara1="by developing relevant skills"
+          title="Data Science and AI Master's Program "
+          spanTitleText="With Unlimited Interview Calls"
+          desc="A complete guide with real-life exercises & domain oriented approach."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course5.png"
           width="829"
           height="646"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -88,53 +96,34 @@ export default function Home() {
             p3="1:1"
             p33="Career Support"
             p4="Financing as low as"
-            p44="₹ 12,292/month"
+            p44="₹ 10,816/month"
           />
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
             title="Why Enroll In This Program?"
-            Box1h5="Custom-fit Training"
-            box1desc="Get specially designed modules as per your dream job profile. Learn demanding DS/AI applications."
-            Box2h5="Domain Focused"
-            box2desc="Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 10+ domains."
+            Box1h5="Unlimited Interview Calls"
+            box1desc="Get job assistance from industry specialist to crack top product-based companies ineterviews."
+            Box2h5="Select Multiple Domains"
+            box2desc="Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 7+ domains."
             Box3h5="Premium Mentoring"
             box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts."
             Box4h5="Hands-on Experience"
-            box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+            box4desc="Perform 3 fresh capstone projects, spanning from advanced level complexity, to earn IBM cerrtification."
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
         <CourseReview />
-        <Certificate
-          title="Course Completion Certificate from IBM"
-          desc="Complete your training with the internationally recognized certificate."
-          desc2="Validate your Data Science and AI skills with IBM Course Completion Certificate."
-          desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/DS-AI-1.jpeg"
-        />
-        <SyllabusNew dataScience={true}
+        <Certificate />
+        <SyllabusNew
+          dataScience={true}
           syllabus={JobGuaranteeCourseData[0].syllabus}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           popupHead={JobGuaranteeCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf"
           hours="500+ Hours"
-          project="15+ Real Time"
+          project="20+ Real Time"
         />
-        <div className={styles.ctj}>
-          <div className={styles.left}></div>
-          <div className={styles.middle}>
-            <h6>
-              Know More About How A Job Guarantee Or 100% Money-Back Program
-              Works.
-            </h6>
-          </div>
-          <div className={styles.right}>
-            <a href="/terms-conditions-job" target="_blank">
-              <button>Terms & Conditions</button>
-            </a>
-          </div>
-        </div>
         <OurExpert
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
@@ -160,46 +149,48 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee Emi="₹ 12,292/month" Fee="₹ 1,25,000 +GST" dataScience={true} />
+        <ProgramFee
+          Emi="₹ 10,816/month"
+          Fee="₹ 1,10,000 +GST"
+          dataScience={true}
+        />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="15+ Projects" domain="7+" />
+          <Project project="20+ Projects" domain="7+" />
         </div>
-        <Fee dataScience={true}
-          sub1="Data Science Foundation Certification Program"
-          Price1="₹65,000 + GST"
-          PFeatures11="200+ Hours"
-          PFeatures12="Non-Tech Professional"
-          PFeatures13="NA"
-          PFeatures14="8+1"
-          PFeatures15="10+"
-          PFeatures16="Yes"
-          PFeatures17="No"
-          PFeatures18="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
-          sub3="Advanced Data Science and AI Program"
-          Price3="₹79,000 + GST"
-          PFeatures31=" 250+ Hours"
-          PFeatures32=" Tech/Non-Tech Professionals"
-          PFeatures33="All"
-          PFeatures34="12+2"
-          PFeatures35="15+"
-          PFeatures36="Yes"
-          PFeatures37="No"
-          PFeatures38="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-          sub2="Data Science and AI with Job Guarantee Program"
-          Price2="₹1,25,000 + GST"
+        <Fee
+          dataScience={true}
+          sub1="Advanced Data Science and AI Program"
+          Price1="₹85,000 + GST"
+          PFeatures11=" 250+ Hours"
+          PFeatures12=" Tech/Non-Tech Professionals"
+          PFeatures13="2"
+          PFeatures14="12 + 1"
+          PFeatures15="15+"
+          PFeatures16="10"
+          PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
+          sub2="Data Science and AI Master's Program"
+          Price2="₹1,10,000 + GST"
           PFeatures21=" 500+ Hours"
           PFeatures22="Tech/Non-Tech Professionals"
-          PFeatures23="All"
-          PFeatures24="15+3"
+          PFeatures23="7"
+          PFeatures24="20 + 3"
           PFeatures25="18+"
-          PFeatures26="Yes"
-          PFeatures27="Yes"
+          PFeatures26="Unlimited"
           PFeatures28="Project Manager, Team Lead, Project Lead, Project Head, Etc."
+          sub3="Data Science & AI For Managers Program"
+          Price3="₹95,000 + GST"
+          PFeatures31="400+ Hours"
+          PFeatures32="Tech Lead, Managers"
+          PFeatures33="2"
+          PFeatures34="15 + 1"
+          PFeatures35="16+"
+          PFeatures36="10"
+          PFeatures38="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
         />
-        <CourseFee dataScience={true}
-          CourseFeeHead="Data Science and AI with
-      Job Guarantee Program : Batch Details"
+        <CourseFee
+          dataScience={true}
+          CourseFeeHead="Data Science and AI Master's Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"
@@ -217,9 +208,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData5}
           SupportFaqDatas={SupportFaqData5}
         />
-                <LearnSupport />
-                 
-        <OfferPopup offer={false} />                      
+        <LearnSupport />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

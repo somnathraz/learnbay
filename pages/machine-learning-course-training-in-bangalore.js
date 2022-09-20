@@ -68,8 +68,11 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-<script
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -113,11 +116,10 @@ export default function Home() {
 }] 
 
 }
-} `
-}}
-/> 
-
-<script
+} `,
+          }}
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -147,9 +149,10 @@ export default function Home() {
  "dateModified": "2022-04-21"
 
 }
-} `
-}}
-/>  <script
+} `,
+          }}
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -354,11 +357,10 @@ export default function Home() {
 }
 }]
                   }
-                 } `
-            }}
-          /> 
-
-<script
+                 } `,
+          }}
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -406,12 +408,13 @@ export default function Home() {
  "name": "Learnbay",
  "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -422,7 +425,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
           mTopPara="Machine Learning Course For Experienced Tech Professionals"
           mTitle="Machine Learning Course "
           spanMTitleText="Training In Bangalore"
@@ -447,11 +452,15 @@ export default function Home() {
             p44="₹ 9,342/month"
           />
         </div>
-               <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
+        <ProgramFee
+          Emi="₹ 9,342/month"
+          Fee="₹ 95,000 +GST"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="machine learning course training in bangalore"
-          title="Why Enroll In Machine Learning Course Training In Bangalore?"
+            alt="machine learning course training in bangalore"
+            title="Why Enroll In Machine Learning Course Training In Bangalore?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
             Box2h5="Domain Focused"
@@ -600,16 +609,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-
+        <LearnSupport />
         <CityText
           CityTextB="Machine Learning Course Certification Training locations in Bangalore "
           CityText=" :Ammrutha halli [560092], Maruthi Seva Nagar [560033], Kuvempu Layout [560077], Bellandur [560103], Jayanagar III Block [560011], Anandnagar [560024], Nandinilayout [560096], B SK II Stage [560070], Indiranagar [560038], Yelahanka [560063], Chickpet [560053], Domlur [560071], Bansashankari III Stage [560085], Vimanapura [560017], Nagarbhavi [560072], Basaveshwaranagar [560079], Bommanahalli [560068], Mico Layout [560076], Electronic City [560100], Taverekere [560029], Nehru Nagar [560020], Agram[560007], Halsuru Pete [560002], Basavanagudi [560004], R.M.V. Extension II [560094], Jayanagar [560041], Carmelaram [560035], New Thippasandra [560075], Kanakanagar [560032], Nayandahalli [560039], Fraser Town [560005], Jalahalli East [560014], Kacharakanahalli [560084], Malleswaram West [560055], Bannerghatta [560083], Srirampuram [560021], Rajarajeshwarinagar [560098], Sivan Chetty Gardens [560042], Dommasandra [562125], Whitefield [560066], Vidyaranyapura [560097], Bolare [560082], Mathikere [560054], Doddanekkundi [560037], Hampinnagar [560104], C.V.Raman Nagar [560093], Chikkabanavara [560090], Attur [560064], Kumbalagodu [560074], Bhattarahalli [560049], Chikkalasandra [560061], Sharada Nagar [560065], Jalahalli West [560015], H.K.P Road [560051], Jp Nagar III Phase [560078], Sadashiva nagar [560080], Krishnarajapuram R S [560016], Mahalakshipuram Layout [560086], Guddadahalli [560026], Chudenapura [560060], Vidhana Soudha [560001], Shanthinagar [560027], Rajaji Nagar [560010], Chandapura [560099], Ramakrishna Hegde Nagar [560045], Shalabh Bhatnagar [560012], Peenya [560058], Ashoknagar [560050], Jalahalli Nacen [560013], Banawadi [560043], Malleswaram [560003], Doddakallasandra [560062], K.G Road [560009], Muthusandra [560087], Marathahalli [560056], JC Nagar [560006], Chamrajpet [560018], HSR Layout [560102], Devanagundi [560067], Yeswanthpura [560022], Mahadevapura [560048],Hulsur Bazaar [560008],Magadi Road [560023], Adugodi [560030], Bagalgunte [560073], Devasandra [560036], Rv Niketan [560059], Narasimharaja Colony [560019], Koramangala VI Bk [560095], Agara [560034], Vijayanagar East [560040], Benson Town [560046], Viveknagar S.O [560047], Dasarahalli [560057], Bapagrama [560091], Richmond Town [560025]."
           CityTextLB="Locations Offered"
           CityTextL=" :Machine Learning Training in Bangalore, Machine Learning Course in Bangalore, Machine Learning Training in BTM, Machine Learning Training in Marathahalli, Machine Learning Institute in Bangalore, Machine Learning Training in Whitefield, Machine Learning Training in Kundalahalli, Machine Learning Training in ITPL, Machine Learning Training Institute in Marathahalli, Machine Learning Course in BTM, Machine Learning Course in Marathahalli, Machine Learning Course in Whitefield, Machine Learning Course Bommanahalli, Machine Learning Training in Bommanahalli, Machine Learning Training in Electronic city, Machine Learning Training in Koramangala, Machine Learning Classes in BTM, Machine Learning Classes in Bommanahalli, Machine Learning Classes in Whitefield, Machine Learning Classes in Marathahalli, Machine Learning Course in Koramangala, Machine Learning Training in Jayanagar, Machine Learning Certification in Bangalore, Machine Learning Certification Training in Bangalore, Machine Learning Certification in BTM, Machine Learning Certification in Whitefield, Best Machine Learning Training, Best Machine Learning Course"
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

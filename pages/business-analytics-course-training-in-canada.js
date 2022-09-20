@@ -66,13 +66,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
@@ -113,15 +114,13 @@ export default function Home() {
 }] 
 
 }
-} `
-}}
-/> 
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "NewsArticle",
  "mainEntityOfPage": {
@@ -147,13 +146,13 @@ export default function Home() {
  "datePublished": "2021-10-01",
  "dateModified": "2022-04-21"
 }
-} `
-}}
-/> <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [{
@@ -256,7 +255,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "How long will I get support for job assistance at Learnbay?",
+ "name": "How many interview calls will i get at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -305,15 +304,13 @@ export default function Home() {
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Data Science Course Training in canada",
 "description": "Learnbay offers a Data Science course in canada, the most comprehensive Data Science course in the market, covering the complete Data Science lifecycle.",
@@ -358,12 +355,13 @@ export default function Home() {
 "name": "Learnbay",
 "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -374,7 +372,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Industrial Business Analytics Program for working professionals"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Industrial Business Analytics Program for working professionals"
           mTopPara="Industrial Business Analytics Program for working professionals"
           title="Business Analytics Course"
           mTitle="Business Analytics Course"
@@ -399,11 +399,15 @@ export default function Home() {
             p44="₹  6,392/month"
           />
         </div>
-                <ProgramFee Fee="₹  65,000 + GST" Emi="₹  6,392/month" dataScience={true} />
+        <ProgramFee
+          Fee="₹  65,000 + GST"
+          Emi="₹  6,392/month"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="business analytics course training in canada"
-          title="Why Enroll In Business Analytics Course Training In Canada?"
+            alt="business analytics course training in canada"
+            title="Why Enroll In Business Analytics Course Training In Canada?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
             Box2h5="Exclusive Hackathons"
@@ -530,9 +534,8 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-                 
-        <OfferPopup offer={false} />                      
+        <LearnSupport />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>
