@@ -67,8 +67,10 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -112,10 +114,9 @@ export default function Home() {
  "url": "https://www.learnbay.co/"
 }] 
 }
-              } `
-       }}
-     />
-
+              } `,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -146,8 +147,9 @@ export default function Home() {
  "dateModified": "2022-04-21"
 }
 } `,
-}}
-/>        <script
+          }}
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -365,14 +367,13 @@ export default function Home() {
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Artificial intelligence Course Training in Dubai",
 "description": "Artificial Intelligence Course in Dubai. Learnbay is Advanced Artificial Intelligence Course Training Institute in Dubai. Artificial Intelligence course in Dubai will enhance your career",
@@ -417,12 +418,13 @@ dangerouslySetInnerHTML={{
     "name": "Learnbay",
     "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -433,7 +435,9 @@ dangerouslySetInnerHTML={{
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Job-oriented Data Science Training for working professionals"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Job-oriented Data Science Training for working professionals"
           mTopPara="Job-oriented Data Science Training for working professionals"
           title="Artificial Intelligence (AI) Course Training in Dubai"
           mTitle="Artificial Intelligence (AI) Course Training in Dubai"
@@ -458,10 +462,14 @@ dangerouslySetInnerHTML={{
             p44="₹ 9,342/month"
           />
         </div>
-                <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
+        <ProgramFee
+          Emi="₹ 9,342/month"
+          Fee="₹ 95,000 +GST"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="artificial intelligence ai course training in dubai"
+            alt="artificial intelligence ai course training in dubai"
             title="Why Enroll In Artificial Intelligence Course Training in Dubai?"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
@@ -616,8 +624,8 @@ dangerouslySetInnerHTML={{
             />
           </div>
         </div>
-                <LearnSupport />
-        <OfferPopup offer={false} />                              
+        <LearnSupport />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

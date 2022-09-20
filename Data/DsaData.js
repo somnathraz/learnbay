@@ -34,7 +34,7 @@ export const DsaCourseData = [
       AfterBR: " for career transition in data science.",
     },
     Benefits: {
-      desc: " Learn Data science with multiple domain specialization and become a data scientist with our 100% job Guaranteed program.",
+      desc: " Learn Data science with multiple domain specialization and become a data scientist with our Master's Program program.",
       InterviewT: "Become data scientist in top Companies",
       InterviewD:
         "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
@@ -64,8 +64,8 @@ export const DsaCourseData = [
               chap: {
                 title: "Topic 1 :- Cohort Orientation",
                 desc: [
-                  "A quick guide to Software Development", 
-                  "Significance of projects & case studies", 
+                  "A quick guide to Software Development",
+                  "Significance of projects & case studies",
                   "How to make it big in the IT Industry and crack MAANG Interviews",
                   "Interview process of top product based MNCs and Unicorns.",
                 ],
@@ -73,7 +73,8 @@ export const DsaCourseData = [
             },
             {
               chap: {
-                title: "Topic 1 :- Analysis of Algorithms, Space and Time complexity",
+                title:
+                  "Topic 1 :- Analysis of Algorithms, Space and Time complexity",
                 desc: [
                   "Big-O, Big-Omega, and Big-Theta notations ",
                   "Best, average, and worst-case Complexities hierarchy",
@@ -85,7 +86,7 @@ export const DsaCourseData = [
             },
           ],
           id: 0,
-            open: true,
+          open: true,
         },
       },
 
@@ -130,7 +131,7 @@ export const DsaCourseData = [
             },
           ],
           id: 1,
-            open: false,
+          open: false,
         },
       },
 
@@ -186,7 +187,7 @@ export const DsaCourseData = [
             },
           ],
           id: 2,
-            open: false,
+          open: false,
         },
       },
     ],

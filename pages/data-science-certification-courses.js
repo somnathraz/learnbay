@@ -43,11 +43,18 @@ export default function Home() {
       <Head>
         <title>Data Science Foundation Program</title>
         <meta name="description" content="Data Science Foundation Program" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <link rel="canonical" href="https://www.learnbay.co/data-science-certification-courses" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/data-science-certification-courses"
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -58,7 +65,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}
+        <FirstSection
+          dataScience={true}
           deskTopPara="Data Science"
           deskTopPara1=" Foundation Program"
           mTitle="Enhance your earning potential "
@@ -100,7 +108,6 @@ export default function Home() {
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData2} />
-
         <CourseReview />
         <Certificate
           title="Course Completion Certificate from IBM"
@@ -109,8 +116,8 @@ export default function Home() {
           desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate-1.jpg"
         />
-
-        <SyllabusNew dataScience={true}
+        <SyllabusNew
+          dataScience={true}
           syllabus={FoundtionCourseData[0].syllabus}
           syllabusDesc={FoundtionCourseData[0].syllabusDesc}
           popupHead={FoundtionCourseData[0].popupHead}
@@ -146,40 +153,43 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee Emi="₹ 6,391/month" Fee="₹ 65,000 +GST" dataScience={true} />
-        <Fee dataScience={true}
+        <ProgramFee
+          Emi="₹ 6,391/month"
+          Fee="₹ 65,000 +GST"
+          dataScience={true}
+        />
+        <Fee
+          dataScience={true}
           sub2="Data Science Foundation Certification Program"
           Price2="₹65,000 + GST"
           PFeatures21="200+ Hours"
           PFeatures22="Non-Tech Professional"
           PFeatures23="NA"
-          PFeatures24="8+1"
+          PFeatures24="8 + 1"
           PFeatures25="10+"
-          PFeatures26="Yes"
-          PFeatures27="No"
+          PFeatures26="5"
           PFeatures28="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
           sub1="Advanced Data Science and AI Program"
-          Price1="₹79,000 + GST"
+          Price1="₹85,000 + GST"
           PFeatures11=" 250+ Hours"
           PFeatures12=" Tech/Non-Tech Professionals"
-          PFeatures13="All"
-          PFeatures14="12+2"
+          PFeatures13="2"
+          PFeatures14="12 + 1"
           PFeatures15="15+"
-          PFeatures16="Yes"
-          PFeatures17="No"
+          PFeatures16="10"
           PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-          sub3="Data Science and AI with Job Guarantee Program"
-          Price3="₹1,25,000 + GST"
+          sub3="Data Science and AI Master's Program"
+          Price3="₹1,10,000 + GST"
           PFeatures31=" 500+ Hours"
           PFeatures32="Tech/Non-Tech Professionals"
-          PFeatures33="All"
-          PFeatures34="15+3"
+          PFeatures33="7"
+          PFeatures34="20 + 3"
           PFeatures35="18+"
-          PFeatures36="Yes"
-          PFeatures37="Yes"
+          PFeatures36="Unlimited"
           PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
         />
-        <CourseFee dataScience={true}
+        <CourseFee
+          dataScience={true}
           CourseFeeHead="Data Science Foundation Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
@@ -197,9 +207,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData1}
           SupportFaqDatas={SupportFaqData1}
         />
-                <LearnSupport />
-                 
-        <OfferPopup offer={false} />                      
+        <LearnSupport />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

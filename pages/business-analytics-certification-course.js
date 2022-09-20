@@ -47,11 +47,18 @@ export default function Home() {
           name="description"
           content="Business Analytics Certification Program"
         />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <link rel="canonical" href="https://www.learnbay.co/business-analytics-certification-course" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/business-analytics-certification-course"
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -62,7 +69,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}
+        <FirstSection
+          dataScience={true}
           deskTopPara="Develop Work-Ready Skills "
           deskTopPara1="You Can Use Right Away"
           mTopPara="Develop Work-Ready Skills "
@@ -112,16 +120,16 @@ export default function Home() {
           desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
         />
-
-        <SyllabusNew dataScience={true}
+        <SyllabusNew
+          dataScience={true}
           syllabus={BusinessAnalyticsCourseData[0].syllabus}
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           popupHead={BusinessAnalyticsCourseData[0].popupHead}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
           hours="200+ Hours"
-          project="5+ Real Time"
+          project="8+ Real Time"
         />
-                <OurExpert
+        <OurExpert
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -146,11 +154,16 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee Fee="₹  65,000 + GST" Emi="₹  6,392/month" dataScience={true} />
+        <ProgramFee
+          Fee="₹  65,000 + GST"
+          Emi="₹  6,392/month"
+          dataScience={true}
+        />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="5+ Projects" domain="7+" />
+          <Project project="8+ Projects" domain="7+" />
         </div>
-        <CourseFee dataScience={true}
+        <CourseFee
+          dataScience={true}
           CourseFeeHead="Business Analytics Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
@@ -168,9 +181,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData7}
           SupportFaqDatas={SupportFaqData7}
         />
-               
-                <LearnSupport />
-        <OfferPopup offer={false} />                      
+        <LearnSupport />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

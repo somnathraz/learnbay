@@ -22,8 +22,8 @@ export const viewAllD = [
     tag: "Data science",
     para: [
       "250 hours of Interactive Learning",
-      "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 79,000 + GST",
+      "12 Projects + 1 Capstones",
+      "Course Fee : ₹ 85,000 + GST",
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
@@ -37,7 +37,7 @@ export const viewAllD = [
     tag: "Data science",
     para: [
       "350 hours of Interactive Learning",
-      "15 Projects + 2 Capstones",
+      "15 Projects + 1 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
     link1: "/artificial-intelligence-certification-course",
@@ -52,7 +52,7 @@ export const viewAllD = [
     tag: "Data science",
     para: [
       "400 hours of Interactive Learning",
-      "15 Projects + 2 Capstones",
+      "15 Projects + 1 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
     link1: "/data-science-ai-for-managers",
@@ -62,17 +62,17 @@ export const viewAllD = [
   {
     id: 5,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp",
-    title: "Data Science & AI with ",
-    title1: "Job Guarantee Program",
+    title: "Data Science & AI ",
+    title1: "Master's Program",
     tag: "Data science",
     para: [
       "500 hours of Interactive Learning",
-      "15 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,25,000 + GST",
+      "20 Projects + 3 Capstones",
+      "Course Fee : ₹ 1,10,000 + GST",
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
   {
     id: 6,
@@ -82,7 +82,7 @@ export const viewAllD = [
     tag: "Data science",
     para: [
       "180 hours of Interactive Learning",
-      "5 Projects",
+      "8 Projects",
       "Course Fee : ₹ 65,000 + GST",
     ],
     link1: "/data-analytics-certification-course",
@@ -98,7 +98,7 @@ export const viewAllD = [
 
     para: [
       "200 hours of Interactive Learning",
-      "5 Projects",
+      "8 Projects",
       "Course Fee : ₹ 65,000 + GST",
     ],
     link1: "/business-analytics-certification-course",
@@ -160,8 +160,8 @@ export const ForProgrammersD = [
     title1: "& AI Program",
     para: [
       "250 hours of Interactive Learning",
-      "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 79,000 + GST",
+      "12 Projects + 1 Capstones",
+      "Course Fee : ₹ 85,000 + GST",
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
@@ -190,7 +190,7 @@ export const ForProgrammersD = [
     title1: "For Managers",
     para: [
       "400 hours of Interactive Learning",
-      "15 Projects + 2 Capstones",
+      "15 Projects + 1 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
     link1: "/data-science-ai-for-managers",
@@ -205,7 +205,7 @@ export const ForProgrammersD = [
     title1: "for Tech Professionals",
     para: [
       "350 hours of Interactive Learning",
-      "15 Projects + 2 Capstones",
+      "15 Projects + 1 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
     link1: "/artificial-intelligence-certification-course",
@@ -230,17 +230,17 @@ export const ForProgrammersD = [
   {
     id: 6,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp",
-    title: "Data Science & AI with ",
-    title1: "Job Guarantee Program",
+    title: "Data Science & AI ",
+    title1: "Master's Program",
     tag: "Data science",
     para: [
       "500 hours of Interactive Learning",
-      "15 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,25,000 + GST",
+      "20 Projects + 3 Capstones",
+      "Course Fee : ₹ 1,10,000 + GST",
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
   {
     id: 7,
@@ -282,8 +282,8 @@ export const ForNonProgrammerD = [
     tag: "Data science",
     para: [
       "250 hours of Interactive Learning",
-      "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 79,000 + GST",
+      "12 Projects + 1 Capstones",
+      "Course Fee : ₹ 85,000 + GST",
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
@@ -297,7 +297,7 @@ export const ForNonProgrammerD = [
     tag: "Data science",
     para: [
       "350 hours of Interactive Learning",
-      "15 Projects + 2 Capstones",
+      "15 Projects + 1 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
     link1: "/artificial-intelligence-certification-course",
@@ -312,7 +312,7 @@ export const ForNonProgrammerD = [
     tag: "Data science",
     para: [
       "400 hours of Interactive Learning",
-      "15 Projects + 2 Capstones",
+      "15 Projects + 1 Capstones",
       "Course Fee : ₹ 95,000 + GST",
     ],
     link1: "/data-science-ai-for-managers",
@@ -322,17 +322,17 @@ export const ForNonProgrammerD = [
   {
     id: 5,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp",
-    title: "Data Science & AI with ",
-    title1: "Job Guarantee Program",
+    title: "Data Science & AI ",
+    title1: "Master's Program",
     tag: "Data science",
     para: [
       "500 hours of Interactive Learning",
-      "15 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,25,000 + GST",
+      "20 Projects + 3 Capstones",
+      "Course Fee : ₹ 1,10,000 + GST",
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
   {
     id: 6,
@@ -343,7 +343,7 @@ export const ForNonProgrammerD = [
 
     para: [
       "200 hours of Interactive Learning",
-      "5 Projects",
+      "8 Projects",
       "Course Fee : ₹ 65,000 + GST",
     ],
     link1: "/business-analytics-certification-course",
@@ -358,7 +358,7 @@ export const ForNonProgrammerD = [
     tag: "Data science",
     para: [
       "180 hours of Interactive Learning",
-      "5 Projects",
+      "8 Projects",
       "Course Fee : ₹ 65,000 + GST",
     ],
     link1: "/data-analytics-certification-course",
@@ -371,17 +371,17 @@ export const JobGuaranteeD = [
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp",
-    title: "Data Science & AI with ",
-    title1: "Job Guarantee Program",
+    title: "Data Science & AI ",
+    title1: "Master's Program",
     tag: "Data science",
     para: [
       "500 hours of Interactive Learning",
-      "15 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,25,000 + GST",
+      "20 Projects + 3 Capstones",
+      "Course Fee : ₹ 1,10,000 + GST",
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai-certification-course",
     link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
   // {
   //   id: 2,

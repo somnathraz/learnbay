@@ -68,13 +68,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
  "name": "How to apply for Artificial Intelligence Course?",
@@ -114,15 +115,13 @@ export default function Home() {
  "url": "https://www.learnbay.co/"
  }] 
 }
-                 } `
-            }}
-          /> 
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "NewsArticle",
  "mainEntityOfPage": {
@@ -148,13 +147,13 @@ export default function Home() {
  "datePublished": "2021-10-01",
  "dateModified": "2022-04-21"
 }
-                 } `
-            }}
-          /> <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                 } `,
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [{
@@ -369,15 +368,13 @@ export default function Home() {
  }
  }]
 }
-                 } `
-            }}
-          /> 
-
-<script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Artificial Intelligence (AI) Course Training in Pune",
 "description": "Artificial Intelligence Course in Pune. Learnbay is Advanced Artificial Intelligence Course Training Institute in Pune. Artificial Intelligence course in Pune will enhance your career.",
@@ -422,13 +419,13 @@ export default function Home() {
  "name": "Learnbay",
  "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
-
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -439,7 +436,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="IBM Certified AI training With Domain Specialization and Job Guarantee"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="IBM Certified AI training With Domain Specialization and Job Guarantee"
           mTopPara="IBM Certified AI training With Domain Specialization and Job Guarantee"
           title="Artificial Intelligence (AI) Course Training in Pune"
           mTitle="Artificial Intelligence (AI) Course Training in Pune"
@@ -464,11 +463,15 @@ export default function Home() {
             p44="₹ 9,342/month"
           />
         </div>
-                <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
+        <ProgramFee
+          Emi="₹ 9,342/month"
+          Fee="₹ 95,000 +GST"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="artificial intelligence ai course training in pune"
-          title="Why Enroll In Artificial Intelligence Course Training In Pune?"
+            alt="artificial intelligence ai course training in pune"
+            title="Why Enroll In Artificial Intelligence Course Training In Pune?"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
             Box2h5="Domain Destined"
@@ -571,43 +574,43 @@ export default function Home() {
     Machine learning engineer.
     Research scientist.
     Robotics Scientist."
-    ProjectsBot1="Artificial intelligence projects are the key to a successful AI career. Based on the artificial intelligence course you choose, you get 5 to 15 live industrial projects along with 2 to 3 capstone projects. Students are given ownership of the project to work with creativity. A capstone project adds an extra skill to your certificates and resume."
-    src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png"
-    ProjectsH1="Samsung Health Monitor App"
-    Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is the accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
-    src2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/IBM.png"
-    ProjectsH2="IBM HR Analytics"
-    Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities."
-    src3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png"
-    ProjectsH3="Amazon Customer Review Analysis"
-    Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.
+              ProjectsBot1="Artificial intelligence projects are the key to a successful AI career. Based on the artificial intelligence course you choose, you get 5 to 15 live industrial projects along with 2 to 3 capstone projects. Students are given ownership of the project to work with creativity. A capstone project adds an extra skill to your certificates and resume."
+              src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png"
+              ProjectsH1="Samsung Health Monitor App"
+              Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is the accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
+              src2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/IBM.png"
+              ProjectsH2="IBM HR Analytics"
+              Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities."
+              src3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png"
+              ProjectsH3="Amazon Customer Review Analysis"
+              Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.
 "
-    src4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BMW.png"
-    ProjectsH4="BMW Used Car Price Optimization"
-    Projectsp4=" BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
-    AlumniBot1="Learnbay Artificial intelligence course training in Pune has helped many students in the recruitment process. Most of our students have been recruited by top MNC companies. About 70% of our students get the offer letter, while the 85% of the course completion stage. Here are a few of our Alumni sharing the success that they achieved through Learnbay:"
-    Asrc1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/devraj.jpg"
-    AlumniH1="Deveraj"
-    Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."
-    Asrc2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shezan.png"
-    AlumniH2="Shezan Baig"
-    Alumnip2="Learnbay is one of the most remarkable data science institutes I've come across. Compared to other institutes in India, it offers a data science course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute."
-    Asrc3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/viraj.png"
-    AlumniH3="Viraj Ghodke"
-    Alumnip3="For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews."
-    Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
-    AlumniH4="Shubhangi J. Waghmare "
-    Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
-    alt1="artificial intelligence ai course training in pune"
-    alt2="artificial intelligence ai course training in pune"
-    alt3="artificial intelligence ai course training in pune"
-    alt4="artificial intelligence ai course training in pune"
-    alt5="artificial intelligence ai course training in pune"
-    alt6="artificial intelligence ai course training in pune"
-    alt7="artificial intelligence ai course training in pune"
-    alt8="artificial intelligence ai course training in pune"
-    alt9="artificial intelligence ai course training in pune"
-  />
+              src4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BMW.png"
+              ProjectsH4="BMW Used Car Price Optimization"
+              Projectsp4=" BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
+              AlumniBot1="Learnbay Artificial intelligence course training in Pune has helped many students in the recruitment process. Most of our students have been recruited by top MNC companies. About 70% of our students get the offer letter, while the 85% of the course completion stage. Here are a few of our Alumni sharing the success that they achieved through Learnbay:"
+              Asrc1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/devraj.jpg"
+              AlumniH1="Deveraj"
+              Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."
+              Asrc2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shezan.png"
+              AlumniH2="Shezan Baig"
+              Alumnip2="Learnbay is one of the most remarkable data science institutes I've come across. Compared to other institutes in India, it offers a data science course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute."
+              Asrc3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/viraj.png"
+              AlumniH3="Viraj Ghodke"
+              Alumnip3="For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews."
+              Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
+              AlumniH4="Shubhangi J. Waghmare "
+              Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
+              alt1="artificial intelligence ai course training in pune"
+              alt2="artificial intelligence ai course training in pune"
+              alt3="artificial intelligence ai course training in pune"
+              alt4="artificial intelligence ai course training in pune"
+              alt5="artificial intelligence ai course training in pune"
+              alt6="artificial intelligence ai course training in pune"
+              alt7="artificial intelligence ai course training in pune"
+              alt8="artificial intelligence ai course training in pune"
+              alt9="artificial intelligence ai course training in pune"
+            />
             <FAQNew
               FaqDatas={ArtificialFaqDataP}
               DomainFaqDatas={ArtificialDomainFaqDataP}
@@ -620,14 +623,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
+        <LearnSupport />
         <CityText
           CityTextB="Artificial Intelligence Course Certification Training locations in Pune "
           CityText=" : Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Pune City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337]."
           CityTextLB="Locations Offered"
           CityTextL=" :Artificial Intelligence Course viman nagar,Artificial Intelligence Training in kalyan nagar,Artificial Intelligence Training in magarpetta,Artificial Intelligence Training in pimpri chinchwad,Artificial Intelligence Classes in yerwada,Artificial Intelligence Classes in kharadi,Artificial Intelligence Classes in vishrantwadi,Artificial Intelligence Classes in deccan,Artificial Intelligence Course in Katraj,Artificial Intelligence Training in warje,,Artificial Intelligence Certification Training in bavdhan,Artificial Intelligence Certification in boat club road,Artificial Intelligence Certification in model colony,Best Artificial Intelligence Training in pune,Best Artificial Intelligence Course in pune"
-        />   
-        <OfferPopup offer={false} />                      
+        />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

@@ -66,13 +66,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
@@ -113,15 +114,13 @@ export default function Home() {
 }] 
 
 }
-} `
-}}
-/> 
-
+} `,
+          }}
+        />
         <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "NewsArticle",
  "mainEntityOfPage": {
@@ -147,13 +146,13 @@ export default function Home() {
  "datePublished": "2021-10-01",
  "dateModified": "2022-04-21"
 }
-} `
-}}
-/>         <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+} `,
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [{
@@ -264,7 +263,7 @@ Note: This Money back guarantee policy is only specific to “Job Guarantee or M
  }
  },{
  "@type": "Question",
- "name": "How long will I get support for job assistance at Learnbay?",
+ "name": "How many interview calls will i get at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -327,15 +326,13 @@ Note: This Money back guarantee policy is only specific to “Job Guarantee or M
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html:
-    ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Data analytics Course Training in canada",
 "description": "Learnbay offers a Data analytics course in canada, the most comprehensive Data analytics course in the market, covering the complete Data Science lifecycle.",
@@ -380,12 +377,13 @@ dangerouslySetInnerHTML={{
 "name": "Learnbay",
 "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -396,7 +394,9 @@ dangerouslySetInnerHTML={{
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
           mTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
@@ -421,11 +421,15 @@ dangerouslySetInnerHTML={{
             p44="₹ 6,392/month"
           />
         </div>
-                <ProgramFee Emi="₹ 6,392/month" Fee="₹ 65,000 +GST" dataScience={true} />
+        <ProgramFee
+          Emi="₹ 6,392/month"
+          Fee="₹ 65,000 +GST"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="data analytics course training in canada"
-          title="Why Enroll In Data Analytics Course Training in Canada?"
+            alt="data analytics course training in canada"
+            title="Why Enroll In Data Analytics Course Training in Canada?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools."
             Box2h5="Exclusive Hackathons"
@@ -549,9 +553,8 @@ dangerouslySetInnerHTML={{
             />
           </div>
         </div>
-                <LearnSupport />
-                 
-        <OfferPopup offer={false} />                      
+        <LearnSupport />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

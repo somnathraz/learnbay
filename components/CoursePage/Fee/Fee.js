@@ -72,7 +72,7 @@ const Fee = ({
             <span className={styles.PFeatures}>Domain-Electives</span>
             <span className={styles.PFeatures}>Projects + Capstones</span>
             <span className={styles.PFeatures}>Modules</span>
-            <span className={styles.PFeatures}>Job Referrals</span>
+            <span className={styles.PFeatures}>Interview Calls</span>
             <span className={styles.PFeatures}>Job Guarantee / Money Back</span>
             <span className={styles.PFeatures}>Targeted Job Roles</span>
           </div>
@@ -200,8 +200,8 @@ const Fee = ({
             <span className={styles.PFeatures}>Domain-Electives</span>
             <span className={styles.PFeatures}> Projects + Capstones</span>
             <span className={styles.PFeatures}> Modules</span>
-            <span className={styles.PFeatures}> Job Referrals</span>
-            <span className={styles.PFeatures}>Job Guarantee / Money Back</span>
+            <span className={styles.PFeatures}> Interview Calls</span>
+            {/* <span className={styles.PFeatures}>Job Guarantee / Money Back</span> */}
             <span className={styles.PFeatures}>Targeted Job Roles</span>
             <BsArrowRight/>
           </div>
@@ -221,9 +221,6 @@ const Fee = ({
             <span className={styles.PFeatures}>{PFeatures14}</span>
             <span className={styles.PFeatures}>{PFeatures15}</span>
             <span className={styles.PFeatures}>{PFeatures16}
-              
-            </span>
-            <span className={styles.PFeatures}>{PFeatures17}
               
             </span>
             <span className={styles.PFeatures}>{PFeatures18}</span>
@@ -246,9 +243,6 @@ const Fee = ({
             <span className={styles.PFeatures}>{PFeatures25}</span>
             <span className={styles.PFeatures}>
               {PFeatures26}
-            </span>
-            <span className={styles.PFeatures}>
-              {PFeatures27}
             </span>
             <span className={styles.PFeatures}>{PFeatures28}</span>
             <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
@@ -275,9 +269,6 @@ const Fee = ({
             <span className={styles.PFeatures}>{PFeatures35}</span>
             <span className={styles.PFeatures}>
               {PFeatures36}
-            </span>
-            <span className={styles.PFeatures}>
-              {PFeatures37}
             </span>
             <span className={styles.PFeatures}>{PFeatures38}</span>
             <span className={styles.PFeatures} style={{paddingTop:"20px"}}>

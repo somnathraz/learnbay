@@ -25,6 +25,7 @@ function FAQ({ FaqData }) {
         const {
           id,
           ques,
+          ans1,
           ans,
           open,
           link1,
@@ -100,6 +101,7 @@ function FAQ({ FaqData }) {
                     {linkText7}
                   </a>
                   {ansAfter}
+                  {ans1}
                 </p>
               </div>
             ) : (

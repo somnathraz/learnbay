@@ -67,8 +67,10 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -113,10 +115,9 @@ export default function Home() {
 }] 
 
 }
-} `
-}}
-/> 
-
+} `,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -146,9 +147,10 @@ export default function Home() {
  "datePublished": "2021-10-01",
  "dateModified": "2022-04-21"
 }
-} `
-}}
-/>         <script
+} `,
+          }}
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -359,14 +361,13 @@ export default function Home() {
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Business analytics Course Training In Chennai",
 "description": "Learnbay offers a Business analytics  course in chennai, the most comprehensive Business analytics  course in the market, covering the complete Data Science lifecycle.",
@@ -410,12 +411,13 @@ dangerouslySetInnerHTML={{
   "name": "Learnbay",
   "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -426,7 +428,9 @@ dangerouslySetInnerHTML={{
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Professional Business Analytics Program"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Professional Business Analytics Program"
           mTopPara="Professional Business Analytics Program"
           title="Business Analytics Course"
           mTitle="Business Analytics Course"
@@ -451,11 +455,15 @@ dangerouslySetInnerHTML={{
             p44="₹  6,392/month"
           />
         </div>
-                <ProgramFee Fee="₹  65,000 + GST" Emi="₹  6,392/month" dataScience={true} />
+        <ProgramFee
+          Fee="₹  65,000 + GST"
+          Emi="₹  6,392/month"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="business analytics course training in chennai"
-          title="Why Enroll In Business Analytics Course Training In Chennai?"
+            alt="business analytics course training in chennai"
+            title="Why Enroll In Business Analytics Course Training In Chennai?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
             Box2h5="Exclusive Hackathons"
@@ -578,15 +586,14 @@ dangerouslySetInnerHTML={{
             />
           </div>
         </div>
-                <LearnSupport />
+        <LearnSupport />
         <CityText
           CityTextB="Business Analytics Course Certification Training locations in Chennai "
           CityText=" : Anna Nagar [600040],Thousand Lights [600006], Adyar [600020],Nungambakkam [600034], Perambur [600011], OMR [600119], Guindy [600032], Thiruvanmiyur [600041],Perungudi [600096], Thoraipakkam [600097],Sholinganallur [600119], Siruseri [603103], Tambaram [600045], Velachery [600042], Meenambakkam [600027], Chrompet [600044], T nagar [600017],Chennai central [600020],Erukkancheri [600118],World University Centre [600031],Madras University [600005],Indian Institute Of Technology [600036]"
           CityTextLB="Locations Offered"
           CityTextL=" :  Business Analytics Training in Chennai, Business Analytics Course in Chennai, Business Analytics Training in Anna Nagar, Business Analytics Training in Guindy, Business Analytics Institute in Chennai, Business Analytics Training in Siruseri, Business Analytics Training in Perungudi, Business Analytics Training in OMR, Business Analytics Training Institute in Adyar, Business Analytics Course in Anna Nagar, Business Analytics Course in chrompet, Business Analytics Course in Velchery, Business Analytics Course Nungambakkam, Business Analytics Training in Thoraipakkam, Business Analytics Course in OMR, Business Analytics Training in Madras university, Business Analytics Training in Tambaram, Business Analytics Online Classes in Anna Nagar, Business Analytics Course in Indian Institute Of Technology , Business Analytics Training in Chennai, Business Analytics Certification in Chennai, Business Analytics Certification Training in Chennai, Business Analytics Certification in Anna Nagar, Business Analytics Certification in Adyar, Best Business Analytics Training, Best Business Analytics Course."
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

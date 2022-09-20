@@ -68,13 +68,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        
-           <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
     "@context": "https://schema.org/", 
     "@type": "HowTo", 
     "name": "How to apply for Machine Learning course?",
@@ -113,15 +114,13 @@ export default function Home() {
     "name": "Get enrollment",
     "url": "https://www.learnbay.co/"
     }] 
-   } `
-            }}
-          /> 
-   
-   <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+   } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     "mainEntityOfPage": {
@@ -147,13 +146,13 @@ export default function Home() {
     "datePublished": "2021-10-01",
     "dateModified": "2022-04-21"
 
-   } `
-            }}
-          /> <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+   } `,
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [{
@@ -387,15 +386,13 @@ export default function Home() {
                                                                           }
                                                                         }]
                                                                                           }
-                                                                                         } `
-                                                                                    }}
-                                                                                  />
-   
-   <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html:
-                ` {
+                                                                                         } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
    "@context": "http://schema.org",
    "@type": "EducationEvent","name": "Machine Learning Course Training in Hyderabad",
    "description": "Learnbay offers a Machine Learning course in Hyderabad, the most comprehensive Machine Learning course in the market, covering the complete Machine Learning lifecycle.",
@@ -440,13 +437,13 @@ export default function Home() {
     "name": "Learnbay",
     "url": "https://www.learnbay.co"
   }
-} `
-}}
-/>
-
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -457,7 +454,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
           mTopPara="Machine Learning Course For Experienced Tech Professionals"
           title="Machine Learning Course Training In Hyderabad"
           mTitle="Machine Learning Course Training In Hyderabad"
@@ -482,12 +481,15 @@ export default function Home() {
             p44="₹ 9,342/month"
           />
         </div>
-        <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" dataScience={true} />
-
+        <ProgramFee
+          Emi="₹ 9,342/month"
+          Fee="₹ 95,000 +GST"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="machine learning course training in hyderabad"
-          title="Why Enroll In Machine Learning Course Training In Hyderabad?"
+            alt="machine learning course training in hyderabad"
+            title="Why Enroll In Machine Learning Course Training In Hyderabad?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
             Box2h5="Domain Focused"
@@ -637,16 +639,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-
+        <LearnSupport />
         <CityText
           CityTextB="Machine Learning Course Certification Training locations in Hyderabad "
           CityText=" : Medipalli[500098], A.G.College [500030], HMT Township [500054], Hal Hyderabad [500042], Kondapur [500084], Fatehdarwaza [500065], Begumpet [500016], Lingampalli [500019], Kattedan Ie [500077], Falaknuma [500053], Peerzadiguda [500039], Jillellaguda [500079], I.M.Colony [500082], Gajularamaram [500055], Banjara Hills [500034], Gachibowli [500032], Badangpet [500058], Film Nagar [500096], A.Gs. Staff Quarters [500045], Malakpet Colony [500036], Balanagar Township [500037], Amberpet [500013], Bharat Nagar Colony [500018], Chitkul [502307], Don Bosco Nagar [500086], Gsisr Bandlaguda [500068], Yakutpura [500023], Chaithanyapuri Colony [500060], Chandanagar [500050], Appa Himayathsagar [500008], Hyderabad Jubilee [500002], Meerpet [500097], Humayunnagar [500028], Aie Bollaram [502325], Chetlapotharam [502319], Srinagar Colony [500073], Gandhi Bhawan Hyderabad [500001], Darushifa [500024], Gandhinagar Hyderabad [500080], Sarada Nagar [500070], Barkatpura [500027], Gagan Mahal [500029], Elmela [502300], Sanjeev Reddy Nagar [500038], Manikonda [500089], Cyberabad [500081], Boduppal [500092], Dr.B R Ambedkar O.U [500033], Kphb Colony [500072], Huda Residential Complex [500035], Miyapur [500049], L B Nagar [500074], Ashoknagar Hyderabad [500020], Saidabad Colony [500059], Jntu Kukat Pally [500085], Bowenpally [500011], Icrisat [502324], Administrative Buildings [500007], Aziz Nagar [500075], Afzalgunj [500012], Karwan Sahu [500006],Gaganpahad [500052], Ibrahim Bagh Lines [500031], Putlibowli [500095], Bahadurpura [500064], A.Gs Office [500004], Bachupally [500090], A.I.E. R.C.Puram [502032], Ambernagar [500044]."
           CityTextLB="Locations Offered"
           CityTextL=" :Machine Learning Training in Hyderabad, Machine Learning Course in Hyderabad, Machine Learning Course in Gachibowli, Machine Learning Training in Gachibowli,Machine Learning Course in Madhapur, Machine Learning Training in Madhapur, Machine Learning Training Institute in Hyderabad, Machine Learning Course in Kondapur, Machine Learning Training in Kondapur, Machine Learning Course in Begumpet, Machine Learning Course in Lingampalli, Machine Learning Course in Banjara hills, Machine Learning Course in L B Nagar, Machine Learning Course in Boduppal, Machine Learning Course in Kphb Colony, Machine Learning Training in Begumpet, Machine Learning Training in Lingampalli, Machine Learning Training in Banjara hills, Machine Learning Training in L B Nagar, Machine Learning Training in Boduppal, Machine Learning Training in KPhb Colony, Machine Learning Classroom Training in Hyderabad, Machine Learning Training near me, Machine Learning Course near me, Machine Learning Institute near me, Data Scientist Course, Machine Learning Certification, Machine Learning Certification in Hyderabad, Best Machine Learning Course, Best Machine Learning Training"
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

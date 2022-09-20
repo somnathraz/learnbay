@@ -17,7 +17,7 @@ export const CertificateDD = [
     title: "Capstone Project Completion Certificate from IBM",
     para: [
       "Get certified by IBM on completion of industry-level ML projects.",
-      "Work on latest AI projects for HashtaagTM, Rapido, Magicpin, etc.",
+      "Work on 1 capstone project certified by IBM.",
       "VIP access to startup job sites and opportunities for individual projects.",
     ],
   },
@@ -41,7 +41,7 @@ export const CertificateAdvance2 = [
     title: "Capstone Project Completion Certificate from IBM",
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",
-      "Work with captivating MNC projects with real-time data.",
+      "Work on 1 capstone project certified by IBM.",
       "Individualized project experience with easy access to premium job opportunities.",
     ],
   },
@@ -65,7 +65,7 @@ export const Certificate4 = [
     title: "Capstone Project Completion Certificate from IBM",
     para: [
       "Get certified by IBM on completion of industry-level ML projects.",
-      "Work on latest AI projects for HashtaagTM, Rapido, Magicpin, etc.",
+      "Work on 1 capstone project certified by IBM.",
       "VIP access to startup job sites and opportunities for individual projects.",
     ],
   },
@@ -89,7 +89,7 @@ export const Certificate6 = [
     title: "Capstone Project Completion Certificate from IBM",
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",
-      "Work with captivating MNC projects with real-time data.",
+      "Work on 1 capstone project certified by IBM.",
       "Individualized project experience with easy access to premium job opportunities.",
     ],
   },
@@ -114,6 +114,30 @@ export const Certificate8 = [
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",
       "Work on latest full stack projects for Food Panda, UberEats, Domino's Pizza, etc.",
+      "Individualized project experience with easy access to premium job opportunities.",
+    ],
+  },
+];
+export const CertificateAdvance9 = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/DS-AI-1.jpeg",
+    title: "Course Completion Certificate from IBM",
+    para: [
+      "Complete your training with the internationally recognized certificate.",
+      "Validate your Data Science and AI skills with IBM Course Completion Certificate.",
+      "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+    ],
+  },
+];
+export const CertificateAdvance10 = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.jpg",
+    title: "Capstone Project Completion Certificate from IBM",
+    para: [
+      "Globally recognized IBM certification based on industrial-level projects.",
+      "Work on 3 capstone project certified by IBM.",
       "Individualized project experience with easy access to premium job opportunities.",
     ],
   },

@@ -255,7 +255,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "How long will I get support for job assistance at Learnbay?",
+ "name": "How many interview calls will i get at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -372,7 +372,9 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="IBM-Certified Business Analytics training Program with Live Industrial Projects"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="IBM-Certified Business Analytics training Program with Live Industrial Projects"
           mTopPara="IBM-Certified Business Analytics training Program with Live Industrial Projects"
           title="Business Analytics Course"
           mTitle="Business Analytics Course"
@@ -397,11 +399,15 @@ export default function Home() {
             p44="₹  6,392/month"
           />
         </div>
-                <ProgramFee Fee="₹  65,000 + GST" Emi="₹  6,392/month" dataScience={true} />
+        <ProgramFee
+          Fee="₹  65,000 + GST"
+          Emi="₹  6,392/month"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="business analytics course training in pune"
-          title="Why Enroll In Business Analytics Course Training In Pune?"
+            alt="business analytics course training in pune"
+            title="Why Enroll In Business Analytics Course Training In Pune?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
             Box2h5="Exclusive Hackathons"
@@ -511,15 +517,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
+        <LearnSupport />
         <CityText
           CityTextB="Business Analytics Course Certification Training locations in Pune "
           CityText=" : Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Pune City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337]."
           CityTextLB="Locations Offered"
           CityTextL=" :Business Analytics Course viman nagar,Business Analytics Training in kalyan nagar,Business Analytics Training in magarpetta,Business Analytics Training in pimpri chinchwad,Business Analytics Classes in yerwada,Business Analytics Classes in kharadi,Business Analytics Classes in vishrantwadi,Business Analytics Classes in deccan,Business Analytics Course in Katraj,Business Analytics Training in warje,,Business Analytics Certification Training in bavdhan,Business Analytics Certification in boat club road,Business Analytics Certification in model colony,Best Business Analytics Training in pune,Best Business Analytics Course in pune"
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

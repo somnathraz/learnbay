@@ -66,12 +66,14 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
@@ -112,13 +114,12 @@ dangerouslySetInnerHTML={{
 }] 
 }
               } `,
-       }}
-     />
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "NewsArticle",
  "mainEntityOfPage": {
@@ -145,11 +146,12 @@ dangerouslySetInnerHTML={{
  "dateModified": "2022-04-21"
 }
 } `,
-}}
-/> <script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+          }}
+        />{" "}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [{
@@ -350,14 +352,13 @@ dangerouslySetInnerHTML={{
 }
 }]
                   }
-                 } `
-            }}
-          />
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: ` {
+                 } `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Data Science Course Training in Dubai",
 "description": "Data science course in Dubai. Learnbay is Advanced Data Science Course Training Institute in Dubai. Data science course in Dubai will enhance your career",
@@ -401,12 +402,13 @@ dangerouslySetInnerHTML={{
  "name": "Learnbay",
  "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -417,7 +419,9 @@ dangerouslySetInnerHTML={{
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}          deskTopPara="Foundational and Advanced Data Science Certifications"
+        <FirstSection
+          dataScience={true}
+          deskTopPara="Foundational and Advanced Data Science Certifications"
           mTopPara="Foundational and Advanced Data Science Certifications"
           title="Data Science Course Training in Dubai"
           mTitle="Data Science Course Training in Dubai"
@@ -442,11 +446,15 @@ dangerouslySetInnerHTML={{
             p44="₹ 7,768/month"
           />
         </div>
-                <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" dataScience={true} />
+        <ProgramFee
+          Fee="₹79,000 + GST"
+          Emi="₹ 7,768/month"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="data science course training in dubai"
-          title="Why Enroll In Data Science Course Training in Dubai"
+            alt="data science course training in dubai"
+            title="Why Enroll In Data Science Course Training in Dubai"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -610,9 +618,8 @@ dangerouslySetInnerHTML={{
             />
           </div>
         </div>
-                <LearnSupport />
-                 
-        <OfferPopup offer={false} />                      
+        <LearnSupport />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

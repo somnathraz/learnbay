@@ -34,7 +34,7 @@ export const DataAnalyticsCourseData = [
       AfterBR: " for career transition in data science.",
     },
     Benefits: {
-      desc: " Learn Data science with multiple domain specialization and become a data scientist with our 100% job Guaranteed program.",
+      desc: " Learn Data science with multiple domain specialization and become a data scientist with our Master's Program program.",
       InterviewT: "Become data scientist in top Companies",
       InterviewD:
         "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
@@ -78,9 +78,8 @@ export const DataAnalyticsCourseData = [
                 desc: [
                   "Introduction to Anaconda & Jupyter notebook ",
 
-                  "Flavors of python Introduction to Git, GitHub ", 
+                  "Flavors of python Introduction to Git, GitHub ",
                   "Python Fundamentals ",
-
                 ],
               },
             },
@@ -110,14 +109,13 @@ export const DataAnalyticsCourseData = [
                   " Programming Basics & Environment Setup.",
                   " Python Programming Overview",
                   "  Python Data Types",
-                   "  Functions And Modules ,Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class",
+                  "  Functions And Modules ,Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class",
 
-                   " File I/O And Exceptional Handling and Regular Expression,Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling.",
-                    "Data Analysis Using Numpy",
+                  " File I/O And Exceptional Handling and Regular Expression,Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling.",
+                  "Data Analysis Using Numpy",
                   " Data Analysis Using Pandas",
                   "Data Visualization using Matplotlib",
                   ". Data Visualization using Seaborn,3 Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
-
                 ],
               },
             },
@@ -125,15 +123,14 @@ export const DataAnalyticsCourseData = [
           id: 1,
           open: false,
         },
-      },  
+      },
       {
         Module0: {
           title: "Term 2 :- Statistics & Basic Machine Learning",
           content: [
             {
               chap: {
-                title:
-                  "Module 1 :- Statistics",
+                title: "Module 1 :- Statistics",
                 desc: [
                   "Fundamentals of Math and Probability",
                   "All about Population & Sample",
@@ -157,15 +154,13 @@ export const DataAnalyticsCourseData = [
                   "Linear Regression Model",
                   "Data Preprocessing",
                   "Encoding the Data",
-                   "Logistic Regression Model",
-                   "Evaluation Metrics for Classification model",
-                   "K Nearest Neighbours Model",
-                   "Decision Tree Model",
-                   "Random Forest Model",
-                   "Hyperparameter Tuning",
-                   "Naive Baye’s Model,Case Study on Kart Model Business & Random Forest",
-
-
+                  "Logistic Regression Model",
+                  "Evaluation Metrics for Classification model",
+                  "K Nearest Neighbours Model",
+                  "Decision Tree Model",
+                  "Random Forest Model",
+                  "Hyperparameter Tuning",
+                  "Naive Baye’s Model,Case Study on Kart Model Business & Random Forest",
                 ],
               },
             },
@@ -173,7 +168,7 @@ export const DataAnalyticsCourseData = [
           id: 2,
           open: false,
         },
-      },  
+      },
       {
         Module0: {
           title: "Term 3 :- Data Analytics Tools",
@@ -186,7 +181,7 @@ export const DataAnalyticsCourseData = [
                   "Advance SQL",
                   "NoSQL, HBase & MongoDB",
                   "JSON Data & CRUD",
-                   "Programming with SQL",
+                  "Programming with SQL",
                 ],
               },
             },
@@ -196,7 +191,6 @@ export const DataAnalyticsCourseData = [
                 desc: [
                   "Getting Started With Power BI",
                   " Programming with Power BI",
-                  
                 ],
               },
             },
@@ -207,7 +201,6 @@ export const DataAnalyticsCourseData = [
                   " Introduction To Hadoop & Big Data",
                   "What is Spark",
                   " Getting to know PySpark Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD       programming",
-                 
                 ],
               },
             },
@@ -217,7 +210,6 @@ export const DataAnalyticsCourseData = [
                 desc: [
                   " Introduction to Time Series Forecasting",
                   "Introduction to ARIMA Models,Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
-                  
                 ],
               },
             },

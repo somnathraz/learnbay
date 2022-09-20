@@ -116,9 +116,9 @@ export default function Home() {
 }] 
 
 }
-} `
-}}
-/> 
+} `,
+          }}
+        />
 
         <script
           type="application/ld+json"
@@ -150,9 +150,9 @@ export default function Home() {
  "dateModified": "2022-04-21"
 
 }
-} `
-}}
-/> 
+} `,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -260,7 +260,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "How long will I get support for job assistance at Learnbay?",
+ "name": "How many interview calls will i get at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -309,9 +309,9 @@ export default function Home() {
 }
 }]
                   }
-                 } `
-            }}
-          />
+                 } `,
+          }}
+        />
 
         <script
           type="application/ld+json"
@@ -361,9 +361,9 @@ export default function Home() {
  "name": "Learnbay",
  "url": "https://www.learnbay.co"
 }
-} `
-}}
-/>
+} `,
+          }}
+        />
       </Head>
       <main>
         {" "}
@@ -405,11 +405,15 @@ export default function Home() {
             p44="₹  6,392/month"
           />
         </div>
-                <ProgramFee Fee="₹  65,000 + GST" Emi="₹  6,392/month" dataScience={true} />
+        <ProgramFee
+          Fee="₹  65,000 + GST"
+          Emi="₹  6,392/month"
+          dataScience={true}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="business analytics course training in bangalore"
-          title="Why Enroll In Business Analytics Course Training In Bangalore?"
+            alt="business analytics course training in bangalore"
+            title="Why Enroll In Business Analytics Course Training In Bangalore?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
             Box2h5="Exclusive Hackathons"
@@ -527,8 +531,7 @@ export default function Home() {
           CityTextLB="Locations Offered"
           CityTextL=" :Business Analytics Training in Bangalore, Business Analytics Course in Bangalore, Business Analytics Training in BTM, Business Analytics Training in Marathahalli, Business Analytics Institute in Bangalore, Business Analytics Training in Whitefield, Business Analytics Training in Kundalahalli, Business Analytics Training in ITPL, Business Analytics Training Institute in Marathahalli, Business Analytics Course in BTM, Business Analytics Course in Marathahalli, Business Analytics Course in Whitefield, Business Analytics Course Bommanahalli, Business Analytics Training in Bommanahalli, Business Analytics Training in Electronic city, Business Analytics Training in Koramangala, Business Analytics Classes in BTM, Business Analytics Classes in Bommanahalli, Business Analytics Classes in Whitefield, Business Analytics Classes in Marathahalli, Business Analytics Course in Koramangala, Business Analytics Training in Jayanagar, Business Analytics Certification in Bangalore, Business Analytics Certification Training in Bangalore, Business Analytics Certification in BTM, Business Analytics Certification in Whitefield, Best Business Analytics Training, Best Business Analytics Course"
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>
