@@ -432,7 +432,7 @@ export default function Home() {
           mTitle="Data Science Course in Bangalore with"
           mTopPara="Foundational and Advanced Data Science Courses"
           title="Data Science Course in Bangalore"
-          desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+          desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Data Science Training in Bangalore on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"

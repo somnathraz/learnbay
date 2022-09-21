@@ -459,7 +459,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramHead1="What is a Data science training program in Chennai?"
+              ProgramHead1="What is a Data science training course in Chennai?"
               ProgramBot1="The data science course in Chennai offered by Learnbay is an exclusive data scientist training Bootcamp for anyone interested in becoming an industry competent data scientist. This IBM data science course is meticulously designed by industrial experts. Our industry-leading instructors have years of experience and will ensure that you get all of the key materials required to become a successful data scientist. You gain access to their experience and skills through both offline and online data science courses."
               ProgramBot2="This data science curriculum assists students in developing in-demand data science skills like programming, mathematics, data visualization, statistics, and other key subjects."
               ProgramBot3="Without a doubt, it is the premier destination for working professionals in Chennai seeking the best data science and artificial intelligence training."
@@ -467,7 +467,7 @@ export default function Home() {
               ProgramBot4="Learnbay focuses on providing both practical and theoretical learning modules for a better experience for its students. Comparatively, this artificial intelligence and data science course seem to be pocket-friendly with an assured job guarantee."
               ProgramBot5="Here, you will receive one-on-one discussion sessions with mentors and a three-year Flexi pass that allow you to attend any live classes at your convenience. You can also access Learnbay LMS via your mobile device for convenient learning. The class timings in our data science course are flexible, and you can attend multiple sessions with different instructors."
               ProgramBot6="Another reason is that you can choose from various data science courses depending on your current professional level. Each of these courses is composed of modules that are tailored to your prior work experience."
-              ProgramHead7="Available Data Science and AI Certification Courses by Learnbay in Chennai:"
+              ProgramHead7="Available Data Science and AI Certification Courses in Chennai by Learnbay :"
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"
               Courselink3="/artificial-intelligence-certification-course"
@@ -481,7 +481,7 @@ export default function Home() {
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Our domain-specific courses are designed to help students approach data science from a particular angle or industry."
               DomainBot2="A domain-specific data scientist will have a far deeper understanding of the domain and its nuances, as well as the critical business problems that must be handled. Today, recruiters are on the lookout for domain-specific data scientists. Without domain knowledge, one can’t provide the exact analytical insights. Hence, it’s important to choose courses that offer domain electives options."
-              DomainBot3="Learnbay offers full-stack domain-specialized Data Science Training. Based on your experience, you can select the following domains:"
+              DomainBot3="Learnbay offers full-stack domain-specialized Data Science Training in Chennai. Based on your experience, you can select the following domains:"
               DomainList1="HR, Sales, and Marketing"
               DomainList2="Energy, oil, and Gas"
               DomainList3="Mechanical, manufacturing, and telecom"

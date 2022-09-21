@@ -38,7 +38,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Full-Stack Software Developer Course in Delhi | Full-Stack Software Developer Course Training in Delhi
+          Full-Stack Software Developer Course in Delhi | Full-Stack Software
+          Developer Course Training in Delhi
         </title>
         <meta
           name="description"
@@ -56,11 +57,14 @@ export default function Home() {
           name="copyright"
           content="Learnbay: Full-Stack Software Developer Courses Certification Training India"
         />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
       </Head>
-      <main>  <Navbar popup={true} fullStack={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} fullStack={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -71,13 +75,14 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection fullStack={true}
+        <FirstSection
+          fullStack={true}
           deskTopPara="Ace Your Coding Interview at MAANG"
           mTopPara="Ace Your Coding Interview at MAANG"
           mTitle="Full-Stack Software Developer Course In Delhi"
-          spanMTitleText="& Achieve Your Dream Job"
+          spanMTitleText="To Achieve Your Dream Job"
           title="Full-Stack Software Developer Course In Delhi"
-          spanTitleText="& Achieve Your Dream Job"
+          spanTitleText="To Achieve Your Dream Job"
           desc="Enroll in the best Job-ready full-stack software development course in Delhi. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course9.png"
           width="791"
@@ -87,21 +92,21 @@ export default function Home() {
         />
         <div className={styles.program}>
           <ProgramInfo
-             p1="Premium Job"
-             p11="Placement Support"
-             p2="Job Advancement"
-             p22="Skills"
-             p3="Practice with"
-             p33="Real-Time Projects"
-             p4="Financing as low as"
-             p44="₹ 10,816/month"
+            p1="Premium Job"
+            p11="Placement Support"
+            p2="Job Advancement"
+            p22="Skills"
+            p3="Practice with"
+            p33="Real-Time Projects"
+            p4="Financing as low as"
+            p44="₹ 10,816/month"
           />
         </div>
         <ProgramFee Fee="₹ 1,10,000 + GST" Emi="₹10,816" fullStack={true} />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="Full-Stack Software Developer Course In Delhi"
-          title="Why Enroll In Full Stack Software Developer Course In Delhi?"
+            alt="Full-Stack Software Developer Course In Delhi"
+            title="Why Enroll In Full Stack Software Developer Course In Delhi?"
             Box1h5="Crack MAANG Interview"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
@@ -114,10 +119,11 @@ export default function Home() {
         </div>
         <div className="MainCities">
           <div className="CitiesLeft">
-            <CitiesLeft fullStackCity={true}/>
+            <CitiesLeft fullStackCity={true} />
           </div>
           <div className="CitiesRight">
-            <CitiesRight fullStackCity={true}
+            <CitiesRight
+              fullStackCity={true}
               ProgramBot1="Learnbay provides the best full-stack software developer course in Delhi with domain specialization. Our full-stack developer course is a complete job-ready solution for those who are dreaming of a lucrative and ever-growing tech career. "
               ProgramBot2="Learnbays full stack developer course in Delhi enables students to learn all the latest skills of full stack software development that are in demand across the world."
               ProgramBot3="Our full-stack software developer course in Delhi is to help professionals through the right career track that leads to the ultimate peak of success. Transitioning to a career as a full-stack software developer in Delhi is not that hard anymore."
@@ -146,7 +152,6 @@ export default function Home() {
               ProgramHead11="> Domain specialization"
               ProgramHead12="> Learn at your pace with 3yrs of subscriptions"
               ProgramHead13="> Offline project innovation labs for better learning"
-
               DomainBot1="At present, top organizations and MNC recruit candidates with domain expertise only. Otherwise even after doing a weighty full-stack software development course, working pros get considered as freshers only.  This is why Learnbay's full stack developer course in Delhi is made solely domain-specialized. Students can either choose the domain they want to specialize in or take help from our full-stack career guides to know which domain would be best for their profile."
               DomainHead2="There are five elite domains in the Full-stack developer course : "
               DomainHead3="a. Full stack web development (Front and back-end)"
@@ -154,16 +159,13 @@ export default function Home() {
               DomainHead5="c. Data science and AI"
               DomainHead6="d. Web 3.0 developer"
               DomainHead7="e. DevOps and clouds"
-
               ModuleBot1=" Learnbay course trainers are full-stack developers and experienced full-stack software developers. "
               ModuleHead2="Become a professional MEAN and MERN stack developer. "
               ModuleBot3="Our Full-stack developer online course in Delhi covers topics like array overview, string, stack, best-average-worst case complexities hierarchy, complexity classes (P vs. NP problem), AVL tree, backtracking algorithm, graph and recursion, and many more exciting and trending tools."
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
-
               JobHead1="'mock interview sessions, preparing Learnbay alumni for their dream interviews.'"
               JobBot1="Our full-stack developer course in Delhi even has resume-building sessions for candidates. After completing a full-stack software developer course with domain specialization, you can add all the skills you have mastered but highly focus on how that helps in your targeted domain. It offers you an additional advantage at the interview table. "
               JobBot2="Learnbay has a dedicated team of recruitment assistants backed up by 250+ hiring partners. This team refers our alumni to top organizations, so they get to land a job that they wish for. "
-              
               ProjectsBot1="The best Full stack developer course in Delhi by Learnbay has a series of fresh capstone projects. Students get to work and gain experience by working on projects using the latest tools and skills they learned from Learnbay. Other than that we encourage our students to come up with their own project ideas. Our industry expert project guides help them to reach the desired project outcomes."
               ProjectsBot2="A capstone project is a great way to show your skill on your resume. Our project innovation labs are solely dedicated to such capstone projects where students can work collaboratively with their batchmates from the same domain. "
               src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/2.png"
@@ -174,7 +176,6 @@ export default function Home() {
               Projectsp3="The connected website must offer signup, login/logout, and profile creation/editing. This must include a wishlist box, a order tracker, personalized suggestions, personalized and occasional discount features, a chatbot, etc."
               src4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/6.png"
               Projectsp4="This is a full-stack web development project at the advanced level that includes seamless audio-video call management services."
-
               AlumniBot1="Almost all our alumni got emplaced within 3 months of full-stack development course completion and others in following few following months. We have to recond that 30% of our alumni got the job even before the final test associated."
               AlumniHead1="Few Our Alumni sharing their success and learning experiences:"
               Asrc1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/akanksha.jpg"
@@ -212,16 +213,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-
+        <LearnSupport />
         <CityText
           CityTextB="Full-Stack Software Developer Course Certification Training locations in Delhi "
           CityText=" :  Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Delhi City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337]."
           CityTextLB="Locations Offered"
           CityTextL=" :Full-Stack Software Developer Course viman nagar,Full-Stack Software Developer Course Training in kalyan nagar,Full-Stack Software Developer Course Training in magarpetta,Full-Stack Software Developer Course Training in pimpri chinchwad,Full-Stack Software Developer Course Classes in yerwada,Full-Stack Software Developer Course Classes in kharadi,Full-Stack Software Developer Course Classes in vishrantwadi,Full-Stack Software Developer Course Classes in deccan,Full-Stack Software Developer Course in Katraj,Full-Stack Software Developer Course Training in warje,,Full-Stack Software Developer Course Certification Training in bavdhan,Full-Stack Software Developer Course Certification in boat club road,Full-Stack Software Developer Course Certification in model colony,Best Full-Stack Software Developer Course Training in Delhi,Best Full-Stack Software Developer Course in Delhi"
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

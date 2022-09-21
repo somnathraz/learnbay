@@ -38,7 +38,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Full-Stack Software Developer Course in Pune | Full-Stack Software Developer Course Training in Pune
+          Full-Stack Software Developer Course in Pune | Full-Stack Software
+          Developer Course Training in Pune
         </title>
         <meta
           name="description"
@@ -56,11 +57,14 @@ export default function Home() {
           name="copyright"
           content="Learnbay: Full-Stack Software Developer Courses Certification Training India"
         />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
       </Head>
-      <main>  <Navbar popup={true} fullStack={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} fullStack={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -71,13 +75,14 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection fullStack={true}
+        <FirstSection
+          fullStack={true}
           deskTopPara="Ace Your Coding Interview at MAANG"
           mTopPara="Ace Your Coding Interview at MAANG"
           mTitle="Full-Stack Software Developer Course In Pune"
-          spanMTitleText="& Achieve Your Dream Job"
+          spanMTitleText="To Achieve Your Dream Job"
           title="Full-Stack Software Developer Course In Pune"
-          spanTitleText="& Achieve Your Dream Job"
+          spanTitleText="To Achieve Your Dream Job"
           desc="Enroll in the best Job-ready full-stack software development course in Pune. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course9.png"
           width="791"
@@ -87,21 +92,21 @@ export default function Home() {
         />
         <div className={styles.program}>
           <ProgramInfo
-             p1="Premium Job"
-             p11="Placement Support"
-             p2="Job Advancement"
-             p22="Skills"
-             p3="Practice with"
-             p33="Real-Time Projects"
-             p4="Financing as low as"
-             p44="₹ 10,816/month"
+            p1="Premium Job"
+            p11="Placement Support"
+            p2="Job Advancement"
+            p22="Skills"
+            p3="Practice with"
+            p33="Real-Time Projects"
+            p4="Financing as low as"
+            p44="₹ 10,816/month"
           />
         </div>
         <ProgramFee Fee="₹ 1,10,000 + GST" Emi="₹10,816" fullStack={true} />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="Full-Stack Software Developer Course In Pune"
-          title="Why Enroll In Full Stack Software Developer Course In Pune?"
+            alt="Full-Stack Software Developer Course In Pune"
+            title="Why Enroll In Full Stack Software Developer Course In Pune?"
             Box1h5="Crack MAANG Interview"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
@@ -114,11 +119,12 @@ export default function Home() {
         </div>
         <div className="MainCities">
           <div className="CitiesLeft">
-            <CitiesLeft fullStackCity={true}/>
+            <CitiesLeft fullStackCity={true} />
           </div>
           <div className="CitiesRight">
-            <CitiesRight fullStackCity={true}
-            ProgramHead1="A 360° Full Stack Software Developer Course with domain specialization."
+            <CitiesRight
+              fullStackCity={true}
+              ProgramHead1="A 360° Full Stack Software Developer Course with domain specialization."
               ProgramBot1="Learnbay offers full-stack developer courses in Pune. It is a full-fledged full-stack development course with five different domains for students to gain expertise. Our live online Full stack developer Course with domain specialization is a complete stack of structured learning."
               ProgramBot2="Learnbay's online full stack developer training in Pune is designed by industrial full stack software development experts of different domains. Once enrolled, tech enthusiasts can excel in both front-end and back-end development of servers. At Learnbay, we train students to evolve as professional full-stack developers."
               ProgramBot3="We aim to get students out of the haystack and be updated with real-world required skills for complex industrial business problems. Learnbay's 360° full stack software developer course in Pune is designed for professionals to attain a lucrative career transition."
@@ -136,7 +142,6 @@ export default function Home() {
               ProgramHead11="> Domain specialization"
               ProgramHead12="> Learn at your pace with 3yrs of subscriptions"
               ProgramHead13="> Offline project innovation labs for better learning"
-
               DomainBot1="Learnbay is the first organization in Pune to offer best full-stack developer course with domain specializations. Because Learnbay knows domain specialization is essential in today's world, we want to empower all our students with domain-specific knowledge."
               DomainHead2="The five elite domains available in full-stack software developer course in Pune are as follows :"
               DomainHead3="a. Full stack"
@@ -144,15 +149,12 @@ export default function Home() {
               DomainHead5="c. Data science and AI"
               DomainHead6="d. Web 3.0 developer"
               DomainHead7="e. DevOps and clouds"
-
               ModuleBot1="Industrial full-stack developer experts curate the Learnbay full-stack software developer course curriculum according to Pune's industrial standards and norms."
               ModuleBot3="Learnbay Full-stack developer course in Pune covers tools like Big-Omega, Best, Average, and worst-case complexities hierarchy, complexity classes (P vs. NP problem), asymptotic analysis, String, Stack, array overview, binary search, and AVL tree, backtracking algorithm, graph, and recursion and many more exciting tools for students to learn."
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
-
               JobBot1="Learnbay's full-stack developer course with placement assists students in Pune with resume building, so your profile shows the right skills during the interview. Learnbay dedicatedly helps our students even after course completion because we know that resume building and job referrals are as important as completing the course."
               JobHead2="'mock interview sessions, preparing Learnbay alumni for their dream interviews.'"
               JobBot3="Already mentioned, Learnbay full-stack developer course in Pune is a specialized domain course. Hence, learners from Learnbay always remain ten steps ahead of the generic crowd of job seekers. Our dedicated student support team helps candidates with job referrals, so alumni are recruited to top organizations. In fact, here, you get amazing assured career assistance."
-              
               ProjectsBot1="Learnbay full-stack developer in Pune includes real-time capstone projects for learning real-world scenarios and finding a solution. We even have special hybrid classes for project completion. Learnbay project innovation labs are Full-stack software development projects."
               ProjectsHead2="Full-stack software development projects example:"
               src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/2.png"
@@ -200,16 +202,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-
+        <LearnSupport />
         <CityText
           CityTextB="Full-Stack Software Developer Course Certification Training locations in Pune "
           CityText=" :  Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Pune City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337]."
           CityTextLB="Locations Offered"
           CityTextL=" :Full-Stack Software Developer Course viman nagar,Full-Stack Software Developer Course Training in kalyan nagar,Full-Stack Software Developer Course Training in magarpetta,Full-Stack Software Developer Course Training in pimpri chinchwad,Full-Stack Software Developer Course Classes in yerwada,Full-Stack Software Developer Course Classes in kharadi,Full-Stack Software Developer Course Classes in vishrantwadi,Full-Stack Software Developer Course Classes in deccan,Full-Stack Software Developer Course in Katraj,Full-Stack Software Developer Course Training in warje,,Full-Stack Software Developer Course Certification Training in bavdhan,Full-Stack Software Developer Course Certification in boat club road,Full-Stack Software Developer Course Certification in model colony,Best Full-Stack Software Developer Course Training in Pune,Best Full-Stack Software Developer Course in Pune"
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>

@@ -38,7 +38,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Full-Stack Software Developer Course in Chennai | Full-Stack Software Developer Course Training in Chennai
+          Full-Stack Software Developer Course in Chennai | Full-Stack Software
+          Developer Course Training in Chennai
         </title>
         <meta
           name="description"
@@ -47,7 +48,7 @@ export default function Home() {
         <meta
           name="Keywords"
           content="Full-Stack Software Developer Course in Chennai, Full-Stack Software Developer Course training in Chennai, Full-Stack Software Developer Course institute in Chennai, best Full-Stack Software Developer Course institute in Chennai, data scientist course in Chennai,data scientist certification in Chennai, Full-Stack Software Developer Course training institute in Chennai, advanced Full-Stack Software Developer Course in Chennai, Full-Stack Software Developer Course with placement guarantee, Full-Stack Software Developer Course"
-        /> 
+        />
         <link
           rel="canonical"
           href="https://www.learnbay.co/full-stack-software-developer-course-in-chennai"
@@ -56,11 +57,14 @@ export default function Home() {
           name="copyright"
           content="Learnbay: Full-Stack Software Developer Courses Certification Training India"
         />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
       </Head>
-      <main>  <Navbar popup={true} fullStack={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} fullStack={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -71,13 +75,14 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection fullStack={true}
+        <FirstSection
+          fullStack={true}
           deskTopPara="Ace Your Coding Interview at MAANG"
           mTopPara="Ace Your Coding Interview at MAANG"
           mTitle="Full-Stack Software Developer Course In Chennai"
-          spanMTitleText="& Achieve Your Dream Job"
+          spanMTitleText="To Achieve Your Dream Job"
           title="Full-Stack Software Developer Course In Chennai"
-          spanTitleText="& Achieve Your Dream Job"
+          spanTitleText="To Achieve Your Dream Job"
           desc="Enroll in the best Job-ready full-stack software development course in Chennai. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course9.png"
           width="791"
@@ -87,21 +92,21 @@ export default function Home() {
         />
         <div className={styles.program}>
           <ProgramInfo
-             p1="Premium Job"
-             p11="Placement Support"
-             p2="Job Advancement"
-             p22="Skills"
-             p3="Practice with"
-             p33="Real-Time Projects"
-             p4="Financing as low as"
-             p44="₹ 10,816/month"
+            p1="Premium Job"
+            p11="Placement Support"
+            p2="Job Advancement"
+            p22="Skills"
+            p3="Practice with"
+            p33="Real-Time Projects"
+            p4="Financing as low as"
+            p44="₹ 10,816/month"
           />
         </div>
         <ProgramFee Fee="₹ 1,10,000 + GST" Emi="₹10,816" fullStack={true} />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="Full-Stack Software Developer Course In Chennai"
-          title="Why Enroll In Full Stack Software Developer Course In Chennai?"
+            alt="Full-Stack Software Developer Course In Chennai"
+            title="Why Enroll In Full Stack Software Developer Course In Chennai?"
             Box1h5="Crack MAANG Interview"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
@@ -114,10 +119,11 @@ export default function Home() {
         </div>
         <div className="MainCities">
           <div className="CitiesLeft">
-            <CitiesLeft fullStackCity={true}/>
+            <CitiesLeft fullStackCity={true} />
           </div>
           <div className="CitiesRight">
-            <CitiesRight fullStackCity={true}
+            <CitiesRight
+              fullStackCity={true}
               ProgramBot1="The full-stack developer course at Learnbay in Chennai is for tech aspirants who want to become expert full-stack software developers. Our Full-stack developer course includes different domains for students to get expertise in a specific domain."
               ProgramBot2="Learnbay's full-stack software developer course is designed by industrial experts in different domains. Learners can stand out from other candidates by learning the latest skills required in the present tech world through Learnbay."
               ProgramBot3="Our motto is to help students find their way out of the haystacks of outdated courses. Learnbay's full-stack developer course in Chennai will enable you to grow as an expert front-end and back-end software developer in Chennai."
@@ -135,7 +141,6 @@ export default function Home() {
               ProgramHead11="> Domain specialization"
               ProgramHead12="> Learn at your pace with 3yrs of subscriptions"
               ProgramHead13="> Offline project innovation labs for better learning"
-
               DomainBot1="Learnbay offers a 360° full-stack developer software course in Chennai with domain specialization. The present tech world gives a lot of value to domain-specific knowledge. We pre-equip students with domain-specific knowledge before their recruitment or course completion. We ensure our students turn into professional full-stack developers and achieve the best of their deserved scopes in and around Chennai, as well as around the world."
               DomainHead2="There are five domains in the full stack software developer course :"
               DomainHead3="a. Full stack web development (Front and back-end)"
@@ -143,15 +148,12 @@ export default function Home() {
               DomainHead5="c. Data science and AI"
               DomainHead6="d. Web 3.0 developer"
               DomainHead7="e. DevOps and clouds"
-
               ModuleBot1="Our trainers are expert full-stack developers holding 8+ years of industrial experience in different top-notch MNCs. Learnbay full stack developer experts have curated the course as per Chennai's organizational requirements."
               ModuleHead2="Become a professional MEAN and MERN stack developer."
               ModuleBot3="Learnbay Full-stack software development course in Chennai covers String, Stack, array overview, binary research, Best, average, and worst case complexities hierarchy, Complexity classes (P vs. NP problem), AVL tree, backtracking algorithm, recursion and graph, and many more trending tools."
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
-
               JobHead1="'mock interview sessions, preparing Learnbay alumni for their dream interviews.'"
               JobBot1="Our Full-stack developer course in Chennai assists students in building and upgrading their resumes with all the tools and domain knowledge you honed after completing our full-stack software developer course in Chennai. Our student's dedicated team even refers to jobs of top organizations and MNCs."
-              
               ProjectsBot1="A full stack developer course in Chennai from Learnbay includes a real-time capstone project. Students get to experience and work with real-world problems. This increases the demand for Learnbay alumni in the present job market."
               ProjectsBot2="A Capstone project is essential to your resume. Our full stack developer course in Chennai has a project innovation lab for students to work on projects under the direct guidance of industry leads."
               src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/2.png"
@@ -199,16 +201,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-
+        <LearnSupport />
         <CityText
           CityTextB="Full-Stack Software Developer Course Certification Training locations in Chennai "
           CityText=" :  Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Chennai City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337]."
           CityTextLB="Locations Offered"
           CityTextL=" :Full-Stack Software Developer Course viman nagar,Full-Stack Software Developer Course Training in kalyan nagar,Full-Stack Software Developer Course Training in magarpetta,Full-Stack Software Developer Course Training in pimpri chinchwad,Full-Stack Software Developer Course Classes in yerwada,Full-Stack Software Developer Course Classes in kharadi,Full-Stack Software Developer Course Classes in vishrantwadi,Full-Stack Software Developer Course Classes in deccan,Full-Stack Software Developer Course in Katraj,Full-Stack Software Developer Course Training in warje,,Full-Stack Software Developer Course Certification Training in bavdhan,Full-Stack Software Developer Course Certification in boat club road,Full-Stack Software Developer Course Certification in model colony,Best Full-Stack Software Developer Course Training in Chennai,Best Full-Stack Software Developer Course in Chennai"
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>
