@@ -38,7 +38,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Full-Stack Software Developer Course in Hyderabad | Full-Stack Software Developer Course Training in Hyderabad
+          Full-Stack Software Developer Course in Hyderabad | Full-Stack
+          Software Developer Course Training in Hyderabad
         </title>
         <meta
           name="description"
@@ -57,11 +58,14 @@ export default function Home() {
           name="copyright"
           content="Learnbay: Full-Stack Software Developer Courses Certification Training India"
         />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
       </Head>
-      <main>  <Navbar popup={true} fullStack={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} fullStack={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -72,13 +76,14 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection fullStack={true}
+        <FirstSection
+          fullStack={true}
           deskTopPara="Ace Your Coding Interview at MAANG"
           mTopPara="Ace Your Coding Interview at MAANG"
           mTitle="Full-Stack Software Developer Course In Hyderabad"
-          spanMTitleText="& Achieve Your Dream Job"
+          spanMTitleText="To Achieve Your Dream Job"
           title="Full-Stack Software Developer Course In Hyderabad"
-          spanTitleText="& Achieve Your Dream Job"
+          spanTitleText="To Achieve Your Dream Job"
           desc="Enroll in the best Job-ready full-stack software development course in Hyderabad. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course9.png"
           width="791"
@@ -88,21 +93,21 @@ export default function Home() {
         />
         <div className={styles.program}>
           <ProgramInfo
-             p1="Premium Job"
-             p11="Placement Support"
-             p2="Job Advancement"
-             p22="Skills"
-             p3="Practice with"
-             p33="Real-Time Projects"
-             p4="Financing as low as"
-             p44="₹ 10,816/month"
+            p1="Premium Job"
+            p11="Placement Support"
+            p2="Job Advancement"
+            p22="Skills"
+            p3="Practice with"
+            p33="Real-Time Projects"
+            p4="Financing as low as"
+            p44="₹ 10,816/month"
           />
         </div>
         <ProgramFee Fee="₹ 1,10,000 + GST" Emi="₹10,816" fullStack={true} />
         <div className="Feature" id="Feature">
           <BoxShape
-          alt="Full-Stack Software Developer Course In Hyderabad"
-          title="Why Enroll In Full Stack Software Developer Course In Hyderabad?"
+            alt="Full-Stack Software Developer Course In Hyderabad"
+            title="Why Enroll In Full Stack Software Developer Course In Hyderabad?"
             Box1h5="Crack MAANG Interview"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
@@ -115,11 +120,12 @@ export default function Home() {
         </div>
         <div className="MainCities">
           <div className="CitiesLeft">
-            <CitiesLeft fullStackCity={true}/>
+            <CitiesLeft fullStackCity={true} />
           </div>
           <div className="CitiesRight">
-            <CitiesRight fullStackCity={true}
-            ProgramHead1="The full-stack developer course by Learnbay in Hyderabad is for every tech enthusiast"
+            <CitiesRight
+              fullStackCity={true}
+              ProgramHead1="The full-stack developer course by Learnbay in Hyderabad is for every tech enthusiast"
               ProgramBot1="who wants to become an expert software developer. Our full-stack software development course i  Hyderabad is with domain specialization so students can be experts in the specific domain before they approach the tough job market competition."
               ProgramBot2="Learnbay's full-stack developer course is custom developed by a flock of industry experts from top organizations. We train students with all the latest tools and skills that are important and trending in today's tech world."
               ProgramBot3="Our priority is to pull students out of outdated full-stack courses. Learnbay's full-stack software developer course in Hyderabad will turn candidates into front-end and back-end software development experts."
@@ -137,7 +143,6 @@ export default function Home() {
               ProgramHead11="> Domain specialization"
               ProgramHead12="> Learn at your pace with 3yrs of subscriptions"
               ProgramHead13="> Offline project innovation labs for better learning"
-
               DomainBot1="Learnbay full-stack developer course in Hyderabad is powered by five domain specializations. Currently, MNCs are looking for full-stack software developer experts with core domain knowledge. So we equip our students with domain-specific knowledge even before facing the harsh job market."
               DomainHead2="There are five domains in the full stack software developer course :"
               DomainHead3="a.  Full stack web development (Front and back-end)"
@@ -145,15 +150,12 @@ export default function Home() {
               DomainHead5="c. Data science and AI"
               DomainHead6="d. Web 3.0 developer"
               DomainHead7="e. DevOps and clouds"
-
               ModuleBot1="Our trainers are full-stack software developers from MAANG/MNCs. They have been working for more than eight years in this industry. Learnbay has designed the course per Hyderabad's industry standards and organizational requirements. Infact they also customized their training strategies in case any learner needs overseas job market assistance."
               ModuleHead2="Become a professional MEAN and MERN stack developer."
               ModuleBot3="Learnbay's full-stack courses in Hyderabad include tools like String, Stack, array overview, binary research, Best, average, and worst case complexities hierarchy, Complexity classes (P vs NP problem), AVL tree, backtracking algorithm, recursion and graph, and many more trending tools."
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
-
               JobHead1="'mock interview sessions, preparing Learnbay alumni for their dream interviews.'"
               JobBot1="The Full stack software developer course by Learnbay helps students prepare to resume with all the skills and tools they have learned and re-skilled by Learnbay. We even have an entire team of professionals dedicated only to job referrals for our alumni. Based on the targeted company requirements, you get custom-fit mock interview sessions. Infact, at the very beginning of the course, you undergo expert career counseling to identify your best-fit learning path for landing a lucrative software developer career."
-              
               ProjectsBot1="Learnbay's full-stack developer course includes real-world capstone projects via an offline project innovation lab in Hyderabad. Candidates get to work on real-world problems and gain experience with tools even before recruitment."
               ProjectsBot2="Capstone projects are critical as MNC's talent acquisition teams look for candidates who have worked on relevant real-world problems."
               ProjectsHead2="Full-stack software development projects example:"
@@ -202,16 +204,14 @@ export default function Home() {
             />
           </div>
         </div>
-                <LearnSupport />
-
+        <LearnSupport />
         <CityText
           CityTextB="Full-Stack Software Developer Course Certification Training locations in Hyderabad "
           CityText=" :  Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Hyderabad City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337]."
           CityTextLB="Locations Offered"
           CityTextL=" :Full-Stack Software Developer Course viman nagar,Full-Stack Software Developer Course Training in kalyan nagar,Full-Stack Software Developer Course Training in magarpetta,Full-Stack Software Developer Course Training in pimpri chinchwad,Full-Stack Software Developer Course Classes in yerwada,Full-Stack Software Developer Course Classes in kharadi,Full-Stack Software Developer Course Classes in vishrantwadi,Full-Stack Software Developer Course Classes in deccan,Full-Stack Software Developer Course in Katraj,Full-Stack Software Developer Course Training in warje,,Full-Stack Software Developer Course Certification Training in bavdhan,Full-Stack Software Developer Course Certification in boat club road,Full-Stack Software Developer Course Certification in model colony,Best Full-Stack Software Developer Course Training in Hyderabad,Best Full-Stack Software Developer Course in Hyderabad"
         />
-               
-        <OfferPopup offer={false} />                      
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </div>
