@@ -13,7 +13,7 @@ const TabData = [
   },
   {
     id: "Digital Marketing",
-    title: "Master's Program",
+    title: "Master Program",
   },
   {
     id: "Popular Courses",

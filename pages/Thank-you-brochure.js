@@ -151,7 +151,7 @@ const ThankYou = () => {
             />
             <p className={styles.Ptopp}>
               Data Science & AI <br />
-              Master's Program
+              Master Program
             </p>
             <a
               href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf"

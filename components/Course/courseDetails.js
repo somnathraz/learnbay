@@ -63,7 +63,7 @@ export const viewAllD = [
     id: 5,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp",
     title: "Data Science & AI ",
-    title1: "Master's Program",
+    title1: "Master Program",
     tag: "Data science",
     para: [
       "500 hours of Interactive Learning",
@@ -231,7 +231,7 @@ export const ForProgrammersD = [
     id: 6,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp",
     title: "Data Science & AI ",
-    title1: "Master's Program",
+    title1: "Master Program",
     tag: "Data science",
     para: [
       "500 hours of Interactive Learning",
@@ -323,7 +323,7 @@ export const ForNonProgrammerD = [
     id: 5,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp",
     title: "Data Science & AI ",
-    title1: "Master's Program",
+    title1: "Master Program",
     tag: "Data science",
     para: [
       "500 hours of Interactive Learning",
@@ -372,7 +372,7 @@ export const JobGuaranteeD = [
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp",
     title: "Data Science & AI ",
-    title1: "Master's Program",
+    title1: "Master Program",
     tag: "Data science",
     para: [
       "500 hours of Interactive Learning",

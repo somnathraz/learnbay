@@ -74,11 +74,11 @@ export default function Home() {
           dataScience={true}
           deskTopPara="Boost your career opportunities "
           deskTopPara1="by developing relevant skills"
-          mTitle="Data Science and AI Master's Program "
+          mTitle="Data Science and AI Master Program "
           spanMTitleText="With Unlimited Interview Calls"
           mTopPara="Boost your career opportunities "
           mTopPara1="by developing relevant skills"
-          title="Data Science and AI Master's Program "
+          title="Data Science and AI Master Program "
           spanTitleText="With Unlimited Interview Calls"
           desc="A complete guide with real-life exercises & domain oriented approach."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course5.png"
@@ -169,7 +169,7 @@ export default function Home() {
           PFeatures15="15+"
           PFeatures16="10"
           PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-          sub2="Data Science and AI Master's Program"
+          sub2="Data Science and AI Master Program"
           Price2="₹1,10,000 + GST"
           PFeatures21=" 500+ Hours"
           PFeatures22="Tech/Non-Tech Professionals"
@@ -190,7 +190,7 @@ export default function Home() {
         />
         <CourseFee
           dataScience={true}
-          CourseFeeHead="Data Science and AI Master's Program : Batch Details"
+          CourseFeeHead="Data Science and AI Master Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"

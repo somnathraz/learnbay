@@ -421,7 +421,7 @@ const Course = () => {
             }}
             className={Guarantee ? styles.ActiveSpan : styles.span}
           >
-            Master's Program
+            Master Program
           </span>
           {Guarantee ? (
             <div className={styles.mPanel}>
