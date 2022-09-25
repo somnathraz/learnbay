@@ -14,15 +14,15 @@ function termsJob() {
           Welcome to Learnbay Data Science & AI Training Institute. We are
           committed to your career success and will support you fully in the
           transition into a prosperous Data Science Career. We back our
-          commitment to Learnbay Data Science and AI Master's Program: subject
-          to the Terms below.
+          commitment to Learnbay Data Science and AI Master Program: subject to
+          the Terms below.
         </p>
         <p className={styles.bot}>
           A career transition involves focused consistent effort. We put in this
           effort to help you make that transition and request an equal
           commitment from you. Specifically, you shall satisfy the requirements
           below in order to be eligible for the ‘Learnbay Data Science and AI
-          Master's Program.
+          Master Program.
         </p>
 
         <p className={styles.top}>Terms</p>
@@ -38,7 +38,7 @@ function termsJob() {
         <li className={styles.bot}>
           You must hold a Degree from an accredited educational institution in
           any subject by the Date you are approved to complete the Learnbay Data
-          Science Master's Program.
+          Science Master Program.
         </li>
         <li className={styles.bot}>
           You must be proficient in spoken and written English, as assessed by
@@ -237,12 +237,12 @@ function termsJob() {
         <p className={styles.top}>Eligibility Criteria for Money-back:</p>
         <li className={styles.bot}>
           After fulfilling all the terms and conditions of Learnbay Data Science
-          Master's Program eligibility, you must confirm that you have not
+          Master Program eligibility, you must confirm that you have not
           received any job offers.
         </li>
         <li className={styles.bot}>
           You do not possess any reason/ activities mention under the terms that
-          make the Learnbay Master's Program Void.
+          make the Learnbay Master Program Void.
         </li>
         <li className={styles.bot}>
           Upon completion of the course, you are entitled to a refund of your

@@ -47,8 +47,8 @@ function refund() {
           of 15 days unless they reached out to Learnbay before
         </p>
         <p className={styles.bot}>
-          <b>Note: </b>The Master's Program is excluded from this please refer
-          to the Terms & Conditions specified for the Master's Program.
+          <b>Note: </b>The Master Program is excluded from this please refer to
+          the Terms & Conditions specified for the Master Program.
         </p>
         <p className={styles.bot}>
           2. In case, the user opted for a student loan via Learnbay, and the

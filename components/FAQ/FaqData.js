@@ -923,7 +923,7 @@ export const SupportFaqData4 = [
 export const FaqData5 = [
   {
     id: 0,
-    ques: "What are the prerequisites for Data Science and AI Master's Program with Unlimited Interview calls?",
+    ques: "What are the prerequisites for Data Science and AI Master Program with Unlimited Interview calls?",
     ans: "Basic programming & mathematics knowledge is enough. For strengthening your programming skills we provide special programming classes. We teach required statistics from a very basic.",
     open: true,
   },
@@ -941,7 +941,7 @@ export const FaqData5 = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Science and AI Master's Program?",
+    ques: "What’s the duration of the Data Science and AI Master Program?",
     ans: `The duration of this course is about 15 months (500 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
 
     Classes will be conducted on weekdays and weekend batches.
@@ -987,7 +987,7 @@ export const DomainFaqData5 = [
   {
     id: 3,
     ques: "Why is domain specialization important?",
-    ans: "After enrolling in the Data Science and AI Master's Program course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
+    ans: "After enrolling in the Data Science and AI Master Program course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
     open: false,
   },
   {
@@ -1012,8 +1012,8 @@ export const DomainFaqData5 = [
 export const PaymentFaqData5 = [
   {
     id: 0,
-    ques: "What is the total Fee for the Data Science and AI Master's Program?",
-    ans: "The total program fee for the Data Science and AI Master's Program is INR ₹1,10,000 + GST.",
+    ques: "What is the total Fee for the Data Science and AI Master Program?",
+    ans: "The total program fee for the Data Science and AI Master Program is INR ₹1,10,000 + GST.",
     open: true,
   },
   {
@@ -1024,7 +1024,7 @@ export const PaymentFaqData5 = [
   },
   {
     id: 2,
-    ques: "Is there any scholarship available for the Data Science and AI Master's Program? What is Group Discount?",
+    ques: "Is there any scholarship available for the Data Science and AI Master Program? What is Group Discount?",
     ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
     Please check our website or contact our sales team to know more about the applicable discounts.
     

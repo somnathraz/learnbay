@@ -431,7 +431,7 @@ export default function Home() {
           mTitle="Data Science Course Training in Pune"
           spanTitleText="with Domain Specialization"
           spanMTitleText="Domain Specialization"
-          desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+          desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Data Science Training in Pune on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"

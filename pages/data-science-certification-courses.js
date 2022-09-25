@@ -178,7 +178,7 @@ export default function Home() {
           PFeatures15="15+"
           PFeatures16="10"
           PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-          sub3="Data Science and AI Master's Program"
+          sub3="Data Science and AI Master Program"
           Price3="₹1,10,000 + GST"
           PFeatures31=" 500+ Hours"
           PFeatures32="Tech/Non-Tech Professionals"

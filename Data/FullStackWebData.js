@@ -34,7 +34,7 @@ export const FullStackWebCourseData = [
       AfterBR: " for career transition in data science.",
     },
     Benefits: {
-      desc: " Learn Data science with multiple domain specialization and become a data scientist with our Master's Program program.",
+      desc: " Learn Data science with multiple domain specialization and become a data scientist with our Master Program program.",
       InterviewT: "Become data scientist in top Companies",
       InterviewD:
         "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
