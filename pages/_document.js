@@ -92,6 +92,40 @@ export default function Document() {
             `,
           }}
         />
+        <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=UA-215989751-1`}
+      />
+
+<Script
+      strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=GTM-NN8XWH8`}
+      />
+      <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GTM-NN8XWH8', {
+              page_path: window.location.pathname,
+            },);
+                `,
+              }}
+            />
+      <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'UA-215989751-1');
+                `,
+              }}
+            />
       </Head>
       <body>
         <noscript>
