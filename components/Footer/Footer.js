@@ -161,6 +161,59 @@ const Footer = () => {
           borderTop: "1px solid",
           borderBottom: "1px solid",
           borderColor: "#ffffff50",
+          alignItems: "end",
+        }}
+      >
+        <div className={styles.FooterDivInner}>
+          <p className={styles.FooterInnerP}>Project Innovation Lab Address </p>
+          <p className={styles.FooterInnerP}>Pune </p>
+            <p className={styles.FooterInnerli}>
+            Sky Loft, Creaticity Mall, Opposite Golf Course, Airport Rd, Shastrinagar, Yerawada, Pune, Maharashtra 411006
+            </p>
+        </div>
+        
+        <div className={styles.FooterDivInner}>
+          <p className={styles.FooterInnerP}>Mumbai</p>
+            <p className={styles.FooterInnerli}>
+            Business Centre, 2nd Floor, Apeejay House, Dinshaw Vacha Road, Churchgate, Mumbai, Maharashtra 400020
+            </p>
+        </div>
+        <div className={styles.FooterDivInner}>
+          <p className={styles.FooterInnerP}>Delhi</p>
+            <p className={styles.FooterInnerli}>
+            Business Centre, Arunachal Building, 6th floor, Barakhamba Road, New Delhi 110001
+            </p>
+        </div>
+        <div className={styles.FooterDivInner}>
+          <p className={styles.FooterInnerP}>Kolkata</p>
+            <p className={styles.FooterInnerli}>
+            Ambuja Neotia EcoCentre 15th floor, EM-4,EM-block, Sector 5 Kolkata 700091
+            </p>
+        </div>
+        <div className={styles.FooterDivInner}>
+          <p className={styles.FooterInnerP}>Hyderabad</p>
+            <p className={styles.FooterInnerli}>
+            Level 3, NSL Centrum, Road No 1, Lane, opp. Forum Mall, KPHB 5th Phase, Hyderabad, Telangana 500072
+            </p>
+        </div>
+        <div className={styles.FooterDivInner}>
+          <p className={styles.FooterInnerP}>Bangalore</p>
+            <p className={styles.FooterInnerli}>
+            #87, above sangeetha mobiles, 14th main road, opp-white house, sector 4, Hsr Layout, Bangalore 560102
+            </p>
+        </div>
+        <div className={styles.FooterDivInner}>
+          <p className={styles.FooterInnerP}>Chennai</p>
+            <p className={styles.FooterInnerli}>
+            Apeejay Business Centre, Phone Booth, 1st Floor, Apeejay House, 39/12 Haddows Road, Nungambakkam, Chennai 600 006
+            </p>
+        </div>
+      </div>
+      <div
+        className={styles.FooterDiv}
+        style={{
+          borderBottom: "1px solid",
+          borderColor: "#ffffff50",
         }}
       >
         <div className={styles.FooterDivInner}>
