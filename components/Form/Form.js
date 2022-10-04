@@ -10,8 +10,15 @@ import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
 
-const Form = ({ popup, setTrigger, downloadBrochure, radio, event,   dataScience,
-  fullStack, }) => {
+const Form = ({
+  popup,
+  setTrigger,
+  downloadBrochure,
+  radio,
+  event,
+  dataScience,
+  fullStack,
+}) => {
   const router = useRouter();
   let today = new Date();
   let time =
@@ -30,7 +37,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event,   dataScience
     url: router.asPath,
   });
   useEffect(() => {
-    setQuery({ ...query, phone: value,dateTime: startDate  });
+    setQuery({ ...query, phone: value, dateTime: startDate });
   }, [value]);
 
   // Update inputs value
@@ -86,7 +93,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event,   dataScience
     if (fullStack) {
       router.push("/Thank-you-fsd");
     }
-    if (event)  {
+    if (event) {
       router.push("/event/Thank-You-event");
     }
   };
@@ -192,7 +199,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event,   dataScience
           ""
         )}
 
-{/* <div className={popup ? styles.formWrappers : styles.formWrapper}>
+        {/* <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <div className={styles.inner}>
               <DatePicker
                 selected={startDate}
@@ -219,26 +226,27 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event,   dataScience
               />
             </div>
           </div> */}
-          <div className={popup ? styles.formWrappers : styles.formWrapper} >
-            <input
-              id="Data Science Program"
-              value="Data Science Program"
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Data Science Program&nbsp;
-            <br/><input
-              id="Full Stack Program"
-              value="Full Stack Program"
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Full Stack Program
-          </div>
+        <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          <input
+            id="Data Science Program"
+            value="Data Science Program"
+            name="platform"
+            required
+            type="radio"
+            onChange={handleParam()}
+          />
+          Data Science Program&nbsp;
+          <br />
+          <input
+            id="Full Stack Program"
+            value="Full Stack Program"
+            name="platform"
+            required
+            type="radio"
+            onChange={handleParam()}
+          />
+          Full Stack Program
+        </div>
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
@@ -252,4 +260,3 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event,   dataScience
 };
 
 export default Form;
- 
