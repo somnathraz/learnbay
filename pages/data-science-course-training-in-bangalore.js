@@ -37,7 +37,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Science Course in Bangalore | Data Science Training in Bangalore
+        Data Science Course in Bangalore | Data Scientist Training Bangalore
         </title>
         <meta
           name="description"
@@ -427,12 +427,12 @@ export default function Home() {
         <FirstSection
           dataScience={true}
           deskTopPara="Foundational and Advanced Data Science Courses"
-          spanTitleText="with Domain Specialization"
-          spanMTitleText="Domain Specialization"
-          mTitle="Data Science Course in Bangalore with"
+          spanTitleText="Bangalore"
+          spanMTitleText="Bangalore"
+          mTitle="Data Science Course in"
           mTopPara="Foundational and Advanced Data Science Courses"
-          title="Data Science Course in Bangalore"
-          desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Data Science Training in Bangalore on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+          title="Data Science Course in"
+          desc="Get Industry-accredited Data Science Training in Bangalore on utilizing your existing domain knowledge in the data science field via fresh industrial capstones. Acquire the weight of an experienced candidate even at your first data science job with this data science course in bangalore."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
