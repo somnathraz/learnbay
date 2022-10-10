@@ -116,7 +116,7 @@ const CourseFee = ({
                   <AiOutlineBars className={styles.icon} />
                   <b>Batch Type</b>
                 </p>
-                <p className={styles.list}>Weekend Batch (Sat-Sun)</p>
+                {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
                 <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
                 <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
               </div>
@@ -127,7 +127,7 @@ const CourseFee = ({
                   <MdDateRange className={styles.icon} />
                   <b>Date</b>
                 </p>
-                <p className={styles.list}>9th October 2022</p>
+                {/* <p className={styles.list}>9th October 2022</p> */}
                 <p className={styles.list}>14th October 2022</p>
                 <p className={styles.list}>14th October 2022</p>
               </div>
@@ -138,7 +138,7 @@ const CourseFee = ({
                   <BiTimeFive className={styles.icon} />
                   <b>Time</b>
                 </p>
-                <p className={styles.list}>08:30 AM to 12 PM</p>
+                {/* <p className={styles.list}>08:30 AM to 12 PM</p> */}
                 <p className={styles.list}>8 AM to 10 AM</p>
                 <p className={styles.list}>8 PM to 10 PM</p>
                 

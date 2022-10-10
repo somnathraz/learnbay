@@ -326,10 +326,10 @@ export default function Home() {
  }
  },{
   "@type": "Question",
- "name": "What is a Job or 100% money back Guarantee?",
+ "name": "What is an interview guarantee feature?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. Note: Terms and conditions applied."
+ "text": "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed."
  }
  },{
   "@type": "Question",

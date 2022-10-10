@@ -227,12 +227,12 @@ const CourseReview = () => {
                   </p>
                 </div>
                 <div className={styles.cIcon}>
-                  <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon-review.png"
-                    width="99"
-                    height="30"
+                <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/themath.png"
+                    width="640"
+                    height="93"
                     layout="intrinsic"
-                                  alt="Learnbay data science course"
+                    alt="amazon"
                   />
                 </div>
               </div>
@@ -393,7 +393,7 @@ const CourseReview = () => {
                 </div>
                 <div className={styles.cIcon}>
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon-review.png"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ags.png"
                     width="99"
                     height="30"
                     layout="intrinsic"
