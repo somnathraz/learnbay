@@ -203,10 +203,13 @@ export const AdvancejobFaqDataM = [
   {
     id: 1,
     ques: "How long will I get support for job assistance at Learnbay in Mumbai?",
-    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
-
-    What is a job-readiness program?
-    The Job readiness program helps you prepare for interviews which include:
+    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+    {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `The Job readiness program helps you prepare for interviews which include:
     Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
@@ -214,14 +217,14 @@ export const AdvancejobFaqDataM = [
     open: false,
   },
   {
-    id: 2,
+    id: 3,
     ques: "Will I get job referrals at Learnbay?",
     ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
     open: false,
   },
   {
-    id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    id: 4,
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note:`,
     linkText1: " Terms and conditions ",
@@ -526,7 +529,7 @@ export const ArtificialjobFaqDataM = [
   },
   {
     id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note:  `,
     linkText1: " Terms and conditions ",
@@ -1419,10 +1422,13 @@ export const AdvancejobFaqDataH = [
   {
     id: 1,
     ques: "How long will I get support for job assistance at Learnbay in Hyderabad?",
-    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
-
-    What is a job-readiness program?
-    The Job readiness program helps you prepare for interviews which include:
+    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+    {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `The Job readiness program helps you prepare for interviews which include:
     Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
@@ -1430,14 +1436,14 @@ export const AdvancejobFaqDataH = [
     open: false,
   },
   {
-    id: 2,
+    id: 3,
     ques: "Will I get job referrals at Learnbay?",
     ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
     open: false,
   },
   {
-    id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    id: 4,
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: Terms and conditions applied`,
     open: false,
@@ -1739,7 +1745,7 @@ export const ArtificialjobFaqDataH = [
   },
   {
     id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: `,
     linkText1: " Terms and conditions ",
@@ -2625,13 +2631,16 @@ export const AdvancejobFaqDataB = [
    Worked and successfully completed the minimum recommended number of real-time projects.`,
     open: true,
   },
-  {
+    {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay in Bangalore?",
-    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
-
-    What is a job-readiness program?
-    The Job readiness program helps you prepare for interviews which include:
+    ques: "How long will I get support for job assistance at Learnbay in Mumbai?",
+    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+    {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `The Job readiness program helps you prepare for interviews which include:
     Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
@@ -2639,16 +2648,20 @@ export const AdvancejobFaqDataB = [
     open: false,
   },
   {
-    id: 2,
+    id: 3,
     ques: "Will I get job referrals at Learnbay?",
     ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
     open: false,
   },
   {
-    id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    id: 4,
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: Terms and conditions applied`,
+    Note:`,
+    linkText1: " Terms and conditions ",
+    link1: "/terms-conditions",
+    ansAfter: "applied.",
+    link: true,
     open: false,
   },
 ];
@@ -2938,7 +2951,7 @@ export const ArtificialjobFaqDataB = [
   },
   {
     id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: `,
     linkText1: " Terms and conditions ",
@@ -3832,11 +3845,13 @@ export const AdvancejobFaqDataC = [
   },
   {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay in Chennai?",
-    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
-
-    What is a job-readiness program?
-    The Job readiness program helps you prepare for interviews which include:
+    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+    {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `The Job readiness program helps you prepare for interviews which include:
     Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
@@ -3844,14 +3859,14 @@ export const AdvancejobFaqDataC = [
     open: false,
   },
   {
-    id: 2,
+    id: 3,
     ques: "Will I get job referrals at Learnbay?",
     ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
     open: false,
   },
   {
-    id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    id: 4,
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: Terms and conditions applied`,
     open: false,
@@ -4151,7 +4166,7 @@ export const ArtificialjobFaqDataC = [
   },
   {
     id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note:`,
     linkText1: " Terms and conditions ",
@@ -5045,10 +5060,13 @@ export const AdvancejobFaqDataCa = [
   {
     id: 1,
     ques: "How long will I get support for job assistance at Learnbay in Canada?",
-    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
-
-    What is a job-readiness program?
-    The Job readiness program helps you prepare for interviews which include:
+    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+    {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `The Job readiness program helps you prepare for interviews which include:
     Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
@@ -5056,14 +5074,14 @@ export const AdvancejobFaqDataCa = [
     open: false,
   },
   {
-    id: 2,
+    id: 3,
     ques: "Will I get job referrals at Learnbay?",
     ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
     open: false,
   },
   {
-    id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    id: 4,
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: Terms and conditions applied`,
     open: false,
@@ -5364,7 +5382,7 @@ export const ArtificialjobFaqDataCa = [
   },
   {
     id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: `,
     linkText1: " Terms and conditions ",
@@ -6260,10 +6278,13 @@ export const AdvancejobFaqDataD = [
   {
     id: 1,
     ques: "How long will I get support for job assistance at Learnbay in Delhi?",
-    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
-
-    What is a job-readiness program?
-    The Job readiness program helps you prepare for interviews which include:
+    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+    {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `The Job readiness program helps you prepare for interviews which include:
     Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
@@ -6271,14 +6292,14 @@ export const AdvancejobFaqDataD = [
     open: false,
   },
   {
-    id: 2,
+    id: 3,
     ques: "Will I get job referrals at Learnbay?",
     ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
     open: false,
   },
   {
-    id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    id: 4,
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: Terms and conditions applied`,
     open: false,
@@ -6579,7 +6600,7 @@ export const ArtificialjobFaqDataD = [
   },
   {
     id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: `,
     linkText1: " Terms and conditions ",
@@ -7477,10 +7498,13 @@ export const AdvancejobFaqDataDu = [
   {
     id: 1,
     ques: "How long will I get support for job assistance at Learnbay in Dubai?",
-    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
-
-    What is a job-readiness program?
-    The Job readiness program helps you prepare for interviews which include:
+    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+    {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `The Job readiness program helps you prepare for interviews which include:
     Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
@@ -7488,14 +7512,14 @@ export const AdvancejobFaqDataDu = [
     open: false,
   },
   {
-    id: 2,
+    id: 3,
     ques: "Will I get job referrals at Learnbay?",
     ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
     open: false,
   },
   {
-    id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    id: 4,
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: Terms and conditions applied`,
     open: false,
@@ -7795,7 +7819,7 @@ export const ArtificialjobFaqDataDu = [
   },
   {
     id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. Note: `,
     linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
@@ -8691,10 +8715,13 @@ export const AdvancejobFaqDataP = [
   {
     id: 1,
     ques: "How long will I get support for job assistance at Learnbay in Pune?",
-    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
-
-    What is a job-readiness program?
-    The Job readiness program helps you prepare for interviews which include:
+    ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+    open: false,
+  },
+    {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `The Job readiness program helps you prepare for interviews which include:
     Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
@@ -8702,14 +8729,14 @@ export const AdvancejobFaqDataP = [
     open: false,
   },
   {
-    id: 2,
+    id: 3,
     ques: "Will I get job referrals at Learnbay?",
     ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
     open: false,
   },
   {
-    id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    id: 4,
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: Terms and conditions applied`,
     open: false,
@@ -9011,7 +9038,7 @@ export const ArtificialjobFaqDataP = [
   },
   {
     id: 3,
-    ques: "What is a Job or 100% money back Guarantee?",
+    ques: "What is an interview guarantee feature?",
     ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
     Note: `,
     linkText1: " Terms and conditions ",

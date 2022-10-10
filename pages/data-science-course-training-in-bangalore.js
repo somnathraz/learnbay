@@ -37,11 +37,11 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-        Data Science Course in Bangalore | Data Scientist Training Bangalore
+          Data Science Course in Bangalore | Data Scientist Training Bangalore
         </title>
         <meta
           name="description"
-          content="Data Science Course in Bangalore. Learnbay is Advanced Data Science Training Course Institute in Bangalore with 100% job placement Guarantee"
+          content="Best Data Science Courses in Bangalore. Learnbay is the Best Data Scientist Certification Course Training Institute in Bangalore with 100% Placement assistance and offers an advanced data scientist training in Bangalore."
         />
         <meta
           name="Keywords"
@@ -67,6 +67,21 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
+        <meta property="og:url" content="https://www.learnbay.co/data-science-course-training-in-bangalore"/>
+<meta property="og:title" content="Data Science Course in Bangalore | Data Scientist Training In Bangalore - Learnbay"/>
+<meta property="og:site_name" content="learnbay.co"/>
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="Best Data Science Courses in Bangalore. Learnbay is the Best Data Scientist Certification Course Training Institute in Bangalore with 100% Placement assistance and offers an advanced data scientist training in Bangalore."/>
+<meta property="og:image" content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"/>
+<meta property="og:image:height" content="100"/>
+<meta property="og:image:width" content="256"/>
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@Learnbay" />
+<meta name="twitter:title" content="Data Science Course in Bangalore | Data Scientist Training In Bangalore - Learnbay"/>
+<meta name="twitter:creator" content="@Learnbay"/>
+<meta itemprop="description" content="Best Data Science Courses in Bangalore. Learnbay is the Best Data Scientist Certification Course Training Institute in Bangalore with 100% Placement assistance and offers an advanced data scientist training in Bangalore."/>
+<meta name="twitter:description" content="Best Data Science Courses in Bangalore. Learnbay is the Best Data Scientist Certification Course Training Institute in Bangalore with 100% Placement assistance and offers an advanced data scientist training in Bangalore."/>
+<meta name="twitter:image" content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"/>
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -314,7 +329,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is a Job or 100% money back Guarantee?",
+ "name": "What is an interview guarantee feature?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "n case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. Note: Terms and conditions applied"
