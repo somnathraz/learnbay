@@ -22,7 +22,7 @@ const ThankYou = () => {
         />
         <meta name="description" content="Thank you!" />
       </Head>
-      <Navbar popup={true} dataScience={true} />
+      <Navbar popup={true} dataScience={true} radio={true}/>
       <section className={styles.mains}>
         <div className={styles.Back}>
           <h4>

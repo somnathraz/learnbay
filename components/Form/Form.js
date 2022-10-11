@@ -226,6 +226,7 @@ const Form = ({
               />
             </div>
           </div> */}
+          {radio ? (
         <div className={popup ? styles.formWrappers : styles.formWrapper}>
           <input
             id="Data Science Program"
@@ -247,6 +248,9 @@ const Form = ({
           />
           Full Stack Program
         </div>
+        ) : (
+          ""
+        )}
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
