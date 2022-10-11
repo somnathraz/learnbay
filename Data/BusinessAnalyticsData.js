@@ -4,13 +4,13 @@ export const BusinessAnalyticsCourseData = [
       deskTopPara: "Certification course for professionals",
       mTopPara: "Certification course for professionals",
       title: "Advance Data Science & AI with",
-      spanTitleText: "100% Job guarantee program",
+      spanTitleText: "100% job assistance program",
       desc: "Learn from mentors in live online classes. Work on Advance data science projects directly with companies and get real work       experience.",
     },
     ProgramInfo: {
       BatchDate: "5 August 2022",
       BatchDuration: "09 Months",
-      Placement: "100% Job Guarantee",
+      Placement: "100% job assistance",
     },
     BoxShape: {
       title: "Why Join this Programme?",
@@ -20,9 +20,9 @@ export const BusinessAnalyticsCourseData = [
       Box2h5: "Build Your Own Course",
       box2desc:
         " Build personalized learning tracks to cater to your professional background and career goals.",
-      Box3h5: "100% Job Guarantee",
+      Box3h5: "100% job assistance",
       box3desc:
-        " Get 100% job guarantee in top companies and startups. Also, receive guidance on resume building and interview.",
+        " Get 100% job assistance in top companies and startups. Also, receive guidance on resume building and interview.",
       Box4h5: "For Professionals",
       box4desc:
         "This Advanced Data Science and AI course is for professionals. Programming experience is not required.",
@@ -41,16 +41,16 @@ export const BusinessAnalyticsCourseData = [
       CertificateT: " Get real work experience from companies",
       CertificateD:
         "Work as a data scientist on live projects directly with companies to gain real work experience.",
-      JobT: "100% job guarantee or money back",
-      JobD: " Our program seeks to eliminate financial risk in the upskilling journey with our Job guarantee.",
+      JobT: "100% job assistance",
+      JobD: " Our program seeks to eliminate financial risk in the upskilling journey with our 100% job assistance.",
     },
     Certificate: {
       popupHead: "Download Data science Brochure",
       title: "Get Certificate directly from AI companies",
-      desc: "Get 100% job guarantee and real-work experience by learning from the best data science institute in India and crack interviews with confidence.",
+      desc: "Get 100% job assistance and real-work experience by learning from the best data science institute in India and crack interviews with confidence.",
     },
     RealWork: {
-      desc: "Our Advanced Data science and AI course with 100% job guarantee follows a project-based learning approach. Further, it       focuses on helping learners build relevant experience in the technologies to land your super dream job.",
+      desc: "Our Advanced Data science and AI course with 100% job assistance follows a project-based learning approach. Further, it       focuses on helping learners build relevant experience in the technologies to land your super dream job.",
     },
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
@@ -249,7 +249,7 @@ export const BusinessAnalyticsCourseData = [
       ProPrice: "₹ 89,000 + GST",
       ProDesc: " Get data science training with real work Experience",
       ProMaxPrice: "₹ 1,30,000 + GST",
-      ProMaxDesc: " Get data science training with 100% Job Guarantee",
+      ProMaxDesc: " Get data science training with 100% job assistance",
     },
     BatchDetails: {
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
@@ -263,7 +263,7 @@ export const BusinessAnalyticsCourseData = [
       weekDayBatch: "true",
     },
     FAQ: {
-      desc: "Learn from experts in live-interactive classes under Advanced data science and AI course with 100% job guarantee.",
+      desc: "Learn from experts in live-interactive classes under Advanced data science and AI course with 100% job assistance.",
     },
   },
 ];

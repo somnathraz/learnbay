@@ -1563,7 +1563,7 @@ export const PaymentFaqData8 = [
   {
     id: 0,
     ques: "What is the total Fee for the full-stack Web Development program?",
-    ans: "The total program fee for this course will depend on which package you choose. This course comes with two different packages , Without Job Guarantee:  INR 75,000 + GST,    With Job Guarantee: INR 1,20,000 + GST.",
+    ans: "The total program fee for this course will depend on which package you choose. This course comes with two different packages , Without 100% job assistance:  INR 75,000 + GST,    With 100% job assistance: INR 1,20,000 + GST.",
 
     open: true,
   },
@@ -1674,14 +1674,8 @@ export const jobFaqData8 = [
   },
   {
     id: 4,
-    ques: "What is Job or 100% moneyback Guarantee?",
-    ans: "If you don’t get a job within 18 months of your course completion, we will initiate a full refund of your course fees.    But for that, you must enroll in the full-stack web development course with a job guarantee.",
-    open: false,
-  },
-  {
-    id: 5,
-    ques: "What is the difference between ‘with’ and ‘without’ job guarantee programs in regard to job assistance?",
-    ans: "Both courses contain dedicated job assistance sessions. But it is the ‘with job guarantee’ subscription. You can claim a 100% refund of the course fees if you remain unable to secure a web developer or relevant job role within a given period after the course completion.   In the case of the ‘without job guarantee program,’ there is no money-back policy.",
+    ques: "What is an interview guarantee feature?",
+    ans: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
     open: false,
   },
 ];
@@ -1902,14 +1896,8 @@ export const jobFaqData9 = [
   },
   {
     id: 4,
-    ques: "What is Job or 100% moneyback Guarantee?",
-    ans: "If you don’t get a job within 18 months of your course completion, we will initiate a full refund of your course fees.But for that, you must enroll in the advanced software development course with a job guarantee.",
-    open: false,
-  },
-  {
-    id: 5,
-    ques: "What is the difference between ‘with’ and ‘without’ job guarantee programs in regard to job assistance?",
-    ans: "Both courses contain dedicated job assistance sessions. But it is the ‘with job guarantee’ subscription. You can claim a 100% refund of the course fees if you remain unable to secure a software developer or relevant job role within a given period after the course completion. In the case of the ‘without job guarantee program,’ there is no money-back policy.Note: In both cases, you get job referrals and interview calls are guaranteed. ",
+    ques: "What is an interview guarantee feature?",
+    ans: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
     open: false,
   },
 ];

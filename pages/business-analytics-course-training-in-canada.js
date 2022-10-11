@@ -195,7 +195,7 @@ export default function Home() {
  "name": "How can I opt for a Hybrid mode of learning?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions. Note: This Money back guarantee policy is only specific to “Job Guarantee or Money Back | Data Science & AI Certification Course”"
+ "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions. Note: This 100% job assistance policy is only specific to “100% job assistance | Data Science & AI Certification Course”"
  }
  },{
  "@type": "Question",

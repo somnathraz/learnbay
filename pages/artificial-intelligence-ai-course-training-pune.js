@@ -438,8 +438,8 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="IBM Certified AI training With Domain Specialization and Job Guarantee"
-          mTopPara="IBM Certified AI training With Domain Specialization and Job Guarantee"
+          deskTopPara="IBM Certified AI training With Domain Specialization and 100% job assistance"
+          mTopPara="IBM Certified AI training With Domain Specialization and 100% job assistance"
           title="Artificial Intelligence (AI) Course Training in Pune"
           mTitle="Artificial Intelligence (AI) Course Training in Pune"
           spanTitleText=" For Managers and Leaders"
@@ -501,7 +501,7 @@ export default function Home() {
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course3="Artificial Intelligence and Machine Learning Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with Job Guarantee or Money back"
+              Course5="AI and Data Science Course with 100% job assistance"
               DomainHead1="Why is domain specialization crucial while Learning Artificial intelligence courses training in Pune?"
               DomainBot1="Artificial intelligence is a very broad concept, and it has a lot of sub-sets under it. Domain specialization in Artificial intelligence makes students an expert using AI tools within a particular industry. This is why Learnbay provides a list of the Domain for students to choose from. Learnbay covers almost all domains from manufacturing to logistics, from banking to the oil and gas sector. We know that every industry needs different requirements and has different best practices for handling data or building AI software."
               DomainBot2="Learnbay mentors and guides analyze candidates' profiles and accordingly suggest respective domains to students. Presently, recruiters are not much interested in which University certificate you hold. Rather they are madly concerned about your domain expertise. A normally certified  AI expert with finance domain knowledge gets a better candidature score than a master's degree holder in AI without a finance background in Banking."

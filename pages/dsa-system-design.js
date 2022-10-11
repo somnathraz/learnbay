@@ -38,17 +38,29 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Structure Algorithms (DSA) & System Design Course - Learnbay</title>
-        <meta name="description" content="Data Structure Algorithms (DSA) & System Design Course. Learnbay provide Data Structure Algorithms (DSA) & System Design Course which help you to enhance you skills." />
+        <title>
+          Data Structure Algorithms (DSA) & System Design Course - Learnbay
+        </title>
+        <meta
+          name="description"
+          content="Data Structure Algorithms (DSA) & System Design Course. Learnbay provide Data Structure Algorithms (DSA) & System Design Course which help you to enhance you skills."
+        />
         <meta
           name="Keywords"
           content="Data Structure Algorithms (DSA) & System Design Course, Data Structure Algorithms course, System Design Course, Data Structure course"
         />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <link rel="canonical" href="https://www.learnbay.co/dsa-system-design" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/dsa-system-design"
+        />
       </Head>
-      <main>  <Navbar popup={true} fullStack={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} fullStack={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -59,7 +71,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection fullStack={true}
+        <FirstSection
+          fullStack={true}
           deskTopPara="Data Structures Algorithms & System Design"
           mTopPara="Data Structures Algorithms & System Design"
           mTitle="Data Structures & Algorithms"
@@ -95,12 +108,13 @@ export default function Home() {
             Box3h5="Practical Project Experience"
             box3desc="Gain technical expertise by working on challenging real-world projects"
             Box4h5="250+ Hiring Partners"
-            box4desc="Get dedicated placement support with 100% Interview Guarantee"
+            box4desc="Get dedicated placement support with 100% job assistance"
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseDataDSA} />
         <CourseReview />
-        <SyllabusNew fullStack={true}
+        <SyllabusNew
+          fullStack={true}
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
           popupHead={DsaCourseData[0].popupHead}
@@ -112,7 +126,9 @@ export default function Home() {
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+ Projects" domain="7+" />
         </div>
-        <CourseFee fullStack={true} timeFsd={true}
+        <CourseFee
+          fullStack={true}
+          timeFsd={true}
           CourseFeeHead="Data Structures Algorithms & System Design: Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
@@ -131,9 +147,9 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData8}
           SupportFaqDatas={SupportFaqData8}
         /> */}
-                <LearnSupport FsdNumber={true} />
-              <OfferPopup offer={true}/>
-        <Footer FsdNumber={true}/>
+        <LearnSupport FsdNumber={true} />
+        <OfferPopup offer={true} />
+        <Footer FsdNumber={true} />
       </main>
     </div>
   );
