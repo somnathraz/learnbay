@@ -206,7 +206,7 @@ export const AdvancejobFaqDataM = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
-    {
+  {
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `The Job readiness program helps you prepare for interviews which include:
@@ -225,12 +225,7 @@ export const AdvancejobFaqDataM = [
   {
     id: 4,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note:`,
-    linkText1: " Terms and conditions ",
-    link1: "/terms-conditions",
-    ansAfter: "applied.",
-    link: true,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
     open: false,
   },
 ];
@@ -530,8 +525,7 @@ export const ArtificialjobFaqDataM = [
   {
     id: 3,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note:  `,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.  `,
     linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
@@ -1425,7 +1419,7 @@ export const AdvancejobFaqDataH = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
-    {
+  {
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `The Job readiness program helps you prepare for interviews which include:
@@ -1444,8 +1438,7 @@ export const AdvancejobFaqDataH = [
   {
     id: 4,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: Terms and conditions applied`,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
     open: false,
   },
 ];
@@ -1746,8 +1739,7 @@ export const ArtificialjobFaqDataH = [
   {
     id: 3,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: `,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. `,
     linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
@@ -2631,13 +2623,13 @@ export const AdvancejobFaqDataB = [
    Worked and successfully completed the minimum recommended number of real-time projects.`,
     open: true,
   },
-    {
+  {
     id: 1,
-    ques: "How long will I get support for job assistance at Learnbay in Mumbai?",
+    ques: "How long will I get support for job assistance at Learnbay in Bangalore?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
-    {
+  {
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `The Job readiness program helps you prepare for interviews which include:
@@ -2656,12 +2648,7 @@ export const AdvancejobFaqDataB = [
   {
     id: 4,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note:`,
-    linkText1: " Terms and conditions ",
-    link1: "/terms-conditions",
-    ansAfter: "applied.",
-    link: true,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
     open: false,
   },
 ];
@@ -2952,8 +2939,7 @@ export const ArtificialjobFaqDataB = [
   {
     id: 3,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: `,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. `,
     linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
@@ -3848,7 +3834,7 @@ export const AdvancejobFaqDataC = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
-    {
+  {
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `The Job readiness program helps you prepare for interviews which include:
@@ -3867,8 +3853,7 @@ export const AdvancejobFaqDataC = [
   {
     id: 4,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: Terms and conditions applied`,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
     open: false,
   },
 ];
@@ -4167,8 +4152,7 @@ export const ArtificialjobFaqDataC = [
   {
     id: 3,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note:`,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
     linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
@@ -5063,7 +5047,7 @@ export const AdvancejobFaqDataCa = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
-    {
+  {
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `The Job readiness program helps you prepare for interviews which include:
@@ -5082,8 +5066,7 @@ export const AdvancejobFaqDataCa = [
   {
     id: 4,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: Terms and conditions applied`,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
     open: false,
   },
 ];
@@ -5383,8 +5366,7 @@ export const ArtificialjobFaqDataCa = [
   {
     id: 3,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: `,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. `,
     linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
@@ -6281,7 +6263,7 @@ export const AdvancejobFaqDataD = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
-    {
+  {
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `The Job readiness program helps you prepare for interviews which include:
@@ -6300,8 +6282,7 @@ export const AdvancejobFaqDataD = [
   {
     id: 4,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: Terms and conditions applied`,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
     open: false,
   },
 ];
@@ -6601,8 +6582,7 @@ export const ArtificialjobFaqDataD = [
   {
     id: 3,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: `,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. `,
     linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
@@ -7501,7 +7481,7 @@ export const AdvancejobFaqDataDu = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
-    {
+  {
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `The Job readiness program helps you prepare for interviews which include:
@@ -7520,8 +7500,7 @@ export const AdvancejobFaqDataDu = [
   {
     id: 4,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: Terms and conditions applied`,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
     open: false,
   },
 ];
@@ -8718,7 +8697,7 @@ export const AdvancejobFaqDataP = [
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
-    {
+  {
     id: 2,
     ques: "What is a job-readiness program?",
     ans: `The Job readiness program helps you prepare for interviews which include:
@@ -8737,8 +8716,7 @@ export const AdvancejobFaqDataP = [
   {
     id: 4,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: Terms and conditions applied`,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
     open: false,
   },
 ];
@@ -9039,8 +9017,7 @@ export const ArtificialjobFaqDataP = [
   {
     id: 3,
     ques: "What is an interview guarantee feature?",
-    ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. 
-    Note: `,
+    ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. `,
     linkText1: " Terms and conditions ",
     link1: "/terms-conditions ",
     ansAfter: "applied.",
