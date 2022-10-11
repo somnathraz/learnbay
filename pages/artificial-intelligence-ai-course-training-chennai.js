@@ -504,7 +504,7 @@ export default function Home() {
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course3="Artificial Intelligence and Machine Learning Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with Job Guarantee or Money back"
+              Course5="AI and Data Science Course with 100% job assistance"
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Domain specialization is all about focusing your efforts on one specific area to help you stand out in a crowded artificial intelligence job marketplace. Besides, Domain expertise is the key secret to being a successful artificial intelligence developer. The role of artificial intelligence experts or application developers is very diverse; hence they must possess deep knowledge and domain expertise in artificial intelligence applications and the latest AI and ML tools. This is why you should consider domain-specialized AI and ML courses to get your desired job."
               DomainBot3="At Learnbay, you’ll have the following domain electives:"

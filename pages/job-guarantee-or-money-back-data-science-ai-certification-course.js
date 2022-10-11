@@ -43,10 +43,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Science and AI Program with 100% Job Guarantee</title>
+        <title>Data Science and AI Program with 100% job assistance</title>
         <meta
           name="description"
-          content="Data Science and AI Program with 100% Job Guarantee"
+          content="Data Science and AI Program with 100% job assistance"
         />
         <link
           rel="canonical"

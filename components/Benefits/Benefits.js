@@ -67,7 +67,7 @@ const Benefits = () => {
                 skills.
               </li>
               <li>Access to Learnbay’s alumni job portal.</li>
-              <li>100% Interview guarantee with 250+ hiring partners.</li>
+              <li>100% job assistance with 250+ hiring partners.</li>
               <li>Get prepared with profile building and mock interviews.</li>
             </div>
           ) : (
@@ -76,8 +76,7 @@ const Benefits = () => {
           {industry ? (
             <div className={styles.listDetail}>
               <li>
-                Understand the art of industry-specific data science
-                terms.
+                Understand the art of industry-specific data science terms.
               </li>
               <li>Earn IBM certificate for industry capstone projects.</li>
               <li>
@@ -92,7 +91,9 @@ const Benefits = () => {
           )}
         </div>
         <div className={styles.BenRightWrap}>
-          <a href="https://youtu.be/2lAy7DmacdI" target="_blank"><AiFillPlayCircle className={styles.Play} /></a>
+          <a href="https://youtu.be/2lAy7DmacdI" target="_blank">
+            <AiFillPlayCircle className={styles.Play} />
+          </a>
         </div>
       </div>
     </div>

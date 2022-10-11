@@ -509,7 +509,7 @@ export default function Home() {
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course3="Artificial Intelligence and Machine Learning Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with Job Guarantee or Money back"
+              Course5="AI and Data Science Course with 100% job assistance"
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Domain-focused Artificial intelligence courses are the ultimate key to AI career success today. Domain specialization plays an important role in the artificial intelligence workplace. Since the things you learn can be diverse, it helps you concentrate on one area so the AI solutions can be applied with the most of its efficacy and processing power to that specific field."
               DomainBot2="Such kind of domain-focused learning speeds up the learning progress and improves the accuracy of the production of an AI application/solution. Moreover, it's impossible to provide proper solutions without domain knowledge, so we have our AI learning modules based on domain knowledge to teach our students accordingly."

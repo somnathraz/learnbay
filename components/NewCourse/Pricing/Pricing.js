@@ -42,7 +42,7 @@ function Pricing() {
               <span>Capstone Projects</span>
               <span>Domain training</span>
               <span>Project Certification</span>
-              <span>Job Guarantee</span>
+              <span>100% job assistance</span>
             </div>
             <div className="rightP">
               <span>Basic</span>
@@ -89,7 +89,9 @@ function Pricing() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-      <p className="pTop" style={{textAlign:"center"}} >Get to know in detail about</p>
+      <p className="pTop" style={{ textAlign: "center" }}>
+        Get to know in detail about
+      </p>
       <h4 style={{ marginBottom: "20px" }}>
         Full Stack Software Development Program
       </h4>
@@ -130,7 +132,7 @@ function Pricing() {
         <div className={styles.PricingBox}>
           <p className={styles.pTop}>Pro Max</p>
           <p className={styles.Price}>₹ 1,35,000 + GST</p>
-          <p className={styles.Course}>100% Job Guarantee</p>
+          <p className={styles.Course}>100% job assistance</p>
           <div>
             <p>Feature:</p>
             <p className={styles.pricingList}>

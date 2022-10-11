@@ -500,7 +500,7 @@ export default function Home() {
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course3="Artificial Intelligence and Machine Learning Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with Job Guarantee or Money back"
+              Course5="AI and Data Science Course with 100% job assistance"
               DomainHead1="What type of difficulties can you face if you opt for an Artificial intelligence certification without domain expertise?"
               DomainBot1="Domain specialization focuses on learners' efforts in a single area of expertise, allowing you to stand out in the competitive Artificial Intelligence job market. In addition, Domain experience is required to become a competent Artificial Intelligence professional. Artificial Intelligence experts and application developers are responsible for various tasks. As a result, to provide the most profitable Artificial Intelligence-powered solution, they must have extensive knowledge of specific business operations."
               DomainBot3="In fact, the lack of domain-oriented AI skills is the biggest cause of the scenario: huge numbers of certified data scientists are still jobless- while industries are still having tons of relevant vacancies. No matter which type of AI certificate you own, the absence of the ability to amalgamate domain knowledge and data science skill- leads to random rejection by recruiters. Especially in a mid to senior-level role is not at all possible in such a case. Students should choose domain-specific AI courses to live their dream job. Domain Electives for students at Learnbay:"
