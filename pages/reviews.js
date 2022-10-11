@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="canonical" href="https://www.learnbay.co/reviews" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
+      <main>  <Navbar popup={true} dataScience={true} radio={true}/>
 
         <Review />
         <div className={styles.Button} style={{marginBottom:"70px"}}>

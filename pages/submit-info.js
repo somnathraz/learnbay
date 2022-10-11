@@ -15,11 +15,11 @@ const sumbit = () => {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/submit-info" />
       </Head>
-      <Navbar popup={true} />
+      <Navbar popup={true} radio={true}/>
       <div className={styles.Wrapper}>
       <div className={styles.left}>
         <h6>Apply For Counselling</h6>
-        <Form   dataScience={true}/>
+        <Form   dataScience={true} radio={true}/>
       </div>
       <div className={styles.right}>
         <Image

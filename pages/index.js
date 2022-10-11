@@ -18,19 +18,30 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learnbay - Advance Data Science Course With IBM Certification</title>
-        <meta name="description" content="Advance data science course with IBM certification. Learnbay is advanced data science course training institute in India. Enrol in our data science course to enhance your career" />
+        <title>
+          Learnbay - Advance Data Science Course With IBM Certification
+        </title>
+        <meta
+          name="description"
+          content="Advance data science course with IBM certification. Learnbay is advanced data science course training institute in India. Enrol in our data science course to enhance your career"
+        />
         <link rel="canonical" href="https://www.learnbay.co/" />
-<meta name="Keywords" content="data science course, data science training , data science institute in India, best data science institute, data scientist course ,data scientist certification, data science training institute , advanced data science course , data science course with placement guarantee, data science course with IBM certification" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <meta
+          name="Keywords"
+          content="data science course, data science training , data science institute in India, best data science institute, data scientist course ,data scientist certification, data science training institute , advanced data science course , data science course with placement guarantee, data science course with IBM certification"
+        />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
       </Head>
-      <Navbar popup={true}   dataScience={true} />
-      <FirstSection popup={true} dataScience={true} />
+      <Navbar popup={true} dataScience={true} radio={true} />
+      <FirstSection popup={true} dataScience={true} radio={true}/>
       <div className={styles.boxWrap}>
         <h2>Get Certified & Move Towards Your Dream Job</h2>
         <p className={styles.boxp}>
-          Our Domain Specialisation and Industry Certified Capstone Projects helps you to
-          make your past work experience relevant
+          Our Domain Specialisation and Industry Certified Capstone Projects
+          helps you to make your past work experience relevant
         </p>
         <div className={styles.boxShape}>
           <BoxShape />
@@ -44,10 +55,9 @@ export default function Home() {
       <FormSection dataScience={true} />
       <Switch />
       <CareerImpactHome />
-              <LearnSupport />
-        <OfferPopup offer={false} />                      
-        <Footer />
+      <LearnSupport />
+      <OfferPopup offer={false} />
+      <Footer />
     </div>
   );
 }
-
