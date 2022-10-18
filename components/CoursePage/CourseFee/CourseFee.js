@@ -75,8 +75,8 @@ const CourseFee = ({
                   <b>Batch Type</b>
                 </p>
                 {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
-                <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
                 <p className={styles.list}>Weekend Evening (Sat-Sun)</p>
+                <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
               </div>
             </div>
             <div>
@@ -86,8 +86,8 @@ const CourseFee = ({
                   <b>Date</b>
                 </p>
                 {/* <p className={styles.list}>4th September 2022</p> */}
-                <p className={styles.list}>15th October 2022</p>
-                <p className={styles.list}>22nd October 2022</p>
+                <p className={styles.list}>29th October 2022</p>
+                <p className={styles.list}>31st October 2022</p>
               </div>
             </div>
             <div>
@@ -97,8 +97,9 @@ const CourseFee = ({
                   <b>Time</b>
                 </p>
                 {/* <p className={styles.list}>8 AM to 12 PM</p> */}
-                <p className={styles.list}>08:30 AM to 12 PM</p>
                 <p className={styles.list}>12:30 PM to 4 PM</p>
+                <p className={styles.list}>7:30 AM to 9:30 AM</p>
+
               </div>
             </div>
             <div className={styles.btnWrapper}>
@@ -117,8 +118,8 @@ const CourseFee = ({
                   <b>Batch Type</b>
                 </p>
                 {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
-                <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
-                <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
+                <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
+                <p className={styles.list}>Weekend Afternoon (Sat-Sun)</p>
               </div>
             </div>
             <div>
@@ -128,8 +129,8 @@ const CourseFee = ({
                   <b>Date</b>
                 </p>
                 {/* <p className={styles.list}>9th October 2022</p> */}
-                <p className={styles.list}>14th October 2022</p>
-                <p className={styles.list}>14th October 2022</p>
+                <p className={styles.list}>21st October 2022</p>
+                <p className={styles.list}>30th October 2022</p>
               </div>
             </div>
             <div>
@@ -139,8 +140,8 @@ const CourseFee = ({
                   <b>Time</b>
                 </p>
                 {/* <p className={styles.list}>08:30 AM to 12 PM</p> */}
-                <p className={styles.list}>8 AM to 10 AM</p>
                 <p className={styles.list}>8 PM to 10 PM</p>
+                <p className={styles.list}>12:30 PM to 4 PM</p>
                 
               </div>
             </div>
