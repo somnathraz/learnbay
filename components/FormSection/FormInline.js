@@ -103,6 +103,19 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
     return currentDate.getTime() < selectedDate.getTime();
   };
 
+  const [mobile, setMobile] = useState(false);
+
+  useEffect(() => {
+    let width = window.innerWidth;
+
+    if (width < 481) {
+      setMobile(true);
+    }
+    if (width > 481) {
+      setMobile(false);
+    }
+  }, [mobile]);
+
   return (
     <div className={styles.App}>
       <form onSubmit={formSubmit}>
@@ -212,25 +225,54 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
         </div> */}
         {radio ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          { mobile ? (
+            <div>
             <input
               id="Data Science Program"
-              value="Data Science Program"
+              value="Data Science Courses"
               name="platform"
               required
               type="radio"
               onChange={handleParam()}
             />
-            Data Science Program&nbsp;
-            <input
+            Data Science Courses&nbsp;
+            {mobile ? (<br />) : ("")}<input
               id="Full Stack Program"
-              value="Full Stack Program"
+              value="Full Stack Software Dev Courses"
               name="platform"
               required
               type="radio"
               onChange={handleParam()}
             />
-            Full Stack Program
-          </div>
+            Full stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) courses
+            </div>
+            ):(
+              <>
+              <div className={styles.dsCourseInp}>
+              <input
+                id="Data Science Program"
+                value="Data Science Courses"
+                name="platform"
+                required
+                type="radio"
+                onChange={handleParam()}
+              />
+              Data Science Courses&nbsp;
+            </div>
+            <div className={styles.fsdCourseInp}>
+              <input
+                id="Full Stack Program"
+                value="Full Stack Software Dev Courses"
+                name="platform"
+                required
+                type="radio"
+                onChange={handleParam()}
+              />
+              Full stack Software Dev (DSA & System Design) courses
+            </div>
+            </>
+              )}
+        </div>
         ) : (
           ""
         )}
