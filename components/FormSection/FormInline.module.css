@@ -113,7 +113,6 @@
 
 .date::-webkit-search-cancel-button,
 .date::-webkit-clear-button {
-  -webkit-appearance: none;
   background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/date.png");
   color: #0d4a9b;
   cursor: pointer;
@@ -142,7 +141,6 @@
 
 .tme::-webkit-search-cancel-button,
 .time::-webkit-clear-button {
-  -webkit-appearance: none;
   background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/time.png");
   color: #0d4a9b;
   cursor: pointer;
@@ -208,6 +206,15 @@
   outline: 1px solid #0487d9;
 }
 
+.dsCourseInp{
+  text-align: left;
+  margin-left: 65px;
+}
+.fsdCourseInp{
+  text-align: left;
+  margin-left: 65px;
+}
+
 @media (max-width: 600px) {
 
 .formGrid {
@@ -217,6 +224,10 @@
 
 .formWrappers {
   width: 100%;
+}
+
+.formWrapper {
+  text-align: left;
 }
   
 }

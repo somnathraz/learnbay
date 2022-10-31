@@ -228,26 +228,26 @@ const Form = ({
           </div> */}
           {radio ? (
         <div className={popup ? styles.formWrappers : styles.formWrapper}>
-          <input
-            id="Data Science Program"
-            value="Data Science Program"
-            name="platform"
-            required
-            type="radio"
-            onChange={handleParam()}
-          />
-          Data Science Program&nbsp;
-          <br />
-          <input
-            id="Full Stack Program"
-            value="Full Stack Program"
-            name="platform"
-            required
-            type="radio"
-            onChange={handleParam()}
-          />
-          Full Stack Program
-        </div>
+        <input
+          id="Data Science Program"
+          value="Data Science Courses"
+          name="platform"
+          required
+          type="radio"
+          onChange={handleParam()}
+        />
+        Data Science Courses&nbsp;
+
+        <br /><input
+          id="Full Stack Program"
+          value="Full Stack Software Dev Courses"
+          name="platform"
+          required
+          type="radio"
+          onChange={handleParam()}
+        />
+        Full stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) courses
+      </div>
         ) : (
           ""
         )}
