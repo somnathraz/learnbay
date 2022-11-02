@@ -1111,16 +1111,16 @@ export const jobFaqData5 = [
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
     open: false,
   },
-  // {
-  //   id: 4,
-  //   ques: "What is job or 100% moneyback Gurantee?",
-  //   ans: "If you don’t get a job within 18 months of your course completion, we will initiate a full refund of your course fees. ",
-  //   linkText1: " Terms and conditions ",
-  //   link1: "/terms-conditions-job",
-  //   ansAfter: "applied.",
-  //   link: true,
-  //   open: false,
-  // },
+  {
+    id: 4,
+    ques: "What is job or 100% moneyback Gurantee?",
+    ans: "If you don’t get a job within 18 months of your course completion, we will initiate a full refund of your course fees. ",
+    linkText1: " Terms and conditions ",
+    link1: "/terms-conditions-job",
+    ansAfter: "applied.",
+    link: true,
+    open: false,
+  },
 ];
 export const MentorshipFaqData5 = [
   {
@@ -1563,14 +1563,14 @@ export const PaymentFaqData8 = [
   {
     id: 0,
     ques: "What is the total Fee for the full-stack Web Development program?",
-    ans: "The total program fee for this course will depend on which package you choose. This course comes with two different packages , Without 100% job assistance:  INR 75,000 + GST,    With 100% job assistance: INR 1,20,000 + GST.",
+    ans: "The total program fee for this course is INR 85,000 + GST.",
 
     open: true,
   },
   {
     id: 1,
     ques: "Can I pay in installments for this Full-stack Web Development program?",
-    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR 11,800/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
+    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR 8400/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -1588,16 +1588,16 @@ Group Discount is applicable only if you’re joining with your friends.
 Max 10% discount: Groupe of 4+`,
     open: false,
   },
-  {
-    id: 3,
-    ques: "What is the refund policy for the Full-stack Web Development course?",
-    ans: "Candidates are advised to read  ",
-    linkText1: "Learnbay’s Refund/Cancellation Policy",
-    link1: "/refund-cancellation-policy",
-    ansAfter: " before enrolling in the program.",
-    link: true,
-    open: false,
-  },
+  // {
+  //   id: 3,
+  //   ques: "What is the refund policy for the Full-stack Web Development course?",
+  //   ans: "Candidates are advised to read  ",
+  //   linkText1: "Learnbay’s Refund/Cancellation Policy",
+  //   link1: "/refund-cancellation-policy",
+  //   ansAfter: " before enrolling in the program.",
+  //   link: true,
+  //   open: false,
+  // },
 ];
 export const CapstoneFaqData8 = [
   {
