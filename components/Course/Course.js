@@ -155,7 +155,7 @@ const Course = () => {
                   })}
                 </Swiper>
               </div>
-              <h5>Full Stack (2) </h5>
+              <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
@@ -334,7 +334,7 @@ const Course = () => {
           </span>
           {Stack ? (
             <div className={styles.mPanel}>
-              <h5>Full Stack (2) </h5>
+              <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
@@ -656,7 +656,7 @@ const Course = () => {
                   })}
                 </Swiper>
               </div>
-              <h5>Full Stack (2) </h5>
+              <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
@@ -805,7 +805,7 @@ const Course = () => {
                   })}
                 </Swiper>
               </div>
-              <h5>Full Stack (2) </h5>
+              <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1 : 3}
@@ -952,7 +952,7 @@ const Course = () => {
                   })}
                 </Swiper>
               </div>
-              <h5>Full Stack (2) </h5>
+              <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
@@ -1174,7 +1174,7 @@ const Course = () => {
                   })}
                 </Swiper>
               </div>
-              {/* <h5>Full Stack (1) </h5>
+              <h5>Full Stack (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
@@ -1242,14 +1242,14 @@ const Course = () => {
                     );
                   })}
                 </Swiper>
-              </div> */}
+              </div>
             </>
           ) : (
             ""
           )}
           {Stack ? (
             <>
-              <h5>Full Stack (2) </h5>
+              <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}

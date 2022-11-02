@@ -105,21 +105,21 @@ export const viewAllD = [
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
   },
-  // {
-  //   id: 8,
-  //   img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
-  //   title: "Full-Stack Web",
-  //   title1: "Development Program",
-  //   tag: "Full stack",
-  //   para: [
-  //     "300 hours of Interactive Learning",
-  //     "12 Projects + 2 Capstones",
-  //     "Course Fee : ₹ 1,20,000 + GST",
-  //   ],
-  //   link1: "/full-stack-web-development-program",
-  //   link2:
-  //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
-  // },
+  {
+    id: 8,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
+    title: "Full-Stack Web",
+    title1: "Development Program",
+    tag: "Full stack",
+    para: [
+      "300 hours of Interactive Learning",
+      "12 Projects + 2 Capstones",
+      "Course Fee : ₹ 1,20,000 + GST",
+    ],
+    link1: "/full-stack-web-development-program",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
+  },
   {
     id: 9,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-developer-course.webp",
@@ -212,21 +212,21 @@ export const ForProgrammersD = [
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
   },
-  // {
-  //   id: 5,
-  //   img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
-  //   title: "Full-Stack Web ",
-  //   tag: "Full stack",
-  //   title1: "Development Program",
-  //   para: [
-  //     "300 hours of Interactive Learning",
-  //     "12 Projects + 2 Capstones",
-  //     "Course Fee : ₹1,20,000 + GST",
-  //   ],
-  //   link1: "/full-stack-web-development-program",
-  //   link2:
-  //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
-  // },
+  {
+    id: 5,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
+    title: "Full-Stack Web ",
+    tag: "Full stack",
+    title1: "Development Program",
+    para: [
+      "300 hours of Interactive Learning",
+      "12 Projects + 2 Capstones",
+      "Course Fee : ₹1,20,000 + GST",
+    ],
+    link1: "/full-stack-web-development-program",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
+  },
   {
     id: 6,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp",
@@ -383,38 +383,38 @@ export const JobGuaranteeD = [
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
-  // {
-  //   id: 2,
-  //   img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
-  //   title: "Full-Stack Web ",
-  //   title1: "Development Program",
-  //   tag: "Full stack",
-  //   para: [
-  //     "300 hours of Interactive Learning",
-  //     "12 Projects + 2 Capstones",
-  //     "Course Fee : ₹ 1,20,000 + GST",
-  //   ],
-  //   link1: "/full-stack-web-development-program",
-  //   link2:
-  //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
-  // },
+  {
+    id: 2,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
+    title: "Full-Stack Web ",
+    title1: "Development Program",
+    tag: "Full stack",
+    para: [
+      "300 hours of Interactive Learning",
+      "12 Projects + 2 Capstones",
+      "Course Fee : ₹ 1,20,000 + GST",
+    ],
+    link1: "/full-stack-web-development-program",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
+  },
 ];
 export const StackD = [
-  // {
-  //   id: 1,
-  //   img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
-  //   title: "Full-Stack Web ",
-  //   title1: "Development Program",
-  //   tag: "Full stack",
-  //   para: [
-  //     "300 hours of Interactive Learning",
-  //     "12 Projects + 2 Capstones",
-  //     "Course Fee : ₹ 1,20,000 + GST",
-  //   ],
-  //   link1: "/full-stack-web-development-program",
-  //   link2:
-  //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
-  // },
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
+    title: "Full-Stack Web ",
+    title1: "Development Program",
+    tag: "Full stack",
+    para: [
+      "300 hours of Interactive Learning",
+      "12 Projects + 2 Capstones",
+      "Course Fee : ₹ 1,20,000 + GST",
+    ],
+    link1: "/full-stack-web-development-program",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
+  },
   {
     id: 2,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-developer-course.webp",

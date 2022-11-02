@@ -1,0 +1,233 @@
+.App {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+.formWrapper {
+  margin-bottom: 10px;
+  width: 80%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+.formWrappers {
+  margin-bottom: 10px;
+  width: 80%;
+  height: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.NameInput {
+  border-radius: 2px;
+  border: 0;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
+  outline: none;
+  background-color: rgba(255, 255, 255);
+  height: 50px;
+}
+.NameInputs {
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid grey;
+  outline: none;
+  background-color: rgba(255, 255, 255);
+  height: 50px;
+}
+.EmailInput {
+  border-radius: 2px;
+  border: 0;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  outline: none;
+  background-color: rgba(255, 255, 255);
+  height: 50px;
+}
+.EmailInputs {
+  border-radius: 8px;
+
+  width: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+  outline: none;
+  background-color: rgba(255, 255, 255);
+  height: 50px;
+}
+
+.NameInput::placeholder,
+.NameInputs::placeholder,
+.EmailInput::placeholder,
+.EmailInputs::placeholder {
+  color: rgb(168, 168, 168);
+  font-size: 16px;
+}
+.NameInput:active,
+.EmailInput:active {
+  border: 2px solid white;
+}
+
+.Phone input,
+.Phones input {
+  border: 0;
+  width: 100%;
+  outline: none;
+  background-color: rgba(255, 255, 255);
+}
+.Phone input::placeholder,
+.Phones input::placeholder {
+  color: rgb(167, 167, 167);
+  font-size: 16px;
+}
+
+.formWrapper select {
+  height: 50px;
+  width: 100%;
+  border-radius: 2px;
+  border: 0;
+  border-bottom: 1px solid grey;
+  font-size: 16px;
+  padding-left: 10px;
+  color: rgb(167, 167, 167);
+  outline: none;
+}
+.formWrapper select option {
+  color: black;
+  width: 100%;
+  border: 0;
+  background-color: #e7f4ff;
+}
+.FormText {
+  color: grey;
+  font-size: 8px;
+  text-align: center;
+}
+.formWrapper select::placeholder {
+  color: rgb(167, 167, 167);
+  font-size: 12px;
+}
+
+.formWrappers select {
+  height: 50px;
+  width: 100%;
+  border-radius: 8px;
+
+  border: 1px solid grey;
+  font-size: 16px;
+  padding: 10px;
+  color: rgb(167, 167, 167);
+  outline: none;
+}
+.formWrappers select::placeholder {
+  color: rgb(167, 167, 167);
+  font-size: 12px;
+}
+.formWrappers select option {
+  color: black;
+  width: 100%;
+  border: 0;
+  background-color: #e7f4ff;
+}
+.DateFormWrappers .date {
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  color: rgb(167, 167, 167);
+  font-size: 12px;
+}
+
+.date::-webkit-search-cancel-button,
+.date::-webkit-clear-button {
+  -webkit-appearance: none;
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/date.png");
+  color: #0d4a9b;
+  cursor: pointer;
+  height: 1.5rem;
+  margin-right: 0;
+  width: 1.5rem;
+}
+
+.date::-webkit-calendar-picker-indicator {
+  color: #0d4a9b;
+  opacity: 1;
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/date.png");
+  width: 23px;
+  height: 18px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+.DateFormWrappers .time {
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  color: rgb(167, 167, 167);
+  font-size: 12px;
+}
+
+.tme::-webkit-search-cancel-button,
+.time::-webkit-clear-button {
+  -webkit-appearance: none;
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/time.png");
+  color: #0d4a9b;
+  cursor: pointer;
+  height: 1.5rem;
+  margin-right: 0;
+  width: 1.5rem;
+}
+
+.time::-webkit-time-picker-indicator {
+  color: #0d4a9b;
+  opacity: 1;
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/time.png");
+  width: 23px;
+  height: 18px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.button {
+  width: 80%;
+  padding: 10px 25px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.App form {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.DateFormWrappers {
+  margin-bottom: 10px;
+  width: 80%;
+  height: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: column;
+}
+.inner {
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: 100%;
+  gap: 10px;
+}
+.date input {
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  color: rgb(167, 167, 167);
+  font-size: 16px;
+}
+.date input:focus-visible {
+  outline: 1px solid #0487d9;
+}
