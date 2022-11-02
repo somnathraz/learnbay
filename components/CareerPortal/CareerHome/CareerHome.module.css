@@ -1,0 +1,436 @@
+.Back {
+  background-color: #f4fcfe;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 59% 39%;
+  align-items: center;
+  margin: auto;
+  padding: 0px 100px;
+}
+
+.about {
+  margin: 70px 0px 0px 0px;
+
+  padding: 0px;
+}
+
+.MVDiv {
+  padding: 30px 100px;
+}
+
+.about h4 {
+  font-size: 36px;
+  font-weight: 800;
+  padding-right: 120px;
+}
+.about h4 span {
+  color: white;
+  background-color: #edb552;
+  padding: 5px;
+}
+
+.divList p {
+  margin: 0px;
+}
+
+.FirstDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.CDDiv {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  text-align: left;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.MiddleDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.CDMDiv {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  text-align: left;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.CDText {
+  padding: 70px;
+}
+
+.CDText h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.PBot {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.FirstImg {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+  background-position: center;
+}
+
+.CDImg {
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mission.png");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+
+  background-position: center;
+}
+
+.MiddleImg {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+
+  background-position: center;
+}
+
+.CDMImg {
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vision.png");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  background-position: center;
+}
+
+.FirstText {
+  padding: 50px;
+  padding-top: 0px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FirstText h3 {
+  font-size: 30px;
+  color: #000;
+}
+
+.DivIcon {
+  display: flex;
+  margin-top: 30px;
+}
+
+.BoxIconuser {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #0072bc;
+  border-radius: 10px;
+}
+
+.BoxIconcompress {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #edb552;
+  border-radius: 10px;
+}
+
+.BoxIconclone {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #edb552;
+  border-radius: 10px;
+}
+
+.BoxIconcard {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #0072bc;
+  border-radius: 10px;
+}
+
+.iconBox p {
+  margin: 5px;
+}
+
+.OurJourney {
+  text-align: center;
+  padding: 0px 100px;
+}
+
+.Placement {
+  text-align: center;
+  padding: 70px 100px;
+}
+
+.OurJourneyDiv {
+  padding: 20px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+}
+
+.OurPlacementDiv {
+  padding: 30px 50px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+}
+
+.iconBoxP {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.BoxIcon {
+  background-color: #2d97d7;
+  color: #fff;
+  font-size: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.list {
+  font-size: 18px;
+  font-weight: 500;
+  width: fit-content;
+  margin: auto;
+  border: 1px solid;
+  padding: 5px 30px;
+  margin-bottom: 20px;
+}
+
+.textStyle {
+  font-size: 24px;
+  color: #2d97d7;
+}
+
+.iconBoxInner {
+  margin: 10px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+}
+
+.OurJourney h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.Placement h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.Team {
+  padding: 0px 100px;
+  text-align: center;
+}
+
+.Team h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.TeamM {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-top: 50px;
+}
+
+.leftSide {
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  padding: 20px;
+  margin: 10px;
+}
+
+.TeamImg {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.para {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 500;
+  color: #fff;
+  padding-right: 50px;
+}
+
+.culture {
+  background-color: #0072bc;
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.head {
+  font-size: 30px;
+  color: #fff;
+}
+
+.img3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .Back {
+    height: 100%;
+    text-align: left;
+    padding: 100px 20px 30px 20px;
+    display: block;
+  }
+
+  .about {
+    margin: 20px 0px;
+  }
+
+  .about h4 {
+    font-size: 24px;
+    text-align: left;
+    padding: 0;
+  }
+
+  .FirstDiv {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .OurJourney {
+    padding: 20px;
+  }
+
+  .OurJourneyDiv {
+    padding: 10px;
+  }
+
+  .MiddleDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .FirstImg {
+    height: 350px;
+  }
+
+  .MiddleImg {
+    height: 350px;
+    width: 100%;
+  }
+
+  .FirstText {
+    padding: 20px;
+  }
+
+  .MVDiv {
+    padding: 20px;
+  }
+
+  .Placement {
+    padding: 20px;
+  }
+  .Placement h3 {
+    font-size: 24px;
+  }
+  .iconBoxP {
+    display: block;
+  }
+  .OurPlacementDiv {
+    padding: 10px;
+  }
+  .CDDiv {
+    display: block;
+    margin: 0;
+  }
+  .CDImg {
+    height: 350px;
+  }
+  .CDText {
+    padding: 30px 0px;
+  }
+  .FirstText h3 {
+    font-size: 24px;
+  }
+  .OurJourney h3 {
+    font-size: 24px;
+  }
+  .culture {
+    padding: 50px 20px;
+    display: block;
+  }
+  
+  .head {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  .img3 {
+    display: block;
+    flex-direction: row;
+  }
+  
+  .img1 {
+    display: block;
+    flex-direction: row;
+  }
+  
+  .img {
+    display: block;
+    align-items: center;
+  }
+  .para {
+    font-size: 18px;
+    margin: 0;
+    padding-right: 0px;
+  }
+
+  .about {
+    margin-bottom: 0;
+  }
+}

@@ -9,7 +9,7 @@ import Form from "../Form/Form";
 import { useRouter } from "next/router";
 import Tabs from "../Tabs/Tabs";
 
-const Navbar = ({ radio, event, dataScience, fullStack}) => {
+const Navbar = ({ radio, event, dataScience, fullStack }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -46,7 +46,13 @@ const Navbar = ({ radio, event, dataScience, fullStack}) => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} radio={radio} fullStack={fullStack} dataScience={dataScience} />
+          <Form
+            popup={true}
+            setTrigger={setPopups}
+            radio={radio}
+            fullStack={fullStack}
+            dataScience={dataScience}
+          />
         </div>
       </Popup>
       <nav className={styles.nav}>
@@ -61,105 +67,104 @@ const Navbar = ({ radio, event, dataScience, fullStack}) => {
 
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
-            {event ? (
-            <>
-            <span>
-                <Link href="#Feature">Program Features</Link>
-              </span>
+              {event ? (
+                <>
+                  <span>
+                    <Link href="#Feature">Program Features</Link>
+                  </span>
 
-              <span>
-                <Link href="#trainer">Trainer Details</Link>
-              </span>
-              <span>
-                <Link href="#About">Learn About</Link>
-              </span>
-              </>
-          ) : (
-            <>
-              {" "}
-              <span onClick={showMenu}>
-                <Link href="/">Home</Link>
-              </span>
-              <span onClick={showMenu}>
-                <Link href="/about-us">About Us</Link>
-              </span>
-              <span onClick={showMenu}>
-                <Link href="/demo">Demo</Link>
-              </span>
-
-              <span onClick={showMenu}>
-                <Link href="https://blog.learnbay.co/">Blog</Link> 
-              </span>
-
-              <span onClick={showMenu}>
-                <Link href="/contact-us">Contact Us</Link>
-              </span>
-              </>
-          )}
+                  <span>
+                    <Link href="#trainer">Trainer Details</Link>
+                  </span>
+                  <span>
+                    <Link href="#About">Learn About</Link>
+                  </span>
+                </>
+              ) : (
+                <>
+                  {" "}
+                  <span onClick={showMenu}>
+                    <Link href="/">Home</Link>
+                  </span>
+                  <span onClick={showMenu}>
+                    <Link href="/about-us">About Us</Link>
+                  </span>
+                  <span onClick={showMenu}>
+                    <Link href="/demo">Demo</Link>
+                  </span>
+                  <span onClick={showMenu}>
+                    <Link href="https://blog.learnbay.co/">Blog</Link>
+                  </span>
+                  <span onClick={showMenu}>
+                    <Link href="/contact-us">Contact Us</Link>
+                  </span>
+                  {/* <span onClick={showMenu}>
+                    <Link href="/career-portal">Career</Link>
+                  </span> */}
+                </>
+              )}
             </div>
           </div>
           {event ? (
             <>
-            <a href="#">
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
-              alt="Learnbay"
-              quality={100}
-              objectFit="contain"
-              width={mobile ? "180" : "230"}
-              height="60px"
-            />
-          </a>
-              </>
+              <a href="#">
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+                  alt="Learnbay"
+                  quality={100}
+                  objectFit="contain"
+                  width={mobile ? "180" : "230"}
+                  height="60px"
+                />
+              </a>
+            </>
           ) : (
             <>
               {" "}
               <a href="/">
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
-              alt="Learnbay"
-              quality={100}
-              objectFit="contain"
-              width={mobile ? "180" : "230"}
-              height="60px"
-            />
-          </a>
-          </>
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+                  alt="Learnbay"
+                  quality={100}
+                  objectFit="contain"
+                  width={mobile ? "180" : "230"}
+                  height="60px"
+                />
+              </a>
+            </>
           )}
           {event ? (
-            <>
-              </>
+            <></>
           ) : (
             <>
               {" "}
-          {mobile ? (
-            <button
-              onClick={() => {
-                setIcon(!icon);
-                setShow(false);
-              }}
-              className="hoverBtn"
-            >
-              Courses
-              {icon ? <FaChevronUp /> : <FaChevronDown />}
-            </button>
-          ) : (
-            <button
-              onMouseEnter={() => setIcon(true)}
-              onMouseOver={() => setIcon(true)}
-              onClick={() => {
-                setIcon(!icon);
-                setShow(false);
-              }}
-              className="hoverBtn"
-            >
-              Courses
-              {icon ? <FaChevronUp /> : <FaChevronDown />}
-            </button>
+              {mobile ? (
+                <button
+                  onClick={() => {
+                    setIcon(!icon);
+                    setShow(false);
+                  }}
+                  className="hoverBtn"
+                >
+                  Courses
+                  {icon ? <FaChevronUp /> : <FaChevronDown />}
+                </button>
+              ) : (
+                <button
+                  onMouseEnter={() => setIcon(true)}
+                  onMouseOver={() => setIcon(true)}
+                  onClick={() => {
+                    setIcon(!icon);
+                    setShow(false);
+                  }}
+                  className="hoverBtn"
+                >
+                  Courses
+                  {icon ? <FaChevronUp /> : <FaChevronDown />}
+                </button>
+              )}
+            </>
           )}
-                        </>
-          )}
-          
 
           {icon ? (
             <div
@@ -174,9 +179,9 @@ const Navbar = ({ radio, event, dataScience, fullStack}) => {
           )}
         </div>
         <div className={styles.right}>
-        {event ? (
+          {event ? (
             <>
-            <span>
+              <span>
                 <Link href="#Feature">Program Features</Link>
               </span>
 
@@ -186,33 +191,33 @@ const Navbar = ({ radio, event, dataScience, fullStack}) => {
               <span>
                 <Link href="#About">Learn About</Link>
               </span>
-              </>
+            </>
           ) : (
             <>
               {" "}
-          <span>
-            <Link href="/">Home</Link>
-          </span>
-          <span>
-            <Link href="/about-us">About Us</Link>
-          </span>
-          <span>
-            <Link href="/demo">Demo</Link>
-          </span>
-
-          <span>
-            <Link href="https://blog.learnbay.co/">Blog</Link>
-          </span>
-
-          <span>
-            <Link href="/contact-us">Contact Us</Link>
-          </span>
-
-          <button onClick={popupShow} className="outLineBtn">
-            Apply For Counselling
-            <FaArrowRight className={styles.icon} />
-          </button>
-          </>
+              <span>
+                <Link href="/">Home</Link>
+              </span>
+              <span>
+                <Link href="/about-us">About Us</Link>
+              </span>
+              <span>
+                <Link href="/demo">Demo</Link>
+              </span>
+              <span>
+                <Link href="https://blog.learnbay.co/">Blog</Link>
+              </span>
+              <span>
+                <Link href="/contact-us">Contact Us</Link>
+              </span>
+              {/* <span>
+                <Link href="/career-portal">Career</Link>
+              </span> */}
+              <button onClick={popupShow} className="outLineBtn">
+                Apply For Counselling
+                <FaArrowRight className={styles.icon} />
+              </button>
+            </>
           )}
           <Popup></Popup>
         </div>

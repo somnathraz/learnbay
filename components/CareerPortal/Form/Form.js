@@ -3,29 +3,18 @@ import styles from "./Form.module.css";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
-import DatePicker from "react-datepicker";
-import setHours from "date-fns/setHours";
-import setMinutes from "date-fns/setMinutes";
-import addDays from "date-fns/addDays";
-import subDays from "date-fns/subDays";
-import getDay from "date-fns/getDay";
 
 const Form = ({
   popup,
   setTrigger,
   downloadBrochure,
-  radio,
   event,
   dataScience,
   fullStack,
 }) => {
   const router = useRouter();
-  let today = new Date();
-  let time =
-    today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
   //offset to maintain time zone difference
-  const [startDate, setStartDate] = useState();
   const [value, setValue] = useState();
   const [query, setQuery] = useState({
     name: "",
@@ -97,16 +86,6 @@ const Form = ({
       router.push("/event/Thank-You-event");
     }
   };
-  const isWeekday = (date) => {
-    const day = getDay(date);
-    return day !== 0;
-  };
-  const filterPassedTime = (time) => {
-    const currentDate = new Date();
-    const selectedDate = new Date(time);
-
-    return currentDate.getTime() < selectedDate.getTime();
-  };
 
   return (
     <div className={styles.App}>
@@ -133,6 +112,25 @@ const Form = ({
             value={query.email}
             onChange={handleParam()}
           />
+        </div>
+        <div className={styles.formWrapper}>
+          <input
+            type="text"
+            name="birthday"
+            className={popup ? styles.NameInputs : styles.NameInput}
+            required
+            placeholder="Enter your Date of Birth"
+            value={query.birthday}
+            style={{ borderBottom: "1px solid grey" }}
+            onChange={handleParam()}
+          />
+        </div>
+        <div className={styles.formWrapper}>
+          <label for="gender">Gender</label>
+          <select name="gender" id="gender" required onChange={handleParam()}>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
         </div>
         <div className={styles.formWrapper}>
           <PhoneInput
@@ -164,93 +162,49 @@ const Form = ({
         <div className={styles.formWrapper}>
           <input
             type="text"
-            name="jobDescription"
-            placeholder="Job Description"
-            className={popup ? styles.EmailInputs : styles.EmailInput}
-            value={query.jobDescription}
+            name="qualification"
+            className={popup ? styles.NameInputs : styles.NameInput}
+            required
+            placeholder="Enter your Qualification"
+            value={query.qualification}
+            style={{ borderBottom: "1px solid grey" }}
             onChange={handleParam()}
           />
         </div>
-        <div className={popup ? styles.formWrappers : styles.formWrapper}>
-          <select
-            name="workExperience"
+        <div className={styles.formWrapper}>
+          <input
+            type="text"
+            name="experience"
+            className={popup ? styles.NameInputs : styles.NameInput}
             required
-            value={query.workExperience}
+            placeholder="Enter your Experience"
+            value={query.experience}
+            style={{ borderBottom: "1px solid grey" }}
             onChange={handleParam()}
-          >
-            <option value="Work Experience">Work Experience</option>
-            <option value="1 to 3 year">Fresher or 0 year</option>
-            <option value="1 to 3 year">1 to 3 years</option>
-            <option value="3 to 7 year">3 to 7 years</option>
-            <option value="7 to 12 year">7 to 12 years</option>
-            <option value="12+ year">12+ years</option>
+          />
+        </div>
+        <div className={styles.formWrapper}>
+          <label for="role">Role Interested in</label>
+          <select name="role" id="role" required onChange={handleParam()}>
+            <option value="Sales">Sales</option>
+            <option value="Operations">Operations</option>
+            <option value="Marketing">Marketing</option>
+            <option value="SEO">SEO</option>
+            <option value="Content Writing">Content Writing</option>
           </select>
         </div>
-        {popup ? (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <input
-              type="hidden"
-              id="url"
-              name="url"
-              value={router.asPath}
-            ></input>
-          </div>
-        ) : (
-          ""
-        )}
-
-        {/* <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <div className={styles.inner}>
-              <DatePicker
-                selected={startDate}
-                name="dateTime"
-                id="dateTime"
-                onChange={(date) => setStartDate(date)}
-                showTimeSelect
-                timeIntervals={15}
-                includeDateIntervals={[
-                  {
-                    start: subDays(new Date(), 1),
-                    end: addDays(new Date(), 5),
-                  },
-                ]}
-                filterDate={isWeekday}
-                filterTime={filterPassedTime}
-                wrapperClassName={styles.date}
-                className={styles.datePicker}
-                placeholderText="Select Date and Time"
-                dateFormat="MMMM d, yyyy h:mm aa"
-                required
-                minTime={setHours(setMinutes(new Date(), 0), 10)}
-                maxTime={setHours(setMinutes(new Date(), 0), 22)}
-              />
-            </div>
-          </div> */}
-          {radio ? (
-        <div className={popup ? styles.formWrappers : styles.formWrapper}>
-        <input
-          id="Data Science Program"
-          value="Data Science Courses"
-          name="platform"
-          required
-          type="radio"
-          onChange={handleParam()}
-        />
-        Data Science Courses&nbsp;
-
-        <br /><input
-          id="Full Stack Program"
-          value="Full Stack Software Dev Courses"
-          name="platform"
-          required
-          type="radio"
-          onChange={handleParam()}
-        />
-        Full Stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
-      </div>
-        ) : (
-          ""
-        )}
+        <div className={styles.formWrapper}>
+          <label for="resume">Upload your Resume</label>
+          <input
+            type="file"
+            name="resume"
+            className={popup ? styles.NameInputs : styles.NameInput}
+            required
+            value={query.resume}
+            style={{ marginTop: "10px" }}
+            onChange={handleParam()}
+          />
+        </div>
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
