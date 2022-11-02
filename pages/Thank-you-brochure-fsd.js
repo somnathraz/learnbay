@@ -12,11 +12,17 @@ const ThankYou = () => {
     <div className={styles.main}>
       <Head>
         <title>Thank you!</title>
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <link rel="canonical" href="https://www.learnbay.co/Thank-you-brochure-fsd" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/Thank-you-brochure-fsd"
+        />
         <meta name="description" content="Thank you!" />
       </Head>
-      <Navbar popup={true} fullStack={true} radio={true}/>
+      <Navbar popup={true} fullStack={true} radio={true} />
       <section className={styles.mains}>
         <div className={styles.Back}>
           <h4>
@@ -34,7 +40,7 @@ const ThankYou = () => {
           </div>
         </div>
       </section>
-      <section className={styles.mains}  style={{ marginBottom: "50px" }}>
+      <section className={styles.mains} style={{ marginBottom: "50px" }}>
         <div className={styles.right}>
           {/* <div>
             <Image
