@@ -19,8 +19,10 @@ function CareerHome() {
   return (
     <section className={styles.about}>
       <div className={styles.Back}>
+        <div>
+      <p className={styles.pTop}>Career portal</p>
         <h4 style={{ textAlign: "left" }}>
-        Redesign your Work Experience
+        redesigning your <br />work EXPERIENCE
           <Link href="/apply-now">
             <div>
               <button className={styles.btn} style={{ marginTop: "25px" }}>
@@ -29,6 +31,7 @@ function CareerHome() {
             </div>
           </Link>
         </h4>
+        </div>
         <div className={styles.right}>
           <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/about-us.png"

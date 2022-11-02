@@ -25,9 +25,6 @@ const Form = ({
     dateTime: "",
     url: router.asPath,
   });
-  useEffect(() => {
-    setQuery({ ...query, phone: value, dateTime: startDate });
-  }, [value]);
 
   // Update inputs value
   const handleParam = () => (e) => {

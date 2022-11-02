@@ -22,9 +22,18 @@
 }
 
 .about h4 {
-  font-size: 36px;
+  font-size: 50px;
   font-weight: 800;
   padding-right: 120px;
+}
+.pTop {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  margin: 0;
+
+  color: #0072bc;
 }
 .about h4 span {
   color: white;
@@ -325,7 +334,7 @@
   }
 
   .about h4 {
-    font-size: 24px;
+    font-size: 30px;
     text-align: left;
     padding: 0;
   }
