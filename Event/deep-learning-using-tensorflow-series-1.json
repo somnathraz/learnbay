@@ -1,32 +1,32 @@
 {
     "metaInfo": {
-      "title": "Masterclass on MongoDB 6.0 with Industry Expert",
-      "desc": "Enroll in the Data Science Course Event and learn from live classes. Get Knowledge by working on industry projects.",
-      "keyword": "MongoDB 6.0",
-      "canonical": "https://www.learnbay.co/Event/Masterclass-On-MongoDB-6.0"
+      "title": "Deep Learning Using Tensorflow Series 1",
+      "desc": "Enroll in the Data Science course Event and learn from live classes. Get Knowledge by working on industry projects.",
+      "keyword": "Tensorflow",
+      "canonical": "https://www.learnbay.co/Event/deep-learning-using-tensorflow-series-1"
     },
     "mainData": {
-      "title": "Masterclass on MongoDB 6.0 with Industry Expert",
-      "eventDate": "September 24, 2022",
+      "title": "Deep Learning Using Tensorflow Series 1",
+      "eventDate": "September 17, 2022",
       "tag": "Data science",
-      "eventTime": "11 A.M. to 1 P.M.",
+      "eventTime": "9:30 A.M. to 11:30 A.M.",
       "Duration": "120min",
-      "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/MongoDB-08.png",
-      "register": "853"
+      "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/DL+Using+TF+1-09.png",
+      "register": "856"
     },
     "header": {
-      "title": "Masterclass on MongoDB 6.0",
+      "title": "Deep Learning Using Tensorflow Series 1",
       "titleSpan": "With Industry Expert",
-      "desc": "For Professionals with 1+ years Working Exp",
-      "eventDate": "24th to 25th September",
-      "eventTime": "11 A.M. to 1 P.M.",
-      "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Silvia-Mam.png",
-      "register": "853",
+      "desc": "For Professionals with 5+ years Working Exp",
+      "eventDate": "17th to 18th September",
+      "eventTime": "9:30 A.M. to 11:30 A.M.",
+      "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Amritansh-Sir.png",
+      "register": "856",
       "width": "600",
       "height": "560",
       "alt": "Header",
-      "instructor": "Mrs. Sylvia",
-      "href1": "https://youtu.be/0RyuqUadDa4"
+      "instructor": "Mr. Amritansh", 
+      "href1": "https://youtu.be/8e6qzduM7pc"
     },
     "feature": {
       "title": "Data Science Masterclass Features",
@@ -41,26 +41,23 @@
       "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shareable-Certification.png"
     },
     "profile": {
-      "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/1.png",
+      "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/5.png",
       "desc": "Data Scientist",
-      "pName": "Mrs. Sylvia",
+      "pName": "Mr. Amritansh",
  
       "mIcon": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
-      "list1": "4+ years of experience in Big Data",
+      "list1": "8+ years of experience in AI/ML",
       "list2": "2 Open-source contribution"
     },
     "whyUs": {
       "title": "You will learn about",
-      "l1": "Introduction to MongoDB",
-      "l2": "Why NoSQL?",
-      "l3": "Difference between NoSQL & RDBMS",
-      "l4": "Advantages of MongoDB",
-      "l5": "Scalability in MongoDB",
-      "l6": "Understanding JSON documents",
-      "l7": "Exploring MongoDB tools",
-      "l8": "CRUD operations",
-      "l9": "Understanding Indexes",
-      "l10": "Manipulation of complex dynamic data"
+      "l1": "Introduction to AI",
+      "l2": "Difference between machine learning & deep learning",
+      "l3": "Intuition behind Deep learning",
+      "l4": "Tensorflow methodology",
+      "l5": "Deep learning framework",
+      "l6": "Case study on deep learning"
+     
     },
     "whoCan": {
       "title": "This masterclass is for",

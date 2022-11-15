@@ -1,32 +1,33 @@
 {
     "metaInfo": {
-      "title": "Masterclass on MongoDB 6.0 with Industry Expert",
+      "title": "Introduction to NLP",
       "desc": "Enroll in the Data Science Course Event and learn from live classes. Get Knowledge by working on industry projects.",
-      "keyword": "MongoDB 6.0",
-      "canonical": "https://www.learnbay.co/Event/Masterclass-On-MongoDB-6.0"
+      "keyword": "NLP",
+      "canonical": "https://www.learnbay.co/Event/introduction-to-nlp"
     },
     "mainData": {
-      "title": "Masterclass on MongoDB 6.0 with Industry Expert",
-      "eventDate": "September 24, 2022",
+      "title": "Introduction to NLP",
+    "eventDate": "November 5, 2022",
       "tag": "Data science",
       "eventTime": "11 A.M. to 1 P.M.",
       "Duration": "120min",
-      "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/MongoDB-08.png",
-      "register": "853"
+      "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Intro+to+NLP-09.png",
+      "register": "886"
     },
     "header": {
-      "title": "Masterclass on MongoDB 6.0",
+      "title": "Introduction to NLP",
       "titleSpan": "With Industry Expert",
       "desc": "For Professionals with 1+ years Working Exp",
-      "eventDate": "24th to 25th September",
+      "eventDate": "5th to 6th November",
       "eventTime": "11 A.M. to 1 P.M.",
-      "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Silvia-Mam.png",
-      "register": "853",
+      "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Abhishek+Sir-01.png",
+      "register": "886",
       "width": "600",
       "height": "560",
       "alt": "Header",
-      "instructor": "Mrs. Sylvia",
-      "href1": "https://youtu.be/0RyuqUadDa4"
+      "instructor": "Mr. Ashish",
+      "href1": "https://youtu.be/0ygCpnwFkSI"
+      
     },
     "feature": {
       "title": "Data Science Masterclass Features",
@@ -41,26 +42,20 @@
       "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shareable-Certification.png"
     },
     "profile": {
-      "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/1.png",
+      "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Abhishek-Sir.png",
       "desc": "Data Scientist",
-      "pName": "Mrs. Sylvia",
+      "pName": "Mr.Abhishek",
  
       "mIcon": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
-      "list1": "4+ years of experience in Big Data",
+      "list1": "3+ years of experience in Python",
       "list2": "2 Open-source contribution"
     },
     "whyUs": {
       "title": "You will learn about",
-      "l1": "Introduction to MongoDB",
-      "l2": "Why NoSQL?",
-      "l3": "Difference between NoSQL & RDBMS",
-      "l4": "Advantages of MongoDB",
-      "l5": "Scalability in MongoDB",
-      "l6": "Understanding JSON documents",
-      "l7": "Exploring MongoDB tools",
-      "l8": "CRUD operations",
-      "l9": "Understanding Indexes",
-      "l10": "Manipulation of complex dynamic data"
+      "l1": "Introduction to NLP",
+      "l2": "Case study on NLP",
+      "l3": "NLP project overview",
+      "l4": "Interview preparation for NLP"
     },
     "whoCan": {
       "title": "This masterclass is for",
