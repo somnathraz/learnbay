@@ -12,7 +12,7 @@
       "eventTime": "12 P.M. to 2 P.M.",
       "Duration": "120min",
       "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Deep-Analysis-With-SQL.png",
-      "register": "843"
+      "register": "875"
     },
     "header": {
       "title": "Deep Analysis with SQL",
@@ -21,12 +21,12 @@
       "eventDate": "3rd to 4th September",
       "eventTime": "12 P.M. to 2 P.M.",
       "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Nitish-Sir.png",
-      "register": "843",
+      "register": "875",
       "width": "600",
       "height": "560",
       "alt": "Header",
       "instructor": "Mr. Nitish", 
-      "href1": "#"
+      "href1": "https://youtu.be/G3bo5R6QjL4"
     },
     "feature": {
       "title": "Data Science Masterclass Features",
