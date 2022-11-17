@@ -1,27 +1,27 @@
 {
     "metaInfo": {
-      "title": "Introduction to NLP",
+      "title": "Build Data Science Project using Tableau",
       "desc": "Enroll in the Data Science Course Event and learn from live classes. Get Knowledge by working on industry projects.",
       "keyword": "NLP",
-      "canonical": "https://www.learnbay.co/Event/introduction-to-nlp"
+      "canonical": "https://www.learnbay.co/Event/build-data-science-project-using-tableau"
     },
     "mainData": {
-      "title": "Introduction to NLP",
-    "eventDate": "November 5, 2022",
+      "title": "Build Data Science Project using Tableau",
+    "eventDate": "November 26, 2022",
       "tag": "Data science",
       "eventTime": "11 A.M. to 1 P.M.",
       "Duration": "120min",
-      "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Intro+to+NLP-09.png",
-      "register": "886"
+      "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/DS+Project+Using+Tableau-10.png",
+      "register": "868"
     },
     "header": {
-      "title": "Introduction to NLP",
+      "title": "Build Data Science Project using Tableau",
       "titleSpan": "With Industry Expert",
       "desc": "For Professionals with 1+ years Working Exp",
-      "eventDate": "5th to 6th November",
+      "eventDate": "26th to 27th November",
       "eventTime": "11 A.M. to 1 P.M.",
       "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Abhishek+Sir-01.png",
-      "register": "886",
+      "register": "868",
       "width": "600",
       "height": "560",
       "alt": "Header",
@@ -52,10 +52,10 @@
     },
     "whyUs": {
       "title": "You will learn about",
-      "l1": "Introduction to NLP",
-      "l2": "Case study on NLP",
-      "l3": "NLP project overview",
-      "l4": "Interview preparation for NLP"
+      "l1": "Data Preprocessing using Numpy",
+      "l2": "Data Cleaning using Pandas",
+      "l3": "Data Visualization using Tableau",
+      "l4": "Data Visualization using matplotlib"
     },
     "whoCan": {
       "title": "This masterclass is for",

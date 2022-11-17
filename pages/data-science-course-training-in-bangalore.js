@@ -36,13 +36,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Data Science Course in Bangalore | Data Scientist Training Bangalore
-        </title>
-        <meta
-          name="description"
-          content="Best Data Science Courses in Bangalore. Learnbay is the Best Data Scientist Certification Course Training Institute in Bangalore with 100% Placement assistance and offers an advanced data scientist training in Bangalore."
-        />
+      <title>Best Data Science Courses with IBM Certification in India - Learnbay</title>
+      <meta name="description" content="Best data science courses with IBM certification in India. Learnbay is best and advanced data science course training institute in India. Enrol in our online data science course to enhance your career"/>
         <meta
           name="Keywords"
           content="Data Science course in Bangalore, Data Science training in Bangalore, Data Science institute in Bangalore, best Data Science institute in Bangalore, data scientist course in Bangalore, data scientist certification in Bangalore, Data Science training institute in Bangalore, advanced Data Science course in Bangalore, Data Science course with placement guarantee, Data Science course"
@@ -605,7 +600,7 @@ export default function Home() {
               JobBot9="Before acquiring data for analysis, a Data scientist must be sure about a specific problem by asking the right question to understand it better. After this, the Data scientist creates the correct group of variables and data sets.   Data scientists collect structured and unstructured data from different sources like enterprise data, public data, etc.  Now that data is collected, the Data scientist processes raw data, converting it into a format for a specific analysis. It is the cleaning and validating of big data with guarantee, accuracy, and completeness. So after cleaning and validating, the data is in its usable form. This data is transferred to an analytical, ML, or statistical model. Through this, Data scientists can analyze to identify different trends and patterns. As the data is comprehended, Data scientist interrupts data looking for opportunities and solutions. The Data scientist completes the task by presenting results and insights to the proprietor or the stakeholders."
               JobHead6="Skills required to be a Data Scientist in Bangalore?"
               JobBot11="Data scientists require skills in statistics, information service, mathematics, data visualization, data sonification, data integration, graphic designing, and communication."
-              ProjectsBot1="The premium cloud lab element of the IBM Data Analytics course from Learnbay is one of its best features available in Bangalore. There are 5 live MNC project opportunities, which you can access through this cloud lab. These projects are as per the Data analytics skill demand spread across Bangalore City. Below are a few Data Analytics projects Learnbay students in Bangalore already do."
+              ProjectsBot1="Our IBM Data Science course in Bangalore comes with a premium cloud lab feature. You get the chance to experience 12+ live MNC projects by using this cloud lab feature. Such a project will undoubtedly enhance your real-world and hot & happening data science skills. These projects are as per the Data science skill demand spread across Bangalore City. Have a look at the series of data science projects that have already been completed by our students."
               src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png"
               ProjectsH1="Samsung Health Monitor App"
               Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is an accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."

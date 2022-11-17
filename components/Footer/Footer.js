@@ -462,7 +462,7 @@ const Footer = ({FsdNumber}) => {
           </a>
           <a href="/full-stack-software-developer-course-in-dubai">
             <p className={styles.FooterInnerli}>
-              Full-stack software devloper course in Dubai
+              Full-stack software developer course in Dubai
             </p>
           </a>
         </div>
