@@ -36,8 +36,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-      <title>Best Data Science Courses with IBM Certification in India - Learnbay</title>
-      <meta name="description" content="Best data science courses with IBM certification in India. Learnbay is best and advanced data science course training institute in India. Enrol in our online data science course to enhance your career"/>
+        <title>
+          Data Science Course in Bangalore | Data Scientist Training Bangalore
+        </title>
+        <meta
+          name="description"
+          content="Best Data Science Courses in Bangalore. Learnbay is the Best Data Scientist Certification Course Training Institute in Bangalore with 100% Placement assistance and offers an advanced data scientist training in Bangalore."
+        />
         <meta
           name="Keywords"
           content="Data Science course in Bangalore, Data Science training in Bangalore, Data Science institute in Bangalore, best Data Science institute in Bangalore, data scientist course in Bangalore, data scientist certification in Bangalore, Data Science training institute in Bangalore, advanced Data Science course in Bangalore, Data Science course with placement guarantee, Data Science course"
