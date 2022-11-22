@@ -41,13 +41,26 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Full Stack Web Development Course - Learnbay</title>
-<meta name="description" content="Full Stack Web Development Course with IBM certification. Learnbay provide advanced full stack developer course with placement guarantee. Enrol in our full stack web developer course to enhance your career" />
-<meta name="Keywords" content="Full Stack Web Development Course, Full Stack Web Development Course training , Full Stack Web Development Course institute in India, best Full Stack Web Development Course institute, Full Stack Web developer Course ,Full Stack Web developer Course certification, Full Stack Web developer Course training institute , advanced Full Stack Web developer Course , Full Stack Web developer Course with placement guarantee, Full Stack Web developer Course with IBM certification"/>
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <link rel="canonical" href="https://www.learnbay.co/full-stack-web-development-program" />
+        <meta
+          name="description"
+          content="Full Stack Web Development Course with IBM certification. Learnbay provide advanced full stack developer course with placement assistance. Enrol in our full stack web developer course to enhance your career"
+        />
+        <meta
+          name="Keywords"
+          content="Full Stack Web Development Course, Full Stack Web Development Course training , Full Stack Web Development Course institute in India, best Full Stack Web Development Course institute, Full Stack Web developer Course ,Full Stack Web developer Course certification, Full Stack Web developer Course training institute , advanced Full Stack Web developer Course , Full Stack Web developer Course with Placement Assistance, Full Stack Web developer Course with IBM certification"
+        />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/full-stack-web-development-program"
+        />
       </Head>
-      <main>  <Navbar popup={true} fullStack={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} fullStack={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -58,7 +71,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection fullStack={true}
+        <FirstSection
+          fullStack={true}
           deskTopPara="Be a demanding Developer to stay ahead"
           mTopPara="Be a demanding Developer to stay ahead"
           mTitle="Full Stack Web Development Course"
@@ -104,7 +118,8 @@ export default function Home() {
         <DomainFaq FaqData={DomainFaqCourseDataweb} />
         <CourseReview />
         <Certificate />
-        <SyllabusNew fullStack={true}
+        <SyllabusNew
+          fullStack={true}
           syllabus={FullStackWebCourseData[0].syllabus}
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
           popupHead={FullStackWebCourseData[0].popupHead}
@@ -141,7 +156,9 @@ export default function Home() {
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+ Projects" domain="7+" />
         </div>
-        <CourseFee fullStack={true} timeFsd={true}
+        <CourseFee
+          fullStack={true}
+          timeFsd={true}
           CourseFeeHead="Full Stack Web Development Course: Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
@@ -159,9 +176,9 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData8}
           SupportFaqDatas={SupportFaqData8}
         />
-                <LearnSupport FsdNumber={true}/>
-              <OfferPopup offer={true}/>
-        <Footer FsdNumber={true}/>
+        <LearnSupport FsdNumber={true} />
+        <OfferPopup offer={true} />
+        <Footer FsdNumber={true} />
       </main>
     </div>
   );

@@ -47,7 +47,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Full-Stack Software Developer Course in Mumbai, Full-Stack Software Developer Course training in Mumbai, Full-Stack Software Developer Course institute in Mumbai, best Full-Stack Software Developer Course institute in Mumbai, data scientist course in Mumbai,data scientist certification in Mumbai, Full-Stack Software Developer Course training institute in Mumbai, advanced Full-Stack Software Developer Course in Mumbai, Full-Stack Software Developer Course with placement guarantee, Full-Stack Software Developer Course"
+          content="Full-Stack Software Developer Course in Mumbai, Full-Stack Software Developer Course training in Mumbai, Full-Stack Software Developer Course institute in Mumbai, best Full-Stack Software Developer Course institute in Mumbai, data scientist course in Mumbai,data scientist certification in Mumbai, Full-Stack Software Developer Course training institute in Mumbai, advanced Full-Stack Software Developer Course in Mumbai, Full-Stack Software Developer Course with Placement Assistance, Full-Stack Software Developer Course"
         />
         <link
           rel="canonical"

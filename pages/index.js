@@ -18,12 +18,17 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-      <title>Best Data Science Courses with IBM Certification in India - Learnbay</title>
-      <meta name="description" content="Best data science courses with IBM certification in India. Learnbay is best and advanced data science course training institute in India. Enrol in our online data science course to enhance your career"/>
+        <title>
+          Best Data Science Courses with IBM Certification in India - Learnbay
+        </title>
+        <meta
+          name="description"
+          content="Best data science courses with IBM certification in India. Learnbay is best and advanced data science course training institute in India. Enrol in our online data science course to enhance your career"
+        />
         <link rel="canonical" href="https://www.learnbay.co/" />
         <meta
           name="Keywords"
-          content="data science course, data science training , data science institute in India, best data science institute, data scientist course ,data scientist certification, data science training institute , advanced data science course , data science course with placement guarantee, data science course with IBM certification"
+          content="data science course, data science training , data science institute in India, best data science institute, data scientist course ,data scientist certification, data science training institute , advanced data science course , data science course with Placement Assistance, data science course with IBM certification"
         />
         <link
           rel="icon"
@@ -31,7 +36,7 @@ export default function Home() {
         />
       </Head>
       <Navbar popup={true} dataScience={true} radio={true} />
-      <FirstSection popup={true} dataScience={true} radio={true}/>
+      <FirstSection popup={true} dataScience={true} radio={true} />
       <div className={styles.boxWrap}>
         <h2>Get Certified & Move Towards Your Dream Job</h2>
         <p className={styles.boxp}>

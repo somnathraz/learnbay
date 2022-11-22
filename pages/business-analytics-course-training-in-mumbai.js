@@ -45,7 +45,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Business Analytics course in Mumbai, Business Analytics training in Mumbai, Business Analytics institute in Mumbai, best Business Analytics institute in Mumbai, Business Analytics course in Mumbai, Business Analytics certification in Mumbai, Business Analytics training institute in Mumbai, advanced Business Analytics course in Mumbai, Business Analytics course with placement guarantee, Business Analytics course"
+          content="Business Analytics course in Mumbai, Business Analytics training in Mumbai, Business Analytics institute in Mumbai, best Business Analytics institute in Mumbai, Business Analytics course in Mumbai, Business Analytics certification in Mumbai, Business Analytics training institute in Mumbai, advanced Business Analytics course in Mumbai, Business Analytics course with Placement Assistance, Business Analytics course"
         />
         <link
           rel="canonical"

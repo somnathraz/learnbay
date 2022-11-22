@@ -7,7 +7,7 @@ export const AdvanceFaqDataM = [
     linkText1: "Foundational Data Science Training Course, ",
     linkText2: "Advance Data Science Certification Course, ",
     linkText3: "Data Science Certification Course for Managers and Leaders, ",
-    linkText4: "Data Science Training with Job or Money-back Guarantee",
+    linkText4: "Data Science Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -31,13 +31,13 @@ export const AdvanceFaqDataM = [
   {
     id: 3,
     ques: "What is a Flexi Subscription in these advanced data science courses in Mumbai?",
-    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Job or Money-back Guarantee  - 3-years.",
+    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
     open: false,
   },
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Mumbai?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -88,7 +88,7 @@ export const AdvanceDomainFaqDataM = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and AI Training with Job or Money-back Guarantee- All domains
+    Data Science and AI Training with Placement Assistance- All domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
     open: false,
@@ -114,7 +114,7 @@ export const AdvancePaymentFaqDataM = [
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -156,13 +156,13 @@ export const AdvanceCapstoneFaqDataM = [
     Foundational Data Science and AI Training Course - 1 Capstone.
     Advance Data Science and AI Certification Course -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and AI Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and AI Training with Placement Assistance- 3 Capstones.
     How many real-time projects/case studies will be covered in these Data Science certification courses in Mumbai?
     Depending on the course you choose the number of live projects will vary.  
     Foundational Data Science and AI Training course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
+    Data Science and AI Training with Placement Assistance- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -184,7 +184,7 @@ export const AdvanceCertificationFaqDataM = [
     Foundational Data Science and AI Training course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and AI Training with Job or Money-back Guarantee- 1 Course Completion Certificate
+    Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
   },
@@ -273,7 +273,7 @@ export const ArtificialFaqDataM = [
     linkText4:
       "Data Science and AI Certification Course for Managers and Leaders",
     linkText5:
-      " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+      " Data Science and Artificial Intelligence Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -304,7 +304,7 @@ export const ArtificialFaqDataM = [
     Advanced data science and  AI Certification Course- 3 Years
     Machine learning and AI Certification- 3 Years
     Data Science and AI Certification Course for Managers and Leaders- 3 Years 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee - 3-years`,
+    Data Science and Artificial Intelligence Training with Placement Assistance - 3-years`,
     open: false,
   },
   {
@@ -328,7 +328,7 @@ export const ArtificialFaqDataM = [
     Weekday batch - 11 months
     Weekend batch - 13  months
     
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee (380+ hours)
+    Data Science and Artificial Intelligence Training with Placement Assistance (380+ hours)
     Weekday batch - 13 months
     Weekend batch - 15  months`,
     open: false,
@@ -382,7 +382,7 @@ export const ArtificialDomainFaqDataM = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- All domains
+    Data Science and Artificial Intelligence Training with Placement Assistance- All domains
     Machine learning and AI Certification- maximum 4 domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
@@ -409,7 +409,7 @@ export const ArtificialPaymentFaqDataM = [
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -453,7 +453,7 @@ export const ArtificialCapstoneFaqDataM = [
     Foundational Artificial Intelligence Training Course - 1 Capstone.
     Advance Data Science and AI Certification course  -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 3 Capstones.
     Machine learning and AI Certification- 2 Capstones.`,
     open: true,
   },
@@ -464,7 +464,7 @@ export const ArtificialCapstoneFaqDataM = [
     Foundational Data Science and Artificial Intelligence Training Course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
@@ -487,7 +487,7 @@ export const ArtificialCertificationFaqDataM = [
     Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 1 Course Completion Certificates
+    Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
     Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
@@ -1218,7 +1218,7 @@ export const AdvanceFaqDataH = [
     linkText1: "Foundational Data Science Training Course, ",
     linkText2: "Advance Data Science Certification Course, ",
     linkText3: "Data Science Certification Course for Managers and Leaders, ",
-    linkText4: "Data Science Training with Job or Money-back Guarantee",
+    linkText4: "Data Science Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -1242,13 +1242,13 @@ export const AdvanceFaqDataH = [
   {
     id: 3,
     ques: "What is a Flexi Subscription in these advanced data science courses in Hyderabad?",
-    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Job or Money-back Guarantee  - 3-years.",
+    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
     open: false,
   },
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Hyderabad?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -1299,7 +1299,7 @@ export const AdvanceDomainFaqDataH = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and AI Training with Job or Money-back Guarantee- All domains
+    Data Science and AI Training with Placement Assistance- All domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
     open: false,
@@ -1325,7 +1325,7 @@ export const AdvancePaymentFaqDataH = [
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   //check this same <Please check with our sales team to know more>
@@ -1369,13 +1369,13 @@ export const AdvanceCapstoneFaqDataH = [
     Foundational Data Science and AI Training Course - 1 Capstone.
     Advance Data Science and AI Certification Course -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and AI Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and AI Training with Placement Assistance- 3 Capstones.
     How many real-time projects/case studies will be covered in these Data Science certification courses in Hyderabad?
     Depending on the course you choose the number of live projects will vary.  
     Foundational Data Science and AI Training course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
+    Data Science and AI Training with Placement Assistance- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -1397,7 +1397,7 @@ export const AdvanceCertificationFaqDataH = [
     Foundational Data Science and AI Training course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and AI Training with Job or Money-back Guarantee- 1 Course Completion Certificate
+    Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
   },
@@ -1487,7 +1487,7 @@ export const ArtificialFaqDataH = [
     linkText4:
       "Data Science and AI Certification Course for Managers and Leaders",
     linkText5:
-      "Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+      "Data Science and Artificial Intelligence Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -1518,7 +1518,7 @@ export const ArtificialFaqDataH = [
     Advanced data science and  AI Certification Course- 3 Years
     Machine learning and AI Certification- 3 Years
     Data Science and AI Certification Course for Managers and Leaders- 3 Years 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee - 3-years`,
+    Data Science and Artificial Intelligence Training with Placement Assistance - 3-years`,
     open: false,
   },
   {
@@ -1542,7 +1542,7 @@ export const ArtificialFaqDataH = [
     Weekday batch - 11 months
     Weekend batch - 13  months
     
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee (380+ hours)
+    Data Science and Artificial Intelligence Training with Placement Assistance (380+ hours)
     Weekday batch - 13 months
     Weekend batch - 15  months`,
     open: false,
@@ -1595,7 +1595,7 @@ export const ArtificialDomainFaqDataH = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- All domains
+    Data Science and Artificial Intelligence Training with Placement Assistance- All domains
     Machine learning and AI Certification- maximum 4 domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
@@ -1622,7 +1622,7 @@ export const ArtificialPaymentFaqDataH = [
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -1667,7 +1667,7 @@ export const ArtificialCapstoneFaqDataH = [
     Foundational Artificial Intelligence Training Course - 1 Capstone.
     Advance Data Science and AI Certification course  -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 3 Capstones.
     Machine learning and AI Certification- 2 Capstones.`,
     open: true,
   },
@@ -1678,7 +1678,7 @@ export const ArtificialCapstoneFaqDataH = [
     Foundational Data Science and Artificial Intelligence Training Course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
@@ -1701,7 +1701,7 @@ export const ArtificialCertificationFaqDataH = [
     Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 1 Course Completion Certificates
+    Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
     Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
@@ -2429,7 +2429,7 @@ export const AdvanceFaqDataB = [
     linkText1: "Foundational Data Science Training Course, ",
     linkText2: "Advance Data Science Certification Course, ",
     linkText3: "Data Science Certification Course for Managers and Leaders, ",
-    linkText4: "Data Science Training with Job or Money-back Guarantee",
+    linkText4: "Data Science Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -2453,13 +2453,13 @@ export const AdvanceFaqDataB = [
   {
     id: 3,
     ques: "What is a Flexi Subscription in these advanced data science courses in Bangalore?",
-    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Job or Money-back Guarantee  - 3-years.",
+    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
     open: false,
   },
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Bangalore?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -2510,7 +2510,7 @@ export const AdvanceDomainFaqDataB = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and AI Training with Job or Money-back Guarantee- All domains
+    Data Science and AI Training with Placement Assistance- All domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
     open: false,
@@ -2536,7 +2536,7 @@ export const AdvancePaymentFaqDataB = [
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -2579,13 +2579,13 @@ export const AdvanceCapstoneFaqDataB = [
     Foundational Data Science and AI Training Course - 1 Capstone.
     Advance Data Science and AI Certification Course -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and AI Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and AI Training with Placement Assistance- 3 Capstones.
     How many real-time projects/case studies will be covered in these Data Science certification courses in Bangalore?
     Depending on the course you choose the number of live projects will vary.  
     Foundational Data Science and AI Training course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
+    Data Science and AI Training with Placement Assistance- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -2607,7 +2607,7 @@ export const AdvanceCertificationFaqDataB = [
     Foundational Data Science and AI Training course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and AI Training with Job or Money-back Guarantee- 1 Course Completion Certificate
+    Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
   },
@@ -2693,7 +2693,7 @@ export const ArtificialFaqDataB = [
     Advanced data science and AI Certification Course
     Machine learning and AI Certification
     Data Science and AI Certification Course for Managers and Leaders 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee`,
+    Data Science and Artificial Intelligence Training with Placement Assistance`,
     open: true,
   },
   {
@@ -2718,7 +2718,7 @@ export const ArtificialFaqDataB = [
     Advanced data science and  AI Certification Course- 3 Years
     Machine learning and AI Certification- 3 Years
     Data Science and AI Certification Course for Managers and Leaders- 3 Years 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee - 3-years`,
+    Data Science and Artificial Intelligence Training with Placement Assistance - 3-years`,
     open: false,
   },
   {
@@ -2742,7 +2742,7 @@ export const ArtificialFaqDataB = [
     Weekday batch - 11 months
     Weekend batch - 13  months
     
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee (380+ hours)
+    Data Science and Artificial Intelligence Training with Placement Assistance (380+ hours)
     Weekday batch - 13 months
     Weekend batch - 15  months`,
     open: false,
@@ -2795,7 +2795,7 @@ export const ArtificialDomainFaqDataB = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- All domains
+    Data Science and Artificial Intelligence Training with Placement Assistance- All domains
     Machine learning and AI Certification- maximum 4 domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
@@ -2822,7 +2822,7 @@ export const ArtificialPaymentFaqDataB = [
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -2867,7 +2867,7 @@ export const ArtificialCapstoneFaqDataB = [
     Foundational Artificial Intelligence Training Course - 1 Capstone.
     Advance Data Science and AI Certification course  -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 3 Capstones.
     Machine learning and AI Certification- 2 Capstones.`,
     open: true,
   },
@@ -2878,7 +2878,7 @@ export const ArtificialCapstoneFaqDataB = [
     Foundational Data Science and Artificial Intelligence Training Course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
@@ -2901,7 +2901,7 @@ export const ArtificialCertificationFaqDataB = [
     Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 1 Course Completion Certificates
+    Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
     Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
@@ -3636,7 +3636,7 @@ export const AdvanceFaqDataC = [
     linkText1: "Foundational Data Science Training Course, ",
     linkText2: "Advance Data Science Certification Course, ",
     linkText3: "Data Science Certification Course for Managers and Leaders, ",
-    linkText4: "Data Science Training with Job or Money-back Guarantee",
+    linkText4: "Data Science Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -3660,13 +3660,13 @@ export const AdvanceFaqDataC = [
   {
     id: 3,
     ques: "What is a Flexi Subscription in these advanced data science courses in Chennai?",
-    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Job or Money-back Guarantee  - 3-years.",
+    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
     open: false,
   },
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Chennai?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -3717,7 +3717,7 @@ export const AdvanceDomainFaqDataC = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and AI Training with Job or Money-back Guarantee- All domains
+    Data Science and AI Training with Placement Assistance- All domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
     open: false,
@@ -3743,7 +3743,7 @@ export const AdvancePaymentFaqDataC = [
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -3785,13 +3785,13 @@ export const AdvanceCapstoneFaqDataC = [
     Foundational Data Science and AI Training Course - 1 Capstone.
     Advance Data Science and AI Certification Course -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and AI Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and AI Training with Placement Assistance- 3 Capstones.
     How many real-time projects/case studies will be covered in these Data Science certification courses in Chennai?
     Depending on the course you choose the number of live projects will vary.  
     Foundational Data Science and AI Training course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
+    Data Science and AI Training with Placement Assistance- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -3813,7 +3813,7 @@ export const AdvanceCertificationFaqDataC = [
     Foundational Data Science and AI Training course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and AI Training with Job or Money-back Guarantee- 1 Course Completion Certificate
+    Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
   },
@@ -3901,7 +3901,7 @@ export const ArtificialFaqDataC = [
     linkText4:
       "Data Science and AI Certification Course for Managers and Leaders",
     linkText5:
-      " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+      " Data Science and Artificial Intelligence Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -3932,7 +3932,7 @@ export const ArtificialFaqDataC = [
     Advanced data science and  AI Certification Course- 3 Years
     Machine learning and AI Certification- 3 Years
     Data Science and AI Certification Course for Managers and Leaders- 3 Years 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee - 3-years`,
+    Data Science and Artificial Intelligence Training with Placement Assistance - 3-years`,
     open: false,
   },
   {
@@ -3956,7 +3956,7 @@ export const ArtificialFaqDataC = [
     Weekday batch - 11 months
     Weekend batch - 13  months
     
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee (380+ hours)
+    Data Science and Artificial Intelligence Training with Placement Assistance (380+ hours)
     Weekday batch - 13 months
     Weekend batch - 15  months`,
     open: false,
@@ -4009,7 +4009,7 @@ export const ArtificialDomainFaqDataC = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- All domains
+    Data Science and Artificial Intelligence Training with Placement Assistance- All domains
     Machine learning and AI Certification- maximum 4 domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
@@ -4036,7 +4036,7 @@ export const ArtificialPaymentFaqDataC = [
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -4080,7 +4080,7 @@ export const ArtificialCapstoneFaqDataC = [
     Foundational Artificial Intelligence Training Course - 1 Capstone.
     Advance Data Science and AI Certification course  -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 3 Capstones.
     Machine learning and AI Certification- 2 Capstones.`,
     open: true,
   },
@@ -4091,7 +4091,7 @@ export const ArtificialCapstoneFaqDataC = [
     Foundational Data Science and Artificial Intelligence Training Course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
@@ -4114,7 +4114,7 @@ export const ArtificialCertificationFaqDataC = [
     Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 1 Course Completion Certificates
+    Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
     Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
@@ -4847,7 +4847,7 @@ export const AdvanceFaqDataCa = [
     linkText1: "Foundational Data Science Training Course, ",
     linkText2: "Advance Data Science Certification Course, ",
     linkText3: "Data Science Certification Course for Managers and Leaders, ",
-    linkText4: "Data Science Training with Job or Money-back Guarantee",
+    linkText4: "Data Science Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -4871,13 +4871,13 @@ export const AdvanceFaqDataCa = [
   {
     id: 3,
     ques: "What is a Flexi Subscription in these advanced data science courses in Canada?",
-    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Job or Money-back Guarantee  - 3-years.",
+    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
     open: false,
   },
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Canada?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -4928,7 +4928,7 @@ export const AdvanceDomainFaqDataCa = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and AI Training with Job or Money-back Guarantee- All domains
+    Data Science and AI Training with Placement Assistance- All domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
     open: false,
@@ -4954,7 +4954,7 @@ export const AdvancePaymentFaqDataCa = [
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -4996,13 +4996,13 @@ export const AdvanceCapstoneFaqDataCa = [
     Foundational Data Science and AI Training Course - 1 Capstone.
     Advance Data Science and AI Certification Course -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and AI Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and AI Training with Placement Assistance- 3 Capstones.
     How many real-time projects/case studies will be covered in these Data Science certification courses in Canada?
     Depending on the course you choose the number of live projects will vary.  
     Foundational Data Science and AI Training course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
+    Data Science and AI Training with Placement Assistance- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -5025,7 +5025,7 @@ export const AdvanceCertificationFaqDataCa = [
     Foundational Data Science and AI Training course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and AI Training with Job or Money-back Guarantee- 1 Course Completion Certificate
+    Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
   },
@@ -5114,7 +5114,7 @@ export const ArtificialFaqDataCa = [
     linkText4:
       "Data Science and AI Certification Course for Managers and Leaders",
     linkText5:
-      " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+      " Data Science and Artificial Intelligence Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -5145,7 +5145,7 @@ export const ArtificialFaqDataCa = [
     Advanced data science and  AI Certification Course- 3 Years
     Machine learning and AI Certification- 3 Years
     Data Science and AI Certification Course for Managers and Leaders- 3 Years 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee - 3-years`,
+    Data Science and Artificial Intelligence Training with Placement Assistance - 3-years`,
     open: false,
   },
   {
@@ -5169,7 +5169,7 @@ export const ArtificialFaqDataCa = [
     Weekday batch - 11 months
     Weekend batch - 13  months
     
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee (380+ hours)
+    Data Science and Artificial Intelligence Training with Placement Assistance (380+ hours)
     Weekday batch - 13 months
     Weekend batch - 15  months`,
     open: false,
@@ -5222,7 +5222,7 @@ export const ArtificialDomainFaqDataCa = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- All domains
+    Data Science and Artificial Intelligence Training with Placement Assistance- All domains
     Machine learning and AI Certification- maximum 4 domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
@@ -5249,7 +5249,7 @@ export const ArtificialPaymentFaqDataCa = [
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -5293,7 +5293,7 @@ export const ArtificialCapstoneFaqDataCa = [
     Foundational Artificial Intelligence Training Course - 1 Capstone.
     Advance Data Science and AI Certification course  -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 3 Capstones.
     Machine learning and AI Certification- 2 Capstones.`,
     open: true,
   },
@@ -5304,7 +5304,7 @@ export const ArtificialCapstoneFaqDataCa = [
     Foundational Data Science and Artificial Intelligence Training Course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
@@ -5328,7 +5328,7 @@ export const ArtificialCertificationFaqDataCa = [
     Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 1 Course Completion Certificates
+    Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
     Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
@@ -6060,7 +6060,7 @@ export const AdvanceFaqDataD = [
   {
     id: 0,
     ques: "What are Data Science Training courses available at Learnbay in Delhi?",
-    ans: "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Job or Money-back Guarantee",
+    ans: "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance",
     open: true,
   },
   {
@@ -6069,7 +6069,7 @@ export const AdvanceFaqDataD = [
     linkText1: "Foundational Data Science Training Course, ",
     linkText2: "Advance Data Science Certification Course, ",
     linkText3: "Data Science Certification Course for Managers and Leaders, ",
-    linkText4: "Data Science Training with Job or Money-back Guarantee",
+    linkText4: "Data Science Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -6088,13 +6088,13 @@ export const AdvanceFaqDataD = [
   {
     id: 3,
     ques: "What is a Flexi Subscription in these advanced data science courses in Delhi?",
-    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Job or Money-back Guarantee  - 3-years.",
+    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
     open: false,
   },
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Delhi?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -6145,7 +6145,7 @@ export const AdvanceDomainFaqDataD = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and AI Training with Job or Money-back Guarantee- All domains
+    Data Science and AI Training with Placement Assistance- All domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
     open: false,
@@ -6171,7 +6171,7 @@ export const AdvancePaymentFaqDataD = [
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -6213,13 +6213,13 @@ export const AdvanceCapstoneFaqDataD = [
     Foundational Data Science and AI Training Course - 1 Capstone.
     Advance Data Science and AI Certification Course -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and AI Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and AI Training with Placement Assistance- 3 Capstones.
     How many real-time projects/case studies will be covered in these Data Science certification courses in Delhi?
     Depending on the course you choose the number of live projects will vary.  
     Foundational Data Science and AI Training course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
+    Data Science and AI Training with Placement Assistance- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -6241,7 +6241,7 @@ export const AdvanceCertificationFaqDataD = [
     Foundational Data Science and AI Training course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and AI Training with Job or Money-back Guarantee- 1 Course Completion Certificate
+    Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
   },
@@ -6330,7 +6330,7 @@ export const ArtificialFaqDataD = [
     linkText4:
       "Data Science and AI Certification Course for Managers and Leaders",
     linkText5:
-      " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+      " Data Science and Artificial Intelligence Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -6361,7 +6361,7 @@ export const ArtificialFaqDataD = [
     Advanced data science and  AI Certification Course- 3 Years
     Machine learning and AI Certification- 3 Years
     Data Science and AI Certification Course for Managers and Leaders- 3 Years 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee - 3-years`,
+    Data Science and Artificial Intelligence Training with Placement Assistance - 3-years`,
     open: false,
   },
   {
@@ -6385,7 +6385,7 @@ export const ArtificialFaqDataD = [
     Weekday batch - 11 months
     Weekend batch - 13  months
     
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee (380+ hours)
+    Data Science and Artificial Intelligence Training with Placement Assistance (380+ hours)
     Weekday batch - 13 months
     Weekend batch - 15  months`,
     open: false,
@@ -6438,7 +6438,7 @@ export const ArtificialDomainFaqDataD = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- All domains
+    Data Science and Artificial Intelligence Training with Placement Assistance- All domains
     Machine learning and AI Certification- maximum 4 domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
@@ -6465,7 +6465,7 @@ export const ArtificialPaymentFaqDataD = [
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -6510,7 +6510,7 @@ export const ArtificialCapstoneFaqDataD = [
     Foundational Artificial Intelligence Training Course - 1 Capstone.
     Advance Data Science and AI Certification course  -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 3 Capstones.
     Machine learning and AI Certification- 2 Capstones.`,
     open: true,
   },
@@ -6521,7 +6521,7 @@ export const ArtificialCapstoneFaqDataD = [
     Foundational Data Science and Artificial Intelligence Training Course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
@@ -6544,7 +6544,7 @@ export const ArtificialCertificationFaqDataD = [
     Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 1 Course Completion Certificates
+    Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
     Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
@@ -7281,7 +7281,7 @@ export const AdvanceFaqDataDu = [
     linkText1: "Foundational Data Science Training Course, ",
     linkText2: "Advance Data Science Certification Course, ",
     linkText3: "Data Science Certification Course for Managers and Leaders, ",
-    linkText4: "Data Science Training with Job or Money-back Guarantee",
+    linkText4: "Data Science Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -7305,13 +7305,13 @@ export const AdvanceFaqDataDu = [
   {
     id: 3,
     ques: "What is a Flexi Subscription in these advanced data science courses in Dubai?",
-    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Job or Money-back Guarantee  - 3-years.",
+    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
     open: false,
   },
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Dubai?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -7363,7 +7363,7 @@ export const AdvanceDomainFaqDataDu = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and AI Training with Job or Money-back Guarantee- All domains
+    Data Science and AI Training with Placement Assistance- All domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
     open: false,
@@ -7389,7 +7389,7 @@ export const AdvancePaymentFaqDataDu = [
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -7431,13 +7431,13 @@ export const AdvanceCapstoneFaqDataDu = [
     Foundational Data Science and AI Training Course - 1 Capstone.
     Advance Data Science and AI Certification Course -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and AI Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and AI Training with Placement Assistance- 3 Capstones.
     How many real-time projects/case studies will be covered in these Data Science certification courses in Dubai?
     Depending on the course you choose the number of live projects will vary.  
     Foundational Data Science and AI Training course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
+    Data Science and AI Training with Placement Assistance- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -7459,7 +7459,7 @@ export const AdvanceCertificationFaqDataDu = [
     Foundational Data Science and AI Training course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and AI Training with Job or Money-back Guarantee- 1 Course Completion Certificate
+    Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
   },
@@ -7548,7 +7548,7 @@ export const ArtificialFaqDataDu = [
     linkText4:
       "Data Science and AI Certification Course for Managers and Leaders",
     linkText5:
-      " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+      " Data Science and Artificial Intelligence Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -7579,7 +7579,7 @@ export const ArtificialFaqDataDu = [
     Advanced data science and  AI Certification Course- 3 Years
     Machine learning and AI Certification- 3 Years
     Data Science and AI Certification Course for Managers and Leaders- 3 Years 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee - 3-years`,
+    Data Science and Artificial Intelligence Training with Placement Assistance - 3-years`,
     open: false,
   },
   {
@@ -7603,7 +7603,7 @@ export const ArtificialFaqDataDu = [
     Weekday batch - 11 months
     Weekend batch - 13  months
     
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee (380+ hours)
+    Data Science and Artificial Intelligence Training with Placement Assistance (380+ hours)
     Weekday batch - 13 months
     Weekend batch - 15  months`,
     open: false,
@@ -7656,7 +7656,7 @@ export const ArtificialDomainFaqDataDu = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- All domains
+    Data Science and Artificial Intelligence Training with Placement Assistance- All domains
     Machine learning and AI Certification- maximum 4 domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
@@ -7683,7 +7683,7 @@ export const ArtificialPaymentFaqDataDu = [
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -7727,7 +7727,7 @@ export const ArtificialCapstoneFaqDataDu = [
     Foundational Artificial Intelligence Training Course - 1 Capstone.
     Advance Data Science and AI Certification course  -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 3 Capstones.
     Machine learning and AI Certification- 2 Capstones.`,
     open: true,
   },
@@ -7738,7 +7738,7 @@ export const ArtificialCapstoneFaqDataDu = [
     Foundational Data Science and Artificial Intelligence Training Course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
@@ -7761,7 +7761,7 @@ export const ArtificialCertificationFaqDataDu = [
     Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 1 Course Completion Certificates
+    Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
     Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
@@ -8498,7 +8498,7 @@ export const AdvanceFaqDataP = [
     linkText1: "Foundational Data Science Training Course, ",
     linkText2: "Advance Data Science Certification Course, ",
     linkText3: "Data Science Certification Course for Managers and Leaders, ",
-    linkText4: "Data Science Training with Job or Money-back Guarantee",
+    linkText4: "Data Science Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -8522,13 +8522,13 @@ export const AdvanceFaqDataP = [
   {
     id: 3,
     ques: "What is a Flexi Subscription in these advanced data science courses in Pune?",
-    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Job or Money-back Guarantee  - 3-years.",
+    ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
     open: false,
   },
   {
     id: 4,
     ques: "What’s the duration of these advanced data science courses in Pune?",
-    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+    ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
     open: false,
   },
   {
@@ -8579,7 +8579,7 @@ export const AdvanceDomainFaqDataP = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and AI Training with Job or Money-back Guarantee- All domains
+    Data Science and AI Training with Placement Assistance- All domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
     open: false,
@@ -8605,7 +8605,7 @@ export const AdvancePaymentFaqDataP = [
     Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.`,
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
     open: true,
   },
   {
@@ -8647,13 +8647,13 @@ export const AdvanceCapstoneFaqDataP = [
     Foundational Data Science and AI Training Course - 1 Capstone.
     Advance Data Science and AI Certification Course -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and AI Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and AI Training with Placement Assistance- 3 Capstones.
     How many real-time projects/case studies will be covered in these Data Science certification courses in Pune?
     Depending on the course you choose the number of live projects will vary.  
     Foundational Data Science and AI Training course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and AI Training with Job or Money-back Guarantee- 15 projects.`,
+    Data Science and AI Training with Placement Assistance- 15 projects.`,
     linkText1: " Click here to download the list of the projects.",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -8675,7 +8675,7 @@ export const AdvanceCertificationFaqDataP = [
     Foundational Data Science and AI Training course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and AI Training with Job or Money-back Guarantee- 1 Course Completion Certificate
+    Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,
   },
@@ -8764,7 +8764,7 @@ export const ArtificialFaqDataP = [
     linkText4:
       "Data Science and AI Certification Course for Managers and Leaders",
     linkText5:
-      " Data Science and Artificial Intelligence Training with Job or Money-back Guarantee",
+      " Data Science and Artificial Intelligence Training with Placement Assistance",
     link1: "/data-science-certification-courses",
     link2: "/advance-data-science-certification-courses",
     link3: "/data-science-ai-for-managers",
@@ -8795,7 +8795,7 @@ export const ArtificialFaqDataP = [
     Advanced data science and  AI Certification Course- 3 Years
     Machine learning and AI Certification- 3 Years
     Data Science and AI Certification Course for Managers and Leaders- 3 Years 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee - 3-years`,
+    Data Science and Artificial Intelligence Training with Placement Assistance - 3-years`,
     open: false,
   },
   {
@@ -8819,7 +8819,7 @@ export const ArtificialFaqDataP = [
     Weekday batch - 11 months
     Weekend batch - 13  months
     
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee (380+ hours)
+    Data Science and Artificial Intelligence Training with Placement Assistance (380+ hours)
     Weekday batch - 13 months
     Weekend batch - 15  months`,
     open: false,
@@ -8873,7 +8873,7 @@ export const ArtificialDomainFaqDataP = [
     ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
     Advance Data Science and AI Certification course- Maximum 2 domains. 
     Data Science and AI Certification Course for Managers and Leaders- All domains 
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- All domains
+    Data Science and Artificial Intelligence Training with Placement Assistance- All domains
     Machine learning and AI Certification- maximum 4 domains
      
     No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
@@ -8900,7 +8900,7 @@ export const ArtificialPaymentFaqDataP = [
     Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
     Machine learning and AI Certification is 1,12,100/-inclusive of GST`,
     open: true,
   },
@@ -8944,7 +8944,7 @@ export const ArtificialCapstoneFaqDataP = [
     Foundational Artificial Intelligence Training Course - 1 Capstone.
     Advance Data Science and AI Certification course  -2 Capstones.
     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 3 Capstones.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 3 Capstones.
     Machine learning and AI Certification- 2 Capstones.`,
     open: true,
   },
@@ -8955,7 +8955,7 @@ export const ArtificialCapstoneFaqDataP = [
     Foundational Data Science and Artificial Intelligence Training Course- 8 projects.
     Advance Data Science and AI Certification course-12 projects.
     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 15 projects.
+    Data Science and Artificial Intelligence Training with Placement Assistance- 15 projects.
     Machine learning and AI Certification- 15 projects.`,
 
     linkText1: " Click here to download the list of the projects.",
@@ -8979,7 +8979,7 @@ export const ArtificialCertificationFaqDataP = [
     Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate.
     Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-    Data Science and Artificial Intelligence Training with Job or Money-back Guarantee- 1 Course Completion Certificates
+    Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
     Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
     *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
     open: true,

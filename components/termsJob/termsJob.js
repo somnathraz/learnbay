@@ -29,8 +29,7 @@ function termsJob() {
 
         <p className={styles.bot}>
           The following terms and conditions (the "Terms") apply to Learnbay
-          Data Science and AI with a 100% job assistance
-          Program.
+          Data Science and AI with a 100% job assistance Program.
         </p>
 
         <p className={styles.top}>Eligibility Requirements</p>
@@ -88,7 +87,8 @@ function termsJob() {
 
         <p className={styles.bot}>
           The “Metropolitan Areas” means the metropolitan areas surrounding the
-          following cities for which the Learnbay Data Science 100% job assistance applies: Bangalore, Hyderabad, Pune, Mumbai, Delhi- NCR,
+          following cities for which the Learnbay Data Science 100% job
+          assistance applies: Bangalore, Hyderabad, Pune, Mumbai, Delhi- NCR,
           Chennai, and Kolkata.
         </p>
 
@@ -186,14 +186,14 @@ function termsJob() {
         </li>
 
         <p className={styles.top}>
-          Learnbay 100% job assistance terms will become void/invalid under
-          the below following circumstances strictly:
+          Learnbay 100% job assistance terms will become void/invalid under the
+          below following circumstances strictly:
         </p>
         <li className={styles.bot}>
           Getting a job from outside agencies or job portals that are not
           associated with Learnbay. (However, Learnbay will not restrict the
           candidate from applying for a job through their own references or any
-          other social media channels, only the money-back guarantee will no
+          other social media channels, only the placement assistance will no
           longer be applicable if anything goes wrong with that particular
           opportunity).
         </li>

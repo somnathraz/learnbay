@@ -47,7 +47,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Full-Stack Software Developer Course in Bangalore, Full-Stack Software Developer Course training in Bangalore, Full-Stack Software Developer Course institute in Bangalore, best Full-Stack Software Developer Course institute in Bangalore, data scientist course in Bangalore,data scientist certification in Bangalore, Full-Stack Software Developer Course training institute in Bangalore, advanced Full-Stack Software Developer Course in Bangalore, Full-Stack Software Developer Course with placement guarantee, Full-Stack Software Developer Course"
+          content="Full-Stack Software Developer Course in Bangalore, Full-Stack Software Developer Course training in Bangalore, Full-Stack Software Developer Course institute in Bangalore, best Full-Stack Software Developer Course institute in Bangalore, data scientist course in Bangalore,data scientist certification in Bangalore, Full-Stack Software Developer Course training institute in Bangalore, advanced Full-Stack Software Developer Course in Bangalore, Full-Stack Software Developer Course with Placement Assistance, Full-Stack Software Developer Course"
         />
         <link
           rel="canonical"

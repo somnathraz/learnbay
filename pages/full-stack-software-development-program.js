@@ -39,14 +39,27 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-      <title>Full Stack Software Development Course - Learnbay</title>
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <link rel="canonical" href="https://www.learnbay.co/full-stack-software-development-program" />
-        <meta name="description" content="Full Stack Software Development Course with IBM certification. Learnbay provide advanced full stack Software developer course with placement guarantee. Enrol in our full stack Software developer course to enhance your career" />
-<meta name="Keywords" content="Full Stack Software Development Course, Full Stack Software Development Course training , Full Stack Software Development Course institute in India, best Full Stack Software Development Course institute, Full Stack Software developer Course ,Full Stack Software developer Course certification, Full Stack Software developer Course training institute , advanced Full Stack Software developer Course , Full Stack Software developer Course with placement guarantee, Full Stack Software developer Course with IBM certification"/>
+        <title>Full Stack Software Development Course - Learnbay</title>
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/full-stack-software-development-program"
+        />
+        <meta
+          name="description"
+          content="Full Stack Software Development Course with IBM certification. Learnbay provide advanced full stack Software developer course with Placement Assistance. Enrol in our full stack Software developer course to enhance your career"
+        />
+        <meta
+          name="Keywords"
+          content="Full Stack Software Development Course, Full Stack Software Development Course training , Full Stack Software Development Course institute in India, best Full Stack Software Development Course institute, Full Stack Software developer Course ,Full Stack Software developer Course certification, Full Stack Software developer Course training institute , advanced Full Stack Software developer Course , Full Stack Software developer Course with Placement Assistance, Full Stack Software developer Course with IBM certification"
+        />
       </Head>
-      <main>  <Navbar popup={true} fullStack={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} fullStack={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -57,7 +70,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection fullStack={true}
+        <FirstSection
+          fullStack={true}
           deskTopPara="Full Stack Software Development Course"
           mTopPara="Full Stack Software Development Course"
           mTitle="Ace Your Coding Interview at MAANG and"
@@ -98,7 +112,8 @@ export default function Home() {
         </div>
         <DomainFaq FaqData={DomainFaqCourseDatasoft} />
         <CourseReview />
-        <SyllabusNew fullStack={true}
+        <SyllabusNew
+          fullStack={true}
           syllabus={FullStackSoftwareCourseData[0].syllabus}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
           popupHead={FullStackSoftwareCourseData[0].popupHead}
@@ -110,7 +125,9 @@ export default function Home() {
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+ Projects" domain="7+" />
         </div>
-        <CourseFee fullStack={true} timeFsd={true}
+        <CourseFee
+          fullStack={true}
+          timeFsd={true}
           CourseFeeHead="Full Stack Software Development Course: Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
@@ -119,7 +136,6 @@ export default function Home() {
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />
-         
         <FAQNew
           FaqDatas={FaqData9}
           DomainFaqDatas={DomainFaqData9}
@@ -129,9 +145,9 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData9}
           SupportFaqDatas={SupportFaqData9}
         />
-                <LearnSupport FsdNumber={true}/>
-              <OfferPopup offer={true}/>
-        <Footer FsdNumber={true}/>
+        <LearnSupport FsdNumber={true} />
+        <OfferPopup offer={true} />
+        <Footer FsdNumber={true} />
       </main>
     </div>
   );

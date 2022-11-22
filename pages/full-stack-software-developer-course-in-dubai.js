@@ -47,7 +47,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Full-Stack Software Developer Course in Dubai, Full-Stack Software Developer Course training in Dubai, Full-Stack Software Developer Course institute in Dubai, best Full-Stack Software Developer Course institute in Dubai, data scientist course in Dubai,data scientist certification in Dubai, Full-Stack Software Developer Course training institute in Dubai, advanced Full-Stack Software Developer Course in Dubai, Full-Stack Software Developer Course with placement guarantee, Full-Stack Software Developer Course"
+          content="Full-Stack Software Developer Course in Dubai, Full-Stack Software Developer Course training in Dubai, Full-Stack Software Developer Course institute in Dubai, best Full-Stack Software Developer Course institute in Dubai, data scientist course in Dubai,data scientist certification in Dubai, Full-Stack Software Developer Course training institute in Dubai, advanced Full-Stack Software Developer Course in Dubai, Full-Stack Software Developer Course with Placement Assistance, Full-Stack Software Developer Course"
         />
         <link
           rel="canonical"

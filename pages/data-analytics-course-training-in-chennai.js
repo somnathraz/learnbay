@@ -45,7 +45,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Data Analytics course in Chennai, Data Analytics training in Chennai, Data Analytics institute in Chennai, best Data Analytics institute in Chennai, Data Analytics course in Chennai, Data Analytics certification in Chennai, Data Analytics training institute in Chennai, advanced Data Analytics course in Chennai, Data Analytics course with placement guarantee, Data Analytics course"
+          content="Data Analytics course in Chennai, Data Analytics training in Chennai, Data Analytics institute in Chennai, best Data Analytics institute in Chennai, Data Analytics course in Chennai, Data Analytics certification in Chennai, Data Analytics training institute in Chennai, advanced Data Analytics course in Chennai, Data Analytics course with Placement Assistance, Data Analytics course"
         />
         <link
           rel="canonical"
