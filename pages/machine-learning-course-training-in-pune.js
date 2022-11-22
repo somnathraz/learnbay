@@ -45,7 +45,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Machine learning course in Pune, Machine learning training in Pune, Machine learning institute in Pune, best Machine learning institute in Pune, Machine learning course in Pune, Machine learning certification in Pune, Machine learning training institute in Pune, advanced Machine learning course in Pune, Machine learning course with placement guarantee, Machine learning course"
+          content="Machine learning course in Pune, Machine learning training in Pune, Machine learning institute in Pune, best Machine learning institute in Pune, Machine learning course in Pune, Machine learning certification in Pune, Machine learning training institute in Pune, advanced Machine learning course in Pune, Machine learning course with Placement Assistance, Machine learning course"
         />
         <link
           rel="canonical"

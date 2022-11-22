@@ -18,14 +18,16 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learnbay - Advance Data Science Course With IBM Certification</title>
+        <title>
+          Learnbay - Advance Data Science Course With IBM Certification
+        </title>
         <meta
           name="description"
-          content="Data Science Course in Bangalore. Learnbay is Advanced Data Science Training Course Institute in Bangalore with 100% job placement Guarantee"
+          content="Data Science Course in Bangalore. Learnbay is Advanced Data Science Training Course Institute in Bangalore with 100% job Placement Assistance"
         />
         <meta
           name="Keywords"
-          content="Data Science course in Bangalore, Data Science training in Bangalore, Data Science institute in Bangalore, best Data Science institute in Bangalore, data scientist course in Bangalore, data scientist certification in Bangalore, Data Science training institute in Bangalore, advanced Data Science course in Bangalore, Data Science course with placement guarantee, Data Science course"
+          content="Data Science course in Bangalore, Data Science training in Bangalore, Data Science institute in Bangalore, best Data Science institute in Bangalore, data scientist course in Bangalore, data scientist certification in Bangalore, Data Science training institute in Bangalore, advanced Data Science course in Bangalore, Data Science course with Placement Assistance, Data Science course"
         />
         <link rel="canonical" href="https://www.learnbay.co/" />
         <meta name="robots" content="NOODP,NOYDIR" />
@@ -44,15 +46,18 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
       </Head>
       <Navbar popup={true} dataScience={true} />
       <FirstSection dataScience={true} />
       <div className={styles.boxWrap}>
         <h2>Get Certified & Move Towards Your Dream Job</h2>
         <p className={styles.boxp}>
-          Our Domain Specialisation and Industry Certified Capstone Projects helps you to
-          make your past work experience relevant
+          Our Domain Specialisation and Industry Certified Capstone Projects
+          helps you to make your past work experience relevant
         </p>
         <div className={styles.boxShape}>
           <BoxShape />
@@ -66,10 +71,10 @@ export default function Home() {
       <FormSection />
       <Switch />
       <CareerImpactHome />
-              <LearnSupport />
-               
-        <OfferPopup offer={false} />                      
-        <Footer />
+      <LearnSupport />
+
+      <OfferPopup offer={false} />
+      <Footer />
     </div>
   );
 }

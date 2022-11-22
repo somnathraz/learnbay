@@ -44,7 +44,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="data science course in Dubai, data science training in Dubai, data science institute in Dubai, best data science institute in Dubai, data scientist course in Dubai,data scientist certification in Dubai, data science training institute in Dubai, advanced data science course in Dubai, data science course with placement guarantee, data science course"
+          content="data science course in Dubai, data science training in Dubai, data science institute in Dubai, best data science institute in Dubai, data scientist course in Dubai,data scientist certification in Dubai, data science training institute in Dubai, advanced data science course in Dubai, data science course with Placement Assistance, data science course"
         />
         <link
           rel="canonical"
@@ -159,7 +159,7 @@ export default function Home() {
  "name": "What are Data Science Training courses available at Learnbay in Dubai?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Job or Money-back Guarantee"
+ "text": "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance"
  }
  },{
  "@type": "Question",
@@ -180,14 +180,14 @@ export default function Home() {
  "name": "What is a Flexi Subscription in these advanced data science courses in Dubai?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Job or Money-back Guarantee - 3-years."
+ "text": "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance - 3-years."
  }
  },{
  "@type": "Question",
  "name": "What’s the duration of these advanced data science courses in Dubai?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9 months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13 months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15 months"
+ "text": "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9 months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13 months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15 months"
  }
  },{
  "@type": "Question",
@@ -250,7 +250,7 @@ export default function Home() {
  "name": "What is the total fee for Data Science Certifications courses in Dubai?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total course fee for the Foundational Data Science and AI Training course is 76,700/- inclusive of GST. Advance Data Science and AI Certification course is 93,220/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST. Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST."
+ "text": "The total course fee for the Foundational Data Science and AI Training course is 76,700/- inclusive of GST. Advance Data Science and AI Certification course is 93,220/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST."
  }
  },{
  "@type": "Question",
@@ -278,7 +278,7 @@ export default function Home() {
  "name": "How many capstone projects will be there?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Depending on the course you choose the number of capstone projects will vary. Foundational Data Science and AI Training Course - 1 Capstone. Advance Data Science and AI Certification Course -2 Capstones. Data Science and AI Certification Course for Managers and Leaders- 2 Capstones. Data Science and AI Training with Job or Money-back Guarantee- 3 Capstones. How many real-time projects/case studies will be covered in these Data Science certification courses in Dubai? Depending on the course you choose the number of live projects will vary. Foundational Data Science and AI Training course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and AI Training with Job or Money-back Guarantee- 15 projects. Click here to download the list of the projects."
+ "text": "Depending on the course you choose the number of capstone projects will vary. Foundational Data Science and AI Training Course - 1 Capstone. Advance Data Science and AI Certification Course -2 Capstones. Data Science and AI Certification Course for Managers and Leaders- 2 Capstones. Data Science and AI Training with Placement Assistance- 3 Capstones. How many real-time projects/case studies will be covered in these Data Science certification courses in Dubai? Depending on the course you choose the number of live projects will vary. Foundational Data Science and AI Training course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and AI Training with Placement Assistance- 15 projects. Click here to download the list of the projects."
  }
  },{
  "@type": "Question",
@@ -292,7 +292,7 @@ export default function Home() {
  "name": "Is there any accredited data science certification after course completion?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and AI Training course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and AI Training with Job or Money-back Guarantee- 1 Course Completion Certificate *All the certificates accredited by IBM. For more details, please refer to the respective course brochures."
+ "text": "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and AI Training course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate *All the certificates accredited by IBM. For more details, please refer to the respective course brochures."
  }
  },{
  "@type": "Question",

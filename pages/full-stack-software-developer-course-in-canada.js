@@ -47,7 +47,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Full-Stack Software Developer Course in Canada, Full-Stack Software Developer Course training in Canada, Full-Stack Software Developer Course institute in Canada, best Full-Stack Software Developer Course institute in Canada, data scientist course in Canada,data scientist certification in Canada, Full-Stack Software Developer Course training institute in Canada, advanced Full-Stack Software Developer Course in Canada, Full-Stack Software Developer Course with placement guarantee, Full-Stack Software Developer Course"
+          content="Full-Stack Software Developer Course in Canada, Full-Stack Software Developer Course training in Canada, Full-Stack Software Developer Course institute in Canada, best Full-Stack Software Developer Course institute in Canada, data scientist course in Canada,data scientist certification in Canada, Full-Stack Software Developer Course training institute in Canada, advanced Full-Stack Software Developer Course in Canada, Full-Stack Software Developer Course with Placement Assistance, Full-Stack Software Developer Course"
         />
         <link
           rel="canonical"

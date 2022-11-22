@@ -47,7 +47,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Full-Stack Software Developer Course in Delhi, Full-Stack Software Developer Course training in Delhi, Full-Stack Software Developer Course institute in Delhi, best Full-Stack Software Developer Course institute in Delhi, data scientist course in Delhi,data scientist certification in Delhi, Full-Stack Software Developer Course training institute in Delhi, advanced Full-Stack Software Developer Course in Delhi, Full-Stack Software Developer Course with placement guarantee, Full-Stack Software Developer Course"
+          content="Full-Stack Software Developer Course in Delhi, Full-Stack Software Developer Course training in Delhi, Full-Stack Software Developer Course institute in Delhi, best Full-Stack Software Developer Course institute in Delhi, data scientist course in Delhi,data scientist certification in Delhi, Full-Stack Software Developer Course training institute in Delhi, advanced Full-Stack Software Developer Course in Delhi, Full-Stack Software Developer Course with Placement Assistance, Full-Stack Software Developer Course"
         />
         <link
           rel="canonical"

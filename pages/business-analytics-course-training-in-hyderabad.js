@@ -45,7 +45,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Business Analytics course in Hyderabad, Business Analytics training in Hyderabad, Business Analytics institute in Hyderabad, best Business Analytics institute in Hyderabad, Business Analytics course in Hyderabad, Business Analytics certification in Hyderabad, Business Analytics training institute in Hyderabad, advanced Business Analytics course in Hyderabad, Business Analytics course with placement guarantee, Business Analytics course"
+          content="Business Analytics course in Hyderabad, Business Analytics training in Hyderabad, Business Analytics institute in Hyderabad, best Business Analytics institute in Hyderabad, Business Analytics course in Hyderabad, Business Analytics certification in Hyderabad, Business Analytics training institute in Hyderabad, advanced Business Analytics course in Hyderabad, Business Analytics course with Placement Assistance, Business Analytics course"
         />
         <link
           rel="canonical"

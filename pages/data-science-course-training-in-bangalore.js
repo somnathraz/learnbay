@@ -41,11 +41,11 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Best Data Science Courses in Bangalore. Learnbay is the Best Data Scientist Certification Course Training Institute in Bangalore with 100% Placement assistance and offers an advanced data scientist training in Bangalore."
+          content="Data Science Course in Bangalore. Learnbay is the Data Scientist Certification Course Training Institute in Bangalore with 100% Placement assistance and offers an advanced data scientist training in Bangalore."
         />
         <meta
           name="Keywords"
-          content="Data Science course in Bangalore, Data Science training in Bangalore, Data Science institute in Bangalore, best Data Science institute in Bangalore, data scientist course in Bangalore, data scientist certification in Bangalore, Data Science training institute in Bangalore, advanced Data Science course in Bangalore, Data Science course with placement guarantee, Data Science course"
+          content="Data Science course in Bangalore, Data Science training in Bangalore, Data Science institute in Bangalore, best Data Science institute in Bangalore, data scientist course in Bangalore, data scientist certification in Bangalore, Data Science training institute in Bangalore, advanced Data Science course in Bangalore, Data Science course with Placement Assistance, Data Science course"
         />
         <link
           rel="canonical"
@@ -202,7 +202,7 @@ export default function Home() {
  "name": "What are Data Science Training courses available at Learnbay in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Job or Money-back Guarantee."
+ "text": "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance."
  }
  },{
  "@type": "Question",
@@ -223,14 +223,14 @@ export default function Home() {
  "name": "What is a Flexi Subscription in these advanced data science courses in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Job or Money-back Guarantee - 3-years."
+ "text": "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance - 3-years."
  }
  },{
  "@type": "Question",
  "name": "What’s the duration of these advanced data science courses in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9 months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13 months, Data Science and AI Training with Job or Money-back Guarantee (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15 months."
+ "text": "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9 months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13 months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15 months."
  }
  },{
  "@type": "Question",
@@ -279,7 +279,7 @@ export default function Home() {
  "name": "Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. Advance Data Science and AI Certification course- Maximum 2 domains. Data Science and AI Certification Course for Managers and Leaders- All domains Data Science and AI Training with Job or Money-back Guarantee- All domains No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum."
+ "text": "You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. Advance Data Science and AI Certification course- Maximum 2 domains. Data Science and AI Certification Course for Managers and Leaders- All domains Data Science and AI Training with Placement Assistance- All domains No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum."
  }
  },{
  "@type": "Question",
@@ -300,7 +300,7 @@ export default function Home() {
  "name": "What is the total fee for Data Science Certifications courses in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total course fee for the Foundational Data Science and AI Training course is 76,700/- inclusive of GST. Advance Data Science and AI Certification course is 93,220/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST. Data Science and AI Training with Job or Money-back Guarantee is 1,47,500/- inclusive of GST."
+ "text": "The total course fee for the Foundational Data Science and AI Training course is 76,700/- inclusive of GST. Advance Data Science and AI Certification course is 93,220/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST."
  }
  },{
  "@type": "Question",
@@ -328,7 +328,7 @@ export default function Home() {
  "name": "How many capstone projects will be there?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Depending on the course you choose the number of capstone projects will vary. Foundational Data Science and AI Training Course - 1 Capstone. Advance Data Science and AI Certification Course -2 Capstones. Data Science and AI Certification Course for Managers and Leaders- 2 Capstones. Data Science and AI Training with Job or Money-back Guarantee- 3 Capstones. How many real-time projects/case studies will be covered in these Data Science certification courses in Pune? Depending on the course you choose the number of live projects will vary. Foundational Data Science and AI Training course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and AI Training with Job or Money-back Guarantee- 15 projects. Click here to download the list of the projects."
+ "text": "Depending on the course you choose the number of capstone projects will vary. Foundational Data Science and AI Training Course - 1 Capstone. Advance Data Science and AI Certification Course -2 Capstones. Data Science and AI Certification Course for Managers and Leaders- 2 Capstones. Data Science and AI Training with Placement Assistance- 3 Capstones. How many real-time projects/case studies will be covered in these Data Science certification courses in Pune? Depending on the course you choose the number of live projects will vary. Foundational Data Science and AI Training course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and AI Training with Placement Assistance- 15 projects. Click here to download the list of the projects."
  }
  },{
  "@type": "Question",
@@ -595,7 +595,7 @@ export default function Home() {
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
               JobHead1="Data science job assistance and Data Science Interview preparation in Bangalore."
-              JobBot1="Learnbay Data Science Course In Bangalore assures guaranteed job as per the specified domain chosen by the student. They help students and learners to get placed in startups and top MNCs to build a career as Data scientists. We prepare students by conducting mock interviews as per the program. Learnbay even works on soft-skill, portfolio, and resume building. Many of our students had a breakthrough in their careers as they got recruited by leading global companies like TCS, Amazon, Mercedes, JP Morgan, and EY."
+              JobBot1="Learnbay Data Science Course In Bangalore assures guaranteed interview calls as per the specified domain chosen by the student. They help students and learners to get placed in startups and top MNCs to build a career as Data scientists. We prepare students by conducting mock interviews as per the program. Learnbay even works on soft-skill, portfolio, and resume building. Many of our students had a breakthrough in their careers as they got recruited by leading global companies like TCS, Amazon, Mercedes, JP Morgan, and EY."
               JobHead2="What are the advantages of becoming a Data Scientist in Bangalore?"
               JobBot3="Data scientists are in great demand as many corporations want to recruit data scientists, but properly skilled data scientists are scarce. It is a highly paid career with a promising future. Data science is versatile, and Data scientists have a great role in businesses. Becoming a Data scientist is a fun task that makes products and services smart and adequately effective."
               JobHead3="What is Data Science?"

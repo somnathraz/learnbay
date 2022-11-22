@@ -44,7 +44,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Business Analytics course in Canada, Business Analytics training in Canada, Business Analytics institute in Canada, best Business Analytics institute in Canada, Business Analytics course in Canada, Business Analytics certification in Canada, Business Analytics training institute in Canada, advanced Business Analytics course in Canada, Business Analytics course with placement guarantee, Business Analytics course"
+          content="Business Analytics course in Canada, Business Analytics training in Canada, Business Analytics institute in Canada, best Business Analytics institute in Canada, Business Analytics course in Canada, Business Analytics certification in Canada, Business Analytics training institute in Canada, advanced Business Analytics course in Canada, Business Analytics course with Placement Assistance, Business Analytics course"
         />
         <link
           rel="canonical"

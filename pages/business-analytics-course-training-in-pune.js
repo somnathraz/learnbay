@@ -45,7 +45,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Business Analytics course in Pune, Business Analytics training in Pune, Business Analytics institute in Pune, best Business Analytics institute in Pune, Business Analytics course in Pune, Business Analytics certification in Pune, Business Analytics training institute in Pune, advanced Business Analytics course in Pune, Business Analytics course with placement guarantee, Business Analytics course"
+          content="Business Analytics course in Pune, Business Analytics training in Pune, Business Analytics institute in Pune, best Business Analytics institute in Pune, Business Analytics course in Pune, Business Analytics certification in Pune, Business Analytics training institute in Pune, advanced Business Analytics course in Pune, Business Analytics course with Placement Assistance, Business Analytics course"
         />
         <link
           rel="canonical"

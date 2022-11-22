@@ -46,7 +46,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Data Analytics course in Hyderabad, Data Analytics training in Hyderabad, Data Analytics institute in Hyderabad, best Data Analytics institute in Hyderabad, Data Analytics course in Hyderabad, Data Analytics certification in Hyderabad, Data Analytics training institute in Hyderabad, advanced Data Analytics course in Hyderabad, Data Analytics course with placement guarantee, Data Analytics course"
+          content="Data Analytics course in Hyderabad, Data Analytics training in Hyderabad, Data Analytics institute in Hyderabad, best Data Analytics institute in Hyderabad, Data Analytics course in Hyderabad, Data Analytics certification in Hyderabad, Data Analytics training institute in Hyderabad, advanced Data Analytics course in Hyderabad, Data Analytics course with Placement Assistance, Data Analytics course"
         />
         <link
           rel="canonical"

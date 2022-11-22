@@ -45,7 +45,7 @@ export default function Home() {
         />
         <meta
           name="Keywords"
-          content="Business Analytics course in Chennai, Business Analytics training in Chennai, Business Analytics institute in Chennai, best Business Analytics institute in Chennai, Business Analytics course in Chennai, Business Analytics certification in Chennai, Business Analytics training institute in Chennai, advanced Business Analytics course in Chennai, Business Analytics course with placement guarantee, Business Analytics course"
+          content="Business Analytics course in Chennai, Business Analytics training in Chennai, Business Analytics institute in Chennai, best Business Analytics institute in Chennai, Business Analytics course in Chennai, Business Analytics certification in Chennai, Business Analytics training institute in Chennai, advanced Business Analytics course in Chennai, Business Analytics course with Placement Assistance, Business Analytics course"
         />
         <link
           rel="canonical"
