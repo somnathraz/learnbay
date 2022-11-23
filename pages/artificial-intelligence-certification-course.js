@@ -182,7 +182,7 @@ export default function Home() {
           PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
           sub2="Artificial Intelligence
         & ML Program"
-          Price2="₹95,000 + GST"
+          Price2="₹95,000 + 18% GST"
           PFeatures21="350+ Hours"
           PFeatures22="Tech Professionals"
           PFeatures23="2"

@@ -179,7 +179,7 @@ export default function Home() {
           PFeatures26="Unlimited"
           PFeatures28="Project Manager, Team Lead, Project Lead, Project Head, Etc."
           sub3="Data Science & AI For Managers Program"
-          Price3="₹95,000 + GST"
+          Price3="₹95,000 + 18% GST"
           PFeatures31="400+ Hours"
           PFeatures32="Tech Lead, Managers"
           PFeatures33="2"

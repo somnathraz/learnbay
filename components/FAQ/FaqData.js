@@ -539,12 +539,12 @@ export const PaymentFaqData3 = [
   {
     id: 0,
     ques: "What is the total Fee for the Artificial Intelligence and Machine Learning Program?",
-    ans: "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 95,000 + GST.",
+    ans: "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 95,000 + 18% GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for 95,000 + GST?" /*1,12,100/-  check for price*/,
+    ques: "Can I pay in installments for 95,000 + 18% GST?" /*1,12,100/-  check for price*/,
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 9.3K/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     //Check this section
     open: false,
@@ -776,7 +776,7 @@ export const PaymentFaqData4 = [
   {
     id: 0,
     ques: "What is the total Fee for the Data Science and AI for Managers & Leaders Program?",
-    ans: "The total program fee for the Data Science and AI for Managers & Leaders Program is INR 95,000 + GST.",
+    ans: "The total program fee for the Data Science and AI for Managers & Leaders Program is INR 95,000 + 18% GST.",
     open: true,
   },
   {

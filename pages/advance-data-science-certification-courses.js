@@ -162,7 +162,7 @@ export default function Home() {
         <Fee
           dataScience={true}
           sub1="Data Science & AI For Managers Program"
-          Price1="₹95,000 + GST"
+          Price1="₹95,000 + 18% GST"
           PFeatures11="400+ Hours"
           PFeatures12="Tech Lead, Managers"
           PFeatures13="2"

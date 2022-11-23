@@ -186,7 +186,7 @@ export default function Home() {
           PFeatures16="10"
           PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
           sub2="Data Science & AI For Managers Program"
-          Price2="₹95,000 + GST"
+          Price2="₹95,000 + 18% GST"
           PFeatures21="400+ Hours"
           PFeatures22="Tech Lead, Managers"
           PFeatures23="2"
