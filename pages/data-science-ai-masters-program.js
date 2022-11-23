@@ -44,10 +44,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Data Science and AI Master Program</title>
-        <meta
-          name="description"
-          content="Data Science and AI Master Program"
-        />
+        <meta name="description" content="Data Science and AI Master Program" />
         <link
           rel="canonical"
           href="https://www.learnbay.co/data-science-ai-masters-program"
@@ -151,7 +148,7 @@ export default function Home() {
         />
         <ProgramFee
           Emi="₹ 10,816/month"
-          Fee="₹ 1,10,000 +GST"
+          Fee="₹ 1,10,000 + 18% GST"
           dataScience={true}
         />
         <SliderTab />
@@ -161,7 +158,7 @@ export default function Home() {
         <Fee
           dataScience={true}
           sub1="Advanced Data Science and AI Program"
-          Price1="₹85,000 + GST"
+          Price1="₹85,000 + 18% GST"
           PFeatures11=" 250+ Hours"
           PFeatures12=" Tech/Non-Tech Professionals"
           PFeatures13="2"
@@ -170,7 +167,7 @@ export default function Home() {
           PFeatures16="10"
           PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
           sub2="Data Science and AI Master Program"
-          Price2="₹1,10,000 + GST"
+          Price2="₹1,10,000 + 18% GST"
           PFeatures21=" 500+ Hours"
           PFeatures22="Tech/Non-Tech Professionals"
           PFeatures23="7"

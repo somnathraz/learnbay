@@ -466,7 +466,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
         </div>
         <ProgramFee
           Emi="₹ 9,342/month"
-          Fee="₹ 95,000 +GST"
+          Fee="₹ 95,000 + 18% GST"
           dataScience={true}
         />
         <div className="Feature" id="Feature">

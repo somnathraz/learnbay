@@ -8,7 +8,7 @@ export const viewAllD = [
     para: [
       "200 hours of Interactive Learning",
       "8 Projects + 1 Capstone",
-      "Course Fee : ₹ 65,000 + GST",
+      "Course Fee : ₹ 65,000 + 18% GST",
     ],
     link1: "/data-science-certification-courses",
     link2:
@@ -23,7 +23,7 @@ export const viewAllD = [
     para: [
       "250 hours of Interactive Learning",
       "12 Projects + 1 Capstones",
-      "Course Fee : ₹ 85,000 + GST",
+      "Course Fee : ₹ 85,000 + 18% GST",
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
@@ -68,7 +68,7 @@ export const viewAllD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/data-science-ai-masters-program",
     link2:
@@ -83,7 +83,7 @@ export const viewAllD = [
     para: [
       "180 hours of Interactive Learning",
       "8 Projects",
-      "Course Fee : ₹ 65,000 + GST",
+      "Course Fee : ₹ 65,000 + 18% GST",
     ],
     link1: "/data-analytics-certification-course",
     link2:
@@ -99,7 +99,7 @@ export const viewAllD = [
     para: [
       "200 hours of Interactive Learning",
       "8 Projects",
-      "Course Fee : ₹ 65,000 + GST",
+      "Course Fee : ₹ 65,000 + 18% GST",
     ],
     link1: "/business-analytics-certification-course",
     link2:
@@ -129,7 +129,7 @@ export const viewAllD = [
     para: [
       "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/full-stack-software-development-program",
     link2:
@@ -144,7 +144,7 @@ export const viewAllD = [
     para: [
       "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + GST",
+      "Course Fee : ₹ 70,000 + 18% GST",
     ],
     link1: "/dsa-system-design",
     link2:
@@ -161,7 +161,7 @@ export const ForProgrammersD = [
     para: [
       "250 hours of Interactive Learning",
       "12 Projects + 1 Capstones",
-      "Course Fee : ₹ 85,000 + GST",
+      "Course Fee : ₹ 85,000 + 18% GST",
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
@@ -176,7 +176,7 @@ export const ForProgrammersD = [
     para: [
       "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/full-stack-software-development-program",
     link2:
@@ -236,7 +236,7 @@ export const ForProgrammersD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/data-science-ai-masters-program",
     link2:
@@ -251,7 +251,7 @@ export const ForProgrammersD = [
     para: [
       "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + GST",
+      "Course Fee : ₹ 70,000 + 18% GST",
     ],
     link1: "/dsa-system-design",
     link2:
@@ -268,7 +268,7 @@ export const ForNonProgrammerD = [
     para: [
       "200 hours of Interactive Learning",
       "8 Projects + 1 Capstone",
-      "Course Fee : ₹ 65,000 + GST",
+      "Course Fee : ₹ 65,000 + 18% GST",
     ],
     link1: "/data-science-certification-courses",
     link2:
@@ -283,7 +283,7 @@ export const ForNonProgrammerD = [
     para: [
       "250 hours of Interactive Learning",
       "12 Projects + 1 Capstones",
-      "Course Fee : ₹ 85,000 + GST",
+      "Course Fee : ₹ 85,000 + 18% GST",
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
@@ -328,7 +328,7 @@ export const ForNonProgrammerD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/data-science-ai-masters-program",
     link2:
@@ -344,7 +344,7 @@ export const ForNonProgrammerD = [
     para: [
       "200 hours of Interactive Learning",
       "8 Projects",
-      "Course Fee : ₹ 65,000 + GST",
+      "Course Fee : ₹ 65,000 + 18% GST",
     ],
     link1: "/business-analytics-certification-course",
     link2:
@@ -359,7 +359,7 @@ export const ForNonProgrammerD = [
     para: [
       "180 hours of Interactive Learning",
       "8 Projects",
-      "Course Fee : ₹ 65,000 + GST",
+      "Course Fee : ₹ 65,000 + 18% GST",
     ],
     link1: "/data-analytics-certification-course",
     link2:
@@ -377,7 +377,7 @@ export const JobGuaranteeD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/data-science-ai-masters-program",
     link2:
@@ -424,7 +424,7 @@ export const StackD = [
     para: [
       "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/full-stack-software-development-program",
     link2:
@@ -439,7 +439,7 @@ export const StackD = [
     para: [
       "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + GST",
+      "Course Fee : ₹ 70,000 + 18% GST",
     ],
     link1: "/dsa-system-design",
     link2:
