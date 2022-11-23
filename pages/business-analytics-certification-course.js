@@ -155,7 +155,7 @@ export default function Home() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <ProgramFee
-          Fee="₹  65,000 + GST"
+          Fee="₹  65,000 + 18% GST"
           Emi="₹  6,392/month"
           dataScience={true}
         />

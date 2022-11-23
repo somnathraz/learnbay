@@ -104,7 +104,7 @@ export default function Home() {
             p44="₹ 10,816/month"
           />
         </div>
-        <ProgramFee Fee="₹ 1,10,000 + GST" Emi="₹10,816" fullStack={true} />
+        <ProgramFee Fee="₹ 1,10,000 + 18% GST" Emi="₹10,816" fullStack={true} />
         <div className="Feature" id="Feature">
           <BoxShape
             alt="Full-Stack Software Developer Course In Bangalore"

@@ -162,7 +162,7 @@ export default function Home() {
         />
         <ProgramFee
           Emi="₹ 9,342/month"
-          Fee="₹ 95,000 +GST"
+          Fee="₹ 95,000 + 18% GST"
           dataScience={true}
         />
         <SliderTab />
@@ -172,7 +172,7 @@ export default function Home() {
         <Fee
           dataScience={true}
           sub1="Advanced Data Science and AI Program"
-          Price1="₹85,000 + GST"
+          Price1="₹85,000 + 18% GST"
           PFeatures11=" 250+ Hours"
           PFeatures12=" Tech/Non-Tech Professionals"
           PFeatures13="2"
@@ -191,7 +191,7 @@ export default function Home() {
           PFeatures26="10"
           PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
           sub3="Data Science and AI Master Program"
-          Price3="₹1,10,000 + GST"
+          Price3="₹1,10,000 + 18% GST"
           PFeatures31=" 500+ Hours"
           PFeatures32="Tech/Non-Tech Professionals"
           PFeatures33="7"

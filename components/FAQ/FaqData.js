@@ -303,7 +303,7 @@ export const PaymentFaqData2 = [
   {
     id: 0,
     ques: "What is the total Fee for the Advanced Data Science and AI Program?",
-    ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 85,000 + GST.",
+    ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 85,000 + 18% GST.",
     open: true,
   },
   {
@@ -1013,12 +1013,12 @@ export const PaymentFaqData5 = [
   {
     id: 0,
     ques: "What is the total Fee for the Data Science and AI Master Program?",
-    ans: "The total program fee for the Data Science and AI Master Program is INR ₹1,10,000 + GST.",
+    ans: "The total program fee for the Data Science and AI Master Program is INR ₹1,10,000 + 18% GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for ₹1,10,000 + GST?",
+    ques: "Can I pay in installments for ₹1,10,000 + 18% GST?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11K/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
@@ -1208,12 +1208,12 @@ export const PaymentFaqData6 = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program?",
-    ans: "We offer industry-specific full-stack Data Analytics modules, via which you learn the respective industry’s best practices.The total program fee for the Data Analytics Program is INR 65,000 + GST.",
+    ans: "We offer industry-specific full-stack Data Analytics modules, via which you learn the respective industry’s best practices.The total program fee for the Data Analytics Program is INR 65,000 + 18% GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 65,000 + GST ?",
+    ques: "Can I pay in installments for INR 65,000 + 18% GST ?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
@@ -1563,14 +1563,14 @@ export const PaymentFaqData8 = [
   {
     id: 0,
     ques: "What is the total Fee for the full-stack Web Development program?",
-    ans: "The total program fee for this course is INR 85,000 + GST.",
+    ans: "The total program fee for this course is INR 85,000 + 18% GST.",
 
     open: true,
   },
   {
     id: 1,
     ques: "Can I pay in installments for this Full-stack Web Development program?",
-    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR 8400/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
+    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR 8,358/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -1801,7 +1801,7 @@ export const PaymentFaqData9 = [
   {
     id: 0,
     ques: "What is the total fee for the Advanced Software Development course?",
-    ans: "The total program fee for this course is ,  INR  1,10,000 + GST",
+    ans: "The total program fee for this course is ,  INR  1,10,000 + 18% GST",
 
     open: true,
   },

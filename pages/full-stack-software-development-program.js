@@ -121,7 +121,7 @@ export default function Home() {
           hours="300+ Hours"
           project="12+ Real Time"
         />
-        <ProgramFee Fee="₹ 1,10,000 + GST" Emi="₹10,816" fullStack={true} />
+        <ProgramFee Fee="₹ 1,10,000 + 18% GST" Emi="₹10,816" fullStack={true} />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="12+ Projects" domain="7+" />
         </div>

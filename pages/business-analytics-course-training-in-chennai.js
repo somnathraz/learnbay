@@ -456,7 +456,7 @@ export default function Home() {
           />
         </div>
         <ProgramFee
-          Fee="₹  65,000 + GST"
+          Fee="₹  65,000 + 18% GST"
           Emi="₹  6,392/month"
           dataScience={true}
         />

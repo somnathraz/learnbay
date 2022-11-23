@@ -155,13 +155,13 @@ export default function Home() {
         />
         <ProgramFee
           Emi="₹ 6,391/month"
-          Fee="₹ 65,000 +GST"
+          Fee="₹ 65,000 + 18% GST"
           dataScience={true}
         />
         <Fee
           dataScience={true}
           sub2="Data Science Foundation Certification Program"
-          Price2="₹65,000 + GST"
+          Price2="₹65,000 + 18% GST"
           PFeatures21="200+ Hours"
           PFeatures22="Non-Tech Professional"
           PFeatures23="NA"
@@ -170,7 +170,7 @@ export default function Home() {
           PFeatures26="5"
           PFeatures28="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
           sub1="Advanced Data Science and AI Program"
-          Price1="₹85,000 + GST"
+          Price1="₹85,000 + 18% GST"
           PFeatures11=" 250+ Hours"
           PFeatures12=" Tech/Non-Tech Professionals"
           PFeatures13="2"
@@ -179,7 +179,7 @@ export default function Home() {
           PFeatures16="10"
           PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
           sub3="Data Science and AI Master Program"
-          Price3="₹1,10,000 + GST"
+          Price3="₹1,10,000 + 18% GST"
           PFeatures31=" 500+ Hours"
           PFeatures32="Tech/Non-Tech Professionals"
           PFeatures33="7"
