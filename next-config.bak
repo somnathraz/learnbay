@@ -319,7 +319,7 @@ module.exports = {
       },
       {
         source: '/data-science-course/how-does-data-science-promote-project-Managers-to-a-new-perspective-of-success',
-        destination: 'https://blog.learnbay.co/how-does-data-science-promote-project-managers-to-a-new-perspective-of-success',
+        destination: 'https://blog.learnbay.co/how-does-data-science-promote-project-Managers-to-a-new-perspective-of-success',
         permanent: true,
       },
       {
