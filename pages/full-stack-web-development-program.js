@@ -73,7 +73,7 @@ export default function Home() {
         </Popup>
         <FirstSection
           fullStack={true}
-          deskTopPara="Be a demanding Developer to stay ahead"
+          deskTopPara="Be a demanding Developer to stay ahead" 
           mTopPara="Be a demanding Developer to stay ahead"
           mTitle="Full Stack Web Development Course"
           spanMTitleText="Crack MAANG Interviews"
