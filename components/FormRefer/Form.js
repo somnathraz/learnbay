@@ -262,6 +262,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             onChange={setReferValue}
           />
         </div>
+        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
@@ -269,6 +270,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
         <button type="submit" className={styles.button}>
           {downloadBrochure ? "Download Now" : "Refer Now"}
         </button>
+        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
       </form>
     </div>
   );

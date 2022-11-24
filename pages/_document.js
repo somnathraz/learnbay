@@ -50,9 +50,9 @@ export default function Document() {
               "ratingCount": "12657"
               }
              } `,
-      }}
-    />
-    <script
+          }}
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -70,13 +70,19 @@ export default function Document() {
     "https://www.learnbay.co/"
   ]
 } `,
-}}
-/>
-  </Head>
-  <body>
-    <Main />
-    <NextScript />
-  </body>
-</Html>
-);
+          }}
+        />
+      </Head>
+      <body>
+        <Main />
+        <NextScript />
+        <script
+          type="text/javascript"
+          src="https://crmplus.zoho.in/crm/javascript/zcga.js"
+        >
+          {" "}
+        </script>
+      </body>
+    </Html>
+  );
 }
