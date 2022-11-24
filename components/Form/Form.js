@@ -258,6 +258,7 @@ const Form = ({
         <button type="submit" className={styles.button}>
           {downloadBrochure ? "Download Now" : btnText}{" "}
         </button>
+        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
       </form>
     </div>
   );

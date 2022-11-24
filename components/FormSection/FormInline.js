@@ -276,6 +276,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
         ) : (
           ""
         )}
+        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
@@ -283,6 +284,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
         <button type="submit" className={styles.button}>
           Request A Callback
         </button>
+        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
       </form>
     </div>
   );
