@@ -496,7 +496,7 @@ export default function Home() {
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with 100% job assistance"
+              Course5="Data Science and AI master program"
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Usually, Data scientists that specialize in a particular domain are mostly preferred by hiring Managers since they have a deeper understanding of the industry and the essential business concerns that must be addressed. Moreover, It is impossible to provide accurate insights unless one has a thorough understanding of the domain at hand. Thus, it is important to pick data science and AI courses that have domain electives options. In fact, although the most entry-level data science position is a bit manageable without core domain knowledge, mid to senior-level data scientist roles are not at all secure if you lack specific business knowledge."
               DomainBot2="Learnbay delivers domain-specialized  Data Science Training. Based on your experience, you can select the following domains:"

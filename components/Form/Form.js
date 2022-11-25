@@ -52,7 +52,7 @@ const Form = ({
 
   let endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
   if (event) {
-    endPoint = "https://getform.io/f/69076866-e1f7-4cf3-a7d2-12603819a5a4";
+    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
   }
 
   let btnText = "Apply for Counselling";
@@ -226,28 +226,29 @@ const Form = ({
               />
             </div>
           </div> */}
-          {radio ? (
-        <div className={popup ? styles.formWrappers : styles.formWrapper}>
-        <input
-          id="Data Science Program"
-          value="Data Science Courses"
-          name="platform"
-          required
-          type="radio"
-          onChange={handleParam()}
-        />
-        Data Science Courses&nbsp;
-
-        <br /><input
-          id="Full Stack Program"
-          value="Full Stack Software Dev Courses"
-          name="platform"
-          required
-          type="radio"
-          onChange={handleParam()}
-        />
-        Full Stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
-      </div>
+        {radio ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <input
+              id="Data Science Program"
+              value="Data Science Courses"
+              name="platform"
+              required
+              type="radio"
+              onChange={handleParam()}
+            />
+            Data Science Courses&nbsp;
+            <br />
+            <input
+              id="Full Stack Program"
+              value="Full Stack Software Dev Courses"
+              name="platform"
+              required
+              type="radio"
+              onChange={handleParam()}
+            />
+            Full Stack Software Dev <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
+          </div>
         ) : (
           ""
         )}
@@ -258,7 +259,7 @@ const Form = ({
         <button type="submit" className={styles.button}>
           {downloadBrochure ? "Download Now" : btnText}{" "}
         </button>
-        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
+        <input type="hidden" id="zc_gad" name="zc_gad" value="" />
       </form>
     </div>
   );

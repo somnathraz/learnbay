@@ -477,7 +477,7 @@ export default function Home() {
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course3="Artificial Intelligence & Machine Learning Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with 100% job assistance"
+              Course5="Data Science and AI master program"
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Our domain-specific courses are designed to help students approach data science from a particular angle or industry."
               DomainBot2="A domain-specific data scientist will have a far deeper understanding of the domain and its nuances, as well as the critical business problems that must be handled. Today, recruiters are on the lookout for domain-specific data scientists. Without domain knowledge, one can’t provide the exact analytical insights. Hence, it’s important to choose courses that offer domain electives options."

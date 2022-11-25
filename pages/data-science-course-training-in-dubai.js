@@ -493,7 +493,7 @@ export default function Home() {
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with 100% job assistance"
+              Course5="Data Science and AI master program"
               DomainHead1="Why Domain Specialization?"
               DomainBot1="While the majority of entry-level data science professionals can manage their jobs without domain expertise, mid-level and senior-level data scientists who lack industry understanding face job insecurity in Dubai."
               DomainBot2="Generally, Data scientists are expected to possess industry knowledge to provide an accurate solution to the problems at hand. This is why we have created our data science course modules based on industry to equip our learners with domain-focused knowledge."

@@ -516,7 +516,7 @@ export default function Home() {
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course3="Artificial Intelligence and Machine Learning Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with 100% job assistance"
+              Course5="Data Science and AI master program"
               DomainHead1=" Why is domain specialization important in job-ready  Artificial intelligence training in Bangalore?"
               DomainBot1="Artificial intelligence has a lot of subsets and components. Expertising Artificial intelligence in specific domains gives an edge to your earned AI skills. If you pursue Learnbay Artificial intelligence course training in Bangalore, there are many domains to select from. The options include banking, oil, gas, etc. Every sector or industry has different requirements and work processes. Domain specialization helps you have an extra mark by completing this AI certification course. If you have already earned 4 years of experience in any domain, then in the present scenario, it's almost impossible to successfully switch into an AI career without domain-focused AI skills."
               DomainBot2="Learnbay's mentors and guides suggest the best domain for students after analyzing profiles and students' learning desires."

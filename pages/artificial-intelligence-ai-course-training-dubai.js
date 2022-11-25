@@ -503,7 +503,7 @@ export default function Home() {
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course3="Artificial Intelligence and Machine Learning Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with 100% job assistance"
+              Course5="Data Science and AI master program"
               DomainBot1="Mastering artificial intelligence tools and techniques is not the only thing you need to be successful in this field. It is recommended that learners specialize in a certain area of expertise or Domain before applying for  AI or ML jobs. Besides, domain knowledge helps us achieve a high level of precision and accuracy. Domain specialization not only helps in salary boost but also enables you to handle job duties more efficiently. In one world, domain specialization makes your data science career more sustainable in the real sense."
               DomainBot2="That’s why we have offered different domain electives for our AI courses."
               DomainList1="HR, Sales, and Marketing"

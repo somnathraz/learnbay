@@ -539,8 +539,7 @@ export default function Home() {
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with 100% job assistance"
-
+              Course5="Data Science and AI master program"
               DomainHead1="Why is domain specialization too demanding?"
               DomainBot1="Domain specialization has a significant impact on your job opportunities. It's quite difficult to change a domain after several years of experience. You need to restart your career from zero, which leads to salary as well as designation degradation."
               DomainBot2="But at Learnbay, you can get experience choosing a suitable domain after your profile is thoroughly analyzed by our mentors and experts. Domain-specialized modules are something that can be emphasized through your prior professional experiences. So, while going into the data science field, you will not be considered freshers. So you can expect a promotion in your career in actuality."
@@ -565,7 +564,6 @@ export default function Home() {
               Domainlink8="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
               Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
               Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
-
               CertificationHead1="IBM accredited Best Data Science Training in India-"
               CertificationBot1="Enrolling in Learnbay data science courses in India gives you the unique opportunity to learn and get authorized IBM certificates after completing various course modules. IBM is a worldwide recognized certification that can lead to fantastic employment opportunities"
               CertificationBot2="The best part is that you get a project experience certificate from IBM on the successful completion of data science capstone projects."
@@ -622,8 +620,7 @@ export default function Home() {
               JobHead6="The essential skills for becoming a professional data scientist in India."
               JobBot11="To work as a data scientist, you must be proficient in statistical analysis and computing, machine learning, deep learning, processing substantial data sets, data visualization, data wrangling, programming, and communication. These essential skills and abilities will help you succeed as a professional data scientist."
               ProjectsHead1="Live Industrial Data Science Projects:"
-              ProjectsBot1="Projects serve as the foundation for any form of data science course in India. Keeping the objective in mind, Learnbay offers an opportunity to experience 12+ live industrial projects from different MNCs. All of these projects are designed in such a way that they will prepare you for job interviews and the actual workplace culture as a data scientist. Below are a few of the top-notch data science projects that our students have already completed, so you can get an idea of how it works.
-              Projects serve as the foundation for any form of data science course in India. Keeping the objective in mind, Learnbay offers an opportunity to experience 12+ live industrial projects from different MNCs. All of these projects are designed in such a way that they will prepare you for job interviews and the actual workplace culture as a data scientist. Below are a few of the top-notch data science projects that our students have already completed, so you can get an idea of how it works."
+              ProjectsBot1="Projects serve as the foundation for any form of data science course in India. Keeping the objective in mind, Learnbay offers an opportunity to experience 12+ live industrial projects from different MNCs. All of these projects are designed in such a way that they will prepare you for job interviews and the actual workplace culture as a data scientist. Below are a few of the top-notch data science projects that our students have already completed, so you can get an idea of how it works."
               src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png"
               ProjectsH1="Samsung Health Monitor App"
               Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is an accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
