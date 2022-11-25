@@ -497,7 +497,7 @@ export default function Home() {
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course3="Artificial Intelligence and Machine Learning Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with 100% job assistance"
+              Course5="Data Science and AI master program"
               DomainHead1="Why Domain Specialization?"
               DomainBot1="The ability to specialize in a particular field is essential to succeed in the artificial intelligence job market. AI and ML practitioners have a wide range of responsibilities; hence they must have a thorough understanding of their Domain, as well as artificial intelligence applications and AI & ML tools used in the current workplace."
               DomainBot2="Moreover, applicants with domain expertise are more likely to be considered for the AI and ML positions. This is why you should opt for domain-specific AI certification courses."

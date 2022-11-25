@@ -458,7 +458,7 @@ export default function Home() {
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with 100% job assistance"
+              Course5="Data Science and AI master program"
               DomainHead1="Why Domain Specialization?"
               DomainBot1="In Mumbai, 7 out of 10 job seekers roaming around you hold a data science certification. However, 1 out of these 7 experience a successful data science career switch within one year of course completion."
               DomainBot2="Actually, the data analytics vacancy jobs roles in Mumbai only get filled with such data science professionals that own specific industry-oriented data science knowledge. Without domain expertise and work experience, you can’t offer precise insights or any kind of analytical solutions. Consequently, the recruiters mark your profiles as ‘not a good fit for data scientist positions in Mumbai."

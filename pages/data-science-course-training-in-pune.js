@@ -491,7 +491,7 @@ export default function Home() {
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with 100% job assistance"
+              Course5="Data Science and AI master program"
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Students learning data science at Learnbay get a list of specialized domains. Learnbay mentors analyze a student's profile and then suggest the right domain(s) as choosing the right domain is very important to get successfully employed as a data scientist. The domain helps students learn data science skills with a greater degree of expertise."
               DomainBot2="Many companies are looking for a skilled Data scientist, but at the same time, they want someone who is an expert in a specific domain. Learnbay plays an important role in data science training across Pune from this perspective by allowing students to select their own domain. Also, the data science learning modules you get are completely customized as per your chosen domain’s industry-level data scientific needs."

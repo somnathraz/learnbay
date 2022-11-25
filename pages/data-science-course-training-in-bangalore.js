@@ -528,7 +528,7 @@ export default function Home() {
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with 100% job assistance"
+              Course5="Data Science and AI master program"
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Choosing the correct domain affects your course and career. Our mentors and experts at Learnbay will guide you to choose the right domain after analyzing your profile. Your domain will help you understand the course and project better, and you will excel in the same domain as an expert once you complete advanced Data Science Course In Bangalore by Learnbay. "
               DomainBot2="Moreover, in today's competitive data science job market companies are lacking data scientists having core domain expertise. Just for an example, if you have been appointed as a data scientist in a pharmaceutical company then without the pharma or chemical knowledge you can’t offer the best achievable analytical reports/ insights."

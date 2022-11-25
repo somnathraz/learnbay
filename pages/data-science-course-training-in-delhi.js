@@ -496,7 +496,7 @@ export default function Home() {
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
               Course3="Artificial Intelligence and Machine Learning Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="AI and Data Science Course with 100% job assistance"
+              Course5="Data Science and AI master program"
               DomainHead1="Why Domain Specialization?"
               DomainBot1="6 out of 10 job applicants hold a data science certificate in Delhi. One of these 2 makes a successful data science career transfer within a year of completing a course. Especially when it comes to mid-senior level data scientist roles, then having a generic certificate in data science does not help much. Here, recruiters search for domain-specific data science skills."
               DomainBot2="You can't provide precise insights or analytical solutions without domain understanding and job experience. As a result, recruiters will categorize your profiles as not a good fit for data scientist jobs in Delhi. Learnbay data science courses come with the domain elective options that why the job after the course becomes assured."
