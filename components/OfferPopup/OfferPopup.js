@@ -58,7 +58,7 @@ const OfferPopup = ({
             <>
               {" "} 
       <div className={styles.Offer}>
-        <h6>Special programming session starts from 22nd to 24th November from 8PM to 10PM</h6>
+        <h6>Special programming session starts from 29th to 1st December from 8AM to 10AM</h6>
         {/* <h6>[ Month End Offer- 15% OFF ] Book Your Seat Now</h6> */}
         {/* <p><b>{p1}</b></p> */}
         <p>Available Batch Details :</p>
@@ -69,11 +69,11 @@ const OfferPopup = ({
         </li> */}
         <li>
           <b>Weekday Evening</b>
-          : 25th November, 8 PM to 10 PM
+          : 9th December, 8 PM to 10 PM
         </li>
         <li>
-          <b>Weekend Afternoon</b>
-          : 27th November, 12:30 PM to 4 PM
+          <b>Weekend Morning</b>
+          : 11th December, 8:30 AM to 12 PM
         </li>
         {/* <li><b>{batch3}</b>{batch33}</li> */}
         <p style={{ fontSize: "12px" }}>*Terms & Conditions applied.</p>

@@ -430,12 +430,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Foundational Or Advanced Data Science Course"
-          mTopPara="Foundational Or Advanced Data Science Course"
-          title="Data Science Course Training In Delhi"
-          mTitle="Data Science Course Training In Delhi"
-          spanTitleText="with Domain Specialization"
-          spanMTitleText="Domain Specialization"
+          deskTopPara="Foundational Or Advanced Data Science Course in Delhi"
+          mTopPara="Foundational Or Advanced Data Science Course in Delhi"
+          title="Data Science Course Training In Delhi for"
+          mTitle="Data Science Course Training In Delhi for"
+          spanTitleText="working professionals"
+          spanMTitleText="Working Professionals"
           desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Data Science Training in Delhi on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
@@ -480,7 +480,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramBot1="Learnbay is the premier data scientist training institute in Delhi. We have a very strong team of instructors and mentors owning an industrial experience of more than 8 years. Most of them are from top-tier MNCs. You can benefit from their experience and knowledge throughout the offline and online data science courses. The courses are designed for learners who want to move into a Data Science job from any tech or non-tech domain along with a lucrative salary hike. Learnbay data science courses help you become a successful Data scientist even after having years of experience in other fields. In a nutshell, it's the best place to go for working people who want to learn the most about data science and artificial intelligence. Moreover, you get a series of custom-fit learning modules as per your personal career goal."
+              ProgramBot1="Learnbay offers the best data science course in Delhi. We have a very strong team of instructors and mentors owning an industrial experience of more than 8 years. Most of them are from top-tier MNCs. You can benefit from their experience and knowledge throughout the offline and online data science courses. The courses are designed for learners who want to move into a Data Science job from any tech or non-tech domain along with a lucrative salary hike. Learnbay data science courses help you become a successful Data scientist even after having years of experience in other fields. In a nutshell, it's the best place to go for working people who want to learn the most about data science and artificial intelligence. Moreover, you get a series of custom-fit learning modules as per your personal career goal."
               ProgramBot2="For a balanced learning experience, the Learnbay data science courses for working professionals in Delhi combine practical (core industrial) and theoretical topics in a 70:30 ratio. In Delhi, this institute offers the most cost-effective Data Science classes. The best thing is that you will receive a full-stack data science course and job placement."
               ProgramHead3="Why choose Learnbay advanced Data Science Course In Delhi?"
               ProgramBot3="Because this city is India's capital city, this city is becoming the most significant job hub in India, from the perspective of both government and private jobs. As data science and AI is the most future-proof field, every single business is getting dependent on them. A huge number of options for advanced data science certification courses are available in Delhi. However, when it comes to the question of getting an assured job after completion of the course, then the list becomes too short. Again from the perspective of cost-effectiveness, the list shrinks further. Learnbay's artificial intelligence and data science courses in Delhi are more affordable. Above all, even at a lower price, you get the best data science learning experience possible along with a 100% job assistance."

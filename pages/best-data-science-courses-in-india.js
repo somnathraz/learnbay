@@ -41,7 +41,7 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Best Data Data Science Course in India. Learnbay is the Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
+          content="Best Data Science Course in India. Learnbay is the Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
         />
         <meta
           name="Keywords"
