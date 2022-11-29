@@ -124,13 +124,13 @@ export default function Home() {
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
           popupHead={FullStackWebCourseData[0].popupHead}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf"
-          hours="300+ Hours"
+          hours="200+ Hours"
           project="12+ Real Time"
         />
         <OurExpert
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/1.png"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/9.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/2.png"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/3.png"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/10.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/4.png"
           img5="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/5.png"
           img6="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/6.png"
@@ -142,9 +142,9 @@ export default function Home() {
           img12="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/12.png"
           img13="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/13.png"
           img14="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/14.png"
-          img15="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/1.png"
+          img15="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/9.png"
           img16="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/2.png"
-          img17="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/3.png"
+          img17="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/10.png"
           img18="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/4.png"
           img19="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/5.png"
           img21="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/6.png"

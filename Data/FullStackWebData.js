@@ -72,20 +72,6 @@ export const FullStackWebCourseData = [
                 ],
               },
             },
-            {
-              chap: {
-                title:
-                  "Topic 2 :- Programming Language Refresher: (Java & Python)",
-                desc: [
-                  "Syntax, Data Types, Variables, Loops, Conditionals, and If Statement",
-                  "OOPs, Built-in Modules in Python and Java",
-                  "Coding fundamentals",
-                  "Master the command line interface",
-                  "File Handling, Regular Expression, Exceptional Handling",
-                  "Collection, Framework, Modules & Packages",
-                ],
-              },
-            },
           ],
           id: 0,
           open: true,
@@ -164,13 +150,6 @@ export const FullStackWebCourseData = [
               chap: {
                 title: "Module 1 :- Real-time use cases and projects)",
                 desc: [
-                  "Authentication",
-                  "CRUD",
-                  "Payment Gateway Integration",
-                  "API Integration",
-                  "Video Conferencing Application",
-                  "Blog Site",
-                  "Workout Application",
                   "Buy/Sell Second-hand Products",
                   "On-Demand Home Service Application",
                   "Online Code Editor Application",

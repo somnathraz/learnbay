@@ -455,7 +455,7 @@ export default function Home() {
           mTitle="Data Science Course Training in Hyderabad"
           spanTitleText="with Domain Specialization"
           spanMTitleText="Domain Specialization"
-          desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+          desc="Get Industry-accredited Data Science Training in Hyderabad on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
@@ -499,7 +499,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramBot1="Learnbay Is a premier Data science training institute in Hyderabad for anyone interested in becoming an industry competent data scientist. Learnbay’s IBM certified advanced Data science course in Hyderabad is created with great care by industry specialists. Our professors are Industry-leaders with a decade of experience. Learnbay mentors make sure you learn everything from scratch and according to the complex industrial requirements."
+              ProgramBot1="Learnbay offers data science course in Hyderabad, which is the best data science course in market for anyone interested in becoming an industry competent data scientist. Learnbay’s IBM certified advanced Data science course in Hyderabad is created with great care by industry specialists. Our professors are Industry-leaders with a decade of experience. Learnbay mentors make sure you learn everything from scratch and according to the complex industrial requirements."
               ProgramBot2="Learnbay’s advanced Data science certification in the Hyderabad curriculum helps students learn in-demand Data science skills such as programming, data visualization, statistics, and other topics."
               ProgramHead3="What does candidates get in the  Advanced data science course in Hyderabad?"
               ProgramBot3="For a richer learning experience, Learnbay focuses on providing both practical and theoretical learning modules. Moreover, Our advanced Data science certification in Hyderabad is cost-effective and even offers an MNC interview guarantee. Besides, you can choose a data science course with a 100% job assistance at Learnbay. In case you find yourself too weak in statistics, and you are not able to cope with the complexity of the advanced data science modules, you can opt for the Foundational data science learning module. So Learnbay is able to fulfill every aspirant's data science learning needs in Hyderabad."

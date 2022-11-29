@@ -37,15 +37,15 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Best Data Science Course in India | Best Data Scientist Training India
+          Best Data Science Courses in India | Best Data Scientist Training India
         </title>
         <meta
           name="description"
-          content="Best Data Science Course in India. Learnbay is the Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
+          content="Best Data Science Courses in India. Learnbay is the Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
         />
         <meta
           name="Keywords"
-          content="Best Data Science course in India, Best Data Science training in India, Best Data Science institute in India, Best Data Science institute in India, Best data scientist course in India, Best data scientist certification in India, Best Data Science training institute in India, Best advanced Data Science course in India, Best Data Science course with Placement Assistance, Best Data Science course"
+          content="Best Data Science courses in India, Best Data Science training in India, Best Data Science institute in India, Best Data Science institute in India, Best data scientist course in India, Best data scientist certification in India, Best Data Science training institute in India, Best advanced Data Science course in India, Best Data Science courses with Placement Assistance, Best Data Science courses"
         />
         <link
           rel="canonical"
@@ -79,7 +79,7 @@ export default function Home() {
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Best Data Science Courses in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
+          content="Best Data Science Coursess in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
         />
         <meta
           property="og:image"
@@ -96,11 +96,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemprop="description"
-          content="Best Data Science Courses in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
+          content="Best Data Science Coursess in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
         />
         <meta
           name="twitter:description"
-          content="Best Data Science Courses in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
+          content="Best Data Science Coursess in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
         />
         <meta
           name="twitter:image"
@@ -468,9 +468,9 @@ export default function Home() {
           deskTopPara="Foundational and Advanced Data Science Courses"
           spanTitleText="India"
           spanMTitleText="India"
-          mTitle="Best Data Science Course In"
+          mTitle="Best Data Science Courses In"
           mTopPara="Foundational and Advanced Data Science Courses"
-          title="Best Data Science Course In"
+          title="Best Data Science Courses In"
           desc="Don't just learn. Be eligible to lead everywhere in data science. Learnbay has brought you the best online data science course in India. Become a pro in data science in your chosen domain by practicing 12+ industrial projects under the guidance of industry experts. Stand out from the crowd by enrolling in the Data Science course now!"
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
@@ -516,12 +516,12 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               ProgramHead1="Industry-paced finest data science course in India:-"
-              ProgramBot1="A well-approached educational training is crucial for understanding the industrial direction of data science, and Learnbay offers the best data science courses in India. With their years of experience in the field of data science, they typically provide the best-suited industry-paced training in  Data Science courses, both online and offline."
+              ProgramBot1="A well-approached educational training is crucial for understanding the industrial direction of data science, and Learnbay offers the best data science coursess in India. With their years of experience in the field of data science, they typically provide the best-suited industry-paced training in  Data Science courses, both online and offline."
               ProgramBot2="Learnbay's data science courses have already earned massive hype amongst the working professional community of India. The data science course presented here offers a wide range of specializations and is accessible to anyone with any area of expertise. LearnBay's data science course is one of the best proven industrial training programs and has already gifted a lucrative career transition to more than 10,000 professional strugglers. If you want to be an ever-growing data scientist, then Learnbay can be the ideal place for you. Here, individuals can find the most fantastic data science courses with assurance and advancement."
               ProgramBot3="The data science course in India from Learnbay is developed to address the most recent technological advancements and challenges, ensuring that it is constantly in line with what employers are looking for in data scientists. We provide all the demanding practical experience that is sought by top MNCs through data science courses and certification programs, encouraging a strong belief in and commitment from the enrolled students."
-              ProgramHead4="How does Learnbay become the best data science course in India?"
+              ProgramHead4="How does Learnbay become the best data science courses in India?"
               ProgramHead5="Affordability and Assurance:"
-              ProgramBot5="When it comes to the best data science course in India, the essential factor to consider is affordability and assurance. Being the second most populated country, the Indian job market is extremely competitive. Learnbay provides the best and most affordable data science courses in India, with excellent job placement assistance (interview assurance) and globally recognized certification. So, at the end of the course, you are bound to stay under the spotlight of the current job market skill demand."
+              ProgramBot5="When it comes to the best data science courses in India, the essential factor to consider is affordability and assurance. Being the second most populated country, the Indian job market is extremely competitive. Learnbay provides the best and most affordable data science courses in India, with excellent job placement assistance (interview assurance) and globally recognized certification. So, at the end of the course, you are bound to stay under the spotlight of the current job market skill demand."
               ProgramHead6="Personalized 1:1 attention:"
               ProgramBot6="Additionally, We offer peer-to-peer discussion and doubt clearance sessions with experienced MAANG data scientists."
               ProgramHead7="Flexible subscription and live learning:"
@@ -530,8 +530,8 @@ export default function Home() {
               ProgramBot10="All of Learnbay's data science projects include the special feature of a cloud lab, where one can easily sign up and access real data science projects from MNCs and assistance from leading industry professionals."
               ProgramHead16="Domain Specialization:"
               ProgramBot14="The magic key of Learnbay data science courses in India is the domain-specialized modules. This is the prime feature that has already helped 10K+ professionals to land a successful career transition even after 7+ years of massive career dissatisfaction."
-              ProgramBot15="So, these are the key features that make the Learnbay training course with domain specialization the best data science course in India."
-              ProgramHead11="Here are some of the best Data Science Courses in India from Learnbay:"
+              ProgramBot15="So, these are the key features that make the Learnbay training course with domain specialization the best data science courses in India."
+              ProgramHead11="Here are some of the best Data Science Coursess in India from Learnbay:"
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"
               Courselink4="/data-science-ai-for-managers"
@@ -608,7 +608,7 @@ export default function Home() {
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
               JobHead1="Job assistance and interview preparation through the best Data science training in India."
-              JobBot1="Jobs are now the learner's primary priority when enrolling in any data science course in India. With Learnbay's best data science courses in India, you will be offered unlimited interview call assurance within a specific domain. You will be prepared through practice interviews, software skill development, and resume building."
+              JobBot1="Jobs are now the learner's primary priority when enrolling in any data science course in India. With Learnbay's best data science coursess in India, you will be offered unlimited interview call assurance within a specific domain. You will be prepared through practice interviews, software skill development, and resume building."
               JobBot2="The majority of students who have opted for data science courses from Learnbay were hired by top MNCs like TCS, Amazon, JP Morgan, etc., even with a 250% salary hike."
               JobHead2="Is it worthwhile to opt for working as a Data scientist in India?"
               JobBot3="There are many benefits to working as a data scientist in India. Due to the high demand for data scientists, businesses are willing to pay the highest pay for skilled data scientists. Data science is also a flexible discipline with a bright future. Businesses rely heavily on data scientists to create smart, useful goods and services. Being a data scientist is a fulfilling and enjoyable job that has the potential to change the world."
@@ -633,7 +633,7 @@ export default function Home() {
               src4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
               Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
-              AlumniBot1="Learnbay has assisted 10K+ professionals in recent years with fulfilling their potential and providing a wonderful career outlook, which has helped them become excellent data scientists. Below are a few of our alums who have undergone their experience through Learnbay's best data science course in India and had a great career."
+              AlumniBot1="Learnbay has assisted 10K+ professionals in recent years with fulfilling their potential and providing a wonderful career outlook, which has helped them become excellent data scientists. Below are a few of our alums who have undergone their experience through Learnbay's best data science courses in India and had a great career."
               Asrc1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/devraj.jpg"
               AlumniH1="Deveraj"
               Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."

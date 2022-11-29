@@ -465,12 +465,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Foundational and Advanced Data Science Courses"
-          spanTitleText="Bangalore"
-          spanMTitleText="Bangalore"
-          mTitle="Data Science Course in"
-          mTopPara="Foundational and Advanced Data Science Courses"
-          title="Data Science Course in"
+          deskTopPara="Foundational and Advanced Data Science Courses in Bangalore"
+          spanTitleText="Working Professionals"
+          spanMTitleText="Working Professionals"
+          mTitle="Data Science Certification Training in Bangalore for"
+          mTopPara="Foundational and Advanced Data Science Courses in Bangalore"
+          title="Data Science Certification Training in Bangalore for"
           desc="Get Industry-accredited Data Science Training in Bangalore on utilizing your existing domain knowledge in the data science field via fresh industrial capstones. Acquire the weight of an experienced candidate even at your first data science job with this data science course in bangalore."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"

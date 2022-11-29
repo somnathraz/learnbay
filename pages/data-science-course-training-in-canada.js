@@ -431,12 +431,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Foundational or Advanced Job-oriented Program"
-          mTopPara="Foundational or Advanced Job-oriented Program"
-          spanTitleText="with Domain Specialization"
-          spanMTitleText="Domain Specialization"
-          mTitle="Data Science Course Training In Canada"
-          title="Data Science Course Training In Canada"
+          deskTopPara="Foundational or Advanced Job-oriented Course  in Canada"
+          mTopPara="Foundational or Advanced Job-oriented Course  in Canada"
+          spanTitleText="Working Professionals"
+          spanMTitleText="Working Professionals"
+          mTitle="Data Science Course Training In Canada for"
+          title="Data Science Course Training In Canada for"
           desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Data Science Training in Canada on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
@@ -482,7 +482,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               ProgramHead1="What is the data science course training in Canada?"
-              ProgramBot1="Learnbay is the premier institute offering data science and AI courses in Canada which are intended for working professionals. The data science course in Canada is built by experts with real-life experience and touchpoints to every aspect of data science."
+              ProgramBot1="Learnbay is the premier institute offering data science course in Canada which are intended for working professionals. The data science course in Canada is built by experts with real-life experience and touchpoints to every aspect of data science."
               ProgramBot2="Our trainers ensure that you receive the complete theoretical and practical training to become an industry-competent data scientist in Canada. With our training, learning data science will be a piece of cake. The data science course with placement is the equivalent of a 9-months course taught through live interactive classes."
               ProgramBot3="In this course, you'll learn how to set up and manage a data science project. Learnbay’s instructor-led classes provide a hands-on approach and real-world examples of how to apply data science to big data analysis. You'll also learn how to generate insights from raw data and use powerful tools like Python, Pandas, NumPy, and SciPy."
               ProgramHead4="Why choose Learnbay for your Data Science Course in Canada?"
