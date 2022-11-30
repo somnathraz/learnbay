@@ -681,6 +681,11 @@ module.exports = {
         destination: 'https://www.learnbay.co/',
         permanent: true,
       },
+      {
+        source: '/data-science-course/model-vs-algorithm-in-ml',
+        destination: 'https://blog.learnbay.co/model-vs-algorithm-in-ml',
+        permanent: true,
+      },
     ]
   },
 }
