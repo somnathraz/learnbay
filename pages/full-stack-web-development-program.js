@@ -180,9 +180,9 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData8}
           SupportFaqDatas={SupportFaqData8}
         />
-        <LearnSupport FsdNumber={true} />
+        <LearnSupport />
         <OfferPopup offer={true} />
-        <Footer FsdNumber={true} />
+        <Footer />
       </main>
     </div>
   );
