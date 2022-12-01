@@ -1218,7 +1218,7 @@ export const PaymentFaqData6 = [
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
-    open: false,
+    open: false, 
   },
   {
     id: 2,
