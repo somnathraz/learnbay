@@ -1182,7 +1182,7 @@ export const FaqData6 = [
     Weekday batch – 5 months, Monday to Friday – 2 hours/day,
     Weekend batch – 6.5 months, Saturday & Sunday – 3.5 hours/day.`,
     open: false,
-  },
+  }, 
   {
     id: 4,
     ques: "What is the mode of Data Analytics training at Learnbay?",
