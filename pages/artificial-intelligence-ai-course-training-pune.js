@@ -259,7 +259,7 @@ export default function Home() {
  "name": "What is the total fee for Learnbay AI Certifications courses in Pune?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total course fee for the Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST. Advance Data Science and AI Certification course is 93,220/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST. Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST. Machine learning and AI Certification is 1,12,100/-inclusive of GST."
+ "text": "The total course fee for the Foundational Data Science and Artificial Intelligence Training Course is 82,600/- inclusive of GST. Advance Data Science and AI Certification course is 93,220/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST. Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST. Machine learning and AI Certification is 1,12,100/-inclusive of GST."
  }
  },{
  "@type": "Question",
@@ -460,12 +460,12 @@ export default function Home() {
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 9,342/month"
+            p44="₹ 9,833/month"
           />
         </div>
         <ProgramFee
-          Emi="₹ 9,342/month"
-          Fee="₹ 95,000 + 18% GST"
+          Emi="₹ 9,833/month"
+          Fee="₹ 1,00,000 + 18% GST"
           dataScience={true}
         />
         <div className="Feature" id="Feature">

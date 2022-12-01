@@ -207,11 +207,11 @@ export default function Home() {
  "name": "What is the total fee for the Business Analytics Program in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total program fee for the Business Analytics Program is INR 76,700/- inclusive of GST."
+ "text": "The total program fee for the Business Analytics Program is INR 82,600/- inclusive of GST."
  }
  },{
  "@type": "Question",
- "name": "Can I pay in installments for INR 76,700/-?",
+ "name": "Can I pay in installments for INR 82,600/-?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.Please check with our sales team to know more +917795687988"
@@ -402,12 +402,12 @@ export default function Home() {
             p3="1:1"
             p33="Career Support"
             p4="Financing as low as"
-            p44="₹  6,392/month"
+            p44="₹  6,883/month"
           />
         </div>
         <ProgramFee
-          Fee="₹  65,000 + 18% GST"
-          Emi="₹  6,392/month"
+          Fee="₹  70,000 + 18% GST"
+          Emi="₹  6,883/month"
           dataScience={true}
         />
         <div className="Feature" id="Feature">
