@@ -75,8 +75,8 @@ const CourseFee = ({
                   <b>Batch Type</b>
                 </p>
                 {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
-                <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
-                <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
+                <p className={styles.list}>Weekday Evening (Mon-Wed-Fri)</p>
+                <p className={styles.list}>Weekend Evening (Sat-Sun)</p>
               </div>
             </div>
             <div>
@@ -86,8 +86,8 @@ const CourseFee = ({
                   <b>Date</b>
                 </p>
                 {/* <p className={styles.list}>4th September 2022</p> */}
-                <p className={styles.list}>28th November 2022</p>
-                <p className={styles.list}>29th November 2022</p>
+                <p className={styles.list}>16th December 2022</p>
+                <p className={styles.list}>18th December 2022</p>
               </div>
             </div>
             <div>
@@ -97,8 +97,8 @@ const CourseFee = ({
                   <b>Time</b>
                 </p>
                 {/* <p className={styles.list}>8 AM to 12 PM</p> */}
-                <p className={styles.list}>8 PM to 10 PM</p>
-                <p className={styles.list}>8 PM to 10:30 PM (TTS) (NP)</p>
+                <p className={styles.list}>8 PM to 10:30 PM</p>
+                <p className={styles.list}>12:30 PM to 4 PM</p>
 
               </div>
             </div>
