@@ -1169,7 +1169,7 @@ export const FaqData6 = [
   },
   {
     id: 2,
-    ques: "What is a Flexi Subscription in the Data Analytics Program?",
+    ques: "What is a Flexi Subscription in the Data Analytics Program?", 
     ans: `Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
