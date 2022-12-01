@@ -909,7 +909,7 @@ export const AnalyticsPaymentFaqDataM = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     //Text
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
@@ -1094,7 +1094,7 @@ export const BusinessAPaymentFaqDataM = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 82,600/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -2124,7 +2124,7 @@ export const AnalyticsPaymentFaqDataH = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -2305,7 +2305,7 @@ export const BusinessAPaymentFaqDataH = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 82,600/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -3327,7 +3327,7 @@ export const AnalyticsPaymentFaqDataB = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -3508,7 +3508,7 @@ export const BusinessAPaymentFaqDataB = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 82,600/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -4538,7 +4538,7 @@ export const AnalyticsPaymentFaqDataC = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -4719,7 +4719,7 @@ export const BusinessAPaymentFaqDataC = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 82,600/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -5753,7 +5753,7 @@ export const AnalyticsPaymentFaqDataCa = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -5935,7 +5935,7 @@ export const BusinessAPaymentFaqDataCa = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 82,600/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -6969,7 +6969,7 @@ export const AnalyticsPaymentFaqDataD = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -7150,7 +7150,7 @@ export const BusinessAPaymentFaqDataD = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 82,600/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -8188,7 +8188,7 @@ export const AnalyticsPaymentFaqDataDu = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -8369,7 +8369,7 @@ export const BusinessAPaymentFaqDataDu = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 82,600/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -9404,7 +9404,7 @@ export const AnalyticsPaymentFaqDataP = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -9585,7 +9585,7 @@ export const BusinessAPaymentFaqDataP = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 82,600/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,

@@ -210,7 +210,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
  "name": "Can I pay in installments for INR 70,800/-?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
+ "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
  }
  },{
  "@type": "Question",
@@ -344,7 +344,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
 "highPrice": "110000",
 "url" : "https://www.learnbay.co/",
 "availability" : "https://schema.org/InStock",
-"price": "65000",
+"price": "70,000",
 "priceCurrency": "INR",
 "validFrom": "2022-05-01"},
 "startDate":"2022-05-01",
@@ -418,11 +418,11 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
             p3="1:1"
             p33="Career Support"
             p4="Financing as low as"
-            p44="₹ 6,883/month"
+            p44="₹ 13,766/month"
           />
         </div>
         <ProgramFee
-          Emi="₹ 6,883/month"
+          Emi="₹ 13,766/month"
           Fee="₹ 70,000 + 18% GST"
           dataScience={true}
         />

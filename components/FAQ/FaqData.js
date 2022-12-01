@@ -1169,7 +1169,7 @@ export const FaqData6 = [
   },
   {
     id: 2,
-    ques: "What is a Flexi Subscription in the Data Analytics Program?",
+    ques: "What is a Flexi Subscription in the Data Analytics Program?", 
     ans: `Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
@@ -1182,7 +1182,7 @@ export const FaqData6 = [
     Weekday batch – 5 months, Monday to Friday – 2 hours/day,
     Weekend batch – 6.5 months, Saturday & Sunday – 3.5 hours/day.`,
     open: false,
-  },
+  }, 
   {
     id: 4,
     ques: "What is the mode of Data Analytics training at Learnbay?",
@@ -1214,11 +1214,11 @@ export const PaymentFaqData6 = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,000 + 18% GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
-    open: false,
+    open: false, 
   },
   {
     id: 2,
@@ -1384,13 +1384,13 @@ export const PaymentFaqData7 = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program?",
-    ans: "The total program fee for the Business Analytics Program is INR 65000 + GST.",
+    ans: "The total program fee for the Business Analytics Program is INR 70,000 + GST.",
     open: true,
   },
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,000/- + GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
