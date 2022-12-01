@@ -95,7 +95,7 @@ export default function Home() {
             p3="1:1"
             p33="Career Support"
             p4="Financing as low as"
-            p44="₹ 6,883/month"
+            p44="₹ 13,766/month"
           />
         </div>
         <div className="Feature" id="Feature">
@@ -156,7 +156,7 @@ export default function Home() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <ProgramFee
-          Emi="₹ 6,883/month"
+          Emi="₹ 13,766/month"
           Fee="₹ 70,000 + 18% GST"
           dataScience={true}
         />

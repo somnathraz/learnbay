@@ -95,7 +95,7 @@ export default function Home() {
             p3="1:1"
             p33="Career Support"
             p4="Financing as low as"
-            p44="₹  6,883/month"
+            p44="₹  13,766/month"
           />
         </div>
         <div className="Feature" id="Feature">
@@ -156,7 +156,7 @@ export default function Home() {
         />
         <ProgramFee
           Fee="₹  70,000 + 18% GST"
-          Emi="₹  6,883/month"
+          Emi="₹  13,766/month"
           dataScience={true}
         />
         <div className={styles.ProjectWrapper} id="project">

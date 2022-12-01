@@ -1214,7 +1214,7 @@ export const PaymentFaqData6 = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,000 + 18% GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -1384,13 +1384,13 @@ export const PaymentFaqData7 = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program?",
-    ans: "The total program fee for the Business Analytics Program is INR 65000 + GST.",
+    ans: "The total program fee for the Business Analytics Program is INR 70,000 + GST.",
     open: true,
   },
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,000/- + GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8K/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,

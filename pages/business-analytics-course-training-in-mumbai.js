@@ -210,7 +210,7 @@ export default function Home() {
  "name": "Can I pay in installments for INR 82,600/-?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more +917795687988"
+ "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more +917795687988"
  }
  },{
  "@type": "Question",
@@ -323,7 +323,7 @@ export default function Home() {
 "highPrice": "110000",
 "url" : "https://www.learnbay.co/",
 "availability" : "https://schema.org/InStock",
-"price": "65000",
+"price": "70,000",
 "priceCurrency": "INR",
 "validFrom": "2022-05-01"},
 "startDate":"2022-05-01",
@@ -397,12 +397,12 @@ export default function Home() {
             p3="1:1"
             p33="Career Support"
             p4="Financing as low as"
-            p44="₹  6,883/month"
+            p44="₹  13,766/month"
           />
         </div>
         <ProgramFee
           Fee="₹  70,000 + 18% GST"
-          Emi="₹  6,883/month"
+          Emi="₹  13,766/month"
           dataScience={true}
         />
         <div className="Feature" id="Feature">
