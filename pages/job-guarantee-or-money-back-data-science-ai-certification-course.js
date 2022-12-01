@@ -96,7 +96,7 @@ export default function Home() {
             p3="1:1"
             p33="Career Support"
             p4="Financing as low as"
-            p44="₹ 10,816/month"
+            p44="₹ 11,800/month"
           />
         </div>
         <div className="Feature" id="Feature">
@@ -150,8 +150,8 @@ export default function Home() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <ProgramFee
-          Emi="₹ 10,816/month"
-          Fee="₹ 1,10,000 + 18% GST"
+          Emi="₹ 11,800/month"
+          Fee="₹ 1,20,000 + 18% GST"
           dataScience={true}
         />
         <SliderTab />
@@ -161,7 +161,7 @@ export default function Home() {
         <Fee
           dataScience={true}
           sub1="Advanced Data Science and AI Program"
-          Price1="₹85,000 + 18% GST"
+          Price1="₹90,000 + 18% GST"
           PFeatures11=" 250+ Hours"
           PFeatures12=" Tech/Non-Tech Professionals"
           PFeatures13="2"
@@ -170,7 +170,7 @@ export default function Home() {
           PFeatures16="10"
           PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
           sub2="Data Science and AI Master Program"
-          Price2="₹1,10,000 + 18% GST"
+          Price2="₹1,20,000 + 18% GST"
           PFeatures21=" 500+ Hours"
           PFeatures22="Tech/Non-Tech Professionals"
           PFeatures23="7"
@@ -179,7 +179,7 @@ export default function Home() {
           PFeatures26="Unlimited"
           PFeatures28="Project Manager, Team Lead, Project Lead, Project Head, Etc."
           sub3="Data Science & AI For Managers Program"
-          Price3="₹95,000 + 18% GST"
+          Price3="₹1,00,000 + 18% GST"
           PFeatures31="400+ Hours"
           PFeatures32="Tech Lead, Managers"
           PFeatures33="2"

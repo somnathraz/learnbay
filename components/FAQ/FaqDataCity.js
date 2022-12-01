@@ -111,7 +111,7 @@ export const AdvancePaymentFaqDataM = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Mumbai?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
+    Foundational Data Science and AI Training course is 82,600/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -406,7 +406,7 @@ export const ArtificialPaymentFaqDataM = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Mumbai?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
+    Foundational Data Science and Artificial Intelligence Training Course is 82,600/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
@@ -909,7 +909,7 @@ export const AnalyticsPaymentFaqDataM = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     //Text
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
@@ -1088,12 +1088,12 @@ export const BusinessAPaymentFaqDataM = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Mumbai?",
-    ans: `The total program fee for the Business Analytics Program is INR  76,700/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  82,600/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 76,700/-?",
+    ques: "Can I pay in installments for INR 82,600/-?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
@@ -1322,7 +1322,7 @@ export const AdvancePaymentFaqDataH = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Hyderabad?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
+    Foundational Data Science and AI Training course is 82,600/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -1619,7 +1619,7 @@ export const ArtificialPaymentFaqDataH = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Hyderabad?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
+    Foundational Data Science and Artificial Intelligence Training Course is 82,600/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
@@ -2124,7 +2124,7 @@ export const AnalyticsPaymentFaqDataH = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -2299,12 +2299,12 @@ export const BusinessAPaymentFaqDataH = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Hyderabad?",
-    ans: `The total program fee for the Business Analytics Program is INR  76,700/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  82,600/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 76,700/-?",
+    ques: "Can I pay in installments for INR 82,600/-?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
@@ -2533,7 +2533,7 @@ export const AdvancePaymentFaqDataB = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Bangalore?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
+    Foundational Data Science and AI Training course is 82,600/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -2819,7 +2819,7 @@ export const ArtificialPaymentFaqDataB = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Bangalore?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
+    Foundational Data Science and Artificial Intelligence Training Course is 82,600/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
@@ -3327,7 +3327,7 @@ export const AnalyticsPaymentFaqDataB = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -3502,12 +3502,12 @@ export const BusinessAPaymentFaqDataB = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Bangalore?",
-    ans: `The total program fee for the Business Analytics Program is INR  76,700/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  82,600/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 76,700/-?",
+    ques: "Can I pay in installments for INR 82,600/-?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
@@ -3740,7 +3740,7 @@ export const AdvancePaymentFaqDataC = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Chennai?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
+    Foundational Data Science and AI Training course is 82,600/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -4033,7 +4033,7 @@ export const ArtificialPaymentFaqDataC = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Chennai?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
+    Foundational Data Science and Artificial Intelligence Training Course is 82,600/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
@@ -4538,7 +4538,7 @@ export const AnalyticsPaymentFaqDataC = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -4713,12 +4713,12 @@ export const BusinessAPaymentFaqDataC = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Chennai?",
-    ans: `The total program fee for the Business Analytics Program is INR  76,700/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  82,600/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 76,700/-?",
+    ques: "Can I pay in installments for INR 82,600/-?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
@@ -4951,7 +4951,7 @@ export const AdvancePaymentFaqDataCa = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Canada?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
+    Foundational Data Science and AI Training course is 82,600/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -5246,7 +5246,7 @@ export const ArtificialPaymentFaqDataCa = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Canada?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
+    Foundational Data Science and Artificial Intelligence Training Course is 82,600/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
@@ -5753,7 +5753,7 @@ export const AnalyticsPaymentFaqDataCa = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -5929,12 +5929,12 @@ export const BusinessAPaymentFaqDataCa = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Canada?",
-    ans: `The total program fee for the Business Analytics Program is INR  76,700/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  82,600/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 76,700/-?",
+    ques: "Can I pay in installments for INR 82,600/-?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
@@ -6168,7 +6168,7 @@ export const AdvancePaymentFaqDataD = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Delhi?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
+    Foundational Data Science and AI Training course is 82,600/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -6462,7 +6462,7 @@ export const ArtificialPaymentFaqDataD = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Delhi?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
+    Foundational Data Science and Artificial Intelligence Training Course is 82,600/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
@@ -6969,7 +6969,7 @@ export const AnalyticsPaymentFaqDataD = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -7144,12 +7144,12 @@ export const BusinessAPaymentFaqDataD = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Delhi?",
-    ans: `The total program fee for the Business Analytics Program is INR  76,700/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  82,600/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 76,700/-?",
+    ques: "Can I pay in installments for INR 82,600/-?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
@@ -7386,7 +7386,7 @@ export const AdvancePaymentFaqDataDu = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Dubai?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
+    Foundational Data Science and AI Training course is 82,600/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -7680,7 +7680,7 @@ export const ArtificialPaymentFaqDataDu = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Dubai?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
+    Foundational Data Science and Artificial Intelligence Training Course is 82,600/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
@@ -8188,7 +8188,7 @@ export const AnalyticsPaymentFaqDataDu = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -8363,12 +8363,12 @@ export const BusinessAPaymentFaqDataDu = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Dubai?",
-    ans: `The total program fee for the Business Analytics Program is INR  76,700/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  82,600/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 76,700/-?",
+    ques: "Can I pay in installments for INR 82,600/-?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
@@ -8602,7 +8602,7 @@ export const AdvancePaymentFaqDataP = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Pune?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
+    Foundational Data Science and AI Training course is 82,600/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -8897,7 +8897,7 @@ export const ArtificialPaymentFaqDataP = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Pune?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 76,700/- inclusive of GST.
+    Foundational Data Science and Artificial Intelligence Training Course is 82,600/- inclusive of GST.
     Advance Data Science and  AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
@@ -9404,7 +9404,7 @@ export const AnalyticsPaymentFaqDataP = [
   {
     id: 1,
     ques: "Can I pay in installments for INR 70,800/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 11.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -9579,12 +9579,12 @@ export const BusinessAPaymentFaqDataP = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Pune?",
-    ans: `The total program fee for the Business Analytics Program is INR  76,700/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  82,600/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 76,700/-?",
+    ques: "Can I pay in installments for INR 82,600/-?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12.8k/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
@@ -11833,8 +11833,6 @@ export const FullStackSupportFaqDataM = [
   },
 ];
 
-
-
 //  Course Best data science course training in India
 
 export const AdvanceFaqDataI = [
@@ -11948,7 +11946,7 @@ export const AdvancePaymentFaqDataI = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in India?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 76,700/- inclusive of GST.
+    Foundational Data Science and AI Training course is 82,600/- inclusive of GST.
     Advance Data Science and AI Certification course is 93,220/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,

@@ -453,12 +453,12 @@ export default function Home() {
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 9,342/month"
+            p44="₹ 9,833/month"
           />
         </div>
         <ProgramFee
-          Emi="₹ 9,342/month"
-          Fee="₹ 95,000 + 18% GST"
+          Emi="₹ 9,833/month"
+          Fee="₹ 1,00,000 + 18% GST"
           dataScience={true}
         />
         <div className="Feature" id="Feature">
@@ -495,7 +495,7 @@ export default function Home() {
               ProgramHead7="Dedicated support to weak programmers:"
               ProgramBot7="Learnbay machine learning training program in Mumbai is specified for candidates with technical backgrounds. But it does not mean that everyone comes with a python or R programming expertise when joining the course. In fact, the lack of programming expertise is a key reason why a number of certified machine learning candidates in Mumbai are still jobless."
               ProgramBot8="Learnbay offers additional programming skills honing sessions with preparatory python and R classes along with exclusive hackathons."
-              ProgramBot9="The machine learning course fee of this featured program in Mumbai is 95,000 INR."
+              ProgramBot9="The machine learning course fee of this featured program in Mumbai is 1,00,000 INR."
               ProgramHead8="The course is also IBM certified."
               ProgramBot10="Know More about our Artificial Intelligence and Machine Learning Training Program in Mumbai"
               DomainHead1="Why Domain Specialization?"
@@ -563,7 +563,7 @@ export default function Home() {
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
-              JobBot1="Our aim is to provide assured placement to all of our students. But we believe that only a set of referrals is not the actual job assistance that our students need. Even that can’t assure the placement success rate. We provide end-to-end machine learning job interview sessions by MAANG ML experts. Such sessions are divided into several company-specific mock interviews, 1-on-1 resume help, and ML project portfolio guidance. We promise a 100% ML interview guarantee. "  
+              JobBot1="Our aim is to provide assured placement to all of our students. But we believe that only a set of referrals is not the actual job assistance that our students need. Even that can’t assure the placement success rate. We provide end-to-end machine learning job interview sessions by MAANG ML experts. Such sessions are divided into several company-specific mock interviews, 1-on-1 resume help, and ML project portfolio guidance. We promise a 100% ML interview guarantee. "
               JobBot5="We have an active recruitment channel with 250+ top hiring partners across Mumbai and all over India. A few of the big names are Fractal, Accenture, SAP, etc."
               ProjectsBot1="Keeping the high significance of real-world industrial experience in achieving a lucrative ML job, we have included 15-live MNC projects and 2 fresh idea-driven capstone projects in the artificial intelligence and machine learning course in Mumbai. You can choose your projects as per your domain expertise. The project is thoroughly expert-guided. So you can easily learn the industry-specific ML best practices, tips, and tricks directly from MNC ML experts. Premium Cloud lab access further helps you observe top MNCs' data handling and analytical processes."
               src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png"

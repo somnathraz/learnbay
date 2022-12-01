@@ -37,7 +37,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Best Data Science Courses in India | Best Data Scientist Training India
+          Best Data Science Courses in India | Best Data Scientist Training
+          India
         </title>
         <meta
           name="description"
@@ -300,7 +301,7 @@ export default function Home() {
  "name": "What is the total fee for Data Science Certifications courses in India?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total course fee for the Foundational Data Science and AI Training course is 76,700/- inclusive of GST. Advance Data Science and AI Certification course is 93,220/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST."
+ "text": "The total course fee for the Foundational Data Science and AI Training course is 82,600/- inclusive of GST. Advance Data Science and AI Certification course is 93,220/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST."
  }
  },{
  "@type": "Question",
