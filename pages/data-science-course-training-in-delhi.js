@@ -47,6 +47,45 @@ export default function Home() {
           name="Keywords"
           content="data science course in Delhi, data science training in Delhi, data science institute in Delhi, best data science institute in Delhi, data scientist course in Delhi,data scientist certification in Delhi, data science training institute in Delhi, advanced data science course in Delhi, data science course with Placement Assistance, data science course"
         />
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/data-science-course-training-in-delhi"
+        />
+        <meta
+          property="og:title"
+          content="Data Science Course in Delhi | Data Science Training in Delhi"
+        />
+        <meta property="og:site_name" content="learnbay.co" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:description"
+          content="Data science course in Delhi. Learnbay is Advanced Data Science Course Training Institute in Delhi. Data science course in Delhi will enhance your career"
+        />
+        <meta
+          property="og:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
+        <meta property="og:image:height" content="100" />
+        <meta property="og:image:width" content="256" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta
+          name="twitter:title"
+          content="Data Science Course in Delhi | Data Science Training in Delhi"
+        />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          itemprop="description"
+          content="Data science course in Delhi. Learnbay is Advanced Data Science Course Training Institute in Delhi. Data science course in Delhi will enhance your career"
+        />
+        <meta
+          name="twitter:description"
+          content="Data science course in Delhi. Learnbay is Advanced Data Science Course Training Institute in Delhi. Data science course in Delhi will enhance your career"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
         <link
           rel="canonical"
           href="https://www.learnbay.co/data-science-course-training-in-delhi"

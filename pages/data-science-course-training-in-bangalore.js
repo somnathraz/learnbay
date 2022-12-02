@@ -73,13 +73,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course in Bangalore | Data Scientist Training In Bangalore - Learnbay"
+          content="Data Science Course Training In Bangalore with Placement Assistance"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Best Data Science Courses in Bangalore. Learnbay is the Best Data Scientist Certification Course Training Institute in Bangalore with 100% Placement assistance and offers an advanced data scientist training in Bangalore."
+          content="Data Science Course Bangalore. We are Advanced Data Science Course Certification Training Institute in Bangalore. Data science course will enhance your career."
         />
         <meta
           property="og:image"
@@ -91,16 +91,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in Bangalore | Data Scientist Training In Bangalore - Learnbay"
+          content="Data Science Course Training In Bangalore with Placement Assistance"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemprop="description"
-          content="Best Data Science Courses in Bangalore. Learnbay is the Best Data Scientist Certification Course Training Institute in Bangalore with 100% Placement assistance and offers an advanced data scientist training in Bangalore."
+          content="Data Science Course Bangalore. We are Advanced Data Science Course Certification Training Institute in Bangalore. Data science course will enhance your career."
         />
         <meta
           name="twitter:description"
-          content="Best Data Science Courses in Bangalore. Learnbay is the Best Data Scientist Certification Course Training Institute in Bangalore with 100% Placement assistance and offers an advanced data scientist training in Bangalore."
+          content="Data Science Course Bangalore. We are Advanced Data Science Course Certification Training Institute in Bangalore. Data science course will enhance your career."
         />
         <meta
           name="twitter:image"
@@ -516,7 +516,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               ProgramHead1="Industrial Data science training in Bangalore-"
-              ProgramBot1="Learnbay is the best Data Scientist training institute in Bangalore. Our faculties are industrial experts from top-notch MNCs. They share their experience and knowledge throughout their offline and online Data science courses. The courses are custom-designed for learners who want to shift into a Data Science Career, even after working in any domain for years. In one word, it's the ultimate destination where you can find the best foundational and advanced Data science courses for working professionals."
+              ProgramBot1="Learnbay is the best data science training institute in Bangalore. Our faculties are  data science industrial experts from top-notch MNCs. They share their experience and knowledge throughout their offline and online Data science courses. The courses are custom-designed for learners who want to shift into a Data Science Career, even after working in any domain for years. In one word, it's the ultimate destination where you can find the best foundational and advanced Data science courses for working professionals."
               ProgramBot2="The Learnbay Data science course for working professionals in Bangalore implies practical knowledge and theoretical concepts for balanced learning. This institute offers the best value in Data Science certification programs available across Bangalore. So that aspirants can build a strong future in data science. Learnbay Data Science training in Bangalore is created and designed to meet industrial and organizational needs changes."
               ProgramHead3="Why is Learnbay the best institute for advanced  Data Science courses in Bangalore?"
               ProgramBot3="Here, you get hassle-free live classes and multiple instructors. You also get a Data science course with a placement assistance and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. All of their Data science course in Bangalore has 1 on 1 live doubt clearance sessions from experienced FAANG Data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads."

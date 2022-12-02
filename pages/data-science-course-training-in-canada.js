@@ -46,6 +46,45 @@ export default function Home() {
           name="Keywords"
           content="data science course in Canada, data science training in Canada, data science institute in Canada, best data science institute in Canada, data scientist course in Canada,data scientist certification in Canada, data science training institute in Canada, advanced data science course in Canada, data science course with Placement Assistance, data science course"
         />
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/data-science-course-training-in-canada"
+        />
+        <meta
+          property="og:title"
+          content="ata Science Course in Canada | Data Science Training in Canada"
+        />
+        <meta property="og:site_name" content="learnbay.co" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:description"
+          content="Data science course in Canada. Learnbay is Advanced Data Science Course Training Institute in Canada. Data science course in Canada will enhance your career"
+        />
+        <meta
+          property="og:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
+        <meta property="og:image:height" content="100" />
+        <meta property="og:image:width" content="256" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta
+          name="twitter:title"
+          content="ata Science Course in Canada | Data Science Training in Canada"
+        />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          itemprop="description"
+          content="Data science course in Canada. Learnbay is Advanced Data Science Course Training Institute in Canada. Data science course in Canada will enhance your career"
+        />
+        <meta
+          name="twitter:description"
+          content="Data science course in Canada. Learnbay is Advanced Data Science Course Training Institute in Canada. Data science course in Canada will enhance your career"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
         <link
           rel="canonical"
           href="https://www.learnbay.co/data-science-course-training-in-canada"

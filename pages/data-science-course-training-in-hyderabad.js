@@ -49,7 +49,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-science-course-training-in-Hyderabad"
+          href="https://www.learnbay.co/data-science-course-training-in-hyderabad"
         />
         <meta name="robots" content="NOODP,NOYDIR" />
         <meta name="HandheldFriendly" content="true" />
@@ -67,6 +67,45 @@ export default function Home() {
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
         <meta name="robots" content="ALL" />
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/data-science-course-training-in-hyderabad"
+        />
+        <meta
+          property="og:title"
+          content="Data Science Course in Hyderabad | Data Science Training in Hyderabad"
+        />
+        <meta property="og:site_name" content="learnbay.co" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:description"
+          content="Data science course in Hyderabad. Learnbay is Advanced Data Science Course Training Institute in Hyderabad. Data science course in Hyderabad will enhance your career"
+        />
+        <meta
+          property="og:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
+        <meta property="og:image:height" content="100" />
+        <meta property="og:image:width" content="256" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta
+          name="twitter:title"
+          content="Data Science Course in Hyderabad | Data Science Training in Hyderabad"
+        />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          itemprop="description"
+          content="Data science course in Hyderabad. Learnbay is Advanced Data Science Course Training Institute in Hyderabad. Data science course in Hyderabad will enhance your career"
+        />
+        <meta
+          name="twitter:description"
+          content="Data science course in Hyderabad. Learnbay is Advanced Data Science Course Training Institute in Hyderabad. Data science course in Hyderabad will enhance your career"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
