@@ -46,6 +46,45 @@ export default function Home() {
           name="Keywords"
           content="data science course in Dubai, data science training in Dubai, data science institute in Dubai, best data science institute in Dubai, data scientist course in Dubai,data scientist certification in Dubai, data science training institute in Dubai, advanced data science course in Dubai, data science course with Placement Assistance, data science course"
         />
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/data-science-course-training-in-dubai"
+        />
+        <meta
+          property="og:title"
+          content="Data Science Course in Dubai | Data Science Training in Dubai"
+        />
+        <meta property="og:site_name" content="learnbay.co" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:description"
+          content="Data science course in Dubai. Learnbay is Advanced Data Science Course Training Institute in Dubai. Data science course in Dubai will enhance your career"
+        />
+        <meta
+          property="og:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
+        <meta property="og:image:height" content="100" />
+        <meta property="og:image:width" content="256" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta
+          name="twitter:title"
+          content="Data Science Course in Dubai | Data Science Training in Dubai"
+        />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          itemprop="description"
+          content="Data science course in Dubai. Learnbay is Advanced Data Science Course Training Institute in Dubai. Data science course in Dubai will enhance your career"
+        />
+        <meta
+          name="twitter:description"
+          content="Data science course in Dubai. Learnbay is Advanced Data Science Course Training Institute in Dubai. Data science course in Dubai will enhance your career"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
         <link
           rel="canonical"
           href="https://www.learnbay.co/data-science-course-training-in-dubai"
