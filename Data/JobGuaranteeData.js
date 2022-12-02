@@ -235,6 +235,18 @@ export const JobGuaranteeCourseData = [
                 ],
               },
             },
+            {
+              chap: {
+                title: "Module 7 :- MLOps",
+                desc: [
+                  "Build and validate well known ML/DL model prototypes",
+                  "Understand the impact of data drift",
+                  "Apply AutoML and collaborative frameworks such as MLflow",
+                  "Perform pre-production testing using A/B patterns, shadow patterns and Canary patterns",
+                  "Apply production-specific software services using Prometheus, grafana cloud, elk stack (AWS), fluentD and cloudwatch (AWS)",
+                ],
+              },
+            },
           ],
           id: 3,
           open: false,
