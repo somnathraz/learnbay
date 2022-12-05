@@ -494,7 +494,7 @@ export default function Home() {
           mTitle="Data Science Course Training in Hyderabad"
           spanTitleText="with Domain Specialization"
           spanMTitleText="Domain Specialization"
-          desc="Get Industry-accredited Data Science Training in Hyderabad on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+          desc="Get Industry-accredited data science certification training in Hyderabad utilizing your domain knowledge in the data science field through fresh industry capstone."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
@@ -538,11 +538,11 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramBot1="Learnbay offers data science course in Hyderabad, which is the best data science course in market for anyone interested in becoming an industry competent data scientist. Learnbay’s IBM certified advanced Data science course in Hyderabad is created with great care by industry specialists. Our professors are Industry-leaders with a decade of experience. Learnbay mentors make sure you learn everything from scratch and according to the complex industrial requirements."
+              ProgramBot1="Learnbay Is a premier Data science certification training institute in Hyderabad for anyone interested in becoming an industry competent data scientist. Learnbay’s IBM certified advanced Data science course in Hyderabad is created with great care by industry specialists. Our professors are Industry-leaders with a decade of experience. Learnbay mentors make sure you learn everything from scratch and according to the complex industrial requirements."
               ProgramBot2="Learnbay’s advanced Data science certification in the Hyderabad curriculum helps students learn in-demand Data science skills such as programming, data visualization, statistics, and other topics."
-              ProgramHead3="What does candidates get in the  Advanced data science course in Hyderabad?"
+              ProgramHead3="Why is Learnbay the best institute for advanced data science training courses in Hyderabad?"
               ProgramBot3="For a richer learning experience, Learnbay focuses on providing both practical and theoretical learning modules. Moreover, Our advanced Data science certification in Hyderabad is cost-effective and even offers an MNC interview guarantee. Besides, you can choose a data science course with a 100% job assistance at Learnbay. In case you find yourself too weak in statistics, and you are not able to cope with the complexity of the advanced data science modules, you can opt for the Foundational data science learning module. So Learnbay is able to fulfill every aspirant's data science learning needs in Hyderabad."
-              ProgramBot32="Here, Students get one-on-one counseling sessions with a Data science career expert and a one to three-year Flexi pass ( based on course selection), allowing them to attend any live classes whenever they want. You may also use your mobile device to access Learnbay LMS for more convenient learning. Learnbay's advanced data science course in Hyderabad offers you the flexibility of attending various sessions with different professors."
+              ProgramBot32="Here, Students get one-on-one counseling sessions with a Data science career expert and a one to three-year Flexi pass ( based on course selection), allowing them to attend any live classes whenever they want. You can also use your mobile device to access Learnbay LMS for more convenient learning. Learnbay's advanced data science course in Hyderabad offers you the flexibility of attending various sessions with different professors."
               ProgramBot4="Another factor of our data science IBM certification In Hyderabad is that you can choose from a range of Foundational or Advanced Data science courses depending on your present professional level. Each of these courses is organized into modules based on your previous job."
               ProgramHead5="Data Science Courses by Learnbay in Hyderabad :"
               Courselink1="/data-science-certification-courses"
