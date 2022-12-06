@@ -472,7 +472,7 @@ export default function Home() {
           mTitle="Best Data Science Courses In"
           mTopPara="Foundational and Advanced Data Science Courses"
           title="Best Data Science Courses In"
-          desc="Don't just learn. Be eligible to lead everywhere in data science. Learnbay has brought you the best online data science course in India. Become a pro in data science in your chosen domain by practicing 12+ industrial projects under the guidance of industry experts. Stand out from the crowd by enrolling in the Data Science course now!"
+          desc="Learnbay has brought you the best online data science courses in India. Become a pro in data science in your chosen domain by practicing 12+ industrial projects under the guidance of industry experts. Stand out from the crowd by enrolling in the Data Science courses in india now!"
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
