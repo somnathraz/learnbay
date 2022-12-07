@@ -50,9 +50,10 @@ function FAQ({ FaqData }) {
             key={id}
             className={styles.FaqWrapper}
             onClick={() => handleChange(index)}
+            itemscope itemProp="mainEntity" itemType="https://schema.org/Question"
           >
             {open ? (
-              <div className={styles.queshO}>
+              <div className={styles.queshO} itemProp="name">
                 <h2>{ques}</h2>
                 <span>
                   {open ? (
@@ -63,7 +64,7 @@ function FAQ({ FaqData }) {
                 </span>
               </div>
             ) : (
-              <div className={styles.quesh}>
+              <div className={styles.quesh} itemProp="name">
                 <h2>{ques}</h2>
                 <span>
                   {open ? (
@@ -76,7 +77,7 @@ function FAQ({ FaqData }) {
             )}
 
             {open ? (
-              <div className={styles.ans}>
+              <div className={styles.ans} itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                 <p>
                   {ans}
                   <a href={link1} target="_blank" className={styles.link}>
@@ -105,7 +106,7 @@ function FAQ({ FaqData }) {
                 </p>
               </div>
             ) : (
-              <div className={styles.ansV}>
+              <div className={styles.ansV} itemscope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                 <p>{ans}</p>
               </div>
             )}
@@ -114,6 +115,6 @@ function FAQ({ FaqData }) {
       })}
     </section>
   );
-}
+} 
 
 export default FAQ;
