@@ -115,6 +115,6 @@ function FAQ({ FaqData }) {
       })}
     </section>
   );
-}
+} 
 
 export default FAQ;
