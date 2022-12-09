@@ -1169,7 +1169,7 @@ export const FaqData6 = [
   },
   {
     id: 2,
-    ques: "What is a Flexi Subscription in the Data Analytics Program?", 
+    ques: "What is a Flexi Subscription in the Data Analytics Program?",
     ans: `Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
@@ -1182,7 +1182,7 @@ export const FaqData6 = [
     Weekday batch – 5 months, Monday to Friday – 2 hours/day,
     Weekend batch – 6.5 months, Saturday & Sunday – 3.5 hours/day.`,
     open: false,
-  }, 
+  },
   {
     id: 4,
     ques: "What is the mode of Data Analytics training at Learnbay?",
@@ -1218,7 +1218,7 @@ export const PaymentFaqData6 = [
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
-    open: false, 
+    open: false,
   },
   {
     id: 2,
@@ -1563,14 +1563,14 @@ export const PaymentFaqData8 = [
   {
     id: 0,
     ques: "What is the total Fee for the full-stack Web Development program?",
-    ans: "The total program fee for this course is INR 85,000 + 18% GST.",
+    ans: "The total program fee for this course is INR 49,000 + 18% GST.",
 
     open: true,
   },
   {
     id: 1,
     ques: "Can I pay in installments for this Full-stack Web Development program?",
-    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR 8,358/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
+    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR 4,818/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,

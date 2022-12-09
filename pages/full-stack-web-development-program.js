@@ -73,7 +73,7 @@ export default function Home() {
         </Popup>
         <FirstSection
           fullStack={true}
-          deskTopPara="Be a demanding Developer to stay ahead" 
+          deskTopPara="Be a demanding Developer to stay ahead"
           mTopPara="Be a demanding Developer to stay ahead"
           mTitle="Full Stack Web Development Course"
           spanMTitleText="Crack MAANG Interviews"
@@ -95,7 +95,7 @@ export default function Home() {
             p3="Practice With"
             p33="Real-Time Projects"
             p4="Financing as low as"
-            p44="₹ 8,358/month"
+            p44="₹ 4,818/month"
           />
         </div>
         <div className="Feature" id="Feature">
@@ -153,8 +153,8 @@ export default function Home() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/9.png"
         />
         <ProgramFee
-          Fee="₹85,000 + 18% GST"
-          Emi="₹ 8,358/month"
+          Fee="₹49,000 + 18% GST"
+          Emi="₹ 4,818/month"
           fullStack={true}
         />
         <div className={styles.ProjectWrapper} id="project">
