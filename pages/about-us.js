@@ -7,9 +7,9 @@ export default function Home() {
     return (
       <div>
         <Head>
-          <title>Learnbay - Advance Data Science Course With IBM Certification</title>
+          <title>Leading Certification Training Providers - Learnbay</title>
           <link rel="canonical" href="https://www.learnbay.co/about-us" />
-          <meta name="description" content="Learnbay - Advance Data Science Course With IBM Certification" />
+          <meta name="description" content="Learnbay is an online bootcamp and one of the leading certification training providers. We are providing training and coaching that helps working professionals to achieve their career goals." />
           <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         </Head>
         <main>
