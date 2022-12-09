@@ -85,8 +85,8 @@ export const DomainFaqCourseData1 = [
   export const DomainFaqCourseDataweb = [
     {
       id: 0,
-      ques: "Project Innovation Lab",
-      ans: "Take advantage of interactive, live learning  in comfort of your home. Experts from MNCs and MAANG assist in online and offline project sessions at different project innovation centers around 7+ cities in India. ",
+      ques: "Support for Non-Programmers",
+      ans: "We provide special assistance and support for non-technical professionals All tools & modules are covered from scratch",
       open: true,
     },
     {
