@@ -9,8 +9,8 @@ function contactus() {
   return (
     <div>
       <Head>
-        <title>Contact Us</title>
-        <meta name="description" content="Contact Us" />
+        <title>Contact us - Learnbay</title>
+        <meta name="description" content="Learnbay is an online bootcamp and one of the leading certification training providers. We are providing training and coaching that helps working professionals to achieve their career goals." />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/contact-us" />
       </Head>
