@@ -14,7 +14,7 @@ import {
   FaAndroid,
 } from "react-icons/fa";
 
-const Footer = ({FsdNumber}) => {
+const Footer = ({ FsdNumber }) => {
   return (
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
@@ -30,9 +30,9 @@ const Footer = ({FsdNumber}) => {
             />
           </a>
           <p className={styles.FooterInnerli}>
-            Enroll now for Data Science Classroom (Bangalore) or online training
-            with us and Master Data Analytics Skills which will help you to
-            transform your career and start your career as a Data Scientist.
+            Enrol now for data science courses, System designing or full stack
+            development courses. Master the most demanding skills of job market
+            and experience and ever growing and lucrative career transformation.
           </p>
           <div className={styles.FooterSocial}>
             <a href="https://twitter.com/Learnbay" target="_blank">
@@ -62,23 +62,23 @@ const Footer = ({FsdNumber}) => {
           </span>
           {FsdNumber ? (
             <>
-          <span style={{ display: "flex", marginTop: "10px" }}>
-            <BsFillTelephoneFill className="bIcons" />
-            <Link href="tel:+919731135221" target="_blank">
-              (+91) 973 113 5221
-            </Link>
-          </span>
-          </>
-            ) : ( 
-              <>
-                {" "} 
-          <span style={{ display: "flex", marginTop: "10px" }}>
-            <BsFillTelephoneFill className="bIcons" />
-            <Link href="tel:+917795687988" target="_blank">
-              (+91) 77956 87988
-            </Link>
-          </span>
-          </>
+              <span style={{ display: "flex", marginTop: "10px" }}>
+                <BsFillTelephoneFill className="bIcons" />
+                <Link href="tel:+919731135221" target="_blank">
+                  (+91) 973 113 5221
+                </Link>
+              </span>
+            </>
+          ) : (
+            <>
+              {" "}
+              <span style={{ display: "flex", marginTop: "10px" }}>
+                <BsFillTelephoneFill className="bIcons" />
+                <Link href="tel:+917795687988" target="_blank">
+                  (+91) 77956 87988
+                </Link>
+              </span>
+            </>
           )}
         </div>
         <div className={styles.FooterDivInner}>
@@ -91,7 +91,11 @@ const Footer = ({FsdNumber}) => {
           <a href="/advance-data-science-certification-courses">
             <p className={styles.FooterInnerli}>Advanced DS and AI Program</p>
           </a>
-          <a href="/full-stack-web-development-program"><p className={styles.FooterInnerli}>Full Stack Web Development Program</p></a>
+          <a href="/full-stack-web-development-program">
+            <p className={styles.FooterInnerli}>
+              Full Stack Web Development Program
+            </p>
+          </a>
           <a href="/full-stack-software-development-program">
             <p className={styles.FooterInnerli}>
               Full Stack Software Development Program
@@ -184,46 +188,53 @@ const Footer = ({FsdNumber}) => {
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Project Innovation Lab Address </p>
           <p className={styles.FooterInnerP}>Pune </p>
-            <p className={styles.FooterInnerli}>
-            Sky Loft, Creaticity Mall, Opposite Golf Course, Airport Rd, Shastrinagar, Yerawada, Pune, Maharashtra 411006
-            </p>
+          <p className={styles.FooterInnerli}>
+            Sky Loft, Creaticity Mall, Opposite Golf Course, Airport Rd,
+            Shastrinagar, Yerawada, Pune, Maharashtra 411006
+          </p>
         </div>
-        
+
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Mumbai</p>
-            <p className={styles.FooterInnerli}>
-            Business Centre, 2nd Floor, Apeejay House, Dinshaw Vacha Road, Churchgate, Mumbai, Maharashtra 400020
-            </p>
+          <p className={styles.FooterInnerli}>
+            Business Centre, 2nd Floor, Apeejay House, Dinshaw Vacha Road,
+            Churchgate, Mumbai, Maharashtra 400020
+          </p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Delhi</p>
-            <p className={styles.FooterInnerli}>
-            Business Centre, Arunachal Building, 6th floor, Barakhamba Road, New Delhi 110001
-            </p>
+          <p className={styles.FooterInnerli}>
+            Business Centre, Arunachal Building, 6th floor, Barakhamba Road, New
+            Delhi 110001
+          </p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Kolkata</p>
-            <p className={styles.FooterInnerli}>
-            Ambuja Neotia EcoCentre 15th floor, EM-4,EM-block, Sector 5 Kolkata 700091
-            </p>
+          <p className={styles.FooterInnerli}>
+            Ambuja Neotia EcoCentre 15th floor, EM-4,EM-block, Sector 5 Kolkata
+            700091
+          </p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Hyderabad</p>
-            <p className={styles.FooterInnerli}>
-            Level 3, NSL Centrum, Road No 1, Lane, opp. Forum Mall, KPHB 5th Phase, Hyderabad, Telangana 500072
-            </p>
+          <p className={styles.FooterInnerli}>
+            Level 3, NSL Centrum, Road No 1, Lane, opp. Forum Mall, KPHB 5th
+            Phase, Hyderabad, Telangana 500072
+          </p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Bangalore</p>
-            <p className={styles.FooterInnerli}>
-            #87, above sangeetha mobiles, 14th main road, opp-white house, sector 4, Hsr Layout, Bangalore 560102
-            </p>
+          <p className={styles.FooterInnerli}>
+            #87, above sangeetha mobiles, 14th main road, opp-white house,
+            sector 4, Hsr Layout, Bangalore 560102
+          </p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Chennai</p>
-            <p className={styles.FooterInnerli}>
-            Apeejay Business Centre, Phone Booth, 1st Floor, Apeejay House, 39/12 Haddows Road, Nungambakkam, Chennai 600 006
-            </p>
+          <p className={styles.FooterInnerli}>
+            Apeejay Business Centre, Phone Booth, 1st Floor, Apeejay House,
+            39/12 Haddows Road, Nungambakkam, Chennai 600 006
+          </p>
         </div>
       </div>
       <div
