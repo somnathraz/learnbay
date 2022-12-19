@@ -47,11 +47,11 @@ const FirstSection = ({dataScience, radio}) => {
         </p>
 
         <div className={styles.btnWrapper}>
-          <a href="#course">
+          {/* <a href="#course">
             <button className={styles.outLineBtn}>
               Courses <FaChevronDown className="bIconS" />
             </button>
-          </a>
+          </a> */}
           <button onClick={popupShow} className={styles.btn}>
             Enquire Now <FaBell className="bIcons" />
           </button>
