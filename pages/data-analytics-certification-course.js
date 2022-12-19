@@ -42,10 +42,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Analytics Certification Program</title>
+        <title>Data Analytics Certification Course With Placement Assistance</title>
         <meta
           name="description"
-          content="Data Analytics Certification Program"
+          content="Data analytics certification course. Learnbay is best data analytics course training institute. Our online data analytics course will enhance your career"
         />
         <link
           rel="icon"
@@ -55,6 +55,7 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/data-analytics-certification-course"
         />
+        <meta name="Keywords" content="Data Analytics course, Data Analytics training, Data Analytics institute, best Data Analytics institute , Data Analytics course , Data Analytics certification, Data Analytics training institute , advanced Data Analytics course , Data Analytics course with Placement Assistance, Data Analytics courses"/>
       </Head>
       <main>
         {" "}
