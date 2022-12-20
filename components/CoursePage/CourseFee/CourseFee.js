@@ -76,7 +76,7 @@ const CourseFee = ({
                 </p>
                 {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
                 <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
-                <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
+                <p className={styles.list}>Weekend Evening (Mon-Fri)</p>
               </div>
             </div>
             <div>
