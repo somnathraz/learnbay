@@ -56,7 +56,7 @@ export default function Home() {
           content="Data Science Course in Mumbai | Data Science Training in Mumbai"
         />
         <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
           content="Data science course in Mumbai. Learnbay is Advanced Data Science Course Training Institute in Mumbai. Data science course in Mumbai will enhance your career"
@@ -459,6 +459,36 @@ export default function Home() {
           Emi="₹ 7,768/month"
           dataScience={true}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+            {"@context": "http://schema.org",
+            "@type": "EducationEvent",
+            "name": "Data Science Course",
+            "description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
+            "image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
+            "performer":"Learnbay",					 
+            "offers":{"@type": "AggregateOffer","lowPrice": "49000","highPrice": "110000","url" : "https://www.learnbay.co/data-science-course-training-in-mumbai/","availability" : "https://schema.org/InStock","price": "80000","priceCurrency": "INR","validFrom": "2022-12-15"},"startDate":"2022-12-18","endDate": "2023-09-20","url" : "https://www.learnbay.co/data-science-course-training-in-mumbai/","duration":"50",
+                                    
+            "eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+            "eventStatus":"http://schema.org/EventScheduled",
+             "location": {"@type": "VirtualLocation", 
+             "url": "https://www.learnbay.co/data-science-course-training-in-mumbai/" 
+             },
+             
+             
+            "organizer": {
+                    "@type": "Organization",
+                    "name": "Learnbay",
+                    "url": "https://www.learnbay.co/"
+            }
+             
+             
+             }
+            `,
+          }}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
             alt="data science course training in mumbai"
@@ -523,7 +553,7 @@ export default function Home() {
               Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
               Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
               CertificationHead1="IBM Data  Science Certification Course in Mumbai"
-              CertificationBot1="Under the Learnbay provided IBM Data Scientist Course, you may take advantage of live lessons with multiple instructors without dealing with any hassles. Aside from that, you will receive several IBM certifications for different data science and AI micro-skills. So, it's basically a data science course with a career guarantee. Based on the course you choose, you get 1 to 8 certificates. The best part is that once you complete the capstone project associated with the Data Science and AI course available in Mumbai, you get an IBM Project Experience Certificate. Please refer to the respective course brochures to know more about micro-skill certificates."
+              CertificationBot1="Under the Learnbay provided IBM Data Scientist Course, you may take advantage of live lessons with multiple instructors without dealing with any hassles. Aside from that, you will receive several IBM certifications for different data science and AI micro-skills. So, it's basically a data science course with a career enhancement. Based on the course you choose, you get 1 to 8 certificates. The best part is that once you complete the capstone project associated with the Data Science and AI course available in Mumbai, you get an IBM Project Experience Certificate. Please refer to the respective course brochures to know more about micro-skill certificates."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate.webp"
               ModuleHead1="What are the most crucial tools and modules for securing a Data Science Job position in Mumbai?"
               ModuleBot1="PYTHON and R will be the two key programming languages throughout your Data scientist career in Mumbai. But the most crucial module will be the 'STATISTICS .' Other than that, in order to earn the industrial competency, you have to master the modules like 'MACHINE LEARNING,' 'TIME SERIES,' 'POWER-BI,' 'ADVANCE EXCEL,' 'TABLEAU,' 'BIG DATA,' 'MONGO DB,' 'SPARK ANALYTICS,' 'SQL.'"

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./OfferPopup.module.css";
 import { AiFillCloseCircle } from "react-icons/ai";
-import Script from "next/script";
 
 const OfferPopup = ({
   title,
@@ -28,36 +27,6 @@ const OfferPopup = ({
   }, []);
   return (
     <>
-<Script
-        strategy="lazyOnload"
-        dangerouslySetInnerHTML={{
-          __html: `
-          {"@context": "http://schema.org",
-          "@type": "EducationEvent",
-          "name": "Data Science Course",
-          "description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
-          "image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
-          "performer":"Learnbay",					 
-          "offers":{"@type": "AggregateOffer","lowPrice": "49000","highPrice": "110000","url" : "https://www.learnbay.co/","availability" : "https://schema.org/InStock","price": "80000","priceCurrency": "INR","validFrom": "2022-12-15"},"startDate":"2022-12-18","endDate": "2023-09-20","url" : "https://www.learnbay.co/","duration":"50",
-                                  
-          "eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus":"http://schema.org/EventScheduled",
-           "location": {"@type": "VirtualLocation", 
-           "url": "https://www.learnbay.co/" 
-           },
-           
-           
-          "organizer": {
-                  "@type": "Organization",
-                  "name": "Learnbay",
-                  "url": "https://www.learnbay.co/"
-          }
-           
-           
-           }
-            `,
-        }}
-      />
     <div className={open ? styles.OfferPopup : styles.hide} >
       <AiFillCloseCircle className={styles.Icon} onClick={handelOpen} />
       {offer ? (
@@ -69,11 +38,11 @@ const OfferPopup = ({
         {/* <p>{p3}</p> */}
         <li>
           <b>Weekday Evening</b>
-          : 23rd December, 8 PM to 10 PM
+          : 23rd December (WD), 8 PM to 10 PM
         </li>
         <li>
           <b>Weekend Evening</b>
-          : 24th December, 12:30 PM to 4 PM
+          : 24th December (SD), 12:30 PM to 4 PM
         </li>
 
         

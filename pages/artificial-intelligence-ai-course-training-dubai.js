@@ -492,7 +492,7 @@ export default function Home() {
               ProgramBot3="Learnbay provides custom-fit artificial intelligence training for Dubai Aspirants. Our artificial intelligence certification courses are affordable and have the option of flexibility in choosing mentors and batches. Here, the trainers explain each concept very clearly as well as share their professional experiences during live interactive classes. Additionally, they are also available to clear students' doubts."
               ProgramBot31="Our IBM artificial intelligence courses deliver the cutting-edge theoretical and practical aspects of AI implementation. Students are kept up-to-date with the current job market by using the latest AI technologies and modules."
               ProgramBot32="Learnbay even supports learners coming from non-IT backgrounds by arranging additional programming classes. They also host a variety of webinars and hackathons to help pupils learn efficiently."
-              ProgramBot4="Additionally, you can even get a guarantee placement assurance in specific artificial intelligence certification programs."
+              ProgramBot4="Additionally, you can even get a guarantee placement assistance in specific artificial intelligence certification programs."
               ProgramBot5="Available Artificial Intelligence Certification Courses by Learnbay in Dubai:"
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"
