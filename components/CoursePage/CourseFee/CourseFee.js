@@ -130,7 +130,7 @@ const CourseFee = ({
                 </p>
                 {/* <p className={styles.list}>9th October 2022</p> */}
                 <p className={styles.list}>23rd December 2022</p>
-                <p className={styles.list}>6th January 2022</p>
+                <p className={styles.list}>6th January 2023</p>
               </div>
             </div>
             <div>
