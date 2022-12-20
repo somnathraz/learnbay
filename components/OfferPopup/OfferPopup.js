@@ -69,11 +69,11 @@ const OfferPopup = ({
         {/* <p>{p3}</p> */}
         <li>
           <b>Weekday Evening</b>
-          : 23rd December, 8 PM to 10 PM
+          : 23rd December (WD), 8 PM to 10 PM
         </li>
         <li>
           <b>Weekend Evening</b>
-          : 24th December, 12:30 PM to 4 PM
+          : 24th December (SD), 12:30 PM to 4 PM
         </li>
 
         
