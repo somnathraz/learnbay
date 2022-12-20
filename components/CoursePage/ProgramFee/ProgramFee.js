@@ -4,6 +4,7 @@ import { GiWallet } from "react-icons/gi";
 import styles from "./ProgramFee.module.css";
 import Image from "next/image";
 import Popup from "../../Popup/Popup";
+import Script from "next/script";
 import Form from "../../Form/Form";
 
 export const ProgramFee = ({ Fee, Emi, fullStack, dataScience }) => {

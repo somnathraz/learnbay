@@ -55,7 +55,7 @@ export default function Home() {
           content="ata Science Course in Canada | Data Science Training in Canada"
         />
         <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
           content="Data science course in Canada. Learnbay is Advanced Data Science Course Training Institute in Canada. Data science course in Canada will enhance your career"
@@ -499,6 +499,36 @@ export default function Home() {
           Fee="₹79,000 + GST"
           Emi="₹ 7,768/month"
           dataScience={true}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+            {"@context": "http://schema.org",
+            "@type": "EducationEvent",
+            "name": "Data Science Course",
+            "description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
+            "image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
+            "performer":"Learnbay",					 
+            "offers":{"@type": "AggregateOffer","lowPrice": "49000","highPrice": "110000","url" : "https://www.learnbay.co/data-science-course-training-in-canada/","availability" : "https://schema.org/InStock","price": "80000","priceCurrency": "INR","validFrom": "2022-12-15"},"startDate":"2022-12-18","endDate": "2023-09-20","url" : "https://www.learnbay.co/data-science-course-training-in-canada/","duration":"50",
+                                    
+            "eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+            "eventStatus":"http://schema.org/EventScheduled",
+             "location": {"@type": "VirtualLocation", 
+             "url": "https://www.learnbay.co/data-science-course-training-in-canada/" 
+             },
+             
+             
+            "organizer": {
+                    "@type": "Organization",
+                    "name": "Learnbay",
+                    "url": "https://www.learnbay.co/"
+            }
+             
+             
+             }
+            `,
+          }}
         />
         <div className="Feature" id="Feature">
           <BoxShape
