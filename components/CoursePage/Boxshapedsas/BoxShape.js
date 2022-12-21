@@ -100,24 +100,6 @@ const BoxShape = ({
               >
                 <SwiperSlide className={styles.swiperSlideer}>
                   <p>
-                  Learnbay gives you a major platform to enhance your skills and learn the concepts in depth. The best thing about them is that the classes are flexible and they provide recorded videos of the lectures being taught that help you to brush up the concepts.
-                  </p>
-                  <div className={styles.profile}>
-                    <Image
-                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/harsh.jpeg"
-                      width="80"
-                      height="80"
-                      layout="intrinsic"
-                       alt="data science course in bangalore"
-                    />
-                    <div className={styles.name}>
-                      <h5>Harsh Jaiswal</h5>
-                      <p>SDE I at Livspace</p>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className={styles.swiperSlideer}>
-                  <p>
                   Have taken S/W Development course at this institute. Irrespective of implementation languages, one can join this. Cleared many tough concepts in an easy way. I was trying to switch to product based MNC and this course just made it possible.
                   </p>
                   <div className={styles.profile}>
@@ -131,6 +113,24 @@ const BoxShape = ({
                     <div className={styles.name}>
                       <h5>Neha Gour</h5>
                       <p>Silicon Design Engineer 2</p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className={styles.swiperSlideer}>
+                  <p>
+                  This Course Helped me in getting 6 month SDE INTERNSHIP at AMAZON,India. The advance DSA topics are taught and explained in such a simplified manner that even a newbie can catch up very easily.
+                  </p>
+                  <div className={styles.profile}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/kamlesh.jpg"
+                      width="80"
+                      height="80"
+                      layout="intrinsic"
+                       alt="data science course in bangalore"
+                    />
+                    <div className={styles.name}>
+                      <h5>Kamlesh Sahu</h5>
+                      <p>SDE I at Amazon</p>
                     </div>
                   </div>
                 </SwiperSlide>

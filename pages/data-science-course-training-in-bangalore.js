@@ -498,29 +498,149 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `
-            {"@context": "http://schema.org",
-            "@type": "EducationEvent",
-            "name": "Data Science Course",
-            "description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
-            "image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
-            "performer":"Learnbay",					 
-            "offers":{"@type": "AggregateOffer","lowPrice": "49000","highPrice": "110000","url" : "https://www.learnbay.co/data-science-course-training-in-bangalore/","availability" : "https://schema.org/InStock","price": "80000","priceCurrency": "INR","validFrom": "2022-12-15"},"startDate":"2022-12-18","endDate": "2023-09-20","url" : "https://www.learnbay.co/data-science-course-training-in-bangalore/","duration":"50",
-                                    
-            "eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
-            "eventStatus":"http://schema.org/EventScheduled",
-             "location": {"@type": "VirtualLocation", 
-             "url": "https://www.learnbay.co/data-science-course-training-in-bangalore/" 
-             },
-             
-             
-            "organizer": {
-                    "@type": "Organization",
-                    "name": "Learnbay",
-                    "url": "https://www.learnbay.co/"
-            }
-             
-             
-             }
+{"@context": "http://schema.org",
+"@type": "EducationEvent",
+"name": "Data Science Course",
+"description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
+"image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
+"performer":"Learnbay",					 
+"offers":{"@type": "AggregateOffer","lowPrice": "49000","highPrice": "110000","url" : "https://www.learnbay.co/data-science-course-training-in-bangalore/","availability" : "https://schema.org/InStock","price": "80000","priceCurrency": "INR","validFrom": "2022-12-15"},"startDate":"2022-12-23","endDate": "2023-08-20","url" : "https://www.learnbay.co/data-science-course-training-in-bangalore/","duration":"50",
+											  
+"eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+"eventStatus":"http://schema.org/EventScheduled",
+ "location": {"@type": "VirtualLocation", 
+ "url": "https://www.learnbay.co/data-science-course-training-in-bangalore/" 
+ },
+ 
+ 
+"organizer": {
+        "@type": "Organization",
+        "name": "Learnbay",
+        "url": "https://www.learnbay.co/"
+}
+ 
+ 
+ }
+            `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+{"@context": "http://schema.org",
+"@type": "EducationEvent",
+"name": "Data Science Course",
+"description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
+"image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
+"performer":"Learnbay",					 
+"offers":{"@type": "AggregateOffer","lowPrice": "49000","highPrice": "110000","url" : "https://www.learnbay.co/data-science-course-training-in-bangalore/","availability" : "https://schema.org/InStock","price": "80000","priceCurrency": "INR","validFrom": "2022-12-25"},"startDate":"2023-01-06","endDate": "2023-08-20","url" : "https://www.learnbay.co/data-science-course-training-in-bangalore/","duration":"50",
+											  
+"eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+"eventStatus":"http://schema.org/EventScheduled",
+ "location": {"@type": "VirtualLocation", 
+ "url": "https://www.learnbay.co/data-science-course-training-in-bangalore/" 
+ },
+ 
+ 
+"organizer": {
+        "@type": "Organization",
+        "name": "Learnbay",
+        "url": "https://www.learnbay.co/"
+}
+ 
+ 
+ }
+            `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+{"@context": "http://schema.org",
+"@type": "EducationEvent",
+"name": "Data Science Course",
+"description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
+"image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
+"performer":"Learnbay",					 
+"offers":{"@type": "AggregateOffer","lowPrice": "49000","highPrice": "110000","url" : "https://www.learnbay.co/data-science-course-training-in-bangalore/","availability" : "https://schema.org/InStock","price": "80000","priceCurrency": "INR","validFrom": "2022-12-25"},"startDate":"2023-01-08","endDate": "2023-08-20","url" : "https://www.learnbay.co/data-science-course-training-in-bangalore/","duration":"50",
+											  
+"eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+"eventStatus":"http://schema.org/EventScheduled",
+ "location": {"@type": "VirtualLocation", 
+ "url": "https://www.learnbay.co/data-science-course-training-in-bangalore/" 
+ },
+ 
+ 
+"organizer": {
+        "@type": "Organization",
+        "name": "Learnbay",
+        "url": "https://www.learnbay.co/"
+}
+ 
+ 
+ }
+            `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+{"@context": "http://schema.org",
+"@type": "EducationEvent",
+"name": "Data Science Course",
+"description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
+"image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
+"performer":"Learnbay",					 
+"offers":{"@type": "AggregateOffer","lowPrice": "49000","highPrice": "110000","url" : "https://www.learnbay.co/data-science-course-training-in-bangalore/","availability" : "https://schema.org/InStock","price": "80000","priceCurrency": "INR","validFrom": "2022-12-25"},"startDate":"2023-01-13","endDate": "2023-08-20","url" : "https://www.learnbay.co/data-science-course-training-in-bangalore/","duration":"50",
+											  
+"eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+"eventStatus":"http://schema.org/EventScheduled",
+ "location": {"@type": "VirtualLocation", 
+ "url": "https://www.learnbay.co/data-science-course-training-in-bangalore/" 
+ },
+ 
+ 
+"organizer": {
+        "@type": "Organization",
+        "name": "Learnbay",
+        "url": "https://www.learnbay.co/"
+}
+ 
+ 
+ }
+            `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+{"@context": "http://schema.org",
+"@type": "EducationEvent",
+"name": "Data Science Course",
+"description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
+"image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
+"performer":"Learnbay",					 
+"offers":{"@type": "AggregateOffer","lowPrice": "49000","highPrice": "110000","url" : "https://www.learnbay.co/data-science-course-training-in-bangalore/","availability" : "https://schema.org/InStock","price": "80000","priceCurrency": "INR","validFrom": "2022-12-25"},"startDate":"2023-01-15","endDate": "2023-08-20","url" : "https://www.learnbay.co/data-science-course-training-in-bangalore/","duration":"50",
+											  
+"eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+"eventStatus":"http://schema.org/EventScheduled",
+ "location": {"@type": "VirtualLocation", 
+ "url": "https://www.learnbay.co/data-science-course-training-in-bangalore/" 
+ },
+ 
+ 
+"organizer": {
+        "@type": "Organization",
+        "name": "Learnbay",
+        "url": "https://www.learnbay.co/"
+}
+ 
+ 
+ }
             `,
           }}
         />
