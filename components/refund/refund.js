@@ -59,34 +59,24 @@ function refund() {
           days refund policy will get void here.
         </p>
         <p className={styles.bot}>
-          3. In case of extreme medical/non-medical emergencies, if you decide
-          to opt-out of the course
-        </p>
-        <p className={styles.bot}>
-          <b>Note: </b>You can be eligible for a refund application within 4
-          months from the enrolment date. You have to submit valid proof and
-          documentation of such emergencies and a refund is only granted after
-          proper verification of the same.
-        </p>
-        <p className={styles.bot}>
-          4. If a user violates any Terms and Conditions listed on the Learnbay
+          3. If a user violates any Terms and Conditions listed on the Learnbay
           website and leaves the course, Learnbay will cease his/her access
         </p>
         <p className={styles.bot}>
-          5. If a user shares credentials without the approval of Learnbay will
+          4. If a user shares credentials without the approval of Learnbay will
           lead to an increase in fines or even expulsion from the course
         </p>
         <p className={styles.bot}>
-          6. If Learnbay has to cease (permanently) course access due to false
+          5. If Learnbay has to cease (permanently) course access due to false
           or inaccurate information/ illegally managed documents
         </p>
         <p className={styles.bot}>
-          7. If candidates have not submitted the required documents for
+          6. If candidates have not submitted the required documents for
           application completion even after 3 successive notices, Learnbay has
           to cease her/his LMS access
         </p>
         <p className={styles.bot}>
-          8. Enrolled in a course but have not attended the 70% of these trial
+          7. Enrolled in a course but have not attended the 70% of these trial
           phase classes within the 15 days of enrolment
         </p>
 
