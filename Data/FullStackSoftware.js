@@ -211,22 +211,22 @@ export const FullStackSoftwareCourseData = [
                 ],
               },
             },
-            // {
-            //   chap: {
-            //     title: "Module 3 :- Data Science and AI",
-            //     desc: [
-            //       "An overview of Machine Learning",
-            //       "Exploratory Data Analysis",
-            //       "Data Visualization using Tableau",
-            //       "Introduction to Time Series Forecasting",
-            //       "Understanding Implementation of Deep Learning",
-            //       "Basics of NLP",
-            //     ],
-            //   },
-            // },
             {
               chap: {
-                title: "Module 3 :- Web 3.0 Developer",
+                title: "Module 3 :- Data Science and AI",
+                desc: [
+                  "An overview of Machine Learning",
+                  "Exploratory Data Analysis",
+                  "Data Visualization using Tableau",
+                  "Introduction to Time Series Forecasting",
+                  "Understanding Implementation of Deep Learning",
+                  "Basics of NLP",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- Web 3.0 Developer",
                 desc: [
                   "Overview of Bitcoin",
                   "Blockchain - Genesis Block, Hashing Algorithm",
@@ -239,7 +239,7 @@ export const FullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Module 4 :- Devops & Clouds",
+                title: "Module 5 :- Devops & Clouds",
                 desc: [
                   "In-Depth knowledge of Agile Principles",
                   "Understanding Project Development Process",

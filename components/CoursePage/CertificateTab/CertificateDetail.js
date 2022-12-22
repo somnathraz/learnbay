@@ -97,7 +97,7 @@ export const Certificate6 = [
 export const Certificate7 = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate-web.jpg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Sample+Certificate.png",
     title: "Course Completion Certificate from IBM",
     para: [
       "Complete your training with the internationally recognized certificate.",
@@ -138,6 +138,30 @@ export const CertificateAdvance10 = [
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",
       "Work on 3 capstone project certified by IBM.",
+      "Individualized project experience with easy access to premium job opportunities.",
+    ],
+  },
+];
+export const Certificate11 = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Sample+Certificate.png",
+    title: "Course Completion Certificate from IBM",
+    para: [
+      "Complete your training with the internationally recognized certificate.",
+      "Validate your Software Development skills with IBM Course Completion Certificate.",
+      "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+    ],
+  },
+];
+export const Certificate12 = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.webp",
+    title: "Capstone Project Completion Certificate from IBM",
+    para: [
+      "Globally recognized IBM certification based on industrial-level projects.",
+      "Work on latest full stack projects for Food Panda, UberEats, Domino's Pizza, etc.",
       "Individualized project experience with easy access to premium job opportunities.",
     ],
   },

@@ -95,7 +95,7 @@ export default function Home() {
             p3="Practice With"
             p33="Real-Time Projects"
             p4="Financing as low as"
-            p44="₹ 4,818/month"
+            p44="₹ 6,884/month"
           />
         </div>
         <div className="Feature" id="Feature">
@@ -153,8 +153,8 @@ export default function Home() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/9.png"
         />
         <ProgramFee
-          Fee="₹49,000 + 18% GST"
-          Emi="₹ 4,818/month"
+          Fee="₹70,000 + 18% GST"
+          Emi="₹ 6,884/month"
           fullStack={true}
         />
         <div className={styles.ProjectWrapper} id="project">

@@ -12,6 +12,7 @@ import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
+import Certificate from "../components/CoursePage/CertificateTab/CertificateTabSd";
 import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../components/CoursePage/CourseReviewdsas/CourseReview";
 import { DomainFaqCourseDatasoft } from "../components/CoursePage/DomainFaq/DOmainFaqData";
@@ -112,6 +113,7 @@ export default function Home() {
         </div>
         <DomainFaq FaqData={DomainFaqCourseDatasoft} />
         <CourseReview />
+        <Certificate />
         <SyllabusNew
           fullStack={true}
           syllabus={FullStackSoftwareCourseData[0].syllabus}

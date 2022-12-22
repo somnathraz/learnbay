@@ -326,39 +326,39 @@ export const AiMlCourseData = [
           open: false,
         },
       },
-      // {
-      //   Module0: {
-      //     title: "Term 5 :- Essentials Tools",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Module 1 :- DSA",
-      //           desc: [
-      //             " Array Overview",
-      //             "String",
-      //             " Linked List",
-      //             " Queue",
-      //             " Stack",
-      //             " Heap",
-      //             " Trie",
-      //             " Tree, Binary Search Tree and AVL Tree",
-      //             " Segment Tree",
-      //             " Graph & Recursion",
-      //             " Introduction to recursion",
-      //             " Backtracking Algorithm",
-      //             " Searching",
-      //             "Sorting",
-      //             " Greedy Algorithm",
-      //             " Pattern Searching",
-      //             " Dynamic Programming",
-      //           ],
-      //         },
-      //       },
-      //     ],
-      //     id: 5,
-      //     open: false,
-      //   },
-      // },
+      {
+        Module0: {
+          title: "Term 5 :- Essentials Tools",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- DSA",
+                desc: [
+                  " Array Overview",
+                  "String",
+                  " Linked List",
+                  " Queue",
+                  " Stack",
+                  " Heap",
+                  " Trie",
+                  " Tree, Binary Search Tree and AVL Tree",
+                  " Segment Tree",
+                  " Graph & Recursion",
+                  " Introduction to recursion",
+                  " Backtracking Algorithm",
+                  " Searching",
+                  "Sorting",
+                  " Greedy Algorithm",
+                  " Pattern Searching",
+                  " Dynamic Programming",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
     ],
     Review: {
       title: "Why get enrolled in our Advanced Data Science and AI course?",
