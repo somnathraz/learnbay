@@ -1563,14 +1563,14 @@ export const PaymentFaqData8 = [
   {
     id: 0,
     ques: "What is the total Fee for the full-stack Web Development program?",
-    ans: "The total program fee for this course is INR 49,000 + 18% GST.",
+    ans: "The total program fee for this course is INR 70,000 + 18% GST.",
 
     open: true,
   },
   {
     id: 1,
     ques: "Can I pay in installments for this Full-stack Web Development program?",
-    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR 4,818/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
+    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR 6,884/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
