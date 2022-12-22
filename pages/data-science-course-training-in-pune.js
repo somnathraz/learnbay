@@ -726,7 +726,7 @@ export default function Home() {
               alt7="data science course training in pune"
               alt8="data science course training in pune"
               alt9="data science course training in pune"
-            />
+            /> 
             <FAQNew
               FaqDatas={AdvanceFaqDataP}
               DomainFaqDatas={AdvanceDomainFaqDataP}
