@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import styles from "./Popup.module.scss";
 import { IoClose } from "react-icons/io5";
 
-const Popup = (props) => {
+const 
+Popup = (props) => {
   let color = "transparent";
   if (props.price) color = "white";
   useEffect(() => {

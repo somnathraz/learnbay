@@ -1,0 +1,147 @@
+.Course {
+    padding: 0px 100px;
+  }
+  .Course h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .feature {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .feature p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0px 5px;
+  }
+  .tick {
+    font-size: 20px;
+    color: #2d9cd7;
+  }
+  .courses {
+    box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
+    margin-top: 30px;
+    padding: 40px;
+  }
+  .listPanel {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .listPanel span {
+    padding: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #e5f3fa;
+    justify-content: start;
+    border-left: 1px solid #2D9CD750;
+  }
+  .gridPanel {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px;
+    padding: 0px;
+  }
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
+    padding: 20px;
+    width: 32%;
+    border-radius: 8px;
+  }
+  .courseImg {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+  }
+  .leftSide h6,
+  .middleSide h6,
+  .rightSide h6 {
+    font-size: 18px;
+    margin: 0;
+    margin-top: 10px;
+  
+    color: #2d9cd7;
+  }
+  .leftSide p,
+  .middleSide p,
+  .rightSide p {
+    display: flex;
+    align-items: center;
+  }
+  .checkCircle {
+    margin-right: 15px;
+  }
+  .btnWrapper {
+    display: flex;
+    gap: 10px;
+  }
+  .btnWrapper button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid;
+  }
+  
+  @media (max-width: 481px) {
+    .Course {
+      padding: 0 10px;
+      margin-top: -50px;
+    }
+    .Course h2 {
+      font-size: 24px;
+    }
+    .feature {
+      flex-flow: column;
+      align-items: flex-start;
+      line-height: 1.9em;
+    }
+    .courses {
+      padding: 0px;
+      box-shadow: none;
+    }
+    .gridPanel {
+      gap: 0px;
+    }
+    .listPanel {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      box-shadow: rgba(129, 217, 255, 0.612) 0px 7px 29px 0px;
+    }
+    .listPanel span {
+      font-size: 14px;
+      width: 100%;
+      padding: 15px 10px;
+    }
+    .gridPanel {
+      grid-template-columns: 85% 85% 85% 85% 85% 85% 85%;
+      overflow-x: scroll;
+    }
+    .leftSide,
+    .middleSide,
+    .rightSide {
+      width: auto;
+      padding: 10px;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .courseImg {
+      width: 100%;
+    }
+    .leftSide h6,
+    .middleSide h6,
+    .rightSide h6 {
+      margin-right: 0;
+    }
+    .checkCircle {
+      margin-right: 5px;
+    }
+  }
+  

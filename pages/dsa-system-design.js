@@ -71,7 +71,7 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection
+        <FirstSection fsdBrochure={true}
           fullStack={true}
           deskTopPara="Data Structures Algorithms & System Design"
           mTopPara="Data Structures Algorithms & System Design"
@@ -112,8 +112,8 @@ export default function Home() {
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseDataDSA} />
-        <CourseReview />
-        <SyllabusNew
+        <CourseReview fsdBrochure={true} fullStack={true}/>
+        <SyllabusNew fsdBrochure={true}
           fullStack={true}
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
@@ -128,7 +128,7 @@ export default function Home() {
           fullStack={true}
         />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="12+ Projects" domain="7+" />
+          <Project project="12+ Projects" domain="7+" fsdBrochure={true} fullStack={true}/>
         </div>
         <CourseFee
           fullStack={true}

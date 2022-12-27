@@ -72,6 +72,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+          fsdBrochure={true}
           fullStack={true}
           deskTopPara="Full Stack Software Development Course"
           mTopPara="Full Stack Software Development Course"
@@ -112,9 +113,10 @@ export default function Home() {
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseDatasoft} />
-        <CourseReview />
+        <CourseReview fsdBrochure={true} fullStack={true} />
         <Certificate />
         <SyllabusNew
+          fsdBrochure={true}
           fullStack={true}
           syllabus={FullStackSoftwareCourseData[0].syllabus}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
@@ -125,7 +127,12 @@ export default function Home() {
         />
         <ProgramFee Fee="₹ 1,10,000 + 18% GST" Emi="₹10,816" fullStack={true} />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="12+ Projects" domain="7+" />
+          <Project
+            project="12+ Projects"
+            domain="7+"
+            fsdBrochure={true}
+            fullStack={true}
+          />
         </div>
         <CourseFee
           fullStack={true}
