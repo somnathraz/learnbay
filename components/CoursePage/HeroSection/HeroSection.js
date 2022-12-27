@@ -5,6 +5,7 @@ import "swiper/css/navigation";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
 import Image from "next/image";
 import Popup from "/components/Popup/Popup";
+import PopupD from "/components/Popup/Popup";
 import Form from "/components/Form/Form";
 
 const HeroSection = ({
@@ -22,15 +23,24 @@ const HeroSection = ({
   srcD,
   deskTopPara1,
   mTopPara1,
-  dataScience, fullStack,
+  dataScience,
+  fullStack,
+  fsdBrochure,
+  fsdBrochureText,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
+  const [popupsA, setPopupsA] = useState(false);
 
-  const popupShow = () => {
+  const popupShowA = () => {
+    setPopupsA(true);
+  };
+
+  const popupShowD = () => {
     setPopups(true);
   };
+
   const showMenu = () => {
     setShow(!show);
   };
@@ -44,16 +54,38 @@ const HeroSection = ({
 
   return (
     <section className={styles.wrapper}>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+      <Popup trigger={popupsA} setTrigger={setPopupsA} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
+            <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} fullStack={fullStack} dataScience={dataScience} />
+          <Form
+            popup={true}
+            setTrigger={setPopups}
+            fullStack={fullStack}
+            dataScience={dataScience}
+          />
         </div>
       </Popup>
+      
+      <PopupD trigger={popups} setTrigger={setPopups} className="popupModal">
+        <div className="leftPopup">
+          <div className="whiteP" />
+        </div>
+        <div className="RightPopup">
+            <h5>Download Brochure</h5>
+          {/* <p>Fill the below details to get started</p> */}
+          <Form
+            popup={true}
+            setTrigger={setPopups}
+            fullStack={fullStack}
+            dataScience={dataScience}
+            downloadBrochure
+          />
+        </div>
+      </PopupD>
       <div className={styles.left}>
         {mobile ? (
           <p className="pTop">
@@ -79,18 +111,25 @@ const HeroSection = ({
         <p className={styles.pBot}>{desc}</p>
         <div className={styles.ButtonDiv}>
           <div className={styles.btnWrapper}>
-            <button onClick={popupShow}>
+            <button onClick={popupShowA}>
               Apply for Counselling
               <FaArrowRight style={{ marginLeft: "10px" }} />
             </button>
           </div>
           <div className={styles.btnWrapper}>
-            <a href={srcD} target="_blank">
-              <button className="buttonline">
-                Download Brochure
+            {fsdBrochure ? (
+              <button className="buttonline" onClick={popupShowD}>
+                Download Brochure 
                 <FaDownload style={{ marginLeft: "10px" }} />
               </button>
-            </a>
+            ) : (
+              <a href={srcD} target="_blank">
+                <button className="buttonline">
+                  Download Brochure
+                  <FaDownload style={{ marginLeft: "10px" }} />
+                </button>
+              </a>
+            )}
           </div>
         </div>
         <div className={styles.bottom}>
@@ -100,7 +139,7 @@ const HeroSection = ({
               width={mobile ? 180 : 261}
               height={mobile ? 46.2 : 67}
               layout="intrinsic"
-               alt={alt}
+              alt={alt}
             />
           </div>
           <div className={styles.rightBottom}>
@@ -112,7 +151,7 @@ const HeroSection = ({
       <div className={styles.right}>
         <Image
           src={src}
-           alt={alt}
+          alt={alt}
           layout="intrinsic"
           width={width}
           height={height}

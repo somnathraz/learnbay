@@ -3,6 +3,7 @@ import styles from "../styles/ThankYou.module.css";
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar/Navbar";
+import CourseThankYou from "../components/Course/CourseThankYou";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
 const ThankYou = () => {
@@ -33,6 +34,7 @@ const ThankYou = () => {
         </div>
       </section>
       <OfferPopup offer={true} />
+      <CourseThankYou />
       <Footer />
     </div>
   );

@@ -179,7 +179,7 @@ const Form = ({
             onChange={handleParam()}
           >
             <option value="Work Experience">Work Experience</option>
-            <option value="1 to 3 year">Fresher or 0 year</option>
+            <option value="Fresher or 0 year">Fresher or 0 year</option>
             <option value="1 to 3 year">1 to 3 years</option>
             <option value="3 to 7 year">3 to 7 years</option>
             <option value="7 to 12 year">7 to 12 years</option>

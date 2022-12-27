@@ -10,7 +10,6 @@ import {
 import Form from "../../Form/Form";
 import { BsFillCircleFill } from "react-icons/bs";
 
-import { AiOutlineDownload } from "react-icons/ai";
 import Popup from "../../Popup/Popup";
 
 function SyllabusNew({
@@ -21,7 +20,8 @@ function SyllabusNew({
   project,
   hours,
   srcD,
-   fullStack,
+  fullStack,
+  fsdBrochure,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -59,12 +59,13 @@ function SyllabusNew({
           ></div>
         </div>
         <div className="RightPopup">
-          <h5>{popupHead}</h5>
-          <p>Please enter the following details to initiate your download</p>
+          <h5>Download Brochure</h5>
+          {/* <p>Please enter the following details to initiate your download</p> */}
           <Form
             setTrigger={setPopups}
             downloadBrochure
-            fullStack={fullStack} dataScience={dataScience}
+            fullStack={fullStack}
+            dataScience={dataScience}
           />
         </div>
       </Popup>
@@ -74,12 +75,19 @@ function SyllabusNew({
             <h4>Syllabus</h4>
           </div>
           <div className={styles.btnWrapper}>
-            <a href={srcD} target="_blank">
-              <button>
+            {fsdBrochure ? (
+              <button onClick={popupShow}>
                 Download Brochure
                 <FaDownload style={{ marginLeft: "10px" }} />
               </button>
-            </a>
+            ) : (
+              <a href={srcD} target="_blank">
+                <button>
+                  Download Brochure
+                  <FaDownload style={{ marginLeft: "10px" }} />
+                </button>
+              </a>
+            )}
           </div>
         </div>
         <p>{syllabusDesc}</p>
@@ -208,13 +216,14 @@ function SyllabusNew({
               </h5>
             </div>
             <div className={styles.PProgramInners}>
-              <Form
-                dataScience={dataScience}
-                fullStack={fullStack}
-              />
+              <Form dataScience={dataScience} fullStack={fullStack} />
             </div>
           </div>
-          <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg" className={styles.shadowImg} alt="Learnbay data science" />
+          <img
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg"
+            className={styles.shadowImg}
+            alt="Learnbay data science"
+          />
         </div>
       </div>
     </section>

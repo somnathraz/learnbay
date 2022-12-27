@@ -8,8 +8,11 @@ import { Navigation, Pagination } from "swiper";
 import Image from "next/image";
 import styles from "./CourseReview.module.css";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { FaDownload, fsdBrochureText } from "react-icons/fa";
+import Popup from "../../Popup/Popup";
+import Form from "../../Form/Form";
 
-const CourseReview = () => {
+const CourseReview = ({ fsdBrochure, fullStack, dataScience }) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -17,10 +20,49 @@ const CourseReview = () => {
       setMobile(true);
     }
   });
+  const [show, setShow] = useState(false);
+  const [popups, setPopups] = useState(false);
+
+  const popupShow = () => {
+    setPopups(true);
+  };
+  const showMenu = () => {
+    setShow(!show);
+  };
+
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 481) {
+      setMobile(true);
+    }
+  });
   return (
     <>
       {" "}
       <div className={styles.reviewWrap}>
+      <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        downloadBrochure
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "350px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Download Brochure</h5>
+          {/* <p>Please enter the following details to initiate your download</p> */}
+          <Form
+            setTrigger={setPopups}
+            downloadBrochure
+            fullStack={fullStack}
+            dataScience={dataScience}
+          />
+        </div>
+      </Popup>
         <div className={styles.swiperleft}>
           <Swiper
             slidesPerView={mobile ? 1.02 : 1}
@@ -216,14 +258,23 @@ const CourseReview = () => {
           layout="intrinsic"
           alt="Learnbay"
         />
-        <a
-          href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf"
-          target="_blank"
-        >
-          <button>
-            Download Placement Report <MdKeyboardArrowDown />
-          </button>
-        </a>
+        <div>
+          {fsdBrochure ? (
+            <button className="buttonline" onClick={popupShow}>
+              Download Placement Report
+              <FaDownload style={{ marginLeft: "10px" }} />
+            </button>
+          ) : (
+            <a
+              href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf"
+              target="_blank"
+            >
+              <button>
+                Download Placement Report <MdKeyboardArrowDown />
+              </button>
+            </a>
+          )}
+        </div>
       </div>
     </>
   );

@@ -71,7 +71,7 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection
+        <FirstSection fsdBrochure={true}
           fullStack={true}
           deskTopPara="Be a demanding Developer to stay ahead"
           mTopPara="Be a demanding Developer to stay ahead"
@@ -118,7 +118,7 @@ export default function Home() {
         <DomainFaq FaqData={DomainFaqCourseDataweb} />
         <CourseReview />
         <Certificate />
-        <SyllabusNew
+        <SyllabusNew fsdBrochure={true}
           fullStack={true}
           syllabus={FullStackWebCourseData[0].syllabus}
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
@@ -155,13 +155,13 @@ export default function Home() {
         <ProgramFee
           Fee="₹70,000 + 18% GST"
           Emi="₹ 6,884/month"
-          fullStack={true}
+          fsdBrochure={true} fullStack={true}
         />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="12+ Projects" domain="7+" />
+          <Project project="12+ Projects" domain="7+" fsdBrochure={true} fullStack={true} />
         </div>
         <CourseFee
-          fullStack={true}
+          fsdBrochure={true} fullStack={true}
           timeFsd={true}
           CourseFeeHead="Full Stack Web Development Course: Batch Details"
           CourseFeePara="Online Classroom"
