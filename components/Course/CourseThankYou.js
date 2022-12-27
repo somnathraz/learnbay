@@ -14,10 +14,10 @@ import {
 function CourseThankYou() {
 
     const [viewAll, setViewAll] = useState(false);
-    const [oneYear, setOneYear] = useState(true);
+    const [oneYear, setOneYear] = useState(false);
     const [nonTech, setNonTech] = useState(false);
     const [Guarantee, setGuarantee] = useState(false);
-    const [Stack, setStack] = useState(false);
+    const [Stack, setStack] = useState(true);
     const [mobile, setMobile] = useState(false);
 
 
