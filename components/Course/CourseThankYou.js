@@ -79,7 +79,7 @@ function CourseThankYou() {
                         }}
                         style={
                             viewAll ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
-                        }
+                        } 
                     >
                         View All
                     </span> */}
