@@ -14,10 +14,10 @@ import {
 function CourseThankYou() {
 
     const [viewAll, setViewAll] = useState(false);
-    const [oneYear, setOneYear] = useState(true);
+    const [oneYear, setOneYear] = useState(false);
     const [nonTech, setNonTech] = useState(false);
     const [Guarantee, setGuarantee] = useState(false);
-    const [Stack, setStack] = useState(false);
+    const [Stack, setStack] = useState(true);
     const [mobile, setMobile] = useState(false);
 
 
@@ -79,7 +79,7 @@ function CourseThankYou() {
                         }}
                         style={
                             viewAll ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
-                        }
+                        } 
                     >
                         View All
                     </span> */}
