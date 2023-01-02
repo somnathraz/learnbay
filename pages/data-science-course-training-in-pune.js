@@ -487,12 +487,12 @@ export default function Home() {
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 7,768/month"
+            p44="₹ 9,342/month"
           />
         </div>
         <ProgramFee
-          Fee="₹79,000 + GST"
-          Emi="₹ 7,768/month"
+          Fee="₹95,000 + GST"
+          Emi="₹ 9,342/month"
           dataScience={true}
         />
         <script
@@ -606,7 +606,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               ProgramHead1="Industrial Data science training in Pune"
-              ProgramBot1="Learnbay is a pioneer in current job market-oriented Data science training in Pune. Learnbay faculties are industrial experts in Data science from top companies. Our mentors and guides share their experience and knowledge with students who dream of a lucrative and ever-growing career in the Data Science field. Learnbay's data science learning programs in Pune are designed according to the industrial demand running in Pune. These Data science courses are the ultimate powerhouse for working professionals planning to shift into Data science jobs."
+              ProgramBot1="Learnbay offers interactive instructed-led data science course training in Pune. Learnbay faculties are industrial experts in Data science from top companies. Our mentors and guides share their experience and knowledge with students who dream of a lucrative and ever-growing career in the Data Science field. Learnbay's data science learning programs in Pune are designed according to the industrial demand running in Pune. These Data science courses are the ultimate powerhouse for working professionals planning to shift into Data science jobs."
               ProgramBot2="Our course is well customized for making the candidates ready as per the current high demand for data scientist roles existing across the city. It consists of both practical and theoretical concepts for learning Data Science."
               ProgramHead3="What do students get at Learnbay Data Science training in Pune?"
               ProgramBot3="Learnbay provided data scientist courses in Pune offer 1 to 1 attention to every student. Also, by analyzing your career profiles and academic background, we provide you with the best possible custom-fit data science course syllabus."
@@ -726,7 +726,7 @@ export default function Home() {
               alt7="data science course training in pune"
               alt8="data science course training in pune"
               alt9="data science course training in pune"
-            /> 
+            />
             <FAQNew
               FaqDatas={AdvanceFaqDataP}
               DomainFaqDatas={AdvanceDomainFaqDataP}

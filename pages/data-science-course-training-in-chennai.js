@@ -397,7 +397,7 @@ export default function Home() {
 "highPrice": "110000",
 "url" : "https://www.learnbay.co/",
 "availability" : "https://schema.org/InStock",
-"price": "79,000",
+"price": "95,000",
 "priceCurrency": "INR",
 "validFrom": "2022-05-01"},
 "startDate":"2022-05-01",
@@ -470,12 +470,12 @@ export default function Home() {
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 7,768/month"
+            p44="₹ 9,342/month"
           />
         </div>
         <ProgramFee
-          Fee="₹79,000 + GST"
-          Emi="₹ 7,768/month"
+          Fee="₹95,000 + GST"
+          Emi="₹ 9,342/month"
           dataScience={true}
         />
         <script

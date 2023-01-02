@@ -471,12 +471,12 @@ export default function Home() {
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 9,833/month"
+            p44="₹ 10,325/month"
           />
         </div>
         <ProgramFee
-          Emi="₹ 9,833/month"
-          Fee="₹ 1,00,000 + 18% GST"
+          Emi="₹ 10,325/month"
+          Fee="₹ 1,05,000 + 18% GST"
           dataScience={true}
         />
         <div className="Feature" id="Feature">
