@@ -256,10 +256,10 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "Can I pay in installments for 1,12,100/-?",
+ "name": "Can I pay in installments for 88,500/-?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
+ "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
  }
  },{
  "@type": "Question",

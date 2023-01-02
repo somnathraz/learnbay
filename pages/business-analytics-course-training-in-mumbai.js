@@ -203,11 +203,11 @@ export default function Home() {
  "name": "What is the total fee for the Business Analytics Program in Mumbai?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total program fee for the Business Analytics Program is INR 82,600/- inclusive of GST."
+ "text": "The total program fee for the Business Analytics Program is INR 88,500/- inclusive of GST."
  }
  },{
  "@type": "Question",
- "name": "Can I pay in installments for INR 82,600/-?",
+ "name": "Can I pay in installments for INR 88,500/-?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more +917795687988"

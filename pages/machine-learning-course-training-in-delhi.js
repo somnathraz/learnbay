@@ -252,7 +252,7 @@ export default function Home() {
  "name": "What is the total fee for Data Science Certifications courses in Delhi? ?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total course fee for the Foundational Data Science and AI Training course is 82,600/- inclusive of GST. Advance Data Science and AI Certification course is 93,220/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,12,100/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST."
+ "text": "The total course fee for the Foundational Data Science and AI Training course is 88,500/- inclusive of GST. Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST."
  }
  },{
  "@type": "Question",
@@ -266,14 +266,14 @@ export default function Home() {
  "name": "What is the total Fee for this machine learning course in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,12,100/- Inclusive of GST."
+ "text": "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST."
  }
  },{
  "@type": "Question",
- "name": "Can I pay in installments for 1,12,100/-?",
+ "name": "Can I pay in installments for 1,23,900/-?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12k/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
+ "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,325/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
  }
  },{
  "@type": "Question",

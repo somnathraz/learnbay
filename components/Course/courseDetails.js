@@ -114,7 +114,7 @@ export const viewAllD = [
     para: [
       "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 75,000 + 18% GST",
+      "Course Fee : ₹ 70,000 + 18% GST",
     ],
     link1: "/full-stack-web-development-program",
     link2:
