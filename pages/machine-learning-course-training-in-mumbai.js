@@ -253,7 +253,7 @@ export default function Home() {
  "name": "What is the total Fee for this machine learning course in Mumbai?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,12,100/- Inclusive of GST."
+ "text": "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST."
  }
  },{
  "@type": "Question",
