@@ -42,7 +42,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Analytics Certification Course With Placement Assistance</title>
+        <title>
+          Data Analytics Certification Course With Placement Assistance
+        </title>
         <meta
           name="description"
           content="Data analytics certification course. Learnbay is best data analytics course training institute. Our online data analytics course will enhance your career"
@@ -55,7 +57,10 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/data-analytics-certification-course"
         />
-        <meta name="Keywords" content="Data Analytics course, Data Analytics training, Data Analytics institute, best Data Analytics institute , Data Analytics course , Data Analytics certification, Data Analytics training institute , advanced Data Analytics course , Data Analytics course with Placement Assistance, Data Analytics courses"/>
+        <meta
+          name="Keywords"
+          content="Data Analytics course, Data Analytics training, Data Analytics institute, best Data Analytics institute , Data Analytics course , Data Analytics certification, Data Analytics training institute , advanced Data Analytics course , Data Analytics course with Placement Assistance, Data Analytics courses"
+        />
       </Head>
       <main>
         {" "}
@@ -96,7 +101,7 @@ export default function Home() {
             p3="1:1"
             p33="Career Support"
             p4="Financing as low as"
-            p44="₹ 13,766/month"
+            p44="₹ 14,750/month"
           />
         </div>
         <div className="Feature" id="Feature">
@@ -157,8 +162,8 @@ export default function Home() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <ProgramFee
-          Emi="₹ 13,766/month"
-          Fee="₹ 70,000 + 18% GST"
+          Emi="₹ 14,750/month"
+          Fee="₹ 75,000 + 18% GST"
           dataScience={true}
         />
         <div className={styles.ProjectWrapper} id="project">

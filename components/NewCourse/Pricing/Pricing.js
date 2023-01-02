@@ -47,7 +47,7 @@ function Pricing() {
             <div className="rightP">
               <span>Basic</span>
               <span className="PriceH">
-                {pro ? "₹ 1,35,000 + GST" : "₹ 1,00,000 + 18% GST"}
+                {pro ? "₹ 1,35,000 + GST" : "₹ 1,05,000 + 18% GST"}
               </span>
               <span>
                 <BsCheckCircleFill style={{ color: "Green" }} />
@@ -111,7 +111,7 @@ function Pricing() {
         </div>
         <div className={styles.PricingBox}>
           <p className={styles.pTop}>Pro</p>
-          <p className={styles.Price}>₹ 1,00,000 + 18% GST</p>
+          <p className={styles.Price}>₹ 1,05,000 + 18% GST</p>
           <p className={styles.Course}>Real Work Experience</p>
           <div>
             <p>Feature:</p>

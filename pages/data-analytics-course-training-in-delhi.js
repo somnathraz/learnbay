@@ -210,7 +210,7 @@ export default function Home() {
  "name": "Can I pay in installments for INR 70,800/-?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 13,766/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
+ "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
 }
 },{
  "@type": "Question",
@@ -410,12 +410,12 @@ export default function Home() {
             p3="1:1"
             p33="Career Support"
             p4="Financing as low as"
-            p44="₹ 13,766/month"
+            p44="₹ 14,750/month"
           />
         </div>
         <ProgramFee
-          Emi="₹ 13,766/month"
-          Fee="₹ 70,000 + 18% GST"
+          Emi="₹ 14,750/month"
+          Fee="₹ 75,000 + 18% GST"
           dataScience={true}
         />
         <div className="Feature" id="Feature">

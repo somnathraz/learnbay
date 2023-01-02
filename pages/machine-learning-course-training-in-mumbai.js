@@ -453,12 +453,12 @@ export default function Home() {
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 9,833/month"
+            p44="₹ 10,325/month"
           />
         </div>
         <ProgramFee
-          Emi="₹ 9,833/month"
-          Fee="₹ 1,00,000 + 18% GST"
+          Emi="₹ 10,325/month"
+          Fee="₹ 1,05,000 + 18% GST"
           dataScience={true}
         />
         <div className="Feature" id="Feature">
@@ -495,7 +495,7 @@ export default function Home() {
               ProgramHead7="Dedicated support to weak programmers:"
               ProgramBot7="Learnbay machine learning training program in Mumbai is specified for candidates with technical backgrounds. But it does not mean that everyone comes with a python or R programming expertise when joining the course. In fact, the lack of programming expertise is a key reason why a number of certified machine learning candidates in Mumbai are still jobless."
               ProgramBot8="Learnbay offers additional programming skills honing sessions with preparatory python and R classes along with exclusive hackathons."
-              ProgramBot9="The machine learning course fee of this featured program in Mumbai is 1,00,000 INR."
+              ProgramBot9="The machine learning course fee of this featured program in Mumbai is 1,05,000 INR."
               ProgramHead8="The course is also IBM certified."
               ProgramBot10="Know More about our Artificial Intelligence and Machine Learning Training Program in Mumbai"
               DomainHead1="Why Domain Specialization?"

@@ -91,7 +91,7 @@ export default function Home() {
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 6,883/month"
+            p44="₹ 7,375/month"
           />
         </div>
         <div className="Feature" id="Feature">
@@ -154,14 +154,14 @@ export default function Home() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <ProgramFee
-          Emi="₹ 6,883/month"
-          Fee="₹ 70,000 + 18% GST"
+          Emi="₹ 7,375/month"
+          Fee="₹ 75,000 + 18% GST"
           dataScience={true}
         />
         <Fee
           dataScience={true}
           sub2="Data Science Foundation Certification Program"
-          Price2="₹70,000 + 18% GST"
+          Price2="₹75,000 + 18% GST"
           PFeatures21="200+ Hours"
           PFeatures22="Non-Tech Professional"
           PFeatures23="NA"
@@ -170,7 +170,7 @@ export default function Home() {
           PFeatures26="5"
           PFeatures28="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
           sub1="Advanced Data Science and AI Program"
-          Price1="₹90,000 + 18% GST"
+          Price1="₹95,000 + 18% GST"
           PFeatures11=" 250+ Hours"
           PFeatures12=" Tech/Non-Tech Professionals"
           PFeatures13="2"
@@ -179,7 +179,7 @@ export default function Home() {
           PFeatures16="10"
           PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
           sub3="Data Science and AI Master Program"
-          Price3="₹1,20,000 + 18% GST"
+          Price3="₹1,25,000 + 18% GST"
           PFeatures31=" 500+ Hours"
           PFeatures32="Tech/Non-Tech Professionals"
           PFeatures33="7"

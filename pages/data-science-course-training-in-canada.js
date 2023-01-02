@@ -470,12 +470,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Foundational or Advanced Job-oriented Course  in Canada"
-          mTopPara="Foundational or Advanced Job-oriented Course  in Canada"
-          spanTitleText="Working Professionals"
-          spanMTitleText="Working Professionals"
-          mTitle="Data Science Course Training In Canada for"
-          title="Data Science Course Training In Canada for"
+          deskTopPara="Foundational or Advanced Job-oriented Program"
+          mTopPara="Foundational or Advanced Job-oriented Program"
+          spanTitleText="Domain Specialization"
+          spanMTitleText="Domain Specialization"
+          mTitle="Data Science Course Training In Canada with"
+          title="Data Science Course Training In Canada with"
           desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Data Science Training in Canada on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
@@ -492,12 +492,12 @@ export default function Home() {
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 7,768/month"
+            p44="₹ 9,342/month"
           />
         </div>
         <ProgramFee
-          Fee="₹79,000 + GST"
-          Emi="₹ 7,768/month"
+          Fee="₹95,000 + GST"
+          Emi="₹ 9,342/month"
           dataScience={true}
         />
         <script
