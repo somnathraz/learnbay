@@ -136,4 +136,8 @@
   .Button {
     margin-bottom: 10px;
   }
+
+  .Back button {
+    margin: auto;
+  }
 }

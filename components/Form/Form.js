@@ -108,10 +108,11 @@ const Form = ({
       router.push("/event/Thank-You-event");
     }
     if (router.pathname === "/organic") {
-      setToggle(false);
-      setAlertMSG("Form Submitted successfully");
-      setDisable(false);
-      setValue("");
+      // setToggle(false);
+      // setAlertMSG("Form Submitted successfully");
+      // setDisable(false);
+      // setValue("");
+      router.push("/submitted");
     }
   };
   const isWeekday = (date) => {
