@@ -61,7 +61,7 @@ const Form = ({
   }
 
   if (router.pathname === "/organic") {
-    endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
+    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
   }
 
   let btnText = "Apply for Counselling";
@@ -88,7 +88,8 @@ const Form = ({
         jobDescription: "",
         workExperience: "",
         dateTime: "",
-        url: "",
+        url: router.asPath,
+        
       })
     );
     if (popup) {
@@ -226,9 +227,9 @@ const Form = ({
         {google ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <select
-              name="google"
+              name="WAdropdown"
               required
-              value={query.google}
+              value={query.WAdropdown}
               onChange={handleParam()}
             >
               <option value="Select One">Select One</option>
