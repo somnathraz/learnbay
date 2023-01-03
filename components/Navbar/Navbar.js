@@ -9,7 +9,7 @@ import Form from "../Form/Form";
 import { useRouter } from "next/router";
 import Tabs from "../Tabs/Tabs";
 
-const Navbar = ({ radio, event, dataScience, fullStack }) => {
+const Navbar = ({ radio, event, dataScience, fullStack, eventO }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -179,6 +179,10 @@ const Navbar = ({ radio, event, dataScience, fullStack }) => {
           )}
         </div>
         <div className={styles.right}>
+        {eventO ? (
+""
+) : (
+  <>
           {event ? (
             <>
               <span>
@@ -218,6 +222,8 @@ const Navbar = ({ radio, event, dataScience, fullStack }) => {
                 <FaArrowRight className={styles.icon} />
               </button>
             </>
+          )}
+           </>
           )}
           <Popup></Popup>
         </div>

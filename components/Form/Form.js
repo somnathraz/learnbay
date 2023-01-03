@@ -18,6 +18,8 @@ const Form = ({
   event,
   dataScience,
   fullStack,
+  google,
+  workExperience,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -25,8 +27,11 @@ const Form = ({
     today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
   //offset to maintain time zone difference
+  const [disable, setDisable] = useState(false);
   const [startDate, setStartDate] = useState();
   const [value, setValue] = useState();
+  const [alertMSG, setAlertMSG] = useState("");
+  const [toggle, setToggle] = useState(true);
   const [query, setQuery] = useState({
     name: "",
     email: "",
@@ -55,6 +60,10 @@ const Form = ({
     endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
   }
 
+  if (router.pathname === "/organic") {
+    endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
+  }
+
   let btnText = "Apply for Counselling";
   if (event) {
     btnText = "Register Now";
@@ -70,7 +79,8 @@ const Form = ({
     fetch(`${endPoint}`, {
       method: "POST",
       body: formData,
-    }).then(() =>
+    }).then(
+      () => setAlertMSG(""),
       setQuery({
         name: "",
         email: "",
@@ -95,6 +105,12 @@ const Form = ({
     }
     if (event) {
       router.push("/event/Thank-You-event");
+    }
+    if (router.pathname === "/organic") {
+      setToggle(false);
+      setAlertMSG("Form Submitted successfully");
+      setDisable(false);
+      setValue("");
     }
   };
   const isWeekday = (date) => {
@@ -171,7 +187,7 @@ const Form = ({
             onChange={handleParam()}
           />
         </div>
-        <div className={popup ? styles.formWrappers : styles.formWrapper}>
+        {/* <div className={popup ? styles.formWrappers : styles.formWrapper}>
           <select
             name="workExperience"
             required
@@ -185,7 +201,47 @@ const Form = ({
             <option value="7 to 12 year">7 to 12 years</option>
             <option value="12+ year">12+ years</option>
           </select>
-        </div>
+        </div> */}
+
+        {workExperience ? (
+          ""
+        ) : (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <select
+              name="workExperience"
+              required
+              value={query.workExperience}
+              onChange={handleParam()}
+            >
+              <option value="Work Experience">Work Experience</option>
+              <option value="Fresher or 0 year">Fresher or 0 year</option>
+              <option value="1 to 3 year">1 to 3 year</option>
+              <option value="3 to 7 year">3 to 7 year</option>
+              <option value="7 to 12 year">7 to 12 year</option>
+              <option value="12+ year">12+ year</option>
+            </select>
+          </div>
+        )}
+
+        {google ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <select
+              name="google"
+              required
+              value={query.google}
+              onChange={handleParam()}
+            >
+              <option value="Select One">Select One</option>
+              <option value="Calls">Calls</option>
+              <option value="WhatsApp">WhatsApp</option>
+              <option value="Referral">Referral</option>
+              <option value="Krishna Sir">Krishna Sir</option>
+            </select>
+          </div>
+        ) : (
+          ""
+        )}
+
         {popup ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <input
@@ -252,6 +308,7 @@ const Form = ({
         ) : (
           ""
         )}
+        <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
