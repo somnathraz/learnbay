@@ -39,6 +39,7 @@ const Form = ({
     workExperience: "",
     Brief: "",
     dateTime: "",
+    WAdropdown: "",
     url: router.asPath,
   });
   useEffect(() => {
@@ -88,8 +89,8 @@ const Form = ({
         jobDescription: "",
         workExperience: "",
         dateTime: "",
+        WAdropdown: "",
         url: router.asPath,
-        
       })
     );
     if (popup) {
@@ -108,11 +109,10 @@ const Form = ({
       router.push("/event/Thank-You-event");
     }
     if (router.pathname === "/organic") {
-      // setToggle(false);
-      // setAlertMSG("Form Submitted successfully");
-      // setDisable(false);
-      // setValue("");
-      router.push("/submitted");
+      setToggle(false);
+      setAlertMSG("Form Submitted successfully");
+      setDisable(false);
+      setValue("");
     }
   };
   const isWeekday = (date) => {

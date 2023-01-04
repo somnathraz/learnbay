@@ -107,7 +107,6 @@ const Navbar = ({ radio, event, dataScience, fullStack, eventO }) => {
           </div>
           {event ? (
             <>
-              <a href="#">
                 <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
                   alt="Learnbay"
@@ -116,7 +115,6 @@ const Navbar = ({ radio, event, dataScience, fullStack, eventO }) => {
                   width={mobile ? "180" : "230"}
                   height="60px"
                 />
-              </a>
             </>
           ) : (
             <>
