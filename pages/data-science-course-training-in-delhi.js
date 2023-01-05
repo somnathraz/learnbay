@@ -469,12 +469,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Foundational Or Advanced Data Science Course in Delhi"
-          mTopPara="Foundational Or Advanced Data Science Course in Delhi"
-          title="Data Science Course Training In Delhi for"
-          mTitle="Data Science Course Training In Delhi for"
-          spanTitleText="working professionals"
-          spanMTitleText="Working Professionals"
+          deskTopPara="Foundational Or Advanced Data Science Program"
+          mTopPara="Foundational Or Advanced Data Science Program"
+          title="Data Science Course In"
+          mTitle="Data Science Course In"
+          spanTitleText="Delhi"
+          spanMTitleText="Delhi"
           desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Data Science Training in Delhi on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
