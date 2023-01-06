@@ -22,7 +22,7 @@
 }
 
 .about h4 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 800;
   padding-right: 120px;
 }
@@ -38,7 +38,7 @@
 
 .FirstDiv {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 40% 60%;
   text-align: center;
   margin-top: 30px;
   align-items: center;
@@ -83,16 +83,6 @@
   margin: 0;
 }
 
-.FirstImg {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-
-  background-position: center;
-}
-
 .CDImg {
   background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mission.png");
   height: 100%;
@@ -129,6 +119,19 @@
   flex-flow: column;
   align-items: center;
   justify-content: center;
+}
+
+.FirstTextTop {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.FirstText h3 {
+  font-size: 30px;
+  color: #000;
 }
 
 .FirstText h3 {
@@ -278,6 +281,61 @@
   font-weight: 500;
 }
 
+.FirstTextTop h3 {
+  font-size: 26px;
+  color: #0072bc;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.list {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+
+.FirstTextTop .list {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+  margin: 0;
+}
+
+.MainDiv {
+  padding: 0px 100px;
+  display: flex;
+  gap: 50px;
+}
+
+.FirstDivMain span {
+  border-radius: 20px;
+}
+
+.DesSpan {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.iconLink {
+  color: #0072bc;
+  font-size: 34px;
+}
+
+.iconHead {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.FirstTextHead h3 {
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .Back {
     height: 100%;
@@ -319,12 +377,8 @@
     align-items: center;
   }
 
-  .FirstImg {
-    height: 350px;
-  }
-
   .MiddleImg {
-    height: 350px;
+    /* height: 350px; */
     width: 100%;
   }
 
@@ -363,5 +417,10 @@
   }
   .OurJourney h3 {
     font-size: 24px;
+  }
+  .MainDiv {
+    padding: 20px;
+    display: block;
+    gap: 50px;
   }
 }
