@@ -27,12 +27,30 @@
   padding: 40px 20px;
 }
 
+@media (max-width: 641px) {
+  .fromWrap {
+    padding: 0px 30px;
+    display: block;
+  }
+  }
+
 @media (max-width: 961px) {
 .fromWrap {
-  padding: 0px 30px;
+  padding: 30px 20px;
+  gap: 20px;
+  display: flex;
 }
 .rightFormWrap {
-  top: -60px;
+  top: -100px;
+  width: 100%;
+}
+.fromWrap h5 {
+  font-size: 26px;
+  margin: 0px 0px 20px 0px;
+
+}
+.fromWrap {
+  margin: 130px 0px 150px 0px;
 }
 }
 

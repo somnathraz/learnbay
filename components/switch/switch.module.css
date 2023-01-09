@@ -68,6 +68,12 @@
 }
 }
 
+@media (max-width: 961px){
+  .switch {
+    gap: 0;
+  }
+}
+
 @media (max-width: 600px) {
   .switch {
     display: block;

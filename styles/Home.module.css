@@ -271,7 +271,20 @@
     gap: 10px;
   }
   .boxWrap {
-    padding: 30px;
+    padding: 20px;
+  }
+  .boxWrap h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 641px) {
+  .boxShape {
+    gap: 10px;
+  }
+  .boxWrap {
+    padding: 20px;
   }
 }
 
@@ -291,6 +304,7 @@
     margin: 0;
     font-size: 26px;
     text-align: center;
+    font-weight: 700;
   }
   .boxp {
     margin: 0px;

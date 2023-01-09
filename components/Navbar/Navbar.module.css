@@ -183,9 +183,17 @@
   }
   .nav {
     padding: 0px 20px;
+    width: 100%;
+  }
+.left button {
+  padding: 12px 15px;
+  font-size: 14px;
+}
+  .left {
+    gap: 15px;
   }
   .right button {
-    padding: 12px 20px;
+    padding: 12px 15px;
     font-size: 14px;
     color: #0072bc;
     background-color: transparent;
@@ -195,9 +203,9 @@
   }
 }
 
-@media (max-width: 481px) {
+@media (max-width: 801px) {
   .nav {
-    width: 100vw;
+    width: 100%;
     height: max-content;
     scroll-behavior: smooth;
     font-size: 14px;
@@ -309,5 +317,14 @@
   .mobileWrapper .mobileMenu span:hover {
     color: #fff;
     background-color: #2d9cd7;
+  }
+}
+
+@media (max-width: 801px) {
+  .left {
+    width: 100vw;
+  }
+  .nav {
+    width: 100vw;
   }
 }

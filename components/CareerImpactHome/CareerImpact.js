@@ -9,10 +9,22 @@ import styles from "./CareerImpact.module.css";
 
 const CareerImpact = () => {
   const [mobile, setMobile] = useState(false);
+  const [value, setValue] = useState(2.04);
+
+  // useEffect(() => {
+  //   let width = window.innerWidth;
+  //   if (width < 600) {
+  //     setMobile(true);
+  //   }
+  // }); 
+
   useEffect(() => {
     let width = window.innerWidth;
     if (width < 600) {
-      setMobile(true);
+      setValue(1.02);
+      setMobile(true)
+    } else if (width <= 961) {
+      setValue(1.5);
     }
   });
   return (
@@ -24,7 +36,7 @@ const CareerImpact = () => {
         </p>
         <div className={styles.swiperleft}>
           <Swiper
-            slidesPerView={mobile ? 1.02 : 2.04}
+            slidesPerView={value}
             spaceBetween={mobile ? 10 : 10}
             pagination={{ clickable: true }}
             grabCursor={true}

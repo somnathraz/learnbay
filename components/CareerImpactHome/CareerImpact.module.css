@@ -187,10 +187,10 @@
 
 @media (max-width: 961px) {
   .CareerImpact {
-    margin: 70px 30px;
+    margin: 70px 20px;
   }
 .slide {
-  height: fit-content;
+  height: 350px;
 }
 }
 
