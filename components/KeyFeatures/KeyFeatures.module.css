@@ -84,7 +84,7 @@
 
 @media (max-width: 961px){
   .Features {
-    padding: 50px 30px 0px 30px;
+    padding: 50px 20px 0px 20px;
   }
   .LeftWrap,
 .RightWrap {
@@ -100,6 +100,18 @@
   align-items: center;
   height: 100%;
 }
+.LeftWrap h6 {
+  font-size: 25px;
+  margin: 0;
+  font-weight: 500;
+  color: #28557a;
+}
+}
+
+@media (max-width: 641px){
+  .FeatureWrap {
+    display: block;
+  }
 }
 
 @media (max-width: 600px) {

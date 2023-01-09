@@ -170,7 +170,7 @@
     padding: 30px;
   }
   .MiddleDiv {
-    padding: 0px 50px 0px 50px;
+    padding: 0px 20px 0px 20px;
     margin: 0px;
     background-position: right;
     display: flex;
@@ -179,7 +179,7 @@
     margin: 0;
   }
   .FirstDiv {
-    padding: 0px 50px 0px 50px;
+    padding: 0px 20px 0px 20px;
     margin: 0px;
     background-position: right;
     margin: 50px 0px;

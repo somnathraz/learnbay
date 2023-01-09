@@ -26,7 +26,7 @@ const Course = () => {
   const [Guarantee, setGuarantee] = useState(false);
   const [Stack, setStack] = useState(false);
   const [mobile, setMobile] = useState(false);
-  const [tab, setTab] = useState(false);
+  const [value, setValue] = useState(3.2);
 
   const filtteredViewAllD = viewAllD.filter(
     (post) => post.tag === "Data science"
@@ -54,16 +54,19 @@ const Course = () => {
   useEffect(() => {
     let width = window.innerWidth;
     if (width < 600) {
-      setMobile(true);
+      setValue(1.1);
+      setMobile(true)
+    } else if (width <= 961) {
+      setValue(2.3);
     }
   });
 
-  useEffect(() => {
-    let width = window.innerWidth;
-    if (width < 960) {
-      setTab(true);
-    }
-  });
+  // useEffect(() => {
+  //   let width = window.innerWidth;
+  //   if (width < 960) {
+  //     setTab(true);
+  //   }
+  // });
 
   return (
     <div className={styles.Course} id="course">
@@ -88,7 +91,7 @@ const Course = () => {
               <h5>Data Science (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3.2}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -158,7 +161,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -249,7 +252,7 @@ const Course = () => {
               <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3.2}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -337,7 +340,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -428,7 +431,7 @@ const Course = () => {
               <h5>Data Science (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1 : 3}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -498,7 +501,7 @@ const Course = () => {
               <h5>Full Stack (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1 : 3}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -589,7 +592,7 @@ const Course = () => {
               <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3.2}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -659,7 +662,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -808,7 +811,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1 : 3}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -885,7 +888,7 @@ const Course = () => {
               <h5>Data Science (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3.2}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -955,7 +958,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -1031,7 +1034,7 @@ const Course = () => {
               <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3.2}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -1107,7 +1110,7 @@ const Course = () => {
               <h5>Data Science (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -1177,11 +1180,11 @@ const Course = () => {
               <h5>Full Stack (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
-            clickable: true,
-          }}
+                    clickable: true,
+                  }}
                   grabCursor={true}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -1191,14 +1194,16 @@ const Course = () => {
                       viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
-                        <a href={link1}><img
-                          src={img}
-                          layout="intrinsic"
-                          width="423px"
-                          height="252px"
-                           alt="data science course in bangalore"
-                          className={styles.courseImg}
-                        /></a>
+                        <a href={link1}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            width="423px"
+                            height="252px"
+                            alt="data science course in bangalore"
+                            className={styles.courseImg}
+                          />
+                        </a>
                         <div
                           className={styles.contentBox}
                           style={{ marginTop: "452px" }}
@@ -1252,7 +1257,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,

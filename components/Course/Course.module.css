@@ -146,8 +146,13 @@
 
 @media (max-width: 961px) {
   .Course {
-    padding: 0px 30px;
+    padding: 0px 20px;
   }
+  .leftSide,
+.middleSide,
+.rightSide {
+  max-height: 190px;
+}
 }
 
 @media (max-width: 481px) {
@@ -216,7 +221,7 @@
     grid-template-columns: 85% 85%;
     overflow: scroll;
     padding: 0;
-    height: 500px;
+    height: 520px;
     margin-top: 0px;
   }
 

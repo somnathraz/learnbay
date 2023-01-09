@@ -142,11 +142,14 @@
 @media (max-width: 961px) {
   .Course {
     margin-top: 0px;
-    padding: 0px 30px;
+    padding: 0px 20px;
     margin-bottom: 0px;
   }
 .gridPanel {
   gap: 30px;
+}
+.gridPanel {
+  padding: 0px 30px;
 }
 }
 
