@@ -144,15 +144,31 @@
   padding: 0px 20px;
 }
 
-@media (max-width: 961px) {
+@media (max-width: 1025px) {
+  .gridPanel {
+    height: 480px;
+  }
   .Course {
     padding: 0px 20px;
   }
   .leftSide,
-.middleSide,
-.rightSide {
-  max-height: 190px;
+  .middleSide,
+  .rightSide {
+    max-height: 190px;
+  }
 }
+
+@media (max-width: 1280px) {
+  .contentBox {
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 641px) {
+  .Course h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
 }
 
 @media (max-width: 481px) {

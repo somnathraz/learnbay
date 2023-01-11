@@ -50,7 +50,9 @@ function FAQ({ FaqData }) {
             key={id}
             className={styles.FaqWrapper}
             onClick={() => handleChange(index)}
-            itemscope itemProp="mainEntity" itemType="https://schema.org/Question"
+            itemScope
+            itemProp="mainEntity"
+            itemType="https://schema.org/Question"
           >
             {open ? (
               <div className={styles.queshO} itemProp="name">
@@ -77,7 +79,12 @@ function FAQ({ FaqData }) {
             )}
 
             {open ? (
-              <div className={styles.ans} itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+              <div
+                className={styles.ans}
+                itemScope
+                itemProp="acceptedAnswer"
+                itemType="https://schema.org/Answer"
+              >
                 <p>
                   {ans}
                   <a href={link1} target="_blank" className={styles.link}>
@@ -106,7 +113,12 @@ function FAQ({ FaqData }) {
                 </p>
               </div>
             ) : (
-              <div className={styles.ansV} itemscope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+              <div
+                className={styles.ansV}
+                itemScope
+                itemProp="acceptedAnswer"
+                itemType="https://schema.org/Answer"
+              >
                 <p>{ans}</p>
               </div>
             )}
@@ -115,6 +127,6 @@ function FAQ({ FaqData }) {
       })}
     </section>
   );
-} 
+}
 
 export default FAQ;

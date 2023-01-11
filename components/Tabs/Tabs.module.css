@@ -86,10 +86,36 @@
   display: flex;
   color: #646464;
 }
-@media (max-width: 481px) {
+
+@media (min-width: 961px) and (max-width: 1070px) {
+  .MenuTabs {
+    padding: 20px;
+    width: 100%;
+  }
+  .spanActive,
+  .span {
+    width: 300px;
+  }
+}
+
+@media (min-width: 799px) and (max-width: 960px) {
+  .MenuTabs {
+    padding: 20px;
+    width: 100%;
+  }
+  .spanActive,
+  .span {
+    width: 238px;
+  }
+  .Program {
+    width: 247px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 798px) {
   .MenuTabs {
     left: 0;
-    height: 90vh;
+    height: 100vh;
     overflow-y: auto;
     width: 100vw;
     flex-flow: column;
@@ -110,5 +136,8 @@
   .Program {
     width: auto;
     padding: 10px;
+  }
+  .middlePanel {
+    display: none;
   }
 }

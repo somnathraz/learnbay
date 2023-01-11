@@ -85,8 +85,8 @@ const Project = ({ ChangeProject, project, domain }) => {
           navigation={true}
           grabCursor={true}
           breakpoints={{
-            768: {
-              slidesPerView: 4,
+            500: {
+              slidesPerView: 1.5,
               spaceBetween: 40,
             },
             1024: {

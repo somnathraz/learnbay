@@ -166,7 +166,24 @@
   color: #2d9cd7;
 }
 
-@media (max-width: 481px) {
+@media (min-width: 501px) and (max-width: 1025px){
+  .FeeS {
+    padding: 0px 20px;
+  }
+  .priceTable {
+    display: grid;
+    grid-template-columns: 35% 50% 50% 50%;
+    overflow-x: auto;
+    margin: 20px 0px;
+  }
+  .priceTable div,
+.priceTableData div {
+  margin-bottom: 20px;
+}
+}
+
+
+@media (min-width: 320px) and (max-width: 500px) {
   .FeeS {
     padding: 0px 0px;
     height: max-content;
@@ -176,11 +193,13 @@
   }
   .priceTable {
     display: grid;
-    grid-template-columns: 55% 55% 55% 55%;
+    grid-template-columns: 55% 60% 60% 60%;
     gap: 20px;
     height: max-content;
     overflow: scroll;
     margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     justify-content: flex-start;
   }
   .priceTableData {
@@ -199,7 +218,7 @@
     flex-flow: column;
   }
   .sub {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     color: rgb(114, 114, 114);
   }
@@ -301,4 +320,10 @@
   .button:hover {
     background-color: #edb552;
   }
+  .priceTable div,
+.priceTableData div {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 20px;
+}
 }

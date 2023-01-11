@@ -23,9 +23,13 @@ const CareerImpact = () => {
     if (width < 600) {
       setValue(1.02);
       setMobile(true)
+    } else if (width <= 641) {
+      setValue(1.2);
     } else if (width <= 961) {
       setValue(1.5);
-    }
+    } else if (width <= 1281) {
+      setValue(1.7);
+    } 
   });
   return (
     <section className={styles.CareerImpact}>

@@ -27,7 +27,7 @@
   justify-content: center;
   align-items: center;
   height: max-content;
-  padding: 44px 25px;
+  padding: 44px 15px;
   background: #0072bc;
   border-radius: 20px;
   -webkit-box-shadow: -11px 26px 31px 0px rgba(41, 121, 173, 0.49);
@@ -103,12 +103,12 @@
 
 @media (max-width: 1281px) {
   .box {
-    width: 33%;
-    padding: 30px 15px;
+    width: 31%;
+    padding: 20px 15px;
   }
   .boxActive {
-    width: 33%;
-    padding: 30px 15px;
+    width: 31%;
+    padding: 20px 15px;
   }
   .box h5,
   .boxActive h5 {
@@ -116,10 +116,15 @@
     text-align: center;
   }
   .imgBack {
-    width: 19%;
+    width: 31%;
+  }
+  .box,
+  .box:hover {
+    width: 31%;
+    padding: 20px 15px;
   }
 }
-@media (max-width: 961px) {
+@media (max-width: 1025px) {
   .box h5,
   .boxActive h5 {
     font-size: 20px;
@@ -128,31 +133,77 @@
   .imgBack {
     width: max-content;
   }
-.box, .box:hover {
-  padding: 15px;
-  width: 33%;
-}
+  .box,
+  .box:hover {
+    padding: 15px;
+    width: 33%;
+  }
 
-.boxActive {
-  padding: 15px;
-}
+  .boxActive {
+    padding: 15px;
+    width: 33%;
+  }
 }
 @media (max-width: 801px) {
   .box {
-    width: 45%;
+    width: 31%;
+    height: 280px;
   }
   .boxActive {
-    width: 45%;
+    height: 280px;
+    width: 31%;
+  }
+  .box,
+  .box:hover {
+    height: 280px;
+    width: 31%;
+  }
+  .box p,
+  .boxActive p {
+    padding: 0;
   }
 }
+
+@media (max-width: 641px) {
+  .boxWrap h2 {
+    font-size: 26px;
+  }
+  .box {
+    width: 31%;
+    height: 270px;
+  }
+  .boxActive {
+    height: 270px;
+    width: 31%;
+  }
+  .box,
+  .box:hover {
+    height: 270px;
+    width: 31%;
+  }
+  .box p,
+  .boxActive p {
+    padding: 0;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .box h5,
+  .boxActive h5 {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 481px) {
   .box {
     width: 100%;
+    height: fit-content;
   }
   .box:hover {
+    height: fit-content;
     width: 100%;
   }
   .boxActive {
+    height: fit-content;
     width: 100%;
   }
   .imgBack {

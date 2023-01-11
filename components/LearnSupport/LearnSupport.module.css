@@ -102,33 +102,70 @@
   margin-left: 10px;
 }
 
-@media (max-width: 961px) {
+@media (max-width: 1025px) {
   .LearnSupport {
     padding: 0px 20px;
     grid-template-columns: 50% 50%;
     margin: 30px 0px 50px 0px;
   }
-.pBot {
-  font-size: 18px;
-}
-.learnInnerR .img {
-  width: 450px;
-  top: 0;
-  padding: 20px 0px;
-}
-.learnInner {
-  padding: 50px 20px 50px 40px;
-}
-.btn1, .btn2 {
-  padding: 12px 20px;
-}
+  .pBot {
+    font-size: 18px;
+  }
+  .learnInnerR .img {
+    width: 450px;
+    top: 0;
+    padding: 20px 0px;
+  }
+  .learnInner {
+    padding: 50px 20px 50px 40px;
+  }
+  .btn1,
+  .btn2 {
+    padding: 12px 20px;
+  }
 }
 
-@media (max-width:641px){
+@media (max-width: 800px) {
   .LearnSupport {
-    padding: 0px 30px;
+    grid-template-columns: 39% 57%;
+    gap: 30px;
+  }
+  .learnInnerR .img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 641px) {
+  .LearnSupport {
+    padding: 20px 20px;
     margin: 30px 0px;
-    display: block;
+    display: grid;
+    grid-template-columns: 49% 49%;
+  }
+  .learnInnerR .img {
+    width: 300px;
+    position: initial;
+    gap: 10px;
+    padding: 0;
+  }
+  .pBot {
+    padding: 0;
+  }
+  .learnInner {
+    padding: 0px 0px 30px 0px;
+  }
+  .learnInner h5 {
+    font-size: 23px;
+    margin: 0;
+  }
+  .learnInner .pTop {
+    margin: 0;
+  }
+  .btnWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
   }
 }
 
@@ -165,7 +202,7 @@
     width: 100%;
     height: auto;
     top: -40px;
-    position:initial;
+    position: initial;
     padding: 10px;
   }
 
@@ -173,12 +210,11 @@
     margin-top: 20px;
   }
 
-.btnWrap {
-display: block;
-}
+  .btnWrap {
+    display: block;
+  }
 
-.pBot {
-  padding: 0;
-}
-
+  .pBot {
+    padding: 0;
+  }
 }

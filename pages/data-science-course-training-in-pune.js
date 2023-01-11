@@ -465,17 +465,17 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Foundational and Advance Job-ready Data Science Course"
-          mTopPara="Foundational and Advance Job-ready Data Science Course"
-          title="Data Science Course Training in Pune"
-          mTitle="Data Science Course Training in Pune"
-          spanTitleText="with Domain Specialization"
-          spanMTitleText="Domain Specialization"
-          desc="Acquire the weight of an experienced candidate even at your first data scientist job. The data science course in Pune will help you to capitalize on your domain expertise on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+          deskTopPara="Foundational and Advance Job-ready Program"
+          mTopPara="Foundational and Advance Job-ready Program"
+          title="Data Science Course in Pune"
+          mTitle="Data Science Course in Pune"
+          spanTitleText="Enroll Now"
+          spanMTitleText="Enroll Now"
+          desc="Enhance your Data Science career with our comprehensive Data Science course in Pune with IBM Certification. Our advanced Data Science training in Pune will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
-          alt="data science course training in pune"
+          alt="data science course in pune"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>

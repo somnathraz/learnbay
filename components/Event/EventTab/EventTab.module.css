@@ -32,7 +32,7 @@
   width: max-content;
   font-weight: 500;
   cursor: pointer;
-width: 100%;
+  width: 100%;
   justify-content: start;
 }
 .ActiveSpan {
@@ -42,7 +42,7 @@ width: 100%;
   border-bottom: 3px solid #0072bc;
   justify-content: start;
   width: 100%;
-  background-color: #F3FCFE;
+  background-color: #f3fcfe;
 }
 
 .gridPanel {
@@ -76,7 +76,7 @@ width: 100%;
 .expire {
   font-size: 12px;
   padding: 8px 12px;
-  background-color: #F4C466;
+  background-color: #f4c466;
   color: black;
   border-radius: 4px;
 }
@@ -137,7 +137,7 @@ width: 100%;
   font-size: 20px;
 }
 
-@media (max-width: 961px) {
+@media (max-width: 1025px) {
   .Course {
     padding: 0px 30px;
   }
@@ -204,7 +204,7 @@ width: 100%;
     cursor: pointer;
     width: 100%;
     justify-content: start;
-    background-color: #F3FCFE;
+    background-color: #f3fcfe;
     border-bottom: 3px solid #0072bc;
     justify-content: start;
   }

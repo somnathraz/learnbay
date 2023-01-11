@@ -464,13 +464,13 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Foundational and Advanced Data Science Courses in Bangalore"
-          spanTitleText="Bangalore"
-          spanMTitleText="Bangalore"
-          mTitle="Data Science Course Training in"
-          mTopPara="Foundational and Advanced Data Science Courses in Bangalore"
-          title="Data Science Course Training in"
-          desc="Get Industry-accredited Data Science Training in Bangalore on utilizing your existing domain knowledge in the data science field via fresh industrial capstones. Acquire the weight of an experienced candidate even at your first data science job with this data science course in bangalore."
+          deskTopPara="Foundational and Advance Job-ready Program"
+          mTopPara="Foundational and Advance Job-ready Program"
+          title="Data Science Course in Bangalore"
+          mTitle="Data Science Course in Bangalore"
+          spanTitleText="Enroll Now"
+          spanMTitleText="Enroll Now"
+          desc="Enhance your Data Science career with our comprehensive Data Science course in Bangalore with IBM Certification. Our advanced Data Science training in Bangalore will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"

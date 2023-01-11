@@ -56,8 +56,16 @@ const Course = () => {
     if (width < 600) {
       setValue(1.1);
       setMobile(true)
+    } else if (width <= 641) {
+      setValue(1.6);
+    } else if (width <= 800) {
+      setValue(2);
     } else if (width <= 961) {
       setValue(2.3);
+    }  else if (width <= 1280) {
+      setValue(2.8);
+    } else if (width <= 1281) {
+      setValue(2.9);
     }
   });
 

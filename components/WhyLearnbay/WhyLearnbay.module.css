@@ -161,7 +161,13 @@
   margin: 0px;
 }
 
-@media (max-width: 961px) {
+@media (max-width: 800px) {
+  .FirstText {
+    padding: 30px 0px;
+  }
+}
+
+@media (max-width: 1025px) {
   .WhyLearnbay {
     padding: 70px 0px;
     width: 100%;
@@ -186,6 +192,51 @@
   }
   .FirstImg {
     margin: 0;
+  }
+  .FirstText {
+    padding: 0px;
+  }
+  .FirstDiv {
+    gap: 20px;
+    grid-template-columns: 48% 49%;
+  }
+  .MiddleDiv {
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 641px) {
+  .WhyLearnbay {
+    padding: 50px 0px;
+  }
+  .WhyLearnbay h4 {
+    font-size: 24px;
+  }
+  .divList p {
+    margin: 0px;
+  }
+  .divList {
+    justify-content: space-evenly;
+  }
+  .FirstDiv {
+    gap: 20px;
+    grid-template-columns: 48% 49%;
+    margin-top: 20px;
+    display: block;
+  }
+  .FirstImg {
+    height: 384px;
+  }
+  .MiddleDiv {
+    display: block;
+    background-position: left;
+  }
+  .FirstText {
+    padding: 20px 0px;
+  }
+  .MiddleImg {
+    height: 384px;
   }
 }
 
