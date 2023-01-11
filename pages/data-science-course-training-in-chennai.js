@@ -448,13 +448,13 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Industry-Specific Capstone Certified by IBM"
-          mTopPara="Industry-Specific Capstone Certified by IBM"
-          title="Data Science Course Training in Chennai"
-          mTitle="Data Science Course Training in Chennai"
-          spanTitleText="with Domain Specialization"
-          spanMTitleText="Domain Specialization"
-          desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+          deskTopPara="Foundational and Advance Job-ready Program"
+          mTopPara="Foundational and Advance Job-ready Program"
+          title="Data Science Course in Chennai"
+          mTitle="Data Science Course in Chennai"
+          spanTitleText="Enroll Now"
+          spanMTitleText="Enroll Now"
+          desc="Enhance your Data Science career with our comprehensive Data Science course in Chennai with IBM Certification. Our advanced Data Science training in Chennai will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"

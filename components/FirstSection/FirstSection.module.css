@@ -171,7 +171,7 @@
   }
 }
 
-@media (max-width: 961px) {
+@media (max-width: 1025px) {
   .First h1 {
     font-size: 26px;
     line-height: 35px;
@@ -247,20 +247,26 @@
   .First {
     display: grid;
     grid-template-columns: 56% 40%;
+    padding: 60px 20px 30px 20px;
   }
   .First h1,
   .First h1 span {
-    font-size: 18px;
-    padding-top: 30px;
+    font-size: 24px;
+    padding-top: 24px;
+    line-height: 34px;
   }
   .pTop {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     margin-top: 30px;
   }
   .outLineBtn {
     padding: 10px 14px;
     font-size: 16px;
+  }
+  .info p {
+    line-height: 20px;
+    font-size: 10px;
   }
   .btn {
     padding: 10px 14px;

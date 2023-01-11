@@ -488,13 +488,13 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Industry-Specific Capstone Certified by IBM"
-          mTopPara="Industry-Specific Capstone Certified by IBM"
-          title="Data Science Course Training in Hyderabad"
-          mTitle="Data Science Course Training in Hyderabad"
-          spanTitleText="with Domain Specialization"
-          spanMTitleText="Domain Specialization"
-          desc="Get Industry-accredited data science certification training in Hyderabad utilizing your domain knowledge in the data science field through fresh industry capstone."
+          deskTopPara="Foundational and Advance Job-ready Program"
+          mTopPara="Foundational and Advance Job-ready Program"
+          title="Data Science Course in Hyderabad"
+          mTitle="Data Science Course in Hyderabad"
+          spanTitleText="Enroll Now"
+          spanMTitleText="Enroll Now"
+          desc="Enhance your Data Science career with our comprehensive Data Science course in Hyderabad with IBM Certification. Our advanced Data Science training in Hyderabad will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"

@@ -3,12 +3,14 @@
   margin: 100px 0;
   background: #f4fcfe;
   display: grid;
-  grid-template-columns: 20% 75%;
+  grid-template-columns: 27% 66%;
   gap: 90px;
   box-shadow: inset 4px 4px 23px rgba(41, 121, 173, 0.1);
 }
 .fromWrap h5 {
   font-size: 26px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 .rightForm {
   width: 100%;
@@ -20,42 +22,58 @@
 .rightFormWrap {
   position: absolute;
   background: #ffffff;
-  width: 70%;
+  width: 80%;
   top: -80px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(41, 121, 173, 0.4);
   padding: 40px 20px;
 }
 
+@media (max-width: 1025px) {
+  .fromWrap {
+    padding: 30px 20px;
+    gap: 20px;
+    display: flex;
+  }
+  .rightFormWrap {
+    top: -100px;
+    width: 100%;
+  }
+  .fromWrap h5 {
+    font-size: 26px;
+    margin: 0px 0px 20px 0px;
+  }
+  .fromWrap {
+    margin: 130px 0px 150px 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .fromWrap {
+    gap: 0;
+  }
+}
+
 @media (max-width: 641px) {
   .fromWrap {
-    padding: 0px 30px;
+    padding: 30px 30px;
     display: block;
+    margin: 50px 0px;
+    text-align: center;
   }
+  .fromWrap button {
+    margin: auto;
   }
-
-@media (max-width: 961px) {
-.fromWrap {
-  padding: 30px 20px;
-  gap: 20px;
-  display: flex;
-}
-.rightFormWrap {
-  top: -100px;
-  width: 100%;
-}
-.fromWrap h5 {
-  font-size: 26px;
-  margin: 0px 0px 20px 0px;
-
-}
-.fromWrap {
-  margin: 130px 0px 150px 0px;
-}
+  .rightFormWrap {
+    top: 0px;
+    position: initial;
+  }
+  .rightForm {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 600px) {
-
   .fromWrap {
     display: block;
     padding: 30px 20px;
@@ -68,5 +86,4 @@
     width: 100%;
     top: 0;
   }
-
 }

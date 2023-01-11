@@ -460,13 +460,13 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Foundational and Advanced Data Science Certifications"
-          mTopPara="Foundational and Advanced Data Science Certifications"
-          title="Data Science Course Training in Dubai"
-          mTitle="Data Science Course Training in Dubai"
-          spanTitleText="with Domain Specialization"
-          spanMTitleText="Domain Specialization"
-          desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Training on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+          deskTopPara="Foundational and Advance Job-ready Program"
+          mTopPara="Foundational and Advance Job-ready Program"
+          title="Data Science Course in Dubai"
+          mTitle="Data Science Course in Dubai"
+          spanTitleText="Enroll Now"
+          spanMTitleText="Enroll Now"
+          desc="Enhance your Data Science career with our comprehensive Data Science course in Dubai with IBM Certification. Our advanced Data Science training in Dubai will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"

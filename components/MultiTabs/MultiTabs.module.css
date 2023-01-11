@@ -139,18 +139,58 @@
   color: #6c6c6c;
 }
 
-@media (max-width: 961px) {
+@media (max-width: 800px) {
+  .info .middle h4 {
+    font-size: 24px;
+  }
+  .info .left,
+  .info .middle {
+    padding-right: 10px;
+  }
+
+  .info .middle {
+    padding-left: 0px;
+  }
+  .info h4 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .gridPanel {
+    gap: 20px;
+  }
+  .gridPanel {
+    padding: 0px 20px;
+    align-items: center;
+  }
+  .gridPanel .left h5 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .Course h2 {
+    font-size: 24px;
+  }
+  .listPanel span {
+    font-size: 15px;
+  }
+  .gridPanel {
+    display: block;
+  }
+}
+
+@media (max-width: 1025px) {
   .Course {
     margin-top: 0px;
     padding: 0px 20px;
     margin-bottom: 0px;
   }
-.gridPanel {
-  gap: 30px;
-}
-.gridPanel {
-  padding: 0px 30px;
-}
+  .gridPanel {
+    gap: 30px;
+  }
+  .gridPanel {
+    padding: 0px 30px;
+  }
 }
 
 @media (max-width: 481px) {
@@ -186,7 +226,7 @@
     font-size: 14px;
     width: 100%;
     padding: 15px 10px;
-  } 
+  }
   .gridPanel {
     grid-template-columns: 85% 85% 85% 85% 85% 85% 85%;
     overflow-x: scroll;
@@ -212,14 +252,14 @@
     margin-right: 5px;
   }
 
-.gridPanel .left {
-  margin-top: 20px;
-}
+  .gridPanel .left {
+    margin-top: 20px;
+  }
 
-.info .middle {
-  margin-top: 20px;
-}
-.info p {
-  line-height: 20px;
-}
+  .info .middle {
+    margin-top: 20px;
+  }
+  .info p {
+    line-height: 20px;
+  }
 }

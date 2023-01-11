@@ -19,6 +19,7 @@
   justify-content: space-evenly;
   width: 100%;
   margin-top: 40px;
+  gap: 20px;
 }
 .boxWrap {
   display: flex;
@@ -266,7 +267,7 @@
   }
 }
 
-@media (max-width: 961px) {
+@media (max-width: 1025px) {
   .boxShape {
     gap: 10px;
   }
@@ -282,9 +283,14 @@
 @media (max-width: 641px) {
   .boxShape {
     gap: 10px;
+    margin-top: 20px;
   }
   .boxWrap {
     padding: 20px;
+  }
+  .boxWrap h2 {
+    font-size: 26px;
+    font-weight: 600;
   }
 }
 
@@ -311,12 +317,12 @@
     margin-top: 10px;
     text-align: center;
     color: #6c6c6c;
-    font-size: 14px;
+    font-size: 16px;
   }
   .boxShape {
     display: flex;
     flex-flow: column;
-    gap: 30px;
+    gap: 20px;
     justify-content: space-evenly;
     width: 100%;
     margin-top: 20px;

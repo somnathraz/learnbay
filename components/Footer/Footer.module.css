@@ -1,137 +1,146 @@
 @media (min-width: 768px) {
-    .FooterSection {
-      background-color: #313131;
-      padding: 70px 100px 0px 100px;
-      font-family: "Roboto", Sans-serif;
-    }
-    .FooterDiv {
-      justify-content: center;
-      display: grid;
-      grid-template-columns: 25% 25% 25% 25%;
-      padding: 20px 0px 20px 0px;
-    }
-    .FooterDivInner {
-      color: #fff;
-      margin: 0px 20px 0px 0px;
-    }
-
-    .FooterDivInner span{
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 18px;
-    }
-  
-    .FooterSocial {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-      width: 200px;
-    }
-  
-    .FooterInnerP {
-      text-align: left;
-      color: #FFFFFF;
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 26px;
-    }
-  
-    .FooterInnerli {
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 18px;
-      margin: 5px;
-      text-transform: capitalize;
-    }
-  
-    .FooterBottom {
-      background-color: #313131;
-      border-top: 1px solid #ffffff50;
-    }
-  
-    .FooterBottomInner {
-      padding: 12px 0px;
-    }
-  
-    .FooterInnerB {
-      color: #FFFFFF;
-      font-size: 12px;
-      font-weight: 400;
-    }
-    .btnout {
-      color:#fff;
-      background-color: #313131;
-      border: 1px solid #fff;
-      padding: 5px 15px;
-      margin-bottom: 15px;
-    }
+  .FooterSection {
+    background-color: #313131;
+    padding: 70px 100px 0px 100px;
+    font-family: "Roboto", Sans-serif;
   }
-  
-  @media (max-width: 600px) {
-    .FooterSection {
-      background-color: #313131;
-    }
-    .FooterDiv {
-      margin: 0;
-      justify-content: center;
-      display: grid;
-      grid-template-columns: 100%;
-      padding: 50px 20px 20px 20px;
-    }
-    .FooterDivInner {
-      color: #fff;
-      margin: 0px 20px 0px 0px;
-    }
-  
-    .FooterSocial {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-      width: 200px;
-    }
-  
-    .FooterInnerP {
-      font-size: 20px;
-    }
-  
-    .FooterInnerli {
-      font-size: 14px;
-      line-height: 1.5em;
-      text-transform: capitalize;
-    }
-  
-    .FooterBottom {
-      background-color: #313131;
-      border-top: 1px solid #ffffff50;
-      padding-bottom: 65px;
-    }
-  
-    .FooterBottomInner {
-      padding: 10px 40px 10px 20px;
-    }
-  
-    .FooterInnerB {
-      color: #fff;
-      font-size: 14px;
-      margin: 0;
-    }
-    .btnout {
-      color:#fff;
-      background-color: #313131;
-      border: 1px solid #fff;
-      padding: 5px 15px;
-      margin-bottom: 15px;
-    }
+  .FooterDiv {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 20px 0px 20px 0px;
+  }
+  .FooterDivInner {
+    color: #fff;
+    margin: 0px 20px 0px 0px;
   }
 
-@media (max-width: 961px){
+  .FooterDivInner span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .FooterSocial {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 200px;
+  }
+
+  .FooterInnerP {
+    text-align: left;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  .FooterInnerli {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 5px;
+    text-transform: capitalize;
+  }
+
+  .FooterBottom {
+    background-color: #313131;
+    border-top: 1px solid #ffffff50;
+  }
+
+  .FooterBottomInner {
+    padding: 12px 0px;
+  }
+
+  .FooterInnerB {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .btnout {
+    color: #fff;
+    background-color: #313131;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 641px) {
+  .FooterSection {
+    background-color: #313131;
+  }
+  .FooterDiv {
+    margin: 0;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 50px 20px 20px 20px;
+  }
+  .FooterDivInner {
+    color: #fff;
+    margin: 0px 20px 0px 0px;
+  }
+
+  .FooterSocial {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 200px;
+  }
+
+  .FooterInnerP {
+    font-size: 20px;
+  }
+
+  .FooterInnerli {
+    font-size: 14px;
+    line-height: 1.5em;
+    text-transform: capitalize;
+  }
+
+  .FooterBottom {
+    background-color: #313131;
+    border-top: 1px solid #ffffff50;
+    padding-bottom: 65px;
+  }
+
+  .FooterBottomInner {
+    padding: 10px 40px 10px 20px;
+  }
+
+  .FooterInnerB {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+  }
+  .btnout {
+    color: #fff;
+    background-color: #313131;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1025px) {
   .FooterSection {
     padding: 30px 20px;
   }
 }
 
-@media (max-width: 481px) {
-.FooterSection{
-  padding: 0px;
+@media (max-width: 800px) {
+  .FooterSocial {
+    width: fit-content;
+  }
+  .btnout {
+    text-align: left;
+  }
 }
+
+@media (max-width: 481px) {
+  .FooterSection {
+    padding: 0px;
+  }
 }
