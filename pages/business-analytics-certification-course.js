@@ -26,8 +26,7 @@ import {
   SupportFaqData7,
 } from "../components/FAQ/FaqData";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
-import { DataScienceCourseData } from "../Data/DataScienceCourse";
-import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+
 import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
@@ -164,6 +163,7 @@ export default function Home() {
         </div>
         <CourseFee
           dataScience={true}
+          syllabus={BusinessAnalyticsCourseData[0].Batch}
           CourseFeeHead="Business Analytics Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"

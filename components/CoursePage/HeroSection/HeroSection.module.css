@@ -211,7 +211,8 @@
     display: grid;
     align-items: center;
     grid-template-columns: 59% 39%;
-    margin: 70px 40px 100px 40px;
+    padding: 70px 40px 100px 40px;
+    background: #f4fcfe;
   }
   .left {
     padding: 50px 0px 0px 0px;
@@ -317,12 +318,58 @@
     display: flex;
   }
 }
+
+@media (min-width: 961px) and (max-width: 1026px)  {
+  .btnWrapper button {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px)  {
+  .left {
+    padding: 0px;
+  }
+  .left .pTop{
+    font-size: 16px;
+  }
+  .left h1 span {
+    font-size: 22px;
+  }
+  .left p {
+    font-size: 16px;
+  }
+  .btnWrapper button {
+    font-size: 10px;
+    margin-right: 10px;
+    padding: 10px 10px;
+  }
+  .wrapper {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 59% 39%;
+    padding: 100px 20px 100px 20px;
+  }
+  .bottom {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+  }
+  .bottom h1 {
+    font-size: 19px;
+  }
+  .bottom h5 {
+    font-size: 18px;
+  }
+  }
+
 @media (max-width: 481px) {
   .wrapper {
     display: grid;
     align-items: center;
     grid-template-columns: 100%;
-    margin: 70px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
   }
 
   .left {
@@ -374,11 +421,10 @@
     width: max-content;
     display: block;
     margin-top: 20px;
-
     justify-content: center;
     border-radius: 10px;
-
     margin-right: 20px;
+    padding: 12px 20px;
   }
   .btnWrapper button:hover {
     background-color: #2d9cd7;

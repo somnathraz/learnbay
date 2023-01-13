@@ -187,6 +187,7 @@ export default function Home() {
         />
         <CourseFee
           dataScience={true}
+          syllabus={JobGuaranteeCourseData[0].Batch}
           CourseFeeHead="Data Science and AI Master Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"

@@ -195,7 +195,114 @@
     padding-left: 40px;
   }
 }
-@media (max-width: 481px) {
+@media (min-width: 1026px) and (max-width: 1281px) {
+  .Course {
+    padding: 0px 20px;
+  }
+  .listPanel {
+    padding: 10px;
+  }
+  .gridPanel {
+    padding: 10px;
+  }
+}
+@media (min-width: 961px) and (max-width: 1026px) {
+  .Course {
+    padding: 0px 20px;
+  }
+  .listPanel {
+    padding: 10px;
+  }
+  .gridPanel {
+    padding: 10px;
+  }
+  .info h4 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 960px) {
+  .Course {
+    padding: 0 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .Course h2 {
+    font-size: 24px;
+  }
+  .feature {
+    flex-flow: column;
+    align-items: flex-start;
+    line-height: 1.9em;
+  }
+  .courses {
+    padding: 0px;
+    display: flex;
+    box-shadow: none;
+  }
+  .gridPanel {
+    gap: 0px;
+  }
+  .listPanel {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    overflow-x: auto;
+    padding-left: 0;
+  }
+  .listPanel span {
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    background-color: aliceblue;
+  }
+  .listPanel .gridPanel {
+    grid-template-columns: 50% 50%;
+    overflow-x: scroll;
+    display: grid;
+    padding: 0px 20px;
+  }
+  .listPanel .gridPanel img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+  .gridPanel {
+    display: none;
+  }
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+  }
+  .courseImg {
+    width: 100%;
+  }
+  .leftSide h6,
+  .middleSide h6,
+  .rightSide h6 {
+    margin-right: 0;
+  }
+  .gridPanel span {
+    width: 270px !important;
+  }
+  .checkCircle {
+    margin-right: 5px;
+  }
+  .gridPanel .left {
+    margin-bottom: 20px;
+  }
+  .right {
+    width: 250px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 749px) {
   .Course {
     padding: 0 20px;
     margin-top: 50px;

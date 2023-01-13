@@ -133,6 +133,7 @@ export default function Home() {
         <CourseFee
           fullStack={true}
           timeFsd={true}
+          syllabus={DsaCourseData[0].Batch}
           CourseFeeHead="Data Structures Algorithms & System Design: Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"

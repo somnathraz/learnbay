@@ -163,6 +163,7 @@ export default function Home() {
         <CourseFee
           fsdBrochure={true} fullStack={true}
           timeFsd={true}
+          syllabus={FullStackWebCourseData[0].Batch}
           CourseFeeHead="Full Stack Web Development Course: Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
