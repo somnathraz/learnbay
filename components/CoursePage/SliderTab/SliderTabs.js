@@ -683,8 +683,8 @@ Understand how an industry expands exponentially with AI.
               <div className={styles.right}>
                 <img
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/oil-gas.webp"
-                  width="568"
-                  height="412"
+                  width="350"
+                  height="360"
                   layout="intrinsic"
                    alt="data science course in bangalore"
                 />

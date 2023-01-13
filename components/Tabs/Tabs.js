@@ -150,6 +150,21 @@ const Tabs = ({ handleIcon }) => {
                     </div>
                   </a>
                 </div>
+                <div className={styles.Row}>
+                  <a href="/dsa-system-design">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>DSA & System Design</h5>
+                        <span>
+                          200+ Hours <BsDot /> 5 & 6 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             ) : (
               ""
@@ -349,6 +364,21 @@ const Tabs = ({ handleIcon }) => {
                         <h5>Full Stack Software Development Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/dsa-system-design">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>DSA & System Design</h5>
+                        <span>
+                          200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
                       </div>
                     </div>
