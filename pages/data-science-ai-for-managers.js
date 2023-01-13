@@ -206,6 +206,7 @@ export default function Home() {
         />
         <CourseFee
           dataScience={true}
+          syllabus={DsaiManagersCourseData[0].Batch}
           CourseFeeHead="Data Science & AI For Managers Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"

@@ -127,6 +127,24 @@
     grid-template-columns: 49% 49%;
   }
 }
+
+@media (max-width: 1025px) {
+  .leftSideP {
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .certificate {
+    padding: 0px 14px;
+    margin-top: 30px;
+  }
+  .leftSideP{
+    padding: 0px;
+    margin: 5px;
+  }
+}
+
 @media (max-width: 481px) {
   .certificate {
     padding: 0 20px;

@@ -89,7 +89,15 @@ const Project = ({ ChangeProject, project, domain }) => {
               slidesPerView: 1.5,
               spaceBetween: 40,
             },
+            961: {
+              slidesPerView: 1.9,
+              spaceBetween: 40,
+            },
             1024: {
+              slidesPerView: 2.5,
+              spaceBetween: 50,
+            },
+            1280: {
               slidesPerView: 3,
               spaceBetween: 50,
             },

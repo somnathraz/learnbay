@@ -237,3 +237,9 @@
   color: #2C9CD7 !important;
   font-size: 18px !important;
 }
+
+@media (min-width: 961px) and (max-width: 1281px){
+  .App button{
+   font-size: 11px;
+ }
+ }

@@ -166,24 +166,47 @@
   color: #2d9cd7;
 }
 
-@media (min-width: 501px) and (max-width: 1025px){
+@media (min-width: 700px) and (max-width: 820px){
   .FeeS {
-    padding: 0px 20px;
+    padding: 0px 20px 0px 0px;
   }
   .priceTable {
-    display: grid;
-    grid-template-columns: 35% 50% 50% 50%;
     overflow-x: auto;
-    margin: 20px 0px;
+    margin: 0;
+    padding: 20px 30px;
+    grid-template-columns:65% 75% 75% 75%;
+    padding-left: 380px;
   }
-  .priceTable div,
-.priceTableData div {
-  margin-bottom: 20px;
 }
+
+@media (min-width: 821px) and (max-width: 971px){
+  .FeeS {
+    padding: 0px 20px 0px 0px;
+  }
+  .priceTable {
+    overflow-x: auto;
+    margin: 0;
+    padding: 20px 30px;
+    grid-template-columns:40% 50% 50% 50%;
+    padding-left: 320px;
+  }
+}
+
+@media (min-width: 970px) and (max-width: 1030px){
+  .FeeS {
+    padding: 0px 20px 0px 0px;
+  }
+  .priceTable {
+    overflow-x: auto;
+    margin: 0;
+    padding: 20px 30px;
+    grid-template-columns: 35% 37% 37% 37%;
+    padding-left: 220px;
+  }
 }
 
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 699px) {
   .FeeS {
     padding: 0px 0px;
     height: max-content;
@@ -200,6 +223,7 @@
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    padding: 20px 0px;
     justify-content: flex-start;
   }
   .priceTableData {

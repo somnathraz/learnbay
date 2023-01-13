@@ -400,6 +400,83 @@
     font-size: 30px;
   }
 }
+@media (min-width: 1026px) and (max-width: 1281px){
+  .feeWrapper .left .bottom  {
+    margin:0;
+  }
+  .feeWrapper .right .bottom  {
+    margin:0;
+  }
+  .feeWrapper .right .bottomS h5 {
+    margin-bottom: 35px;
+  }
+ }
+@media (min-width: 961px) and (max-width: 1026px){
+  .feeWrapper .left .bottom  {
+    margin:0;
+  }
+  .feeWrapper .right .bottom  {
+    margin:0;
+  }
+  .feeWrapper .right .bottomS h5 {
+    margin-bottom: 35px;
+  }
+ }
+@media (min-width: 641px) and (max-width: 960px){
+  .header{
+    padding: 10px 40px;
+  }
+  .header p {
+    font-size: 19px;
+    padding: 0px 20px;
+  }
+  .wrap{
+    padding: 0px 20px;
+  }
+  .feeWrapper {
+    display: block;
+  }
+  .feeWrapper .left  {
+    padding: 20px 20px;
+  }
+  .feeWrapper .left h6{
+    font-size: 24px;
+  }
+  .feeWrapper .left p{
+    font-size: 20px;
+  }
+  .feeWrapper .left .bottom  {
+    margin: 0px 0px;
+    font-size: 18px;
+  }
+  .feeWrapper .left .bottom h5 {
+    font-size: 30px;
+  }
+  .bottom button {
+    font-size: 30px;
+  }
+  .feeWrapper .right {
+    padding: 5PX;
+    padding-bottom: 20px;
+  }
+  .feeWrapper .right h6 {
+    font-size: 24px;
+  }
+  .feeWrapper .right p {
+    font-size: 20px;
+  }
+  .feeWrapper .right .bottom  {
+    margin: 0px 0px;
+  }
+  .feeWrapper .right .bottomS  h5{
+    font-size: 30px;
+    margin:15px 0px 15px 0px;
+  }
+  .bottomS button {
+    font-size: 30px;
+    margin: 0px;
+  }
+}
 @media (max-width: 600px) {
   .header {
     margin: 0px 20px;

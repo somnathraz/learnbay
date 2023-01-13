@@ -308,7 +308,7 @@
   .PProgrammains h5 {
     margin: 0;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
     position: absolute;
     margin: auto;
     left: 15px;
@@ -338,6 +338,41 @@
     bottom: -40px;
   }
 }
+
+@media (min-width: 641px) and (max-width: 960px){
+  .Syllabus {
+    margin: 40px 20px 20px 20px;
+    display: block;
+  }
+  .syllabusLeft {
+    margin-bottom: 20px;
+  }
+  .PProgram p {
+    font-size: 26px;
+  }
+  .PProgramInner {
+    margin: 20px 0px 0px 80px;
+  }
+  .PProgramInner p {
+    font-size: 17px;
+  }
+  .PProgrammains {
+    margin-top: 20px;
+  }
+  .PProgrammains h5 {
+    font-size: 26px;
+  }
+  .PProgrammain{
+    background-size: cover;
+  }
+  .syllabusRight{
+    margin-top: 60px;
+  }
+  .FaqWrapper {
+    margin-left: 0px;
+  }
+}
+
 @media (max-width: 801px) {
   .line {
     margin-left: 16px;

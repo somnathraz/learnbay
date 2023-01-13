@@ -28,7 +28,7 @@ const CareerImpact = () => {
     } else if (width <= 961) {
       setValue(1.5);
     } else if (width <= 1281) {
-      setValue(1.7);
+      setValue(1.6);
     } 
   });
   return (

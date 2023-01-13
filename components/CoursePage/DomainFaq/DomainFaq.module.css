@@ -33,6 +33,14 @@
   }
 }
 
+@media (min-width: 641px) and (max-width: 960px) {
+  .DomainWrapper {
+   display: block;
+   margin-bottom: 10px;
+   background: #F3FCFE;
+  }
+}
+
 @media (max-width: 481px) {
   .DomainWrapper {
     padding: 30px 20px;

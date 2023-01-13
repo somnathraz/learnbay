@@ -19,6 +19,8 @@ import FAQNew from "../components/FAQNew/FAQNew";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import React, { useState } from "react";
+
+
 import {
   FaqData3,
   DomainFaqData3,
@@ -200,8 +202,12 @@ export default function Home() {
           PFeatures36="Unlimited"
           PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
         />
+
+
         <CourseFee
           dataScience={true}
+          syllabus={AiMlCourseData[0].Batch}
+          
           CourseFeeHead="Artificial Intelligence & Machine Learning Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
@@ -210,6 +216,7 @@ export default function Home() {
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />
+
         <FAQNew
           FaqDatas={FaqData3}
           PaymentFaqDatas={PaymentFaqData3}

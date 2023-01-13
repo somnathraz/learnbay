@@ -211,8 +211,7 @@
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(190, 202, 218, 0.75);
-    background-image: none !important;
-    padding: 30px 10px;
+    padding: 30px 10px !important;
   }
   .popupInners {
     backdrop-filter: blur(16px) saturate(180%);
@@ -230,13 +229,21 @@
   }
 }
 
+@media (max-width: 1025px) {
+  .popupInner {
+    display: grid !important;
+    grid-template-columns: 40% 55%;
+    padding: 30px 10px !important;
+  }
+}
+
 @media (max-width: 600px) {
   .popupInner {
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: white;
     background-image: none !important;
-    padding: 30px 10px;
+    padding: 30px 10px; 
   }
   .popupInners {
     backdrop-filter: blur(16px) saturate(180%);
@@ -254,7 +261,7 @@
     position: fixed;
     background-color: rgba(0, 0, 0, 0.23);
     overflow: hidden;
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
     z-index: 9999;
@@ -262,7 +269,7 @@
       background-image: none !important;
       padding: 10px 10px 30px 10px;
       max-width: 100%;
-      display: flex;
+      display: flex !important;
       width: 90%;
       align-items: center;
       justify-content: center;

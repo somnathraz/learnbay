@@ -126,6 +126,48 @@
     width: 65%;
   }
 }
+
+@media (min-width: 1026px) and (max-width: 1281px){
+  .slide {
+    height: 370px;
+   }
+   .bottomReview {
+    padding-top: 115px;
+   }
+}
+@media (min-width: 961px) and (max-width: 1026px){
+  .slide {
+    height: 370px;
+   }
+   .bottomReview {
+    padding-top: 115px;
+   }
+}
+@media (min-width: 641px) and (max-width: 960px) {
+  .slide {
+   height: 370px;
+  }
+  .swiperleft {
+    width: 100%;
+  }
+  .bottomReview {
+    margin-top: -120px;
+    padding: 20px 20px;
+    padding-top: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: #0072BC;
+  }
+  .bottomReview h5 {
+    font-size: 24px;
+  }
+  .bottomReview p {
+    font-size: 25px;
+    margin: 15px 15px;
+  }
+}
 @media (max-width: 481px) {
   .reviewWrap {
     padding: 30px 20px 0px 20px;

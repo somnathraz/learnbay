@@ -259,7 +259,7 @@
     height: 90px;
   }
   .Feature {
-    margin-top: 20px;
+    margin-top: 50px;
   }
   .ProjectWrapper {
     padding-top: 0px;
@@ -277,6 +277,12 @@
   .boxWrap h2 {
     font-size: 30px;
     font-weight: 500;
+  }
+}
+
+@media (max-width: 800px) {
+  .Feature {
+    margin-top: 20px;
   }
 }
 

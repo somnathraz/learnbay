@@ -62,7 +62,9 @@ const Course = () => {
       setValue(2);
     } else if (width <= 961) {
       setValue(2.3);
-    }  else if (width <= 1280) {
+    }  else if (width <= 1025) {
+      setValue(2.6);
+    } else if (width <= 1280) {
       setValue(2.8);
     } else if (width <= 1281) {
       setValue(2.9);
@@ -749,7 +751,7 @@ const Course = () => {
               <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1 : 3.2}
+                  slidesPerView={value}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,

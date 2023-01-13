@@ -206,6 +206,48 @@ export const DsaCourseData = [
       ProMaxPrice: "₹ 1,30,000 + GST",
       ProMaxDesc: " Get data science training with 100% job assistance",
     },
+
+
+    Batch: [
+      {
+        Module0: {
+          title: "Weekday Evening Batch  :- (Mon-Wed-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 20th January 2023 (FSSD)",
+                  "Time : 8 PM to 10 PM",
+                ],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Weekend Evening Batch  :- (Sat-Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 22nd January 2023 (FSSD)",
+                  "Time : 12:30 PM to 4 PM",
+                ],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+    ],
+    
+
     BatchDetails: {
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
       BatchName1: "weekday Batch",

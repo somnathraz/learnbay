@@ -272,6 +272,46 @@
   }
 }
 
+@media (min-width: 1026px) and (max-width: 1281px){
+  .box, .boxActive, .box:hover  {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+ }
+@media (min-width: 961px) and (max-width: 1026px){
+  .box, .boxActive, .box:hover  {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+ }
+@media (min-width: 641px) and (max-width: 960px) {
+   .boxWrapper {
+    margin: 0px 20px;
+  }
+  .BoxDiv {
+    display: block;
+  }
+  .box, .boxActive, .box:hover  {
+    height: 270px;
+    margin-bottom: 20px;
+  }
+  .left {
+    margin-bottom: 30px;
+    width: 100%;
+    padding-top: 40px;
+  }
+  .right {
+    justify-content: center;
+    display: flex;
+  }
+  .imgBack h5 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 38px;
+    text-align: center;
+  }
+}
+
 @media (max-width: 481px) {
   .boxWrapper {
     padding-left: 0px;

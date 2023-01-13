@@ -99,6 +99,29 @@
     border-left: 1px solid #2d9cd750;
   }
 }
+
+@media (max-width: 800px) {
+  .feature .container {
+    padding: 10px 0px;
+  }
+  .feature .container p {
+    font-size: 15px;
+  }
+  .feature .container h5 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 641px) {
+  .feature .container {
+    padding: 0px 0px 0px 0px;
+    font-size: 10px;
+    margin: 0px 20px;
+  }
+  .feature .container h5 {
+    font-size: 14px;
+  }
+}
 @media (max-width: 600px) {
   .feature {
     z-index: 10;

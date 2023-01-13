@@ -67,6 +67,12 @@
   }
 }
 
+@media (min-width: 1279px) and (max-width: 1282px) {
+  .FooterSection {
+    padding: 30px;
+  }
+}
+
 @media (max-width: 641px) {
   .FooterSection {
     background-color: #313131;
