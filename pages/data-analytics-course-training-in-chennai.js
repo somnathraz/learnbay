@@ -265,6 +265,7 @@ export default function Home() {
  },{
  "@type": "Question",
  "name": "Will I get job referrals at Learnbay?",
+ "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
  }
