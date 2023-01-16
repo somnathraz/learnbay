@@ -500,7 +500,7 @@ export default function Home() {
             __html: `
 {"@context": "http://schema.org",
 "@type": "EducationEvent",
-"name": "Data Science Course",
+"name": "Data Science Course in Bangalore",
 "description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
 "image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
 "performer":"Learnbay",					 
@@ -530,7 +530,7 @@ export default function Home() {
             __html: `
 {"@context": "http://schema.org",
 "@type": "EducationEvent",
-"name": "Data Science Course",
+"name": "Data Science Course in Bangalore",
 "description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
 "image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
 "performer":"Learnbay",					 
@@ -560,7 +560,7 @@ export default function Home() {
             __html: `
 {"@context": "http://schema.org",
 "@type": "EducationEvent",
-"name": "Data Science Course",
+"name": "Data Science Course in Bangalore",
 "description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
 "image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
 "performer":"Learnbay",					 
@@ -590,7 +590,7 @@ export default function Home() {
             __html: `
 {"@context": "http://schema.org",
 "@type": "EducationEvent",
-"name": "Data Science Course",
+"name": "Data Science Course in Bangalore",
 "description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
 "image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
 "performer":"Learnbay",					 
@@ -620,7 +620,7 @@ export default function Home() {
             __html: `
 {"@context": "http://schema.org",
 "@type": "EducationEvent",
-"name": "Data Science Course",
+"name": "Data Science Course in Bangalore",
 "description" : "Data Science course training online with IBM certification helps you master skills in Python, Machine Learning, etc. Become a certified Data Scientist.",
 "image" : "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2Fcourse2.png&w=1080&q=75",
 "performer":"Learnbay",					 
