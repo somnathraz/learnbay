@@ -90,6 +90,16 @@
   .btnWrapper button {
     padding: 10px 15px;
   }
+  
+  @media (max-width: 1025px) {
+.listPanel {
+  width: 30%;
+}
+.Course {
+  margin:20px 0px;
+}
+  }
+
   @media (max-width: 481px) {
     .Course {
       padding: 0px;

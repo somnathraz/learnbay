@@ -253,7 +253,7 @@
     text-align: center;
 }
 
-@media (max-width: 481px) {
+@media (max-width: 650px) {
 
     .SyllabusBot {
         display: grid;
