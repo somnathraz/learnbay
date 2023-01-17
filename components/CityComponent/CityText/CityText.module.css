@@ -6,8 +6,14 @@
     font-size: 12px;
 }
 
+@media (max-width: 1281px) {
+    .CityText {
+        margin: 30px 20px;
+    }
+}
+
 @media (max-width: 481px) {
     .CityText {
-        margin: 30px 0px;
+        margin: 30px 20px;
     }
 }
