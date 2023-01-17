@@ -274,18 +274,18 @@ h4 {
   font-size: 16px;
 }
 
+@media (max-width: 1281px) {
+  .MainCities {
+    display: grid;
+    margin: 0px 20px;
+  }
+}
+
 @media (max-width: 1280px) {
   .whiteP {
     background-color: transparent;
     height: 600px;
     width: 350px;
-  }
-}
-
-@media (max-width: 1281px) {
-  .MainCities {
-    display: grid;
-    margin: 0px 20px;
   }
 }
 
