@@ -179,7 +179,7 @@ export default function Home() {
  "name": "Learnbay",
  "logo": {
  "@type": "ImageObject",
- "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+ "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
  }
  },
  "datePublished": "2021-10-01",
@@ -404,7 +404,7 @@ export default function Home() {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Data Science Course Training in Bangalore",
 "description": "Learnbay offers a Data Science course in Bangalore, the most comprehensive Data Science course in the market, covering the complete Data Science lifecycle.",
-"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
+"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png",
 "performer":"Learnbay", 
 "offers":{
 "@type": "AggregateOffer",

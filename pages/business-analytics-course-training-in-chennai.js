@@ -141,7 +141,7 @@ export default function Home() {
  "name": "Learnbay",
  "logo": {
  "@type": "ImageObject",
- "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+ "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
  }
  },
  "datePublished": "2021-10-01",
@@ -371,7 +371,7 @@ export default function Home() {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Business analytics Course Training In Chennai",
 "description": "Learnbay offers a Business analytics  course in chennai, the most comprehensive Business analytics  course in the market, covering the complete Data Science lifecycle.",
-"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
+"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png",
 "performer":"Learnbay", 
 "offers":{
 "@type": "AggregateOffer",

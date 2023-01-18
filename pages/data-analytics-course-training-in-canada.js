@@ -140,7 +140,7 @@ export default function Home() {
  "name": "Learnbay",
  "logo": {
  "@type": "ImageObject",
- "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+ "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
  }
  },
  "datePublished": "2021-10-01",
@@ -336,7 +336,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Data analytics Course Training in canada",
 "description": "Learnbay offers a Data analytics course in canada, the most comprehensive Data analytics course in the market, covering the complete Data Science lifecycle.",
-"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
+"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png",
 "performer":"Learnbay", 
 "offers":{
 "@type": "AggregateOffer",
