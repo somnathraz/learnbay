@@ -141,7 +141,7 @@ export default function Home() {
     "name": "Learnbay",
     "logo": {
     "@type": "ImageObject",
-    "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+    "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
     }
     },
     "datePublished": "2021-10-01",
@@ -404,7 +404,7 @@ export default function Home() {
    "@context": "http://schema.org",
    "@type": "EducationEvent","name": "Artificial Intelligence(Ai) Course Training in Hyderabad",
    "description": "Learnbay offers a Artificial Intelligence(Ai) course in Hyderabad, the most comprehensive Artificial Intelligence(Ai) course in the market, covering the complete Artificial Intelligence(Ai) lifecycle.",
-   "image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
+   "image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png",
    "performer":"Learnbay", 
    "offers":{
    "@type": "AggregateOffer",

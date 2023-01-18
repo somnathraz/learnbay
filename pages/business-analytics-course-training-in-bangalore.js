@@ -143,7 +143,7 @@ export default function Home() {
  "name": "Learnbay",
  "logo": {
  "@type": "ImageObject",
- "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+ "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
  }
  },
  "datePublished": "2021-10-01",
@@ -320,7 +320,7 @@ export default function Home() {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Business Analytics Course Training In Bangalore",
 "description": "Business Analytics Course in Bangalore. Learnbay is Advanced Business Analytics Course Training Institute in Bangalore. Business Analytics course in Bangalore will enhance your career",
-"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp",
+"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png",
 "performer":"Learnbay", 
 "offers":{
 "@type": "AggregateOffer",

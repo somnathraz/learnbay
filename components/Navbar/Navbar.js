@@ -107,21 +107,21 @@ const Navbar = ({ radio, event, dataScience, fullStack, eventO }) => {
           </div>
           {event ? (
             <>
-                <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
-                  alt="Learnbay"
-                  quality={100}
-                  objectFit="contain"
-                  width={mobile ? "180" : "230"}
-                  height="60px"
-                />
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
+                alt="Learnbay"
+                quality={100}
+                objectFit="contain"
+                width={mobile ? "180" : "230"}
+                height="60px"
+              />
             </>
           ) : (
             <>
               {" "}
               <a href="/">
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"
@@ -177,51 +177,51 @@ const Navbar = ({ radio, event, dataScience, fullStack, eventO }) => {
           )}
         </div>
         <div className={styles.right}>
-        {eventO ? (
-""
-) : (
-  <>
-          {event ? (
-            <>
-              <span>
-                <Link href="#Feature">Program Features</Link>
-              </span>
-
-              <span>
-                <Link href="#trainer">Trainer Details</Link>
-              </span>
-              <span>
-                <Link href="#About">Learn About</Link>
-              </span>
-            </>
+          {eventO ? (
+            ""
           ) : (
             <>
-              {" "}
-              <span>
-                <Link href="/">Home</Link>
-              </span>
-              <span>
-                <Link href="/about-us">About Us</Link>
-              </span>
-              <span>
-                <Link href="/demo">Demo</Link>
-              </span>
-              <span>
-                <Link href="https://blog.learnbay.co/">Blog</Link>
-              </span>
-              <span>
-                <Link href="/contact-us">Contact Us</Link>
-              </span>
-              {/* <span>
+              {event ? (
+                <>
+                  <span>
+                    <Link href="#Feature">Program Features</Link>
+                  </span>
+
+                  <span>
+                    <Link href="#trainer">Trainer Details</Link>
+                  </span>
+                  <span>
+                    <Link href="#About">Learn About</Link>
+                  </span>
+                </>
+              ) : (
+                <>
+                  {" "}
+                  <span>
+                    <Link href="/">Home</Link>
+                  </span>
+                  <span>
+                    <Link href="/about-us">About Us</Link>
+                  </span>
+                  <span>
+                    <Link href="/demo">Demo</Link>
+                  </span>
+                  <span>
+                    <Link href="https://blog.learnbay.co/">Blog</Link>
+                  </span>
+                  <span>
+                    <Link href="/contact-us">Contact Us</Link>
+                  </span>
+                  {/* <span>
                 <Link href="/career-portal">Career</Link>
               </span> */}
-              <button onClick={popupShow} className="outLineBtn">
-                Apply For Counselling
-                <FaArrowRight className={styles.icon} />
-              </button>
+                  <button onClick={popupShow} className="outLineBtn">
+                    Apply For Counselling
+                    <FaArrowRight className={styles.icon} />
+                  </button>
+                </>
+              )}
             </>
-          )}
-           </>
           )}
           <Popup></Popup>
         </div>
