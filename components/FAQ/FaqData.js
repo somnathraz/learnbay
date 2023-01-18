@@ -1111,16 +1111,6 @@ export const jobFaqData5 = [
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
     open: false,
   },
-  {
-    id: 4,
-    ques: "What is job or 100% moneyback Gurantee?",
-    ans: "If you don’t get a job within 18 months of your course completion, we will initiate a full refund of your course fees. ",
-    linkText1: " Terms and conditions ",
-    link1: "/terms-conditions-job",
-    ansAfter: "applied.",
-    link: true,
-    open: false,
-  },
 ];
 export const MentorshipFaqData5 = [
   {
