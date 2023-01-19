@@ -71,14 +71,15 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection fsdBrochure={true}
+        <FirstSection
+          fsdBrochure={true}
           fullStack={true}
           deskTopPara="Be a demanding Developer to stay ahead"
           mTopPara="Be a demanding Developer to stay ahead"
           mTitle="Full Stack Web Development Course"
-          spanMTitleText="Crack MAANG Interviews"
+          spanMTitleText="Kickstart your Tech Career"
           title="Full Stack Web Development Course"
-          spanTitleText="Crack MAANG Interviews"
+          spanTitleText="Kickstart your Tech Career"
           desc="Learn ultimate methods from MNC specialists with real-world projects"
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/header-home.webp"
           width="780"
@@ -106,7 +107,7 @@ export default function Home() {
             Box2h5="Interactive Learning"
             box2desc="100% interactive and live classes. Hybrid learning option also available."
             Box3h5="Premium Mentoring"
-            box3desc="Take advantage of MAANG web developer simulated mock interviews."
+            box3desc="Take advantage of MNCs web developer simulated mock interviews."
             Box4h5="Hands-on Experience"
             box4desc="Gain real-time experience with industrial projects."
             Box5h5="1-on-1 Dedication"
@@ -118,7 +119,8 @@ export default function Home() {
         <DomainFaq FaqData={DomainFaqCourseDataweb} />
         <CourseReview />
         <Certificate />
-        <SyllabusNew fsdBrochure={true}
+        <SyllabusNew
+          fsdBrochure={true}
           fullStack={true}
           syllabus={FullStackWebCourseData[0].syllabus}
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
@@ -155,13 +157,20 @@ export default function Home() {
         <ProgramFee
           Fee="₹70,000 + 18% GST"
           Emi="₹ 6,884/month"
-          fsdBrochure={true} fullStack={true}
+          fsdBrochure={true}
+          fullStack={true}
         />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="12+ Projects" domain="7+" fsdBrochure={true} fullStack={true} />
+          <Project
+            project="12+ Projects"
+            domain="7+"
+            fsdBrochure={true}
+            fullStack={true}
+          />
         </div>
         <CourseFee
-          fsdBrochure={true} fullStack={true}
+          fsdBrochure={true}
+          fullStack={true}
           timeFsd={true}
           syllabus={FullStackWebCourseData[0].Batch}
           CourseFeeHead="Full Stack Web Development Course: Batch Details"

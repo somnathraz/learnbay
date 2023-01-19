@@ -67,7 +67,7 @@ export const FullStackWebCourseData = [
                   "A quick guide to Full Stack Web Development",
                   "Significance of projects",
                   "Job Opportunities in IT industry",
-                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "How to make it big in the IT Industry and crack MNCs Interviews",
                   "All about - MEAN stack and MERN stack",
                 ],
               },
@@ -163,7 +163,7 @@ export const FullStackWebCourseData = [
             },
             {
               chap: {
-                title: "Module 2 :- Interview Preparation: Crack MAANG",
+                title: "Module 2 :- Interview Preparation: Crack MNCs",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",
