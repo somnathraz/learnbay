@@ -272,18 +272,17 @@ export const FullStackSoftwareCourseData = [
       ProMaxDesc: " Get data science training with 100% job assistance",
     },
 
-
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch  :- (Mon-Wed-Fri)",
+          title: "Weekend Morning Batch  :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 20th January 2023 (FSSD)",
-                  "Time : 8 PM to 10 PM",
+                  "Date : 12th February 2023 (FSSD)",
+                  "Time : 8 AM to 11 AM",
                 ],
               },
             },
@@ -294,14 +293,14 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Weekend Evening Batch  :- (Sat-Sun)",
+          title: "Weekday Morning Batch  :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 22nd January 2023 (FSSD)",
-                  "Time : 12:30 PM to 4 PM",
+                  "Date : 17th February 2023 (FSSD)",
+                  "Time : 07:30 AM to 09:30 AM",
                 ],
               },
             },
@@ -311,7 +310,6 @@ export const FullStackSoftwareCourseData = [
         },
       },
     ],
-    
 
     BatchDetails: {
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
