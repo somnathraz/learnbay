@@ -1,5 +1,6 @@
 import styles from "./terms.module.css";
 import React from 'react'
+import Link from "next/link";
 
 function terms() {
   return (
@@ -74,6 +75,7 @@ function terms() {
 
 <p className={styles.bot}>Comments found at Learnbay do not promote any business or unlawful activities.</p>
 <p className={styles.bot}>You grant Learnbay the right to copy, reuse, edit, and publish your input.</p>
+<p className={styles.bot}>By submitting our webform, you agree to receive promotional calls on the number shared,  and such calls and SMS would be coming from a third-party platform.</p>
 
 <p className={styles.top}>*Rights Reserved</p>
 <p className={styles.bot}>You must have our permission before linking to us. You also need to remove any links upon request immediately. You must agree to all of our linking terms if we change our policies about linking at any time.</p>
@@ -169,7 +171,7 @@ function terms() {
 <p className={styles.bot}>The website may change at any time without notice at the discretion of Learnbay. Employees give no unofficial advice or written information; officers, directors, or agents will create a warranty. Prices and requirements are subject to modification without prior notice. We are the publisher of the content and materials provided on the Website, and no third-party engagement has been initiated.</p>
 <p className={styles.top}>Here is the grievance officer's contact information:</p>
 <p className={styles.top}>Grievance Officer: Mr. Abhishek Gupta</p>
-<p className={styles.top}>Please visit the following link to file a complaint with us: Form for Grievance Redress.</p>
+<p className={styles.topL} ><Link href="https://docs.google.com/forms/d/e/1FAIpQLSde_gd3oXQxR9tANND7NvmvD06z4p_MctvEByjQ73tVS-VVwg/viewform" target="_blank" >Please visit the following link to file a complaint with us: Grievance query </Link></p>
         </div>
     </section>
   )
