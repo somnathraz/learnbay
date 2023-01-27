@@ -22,7 +22,7 @@ const ThankYou = () => {
         />
         <meta name="description" content="Thank you!" />
       </Head>
-      <Navbar popup={true} dataScience={true} radio={true}/>
+      <Navbar popup={true} dataScience={true} radio={true} />
       <section className={styles.mains}>
         <div className={styles.Back}>
           <h4>
@@ -42,7 +42,8 @@ const ThankYou = () => {
         <div className={styles.right}>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-program.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-program.png
+https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-program.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -66,7 +67,7 @@ const ThankYou = () => {
           </div>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-data-science-ai-program.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -90,7 +91,7 @@ const ThankYou = () => {
           <div>
             <div>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance -ai-ml-for-tech-professionals.webp"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-ai-ml-for-tech-professionals.png"
                 alt="data-science-course"
                 quality={100}
                 layout="intrinsic"
@@ -119,7 +120,7 @@ const ThankYou = () => {
         <div className={styles.right}>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -142,7 +143,7 @@ const ThankYou = () => {
           </div>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -166,7 +167,7 @@ const ThankYou = () => {
           <div>
             <div>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa&system.webp"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-analytics.png"
                 alt="data-science-course"
                 quality={100}
                 layout="intrinsic"
@@ -195,7 +196,7 @@ const ThankYou = () => {
           <div>
             <div>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/business-analytics.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Business-Analytics.png"
                 alt="data-science-course"
                 quality={100}
                 layout="intrinsic"

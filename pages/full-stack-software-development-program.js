@@ -81,7 +81,7 @@ export default function Home() {
           title="Ace Your Coding Interview at MAANG and"
           spanTitleText=" Achieve Your Dream Job"
           desc="Best Interview Prep Course for Top Product Based MNCs"
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course9.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png"
           width="791"
           height="659"
           alt="Full Stack"
@@ -142,7 +142,7 @@ export default function Home() {
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
+          CourseFeelist3="Extra Doubt Clearing Sessions"
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />

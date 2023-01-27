@@ -103,7 +103,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -437,7 +437,7 @@ export default function Home() {
           spanMTitleText=" Training In Chennai"
           spanTitleText=" Training In Chennai"
           desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course7.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Businesss+Analytics.png"
           width="900"
           height="762"
           alt="business analytics course training in chennai"
@@ -485,7 +485,7 @@ export default function Home() {
               ProgramBot2="The modules are designed by business analyst experts according to current industry expectations. We provide customized and up-to-date business analytics modules in such a way that it's understandable to our learners. Learnbay mentors are experienced and highly skilled at training young enthusiasts and helping them transform into future-ready experts. It has a practical learning model that includes interactive sessions by top experts and real-world business analytics projects from different industries."
               ProgramHead3="Why should you enroll in a business analytics Certification in Chennai from Learnbay?"
               ProgramBot3="Learnbay is the only institute with a high level of commitment in Chennai. Its main motive is to provide high-quality education to aspiring BI professionals. All business professionals, even those with no prior analytical knowledge, can benefit from this business analytics course with placement."
-              ProgramBot31="Here, the class timings are flexible and It's easy to switch between batches and trainers at any moment. Additionally, We provide special programming sessions for non-IT students. Its main objective is to impart hands-on practical training in Chennai. Using industrial projects, you’ll use your abilities to analyze real-world data collection and develop a business plan using our cloud lab feature. We also arrange Extra Doubt Clearance Sessions with mentors to fast-track your learning process. Flexi subscription is a unique feature where you’ll get unlimited access to Learnbay LMS. With this unique feature, learners can pause and resume their training at their own pace.
+              ProgramBot31="Here, the class timings are flexible and It's easy to switch between batches and trainers at any moment. Additionally, We provide special programming sessions for non-IT students. Its main objective is to impart hands-on practical training in Chennai. Using industrial projects, you’ll use your abilities to analyze real-world data collection and develop a business plan using our cloud lab feature. We also arrange Extra Doubt Clearing Sessions with mentors to fast-track your learning process. Flexi subscription is a unique feature where you’ll get unlimited access to Learnbay LMS. With this unique feature, learners can pause and resume their training at their own pace.
             "
               ProgramBot32="Know more about the Learnbay Business Analytics Course in Chennai. "
               CertificationHead1="Certification process in Learnbay:"

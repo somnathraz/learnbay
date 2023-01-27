@@ -104,7 +104,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -438,7 +438,7 @@ export default function Home() {
           spanMTitleText="Advance Program"
           spanTitleText="Advance Program"
           desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course3.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           width="900"
           height="762"
           alt="machine learning course training in mumbai"
@@ -489,7 +489,7 @@ export default function Home() {
               ProgramHead4="Learn directly from industrial machine learning experts:"
               ProgramBot4="We have prepared world-class faculty that is composed of highly experienced instructors, mentors, and career counselors. All of them own more than 8 years of experience in different machine learning job roles, also from variable industrial domains. And it’s not like learning a boring learning experience through stacks of pre-recorded lectures and piles of old machine learning assignments- where you submit your tasks but get no feedback."
               ProgramHead5="Here you get domain-specific full-stack machine learning training."
-              ProgramBot5="Learnbay machine learning program consists of 300 hours of live and interactive learning only. Even you get on-demand 1-on-1 doubt clearance sessions from the industry experts. Even the project sessions are completely live, and you get the advantage of learning industrial tricks and tips from the ML whizzes."
+              ProgramBot5="Learnbay machine learning program consists of 300 hours of live and interactive learning only. Even you get on-demand 1-on-1 Doubt Clearing Sessions from the industry experts. Even the project sessions are completely live, and you get the advantage of learning industrial tricks and tips from the ML whizzes."
               ProgramHead6="Best possible flexible Learning Environment for working professionals:"
               ProgramBot6="Time management for the live or offline classes has become the greatest concern for working professionals. This is the key reason why about 70% of aspirants choose self-paced online machine learning courses. But Learnbay offers working professionals the opportunity of attending offline or Online Interactive Classes without disturbing their current job. The machine learning certification course in Mumbai comes with a 3-years of flexible subscription. Using such a subscription, you can change your batch and instructor and even pause/ resume your course completely hassle-free."
               ProgramHead7="Dedicated support to weak programmers:"

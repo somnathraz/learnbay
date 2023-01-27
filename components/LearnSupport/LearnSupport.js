@@ -10,7 +10,7 @@ function LearnSupport({FsdNumber}) {
       <div className={styles.LearnSupport}>
         <div className={styles.learnInnerR}>
           <img
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/24-7-support-home.webp"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/24x7+v2-min.png"
             width="100%"
             className={styles.img}
              alt="data science course in bangalore"

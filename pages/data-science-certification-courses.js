@@ -41,9 +41,15 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-      <title>Data Science Certification Course Foundation Program</title>
-      <meta name="description" content="Data Science Certification Course Foundation Program. Learnbay is best data science certification course training institute. Our online data science certification course will enhance your career"/>
-      <meta name="Keywords" content="Data Science Certification Course, Data Science Certification training, Data Science Certification institute, best Data Science Certification institute, Data Science Certification training institute , advanced Data Science Certification course , Data Science Certification course with Placement Assistance, Data Science Certification courses"/>
+        <title>Data Science Certification Course Foundation Program</title>
+        <meta
+          name="description"
+          content="Data Science Certification Course Foundation Program. Learnbay is best data science certification course training institute. Our online data science certification course will enhance your career"
+        />
+        <meta
+          name="Keywords"
+          content="Data Science Certification Course, Data Science Certification training, Data Science Certification institute, best Data Science Certification institute, Data Science Certification training institute , advanced Data Science Certification course , Data Science Certification course with Placement Assistance, Data Science Certification courses"
+        />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -77,7 +83,7 @@ export default function Home() {
           mTopPara1=" Foundation Program"
           title="Enhance your earning potential "
           desc="This program ensures a smooth transition into Jr. Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course1.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Foundation.png"
           width="900"
           height="762"
           alt="AiMl Header"

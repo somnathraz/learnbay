@@ -132,7 +132,7 @@ const MultiTabs = () => {
             </div>
             <div className={styles.right}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dedicate-placement-cell.webp"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Job+assistance+Program.png"
                 width="419"
                 height="412"
                  alt="data science course in bangalore"
@@ -176,7 +176,7 @@ const MultiTabs = () => {
             </div>
             <div className={styles.right}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/IBM-certified-capstone.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/IBM+Certified+Capstone+f-min.png"
                 width="504"
                 height="383"
                  alt="data science course in bangalore"
@@ -263,7 +263,7 @@ const MultiTabs = () => {
               </div>
             </div>
             <div className={styles.right}>
-              <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/flexibility-support.webp" width="391" height="377"  alt="data science course in bangalore"/>
+              <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/flexibility+support+f-min.png" width="391" height="377"  alt="data science course in bangalore"/>
             </div>
           </div>
         ) : (

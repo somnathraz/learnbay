@@ -143,7 +143,7 @@ export default function Home() {
     },{
     "@type": "HowToStep",
     "text": "Talk to our experts for career counseling",
-    "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+    "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
     "name": "Talk to Expert",
     "url": "https://www.learnbay.co/data-science-course/"
     },{
@@ -495,7 +495,7 @@ export default function Home() {
           spanTitleText="Enroll Now"
           spanMTitleText="Enroll Now"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Hyderabad with IBM Certification. Our advanced Data Science training in Hyderabad will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
           width="900"
           height="762"
           alt="data science course training in hyderabad"

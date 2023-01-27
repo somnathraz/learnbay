@@ -141,7 +141,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -471,7 +471,7 @@ export default function Home() {
           spanTitleText="Enroll Now"
           spanMTitleText="Enroll Now"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Bangalore with IBM Certification. Our advanced Data Science training in Bangalore will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
           width="900"
           height="762"
           alt="data science course in bangalore"
@@ -668,7 +668,7 @@ export default function Home() {
               ProgramBot1="Learnbay is the best data science course training institute in Bangalore. Our faculties are industrial experts from top-notch MNCs. They share their experience and knowledge throughout their offline and online Data science courses. The courses are custom-designed for learners who want to shift into a Data Science Career, even after working in any domain for years. In one word, it's the ultimate destination where you can find the best foundational and advanced Data science courses for working professionals."
               ProgramBot2="The Learnbay Data science course for working professionals in Bangalore implies practical knowledge and theoretical concepts for balanced learning. This institute offers the best value in Data Science certification programs available across Bangalore. So that aspirants can build a strong future in data science. Learnbay Data Science training in Bangalore is created and designed to meet industrial and organizational needs changes."
               ProgramHead4="Why is Learnbay the best institute for advanced  Data Science courses in Bangalore?"
-              ProgramBot4="Here, you get hassle-free live classes and multiple instructors. You also get a Data science course with a job placement and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. All of their Data science course in Bangalore has 1 on 1 live doubt clearance sessions from experienced FAANG Data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads."
+              ProgramBot4="Here, you get hassle-free live classes and multiple instructors. You also get a Data science course with a job placement and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. All of their Data science course in Bangalore has 1 on 1 live Doubt Clearing Sessions from experienced FAANG Data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads."
               ProgramHead5="Available Data Science Certification Courses by Learnbay in Bangalore"
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"

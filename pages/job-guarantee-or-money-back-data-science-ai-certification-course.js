@@ -81,7 +81,7 @@ export default function Home() {
           title="Data Science and AI Master Program "
           spanTitleText="With Unlimited Interview Calls"
           desc="A complete guide with real-life exercises & domain oriented approach."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course5.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/DSAI+Masters.png"
           width="829"
           height="646"
           alt="AiMl Header"

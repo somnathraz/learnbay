@@ -643,6 +643,7 @@
     flex-flow: column;
     align-items: center;
     justify-content: space-between;
+    margin-top: 0;
   }
   .feeWrapper .left .bottom h5 {
     font-size: 28px;

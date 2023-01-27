@@ -50,7 +50,11 @@ const BoxShape = ({
           </div>
           <div className={hover ? styles.box : styles.boxActive}>
             {hover ? (
-              <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg" loading="lazy" alt="data science course"/>
+              <img
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg"
+                loading="lazy"
+                alt="data science course"
+              />
             ) : (
               <img
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/capstone-live-home.svg"
@@ -85,7 +89,7 @@ const BoxShape = ({
         </div>
         <div className={styles.right}>
           <div className={styles.imgBack}>
-            <h5>Watch ours alumni’s making successful career transition</h5>
+            <h5>Watch our alumni making successful career transition</h5>
             <div className={styles.reviewWrap}>
               <Swiper
                 slidesPerView={mobile ? 1 : 1}
@@ -101,14 +105,15 @@ const BoxShape = ({
               >
                 <SwiperSlide className={styles.swiperSlideer}>
                   <p>
-                    Learnbay taught me data science. Thanks to Learnbay's
-                    domain specialization course, I landed a job in my prior
-                    sector and was regarded as an experienced applicant by my
-                    firm. I consistently increased my data science knowledge and
+                    Learnbay taught me data science. Thanks to Learnbay's domain
+                    specialization course, I landed a job in my prior sector and
+                    was regarded as an experienced applicant by my firm. I
+                    consistently increased my data science knowledge and
                     experience, which led to a 250% hike.
                   </p>
                   <div className={styles.profile}>
-                    <img style={{width:"80px", height:"80px"}}
+                    <img
+                      style={{ width: "80px", height: "80px" }}
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Chandni.jpeg"
                       width="80"
                       height="80"
@@ -123,15 +128,20 @@ const BoxShape = ({
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperSlideer}>
                   <p>
-                  Recommended to anyone who is trying to learn Data Science. Teachers go through every detail and in between they tells you what questions is mostly likely to ask in the interview! Which is important! Also gives you assignments for weekends! Overall really good experience! Worth it!
+                    Recommended to anyone who is trying to learn Data Science.
+                    Teachers go through every detail and in between they tells
+                    you what questions is mostly likely to ask in the interview!
+                    Which is important! Also gives you assignments for weekends!
+                    Overall really good experience! Worth it!
                   </p>
                   <div className={styles.profile}>
-                    <img style={{width:"80px", height:"80px"}}
+                    <img
+                      style={{ width: "80px", height: "80px" }}
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shravanthi.jpeg"
                       width="80"
                       height="80"
                       layout="intrinsic"
-                       alt={alt}
+                      alt={alt}
                     />
                     <div className={styles.name}>
                       <h5>Shravanthi A</h5>
@@ -141,15 +151,19 @@ const BoxShape = ({
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperSlideer}>
                   <p>
-                  Learnbay has helped me a lot to learn data science applications in the e-commerce industry. The live class concept was really helpful in receiving proper DS training. Thanks to all my mentors and the placement team.
+                    Learnbay has helped me a lot to learn data science
+                    applications in the e-commerce industry. The live class
+                    concept was really helpful in receiving proper DS training.
+                    Thanks to all my mentors and the placement team.
                   </p>
                   <div className={styles.profile}>
-                    <img style={{width:"80px", height:"80px"}}
+                    <img
+                      style={{ width: "80px", height: "80px" }}
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png"
                       width="80px"
                       height="80px"
                       layout="intrinsic"
-                       alt={alt}
+                      alt={alt}
                     />
                     <div className={styles.name}>
                       <h5>Mohammad Israr</h5>

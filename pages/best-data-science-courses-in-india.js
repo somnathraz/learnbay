@@ -143,7 +143,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -473,7 +473,7 @@ export default function Home() {
           mTopPara="Foundational and Advanced Data Science Courses"
           title="Best Data Science Courses In"
           desc="Learnbay has brought you the best online data science courses in India. Become a pro in data science in your chosen domain by practicing 12+ industrial projects under the guidance of industry experts. Stand out from the crowd by enrolling in the Data Science courses in india now!"
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
           width="900"
           height="762"
           alt="data science course in India"
@@ -524,7 +524,7 @@ export default function Home() {
               ProgramHead5="Affordability and Assurance:"
               ProgramBot5="When it comes to the best data science courses in India, the essential factor to consider is affordability and assurance. Being the second most populated country, the Indian job market is extremely competitive. Learnbay provides the best and most affordable data science courses in India, with excellent job placement assistance (interview assurance) and globally recognized certification. So, at the end of the course, you are bound to stay under the spotlight of the current job market skill demand."
               ProgramHead6="Personalized 1:1 attention:"
-              ProgramBot6="Additionally, We offer peer-to-peer discussion and doubt clearance sessions with experienced MAANG data scientists."
+              ProgramBot6="Additionally, We offer peer-to-peer discussion and Doubt Clearing Sessions with experienced MAANG data scientists."
               ProgramHead7="Flexible subscription and live learning:"
               ProgramBot8="For your convince, you can even pause the data science course in between to complete the course at your leisure (but through live classes only)."
               ProgramHead14="Trending and live MNC projects:"

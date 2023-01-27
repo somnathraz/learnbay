@@ -71,7 +71,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-        <FirstSection fsdBrochure={true}
+        <FirstSection
+          fsdBrochure={true}
           fullStack={true}
           deskTopPara="Data Structures Algorithms & System Design"
           mTopPara="Data Structures Algorithms & System Design"
@@ -80,7 +81,7 @@ export default function Home() {
           title="MAANG's Best Interview Preparation Course Trained by"
           spanTitleText="Top Experts"
           desc="Perform real-world industrial projects and use-cases."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa-header-image.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/DSA.png"
           width="776"
           height="682"
           alt="Full Stack"
@@ -112,8 +113,9 @@ export default function Home() {
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseDataDSA} />
-        <CourseReview fsdBrochure={true} fullStack={true}/>
-        <SyllabusNew fsdBrochure={true}
+        <CourseReview fsdBrochure={true} fullStack={true} />
+        <SyllabusNew
+          fsdBrochure={true}
           fullStack={true}
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
@@ -128,7 +130,12 @@ export default function Home() {
           fullStack={true}
         />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="12+ Projects" domain="7+" fsdBrochure={true} fullStack={true}/>
+          <Project
+            project="12+ Projects"
+            domain="7+"
+            fsdBrochure={true}
+            fullStack={true}
+          />
         </div>
         <CourseFee
           fullStack={true}
@@ -138,7 +145,7 @@ export default function Home() {
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
+          CourseFeelist3="Extra Doubt Clearing Sessions"
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />

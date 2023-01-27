@@ -20,7 +20,6 @@ import OfferPopup from "../components/OfferPopup/OfferPopup";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 
-
 import {
   FaqData3,
   DomainFaqData3,
@@ -86,7 +85,7 @@ export default function Home() {
           desc="With demanding industry projects, you can acquire the most advanced technical expertise possible. Be a master even without a master's degree."
           width="721"
           height="632"
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course3.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           alt="AiMl Header"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />
@@ -202,21 +201,17 @@ export default function Home() {
           PFeatures36="Unlimited"
           PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
         />
-
-
         <CourseFee
           dataScience={true}
           syllabus={AiMlCourseData[0].Batch}
-          
           CourseFeeHead="Artificial Intelligence & Machine Learning Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
+          CourseFeelist3="Extra Doubt Clearing Sessions"
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />
-
         <FAQNew
           FaqDatas={FaqData3}
           PaymentFaqDatas={PaymentFaqData3}

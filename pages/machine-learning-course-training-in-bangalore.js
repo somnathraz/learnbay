@@ -104,7 +104,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -434,7 +434,7 @@ export default function Home() {
           title="Machine Learning Course"
           spanTitleText="Training In Bangalore"
           desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course3.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           width="900"
           height="762"
           alt="machine learning course training in bangalore"

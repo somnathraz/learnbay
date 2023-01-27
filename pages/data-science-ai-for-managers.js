@@ -83,7 +83,7 @@ export default function Home() {
           spanTitleText=" For Managers and Leaders"
           spanMTitleText=" For Managers and Leaders"
           desc="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Managers+%26+Leaders.png"
           width="758"
           height="602"
           alt="AiMl Header"
@@ -211,7 +211,7 @@ export default function Home() {
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
+          CourseFeelist3="Extra Doubt Clearing Sessions"
           CourseFeelist4="Multiple Domains + Project Expertise"
           CourseFeelist5="Company-based Mock Interviews"
         />
