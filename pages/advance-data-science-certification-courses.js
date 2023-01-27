@@ -82,7 +82,7 @@ export default function Home() {
           title="Advanced Data Science and AI Program"
           spanTitleText="with Domain Specialization"
           desc="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
           width="900"
           height="762"
           alt="data science course"
@@ -192,12 +192,11 @@ export default function Home() {
         <CourseFee
           dataScience={true}
           syllabus={DataScienceCourseData[0].Batch}
-
           CourseFeeHead="Advanced Data Science & AI Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
+          CourseFeelist3="Extra Doubt Clearing Sessions"
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />

@@ -104,7 +104,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -385,7 +385,7 @@ export default function Home() {
           title="Data Analytics Course Training in Bangalore"
           mTitle="Data Analytics Course Training in Bangalore"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Data+Analytics.png"
           width="900"
           height="762"
           alt="data analytics course training in bangalore"

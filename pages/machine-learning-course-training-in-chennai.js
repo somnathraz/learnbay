@@ -459,7 +459,7 @@ export default function Home() {
           spanMTitleText="Advance Program"
           spanTitleText="Advance Program"
           desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course3.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           width="900"
           height="762"
           alt="machine learning course training in chennai"

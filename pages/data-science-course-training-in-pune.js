@@ -54,10 +54,7 @@ export default function Home() {
         />
         <meta name="HandheldFriendly" content="true" />
         <meta name="distribution" content="global" />
-        <meta
-          name="copyright"
-          content="Learnbay"
-        />
+        <meta name="copyright" content="Learnbay" />
         <meta name="language" content="English" />
         <meta name="rating" content="general" />
         <meta name="revisit-after" content="Daily" />
@@ -143,7 +140,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -471,7 +468,7 @@ export default function Home() {
           spanTitleText="Enroll Now"
           spanMTitleText="Enroll Now"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Pune with IBM Certification. Our advanced Data Science training in Pune will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
           width="900"
           height="762"
           alt="data science course in pune"
@@ -611,7 +608,7 @@ export default function Home() {
               ProgramBot3="Learnbay provided data scientist courses in Pune offer 1 to 1 attention to every student. Also, by analyzing your career profiles and academic background, we provide you with the best possible custom-fit data science course syllabus."
               ProgramBot31="Learnbay Data science students learn through uninterrupted live and interactive classes from multiple instructors who are working as senior data scientists or data science project managers in companies like IBM, Amazon, etc. Learnbay even provides IBM data science certification with job assistance."
               ProgramHead4="Why is Learnbay a major Data Science training institute in Pune?"
-              ProgramBot4="Here, you get hassle-free live classes and a choice of multiple expert instructors. You also get a Data science course with a job placement and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. All Data scientist courses in Pune has 1 on 1 live doubt clearance sessions from experienced FAANG Data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads. So, you can experience full-stack data science courses like offline college but without quitting your present job."
+              ProgramBot4="Here, you get hassle-free live classes and a choice of multiple expert instructors. You also get a Data science course with a job placement and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. All Data scientist courses in Pune has 1 on 1 live Doubt Clearing Sessions from experienced FAANG Data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads. So, you can experience full-stack data science courses like offline college but without quitting your present job."
               ProgramHead5="Available Data Science and AI Certification Courses at Learnbay in Pune are:"
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"

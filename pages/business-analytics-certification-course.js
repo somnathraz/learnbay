@@ -79,7 +79,7 @@ export default function Home() {
           title="Business Analytics Certification Program"
           spanTitleText="For Non-tech Professionals"
           desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course7.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Businesss+Analytics.png"
           width="674"
           height="623"
           alt="AiMl Header"
@@ -168,7 +168,7 @@ export default function Home() {
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
+          CourseFeelist3="Extra Doubt Clearing Sessions"
           CourseFeelist4="Project-Based Learning"
           CourseFeelist5="Company-based Mock Interviews"
         />

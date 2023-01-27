@@ -141,7 +141,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -467,7 +467,7 @@ export default function Home() {
           spanTitleText="Enroll Now"
           spanMTitleText="Enroll Now"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Dubai with IBM Certification. Our advanced Data Science training in Dubai will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
           width="900"
           height="762"
           alt="data science course training in dubai"
@@ -548,7 +548,7 @@ export default function Home() {
               ProgramBot31="Lifetime access to Learnbay LMS for seamless learning progress.
             1 to 8 number of globally recognized IBM certifications in advanced data science training courses.
             Premium Cloud Lab Feature, via which you can leverage hands-on exposure to industrial problems.
-            Live interactive classes plus Extra Doubt Clearance Sessions.
+            Live interactive classes plus Extra Doubt Clearing Sessions.
             Special Programming classes for non-technical learners.
             Learnbay Faculties possess extensive industry knowledge and experience.
             Participants will be provided with end-to-end placement support.

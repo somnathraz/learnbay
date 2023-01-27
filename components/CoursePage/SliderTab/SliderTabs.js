@@ -56,11 +56,11 @@ const SliderTabs = () => {
           {oneYear ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-Understand the best practices for the finance sector.
-                </h6>
+                <h6>Understand the best practices for the finance sector.</h6>
                 <p className={styles.para}>
-                  Work on real-time projects using live data from companies like J.P Morgan, HDFC, etc for building recommendation systems, handling chatbots, and upcoming stock market prediction.
+                  Work on real-time projects using live data from companies like
+                  J.P Morgan, HDFC, etc for building recommendation systems,
+                  handling chatbots, and upcoming stock market prediction.
                 </p>
                 <div className={styles.info}>
                   <div className={styles.left}>
@@ -81,7 +81,12 @@ Understand the best practices for the finance sector.
               </div>
 
               <div className={styles.right}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Bnking domain.png" width="350" height="350" alt="Learnbay data science"/>
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/BFSI+v.png"
+                  width="350"
+                  height="350"
+                  alt="Learnbay data science"
+                />
               </div>
             </div>
           ) : (
@@ -106,9 +111,7 @@ Understand the best practices for the finance sector.
           {nonTech ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-Know data-driven consumer and market insights.
-                </h6>
+                <h6>Know data-driven consumer and market insights.</h6>
                 <p className={styles.para}>
                   You will be wholly involved with the essential functional
                   aspects of a business, management, Operations, Finance, and
@@ -132,7 +135,12 @@ Know data-driven consumer and market insights.
                 </a>
               </div>
               <div className={styles.right}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp" width="296" height="345" alt="Learnbay data science"/>
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp"
+                  width="296"
+                  height="345"
+                  alt="Learnbay data science"
+                />
               </div>
             </div>
           ) : (
@@ -158,7 +166,7 @@ Know data-driven consumer and market insights.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Incorporate future proof practices with Data Science and AI.
+                  Incorporate future proof practices with Data Science and AI.
                 </h6>
                 <p className={styles.para}>
                   Any working professional choosing this domain with prior
@@ -183,7 +191,12 @@ Incorporate future proof practices with Data Science and AI.
                 </a>
               </div>
               <div className={styles.right} style={{ paddingBottom: "40px" }}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp" width="351" height="332" alt="Learnbay data science course" />
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp"
+                  width="351"
+                  height="332"
+                  alt="Learnbay data science course"
+                />
               </div>
             </div>
           ) : (
@@ -211,7 +224,8 @@ Incorporate future proof practices with Data Science and AI.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Gain a deeper understanding of business requirements and it's functionalities.
+                  Gain a deeper understanding of business requirements and it's
+                  functionalities.
                 </h6>
                 <p className={styles.para}>
                   With enhanced supply chain management and customer services,
@@ -237,7 +251,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Retail-domain.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/retail+%26+E-commerce.png"
                   width="314"
                   height="360"
                   layout="intrinsic"
@@ -267,9 +281,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
           {Guarantee ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-              <h6>
-                  Work on projects implemented for business growth.
-                </h6>
+                <h6>Work on projects implemented for business growth.</h6>
                 <p className={styles.para}>
                   Earn a better insight into areas like personalized marketing,
                   real-time analytics, revenue management, booking engines,
@@ -325,8 +337,9 @@ Gain a deeper understanding of business requirements and it's functionalities.
           {viewAll ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-              <h6>
-                  Study about applications of DS & AI is applicable in Manufacturing & Automotive.
+                <h6>
+                  Study about applications of DS & AI is applicable in
+                  Manufacturing & Automotive.
                 </h6>
                 <p className={styles.para}>
                   A deeper understanding of the manufacturing and
@@ -383,7 +396,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Understand how an industry expands exponentially with AI.
+                  Understand how an industry expands exponentially with AI.
                 </h6>
                 <p className={styles.para}>
                   Pursue projects on recording sensors in seismic,
@@ -410,11 +423,11 @@ Understand how an industry expands exponentially with AI.
               </div>
               <div className={styles.right}>
                 <img
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/oil-gas.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/oil+%26+Gas+eng.png"
                   width="568"
                   height="412"
                   layout="intrinsic"
-                   alt="data science course in bangalore"
+                  alt="data science course in bangalore"
                 />
               </div>
             </div>
@@ -426,11 +439,11 @@ Understand how an industry expands exponentially with AI.
           {oneYear ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-Understand the best practices for the finance sector.
-                </h6>
+                <h6>Understand the best practices for the finance sector.</h6>
                 <p className={styles.para}>
-                  Work on real-time projects using live data from companies like J.P Morgan, HDFC, etc for building recommendation systems, handling chatbots, and upcoming stock market prediction.
+                  Work on real-time projects using live data from companies like
+                  J.P Morgan, HDFC, etc for building recommendation systems,
+                  handling chatbots, and upcoming stock market prediction.
                 </p>
                 <div className={styles.info}>
                   <div className={styles.left}>
@@ -451,7 +464,12 @@ Understand the best practices for the finance sector.
               </div>
 
               <div className={styles.right}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Bnking domain.png" width="350" height="350" alt="Learnbay data science course" />
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/BFSI+v.png"
+                  width="350"
+                  height="350"
+                  alt="Learnbay data science course"
+                />
               </div>
             </div>
           ) : (
@@ -460,9 +478,7 @@ Understand the best practices for the finance sector.
           {nonTech ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-Know data-driven consumer and market insights.
-                </h6>
+                <h6>Know data-driven consumer and market insights.</h6>
                 <p className={styles.para}>
                   You will be wholly involved with the essential functional
                   aspects of a business, management, Operations, Finance, and
@@ -486,7 +502,12 @@ Know data-driven consumer and market insights.
                 </a>
               </div>
               <div className={styles.right}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp" width="296" height="345"  alt="data science course in bangalore"/>
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp"
+                  width="296"
+                  height="345"
+                  alt="data science course in bangalore"
+                />
               </div>
             </div>
           ) : (
@@ -495,9 +516,7 @@ Know data-driven consumer and market insights.
           {Guarantee ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-              <h6>
-                  Work on projects implemented for business growth.
-                </h6>
+                <h6>Work on projects implemented for business growth.</h6>
                 <p className={styles.para}>
                   Earn a better insight into areas like personalized marketing,
                   real-time analytics, revenue management, booking engines,
@@ -527,7 +546,7 @@ Know data-driven consumer and market insights.
                   width="296"
                   height="361"
                   layout="intrinsic"
-                   alt="data science course in bangalore"
+                  alt="data science course in bangalore"
                 />
               </div>
             </div>
@@ -538,7 +557,7 @@ Know data-driven consumer and market insights.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Incorporate future proof practices with Data Science and AI.
+                  Incorporate future proof practices with Data Science and AI.
                 </h6>
                 <p className={styles.para}>
                   Any working professional choosing this domain with prior
@@ -563,7 +582,12 @@ Incorporate future proof practices with Data Science and AI.
                 </a>
               </div>
               <div className={styles.right} style={{ paddingBottom: "40px" }}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp" width="351" height="332"  alt="data science course in bangalore"/>
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp"
+                  width="351"
+                  height="332"
+                  alt="data science course in bangalore"
+                />
               </div>
             </div>
           ) : (
@@ -572,8 +596,9 @@ Incorporate future proof practices with Data Science and AI.
           {viewAll ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-              <h6>
-                  Study about applications of DS & AI is applicable in Manufacturing & Automotive.
+                <h6>
+                  Study about applications of DS & AI is applicable in
+                  Manufacturing & Automotive.
                 </h6>
                 <p className={styles.para}>
                   A deeper understanding of the manufacturing and
@@ -603,7 +628,7 @@ Incorporate future proof practices with Data Science and AI.
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manufacturing-domain-slider.webp"
                   width="271"
                   height="353"
-                   alt="data science course in bangalore"
+                  alt="data science course in bangalore"
                 />
               </div>
             </div>
@@ -614,7 +639,8 @@ Incorporate future proof practices with Data Science and AI.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Gain a deeper understanding of business requirements and it's functionalities.
+                  Gain a deeper understanding of business requirements and it's
+                  functionalities.
                 </h6>
                 <p className={styles.para}>
                   With enhanced supply chain management and customer services,
@@ -640,7 +666,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Retail-domain.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/retail+%26+E-commerce.png"
                   width="314"
                   height="360"
                   layout="intrinsic"
@@ -655,7 +681,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Understand how an industry expands exponentially with AI.
+                  Understand how an industry expands exponentially with AI.
                 </h6>
                 <p className={styles.para}>
                   Pursue projects on recording sensors in seismic,
@@ -682,11 +708,11 @@ Understand how an industry expands exponentially with AI.
               </div>
               <div className={styles.right}>
                 <img
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/oil-gas.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/oil+%26+Gas+eng.png"
                   width="350"
                   height="360"
                   layout="intrinsic"
-                   alt="data science course in bangalore"
+                  alt="data science course in bangalore"
                 />
               </div>
             </div>

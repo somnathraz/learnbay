@@ -129,7 +129,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          200+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -348,7 +348,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          200+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -448,7 +448,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          200+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -518,7 +518,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          200+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -700,7 +700,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          200+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -852,7 +852,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          200+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -921,7 +921,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          200+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -967,7 +967,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Full Stack Web Development Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          200+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
                       </div>
                     </div>

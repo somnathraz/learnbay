@@ -103,7 +103,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -444,7 +444,7 @@ export default function Home() {
           spanTitleText=" For Managers and Leaders"
           spanMTitleText=" For Managers and Leaders"
           desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Managers+%26+Leaders.png"
           width="900"
           height="762"
           alt="artificial intelligence ai course training in dubai"

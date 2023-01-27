@@ -104,7 +104,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -445,7 +445,7 @@ export default function Home() {
           spanTitleText=" For Managers and Leaders"
           spanMTitleText=" For Managers and Leaders"
           desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Managers+%26+Leaders.png"
           width="900"
           height="762"
           alt="artificial intelligence ai course training in chennai"
@@ -493,7 +493,7 @@ export default function Home() {
               ProgramBot2="With the assistance of capstone projects, our mentors deliver the best artificial intelligence training to students. Our artificial intelligence and data science course with placement is a fantastic initiative that has assisted countless students in obtaining excellent job opportunities across Chennai."
               ProgramBot3="In this artificial intelligence training, you’ll learn how to apply AI to real-life business problems through a balanced combination of established data science and artificial intelligence approaches along with industry-specific best practices."
               ProgramHead4="Why should you consider taking Learnbay’s IBM artificial intelligence course?"
-              ProgramBot4="Learnbay’s main objective is to provide high-quality data science and AI training to aspirants across Chennai. You’ll be provided with artificial intelligence training with domain-specific modules that are meticulously designed by industry experts. They also provide blended learning sessions along with live doubt clearance sessions with mentors. The modules are affordable and flexible with the option of zero interest EMI making it the best AI course. All in all, this IBM artificial intelligence course is everything that an aspirant would want to learn from the best AI course in Chennai."
+              ProgramBot4="Learnbay’s main objective is to provide high-quality data science and AI training to aspirants across Chennai. You’ll be provided with artificial intelligence training with domain-specific modules that are meticulously designed by industry experts. They also provide blended learning sessions along with live Doubt Clearing Sessions with mentors. The modules are affordable and flexible with the option of zero interest EMI making it the best AI course. All in all, this IBM artificial intelligence course is everything that an aspirant would want to learn from the best AI course in Chennai."
               ProgramHead5="Available Artificial Intelligence Certification Courses by Learnbay in Chennai:"
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"
