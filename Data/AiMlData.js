@@ -376,9 +376,6 @@ export const AiMlCourseData = [
       ProMaxDesc: " Get data science training with 100% job assistance",
     },
 
-
-
-    
     Batch: [
       {
         Module0: {
@@ -387,7 +384,7 @@ export const AiMlCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 27th January 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 3rd February 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -397,12 +394,12 @@ export const AiMlCourseData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 29th January 2023", "Time : 08:30 AM to 12 PM"],
+                desc: ["Date : 10th February 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -411,8 +408,6 @@ export const AiMlCourseData = [
         },
       },
     ],
-
-
 
     BatchDetails: {
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
