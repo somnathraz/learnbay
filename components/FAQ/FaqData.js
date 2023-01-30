@@ -1516,7 +1516,7 @@ export const FaqData8 = [
   {
     id: 3,
     ques: "What’s the duration of the Full-Stack Web Development Course?",
-    ans: `The duration of this course is about 9 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this course is about 6 months (200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and Weekend Batches.
     Weekday batch - 8 months
