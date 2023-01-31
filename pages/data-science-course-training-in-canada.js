@@ -104,7 +104,7 @@ export default function Home() {
         <meta name="bingbot" content="index,follow" />
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
-        <meta name="robots" content="ALL" />
+        <meta name="robots" content="ALL" /> 
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -141,7 +141,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -190,7 +190,7 @@ export default function Home() {
         />{" "}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
+          dangerouslySetInnerHTML={{ 
             __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",
@@ -472,12 +472,12 @@ export default function Home() {
           dataScience={true}
           deskTopPara="Foundational and Advance Job-ready Program"
           mTopPara="Foundational and Advance Job-ready Program"
-          title="Data Science Course in Canada"
-          mTitle="Data Science Course in Canada"
-          spanTitleText="- Enroll Now"
-          spanMTitleText="- Enroll Now"
+          title="Data Science Course in Canada -"
+          mTitle="Data Science Course in Canada -"
+          spanTitleText="Enroll Now"
+          spanMTitleText="Enroll Now"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Canada with IBM Certification. Our advanced Data Science training in Canada will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
           alt="data science course training in canada"
@@ -553,7 +553,6 @@ export default function Home() {
               ProgramHead1="What is the data science course training in Canada?"
               ProgramBot1="Learnbay offers a Data Science course in Canada, the most comprehensive Data Science course in the market, covering the complete Data Science lifecycle concepts from Data Collection, Data Extraction, Data Exploration, Data Cleansing, Feature Engineering, Data Transformation, Data Integration, Data Mining, building Prediction models, Data Visualization and deploying the solution to the customer. Skills and tools ranging from Statistical Analysis, Text Mining, Hypothesis Testing, Regression Modelling, Predictive Analytics, Machine Learning, Neural Networks, Predictive Modelling, Deep Learning, Natural Language Processing, R Studio, Hadoop, Tableau, Spark, programming languages like Python and R programming, are covered extensively as part of this Data Science training."
               ProgramBot2="In one word, it's the ultimate destination where you can find the best foundational and advanced Data science courses in Canada for working professionals. The Data science course for working professionals in Canada implies practical knowledge and theoretical concepts for balanced learning. This institute offers the best value in Data Science certification programs available across Canada. So that aspirants can build a strong future in data science. Data Science training in Canada is created and designed to meet industrial and organizational needs changes."
-              ProgramBot3="Learnbay is considered the best data science course training institute in Canada, with over thousands participants working in various multinational companies such as E&Y, TCS, Accenture, Amazon, Infosys, IBM etc. Our faculties are industrial experts from top-notch MNCs. They share their experience and knowledge throughout their offline and online Data science courses. The courses are custom-designed for learners who want to shift into a Data Science Career, even after working in any domain for years."
               ProgramHead4="Why choose Learnbay for your Data Science Course in Canada?"
               ProgramBot4="This IBM data science course in Canada is offered entirely online, with extremely convenient scheduling options. That means you have the option of choosing your preferred batch as per timing and even mentors. In contrast, the artificial intelligence and data science courses seem to be affordable because of their reasonable data science course fees and come with an assured 100% job assistance."
               ProgramBot5="Here you get a 3-year Flexi subscription to Learnbay LMS, where you can learn in the comfort of your own home and as per your time convenience. However, all the learning sessions will be live and interactive only."
