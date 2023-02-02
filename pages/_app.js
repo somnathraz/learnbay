@@ -1,13 +1,13 @@
 import "../styles/globals.css";
 import BottomBar from "../components/BottomBar/BottomBar";
 import TagManager from "react-gtm-module";
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "../styles/form.css";
 import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    TagManager.initialize({gtmId:'GTM-NN8XWH8'})
+    TagManager.initialize({ gtmId: "GTM-NN8XWH8" });
   }, [0]);
 
   return (
@@ -33,6 +33,23 @@ function MyApp({ Component, pageProps }) {
         strategy="lazyOnload"
         src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"
       ></Script>
+
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-86WLBHQTY3`}
+      />
+      <Script
+        strategy="lazyOnload"
+        dangerouslySetInnerHTML={{
+          __html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-86WLBHQTY3');
+  `,
+        }}
+      />
 
       <Component {...pageProps} />
 
