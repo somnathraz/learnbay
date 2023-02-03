@@ -168,7 +168,7 @@ export default function Home() {
             fullStack={true}
           />
         </div>
-        <CourseFee
+        <CourseFee WebDev={true}
           fsdBrochure={true}
           fullStack={true}
           timeFsd={true}
@@ -191,7 +191,7 @@ export default function Home() {
           SupportFaqDatas={SupportFaqData8}
         />
         <LearnSupport />
-        <OfferPopup offer={true} />
+        <OfferPopup WebDev={true}/>
         <Footer />
       </main>
     </div>
