@@ -31,7 +31,7 @@ const sumbit = () => {
       </div>
       </div>
        
-        <OfferPopup offer={false} />                      
+        {/* <OfferPopup offer={false} />                       */}
       <Footer />
     </div>
   );
