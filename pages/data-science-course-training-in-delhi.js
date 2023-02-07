@@ -142,7 +142,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -471,12 +471,12 @@ export default function Home() {
           dataScience={true}
           deskTopPara="Foundational and Advance Job-ready Program"
           mTopPara="Foundational and Advance Job-ready Program"
-          title="Data Science Course in Delhi"
-          mTitle="Data Science Course in Delhi"
+          title="Data Science Course in Delhi - "
+          mTitle="Data Science Course in Delhi - "
           spanTitleText="Enroll Now"
           spanMTitleText="Enroll Now"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Delhi with IBM Certification. Our advanced Data Science training in Delhi will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
           alt="Data Science Course In Delhi"
@@ -549,7 +549,8 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramBot1="Learnbay is the premier data scientist training institute in Delhi. We have a very strong team of instructors and mentors owning an industrial experience of more than 8 years. Most of them are from top-tier MNCs. You can benefit from their experience and knowledge throughout the offline and online data science courses in Delhi. The courses are designed for learners who want to move into a Data Science job from any tech or non-tech domain along with a lucrative salary hike. Learnbay data science courses help you become a successful Data scientist even after having years of experience in other fields. In a nutshell, it's the best place to go for working people who want to learn the most about data science and artificial intelligence. Moreover, you get a series of custom-fit learning modules as per your personal career goal."
+              ProgramHead1="What is a Data science training course in Delhi?"
+              ProgramBot1="The data science course in Delhi offered by Learnbay is an exclusive data scientist training Bootcamp for anyone interested in becoming an industry competent data scientist. We have a very strong team of instructors and mentors owning an industrial experience of more than 8 years. Most of them are from top-tier MNCs. You can benefit from their experience and knowledge throughout the offline and online data science courses in Delhi. The courses are designed for learners who want to move into a Data Science job from any tech or non-tech domain along with a lucrative salary hike. Learnbay data science courses help you become a successful Data scientist even after having years of experience in other fields. In a nutshell, it's the best place to go for working people who want to learn the most about data science and artificial intelligence. Moreover, you get a series of custom-fit learning modules as per your personal career goal."
               ProgramBot2="For a balanced learning experience, the Learnbay data science course in Delhi for working professionals combines practical (core industrial) and theoretical topics in a 70:30 ratio. In Delhi, this institute offers the most cost-effective Data Science classes. The best thing is that you will receive a full-stack data science course and job placement."
               ProgramHead3="Why choose Learnbay advanced Data science course training in Delhi?"
               ProgramBot3="Because this city is India's capital city, this city is becoming the most significant job hub in India, from the perspective of both government and private jobs. As data science and AI is the most future-proof field, every single business is getting dependent on them. A huge number of options for advanced data science certification courses are available in Delhi. However, when it comes to the question of getting an assured job after completion of the course, then the list becomes too short. Again from the perspective of cost-effectiveness, the list shrinks further. Learnbay's artificial intelligence and data science course in Delhi is more affordable. Above all, even at a lower price, you get the best data science learning experience possible along with a job placement."
