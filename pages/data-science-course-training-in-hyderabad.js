@@ -143,7 +143,7 @@ export default function Home() {
     },{
     "@type": "HowToStep",
     "text": "Talk to our experts for career counseling",
-    "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
+    "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
     "name": "Talk to Expert",
     "url": "https://www.learnbay.co/data-science-course/"
     },{
@@ -490,12 +490,12 @@ export default function Home() {
           dataScience={true}
           deskTopPara="Foundational and Advance Job-ready Program"
           mTopPara="Foundational and Advance Job-ready Program"
-          title="Data Science Course in Hyderabad"
-          mTitle="Data Science Course in Hyderabad"
+          title="Data Science Course in Hyderabad - "
+          mTitle="Data Science Course in Hyderabad - "
           spanTitleText="Enroll Now"
           spanMTitleText="Enroll Now"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Hyderabad with IBM Certification. Our advanced Data Science training in Hyderabad will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
           alt="data science course training in hyderabad"
@@ -568,7 +568,8 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramBot1="Learnbay is a premier Data science course training institute in Hyderabad for anyone interested in becoming an industry competent data scientist. Learnbay’s IBM certified advanced Data science course was created with great care by industry specialists. Our professors are Industry-leaders with a decade of experience. Learnbay mentors make sure you learn everything from scratch and according to the complex industrial requirements."
+             ProgramHead1="What is a Data science training course in Hyderabad?"
+              ProgramBot1="The data science course in Hyderabad offered by Learnbay is an exclusive data scientist training Bootcamp for anyone interested in becoming an industry competent data scientist. Learnbay’s IBM certified advanced Data science course was created with great care by industry specialists. Our professors are Industry-leaders with a decade of experience. Learnbay mentors make sure you learn everything from scratch and according to the complex industrial requirements."
               ProgramBot2="Learnbay’s advanced Data science certification in the Hyderabad curriculum helps students learn in-demand Data science skills such as programming, data visualization, statistics, and other topics."
               ProgramHead3="What do candidates get in the  Advanced data science courses in Hyderabad?"
               ProgramBot3="For a richer learning experience, Learnbay focuses on providing both practical and theoretical learning modules. Moreover, Our advanced Data science certification in Hyderabad is cost-effective and even offers an MNC interview guarantee. Besides, you can choose a data science course with a job or 100% money-back assurance at Learnbay. In case you find yourself too weak in statistics, and you are not able to cope with the complexity of the advanced data science modules, you can opt for the Foundational data science learning module."
