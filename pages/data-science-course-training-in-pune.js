@@ -38,7 +38,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Science Course in Pune | Data Scientist Training in Pune
+          Data Science Course in Pune | Data Science Training in Pune
         </title>
         <meta
           name="description"
