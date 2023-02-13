@@ -52,12 +52,10 @@
 }
 
 .FirstImg {
-  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Project+Innovation+Lab-min.png");
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
-
   background-position: center;
 }
 
@@ -178,8 +176,8 @@
   .MiddleDiv {
     padding: 0px 20px 0px 20px;
     margin: 0px;
-    background-position: right;
     display: flex;
+    background: #fff;
   }
   .MiddleImg {
     margin: 0;
@@ -230,7 +228,8 @@
   }
   .MiddleDiv {
     display: block;
-    background-position: left;
+    background: #fff;
+
   }
   .FirstText {
     padding: 20px 0px;
@@ -267,6 +266,7 @@
     text-align: center;
     padding: 10px;
     width: auto;
+    background: #fff;
     align-items: center;
     margin: 40px 0px;
   }
@@ -308,7 +308,7 @@
     text-align: left;
   }
   .MiddleDiv {
-    background-position: center;
+    background: #fff;
   }
   .DivIcon {
     align-items: center;
