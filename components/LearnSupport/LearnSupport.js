@@ -2,6 +2,7 @@ import React from "react";
 import { MdCall } from "react-icons/md";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import styles from "./LearnSupport.module.css";
+import Image from "next/image";
 
 function LearnSupport({FsdNumber}) {
   return (
@@ -9,9 +10,10 @@ function LearnSupport({FsdNumber}) {
       <h4>24/7 Learner’s Support</h4>
       <div className={styles.LearnSupport}>
         <div className={styles.learnInnerR}>
-          <img
+          <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/24x7+v2-min.png"
-            width="100%"
+            width="590"
+            height="400"
             className={styles.img}
              alt="data science course in bangalore"
           />

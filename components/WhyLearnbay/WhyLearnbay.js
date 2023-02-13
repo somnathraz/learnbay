@@ -19,7 +19,15 @@ const WhyLearnbay = () => {
         </p>
       </div>
       <div className={styles.FirstDiv}>
-        <div className={styles.FirstImg}></div>
+        <div className={styles.FirstImg}>
+        <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Project+Innovation+Lab-min.png"
+                width="650"
+                height="400"
+                layout="intrinsic"
+                 alt="data science course in bangalore"
+              />
+        </div>
         <div className={styles.FirstText}>
           <h3>Project Innovation Lab</h3>
           <p className={styles.list}>
@@ -62,7 +70,7 @@ const WhyLearnbay = () => {
           </p>
           <div className={styles.DivIcon}>
             <div className={styles.iconBox}>
-              <img
+              <Image
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg"
                 width="40"
                 height="40"
@@ -72,7 +80,7 @@ const WhyLearnbay = () => {
               <p>Get certificate from IBM for your capstone project</p>
             </div>
             <div className={styles.iconBox}>
-              <img
+              <Image
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domain-in-why-learnbay.svg"
                 width="40"
                 height="40"

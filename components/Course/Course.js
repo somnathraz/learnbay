@@ -3,6 +3,7 @@ import styles from "./Course.module.css";
 import { FiDownload } from "react-icons/fi";
 import { BiTimeFive } from "react-icons/bi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import Image from "next/image";
 import { TbCurrencyRupee } from "react-icons/tb";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
@@ -117,7 +118,7 @@ const Course = () => {
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
                           <a href={link1}>
-                            <img
+                            <Image
                               src={img}
                               layout="intrinsic"
                               width="423px"
@@ -187,7 +188,7 @@ const Course = () => {
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div className={styles.gridImg}>
                           <a href={link1}>
-                            <img
+                            <Image
                               src={img}
                               layout="intrinsic"
                               width="423px"
@@ -278,7 +279,7 @@ const Course = () => {
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
                           <a href={link1}>
-                            <img
+                            <Image
                               src={img}
                               layout="intrinsic"
                               width="423px"
@@ -366,7 +367,7 @@ const Course = () => {
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div className={styles.gridImg}>
                           <a href={link1}>
-                            <img
+                            <Image
                               src={img}
                               layout="intrinsic"
                               width="423px"
@@ -457,7 +458,7 @@ const Course = () => {
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
                           <a href={link1}>
-                            <img
+                            <Image
                               src={img}
                               layout="intrinsic"
                               width="423px"
@@ -527,7 +528,7 @@ const Course = () => {
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div className={styles.gridImg}>
                           <a href={link1}>
-                            <img
+                            <Image
                               src={img}
                               layout="intrinsic"
                               width="423px"
@@ -618,7 +619,7 @@ const Course = () => {
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
                           <a href={link1}>
-                            <img
+                            <Image
                               src={img}
                               layout="intrinsic"
                               width="423px"
@@ -687,7 +688,7 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <a href={link1}>
-                          <img
+                          <Image
                             src={img}
                             layout="intrinsic"
                             width="423px"
@@ -767,7 +768,7 @@ const Course = () => {
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
                           <a href={link1}>
-                            <img
+                            <Image
                               src={img}
                               layout="intrinsic"
                               width="423px"
@@ -836,7 +837,7 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <a href={link1}>
-                          <img
+                          <Image
                             src={img}
                             layout="intrinsic"
                             width="423px"
@@ -914,7 +915,7 @@ const Course = () => {
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
                           <a href={link1}>
-                            <img
+                            <Image
                               src={img}
                               layout="intrinsic"
                               width="423px"
@@ -984,7 +985,7 @@ const Course = () => {
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
                           <a href={link1}>
-                            <img
+                            <Image
                               src={img}
                               layout="intrinsic"
                               width="423px"
@@ -1060,7 +1061,7 @@ const Course = () => {
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
                           <a href={link1}>
-                            <img
+                            <Image
                               src={img}
                               layout="intrinsic"
                               width="423px"
@@ -1136,7 +1137,7 @@ const Course = () => {
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id}>
                           <a href={link1}>
-                            <img
+                            <Image
                               src={img}
                               layout="intrinsic"
                               width="423px"
@@ -1205,7 +1206,7 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <a href={link1}>
-                          <img
+                          <Image
                             src={img}
                             layout="intrinsic"
                             width="423px"
@@ -1282,7 +1283,7 @@ const Course = () => {
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <a href={link1}>
-                          <img
+                          <Image
                             src={img}
                             layout="intrinsic"
                             width="423px"
