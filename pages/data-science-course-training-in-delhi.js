@@ -17,14 +17,14 @@ import FAQNew from "../components/FAQNewCity/FAQNew";
 import React, { useState } from "react";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import {
-  AdvanceFaqDataD,
-  AdvanceDomainFaqDataD,
-  AdvancePaymentFaqDataD,
-  AdvanceCapstoneFaqDataD,
-  AdvanceCertificationFaqDataD,
-  AdvancejobFaqDataD,
-  AdvanceMentorshipFaqDataD,
-  AdvanceSupportFaqDataD,
+  AdvanceFaqDataC,
+  AdvanceDomainFaqDataC,
+  AdvancePaymentFaqDataC,
+  AdvanceCapstoneFaqDataC,
+  AdvanceCertificationFaqDataC,
+  AdvancejobFaqDataC,
+  AdvanceMentorshipFaqDataC,
+  AdvanceSupportFaqDataC,
 } from "../components/FAQ/FaqDataCity";
 
 export default function Home() {
@@ -118,7 +118,7 @@ export default function Home() {
  "@type": "HowTo", 
  "name": "How to apply for data science course?",
  "description": "You just have to follow 3 easy steps to enroll in our advanced data science course",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+ "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg",
  "totalTime": "PT6M",
  "estimatedCost": {
  "@type": "MonetaryAmount",
@@ -127,7 +127,7 @@ export default function Home() {
  },
  "supply": {
  "@type": "HowToSupply",
- "name": "We provide Advanced data science course in Delhi, Bangalore, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai"
+ "name": "We provide Advanced data science course in Bangalore, Delhi, Pune, Delhi, Hyderabad, Mumbai, Canada, Dubai"
  },
  "tool": {
  "@type": "HowToTool",
@@ -136,19 +136,19 @@ export default function Home() {
  "step": [{
  "@type": "HowToStep",
  "text": "Visit our website and fill the enquiry form",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+ "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg",
  "name": "Fill Enquiry Form",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+ "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2021/05/Untitled-design-2021-05-22T113616.025.png",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
  "@type": "HowToStep",
  "text": "Get enrollment in our data science course",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+ "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg",
  "name": "Get enrollment",
  "url": "https://www.learnbay.co/"
 }] 
@@ -167,9 +167,9 @@ export default function Home() {
  "@type": "WebPage",
  "@id": "https://www.learnbay.co/"
  },
- "headline": "Data Science Course Training in Delhi",
+ "headline": "Data science Course Training In Delhi",
  "description": "Data science course in Delhi. Learnbay is Advanced Data Science Course Training Institute in Delhi. Data science course in Delhi will enhance your career",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
+ "image": "https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg", 
  "author": {
  "@type": "Organization",
  "name": "Learnbay",
@@ -180,7 +180,7 @@ export default function Home() {
  "name": "Learnbay",
  "logo": {
  "@type": "ImageObject",
- "url": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
+ "url": "https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png"
  }
  },
  "datePublished": "2021-10-01",
@@ -200,18 +200,18 @@ export default function Home() {
  "name": "What are Data Science Training courses available at Learnbay in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance."
+ "text": "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance,"
  }
  },{
  "@type": "Question",
  "name": "What are the prerequisites for these Data Science training Courses in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance."
+ "text": "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
  }
  },{
  "@type": "Question",
- "name": "What if I miss a few classes of Learnbay AI courses due to an emergency?",
+ "name": "What if I miss a few classes due to an emergency?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch."
@@ -250,8 +250,8 @@ export default function Home() {
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational data science course."
-}
-},{
+ }
+ },{
  "@type": "Question",
  "name": "What are the available elective domain options in the different data science training courses of Learnbay in Delhi?",
  "acceptedAnswer": {
@@ -270,21 +270,7 @@ export default function Home() {
  "name": "Why is domain specialization important in professional data science certification?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. Advance Data Science and AI Certification course- Maximum 2 domains. Data Science and AI Certification Course for Managers and Leaders- All domains Data Science and AI Training with Placement Assistance- All domains No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum."
- }
- },{
- "@type": "Question",
- "name": "Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?",
- "acceptedAnswer": {
- "@type": "Answer",
- "text": "You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. Advance Data Science and AI Certification course- Maximum 2 domains. Data Science and AI Certification Course for Managers and Leaders- All domains Data Science and AI Training with Placement Assistance- All domains No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum."
- }
- },{
- "@type": "Question",
- "name": "What if I don't have any prior experience in any domain?",
- "acceptedAnswer": {
- "@type": "Answer",
- "text": "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects."
+ "text": "After enrolling in the advanced data science courses, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation."
  }
  },{
  "@type": "Question",
@@ -299,8 +285,8 @@ export default function Home() {
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The total course fee for the Foundational Data Science and AI Training course is 88,500/- inclusive of GST. Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST."
- }
- },{
+}
+},{
  "@type": "Question",
  "name": "Can I pay in installments for these Data Science Certification courses in Delhi?",
  "acceptedAnswer": {
@@ -316,87 +302,80 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is the refund policy for the Data Science Certification courses at Learnbay?",
- "acceptedAnswer": {
- "@type": "Answer",
- "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
- }
- },{
- "@type": "Question",
  "name": "How many capstone projects will be there?",
  "acceptedAnswer": {
- "@type": "Answer",
+  "@type": "Answer",
  "text": "Depending on the course you choose the number of capstone projects will vary. Foundational Data Science and AI Training Course - 1 Capstone. Advance Data Science and AI Certification Course -2 Capstones. Data Science and AI Certification Course for Managers and Leaders- 2 Capstones. Data Science and AI Training with Placement Assistance- 3 Capstones. How many real-time projects/case studies will be covered in these Data Science certification courses in Delhi? Depending on the course you choose the number of live projects will vary. Foundational Data Science and AI Training course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and AI Training with Placement Assistance- 15 projects. Click here to download the list of the projects."
  }
  },{
-  "@type": "Question",
+ "@type": "Question",
  "name": "How will the projects be executed in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
  }
  },{
-  "@type": "Question",
+ "@type": "Question",
  "name": "Is there any accredited data science certification after course completion?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and AI Training course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate *All the certificates accredited by IBM. For more details, please refer to the respective course brochures."
  }
  },{
-  "@type": "Question",
+ "@type": "Question",
  "name": "What's the eligibility for a job assistance Program in Learnbay Data science training courses in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
  }
  },{
-  "@type": "Question",
+ "@type": "Question",
  "name": "How long will I get support for job assistance at Learnbay in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year. What is a job-readiness program? The Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
  }
  },{
-  "@type": "Question",
- "name": "Will I get job referrals at Learnbay?",
- "acceptedAnswer": {
- "@type": "Answer",
- "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
- }
- },{
-  "@type": "Question",
+ "@type": "Question",
  "name": "What is an interview guarantee feature?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed."
  }
  },{
-  "@type": "Question",
+ "@type": "Question",
  "name": "Until when do the students get the facility of mentorship?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Our mentors will provide data science training to the students until the completion of the course."
  }
  },{
-  "@type": "Question",
+ "@type": "Question",
  "name": "Can a Learnbay student in Delhi choose to study from their desired mentor?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
  }
  },{
-  "@type": "Question",
+ "@type": "Question",
  "name": "When is the job assistance provided at Learnbay and how long will I get it?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
  }
  },{
-  "@type": "Question",
+ "@type": "Question",
  "name": "How long will I get Job referrals?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+}
+},{
+ "@type": "Question",
+ "name": "How long will I get support for job assistance?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year,"
 }
 }]
                   }
@@ -408,9 +387,9 @@ export default function Home() {
           dangerouslySetInnerHTML={{
             __html: ` {
 "@context": "http://schema.org",
-"@type": "EducationEvent","name": "Data Science Course Training in Delhi",
-"description": "Data science course in Delhi. Learnbay is Advanced Data Science Course Training Institute in Delhi. Data science course in Delhi will enhance your career",
-"image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png",
+"@type": "EducationEvent","name": "Data Science Course Training In Delhi",
+"description": "Learnbay offers a Data Science course in Delhi, the most comprehensive Data Science course in the market, covering the complete Data Science lifecycle.",
+"image" : "https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png",
 "performer":"Learnbay", 
 "offers":{
 "@type": "AggregateOffer",
@@ -418,11 +397,11 @@ export default function Home() {
 "highPrice": "110000",
 "url" : "https://www.learnbay.co/",
 "availability" : "https://schema.org/InStock",
-"price": "39999",
+"price": "95,000",
 "priceCurrency": "INR",
 "validFrom": "2022-05-01"},
 "startDate":"2022-05-01",
-"endDate": "2022-08-31",
+"endDate": "2022-10-31",
 "url" : "https://www.learnbay.co/","duration":"80", 
 "eventAttendanceMode":"https://schema.org/MixedEventAttendanceMode",
 "eventStatus":"http://schema.org/EventScheduled",
@@ -431,7 +410,7 @@ export default function Home() {
  "url" : "https://www.learnbay.co/"
  },{
  "@type": "Place",
- "name": "Learnbay - Data Science, Data Analytics Course Training in Delhi",
+ "name": "Learnbay - Data Science, data science Course Training In Delhi",
  "address": {
   "@type": "PostalAddress",
   "streetAddress": " #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Bangalore - 560102 (Above Sangam Sweets)",
@@ -479,7 +458,7 @@ export default function Home() {
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
-          alt="Data Science Course In Delhi"
+          alt="data science course training in Delhi"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
@@ -531,8 +510,8 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            alt="Data Science Course In Delhi"
-            title="Why Enroll In Data Science Course Training In Delhi?"
+            alt="data science course in Delhi"
+            title="Why Enroll In Data Science Course Training in Delhi?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -550,13 +529,14 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               ProgramHead1="What is a Data science training course in Delhi?"
-              ProgramBot1="The data science course in Delhi offered by Learnbay is an exclusive data scientist training Bootcamp for anyone interested in becoming an industry competent data scientist. We have a very strong team of instructors and mentors owning an industrial experience of more than 8 years. Most of them are from top-tier MNCs. You can benefit from their experience and knowledge throughout the offline and online data science courses in Delhi. The courses are designed for learners who want to move into a Data Science job from any tech or non-tech domain along with a lucrative salary hike. Learnbay data science courses help you become a successful Data scientist even after having years of experience in other fields. In a nutshell, it's the best place to go for working people who want to learn the most about data science and artificial intelligence. Moreover, you get a series of custom-fit learning modules as per your personal career goal."
-              ProgramBot2="For a balanced learning experience, the Learnbay data science course in Delhi for working professionals combines practical (core industrial) and theoretical topics in a 70:30 ratio. In Delhi, this institute offers the most cost-effective Data Science classes. The best thing is that you will receive a full-stack data science course and job placement."
-              ProgramHead3="Why choose Learnbay advanced Data science course training in Delhi?"
-              ProgramBot3="Because this city is India's capital city, this city is becoming the most significant job hub in India, from the perspective of both government and private jobs. As data science and AI is the most future-proof field, every single business is getting dependent on them. A huge number of options for advanced data science certification courses are available in Delhi. However, when it comes to the question of getting an assured job after completion of the course, then the list becomes too short. Again from the perspective of cost-effectiveness, the list shrinks further. Learnbay's artificial intelligence and data science course in Delhi is more affordable. Above all, even at a lower price, you get the best data science learning experience possible along with a job placement."
-              ProgramBot31="Furthermore, depending on your current professional level, you can choose from various data science course options. Each of these courses is made up of modules tailored to your previous work experience."
-              ProgramBot32="Data science course fees for the courses offered by Learnbay range from 65K to 1.2 lakh INR. The lesson schedule is flexible, and you can enroll in any batch or with any teacher. You can even attend multiple sessions with different instructors. One-on-one live doubt clearing sessions with seasoned FAANG Data scientists are included in our Data Science and Artificial Intelligence courses. Students can take a break after enrolling, then return to finish their studies in one to three years (depending on the course)."
-              ProgramHead5="Data Science Courses Available at Learnbay:"
+              ProgramBot1="The data science course in Delhi offered by Learnbay is an exclusive data scientist training Bootcamp for anyone interested in becoming an industry competent data scientist. This IBM data science course is meticulously designed by industrial experts. Our industry-leading instructors have years of experience and will ensure that you get all of the key materials required to become a successful data scientist. You gain access to their experience and skills through both offline and online data science courses."
+              ProgramBot2="This data science curriculum assists students in developing in-demand data science skills like programming, mathematics, data visualization, statistics, and other key subjects."
+              ProgramBot3="Without a doubt, it is the premier destination for working professionals in Delhi seeking the best data science and artificial intelligence training."
+              ProgramHead4="What will you get out of this data science course in Delhi?"
+              ProgramBot4="Learnbay focuses on providing both practical and theoretical learning modules for a better experience for its students. Comparatively, this artificial intelligence and data science course seem to be pocket-friendly with an assured 100% job assistance."
+              ProgramBot5="Here, you will receive one-on-one discussion sessions with mentors and a three-year Flexi pass that allow you to attend any live classes at your convenience. You can also access Learnbay LMS via your mobile device for convenient learning. The class timings in our data science course are flexible, and you can attend multiple sessions with different instructors."
+              ProgramBot6="Another reason is that you can choose from various data science courses depending on your current professional level. Each of these courses is composed of modules that are tailored to your prior work experience."
+              ProgramHead7="Available Data Science and AI Certification Courses in Delhi by Learnbay :"
               Courselink1="/data-science-certification-courses"
               Courselink2="/advance-data-science-certification-courses"
               Courselink3="/artificial-intelligence-certification-course"
@@ -564,13 +544,13 @@ export default function Home() {
               Courselink5="/data-science-ai-masters-program"
               Course1="Foundational Data Science and AI Program"
               Course2="Advanced-Data Science and AI Program with Domain Specialization"
-              Course3="Artificial Intelligence and Machine Learning Program with Domain Specialization"
+              Course3="Artificial Intelligence & Machine Learning Program with Domain Specialization"
               Course4="Data Science and AI Program for Managers and Leaders"
               Course5="Data Science and AI master program"
               DomainHead1="Why Domain Specialization?"
-              DomainBot1="6 out of 10 job applicants hold a data science Course in Delhi. One of these 2 makes a successful data science career transfer within a year of completing a course. Especially when it comes to mid-senior level data scientist roles, then having a generic certificate in data science does not help much. Here, recruiters search for domain-specific data science skills."
-              DomainBot2="You can't provide precise insights or analytical solutions without domain understanding and job experience. As a result, recruiters will categorize your profiles as not a good fit for data scientist jobs in Delhi. Learnbay data science courses in Delhi come with domain elective options that why the job after the course becomes assured."
-              DomainBot3="The Domain Electives At Learnbay Are:"
+              DomainBot1="Our domain-specific courses are designed to help students approach data science from a particular angle or industry."
+              DomainBot2="A domain-specific data scientist will have a far deeper understanding of the domain and its nuances, as well as the critical business problems that must be handled. Today, recruiters are on the lookout for domain-specific data scientists. Without domain knowledge, one can’t provide the exact analytical insights. Hence, it’s important to choose courses that offer domain electives options."
+              DomainBot3="Learnbay offers full-stack domain-specialized Data Science Training in Delhi. Based on your experience, you can select the following domains:"
               DomainList1="HR, Sales, and Marketing"
               DomainList2="Energy, oil, and Gas"
               DomainList3="Mechanical, manufacturing, and telecom"
@@ -591,13 +571,13 @@ export default function Home() {
               Domainlink8="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
               Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
               Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
-              CertificationBot1="You may take advantage of live lessons with different instructors through Learnbay's IBM Data Scientist Course without dealing with any difficulties. Aside from that, you'll get IBM certifications for several data sciences and AI micro-skills. As a result, it's essentially a data science course with a job placement. You will receive 1 to 8 certifications depending on the course you choose. The best thing is that you will receive an IBM Project Experience Certificate once you finish the capstone project related to Delhi's Data Science and AI course. For additional information about micro-skill certificates, please see the course brochures."
-              CertificationBot2="For more details about the certification, you can read our brochures"
+              CertificationHead1="IBM Data Science Certification in Delhi"
+              CertificationBot1="Using the Learnbay IBM data scientist course, you get hassle-free classes from multiple expert trainers. Additionally, you will get multiple IBM certifications for various data science and artificial intelligence micro-skills. Apart from this, you will receive an IBM Project Experience Certificate upon completion of the capstone project included in the Data Science and AI course in Delhi. You will obtain 1 to 8 certificates depending on the course you choose."
+              CertificationBot2="To learn more about micro-skill certificates, please refer to the respective course brochures."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate.webp"
-              ModuleBot1="Throughout your Data scientist career in Delhi, the two most important programming languages will be Python and R. The most important module, however, will be 'STATISTICS.' Aside from that, you must master modules such as 'MACHINE LEARNING,' 'TIME SERIES,' 'POWER-BI,' 'ADVANCE EXCEL,' 'TABLEAU,' 'BIG DATA,' 'MONGO DB,' 'SPARK ANALYTICS,' and 'SQL' to acquire the industrial competency.'"
-              ModuleBot2="Learnbay's data science and AI courses in Delhi contain plenty of up-to-date practical tasks in each subject."
-              ModuleBot3="Our learning courses are all based completely on your domain knowledge. As a result, all of the skills and technologies you learn here provide best practices-based training for your chosen business."
-              ModuleBot4="For non-programmers, we've provided a module option. These modules also include 6 to 8 hours of live and interactive data science programming training in R and Python. Even if you don't have any programming knowledge, these extra classes are free and ensure that you stay on track with your data science classes."
+              ModuleHead1="Learn the most in-demand skills used by data scientists in Delhi"
+              ModuleBot1="The modules of data science course in Delhi are comprehensively designed by expert data scientists. In the data science certification course, you’ll learn different data science tools and techniques to understand business problems. Delhi learners can maximize their potential as data scientists by enrolling in this IBM data science course. Our courses are designed to be easy to follow and understand while giving you the best possible foundation in data science. We use real-life examples to show how your data science skills will be applied in the future."
+              ModuleBot2="In addition to Python and R programming, our data science course will help you master job-ready data science skills like Statistics, MongoDB, TensorFlow, Deep Learning, Deployment GCP, Time Series, and other data science tools."
               syllabush1="Preparatory Classes (Programming + Maths)"
               syllabusb1="6 Hours"
               SyllabusBotlist11="Anaconda Installation"
@@ -633,14 +613,17 @@ export default function Home() {
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
-              JobBot1="Data science certifications at Learnbay will help you prepare for interviews. Several company-specific mock interviews bolster our students' confidence at the interview table. Learnbay instructors ensure that your resume and portfolio are up to date to attract recruiters. You will receive domain-specific full-stack data scientist training, which will be reflected in your interview preparation."
-              JobBot2="Our data science course in Delhi comes with a guarantee of an interview with a prominent MNC or a rising startup or India. However, if you enroll in a Data Science Certification course in Delhi with a job placement, you can get a refund if you don't get hired (which is very rare in Learnbay). More than 10000 Learnbay alumni are proudly employed in various data science positions throughout Delhi."
-              JobBot5="We work on placements with various firms, including IBM, TCS, Accenture, EY, JP Morgan, and others."
-              JobHead2="What are the advantages of working as a Data scientist? "
-              JobBot3="IBM Certified Data Scientists have a worldwide reputation. Everyone needs a team of data scientists who are experts in the relevant industrial domain, whether they work for a global corporation or a startup. As a result, specialists transitioning to the field of data science are in high demand rather than fresh recruits. Aside from data science, you can't fathom a 200-400 percent increase with plenty of job stability. The salary range for data scientists has been rapidly expanding."
-              ProjectsHead1="Live Industrial Data Science Projects:"
-              ProjectsBot1="Learnbay's unique cloud lab feature allows users access to live data science projects from international businesses, as well as data science coaching from professionals. You can select a live industrial project from a list of 15+ alternatives from your chosen domain (s). You can immediately see and perform data filtering, data mining, data wrangling, and process in the cloud lab while working on live MNC data science projects in Delhi."
-              ProjectsBot2="Additionally, you will have the opportunity to work on two to three new data science capstone projects. IBM issues project completion certificates for these capstone projects. Some of Learnbay's data science initiatives are listed here"
+              JobHead1="Interview preparation in Learnbay’s IBM data science courses in Delhi"
+              JobBot1=" Learnbay’s data science curriculum includes a job assistance program for its students."
+              JobBot2="By the end of the IBM data science course, students will be provided with CV preparation and soft skills training sessions. Various company-specific mock interviews instill confidence in our students prior to the interviews. In addition, our officials ensure that your portfolio is up to industry standard and appealing to hiring Managers. Even you get an option of a data science course with a placement assistance in Delhi. If you remain unable to land a data science job role within six months (post-course completion), you can apply for the data science course fee refund."
+              JobBot5="We have partnered with top leading organizations like IBM, EY, TCS, Accenture, and others. Over 1000 Learnbay alumni are successfully working in a variety of data science roles in Delhi city."
+              JobHead2="Data science and its demand in Delhi "
+              JobBot3="Data science is a fascinating field that combines data and science to discover beneficial information for mankind. Today, many corporations and businesses rely on data for their sustainability and profitability. Data science is a key driver of innovation and competitiveness in many industries, including retail, finance, and health care."
+              JobBot4="However, there is a shortage of qualified talent that can meet the demand for data scientists in Delhi. This creates an opportunity for those who have the right skills to step up and fill this gap in the market."
+              JobBot6="Our IBM-certified data science course is the perfect place to get started with a data science career in Delhi."
+              ProjectsHead1="Live industrial data science projects at Learnbay "
+              ProjectsBot1="Learnbay’s premium cloud lab feature allows learners to grasp data science projects and approaches. In our data science and AI course, you can choose from 15+ real-time projects in your selected domains. Additionally, this cloud lab lets you observe and practice different data mining, data wrangling procedure and live MNC data projects."
+              ProjectsBot2="Plus, you will have the privilege of working on 2 to 3 data science capstone projects, followed by issuing an IBM Project experience certificate. Below are some of the live data science projects undertaken by our students:"
               src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png"
               ProjectsH1="Samsung Health Monitor App"
               Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
@@ -653,7 +636,7 @@ export default function Home() {
               src4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
               Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
-              AlumniBot1="Within 2 to 3 months of course completion, 60% of Learnbay students in Delhi got lucrative data scientist and other Data science job offers. Within a year, 30% of the remaining candidates were hired. Even more than 700+ graduates of the various data science courses in Delhi hold leadership and management roles."
+              AlumniBot1="Learnbay’s IBM data science course aims to provide quality data scientists across Delhi. Many of our students have achieved data scientist jobs and other data science roles along with a 200% salary hike. Even More than 300 Learnbay data science and AI course alumni are in lead and management positions in top leading firms. Some of our alumni have shared their experiences:"
               Asrc1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/devraj.jpg"
               AlumniH1="Deveraj"
               Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."
@@ -666,25 +649,25 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
-              alt1="Data Science Course In Delhi"
-              alt2="Data Science Course In Delhi"
-              alt3="Data Science Course In Delhi"
-              alt4="Data Science Course In Delhi"
-              alt5="Data Science Course In Delhi"
-              alt6="Data Science Course In Delhi"
-              alt7="Data Science Course In Delhi"
-              alt8="Data Science Course In Delhi"
-              alt9="Data Science Course In Delhi"
+              alt1="data science course training in Delhi"
+              alt2="data science course training in Delhi"
+              alt3="data science course training in Delhi"
+              alt4="data science course training in Delhi"
+              alt5="data science course training in Delhi"
+              alt6="data science course training in Delhi"
+              alt7="data science course training in Delhi"
+              alt8="data science course training in Delhi"
+              alt9="data science course training in Delhi"
             />
             <FAQNew
-              FaqDatas={AdvanceFaqDataD}
-              DomainFaqDatas={AdvanceDomainFaqDataD}
-              PaymentFaqDatas={AdvancePaymentFaqDataD}
-              CapstoneFaqDatas={AdvanceCapstoneFaqDataD}
-              CertificationFaqDatas={AdvanceCertificationFaqDataD}
-              jobFaqDatas={AdvancejobFaqDataD}
-              MentorshipFaqDatas={AdvanceMentorshipFaqDataD}
-              SupportFaqDatas={AdvanceSupportFaqDataD}
+              FaqDatas={AdvanceFaqDataC}
+              DomainFaqDatas={AdvanceDomainFaqDataC}
+              PaymentFaqDatas={AdvancePaymentFaqDataC}
+              CapstoneFaqDatas={AdvanceCapstoneFaqDataC}
+              CertificationFaqDatas={AdvanceCertificationFaqDataC}
+              jobFaqDatas={AdvancejobFaqDataC}
+              MentorshipFaqDatas={AdvanceMentorshipFaqDataC}
+              SupportFaqDatas={AdvanceSupportFaqDataC}
             />
           </div>
         </div>
@@ -693,7 +676,7 @@ export default function Home() {
           CityTextB="Data Science Course Certification Training locations in Delhi "
           CityText=" :  Asaf Ali Road [110006] , Bhikaji Cama Place [110029] , Chandni Chowk Old Delhi [110006] ,Chattarpur [110074 ], Chirag Enclave [110048] , Civil Lines [110054] , Connaught Place [110001] , Defence Colony [110024] , Diplomatic Enclave [110021] , Dwarka [110075] , East of Kailash [110065] , Friends Colony [110025] , Golf Links [110003] , Greater Kailash [110048] , Green Park [110016] , Karol Bagh [110005] , Lajpat Nagar [110024], Mayur Vihar [110091] , Mehrauli Gurgaon Road [110037] , Naraina [110028] , Narela [110040] , Nehru Place [110019] , Nizammuddin [110013] , Paharganj [110055] , Panchshil Enclave [110017] , Paschim Vihar [110063] , Patel Nagar [110008] , Pushpanjali Farms [110037] , Qutabgarh Village [110039] , Rajendra Place [110008] , Rajokri [110038] , Saket [110017] , Samalkha [110037] , Shahdara [110032] , Shalimar Bagh [110088] , Shiv Murti [110037] , Sukhdev Vihar [110025] , Sundar Nagar [110013],Vasant Kunj [110070] , Vasant Vihar [110057] , Janakapuri [110058] , Noida [201301] , Ajmeri Gate [110002] , Aram Bagh [110055] , Sidipura [110005] , Azadpur [110052] , Karol Bagh 110005, Old rajinder nagar 110060, Rajouri garden 110027, Vishwa vidyalaya 110009, Kamla nagar 110007, Kalu sarai 110016, Nehru park 190001, (N.S.P) Netaji Subhash Place 110034, J N U 110067,Connaught Place 110001, Saket 110017, Pitampura 110034, East kidwai nagar 110023 , Shakur pur [110034]."
           CityTextLB="Locations Offered"
-          CityTextL=" :Data Science Training in delhi, Data Science Course in delhi, Data Science Training in Connaught Place, Data Science Training in Karol Bagh , Data Science Institute in Delhi, Data Science Training in kamla nagar, Data Science Training in kalu sarai, Data Science Training in J N U, Data Science Training Institute in Connaught Place, Data Science Course in Connaught Place, Data Science Course in Saket, Data Science Course in old rajinder nagar, Data Science Course Connaught Place , Data Science Training in (N.S.P) Netaji Subhash Place, Data Science Training in Pitampura, Data Science Classes in Connaught Place, Data Science Classes in J N U, Data Science Classes in Connaught Place, Data Science Classes in Delhi, Data Science Course in vishwa vidyalaya, Data Science Training in kalu sarai, Data Science Certification in Delhi, Data Science Certification Training in Delhi, Data Science Certification in Connaught Place, Data Science Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Data Science Training, Best Data Science Course, Best Data Scientist course, Best Data Scientist Training"
+          CityTextL=" :Data Science Training in Delhi, Data Science Course in Delhi, Data Science Training in Connaught Place, Data Science Training in Karol Bagh , Data Science Institute in Delhi, Data Science Training in kamla nagar, Data Science Training in kalu sarai, Data Science Training in J N U, Data Science Training Institute in Connaught Place, Data Science Course in Connaught Place, Data Science Course in Saket, Data Science Course in old rajinder nagar, Data Science Course Connaught Place , Data Science Training in (N.S.P) Netaji Subhash Place, Data Science Training in Pitampura, Data Science Classes in Connaught Place, Data Science Classes in J N U, Data Science Classes in Connaught Place, Data Science Classes in Delhi, Data Science Course in vishwa vidyalaya, Data Science Training in kalu sarai, Data Science Certification in Delhi, Data Science Certification Training in Delhi, Data Science Certification in Connaught Place, Data Science Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Data Science Training, Best Data Science Course, Best Data Scientist course, Best Data Scientist Training"
         />
         <OfferPopup offer={false} />
         <Footer />
