@@ -20,6 +20,8 @@ const Form = ({
   fullStack,
   google,
   workExperience,
+  jobDescription,
+  formThank,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -40,6 +42,8 @@ const Form = ({
     Brief: "",
     dateTime: "",
     WAdropdown: "",
+    currentOrganization: "",
+    currentDesignation: "",
     url: router.asPath,
   });
   useEffect(() => {
@@ -90,6 +94,8 @@ const Form = ({
         workExperience: "",
         dateTime: "",
         WAdropdown: "",
+        currentOrganization: "",
+        currentDesignation: "",
         url: router.asPath,
       })
     );
@@ -109,6 +115,12 @@ const Form = ({
       router.push("/event/Thank-You-event");
     }
     if (router.pathname === "/organic") {
+      setToggle(false);
+      setAlertMSG("Form Submitted successfully");
+      setDisable(false);
+      setValue("");
+    }
+    if (router.pathname === "/Thank-you") {
       setToggle(false);
       setAlertMSG("Form Submitted successfully");
       setDisable(false);
@@ -179,7 +191,10 @@ const Form = ({
             required
           />
         </div>
-        <div className={styles.formWrapper}>
+        { jobDescription ? (
+          ""
+        ) : (
+          <div className={styles.formWrapper}>
           <input
             type="text"
             name="jobDescription"
@@ -189,21 +204,9 @@ const Form = ({
             onChange={handleParam()}
           />
         </div>
-        {/* <div className={popup ? styles.formWrappers : styles.formWrapper}>
-          <select
-            name="workExperience"
-            required
-            value={query.workExperience}
-            onChange={handleParam()}
-          >
-            <option value="Work Experience">Work Experience</option>
-            <option value="Fresher or 0 year">Fresher or 0 year</option>
-            <option value="1 to 3 year">1 to 3 years</option>
-            <option value="3 to 7 year">3 to 7 years</option>
-            <option value="7 to 12 year">7 to 12 years</option>
-            <option value="12+ year">12+ years</option>
-          </select>
-        </div> */}
+        )
+
+        }
 
         {workExperience ? (
           ""
@@ -310,6 +313,65 @@ const Form = ({
         ) : (
           ""
         )}
+
+        {/* Form Thank You */}
+        {formThank ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          <select
+            name="workExperience"
+            required
+            value={query.workExperience}
+            onChange={handleParam()}
+          >
+            <option value="Work Experience">Work Experience</option>
+            <option value="Less then 1 Year">Less Then 1 Year</option>
+            <option value="1 to 3 year">1 to 3 Year</option>
+            <option value="3 to 8 year">3 to 8 Year</option>
+            <option value="7 to 12 year">8+ Years</option>
+          </select>
+        </div>
+        ) : (
+          ""
+        )
+        }
+
+{formThank ? (
+                  <div className={styles.formWrapper}>
+                  <input
+                    type="text"
+                    name="currentOrganization"
+                    className={popup ? styles.NameInputs : styles.NameInput}
+                    required
+                    placeholder="Your Current Organization"
+                    value={query.currentOrganization}
+                    style={{ borderBottom: "1px solid grey" }}
+                    onChange={handleParam()}
+                  />
+                </div>
+        ) : (
+          ""
+        )
+        }
+
+{formThank ? (
+                  <div className={styles.formWrapper}>
+                  <input
+                    type="text"
+                    name="currentDesignation"
+                    className={popup ? styles.NameInputs : styles.NameInput}
+                    required
+                    placeholder="Your Current Designation"
+                    value={query.currentDesignation}
+                    style={{ borderBottom: "1px solid grey" }}
+                    onChange={handleParam()}
+                  />
+                </div>
+        ) : (
+          ""
+        )
+        }
+
+        
         <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our

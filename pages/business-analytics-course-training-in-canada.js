@@ -178,17 +178,17 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What’s the duration of the Business Analytics Program in Canada?",
+ "name": "What’s the duration of the Business Analytics Course in Canada?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": " The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 5 months Monday to Friday - 2 hours/day Weekend batch - 6.5 months Saturday & Sunday - 3.5 hours/day."
+ "text": " The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 5 months Monday to Friday - 2 hours/day Weekend batch - 6.5 months Saturday & Sunday - 3.5 hours/day."
  }
  },{
  "@type": "Question",
- "name": "What is the mode of Data Science training at Learnbay?",
+ "name": "What is the mode of Business Analytics training at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
+ "text": "We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
