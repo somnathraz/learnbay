@@ -2270,9 +2270,9 @@ export const BusinessAFaqDataH = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Business Analytics Program in Hyderabad?",
+    ques: "What’s the duration of the Business Analytics Course in Hyderabad?",
     //About Data Science
-    ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
@@ -2283,8 +2283,8 @@ export const BusinessAFaqDataH = [
   },
   {
     id: 4,
-    ques: "What is the mode of Data Science training at Learnbay?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Business Analytics training at Learnbay?",
+    ans: `We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -3237,14 +3237,14 @@ export const AnalyticsFaqDataB = [
   },
   {
     id: 2,
-    ques: "What is a Flexi Subscription in the Data Analytics Certification Program in Bangalore?",
+    ques: "What is a Flexi Subscription in the Data Analytics Certification Course in Bangalore?",
     ans: `Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Analytics Program in Bangalore?",
-    ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ques: "What’s the duration of the Data Analytics Course in Bangalore?",
+    ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
@@ -3255,8 +3255,8 @@ export const AnalyticsFaqDataB = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay, Bangalore?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Data Analytics training at Learnbay, Bangalore?",
+    ans: `We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -5900,9 +5900,9 @@ export const BusinessAFaqDataCa = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Business Analytics Program in Canada?",
+    ques: "What’s the duration of the Business Analytics Course in Canada?",
     //About Data Science
-    ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
@@ -5913,8 +5913,8 @@ export const BusinessAFaqDataCa = [
   },
   {
     id: 4,
-    ques: "What is the mode of Data Science training at Learnbay?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Business Analytics training at Learnbay?",
+    ans: `We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -7115,9 +7115,9 @@ export const BusinessAFaqDataD = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Business Analytics Program in Delhi?",
+    ques: "What’s the duration of the Business Analytics Course in Delhi?",
     //About Data Science
-    ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
@@ -7128,8 +7128,8 @@ export const BusinessAFaqDataD = [
   },
   {
     id: 4,
-    ques: "What is the mode of Data Science training at Learnbay?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Business Analytics training at Learnbay?",
+    ans: `We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -8334,9 +8334,9 @@ export const BusinessAFaqDataDu = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Business Analytics Program in Dubai?",
+    ques: "What’s the duration of the Business Analytics Course in Dubai?",
     //About Data Science
-    ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
@@ -8347,8 +8347,8 @@ export const BusinessAFaqDataDu = [
   },
   {
     id: 4,
-    ques: "What is the mode of Data Science training at Learnbay?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Business Analytics training at Learnbay?",
+    ans: `We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -9550,9 +9550,9 @@ export const BusinessAFaqDataP = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Business Analytics Program in Pune?",
+    ques: "What’s the duration of the Business Analytics Course in Pune?",
     //About Data Science
-    ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 5 months
@@ -9563,8 +9563,8 @@ export const BusinessAFaqDataP = [
   },
   {
     id: 4,
-    ques: "What is the mode of Data Science training at Learnbay?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Business Analytics training at Learnbay?",
+    ans: `We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
