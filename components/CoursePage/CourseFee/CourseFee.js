@@ -204,38 +204,36 @@ const CourseFee = ({
               {timeFsd ? (
                 <>
                   <div className={styles.BatchDetailsTop}>
-                    <div>
-                      <div className={styles.BatchDetails}>
-                        <p className={styles.list}>
-                          <AiOutlineBars className={styles.icon} />
-                          <b>Batch Type</b>
-                        </p>
-                        <p className={styles.list}>
-                          Weekday Morning (Mon-Wed-Fri)
-                        </p>
-                        <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
-                      </div>
-                    </div>
-                    <div>
-                      <div className={styles.BatchDetails}>
-                        <p className={styles.list}>
-                          <MdDateRange className={styles.icon} />
-                          <b>Date</b>
-                        </p>
-                        <p className={styles.list}>17th February 2023 (FSSD)</p>
-                        <p className={styles.list}>18th February 2023 (FSSD)</p>
-                      </div>
-                    </div>
-                    <div>
-                      <div className={styles.BatchDetails}>
-                        <p className={styles.list}>
-                          <BiTimeFive className={styles.icon} />
-                          <b>Time</b>
-                        </p>
-                        <p className={styles.list}>07:30 AM to 09:30 AM</p>
-                        <p className={styles.list}>8 AM to 11 AM</p>
-                      </div>
-                    </div>
+                  <div>
+                  <div className={styles.BatchDetails}>
+                    <p className={styles.list}>
+                      <AiOutlineBars className={styles.icon} />
+                      <b>Batch Type</b>
+                    </p>
+                    <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
+                    <p className={styles.list}>Weekday Morning (Mon-Wed-Fri)</p>
+                  </div>
+                </div>
+                <div>
+                  <div className={styles.BatchDetails}>
+                    <p className={styles.list}>
+                      <MdDateRange className={styles.icon} />
+                      <b>Date</b>
+                    </p>
+                    <p className={styles.list}>25th February 2023</p>
+                    <p className={styles.list}>27th February 2023</p>
+                  </div>
+                </div>
+                <div>
+                  <div className={styles.BatchDetails}>
+                    <p className={styles.list}>
+                      <BiTimeFive className={styles.icon} />
+                      <b>Time</b>
+                    </p>
+                    <p className={styles.list}>8 AM to 11 AM</p>
+                    <p className={styles.list}>07:30 AM to 09:30 AM</p>
+                  </div>
+                </div>
                     <div className={styles.btnWrapper}>
                       <button onClick={popupShow}>Enroll Now</button>
                     </div>
