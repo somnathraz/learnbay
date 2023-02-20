@@ -12,6 +12,7 @@ function Switch() {
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course-report.webp"
             width="180"
             height="94"
+            layout="intrinsic"
              alt="data science course in bangalore"
           />
         </div></a>
@@ -28,6 +29,7 @@ function Switch() {
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/switch-UP.webp"
             width="256"
             height="125"
+            layout="intrinsic"
              alt="data science course in bangalore"
           />
         </div></a>
@@ -44,6 +46,7 @@ function Switch() {
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Google-review.webp"
             width="206"
             height="121"
+            layout="intrinsic"
              alt="data science course in bangalore"
           />
         </div></a>

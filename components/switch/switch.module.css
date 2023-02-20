@@ -109,7 +109,11 @@
   .img {
     margin: 0px;
   }
-  .switch span {
+
+  .imgI {
+    display: none !important;
+  }
+  .switch span:nth-child(2),  .switch span:nth-child(4) {
     display: none !important;
   }
   .head h4 {
