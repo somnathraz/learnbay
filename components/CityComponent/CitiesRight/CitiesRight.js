@@ -4,8 +4,19 @@ import { BsClock } from "react-icons/bs";
 import { FiCheck } from "react-icons/fi";
 
 const CitiesRight = ({
-  ProgramHead1, ProgramHead15, ProgramHead16, ProgramHead17, ProgramHead18, ProgramHead19, ProgramHead20,
-  ProgramHead2, ProgramBot14, ProgramBot15, ProgramBot16, ProgramBot17, ProgramBot18, 
+  ProgramHead1,
+  ProgramHead15,
+  ProgramHead16,
+  ProgramHead17,
+  ProgramHead18,
+  ProgramHead19,
+  ProgramHead20,
+  ProgramHead2,
+  ProgramBot14,
+  ProgramBot15,
+  ProgramBot16,
+  ProgramBot17,
+  ProgramBot18,
   ProgramHead3,
   ProgramHead4,
   ProgramHead5,
@@ -32,6 +43,7 @@ const CitiesRight = ({
   ProgramBot32,
   ProgramBot4,
   ProgramBot5,
+  ProgramBot51,
   DomainHead1,
   DomainHead2,
   DomainHead3,
@@ -41,8 +53,17 @@ const CitiesRight = ({
   DomainHead7,
   DomainBot1,
   DomainBot2,
-  AlumniHead1,
   DomainBot3,
+  DomainBot4,
+  DomainBot5,
+  DomainBot6,
+  DomainBot7,
+  DomainBot8,
+  DomainBot9,
+  DomainBot10,
+  DomainBot11,
+  DomainBot12,
+  AlumniHead1,
   DomainList1,
   DomainList2,
   DomainList3,
@@ -54,17 +75,32 @@ const CitiesRight = ({
   DomainList9,
   DomainList10,
   CertificationHead1,
+  CertificationHead2,
+  CertificationHead3,
   CertificationBot1,
   CertificationBot2,
+  CertificationBot3,
+  CertificationBot4,
+  CertificationBot5,
+  CertificationBot6,
+  CertificationBot7,
   src,
   ModuleHead1,
   ModuleHead2,
   ModuleHead3,
   ModuleBot1,
   ModuleBot2,
+  ModuleBotL21,
+  ModuleBotL22,
+  ModuleBotL23,
+  ModuleBot21,
   ModuleBot3,
   ModuleBot4,
   ModuleBot41,
+  ModuleBot42,
+  ModuleBot43,
+  ModuleBot44,
+  ModuleBot45,
   syllabush1,
   syllabusb1,
   SyllabusBotlist11,
@@ -124,8 +160,11 @@ const CitiesRight = ({
   JobList7,
   ProjectsBot1,
   ProjectsBot2,
+  ProjectsBot31,
+  ProjectsBot32,
   ProjectsHead1,
   ProjectsHead2,
+  ProjectsHead3,
   AlumniBot1,
   src1,
   src2,
@@ -187,6 +226,25 @@ const CitiesRight = ({
   alt8,
   alt9,
   fullStackCity,
+  ProgramBot61,
+  ProgramBot62,
+  ProgramBot101,
+  ProgramBot102,
+  ProgramBot103,
+  ProgramBot104,
+  ProgramBot105,
+  ProgramBot106,
+  ProgramBot161,
+  ProgramBot162,
+  ProgramBot163,
+  ProgramBot164,
+  ProgramBot165,
+  ProgramHead21,
+  ProgramBot19,
+  ProgramBot20,
+  ProgramBot21,
+  jobOutlookText,
+  jobOutlooklink,
 }) => {
   return (
     <section className={styles.CitiesRightHead}>
@@ -207,20 +265,34 @@ const CitiesRight = ({
           <p className={styles.pp}>{ProgramBot4}</p>
           <h2 className={styles.pHead}>{ProgramHead5}</h2>
           <p className={styles.pp}>{ProgramBot5}</p>
+          <p className={styles.pp}>{ProgramBot51}</p>
           <h2 className={styles.pHead}>{ProgramHead6}</h2>
           <p className={styles.pp}>{ProgramBot6}</p>
+          <p className={styles.pp}>{ProgramBot61}</p>
+          <p className={styles.pp}>{ProgramBot62}</p>
           <h2 className={styles.pHead}>{ProgramHead7}</h2>
           <p className={styles.pp}>{ProgramBot8}</p>
           <p className={styles.pp}>{ProgramBot9}</p>
           <h2 className={styles.pHead}>{ProgramHead14}</h2>
           <h2 className={styles.pHead}>{ProgramHead15}</h2>
           <p className={styles.pp}>{ProgramBot10}</p>
+          <p className={styles.pp}>{ProgramBot101}</p>
+          <p className={styles.pp}>{ProgramBot102}</p>
+          <p className={styles.pp}>{ProgramBot103}</p>
+          <p className={styles.pp}>{ProgramBot104}</p>
+          <p className={styles.pp}>{ProgramBot105}</p>
+          <p className={styles.pp}>{ProgramBot106}</p>
           <h2 className={styles.pHead}>{ProgramHead16}</h2>
           <p className={styles.pp}>{ProgramBot14}</p>
           <h2 className={styles.pHead}>{ProgramHead17}</h2>
           <p className={styles.pp}>{ProgramBot15}</p>
           <h2 className={styles.pHead}>{ProgramHead18}</h2>
           <p className={styles.pp}>{ProgramBot16}</p>
+          <p className={styles.pp}>{ProgramBot161}</p>
+          <p className={styles.pp}>{ProgramBot162}</p>
+          <p className={styles.pp}>{ProgramBot163}</p>
+          <p className={styles.pp}>{ProgramBot164}</p>
+          <p className={styles.pp}>{ProgramBot165}</p>
           <h2 className={styles.pHead}>{ProgramHead19}</h2>
           <p className={styles.pp}>{ProgramBot17}</p>
           <h2 className={styles.pHead}>{ProgramHead20}</h2>
@@ -298,6 +370,18 @@ const CitiesRight = ({
               {Course8}
             </h2>
           </a>
+          <h2 className={styles.pHead}>{ProgramHead21}</h2>
+          <p className={styles.pp}>{ProgramBot19}</p>
+          <span className={styles.pp}>{ProgramBot20}</span>
+          <a href={jobOutlooklink}>
+            <span
+              className={styles.pp}
+              style={{ color: "#2D9CD7", fontWeight: "600" }}
+            >
+              {jobOutlookText}
+            </span>
+          </a>
+          <span className={styles.pp}>{ProgramBot21}</span>
         </div>
       </div>
       <div id="Domain">
@@ -308,6 +392,17 @@ const CitiesRight = ({
           <h2 className={styles.pHead}>{DomainHead1}</h2>
           <p className={styles.pp}>{DomainBot1}</p>
           <p className={styles.pp}>{DomainBot2}</p>
+          <h2 className={styles.pHead}>{DomainHead2}</h2>
+          <p className={styles.pp}>{DomainBot4}</p>
+          <p className={styles.pp}>{DomainBot5}</p>
+          <h2 className={styles.pHead}>{DomainHead3}</h2>
+          <p className={styles.pp}>{DomainBot6}</p>
+          <p className={styles.pp}>{DomainBot7}</p>
+          <p className={styles.pp}>{DomainBot8}</p>
+          <p className={styles.pp}>{DomainBot9}</p>
+          <p className={styles.pp}>{DomainBot10}</p>
+          <p className={styles.pp}>{DomainBot11}</p>
+          <p className={styles.pp}>{DomainBot12}</p>
           <p className={styles.pp}>{DomainBot3}</p>
           {fullStackCity ? (
             <>
@@ -390,6 +485,13 @@ const CitiesRight = ({
               <h2 className={styles.pHead}>{CertificationHead1}</h2>
               <p className={styles.pp}>{CertificationBot1}</p>
               <p className={styles.pp}>{CertificationBot2}</p>
+              <p className={styles.pp}>{CertificationBot3}</p>
+              <h2 className={styles.pHead}>{CertificationHead2}</h2>
+              <p className={styles.pp}>{CertificationBot4}</p>
+              <p className={styles.pp}>{CertificationBot5}</p>
+              <p className={styles.pp}>{CertificationBot6}</p>
+              <h2 className={styles.pHead}>{CertificationHead3}</h2>
+              <p className={styles.pp}>{CertificationBot7}</p>
               <img src={src} alt={alt1}></img>
             </div>
           </div>
@@ -403,11 +505,19 @@ const CitiesRight = ({
           <h2 className={styles.pHead}>{ModuleHead1}</h2>
           <p className={styles.pp}>{ModuleBot1}</p>
           <p className={styles.pp}>{ModuleBot2}</p>
+          <p className={styles.pp}>{ModuleBotL21}</p>
+          <p className={styles.pp}>{ModuleBotL22}</p>
+          <p className={styles.pp}>{ModuleBotL23}</p>
+          <p className={styles.pp}>{ModuleBot21}</p>
           <h2 className={styles.pHead}>{ModuleHead2}</h2>
           <p className={styles.pp}>{ModuleBot3}</p>
           <h2 className={styles.pHead}>{ModuleHead3}</h2>
           <p className={styles.pp}>{ModuleBot4}</p>
           <p className={styles.pp}>{ModuleBot41}</p>
+          <p className={styles.pp}>{ModuleBot42}</p>
+          <p className={styles.pp}>{ModuleBot43}</p>
+          <p className={styles.pp}>{ModuleBot44}</p>
+          <p className={styles.pp}>{ModuleBot45}</p>
           {fullStackCity ? (
             <></>
           ) : (
@@ -612,6 +722,9 @@ const CitiesRight = ({
           <p className={styles.pp}>{ProjectsBot1}</p>
           <h2 className={styles.pHead}>{ProjectsHead2}</h2>
           <p className={styles.pp}>{ProjectsBot2}</p>
+          <h2 className={styles.pHead}>{ProjectsHead3}</h2>
+          <p className={styles.pp}>{ProjectsBot31}</p>
+          <p className={styles.pp}>{ProjectsBot32}</p>
         </div>
         <div className={styles.Projects}>
           <div className={styles.ProjectsBot}>
@@ -654,25 +767,25 @@ const CitiesRight = ({
           </div>
         </div>
         <div className={styles.Button}>
-        {fullStackCity ? (
+          {fullStackCity ? (
             <>
-          <a
-            href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
-            target="_blank"
-          >
-            <button style={{ margin: "auto" }}>View All Projects</button>
-          </a>
-          </>
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
+                target="_blank"
+              >
+                <button style={{ margin: "auto" }}>View All Projects</button>
+              </a>
+            </>
           ) : (
             <>
               {" "}
               <a
-            href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-            target="_blank"
-          >
-            <button style={{ margin: "auto" }}>View All Projects</button>
-          </a>
-              </>
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
+                target="_blank"
+              >
+                <button style={{ margin: "auto" }}>View All Projects</button>
+              </a>
+            </>
           )}
         </div>
       </div>
@@ -709,19 +822,22 @@ const CitiesRight = ({
           </div>
         </div>
         <div className={styles.Button}>
-        {fullStackCity ? (
+          {fullStackCity ? (
             <>
-          <a href="https://www.google.com/search?q=learnbay&rlz=1C1VDKB_enIN998IN998&tbm=lcl&ei=uUDyYunBIoObz7sPzvu7wAQ&oq=learnbay&gs_l=psy-ab.3...0.0.0.6647.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.vlnVRtRM_mw#lrd=0x3bae13b203864921:0xcd2b3d47edc34b69,1,,,&rlfi=hd:;si:14783977580914756457,l,CghsZWFybmJheUj0z4qEu66AgAhaFBAAGAAiCGxlYXJuYmF5KgQIAhAAkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRl;mv:[[12.9145896,77.66070289999999],[12.8624165,77.6400574]]" target="_blank">
-            <button style={{ margin: "auto" }}>View All Reviews</button>
-          </a>
-          </>
+              <a
+                href="https://www.google.com/search?q=learnbay&rlz=1C1VDKB_enIN998IN998&tbm=lcl&ei=uUDyYunBIoObz7sPzvu7wAQ&oq=learnbay&gs_l=psy-ab.3...0.0.0.6647.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.vlnVRtRM_mw#lrd=0x3bae13b203864921:0xcd2b3d47edc34b69,1,,,&rlfi=hd:;si:14783977580914756457,l,CghsZWFybmJheUj0z4qEu66AgAhaFBAAGAAiCGxlYXJuYmF5KgQIAhAAkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRl;mv:[[12.9145896,77.66070289999999],[12.8624165,77.6400574]]"
+                target="_blank"
+              >
+                <button style={{ margin: "auto" }}>View All Reviews</button>
+              </a>
+            </>
           ) : (
             <>
               {" "}
               <a href="/reviews" target="_blank">
-            <button style={{ margin: "auto" }}>View All Reviews</button>
-          </a>
-              </>
+                <button style={{ margin: "auto" }}>View All Reviews</button>
+              </a>
+            </>
           )}
         </div>
       </div>
