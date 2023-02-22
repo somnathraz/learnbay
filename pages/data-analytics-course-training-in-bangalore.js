@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
+import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
@@ -36,15 +37,15 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Analytics Course in Bangalore | Data Analytics Training in
+          Data Analytics Courses Online in Bangalore | Data Analytics Training in
           Bangalore
         </title>
         <meta
           name="description"
-          content="Data Analytics Course in Bangalore. Learnbay is Advanced Data Analytics Course Training Institute in Bangalore. Data Analytics course in Bangalore will enhance your career"
+          content="Data Analytics Courses Online in Bangalore. Learnbay is Advanced Data Analytics Course Training Institute in Bangalore. Data Analytics course in Bangalore will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Data Analytics course in Bangalore, Data Analytics training in Bangalore, Data Analytics institute in Bangalore, best Data Analytics institute in Bangalore, Data Analytics course in Bangalore, Data Analytics certification in Bangalore, Data Analytics training institute in Bangalore, advanced Data Analytics course in Bangalore, Data Analytics course with Placement Assistance, Data Analytics course"
         />
         <link
@@ -77,8 +78,8 @@ export default function Home() {
             __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
- "name": "How to apply for Data Analytics course?",
- "description": "You just have to follow 3 easy steps to enroll in our advanced Data Analytics course",
+ "name": "How to apply for data science course?",
+ "description": "You just have to follow 3 easy steps to enroll in our advanced data science course",
  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "totalTime": "PT6M",
  "estimatedCost": {
@@ -88,11 +89,11 @@ export default function Home() {
  },
  "supply": {
  "@type": "HowToSupply",
- "name": "We provide Advanced Data Analytics course in Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai"
+ "name": "We provide Advanced data science course in Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai"
  },
  "tool": {
  "@type": "HowToTool",
- "name": "Data Analytics, machine learning, artificial intelligence, data analytics"
+ "name": "Data science, machine learning, artificial intelligence, data analytics"
  },
  "step": [{
  "@type": "HowToStep",
@@ -103,12 +104,12 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
  "@type": "HowToStep",
- "text": "Get enrollment in our Data Analytics course",
+ "text": "Get enrollment in our data science course",
  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "name": "Get enrollment",
  "url": "https://www.learnbay.co/"
@@ -184,14 +185,14 @@ export default function Home() {
  "name": "What’s the duration of the Data Analytics Program in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day"
+ "text": "The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day"
  }
  },{
  "@type": "Question",
- "name": "What is the mode of Data Analytics training at Learnbay, Bangalore?",
+ "name": "What is the mode of data science training at Learnbay, Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode."
+ "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
@@ -282,7 +283,7 @@ export default function Home() {
  "name": "Until when will the students get the facility of mentorship?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Our mentors will provide Data Analytics training to the students until the completion of the course."
+ "text": "Our mentors will provide data science training to the students until the completion of the course."
  }
  },{
  "@type": "Question",
@@ -381,10 +382,10 @@ export default function Home() {
           mTopPara="IBM Certified Industry-paced Training"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
-          title="Data Analytics Course Training in Bangalore"
-          mTitle="Data Analytics Course Training in Bangalore"
+          title="Data Analytics Courses Online Training in Bangalore"
+          mTitle="Data Analytics Courses Online Training in Bangalore"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Data+Analytics.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png"
           width="900"
           height="762"
           alt="data analytics course training in bangalore"
@@ -427,12 +428,12 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramHead1="Learnbay Data Analytics Program in Bangalore- Co-Developed With IBM"
+              ProgramHead1="Learnbay Data Analytics Courses in Bangalore- Co-Developed With IBM"
               ProgramBot1="Learnbay has an exclusive program for Data Analytics training in Bangalore. This consists of 170+ live and interactive classes contacted by MNC data analytics experts."
-              ProgramBot2="Learnbay Data analytics course in Bangalore helps non-programmers learn from interactive special basic coding classes with regular updates on coding assignments. Learnbay even conducts hackathons and webinars for efficient learning. This IBM data analytics course ensures the successful and secure technical career switch for non-technical early pros."
+              ProgramBot2="Learnbay Data analytics courses in Bangalore helps non-programmers learn from interactive special basic coding classes with regular updates on coding assignments. Learnbay even conducts hackathons and webinars for efficient learning. This IBM data analytics course ensures the successful and secure technical career switch for non-technical early pros."
               ProgramBot3="Keeping the time management hardship of working professionals, Learnbay offers both Weekend and Weekday Batcheses. Even you get additional flexibility in choosing your learning schedules too. Via Learnbay LMS Students can attend any batch from an instructor or mentor as per their choice with 1 year of the flexible pass."
               ProgramHead4="Why is Learnbay a perfect institute for professional  Data analytics courses in Bangalore?"
-              ProgramBot4="Learnbay ensures smooth live conversational classes with flexible hours and sessions conducted by experienced Data analysts. As already mentioned, we offer a one-year Flexi subscription for students to learn at their own pace. Learnbay Data Analytics course's best feature is that students can choose their batch and mentors. We even conduct additional classes For Non-Programmers to stay upright with other techies. Such non-techies supports include dedicated basic programming classes and entry-level hackathons. Learnbay gives world-class training in Data Analytics in Bangalore to prepare students to grow as Data analysts."
+              ProgramBot4="Learnbay ensures smooth live conversational classes with flexible hours and sessions conducted by experienced Data analysts. As already mentioned, we offer a one-year Flexi subscription for students to learn at their own pace. Learnbay data science course's best feature is that students can choose their batch and mentors. We even conduct additional classes For Non-Programmers to stay upright with other techies. Such non-techies supports include dedicated basic programming classes and entry-level hackathons. Learnbay gives world-class training in Data Analytics in Bangalore to prepare students to grow as Data analysts."
               ProgramBot5="Apart from these, you have the options for choosing online/ offline/ hybrid mode. The entire training course offers a full-stack learning opportunity within 4.5 months. It’s a fast-track course but trickily designed in such a way that your mastery does not remain limited to the trending data analytics tools but also to the requisites concepts behind it. So, even if the popularity or direction of tool usage gets changed tomorrow, your demand as a data scientist is not going to drop. After completion of this job-oriented data analytics program, you will be strong enough in the concept- for which recruiter fall for"
               ProgramHead6="What is the basic Data Analytics process that you need to know while working as a Data Analyst in Bangalore?"
               ProgramBot6="1. You determine data requirements or how the data has to be grouped. Data can be classified by age, income, demographic, or gender. Data can be classified in numbers or categories."
@@ -445,7 +446,7 @@ export default function Home() {
               CertificationBot2="Because of the IBM tag in your job seeker profile, you attain additional attention from the recruiters."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
               ModuleBot1="Learnbay's IBM data analytics course has 180 hrs of classes with industry experts. The course consists of 8+ modules. All the modules are well balanced in both practical and conceptual training. It covers data analytics tools like Python, Advance excel, Machine Learning, Mongo-DB, Tableau, Power BI, Big Data, Spark analytics, etc."
-              ModuleBot2="Although this is a beginner course in Data Analytics, the submodules are still planned very comprehensively, so that it helps you to target the mid-level data analytics job roles."
+              ModuleBot2="Although this is a beginner course in data science and data analytics, the submodules are still planned very comprehensively, so that it helps you to target the mid-level data analytics job roles."
               syllabush1="Preparatory Classes (Programming + Maths)"
               syllabusb1="6 Hours"
               SyllabusBotlist11="Anaconda Installation"
@@ -506,14 +507,14 @@ export default function Home() {
               Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
               src4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
-              Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A Data Analytics-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
+              Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
               AlumniBot1="Learnbay has encouraged a lot of students to learn and grow as Data analysts. We have placed more than 700+ professionals to top MNCs and startups. Students get jobs just a few months after they complete their Data analyst course. Below are a few success stories of our students from Learnbay."
               Asrc1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/devraj.jpg"
               AlumniH1="Deveraj"
               Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."
               Asrc2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shezan.png"
               AlumniH2="Shezan Baig"
-              Alumnip2="Learnbay is one of the most remarkable Data Analytics institutes I've come across. Compared to other institutes in India, it offers a Data Analytics course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute."
+              Alumnip2="Learnbay is one of the most remarkable data science institutes I've come across. Compared to other institutes in India, it offers a data science course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute."
               Asrc3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/viraj.png"
               AlumniH3="Viraj Ghodke"
               Alumnip3="For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews."
