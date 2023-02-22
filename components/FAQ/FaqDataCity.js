@@ -829,8 +829,8 @@ export const AnalyticsFaqDataM = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Analytics Program in Mumbai?",
-    ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ques: "What’s the duration of the Data Analytics Course in Mumbai?",
+    ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
@@ -841,8 +841,8 @@ export const AnalyticsFaqDataM = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay, Mumbai?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Data Analytics training at Learnbay, Mumbai?",
+    ans: `We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -1010,7 +1010,7 @@ export const AnalyticsMentorshipFaqDataM = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide Data Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -2044,8 +2044,8 @@ export const AnalyticsFaqDataH = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Analytics Program in Hyderabad?",
-    ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ques: "What’s the duration of the Data Analytics Course in Hyderabad?",
+    ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
@@ -2056,8 +2056,8 @@ export const AnalyticsFaqDataH = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay, Hyderabad?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Data Analytics training at Learnbay, Hyderabad?",
+    ans: `We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -2221,7 +2221,7 @@ export const AnalyticsMentorshipFaqDataH = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide Data Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -4455,8 +4455,8 @@ export const AnalyticsFaqDataC = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Analytics Program in Chennai?",
-    ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ques: "What’s the duration of the Data Analytics Course in Chennai?",
+    ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
@@ -4467,8 +4467,8 @@ export const AnalyticsFaqDataC = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay, Chennai?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Data Analytics training at Learnbay, Chennai?",
+    ans: `We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -4635,7 +4635,7 @@ export const AnalyticsMentorshipFaqDataC = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide Data Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -5669,8 +5669,8 @@ export const AnalyticsFaqDataCa = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Analytics Program in Canada?",
-    ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ques: "What’s the duration of the Data Analytics Course in Canada?",
+    ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
@@ -5681,8 +5681,8 @@ export const AnalyticsFaqDataCa = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay, Canada?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Data Analytics training at Learnbay, Canada?",
+    ans: `We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -5851,7 +5851,7 @@ export const AnalyticsMentorshipFaqDataCa = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide Data Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -6886,8 +6886,8 @@ export const AnalyticsFaqDataD = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Analytics Program in Delhi?",
-    ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ques: "What’s the duration of the Data Analytics Course in Delhi?",
+    ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
@@ -6898,8 +6898,8 @@ export const AnalyticsFaqDataD = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay, Delhi?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Data Analytics training at Learnbay, Delhi?",
+    ans: `We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -7066,7 +7066,7 @@ export const AnalyticsMentorshipFaqDataD = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide Data Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
@@ -8105,8 +8105,8 @@ export const AnalyticsFaqDataDu = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Analytics Program in Dubai?",
-    ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ques: "What’s the duration of the Data Analytics Course in Dubai?",
+    ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
@@ -8117,8 +8117,8 @@ export const AnalyticsFaqDataDu = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay, Dubai?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Data Analytics training at Learnbay, Dubai?",
+    ans: `We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -9320,8 +9320,8 @@ export const AnalyticsFaqDataP = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Data Analytics Program in Pune?",
-    ans: `The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ques: "What’s the duration of the Data Analytics Course in Pune?",
+    ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch - 4.5 months
@@ -9332,8 +9332,8 @@ export const AnalyticsFaqDataP = [
   },
   {
     id: 4,
-    ques: "What is the mode of data science training at Learnbay, Pune?",
-    ans: `We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.`,
+    ques: "What is the mode of Data Analytics training at Learnbay, Pune?",
+    ans: `We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
     open: false,
   },
   {
@@ -9501,7 +9501,7 @@ export const AnalyticsMentorshipFaqDataP = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?",
-    ans: "Our mentors will provide data science training to the students until the completion of the course.",
+    ans: "Our mentors will provide Data Analytics training to the students until the completion of the course.",
     open: true,
   },
   {
