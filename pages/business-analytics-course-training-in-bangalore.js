@@ -190,10 +190,10 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is the mode of data science training at Learnbay, Bangalore?",
+ "name": "What is the mode of Business Analytics training at Learnbay, Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
+ "text": "We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",

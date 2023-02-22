@@ -180,17 +180,17 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What’s the duration of the Data Analytics Program in Pune?",
+ "name": "What’s the duration of the Data Analytics Course in Pune?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day."
+ "text": "The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day."
  }
  },{
  "@type": "Question",
- "name": "What is the mode of data science training at Learnbay, Pune?",
+ "name": "What is the mode of Data Analytics training at Learnbay, Pune?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
+ "text": "We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
@@ -288,7 +288,7 @@ export default function Home() {
  "name": "Until when will the students get the facility of mentorship?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Our mentors will provide data science training to the students until the completion of the course."
+ "text": "Our mentors will provide Data Analytics training to the students until the completion of the course."
  }
  },{
  "@type": "Question",

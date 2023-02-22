@@ -179,17 +179,17 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What’s the duration of the Data Analytics Program in Delhi?",
+ "name": "What’s the duration of the Data Analytics Course in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day."
+ "text": "The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day."
  }
  },{
  "@type": "Question",
- "name": "What is the mode of data science training at Learnbay, Delhi?",
+ "name": "What is the mode of Data Analytics training at Learnbay, Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
+ "text": "We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
