@@ -104,7 +104,7 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
@@ -180,17 +180,17 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What’s the duration of the Data Analytics Course in Pune?",
+ "name": "What’s the duration of the Data Analytics Program in Pune?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day."
+ "text": "The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day."
  }
  },{
  "@type": "Question",
- "name": "What is the mode of Data Analytics training at Learnbay, Pune?",
+ "name": "What is the mode of data science training at Learnbay, Pune?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode."
+ "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
@@ -288,7 +288,7 @@ export default function Home() {
  "name": "Until when will the students get the facility of mentorship?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Our mentors will provide Data Analytics training to the students until the completion of the course."
+ "text": "Our mentors will provide data science training to the students until the completion of the course."
  }
  },{
  "@type": "Question",
@@ -385,12 +385,12 @@ export default function Home() {
           dataScience={true}
           deskTopPara="Industrial Training Program for Early-professionals"
           mTopPara="Industrial Training Program for Early-professionals"
-          title="Data Analytics Training Course in Pune"
-          mTitle="Data Analytics Training Course in Pune"
+          title="Data Analytics Course Training in Pune"
+          mTitle="Data Analytics Course Training in Pune"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Data+Analytics.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png"
           width="900"
           height="762"
           alt="data analytics course training in pune"
@@ -434,7 +434,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               ProgramHead1="What is the Data analytics training Program in Pune by Learnbay?"
-              ProgramBot1="Learnbay is one of the popular Data Science and AI training institutes in Pune. Here you can find a Fast-track Data analytics learning program to speed up your career growth along with the opportunities of strengthening job security.            "
+              ProgramBot1="Learnbay is one of the popular Data analytics training institutes in Pune. Here you can find a Fast-track Data analytics learning program to speed up your career growth along with the opportunities of strengthening job security.            "
               ProgramBot2="Learnbay's data analytics training in Pune helps every professional keep up with the continuously changing industry and analytical needs. Learnbay believes in learning with practical assignments than just theory."
               ProgramBot3="We have dedicated faculty working for students' career growth. Our faculties analyze students' profiles and offer projects as well as learning modules accordingly. By learning Data analytics at Learnbay, you just don't become a normal data analyst but also unlock your skills at being an expert in it. Learnbay gives students the freedom to clear their doubts in one-on-one sessions."
               ProgramHead4="Why is it essential to learn Data analytic skills?"
