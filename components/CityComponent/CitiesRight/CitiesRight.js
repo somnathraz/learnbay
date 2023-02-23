@@ -151,13 +151,7 @@ const CitiesRight = ({
   JobBot4,
   JobBot5,
   JobBot6,
-  JobList1,
-  JobList2,
-  JobList3,
-  JobList4,
-  JobList5,
-  JobList6,
-  JobList7,
+  ProgramBotItaliic105,
   ProjectsBot1,
   ProjectsBot2,
   ProjectsBot31,
@@ -245,6 +239,7 @@ const CitiesRight = ({
   ProgramBot21,
   jobOutlookText,
   jobOutlooklink,
+  ProgramBotItaliic31,
 }) => {
   return (
     <section className={styles.CitiesRightHead}>
@@ -260,6 +255,7 @@ const CitiesRight = ({
           <h2 className={styles.pHead}>{ProgramHead3}</h2>
           <p className={styles.pp}>{ProgramBot3}</p>
           <p className={styles.pp}>{ProgramBot31}</p>
+          <p className={styles.pp}><i>{ProgramBotItaliic31}</i></p>
           <p className={styles.pp}>{ProgramBot32}</p>
           <h2 className={styles.pHead}>{ProgramHead4}</h2>
           <p className={styles.pp}>{ProgramBot4}</p>
@@ -281,6 +277,7 @@ const CitiesRight = ({
           <p className={styles.pp}>{ProgramBot103}</p>
           <p className={styles.pp}>{ProgramBot104}</p>
           <p className={styles.pp}>{ProgramBot105}</p>
+          <p className={styles.pp}><i>{ProgramBotItaliic105}</i></p>
           <p className={styles.pp}>{ProgramBot106}</p>
           <h2 className={styles.pHead}>{ProgramHead16}</h2>
           <p className={styles.pp}>{ProgramBot14}</p>
@@ -306,7 +303,7 @@ const CitiesRight = ({
           <p className={styles.pp}>{ProgramBot13}</p>
           <h2 className={styles.pHead}>{ProgramHead12}</h2>
           <h2 className={styles.pHead}>{ProgramHead13}</h2>
-          <a href={Courselink1}>
+          <a href={Courselink1} target="_blank">
             <h2
               className={styles.pp}
               style={{ color: "#2D9CD7", fontWeight: "600" }}
@@ -314,7 +311,7 @@ const CitiesRight = ({
               {Course1}
             </h2>
           </a>
-          <a href={Courselink2}>
+          <a href={Courselink2} target="_blank">
             <h2
               className={styles.pp}
               style={{ color: "#2D9CD7", fontWeight: "600" }}
@@ -322,7 +319,7 @@ const CitiesRight = ({
               {Course2}
             </h2>
           </a>
-          <a href={Courselink3}>
+          <a href={Courselink3} target="_blank">
             <h2
               className={styles.pp}
               style={{ color: "#2D9CD7", fontWeight: "600" }}
@@ -330,7 +327,7 @@ const CitiesRight = ({
               {Course3}
             </h2>
           </a>
-          <a href={Courselink4}>
+          <a href={Courselink4} target="_blank">
             <h2
               className={styles.pp}
               style={{ color: "#2D9CD7", fontWeight: "600" }}
@@ -338,7 +335,7 @@ const CitiesRight = ({
               {Course4}
             </h2>
           </a>
-          <a href={Courselink5}>
+          <a href={Courselink5} target="_blank">
             <h2
               className={styles.pp}
               style={{ color: "#2D9CD7", fontWeight: "600" }}
@@ -346,7 +343,7 @@ const CitiesRight = ({
               {Course5}
             </h2>
           </a>
-          <a href={Courselink6}>
+          <a href={Courselink6} target="_blank">
             <h2
               className={styles.pp}
               style={{ color: "#2D9CD7", fontWeight: "600" }}
@@ -354,7 +351,7 @@ const CitiesRight = ({
               {Course6}
             </h2>
           </a>
-          <a href={Courselink7}>
+          <a href={Courselink7} target="_blank">
             <h2
               className={styles.pp}
               style={{ color: "#2D9CD7", fontWeight: "600" }}
@@ -362,7 +359,7 @@ const CitiesRight = ({
               {Course7}
             </h2>
           </a>
-          <a href={Courselink8}>
+          <a href={Courselink8} target="_blank">
             <h2
               className={styles.pp}
               style={{ color: "#2D9CD7", fontWeight: "600" }}
@@ -373,7 +370,7 @@ const CitiesRight = ({
           <h2 className={styles.pHead}>{ProgramHead21}</h2>
           <p className={styles.pp}>{ProgramBot19}</p>
           <span className={styles.pp}>{ProgramBot20}</span>
-          <a href={jobOutlooklink}>
+          <a href={jobOutlooklink} target="_blank" rel="nofollow">
             <span
               className={styles.pp}
               style={{ color: "#2D9CD7", fontWeight: "600" }}
@@ -417,52 +414,52 @@ const CitiesRight = ({
             <>
               {" "}
               <ul>
-                <a href={Domainlink1}>
+                <a href={Domainlink1} target="_blank">
                   <li style={{ color: "#2D9CD7", fontWeight: "600" }}>
                     {DomainList1}
                   </li>
                 </a>
-                <a href={Domainlink2}>
+                <a href={Domainlink2} target="_blank">
                   <li style={{ color: "#2D9CD7", fontWeight: "600" }}>
                     {DomainList2}
                   </li>
                 </a>
-                <a href={Domainlink3}>
+                <a href={Domainlink3} target="_blank">
                   <li style={{ color: "#2D9CD7", fontWeight: "600" }}>
                     {DomainList3}
                   </li>
                 </a>
-                <a href={Domainlink4}>
+                <a href={Domainlink4} target="_blank">
                   <li style={{ color: "#2D9CD7", fontWeight: "600" }}>
                     {DomainList4}
                   </li>
                 </a>
-                <a href={Domainlink5}>
+                <a href={Domainlink5} target="_blank">
                   <li style={{ color: "#2D9CD7", fontWeight: "600" }}>
                     {DomainList5}
                   </li>
                 </a>
-                <a href={Domainlink6}>
+                <a href={Domainlink6} target="_blank">
                   <li style={{ color: "#2D9CD7", fontWeight: "600" }}>
                     {DomainList6}
                   </li>
                 </a>
-                <a href={Domainlink7}>
+                <a href={Domainlink7} target="_blank">
                   <li style={{ color: "#2D9CD7", fontWeight: "600" }}>
                     {DomainList7}
                   </li>
                 </a>
-                <a href={Domainlink8}>
+                <a href={Domainlink8} target="_blank">
                   <li style={{ color: "#2D9CD7", fontWeight: "600" }}>
                     {DomainList8}
                   </li>
                 </a>
-                <a href={Domainlink9}>
+                <a href={Domainlink9} target="_blank">
                   <li style={{ color: "#2D9CD7", fontWeight: "600" }}>
                     {DomainList9}
                   </li>
                 </a>
-                <a href={Domainlink10}>
+                <a href={Domainlink10} target="_blank">
                   <li style={{ color: "#2D9CD7", fontWeight: "600" }}>
                     {DomainList10}
                   </li>
@@ -505,9 +502,9 @@ const CitiesRight = ({
           <h2 className={styles.pHead}>{ModuleHead1}</h2>
           <p className={styles.pp}>{ModuleBot1}</p>
           <p className={styles.pp}>{ModuleBot2}</p>
-          <p className={styles.pp}>{ModuleBotL21}</p>
-          <p className={styles.pp}>{ModuleBotL22}</p>
-          <p className={styles.pp}>{ModuleBotL23}</p>
+          <p className={styles.pp}><b>{ModuleBotL21}</b></p>
+          <p className={styles.pp}><b>{ModuleBotL22}</b></p>
+          <p className={styles.pp}><b>{ModuleBotL23}</b></p>
           <p className={styles.pp}>{ModuleBot21}</p>
           <h2 className={styles.pHead}>{ModuleHead2}</h2>
           <p className={styles.pp}>{ModuleBot3}</p>
@@ -684,7 +681,7 @@ const CitiesRight = ({
           )}
         </div>
         <div className={styles.Button}>
-          <a href={syllabussrc}>
+          <a href={syllabussrc} target="_blank">
             <button style={{ margin: "auto" }}>View Detailed Brochure</button>
           </a>
         </div>
