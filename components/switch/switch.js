@@ -13,7 +13,7 @@ function Switch() {
             width="180"
             height="94"
             layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="Course Report"
           />
         </div></a>
         <Image
@@ -22,7 +22,7 @@ function Switch() {
           height="90"
           layout="intrinsic"
           className={styles.imgI}
-           alt="data science course in bangalore"
+           alt="data science course"
         />
         <a href="https://www.switchup.org/bootcamps/learnbay" target="_blank"><div className={styles.switchInner}>
           <Image
@@ -30,7 +30,7 @@ function Switch() {
             width="256"
             height="125"
             layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="Switch Up"
           />
         </div></a>
         <Image
@@ -39,7 +39,7 @@ function Switch() {
           height="90"
           layout="intrinsic"
           className={styles.imgI}
-           alt="data science course in bangalore"
+           alt="data science course"
         />
         <a href="https://www.google.com/search?q=learnbay&rlz=1C1VDKB_enIN998IN998&tbm=lcl&ei=hgryYtaHNa3Sz7sP3N6moA4&oq=learnbay&gs_l=psy-ab.3...0.0.0.9493.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.6ObhuVFzJhI#lrd=0x3bae13b203864921:0xcd2b3d47edc34b69,1,,,&rlfi=hd:;si:14783977580914756457,l,CghsZWFybmJheUj0z4qEu66AgAhaFBAAGAAiCGxlYXJuYmF5KgQIAhAAkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRl;mv:[[12.9145905,77.66061049999999],[12.8624004,77.6400626]]" target="_blank"><div className={styles.switchInner}>
           <Image
@@ -47,7 +47,7 @@ function Switch() {
             width="206"
             height="121"
             layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="Google Review"
           />
         </div></a>
       </div>

@@ -47,7 +47,7 @@ export const ProgramFee = ({ Fee, Emi, fullStack, dataScience }) => {
               width="225"
               height="111"
               layout="intrinsic"
-               alt="data science course in bangalore"
+               alt="programFeeIcon"
             />
             <div className={styles.bottom}>
               <p>Get professional training affordably</p>

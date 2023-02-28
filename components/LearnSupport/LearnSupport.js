@@ -15,7 +15,7 @@ function LearnSupport({FsdNumber}) {
             width="590"
             height="400"
             className={styles.img}
-             alt="data science course in bangalore"
+             alt="data science course"
           />
         </div>
         <div className={styles.learnInner}>

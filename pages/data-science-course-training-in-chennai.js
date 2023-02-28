@@ -127,7 +127,7 @@ export default function Home() {
  },
  "supply": {
  "@type": "HowToSupply",
- "name": "We provide Advanced data science course in Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai"
+ "name": "We provide Data Science Course in Chennai"
  },
  "tool": {
  "@type": "HowToTool",
@@ -388,7 +388,7 @@ export default function Home() {
             __html: ` {
 "@context": "http://schema.org",
 "@type": "EducationEvent","name": "Machine Learning Course Training In Chennai",
-"description": "Learnbay offers a Data Science course in Bangalore, the most comprehensive Data Science course in the market, covering the complete Data Science lifecycle.",
+"description": "Learnbay offers a Data Science Course in Chennai, the most comprehensive Data Science course in the market, covering the complete Data Science lifecycle.",
 "image" : "https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png",
 "performer":"Learnbay", 
 "offers":{

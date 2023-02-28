@@ -36,7 +36,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Science Training Course In Bangalore with Placement Assistance
+          Data Science Course Training In Bangalore with Placement Assistance
         </title>
         <meta
           name="description"
@@ -465,8 +465,8 @@ export default function Home() {
           dataScience={true}
           deskTopPara="Foundational and Advance Job-ready Program"
           mTopPara="Foundational and Advance Job-ready Program"
-          title="Data Science Training Course in Bangalore - "
-          mTitle="Data Science Training Course in Bangalore - "
+          title="Data Science Course Training in Bangalore - "
+          mTitle="Data Science Course Training in Bangalore - "
           spanTitleText="Enroll Now"
           spanMTitleText="Enroll Now"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Bangalore with IBM Certification. Our advanced Data Science training in Bangalore will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."

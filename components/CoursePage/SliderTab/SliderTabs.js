@@ -427,7 +427,7 @@ const SliderTabs = () => {
                   width="568"
                   height="412"
                   layout="intrinsic"
-                  alt="data science course in bangalore"
+                  alt="Domain Specialization"
                 />
               </div>
             </div>
@@ -506,7 +506,7 @@ const SliderTabs = () => {
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp"
                   width="296"
                   height="345"
-                  alt="data science course in bangalore"
+                  alt="Domain Specialization"
                 />
               </div>
             </div>
@@ -546,7 +546,7 @@ const SliderTabs = () => {
                   width="296"
                   height="361"
                   layout="intrinsic"
-                  alt="data science course in bangalore"
+                  alt="Domain Specialization"
                 />
               </div>
             </div>
@@ -586,7 +586,7 @@ const SliderTabs = () => {
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp"
                   width="351"
                   height="332"
-                  alt="data science course in bangalore"
+                  alt="Domain Specialization"
                 />
               </div>
             </div>
@@ -628,7 +628,7 @@ const SliderTabs = () => {
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manufacturing-domain-slider.webp"
                   width="271"
                   height="353"
-                  alt="data science course in bangalore"
+                  alt="Domain Specialization"
                 />
               </div>
             </div>
@@ -712,7 +712,7 @@ const SliderTabs = () => {
                   width="350"
                   height="360"
                   layout="intrinsic"
-                  alt="data science course in bangalore"
+                  alt="Domain Specialization"
                 />
               </div>
             </div>

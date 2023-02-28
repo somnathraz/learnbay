@@ -56,7 +56,7 @@ function FAQ({ FaqData }) {
           >
             {open ? (
               <div className={styles.queshO} itemProp="name">
-                <h2>{ques}</h2>
+                <p>{ques}</p>
                 <span>
                   {open ? (
                     <MdKeyboardArrowUp className="icon" />
@@ -67,7 +67,7 @@ function FAQ({ FaqData }) {
               </div>
             ) : (
               <div className={styles.quesh} itemProp="name">
-                <h2>{ques}</h2>
+                <p>{ques}</p>
                 <span>
                   {open ? (
                     <MdKeyboardArrowUp className="icon" />

@@ -126,7 +126,7 @@ export default function Home() {
  },
  "supply": {
  "@type": "HowToSupply",
- "name": "We provide Advanced data science course in Bangalore, Canada, Delhi, Pune, Chennai, Hyderabad, Mumbai, Dubai"
+ "name": "We provide data science course training in canada"
  },
  "tool": {
  "@type": "HowToTool",
@@ -532,7 +532,7 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            alt="data science course in bangalore"
+            alt="Data Science Course Training In Canada"
             title="Why Enroll In Data Science Course Training In Canada?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."

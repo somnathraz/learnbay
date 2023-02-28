@@ -23,7 +23,7 @@ text-align: left;
   cursor: pointer;
 }
 
-.quesh h2 {
+.quesh p {
   font-size: 16px;
   margin: 0;
   font-weight: 500;
@@ -32,7 +32,7 @@ text-align: left;
   text-align: left;
 }
 
-.queshO h2 {
+.queshO p {
   font-size: 16px;
   margin: 0;
   font-weight: 500;

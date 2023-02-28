@@ -25,7 +25,7 @@ const WhyLearnbay = () => {
                 width="650"
                 height="400"
                 layout="intrinsic"
-                 alt="data science course in bangalore"
+                 alt="data science course"
               />
         </div>
         <div className={styles.FirstText}>
@@ -42,7 +42,7 @@ const WhyLearnbay = () => {
                 width="50"
                 height="50"
                 layout="intrinsic"
-                 alt="data science course in bangalore"
+                 alt="data science course"
               />
               <p>
                 Live 1:1 - Resolve any doubts about projects and assignments
@@ -54,7 +54,7 @@ const WhyLearnbay = () => {
                 width="50"
                 height="50"
                 layout="intrinsic"
-                 alt="data science course in bangalore"
+                 alt="data science course"
               />
               <p>Extensive hands-on expertise across several domains</p>
             </div>
@@ -106,7 +106,7 @@ const WhyLearnbay = () => {
             width="656"
             height="457"
             layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="data science course"
           />
         </div>
       </div>

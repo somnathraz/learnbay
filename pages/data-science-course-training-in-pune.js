@@ -37,9 +37,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Data Science Course Training in Pune
-        </title>
+        <title>Data Science Course Training in Pune</title>
         <meta
           name="description"
           content="Learnbay is Advanced Data Science Course Training Institute in Pune. Now you can enhance your data science career with our IBM certification course in Pune "
@@ -54,10 +52,7 @@ export default function Home() {
         />
         <meta name="HandheldFriendly" content="true" />
         <meta name="distribution" content="global" />
-        <meta
-          name="copyright"
-          content="Learnbay"
-        />
+        <meta name="copyright" content="Learnbay" />
         <meta name="language" content="English" />
         <meta name="rating" content="general" />
         <meta name="revisit-after" content="Daily" />
@@ -128,7 +123,7 @@ export default function Home() {
  },
  "supply": {
  "@type": "HowToSupply",
- "name": "We provide Advanced data science course in Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai"
+ "name": "We provide Data Science Course Trainig in Pune"
  },
  "tool": {
  "@type": "HowToTool",
@@ -466,11 +461,11 @@ export default function Home() {
           dataScience={true}
           deskTopPara="Foundational and Advance Job-ready Program"
           mTopPara="Foundational and Advance Job-ready Program"
-          title="Data Science Course Trainig in Pune - "
-          mTitle="Data Science Course Training in Pune - "
+          title="Data Science Course in Pune - "
+          mTitle="Data Science Course in Pune - "
           spanTitleText="Enroll Now"
           spanMTitleText="Enroll Now"
-          desc="Enhance your Data Science career with our comprehensive Data Science course training in Pune with IBM Certification. Our advanced Data Science training in Pune will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."
+          desc="Enhance your Data Science career with our comprehensive Data Science training in Pune with IBM Certification. Our advanced Data Science training in Pune will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
@@ -524,8 +519,6 @@ export default function Home() {
             `,
           }}
         />
-        
-
         <div className="Feature" id="Feature">
           <BoxShape
             alt="data science course training in pune"
