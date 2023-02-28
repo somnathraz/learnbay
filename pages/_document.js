@@ -37,7 +37,7 @@ export default function Document() {
             __html: ` {
               "@context": "https://schema.org/", 
               "@type": "Product", 
-              "name": "Data Science Course in Bangalore | Data Science Course Training In Bangalore - Learnbay",
+              "name": "Learnbay Courses",
               "brand": {
               "@type": "Brand",
               "name": "Learnbay"

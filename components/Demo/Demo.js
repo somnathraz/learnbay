@@ -30,7 +30,7 @@ function demo() {
             width="522"
             height="380"
             layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="data science course"
           />
         </div>
       </div>
@@ -120,7 +120,7 @@ function demo() {
                           height="282"
                           layout="intrinsic"
                           cursor="pointer"
-                           alt="data science course in bangalore"
+                           alt="data science course"
                         />
                       </a>
                     </div>
@@ -145,7 +145,7 @@ function demo() {
                           height="282"
                           layout="intrinsic"
                           cursor="pointer"
-                           alt="data science course in bangalore"
+                           alt="data science course"
                         />
                       </a>
                     </div>
@@ -170,7 +170,7 @@ function demo() {
                           height="282"
                           layout="intrinsic"
                           cursor="pointer"
-                           alt="data science course in bangalore"
+                           alt="data science course"
                         />
                       </a>
                     </div>
@@ -195,7 +195,7 @@ function demo() {
                           height="282"
                           layout="intrinsic"
                           cursor="pointer"
-                           alt="data science course in bangalore"
+                           alt="data science course"
                         />
                       </a>
                     </div>
@@ -220,7 +220,7 @@ function demo() {
                           height="282"
                           layout="intrinsic"
                           cursor="pointer"
-                           alt="data science course in bangalore"
+                           alt="data science course"
                         />
                       </a>
                     </div>

@@ -108,7 +108,7 @@ const BoxShape = ({
                       width="80"
                       height="80"
                       layout="intrinsic"
-                       alt="data science course in bangalore"
+                       alt="Neha Gour"
                     />
                     <div className={styles.name}>
                       <h5>Neha Gour</h5>
@@ -126,7 +126,7 @@ const BoxShape = ({
                       width="80"
                       height="80"
                       layout="intrinsic"
-                       alt="data science course in bangalore"
+                       alt="Kamlesh Sahu"
                     />
                     <div className={styles.name}>
                       <h5>Kamlesh Sahu</h5>
@@ -144,7 +144,7 @@ const BoxShape = ({
                       width="80"
                       height="80"
                       layout="intrinsic"
-                       alt="data science course in bangalore"
+                       alt="Nikhil Goyal"
                     />
                     <div className={styles.name}>
                       <h5>Nikhil Goyal</h5>

@@ -108,7 +108,7 @@ const MultiTabs = () => {
                 height="15px"
                 layout="intrinsic"
                 className={styles.img}
-                 alt="data science course in bangalore"
+                 alt="data science course"
               />
               <h6>
                 Get Assured Job Referrals in Product Based MNCs with Dedicated
@@ -135,7 +135,7 @@ const MultiTabs = () => {
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Job+assistance+Program.png"
                 width="419"
                 height="412"
-                 alt="data science course in bangalore"
+                 alt="data science course"
               />
             </div>
           </div>
@@ -179,7 +179,7 @@ const MultiTabs = () => {
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/IBM+Certified+Capstone+f-min.png"
                 width="504"
                 height="383"
-                 alt="data science course in bangalore"
+                 alt="data science course"
               />
             </div>
           </div>
@@ -222,7 +222,7 @@ const MultiTabs = () => {
               <Image
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/special-classes-beigneers.webp"
                 width="400"
-                 alt="data science course in bangalore"
+                 alt="data science course"
                 height="412"
               />
             </div>
@@ -240,7 +240,7 @@ const MultiTabs = () => {
                 height="15px"
                 layout="intrinsic"
                 className={styles.img}
-                 alt="data science course in bangalore"
+                 alt="data science course"
               />
               <h6>
                 3 years of Flexible access for live Interactive online classes
@@ -263,7 +263,7 @@ const MultiTabs = () => {
               </div>
             </div>
             <div className={styles.right}>
-              <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/flexibility+support+f-min.png" width="391" height="377"  alt="data science course in bangalore"/>
+              <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/flexibility+support+f-min.png" width="391" height="377"  alt="data science course"/>
             </div>
           </div>
         ) : (

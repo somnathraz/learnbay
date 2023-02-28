@@ -127,7 +127,7 @@ export default function Home() {
  },
  "supply": {
  "@type": "HowToSupply",
- "name": "We provide Advanced data science course in Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai"
+ "name": "We provide Advanced data science course in Mumbai"
  },
  "tool": {
  "@type": "HowToTool",

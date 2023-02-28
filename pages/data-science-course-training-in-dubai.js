@@ -126,7 +126,7 @@ export default function Home() {
  },
  "supply": {
  "@type": "HowToSupply",
- "name": "We provide Advanced data science course in Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai"
+ "name": "We provide Data Science Course in Dubai"
  },
  "tool": {
  "@type": "HowToTool",
@@ -247,7 +247,7 @@ export default function Home() {
  "name": "Are real-time projects covered in the program?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Yes, we do cover real-time projects in a data science course in Bangalore guided by industrial experts. These projects are from various domains BFSI, Healthcare, Retail, Supply chain, E-Commerce, Automotive, Manufacturing, etc."
+ "text": "Yes, we do cover real-time projects in a data science course in Dubai guided by industrial experts. These projects are from various domains BFSI, Healthcare, Retail, Supply chain, E-Commerce, Automotive, Manufacturing, etc."
  }
  },{
  "@type": "Question",

@@ -124,7 +124,7 @@ const Course = () => {
                               width="423px"
                               height="252px"
                               className={styles.courseImg}
-                              alt="data science course in bangalore"
+                              alt="data science course"
                             />
                           </a>
                           <div className={styles.contentBox}>
@@ -194,7 +194,7 @@ const Course = () => {
                               width="423px"
                               height="252px"
                               className={styles.courseImg}
-                              alt="data science course in bangalore"
+                              alt="data science course"
                             />
                           </a>
                         </div>
@@ -284,7 +284,7 @@ const Course = () => {
                               layout="intrinsic"
                               width="423px"
                               height="252px"
-                              alt="data science course in bangalore"
+                              alt="data science course"
                               className={styles.courseImg}
                             />
                           </a>
@@ -624,7 +624,7 @@ const Course = () => {
                               layout="intrinsic"
                               width="423px"
                               height="252px"
-                              alt="data science course in bangalore"
+                              alt="data science course"
                               className={styles.courseImg}
                             />
                           </a>
@@ -693,7 +693,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
-                            alt="data science course in bangalore"
+                            alt="data science course"
                             className={styles.courseImg}
                           />
                         </a>
@@ -773,7 +773,7 @@ const Course = () => {
                               layout="intrinsic"
                               width="423px"
                               height="252px"
-                              alt="data science course in bangalore"
+                              alt="data science course"
                               className={styles.courseImg}
                             />
                           </a>
@@ -842,7 +842,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
-                            alt="data science course in bangalore"
+                            alt="data science course"
                             className={styles.courseImg}
                           />
                         </a>
@@ -1142,7 +1142,7 @@ const Course = () => {
                               layout="intrinsic"
                               width="423px"
                               height="252px"
-                              alt="data science course in bangalore"
+                              alt="data science course"
                               className={styles.courseImg}
                             />
                           </a>
@@ -1211,7 +1211,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
-                            alt="data science course in bangalore"
+                            alt="data science course"
                             className={styles.courseImg}
                           />
                         </a>
@@ -1288,7 +1288,7 @@ const Course = () => {
                             layout="intrinsic"
                             width="423px"
                             height="252px"
-                            alt="data science course in bangalore"
+                            alt="data science course"
                             className={styles.courseImg}
                           />
                         </a>

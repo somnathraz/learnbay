@@ -184,7 +184,7 @@ const Fee = ({
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/code.svg"
               width="40"
               height="40"
-              alt="data science course in bangalore"
+              alt="code"
             />
             <span
               className={styles.Price}

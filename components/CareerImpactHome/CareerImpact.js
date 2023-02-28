@@ -55,7 +55,7 @@ const CareerImpact = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="hike"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>140%</h5>
@@ -72,7 +72,7 @@ const CareerImpact = () => {
                       width="107"
                       height="60"
                       layout="intrinsic"
-            alt="data science course"
+            alt="youtubeIcon"
                     />
                   </a>
                 </div>
@@ -124,7 +124,7 @@ const CareerImpact = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="hike"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>210%</h5>
@@ -141,7 +141,7 @@ const CareerImpact = () => {
                       width="107"
                       height="60"
                       layout="intrinsic"
-            alt="data science course"
+            alt="youtubeIcon"
                     />
                   </a>
                 </div>
@@ -192,7 +192,7 @@ const CareerImpact = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="hike"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>142%</h5>
@@ -209,7 +209,7 @@ const CareerImpact = () => {
                       width="107"
                       height="60"
                       layout="intrinsic"
-            alt="data science course"
+            alt="youtubeIcon"
                     />
                   </a>
                 </div>
@@ -258,7 +258,7 @@ const CareerImpact = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="hike"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>150%</h5>
@@ -313,7 +313,7 @@ const CareerImpact = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="hike"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>100%</h5>
@@ -368,7 +368,7 @@ const CareerImpact = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="hike"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>132%</h5>
@@ -420,7 +420,7 @@ const CareerImpact = () => {
                     width="41"
                     height="41"
                     layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="hike"
                   />
                   <div className={styles.leftBottomC}>
                     <h5>127%</h5>
@@ -461,7 +461,7 @@ const CareerImpact = () => {
                     width="99"
                     height="30"
                     layout="intrinsic"
-             alt="data science course in bangalore"
+             alt="i2i"
                   />
                 </div>
               </div>

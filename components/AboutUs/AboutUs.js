@@ -44,7 +44,7 @@ function AboutUs() {
               <div className={styles.iconBox}>
                 <FaAddressCard
                   className={styles.BoxIconcard}
-                  alt="Learnbay data science course"
+                  alt="data science course"
                 />
                 <p>Provide scopes to techies & non-techies all alike.</p>
               </div>
@@ -71,7 +71,7 @@ function AboutUs() {
               width="517"
               height="380"
               layout="intrinsic"
-              alt="data science course in bangalore"
+              alt="data science course"
             />
           </div>
           <div className={styles.FirstText}>
@@ -85,14 +85,14 @@ function AboutUs() {
               <div className={styles.iconBox}>
                 <FaUserFriends
                   className={styles.BoxIconuser}
-                  alt="data science course in bangalore"
+                  alt="data science course"
                 />
                 <p> Literate everyone with data science knowledge.</p>
               </div>
               <div className={styles.iconBox}>
                 <FaCompress
                   className={styles.BoxIconcompress}
-                  alt="data science course in bangalore"
+                  alt="data science course"
                 />
                 <p>
                   Bust the myth that only IT pros can have lucrative careers.
@@ -113,7 +113,7 @@ function AboutUs() {
               width="391"
               height="313"
               layout="intrinsic"
-              alt="data science course in bangalore"
+              alt="data science course"
             />
           </div>
           <div className={styles.FirstTextTop}>
@@ -159,7 +159,7 @@ function AboutUs() {
               width="440"
               height="313"
               layout="intrinsic"
-              alt="data science course in bangalore"
+              alt="data science course"
               className={styles.img12}
             />
           </div>
@@ -207,7 +207,7 @@ function AboutUs() {
             <div className={styles.iconBoxInner}>
               <FaHandsHelping
                 className={styles.BoxIcon}
-                alt="data science course in bangalore"
+                alt="data science course"
               />
               <div>
                 <CountUp
@@ -223,7 +223,7 @@ function AboutUs() {
             <div className={styles.iconBoxInner}>
               <FaUserGraduate
                 className={styles.BoxIcon}
-                alt="data science course in bangalore"
+                alt="data science course"
               />
               <div className={styles.CountBox}>
                 <CountUp

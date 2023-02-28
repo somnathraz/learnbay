@@ -77,7 +77,7 @@ const FirstSection = ({dataScience, radio}) => {
           width="870"
           height="666"
           layout="intrinsic"
-           alt="data science course in bangalore"
+           alt="data science course"
         />
       </div>
     </div>
