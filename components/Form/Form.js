@@ -22,6 +22,7 @@ const Form = ({
   workExperience,
   jobDescription,
   formThank,
+  referrals,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -66,6 +67,10 @@ const Form = ({
   }
 
   if (router.pathname === "/organic") {
+    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
+  }
+
+  if (router.pathname === "/referrals") {
     endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
   }
 
@@ -114,7 +119,11 @@ const Form = ({
     if (event) {
       router.push("/event/Thank-You-event");
     }
-    if (router.pathname === "/organic") {
+    if (
+      router.pathname === "/organic" ||
+    router.pathname === "/referrals"
+    )
+     {
       setToggle(false);
       setAlertMSG("Form Submitted successfully");
       setDisable(false);
@@ -239,6 +248,21 @@ const Form = ({
               <option value="Select One">Select One</option>
               <option value="Calls">Calls</option>
               <option value="WhatsApp">WhatsApp</option>
+            </select>
+          </div>
+        ) : (
+          ""
+        )}
+
+{referrals ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <select
+              name="WAdropdown"
+              required
+              value={query.WAdropdown}
+              onChange={handleParam()}
+            >
+              <option value="Select One">Select One</option>
               <option value="Referral">Referral</option>
               <option value="Krishna Sir">Krishna Sir</option>
             </select>
