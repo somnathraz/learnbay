@@ -248,6 +248,8 @@ const Form = ({
               <option value="Select One">Select One</option>
               <option value="Calls">Calls</option>
               <option value="WhatsApp">WhatsApp</option>
+              <option value="Referral">Referral</option>
+              <option value="Krishna Sir">Krishna Sir</option>
             </select>
           </div>
         ) : (
