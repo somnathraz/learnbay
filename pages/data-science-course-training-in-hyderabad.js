@@ -95,7 +95,7 @@ export default function Home() {
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemprop="description"
+          itemProp="description"
           content="Data science course in Hyderabad. Learnbay is Advanced Data Science Course Training Institute in Hyderabad. Data science course in Hyderabad will enhance your career"
         />
         <meta
@@ -568,7 +568,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-             ProgramHead1="What is a Data science training course in Hyderabad?"
+              ProgramHead1="What is a Data science training course in Hyderabad?"
               ProgramBot1="The data science course in Hyderabad offered by Learnbay is an exclusive data science training Bootcamp for anyone interested in becoming an industry competent data scientist. Learnbay’s IBM certified advanced Data science course was created with great care by industry specialists. Our professors are Industry-leaders with a decade of experience. Learnbay mentors make sure you learn everything from scratch and according to the complex industrial requirements."
               ProgramBot2="Learnbay’s advanced Data science certification in the Hyderabad curriculum helps students learn in-demand Data science skills such as programming, data visualization, statistics, and other topics."
               ProgramHead3="What do candidates get in the  Advanced data science courses in Hyderabad?"

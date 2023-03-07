@@ -74,7 +74,7 @@ export default function Home() {
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemprop="description"
+          itemProp="description"
           content="Data science course in Canada. Learnbay is Advanced Data Science Course Training Institute in Canada. Data science course in Canada will enhance your career"
         />
         <meta
@@ -104,7 +104,7 @@ export default function Home() {
         <meta name="bingbot" content="index,follow" />
         <meta name="expires" content="never" />
         <meta name="coverage" content="Worldwide" />
-        <meta name="robots" content="ALL" /> 
+        <meta name="robots" content="ALL" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -190,7 +190,7 @@ export default function Home() {
         />{" "}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ 
+          dangerouslySetInnerHTML={{
             __html: ` {
  "@context": "https://schema.org",
  "@type": "FAQPage",

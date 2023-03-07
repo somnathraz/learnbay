@@ -38,15 +38,15 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Science Course in Pune | Data Science Training in Pune
+          Data Science Course Pune | Data Scientist Course Pune | Learnbay
         </title>
         <meta
           name="description"
-          content="Data science course in Pune. Learnbay is Advanced Data Science Course Training Institute in Pune. Data science course in Pune will enhance your career."
+          content="Enroll for Data Science Course and Certification Training in Pune from Learnbay in association with IBM. This Data Scientist course in Pune will give you hands-on experience with technologies and job assistance."
         />
         <meta
           name="keywords"
-          content="data science course in Pune, data science training in Pune, data science institute in Pune, best data science institute in Pune, data scientist course in Pune,data scientist certification in Pune, data science training institute in Pune, advanced data science course in Pune, data science course with Placement Assistance, data science course"
+          content="data science online course, data science certification in pune, data science course in india, data science course in pune, data science training in pune, data science courses, data science courses in pune, data science course, data science training, data science institute, data science certification,"
         />
         <link
           rel="canonical"
@@ -54,10 +54,7 @@ export default function Home() {
         />
         <meta name="HandheldFriendly" content="true" />
         <meta name="distribution" content="global" />
-        <meta
-          name="copyright"
-          content="Learnbay"
-        />
+        <meta name="copyright" content="Learnbay" />
         <meta name="language" content="English" />
         <meta name="rating" content="general" />
         <meta name="revisit-after" content="Daily" />
@@ -75,37 +72,49 @@ export default function Home() {
           property="og:title"
           content="Data Science Course Training in Pune"
         />
-        <meta property="og:site_name" content="learnbay.co" />
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/data-science-course-training-in-pune"
+        />
+        <meta
+          property="og:title"
+          content="Data Science Course Pune | Data Scientist Course Pune | Learnbay"
+        />
+        <meta property="og:site_name" content="www.learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Learnbay is Advanced Data Science Course Training Institute in Pune. Data science course in Pune will enhance your career"
+          content="Enroll for Data Science Course and Certification Training in Pune from Learnbay in association with IBM. This Data Scientist course in Pune will give you hands-on experience with technologies and job assistance.
+"
         />
         <meta
           property="og:image"
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
+        <meta property="og:image:height" content="240" />
+        <meta property="og:image:width" content="360" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in Pune | Data Scientist Training in Pune"
+          content="Data Science Course Pune | Data Scientist Course Pune | Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemprop="description"
-          content="Data science course in Pune. Learnbay is Advanced Data Science Course Training Institute in Pune. Data science course in Pune will enhance your career"
+          itemProp="description"
+          content="Enroll for Data Science Course and Certification Training in Pune from Learnbay in association with IBM. This Data Scientist course in Pune will give you hands-on experience with technologies and job assistance.
+"
         />
         <meta
           name="twitter:description"
-          content="Data science course in Pune. Learnbay is Advanced Data Science Course Training Institute in Pune. Data science course in Pune will enhance your career"
+          content="Enroll for Data Science Course and Certification Training in Pune from Learnbay in association with IBM. This Data Scientist course in Pune will give you hands-on experience with technologies and job assistance.
+"
         />
         <meta
           name="twitter:image"
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
-        />
+        ></meta>
+
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -415,9 +424,9 @@ export default function Home() {
 "availability" : "https://schema.org/InStock",
 "price": "79000",
 "priceCurrency": "INR",
-"validFrom": "2022-05-01"},
-"startDate":"2022-05-01",
-"endDate": "2022-10-31",
+"validFrom": "2023-05-01"},
+"startDate":"2023-05-01",
+"endDate": "2023-10-31",
 "url" : "https://www.learnbay.co/","duration":"80", 
 "eventAttendanceMode":"https://schema.org/MixedEventAttendanceMode",
 "eventStatus":"http://schema.org/EventScheduled",
@@ -466,8 +475,8 @@ export default function Home() {
           dataScience={true}
           deskTopPara="Foundational and Advance Job-ready Data Science Course"
           mTopPara="Foundational and Advance Job-ready Data Science Course"
-          title="Data Science Course Training in Pune"
-          mTitle="Data Science Course Training in Pune"
+          title="Data Science Course in Pune"
+          mTitle="Data Science Course in Pune"
           spanTitleText="with Domain Specialization"
           spanMTitleText="with Domain Specialization"
           desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Data Science Training in Pune The data science course in Pune will help you to capitalize on your domain expertise on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
@@ -524,12 +533,10 @@ export default function Home() {
             `,
           }}
         />
-        
-
         <div className="Feature" id="Feature">
           <BoxShape
             alt="data science course training in pune"
-            title="Why Enroll In Data Science Course Training in Pune?"
+            title="Why Enroll In Data Science Course in Pune?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Scientist role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -587,7 +594,7 @@ export default function Home() {
               Domainlink8="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Automotive%2C+IOT+and+Embedded+Domain.pdf"
               Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
               Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
-              CertificationBot1="Learnbay Data science training in Pune is Certified by IBM. Students earn IBM Data Science Certification at the end of the course. Even the Advance program, Managers program consists of 6-8 separate IBM certificates on different sub-module completion. Even in these two courses, you get a data science project completion certificate issued by IBM."
+              CertificationBot1="Students earn IBM Data Science Certification at the end of the course. Even the Advance program, Managers program consists of 6-8 separate IBM certificates on different sub-module completion. Even in these two courses, you get a data science project completion certificate issued by IBM."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate.webp"
               ModuleBot1="Within Learnbay’s Data scientists courses in Pune, every module is customized as per the present data science job market direction. There are even special coding classes for students from non-technical backgrounds so students can get along with other technical mates."
               ModuleBot2="The modules cover plenty of hands-on assignments on demanding  Data science tools. Our industry FAANG experts teach you to apply statistics, probability, and mathematical analysis skills. Learnbay helps students master Data scientist tools like Advance excel, SQL, MONGO-DB, TABLEAU, POWER BI, BIG DATA, SPARK ANALYTICS, PYTHON, and TIME SERIES. Professional Data scientists widely use these programs, and our students learn the same at the trending industry level throughout the Data science training in Pune."
@@ -626,7 +633,7 @@ export default function Home() {
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
-              JobHead1="Learnbay's data science course in Pune is best known for its high placement rate."
+              JobHead1="Learnbay's data science course is best known for its high placement rate."
               JobBot1="It offers guaranteed data scientists interview calls in the specific domain opted by students. The students of Learnbay get recruited by globally recognized companies and startups as Data scientists, Data engineers, AI experts, etc. Learnbay has created a strong network with 250+ companies that recruit for highly paid data science job roles throughout the year."
               JobBot2="Learnbay faculties even focus on students' soft skills, resume building, and portfolios of their students so that they keep shining even in the large data science job seekers crowd. Most Learnbay students have got Data scientist roles in companies like Amazon, Mercedes, JP Morgan, E&Y, SG Analytics, Techart, Alteryx, etc."
               JobHead2="What is the scope of Data scientists in Pune?"

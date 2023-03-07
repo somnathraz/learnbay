@@ -74,7 +74,7 @@ export default function Home() {
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemprop="description"
+          itemProp="description"
           content="Data science course in Dubai. Learnbay is Advanced Data Science Course Training Institute in Dubai. Data science course in Dubai will enhance your career"
         />
         <meta

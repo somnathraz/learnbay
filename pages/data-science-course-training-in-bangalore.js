@@ -93,7 +93,7 @@ export default function Home() {
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemprop="description"
+          itemProp="description"
           content="Data Science Course Bangalore. We are Advanced Data Science Course Certification Training Institute in Bangalore. Data science course will enhance your career."
         />
         <meta
