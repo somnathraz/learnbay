@@ -96,7 +96,7 @@ export default function Home() {
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemprop="description"
+          itemProp="description"
           content="Best Data Science Courses in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
         />
         <meta
