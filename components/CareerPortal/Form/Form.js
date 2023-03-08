@@ -37,8 +37,11 @@ const Form = ({
   };
 
   let endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
-  if (event) {
-    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+  if (
+    router.pathname === "/career-portal" ||
+    router.pathname === "/career-apply-now"
+  ) {
+    endPoint = "https://getform.io/f/9c5b2164-1f56-4150-ad53-7944d6fe4363";
   }
 
   let btnText = "Apply for Counselling";
@@ -73,14 +76,11 @@ const Form = ({
       };
       off();
     }
-    if (dataScience) {
+    if (
+      router.pathname === "/career-portal" ||
+      router.pathname === "/career-apply-now"
+    ) {
       router.push("/Thank-you");
-    }
-    if (fullStack) {
-      router.push("/Thank-you-fsd");
-    }
-    if (event) {
-      router.push("/event/Thank-You-event");
     }
   };
 
@@ -111,25 +111,6 @@ const Form = ({
           />
         </div>
         <div className={styles.formWrapper}>
-          <input
-            type="text"
-            name="birthday"
-            className={popup ? styles.NameInputs : styles.NameInput}
-            required
-            placeholder="Enter your Date of Birth"
-            value={query.birthday}
-            style={{ borderBottom: "1px solid grey" }}
-            onChange={handleParam()}
-          />
-        </div>
-        <div className={styles.formWrapper}>
-          <label for="gender">Gender</label>
-          <select name="gender" id="gender" required onChange={handleParam()}>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-          </select>
-        </div>
-        <div className={styles.formWrapper}>
           <PhoneInput
             style={
               popup
@@ -157,37 +138,14 @@ const Form = ({
           />
         </div>
         <div className={styles.formWrapper}>
-          <input
-            type="text"
-            name="qualification"
-            className={popup ? styles.NameInputs : styles.NameInput}
-            required
-            placeholder="Enter your Qualification"
-            value={query.qualification}
-            style={{ borderBottom: "1px solid grey" }}
-            onChange={handleParam()}
-          />
-        </div>
-        <div className={styles.formWrapper}>
-          <input
-            type="text"
-            name="experience"
-            className={popup ? styles.NameInputs : styles.NameInput}
-            required
-            placeholder="Enter your Experience"
-            value={query.experience}
-            style={{ borderBottom: "1px solid grey" }}
-            onChange={handleParam()}
-          />
-        </div>
-        <div className={styles.formWrapper}>
-          <label for="role">Role Interested in</label>
           <select name="role" id="role" required onChange={handleParam()}>
-            <option value="Sales">Sales</option>
-            <option value="Operations">Operations</option>
-            <option value="Marketing">Marketing</option>
-            <option value="SEO">SEO</option>
-            <option value="Content Writing">Content Writing</option>
+            <option value="Role Interested in">Role Interested in</option>
+            <option value="Software Developer">Software Developer</option>
+            <option value="HR Manager">HR Manager</option>
+            <option value="Product Manager">Product Manager</option>
+            <option value="Digital Marketing Manager">
+              Digital Marketing Manager
+            </option>
           </select>
         </div>
         <div className={styles.formWrapper}>

@@ -14,11 +14,11 @@ const applyNow = () => {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/submit-info" />
       </Head>
-      <Navbar popup={true} radio={true}/>
+      <Navbar popup={true} radio={true} careerForm={true}/>
       <div className={styles.Wrapper}>
       <div className={styles.left}>
         <h6>Get a Better Future with Us</h6>
-        <Form   dataScience={true} radio={true}/>
+        <Form />
       </div>
       <div className={styles.right}>
         <Image

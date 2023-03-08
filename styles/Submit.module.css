@@ -28,7 +28,8 @@
 margin: 20px 0px;
   }
   .Wrapper h6 {
-    font-size: 30px;
+    font-size: 22px;
     line-height: 40px;
+    text-align: center;
   }
 }
