@@ -15,7 +15,7 @@ const sumbit = () => {
         />
         <link rel="canonical" href="https://www.learnbay.co/career-portal" />
       </Head>
-      <Navbar />
+      <Navbar careerForm={true}/>
       <CareerHome />
       <Footer />
     </div>

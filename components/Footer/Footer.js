@@ -145,6 +145,9 @@ const Footer = ({ FsdNumber }) => {
           <a href="https://blog.learnbay.co/">
             <p className={styles.FooterInnerli}>Blogs</p>
           </a>
+          <a href="/career-portal">
+            <p className={styles.FooterInnerli}>Career</p>
+          </a>
           <p className={styles.FooterInnerP}>Terms</p>
           <a href="/terms-conditions">
             <p className={styles.FooterInnerli}>Terms and Conditions</p>

@@ -8,8 +8,9 @@ import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 import { useRouter } from "next/router";
 import Tabs from "../Tabs/Tabs";
+import FormCareer from "../CareerPortal/Form/Form";
 
-const Navbar = ({ radio, event, dataScience, fullStack, eventO }) => {
+const Navbar = ({ radio, event, dataScience, fullStack, eventO, careerForm }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -46,6 +47,11 @@ const Navbar = ({ radio, event, dataScience, fullStack, eventO }) => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
+          { careerForm ? (
+            <FormCareer
+            
+          />
+          ) : (
           <Form
             popup={true}
             setTrigger={setPopups}
@@ -53,6 +59,7 @@ const Navbar = ({ radio, event, dataScience, fullStack, eventO }) => {
             fullStack={fullStack}
             dataScience={dataScience}
           />
+          )}
         </div>
       </Popup>
       <nav className={styles.nav}>

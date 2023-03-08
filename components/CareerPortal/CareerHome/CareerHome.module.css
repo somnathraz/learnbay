@@ -201,16 +201,14 @@
   box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
 }
 
-.OurPlacementDiv {
+/* .OurPlacementDiv {
   padding: 30px 50px;
-  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
-}
+} */
 
 .iconBoxP {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  display: block;
   margin-top: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .BoxIcon {
@@ -238,8 +236,8 @@
 }
 
 .iconBoxInner {
-  margin: 10px;
   box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  margin-bottom: 50px;
 }
 
 .OurJourney h3 {
@@ -321,6 +319,33 @@
   align-items: center;
 }
 
+.iconBoxCont {
+  padding: 30px 50px;
+  display: block;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.buttonDiv {
+  width: 25%;
+}
+
+.icons {
+  color: #2d97d7;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.contP {
+  display: flex;
+  align-items: center;
+}
+
+/* .innerContent {
+  width: 70%;
+} */
+
 @media (max-width: 600px) {
   .Back {
     height: 100%;
@@ -389,7 +414,7 @@
     display: block;
   }
   .OurPlacementDiv {
-    padding: 10px;
+    padding: 0px;
   }
   .CDDiv {
     display: block;
@@ -411,24 +436,24 @@
     padding: 50px 20px;
     display: block;
   }
-  
+
   .head {
     font-size: 30px;
     color: #fff;
     margin-bottom: 20px;
     margin-top: 0;
   }
-  
+
   .img3 {
     display: block;
     flex-direction: row;
   }
-  
+
   .img1 {
     display: block;
     flex-direction: row;
   }
-  
+
   .img {
     display: block;
     align-items: center;
@@ -441,5 +466,12 @@
 
   .about {
     margin-bottom: 0;
+  }
+  .iconBoxCont {
+    padding: 20px;
+  }
+  .contP {
+    display: grid;
+    grid-template-columns: 10% 90%;
   }
 }
