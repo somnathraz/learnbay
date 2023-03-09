@@ -16,6 +16,9 @@ const Form = ({
 
   //offset to maintain time zone difference
   const [value, setValue] = useState();
+  const [disable, setDisable] = useState(false);
+  const [toggle, setToggle] = useState(true);
+  const [alertMSG, setAlertMSG] = useState("");
   const [query, setQuery] = useState({
     name: "",
     email: "",
@@ -25,6 +28,9 @@ const Form = ({
     dateTime: "",
     url: router.asPath,
   });
+  useEffect(() => {
+    setQuery({ ...query, phone: value });
+  }, [value]);
 
   // Update inputs value
   const handleParam = () => (e) => {
@@ -59,7 +65,8 @@ const Form = ({
     fetch(`${endPoint}`, {
       method: "POST",
       body: formData,
-    }).then(() =>
+    }).then(
+      () => setAlertMSG(""),
       setQuery({
         name: "",
         email: "",
@@ -67,7 +74,7 @@ const Form = ({
         jobDescription: "",
         workExperience: "",
         dateTime: "",
-        url: "",
+        url: router.asPath,
       })
     );
     if (popup) {
@@ -80,7 +87,10 @@ const Form = ({
       router.pathname === "/career-portal" ||
       router.pathname === "/career-apply-now"
     ) {
-      router.push("/Thank-you");
+      setToggle(false);
+      setAlertMSG("Form Submitted successfully");
+      setDisable(false);
+      setValue("");
     }
   };
 
@@ -138,28 +148,17 @@ const Form = ({
           />
         </div>
         <div className={styles.formWrapper}>
-          <select name="role" id="role" required onChange={handleParam()}>
-            <option value="Role Interested in">Role Interested in</option>
-            <option value="Software Developer">Software Developer</option>
-            <option value="HR Manager">HR Manager</option>
-            <option value="Product Manager">Product Manager</option>
-            <option value="Digital Marketing Manager">
-              Digital Marketing Manager
-            </option>
-          </select>
-        </div>
-        <div className={styles.formWrapper}>
           <label for="resume">Upload your Resume</label>
           <input
             type="file"
             name="resume"
             className={popup ? styles.NameInputs : styles.NameInput}
-            required
             value={query.resume}
             style={{ marginTop: "10px" }}
             onChange={handleParam()}
           />
         </div>
+        <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.

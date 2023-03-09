@@ -232,3 +232,8 @@
 .date input:focus-visible {
   outline: 1px solid #0487d9;
 }
+.alert {
+  margin: 0;
+  color: #2C9CD7 !important;
+  font-size: 18px !important;
+}
