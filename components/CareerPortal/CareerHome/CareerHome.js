@@ -1,10 +1,15 @@
 import { React, useState } from "react";
 import styles from "./CareerHome.module.css";
-import { FaArrowRight, FaCheckCircle, FaUserGraduate } from "react-icons/fa";
+import {
+  FaArrowRight,
+  FaCheckCircle,
+  FaUserGraduate,
+} from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 
 function CareerHome() {
+  const [selectedValue, setSelectedValue] = useState('default');
   return (
     <section className={styles.about}>
       <div className={styles.Back}>
@@ -74,7 +79,7 @@ function CareerHome() {
                     SQL database or relational database skills
                   </p>
                 </div>
-                <Link href="/career-apply-now">
+                <Link href={`/career-apply-now?selectedValue=${"Software-Developer"}`}>
                   <div>
                     <button
                       className={styles.btn}
@@ -140,17 +145,17 @@ function CareerHome() {
                     <FaUserGraduate className={styles.icons} />
                     Attention to detail and good judgement
                   </p>
-                  <Link href="/career-apply-now">
-                    <div>
-                      <button
-                        className={styles.btn}
-                        style={{ marginTop: "25px" }}
-                      >
-                        Apply Now
-                        <FaArrowRight className="bIcons" />
-                      </button>
-                    </div>
-                  </Link>
+                  <Link href={`/career-apply-now?selectedValue=${"HR-Manager"}`}>
+                  <div>
+                    <button
+                      className={styles.btn}
+                      style={{ marginTop: "25px" }}
+                    >
+                      Apply Now
+                      <FaArrowRight className="bIcons" />
+                    </button>
+                  </div>
+                </Link>
                 </div>
               </div>
             </div>
@@ -198,17 +203,17 @@ function CareerHome() {
                     <FaUserGraduate className={styles.icons} />
                     Strong written, verbal and collaboration skills
                   </p>
-                  <Link href="/career-apply-now">
-                    <div>
-                      <button
-                        className={styles.btn}
-                        style={{ marginTop: "25px" }}
-                      >
-                        Apply Now
-                        <FaArrowRight className="bIcons" />
-                      </button>
-                    </div>
-                  </Link>
+                  <Link href={`/career-apply-now?selectedValue=${"Product-Manager"}`}>
+                  <div>
+                    <button
+                      className={styles.btn}
+                      style={{ marginTop: "25px" }}
+                    >
+                      Apply Now
+                      <FaArrowRight className="bIcons" />
+                    </button>
+                  </div>
+                </Link>
                 </div>
               </div>
             </div>
@@ -259,17 +264,17 @@ function CareerHome() {
                       <FaUserGraduate className={styles.icons} />
                       Excellent communication and organizational skills
                     </p>
-                    <Link href="/career-apply-now">
-                      <div>
-                        <button
-                          className={styles.btn}
-                          style={{ marginTop: "25px" }}
-                        >
-                          Apply Now
-                          <FaArrowRight className="bIcons" />
-                        </button>
-                      </div>
-                    </Link>
+                    <Link href={`/career-apply-now?selectedValue=${"Digital-Marketing-Manager"}`}>
+                  <div>
+                    <button
+                      className={styles.btn}
+                      style={{ marginTop: "25px" }}
+                    >
+                      Apply Now
+                      <FaArrowRight className="bIcons" />
+                    </button>
+                  </div>
+                </Link>
                   </div>
                 </div>
               </div>
