@@ -45,7 +45,7 @@ export default function Home() {
           content="Artificial Intelligence Course in Hyderabad. Learnbay is Advanced Artificial Intelligence Course Training Institute in Hyderabad. Artificial Intelligence course in Hyderabad will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Artificial Intelligence course in Hyderabad, Artificial Intelligence training in Hyderabad, Artificial Intelligence institute in Hyderabad, best Artificial Intelligence institute in Hyderabad, Artificial Intelligence course in Hyderabad, Artificial Intelligence certification in Hyderabad, Artificial Intelligence training institute in Hyderabad, advanced Artificial Intelligence course in Hyderabad, Artificial Intelligence course with Placement Assistance, Artificial Intelligence course"
         />
         <link

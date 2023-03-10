@@ -43,7 +43,7 @@ export default function Home() {
           content="Data Analytics Course in Canada. Learnbay is Advanced Data Analytics Course Training Institute in Canada. Data Analytics course in Canada will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Data Analytics course in Canada, Data Analytics training in Canada, Data Analytics institute in Canada, best Data Analytics institute in Canada, Data Analytics course in Canada, Data Analytics certification in Canada, Data Analytics training institute in Canada, advanced Data Analytics course in Canada, Data Analytics course with Placement Assistance, Data Analytics course"
         />
         <link

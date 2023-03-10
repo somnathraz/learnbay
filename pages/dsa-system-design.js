@@ -46,7 +46,7 @@ export default function Home() {
           content="Data Structure Algorithms (DSA) & System Design Course. Learnbay provide Data Structure Algorithms (DSA) & System Design Course which help you to enhance you skills."
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Data Structure Algorithms (DSA) & System Design Course, Data Structure Algorithms course, System Design Course, Data Structure course"
         />
         <link

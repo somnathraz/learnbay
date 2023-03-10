@@ -46,7 +46,7 @@ export default function Home() {
           content="Full Stack Web Development Course with IBM certification. Learnbay provide advanced full stack developer course with placement assistance. Enrol in our full stack web developer course to enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Full Stack Web Development Course, Full Stack Web Development Course training , Full Stack Web Development Course institute in India, best Full Stack Web Development Course institute, Full Stack Web developer Course ,Full Stack Web developer Course certification, Full Stack Web developer Course training institute , advanced Full Stack Web developer Course , Full Stack Web developer Course with Placement Assistance, Full Stack Web developer Course with IBM certification"
         />
         <link
@@ -168,7 +168,8 @@ export default function Home() {
             fullStack={true}
           />
         </div>
-        <CourseFee WebDev={true}
+        <CourseFee
+          WebDev={true}
           fsdBrochure={true}
           fullStack={true}
           timeFsd={true}
@@ -191,7 +192,7 @@ export default function Home() {
           SupportFaqDatas={SupportFaqData8}
         />
         <LearnSupport />
-        <OfferPopup WebDev={true}/>
+        <OfferPopup WebDev={true} />
         <Footer />
       </main>
     </div>

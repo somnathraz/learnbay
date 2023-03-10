@@ -45,7 +45,7 @@ export default function Home() {
           content="Artificial Intelligence Course in Pune. Learnbay is Advanced Artificial Intelligence Course Training Institute in Pune. Artificial Intelligence course in Pune will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Artificial Intelligence course in Pune, Artificial Intelligence training in Pune, Artificial Intelligence institute in Pune, best Artificial Intelligence institute in Pune, Artificial Intelligence course in Pune, Artificial Intelligence certification in Pune, Artificial Intelligence training institute in Pune, advanced Artificial Intelligence course in Pune, Artificial Intelligence course with Placement Assistance, Artificial Intelligence course"
         />
         <link

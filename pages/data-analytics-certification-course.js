@@ -57,7 +57,7 @@ export default function Home() {
           href="https://www.learnbay.co/data-analytics-certification-course"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Data Analytics course, Data Analytics training, Data Analytics institute, best Data Analytics institute , Data Analytics course , Data Analytics certification, Data Analytics training institute , advanced Data Analytics course , Data Analytics course with Placement Assistance, Data Analytics courses"
         />
       </Head>

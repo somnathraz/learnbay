@@ -44,7 +44,7 @@ export default function Home() {
           content="Data science course in Hyderabad. Learnbay is Advanced Data Science Course Training Institute in Hyderabad. Data science course in Hyderabad will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="data science course in Hyderabad, data science training in Hyderabad, data science institute in Hyderabad, best data science institute in Hyderabad, data scientist course in Hyderabad,data scientist certification in Hyderabad, data science training institute in Hyderabad, advanced data science course in Hyderabad, data science course with Placement Assistance, data science course"
         />
         <link

@@ -46,7 +46,7 @@ export default function Home() {
           content="Full-Stack Software Developer Course in Hyderabad. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Hyderabad. Full-Stack Software Developer Course in Hyderabad will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Full-Stack Software Developer Course in Hyderabad, Full-Stack Software Developer Course training in Hyderabad, Full-Stack Software Developer Course institute in Hyderabad, best Full-Stack Software Developer Course institute in Hyderabad, data scientist course in Hyderabad,data scientist certification in Hyderabad, Full-Stack Software Developer Course training institute in Hyderabad, advanced Full-Stack Software Developer Course in Hyderabad, Full-Stack Software Developer Course with Placement Assistance, Full-Stack Software Developer Course"
         />
         <link

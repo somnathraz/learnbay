@@ -44,7 +44,7 @@ export default function Home() {
           content="Business Analytics Course in Hyderabad. Learnbay is Advanced Business Analytics Course Training Institute in Hyderabad. Business Analytics course in Hyderabad will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Business Analytics course in Hyderabad, Business Analytics training in Hyderabad, Business Analytics institute in Hyderabad, best Business Analytics institute in Hyderabad, Business Analytics course in Hyderabad, Business Analytics certification in Hyderabad, Business Analytics training institute in Hyderabad, advanced Business Analytics course in Hyderabad, Business Analytics course with Placement Assistance, Business Analytics course"
         />
         <link

@@ -45,7 +45,7 @@ export default function Home() {
           content="Artificial Intelligence Course in Mumbai. Learnbay is Advanced Artificial Intelligence Course Training Institute in Mumbai. Artificial Intelligence course in Mumbai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Artificial Intelligence course in Mumbai, Artificial Intelligence training in Mumbai, Artificial Intelligence institute in Mumbai, best Artificial Intelligence institute in Mumbai, Artificial Intelligence course in Mumbai, Artificial Intelligence certification in Mumbai, Artificial Intelligence training institute in Mumbai, advanced Artificial Intelligence course in Mumbai, Artificial Intelligence course with Placement Assistance, Artificial Intelligence course"
         />
         <link

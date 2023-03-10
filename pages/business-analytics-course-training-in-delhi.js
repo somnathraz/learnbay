@@ -44,7 +44,7 @@ export default function Home() {
           content="Business Analytics Course in Delhi. Learnbay is Advanced Business Analytics Course Training Institute in Delhi. Business Analytics course in Delhi will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Business Analytics course in Delhi, Business Analytics training in Delhi, Business Analytics institute in Delhi, best Business Analytics institute in Delhi, Business Analytics course in Delhi, Business Analytics certification in Delhi, Business Analytics training institute in Delhi, advanced Business Analytics course in Delhi, Business Analytics course with Placement Assistance, Business Analytics course"
         />
         <link

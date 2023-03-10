@@ -44,7 +44,7 @@ export default function Home() {
           content="Data Analytics Course in Chennai. Learnbay is Advanced Data Analytics Course Training Institute in Chennai. Data Analytics course in Chennai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Data Analytics course in Chennai, Data Analytics training in Chennai, Data Analytics institute in Chennai, best Data Analytics institute in Chennai, Data Analytics course in Chennai, Data Analytics certification in Chennai, Data Analytics training institute in Chennai, advanced Data Analytics course in Chennai, Data Analytics course with Placement Assistance, Data Analytics course"
         />
         <link

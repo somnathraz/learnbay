@@ -47,7 +47,7 @@ export default function Home() {
           content="Data Science Certification Course Foundation Program. Learnbay is best data science certification course training institute. Our online data science certification course will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Data Science Certification Course, Data Science Certification training, Data Science Certification institute, best Data Science Certification institute, Data Science Certification training institute , advanced Data Science Certification course , Data Science Certification course with Placement Assistance, Data Science Certification courses"
         />
         <link

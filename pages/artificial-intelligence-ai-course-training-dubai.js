@@ -44,7 +44,7 @@ export default function Home() {
           content="Artificial Intelligence Course in Dubai. Learnbay is Advanced Artificial Intelligence Course Training Institute in Dubai. Artificial Intelligence course in Dubai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Artificial Intelligence course in Dubai, Artificial Intelligence training in Dubai, Artificial Intelligence institute in Dubai, best Artificial Intelligence institute in Dubai, Artificial Intelligence course in Dubai, Artificial Intelligence certification in Dubai, Artificial Intelligence training institute in Dubai, advanced Artificial Intelligence course in Dubai, Artificial Intelligence course with Placement Assistance, Artificial Intelligence course"
         />
         <link

@@ -45,7 +45,7 @@ export default function Home() {
           content="Machine learning course in Hyderabad. Learnbay is Advanced Machine Learning Course Training Institute in Hyderabad. Machine Learning course in Hyderabad will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Machine learning course in Hyderabad, Machine learning training in Hyderabad, Machine learning institute in Hyderabad, best Machine learning institute in Hyderabad, Machine learning course in Hyderabad, Machine learning certification in Hyderabad, Machine learning training institute in Hyderabad, advanced Machine learning course in Hyderabad, Machine learning course with Placement Assistance, Machine learning course"
         />
         <link

@@ -44,7 +44,7 @@ export default function Home() {
           content="Business Analytics Course in Mumbai. Learnbay is Advanced Business Analytics Course Training Institute in Mumbai. Business Analytics course in Mumbai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Business Analytics course in Mumbai, Business Analytics training in Mumbai, Business Analytics institute in Mumbai, best Business Analytics institute in Mumbai, Business Analytics course in Mumbai, Business Analytics certification in Mumbai, Business Analytics training institute in Mumbai, advanced Business Analytics course in Mumbai, Business Analytics course with Placement Assistance, Business Analytics course"
         />
         <link

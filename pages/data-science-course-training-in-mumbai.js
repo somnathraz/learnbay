@@ -44,7 +44,7 @@ export default function Home() {
           content="Data science course in Mumbai. Learnbay is Advanced Data Science Course Training Institute in Mumbai. Data science course in Mumbai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="data science course in Mumbai, data science training in Mumbai, data science institute in Mumbai, best data science institute in Mumbai, data scientist course in Mumbai,data scientist certification in Mumbai, data science training institute in Mumbai, advanced data science course in Mumbai, data science course with Placement Assistance, data science course"
         />
         <meta

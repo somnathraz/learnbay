@@ -43,7 +43,7 @@ export default function Home() {
           content="Data Analytics Course in Dubai. Learnbay is Advanced Data Analytics Course Training Institute in Dubai. Data Analytics course in Dubai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Data Analytics course in Dubai, Data Analytics training in Dubai, Data Analytics institute in Dubai, best Data Analytics institute in Dubai, Data Analytics course in Dubai, Data Analytics certification in Dubai, Data Analytics training institute in Dubai, advanced Data Analytics course in Dubai, Data Analytics course with Placement Assistance, Data Analytics course"
         />
         <link

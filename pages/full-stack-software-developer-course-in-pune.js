@@ -46,7 +46,7 @@ export default function Home() {
           content="Full-Stack Software Developer Course in Pune. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Pune. Full-Stack Software Developer Course in Pune will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Full-Stack Software Developer Course in Pune, Full-Stack Software Developer Course training in Pune, Full-Stack Software Developer Course institute in Pune, best Full-Stack Software Developer Course institute in Pune, data scientist course in Pune,data scientist certification in Pune, Full-Stack Software Developer Course training institute in Pune, advanced Full-Stack Software Developer Course in Pune, Full-Stack Software Developer Course with Placement Assistance, Full-Stack Software Developer Course"
         />
         <link

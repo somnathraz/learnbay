@@ -44,7 +44,7 @@ export default function Home() {
           content="Data science course in Delhi. Learnbay is Advanced Data Science Course Training Institute in Delhi. Data science course in Delhi will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="data science course in Delhi, data science training in Delhi, data science institute in Delhi, best data science institute in Delhi, data scientist course in Delhi,data scientist certification in Delhi, data science training institute in Delhi, advanced data science course in Delhi, data science course with Placement Assistance, data science course"
         />
         <meta

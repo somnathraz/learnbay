@@ -46,7 +46,7 @@ export default function Home() {
           content="Full-Stack Software Developer Course in Canada. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Canada. Full-Stack Software Developer Course in Canada will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Full-Stack Software Developer Course in Canada, Full-Stack Software Developer Course training in Canada, Full-Stack Software Developer Course institute in Canada, best Full-Stack Software Developer Course institute in Canada, data scientist course in Canada,data scientist certification in Canada, Full-Stack Software Developer Course training institute in Canada, advanced Full-Stack Software Developer Course in Canada, Full-Stack Software Developer Course with Placement Assistance, Full-Stack Software Developer Course"
         />
         <link

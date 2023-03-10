@@ -54,7 +54,7 @@ export default function Home() {
           content="Full Stack Software Development Course with IBM certification. Learnbay provide advanced full stack Software developer course with Placement Assistance. Enrol in our full stack Software developer course to enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Full Stack Software Development Course, Full Stack Software Development Course training , Full Stack Software Development Course institute in India, best Full Stack Software Development Course institute, Full Stack Software developer Course ,Full Stack Software developer Course certification, Full Stack Software developer Course training institute , advanced Full Stack Software developer Course , Full Stack Software developer Course with Placement Assistance, Full Stack Software developer Course with IBM certification"
         />
       </Head>
