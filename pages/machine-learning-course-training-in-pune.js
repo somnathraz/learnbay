@@ -44,7 +44,7 @@ export default function Home() {
           content="Machine learning course in Pune. Learnbay is Advanced Machine Learning Course Training Institute in Pune. Machine Learning course in Pune will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Machine learning course in Pune, Machine learning training in Pune, Machine learning institute in Pune, best Machine learning institute in Pune, Machine learning course in Pune, Machine learning certification in Pune, Machine learning training institute in Pune, advanced Machine learning course in Pune, Machine learning course with Placement Assistance, Machine learning course"
         />
         <link

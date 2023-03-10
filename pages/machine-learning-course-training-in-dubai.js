@@ -43,7 +43,7 @@ export default function Home() {
           content="Machine learning course in Dubai. Learnbay is Advanced Machine Learning Course Training Institute in Dubai. Machine Learning course in Dubai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Machine learning course in Dubai, Machine learning training in Dubai, Machine learning institute in Dubai, best Machine learning institute in Dubai, Machine learning course in Dubai, Machine learning certification in Dubai, Machine learning training institute in Dubai, advanced Machine learning course in Dubai, Machine learning course with Placement Assistance, Machine learning course"
         />
         <link

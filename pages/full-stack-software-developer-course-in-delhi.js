@@ -46,7 +46,7 @@ export default function Home() {
           content="Full-Stack Software Developer Course in Delhi. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Delhi. Full-Stack Software Developer Course in Delhi will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Full-Stack Software Developer Course in Delhi, Full-Stack Software Developer Course training in Delhi, Full-Stack Software Developer Course institute in Delhi, best Full-Stack Software Developer Course institute in Delhi, data scientist course in Delhi,data scientist certification in Delhi, Full-Stack Software Developer Course training institute in Delhi, advanced Full-Stack Software Developer Course in Delhi, Full-Stack Software Developer Course with Placement Assistance, Full-Stack Software Developer Course"
         />
         <link

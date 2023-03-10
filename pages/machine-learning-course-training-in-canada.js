@@ -44,7 +44,7 @@ export default function Home() {
           content="Machine learning course in Canada. Learnbay is Advanced Machine Learning Course Training Institute in Canada. Machine Learning course in Canada will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Machine learning course in Canada, Machine learning training in Canada, Machine learning institute in Canada, best Machine learning institute in Canada, Machine learning course in Canada, Machine learning certification in Canada, Machine learning training institute in Canada, advanced Machine learning course in Canada, Machine learning course with Placement Assistance, Machine learning course"
         />
         <link

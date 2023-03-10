@@ -37,8 +37,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Analytics Courses Online in Bangalore | Data Analytics Training in
-          Bangalore
+          Data Analytics Courses Online in Bangalore | Data Analytics Training
+          in Bangalore
         </title>
         <meta
           name="description"

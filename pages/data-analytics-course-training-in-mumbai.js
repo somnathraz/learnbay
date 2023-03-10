@@ -44,7 +44,7 @@ export default function Home() {
           content="Data Analytics Course in Mumbai. Learnbay is Advanced Data Analytics Course Training Institute in Mumbai. Data Analytics course in Mumbai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Data Analytics course in Mumbai, Data Analytics training in Mumbai, Data Analytics institute in Mumbai, best Data Analytics institute in Mumbai, Data Analytics course in Mumbai, Data Analytics certification in Mumbai, Data Analytics training institute in Mumbai, advanced Data Analytics course in Mumbai, Data Analytics course with Placement Assistance, Data Analytics course"
         />
         <link

@@ -45,7 +45,7 @@ export default function Home() {
           content="Machine learning course in Bangalore. Learnbay is Advanced Machine Learning Course Training Institute in Bangalore. Machine Learning course in Bangalore will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Machine learning course in Bangalore, Machine learning training in Bangalore, Machine learning institute in Bangalore, best Machine learning institute in Bangalore, Machine learning course in Bangalore, Machine learning certification in Bangalore, Machine learning training institute in Bangalore, advanced Machine learning course in Bangalore, Machine learning course with Placement Assistance, Machine learning course"
         />
         <link

@@ -43,7 +43,7 @@ export default function Home() {
           content="Business Analytics Course in Dubai. Learnbay is Advanced Business Analytics Course Training Institute in Dubai. Business Analytics course in Dubai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Business Analytics course in Dubai, Business Analytics training in Dubai, Business Analytics institute in Dubai, best Business Analytics institute in Dubai, Business Analytics course in Dubai, Business Analytics certification in Dubai, Business Analytics training institute in Dubai, advanced Business Analytics course in Dubai, Business Analytics course with Placement Assistance, Business Analytics course"
         />
         <link

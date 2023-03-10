@@ -45,7 +45,7 @@ export default function Home() {
           content="Machine learning course in Chennai. Learnbay is Advanced Machine Learning Course Training Institute in Chennai. Machine Learning course in Chennai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Machine learning course in Chennai, Machine learning training in Chennai, Machine learning institute in Chennai, best Machine learning institute in Chennai, Machine learning course in Chennai, Machine learning certification in Chennai, Machine learning training institute in Chennai, advanced Machine learning course in Chennai, Machine learning course with Placement Assistance, Machine learning course"
         />
         <link

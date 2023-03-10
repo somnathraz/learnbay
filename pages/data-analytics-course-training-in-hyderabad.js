@@ -45,7 +45,7 @@ export default function Home() {
           content="Data Analytics Course in Hyderabad. Learnbay is Advanced Data Analytics Course Training Institute in Hyderabad. Data Analytics course in Hyderabad will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Data Analytics course in Hyderabad, Data Analytics training in Hyderabad, Data Analytics institute in Hyderabad, best Data Analytics institute in Hyderabad, Data Analytics course in Hyderabad, Data Analytics certification in Hyderabad, Data Analytics training institute in Hyderabad, advanced Data Analytics course in Hyderabad, Data Analytics course with Placement Assistance, Data Analytics course"
         />
         <link

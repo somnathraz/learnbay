@@ -26,7 +26,7 @@ const HeroSection = ({
   dataScience,
   fullStack,
   fsdBrochure,
-  fsdBrochureText,
+  cityText,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -87,6 +87,31 @@ const HeroSection = ({
         </div>
       </PopupD>
       <div className={styles.left}>
+        {cityText ? (
+           <>
+           {mobile ? (
+             <p className="pTop">
+               <b className="pTopp">{mTopPara}</b> <br />
+               <br /> <b className="pTopp">{mTopPara1}</b>
+             </p>
+           ) : (
+             <p className={styles.pTop}>
+               {deskTopPara}
+               {deskTopPara1}
+             </p>
+           )}
+           {mobile ? (
+             <h1>
+               {mTitle}
+             </h1>
+           ) : (
+             <h1>
+               {title}
+             </h1>
+           )}
+           </>
+        ) : (
+          <>
         {mobile ? (
           <p className="pTop">
             <b className="pTopp">{mTopPara}</b> <br />
@@ -106,6 +131,8 @@ const HeroSection = ({
           <h1>
             {title} <span> {spanTitleText}</span>
           </h1>
+        )}
+        </>
         )}
 
         <p className={styles.pBot}>{desc}</p>

@@ -45,7 +45,7 @@ export default function Home() {
           content="Artificial Intelligence Course in Delhi. Learnbay is Advanced Artificial Intelligence Course Training Institute in Delhi. Artificial Intelligence course in Delhi will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Artificial Intelligence course in Delhi, Artificial Intelligence training in Delhi, Artificial Intelligence institute in Delhi, best Artificial Intelligence institute in Delhi, Artificial Intelligence course in Delhi, Artificial Intelligence certification in Delhi, Artificial Intelligence training institute in Delhi, advanced Artificial Intelligence course in Delhi, Artificial Intelligence course with Placement Assistance, Artificial Intelligence course"
         />
         <link

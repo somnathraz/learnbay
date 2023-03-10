@@ -44,7 +44,7 @@ export default function Home() {
           content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="data science course in Chennai, data science training in Chennai, data science institute in Chennai, best data science institute in Chennai, data scientist course in Chennai,data scientist certification in Chennai, data science training institute in Chennai, advanced data science course in Chennai, data science course with Placement Assistance, data science course"
         />
         <meta

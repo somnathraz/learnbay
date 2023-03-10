@@ -45,7 +45,7 @@ export default function Home() {
           content="Best Data Science Courses in India. Learnbay is the Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Best Data Science courses in India, Best Data Science training in India, Best Data Science institute in India, Best Data Science institute in India, Best data scientist course in India, Best data scientist certification in India, Best Data Science training institute in India, Best advanced Data Science course in India, Best Data Science courses with Placement Assistance, Best Data Science courses"
         />
         <link

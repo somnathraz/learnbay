@@ -43,7 +43,7 @@ export default function Home() {
           content="Data science course in Canada. Learnbay is Advanced Data Science Course Training Institute in Canada. Data science course in Canada will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="data science course in Canada, data science training in Canada, data science institute in Canada, best data science institute in Canada, data scientist course in Canada,data scientist certification in Canada, data science training institute in Canada, advanced data science course in Canada, data science course with Placement Assistance, data science course"
         />
         <meta

@@ -44,7 +44,7 @@ export default function Home() {
           content="Artificial Intelligence Course in Canada. Learnbay is Advanced Artificial Intelligence Course Training Institute in Canada. Artificial Intelligence course in Canada will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Artificial Intelligence course in Canada, Artificial Intelligence training in Canada, Artificial Intelligence institute in Canada, best Artificial Intelligence institute in Canada, Artificial Intelligence course in Canada, Artificial Intelligence certification in Canada, Artificial Intelligence training institute in Canada, advanced Artificial Intelligence course in Canada, Artificial Intelligence course with Placement Assistance, Artificial Intelligence course"
         />
         <link

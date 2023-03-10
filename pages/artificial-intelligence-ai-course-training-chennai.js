@@ -45,7 +45,7 @@ export default function Home() {
           content="Artificial Intelligence Course in Chennai. Learnbay is Advanced Artificial Intelligence Course Training Institute in Chennai. Artificial Intelligence course in Chennai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Artificial Intelligence course in Chennai, Artificial Intelligence training in Chennai, Artificial Intelligence institute in Chennai, best Artificial Intelligence institute in Chennai, Artificial Intelligence course in Chennai, Artificial Intelligence certification in Chennai, Artificial Intelligence training institute in Chennai, advanced Artificial Intelligence course in Chennai, Artificial Intelligence course with Placement Assistance, Artificial Intelligence course"
         />
         <link

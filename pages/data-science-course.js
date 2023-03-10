@@ -26,7 +26,7 @@ export default function Home() {
           content="Data Science Course in Bangalore. Learnbay is Advanced Data Science Training Course Institute in Bangalore with 100% job Placement Assistance"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Data Science course in Bangalore, Data Science training in Bangalore, Data Science institute in Bangalore, best Data Science institute in Bangalore, data scientist course in Bangalore, data scientist certification in Bangalore, Data Science training institute in Bangalore, advanced Data Science course in Bangalore, Data Science course with Placement Assistance, Data Science course"
         />
         <link rel="canonical" href="https://www.learnbay.co/" />

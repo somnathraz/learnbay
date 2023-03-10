@@ -45,7 +45,7 @@ export default function Home() {
           content="Machine learning course in Mumbai. Learnbay is Machined Machine Learning Course Training Institute in Mumbai. Machine Learning course in Mumbai will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Machine learning course in Mumbai, Machine learning training in Mumbai, Machine learning institute in Mumbai, best Machine learning institute in Mumbai, Machine learning course in Mumbai, Machine learning certification in Mumbai, Machine learning training institute in Mumbai, advanced Machine learning course in Mumbai, Machine learning course with Placement Assistance, Machine learning course"
         />
         <link

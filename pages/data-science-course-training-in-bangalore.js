@@ -36,7 +36,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Science Training Course In Bangalore with Placement Assistance
+        Data Science Course in Bangalore - Learnbay
         </title>
         <meta
           name="description"
@@ -512,13 +512,12 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        cityText={true}
           dataScience={true}
           deskTopPara="Foundational and Advance Job-ready Program"
           mTopPara="Foundational and Advance Job-ready Program"
-          title="Data Science Training Course in Bangalore"
-          mTitle="Data Science Training Course in Bangalore"
-          spanTitleText="Enroll Now"
-          spanMTitleText="Enroll Now"
+          title="Data Science Course in Bangalore"
+          mTitle="Data Science Course in Bangalore"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Bangalore with IBM Certification. Our advanced Data Science training in Bangalore will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
@@ -713,20 +712,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramHead1="Best data science course in Bangalore with placement assistance"
-              ProgramBot1="Learn Data Science Course in Bangalore from advanced certification oriented data science training institute with IBM Certified Trainers. Learnbay is the best data science course training institute in Bangalore. Our data science course is custom-designed for learners who want to shift into a Data Science Career, even after working in any domain for years. Our faculties are industrial experts from top-notch MNCs. They share their experience and knowledge throughout their offline and online Data science courses in Bangalore. In a word, it's the ultimate destination where you can find the best foundational and advanced Data science courses for working professionals."
-              ProgramBot2="The Learnbay Data science course for working professionals in Bangalore implies practical knowledge and theoretical concepts for balanced learning. This institute offers the best value in Data Science certification programs available across Bangalore. So that aspirants can build a strong future in data science. Learnbay Data Science training in Bangalore is created and designed to meet changes in industrial and organizational needs."
-              ProgramHead4="Why is Learnbay the best institute for advanced  Data Science courses in Bangalore?"
-              ProgramBot4="Here, you get hassle-free live classes and multiple instructors. You also get a Data science course with placement assistance and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. All of their Data science courses in Bangalore have one-on-one live Doubt Clearing Sessions from experienced FAANG Data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads."
-              ProgramHead5="Available Data Science Certification Courses by Learnbay in Bangalore"
-              Courselink1="/data-science-certification-courses"
-              Courselink2="/advance-data-science-certification-courses"
-              Courselink4="/data-science-ai-for-managers"
-              Courselink5="/data-science-ai-masters-program"
-              Course1="Foundational Data Science and AI program"
-              Course2="Advanced Data Science and AI program with Domain Specialization"
-              Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="Data Science and AI master program"
+            cityText={true}
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Choosing the correct domain affects your course and career. Our mentors and experts at Learnbay will guide you to choose the right domain after analyzing your profile. Your domain will help you understand the course and project better, and you will excel in the same domain as an expert once you complete advanced data science training in Bangalore by Learnbay."
               DomainBot2="Moreover, in today's competitive data science job market companies are lacking data scientists having core domain expertise. Just for an example, if you have been appointed as a data scientist in a pharmaceutical company then without the pharma or chemical knowledge you can’t offer the best achievable analytical reports/ insights. What domains do Learnbay data science certification courses in Bangalore have?"

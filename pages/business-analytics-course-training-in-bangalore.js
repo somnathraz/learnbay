@@ -44,7 +44,7 @@ export default function Home() {
           content="Business Analytics Course in Bangalore. Learnbay is Advanced Business Analytics Course Training Institute in Bangalore. Business Analytics course in Bangalore will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Business Analytics course in Bangalore, Business Analytics training in Bangalore, Business Analytics institute in Bangalore, best Business Analytics institute in Bangalore, Business Analytics course in Bangalore, Business Analytics certification in Bangalore, Business Analytics training institute in Bangalore, advanced Business Analytics course in Bangalore, Business Analytics course with Placement Assistance, Business Analytics course"
         />
         <link

@@ -44,7 +44,7 @@ export default function Home() {
           content="Data Analytics Course in Pune. Learnbay is Advanced Data Analytics Course Training Institute in Pune. Data Analytics course in Pune will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Data Analytics course in Pune, Data Analytics training in Pune, Data Analytics institute in Pune, best Data Analytics institute in Pune, Data Analytics course in Pune, Data Analytics certification in Pune, Data Analytics training institute in Pune, advanced Data Analytics course in Pune, Data Analytics course with Placement Assistance, Data Analytics course"
         />
         <link

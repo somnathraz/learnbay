@@ -18,16 +18,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Data Science Courses with IBM Certification - Learnbay
-        </title>
+        <title>Data Science Courses with IBM Certification - Learnbay</title>
         <meta
           name="description"
           content="data science courses with IBM certification. Learnbay is advanced data science course training institute. Enrol in our data science course to enhance your career"
         />
         <link rel="canonical" href="https://www.learnbay.co/" />
         <meta
-          name="Keywords"
+          name="keywords"
           content="data science course, data science training , data science institute in India, best data science institute, data scientist course ,data scientist certification, data science training institute , advanced data science course , data science course with Placement Assistance, data science course with IBM certification"
         />
         <link

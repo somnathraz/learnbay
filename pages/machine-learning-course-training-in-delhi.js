@@ -44,7 +44,7 @@ export default function Home() {
           content="Machine learning course in Delhi. Learnbay is Advanced Machine Learning Course Training Institute in Delhi. Machine Learning course in Delhi will enhance your career"
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Machine learning course in Delhi, Machine learning training in Delhi, Machine learning institute in Delhi, best Machine learning institute in Delhi, Machine learning course in Delhi, Machine learning certification in Delhi, Machine learning training institute in Delhi, advanced Machine learning course in Delhi, Machine learning course with Placement Assistance, Machine learning course"
         />
         <link
