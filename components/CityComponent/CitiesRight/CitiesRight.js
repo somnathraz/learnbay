@@ -242,6 +242,7 @@ const CitiesRight = ({
   jobOutlooklink,
   ProgramBotItaliic31,
   cityText,
+  cityTextDSChennai,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -253,6 +254,256 @@ const CitiesRight = ({
         <div className={styles.CitiesRightSpan}>
           <span>About The Program</span>
         </div>
+        {cityTextDSChennai ? (
+          <div className={styles.CitiesRightInner}>
+            <h2>
+              <b>Data Science Certification from Learnbay</b>
+            </h2>
+            <p>
+              Step up your career with the best{" "}
+              <b>Data Science certification</b> from Learnbay, one of the
+              leading training centres in Chennai. This training program
+              perfectly blends theory, case studies, hackathons, capstone, and
+              real-world projects. The course syllabus has been comprehensively
+              designed by industry professionals and is regarded as the best in
+              the market. With the global certification, it stands out to
+              recruiters all around the world. Post completion of the course,
+              one will be awarded the IBM certification and a proud Learnbay
+              Alumni.{" "}
+            </p>
+            <h2>
+              <b>What is the certification process?</b>
+            </h2>
+            <p>
+              After completing the data science training in Chennai, one should
+              attend an online examination facilitated by Learnbay and pass with
+              70% or more to be eligible for the IBM exam. After passing the
+              exam and capstone project completion, the candidate will be
+              awarded IBM certifications based on the selected course. In
+              addition, once the Capstone project is completed, you will be
+              given an IBM Project experience certificate.
+            </p>
+            <h2>
+              <b>Data Science Course Training In Chennai</b>
+            </h2>
+            {read ? (
+              <>
+                <p>
+                  Learnbay offers a domain-specialised{" "}
+                  <a
+                    href="https://www.learnbay.co/data-science-course-training-in-chennai"
+                    style={{ color: "#2D9CD7", fontWeight: "600" }}
+                    target="_blank"
+                  >
+                    Data Science course in Chennai
+                  </a>
+                  , the most comprehensive Data Science training in the market,
+                  covering the basic to advanced concepts of Data Science
+                  process from Data Collection, Data Extraction, Data Cleaning,
+                  Data Exploration, Feature Engineering, model building, Data
+                  Visualization and implementing the solution. Further,
+                  statistical Analysis, Tableau, Hadoop, Regression Modelling,
+                  Predictive Analytics,{" "}
+                  <a
+                    href="https://www.learnbay.co/machine-learning-course-training-in-chennai"
+                    style={{ color: "#2D9CD7", fontWeight: "600" }}
+                    target="_blank"
+                  >
+                    Machine Learning
+                  </a>
+                  , NLP, Neural Networks, and programming languages like Python
+                  and R are just a few of the tools and skills covered in-depth
+                  during this data science training.
+                </p>
+                <p>
+                  Learnbay is said to be the best{" "}
+                  <b>Data Science training institute in Chennai</b> which
+                  provides exclusive services from hands-on practical sessions
+                  to placement as part of the Data science training with around
+                  1000+ students placed in MNCs such as Accenture, TCS, Infosys,
+                  EY, IBM, and others. Learnbay delivers rigorous{" "}
+                  <b>Data Science online training in Chennai</b> and is
+                  considered the best in the industry. The{" "}
+                  <b>data science course fee</b> at Learnbay institute ranges
+                  from INR 75,000 to INR 125,000, depending on the preferred
+                  course.
+                </p>
+                <h2>
+                  Why Choose Learnbay For A Data Science Course In{" "}
+                  <b>Chennai</b>?
+                </h2>
+                <p>
+                  If you are curious about how to learn data science, then you
+                  are in the perfect place! Learnbay is recognized as one of the
+                  top <b>Data Science training institutes in Chennai</b>. We
+                  have helped over 10,000 Data Science enthusiasts transform
+                  their careers in various MNCs in India and abroad. We aim to
+                  provide dedicated practical training and placement to our
+                  learners. We also provide personal mentorship to each student
+                  until they are placed in a reputed position. In addition, our
+                  mentors will assist you with theoretical and practical
+                  concepts, assignment completion, and live data science
+                  projects. With over 250 hiring partners and a dedicated
+                  placement cell, Learnbay helps the participants secure jobs by
+                  facilitating multiple MNC interviews. The best part about
+                </p>
+                <p>
+                  Most of our instructors are IIT and IIM graduates, some of
+                  whom are Ph.D. professionals and experienced Data Scientists
+                  with 15+ years of industry expertise. Because of our dedicated
+                  faculty, Learnbay's certification is regarded as the best{" "}
+                  <b>Data Science certification course</b> available in the
+                  market. Learnbay provides a hybrid learning approach where
+                  students can take advantage of the classrooms, instructor-led
+                  online classes, and recorded sessions/videos through Learnbay
+                  LMS.
+                </p>
+                <p>
+                  This combination of learning modes will have a positive impact
+                  on learning. During a period of 2 years, one can attend as
+                  many instructor-led online sessions from multiple trainers
+                  with no additional cost. No wonder Learnbay is recognized as
+                  the best <b>Data Science training institute in Chennai</b> for
+                  aspirants wanting to upgrade their Data Science concepts and
+                  secure a lucrative position.
+                </p>
+                <h2>Overview of Data Science and Data scientist</h2>
+                <p>
+                  Data science is all about uncovering hidden patterns in data
+                  that relate to trends, patterns, behaviour, and interpretation
+                  to enhance company decisions. Data Professionals who carry out
+                  these tasks are called data scientists and are generally
+                  termed "superheroes." As reported by Harvard, a data scientist
+                  is the most in-demand career worldwide.
+                </p>
+                <h2>Why Enrol in the Data Science Course?</h2>
+                <h3>
+                  <b>Is Data Science certification worth it?</b>
+                </h3>
+                <p>
+                  The answer is definitely <b>YES</b> for plenty of reasons.
+                  Billions of jobs are being created in the field of data
+                  science and AI as a result of the massive amount of data being
+                  generated by digitalization across all industries. Thus,
+                  professionals skilled in data analysis and insight extraction
+                  are in high demand. There is an extensive gap between supply
+                  and demand, which generates a lot of job opportunities with
+                  high salaries. Undoubtedly, data scientists are thought to be
+                  the most well-paid in the job market today. Since data
+                  generation is rising exponentially and there will always be a
+                  need for Data Science professionals, a career as a Data
+                  Scientist is both lucrative and long-lasting.
+                </p>
+                <ul>
+                  <li>
+                    A NASSCOM survey estimates that there are almost 1.4 lakh
+                    open positions in the fields of data science, AI and big
+                    data.
+                  </li>
+                  <li>
+                    According to the US Bureau of Labor Statistics, the number
+                    of data scientists' jobs is expected to increase by 36%
+                    between 2021 and 2031.
+                  </li>
+                  <li>
+                    Further, according to glassdoor ranking, Data Science is the
+                    best job to pursue in the coming years.
+                  </li>
+                </ul>
+                <h2>
+                  You May Wonder If Data Science Certification Is Worth It?
+                </h2>
+                <p>
+                  Indeed YES. Today, Data Science and Analytics are creating a
+                  huge number of jobs in all domains across the world. Business
+                  firms have realised the value of using past data analysis to
+                  help them make better decisions and grow their operations. All
+                  business areas benefit from digitalization, which facilitates
+                  data analysis and helps in data generation. As a result, many
+                  data science and analytics job opportunities are being
+                  created. Since there is a significant gap between the demand
+                  and supply for Data Scientists, salaries in the Data Science
+                  field are quite high and are among the highest in the
+                  industry. Due to the ongoing and future growth of online data
+                  collection, the career path for data scientists is extensive
+                  and rewarding.
+                </p>
+                <h2>
+                  Why Learnbay Is The Best Data Science Training Institute In
+                  <b>Chennai</b>
+                </h2>
+                <p>
+                  Learnbay provides the best{" "}
+                  <b>Data Science certification online training in Chennai</b>,
+                  along with 7+ domain electives. It also conducts live project
+                  sessions at multiple project innovative centres across 7+
+                  cities. The detailed description of the{" "}
+                  <b>Data Science courses in Chennai</b> are available in the
+                  course brochure.{" "}
+                </p>
+                <h2>Who Should Enrol in the Data Science Course?</h2>
+                <p>
+                  These professionals might consider taking a{" "}
+                  <b>Data Science course in Chennai</b> as the next genuine move
+                  to advance their career:{" "}
+                </p>
+                <ul>
+                  <li>
+                    Working Professional from any domain (including
+                    non-technical) who has coding, mathematical and analytical
+                    skills
+                  </li>
+                  <li>
+                    Working Professionals working on Data Warehousing, Business
+                    Intelligence (BI), and reporting tools
+                  </li>
+                  <li>Statisticians and Mathematicians</li>
+                  <li>Business analysts</li>
+                  <li>Software programmers</li>
+                  <li>
+                    Any Graduate with good Analytical skills and curiosity to
+                    learn
+                  </li>
+                </ul>
+                <h2>Interview Preparation Sessions</h2>
+                <p>
+                  Candidates will be kept under Learnbay's Placement Assistance
+                  Program once they have successfully completed the Data Science
+                  course training along with capstone+live projects. As part of
+                  this program, candidates will be subjected to a complete
+                  interview preparation process on Data Science and AI. The
+                  participants will also have access to a vast repository of{" "}
+                  <b>Data Science Interview questions and answers</b> to help
+                  them become confident and job-ready. A dedicated Data Science
+                  mentor will help with soft-skill training, resume/portfolio
+                  building, mock interviews and evaluate the skills and
+                  knowledge of each candidate, and provide feedback accordingly
+                  for further improvement. Our mentors will provide guidance and
+                  supervision during the interview preparation phase until the
+                  candidate is placed in the desired position. In addition,
+                  mentorship is provided on Linkedin profile building and
+                  insider tips for enhancing the marketability of a resume.{" "}
+                </p>
+              </>
+            ) : (
+              ""
+            )}
+            <p
+              style={{
+                color: "#2D9CD7",
+                fontWeight: "600",
+                textDecoration: "underline",
+                cursor: "pointer",
+              }}
+              onClick={handler}
+              className={styles.readP}
+            >
+              {read ? "View Less..." : "View More..."}
+            </p>
+          </div>
+        ) : (
+          ""
+        )}
         {cityText ? (
           <div className={styles.CitiesRightInner}>
             <p>
@@ -741,7 +992,16 @@ const CitiesRight = ({
             ) : (
               ""
             )}
-            <p style={{ color: "#2D9CD7", fontWeight: "600", textDecoration:"underline", cursor:"pointer" }} onClick={handler} className={styles.readP}>
+            <p
+              style={{
+                color: "#2D9CD7",
+                fontWeight: "600",
+                textDecoration: "underline",
+                cursor: "pointer",
+              }}
+              onClick={handler}
+              className={styles.readP}
+            >
               {read ? "View Less..." : "View More..."}
             </p>
           </div>

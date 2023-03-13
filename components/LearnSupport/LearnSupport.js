@@ -39,7 +39,7 @@ function LearnSupport({FsdNumber}) {
             </a> 
             <a href="tel:+919731135221">
               <button className={styles.btn2}>
-                <MdCall /> +91 973 113 5221
+                <MdCall /> +91 973 113 5221 
               </button>
             </a>
             </>
