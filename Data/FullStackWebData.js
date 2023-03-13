@@ -209,15 +209,12 @@ export const FullStackWebCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch  :- (Mon-Fri)",
+          title: "Weekday Evening Batch  :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 13th February 2023 (FSWD)",
-                  "Time : 7 AM to 9 AM",
-                ],
+                desc: ["Date : 31st March 2023 (FSWD)", "Time : 8 PM to 10 PM"],
               },
             },
           ],

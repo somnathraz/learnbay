@@ -32,88 +32,92 @@ const OfferPopup = ({
         <AiFillCloseCircle className={styles.Icon} onClick={handelOpen} />
         {WebDev ? (
           <>
-                      <div className={styles.Offer}>
-                <h6>
+            <div className={styles.Offer}>
+              <h6>
                 Kickstart your Tech Career with Full Stack Web Development
-                  Program
-                </h6>
-                {/* <p><b>{p1}</b></p> */}
-                <p>Available Batch Details :</p>
-                {/* <p>{p3}</p> */}
-                <li>
-                  <b>Weekday Morning</b>: 13th February, 7 AM to 9 AM
-                </li>
-  
-                {/* <li><b>{batch3}</b>{batch33}</li> */}
-                <p style={{ fontSize: "12px" }}>*Terms & Conditions applied.</p>
-                <a href="/submit-info" target="_blank">
-                  <button onClick={handelOpen} style={{ width: "100%" }}>
-                    Apply For Scholarship Now!
-                  </button>
-                </a>
-              </div>
-        </>
+                Program
+              </h6>
+              {/* <p><b>{p1}</b></p> */}
+              <p>Available Batch Details :</p>
+              {/* <p>{p3}</p> */}
+              <li>
+                <b>Weekday Evening</b>: 31st March, 8 PM to 10 PM
+              </li>
+
+              {/* <li><b>{batch3}</b>{batch33}</li> */}
+              <p style={{ fontSize: "12px" }}>*Terms & Conditions applied.</p>
+              <a href="/submit-info" target="_blank">
+                <button onClick={handelOpen} style={{ width: "100%" }}>
+                  Apply For Scholarship Now!
+                </button>
+              </a>
+            </div>
+          </>
         ) : (
           <>
-          {offer ? (
-            <>
-              <div className={styles.Offer}>
-                <h6>
-                  Ace Your Interview at MAANG with DSA & Software Development
-                  Program
-                </h6>
-                {/* <p><b>{p1}</b></p> */}
-                <p>Available Batch Details :</p>
-                {/* <p>{p3}</p> */}
-                <li>
-                  <b>Weekend Morning</b>: 12th March, 8 AM to 11 AM
-                </li>
-                <li>
-                  <b>Weekday Evening</b>: 17th March, 8 PM to 10 PM
-                </li>
-                {/* <li><b>{batch3}</b>{batch33}</li> */}
-                <p style={{ fontSize: "12px" }}>*Terms & Conditions applied.</p>
-                <a href="/submit-info" target="_blank">
-                  <button onClick={handelOpen} style={{ width: "100%" }}>
-                    Apply For Scholarship Now!
-                  </button>
-                </a>
-              </div>
-            </>
-          ) : (
-            <>
-              {" "}
-              <div className={styles.Offer}>
-                <h6>
-                  Special programming session starts from 7th to 9th March from
-                  8 AM to 10 AM
-                </h6>
-                {/* <h6>[ Month End Offer- 15% OFF ] Book Your Seat Now</h6> */}
-                {/* <p><b>{p1}</b></p> */}
-                <p>Available Batch Details :</p>
-                {/* <p>{p3}</p> */}
-                {/* <li>
+            {offer ? (
+              <>
+                <div className={styles.Offer}>
+                  <h6>
+                    Ace Your Interview at MAANG with DSA & Software Development
+                    Program
+                  </h6>
+                  {/* <p><b>{p1}</b></p> */}
+                  <p>Available Batch Details :</p>
+                  {/* <p>{p3}</p> */}
+                  <li>
+                    <b>Weekend Morning</b>: 12th March, 8 AM to 11 AM
+                  </li>
+                  <li>
+                    <b>Weekday Evening</b>: 17th March, 8 PM to 10 PM
+                  </li>
+                  {/* <li><b>{batch3}</b>{batch33}</li> */}
+                  <p style={{ fontSize: "12px" }}>
+                    *Terms & Conditions applied.
+                  </p>
+                  <a href="/submit-info" target="_blank">
+                    <button onClick={handelOpen} style={{ width: "100%" }}>
+                      Apply For Scholarship Now!
+                    </button>
+                  </a>
+                </div>
+              </>
+            ) : (
+              <>
+                {" "}
+                <div className={styles.Offer}>
+                  <h6>
+                    Special programming session starts from 7th to 9th March
+                    from 8 AM to 10 AM
+                  </h6>
+                  {/* <h6>[ Month End Offer- 15% OFF ] Book Your Seat Now</h6> */}
+                  {/* <p><b>{p1}</b></p> */}
+                  <p>Available Batch Details :</p>
+                  {/* <p>{p3}</p> */}
+                  {/* <li>
             <b>Weekend Morning</b>
             : 9th October, 08:30 AM to 12 PM
           </li> */}
-                <li>
-                  <b>Weekday Morning</b>: 10th March, 8 AM to 10 AM
-                </li>
-                <li>
-                  <b>Weekend Afternoon</b>: 12th March, 12:30 PM to 4 PM
-                </li>
-                {/* <li><b>{batch3}</b>{batch33}</li> */}
-                <p style={{ fontSize: "12px" }}>*Terms & Conditions applied.</p>
-                <a href="/submit-info" target="_blank">
-                  <button onClick={handelOpen} style={{ width: "100%" }}>
-                    Apply For Scholarship Now!
-                  </button>
-                </a>
-              </div>
-            </>
-          )}
+                  <li>
+                    <b>Weekday Morning</b>: 10th March, 8 AM to 10 AM
+                  </li>
+                  <li>
+                    <b>Weekend Afternoon</b>: 12th March, 12:30 PM to 4 PM
+                  </li>
+                  {/* <li><b>{batch3}</b>{batch33}</li> */}
+                  <p style={{ fontSize: "12px" }}>
+                    *Terms & Conditions applied.
+                  </p>
+                  <a href="/submit-info" target="_blank">
+                    <button onClick={handelOpen} style={{ width: "100%" }}>
+                      Apply For Scholarship Now!
+                    </button>
+                  </a>
+                </div>
+              </>
+            )}
           </>
-)}
+        )}
       </div>
     </>
   );

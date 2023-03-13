@@ -173,7 +173,7 @@ const CourseFee = ({
                       <AiOutlineBars className={styles.icon} />
                       <b>Batch Type</b>
                     </p>
-                    <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
+                    <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
                   </div>
                 </div>
                 <div>
@@ -182,7 +182,7 @@ const CourseFee = ({
                       <MdDateRange className={styles.icon} />
                       <b>Date</b>
                     </p>
-                    <p className={styles.list}>13th February 2023</p>
+                    <p className={styles.list}>31st March 2023</p>
                   </div>
                 </div>
                 <div>
@@ -191,7 +191,7 @@ const CourseFee = ({
                       <BiTimeFive className={styles.icon} />
                       <b>Time</b>
                     </p>
-                    <p className={styles.list}>7 AM to 9 AM</p>
+                    <p className={styles.list}>8 PM to 10 PM</p>
                   </div>
                 </div>
                 <div className={styles.btnWrapper}>
@@ -212,7 +212,7 @@ const CourseFee = ({
                         </p>
                         <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
                         <p className={styles.list}>
-                        Weekday Evening (Mon-Wed-Fri)
+                          Weekday Evening (Mon-Wed-Fri)
                         </p>
                       </div>
                     </div>
