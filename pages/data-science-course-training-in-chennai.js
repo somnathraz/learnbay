@@ -387,7 +387,7 @@ export default function Home() {
           dangerouslySetInnerHTML={{
             __html: ` {
 "@context": "http://schema.org",
-"@type": "EducationEvent","name": "Machine Learning Course Training In Chennai",
+"@type": "EducationEvent","name": "Data Science Course Training In Chennai",
 "description": "Learnbay offers a Data Science Course in Chennai, the most comprehensive Data Science course in the market, covering the complete Data Science lifecycle.",
 "image" : "https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png",
 "performer":"Learnbay", 
@@ -447,14 +447,13 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+          cityText={true}
           dataScience={true}
           deskTopPara="Foundational and Advance Job-ready Program"
           mTopPara="Foundational and Advance Job-ready Program"
           title="Data Science Course in Chennai"
           mTitle="Data Science Course in Chennai"
-          spanTitleText="Enroll Now"
-          spanMTitleText="Enroll Now"
-          desc="Enhance your Data Science career with our comprehensive Data Science course in Chennai with IBM Certification. Our advanced Data Science training in Chennai will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
+          desc="Enhance your Data Science career with our comprehensive Data Science course in Chennai with IBM Certification. Our advanced Data Science training in Chennai will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
           width="900"
           height="762"
@@ -511,7 +510,7 @@ export default function Home() {
         <div className="Feature" id="Feature">
           <BoxShape
             alt="data science course in chennai"
-            title="Why Enroll In Data Science Course Training in Chennai?"
+            title="Why Enroll in This Course?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -654,12 +653,7 @@ export default function Home() {
           </div>
         </div>
         <LearnSupport />
-        <CityText
-          CityTextB="Data Science Course Certification Training locations in Chennai "
-          CityText=" :  Anna Nagar [600040],Thousand Lights [600006], Adyar [600020],Nungambakkam [600034], Perambur [600011], OMR [600119], Guindy [600032], Thiruvanmiyur [600041],Perungudi [600096], Thoraipakkam [600097],Sholinganallur [600119], Siruseri [603103], Tambaram [600045], Velachery [600042], Meenambakkam [600027], Chrompet [600044], T nagar [600017],Chennai central [600020],Erukkancheri [600118],World University Centre [600031],Madras University [600005],Indian Institute Of Technology [600036]."
-          CityTextLB="Locations Offered"
-          CityTextL=" :  Data Science Training in Chennai, Data Science Course in Chennai, Data Science Training in Anna Nagar, Data Science Training in Guindy, Data Science Institute in Chennai, Data Science Training in Siruseri, Data Science Training in Perungudi, Data Science Training in OMR, Data Science Training Institute in Adyar, Data Science Course in Anna Nagar, Data Science Course in chrompet, Data Science Course in Velchery, Data Science Course Nungambakkam, Data Science Training in Thoraipakkam, Data Science Course in OMR, Data Science Training in Madras university, Data Science Training in Tambaram, Data Science Online Classes in Anna Nagar, Data Science Course in Indian Institute Of Technology , Data Science Training in Chennai, Data Science Certification in Chennai, Data Science Certification Training in Chennai, Data Science Certification in Anna Nagar, Data Science Certification in Adyar, Best Data Science Training, Best Data Science Course."
-        />
+        <CityText cityTextChennai={true} />
         <OfferPopup offer={false} />
         <Footer />
       </main>
