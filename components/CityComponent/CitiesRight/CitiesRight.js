@@ -286,9 +286,7 @@ const CitiesRight = ({
             <h2>
               <b>Data Science Course Training In Chennai</b>
             </h2>
-            {read ? (
-              <>
-                <p>
+            <p>
                   Learnbay offers a domain-specialised{" "}
                   <a
                     href="https://www.learnbay.co/data-science-course-training-in-chennai"
@@ -328,6 +326,8 @@ const CitiesRight = ({
                   from INR 75,000 to INR 125,000, depending on the preferred
                   course.
                 </p>
+            {read ? (
+              <>
                 <h2>
                   Why Choose Learnbay For A Data Science Course In{" "}
                   <b>Chennai</b>?

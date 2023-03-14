@@ -35,9 +35,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Data Science Course in Bangalore - Learnbay
-        </title>
+        <title>Data Science Course in Bangalore - Learnbay</title>
         <meta
           name="description"
           content="Learn Data Science Course in Bangalore from advanced certification oriented data science training institute with IBM Certified Trainers."
@@ -512,7 +510,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        cityText={true}
+          cityText={true}
           dataScience={true}
           deskTopPara="Foundational and Advance Job-ready Program"
           mTopPara="Foundational and Advance Job-ready Program"
@@ -712,7 +710,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-            cityText={true}
+              cityText={true}
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Choosing the correct domain affects your course and career. Our mentors and experts at Learnbay will guide you to choose the right domain after analyzing your profile. Your domain will help you understand the course and project better, and you will excel in the same domain as an expert once you complete advanced data science training in Bangalore by Learnbay."
               DomainBot2="Moreover, in today's competitive data science job market companies are lacking data scientists having core domain expertise. Just for an example, if you have been appointed as a data scientist in a pharmaceutical company then without the pharma or chemical knowledge you can’t offer the best achievable analytical reports/ insights. What domains do Learnbay data science certification courses in Bangalore have?"
@@ -838,8 +836,7 @@ export default function Home() {
           </div>
         </div>
         <LearnSupport />
-        <CityText
-        cityText={true}/>
+        <CityText cityText={true} />
         <OfferPopup offer={false} />
         <Footer />
       </main>
