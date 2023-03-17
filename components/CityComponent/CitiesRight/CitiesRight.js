@@ -354,9 +354,9 @@ const CitiesRight = ({
             <p>
               The Structured <b>data science course</b> consists of 4 - Terms:
             </p>
-            <h2>
+            <p>
               <b>Module 0: Cohort Orientation + Special Programming Classes</b>
-            </h2>
+            </p>
             <p>
               In this module, learners get a brief introduction to data-related
               tools. The module helps you easily learn about particular
@@ -441,11 +441,8 @@ const CitiesRight = ({
               <b>Module 6 - Time Series</b>
             </p>
             <h2>
-              <b>Term 3: Data Science Tools</b>
-            </h2>
-            <p>
               <b>Term 4: Artificial Intelligence Tools</b>
-            </p>
+            </h2>
             <p>
               <b>Module 1 - Deep Learning using TensorFlow</b>
             </p>
