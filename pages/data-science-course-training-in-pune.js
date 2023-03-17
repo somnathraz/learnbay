@@ -473,13 +473,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Foundational and Advance Job-ready Data Science Course"
-          mTopPara="Foundational and Advance Job-ready Data Science Course"
+          cityText={true}
+          deskTopPara="Foundational and Advanced Job-ready"
+          mTopPara="Foundational and Advanced Job-ready"
           title="Data Science Course in Pune"
           mTitle="Data Science Course in Pune"
-          spanTitleText="with Domain Specialization"
-          spanMTitleText="with Domain Specialization"
-          desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Data Science Training in Pune The data science course in Pune will help you to capitalize on your domain expertise on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+          desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Data Science Training in Pune. This course will help you to capitalize on your domain expertise on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
@@ -536,7 +535,7 @@ export default function Home() {
         <div className="Feature" id="Feature">
           <BoxShape
             alt="data science course training in pune"
-            title="Why Enroll In Data Science Course in Pune?"
+            title="Why Enroll in This Course?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Scientist role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -553,23 +552,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramHead1="Industrial Data science training in Pune"
-              ProgramBot1="Learnbay is a pioneer in current job market-oriented Data science training in Pune. Learnbay faculties are industrial experts in Data science. Faculty at Learnbay come from top companies with extensive experience in Data science. from top companies. Our mentors and guides share their experience and knowledge with students who dream of a lucrative and ever-growing career in the Data Science field. Developed in response to local industry needs, Learnbay's data science courses in Pune are tailored to meet their needs. These Data science courses are the ultimate powerhouse for working professionals planning to shift into Data science jobs."
-              ProgramBot2="Our course is well customized for making the candidates ready as per the current high demand for data scientist roles existing across the city. The course includes both practical and theoretical concepts for learning Data Science."
-              ProgramHead3="What do students get at Learnbay Data Science training in Pune?"
-              ProgramBot3="Learnbay provided data scientist courses in Pune offer 1 to 1 attention to every student. Also, by analyzing your career profiles and academic background, we provide you with the best possible custom-fit data science course syllabus."
-              ProgramBot31="Using Learnbay, students interested in data science can take continuously live, online classes from a wide range of experienced teachers, including IBM, Amazon, and others. Learnbay even provides IBM data science certification with job assistance."
-              ProgramHead4="Why is Learnbay a major Data Science training institute in Pune?"
-              ProgramBot4="Here, you get hassle-free live classes and a choice of multiple expert instructors. You also get a Data science course with a 100% job assistance and IBM certification. Learnbay offers flexible subscriptions and access to any batches and instructors at your convenience. You can even attend multiple sessions with different instructors. Every data science certification training in Pune includes one-on-one live question-clearing sessions with skilled MAANG data scientists. Learners can pause, continue and complete their course within one to three years (timeline varies from course to course) after enrollment. Learnbay's unique cloud lab feature provides access to live Data science projects from MNCs and even offers guidance from industrial leads. In this way, you can experience full-stack data science courses in Pune without leaving your job."
-              ProgramHead5="Available Data Science and AI Certification Courses at Learnbay in Pune are:"
-              Courselink1="/data-science-certification-courses"
-              Courselink2="/advance-data-science-certification-courses"
-              Courselink4="/data-science-ai-for-managers"
-              Courselink5="/data-science-ai-masters-program"
-              Course1="Foundational Data Science and AI Program"
-              Course2="Advanced-Data Science and AI Program with Domain Specialization"
-              Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="Data Science and AI master program"
+            cityTextDSPune={true}
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Students learning data science at Learnbay get a list of specialized domains. Learnbay mentors analyze a student's profile and then suggest the right domain(s) as choosing the right domain is very important to get successfully employed as a data scientist. The domain helps students learn data science skills with a greater degree of expertise."
               DomainBot2="In addition to seeking a skilled data scientist, many businesses also seek experts in particular fields. Learnbay plays an important role in data science training across Pune from this perspective by allowing students to select their own domain. Also, the data science learning modules you get are completely customized as per your chosen domain’s industry-level data scientific needs."

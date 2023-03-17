@@ -243,6 +243,7 @@ const CitiesRight = ({
   ProgramBotItaliic31,
   cityText,
   cityTextDSChennai,
+  cityTextDSPune,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -254,6 +255,389 @@ const CitiesRight = ({
         <div className={styles.CitiesRightSpan}>
           <span>About The Program</span>
         </div>
+        {cityTextDSPune ? (
+          <div className={styles.CitiesRightInner}>
+            <p>
+              The <b>Data Science Course in Pune</b> provided by Learnbay
+              promotes live training by industrial experts in Data Science. The
+              online training is structured keeping in mind the local industry
+              needs. You can get a lucrative and ever-growing career in this
+              field with the skills and expertise gained. Data Science,
+              Artificial Intelligence, and Machine Learning are continuously
+              transforming the business landscape in the 21st century, and
+              Learnbay’s <b>Data Science Training in Pune</b> is tailored to
+              meet your needs. It’s good to deeply understand a subject to get a
+              rewarding career.
+            </p>
+            <p>
+              Industry experts design our <b>Data Science course</b> in the best
+              way to promote both theoretical and practical knowledge
+              cost-effectively. Data Science is one of the most rewarding
+              professions in the 21st Century. The course is customized
+              according to the current high demand for data scientist roles.{" "}
+            </p>
+            <p>
+              Whether a fresher or a software professional, you will get live
+              high-quality training from our experts. The technological outburst
+              has made it necessary to have the required knowledge and skills to
+              operate in the technology sector. Because massive amounts of data
+              are being produced daily in different sectors, it has become an
+              essential part of almost every company.
+            </p>
+            <p>
+              A data scientist uses modern tools and techniques to drive
+              meaningful information and make decisions. Learnbay’s{" "}
+              <b>Data Science Course in Pune</b> is designed to help you learn
+              about Data Science from scratch according to your domain. Research
+              shows that the top skills required to become a data scientist are
+              analysis, communication, statistics, deep learning, machine
+              learning, and artificial Intelligence, among many others.
+            </p>
+            <p>
+              Our <b>Data Science course in Pune</b> is a two to three year
+              subscription program. We have collaborated with IBM to provide a{" "}
+              <b>data science certification course</b>. They are globally
+              recognized and guarantee 100% job assistance. One-on-one,
+              personalized, live doubt-clearing sessions with skilled MAANG data
+              scientists make Learnbay different from the rest. Its unique cloud
+              lab feature provides access to live Data science projects from
+              MNCs and even offers guidance from industrial leads. This way, you
+              can learn data science without leaving your job.
+            </p>
+            <p>
+              Learners at Learnbay get a list of specialized domains. To work as
+              a data scientist, you must choose the right domain. The career
+              experts at Learnbay analyze the profiles and suggest the best
+              course according to your domain. It helps you to learn the
+              necessary skills with a greater degree of expertise.{" "}
+            </p>
+            <p>
+              A Forbes study has found that 2.5 quintillion bytes of data are
+              created each passing day. It is where the role of a data scientist
+              comes in. They are responsible for analyzing and organizing such
+              huge data for organizations. It, in turn, creates ample
+              opportunities.{" "}
+            </p>
+            {read ? (
+              <>
+              <p>The <b>data science learning modules</b> you get at Learnbay are
+              customized according to the domain you have chosen while keeping
+              in mind the industry requirements. The course provided by us will
+              not only make you a skilled data scientist but will also make you
+              an expert in particular fields. Learnbay plays an important role
+              since you get to choose your specialized domain.{" "}
+            </p>
+            <p>
+              The <b>data science course</b> is a complete training course
+              covered using multiple modules. Learners from a non-technical
+              background receive special coding classes to get along with
+              learners who know the technicalities. The modules include{" "}
+            </p>
+            <ul>
+              <li>Cohort Orientation</li>
+              <li>Special Programming Classes</li>
+              <li>Basic Python Programming</li>
+              <li>Advanced Python Programming </li>
+              <li>Statistics and Machine Learning </li>
+              <li>SQL</li>
+              <li>Big Data and Spark Analytics</li>
+              <li>Deep Learning</li>
+              <li>NLP </li>
+              <li>Deployment (AWS + GCP)</li>
+            </ul>
+            <p>
+              <b>
+                The Data Scientist course in Pune has 9 months (300+ hours)
+                duration.
+              </b>
+            </p>
+            <p>
+              The Structured <b>data science course</b> consists of 4 - Terms:
+            </p>
+            <h2>
+              <b>Module 0: Cohort Orientation + Special Programming Classes</b>
+            </h2>
+            <p>
+              In this module, learners get a brief introduction to data-related
+              tools. The module helps you easily learn about particular
+              real-time projects and Capstone projects. Learners also gain a
+              thorough knowledge of the fundamental relevance of projects using
+              data and the role of data in business. The cohort orientation also
+              teaches the significance of data in decision-making. You learn
+              data utilization to enhance industrial operations and management.
+            </p>
+            <p>
+              Special Programming classes are designed to teach learners the
+              types of code editors in Python, introduction to Anaconda and
+              Jupyter notebook, Flavors of Python, Introduction to Git, Github,
+              and Python Fundamentals. You also learn the difference between
+              Source Code vs. Byte Code vs. Machine Code. The fundamentals of
+              statistics help them to learn to mean, median, mode, standard
+              deviation, average, probability, and introduction to linear
+              algebra.{" "}
+            </p>
+            <h2>
+              <b>Term 1 - Python Programming (Basic and Advanced)</b>
+            </h2>
+            <p>
+              <b>Module 1</b>
+            </p>
+            <p>
+              This module provides full-time dedicated sessions. Experts carry
+              out the sessions through Live Instructor-Led Online Training. The
+              module equips you with knowledge about program basics and
+              environment setup, python programming overview, strings,
+              decisions, and loop control Python data types, functions and
+              modules, File I/O and Exceptional Handling and Regular Expression,
+              Data Analysis using NumPy, Data Analysis using Pandas, Data
+              Visualization using Matplotlib, and Data Visualization using
+              Seaborn.
+            </p>
+            <h2>
+              <b>Term 2: Statistics and Machine Learning</b>
+            </h2>
+            <p>
+              <b>Module 1: Statistics</b>
+            </p>
+            <p>
+              This is an essential module focusing on different statistics and
+              data processing methods. In this module, you learn about the
+              fundamentals of Maths and probability, an introduction to
+              statistics, and statistical learning. The modules also cover
+              Linear Algebra, Data Processing, Exploratory Data Analysis, and
+              EDA. It consists of 4 practice sets and assignments.{" "}
+            </p>
+            <p>
+              <b>Module 2: Machine Learning</b>
+            </p>
+            <p>
+              In this module of Learnbay’s data science course, you learn about
+              regression and classification models, linear regression models,
+              data preprocessing, evaluation metrics for classification models,
+              Decision Tree Models, Random Forest Models, Hyperparameter Tuning,
+              and Naive Baye’s model. The module also provides in-depth
+              knowledge about K means and Hierarchical Clustering, Principal
+              Component Analysis, and Support Vector Machine.{" "}
+            </p>
+            <h2>
+              <b>Term 3: Data Science Tools</b>
+            </h2>
+            <p>
+              <b>Module 1 - SQL</b>
+            </p>
+            <p>
+              <b>Module 2 - Mongo DB </b>
+            </p>
+            <p>
+              <b>Module 3 - Tableau</b>
+            </p>
+            <p>
+              <b>Module 4 - PowerBI</b>
+            </p>
+            <p>
+              <b>Module 5 - Big Data and Spark Analytics</b>
+            </p>
+            <p>
+              <b>Module 6 - Time Series</b>
+            </p>
+            <h2>
+              <b>Term 3: Data Science Tools</b>
+            </h2>
+            <p>
+              <b>Term 4: Artificial Intelligence Tools</b>
+            </p>
+            <p>
+              <b>Module 1 - Deep Learning using TensorFlow</b>
+            </p>
+            <p>
+              <b>Module 2 - Natural Language Processing</b>
+            </p>
+            <p>
+              <b>Module 3 - Model Training and Deployment using ( AWS GCP) </b>
+            </p>
+            <h2>
+              <b>Premium Features of Data Scientist Training in Pune</b>
+            </h2>
+            <ol type="1">
+            <li>
+              <b>Classroom Session </b>: What’s better than getting
+              assistance both in online and offline mode? Experts from MAANG and
+              MNCs help you throughout the process. You can also attend
+              classroom sessions.{" "}
+            </li>
+            <li>
+              <b>One-on-One Dedication </b>: Every learner gets a live
+              interactive session with the experts. An industry expert guides
+              every session. Technical support is provided to the learners
+              around the clock.
+            </li>
+            <li>
+              <b>Two-year Subscription </b>: You can get unlimited access to
+              your learning materials and project sessions. If you are a
+              professional, you can switch between weekends and workdays. You
+              get the flexibility to create your learning calendar.
+            </li>
+            <li>
+              <b>Guaranteed Interview Calls </b>: We partner with 250+ Top
+              MNCs & FinTech Startups. Many of our learners have grabbed
+              placements in their dream companies. The placement cell is
+              dedicated to ensuring a smooth career transition for you.
+            </li>
+            <li>
+              <b>Mock Interviews </b>: Learnbay allows you to participate in
+              mock interviews to sharpen your skills. This ensures an
+              improvement in your interview success rate. It also builds your
+              confidence to ace the interviews in your dream company.
+            </li>
+            </ol>
+            <h2>
+              <b>Other Courses We Offer in Data Science</b>
+            </h2>
+            <p>
+              <b>Data Science Foundation Program</b> : This program is designed
+              for beginners who want to kick-start their career in Data Science.
+              In this course, you are introduced to Data Science along with
+              Python Programming. The course also clearly explains Data
+              Analytics vs. Business Analytics vs. Big Data. You also work on
+              hands-on projects, which will help you get real-world experience.
+              The course gives you a rigorous 200+ hours of learning at just
+              ₹75,000 + 18% GST.{" "}
+            </p>
+            <p>
+              <b>Advanced-Data Science and AI Program</b> : If you wish to dive
+              deep into the field of Data Science, this course is the right fit
+              for you. The experts at Learnbay will help you develop solid
+              knowledge. The course teaches you Deep Learning and Neural
+              Networks. You can choose this if you want to switch your domain.
+              You get 250+ hours of learning at just ₹95,000 + 18% GST.
+            </p>
+            <p>
+              <b>Data Science and AI for Managers and Leaders</b> : This data
+              science course is best suited if you are a professional with over
+              8 years of experience in any field. Our industrial experts help
+              you make a switch as a professional and not a fresher. The
+              domain-specific industrial projects help you to break through the
+              crowd and stand out among the rest. You can also attend classroom
+              sessions and get assistance in online and offline project
+              sessions. The program fee is just ₹1,05,000 + 18% GST. Our experts
+              make you interview-ready, and the placement cell ensures you get
+              guaranteed interview calls from FinTech Startups and Top MNCs.
+            </p>
+            <p>
+              <b>Data Science and AI Master Program</b> : This course covers all
+              the skills a data scientist must possess. The MAANG and MNC
+              experts guide the working professionals having experience in any
+              domain. The trainers have 8+ years of experience and provide 500+
+              hours of training. You can opt for either a weekday or a weekend
+              batch. The course teaches you data structure algorithms, Business
+              Analytics, and the basics. To make your experience relevant,
+              Leanbay’s Data Science Course helps you work on domain-specific
+              industrial projects. The 3-year subscription gives you limitless
+              access to learning materials. The course comes at just ₹1,25,000 +
+              18% GST.
+            </p>
+            <h2>
+              <b>Available Domains at Learnbay Data Science Course in Pune</b>
+            </h2>
+            <p>Some available domains are </p>
+            <ol type="1">
+              <li>
+                <b>Data Science for Sales and Marketing Professionals</b> : Your
+                data science abilities are useless without domain expertise.
+                From inventory management to merchandising, data science applies
+                in most areas of sales and marketing. Targeting valuable
+                customers has become an easy task now.
+              </li>
+              <li>
+                <b>Data Science for HR</b> : Did you know you can reduce
+                employee turnover rates by having a data scientist on your team?
+                Online data science training helps you find opportunities to
+                boost employee engagement, creating an effective workforce.
+              </li>
+              <li>
+                <b>Data Science for Healthcare Workers</b> : Data Science has
+                paved its way in the healthcare domain as well. From predicting
+                diseases early to collecting and sending real-time updates to
+                doctors, it has helped devise treatments efficiently.{" "}
+              </li>
+              <li>
+                <b>Data Science in BFSI Domain</b> : Data Science in the BFSI
+                domain help in fraud detection, enhancing customer support, and
+                improving operational efficiency. A Data Science course helps
+                you gain an advantage over others in the same field.{" "}
+              </li>
+              <li>
+                <b>
+                  Data Science in Manufacturing, Automotive, and Telecom Domain
+                </b>{" "}
+                : The online data science training in this domain helps you
+                learn how data is collected in different manufacturing settings.
+                It also gives you a brief knowledge of the telecom sector’s
+                network performance improvement.{" "}
+              </li>
+              <li>
+                <b>Data Science in Oil, Gas, and Energy Domain</b> : A data
+                science course in this domain teaches you the role of analytics
+                and data science in the energy sector and oil and gas industry.
+              </li>
+              <li>
+                <b>Data Science in Media, Hospitality, and Transport Domain</b>{" "}
+                : This course teaches you everything from identifying hotel
+                issues to satisfying customer needs by improving business
+                strategies.{" "}
+              </li>
+            </ol>
+            <p>
+              Learnbay provides its learners with flexible training options. You
+              can choose online or offline training sessions to avail the{" "}
+              <b>data science course in Pune</b>. You can also access recorded
+              lecture videos to learn anytime you want.{" "}
+            </p>
+            <p>
+              The experts have predicted that by 2026, the industry will have
+              1105 million data scientist jobs. Both private and public sector
+              firms need data scientists to function efficiently.{" "}
+            </p>
+            <p>
+              Ever found yourself wondering about the{" "}
+              <b>Best Data Science Training Institute in Pune</b>? Well, this is
+              the right place for you. Learnbay provides you with live training
+              at affordable prices. Want to stand out in your domain? Take the
+              course by{" "}
+              <a
+                href="https://www.learnbay.co/data-science-course-training-in-pune"
+                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                target="_blank"
+              >
+                Learnbay Institute
+              </a>
+              , as this will be one of the best career choices you will ever
+              make.{" "}
+            </p>
+            <p>
+              Also, did you know that the average{" "}
+              <b>data scientist salary in Pune</b> is ₹8,20,000 per year?
+              Learnbay’s <b>online data science training </b>allows you to break
+              through your career in this field!
+            </p>
+            </> 
+            ) : ("")}
+            <p
+              style={{
+                color: "#2D9CD7",
+                fontWeight: "600",
+                textDecoration: "underline",
+                cursor: "pointer",
+              }}
+              onClick={handler}
+              className={styles.readP}
+            >
+              {read ? "View Less..." : "View More..."}
+            </p>
+          </div>
+        ) : (
+          ""
+        )}
         {cityTextDSChennai ? (
           <div className={styles.CitiesRightInner}>
             <h2>
@@ -287,45 +671,44 @@ const CitiesRight = ({
               <b>Data Science Course Training In Chennai</b>
             </h2>
             <p>
-                  Learnbay offers a domain-specialised{" "}
-                  <a
-                    href="https://www.learnbay.co/data-science-course-training-in-chennai"
-                    style={{ color: "#2D9CD7", fontWeight: "600" }}
-                    target="_blank"
-                  >
-                    Data Science course in Chennai
-                  </a>
-                  , the most comprehensive Data Science training in the market,
-                  covering the basic to advanced concepts of Data Science
-                  process from Data Collection, Data Extraction, Data Cleaning,
-                  Data Exploration, Feature Engineering, model building, Data
-                  Visualization and implementing the solution. Further,
-                  statistical Analysis, Tableau, Hadoop, Regression Modelling,
-                  Predictive Analytics,{" "}
-                  <a
-                    href="https://www.learnbay.co/machine-learning-course-training-in-chennai"
-                    style={{ color: "#2D9CD7", fontWeight: "600" }}
-                    target="_blank"
-                  >
-                    Machine Learning
-                  </a>
-                  , NLP, Neural Networks, and programming languages like Python
-                  and R are just a few of the tools and skills covered in-depth
-                  during this data science training.
-                </p>
-                <p>
-                  Learnbay is said to be the best{" "}
-                  <b>Data Science training institute in Chennai</b> which
-                  provides exclusive services from hands-on practical sessions
-                  to placement as part of the Data science training with around
-                  1000+ students placed in MNCs such as Accenture, TCS, Infosys,
-                  EY, IBM, and others. Learnbay delivers rigorous{" "}
-                  <b>Data Science online training in Chennai</b> and is
-                  considered the best in the industry. The{" "}
-                  <b>data science course fee</b> at Learnbay institute ranges
-                  from INR 75,000 to INR 125,000, depending on the preferred
-                  course.
-                </p>
+              Learnbay offers a domain-specialised{" "}
+              <a
+                href="https://www.learnbay.co/data-science-course-training-in-chennai"
+                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                target="_blank"
+              >
+                Data Science course in Chennai
+              </a>
+              , the most comprehensive Data Science training in the market,
+              covering the basic to advanced concepts of Data Science process
+              from Data Collection, Data Extraction, Data Cleaning, Data
+              Exploration, Feature Engineering, model building, Data
+              Visualization and implementing the solution. Further, statistical
+              Analysis, Tableau, Hadoop, Regression Modelling, Predictive
+              Analytics,{" "}
+              <a
+                href="https://www.learnbay.co/machine-learning-course-training-in-chennai"
+                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                target="_blank"
+              >
+                Machine Learning
+              </a>
+              , NLP, Neural Networks, and programming languages like Python and
+              R are just a few of the tools and skills covered in-depth during
+              this data science training.
+            </p>
+            <p>
+              Learnbay is said to be the best{" "}
+              <b>Data Science training institute in Chennai</b> which provides
+              exclusive services from hands-on practical sessions to placement
+              as part of the Data science training with around 1000+ students
+              placed in MNCs such as Accenture, TCS, Infosys, EY, IBM, and
+              others. Learnbay delivers rigorous{" "}
+              <b>Data Science online training in Chennai</b> and is considered
+              the best in the industry. The <b>data science course fee</b> at
+              Learnbay institute ranges from INR 75,000 to INR 125,000,
+              depending on the preferred course.
+            </p>
             {read ? (
               <>
                 <h2>
