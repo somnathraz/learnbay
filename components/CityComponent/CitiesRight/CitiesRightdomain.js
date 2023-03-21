@@ -46,6 +46,7 @@ const CitiesRight = ({
      src1, src2, src3, src4, ProjectsH1, ProjectsH2, ProjectsH3, ProjectsH4, Projectsp1, Projectsp2, Projectsp3, Projectsp4,
      Asrc1, AlumniH1, Alumnip1, Asrc2, AlumniH2, Alumnip2, Asrc3, AlumniH3, Alumnip3, Asrc4, AlumniH4, Alumnip4, 
      alt1, alt2, alt3, alt4, alt5, alt6, alt7, alt8, alt9,
+     cityTextDAbangalore,
   }) => {
   return (
     <section className={styles.CitiesRightHead}>
@@ -53,6 +54,64 @@ const CitiesRight = ({
             <div className={styles.CitiesRightSpan}>
                 <span>About The Program</span>
             </div>
+            {cityTextDAbangalore ? (
+          <div className={styles.CitiesRightInner}>
+          <p>
+          Learnbay is a global training institute for <b>data analytics programs</b> with a comprehensively structured curriculum demonstrating all-around training. Learnbay offers flexible learning options, such as live interactive classes, excellently recorded sessions, and offline project innovation lab sessions. The online classes are conducted Batch wise (Weekdays and weekends Batch) as per the convenience of working professionals. Our data analytics programmes are accredited by IBM. Join Learnbay to get a dedicated hands-on training environment at a budget-friendly price.
+            </p>
+            <p>The duration of Learnbay’s <b>Data Analytics Courses</b> is 6 months, and they are available in <b>data analytics training online in Bangalore</b> and offline data analytics project sessions format, with a five-phase transition process: </p>
+            <p><b>Phase 1 - </b>Learning Phase <br />
+Students will be given access to live, interactive classes using Learnbay LMS to help them complete the structured curriculum as they prepare for the upcoming modules. They will be equipped with every concept from basics to advanced by industry experts. 
+For non-technical aspirants, Learnbay also offers special programming classes to help them get in line with their batchmates and grasp the concepts better..
+</p>
+            <p><b>Phase 2 - </b>Assessments<br />
+Students will be asked to work on certain assignments and real-time case studies on data analytics to evaluate their skill sets learned throughout the training. 
+</p>
+            <p><b>Phase 3 - </b>Live Projects<br />
+Students will have the opportunity to work on 15+ real-time data analytics projects based on the selected domain to acquire experiential learning and be prepared for the real world. 
+</p>
+            <p><b>Phase 4 - </b>IBM Certification<br />
+This is the main phase where students will receive IBM Data Analytics Certification. After completing data analytics modules, capstone, and live projects, you will be eligible to obtain globally recognized IBM certification.
+</p>
+            <p><b>Phase 5 - </b>Job Assistance Program and Interview Calls <br />
+Finally, students get one-on-one mentorship with the help of industry experts, which includes soft skill training, resume building, and unlimited mock interviews. After profile grooming, applicants will receive guaranteed multiple interview calls directly from leading startups and MNCs.
+</p>
+<p>Whether you want to work as a data analyst or simply enhance your resume with in-demand data skills, you may have wondered if you need a <b>data analytics certification in Bangalore</b>. Since our course is comprehensive as a whole, students are taught everything from the ground up ranging from basics to advanced. </p>
+<p>There are thousands of <b>data analytics programmes in Bangalore</b> that are offered both online and offline, and each one may have a financial stake in encouraging you that you need one. We even provide a certification programme for data analysts at Learnbay. Our IBM-Certified <b>Data Analyst Course Fee in Bangalore</b> is INR 75,000, excluding GST.</p>
+<p>But What do these Data analysts do? 
+Data Analysts generally solve complex business problems by helping them make informed decisions. Today, Data Analytics has become an essential key tool as it helps upgrade business, enhance decision-making, boost revenue, and provide the biggest edge over competitors. 
+</p>
+<p>Data analytics technologies and services are in huge demand all over the world right now. A survey reported that there will likely be over 250,000 new job openings in data analytics available in 2023,  which is about 60% higher than the demand in 2020.
+</p>
+<p><b>Bangalore</b> is a well-known IT hub in India, and the home of some of the largest IT firms in the world. It is challenging to find such top-notch training within your means, given the booming industry Data Analytics and Data Science have become.
+</p>
+<p>Learnbay covers the latest technologies, such as Advanced Excel, Tableau, SQL, Power BI, Python, and R programming, in our <b>data analytics course in Bangalore</b>. We offer domain-specific data analytics certification courses to help you develop the skills to take one step closer to obtaining your desired job in MNCs.
+</p>
+<p>There are many rewarding career opportunities in <b>data analytics in Bangalore</b>, where there is very competitive pay. Hence, determining salary and growth targets might be challenging. As mentioned in Payscale.com, the average <b>salary of a data analyst in Bangalore</b> is INR 5,89,742 per year. However, Glassdoor has reported that a data analyst in Bangalore earns an average pay of 6,50,000 annually.</p>
+<p>By 2029, the global big data analytics market will grow to over USD 650 billion. In 2023, we can expect a greater emphasis on real-time data analytics as businesses implement multiple tactics to gain a competitive advantage.
+Furthermore, LinkedIn and the US Bureau of Labor have confirmed that the position of Data Analyst will be the most in demand in 2023 and beyond.
+</p>
+<p>Apart from the data analytics courses, Learnbay also provides <a
+                href="https://www.learnbay.co/data-science-course-training-in-bangalore"
+                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                target="_blank"
+              >data science</a>,  <a
+              href="https://www.learnbay.co/machine-learning-course-training-in-bangalore"
+              style={{ color: "#2D9CD7", fontWeight: "600" }}
+              target="_blank"
+            >machine learning</a>, <a
+            href="https://www.learnbay.co/business-analytics-course-training-in-bangalore"
+            style={{ color: "#2D9CD7", fontWeight: "600" }}
+            target="_blank"
+          >business analytics</a>, and <a
+            href="https://www.learnbay.co/artificial-intelligence-ai-course-training-bangalore"
+            style={{ color: "#2D9CD7", fontWeight: "600" }}
+            target="_blank"
+          >artificial intelligence courses in Bangalore</a>.
+What are you waiting for? Grab your chance and register for the best <b>Data Analytics Training in Bangalore</b> Now! 
+</p>
+      </div>
+        ) : (
             <div className={styles.CitiesRightInner}>
                 <h2 className={styles.pHead}>{ProgramHead1}</h2>
                 <h2 className={styles.pHead}>{ProgramHead2}</h2>
@@ -75,6 +134,7 @@ const CitiesRight = ({
                 <p className={styles.pp}>{ProgramBot10}</p>
 
             </div>
+            )}
         </div>
         <div id="Certification">
             <div className={styles.CitiesRightSpan}>
