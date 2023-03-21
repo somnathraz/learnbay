@@ -3,6 +3,8 @@ import styles from "./CitiesRight.module.css";
 import { BsClock } from "react-icons/bs";
 import { FiCheck } from "react-icons/fi";
 import Link from "next/link";
+import YoutubeVideo from "../../YoutubeVideo/YoutubeVideo";
+
 
 const CitiesRight = ({
   ProgramHead1,
@@ -255,6 +257,9 @@ const CitiesRight = ({
         <div className={styles.CitiesRightSpan}>
           <span>About The Program</span>
         </div>
+        {/* {cityTextDAbangalore ? ("") : ("")} */}
+
+
         {cityTextDSPune ? (
           <div className={styles.CitiesRightInner}>
             <p>
@@ -1368,6 +1373,7 @@ const CitiesRight = ({
                   </a>
                   , along with data science courses.
                 </p>
+                <YoutubeVideo/>                
               </>
             ) : (
               ""

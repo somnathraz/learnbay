@@ -378,13 +378,14 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
+          cityText={true}
           deskTopPara="IBM Certified Industry-paced Training"
           mTopPara="IBM Certified Industry-paced Training"
-          spanTitleText="For Professionals"
-          spanMTitleText="For Professionals"
-          title="Data Analytics Courses Online Training in Bangalore"
-          mTitle="Data Analytics Courses Online Training in Bangalore"
-          desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
+          // spanTitleText="For Professionals"
+          // spanMTitleText="For Professionals"
+          title="Online Data Analytics Course in Bangalore"
+          mTitle="Online Data Analytics Course in Bangalore"
+          desc="Enhance your Data Analyst career with our comprehensive Data Analytics course in Bangalore with IBM Certification. Our advanced Data Analytics training in Bangalore will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data analytics and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png"
           width="900"
           height="762"
