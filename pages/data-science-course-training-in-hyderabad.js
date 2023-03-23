@@ -488,13 +488,14 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
+          cityText={true}
           deskTopPara="Foundational and Advance Job-ready Program"
           mTopPara="Foundational and Advance Job-ready Program"
-          title="Data Science Course in Hyderabad - "
-          mTitle="Data Science Course in Hyderabad - "
-          spanTitleText="Enroll Now"
-          spanMTitleText="Enroll Now"
-          desc="Enhance your Data Science career with our comprehensive Data Science course in Hyderabad with IBM Certification. Our advanced Data Science training in Hyderabad will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
+          title="Data Science Course in Hyderabad"
+          mTitle="Data Science Course in Hyderabad"
+          // spanTitleText="Enroll Now"
+          // spanMTitleText="Enroll Now"
+          desc="Enhance your Data Science career with our comprehensive Data Science course in Hyderabad with IBM Certification. Our advanced Data Science training in Hyderabad will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
@@ -568,22 +569,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramHead1="What is a Data science training course in Hyderabad?"
-              ProgramBot1="The data science course in Hyderabad offered by Learnbay is an exclusive data science training Bootcamp for anyone interested in becoming an industry competent data scientist. Learnbay’s IBM certified advanced Data science course was created with great care by industry specialists. Our professors are Industry-leaders with a decade of experience. Learnbay mentors make sure you learn everything from scratch and according to the complex industrial requirements."
-              ProgramBot2="Learnbay’s advanced Data science certification in the Hyderabad curriculum helps students learn in-demand Data science skills such as programming, data visualization, statistics, and other topics."
-              ProgramHead3="What do candidates get in the  Advanced data science courses in Hyderabad?"
-              ProgramBot3="For a richer learning experience, Learnbay focuses on providing both practical and theoretical learning modules. Moreover, Our advanced Data science certification in Hyderabad is cost-effective and even offers an MNC interview guarantee. Besides, you can choose a data science course with a job or 100% money-back assurance at Learnbay. In case you find yourself too weak in statistics, and you are not able to cope with the complexity of the advanced data science modules, you can opt for the Foundational data science learning module."
-              ProgramBot32="So Learnbay is able to fulfill every aspirant's data science learning needs in Hyderabad."
-              ProgramBot4="Here, Students get one-on-one counseling sessions with a Data science career expert and a one to three-year Flexi pass ( based on course selection), allowing them to attend any live classes whenever they want. You may also use your mobile device to access Learnbay LMS for more convenient learning. Learnbay's advanced data science course in Hyderabad offers you the flexibility of attending various sessions with different professors. Another factor of our data science IBM certification In Hyderabad is that you can choose from a range of Foundational or Advanced Data science courses depending on your present professional level. Each of these courses is organized into modules based on your previous job."
-              ProgramHead5="Data Science Courses by Learnbay in Hyderabad :"
-              Courselink1="/data-science-certification-courses"
-              Courselink2="/advance-data-science-certification-courses"
-              Courselink4="/data-science-ai-for-managers"
-              Courselink5="/data-science-ai-masters-program"
-              Course1="Foundational Data Science and AI Program"
-              Course2="Advanced-Data Science and AI Program with Domain Specialization"
-              Course4="Data Science and AI Program for Managers and Leaders"
-              Course5="Data Science and AI master program"
+              cityTextDSHyderabad={true}
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Our domain-specific courses are intended to assist students in approaching the complexities of business problems from a certain industry or domain with the most profitable data scientific solutions."
               DomainBot2="A domain-specific Data scientist will have a much better grasp of the domain and its nuances and the essential business concerns that must be addressed. Recruiters are looking for domain-specific Data scientists at present. One cannot deliver precise analytical insights without subject understanding. As a result, it's critical to select courses that include domain electives."
