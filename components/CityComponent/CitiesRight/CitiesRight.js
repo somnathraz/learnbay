@@ -323,8 +323,6 @@ const CitiesRight = ({
               huge data for organizations. It, in turn, creates ample
               opportunities.{" "}
             </p>
-            {read ? (
-              <>
               <p>The <b>data science learning modules</b> you get at Learnbay are
               customized according to the domain you have chosen while keeping
               in mind the industry requirements. The course provided by us will
@@ -621,20 +619,6 @@ const CitiesRight = ({
               <b>data scientist salary in Pune</b> is ₹8,20,000 per year?
               Learnbay’s <b>online data science training </b>allows you to break
               through your career in this field!
-            </p>
-            </> 
-            ) : ("")}
-            <p
-              style={{
-                color: "#2D9CD7",
-                fontWeight: "600",
-                textDecoration: "underline",
-                cursor: "pointer",
-              }}
-              onClick={handler}
-              className={styles.readP}
-            >
-              {read ? "View Less..." : "View More..."}
             </p>
           </div>
         ) : (
@@ -951,8 +935,6 @@ const CitiesRight = ({
               online course is conducted via live interactive classes by
               industry trainers.
             </p>
-            {read ? (
-              <>
                 <p>
                   <b>Learnbay</b>, in Bangalore, offers certification programs
                   in collaboration with <b>IBM</b>, which are globally
@@ -1374,22 +1356,6 @@ const CitiesRight = ({
                   , along with data science courses.
                 </p>
                 <YoutubeVideo/>                
-              </>
-            ) : (
-              ""
-            )}
-            <p
-              style={{
-                color: "#2D9CD7",
-                fontWeight: "600",
-                textDecoration: "underline",
-                cursor: "pointer",
-              }}
-              onClick={handler}
-              className={styles.readP}
-            >
-              {read ? "View Less..." : "View More..."}
-            </p>
           </div>
         ) : (
           <div className={styles.CitiesRightInner}>
