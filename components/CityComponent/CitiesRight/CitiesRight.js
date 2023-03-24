@@ -1362,48 +1362,36 @@ const CitiesRight = ({
         {cityText ? (
           <div className={styles.CitiesRightInner}>
             <p>
-              Learnbay's <b>Data Science course in Bangalore</b> is structured
-              online training that allows you to gain skills and expertise in
-              core aspects of data science, AI and ML, which are responsible for
-              transforming the business landscape. Data Science is undoubtedly
-              considered the most important phenomenon for business growth in
-              the <b>21st century</b>. Indeed, a <b>career in Data Science</b>{" "}
-              is the most rewarding one. <b>Data Science courses</b> are
-              specifically created to help aspiring data scientists secure their
-              careers with the Data Science foundation.
+            Learnbay's <b>Data Science course in Bangalore</b> is structured online training
+             that allows you to gain skills and expertise in core aspects of data science, AI, and ML, 
+             which are responsible for transforming the business landscape. Data Science is undoubtedly 
+             considered the most important phenomenon for business growth in the <b>21st century</b>. Indeed, a <b>career in 
+             Data Science</b> is the most rewarding one. <b>Data Science courses</b> are specifically created to help aspiring
+              data scientists secure their careers with the Data Science foundation.
             </p>
             <p>
-              Learnbay's <b>Data Scientist course</b> is designed to deliver
-              theoretical and practical knowledge on all elements of Data
-              Science, including Programming, Maths, Statistics, AI, Machine
-              learning, and the business side of Data science. This allows
-              students to gain the in-demand spectrum of data science skills and
-              provide appropriate Data Science solutions to Business problems.
+            Learnbay's <b>Data Scientist course</b> is designed to deliver theoretical and practical knowledge 
+            on all elements of Data Science, including Programming, Maths, Statistics, AI, Machine learning, 
+            and the business side of Data science. It allows students to gain the in-demand spectrum of data science
+             skills and provide appropriate Data Science solutions to Business problems.
+
             </p>
             <p>
-              Data Science has found many importance in business applications in
-              organisations. The vast majority of modern industries work in
-              close coordination with data, and they base all of their crucial
-              decisions on the insightful information derived from it. In
-              today’s business world, a competent Data Scientist happens to be a
-              major part of a company's workforce since they draw future plans
-              based on data. Further, <b>IBM</b> has reported that there will be
-              over
-              <b>7,00,000 new job opportunities in Data Science and AI</b> in
-              the upcoming years.
+            Data Science has found much importance in business applications in organizations. 
+            The vast majority of modern industries work closely with data and base all of their crucial decisions
+             on the insightful information derived from it. In today’s business world, a competent Data Scientist 
+             is a major part of a company's workforce since they draw future plans based on data. 
+             Further, <b>IBM</b> has reported that there will be over {" "} <b>7,00,000 new job opportunities in Data Science
+              and AI</b> in the upcoming years.
+
             </p>
             <p>
-              Bangalore is one of the world's major cities, with an impressive
-              infrastructure and abundant business opportunities. It is also
-              considered the IT hub of India, where many tech companies and
-              startups are happening. This puts <b>data scientists' jobs</b> in
-              high demand across various domains. Data Scientist is also a
-              lucrative career with a high package in Bengaluru. As mentioned in
-              glassdoor,{" "}
-              <b>
-                the average salary of a Data Scientist in Bengaluru is INR
-                11,00,000 annually.
-              </b>
+            Bangalore is one of the world's major cities, with an impressive infrastructure and abundant business opportunities.
+             It is also considered the IT hub of India, where many tech companies and startups are happening. 
+             It puts <b>data scientists' jobs</b> in high demand across various domains. Data Scientist is also a lucrative career
+              with a high package in Bengaluru. As mentioned in glassdoor, the average <b>salary
+               of a Data Scientist in Bengaluru is INR 11,00,000 annually</b>.
+
             </p>
             <p>
               The{" "}
@@ -1414,12 +1402,10 @@ const CitiesRight = ({
               >
                 Data Scientist training
               </a>{" "}
-              is a data science certification course offered by Learnbay in
-              Bangalore. It is designed by MNC experts as per the current
-              industry requirements and in an effort to help the data science
-              aspirants in the city transform their careers. The Data Science
-              online course is conducted via live interactive classes by
-              industry trainers.
+              is a data science certification course offered by Learnbay in Bangalore.
+               MNC experts design it as per the current industry requirements and to help the data science aspirants
+                in the city transform their careers. The Data Science online course is 
+                conducted via live interactive classes by industry trainers..
             </p>
                 <p>
                   <b>Learnbay</b>, in Bangalore, offers certification programs
@@ -1454,62 +1440,51 @@ const CitiesRight = ({
                 </ul>
                 <p>
                   <b>
-                    The IBM Certified Data Scientist course in Bangalore comes
-                    with a 9 months (300+ hours) course duration.
+                  The IBM Certified Data Scientist course in Bangalore has a 9-month (300+ hours) course duration.
                   </b>
                 </p>
                 <p>
-                  The Structured data science course consists of 4 - Terms:{" "}
+                The Structured data science course consists of 4 - Terms:{" "}
                 </p>
                 <p>
                   <b>Module 0 - Preparatory Classes (Programming+Maths)</b>
                 </p>
                 <p>
-                  This Preparatory module helps you become familiar with the
-                  basics of Data Science and Machine Learning. It is a
-                  preliminary phase to help individuals, particularly
-                  non-programmers, become comfortable with the basics of maths,
-                  programming, and data science foundation. This module covers
-                  basic Python And R, Basic Mathematics, Essential Statistics
-                  for Data Science, Introduction to Anaconda, Jupyter notebook,
-                  Git and Github for data science and other practical materials.
+                This Preparatory module helps you familiarize yourself with Data Science and Machine Learning basics. 
+                It is a preliminary phase to help individuals, particularly non-programmers, 
+                become comfortable with the basics of maths, programming, and data science foundation. 
+                This module covers basic Python And R, Basic Mathematics, Essential Statistics for Data Science,
+                 Introduction to Anaconda, Jupyter notebook, Git and Github for data science, and other practical materials.
                 </p>
                 <h3>Term 1 - Python For Data Science</h3>
                 <p>
                   <b>Module (1) Python Programming</b>
                 </p>
                 <p>
-                  This is the essential part of the course, which comes with
-                  full-time dedicated training sessions through{" "}
-                  <b>Live Instructor-Led Online Training</b>. This module covers
-                  the fundamentals of Python Programming, which is an essential
-                  tool to get started as a modern data scientist. Here, you will
-                  learn basic programming, Python data types, Functions and
-                  modules, libraries including Numpy and Pandas, and case
-                  studies using Python libraries.
+                It is the essential part of the course, with full-time dedicated training sessions through Live <b>Instructor-Led Online Training</b>. 
+                This module covers the fundamentals of Python Programming, which is an essential tool to get started as a modern data scientist. 
+                Here, you will learn basic programming, Python data types, Functions and modules, libraries including Numpy and Pandas, and case studies
+                 using Python libraries.
+
                 </p>
                 <h3>Term 2 - Statistics and Machine Learning</h3>
                 <p>
                   <b>Module (1) - Statistics</b>
                 </p>
                 <p>
-                  This is the next essential module that focuses on basic to
-                  advanced statistics concepts for Data science. In this module,
-                  you will be equipped with the fundamentals of statistics and
-                  probability, inferential and descriptive statistics, EDA, and
-                  data processing. You will also receive 4 practice assignments
-                  on statistics for experiential learning.
+                This next essential module focuses on basic to advanced statistics concepts for Data science. 
+                This module will equip you with the fundamentals of statistics and probability, {" "}
+                inferential and descriptive statistics, EDA, and data processing. You will also receive 4 practice 
+                assignments on statistics for experiential learning.
                 </p>
                 <p>
                   <b>Module (2) - Machine Learning</b>
                 </p>
                 <p>
-                  In this module of the data science course, the trainer will
-                  equip you with cutting-edge machine learning techniques and
-                  tools, which are essential for model building and, thereby,
-                  decision-making. This module covers advanced ML techniques,
-                  including regression and classification models, KNN-model,
-                  Clustering techniques, PCA, and Support Vector Machine (SVM).
+                In this module of the data science course, the trainer will equip you with cutting-edge
+                 machine learning techniques and tools, which are essential for model building and, thereby,{" "}
+                  decision-making. This module covers advanced ML techniques, including regression and 
+                  classification models, KNN-model, Clustering techniques, PCA, and Support Vector Machine (SVM).
                 </p>
                 <h3>Term 3 - Data Science Tools</h3>
                 <p>
@@ -1556,81 +1531,57 @@ const CitiesRight = ({
                   Premium Features of Data Scientist Training in Bangalore
                 </h2>
                 <p>
-                  <b>Live Interactive Classes:</b> The classes are hassle-free
-                  and completely online, where you can interact with trainers
-                  and other students.
+                  <b>Live Interactive Classes:</b> The classes are hassle-free and completely online,
+                   where you can interact with trainers and other students.
+
                 </p>
                 <p>
-                  <b>One-on-one Mentorship:</b> You will be provided with a
-                  mentor who can guide you throughout the training from project
-                  inception to completion to placement.
+                  <b>One-on-one Mentorship:</b> You will be provided a mentor who can guide you throughout
+                   the training from project inception to completion to placement.
                 </p>
                 <p>
-                  <b>Live Project Sessions:</b> You will gain hands-on
-                  experience by working on 15+ live projects from global MNCs
-                  under the supervision of project mentors. An exclusive feature
-                  of cloud lab is also available.
+                  <b>Live Project Sessions:</b>  You will gain hands-on experience by working on 15+ 
+                  live projects from global MNCs under the supervision of project mentors. 
+                  An exclusive feature of cloud lab is also available.
+
                 </p>
                 <p>
-                  <b>Doubt Clearance Sessions:</b> Multiple Q&A sessions are
-                  conducted to clarify your doubts with our instructors, even
-                  after the course completion.
+                  <b>Doubt Clearance Sessions:</b> Multiple Q&A sessions are conducted to clarify your doubts 
+                  with our instructors, even after the course completion.
                 </p>
                 <p>
-                  <b>Resume-building Support:</b> You can create a job-ready
-                  resume and portfolio at the hands of experts and mentors to
-                  help you get shortlisted by potential employers.
+                  <b>Resume-building Support:</b>  You can create a job-ready resume and portfolio with 
+                  experts and mentors to help you get shortlisted by potential employers.
+
                 </p>
                 <p>
-                  <b>Interview Preparation:</b> Learnbay trainers will equip you
-                  with the latest and in-demand interview Q&A to face the tricky
-                  MAANG interviews with confidence.
+                  <b>Interview Preparation:</b> Learnbay trainers will equip you with the latest and in-demand
+                   interview Q&A to confidently face the tricky MAANG interviews.
                 </p>
                 <p>
-                  <b>Mock Interviews:</b> By participating in several mock
-                  interviews, our professionals will assist you in improving
-                  your interview success rate and accelerating the hiring
-                  process.
+                  <b>Mock Interviews:</b> By participating in several mock interviews, our professionals will assist you in
+                   improving your interview success rate and accelerating the hiring process.
                 </p>
-                <h2>Other Courses we offer in Data Science:</h2>
+                <h2>Data Science Foundation Program in Bangalore with Placement Assistance </h2>
                 <ol type="1">
                   <li>
-                    <b>Data Science Foundation Program - </b>The data science
-                    foundation course is a beginner-friendly course explicitly
-                    crafted to allow non-technical aspirants to reshape their
-                    careers in this lucrative field. The data science course in
-                    Bangalore covers everything from basic data science
-                    techniques to advanced AIML, Data Science Project Workflow,
-                    Cutting-edge data science and AI tools, Various Roles in
-                    Data Science and real-world applications of Data Science.
-                    The data science course fee for this program is INR 75,000,
-                    exclusive of GST.
+                  The data science foundation course is a 
+                  beginner-friendly course explicitly crafted to allow non-technical
+                   aspirants to reshape their careers in this lucrative field. <br></br>
+                  </li> 
+                  <li>
+                  The data science course in Bangalore covers everything from basic data science techniques to advanced AIML,
+                   Data Science Project Workflow, Cutting-edge data science and AI tools, 
+                   Various Roles in Data Science, and real-world applications of Data Science. <br></br>
                   </li>
                   <li>
-                    <b>Advance Data science and AI Course - </b>The Advance data
-                    science course is designed meticulously for working
-                    professionals of all domains and levels of experience. This
-                    course covers everything from advanced data science and AI
-                    tools and techniques, including visualisation, data
-                    processing, EDA, feature engineering, and model deployment.
-                    The advanced data science course fees are INR 95,000,
-                    exclusive of GST.
+                  This program’s data science course fee is INR 75,000, excluding GST.<br></br>
                   </li>
-                  <li>
-                    <b>Data Science and AI for Managers & Leaders - </b>This
-                    training course is a comprehensive program offered by
-                    Learnbay specifically crafted for those in senior and
-                    managerial positions about the top-notch tools and
-                    techniques used to draw valuable insights. Managers in every
-                    organisation must have a strong understanding of data
-                    science to make data-driven decisions effectively and boost
-                    revenue growth.
-                  </li>
-                  <p>
+                  {/* <p>
                     The course fee for this manager course is INR 105,000,
                     exclusive of GST.
-                  </p>
-                  <li>
+                  </p> */}
+                  {/* <li>
                     <b>Data Science and AI Master Program - </b>This
                     domain-specialised data science course is a complete boot
                     camp covering everything a data scientist must possess. The
@@ -1638,209 +1589,195 @@ const CitiesRight = ({
                     depending on your preferred batch (week and weekend). After
                     completing this course, you will become an expert data
                     scientist and be able to manage teams in leading firms.
-                  </li>
-                  <p>
+                  </li> */}
+                  {/* <p>
                     The course fee for this master's program is 125,000,
                     Exclusive of GST.
                   </p>
                   <p>
                     Note: All data science courses at Learnbay come with the
                     option of no-cost EMI.
-                  </p>
+                  </p> */}
                 </ol>
-                <h2>
-                  Available Domains at Learnbay Data science Course in Bangalore
-                </h2>
+
+
+                <h3>Highlights of the Data Science Foundation Program in Bangalore</h3>
+
                 <ol type="1">
+                  <li>Consists of 200+ hours of live sessions</li>
+                  <li>Lifetime accessibility of recorded live classroom videos</li>
+                  <li>Offline live project experience in the project innovation lab</li>
+                  <li>8+ real-time industrial projects</li>
+                </ol>
+
+                <h2>Advance Data Science and AI Course in Bangalore with Placement Assistance</h2>
+                <ol type="1">
+                  <li>The Advance data science course is designed meticulously for professionals of all domains and levels of experience. </li>
+                  <li>This course covers everything from advanced data science and AI tools and techniques, including visualisation, 
+                    data processing, EDA, feature engineering, and model deployment. </li>
+                  <li>The advanced data science course fees are INR 95,000, exclusive of GST.</li>
+                </ol>
+
+                <h3>Highlights of Advance Data Science and AI Course in Bangalore</h3>
+                <ol type="1">
+                  <li>Consists of 250+ hours of live sessions</li>
+                  <li>Global recognition from IBM </li>
+                  <li>Career assistance for professionals</li>
+                  <li>Capstone project completion certificate from IBM</li>
+                  <li>12+ real-time industrial projects. </li>
+                </ol>
+
+                <h2>Data Science and AI for Managers & Leaders in Bangalore with Placement Assistance</h2>
+                <ol type="1">
+                  <li>This training course is a comprehensive program offered by Learnbay specifically 
+                    crafted for those in senior and managerial positions about the top-notch tools and techniques used to draw valuable insights.</li>
+                  <li>Managers in every organization must have a strong understanding of data science to 
+                    make data-driven decisions effectively and boost revenue growth.</li>
+                  <li>The course fee for this manager course is INR 105,000, exclusive of GST. </li>
+                </ol>
+
+                <h3>Highlights of Data Science and AI program for Managers and Leaders in Bangalore</h3>
+                <ol type="1">
+                <li>Consists of 400+ hours of live sessions </li>
+                <li>15+ real-time industrial projects</li>
+                <li>Online sessions guided by professionals working in top MNCs</li>
+                <li>A variety of financing options are available to make it more economical</li>
+                </ol>
+
+                <h2>Data Science and AI Master Program in Bangalore with Placement Assistance </h2>
+                <ol type="1">
+                  <li>This domain-specialized data science course is a complete boot camp covering everything a data scientist must possess. </li>
+                  <li>The duration of this master's program is 15 to 17 months, depending on your preferred batch (week and weekend). </li>
+                  <li>After completing this course, you will become an expert data scientist and be able to manage teams in leading firms.</li>
+                  <li>The course fee for this master's program is 125,000, exclusive of GST.</li>
+                </ol>
+
+                <h3>Highlights of Data Science and AI Master Program in Bangalore</h3>
+                <ol type="1">
+                  <li>Consists of 500+ hours of live sessions </li>
+                  <li>35 LPA - 50 LPA salary package</li>
+                  <li>20+ real-time industrial projects. </li>
+                  <li>Practical covering of real-time industrial projects and case studies</li>
+                </ol>
+                <p><b>Note:</b> All data science courses at Learnbay come with the option of no-cost EMI.</p>
+
+                <h2>Learnbay’s Domain-Specific Data Science Course in Bangalore</h2>
+                <ol type="1">
+                  <li><b>Finance Domain</b> - Finance-related investments in data science offer a wide range of career options.
+                     Cybersecurity, data science, machine learning, and AI are just a few topics focused on technology. 
+                     Blockchain development and quantitative investing are two jobs that require financial expertise.</li>
+
+                  <li><b>Operations Domain</b> - Data science and analytics allow us to gather relevant data, unearth insights,
+                     and make data-driven decisions by helping us to comprehend an organization’s operations.</li>
                   <li>
-                    <b>Finance Domain - </b>Finance-related investments in data
-                    science offer a wide range of career options. Cybersecurity,
-                    data science, machine learning, and AI are just a few topics
-                    with a technology focus. Blockchain development and
-                    quantitative investing are two jobs that require financial
-                    expertise.
+                  <b>Marketing Domain</b> - Data science is heavily used in marketing-related fields like consumer engagement, 
+                  SEO, and profiling. New data science and analytics applications in marketing are also being developed daily.
                   </li>
+
                   <li>
-                    <b>Operations Domain - </b>Data science and analytics allows
-                    us to gather relevant data, unearth insights, and make
-                    data-driven decisions by helping us to comprehend an
-                    organisation's operations.
+                     <b>HR Domain</b> - A data science expert on the HR team can provide the company information for effectively
+                      managing personnel, enabling it to move towards its objectives steadily. Data science is
+                     a ground-breaking technique that enables businesses to track costs and the outcomes of 
+                     candidate engagement programs statistically and to evaluate the cost-effectiveness of various HR activities.
                   </li>
+
                   <li>
-                    <b>Marketing Domain- </b>Data science is heavily used in
-                    marketing-related fields like consumer engagement, SEO, and
-                    profiling. Additionally, new data science and analytics
-                    applications in marketing are being developed daily.
+                      <b>Healthcare Domain</b> - According to a survey, healthcare fields store 30% of all global data. The information in 
+                      these fields can assist the government in various ways. Medical imaging is one of the most effective healthcare data 
+                      science applications. Data Science, combined with Machine Learning, teaches computers to interpret MRIs, X-rays,
+                      mammograms, and other medical reports.
                   </li>
+
                   <li>
-                    <b>HR Domain - </b>A data science expert on the HR team can
-                    provide the company information for effectively managing
-                    personnel, enabling it to move towards its objectives
-                    steadily. Data science is a ground-breaking technique that
-                    enables businesses to track costs and the outcomes of
-                    candidate engagement programmes statistically and to
-                    evaluate the cost-effectiveness of various HR activities.
-                  </li>
+                    <b>E-Commerce, Retail, and Supply Chain Domain</b> - Students who take this elective learn how to analyze data 
+                    and find significant insights to provide businesses with a competitive edge.
+                     Sentiment analysis, Google Analytics, NLP, recommendation systems, deep learning,
+                      text analysis, and customer behavioral analytics are examples of the RSCA process. 
+                      This domain program aims to acquaint participants with the fundamentals, components, business models,
+                       and other facets of managing an e-commerce organization.</li>
+
                   <li>
-                    <b>Healthcare Domain - </b> According to a survey,
-                    healthcare fields store 30% of all global data. The
-                    information contained in these fields can assist the
-                    government in a variety of ways. Medical imaging is one of
-                    the most effective applications of data science in
-                    healthcare. Data Science, combined with Machine Learning,
-                    teaches computers to interpret MRIs, X-rays, mammograms, and
-                    other types of medical reports.
-                  </li>
-                  <li>
-                    <b>E-Commerce, Retail and Supply Chain Domain - </b>Students
-                    who choose to take this elective learn how to analyse data
-                    and find significant insights that can provide businesses a
-                    competitive edge. Sentiment analysis, Google Analytics, NLP,
-                    recommendation systems, deep learning, text analysis, and
-                    customer behavioural analytics are some examples of the RSCA
-                    process.
-                  </li>
-                  <p>
-                    The purpose of this domain programme is to acquaint
-                    participants with the fundamentals, components, business
-                    models, and other facets of managing an e-commerce
-                    organisation.
-                  </p>
-                  <li>
-                    <b>Manufacturing Domain - </b>Manufacturing is the practice
-                    of creating products by the application of human labour,
-                    equipment, tools, and chemical or biological processing or
-                    formulation. The most commonly used term in the context of
-                    industrial design, the secondary sector of the economy,
-                    refers to human activity ranging from handicraft to
-                    hightech.
+                     <b>Manufacturing Domain</b> - Manufacturing creates products by applying human labor, equipment, tools, 
+                     and chemical or biological processing or formulation. The most commonly used term in the context 
+                     of industrial design, the secondary sector of the economy, refers to human activity ranging from handicrafts to high tech.
+
                   </li>
                 </ol>
-                <p>
-                  <b>Learnbay</b> offers flexible learning options, from
-                  Dedicated <b>Data Science online Training in Bangalore</b> to
-                  offline Data Science classroom training in Bangalore for
-                  project sessions, to exceptional recorded videos via Learnbay
-                  LMS.
-                  <br />A recent LinkedIn survey indicates that data science has
-                  significantly increased in demand over the past three years,
-                  with a 37% surge.
-                </p>
-                <p>
-                  Learnbay <b>Data Science course fee in Bangalore</b> ranges
-                  from <b>INR 75,000</b> to <b>INR 125,000</b> according to your
-                  preferred domain and learning choice. To learn more about
-                  other <b>data science course fees</b>, refer to the site's
-                  desired course page.
-                </p>
-                <p>
-                  Are you looking for the{" "}
-                  <b>Best Data Science Training Institute in Bangalore?</b>
-                </p>
-                <p>
-                  You are certainly in the right place! <b>Learnbay</b> is
-                  paving the way to becoming India's most reputable training
-                  institute. Learnbay delivers real-time, qualitative training
-                  at affordable pricing. Learnbay institute has proudly assisted
-                  over 500+ aspirants in pursuing their dream careers.{" "}
-                  <b>IBM</b>, being our accreditation partner, has global
-                  recognition.
-                </p>
-                <p>
-                  <b>
-                    <a
-                      href="https://www.learnbay.co/"
-                      style={{ color: "#2D9CD7", fontWeight: "600" }}
-                      target="_blank"
-                    >
-                      Learnbay Institute
-                    </a>
-                  </b>{" "}
-                  provides All-inclusive training delivered by industry
-                  professionals to help you become a hero to rule the world.
-                  Thus, acquiring Learnbay Training is undoubtedly the best
-                  career choice you can make.
-                </p>
-                <p>
-                  Almost every business needs data since it helps them make
-                  decisions based on current facts, statistics, and trends. The
-                  demand for data is only going up. Therefore data science has
-                  become a multifaceted field.
-                </p>
-                <p>
-                  Learnbay offers affordable, high-quality and real-time
-                  training courses to graduates and IT professionals wanting to
-                  upgrade their skills. In today's age of technological
-                  explosion, it is inevitable to have diverse knowledge and
-                  skills to operate cutting-edge technology. Technology is
-                  paving the way for a better future, and we have the ability to
-                  master the field by being acquainted with it.
-                </p>
-                <p>
-                  Data science is necessary for this fourth industrial
-                  revolution era, and data scientists are now the carrier of big
-                  data. It is also reported that{" "}
-                  <b>
-                    the market size of data science platforms is expected to be
-                    worth USD 178 billion by 2025.
-                  </b>
-                </p>
-                <p>
-                  Bangalore is home to a youthful generation of technological
-                  natives who have the business acumen and creativity necessary
-                  to fuel the global tech industry. Moreover, AI, machine
-                  learning, and IoT are saturating the market and improving the
-                  ecosystem amid this storm of the entrepreneurial revolution.
-                  The city has enormous potential for growth in the coming
-                  decades as well as expanding revenue.
-                </p>
-                <p>
-                  In the last few years, the volume of data generated, collected
-                  and reproduced globally escalated from 1.2 trillion GB to 59
-                  trillion GB, which is almost a 5,000% growth. What will data
-                  do in the coming years?
-                </p>
-                <p>
-                  <b>Data Science courses in Bangalore</b> are the entry point
-                  to the best IT systems in the city; becoming a data scientist
-                  has never been so easy. Sign up for{" "}
-                  <b>Data Science Online Training in Bangalore</b> to upgrade
-                  your skills to secure a lucrative career!
-                </p>
-                <p>
-                  <b>Did You Know?</b>
-                </p>
-                <p>
-                  <b>
-                    The Average Data Scientist's Salary in India is INR 10 lakhs
-                    per year.
-                  </b>{" "}
-                  Further, the average <b>Data Scientist Salary in Bangalore</b>
-                  , as mentioned in <b>Payscale</b>.com - <b>is INR 989,454</b>{" "}
-                  per annum. Ultimately, Learnbay's{" "}
-                  <b>Data Science Certification in Bangalore</b> can really help
-                  you break through in the data science field!
-                </p>
-                <p>
-                  <b>Learnbay</b> also provides classroom mode for{" "}
-                  <a
-                    style={{ color: "#2D9CD7", fontWeight: "600" }}
-                    target="_blank"
-                    href="https://www.learnbay.co/machine-learning-course-training-in-bangalore"
-                  >
-                    machine learning
-                  </a>{" "}
-                  and
-                  <a
-                    style={{ color: "#2D9CD7", fontWeight: "600" }}
-                    target="_blank"
-                    href="https://www.learnbay.co/artificial-intelligence-ai-course-training-bangalore"
-                  >
-                    {" "}
-                    artificial intelligence courses in Bangalore
-                  </a>
-                  , along with data science courses.
-                </p>
+
+
+                <h2>Data Science Trends in Bangalore</h2>
+                  <p>Bangalore is home to a youthful generation of technological natives with the 
+                    business acumen and creativity to fuel the global tech industry. Moreover, AI,
+                     machine learning, and IoT are saturating the market and improving the ecosystem amid this 
+                     storm of the entrepreneurial revolution. The city has enormous potential for growth in
+                      the coming decades and expanding revenue.</p>
+
+                   <p><b>Learnbay</b> offers flexible learning options, from dedicated Data Science Online Training in Bangalore
+                     to offline Data Science classroom training for project sessions, to exceptional recorded videos via Learnbay LMS. 
+                    </p>   
+
+                    <p>A recent LinkedIn survey indicates that data science has significantly 
+                      increased in demand over the past three years, with a 37% surge.</p>
+
+                    <p>Learnbay <b>Data Science course fee in Bangalore</b> ranges from <b>INR 75,000</b> to <b>INR 1,25,000</b> according
+                       to your preferred domain and learning choice. Refer to the site’s 
+                       desired course page for other <b>data science course fees</b>.</p>
+
+              
+            <h2>Best Data Science Training Institute in Bangalore</h2>
+
+            <p>Are you looking for the <b>Best Data Science Training Institute in Bangalore?</b></p>
+
+            <p>You are certainly in the right place! <b>Learnbay</b> is paving the way to becoming 
+              India's most reputable training institute. Learnbay delivers real-time,
+               qualitative training at affordable pricing. Learnbay institute has proudly 
+               assisted over 500+ aspirants in pursuing their dream careers. <b>IBM</b>, being our 
+               accreditation partner, has global recognition.</p>
+
+            <p><a href="https://www.learnbay.co/" target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>Learnbay Institute</a>{" "}
+            provides all-inclusive training from industry professionals
+               to help you become a hero to rule the world. Thus, acquiring Learnbay Training
+                is undoubtedly your best career choice.</p>
+            
+            <p>Almost every business needs data since it helps them make decisions based on current facts, statistics, 
+              and trends. The demand for data is only going up. Therefore data science has become a multifaceted field.</p>
+
+              <h2>Why Choose Learnbay Data Science Training Institute in Bangalore?</h2>
+
+              <p>Learnbay offers affordable, high-quality, real-time training courses to
+                 graduates and IT professionals wanting to upgrade their skills. In today's age of 
+                 technological explosion, it is inevitable to have diverse knowledge and skills to 
+                 operate cutting-edge technology. Technology is paving the way for a better future, 
+                 and we can master the field by being acquainted with it.</p>
+
+              <p>Data science is necessary for this fourth industrial revolution era,
+                 and data scientists are now the carrier of big data. It is also reported that 
+                 <b>the market size of data science platforms is expected to be worth USD 178 billion by 2025</b>.
+              </p>
+
+              <p>In the last few years, the volume of data generated, collected,
+                 and reproduced globally escalated from 1.2 trillion GB to 59 trillion GB, 
+                 almost a 5,000% growth. What will data do in the coming years?
+              </p>
+
+              <p><b>Data Science courses in Bangalore</b> are the entry point to the best IT systems 
+                in the city; becoming a data scientist has never been so easy. Sign up for <b>Data Science 
+                Online Training in Bangalore</b> to upgrade your skills to secure a lucrative career!</p>
+
+
+              <h2>Did You Know?</h2>
+
+              <p><b>The Average Data Scientist's Salary in India is INR 10 lakhs per year</b>.
+                 Further, the average <b>Data Scientist Salary in Bangalore</b>, as mentioned in{" "}
+                 <b>Payscale.com</b> - is <b>INR 989,454</b> per annum. Ultimately, Learnbay's
+                  <b>Data Science Certification in Bangalore</b> can help you break through in the data science field!</p>
+
+              <p><b>Learnbay</b> also provides classroom mode for {" "}
+              <a href="https://www.learnbay.co/machine-learning-course-training-in-bangalore" target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>machine learning</a>{" "} and {" "}
+               <a href="https://www.learnbay.co/artificial-intelligence-ai-course-training-bangalore" target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>artificial 
+               intelligence courses in Bangalore</a> and data science courses.</p>
+                
+               
                 <YoutubeVideo/>                
           </div>
         ) : (

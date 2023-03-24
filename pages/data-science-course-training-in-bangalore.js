@@ -35,10 +35,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Science Course in Bangalore - Learnbay</title>
+        <title>Best Data Science Course in Bangalore - Learnbay</title>
         <meta
           name="description"
-          content="Learn Data Science Course in Bangalore from advanced certification oriented data science training institute with IBM Certified Trainers."
+          content="Learn Best Data Science Course in Bangalore from advanced certification oriented online data science training institute with IBM Certified Trainers."
         />
         <meta
           name="keywords"
