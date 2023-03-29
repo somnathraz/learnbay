@@ -50,7 +50,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/machine-learning-course-training-in-Hyderabad"
+          href="https://www.learnbay.co/machine-learning-course-training-in-hyderabad"
         />
         <meta name="robots" content="NOODP,NOYDIR" />
         <meta name="HandheldFriendly" content="true" />
