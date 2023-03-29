@@ -101,6 +101,7 @@
 .batchP {
     color: #767676;
     margin: 0;
+    padding: 0px 200px;
 }
 
 .batchImage {
@@ -162,6 +163,11 @@
 .batchImage {
     display: block;
     padding: 0px;
+}
+.batchP {
+  color: #767676;
+  margin: 0;
+  padding: 0px;
 }
 
 }

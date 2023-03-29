@@ -234,6 +234,7 @@ margin-bottom: 30px;
   font-size: 16px;
   color: #616161;
   margin: 10px 0px;
+  padding: 0px 20px;
 }
 
 .name h3 {
@@ -267,6 +268,11 @@ border-radius: 15px;
 
 .blueIcon {
 font-size: 30px;
+}
+
+.imgP {
+  display: flex;
+  gap: 10px;
 }
 @media (max-width: 1281px) {
   .Syllabus {
@@ -556,7 +562,7 @@ font-size: 30px;
       height: fit-content;
     }
     .mainSlider {
-      padding: 20px;
+      padding: 0px;
       height: fit-content;
       margin: 10px 5px 40px 5px;
       text-align: left;
@@ -569,6 +575,7 @@ font-size: 30px;
 
     .imgP P {
       margin: 0;
+      margin-top: 20px;
     }
 
     .bulb {

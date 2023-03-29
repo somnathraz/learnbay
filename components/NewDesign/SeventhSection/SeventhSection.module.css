@@ -3,16 +3,16 @@
 }
 
 .LearnSupport {
-    padding: 0px 100px;
-    background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Talk-to-our-team-CTA.png");
+    padding: 50px 100px;
+    background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/24x7-support-cta.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
-    justify-content: space-evenly;
-    height: 540px;
+    justify-content:flex-start;
+    height: 480px;
     margin-bottom: 20px;
   }
 
@@ -101,9 +101,15 @@
   @media (max-width: 481px) {
     .LearnSupport {
       padding: 40px 20px 0px 20px; 
+    background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Talk-to-our-team-CTA.png");
       display: block;
       margin: 0px 20px 20px 20px;
       border-radius: 10px;
+    height: 540px;
+    justify-content: space-evenly;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     }
     .LearnSupport .pTop {
       font-size: 22px;

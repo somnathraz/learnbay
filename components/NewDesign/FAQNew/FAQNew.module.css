@@ -4,6 +4,13 @@
   background: linear-gradient(90deg, rgba(237, 233, 233, 0) 0%, rgba(235, 235, 235, 0.6) 52.6%, rgba(239, 239, 239, 0) 100%);
 
 }
+.h1 {
+  color: #28557a;
+  margin: 10px 0px 20px 0px;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
 .Course h2 {
   font-size: 16px;
   font-weight: 500;

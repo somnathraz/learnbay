@@ -59,7 +59,7 @@ function SyllabusNew({
 
   return (
     <>
-    <Popup
+      <Popup
         trigger={popups}
         setTrigger={setPopups}
         className="popupModal"
@@ -113,7 +113,14 @@ function SyllabusNew({
                         <div className={styles.mainSlider}>
                           <div className={styles.imgP}>
                             {/* <TbNumber1 className={styles.blueIcon}/> */}
-                            <p>1. Getting started with solidity</p>
+                            <Image
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/1.png"
+                              width="40"
+                              height="80"
+                              layout="intrinsic"
+                              alt="data science course"
+                            />
+                            <p>Getting started with solidity</p>
                           </div>
                           <div>
                             <p className={styles.para}>
@@ -129,7 +136,14 @@ function SyllabusNew({
                         <div className={styles.mainSlider}>
                           <div className={styles.imgP}>
                             {/* <TbNumber2 className={styles.orangeIcon}/> */}
-                            <p>2. Getting started with solidity</p>
+                            <Image
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/2.png"
+                              width="60"
+                              height="80"
+                              layout="intrinsic"
+                              alt="data science course"
+                            />
+                            <p>Getting started with solidity</p>
                           </div>
                           <div>
                             <p className={styles.para}>
@@ -145,7 +159,14 @@ function SyllabusNew({
                         <div className={styles.mainSlider}>
                           <div className={styles.imgP}>
                             {/* <TbNumber3 className={styles.greenIcon}/> */}
-                            <p>3. Getting started with solidity</p>
+                            <Image
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/3.png"
+                              width="60"
+                              height="40"
+                              layout="intrinsic"
+                              alt="data science course"
+                            />
+                            <p>Getting started with solidity</p>
                           </div>
                           <div>
                             <p className={styles.para}>
@@ -207,8 +228,8 @@ function SyllabusNew({
                           <span>
                             {Module0.open ? (
                               <FaChevronUp className="icon" />
-                              ) : (
-                                <FaChevronDown className="icon" />
+                            ) : (
+                              <FaChevronDown className="icon" />
                             )}
                           </span>
                         </div>

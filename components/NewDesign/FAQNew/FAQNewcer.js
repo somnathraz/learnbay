@@ -4,8 +4,8 @@ import FAQ from "../FAQNew/FAQ";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
-import "swiper/css/scrollbar";
-import { Autoplay, Scrollbar } from "swiper";
+import 'swiper/css/navigation';
+import { Autoplay, Navigation } from "swiper";
 
 function FAQNew({
   FaqDatas,
@@ -31,19 +31,6 @@ function FAQNew({
         <div className={styles.courseM}>
           <div className={styles.courses}>
             <div className={styles.listPanel}>
-              <Swiper
-                slidesPerView={mobile ? 1 : 3}
-                spaceBetween={mobile ? 10 : 15}
-                scrollbar={{ draggable: true }}
-                autoplay={{
-                  delay: 2500,
-                }}
-                grabCursor={true}
-                modules={[Autoplay, Scrollbar]}
-                autoPlay={true}
-                className="mySwiper"
-              >
-                <SwiperSlide className={styles.slide}>
                   <span
                     onClick={() => {
                       setViewAll(true);
@@ -67,8 +54,6 @@ function FAQNew({
                   >
                     COURSE RELATED
                   </span>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
                   <span
                     onClick={() => {
                       setViewAll(false);
@@ -92,8 +77,6 @@ function FAQNew({
                   >
                     DOMAIN ELECTIVES
                   </span>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
                   <span
                     onClick={() => {
                       setViewAll(false);
@@ -117,8 +100,6 @@ function FAQNew({
                   >
                     PAYMENTS AND SCHOLARSHIPS
                   </span>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
                   <span
                     onClick={() => {
                       setViewAll(false);
@@ -142,8 +123,6 @@ function FAQNew({
                   >
                     CAPSTONE AND REAL-TIME PROJECTS
                   </span>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
                   <span
                     onClick={() => {
                       setViewAll(false);
@@ -167,8 +146,6 @@ function FAQNew({
                   >
                     JOB ASSISTANCE
                   </span>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
                   <span
                     onClick={() => {
                       setViewAll(false);
@@ -192,8 +169,6 @@ function FAQNew({
                   >
                     MENTORSHIPS
                   </span>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
                   <span
                     onClick={() => {
                       setViewAll(false);
@@ -217,8 +192,6 @@ function FAQNew({
                   >
                     SUPPORT
                   </span>
-                </SwiperSlide>
-              </Swiper>
             </div>
             {viewAll ? (
               <div className={styles.gridPanel}>
@@ -274,7 +247,15 @@ function FAQNew({
         <div className={styles.courseD}>
           <div className={styles.courses}>
             <div className={styles.listPanel}>
-              <span
+            <Swiper
+                slidesPerView={mobile ? 1 : 3}
+                spaceBetween={mobile ? 10 : 15}
+                grabCursor={true}
+                navigation={true}
+                modules={[Autoplay, Navigation]}
+                className="mySwiper"
+              >
+             <SwiperSlide className={styles.slide}><span
                 onClick={() => {
                   setViewAll(true);
                   setOneYear(false);
@@ -296,15 +277,9 @@ function FAQNew({
                 }
               >
                 COURSE RELATED
-              </span>
-              {viewAll ? (
-                <div className={styles.gridPanel}>
-                  <FAQ FaqData={FaqDatas} />
-                </div>
-              ) : (
-                ""
-              )}
-              <span
+              </span></SwiperSlide>
+              
+             <SwiperSlide className={styles.slide}><span
                 onClick={() => {
                   setViewAll(false);
                   setOneYear(true);
@@ -326,15 +301,9 @@ function FAQNew({
                 }
               >
                 DOMAIN ELECTIVES
-              </span>
-              {oneYear ? (
-                <div className={styles.gridPanel}>
-                  <FAQ FaqData={DomainFaqDatas} />
-                </div>
-              ) : (
-                ""
-              )}
-              <span
+              </span></SwiperSlide>
+              
+             <SwiperSlide className={styles.slide}><span
                 onClick={() => {
                   setViewAll(false);
                   setOneYear(false);
@@ -356,15 +325,9 @@ function FAQNew({
                 }
               >
                 PAYMENTS AND SCHOLARSHIPS
-              </span>
-              {nonTech ? (
-                <div className={styles.gridPanel}>
-                  <FAQ FaqData={PaymentFaqDatas} />
-                </div>
-              ) : (
-                ""
-              )}
-              <span
+              </span></SwiperSlide>
+              
+             <SwiperSlide className={styles.slide}><span
                 onClick={() => {
                   setViewAll(false);
                   setOneYear(false);
@@ -386,15 +349,9 @@ function FAQNew({
                 }
               >
                 CAPSTONE AND REAL-TIME PROJECTS
-              </span>
-              {manager ? (
-                <div className={styles.gridPanel}>
-                  <FAQ FaqData={CapstoneFaqDatas} />
-                </div>
-              ) : (
-                ""
-              )}
-              <span
+              </span></SwiperSlide>
+              
+             <SwiperSlide className={styles.slide}><span
                 onClick={() => {
                   setViewAll(false);
                   setOneYear(false);
@@ -416,15 +373,9 @@ function FAQNew({
                 }
               >
                 JOB ASSISTANCE
-              </span>
-              {Assistance ? (
-                <div className={styles.gridPanel}>
-                  <FAQ FaqData={jobFaqDatas} />
-                </div>
-              ) : (
-                ""
-              )}
-              <span
+              </span></SwiperSlide>
+              
+             <SwiperSlide className={styles.slide}><span
                 onClick={() => {
                   setViewAll(false);
                   setOneYear(false);
@@ -446,15 +397,9 @@ function FAQNew({
                 }
               >
                 MENTORSHIPS
-              </span>
-              {Mentorship ? (
-                <div className={styles.gridPanel}>
-                  <FAQ FaqData={MentorshipFaqDatas} />
-                </div>
-              ) : (
-                ""
-              )}
-              <span
+              </span></SwiperSlide>
+              
+             <SwiperSlide className={styles.slide}><span
                 onClick={() => {
                   setViewAll(false);
                   setOneYear(false);
@@ -476,15 +421,59 @@ function FAQNew({
                 }
               >
                 SUPPORT
-              </span>
-              {Support ? (
+              </span></SwiperSlide>
+              </Swiper>
+
+            </div>
+            {viewAll ? (
+                <div className={styles.gridPanel}>
+                  <FAQ FaqData={FaqDatas} />
+                </div>
+              ) : (
+                ""
+              )}
+            {oneYear ? (
+                <div className={styles.gridPanel}>
+                  <FAQ FaqData={DomainFaqDatas} />
+                </div>
+              ) : (
+                ""
+              )}
+            {nonTech ? (
+                <div className={styles.gridPanel}>
+                  <FAQ FaqData={PaymentFaqDatas} />
+                </div>
+              ) : (
+                ""
+              )}
+            {manager ? (
+                <div className={styles.gridPanel}>
+                  <FAQ FaqData={CapstoneFaqDatas} />
+                </div>
+              ) : (
+                ""
+              )}
+            {Assistance ? (
+                <div className={styles.gridPanel}>
+                  <FAQ FaqData={jobFaqDatas} />
+                </div>
+              ) : (
+                ""
+              )}
+            {Mentorship ? (
+                <div className={styles.gridPanel}>
+                  <FAQ FaqData={MentorshipFaqDatas} />
+                </div>
+              ) : (
+                ""
+              )}
+            {Support ? (
                 <div className={styles.gridPanel}>
                   <FAQ FaqData={SupportFaqDatas} />
                 </div>
               ) : (
                 ""
               )}
-            </div>
           </div>
         </div>
       </div>
