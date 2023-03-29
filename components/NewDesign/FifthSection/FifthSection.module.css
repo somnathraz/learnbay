@@ -1,0 +1,142 @@
+.infop {
+  color: #0072bc;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.sliderTop {
+    margin-bottom: 30px;
+}
+
+.toolscoverd {
+  padding: 0px 20px 0px 20px;
+}
+
+.certificate {
+    padding: 0px 40px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 49% 49%;
+  }
+
+  .gridPanel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px;
+  }
+
+  .leftSide,
+.middleSide,
+.rightSide {
+  display: flex;
+}
+
+.leftSide h6,
+.middleSide h6,
+.rightSide h6 {
+  color: #0072bc;
+  margin: 0;
+
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.leftSide p,
+.middleSide p,
+.rightSide p {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.leftSideP {
+    padding: 50px;
+    width: 100%;
+    border-radius: 8px;
+    margin: 20px;
+  }
+
+  .contentDiv {
+    padding: 30px 0px 0px 0px;
+  }
+
+  .checkCircle {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #2DB621;
+  }
+
+  .fee {
+    background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Fee-%26-Financing.png");
+    background-size:cover;
+    padding: 20px 40px 50px 40px;
+    text-align: center;
+    display: grid;
+  }
+
+  .feeBox {
+    background-color: #fff;
+    border-top: 6px solid #EDBB52;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 15px 15px;
+padding: 20px 20px;
+margin-top: 20px;
+  }
+
+  .line {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .btn {
+    margin: auto;
+    margin-top: 20px;
+  }
+
+@media (max-width: 641px) {
+    .gridPanel {
+        width: 100%;
+      }
+
+      .certificate {
+        padding: 0px;
+        display: block;
+        margin: 30px 0px;
+      }
+      .leftSide,
+      .middleSide,
+      .rightSide {
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      .leftSide h6,
+      .middleSide h6,
+      .rightSide h6 {
+        margin: 0;
+        font-size: 16px;
+      }
+
+      .leftSideP {
+        padding: 0px;
+        width: 100%;
+        margin: 0px;
+      }
+      .checkCircle {
+        margin-right: 5px;
+      }
+}
+
+

@@ -1,0 +1,208 @@
+.Course {
+  padding: 50px 100px;
+  margin-top: 40px;
+  background: linear-gradient(90deg, rgba(237, 233, 233, 0) 0%, rgba(235, 235, 235, 0.6) 52.6%, rgba(239, 239, 239, 0) 100%);
+
+}
+.Course h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.feature {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feature p {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px 30px 20px 30px;
+  align-items: center;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.tick {
+  font-size: 20px;
+  color: #2d9cd7;
+}
+.courses {
+  display: flex;
+}
+.listPanel {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.listPanel span {
+  padding: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  background-color: #E1F1FA66;
+}
+.gridPanel {
+  display: block;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 20px;
+  padding: 0px;
+}
+.leftSide,
+.middleSide,
+.rightSide {
+  box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
+  padding: 20px;
+  width: 100%;
+  margin: 0px 50px 20px 50px;
+  border-radius: 8px;
+}
+.courseImg {
+  width: 397px;
+  height: 150px;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -0px;
+  border-radius: 8px;
+}
+.leftSide h6,
+.middleSide h6,
+.rightSide h6 {
+  font-size: 18px;
+  margin: 0;
+  margin-right: 130px;
+  margin-top: 10px;
+
+  color: #2d9cd7;
+}
+.leftSide p,
+.middleSide p,
+.rightSide p {
+  display: flex;
+  align-items: center;
+}
+.checkCircle {
+  margin-right: 15px;
+}
+.btnWrapper {
+  display: flex;
+  gap: 10px;
+}
+.btnWrapper button {
+  padding: 10px 15px;
+}
+.courseD {
+  display: none;
+}
+
+.courseM {
+  display: block;
+}
+
+@media (max-width: 1281px) {
+  .Course {
+    padding: 0 40px;
+  }
+  .courses {
+    box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
+    margin: 30px 0px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1026px) {
+  .Course {
+    padding: 0px 20px;
+  }
+}
+@media (min-width: 641px) and (max-width: 960px) {
+  .Course {
+    padding: 20px;
+  }
+  .courses {
+    padding: 10px;
+  }
+  .listPanel {
+    width: 30%;
+  }
+}
+
+@media (max-width: 481px) {
+  .Course {
+    padding: 0px;
+  }
+  .Course h2 {
+    font-size: 16px;
+    text-align: left;
+  }
+  .feature {
+    flex-flow: column;
+    align-items: flex-start;
+    line-height: 1.9em;
+  }
+  .courses {
+    margin: 0px 20px;
+    display: block;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+  .listPanel {
+    display: flex;
+    width: 100%;
+    flex-flow: nowrap;
+    overflow: auto;
+  }
+  .listPanel {
+    display: grid;
+    width: 100%;
+  }
+  .listPanel span {
+    font-size: 14px;
+    width: 100%;
+    padding: 15px 10px;
+    background: #fff;
+  }
+  .gridPanel {
+    flex-flow: row;
+    overflow: scroll;
+    width: 100%;
+  }
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    width: 90%;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .courseImg {
+    width: 305px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -0px;
+  }
+  .leftSide h6,
+  .middleSide h6,
+  .rightSide h6 {
+    margin-right: 0;
+  }
+  .checkCircle {
+    margin-right: 5px;
+  }
+  .courseM {
+    display: none;
+  }
+  .courseD {
+    display: block;
+  }
+  .h1 {
+    color: #28557a;
+    margin: 10px 0px 20px 0px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+  }
+}

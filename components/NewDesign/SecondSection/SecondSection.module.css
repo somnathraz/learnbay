@@ -1,0 +1,234 @@
+.second {
+  padding: 0px 100px 100px 100px;
+  text-align: center;
+}
+
+.secondBox p {
+  text-align: left;
+  margin: 0;
+}
+
+.infop {
+  color: #0072bc;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+
+.h1 {
+  color: #28557a;
+  margin: 5px 0px 20px 0px;
+  text-align: center;
+}
+
+.ptop {
+  color: #767676;
+  font-size: 18px;
+  margin: 0;
+}
+
+.secondBox {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.blue,
+.green,
+.yellow,
+.pink {
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  gap: 5px;
+  font-size: 14px;
+color: #767676;
+}
+
+
+
+.blue {
+  border-top: 3px solid #28557a;
+}
+
+.green {
+  border-top: 3px solid #2db621;
+}
+
+.yellow {
+  border-top: 3px solid #edbb52;
+}
+
+.pink {
+  border-top: 3px solid #ca3942;
+}
+
+.secondBox p {
+    font-size: 16px;
+}
+
+.greenIcon {
+    color: #2DB621;
+    font-size: 30px;
+}
+
+.yellowIcon {
+    color: #EDBB52;
+    font-size: 30px;
+}
+
+.pinkIcon {
+    color: #CA3942;
+    font-size: 30px;
+}
+
+.blueIcon {
+    color: #28557A;
+    font-size: 30px;
+}
+
+.Testimonial {
+  padding: 0px 100px 30px 100px;
+}
+
+.slide {
+  height: 580px;
+}
+
+.mainSlider {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: -1px 0 10px 2px rgb(4 135 217 / 10%);
+  padding: 30px;
+  margin: 20px 0px;
+  height: 350px;
+}
+
+.para {
+  font-size: 14px;
+  color: #fff;
+  font-style: italic;
+  margin: 0px;
+  font-weight: 300;
+}
+
+.name {
+  margin-top: -10px;
+  gap: 10px;
+  display: grid;
+}
+
+.nameHike p {
+  color: #2DB621;
+margin: 0;  
+}
+
+.name h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.name p {
+  margin: 0;
+  font-size: 16px;
+  color: #0072bc;
+}
+
+.paraDiv {
+  background: linear-gradient(180deg, #28557A 0%, #2979A8 100%);
+border-radius: 15px;
+padding: 40px 20px 50px 20px;
+}
+
+.imgP {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+margin-top: -50px;
+}
+
+.imgHike {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px;
+  align-items: flex-end;
+  padding: 0px 20px 20px 20px;
+  margin-top: -0px;
+}
+
+@media (max-width: 641px) {
+  .h1 {
+    color: #28557a;
+    margin: 10px 0px 20px 0px;
+    font-size: 24px;
+  }
+
+  .ptop {
+    color: #767676;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .second {
+    padding: 0px 20px 30px 20px;
+    text-align: center;
+  }
+  .secondBox {
+    display: grid;
+    grid-template-columns: 47% 47%;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .secondBox p {
+    font-size: 14px;
+}
+  
+  .blue,
+  .green,
+  .yellow,
+  .pink {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 75% 20%;
+    gap: 5px;
+    font-size: 14px;
+  color: #767676;
+  }
+
+  .greenIcon {
+    font-size: 25px;
+}
+
+.yellowIcon {
+    font-size: 25px;
+}
+
+.pinkIcon {
+    font-size: 25px;
+}
+
+.blueIcon {
+    font-size: 25px;
+}
+
+.Testimonial {
+  padding: 0px 20px;
+}
+.slide {
+  height: fit-content;
+}
+.mainSlider {
+  padding: 0px;
+  height: fit-content;
+  margin: 10px 5px 40px 5px;
+  height: 360px;
+}
+}

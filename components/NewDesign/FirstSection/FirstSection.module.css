@@ -1,0 +1,76 @@
+.First {
+    background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSectionBg.png");
+    background-size:contain;
+    margin-top: 70px;
+    padding: 50px 100px 100px 100px;
+    text-align: center;
+    display: grid;
+}
+
+.SecondLeft button {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.ptop {
+    color: #767676;
+    font-size: 18px;
+    margin: 0;
+
+}
+
+.h1Span {
+    background: linear-gradient(90deg, #EDBB52 50%, #CA3942 103.64%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h1 {
+    color: #28557A;
+    margin: 5px 0px 20px 0px;
+}
+
+.SecondLeft p {
+    margin: 10px 0px 20px 0px;
+}
+
+@media (max-width:641px) {
+    .First {
+        padding: 30px 20px 30px 20px;
+    }
+    
+    .ptop {
+        color: #767676;
+        font-size: 18px;
+        margin: 0;
+    
+    }
+
+    .ptopC {
+        color: #767676;
+        font-size: 14px;
+        margin: 0px;
+    }
+    
+    .h1Span {
+        background: linear-gradient(90deg, #EDBB52 50%, #CA3942 103.64%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .h1 {
+        color: #28557A;
+        margin: 10px 0px 20px 0px;
+        font-size: 24px;
+    }
+
+    .logos {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 20px;
+    }
+    
+}
+
+
