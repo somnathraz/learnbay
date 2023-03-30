@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
-import { Autoplay, Scrollbar } from "swiper";
+import { Scrollbar } from "swiper";
 
 function SecondSection() {
   const [mobile, setMobile] = useState(false);
@@ -19,7 +19,7 @@ function SecondSection() {
   return (
     <>
       <div className={styles.second}>
-        <div>
+        <div className={styles.secondFirst}>
           <p className={styles.infop}>Course info</p>
           <h2 className={styles.h1}>
             Master the fundamental skills of a blockchain developer
@@ -148,8 +148,7 @@ function SecondSection() {
                     delay: 2500,
                   }}
                   grabCursor={true}
-                  modules={[Autoplay, Scrollbar]}
-                  autoPlay={true}
+                  modules={[Scrollbar]}
                   className="mySwiper"
                 >
                   <SwiperSlide className={styles.slide}>

@@ -110,7 +110,7 @@ border-radius: 6px;
     padding: 15px;
     display: grid;
     grid-template-columns: 88% 12%;
-    gap: 0;
+    gap: 10px;
     margin-bottom: 0;
   }
   .queshO {
@@ -118,7 +118,7 @@ border-radius: 6px;
     padding: 15px;
     display: grid;
     grid-template-columns: 88% 12%;
-    gap: 0;
+    gap: 10px;
     margin-bottom: 0;
   }
   .ans p {
@@ -127,5 +127,8 @@ border-radius: 6px;
   .FaqWrapper {
     border-top: 1px solid #00000030;
     border-bottom: 0;
+  }
+  .FaqWrapper:first-child {
+    border: 0;
   }
 }

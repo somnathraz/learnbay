@@ -228,6 +228,7 @@ margin-bottom: 30px;
 .h1 {
   color: #28557A;
   margin: 5px 0px 20px 0px;
+  padding: 0px 100px;
 } 
 
 .para {
@@ -255,7 +256,7 @@ margin-bottom: 30px;
 }
 
 .slide {
-  height: 580px;
+  height: 480px;
 }
 
 .mainSlider {
@@ -263,7 +264,7 @@ margin-bottom: 30px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 15px;
   padding: 30px;
-  height: 470px;
+  height: 280px;
 }
 
 .blueIcon {
@@ -606,4 +607,9 @@ font-size: 30px;
         margin: auto;
         margin-top: -30px;
       }
+      .h1 {
+        color: #28557A;
+        margin: 5px 0px 20px 0px;
+  padding: 0px;
+      } 
 }

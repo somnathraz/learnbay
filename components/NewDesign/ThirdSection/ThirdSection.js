@@ -80,6 +80,63 @@ function ThirdSection() {
           alt="data science course"
         />
       </div>
+      <div className={styles.First}>
+      <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        downloadBrochure
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "340px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Download Brochure</h5>
+          <Form />
+        </div>
+      </Popup>
+      <div className={styles.FirstLeft}>
+        <p className={styles.ptopB}>
+          Take the first step in your blockchain development journey with our
+        </p>
+        <h1 className={styles.h1}>
+          Software Development Program with{" "}
+          <span className={styles.h1Span}>Specialization in Blockchain</span>
+        </h1>
+        <p className={styles.ptop}>
+          Designed for professionals seeking to accelerate their careers in the
+          emerging field of blockchain technology.
+        </p>
+        <p className={styles.ptop}>In collaboration with</p>
+        <div className={styles.IBMlogo}>
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSection.png"
+            width="283"
+            height="51"
+            layout="intrinsic"
+            alt="data science course"
+          />
+        </div>
+        <p className={styles.ptop}>
+          Designed for professionals seeking to accelerate their careers in the
+          emerging field of blockchain technology.
+        </p>
+      </div>
+      <div className={styles.secondLeft}>
+        <div className={styles.PlayImg}>
+        <Image
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Map(learners).png"
+          width="517"
+          height="679"
+          layout="intrinsic"
+          alt="data science course"
+        />
+        </div>
+      </div>
+    </div>
       <div className={styles.boxBlue}>
         <h2 className={styles.boxH2}>
           Still unsure if this is the right program for you?

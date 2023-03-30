@@ -275,9 +275,14 @@ h4 {
 }
 
 .swiper-scrollbar-drag {
-  background-color: #0072BC !important;
+  background-color: #0072bc !important;
+  width: 20% !important;
 }
 
+.swiper-horizontal>.swiper-scrollbar{
+  width: 20% !important;
+  left: 40% !important;
+}
 
 @media (max-width: 1281px) {
   .MainCities {
@@ -356,6 +361,13 @@ h4 {
   .leftPopup {
     display: none;
   }
+  .swiper-button-prev {
+    left: 0% !important;
+  }
+  .swiper-button-next {
+    right: 0% !important;
+  }
+
   .RightPopup {
     display: flex;
     flex-flow: column;

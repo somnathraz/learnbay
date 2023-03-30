@@ -4,20 +4,39 @@
   padding: 50px 100px 0px 100px;
 }
 
+.project {
+  padding: 100px 0px;
+}
 .Testimonial {
   padding: 0px 100px 30px 100px;
 }
 
 .slide {
-  height: 580px;
+  height: 400px;
 }
+
+.h1 {
+  color: #28557a;
+  margin: 10px 0px 20px 0px;
+  font-size: 24px;
+  text-align: center;
+}
+.infop {
+    color: #0072bc;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0px;
+  text-align: center;
+
+  }
 
 .mainSlider {
   background: linear-gradient(90deg, rgba(225, 241, 245, 0.5) 0.18%, rgba(225, 241, 245, 0) 46.58%, rgba(225, 241, 245, 0.5) 99.17%);;
   border-radius: 5px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   padding: 30px;
-  height: 470px;
+  height: fit-content;
 }
 
 .QuoteOrange {

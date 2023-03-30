@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import 'swiper/css/scrollbar';
-import { Pagination, Autoplay, Scrollbar } from "swiper";
+import {Scrollbar } from "swiper";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import ProjectPopup from "../ProjectPopup/ProjectPopup";
@@ -61,15 +61,11 @@ function SixthSection() {
             <div className={styles.Testimonial}>
               <div className={styles.swiperleft}>
                 <Swiper
-                  slidesPerView={mobile ? 1.2 : 3}
+                  slidesPerView={mobile ? 1.2 : 4}
                   spaceBetween={mobile ? 10 : 15}
                   scrollbar={{ draggable: true }}
-                  autoplay={{
-                    delay: 2500,
-                  }}
                   grabCursor={true}
-                  modules={[ Autoplay, Scrollbar]}
-                  autoPlay={true}
+                  modules={[Scrollbar]}
                   className="mySwiper"
                 >
                   <SwiperSlide className={styles.slide}>

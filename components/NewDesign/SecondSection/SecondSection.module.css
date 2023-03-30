@@ -1,5 +1,5 @@
 .second {
-  padding: 0px 100px 100px 100px;
+  padding: 0px 230px 100px 230px;
   text-align: center;
 }
 
@@ -12,7 +12,7 @@
   color: #0072bc;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   margin: 10px 0px;
 }
 
@@ -91,7 +91,7 @@ color: #767676;
 }
 
 .Testimonial {
-  padding: 0px 100px 30px 100px;
+  padding: 0px 100px 100px 100px;
 }
 
 .slide {
@@ -172,6 +172,10 @@ margin-top: -50px;
     color: #767676;
     font-size: 18px;
     margin: 0;
+  }
+
+  .infop {
+    font-size: 16px;
   }
 
   .second {

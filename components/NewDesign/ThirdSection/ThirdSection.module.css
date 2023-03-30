@@ -1,8 +1,8 @@
 .infop {
   color: #0072bc;
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   margin: 10px 0px;
   text-align: center;
 }
@@ -94,23 +94,94 @@
 }
 
 .batch {
-    padding: 50px 100px;
-    text-align: center;
+  padding: 100px 0px;
+  text-align: center;
 }
 
 .batchP {
-    color: #767676;
-    margin: 0;
-    padding: 0px 200px;
+  color: #767676;
+  margin: 0;
+  padding: 0px 200px;
 }
 
 .batchImage {
-    display: flex;
-    padding: 30px;
+  display: flex;
+  margin-top: 50px;
+  padding: 50px 100px 20px 100px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08);
 }
 
 .imgPlacement {
   width: 400px;
+}
+
+.map {
+  display: none;
+}
+
+.First {
+  margin-top: 70px;
+  padding: 0px 100px 0px 100px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.FirstLeft button {
+  margin-top: 30px;
+}
+
+.ptop {
+  color: #767676;
+  font-size: 18px;
+  margin: 0;
+  text-align: left;
+}
+
+.ptopB {
+  color: #767676;
+  font-size: 18px;
+  margin: 0;
+  text-align: left;
+  border: 1px solid #0072bc;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+.h1Span {
+  background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.h1 {
+  color: #28557a;
+  margin: 5px 0px 20px 0px;
+  text-align: left;
+}
+
+.FirstLeft p {
+  margin: 10px 0px 10px 0px;
+}
+
+.logos {
+  display: none;
+}
+
+.IBMlogoPlay {
+  display: none;
+}
+
+.logosD {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.PlayImg {
+  text-align: center;
+  margin: 50px 0px 30px 0px;
 }
 
 @media (max-width: 641px) {
@@ -159,15 +230,22 @@
   .batch {
     padding: 30px 20px;
     text-align: center;
-}
-.batchImage {
+  }
+  .batchImage {
     display: block;
     padding: 0px;
+    background: none;
+    box-shadow: none;
+  }
+  .batchP {
+    color: #767676;
+    margin: 0;
+    padding: 0px;
+  }
+  .First {
+    display: none;
+  }
+.infop {
+  font-size: 16px;
 }
-.batchP {
-  color: #767676;
-  margin: 0;
-  padding: 0px;
-}
-
 }

@@ -98,7 +98,7 @@ function SyllabusNew({
                 <div className={styles.Testimonial}>
                   <div className={styles.swiperleft}>
                     <Swiper
-                      slidesPerView={mobile ? 1 : 3}
+                      slidesPerView={mobile ? 1 : 2}
                       spaceBetween={mobile ? 10 : 15}
                       scrollbar={{ draggable: true }}
                       autoplay={{
@@ -158,11 +158,10 @@ function SyllabusNew({
                       <SwiperSlide className={styles.slide}>
                         <div className={styles.mainSlider}>
                           <div className={styles.imgP}>
-                            {/* <TbNumber3 className={styles.greenIcon}/> */}
                             <Image
                               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/3.png"
                               width="60"
-                              height="40"
+                              height="80"
                               layout="intrinsic"
                               alt="data science course"
                             />
