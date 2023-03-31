@@ -12,7 +12,7 @@ import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SixthSection from "../components/NewDesign/SixthSection/SixthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import { DataScienceCourseData } from "../Data/DataScienceCourse";
-import FAQNew from "../Components/NewDesign/FAQNew/FAQNewcer";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
 import {
   FaqData2,
   DomainFaqData2,
@@ -21,7 +21,7 @@ import {
   jobFaqData2,
   MentorshipFaqData2,
   SupportFaqData2,
-} from "../Components/NewDesign/FAQNew/FaqData";
+} from "../components/NewDesign/FAQNew/FaqData";
 
 
 function blockchain() {
