@@ -1,0 +1,155 @@
+.First {
+  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSectionBg.png");
+  background-size: contain;
+  margin-top: 70px;
+  padding: 70px 100px 70px 100px;
+  display: grid;
+  grid-template-columns: 53% 43%;
+  gap: 50px;
+}
+
+.FirstLeft button {
+  margin-top: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-weight: 700;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100%;
+}
+
+.FirstLeft button:hover {
+  background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+}
+
+.btnImage {
+    display: flex;
+    gap: 70px;
+}
+
+/* .imgArrow {
+    margin-top: -30px !important;
+} */
+
+.ptop {
+  font-size: 20px;
+  margin: 0;
+  text-align: left;
+}
+
+.h1Span {
+  background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.h1 {
+  color: #28557a;
+  margin: 5px 0px 20px 0px;
+  text-align: left;
+  font-size: 37px;
+}
+
+.FirstLeft p {
+  margin: 10px 0px 10px 0px;
+}
+
+.logos {
+  display: none;
+}
+
+.IBMlogoPlay {
+  display: none;
+}
+
+.logosD {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.PlayImg {
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+@media (max-width: 641px) {
+  .First {
+    padding: 30px 20px 30px 20px;
+    display: block;
+  }
+
+  .FirstLeft p {
+    margin: 10px 0px 20px 0px;
+  }
+
+  .FirstLeft .ptop {
+    color: #767676;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .FirstLeft .ptopC {
+    color: #767676;
+    font-size: 14px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .FirstLeft .h1Span {
+    background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+
+  .FirstLeft .h1 {
+    color: #28557a;
+    margin: 10px 0px 20px 0px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .IBMlogo,
+  .IBMlogoPlay {
+    text-align: center;
+    margin: 10px 0px;
+  }
+
+  .IBMlogoPlay {
+    display: block;
+  }
+
+  .secondLeft {
+    display: none;
+  }
+
+  .PlayImg {
+    display: none;
+  }
+
+  .logosD {
+    display: none;
+  }
+
+  .FirstLeft button {
+    margin: auto;
+    font-size: 12px;
+    height: fit-content;
+  }
+
+  .btnImage {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-left: 19%;
+    margin-top: 20px;
+}
+}

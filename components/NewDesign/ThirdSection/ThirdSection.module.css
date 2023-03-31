@@ -1,0 +1,285 @@
+.infop {
+  color: #0072bc;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.infopP {
+  color: #0072bc;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0px 30px 0px;
+  text-align: center;
+}
+
+.boxGrey {
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(237, 233, 233, 0) 0%,
+    rgba(235, 235, 235, 0.6) 52.6%,
+    rgba(239, 239, 239, 0) 100%
+  );
+  padding: 50px 100px;
+  gap: 50px;
+  display: grid;
+  margin-top: 30px;
+}
+
+.boxText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px 0px;
+  gap: 30px;
+}
+
+.Htop {
+  color: #28557a;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.ptop {
+  color: #636363;
+  font-size: 16px;
+  margin: 0;
+}
+
+.blueD {
+  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Box-blue.png");
+}
+
+.green {
+  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Box-green.png");
+}
+
+.yellow {
+  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Box-yellow.png");
+}
+
+.blue {
+  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Box-light-blue.png");
+}
+
+.blue,
+.blueD,
+.yellow,
+.green {
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 50px;
+  background-position: center;
+}
+
+.map {
+  text-align: center;
+}
+
+.boxBlue {
+  padding: 50px 20px;
+  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Cta-wiht-girl.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 24%;
+  
+}
+
+.boxH2 {
+  color: #fff;
+  margin: 0;
+}
+
+.boxP {
+  color: #fff;
+}
+
+.boxBlue button {
+  background-color: #fff;
+  color: #28557a;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.batch {
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.batchP {
+  color: #767676;
+  margin: 0;
+  padding: 0px 200px;
+}
+
+.batchImage {
+  display: flex;
+  margin-top: 50px;
+  padding: 50px 100px 20px 100px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08);
+}
+
+.imgPlacement {
+  width: 400px;
+}
+
+.map {
+  display: none;
+}
+
+.First {
+  margin-top: 70px;
+  padding: 0px 100px 0px 100px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.FirstLeft button {
+  margin-top: 30px;
+}
+
+.ptop {
+  color: #767676;
+  font-size: 18px;
+  margin: 0;
+}
+
+.hrDesing {
+  border: 1px solid #CDCDCD;
+}
+
+.ptopB {
+  color: #767676;
+  font-size: 18px;
+  margin: 0;
+  text-align: left;
+  border: 1px solid #0072bc;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+.h1Span {
+  background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.h1 {
+  color: #28557a;
+  margin: 5px 0px 20px 0px;
+  text-align: left;
+}
+
+.FirstLeft p {
+  margin: 10px 0px 10px 0px;
+}
+
+.logos {
+  display: none;
+}
+
+.IBMlogoPlay {
+  display: none;
+}
+
+.logosD {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.PlayImg {
+  text-align: center;
+  margin: 50px 0px 30px 0px;
+}
+
+.CTA {
+  margin: auto;
+  
+}
+
+@media (max-width: 641px) {
+  .boxGrey {
+    text-align: center;
+    background: linear-gradient(
+      90deg,
+      rgba(237, 233, 233, 0) 0%,
+      rgba(235, 235, 235, 0.6) 52.6%,
+      rgba(239, 239, 239, 0) 100%
+    );
+    padding: 20px 20px;
+    gap: 20px;
+    display: grid;
+    margin-bottom: 20px;
+  }
+  .blue,
+  .blueD,
+  .yellow,
+  .green {
+    background-size: contain;
+    padding: 10px;
+  }
+
+  .boxText {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 20px;
+    gap: 10px;
+  }
+
+  .ptop {
+    color: #636363;
+    font-size: 14px;
+    margin: 0;
+  }
+  .Htop {
+    color: #28557a;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .batch {
+    padding: 30px 20px;
+    text-align: center;
+  }
+  .batchImage {
+    display: block;
+    padding: 0px;
+    background: none;
+    box-shadow: none;
+  }
+  .batchP {
+    color: #767676;
+    margin: 0;
+    padding: 0px;
+  }
+  .First {
+    display: none;
+  }
+.infop, .infopP {
+  font-size: 16px;
+}
+
+.infopP {
+  text-align: left;
+}
+.boxBlue {
+  padding: 50px 20px;
+  background: linear-gradient(90deg, #28557a 0%, #2979a8 100%);
+  margin-left: 0;
+}
+.hrDesing {
+  display: none;
+}
+}
