@@ -5,7 +5,7 @@ import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import Image from "next/image";
 
-function FirstSection() {
+function FirstSection({ dataScience }) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -27,9 +27,12 @@ function FirstSection() {
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form />
+          <Form dataScience={dataScience} downloadBrochure/>
         </div>
       </Popup>
+
+{/* For Mobile View */}
+
       <div className={styles.FirstLeft}>
         <p className={styles.ptop}>
           Take the first step in your blockchain development journey with our
@@ -102,22 +105,35 @@ function FirstSection() {
             </p>
           </div>
         </div>
-        <button onClick={popupShow}>
-          Download Brochure
-          <FaDownload style={{ marginLeft: "10px" }} />
-        </button>
+        <div className={styles.btnImage}>
+          <button onClick={popupShow}>
+            Download Brochure
+            <FaDownload style={{ marginLeft: "10px" }} />
+          </button>
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Arrow-1.png"
+            width="114"
+            height="84"
+            layout="intrinsic"
+            alt="data science course"
+            className={styles.imgArrow}
+          />
+        </div>
       </div>
+
+{/* For desktop View */}
+
       <div className={styles.secondLeft}>
         <div className={styles.PlayImg}>
-        <Image
+          <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSectionPlay.png"
-            width="486"
-            height="230"
+            width="600"
+            height="350"
             layout="intrinsic"
             alt="data science course"
           />
         </div>
-      <div className={styles.logosD}>
+        <div className={styles.logosD}>
           <div>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Career-report-logo.png"

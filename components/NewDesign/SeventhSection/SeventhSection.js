@@ -8,6 +8,7 @@ function SeventhSection({ fullStackCont }) {
   return (
     <>
     <div className={styles.Section2}>
+    <p className={styles.infop}>24X7 learner’s support</p>
       <div>
         <div className={styles.LearnSupport}>
           <div className={styles.learnInner}>

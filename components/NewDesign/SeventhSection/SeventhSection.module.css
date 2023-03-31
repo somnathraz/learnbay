@@ -2,6 +2,15 @@
     margin-top: 50px;
 }
 
+.infop {
+  color: #0072bc;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
 .LearnSupport {
     padding: 50px 100px;
     background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/24x7-support-cta.png");
@@ -13,7 +22,9 @@
     box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
     justify-content:flex-start;
     height: 480px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
   }
 
   .pBot {
@@ -110,6 +121,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 30px;
     }
     .LearnSupport .pTop {
       font-size: 22px;
@@ -140,5 +152,8 @@
       font-size: 24px;
       text-align: center;
       margin-top: 50px;
+    }
+    .infop {
+      font-size: 20px;
     }
   }

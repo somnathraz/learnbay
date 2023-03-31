@@ -5,7 +5,7 @@
 }
 
 .project {
-  padding: 100px 0px;
+  padding: 50px 0px;
 }
 .Testimonial {
   padding: 0px 100px 30px 100px;
@@ -18,18 +18,17 @@
 .h1 {
   color: #28557a;
   margin: 10px 0px 20px 0px;
-  font-size: 24px;
+  font-size: 32px;
   text-align: center;
 }
 .infop {
-    color: #0072bc;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 16px;
-    margin: 10px 0px;
+  color: #0072bc;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0px;
   text-align: center;
-
-  }
+}
 
 .mainSlider {
   background: linear-gradient(90deg, rgba(225, 241, 245, 0.5) 0.18%, rgba(225, 241, 245, 0) 46.58%, rgba(225, 241, 245, 0.5) 99.17%);;
@@ -175,9 +174,18 @@
 }
 
 .button {
-margin: auto;
-color: #fff;
-margin-top: 30px;
+  margin-top: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-weight: 700;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100%;
+  margin: auto;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
 }
 
 .FeeSection {
@@ -186,6 +194,143 @@ padding: 50px 100px 0px 100px;
 
 .swiper-scrollbar-drag {
   background: #0072bc;
+}
+
+.form {
+  display: none;
+}
+
+.batch {
+  text-align: center;
+}
+
+.batchBox {
+  display: flex;
+  gap: 250px;
+  justify-content: center;
+  align-items: center;
+  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Batch-details-full.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+.blue {
+  background: none;
+  padding: 20px;
+}
+
+.orange {
+  background: none;
+  padding: 20px;
+}
+
+.ptopBlue {
+  color: #28557A;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.ptopOrange {
+  color: #EDBB52;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.pBotBA {
+  color: #686868;
+  font-size: 16px;
+}
+
+.pBotB {
+  color: #686868;
+  font-size: 16px;
+  text-align: left;
+  margin: 5px 0px;
+}
+
+.dateTime {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.orangeIcon {
+  color: #EDBB52;
+  font-size: 20px;
+}
+
+.blueIcon {
+  color: #28557A;
+  font-size: 20px;
+}
+
+/* Mobile View Batch details */
+
+.Syllabus {
+  margin: 50px 100px 50px 100px;
+}
+.mobileView {
+  display: none;
+}
+.desktopView {
+  display: block;
+}
+
+/* DeskTop View Batch details */
+.NewBatch {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.NewBatch .iconOrange {
+  color: #edb552;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.NewBatch .iconBlue {
+  color: #0072bc;
+  font-size: 28px;
+  margin-right: 5px;
+}
+
+.NewBlue,
+.NewOrange {
+  justify-content: center;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  padding: 20px 0px 20px 100px;
+  width: 90%;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  align-items: center;
+}
+
+.NewBlue {
+  border-left: 5px solid #0072bc;
+}
+
+.NewOrange {
+  border-left: 5px solid #edb552;
+}
+
+.listDay {
+  margin: 0;
+  padding: 0;
+  color: #0072bc;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.list {
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 641px) {
@@ -215,6 +360,8 @@ padding: 50px 100px 0px 100px;
         gap: 10px;
         justify-content: center;
         padding: 20px;
+        height: fit-content;
+        background: none;
       }
 
       .blue {
@@ -298,4 +445,155 @@ box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
               margin: 10px 5px 40px 5px;
               text-align: left;
             }
+            .blue {
+              background: #E1F1F580;
+              padding: 20px;
+            }
+            
+            .orange {
+              background: #EDBB521A;
+              padding: 20px;
+            }
+
+.button {
+  margin-top: 30px;
+}
+
+}
+
+@media (max-width: 481px) {
+  .Syllabus {
+    margin: 50px 20px;
+  }
+
+  .syllabusLeft {
+    margin: 0px 0px 30px 0px;
+    position: inherit;
+  }
+
+  .line {
+    margin-top: 15px;
+    z-index: 1;
+    margin-left: 12px;
+  }
+  .ans h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .ans h6 {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .FaqWrapper {
+    padding-left: 10px;
+  }
+
+  .syllabusRight {
+    margin: 0px;
+  }
+
+  .PProgrammain {
+    /* background-image: url(/syllabus-sideLine.png); */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+  }
+  .PProgramInner {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    font-size: 14px;
+    padding: 20px 20px 20px 20px;
+  }
+  .PProgramInner div,
+  .PProgrammains p {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+  .PProgramInner p {
+    display: grid;
+    align-items: center;
+  }
+  .PProgrammains h5 {
+    left: 30px;
+  }
+}
+
+@media (max-width: 481px) {
+  .mobileView {
+    display: block;
+  }
+  .desktopView {
+    display: none;
+  }
+  .CourseFeeh {
+    margin: 40px 0px 30px 0px;
+  }
+
+  .BatchDetailsTop {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .list {
+    margin: 0px 0px 10px 10px;
+    font-size: 16px;
+  }
+  .phead {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px;
+  }
+  .CourseFee {
+    padding: 30px 10px;
+    margin: 20px;
+    width: auto;
+  }
+  .listcheck {
+    justify-content: flex-start;
+  }
+
+  .NewBlue,
+  .NewOrange {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+  }
+
+  .listDay {
+    margin: 0;
+    padding: 0;
+    color: #0072bc;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .NewBatch .iconOrange {
+    color: #edb552;
+    font-size: 26px;
+    margin-right: 5px;
+  }
+
+  .NewBatch .iconBlue {
+    color: #0072bc;
+    font-size: 26px;
+    margin-right: 5px;
+  }
 }

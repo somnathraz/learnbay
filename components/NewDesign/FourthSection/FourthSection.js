@@ -73,11 +73,11 @@ function SyllabusNew({
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form />
+          <Form dataScience={dataScience} downloadBrochure/>
         </div>
       </Popup>
       <div className={styles.careerPro}>
-        <h1 className={styles.h1}>
+        <h1 className={styles.h11}>
           Career Service
           <span className={styles.h1Span}> PRO</span>
         </h1>
@@ -187,7 +187,7 @@ function SyllabusNew({
       </div>
       <div className={styles.project}>
         <p className={styles.infop}>CURRICULUM</p>
-        <h2 className={styles.h11}>Explore our syllabus</h2>
+        <h2 className={styles.h1}>Explore our syllabus</h2>
       </div>{" "}
       <section className={styles.Syllabus}>
         <div className={styles.syllabusLeft}>
@@ -265,12 +265,27 @@ function SyllabusNew({
               </div>
             );
           })}
-        </div>
-        <div className={styles.button}>
           <button onClick={popupShow}>
             Download detailed syllabus
             <FaDownload style={{ marginLeft: "10px" }} />
           </button>
+        </div>
+        <div className={styles.button}>
+          <div className={styles.formWrapper}>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Form-Girl.png"
+              width={535}
+              height={239}
+              layout="intrinsic"
+              alt="girl"
+            />
+            <h4>Request more information</h4>
+            <Form
+              dataScience={dataScience}
+              fullStack={fullStack}
+              syllabus={true}
+            />
+          </div>
         </div>
       </section>
     </>

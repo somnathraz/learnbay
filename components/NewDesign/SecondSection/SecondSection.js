@@ -87,52 +87,6 @@ function SecondSection() {
             </div>
           </div>
         </div>
-        <div className={styles.secondBox}>
-          <div className={styles.blue}>
-            <div>
-              <p>IBM & Microsoft Certified capstone project</p>
-            </div>
-            <div>
-              <FaAward
-                className={styles.blueIcon}
-                style={{ marginLeft: "10px" }}
-              />
-            </div>
-          </div>
-          <div className={styles.green}>
-            <div>
-              <p>On-demand 1-1 Video Call With Expert</p>
-            </div>
-            <div>
-              <FaVideo
-                className={styles.greenIcon}
-                style={{ marginLeft: "10px" }}
-              />
-            </div>
-          </div>
-          <div className={styles.yellow}>
-            <div>
-              <p>Career Services & Alumni Network Access</p>
-            </div>
-            <div>
-              <FaNetworkWired
-                className={styles.yellowIcon}
-                style={{ marginLeft: "10px" }}
-              />
-            </div>
-          </div>
-          <div className={styles.pink}>
-            <div>
-              <p>Elevate your career with project portfolio</p>
-            </div>
-            <div>
-              <FaStickyNote
-                className={styles.pinkIcon}
-                style={{ marginLeft: "10px" }}
-              />
-            </div>
-          </div>
-        </div>
       </div>
       <div className={styles.testimonial}>
         <h2 className={styles.h1}>Our Alumni’s</h2>
@@ -142,7 +96,7 @@ function SecondSection() {
               <div className={styles.swiperleft}>
                 <Swiper
                   slidesPerView={mobile ? 1.1 : 3}
-                  spaceBetween={mobile ? 10 : 15}
+                  spaceBetween={mobile ? 10 : 30}
                   scrollbar={{ draggable: true }}
                   autoplay={{
                     delay: 2500,

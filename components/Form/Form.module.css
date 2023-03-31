@@ -237,6 +237,19 @@
   color: #2C9CD7 !important;
   font-size: 18px !important;
 }
+.bottomWrap {
+  padding-bottom: 70px;
+  background-color: beige;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.bottomWrap .FormText {
+  margin-top: 20px;
+  width: 80%;
+}
 
 @media (min-width: 961px) and (max-width: 1281px){
   .App button{

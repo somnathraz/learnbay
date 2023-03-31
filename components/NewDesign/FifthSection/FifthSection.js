@@ -7,6 +7,8 @@ import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaCheck } from "react-icons/fa";
 import { CertificateAdvance1, CertificateAdvance2 } from "./CertificateDetail";
+import { BsFillCreditCard2FrontFill, BsLaptopFill } from "react-icons/bs";
+import { GiWallet } from "react-icons/gi";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 
@@ -34,6 +36,11 @@ function FifthSection({
   img21,
   img22,
   img23,
+  dataScience,
+  Fee,
+  Emi,
+  CourseFeeAndFinancing,
+  para,
 }) {
   const [mobile, setMobile] = useState(false);
 
@@ -51,7 +58,7 @@ function FifthSection({
   };
   return (
     <>
-    <Popup
+      <Popup
         trigger={popups}
         setTrigger={setPopups}
         className="popupModal"
@@ -65,7 +72,16 @@ function FifthSection({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form />
+          <Form dataScience={dataScience} />
+        </div>
+      </Popup>
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+        <div className="leftPopup">
+          <div className="whiteP" />
+        </div>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
       <div className={styles.toolscoverd}>
@@ -387,29 +403,86 @@ function FifthSection({
         </div>
       </div>
       <div className={styles.fee}>
-          <p className={styles.infop} style={{color: "#fff"}}>Program fee & financing</p>
-          <div className={styles.feeBox}>
-            <p>Total fee</p>
-            <h2 style={{color:"#28557A"}}>₹ 1,25,000 + GST</h2>
-            <div className={styles.line}></div>
-            <p>Easy No-Cost EMI</p>
-            <h2 style={{color:"#28557A"}}>₹ 12,292/month</h2>
-            <p>Financing partners</p>
-            <div>
+        <p className={styles.infop} style={{ color: "#fff" }}>
+          Program fee & financing
+        </p>
+        <div className={styles.feeBox}>
+          <p>Total fee</p>
+          <h2 style={{ color: "#28557A" }}>₹ 1,25,000 + GST</h2>
+          <div className={styles.line}></div>
+          <p>Easy No-Cost EMI</p>
+          <h2 style={{ color: "#28557A" }}>₹ 12,292/month</h2>
+          <p>Financing partners</p>
+          <div>
             <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Financing-Parnters-Logos.png"
-                alt="pm"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Financing-Parnters-Logos.png"
+              alt="pm"
+              layout="intrinsic"
+              objectFit="contain"
+              width="427"
+              height="38"
+            />
+          </div>
+          <button onClick={popupShow} className={styles.btn}>
+            Enroll now
+          </button>
+        </div>
+      </div>
+      <div className={styles.feeD}>
+        <div className={styles.header}>
+          <p className={styles.infop}>
+          Program fee & financing
+        </p>
+          <p>{para}</p>
+        </div>
+        <div className={styles.wrap}>
+          <div className={styles.feeWrapper}>
+            <div className={styles.left}>
+              <h6>The EMI option</h6>
+              <p>Powered By</p>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/FeeIcon.png"
+                width="370"
+                height="47"
                 layout="intrinsic"
-                objectFit="contain"
-                width="427"
-                height="38"
               />
+              <div className={styles.bottom}>
+                <div className={styles.bottomp}>
+                  <p>0% interest rates&nbsp;|</p>
+                  <p>&nbsp; No hidden costs</p>
+                </div>
+                <h5>{Fee}</h5>
+                  <button onClick={popupShow}>Enroll Now</button>
               </div>
-              <button onClick={popupShow} className={styles.btn}>
-              Enroll now
-        </button>
+            </div>
+            <div className={styles.right}>
+              <h6>Financing as low as</h6>
+              <p>Pay By</p>
+              <div className={styles.bottom}>
+                <div className={styles.lefts}>
+                  <BsFillCreditCard2FrontFill className={styles.icon} />
+                  <p>Credit Card</p>
+                </div>
+                <div className={styles.center}>
+                  <BsLaptopFill className={styles.icon} />
+                  <p>Internet Banking</p>
+                </div>
+                <div className={styles.rights}>
+                  <GiWallet className={styles.icon} />
+                  <p>No Cost EMI</p>
+                </div>
+              </div>
+              <div className={styles.bottomS}>
+                <p>Get professional training affordably</p>
+                <h5>{Emi}</h5>
+                  <button style={{ margin: "auto" }} onClick={popupShow}>
+                    Enroll Now
+                  </button>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
     </>
   );
 }

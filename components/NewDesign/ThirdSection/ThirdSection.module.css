@@ -7,6 +7,15 @@
   text-align: center;
 }
 
+.infopP {
+  color: #0072bc;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0px 30px 0px;
+  text-align: center;
+}
+
 .boxGrey {
   text-align: center;
   background: linear-gradient(
@@ -16,8 +25,9 @@
     rgba(239, 239, 239, 0) 100%
   );
   padding: 50px 100px;
-  gap: 20px;
+  gap: 50px;
   display: grid;
+  margin-top: 30px;
 }
 
 .boxText {
@@ -25,7 +35,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 20px;
+  margin: 50px 0px;
   gap: 30px;
 }
 
@@ -74,7 +84,11 @@
 
 .boxBlue {
   padding: 50px 20px;
-  background: linear-gradient(90deg, #28557a 0%, #2979a8 100%);
+  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Cta-wiht-girl.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 24%;
+  
 }
 
 .boxH2 {
@@ -136,7 +150,10 @@
   color: #767676;
   font-size: 18px;
   margin: 0;
-  text-align: left;
+}
+
+.hrDesing {
+  border: 1px solid #CDCDCD;
 }
 
 .ptopB {
@@ -184,6 +201,11 @@
   margin: 50px 0px 30px 0px;
 }
 
+.CTA {
+  margin: auto;
+  
+}
+
 @media (max-width: 641px) {
   .boxGrey {
     text-align: center;
@@ -212,7 +234,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 30px 20px 50px 20px;
+    margin: 50px 20px;
     gap: 10px;
   }
 
@@ -245,7 +267,19 @@
   .First {
     display: none;
   }
-.infop {
+.infop, .infopP {
   font-size: 16px;
+}
+
+.infopP {
+  text-align: left;
+}
+.boxBlue {
+  padding: 50px 20px;
+  background: linear-gradient(90deg, #28557a 0%, #2979a8 100%);
+  margin-left: 0;
+}
+.hrDesing {
+  display: none;
 }
 }

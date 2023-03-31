@@ -52,7 +52,7 @@ function blockchain() {
         />
     </Head>
     <main>
-    <Navbar popup={true} />
+    <Navbar popup={true} dataScience={true}/>
     <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -63,9 +63,21 @@ function blockchain() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-<FirstSection />
+<FirstSection dataScience={true}/>
 <SecondSection />
-<ThirdSection />
+<ThirdSection
+dataScience={true}
+img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/hcltech.png"
+img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/cognizant.png"
+img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/cisco.png"
+img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/bosch.png"
+img5="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/accenture.png"
+img6="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/LTI.png"
+img7="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/KPMG.png"
+img8="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/IBM.png"
+img9="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/EY.png"
+img10="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Deloitte.png"
+/>
 <FourthSection 
 dataScience={true}
 syllabus={DataScienceCourseData[0].syllabus}
@@ -76,6 +88,10 @@ hours="250+ Hours"
 project="12+ Real Time"
 />
 <FifthSection 
+          Fee="₹ 70,000 + GST"
+          Emi="₹ 6,883/month"
+          para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+dataScience={true}
 img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
 img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
 img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -100,7 +116,9 @@ img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
 img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
 img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
 />
-<SixthSection />
+<SixthSection dataScience={true}
+CourseFeeHead="Specialization in Blockchain : Batch Details"
+/>
 <FAQNew
           FaqDatas={FaqData2}
           DomainFaqDatas={DomainFaqData2}

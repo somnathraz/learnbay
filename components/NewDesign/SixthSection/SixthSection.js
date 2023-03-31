@@ -7,13 +7,13 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
-import 'swiper/css/scrollbar';
-import {Scrollbar } from "swiper";
+import "swiper/css/scrollbar";
+import { Scrollbar } from "swiper";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import ProjectPopup from "../ProjectPopup/ProjectPopup";
 
-function SixthSection() {
+function SixthSection({ dataScience, CourseFeeHead, WebDev, DataScience }) {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -50,7 +50,12 @@ function SixthSection() {
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form popup={true} downloadBrochure setTrigger={setPopups} />
+          <Form
+            popup={true}
+            downloadBrochure
+            dataScience={dataScience}
+            setTrigger={setPopups}
+          />
         </div>
       </Popup>
       <div className={styles.project}>
@@ -324,41 +329,207 @@ function SixthSection() {
           </button>
         </section>
       </div>
-      <div className={styles.batch}>
-        <p className={styles.infop}>Batch details</p>
-        <div className={styles.batchBox}>
-          <div className={styles.blue}>
-            <p className={styles.ptopBlue}>Weekday</p>
-            <p className={styles.pBotBA}>7 months | 2 hrs/day</p>
-            <p className={styles.pBotBA}>
-              <b>Batch 1</b>
-            </p>
-            <div className={styles.dateTime}>
-              <MdDateRange className={styles.blueIcon} />
-              <p className={styles.pBotB}>24th March 2023</p>
+      <section className={styles.Syllabus}>
+        <h2 className={styles.h1}>{CourseFeeHead}</h2>
+        <div className={styles.mobileView}>
+          {DataScience ? (
+            <div className={styles.NewBatch}>
+              <div className={styles.NewOrange}>
+                <div>
+                  <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
+                </div>
+                <div>
+                  <p className={styles.list}>
+                    <MdDateRange className={styles.iconOrange} />
+                    24th March 2023
+                  </p>
+                  <p className={styles.list}>
+                    <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                  </p>
+                </div>
+              </div>
+              <div className={styles.NewBlue}>
+                <div>
+                  <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
+                </div>
+                <div>
+                  <p className={styles.list}>
+                    <MdDateRange className={styles.iconOrange} />
+                    26th March 2023
+                  </p>
+                  <p className={styles.list}>
+                    <BiTimeFive className={styles.iconBlue} />
+                    08:30 AM to 12 PM
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className={styles.dateTime}>
-              <BiTimeFive className={styles.blueIcon} />
-              <p className={styles.pBotB}>8PM to 10 PM</p>
-            </div>
-          </div>
-          <div className={styles.orange}>
-            <p className={styles.ptopOrange}>Weekend</p>
-            <p className={styles.pBotBA}>9 months | 3 hrs/day</p>
-            <p className={styles.pBotBA}>
-              <b>Batch 1</b>
-            </p>
-            <div className={styles.dateTime}>
-              <MdDateRange className={styles.orangeIcon} />
-              <p className={styles.pBotB}>24th March 2023</p>
-            </div>
-            <div className={styles.dateTime}>
-              <BiTimeFive className={styles.orangeIcon} />
-              <p className={styles.pBotB}>8:30AM to 12 PM</p>
-            </div>
-          </div>
+          ) : (
+            <>
+              {WebDev ? (
+                <div className={styles.NewBatch}>
+                  <div className={styles.NewBlue}>
+                    <div>
+                      <p className={styles.listDay}>
+                        Weekday Evening (Mon-Fri)
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <MdDateRange className={styles.iconOrange} />
+                        31st March 2023
+                      </p>
+                      <p className={styles.list}>
+                        <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div className={styles.NewBatch}>
+                  <div className={styles.NewOrange}>
+                    <div>
+                      <p className={styles.listDay}>
+                        Weekend Morning (Sat-Sun)
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <MdDateRange className={styles.iconOrange} />
+                        25th March 2023
+                      </p>
+                      <p className={styles.list}>
+                        <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
+                      </p>
+                    </div>
+                  </div>
+                  <div className={styles.NewBlue}>
+                    <div>
+                      <p className={styles.listDay}>
+                        Weekday Evening (Mon-Wed-Fri)
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <MdDateRange className={styles.iconOrange} />
+                        27th March 2023
+                      </p>
+                      <p className={styles.list}>
+                        <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </>
+          )}
         </div>
-      </div>
+
+        <div className={styles.desktopView}>
+          <div className={styles.heading}></div>
+          {DataScience ? (
+            <div className={styles.NewBatch}>
+              <div className={styles.NewOrange}>
+                <div>
+                  <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
+                </div>
+                <div>
+                  <p className={styles.list}>
+                    <MdDateRange className={styles.iconOrange} />
+                    24th March 2023
+                  </p>
+                </div>
+                <div>
+                  <p className={styles.list}>
+                    <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                  </p>
+                </div>
+              </div>
+              <div className={styles.NewBlue}>
+                <div>
+                  <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
+                </div>
+                <div>
+                  <p className={styles.list}>
+                    <MdDateRange className={styles.iconOrange} />
+                    26th March 2023
+                  </p>
+                </div>
+                <div>
+                  <p className={styles.list}>
+                    <BiTimeFive className={styles.iconBlue} />
+                    08:30 AM to 12 PM
+                  </p>
+                </div>
+              </div>
+            </div>
+          ) : (
+            <>
+              {WebDev ? (
+                <div className={styles.NewBatch}>
+                  <div className={styles.NewBlue}>
+                    <div>
+                      <p className={styles.listDay}>
+                        Weekday Morning (Mon-Fri)
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <MdDateRange className={styles.iconOrange} />
+                        31st March 2023
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <BiTimeFive className={styles.iconBlue} />7 AM to 9 AM
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div className={styles.NewBatch}>
+                  <div className={styles.NewOrange}>
+                    <div>
+                      <p className={styles.listDay}>
+                        Weekend Morning (Sat-Sun)
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <MdDateRange className={styles.iconOrange} />
+                        25th March 2023
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
+                      </p>
+                    </div>
+                  </div>
+                  <div className={styles.NewBlue}>
+                    <div>
+                      <p className={styles.listDay}>
+                        Weekday Evening (Mon-Wed-Fri)
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <MdDateRange className={styles.iconOrange} />
+                        27th March 2023
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+        </div>
+      </section>
       <div className={styles.form}>
         <p className={styles.infop}>Request more information</p>
         <Form />

@@ -23,6 +23,7 @@ const Form = ({
   jobDescription,
   formThank,
   referrals,
+  syllabus,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -399,13 +400,27 @@ const Form = ({
 
         
         <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
-        <p className={styles.FormText} style={{ fontSize: "10px" }}>
-          By submitting the form, you agree to our Terms and Conditions and our
-          Privacy Policy.
-        </p>
-        <button type="submit" className={styles.button}>
-          {downloadBrochure ? "Download Now" : btnText}{" "}
-        </button>
+        {syllabus ? (
+          <div className={styles.bottomWrap}>
+            <p className={styles.FormText} style={{ fontSize: "10px" }}>
+              By submitting the form, you agree to our Terms and Conditions and
+              our Privacy Policy.
+            </p>
+            <button type="submit" className={styles.button}>
+              {downloadBrochure ? "Download Now" : btnText}{" "}
+            </button>
+          </div>
+        ) : (
+          <>
+            <p className={styles.FormText} style={{ fontSize: "10px" }}>
+              By submitting the form, you agree to our Terms and Conditions and
+              our Privacy Policy.
+            </p>
+            <button type="submit" className={styles.button}>
+              {downloadBrochure ? "Download Now" : btnText}{" "}
+            </button>
+          </>
+        )}
         <input type="hidden" id="zc_gad" name="zc_gad" value="" />
       </form>
     </div>
