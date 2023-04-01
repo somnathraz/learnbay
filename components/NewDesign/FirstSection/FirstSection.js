@@ -4,8 +4,11 @@ import { FaDownload } from "react-icons/fa";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import Image from "next/image";
+import TextAnimation from "../Animation/TextAnimation";
 
-function FirstSection({ dataScience }) {
+function FirstSection({ dataScience, first,
+second,
+third }) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -60,9 +63,19 @@ function FirstSection({ dataScience }) {
             alt="data science course"
           />
         </div>
-        <p className={styles.ptop}>
-          Designed for professionals seeking to accelerate their careers in the
-          emerging field of blockchain technology.
+        <div className={styles.line}>
+          <img
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Vector-1-line.png"
+            width="80px"
+          />
+        </div>
+        <p className={styles.blink}>
+          Supercharge Your Career Trajectory  <br />
+          Learn <TextAnimation 
+          first={first}
+          second={second}
+          third={third}
+          /> for Success.
         </p>
         <div className={styles.logos}>
           <div>
@@ -110,14 +123,6 @@ function FirstSection({ dataScience }) {
             Download Brochure
             <FaDownload style={{ marginLeft: "10px" }} />
           </button>
-          <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Arrow-1.png"
-            width="114"
-            height="84"
-            layout="intrinsic"
-            alt="data science course"
-            className={styles.imgArrow}
-          />
         </div>
       </div>
 
@@ -127,8 +132,8 @@ function FirstSection({ dataScience }) {
         <div className={styles.PlayImg}>
           <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSectionPlay.png"
-            width="600"
-            height="350"
+            width="508"
+            height="327"
             layout="intrinsic"
             alt="data science course"
           />

@@ -7,10 +7,17 @@ import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaCheck } from "react-icons/fa";
 import { CertificateAdvance1, CertificateAdvance2 } from "./CertificateDetail";
+import { BsCheckCircleFill } from "react-icons/bs";
+import { FaGooglePay } from "react-icons/fa";
+import { MdAttachMoney } from "react-icons/md";
+import { MdPayment } from "react-icons/md";
+import { RiSecurePaymentFill } from "react-icons/ri";
+import { AiOutlineBank } from "react-icons/ai";
 import { BsFillCreditCard2FrontFill, BsLaptopFill } from "react-icons/bs";
 import { GiWallet } from "react-icons/gi";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
+import Fee from "./Fee"
 
 function FifthSection({
   img1,
@@ -37,10 +44,6 @@ function FifthSection({
   img22,
   img23,
   dataScience,
-  Fee,
-  Emi,
-  CourseFeeAndFinancing,
-  para,
 }) {
   const [mobile, setMobile] = useState(false);
 
@@ -51,11 +54,17 @@ function FifthSection({
     }
   });
 
+  const [slidesPerView, setSlidesPerView] = useState(3);
   const [popups, setPopups] = useState(false);
-
-  const popupShow = () => {
+  const [spaceBetween, setSpaceBetween] = useState(70);
+  const [changeHeading, setChangeHeading] = useState(false);
+  const [changeText, setChangeText] = useState(false);
+  const popupShow = (demoClass, changeText) => {
+    setChangeHeading(demoClass);
+    setChangeText(changeText);
     setPopups(true);
   };
+
   return (
     <>
       <Popup
@@ -429,59 +438,7 @@ function FifthSection({
         </div>
       </div>
       <div className={styles.feeD}>
-        <div className={styles.header}>
-          <p className={styles.infop}>
-          Program fee & financing
-        </p>
-          <p>{para}</p>
-        </div>
-        <div className={styles.wrap}>
-          <div className={styles.feeWrapper}>
-            <div className={styles.left}>
-              <h6>The EMI option</h6>
-              <p>Powered By</p>
-              <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/FeeIcon.png"
-                width="370"
-                height="47"
-                layout="intrinsic"
-              />
-              <div className={styles.bottom}>
-                <div className={styles.bottomp}>
-                  <p>0% interest rates&nbsp;|</p>
-                  <p>&nbsp; No hidden costs</p>
-                </div>
-                <h5>{Fee}</h5>
-                  <button onClick={popupShow}>Enroll Now</button>
-              </div>
-            </div>
-            <div className={styles.right}>
-              <h6>Financing as low as</h6>
-              <p>Pay By</p>
-              <div className={styles.bottom}>
-                <div className={styles.lefts}>
-                  <BsFillCreditCard2FrontFill className={styles.icon} />
-                  <p>Credit Card</p>
-                </div>
-                <div className={styles.center}>
-                  <BsLaptopFill className={styles.icon} />
-                  <p>Internet Banking</p>
-                </div>
-                <div className={styles.rights}>
-                  <GiWallet className={styles.icon} />
-                  <p>No Cost EMI</p>
-                </div>
-              </div>
-              <div className={styles.bottomS}>
-                <p>Get professional training affordably</p>
-                <h5>{Emi}</h5>
-                  <button style={{ margin: "auto" }} onClick={popupShow}>
-                    Enroll Now
-                  </button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Fee />
       </div>
     </>
   );

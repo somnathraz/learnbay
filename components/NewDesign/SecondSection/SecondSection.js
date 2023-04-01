@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
 import { Scrollbar } from "swiper";
+import {AiOutlineRise} from "react-icons/ai"
 
 function SecondSection() {
   const [mobile, setMobile] = useState(false);
@@ -20,7 +21,6 @@ function SecondSection() {
     <>
       <div className={styles.second}>
         <div className={styles.secondFirst}>
-          <p className={styles.infop}>Course info</p>
           <h2 className={styles.h1}>
             Master the fundamental skills of a blockchain developer
           </h2>
@@ -32,7 +32,7 @@ function SecondSection() {
         <div className={styles.secondBox}>
           <div className={styles.blue}>
             <div>
-              <p>IBM & Microsoft Certified capstone project</p>
+              <p className={styles.textBox}>IBM & Microsoft Certified capstone project</p>
             </div>
             <div>
               <Image
@@ -46,7 +46,7 @@ function SecondSection() {
           </div>
           <div className={styles.green}>
             <div>
-              <p>On-demand 1-1 Video Call With Expert</p>
+              <p className={styles.textBox}>On-demand 1-1 Video Call With Expert</p>
             </div>
             <div>
               <Image
@@ -60,7 +60,7 @@ function SecondSection() {
           </div>
           <div className={styles.yellow}>
             <div>
-              <p>Career Services & Alumni Network Access</p>
+              <p className={styles.textBox}>Career Services & Alumni Network Access</p>
             </div>
             <div>
               <Image
@@ -74,7 +74,7 @@ function SecondSection() {
           </div>
           <div className={styles.pink}>
             <div>
-              <p>Elevate your career with project portfolio</p>
+              <p className={styles.textBox}>Elevate your career with project portfolio</p>
             </div>
             <div>
               <Image
@@ -90,13 +90,19 @@ function SecondSection() {
       </div>
       <div className={styles.testimonial}>
         <h2 className={styles.h1}>Our Alumni’s</h2>
+        <div className={styles.line}>
+          <img
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/alumni-arrow.png"
+            width="80px"
+          />
+        </div>
         <section>
           <div className={styles.Section1}>
             <div className={styles.Testimonial}>
               <div className={styles.swiperleft}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
-                  spaceBetween={mobile ? 10 : 30}
+                  slidesPerView={mobile ? 1.1 : 3.1}
+                  spaceBetween={mobile ? 10 : 85}
                   scrollbar={{ draggable: true }}
                   autoplay={{
                     delay: 2500,
@@ -127,8 +133,8 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/preksha-home.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="80"
-                            height="80"
+                            width="100"
+                            height="100"
                             alt="preksha-home"
                           />
                         </div>
@@ -139,14 +145,14 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HCL-logo.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="91"
-                            height="12"
+                            width={mobile ? 54 : 200}
+                            height={mobile ? 15 : 82}
                             alt="preksha-home"
                           />
                         </div>
                         <div className={styles.nameHike}>
 
-                          <p>140% Hike</p>
+                          <p><AiOutlineRise />140% Hike</p>
                         </div>
                       </div>
                     </div>
@@ -168,8 +174,8 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="80"
-                            height="80"
+                            width="100"
+                            height="100"
                             alt="preksha-home"
                           />
                         </div>
@@ -177,16 +183,16 @@ function SecondSection() {
                       <div className={styles.imgHike}>
                         <div>
                           <Image
-                            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/tcs-logo.png"
+                            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/TCS.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="54"
-                            height="15"
+                            width={mobile ? 54 : 200}
+                            height={mobile ? 15 : 82}
                             alt="preksha-home"
                           />
                         </div>
                         <div className={styles.nameHike}>
-                          <p>210% Hike</p>
+                          <p><AiOutlineRise />210% Hike</p>
                         </div>
                       </div>
                     </div>
@@ -208,8 +214,8 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/aravind-home.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="80"
-                            height="80"
+                            width="100"
+                            height="100"
                             alt="preksha-home"
                           />
                         </div>
@@ -220,14 +226,14 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/themathcompany-logo.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="118"
-                            height="18"
+                            width={mobile ? 54 : 200}
+                            height={mobile ? 15 : 82}
                             alt="preksha-home"
                           />
                         </div>
                         <div className={styles.nameHike}>
 
-                          <p>142% Hike</p>
+                          <p><AiOutlineRise />142% Hike</p>
                         </div>
                       </div>
                     </div>
@@ -249,8 +255,8 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ritesh-home.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="80"
-                            height="80"
+                            width="100"
+                            height="100"
                             alt="preksha-home"
                           />
                         </div>
@@ -261,14 +267,14 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Capgemni-logo.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="80"
-                            height="18"
+                            width={mobile ? 54 : 200}
+                            height={mobile ? 15 : 82}
                             alt="preksha-home"
                           />
                         </div>
                         <div className={styles.nameHike}>
 
-                          <p>150% Hike</p>
+                          <p><AiOutlineRise />150% Hike</p>
                         </div>
                       </div>
                     </div>
@@ -290,8 +296,8 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/saurabh-home.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="80"
-                            height="80"
+                            width="100"
+                            height="100"
                             alt="preksha-home"
                           />
                         </div>
@@ -302,14 +308,14 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HCL-logo.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="91"
-                            height="12"
+                            width={mobile ? 54 : 200}
+                            height={mobile ? 15 : 82}
                             alt="preksha-home"
                           />
                         </div>
                         <div className={styles.nameHike}>
 
-                          <p>150% Hike</p>
+                          <p><AiOutlineRise />150% Hike</p>
                         </div>
                       </div>
                     </div>
@@ -331,8 +337,8 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/abhishek-home.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="80"
-                            height="80"
+                            width="100"
+                            height="100"
                             alt="preksha-home"
                           />
                         </div>
@@ -343,14 +349,14 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AGS-logo.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="50"
-                            height="24"
+                            width={mobile ? 54 : 200}
+                            height={mobile ? 15 : 82}
                             alt="preksha-home"
                           />
                         </div>
                         <div className={styles.nameHike}>
 
-                          <p>132% Hike</p>
+                          <p><AiOutlineRise />132% Hike</p>
                         </div>
                       </div>
                     </div>
@@ -372,8 +378,8 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vishal-home.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="80"
-                            height="80"
+                            width="100"
+                            height="100"
                             alt="preksha-home"
                           />
                         </div>
@@ -384,14 +390,14 @@ function SecondSection() {
                             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Bridgei2i-logo.png"
                             layout="intrinsic"
                             loading="lazy"
-                            width="45"
-                            height="18"
+                            width={mobile ? 54 : 200}
+                            height={mobile ? 15 : 82}
                             alt="preksha-home"
                           />
                         </div>
                         <div className={styles.nameHike}>
 
-                          <p>127% Hike</p>
+                          <p><AiOutlineRise />127% Hike</p>
                         </div>
                       </div>
                     </div>
