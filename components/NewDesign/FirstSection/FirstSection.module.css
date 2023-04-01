@@ -9,7 +9,7 @@
 }
 
 .FirstLeft button {
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 18px;
   border-radius: 10px;
   border: 1px solid #fff;
@@ -20,11 +20,6 @@
 
 .FirstLeft button:hover {
   background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
-}
-
-.btnImage {
-    display: flex;
-    gap: 70px;
 }
 
 /* .imgArrow {
@@ -45,9 +40,35 @@
 
 .h1 {
   color: #28557a;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 47px;
   margin: 5px 0px 20px 0px;
   text-align: left;
-  font-size: 37px;
+}
+
+.FirstLeft {
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: 67%;
+  left: 39%;
+  transform: rotate(-20deg);
+}
+.blink {
+  font-size: 22px;
+  color: #767676;
+}
+
+.descLine {
+  font-family: "Inter", sans-serif;
+  color: #767676;
+  margin: 0 !important;
+
+  margin-bottom: 20px !important;
+  text-transform: uppercase;
 }
 
 .FirstLeft p {
@@ -80,6 +101,8 @@
 
   .FirstLeft p {
     margin: 10px 0px 20px 0px;
+    text-align: center;
+    font-size: 16px;
   }
 
   .FirstLeft .ptop {
@@ -108,6 +131,7 @@
     margin: 10px 0px 20px 0px;
     font-size: 24px;
     text-align: center;
+    line-height: normal;
   }
 
   .logos {
@@ -141,15 +165,14 @@
 
   .FirstLeft button {
     margin: auto;
-    font-size: 12px;
+    font-size: 16px;
     height: fit-content;
-  }
-
-  .btnImage {
-    gap: 10px;
-    display: grid;
-    grid-template-columns: 70% 30%;
-    margin-left: 19%;
     margin-top: 20px;
-}
+  }
+  .blink {
+    line-height: 30px;
+  }
+  .line {
+    display: none;
+  }
 }

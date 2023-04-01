@@ -63,7 +63,11 @@ function blockchain() {
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
-<FirstSection dataScience={true}/>
+<FirstSection dataScience={true}
+first="Tools"
+second="Tips"
+third="Technology"
+/>
 <SecondSection />
 <ThirdSection
 dataScience={true}

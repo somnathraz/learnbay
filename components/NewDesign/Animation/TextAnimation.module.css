@@ -1,0 +1,52 @@
+.span {
+  display: inline-block;
+  width: max-content;
+  font-family: "Inter", sans-serif;
+}
+.span span {
+  display: inline-block;
+  width: max-content;
+  font-size: 24px;
+  color: #28557a;
+  font-weight: 600;
+  opacity: 1;
+}
+@media (max-width: 1024px) {
+  .span span {
+    font-size: 27px;
+  }
+}
+@media (max-width: 961px) {
+  .span span {
+    font-size: 22px;
+  }
+}
+@media (max-width: 801px) {
+  .span span {
+    font-size: 20px;
+  }
+}
+
+@keyframes animation {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+    filter: blur(10px);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0px);
+    filter: blur(0px);
+  }
+
+  75% {
+    opacity: 1;
+    transform: translateY(0px);
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+    filter: blur(10px);
+  }
+}
