@@ -449,6 +449,8 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
+
+            cityTextDAhyderabad={true}
               ProgramBot1="Learnbay is one of the leading data analytics training institutes in Hyderabad, with a broad collection of IBM certification courses. Learnbay's goal is to deliver specialized data analytics training and prepare students for any kind of complex industrial, analytical problems. Everything in the Learnbay data analytics course is taken good care of, from hands-on training via live data analytics projects to qualifying for interviews with top-tier MNCs. Learnbay delivers an immersive data analytics learning experience with one-on-one doubt clearing sessions led by renowned industry professionals. This distinguishes it as a one-stop resource for everyone interested in becoming a professional job-ready Data analyst."
               ProgramBot2="Learnbay's Data analytics course in Hyderabad is tailored to match the industry's ever-changing needs. This Data Analytics course with job placement support is suitable for experienced working professionals and early career professionals in any field. Its hands-on learning methodology incorporates interactive sessions with leading practitioners and industry projects to cover topics like Data analysis, Data visualization, and regression techniques in depth."
               ProgramHead3="Why is Learnbay a great institute for the professional Data analytics course in Hyderabad?"
