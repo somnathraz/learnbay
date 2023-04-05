@@ -141,7 +141,7 @@ const CitiesRight = ({
                  assignments relating to statistics to enrich your learning experience further. You can use your 
                  newly learned information in these practical exercises, promoting experiential learning.</p>
 
-            <h2>Module 2: Machine Learning </h2>
+            <b>Module 2: Machine Learning </b>
 
             <p>This module gives you access to the most current machine-learning methods and tools necessary for building
                  models and reaching wise conclusions. The advanced machine learning techniques covered in this subject include 
