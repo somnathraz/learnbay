@@ -248,7 +248,7 @@ const CitiesRight = ({
   cityTextDSPune,
   cityTextDSHyderabad,
   cityTextDSDelhi,
-  cityTextDAhyderabad, 
+ 
   cityTextDSmumbai
 
   
@@ -350,7 +350,7 @@ const CitiesRight = ({
                <b>Module (1) - Python Programming </b>
  
                <p>
-               This module, which includes full-time, focused training sessions delivered through 
+               This module, which includes full-time, focused training sessions delivered through {" "}
                <b>live instructor-led online training</b>, is an important part of the course. 
                It digs into Python programming foundations, a crucial skill for anyone looking to start 
                a career as a modern data scientist. During this module, you will learn about fundamental 
@@ -531,8 +531,9 @@ const CitiesRight = ({
             professionals in the field who work for premier MNCs teach the course. This guarantees that 
             it is current with the industry's most recent trends and innovations. It is additionally created 
             to satisfy the requirements of today's fiercely competitive job market, making it a solid option
-             for anyone wishing to enter the field of data science.
-Learnbay's course materials are created by experts and experienced professionals who have done a 
+             for anyone wishing to enter the field of data science.</p>
+
+<p>Learnbay's course materials are created by experts and experienced professionals who have done a 
 considerable study to simplify it for those new to coding and analytical approaches to learning. 
 Additionally, Learnbay's data science course offers both theoretical and practical knowledge in a 
 well-managed learning environment. The course has a high job placement rate and is specifically created 
@@ -601,9 +602,7 @@ established itself as one of the best data science institutes in Mumbai with the
         ) : ("")}
 
 
-        {cityTextDAhyderabad ? (
-           <div>Hello</div>
-        ) : ("")}
+    
 
         
 
@@ -824,9 +823,9 @@ established itself as one of the best data science institutes in Mumbai with the
                  If you are a working professional having experience in this field, you will be offered a maximum salary hike and job security. </p>
                 
               <p>
-              <b>Data Science in Retail and E-commerce domain: The retail sector is one of the fastest-growing 
+              <b>Data Science in Retail and E-commerce domain:</b> The retail sector is one of the fastest-growing 
               businesses in the 21st century. The business requirements and functionalities can be better 
-              understood by incorporating Data Science. </b>
+              understood by incorporating Data Science. 
 
               </p>
 
@@ -918,7 +917,9 @@ established itself as one of the best data science institutes in Mumbai with the
             <p>
             The <b>data science course</b> is a complete training course covered using multiple modules. 
             Learners from a non-technical background receive special coding classes to get along with 
-            learners who know the technicalities. The modules include 
+            learners who know the technicalities. <br/>
+            
+            The modules include 
 
             </p>
             <ul>
@@ -1157,7 +1158,7 @@ established itself as one of the best data science institutes in Mumbai with the
         <li><b>Data Science in BFSI Domain:</b> Data Science in the BFSI domain help in fraud detection,
            enhancing customer support, and improving operational efficiency. A Data Science course helps you 
            gain an advantage over others in the same field. </li>
-        <li><b>Data Science in Manufacturing, Automotive, and Telecom Domain:</b> The <b>online data science training</b>
+        <li><b>Data Science in Manufacturing, Automotive, and Telecom Domain:</b> The <b>online data science training</b>{" "}
            in this domain helps you learn how data is collected in different manufacturing settings. 
            It also gives you a brief knowledge of the telecom sector’s network performance improvement. </li>
    
@@ -1204,7 +1205,7 @@ Learnbay institute has proudly assisted over 500+ aspirants in pursuing their dr
 
 <h2>Did You Know? </h2>
 
-<p>The average <b>data scientist salary in Pune</b> is ₹8,20,000 per year? Learnbay’s 
+<p>The average <b>data scientist salary in Pune</b> is ₹8,20,000 per year? Learnbay’s{" "} 
   <b>online data science training</b> allows you to break through your career in this field! <br/><br/>
 <b>Learnbay</b> also provides classroom mode for <a href="https://www.learnbay.co/machine-learning-course-training-in-pune" 
 target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>machine learning</a> and <a href="https://www.learnbay.co/artificial-intelligence-ai-course-training-pune" 
@@ -1282,7 +1283,7 @@ target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>artificial intel
                </ul>
                <p>
                 
-                  The course duration of the online  <b>Data Science training in Delhi</b> 
+                  The course duration of the online  <b>Data Science training in Delhi</b>{" "}
                   is 250+ hours. Our trained professionals will tutor you for almost 9 months. 
    
                </p>
@@ -1568,7 +1569,7 @@ target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>artificial intel
                Learnbay delivers real-time, qualitative training at affordable pricing. </p>
                <p>
                <a href="https://www.learnbay.co/data-science-course-training-in-delhi" 
-               target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>Learnbay institute</a> has proudly assisted over 500+ aspirants in pursuing their dream careers. 
+               target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>Learnbay institute</a> has proudly assisted over 500+ aspirants in pursuing their dream careers.{" "} 
                <b>IBM</b>, being our accreditation partner, has global recognition. 
                Looking forward to getting high-quality and cost-effective <b>online data science 
                training in Delhi</b>? Well, look no further. Learnbay training is one of the best choices you will make to 
