@@ -2,7 +2,7 @@
   display: grid;
   width: 100%;
   flex-flow: column;
-  background-color: #28557a;
+  background-color: #0072bc;
   position: relative;
   padding: 80px 100px 200px 100px;
   margin-bottom: 100px;
@@ -11,13 +11,13 @@
   font-size: 30px;
   margin: 0;
   color: white;
-  font-family: "Inter", sans-serif;
+
   text-align: center;
   font-weight: 700;
 }
 
 .h1 {
-  color: #28557a;
+  color: #0072bc;
   margin: 0px 0px 10px 0px;
   text-align: center;
   font-size: 32px;
@@ -45,7 +45,7 @@
   font-size: 25px;
   margin: 0;
   font-weight: 500;
-  color: #28557a;
+  color: #0072bc;
   margin-top: 30px;
   margin-bottom: 20px;
 }
@@ -97,19 +97,19 @@
   padding: 12px 24px;
   border-radius: 8px;
   margin: auto;
-  color: #28557a;
+  color: #0072bc;
   font-size: 16px;
   font-weight: 400;
   background-color: white;
   margin-top: 20px;
-  border: 1px solid #28557a;
+  border: 1px solid #0072bc;
 }
 .btn:hover {
-  background-color: #28557a;
+  background-color: #0072bc;
   color: white;
 }
 .bIcons {
-  color: #28557a;
+  color: #0072bc;
   font-size: 45px;
 }
 
@@ -148,7 +148,7 @@
     font-size: 25px;
     margin: 0;
     font-weight: 500;
-    color: #28557a;
+    color: #0072bc;
   }
   .FeatureWrap {
     grid-template-columns: 44% 54%;
@@ -165,38 +165,38 @@
     font-size: 24px;
     font-weight: 600;
   }
-  
-.RightWrap{
-  margin: 0px 20px 100px 20px;
-  padding: 20px;
-  margin-top: -60px;
-}
-.Features {
-  display: block;
-  flex-flow: column;
-  padding: 30px 20px 100px 20px;
-  margin: 0;
-}
-.slide {
-  width:fit-content;
-}
-.slideWrap {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  gap: 20px;
-}
-.imgShowD {
-  display: none;
-}
-.imgShowM {
-  display: block;
-}
+
+  .RightWrap {
+    margin: 0px 20px 100px 20px;
+    padding: 20px;
+    margin-top: -60px;
+  }
+  .Features {
+    display: block;
+    flex-flow: column;
+    padding: 30px 20px 100px 20px;
+    margin: 0;
+  }
+  .slide {
+    width: fit-content;
+  }
+  .slideWrap {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  }
+  .imgShowD {
+    display: none;
+  }
+  .imgShowM {
+    display: block;
+  }
 }
 
 @media (max-width: 600px) {
   .h1 {
-    color: #28557a;
+    color: #0072bc;
     margin: 10px 0px 20px 0px;
     font-size: 24px;
   }

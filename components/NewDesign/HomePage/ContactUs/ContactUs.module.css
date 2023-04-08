@@ -9,15 +9,15 @@
 }
 
 .h1Span {
-  background: linear-gradient(90deg, #edbb52 0%, #ca3942 60.64%);
+  background: linear-gradient(90deg, #f99600 0%, #edb552 60.64%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 38px;
 }
 
 .h1 {
-  color: #28557a;
-  font-family: "Inter", sans-serif;
+  color: #0072bc;
+
   font-weight: 700;
   line-height: 47px;
   text-align: left;
@@ -44,8 +44,8 @@
 }
 
 .BoldP {
-  color: #28557a;
-  font-family: "Inter", sans-serif;
+  color: #0072bc;
+
   font-weight: 700;
   line-height: 47px;
   margin: 0px;
@@ -71,7 +71,7 @@
   background: #fff;
   padding: 30px 20px 30px 50px;
   border-radius: 10px;
-  border-bottom: 4px solid #edbb52;
+  border-bottom: 4px solid #f99600;
 }
 
 @media (max-width: 641px) {
@@ -96,7 +96,7 @@
   }
   .RightSide {
     padding: 30px 20px;
-    border-bottom: 4px solid #edbb52;
+    border-bottom: 4px solid #f99600;
   }
   .NormalPForm {
     margin-bottom: 20px;

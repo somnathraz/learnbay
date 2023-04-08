@@ -9,7 +9,12 @@
 
 .head {
   padding: 10px 100px 10px 100px;
-  background: linear-gradient(90deg, rgba(237, 233, 233, 0) 0%, rgba(235, 235, 235, 0.6) 52.6%, rgba(239, 239, 239, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 233, 233, 0) 0%,
+    rgba(235, 235, 235, 0.6) 52.6%,
+    rgba(239, 239, 239, 0) 100%
+  );
   display: grid;
   grid-template-columns: 100%;
   gap: 60px;
@@ -41,7 +46,7 @@
   gap: 5px;
 }
 .star {
-  color: #edbb52;
+  color: #f99600;
 }
 .btn {
   padding: 10px 20px;

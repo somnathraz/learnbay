@@ -15,7 +15,7 @@
 }
 
 .h11 {
-  color: #28557a;
+  color: #0072bc;
   margin: 5px 0px 20px 0px;
   padding: 0px 100px;
   text-align: left;
@@ -246,7 +246,7 @@
 }
 
 .h1Span {
-  background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+  background: linear-gradient(90deg, #f99600 50%, #edb552 103.64%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -261,7 +261,7 @@
 }
 
 .h1 {
-  color: #28557a;
+  color: #0072bc;
   margin: 5px 0px 20px 0px;
   padding: 0px 100px;
   text-align: center;
@@ -605,13 +605,13 @@
 
 @media (max-width: 641px) {
   .h1Span {
-    background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+    background: linear-gradient(90deg, #f99600 50%, #edb552 103.64%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .h1 {
-    color: #28557a;
+    color: #0072bc;
     margin: 10px 0px 20px 0px;
     font-size: 24px;
   }
@@ -648,7 +648,7 @@
   }
 
   .h11 {
-    color: #28557a;
+    color: #0072bc;
     margin: 10px 0px 20px 0px;
     font-size: 24px;
     text-align: left;
@@ -668,7 +668,7 @@
     margin-top: -30px;
   }
   .h1 {
-    color: #28557a;
+    color: #0072bc;
     margin: 5px 0px 20px 0px;
     padding: 0px;
   }

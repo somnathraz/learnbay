@@ -1,13 +1,12 @@
 .span {
   display: inline-block;
   width: max-content;
-  font-family: "Inter", sans-serif;
 }
 .span span {
   display: inline-block;
   width: max-content;
   font-size: 24px;
-  color: #28557a;
+  color: #0072bc;
   font-weight: 600;
   opacity: 1;
 }

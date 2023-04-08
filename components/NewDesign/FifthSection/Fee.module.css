@@ -1,16 +1,15 @@
 .feeWrapper {
   display: flex;
   flex-flow: column;
-  font-family: "Inter", sans-serif;
+
   padding: 60px 160px;
 }
 .feeWrapper h4 {
   color: #0072bc;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 20px;
-  margin: 10px 0px 30px 0px;
+  margin: 0px 0px 30px 0px;
   text-align: center;
+  font-size: 32px;
+  font-weight: 700;
 }
 .priceWrap {
   display: grid;
