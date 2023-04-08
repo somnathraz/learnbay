@@ -222,8 +222,8 @@ const CourseFee = ({
                           <MdDateRange className={styles.icon} />
                           <b>Date</b>
                         </p>
-                        <p className={styles.list}>25th March 2023</p>
-                        <p className={styles.list}>27th March 2023</p>
+                        <p className={styles.list}>9th April 2023</p>
+                        <p className={styles.list}>14th April 2023</p>
                       </div>
                     </div>
                     <div>
@@ -252,9 +252,9 @@ const CourseFee = ({
                           <b>Batch Type</b>
                         </p>
                         {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
-                        <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
+                        <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
                         <p className={styles.list}>
-                          Weekend Morning (Sat-Sun)
+                          Weekend Afternoon (Sat-Sun)
                         </p>
                       </div>
                     </div>
@@ -265,8 +265,8 @@ const CourseFee = ({
                           <b>Date</b>
                         </p>
                         {/* <p className={styles.list}>9th October 2022</p> */}
-                        <p className={styles.list}>24th March 2023</p>
-                        <p className={styles.list}>26th March 2023</p>
+                        <p className={styles.list}>7th April 2023</p>
+                        <p className={styles.list}>9th April 2023</p>
                       </div>
                     </div>
                     <div>
@@ -276,8 +276,8 @@ const CourseFee = ({
                           <b>Time</b>
                         </p>
                         {/* <p className={styles.list}>08:30 AM to 12 PM</p> */}
-                        <p className={styles.list}>8 PM to 10 PM</p>
-                        <p className={styles.list}>08:30 AM to 12 PM</p>
+                        <p className={styles.list}>8 AM to 10 AM</p>
+                        <p className={styles.list}>12:30 PM to 4 PM</p>
                       </div>
                     </div>
                     <div className={styles.btnWrapper}>

@@ -1,0 +1,142 @@
+.coreSection {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 100px;
+  margin-top: 200px;
+}
+
+.h1 {
+  color: #28557a;
+  margin: 0px 0px 30px 0px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.box {
+  padding: 30px 40px 30px 30px;
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  align-items: center;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-right: 100px;
+  z-index: 99;
+  position: relative;
+}
+
+.box:hover {
+  background: linear-gradient(90deg, #28557a 0%, #2979a8 116.5%);
+  color: #fff;
+  filter: drop-shadow(0px 0px 10px rgba(237, 181, 82, 0.22));
+}
+
+.btn {
+  margin-top: 50px;
+}
+
+.tablet {
+  position: relative;
+  left: 35%;
+}
+
+.girl {
+  position: relative;
+  top: -5%;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.content {
+  margin-top: -20%;
+  position: relative;
+  left: 3%;
+}
+
+.pSmall {
+  font-size: 16px;
+  width: 30%;
+  margin: 0;
+}
+
+.boldIcon {
+  color: #28557a;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.BottomP {
+  background-color: #edbb52;
+  padding: 12px 100px;
+  font-size: 18px;
+  width: fit-content;
+  border-radius: 10px;
+  margin-top: -70px;
+  z-index: 999;
+  position: relative;
+}
+
+@media (max-width: 641px) {
+  .coreSection {
+    display: block;
+    margin: 50px 20px;
+  }
+  .tablet {
+    position: relative;
+    left: 0%;
+  }
+  .tabletDiv {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+
+.content {
+    margin-top: -43%;
+    position: relative;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.pSmall {
+    font-size: 16px;
+    width: 80%;
+    margin: 0;
+  }
+
+  .girl {
+    margin-left: 0px;
+    gap: 20px;
+  }
+
+  .BottomP {
+    padding: 12px 30px;
+    font-size: 18px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: -10px;
+    z-index: 0;
+    position: relative;
+  }
+  .box {
+    margin: 0 0px 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 5% 95%;
+  }
+  .btn {
+    margin: auto;
+    margin-top: 30px;
+  }
+}

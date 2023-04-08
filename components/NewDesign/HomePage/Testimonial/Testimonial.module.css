@@ -1,0 +1,133 @@
+.Testimonial {
+    padding: 50px 100px 70px 100px;
+  }
+  
+  .slide {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    height: max-content;
+  }
+  
+  .mainSlider {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 20px 0px;
+    height: 400px;
+  }
+  
+  .para {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    line-height: 26px;
+  }
+  
+  .name {
+    margin-top: 60px;
+    gap: 10px;
+    display: grid;
+  }
+  
+  .nameHike p {
+    color: #2db621;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .name h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .name p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500 !important;
+    font-family: "Inter", sans-serif;
+    color: #0072bc;
+  }
+  
+  .paraDiv {
+    background: linear-gradient(180deg, #28557a 0%, #2979a8 100%);
+    border-radius: 15px;
+    padding: 20px 20px 50px 20px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imgP {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    margin-top: -50px;
+  }
+  
+  .testimonial {
+  position: relative;
+  }
+  
+  .line {
+    position: absolute;
+    left: 60%;
+    top: 0;
+  }
+  
+  .imgHike {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    align-items: center;
+    padding: 0px 20px 20px 20px;
+    margin-top: 0px;
+  }
+
+  .h1 {
+    color: #28557a;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+@media (max-width: 641px) {
+
+    .h1 {
+        color: #28557a;
+        margin: 10px 0px 20px 0px;
+        font-size: 24px;
+      }
+
+  .testimonial {
+    margin-top: 0px;
+    }
+
+  .Testimonial {
+    padding: 0px 20px 30px 20px;
+  }
+  .slide {
+    height: fit-content;
+  }
+  .mainSlider {
+    padding: 0px;
+    height: fit-content;
+    margin: 10px 5px 20px 5px;
+    height: 420px;
+  }
+  .paraDiv {
+    height: 290px;
+  }
+  .line {
+    left: 72%;
+    top: 0;
+  }
+  
+
+}

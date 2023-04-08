@@ -19,21 +19,34 @@
 }
 
 .FirstLeft button:hover {
-  background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+  background: #fff;
+  color: #0072bc;
+  border: 1px solid #0072bc;
 }
 
 /* .imgArrow {
     margin-top: -30px !important;
 } */
 
-.ptop {
-  font-size: 20px;
+.ptopC {
+  font-size: 22px;
+  font-weight: 600;
   margin: 0;
   text-align: left;
+  margin: 10px 0px 10px 0px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.ptop {
+  font-size: 20px;
+  text-align: left;
+  margin: 10px 0px 10px 0px;
+  line-height: 30px;
 }
 
 .h1Span {
-  background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+  background: linear-gradient(90deg, #28557a 0%, #ca3942 103.64%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -42,9 +55,10 @@
   color: #28557a;
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  line-height: 47px;
   margin: 5px 0px 20px 0px;
   text-align: left;
+  line-height: 50px;
+  font-size: 37px;
 }
 
 .FirstLeft {
@@ -53,12 +67,12 @@
 
 .line {
   position: absolute;
-  top: 67%;
-  left: 39%;
+  top: 72%;
+  left: 42%;
   transform: rotate(-20deg);
 }
 .blink {
-  font-size: 22px;
+  font-size: 20px;
   color: #767676;
 }
 
@@ -69,10 +83,6 @@
 
   margin-bottom: 20px !important;
   text-transform: uppercase;
-}
-
-.FirstLeft p {
-  margin: 10px 0px 10px 0px;
 }
 
 .logos {
@@ -110,17 +120,17 @@
     font-size: 18px;
     margin: 0;
     text-align: center;
+    line-height: 24px;
   }
 
   .FirstLeft .ptopC {
-    color: #767676;
-    font-size: 14px;
+    font-size: 18px;
     margin: 0px;
     text-align: center;
   }
 
   .FirstLeft .h1Span {
-    background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+    background: linear-gradient(90deg, #28557a 0%, #ca3942 103.64%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -129,7 +139,7 @@
   .FirstLeft .h1 {
     color: #28557a;
     margin: 10px 0px 20px 0px;
-    font-size: 24px;
+    font-size: 26px;
     text-align: center;
     line-height: normal;
   }

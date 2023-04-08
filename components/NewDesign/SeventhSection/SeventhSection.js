@@ -12,11 +12,10 @@ function SeventhSection({ fullStackCont }) {
       <div>
         <div className={styles.LearnSupport}>
           <div className={styles.learnInner}>
-            <p className={styles.pTop}>Got more questions?</p>
+            <p className={styles.pTop}>Have any questions in mind?</p>
             <h5>Talk to our team directly</h5>
             <p className={styles.pBot}>
-              Reach us and a learning consultant will get in touch with you
-              shortly
+            Reach out to us and your career guide will get in touch with you shortly
             </p>
             {fullStackCont ? (
               <div className={styles.btnWrap}>
@@ -30,7 +29,7 @@ function SeventhSection({ fullStackCont }) {
                 </a>
                 <a href="tel: +919731135221">
                   <button className={styles.btn2}>
-                    <MdCall /> +91 97311 35221
+                    <MdCall /> +91 97311 35221 
                   </button>
                 </a>
               </div>
@@ -52,6 +51,17 @@ function SeventhSection({ fullStackCont }) {
                 </a>
               </div>
             )}
+          </div>
+          <div className={styles.rightPart}>
+            <div>
+          <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/learners-support-guy.png"
+                width="681"
+                height="515"
+                layout="intrinsic"
+                alt="data science course"
+              />
+              </div>
           </div>
         </div>
       </div>

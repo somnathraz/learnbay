@@ -26,14 +26,18 @@
 }
 
 .ptop {
-  font-size: 18px;
-  margin: 0;
+  font-size: 20px;
+  margin: 0px 100px;
+  color: #767676;
+  line-height: 26px;
 }
 
 .secondBox {
-  display: flex;
+  display: grid;
   gap: 50px;
   margin-top: 50px;
+  grid-template-columns: 20% 20% 20% 20%;
+  justify-content: center;
 }
 
 .textBox {
@@ -208,8 +212,8 @@ position: relative;
   justify-content: space-between;
   padding: 0px 0px;
   align-items: center;
-  padding: 0px 20px 20px 20px;
-  margin-top: 0px;
+  padding: 0px 20px 0px 20px;
+  margin-top: 30px;
 }
 
 @media (max-width: 641px) {
@@ -290,7 +294,7 @@ position: relative;
     padding: 0px;
     height: fit-content;
     margin: 10px 5px 40px 5px;
-    height: 420px;
+    height: 450px;
   }
   .paraDiv {
     height: 290px;

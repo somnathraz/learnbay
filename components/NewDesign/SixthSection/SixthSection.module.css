@@ -31,22 +31,45 @@
 }
 
 .mainSlider {
-  background: linear-gradient(90deg, rgba(225, 241, 245, 0.5) 0.18%, rgba(225, 241, 245, 0) 46.58%, rgba(225, 241, 245, 0.5) 99.17%);;
+  background: linear-gradient(
+    90deg,
+    rgba(225, 241, 245, 0.5) 0.18%,
+    rgba(225, 241, 245, 0) 46.58%,
+    rgba(225, 241, 245, 0.5) 99.17%
+  );
   border-radius: 5px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   padding: 30px;
-  height: fit-content;
+  height: 300px;
+}
+
+.check {
+  color: green;
+}
+
+.checkP {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 18px;
+  margin: 0;
+}
+
+.points {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
 .QuoteOrange {
   font-size: 22px;
-  color: #EDBB52;
+  color: #edbb52;
   text-align: right;
 }
 
 .QuoteBlue {
   font-size: 22px;
-  color: #0072BC;
+  color: #0072bc;
   text-align: right;
 }
 
@@ -60,7 +83,7 @@
 .para {
   font-size: 16px;
   color: #616161;
-  margin: 10px 0px;
+  margin: 5px 0px;
 }
 
 .name h3 {
@@ -71,9 +94,9 @@
 .name p {
   margin: 0;
   font-size: 18px;
-  border-bottom: 1px solid #0072BC;
+  border-bottom: 1px solid #0072bc;
   width: fit-content;
-  color: #0072BC;
+  color: #0072bc;
 }
 
 .Section2 {
@@ -82,7 +105,7 @@
 
 .LearnSupport {
   padding: 0px 100px;
-  background: linear-gradient(90deg, #28557A 0.8%, #2979A8 101.17%);;
+  background: linear-gradient(90deg, #28557a 0.8%, #2979a8 101.17%);
   display: flex;
   align-items: center;
   box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
@@ -100,7 +123,7 @@
   color: #fff;
 }
 .LearnSupport .pTop {
-  color: #EDBB52;
+  color: #edbb52;
   margin: 0;
   margin-bottom: 10px;
   font-size: 30px;
@@ -148,7 +171,7 @@
   font-size: 16px;
   font-weight: 400;
   fill: #ffffff;
-  color: #0072BC;
+  color: #0072bc;
   background-color: white;
 
   border-style: solid;
@@ -159,7 +182,7 @@
 }
 
 .btn2:hover {
-  background-color: #0072BC;
+  background-color: #0072bc;
   color: white;
   border: 1px solid #fff;
 }
@@ -185,11 +208,13 @@
 }
 
 .button:hover {
-  background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+  background: #fff;
+  color: #0072bc;
+  border: 1px solid #0072bc;
 }
 
 .FeeSection {
-padding: 50px 100px 0px 100px;
+  padding: 50px 100px 0px 100px;
 }
 
 .swiper-scrollbar-drag {
@@ -226,14 +251,14 @@ padding: 50px 100px 0px 100px;
 }
 
 .ptopBlue {
-  color: #28557A;
+  color: #28557a;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
 }
 
 .ptopOrange {
-  color: #EDBB52;
+  color: #edbb52;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
@@ -258,12 +283,12 @@ padding: 50px 100px 0px 100px;
 }
 
 .orangeIcon {
-  color: #EDBB52;
+  color: #edbb52;
   font-size: 20px;
 }
 
 .blueIcon {
-  color: #28557A;
+  color: #28557a;
   font-size: 20px;
 }
 
@@ -335,130 +360,134 @@ padding: 50px 100px 0px 100px;
 
 @media (max-width: 641px) {
   .project {
-    padding: 50px 20px;
+    padding: 0px 20px;
     text-align: center;
   }
-    .h1 {
-      color: #28557a;
-      margin: 10px 0px 20px 0px;
-      font-size: 24px;
-    }
-    .infop {
-        color: #0072bc;
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 16px;
-        margin: 10px 0px;
-      }
+  .h1 {
+    color: #28557a;
+    margin: 10px 0px 20px 0px;
+    font-size: 24px;
+  }
+  .infop {
+    color: #0072bc;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0px;
+  }
 
-      .batch {
-        text-align: center;
-      }
+  .batch {
+    text-align: center;
+  }
 
-      .batchBox {
-        display: flex;
-        gap: 10px;
-        justify-content: center;
-        padding: 20px;
-        height: fit-content;
-        background: none;
-      }
+  .batchBox {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    height: fit-content;
+    background: none;
+  }
 
-      .blue {
-        background: #E1F1F580;
-        padding: 20px;
-      }
+  .blue {
+    background: #e1f1f580;
+    padding: 20px;
+  }
 
-      .orange {
-        background: #EDBB521A;
-        padding: 20px;
-      }
+  .orange {
+    background: #edbb521a;
+    padding: 20px;
+  }
 
-      .ptopBlue {
-        color: #28557A;
-        font-size: 18px;
-        font-weight: bold;
-        margin: 0;
-      }
+  .ptopBlue {
+    color: #28557a;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
 
-      .ptopOrange {
-        color: #EDBB52;
-        font-size: 18px;
-        font-weight: bold;
-        margin: 0;
-      }
+  .ptopOrange {
+    color: #edbb52;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
 
-      .pBotBA {
-        color: #686868;
-        font-size: 13px;
-      }
+  .pBotBA {
+    color: #686868;
+    font-size: 13px;
+  }
 
-      .pBotB {
-        color: #686868;
-        font-size: 13px;
-        text-align: left;
-        margin: 5px 0px;
-      }
+  .pBotB {
+    color: #686868;
+    font-size: 13px;
+    text-align: left;
+    margin: 5px 0px;
+  }
 
-      .dateTime {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-      }
+  .dateTime {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
 
-      .orangeIcon {
-        color: #EDBB52;
-        font-size: 20px;
-      }
+  .orangeIcon {
+    color: #edbb52;
+    font-size: 20px;
+  }
 
-      .blueIcon {
-        color: #28557A;
-        font-size: 20px;
-      }
+  .blueIcon {
+    color: #28557a;
+    font-size: 20px;
+  }
 
-      .form {
-        background: #fff;
-        margin: 20px;
-        padding: 20px 0px;
-        border-top: 6px solid #0072BC;
-        border-bottom: 12px solid #EDBB52;
-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        text-align: center;
-            }
+  .form {
+    background: #fff;
+    margin: 20px;
+    padding: 20px 0px;
+    border-top: 6px solid #0072bc;
+    border-bottom: 12px solid #edbb52;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+  }
 
-              .Section1 h1 {
-                font-size: 24px;
-                padding: 20px;
-                margin: 40px 0px 0px 0px;
-                font-weight: 800;
-            }
-            .Testimonial {
-              padding: 0px;
-            }
-            .slide {
-              height: fit-content;
-            }
-            .mainSlider {
-              padding: 20px;
-              height: fit-content;
-              margin: 10px 5px 40px 5px;
-              text-align: left;
-            }
-            .blue {
-              background: #E1F1F580;
-              padding: 20px;
-            }
-            
-            .orange {
-              background: #EDBB521A;
-              padding: 20px;
-            }
+  .Section1 h1 {
+    font-size: 24px;
+    padding: 20px;
+    margin: 40px 0px 0px 0px;
+    font-weight: 800;
+  }
+  .Testimonial {
+    padding: 0px;
+  }
+  .slide {
+    height: fit-content;
+  }
+  .mainSlider {
+    padding: 20px;
+    height: 350px;
+    margin: 10px 5px 40px 5px;
+    text-align: left;
+  }
+  .blue {
+    background: #e1f1f580;
+    padding: 20px;
+  }
 
-.button {
-  margin-top: 30px;
-}
+  .orange {
+    background: #edbb521a;
+    padding: 20px;
+  }
 
+  .button {
+    margin-top: 30px;
+  }
+  .points {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 481px) {

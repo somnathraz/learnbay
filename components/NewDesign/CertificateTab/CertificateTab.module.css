@@ -1,0 +1,241 @@
+.certificate {
+  padding: 50px 100px;
+  background: linear-gradient(90deg, #28557A 0%, #2979A8 99.02%);
+  margin-top: 30px;
+  display: block;
+}
+
+.certificate h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feature p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.leftSideI {
+  margin: 20px;
+}
+
+.tick {
+  font-size: 20px;
+  color: #fff;
+}
+
+.certificates {
+  box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
+  margin-top: 30px;
+  padding: 40px;
+}
+
+.listPanel {
+  display: flex;
+  justify-content: left;
+}
+
+.listPanel span {
+  padding: 10px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+  color: #fff;
+}
+
+.gridPanel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0px;
+}
+
+.leftSide,
+.middleSide,
+.rightSide {
+  display: flex;
+}
+
+.leftSideP {
+  padding: 50px;
+  width: 100%;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.certificateImg {
+  width: 397px;
+  height: 150px;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -0px;
+  border-radius: 8px;
+}
+
+.leftSide h6,
+.middleSide h6,
+.rightSide h6 {
+  color: #fff;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  width: fit-content;
+  padding-bottom: 15px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #ecbb53;
+  line-height: 24px;
+}
+.contentDiv {
+  padding-left: 20px;
+}
+.leftSide p,
+.middleSide p,
+.rightSide p {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+
+.checkCircle {
+  margin-right: 15px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.btnWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.btnWrapper button {
+  padding: 10px 15px;
+}
+@media (max-width: 1281px) {
+  .certificate {
+    padding: 0px 40px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 49% 49%;
+  }
+}
+
+@media (max-width: 1025px) {
+  .leftSideP {
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .certificate {
+    padding: 0px 14px;
+    margin-top: 30px;
+  }
+  .leftSideP{
+    padding: 0px;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 481px) {
+  .certificate {
+    padding: 20px 20px;
+    display: block;
+    margin: 20px 0px;
+  }
+
+  .certificate h2 {
+    font-size: 21px;
+  }
+
+  .feature {
+    flex-flow: column;
+    align-items: flex-start;
+    line-height: 1.9em;
+  }
+
+  .certificates {
+    padding: 0px;
+    box-shadow: none;
+  }
+
+  .listPanel {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .listPanel span {
+    font-size: 16px;
+    width: fit-content;
+    padding: 15px 5px;
+  }
+
+  .gridPanel {
+    width: 100%;
+  }
+
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .leftSideI {
+    margin: 20px 0px 20px 0px;
+  }
+
+  .certificateImg {
+    width: 305px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -0px;
+  }
+
+  .leftSideP {
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+    border-radius: 8px;
+    margin: 20px 0px 10px 0px;
+  }
+
+  .leftSide h6,
+  .middleSide h6,
+  .rightSide h6 {
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+
+  .leftSide p,
+.middleSide p,
+.rightSide p {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+
+  .checkCircle {
+    margin-right: 5px;
+  }
+}

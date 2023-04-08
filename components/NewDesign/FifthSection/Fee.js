@@ -3,6 +3,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import styles from "./Fee.module.css";
 import Image from "next/image";
+
+
 import { BsCheckCircleFill } from "react-icons/bs";
 import { FaGooglePay } from "react-icons/fa";
 import { MdAttachMoney } from "react-icons/md";
@@ -14,7 +16,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-const Fee = () => {
+const FeeSection = ({FeeHeading, Fee, FeeContent1, FeeContent2, FeeContent3, FeeContent4, FeeContent5, FeeContent6, FeeEmi}) => {
   const [slidesPerView, setSlidesPerView] = useState(3);
   const [popups, setPopups] = useState(false);
   const [spaceBetween, setSpaceBetween] = useState(70);
@@ -62,43 +64,43 @@ const Fee = () => {
           <Form />
         </div>
       </Popup>
-      <h4>Program Fee & Financing</h4>
+      <h4>{FeeHeading}</h4>
       <div className={styles.priceWrap}>
         <div className={styles.leftSide}>
           <div className={styles.price}>
             <p>price:</p>
-            <h5>₹ 70,000 + GST</h5>
+            <h5>{Fee}</h5>
           </div>
 
           <div className={styles.list}>
             <div className={styles.left}>
               <p>
                 <BsCheckCircleFill className={styles.check} />
-                0% Interest rate
+                {FeeContent1}
               </p>
               <p>
                 <BsCheckCircleFill className={styles.check} />
-                No Hidden Cost
-              </p>
-            </div>
-            <div className={styles.right}>
-              <p>
-                <BsCheckCircleFill className={styles.check} />
-                0% Interest rate
-              </p>
-              <p>
-                <BsCheckCircleFill className={styles.check} />
-                No Hidden Cost
+                {FeeContent2}
               </p>
             </div>
             <div className={styles.right}>
               <p>
                 <BsCheckCircleFill className={styles.check} />
-                0% Interest rate
+                {FeeContent3}
               </p>
               <p>
                 <BsCheckCircleFill className={styles.check} />
-                No Hidden Cost
+                {FeeContent4}
+              </p>
+            </div>
+            <div className={styles.right}>
+              <p>
+                <BsCheckCircleFill className={styles.check} />
+                {FeeContent5}
+              </p>
+              <p>
+                <BsCheckCircleFill className={styles.check} />
+                {FeeContent6}
               </p>
             </div>
           </div>
@@ -109,7 +111,7 @@ const Fee = () => {
           <div className={styles.top}>
             <div className={styles.right}>
               <p>Financing as low as</p>
-              <h3>₹ 6,883/month</h3>
+              <h3>{FeeEmi}</h3>
             </div>
             <div className={styles.left}>
               <button onClick={() => popupShow(false, true)}>
@@ -217,4 +219,4 @@ const Fee = () => {
   );
 };
 
-export default Fee;
+export default FeeSection;

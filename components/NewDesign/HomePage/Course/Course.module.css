@@ -1,0 +1,468 @@
+.Course {
+  padding: 0px 100px;
+}
+.Course h2 {
+  text-align: left;
+  font-size: 30px;
+  color: #0072bc;
+  font-weight: 600;
+}
+.feature {
+  display: flex;
+  justify-content: space-evenly;
+}
+.listPanel .mPanel {
+  display: none;
+}
+.feature p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin: 0px 5px;
+}
+.tick {
+  font-size: 20px;
+  color: #0072bc;
+}
+.courses {
+  background: #ffffff;
+
+  margin-top: 30px;
+}
+.listPanel {
+  display: flex;
+  width: 100%;
+  gap: 90px;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+}
+
+.span {
+  width: max-content;
+  font-weight: 600;
+  cursor: pointer;
+
+  justify-content: start;
+}
+.ActiveSpan {
+  padding-bottom: 8px;
+  width: max-content;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 3px solid #0072bc;
+  justify-content: start;
+}
+
+.gridPanel {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  max-height: 600px;
+  margin-top: 20px;
+  gap: 20px;
+
+  padding: 0px;
+  overflow: auto;
+  position: relative;
+  scroll-behavior: smooth;
+  transition: transform 0.3s ease-out 0s;
+  pointer-events: auto;
+}
+.Course h5 {
+  font-size: 24px;
+  margin: 0;
+
+  padding: 10px 20px;
+}
+.leftSide,
+.middleSide,
+.rightSide {
+  padding: 0px;
+  background-color: transparent;
+  max-height: 510px;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 8px;
+  width: 33%;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.tagHead {
+  background-color: #e8f1f5;
+  color: #989898;
+  width: 80%;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.SliderWrap {
+  display: flex !important;
+  flex-flow: column;
+  border-radius: 8px;
+
+  background-color: white;
+  box-shadow: -1px 0px 10px 2px rgba(4, 135, 217, 0.1);
+}
+.contentBox {
+  width: 100%;
+  /* display: flex; */
+  position: relative;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 19px;
+  padding: 0px 20px 20px 20px;
+  margin-left: 0px;
+  background-color: white;
+}
+.imgWrap {
+  margin-top: -5px;
+  border-radius: 8px;
+}
+.courseImg {
+  width: 100%;
+  height: 246px;
+  border-radius: 8px;
+  margin-top: -5px;
+  z-index: 0;
+}
+.leftSide h6,
+.middleSide h6,
+.rightSide h6 {
+  font-size: 22px;
+  margin: 0;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  margin-top: 0px;
+  color: #0072bc;
+}
+.headWrapper {
+  display: flex;
+  flex-flow: column;
+  width: max-content;
+}
+.hr {
+  border: 1px solid #efefef;
+  background-color: #28557a;
+  height: 1px;
+  top: 54%;
+  position: absolute;
+  width: 100%;
+}
+.hr1 {
+  border: 1px solid #efefef;
+  background-color: #28557a;
+  height: 1px;
+  bottom: -4%;
+  position: absolute;
+  width: 100%;
+}
+.mainHead {
+  background: linear-gradient(90deg, #edbb52 0%, #ca3942 76.48%),
+    linear-gradient(90deg, #28557a 0%, #edbb52 103.64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.leftSide p,
+.middleSide p,
+.rightSide p {
+  display: flex;
+  color: #676767;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+}
+.PointWrap {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  gap: 10px;
+}
+.vrLine {
+  border-left: 1px solid #999999;
+  height: 25px;
+  margin: 0;
+}
+.singleP {
+  width: 100%;
+  /* padding-left: 15px; */
+  margin: 0;
+}
+.checkCircle {
+  margin-right: 10px;
+  color: #0072bc;
+  font-size: 22px;
+}
+.btnWrapper {
+  display: grid;
+  grid-template-columns: 50% 1% 49%;
+  width: 100%;
+  gap: 0px;
+
+  margin-top: 0px;
+}
+.btnWrapper button {
+  padding: 18px 15px;
+  width: 100%;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 0;
+}
+.btnWrapper a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.btnLine {
+  border: 0px;
+  border-left: 1px solid #676767;
+  border-right: 1px solid #676767;
+
+  height: 100%;
+  width: max-content;
+  padding: 0;
+  outline: none;
+  margin: 0;
+}
+.link1 {
+  margin-left: -3px;
+}
+.fillBtn {
+  background-color: #edbb52;
+  color: black;
+  height: 100%;
+
+  border-radius: 0px 0px 8px 0px;
+}
+.gridPanelN {
+  padding: 0;
+  height: 500px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 0px 20px;
+}
+
+@media (max-width: 1025px) {
+  .gridPanel {
+    height: 480px;
+  }
+  .Course {
+    padding: 0px 20px;
+  }
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    max-height: 190px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .contentBox {
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 641px) {
+  .Course h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 481px) {
+  .Course {
+    padding: 0 20px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .middlePanel {
+    display: none;
+  }
+  .span {
+    font-size: 18px;
+    border: 0;
+    background: aliceblue;
+    border-bottom: 1px solid #2d9cd730;
+    padding: 12px 20px;
+    width: 100%;
+  }
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    max-height: 180px;
+  }
+  .ActiveSpan {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    background-color: #0072bc;
+    color: white;
+    justify-content: start;
+  }
+  .Course h2 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .feature {
+    flex-flow: column;
+    align-items: flex-start;
+    line-height: 1.9em;
+  }
+  .courses {
+    padding: 0px;
+    box-shadow: none;
+  }
+  .gridPanel {
+    gap: 0px;
+  }
+  .listPanel .mPanel {
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+  }
+  .listPanel {
+    display: grid;
+    width: 100%;
+    gap: 0;
+    grid-template-columns: 100%;
+    height: max-content;
+  }
+
+  .gridPanel {
+    grid-template-columns: 85% 85%;
+    overflow: scroll;
+    padding: 0;
+    max-height: 650px;
+    height: 630px;
+    margin-top: 0px;
+  }
+  .tagHead {
+    background-color: #e8f1f5;
+    color: #989898;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+  }
+  .gridPanelN {
+    overflow: scroll;
+    padding: 0;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 90% 90% 90%;
+    width: 100%;
+  }
+
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0px;
+  }
+  .courseImg {
+    width: 100%;
+  }
+  .mainHead {
+    background: linear-gradient(90deg, #edbb52 0%, #ca3942 76.48%),
+      linear-gradient(90deg, #28557a 0%, #edbb52 103.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .hr {
+    top: 39%;
+    margin-left: -15px;
+    width: 100%;
+  }
+  .leftSide h6,
+  .middleSide h6,
+  .rightSide h6 {
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    margin-top: 0px;
+    color: #0072bc;
+    margin-right: 0;
+  }
+  .checkCircle {
+    margin-right: 5px;
+  }
+  .Course h5 {
+    padding: 10px;
+  }
+  .contentBox {
+    margin-top: 0px;
+    overflow: hidden;
+  }
+  .SliderWrap {
+    display: flex;
+    flex-flow: column;
+    margin-top: 480px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    position: relative;
+    background-color: white;
+  }
+  .contentBox {
+    background-color: transparent;
+    align-items: flex-start;
+  }
+  .contentBox p {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .hr1 {
+    bottom: -3%;
+    margin-left: -20px;
+  }
+  .btnWrapper button {
+    padding: 18px 15px;
+    width: 100%;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: 0;
+  }
+  .btnWrapper a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .btnLine {
+    border: 0px;
+    border-left: 1px solid #676767;
+    border-right: 1px solid #676767;
+
+    height: 100%;
+    width: max-content;
+    padding: 0;
+    outline: none;
+    margin: 0;
+  }
+  .link1 {
+    margin-left: -3px;
+  }
+  .fillBtn {
+    background-color: #edbb52;
+    color: black;
+    height: 100%;
+
+    border-radius: 0px 0px 8px 0px;
+  }
+}

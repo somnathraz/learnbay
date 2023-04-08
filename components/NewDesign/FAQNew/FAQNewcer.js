@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./FAQNew.module.css";
 import FAQ from "../FAQNew/FAQ";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -256,14 +256,14 @@ function FAQNew({
         <div className={styles.courseD}>
           <div className={styles.listPanel}>
             <Swiper
-              slidesPerView={mobile ? 2 : 3}
+              slidesPerView={mobile ? 2 : 2}
               spaceBetween={mobile ? 0 : 15}
               grabCursor={true}
               navigation={true}
               style={{
-                paddingLeft:"5px",
-                paddingRight:"5px",
-                overflow:"hidden",
+                paddingLeft: "5px",
+                paddingRight: "5px",
+                overflow: "hidden",
                 "--swiper-navigation-color": "#0072BC",
                 "--swiper-navigation-size": "20px",
               }}

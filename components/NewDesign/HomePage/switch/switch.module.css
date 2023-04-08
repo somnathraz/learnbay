@@ -1,0 +1,148 @@
+.switch {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.head {
+  padding: 10px 100px 10px 100px;
+  background: linear-gradient(90deg, rgba(237, 233, 233, 0) 0%, rgba(235, 235, 235, 0.6) 52.6%, rgba(239, 239, 239, 0) 100%);
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 60px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.img {
+  margin-top: 20px;
+}
+.head h4 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0;
+  line-height: 40px;
+  text-align: left;
+}
+
+.switchInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rating {
+  margin-top: -25px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.star {
+  color: #edbb52;
+}
+.btn {
+  padding: 10px 20px;
+  width: max-content;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #2d9cd7;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  box-shadow: 0px 0px 10px 0px rgb(45 156 215 / 31%);
+}
+.btn:hover {
+  background-color: #fff;
+  border-color: 1px solid #2d9cd7;
+  color: #2d9cd7;
+}
+
+.bIcon {
+  margin-left: 10px;
+}
+
+@media (max-width: 1025px) {
+  .head {
+    margin: 30px 0px;
+    padding: 30px;
+    gap: 10px;
+  }
+  .head h4 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .switch {
+    gap: 0;
+  }
+}
+
+@media (max-width: 641px) {
+  .head {
+    margin: 0px;
+  }
+  .switch {
+    display: grid;
+    grid-template-columns: 23% 13% 23% 13% 23%;
+  }
+}
+@media (max-width: 641px) {
+  .head {
+    margin: 0px;
+  }
+  .switch {
+    display: grid;
+    grid-template-columns: 23% 13% 23% 13% 23%;
+  }
+}
+
+@media (max-width: 600px) {
+  .switch {
+    display: flex;
+    justify-content: center;
+  }
+
+  .head {
+    padding: 30px 20px;
+    display: block;
+    margin: 20px;
+    gap: 0px;
+  }
+  .switchInner {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .img {
+    margin: 0px;
+  }
+
+  .imgI {
+    display: none !important;
+  }
+  .switch span:nth-child(2),
+  .switch span:nth-child(4) {
+    display: none !important;
+  }
+  .head h4 {
+    text-align: center;
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 800px) {
+  .head {
+    display: block;
+    padding: 20px 0px;
+    margin: 0px 0px 50px 0px;
+  }
+  .head h4 {
+    text-align: center;
+  }
+}
