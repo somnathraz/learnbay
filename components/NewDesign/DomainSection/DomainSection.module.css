@@ -33,24 +33,24 @@
 }
 
 .mainSliderYellow {
-  border-bottom: 5px solid #edbb52;
+  border-bottom: 5px solid #f99600;
 }
 
 .mainSliderRed {
-    border-bottom: 5px solid #ca3942;
+  border-bottom: 5px solid #edb552;
 }
 
 .mainSlidergreen {
-    border-bottom: 5px solid green;
+  border-bottom: 5px solid green;
 }
 
 .mainSliderOrange {
-    border-bottom: 5px solid #28557A;
+  border-bottom: 5px solid #0072bc;
 }
 
 .imgP P {
   font-size: 26px;
-  color: #28557a;
+  color: #0072bc;
   margin: 0;
   font-weight: 700;
 }
@@ -76,7 +76,7 @@
 }
 
 .bgP {
-  background: #28557a;
+  background: #0072bc;
   color: #fff;
   padding: 10px 150px 10px 100px;
   width: fit-content;
@@ -93,14 +93,14 @@
 }
 
 .h1Span {
-  background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+  background: linear-gradient(90deg, #f99600 50%, #edb552 103.64%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .h1 {
-  color: #28557a;
-  font-family: "Inter", sans-serif;
+  color: #0072bc;
+
   font-weight: 700;
   line-height: 47px;
   margin: 5px 0px 0px 10px;
@@ -120,34 +120,34 @@
   border-radius: 10px;
   font-weight: 600;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border: 1px solid #28557a;
+  border: 1px solid #0072bc;
   background: #fff;
-  color: #28557a;
+  color: #0072bc;
   height: 100%;
 }
 
 .btnOutline:hover {
   border: 1px solid #fff;
-  background-color: #28557a;
+  background-color: #0072bc;
   color: #fff;
 }
 
 @media (max-width: 641px) {
-.sliderBox {
+  .sliderBox {
     display: block;
     padding: 20px 0px;
-}
-.img {
+  }
+  .img {
     padding: 0px;
   }
-.bgP {
+  .bgP {
     padding: 10px 40px;
     position: relative;
-}
-.h1 {
+  }
+  .h1 {
     margin: 50px 20px 0px 20px;
-}
-.Testimonial {
+  }
+  .Testimonial {
     padding: 0px 20px 30px 0px;
   }
   .para {

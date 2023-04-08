@@ -428,16 +428,18 @@ function FifthSection({
           </div> */}
         </div>
       )}
-      {NoCertficate ? ("") : (
-      <div>
-        <p className={styles.infop}>WORLD’S LEADING CERTIFICATION</p>
-        {advanceCertificate ? <AdvanceCertificateTab /> : ""}
-        {AIMLCertificate ? <AIMLCertificateTab /> : ""}
-        {MasterCertificate ? <MasterCertificateTab /> : ""}
-        {ManagersCertificate ? <ManagersCertificateTab /> : ""}
-        {AnalyticsCertificate ? <AnalyticsCertificateTab /> : ""}
-        {FinanceCertificate ? <FinanceCertificateTab /> : ""}
-      </div>
+      {NoCertficate ? (
+        ""
+      ) : (
+        <div>
+          <p className={styles.infop}>World's Leading Certification</p>
+          {advanceCertificate ? <AdvanceCertificateTab /> : ""}
+          {AIMLCertificate ? <AIMLCertificateTab /> : ""}
+          {MasterCertificate ? <MasterCertificateTab /> : ""}
+          {ManagersCertificate ? <ManagersCertificateTab /> : ""}
+          {AnalyticsCertificate ? <AnalyticsCertificateTab /> : ""}
+          {FinanceCertificate ? <FinanceCertificateTab /> : ""}
+        </div>
       )}
       <div className={styles.fee}>
         <p className={styles.infop} style={{ color: "#fff" }}>
@@ -445,10 +447,10 @@ function FifthSection({
         </p>
         <div className={styles.feeBox}>
           <p>Total fee</p>
-          <h2 style={{ color: "#28557A" }}>{Fee}</h2>
+          <h2 style={{ color: "#0072bc" }}>{Fee}</h2>
           <div className={styles.line}></div>
           <p>Easy No-Cost EMI</p>
-          <h2 style={{ color: "#28557A" }}>{FeeEmi}</h2>
+          <h2 style={{ color: "#0072bc" }}>{FeeEmi}</h2>
           <p>Financing partners</p>
           <div>
             <Image

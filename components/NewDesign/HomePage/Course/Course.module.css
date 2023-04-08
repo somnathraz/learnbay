@@ -131,7 +131,7 @@
   font-size: 22px;
   margin: 0;
   width: 100%;
-  font-family: "Inter", sans-serif;
+
   margin-top: 0px;
   color: #0072bc;
 }
@@ -142,7 +142,7 @@
 }
 .hr {
   border: 1px solid #efefef;
-  background-color: #28557a;
+  background-color: #0072bc;
   height: 1px;
   top: 54%;
   position: absolute;
@@ -150,15 +150,15 @@
 }
 .hr1 {
   border: 1px solid #efefef;
-  background-color: #28557a;
+  background-color: #0072bc;
   height: 1px;
   bottom: -4%;
   position: absolute;
   width: 100%;
 }
 .mainHead {
-  background: linear-gradient(90deg, #edbb52 0%, #ca3942 76.48%),
-    linear-gradient(90deg, #28557a 0%, #edbb52 103.64%);
+  background: linear-gradient(90deg, #f99600 0%, #edb552 76.48%),
+    linear-gradient(90deg, #0072bc 0%, #f99600 103.64%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -169,7 +169,7 @@
 .rightSide p {
   display: flex;
   color: #676767;
-  font-family: "Inter", sans-serif;
+
   align-items: center;
 }
 .PointWrap {
@@ -231,7 +231,7 @@
   margin-left: -3px;
 }
 .fillBtn {
-  background-color: #edbb52;
+  background-color: #f99600;
   color: black;
   height: 100%;
 
@@ -375,8 +375,8 @@
     width: 100%;
   }
   .mainHead {
-    background: linear-gradient(90deg, #edbb52 0%, #ca3942 76.48%),
-      linear-gradient(90deg, #28557a 0%, #edbb52 103.64%);
+    background: linear-gradient(90deg, #f99600 0%, #edb552 76.48%),
+      linear-gradient(90deg, #0072bc 0%, #f99600 103.64%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -391,7 +391,7 @@
   .middleSide h6,
   .rightSide h6 {
     width: 100%;
-    font-family: "Inter", sans-serif;
+
     margin-top: 0px;
     color: #0072bc;
     margin-right: 0;
@@ -459,7 +459,7 @@
     margin-left: -3px;
   }
   .fillBtn {
-    background-color: #edbb52;
+    background-color: #f99600;
     color: black;
     height: 100%;
 

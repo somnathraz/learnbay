@@ -15,14 +15,14 @@
 }
 
 .h1Span {
-  background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+  background: linear-gradient(90deg, #f99600 50%, #edb552 103.64%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .h1 {
-  color: #28557a;
-  font-family: "Inter", sans-serif;
+  color: #0072bc;
+
   font-weight: 700;
   line-height: 47px;
   margin: 5px 0px 20px 0px;
@@ -45,7 +45,6 @@
 }
 
 .descLine {
-  font-family: "Inter", sans-serif;
   color: #767676;
   margin: 0 !important;
 
@@ -85,16 +84,16 @@
   padding: 10px 14px;
   font-size: 18px;
   background: #fff;
-  color: #0072BC;
+  color: #0072bc;
 }
 
 .outLineBtn:hover {
-  background: #0072BC;
+  background: #0072bc;
   color: #fff;
 }
 
 .Btn {
-  background: #0072BC;
+  background: #0072bc;
   color: #fff;
   padding: 10px 14px;
   font-size: 18px;
@@ -102,7 +101,7 @@
 
 .Btn:hover {
   background: #fff;
-  color: #0072BC;
+  color: #0072bc;
 }
 
 /* @media (max-width: 600px) {
@@ -351,7 +350,6 @@
 
  */
 
-
 @media (max-width: 641px) {
   .First {
     padding: 30px 20px;
@@ -383,14 +381,14 @@
   }
 
   .FirstLeft .h1Span {
-    background: linear-gradient(90deg, #edbb52 50%, #ca3942 103.64%);
+    background: linear-gradient(90deg, #f99600 50%, #edb552 103.64%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
   }
 
   .FirstLeft .h1 {
-    color: #28557a;
+    color: #0072bc;
     margin: 10px 0px 20px 0px;
     font-size: 24px;
     text-align: center;

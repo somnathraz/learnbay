@@ -1,16 +1,15 @@
 .infop {
   color: #0072bc;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 20px;
-  margin: 10px 0px;
+  margin: 0px 0px 10px 0px;
   text-align: center;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .infopP {
   color: #0072bc;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   margin: 10px 0px 30px 0px;
   text-align: center;
@@ -51,7 +50,7 @@
 }
 
 .Htop {
-  color: #28557a;
+  color: #0072bc;
   font-size: 26px;
   font-weight: bold;
   margin: 0;
@@ -65,9 +64,10 @@
 
 .ptopBox {
   color: #000;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
-  border: 1px solid #ca3942;
+  font-weight: 700;
+  border: 2px solid #edb552;
   width: fit-content;
   padding: 5px 10px;
   border-radius: 20px;
@@ -109,7 +109,6 @@
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: 18%;
-  
 }
 
 .boxH2 {
@@ -125,8 +124,9 @@
 
 .boxBlue button {
   background-color: #fff;
-  color: #28557a;
-  font-size: 14px;
+  color: #0072bc;
+  font-size: 18px;
+  font-weight: 700;
   margin-top: 30px;
 }
 
@@ -180,7 +180,7 @@
 }
 
 .hrDesing {
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
 }
 
 .ptopB {
@@ -192,13 +192,14 @@
 }
 
 .h1Span {
-  background: linear-gradient(90deg, #0072bc 30%, #ca3942 103.64%);
+  /* background: linear-gradient(90deg, #0072bc 30%, #edb552 103.64%);
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  color: #f99600;
 }
 
 .h1 {
-  color: #28557a;
+  color: #0072bc;
   margin: 5px 0px 30px 0px;
   text-align: left;
 }
@@ -227,7 +228,6 @@
 
 .CTA {
   margin: auto;
-  
 }
 
 .secondLeft {
@@ -272,7 +272,7 @@
     margin: 0;
   }
   .Htop {
-    color: #28557a;
+    color: #0072bc;
     font-size: 20px;
     font-weight: bold;
     margin: 0;
@@ -299,41 +299,46 @@
     background: none;
     height: fit-content;
   }
-.infop, .infopP {
-  font-size: 16px;
-}
+  .infop,
+  .infopP {
+    font-size: 16px;
+  }
 
-.infopP {
-  text-align: left;
-}
-.boxBlue {
-  padding: 50px 20px;
-  background: linear-gradient(90deg, #28557a 0%, #2979a8 100%);
-  margin-left: 0;
-}
-.hrDesing {
-  display: none;
-}
-.boxH2 {
-  color: #fff;
-  margin: 0;
-  font-size: 26px;
-  width: 100%;
-}
-.h1 {
-  font-size: 18px;
-  text-align: center;
-  margin: 0px 0px 20px 0px;
-}
-.FirstLeft p {
-  margin: auto;
-  margin-bottom: 10px;
-  font-size: 14px;
-}
-.PlayImg {
-  margin: 0px;
-}
-.secondLeft {
-  display: block;
-}
+  .infop {
+    font-size: 20px;
+  }
+
+  .infopP {
+    text-align: left;
+  }
+  .boxBlue {
+    padding: 50px 20px;
+    background: linear-gradient(90deg, #0072bc 0%, #2979a8 100%);
+    margin-left: 0;
+  }
+  .hrDesing {
+    display: none;
+  }
+  .boxH2 {
+    color: #fff;
+    margin: 0;
+    font-size: 26px;
+    width: 100%;
+  }
+  .h1 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+  }
+  .FirstLeft p {
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .PlayImg {
+    margin: 0px;
+  }
+  .secondLeft {
+    display: block;
+  }
 }

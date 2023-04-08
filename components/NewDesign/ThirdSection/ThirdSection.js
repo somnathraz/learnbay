@@ -377,8 +377,8 @@ function ThirdSection({
         </Popup>
         <div className={styles.FirstLeft}>
           <p className={styles.ptopBox}>{secondLine}</p>
-          <h1 className={styles.h1}>
-            <span className={styles.h1Span}>{thirdHeadSpan}</span>
+          <h1 className={styles.h1}>Empower yourself to secure top-level promotions
+            <span className={styles.h1Span}> with our advanced program</span>
           </h1>
           {/* <p className={styles.checkP}>
             <BsCheckCircleFill className={styles.check} />
@@ -419,7 +419,7 @@ function ThirdSection({
             right career choice
           </p>
           <button onClick={popupShow}>
-            Book your free consultation now
+          Apply For Counselling
             <FaArrowRight style={{ marginLeft: "10px" }} />
           </button>
         </div>

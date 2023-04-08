@@ -1,10 +1,9 @@
 .infop {
   color: #0072bc;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 20px;
-  margin: 10px 0px;
+  margin: 0px 0px 10px 0px;
   text-align: center;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .sliderTop {
@@ -152,7 +151,7 @@ box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.15);
 
 .feeBox {
   background-color: #fff;
-  border-top: 6px solid #EDBB52;
+  border-top: 6px solid #f99600;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 0px 0px 15px 15px;
 padding: 20px 20px;

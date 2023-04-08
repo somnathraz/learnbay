@@ -6,7 +6,7 @@
 }
 
 .h1 {
-  color: #28557a;
+  color: #0072bc;
   margin: 0px 0px 30px 0px;
   font-size: 32px;
   font-weight: 700;
@@ -27,7 +27,7 @@
 }
 
 .box:hover {
-  background: linear-gradient(90deg, #28557a 0%, #2979a8 116.5%);
+  background: linear-gradient(90deg, #0072bc 0%, #2979a8 116.5%);
   color: #fff;
   filter: drop-shadow(0px 0px 10px rgba(237, 181, 82, 0.22));
 }
@@ -63,7 +63,7 @@
 }
 
 .boldIcon {
-  color: #28557a;
+  color: #0072bc;
   font-size: 24px;
   font-weight: 700;
   margin: 0;
@@ -73,7 +73,7 @@
 }
 
 .BottomP {
-  background-color: #edbb52;
+  background-color: #f99600;
   padding: 12px 100px;
   font-size: 18px;
   width: fit-content;
@@ -95,11 +95,9 @@
   .tabletDiv {
     display: flex;
     justify-content: center;
-    
   }
 
-
-.content {
+  .content {
     margin-top: -43%;
     position: relative;
     left: 0%;
@@ -107,9 +105,9 @@
     flex-direction: column;
     justify-content: center;
     margin-left: 80px;
-}
+  }
 
-.pSmall {
+  .pSmall {
     font-size: 16px;
     width: 80%;
     margin: 0;

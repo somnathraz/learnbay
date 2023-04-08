@@ -86,7 +86,7 @@ function FirstSection({
           for Success.
         </p>
         <div className={styles.logos}>
-          <div>
+          <div style={{textAlign:"center"}}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Career-report-logo.png"
               width="40"
@@ -95,11 +95,11 @@ function FirstSection({
               alt="data science course"
               className={styles.courseimg}
             />
-            <p className={styles.ptopC}>
+            <p className={styles.ptopR}>
               <b>4.66/5</b>
             </p>
           </div>
-          <div>
+          <div style={{textAlign:"center"}}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Google-logo.png"
               width="40"
@@ -108,11 +108,11 @@ function FirstSection({
               alt="data science course"
               className={styles.courseimg}
             />
-            <p className={styles.ptopC}>
+            <p className={styles.ptopR}>
               <b>4.8/5</b>
             </p>
           </div>
-          <div>
+          <div style={{textAlign:"center"}}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Switchup-logo.png"
               width="40"
@@ -121,7 +121,7 @@ function FirstSection({
               alt="data science course"
               className={styles.courseimg}
             />
-            <p className={styles.ptopC}>
+            <p className={styles.ptopR}>
               <b>4.79/5</b>
             </p>
           </div>
@@ -156,7 +156,7 @@ function FirstSection({
           />
         </div>
         <div className={styles.logosD}>
-          <div>
+          <div style={{textAlign:"center"}}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Career-report-logo.png"
               width="40"
@@ -165,11 +165,11 @@ function FirstSection({
               alt="data science course"
               className={styles.courseimg}
             />
-            <p className={styles.ptopC}>
+            <p className={styles.ptopR}>
               <b>4.66/5</b>
             </p>
           </div>
-          <div>
+          <div style={{textAlign:"center"}}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Google-logo.png"
               width="40"
@@ -178,11 +178,11 @@ function FirstSection({
               alt="data science course"
               className={styles.courseimg}
             />
-            <p className={styles.ptopC}>
+            <p className={styles.ptopR}>
               <b>4.8/5</b>
             </p>
           </div>
-          <div>
+          <div style={{textAlign:"center"}}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Switchup-logo.png"
               width="40"
@@ -191,7 +191,7 @@ function FirstSection({
               alt="data science course"
               className={styles.courseimg}
             />
-            <p className={styles.ptopC}>
+            <p className={styles.ptopR}>
               <b>4.79/5</b>
             </p>
           </div>

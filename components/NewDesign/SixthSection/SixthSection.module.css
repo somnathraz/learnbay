@@ -16,7 +16,7 @@
 }
 
 .h1 {
-  color: #28557a;
+  color: #0072bc;
   margin: 10px 0px 20px 0px;
   font-size: 32px;
   text-align: center;
@@ -63,7 +63,7 @@
 
 .QuoteOrange {
   font-size: 22px;
-  color: #edbb52;
+  color: #f99600;
   text-align: right;
 }
 
@@ -105,7 +105,7 @@
 
 .LearnSupport {
   padding: 0px 100px;
-  background: linear-gradient(90deg, #28557a 0.8%, #2979a8 101.17%);
+  background: linear-gradient(90deg, #0072bc 0.8%, #2979a8 101.17%);
   display: flex;
   align-items: center;
   box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
@@ -123,7 +123,7 @@
   color: #fff;
 }
 .LearnSupport .pTop {
-  color: #edbb52;
+  color: #f99600;
   margin: 0;
   margin-bottom: 10px;
   font-size: 30px;
@@ -176,7 +176,7 @@
 
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  border-color: #28557a;
+  border-color: #0072bc;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0px 0px 5px 0px rgb(52 56 112 / 31%);
 }
@@ -251,14 +251,14 @@
 }
 
 .ptopBlue {
-  color: #28557a;
+  color: #0072bc;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
 }
 
 .ptopOrange {
-  color: #edbb52;
+  color: #f99600;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
@@ -283,12 +283,12 @@
 }
 
 .orangeIcon {
-  color: #edbb52;
+  color: #f99600;
   font-size: 20px;
 }
 
 .blueIcon {
-  color: #28557a;
+  color: #0072bc;
   font-size: 20px;
 }
 
@@ -364,7 +364,7 @@
     text-align: center;
   }
   .h1 {
-    color: #28557a;
+    color: #0072bc;
     margin: 10px 0px 20px 0px;
     font-size: 24px;
   }
@@ -372,7 +372,7 @@
     color: #0072bc;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     margin: 10px 0px;
   }
 
@@ -395,19 +395,19 @@
   }
 
   .orange {
-    background: #edbb521a;
+    background: #f996001a;
     padding: 20px;
   }
 
   .ptopBlue {
-    color: #28557a;
+    color: #0072bc;
     font-size: 18px;
     font-weight: bold;
     margin: 0;
   }
 
   .ptopOrange {
-    color: #edbb52;
+    color: #f99600;
     font-size: 18px;
     font-weight: bold;
     margin: 0;
@@ -432,12 +432,12 @@
   }
 
   .orangeIcon {
-    color: #edbb52;
+    color: #f99600;
     font-size: 20px;
   }
 
   .blueIcon {
-    color: #28557a;
+    color: #0072bc;
     font-size: 20px;
   }
 
@@ -446,7 +446,7 @@
     margin: 20px;
     padding: 20px 0px;
     border-top: 6px solid #0072bc;
-    border-bottom: 12px solid #edbb52;
+    border-bottom: 12px solid #f99600;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     text-align: center;
@@ -476,7 +476,7 @@
   }
 
   .orange {
-    background: #edbb521a;
+    background: #f996001a;
     padding: 20px;
   }
 
