@@ -1,0 +1,19 @@
+.SliderWrap {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: -30px;
+}
+.slide {
+  box-shadow: 0px 0px 10px 0px rgb(45 156 215 / 31%);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: fit-content;
+  background-color: white;
+}
+@media (max-width: 481px) {
+  .SliderWrap {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

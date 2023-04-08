@@ -2,11 +2,15 @@
   display: flex;
   flex-flow: column;
   font-family: "Inter", sans-serif;
-  padding: 40px 160px;
+  padding: 60px 160px;
 }
 .feeWrapper h4 {
   color: #0072bc;
+  text-transform: uppercase;
   font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0px 30px 0px;
+  text-align: center;
 }
 .priceWrap {
   display: grid;
@@ -54,9 +58,24 @@
 .check {
   color: green;
 }
+
 .leftSide button {
-  width: max-content;
+  margin-top: 0px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-weight: 700;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: fit-content;
+  width: fit-content;
 }
+
+.leftSide button:hover {
+  background: #fff;
+  color: #0072bc;
+  border: 1px solid #0072bc;
+}
+
 .rightSide {
   display: flex;
   flex-flow: column;
@@ -86,7 +105,7 @@
 }
 .top p {
   margin: 0;
-  color: #0072bc;
+  color: #000;
 }
 .top h3 {
   margin: 10px 0;

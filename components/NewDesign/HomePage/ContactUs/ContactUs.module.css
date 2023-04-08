@@ -1,0 +1,107 @@
+.ContactUs {
+  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Form-Faded-BG.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.h1Span {
+  background: linear-gradient(90deg, #edbb52 0%, #ca3942 60.64%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 38px;
+}
+
+.h1 {
+  color: #28557a;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 47px;
+  text-align: left;
+  font-size: 30px;
+}
+
+.boxSection {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  gap: 30px;
+}
+
+.box {
+  border: 1px solid #fff;
+}
+
+.icon {
+  color: #2db621;
+  margin: 0;
+  display: flex;
+  gap: 5px;
+  font-size: 20px;
+  justify-content: flex-end;
+}
+
+.BoldP {
+  color: #28557a;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 47px;
+  margin: 0px;
+  text-align: center;
+  font-size: 44px;
+}
+
+.NormalP {
+  color: #606060;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.NormalPForm {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.RightSide {
+  background: #fff;
+  padding: 30px 20px 30px 50px;
+  border-radius: 10px;
+  border-bottom: 4px solid #edbb52;
+}
+
+@media (max-width: 641px) {
+  .ContactUs {
+    display: block;
+    padding: 10px 20px 30px 20px;
+    background-size: cover;
+  }
+  .h1 {
+    font-weight: 700;
+    line-height: 34px;
+    font-size: 24px;
+  }
+  .h1Span {
+    font-size: 30px;
+  }
+  .boxSection {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .RightSide {
+    padding: 30px 20px;
+    border-bottom: 4px solid #edbb52;
+  }
+  .NormalPForm {
+    margin-bottom: 20px;
+  }
+  .BoldP {
+    font-size: 36px;
+  }
+}

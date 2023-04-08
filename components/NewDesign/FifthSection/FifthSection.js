@@ -5,21 +5,18 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FaCheck } from "react-icons/fa";
-import { CertificateAdvance1, CertificateAdvance2 } from "./CertificateDetail";
-import { BsCheckCircleFill } from "react-icons/bs";
-import { FaGooglePay } from "react-icons/fa";
-import { MdAttachMoney } from "react-icons/md";
-import { MdPayment } from "react-icons/md";
-import { RiSecurePaymentFill } from "react-icons/ri";
-import { AiOutlineBank } from "react-icons/ai";
-import { BsFillCreditCard2FrontFill, BsLaptopFill } from "react-icons/bs";
-import { GiWallet } from "react-icons/gi";
+import FeeSection from "./Fee";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
-import Fee from "./Fee"
+import AdvanceCertificateTab from "../CertificateTab/CertificateTab";
+import AIMLCertificateTab from "../CertificateTab/AIMLCertificateTab";
+import ManagersCertificateTab from "../CertificateTab/ManagersCertificateTab";
+import MasterCertificateTab from "../CertificateTab/MasterCertificateTab";
+import AnalyticsCertificateTab from "../CertificateTab/AnalyticsCertificateTab";
+import FinanceCertificateTab from "../CertificateTab/FinanceCertificateTab";
 
 function FifthSection({
+  FeeHeading,
   img1,
   img2,
   img3,
@@ -44,6 +41,22 @@ function FifthSection({
   img22,
   img23,
   dataScience,
+  Fee,
+  FeeContent1,
+  FeeContent2,
+  FeeContent3,
+  FeeContent4,
+  FeeContent5,
+  FeeContent6,
+  FeeEmi,
+  hidetools,
+  advanceCertificate,
+  AIMLCertificate,
+  MasterCertificate,
+  ManagersCertificate,
+  AnalyticsCertificate,
+  FinanceCertificate,
+  NoCertficate,
 }) {
   const [mobile, setMobile] = useState(false);
 
@@ -93,334 +106,349 @@ function FifthSection({
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-      <div className={styles.toolscoverd}>
-        <p className={styles.infop}>tools covered</p>
-        <div className={styles.sliderTop}>
-          <Swiper
-            spaceBetween={20}
-            centeredSlides={true}
-            slidesPerView={mobile ? 3 : 7}
-            slidesPerGroup={1}
-            loop={true}
-            loopFillGroupWithBlank={true}
-            autoplay={{
-              delay: 1500,
-              disableOnInteraction: false,
-            }}
-            grabCursor={true}
-            modules={[Autoplay, Pagination]}
-            className="mySwiper"
-          >
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img1}
-                alt="github"
-                layout="intrinsic"
-                width="100"
-                height="60"
-                objectFit="contain"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img2}
-                alt="python"
-                layout="intrinsic"
-                width="150"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img3}
-                alt="jupytor"
-                quality={100}
-                layout="intrinsic"
-                width="150"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img4}
-                alt="excel"
-                layout="intrinsic"
-                width="150"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img5}
-                alt="sql"
-                layout="intrinsic"
-                width="150"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img6}
-                alt="numpy"
-                layout="intrinsic"
-                width="150"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img7}
-                alt="pandas"
-                layout="intrinsic"
-                width="150"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img8}
-                alt="matplotlib"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img9}
-                alt="pytorch"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img10}
-                alt="tensorflow"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img11}
-                alt="keras"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img12}
-                alt="seaborn"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img13}
-                alt="learn"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img14}
-                alt="tableau"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img15}
-                alt="powerbi"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img16}
-                alt="spark"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img17}
-                alt="hadoop"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img18}
-                alt="mongodb"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img19}
-                alt="aws"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img20}
-                alt="statistics"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img21}
-                alt="cv"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img22}
-                alt="rl"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image
-                src={img23}
-                alt="pm"
-                layout="intrinsic"
-                objectFit="contain"
-                width="120"
-                height="60"
-              />
-            </SwiperSlide>
-          </Swiper>
-        </div>
-        <p className={styles.infop}>WORLD’S LEADING CERTIFICATIONS</p>
-        <div className={styles.certificate}>
-          <div className={styles.gridPanel}>
-            {CertificateAdvance1.map((CertificateAdvance2ata) => {
-              const { id, title, img, para } = CertificateAdvance2ata;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <div className={styles.leftSideP} key={id}>
-                    <Image
-                      src={img}
-                      alt="Certificate"
-                      quality={100}
-                      layout="intrinsic"
-                      width="1150px"
-                      height="800px"
-                    />
-                    <div className={styles.contentDiv}>
-                      <h6>{title}</h6>
-                      <p>
-                        <FaCheck className={styles.checkCircle} />
-                        {para[0]}
-                      </p>
-                      <p>
-                        <FaCheck className={styles.checkCircle} />
-                        {para[1]}
-                      </p>
-                      <p>
-                        <FaCheck className={styles.checkCircle} />
-                        {para[2]}
-                      </p>
+      {hidetools ? (
+        ""
+      ) : (
+        <div className={styles.toolscoverd}>
+          <p className={styles.infop}>tools covered</p>
+          <div className={styles.sliderTop}>
+            <Swiper
+              spaceBetween={20}
+              centeredSlides={true}
+              slidesPerView={mobile ? 3 : 7}
+              slidesPerGroup={1}
+              loop={true}
+              loopFillGroupWithBlank={true}
+              autoplay={{
+                delay: 1500,
+                disableOnInteraction: false,
+              }}
+              grabCursor={true}
+              modules={[Autoplay, Pagination]}
+              className="mySwiper"
+            >
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img1}
+                  alt="github"
+                  layout="intrinsic"
+                  width="100"
+                  height="60"
+                  objectFit="contain"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img2}
+                  alt="python"
+                  layout="intrinsic"
+                  width="150"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img3}
+                  alt="jupytor"
+                  quality={100}
+                  layout="intrinsic"
+                  width="150"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img4}
+                  alt="excel"
+                  layout="intrinsic"
+                  width="150"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img5}
+                  alt="sql"
+                  layout="intrinsic"
+                  width="150"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img6}
+                  alt="numpy"
+                  layout="intrinsic"
+                  width="150"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img7}
+                  alt="pandas"
+                  layout="intrinsic"
+                  width="150"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img8}
+                  alt="matplotlib"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img9}
+                  alt="pytorch"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img10}
+                  alt="tensorflow"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img11}
+                  alt="keras"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img12}
+                  alt="seaborn"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img13}
+                  alt="learn"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img14}
+                  alt="tableau"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img15}
+                  alt="powerbi"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img16}
+                  alt="spark"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img17}
+                  alt="hadoop"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img18}
+                  alt="mongodb"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img19}
+                  alt="aws"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img20}
+                  alt="statistics"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img21}
+                  alt="cv"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img22}
+                  alt="rl"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <Image
+                  src={img23}
+                  alt="pm"
+                  layout="intrinsic"
+                  objectFit="contain"
+                  width="120"
+                  height="60"
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
+          {/* <p className={styles.infop}>WORLD’S LEADING CERTIFICATIONS</p>
+          <div className={styles.certificate}>
+            <div className={styles.gridPanel}>
+              {CertificateAdvance1.map((CertificateAdvance2ata) => {
+                const { id, title, img, para } = CertificateAdvance2ata;
+                return (
+                  <div className={styles.leftSide} key={id}>
+                    <div className={styles.leftSideP} key={id}>
+                      <Image
+                        src={img}
+                        alt="Certificate"
+                        quality={100}
+                        layout="intrinsic"
+                        width="1150px"
+                        height="800px"
+                      />
+                      <div className={styles.contentDiv}>
+                        <h6>{title}</h6>
+                        <p>
+                          <FaCheck className={styles.checkCircle} />
+                          {para[0]}
+                        </p>
+                        <p>
+                          <FaCheck className={styles.checkCircle} />
+                          {para[1]}
+                        </p>
+                        <p>
+                          <FaCheck className={styles.checkCircle} />
+                          {para[2]}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              );
-            })}
-          </div>
+                );
+              })}
+            </div>
 
-          <div className={styles.gridPanel}>
-            {CertificateAdvance2.map((CertificateAdvance2ata) => {
-              const { id, title, img, para } = CertificateAdvance2ata;
-              return (
-                <div className={styles.leftSide} key={id}>
-                  <div className={styles.leftSideP} key={id}>
-                    <Image
-                      src={img}
-                      alt="Certificate"
-                      quality={100}
-                      layout="intrinsic"
-                      width="1150px"
-                      height="800px"
-                    />
-                    <div className={styles.contentDiv}>
-                      <h6>{title}</h6>
-                      <p>
-                        <FaCheck className={styles.checkCircle} />
-                        {para[0]}
-                      </p>
-                      <p>
-                        <FaCheck className={styles.checkCircle} />
-                        {para[1]}
-                      </p>
-                      <p>
-                        <FaCheck className={styles.checkCircle} />
-                        {para[2]}
-                      </p>
+            <div className={styles.gridPanel}>
+              {CertificateAdvance2.map((CertificateAdvance2ata) => {
+                const { id, title, img, para } = CertificateAdvance2ata;
+                return (
+                  <div className={styles.leftSide} key={id}>
+                    <div className={styles.leftSideP} key={id}>
+                      <Image
+                        src={img}
+                        alt="Certificate"
+                        quality={100}
+                        layout="intrinsic"
+                        width="1150px"
+                        height="800px"
+                      />
+                      <div className={styles.contentDiv}>
+                        <h6>{title}</h6>
+                        <p>
+                          <FaCheck className={styles.checkCircle} />
+                          {para[0]}
+                        </p>
+                        <p>
+                          <FaCheck className={styles.checkCircle} />
+                          {para[1]}
+                        </p>
+                        <p>
+                          <FaCheck className={styles.checkCircle} />
+                          {para[2]}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              );
-            })}
-          </div>
+                );
+              })}
+            </div>
+          </div> */}
         </div>
+      )}
+      {NoCertficate ? ("") : (
+      <div>
+        <p className={styles.infop}>WORLD’S LEADING CERTIFICATION</p>
+        {advanceCertificate ? <AdvanceCertificateTab /> : ""}
+        {AIMLCertificate ? <AIMLCertificateTab /> : ""}
+        {MasterCertificate ? <MasterCertificateTab /> : ""}
+        {ManagersCertificate ? <ManagersCertificateTab /> : ""}
+        {AnalyticsCertificate ? <AnalyticsCertificateTab /> : ""}
+        {FinanceCertificate ? <FinanceCertificateTab /> : ""}
       </div>
+      )}
       <div className={styles.fee}>
         <p className={styles.infop} style={{ color: "#fff" }}>
           Program fee & financing
         </p>
         <div className={styles.feeBox}>
           <p>Total fee</p>
-          <h2 style={{ color: "#28557A" }}>₹ 1,25,000 + GST</h2>
+          <h2 style={{ color: "#28557A" }}>{Fee}</h2>
           <div className={styles.line}></div>
           <p>Easy No-Cost EMI</p>
-          <h2 style={{ color: "#28557A" }}>₹ 12,292/month</h2>
+          <h2 style={{ color: "#28557A" }}>{FeeEmi}</h2>
           <p>Financing partners</p>
           <div>
             <Image
@@ -438,7 +466,17 @@ function FifthSection({
         </div>
       </div>
       <div className={styles.feeD}>
-        <Fee />
+        <FeeSection
+          Fee={Fee}
+          FeeHeading={FeeHeading}
+          FeeContent1={FeeContent1}
+          FeeContent2={FeeContent2}
+          FeeContent3={FeeContent3}
+          FeeContent4={FeeContent4}
+          FeeContent5={FeeContent5}
+          FeeContent6={FeeContent6}
+          FeeEmi={FeeEmi}
+        />
       </div>
     </>
   );

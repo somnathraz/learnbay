@@ -6,9 +6,17 @@ import Popup from "../../Popup/Popup";
 import Image from "next/image";
 import TextAnimation from "../Animation/TextAnimation";
 
-function FirstSection({ dataScience, first,
-second,
-third }) {
+function FirstSection({
+  dataScience,
+  first,
+  second,
+  third,
+  firstToparaImg,
+  firstHeading,
+  FirstRightImg,
+  firstTopPara,
+  srcD,
+}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -30,30 +38,29 @@ third }) {
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form dataScience={dataScience} downloadBrochure/>
+          <Form dataScience={dataScience} downloadBrochure />
         </div>
       </Popup>
 
-{/* For Mobile View */}
+      {/* For Mobile View */}
 
       <div className={styles.FirstLeft}>
-        <p className={styles.ptop}>
-          Take the first step in your blockchain development journey with our
-        </p>
+        <p className={styles.ptopC}>{firstTopPara}</p>
         <h1 className={styles.h1}>
-          Software Development Program with{" "}
-          <span className={styles.h1Span}>Specialization in Blockchain</span>
+          {firstHeading} <span className={styles.h1Span}>{firstToparaImg}</span>
         </h1>
         <div className={styles.IBMlogoPlay}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSectionPlay.png"
-            width="486"
-            height="230"
+            src={FirstRightImg}
+            width="508"
+            height="327"
             layout="intrinsic"
             alt="data science course"
           />
         </div>
-        <p className={styles.ptop}>In collaboration with</p>
+        <p className={styles.ptop} style={{ color: "#000" }}>
+          In collaboration with
+        </p>
         <div className={styles.IBMlogo}>
           <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSection.png"
@@ -71,11 +78,12 @@ third }) {
         </div>
         <p className={styles.blink}>
           Supercharge Your Career Trajectory  <br />
-          Learn <TextAnimation 
-          first={first}
-          second={second}
-          third={third}
-          /> for Success.
+          Learn <TextAnimation
+            first={first}
+            second={second}
+            third={third}
+          />{" "}
+          for Success.
         </p>
         <div className={styles.logos}>
           <div>
@@ -119,19 +127,28 @@ third }) {
           </div>
         </div>
         <div className={styles.btnImage}>
+        {dataScience ? (
+          <a href={srcD} target="_blank">
+            <button>
+              Download Brochure
+              <FaDownload style={{ marginLeft: "10px" }} />
+            </button>
+          </a>
+        ) : (
           <button onClick={popupShow}>
             Download Brochure
             <FaDownload style={{ marginLeft: "10px" }} />
           </button>
+        )}
         </div>
       </div>
 
-{/* For desktop View */}
+      {/* For desktop View */}
 
       <div className={styles.secondLeft}>
         <div className={styles.PlayImg}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSectionPlay.png"
+            src={FirstRightImg}
             width="508"
             height="327"
             layout="intrinsic"

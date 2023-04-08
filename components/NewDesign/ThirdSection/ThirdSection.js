@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { BsCheckCircleFill } from "react-icons/bs";
 
 function ThirdSection({
   img1,
@@ -20,7 +21,29 @@ function ThirdSection({
   img8,
   img9,
   img10,
+  img11,
+  img12,
+  img13,
+  img14,
+  img15,
+  img16,
+  img17,
+  img18,
+  img19,
+  img21,
+  img22,
   dataScience,
+  BatchPara,
+  BatchParaImg1,
+  BatchParaImg2,
+  firstLine,
+  secondLine,
+  thirdHead,
+  point1,
+  point2,
+  point3,
+  point4,
+  thirdHeadSpan,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -54,7 +77,7 @@ function ThirdSection({
           <Form dataScience={dataScience} />
         </div>
       </Popup>
-      <p className={styles.infop}>PLACEMENTS AT</p>
+      <p className={styles.infop}>Recent Placements</p>
       <div className={styles.boxGrey}>
         <Swiper
           spaceBetween={20}
@@ -167,6 +190,16 @@ function ThirdSection({
               height="60"
             />
           </SwiperSlide>
+          <SwiperSlide className={styles.slide}>
+            <Image
+              src={img22}
+              alt="tensorflow"
+              layout="intrinsic"
+              objectFit="contain"
+              width="120"
+              height="60"
+            />
+          </SwiperSlide>
         </Swiper>
         <Swiper
           spaceBetween={20}
@@ -186,7 +219,7 @@ function ThirdSection({
         >
           <SwiperSlide className={styles.slide}>
             <Image
-              src={img1}
+              src={img11}
               alt="github"
               layout="intrinsic"
               width="120"
@@ -196,7 +229,7 @@ function ThirdSection({
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
-              src={img2}
+              src={img12}
               alt="python"
               layout="intrinsic"
               width="120"
@@ -205,7 +238,7 @@ function ThirdSection({
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
-              src={img3}
+              src={img13}
               alt="jupytor"
               quality={100}
               layout="intrinsic"
@@ -215,7 +248,7 @@ function ThirdSection({
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
-              src={img4}
+              src={img14}
               alt="excel"
               layout="intrinsic"
               width="120"
@@ -224,7 +257,7 @@ function ThirdSection({
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
-              src={img5}
+              src={img15}
               alt="sql"
               layout="intrinsic"
               width="120"
@@ -233,7 +266,7 @@ function ThirdSection({
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
-              src={img6}
+              src={img16}
               alt="numpy"
               layout="intrinsic"
               width="120"
@@ -242,7 +275,7 @@ function ThirdSection({
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
-              src={img7}
+              src={img17}
               alt="pandas"
               layout="intrinsic"
               width="120"
@@ -251,7 +284,7 @@ function ThirdSection({
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
-              src={img8}
+              src={img18}
               alt="matplotlib"
               layout="intrinsic"
               objectFit="contain"
@@ -261,7 +294,7 @@ function ThirdSection({
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
-              src={img9}
+              src={img19}
               alt="pytorch"
               layout="intrinsic"
               objectFit="contain"
@@ -271,7 +304,7 @@ function ThirdSection({
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
             <Image
-              src={img10}
+              src={img21}
               alt="tensorflow"
               layout="intrinsic"
               objectFit="contain"
@@ -283,7 +316,7 @@ function ThirdSection({
       </div>
       <div className={styles.boxText}>
         <div className={styles.blueD}>
-          <p className={styles.Htop}>10K+</p>
+          <p className={styles.Htop}>20K+</p>
           <p className={styles.ptop}>
             Trusted
             <br />
@@ -299,7 +332,7 @@ function ThirdSection({
           </p>
         </div>
         <div className={styles.yellow}>
-          <p className={styles.Htop}>9,873</p>
+          <p className={styles.Htop}>9K+</p>
           <p className={styles.ptop}>
             Students
             <br />
@@ -307,11 +340,11 @@ function ThirdSection({
           </p>
         </div>
         <div className={styles.blue}>
-          <p className={styles.Htop}>7+</p>
+          <p className={styles.Htop}>310+</p>
           <p className={styles.ptop}>
-            Domain
+            Hiring
             <br />
-            Electives
+            Partner
           </p>
         </div>
       </div>
@@ -343,38 +376,33 @@ function ThirdSection({
           </div>
         </Popup>
         <div className={styles.FirstLeft}>
-          <p className={styles.ptopB}>
-            Take the first step in your blockchain development journey with our
-          </p>
+          <p className={styles.ptopBox}>{secondLine}</p>
           <h1 className={styles.h1}>
-            Software Development Program with{" "}
-            <span className={styles.h1Span}>Specialization in Blockchain</span>
+            <span className={styles.h1Span}>{thirdHeadSpan}</span>
           </h1>
-          <p className={styles.ptop}>
-            Designed for professionals seeking to accelerate their careers in
-            the emerging field of blockchain technology.
+          {/* <p className={styles.checkP}>
+            <BsCheckCircleFill className={styles.check} />
+            {point1}
           </p>
-          <p className={styles.ptop}>In collaboration with</p>
-          <div className={styles.IBMlogo}>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSection.png"
-              width="283"
-              height="51"
-              layout="intrinsic"
-              alt="data science course"
-            />
-          </div>
-          <p className={styles.ptop}>
-            Designed for professionals seeking to accelerate their careers in
-            the emerging field of blockchain technology.
+          <p className={styles.checkP}>
+            <BsCheckCircleFill className={styles.check} />
+            {point2}
           </p>
+          <p className={styles.checkP}>
+            <BsCheckCircleFill className={styles.check} />
+            {point3}
+          </p>
+          <p className={styles.checkP}>
+            <BsCheckCircleFill className={styles.check} />
+            {point4}
+          </p> */}
         </div>
         <div className={styles.secondLeft}>
           <div className={styles.PlayImg}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Map(learners).png"
-              width="517"
-              height="679"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Mobile-view-map.png"
+              width="644"
+              height="323"
               layout="intrinsic"
               alt="data science course"
             />
@@ -384,32 +412,28 @@ function ThirdSection({
       <div className={styles.CTA}>
         <div className={styles.boxBlue}>
           <h2 className={styles.boxH2}>
-            Still unsure if this is the right program for you?
+            Can’t decide which course to opt for?
           </h2>
           <p className={styles.boxP}>
-            Talk to our expert counsellor to help you make the right career
-            choice
+            Don’t worry, our expert counsellor is there to guide you make the
+            right career choice
           </p>
           <button onClick={popupShow}>
-            Book free consultation now
+            Book your free consultation now
             <FaArrowRight style={{ marginLeft: "10px" }} />
           </button>
         </div>
       </div>
       <div className={styles.batch}>
-        <p className={styles.infop}>Batch profile</p>
-        <p className={styles.batchP}>
-          The Software Development with Specialization in Blockchain Program is
-          designed for working individuals from various sectors. The variety of
-          students enriches class discussions and interactions.
-        </p>
+        <p className={styles.infop}>Who is it for?</p>
+        <p className={styles.batchP}>{BatchPara}</p>
         <div className={styles.batchImage}>
           <div>
             <p className={styles.infopP}>industry</p>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Industry-Pie-Chart.png"
-              width="656"
-              height="449"
+              src={BatchParaImg1}
+              width="744"
+              height="436"
               layout="intrinsic"
               alt="data science course"
             />
@@ -418,9 +442,9 @@ function ThirdSection({
           <div>
             <p className={styles.infopP}>DESIGNATION BREAKUP</p>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Designation-breakup.png"
-              width="686"
-              height="466"
+              src={BatchParaImg2}
+              width="667"
+              height="446"
               layout="intrinsic"
               alt="data science course"
             />
