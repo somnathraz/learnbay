@@ -270,6 +270,14 @@
   align-items: center;
 }
 
+.infop {
+  color: #0072bc;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
 
   @media (max-width: 641px) {
     .h1 {
@@ -279,7 +287,6 @@
     }
     .infop {
       color: #0072bc;
-      text-transform: uppercase;
       font-weight: 700;
       font-size: 20px;
       margin: 10px 0px;
@@ -287,6 +294,10 @@
   
     .batch {
       text-align: center;
+    }
+
+    .Syllabus {
+      margin: 50px 20px 50px 20px;
     }
   
     .batchBox {

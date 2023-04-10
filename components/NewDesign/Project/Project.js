@@ -147,7 +147,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/2-3.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/swiggy.png"
                   alt="Learnbay"
                   quality={100}
                   objectFit="contain"

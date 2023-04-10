@@ -12,7 +12,7 @@ function BatchDetails({
   return (
     <>
           <section className={styles.Syllabus}>
-        <h2 className={styles.h1}>{CourseFeeHead}</h2>
+        <p className={styles.infop}>{CourseFeeHead}</p>
         <div className={styles.mobileView}>
           {FullStack ? (
             <div className={styles.NewBatch}>

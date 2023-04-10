@@ -25,7 +25,7 @@ import {
   SupportFaqData2,
 } from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
-import Project from "../components/CoursePage/Project/Project";
+import Project from "../components/NewDesign/Project/Project";
 
 function blockchain() {
   const [popups, setPopups] = useState(false);
@@ -165,7 +165,9 @@ function blockchain() {
         />
         <DomainSection />
         <Project />
-        <BatchDetails />
+        <BatchDetails 
+        CourseFeeHead = "Data Science and AI Foundation Program : Batch Details"
+        />
         <FAQNew
           FaqDatas={FaqData2}
           DomainFaqDatas={ DomainFaqData2}

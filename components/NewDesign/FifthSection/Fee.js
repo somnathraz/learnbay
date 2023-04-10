@@ -4,7 +4,6 @@ import "swiper/css/navigation";
 import styles from "./Fee.module.css";
 import Image from "next/image";
 
-
 import { BsCheckCircleFill } from "react-icons/bs";
 import { FaGooglePay } from "react-icons/fa";
 import { MdAttachMoney } from "react-icons/md";
@@ -16,14 +15,23 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-const FeeSection = ({FeeHeading, Fee, FeeContent1, FeeContent2, FeeContent3, FeeContent4, FeeContent5, FeeContent6, FeeEmi}) => {
+const FeeSection = ({
+  FeeHeading,
+  Fee,
+  FeeContent1,
+  FeeContent2,
+  FeeContent3,
+  FeeContent4,
+  FeeContent5,
+  FeeContent6,
+  FeeEmi,
+}) => {
   const [slidesPerView, setSlidesPerView] = useState(3);
   const [popups, setPopups] = useState(false);
   const [spaceBetween, setSpaceBetween] = useState(70);
   const [mobile, setMobile] = useState(false);
-  
+
   const popupShow = () => {
-   
     setPopups(true);
   };
 
