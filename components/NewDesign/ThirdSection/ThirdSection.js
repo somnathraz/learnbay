@@ -6,6 +6,7 @@ import Popup from "../../Popup/Popup";
 import { FaArrowRight } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/navigation";
+import { AiOutlineCheck } from "react-icons/ai";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { BsCheckCircleFill } from "react-icons/bs";
@@ -77,277 +78,49 @@ function ThirdSection({
           <Form dataScience={dataScience} />
         </div>
       </Popup>
-      <p className={styles.infop}>Recent Placements</p>
-      <div className={styles.boxGrey}>
-        <Swiper
-          spaceBetween={20}
-          centeredSlides={true}
-          slidesPerView={mobile ? 3 : 7}
-          slidesPerGroup={1}
-          loop={true}
-          loopFillGroupWithBlank={true}
-          autoplay={{
-            delay: 1500,
-            disableOnInteraction: false,
-            reverseDirection: true,
-          }}
-          grabCursor={true}
-          modules={[Autoplay, Pagination]}
-          className="mySwiper"
-        >
-          <SwiperSlide className={styles.slide}>
+      <section className={styles.Features}>
+      <div>
+        <h6 className={styles.infop}>The Network Reach of Our Bay</h6>
+        <div className={styles.FeatureWrap}>
+          <div className={styles.LeftWrap}>
+            <h6>
+              Our Key <span>Features</span>
+            </h6>
+            <p>
+              <AiOutlineCheck className={styles.tickIcon} /> We help you build a
+              strong profile and prepare for MNC interviews.
+            </p>
+            <p>
+              <AiOutlineCheck className={styles.tickIcon} />
+              Hassle-free and tailored training for MAANG company interviews.
+            </p>
+            <p>
+              <AiOutlineCheck className={styles.tickIcon} />
+              Even after a career break, securing a dream job is achievable.
+            </p>
+            <p>
+              <AiOutlineCheck className={styles.tickIcon} />A successful career
+              transition even with 0 coding experience.
+            </p>
+            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf" target="_blank">
+              <button className={styles.btn}>
+                Download Placement Report
+                <FaArrowRight className={styles.bIcon} />
+              </button>
+            </a>
+          </div>
+          <div className={styles.RightWrap}>
             <Image
-              src={img1}
-              alt="github"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hiring-logo-home.webp"
+              width="879"
+              height="557"
               layout="intrinsic"
-              width="120"
-              height="60"
-              objectFit="contain"
+               alt="Learnbay"
             />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img2}
-              alt="python"
-              layout="intrinsic"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img3}
-              alt="jupytor"
-              quality={100}
-              layout="intrinsic"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img4}
-              alt="excel"
-              layout="intrinsic"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img5}
-              alt="sql"
-              layout="intrinsic"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img6}
-              alt="numpy"
-              layout="intrinsic"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img7}
-              alt="pandas"
-              layout="intrinsic"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img8}
-              alt="matplotlib"
-              layout="intrinsic"
-              objectFit="contain"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img9}
-              alt="pytorch"
-              layout="intrinsic"
-              objectFit="contain"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img10}
-              alt="tensorflow"
-              layout="intrinsic"
-              objectFit="contain"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img22}
-              alt="tensorflow"
-              layout="intrinsic"
-              objectFit="contain"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-        </Swiper>
-        <Swiper
-          spaceBetween={20}
-          centeredSlides={true}
-          slidesPerView={mobile ? 3 : 7}
-          slidesPerGroup={1}
-          loop={true}
-          loopFillGroupWithBlank={true}
-          autoplay={{
-            delay: 1500,
-            disableOnInteraction: false,
-          }}
-          reverseDirection={true}
-          grabCursor={true}
-          modules={[Autoplay, Pagination]}
-          className="mySwiper"
-        >
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img11}
-              alt="github"
-              layout="intrinsic"
-              width="120"
-              height="60"
-              objectFit="contain"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img12}
-              alt="python"
-              layout="intrinsic"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img13}
-              alt="jupytor"
-              quality={100}
-              layout="intrinsic"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img14}
-              alt="excel"
-              layout="intrinsic"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img15}
-              alt="sql"
-              layout="intrinsic"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img16}
-              alt="numpy"
-              layout="intrinsic"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img17}
-              alt="pandas"
-              layout="intrinsic"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img18}
-              alt="matplotlib"
-              layout="intrinsic"
-              objectFit="contain"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img19}
-              alt="pytorch"
-              layout="intrinsic"
-              objectFit="contain"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-          <SwiperSlide className={styles.slide}>
-            <Image
-              src={img21}
-              alt="tensorflow"
-              layout="intrinsic"
-              objectFit="contain"
-              width="120"
-              height="60"
-            />
-          </SwiperSlide>
-        </Swiper>
-      </div>
-      <div className={styles.boxText}>
-        <div className={styles.blueD}>
-          <p className={styles.Htop}>20K+</p>
-          <p className={styles.ptop}>
-            Trusted
-            <br />
-            learners
-          </p>
-        </div>
-        <div className={styles.green}>
-          <p className={styles.Htop}>250%</p>
-          <p className={styles.ptop}>
-            Salary
-            <br />
-            hike
-          </p>
-        </div>
-        <div className={styles.yellow}>
-          <p className={styles.Htop}>9K+</p>
-          <p className={styles.ptop}>
-            Students
-            <br />
-            placed
-          </p>
-        </div>
-        <div className={styles.blue}>
-          <p className={styles.Htop}>310+</p>
-          <p className={styles.ptop}>
-            Hiring
-            <br />
-            Partner
-          </p>
+          </div>
         </div>
       </div>
+    </section>
       <div className={styles.map}>
         <Image
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Map(learners).png"
@@ -377,7 +150,8 @@ function ThirdSection({
         </Popup>
         <div className={styles.FirstLeft}>
           <p className={styles.ptopBox}>{secondLine}</p>
-          <h1 className={styles.h1}>Empower yourself to secure top-level promotions
+          <h1 className={styles.h1}>
+            Empower yourself to secure top-level promotions
             <span className={styles.h1Span}> with our advanced program</span>
           </h1>
           {/* <p className={styles.checkP}>
@@ -419,36 +193,9 @@ function ThirdSection({
             right career choice
           </p>
           <button onClick={popupShow}>
-          Apply For Counselling
+            Apply For Counselling
             <FaArrowRight style={{ marginLeft: "10px" }} />
           </button>
-        </div>
-      </div>
-      <div className={styles.batch}>
-        <p className={styles.infop}>Who is it for?</p>
-        <p className={styles.batchP}>{BatchPara}</p>
-        <div className={styles.batchImage}>
-          <div>
-            <p className={styles.infopP}>industry</p>
-            <Image
-              src={BatchParaImg1}
-              width="744"
-              height="436"
-              layout="intrinsic"
-              alt="data science course"
-            />
-          </div>
-          <hr className={styles.hrDesing} />
-          <div>
-            <p className={styles.infopP}>DESIGNATION BREAKUP</p>
-            <Image
-              src={BatchParaImg2}
-              width="667"
-              height="446"
-              layout="intrinsic"
-              alt="data science course"
-            />
-          </div>
         </div>
       </div>
     </>

@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import FeeSection from "./Fee";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
-import AdvanceCertificateTab from "../CertificateTab/CertificateTab";
+import Certificate from "../../../components/CoursePage/CertificateTab/CertificateTabAdvance";
 import AIMLCertificateTab from "../CertificateTab/AIMLCertificateTab";
 import ManagersCertificateTab from "../CertificateTab/ManagersCertificateTab";
 import MasterCertificateTab from "../CertificateTab/MasterCertificateTab";
@@ -433,7 +433,7 @@ function FifthSection({
       ) : (
         <div>
           <p className={styles.infop}>World's Leading Certification</p>
-          {advanceCertificate ? <AdvanceCertificateTab /> : ""}
+          {advanceCertificate ? <Certificate /> : ""}
           {AIMLCertificate ? <AIMLCertificateTab /> : ""}
           {MasterCertificate ? <MasterCertificateTab /> : ""}
           {ManagersCertificate ? <ManagersCertificateTab /> : ""}
