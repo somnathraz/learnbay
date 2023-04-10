@@ -280,14 +280,13 @@
     margin-top: 30px;
     width: 100%;
   }
-  .middlePanel {
+  /* .middlePanel {
     display: none;
-  }
+  } */
   .span {
     font-size: 18px;
     border: 0;
-    background: aliceblue;
-    border-bottom: 1px solid #2d9cd730;
+
     padding: 12px 20px;
     width: 100%;
   }
@@ -297,15 +296,15 @@
     max-height: 180px;
   }
   .ActiveSpan {
-    padding: 10px 20px;
-    width: 100%;
-    font-size: 16px;
+    padding: 10px 0px;
+    width: max-content;
+    font-size: 17px;
     font-weight: 600;
     cursor: pointer;
     border: 0;
-    border-radius: 8px;
-    background-color: #0072bc;
-    color: white;
+
+    border-bottom: 4px solid #0072bc;
+    color: #0072bc;
     justify-content: start;
   }
   .Course h2 {
@@ -324,17 +323,19 @@
   .gridPanel {
     gap: 0px;
   }
-  .listPanel .mPanel {
+  /* .listPanel .mPanel {
     display: flex;
     flex-flow: column;
     margin-top: 20px;
-  }
+  } */
   .listPanel {
     display: grid;
     width: 100%;
     gap: 0;
-    grid-template-columns: 100%;
+    grid-template-columns: 45% 55% 70% 55% 50%;
     height: max-content;
+    overflow-x: scroll;
+    overflow-y: hidden;
   }
 
   .gridPanel {
@@ -375,15 +376,15 @@
     width: 100%;
   }
   .mainHead {
-    background: linear-gradient(90deg, #f99600 0%, #edb552 76.48%),
-      linear-gradient(90deg, #0072bc 0%, #f99600 103.64%);
+    background: linear-gradient(90deg, #edbb52 0%, #ca3942 76.48%),
+      linear-gradient(90deg, #28557a 0%, #edbb52 103.64%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
   }
   .hr {
-    top: 39%;
+    top: 44%;
     margin-left: -15px;
     width: 100%;
   }
@@ -391,10 +392,13 @@
   .middleSide h6,
   .rightSide h6 {
     width: 100%;
-
+    font-family: "Inter", sans-serif;
     margin-top: 0px;
     color: #0072bc;
     margin-right: 0;
+  }
+  .mainHead {
+    margin-bottom: 20px;
   }
   .checkCircle {
     margin-right: 5px;
@@ -424,6 +428,7 @@
     margin: 0;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-left: 0;
   }
   .hr1 {
     bottom: -3%;
@@ -459,7 +464,7 @@
     margin-left: -3px;
   }
   .fillBtn {
-    background-color: #f99600;
+    background-color: #edbb52;
     color: black;
     height: 100%;
 
