@@ -24,6 +24,8 @@ import {
   MentorshipFaqData2,
   SupportFaqData2,
 } from "../components/NewDesign/FAQNew/FaqData";
+import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
+import Project from "../components/NewDesign/Project/Project";
 
 function blockchain() {
   const [popups, setPopups] = useState(false);
@@ -162,15 +164,9 @@ function blockchain() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <DomainSection />
-        <SixthSection
-        dataScience={true}
-          point1="Practise with Latest Tools"
-          point2="8 Advanced Projects"
-          point3="2 Capstone Projects"
-          point4="Designed by Industry Experts"
-          FoundationDSProject={true}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-          CourseFeeHead="Advanced Data Science & AI Program : Batch Details"
+        <Project />
+        <BatchDetails 
+        CourseFeeHead = "Data Science and AI Foundation Program : Batch Details"
         />
         <FAQNew
           FaqDatas={FaqData2}
