@@ -2251,10 +2251,11 @@ const CitiesRight = ({
               <b>Payscale.com</b> - is <b>INR 989,454</b> per annum. Ultimately, Learnbay's
               <b>Data Science Certification in Bangalore</b> can help you break through in the data science field!</p>
 
-            <p><b>Learnbay</b> also provides classroom mode for {" "}
-              <a href="https://www.learnbay.co/machine-learning-course-training-in-bangalore" target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>machine learning</a>{" "} and {" "}
-              <a href="https://www.learnbay.co/artificial-intelligence-ai-course-training-bangalore" target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>artificial
-                intelligence courses in Bangalore</a> and data science courses.</p>
+            <p><b>Learnbay</b> also provides classroom mode for projects {" "}
+                
+                (Project Innovation Labs) in <a href="https://www.learnbay.co/machine-learning-course-training-in-bangalore" target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>machine learning</a> , 
+                <a href="https://www.learnbay.co/artificial-intelligence-ai-course-training-bangalore" target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>artificial
+                intelligence courses in Bangalore</a>  courses in Bangalore and data science courses.</p>
 
 
             <YoutubeVideo />
