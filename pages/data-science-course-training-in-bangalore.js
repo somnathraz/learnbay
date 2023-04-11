@@ -32,6 +32,7 @@ export default function Home() {
   const popupShow = () => {
     setPopups(true);
   };
+  const items = ["Data Science Foundation", "Python for Data Science", "Statistics for Data Science", "Maths for Data Science", "Machine Learning", "Data Preparation with Pandas", "Data Visualisation with Python", "Tableau Foundations for Data analysis", "Big Data Foundation", "Model deployment (Flask-API)", "R Language Essentials", "Deep Learning", "SQL for Data Science"];
   return (
     <div className={styles.container}>
       <Head>
@@ -710,7 +711,69 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              cityText={true}
+              // cityText={true}
+
+              ProgramBot1={["Learnbay's", <b> Data Science course in Bangalore </b>, "is structured online training that allows you to gain skills and expertise in core aspects of data science, AI, and ML, which are responsible for transforming the business landscape. Data Science is undoubtedly considered the most important phenomenon for business growth in the", <b> 21st century. </b>, "Indeed, a", <b> career in Data Science </b>, "is the most rewarding one.", <b> Data Science courses </b>, "are specifically created to help aspiring data scientists secure their careers with the Data Science foundation."]}
+              // ProgramHead3="How does Learnbay artificial intelligence training become the most promising institute for experienced professionals in Bangalore?"
+              ProgramBot2={["Learnbay's", <b> Data Scientist course </b>, "is designed to deliver theoretical and practical knowledge on all elements of Data Science, including Programming, Maths, Statistics, AI, Machine learning, and the business side of Data science. It allows students to gain the in-demand spectrum of data science skills and provide appropriate Data Science solutions to Business problems"]}
+              ProgramBot3={["Data Science has found much importance in business applications in organizations. The vast majority of modern industries work closely with data and base all of their crucial decisions on the insightful information derived from it. In today’s business world, a competent Data Scientist is a major part of a company's workforce since they draw future plans based on data. Further,", <b> IBM </b>, "has reported that there will be over", <b> 7,00,000 new job opportunities in Data Science and AI </b>, "in the upcoming years."]}
+              ProgramBot4={["Bangalore is one of the world's major cities, with an impressive infrastructure and abundant business opportunities. It is also considered the IT hub of India, where many tech companies and startups are happening. It puts", <b> data scientists' jobs </b>, "in high demand across various domains. Data Scientist is also a lucrative career with a high package in Bengaluru. As mentioned in glassdoor, the average", <b> salary of a Data Scientist in Bengaluru </b>, "is INR 11,00,000 annually."]}
+              ProgramBot5={["The", <a href="https://www.learnbay.co/data-science-course-training-in-bangalore" target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}> Data Scientist training </a>, "is a data science certification course offered by Learnbay in Bangalore. MNC experts design it as per the current industry requirements and to help the data science aspirants in the city transform their careers. The Data Science online course is conducted via live interactive classes by industry trainers.."]}
+              ProgramBot6={["",<b>Learnbay</b>,", in Bangalore, offers certification programs in collaboration with", <b> IBM</b>,", which are globally recognized. The data science course comes with a duration of 6 months with 300+ Hrs of online training. Faculties with extensive industry experience and dedicated subject matter expertise. One-on-one mentorship, Placement assistance including resume building sessions, soft skill training, mock interviews, extensive networks for job opportunities, practical hands-on learning sessions with", <b>capstone and 15+ real-world data science projects.</b>, ""]}
+              listitem1={["It is a complete training course with detailed learning covering multiple modules, including:",  <ul>
+                {items.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            , " "]}
+
+            ProgramBot7={["",<b>The IBM Certified Data Scientist course in Bangalore has a 
+              9-month (300+ hours) course duration.</b>," ", <br/>, " ", <br/>, "The Structured data science course consists of 4 - Terms:", <br/>, " ",<br/>, <b>Module 0 - Preparatory
+                 Classes (Programming+Maths)</b>, <br/>, " ",<br/>, "This Preparatory module helps you familiarize yourself with Data Science and Machine Learning basics. It is a preliminary phase to help individuals, particularly non-programmers, become comfortable with the basics of maths, programming, and data science foundation. This module covers basic Python And R, Basic Mathematics, Essential Statistics for Data Science, Introduction to Anaconda, Jupyter notebook, Git and Github for data science, and other practical materials.", 
+                 ,<br/>, " ", <h3>Term 1 - Python For Data Science</h3>,"", <b>Module (1) Python Programming</b>, <br/>, <br/>,
+                "It is the essential part of the course, with full-time dedicated training sessions through",  <b>Live Instructor-Led Online Training</b>,". This module covers the fundamentals of Python Programming, which is an essential tool to get started as a modern data scientist. Here, you will learn basic programming, Python data types, Functions and modules, libraries including Numpy and Pandas, and case studies using Python libraries.",
+                ,<br/>, <br/>,<h3>Term 2 - Statistics and Machine Learning</h3>, <b>Module (1) - Statistics</b>, <br/>, <br/>,   "This next essential module focuses on basic to advanced statistics concepts for Data science. This module will equip you with the fundamentals of statistics and probability, inferential and descriptive statistics, EDA, and data processing. You will also receive 4 practice assignments on statistics for experiential learning.",
+                <br/>, <br/>, <b>Module (2) - Machine Learning</b>, <br/>, <br/>,   "In this module of the data science course, the trainer will equip you with cutting-edge machine learning techniques and tools, which are essential for model building and, thereby, decision-making. This module covers advanced ML techniques, including regression and classification models, KNN-model, Clustering techniques, PCA, and Support Vector Machine (SVM).",
+                <br/>, <br/>, <h3>Term 3 - Data Science Tools</h3>, <b>Module (1) - SQL</b>, <br/>, <br/>,
+                <b>Module (2) - MongoDB</b>, <br/>, <br/>,
+                <b>Module (3) - Tableau</b>, <br/>, <br/>,
+                <b>Module (4) - PowerBI</b>, <br/>, <br/>,
+                <b>Module (5) - Big Data and Spark Analytics</b>, <br/>, <br/>,
+                <b>Module (6) - Time Series</b>, <br/>, <br/>,
+
+                <h3>Term 4 - Artificial Intelligence Tools</h3>, <b>Module (1) - Deep learning using TensorFlow</b>, <br/>, <br/>,
+                <b>Module (2) - Natural Language Processing (NLP)</b>, <br/>, <br/>,
+                <b>Module (3) - Model Training and Deployment (Using AWS GCP)</b>, <br/>, <br/>,
+
+                "Lastly, it supports the students to practise their knowledge at a cloud lab at their convenience.", <br/>, <br/>,
+                "Upon completing these structured 4-Terms Learnbay's Data Science Training, you will be confident in your ability to perform your 'SuperHero duty' as a Data Scientist in leading firms."
+                 ]}
+
+
+
+
+
+
+
+
+
+              // ProgramBot31="There are a number of Artificial Intelligence engineers or AI expert training providers in Bangalore, but Learnbay provides custom-fit training for successful AI career switch to experienced working professionals from any domain. The latest tools and updated modules are used to keep students on track with the present-day industry work scenario. This Artificial intelligence certification program also ensures guaranteed placement assurance. "
+              // ProgramHead4="Is Artificial intelligence a Good career in Bangalore?"
+              // ProgramBot4="Bangalore is a huge tech hub and works with the latest technologies to the best of its abilities. Irrespective of tech or non-tech industries, everyone is now getting extremely dependent on AI innovations. Hence the work culture, as well as the job market, demands in getting changes. But the number of candidates properly adaptable to such changes is very few."
+              // ProgramBot5="Companies are facing different kinds of challenges as the advancement in technology by Artificial intelligence is big, but there are a few Artificial intelligence engineers/ experts. Learnbay wants to provide a solution for this by teaching the best Artificial Intelligence skills to learners who are eager to learn and own the ability for the same."
+              // ProgramBot6="The best part at Learnbay is that you get the variable options of artificial intelligence courses to choose from- according to your career stage and professional background. Available course options are:"
+              // Courselink1="/data-science-certification-courses"
+              // Courselink2="/advance-data-science-certification-courses"
+              // Courselink3="/artificial-intelligence-certification-course"
+              // Courselink4="/data-science-ai-for-managers"
+              // Courselink5="/data-science-ai-masters-program"
+              // Course1="Foundational Data Science and AI Program"
+              // Course2="Advanced-Data Science and AI Program with Domain Specialization"
+              // Course3="Artificial Intelligence and Machine Learning Program with Domain Specialization"
+              // Course4="Data Science and AI Program for Managers and Leaders"
+              // Course5="Data Science and AI master program"
+              // Course6="Data Science and AI master program"
+
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Choosing the correct domain affects your course and career. Our mentors and experts at Learnbay will guide you to choose the right domain after analyzing your profile. Your domain will help you understand the course and project better, and you will excel in the same domain as an expert once you complete advanced data science training in Bangalore by Learnbay."
               DomainBot2="Moreover, in today's competitive data science job market companies are lacking data scientists having core domain expertise. Just for an example, if you have been appointed as a data scientist in a pharmaceutical company then without the pharma or chemical knowledge you can’t offer the best achievable analytical reports/ insights. What domains do Learnbay data science certification courses in Bangalore have?"
