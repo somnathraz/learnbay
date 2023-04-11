@@ -17,7 +17,7 @@ function Switch() {
               alt="Course Report"
             />
             <div className={styles.rating}>
-              4.79 <AiFillStar className={styles.star} />
+              4.7 <AiFillStar className={styles.star} />
             </div>
           </div>
         </a>
@@ -32,7 +32,7 @@ function Switch() {
               alt="Switch Up"
             />
             <div className={styles.rating}>
-              4.66 <AiFillStar className={styles.star} />
+              4.79 <AiFillStar className={styles.star} />
             </div>
           </div>
         </a>
@@ -50,7 +50,7 @@ function Switch() {
               alt="Google Review"
             />
             <div className={styles.rating}>
-              4.88 <AiFillStar className={styles.star} />
+              4.8 <AiFillStar className={styles.star} />
             </div>
           </div>
         </a>

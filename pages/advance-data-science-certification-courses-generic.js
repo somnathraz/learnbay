@@ -25,6 +25,7 @@ import {
 } from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
+import Switch from "../components/NewDesign/HomePage/switch/switch";
 
 function blockchain() {
   const [popups, setPopups] = useState(false);
@@ -91,6 +92,7 @@ function blockchain() {
           SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
           SecondPara4="Prioritize growth and salary increases with in-demand skills."
         />
+        <Switch/>
         <ThirdSection
           secondLine="Invest In Yourself!"
           thirdHeadSpan=" Alumni Community."
