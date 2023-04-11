@@ -27,6 +27,8 @@ function FAQNew({
   const [Support, setSupport] = useState(false);
   const [mobile, setMobile] = useState(false);
   return (
+    <div>
+                <p className={styles.infop}>FAQs</p>
     <div className={styles.Course}>
       <div className={styles.courseM}>
         <div className={styles.courses}>
@@ -518,6 +520,7 @@ function FAQNew({
             ""
           )}
       </div>
+    </div>
     </div>
   );
 }

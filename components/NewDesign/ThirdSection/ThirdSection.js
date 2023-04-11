@@ -3,13 +3,18 @@ import styles from "./ThirdSection.module.css";
 import Image from "next/image";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaDownload } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/navigation";
 import { AiOutlineCheck } from "react-icons/ai";
-import { Autoplay, Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { BsCheckCircleFill } from "react-icons/bs";
+import {
+  RiNumber1,
+  RiNumber0,
+  RiNumber2,
+  RiNumber3,
+  RiNumber4,
+  RiNumber5,
+} from "react-icons/ri";
 
 function ThirdSection({
   img1,
@@ -47,9 +52,13 @@ function ThirdSection({
   thirdHeadSpan,
 }) {
   const [popups, setPopups] = useState(false);
+  const [popupsB, setPopupsB] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
+  };
+  const popupShowD = () => {
+    setPopupsB(true);
   };
   const [mobile, setMobile] = useState(false);
 
@@ -62,10 +71,10 @@ function ThirdSection({
   return (
     <>
       <Popup
-        trigger={popups}
-        setTrigger={setPopups}
+        trigger={popupsB}
+        setTrigger={setPopupsB}
         className="popupModal"
-        downloadBrochure
+        
       >
         <div className="leftPopup">
           <div
@@ -74,56 +83,79 @@ function ThirdSection({
           ></div>
         </div>
         <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-          <Form dataScience={dataScience} />
+          <h5>Download Brochure</h5>
+          <Form dataScience={dataScience} downloadBrochure/>
         </div>
       </Popup>
       <section className={styles.Features}>
         <div>
-          <h6 className={styles.infop}>The Network Reach of Our Bay</h6>
+          <h6 className={styles.infop}>Partnered With 300+ Companies</h6>
+          <p className={styles.ptop}>
+            Experience the power of our industry connections
+          </p>
           <div className={styles.FeatureWrap}>
             <div className={styles.LeftWrap}>
-              <h6>
-                Our Key <span>Features</span>
-              </h6>
-              <p>
-                <AiOutlineCheck className={styles.tickIcon} /> We help you build
-                a strong profile and prepare for MNC interviews.
-              </p>
-              <p>
-                <AiOutlineCheck className={styles.tickIcon} />
-                Hassle-free and tailored training for MAANG company interviews.
-              </p>
-              <p>
-                <AiOutlineCheck className={styles.tickIcon} />
-                Even after a career break, securing a dream job is achievable.
-              </p>
-              <p>
-                <AiOutlineCheck className={styles.tickIcon} />A successful
-                career transition even with 0 coding experience.
-              </p>
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf"
-                target="_blank"
-              >
-                <button className={styles.btn}>
-                  Download Placement Report
-                  <FaArrowRight className={styles.bIcon} />
+              <div className={styles.ParaWrap}>
+                <div className={styles.number}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/1.png"
+                    width={30}
+                    height={60}
+                    layout="intrinsic"
+                  />
+                </div>
+                <span>Enjoy 3 Years Of Career Service Access</span>
+              </div>
+              <div className={styles.ParaWrap1}>
+                <div className={styles.number}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/2.png"
+                    width={40}
+                    height={60}
+                    layout="intrinsic"
+                  />
+                </div>
+                <span>Get 3 Mock Session With Industry Leaders</span>
+              </div>
+              <div className={styles.ParaWrap2}>
+                <div className={styles.number}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/3.png"
+                    width={40}
+                    height={60}
+                    layout="intrinsic"
+                  />
+                </div>
+                <span>Resume Build Up Session</span>
+              </div>
+              <div className={styles.ParaWrap3}>
+                <div className={styles.number}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/4.png"
+                    width={40}
+                    height={60}
+                    layout="intrinsic"
+                  />
+                </div>
+                <span>Get 5-8 Interview Calls</span>
+              </div>
+                <button onClick={popupShowD} className={styles.fillBtn}>
+                Download Placement Report
+                  <FaDownload style={{ marginLeft: "10px" }} />
                 </button>
-              </a>
             </div>
             <div className={styles.RightWrap}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hiring-logo-home.webp"
-                width="879"
-                height="557"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Placement+Logos+No+Map.png"
+                width="850"
+                height="600"
                 layout="intrinsic"
                 alt="Learnbay"
               />
             </div>
           </div>
         </div>
-      </section>
+      </section> 
       <div className={styles.map}>
         <Image
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Map(learners).png"
@@ -154,8 +186,8 @@ function ThirdSection({
         <div className={styles.FirstLeft}>
           <p className={styles.ptopBox}>{secondLine}</p>
           <h1 className={styles.h1}>
-            Empower yourself to secure top-level promotions
-            <span className={styles.h1Span}> with our advanced program</span>
+            {thirdHead}
+            <span className={styles.h1Span}>{thirdHeadSpan}</span>
           </h1>
           {/* <p className={styles.checkP}>
             <BsCheckCircleFill className={styles.check} />
@@ -178,8 +210,8 @@ function ThirdSection({
           <div className={styles.PlayImg}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni-Map-Mobile-View.png"
-              width="641"
-              height="579"
+              width="910"
+              height="920"
               layout="intrinsic"
               alt="data science course"
             />

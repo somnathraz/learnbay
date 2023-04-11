@@ -3,7 +3,7 @@
 }
 
 .slide {
-  margin-left: 0px;
+  margin-left: 10px;
   margin-right: 0px;
   margin-bottom: 40px;
   height: max-content;
@@ -13,16 +13,24 @@
   background: #fff;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  margin: 20px 0px;
-  height: 400px;
+  margin: 40px 0px;
+  height: 350px;
 }
 
 .para {
-  font-size: 14px;
+  font-size: 17px;
   margin: 10px 0;
-  color: #fff;
-
+  color: black;
+  display: flex;
+  flex-flow: column;
   line-height: 26px;
+}
+.para span {
+  color: #0072bc;
+  cursor: pointer;
+  border-bottom: 1px dotted #0072bc;
+  margin-top: 10px;
+  width: max-content;
 }
 
 .name {
@@ -30,6 +38,11 @@
   gap: 10px;
   display: grid;
 }
+
+/* .nameHike p {
+  color: #2db621;
+  margin: 0;
+} */
 
 .nameHike p {
   color: #2db621;
@@ -44,6 +57,12 @@
   font-size: 18px;
 }
 
+/* .name p {
+  margin: 0;
+  font-size: 16px;
+  color: #0072bc;
+} */
+
 .name p {
   margin: 0;
   font-size: 16px;
@@ -53,10 +72,9 @@
 }
 
 .paraDiv {
-  background: linear-gradient(180deg, #0072bc 0%, #2979a8 100%);
   border-radius: 15px;
-  padding: 20px 20px 50px 20px;
-  height: 230px;
+  padding: 0px 20px 0px 20px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,6 +86,7 @@
   padding: 10px 20px;
   align-items: center;
   margin-top: -50px;
+  margin-bottom: 20px;
 }
 
 .testimonial {
@@ -75,9 +94,7 @@
 }
 
 .line {
-  position: absolute;
-  left: 60%;
-  top: 0;
+ display: none;
 }
 
 .imgHike {
@@ -85,8 +102,8 @@
   justify-content: space-between;
   padding: 0px 0px;
   align-items: center;
-  padding: 0px 20px 20px 20px;
-  margin-top: 0px;
+  padding: 0px 20px 0px 20px;
+  margin-top: 30px;
 }
 
 .h1 {
@@ -117,12 +134,10 @@
   .mainSlider {
     padding: 0px;
     height: fit-content;
-    margin: 10px 5px 20px 5px;
-    height: 420px;
+    margin: 50px 5px 40px 5px;
+    height: 380px;
   }
-  .paraDiv {
-    height: 290px;
-  }
+
   .line {
     left: 72%;
     top: 0;

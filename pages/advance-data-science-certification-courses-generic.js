@@ -9,7 +9,6 @@ import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
 import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
-import SixthSection from "../components/NewDesign/SixthSection/SixthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { DataScienceCourseData } from "../Data/DataScienceCourse";
@@ -36,9 +35,17 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Advanced Data Science and AI Program with Domain Specialization</title>
-        <meta name="description" content="Advanced Data Science and AI Program with Domain Specialization" />
-        <meta name="keywords" content="Advanced Data Science and AI Program with Domain Specialization" />
+        <title>
+          Advanced Data Science and AI Program with Domain Specialization
+        </title>
+        <meta
+          name="description"
+          content="Advanced Data Science and AI Program with Domain Specialization"
+        />
+        <meta
+          name="keywords"
+          content="Advanced Data Science and AI Program with Domain Specialization"
+        />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -65,24 +72,29 @@ function blockchain() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Advance+Data+Science.png"
-          firstToparaImg="with Domain Specialization"
-          firstHeading="Advanced Data Science and AI Program"
-          firstTopPara="Choose Specialization over Generalization"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Advance%2BData%2BScience.png"
+          firstToparaImg="With Domain Specialization"
+          firstHeading="Advance Data Science and AI program"
+          firstTopPara="Specialization Over Generalization"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
           fullStackReview={true}
-          SecondHead="What makes us your first choice!"
-          SecondPara="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
-          SecondPara1="1:1 video call with expert & live doubt resolution"
-          SecondPara2="Work on 8 advanced & 2 capstone projects"
-          SecondPara3="Live online classes boost interaction"
-          SecondPara4="Career Services & alumni network access"
+          SecondHead="Why Choose Us?"
+          SecondPara="India's top rated  bootcamp for working professionals "
+          heading1="On-Demand Doubt Sessions"
+          heading2="Guaranteed Interview Calls"
+          heading3="Project Certificate From IBM"
+          heading4="Designed For Professionals"
+          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries."
+          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners."
+          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
+          SecondPara4="Prioritize growth and salary increases with in-demand skills."
         />
         <ThirdSection
-          secondLine="Get ahead in your career with our programs"
-          thirdHeadSpan="Empower yourself to secure top-level promotions with our advanced program"
+          secondLine="Invest In Yourself!"
+          thirdHeadSpan=" Alumni Community."
+          thirdHead="Stay Ahead Of The Curve With The Support Of Our"
           point1="1:1 career & mentoring support"
           point2="Job Placement Assistance"
           point3="Lifetime LMS Access"
@@ -115,7 +127,7 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
         <FourthSection
-        serviceBasic={true}
+          serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
@@ -127,7 +139,7 @@ function blockchain() {
           project="12+ Real Time"
         />
         <FifthSection
-        advanceCertificate={true}
+          advanceCertificate={true}
           Fee="₹ 99,000 + 18% GST"
           FeeEmi="₹ 9,735/month"
           FeeHeading="Program Fee & Financing"
@@ -164,13 +176,11 @@ function blockchain() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <DomainSection />
-        <Project />
-        <BatchDetails 
-        CourseFeeHead = "Data Science and AI Foundation Program : Batch Details"
-        />
+        <Project project="12+ Projects" tools="16+" />
+        <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData2}
-          DomainFaqDatas={ DomainFaqData2}
+          DomainFaqDatas={DomainFaqData2}
           PaymentFaqDatas={PaymentFaqData2}
           CapstoneFaqDatas={CapstoneFaqData2}
           CertificationFaqDatas={CertificationFaqData2}

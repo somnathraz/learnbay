@@ -14,7 +14,7 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 
-const Project = ({ ChangeProject, project, domain }) => {
+const Project = ({ tools, project, domain }) => {
   const [popups, setPopups] = useState(false);
 
   const [device, setDevice] = useState();
@@ -40,7 +40,8 @@ const Project = ({ ChangeProject, project, domain }) => {
 
       <div className={styles.headWrapper}>
         <div className={styles.left}>
-          <h3>Hands-on Projects</h3>
+          <h3>Industry Projects</h3>
+          <p className={styles.ptop}>Work on Live Capstone projects certified from IBM</p>
 
           <div className={styles.iconWrapper}>
             <div className={styles.middle}>
@@ -53,7 +54,7 @@ const Project = ({ ChangeProject, project, domain }) => {
             </div>
             <div className={styles.middle}>
               <BsCheck2 className={styles.icon} />
-              <p>Get Real-world Experience</p>
+              <p>24/7 Learner’s Support</p>
             </div>
           </div>
           <div className={styles.projectNumb}>
@@ -67,7 +68,7 @@ const Project = ({ ChangeProject, project, domain }) => {
             <div className={styles.rightProjectNumb}>
               <AiOutlineBank className={styles.rIcon} />
               <div>
-                <h5>7+ Cities</h5>
+                <h5>{tools} tools Covered</h5>
                 <p>with Hybrid Model</p>
               </div>
             </div>
@@ -400,7 +401,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               className={styles.bicon}
               style={{ marginRight: "10px" }}
             />
-            Project Brochure
+            Explore Projects
           </button>
         </a>
       </div>

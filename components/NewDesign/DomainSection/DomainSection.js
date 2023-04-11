@@ -8,9 +8,16 @@ import "swiper/css/scrollbar";
 import { Autoplay, Scrollbar } from "swiper";
 import { FaDownload } from "react-icons/fa";
 import Link from "next/link";
+import Form from "../../Form/Form";
+import Popup from "../../Popup/Popup";
 
-function DomainSection() {
+function DomainSection({ dataScience }) {
   const [mobile, setMobile] = useState(false);
+  const [popups, setPopups] = useState(false);
+  const popupShow = () => {
+    setPopups(true);
+  };
+
   useEffect(() => {
     let width = window.innerWidth;
     if (width < 600) {
@@ -19,6 +26,18 @@ function DomainSection() {
   });
   return (
     <div className={styles.sliderBox}>
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "350px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          <Form dataScience={dataScience} downloadBrochure />
+        </div>
+      </Popup>
       <div className={styles.bulb}>
         <div className={styles.img}>
           <Image
@@ -70,12 +89,10 @@ function DomainSection() {
                         </p>
                       </div>
                       <div>
-                        <Link href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf">
-                          <button className={styles.btnOutline}>
-                            Download Brochure
-                            <FaDownload style={{ marginLeft: "10px" }} />
-                          </button>
-                        </Link>
+                        <button onClick={popupShow} className={styles.fillBtn}>
+                          Download Brochure
+                          <FaDownload style={{ marginLeft: "10px" }} />
+                        </button>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -97,12 +114,10 @@ function DomainSection() {
                         </p>
                       </div>
                       <div>
-                        <Link href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf">
-                          <button className={styles.btnOutline}>
-                            Download Brochure
-                            <FaDownload style={{ marginLeft: "10px" }} />
-                          </button>
-                        </Link>
+                      <button onClick={popupShow} className={styles.fillBtn}>
+                          Download Brochure
+                          <FaDownload style={{ marginLeft: "10px" }} />
+                        </button>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -124,12 +139,10 @@ function DomainSection() {
                         </p>
                       </div>
                       <div>
-                        <Link href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf">
-                          <button className={styles.btnOutline}>
-                            Download Brochure
-                            <FaDownload style={{ marginLeft: "10px" }} />
-                          </button>
-                        </Link>
+                      <button onClick={popupShow} className={styles.fillBtn}>
+                          Download Brochure
+                          <FaDownload style={{ marginLeft: "10px" }} />
+                        </button>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -150,16 +163,13 @@ function DomainSection() {
                         </p>
                       </div>
                       <div>
-                        <Link href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf">
-                          <button className={styles.btnOutline}>
-                            Download Brochure
-                            <FaDownload style={{ marginLeft: "10px" }} />
-                          </button>
-                        </Link>
+                      <button onClick={popupShow}>
+                          Download Brochure
+                          <FaDownload style={{ marginLeft: "10px" }} />
+                        </button>
                       </div>
                     </div>
                   </SwiperSlide>
-                  
                 </Swiper>
               </div>
             </div>

@@ -3,12 +3,10 @@ import styles from "./FifthSection.module.css";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Autoplay, Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
 import FeeSection from "./Fee";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
-import Certificate from "../../../components/CoursePage/CertificateTab/CertificateTabAdvance";
+import Certificate from "../FifthSection/CertificateTabAdvance";
 import AIMLCertificateTab from "../CertificateTab/AIMLCertificateTab";
 import ManagersCertificateTab from "../CertificateTab/ManagersCertificateTab";
 import MasterCertificateTab from "../CertificateTab/MasterCertificateTab";
@@ -110,7 +108,7 @@ function FifthSection({
         ""
       ) : (
         <div className={styles.toolscoverd}>
-          <p className={styles.infop}>Tools Covered</p>
+          <p className={styles.infop}>Wide Range Of Tools & Modules</p>
           <div className={styles.sliderTopD}>
                 <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Tools-Logo.png"
@@ -137,7 +135,8 @@ function FifthSection({
         ""
       ) : (
         <div>
-          <p className={styles.infop}>World's Leading Certification</p>
+          <p className={styles.infop}>Globally Recognized Program</p>
+          <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>
           {advanceCertificate ? <Certificate /> : ""}
           {AIMLCertificate ? <AIMLCertificateTab /> : ""}
           {MasterCertificate ? <MasterCertificateTab /> : ""}
