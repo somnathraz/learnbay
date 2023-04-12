@@ -94,7 +94,16 @@ function blockchain() {
           SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
           SecondPara4="Prioritize growth and salary increases with in-demand skills."
         />
-        <ProgramCustomer/>
+        <ProgramCustomer
+        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+        img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+        img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+        img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+        para1="Stay Ahead Of The Curve With The Support Of Our"
+        para2="Stay Ahead Of The Curve With The Support Of Our"
+        para3="Stay Ahead Of The Curve With The Support Of Our"
+        para4="Stay Ahead Of The Curve With The Support Of Our"
+        />
         <Switch/>
         <ThirdSection
           secondLine="Invest In Yourself!"
@@ -143,7 +152,13 @@ function blockchain() {
           hours="250+ Hours"
           project="12+ Real Time"
         />
-        <GrowthStats/>
+        <GrowthStats
+        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope+of+DS+left+image.png"
+        heading="Lorem Ipsum some text missing Lorem Ipsum some text missing.."
+        para1="Stay Ahead Of The Curve With The Support Of Our"
+        para2="Stay Ahead Of The Curve With The Support Of Our"
+        para3="Stay Ahead Of The Curve With The Support Of Our"
+        />
         <FifthSection
           advanceCertificate={true}
           Fee="₹ 99,000 + 18% GST"

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ProgramCustomer.module.css";
 import Image from "next/image";
 
-const ProgramCustomer = () => {
+const ProgramCustomer = ({img1,img2,img3,img4,para1,para2,para3,para4}) => {
   return (
     <div className={styles.programWrap}>
       <div className={styles.left}>
@@ -20,29 +20,29 @@ const ProgramCustomer = () => {
               <div className={styles.boxIcon}>
                 <div className={styles.imgWrap}>
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Guaranteed+Interview+Calls.png"
-                    width={40}
-                    height={40}
+                    src={img1}
+                    width="40"
+                    height="40"
                     layout="intrinsic"
                   />
                 </div>
               </div>
               <hr className={styles.line} />
-              <p>Non-tech professionals with 6 months experience</p>
+              <p>{para1}</p>
             </div>
             <div className={styles.rightSide}>
             <div className={styles.boxIcon}>
                 <div className={styles.imgWrap}>
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Guaranteed+Interview+Calls.png"
-                    width={40}
-                    height={40}
+                    src={img2}
+                    width="40"
+                    height="40"
                     layout="intrinsic"
                   />
                 </div>
               </div>
               <hr className={styles.line} />
-              <p>Non-tech professionals with 6 months experience</p>
+              <p>{para2}</p>
             </div>
           </div>
           <div className={styles.bottom}>
@@ -50,29 +50,29 @@ const ProgramCustomer = () => {
               <div className={styles.boxIcon}>
                 <div className={styles.imgWrap}>
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Guaranteed+Interview+Calls.png"
-                    width={40}
-                    height={40}
+                    src={img3}
+                    width="40"
+                    height="40"
                     layout="intrinsic"
                   />
                 </div>
               </div>
               <hr className={styles.line} />
-              <p>Non-tech professionals with 6 months experience</p>
+              <p>{para3}</p>
             </div>
             <div className={styles.rightSide}>
             <div className={styles.boxIcon}>
                 <div className={styles.imgWrap}>
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Guaranteed+Interview+Calls.png"
-                    width={40}
-                    height={40}
+                    src={img4}
+                    width="40"
+                    height="40"
                     layout="intrinsic"
                   />
                 </div>
               </div>
               <hr className={styles.line} />
-              <p>Non-tech professionals with 6 months experience</p>
+              <p>{para4}</p>
             </div>
           </div>
         </div>
