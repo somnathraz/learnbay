@@ -26,6 +26,8 @@ import {
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
 import Switch from "../components/NewDesign/HomePage/switch/switch";
+import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
+import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
 function blockchain() {
   const [popups, setPopups] = useState(false);
@@ -92,6 +94,7 @@ function blockchain() {
           SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
           SecondPara4="Prioritize growth and salary increases with in-demand skills."
         />
+        <ProgramCustomer/>
         <Switch/>
         <ThirdSection
           secondLine="Invest In Yourself!"
@@ -140,6 +143,7 @@ function blockchain() {
           hours="250+ Hours"
           project="12+ Real Time"
         />
+        <GrowthStats/>
         <FifthSection
           advanceCertificate={true}
           Fee="₹ 99,000 + 18% GST"
