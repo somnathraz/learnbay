@@ -1,10 +1,70 @@
 .certificate {
   padding: 0px 100px;
-  margin-top: 40px;
   display: grid;
   grid-template-columns: 49% 49%;
 }
+.certificateS {
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: 100%;
+}
+.header {
+  padding: 30px 150px;
+  display: flex;
+  gap: 40px;
+  width: 100%;
+}
+.pWrap {
+  display: flex;
+  gap: 20px;
+  padding: 8px 10px;
+  position: relative;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 4px;
+}
+.line {
+  margin: 0;
+  padding: 0;
 
+  border-left: 1px solid #0072bc;
+  height: 100%;
+}
+.header p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding: 8px 10px;
+
+  cursor: pointer;
+}
+.activeP {
+  background-color: #d3f0ff;
+  color: #0072bc;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  border-radius: 4px;
+}
+.MicroCert {
+  display: grid;
+  grid-template-columns: 40% 49%;
+  width: 100%;
+  height: 100%;
+  padding: 20px 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightSide {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column;
+}
+.rightSide h6 {
+  margin-top: 0 !important;
+  font-size: 27px !important;
+  line-height: 40px !important;
+  margin-bottom: 10px !important;
+}
 .certificate h2 {
   text-align: center;
   font-size: 30px;
@@ -66,7 +126,7 @@
 }
 
 .leftSideP {
-  padding: 50px;
+  padding: 20px 50px 50px 50px;
   width: 100%;
   border-radius: 8px;
   margin: 20px;
@@ -139,7 +199,7 @@
     padding: 0px 14px;
     margin-top: 30px;
   }
-  .leftSideP{
+  .leftSideP {
     padding: 0px;
     margin: 5px;
   }
@@ -161,12 +221,50 @@
     align-items: flex-start;
     line-height: 1.9em;
   }
-
+  .header {
+    padding: 30px 20px;
+    display: flex;
+    gap: 40px;
+    width: 100%;
+  }
   .certificates {
     padding: 0px;
     box-shadow: none;
   }
-
+  .pWrap {
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    gap: 5px;
+    width: 100%;
+  }
+  .line {
+    width: 1px;
+  }
+  .certificateS {
+    padding: 20px;
+  }
+  .MicroCert {
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+  }
+  .rightSide p {
+    display: grid;
+    grid-template-columns: 10% 90%;
+  }
+  .rightSide h6 {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    margin-bottom: 0 !important;
+  }
+  .header p {
+    font-size: 12px;
+    width: max-content;
+    padding: 5px 8px;
+  }
+  .activeP {
+    font-size: 14px !important;
+  }
   .listPanel {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));

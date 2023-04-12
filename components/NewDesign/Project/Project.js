@@ -70,8 +70,8 @@ const Project = ({ tools, project, domain }) => {
             <div className={styles.rightProjectNumb}>
               <AiOutlineBank className={styles.rIcon} />
               <div>
-                <h5>{tools} tools Covered</h5>
-                <p>with Hybrid Model</p>
+                <h5>{tools} Tools</h5>
+                <p>Covered</p>
               </div>
             </div>
           </div>

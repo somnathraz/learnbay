@@ -142,6 +142,7 @@ function FifthSection({
           {MasterCertificate ? <MasterCertificateTab /> : ""}
           {ManagersCertificate ? <ManagersCertificateTab /> : ""}
           {AnalyticsCertificate ? <AnalyticsCertificateTab /> : ""}
+          {AnalyticsCertificate ? <AnalyticsCertificateTab /> : ""}
           {FinanceCertificate ? <FinanceCertificateTab /> : ""}
         </div>
       )}

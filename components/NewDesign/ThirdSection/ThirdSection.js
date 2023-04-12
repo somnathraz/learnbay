@@ -104,7 +104,7 @@ function ThirdSection({
                     layout="intrinsic"
                   />
                 </div>
-                <span>Enjoy 3 Years Of Career Service Access</span>
+                <span>{point1}</span>
               </div>
               <div className={styles.ParaWrap1}>
                 <div className={styles.number}>
@@ -115,7 +115,7 @@ function ThirdSection({
                     layout="intrinsic"
                   />
                 </div>
-                <span>Get 3 Mock Session With Industry Leaders</span>
+                <span>{point2}</span>
               </div>
               <div className={styles.ParaWrap2}>
                 <div className={styles.number}>
@@ -126,7 +126,7 @@ function ThirdSection({
                     layout="intrinsic"
                   />
                 </div>
-                <span>Resume Build Up Session</span>
+                <span>{point3}</span>
               </div>
               <div className={styles.ParaWrap3}>
                 <div className={styles.number}>
@@ -137,7 +137,7 @@ function ThirdSection({
                     layout="intrinsic"
                   />
                 </div>
-                <span>Get 5-8 Interview Calls</span>
+                <span>{point4}</span>
               </div>
                 <button onClick={popupShowD} className={styles.fillBtn}>
                 Download Placement Report

@@ -155,8 +155,8 @@ function FirstSection({
         <div className={styles.PlayImg}>
           <Image
             src={FirstRightImg}
-            width="949"
-            height="674"
+            width="580"
+            height="450"
             layout="intrinsic"
             alt="data science course"
           />

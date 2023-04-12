@@ -2,12 +2,12 @@ import React from "react";
 import styles from "./ProgramCustomer.module.css";
 import Image from "next/image";
 
-const ProgramCustomer = ({img1,img2,img3,img4,para1,para2,para3,para4}) => {
+const ProgramCustomer = ({img1,img2,img3,img4,para1,para2,para3,para4,leftImage}) => {
   return (
     <div className={styles.programWrap}>
       <div className={styles.left}>
         <Image
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whoIsProgram.webp"
+          src={leftImage}
           width={460}
           height={500}
         />

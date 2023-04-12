@@ -10,6 +10,18 @@ export const CertificateD = [
     ],
   },
 ];
+export const MicrosoftCertificateAdvance = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.jpg",
+    title: "Course Completion Certificate From Microsoft",
+    para: [
+      "Get certified by IBM on completion of industry-level ML projects.",
+      "Work on 1 capstone project certified by IBM.",
+      "VIP access to startup job sites and opportunities for individual projects.",
+    ],
+  },
+];
 export const CertificateDD = [
   {
     id: 1,

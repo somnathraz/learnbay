@@ -8,21 +8,20 @@ import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
 import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
 import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
-import OfferPopup from "../components/OfferPopup/OfferPopup";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
-import { JobGuaranteeCourseData } from "../Data/JobGuaranteeData";
+import { BusinessAnalyticsCourseData } from "../Data/BusinessAnalyticsData";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
 import {
-  FaqData5,
-  DomainFaqData5,
-  PaymentFaqData5,
-  CapstoneFaqData5,
-  CertificationFaqData5,
-  jobFaqData5,
-  MentorshipFaqData5,
-  SupportFaqData5,
+  FaqData7,
+  PaymentFaqData7,
+  CapstoneFaqData7,
+  CertificationFaqData7,
+  jobFaqData7,
+  MentorshipFaqData7,
+  SupportFaqData7,
 } from "../components/FAQ/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
@@ -40,15 +39,15 @@ function blockchain() {
     <>
       <Head>
         <title>
-          Data Science and AI Master Program
+          Business Analytics Master Program
         </title>
         <meta
           name="description"
-          content="Data Science and AI Master Program"
+          content="Business Analytics Master Program"
         />
         <meta
           name="keywords"
-          content="Data Science and AI Master Program"
+          content="Business Analytics Master Program"
         />
         <link
           rel="icon"
@@ -76,10 +75,10 @@ function blockchain() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Advance%2BData%2BScience.png"
-          firstToparaImg="With Unlimited Interview Calls"
-          firstHeading="Data Science and AI Master Program"
-          firstTopPara="Specialization Over Generalization"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Business-Analytics-Masters-Header.png"
+          firstToparaImg="With Domain Specialization"
+          firstHeading="Business Analytics Master Program"
+          firstTopPara="Specialization over Generalization"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
@@ -89,31 +88,32 @@ function blockchain() {
           heading1="On-Demand Doubt Sessions"
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
-          heading4="Designed For Professionals"
-          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries."
-          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners."
-          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
-          SecondPara4="Prioritize growth and salary increases with in-demand skills."
+          heading4="Designed for BA Professionals"
+          SecondPara1="Clear your business analytics doubts with industry experts and get real-time solutions"
+          SecondPara2="Boost career chances, gain referrals from 300+ high-level recruiters"
+          SecondPara3="Master the domain of business analytics with certificate from IBM"
+          SecondPara4="Use tech innovation to drive business strategy & acquire in-demand skills"
         />
         <ProgramCustomer
+        leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA-Masters-who.png"
         img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
         img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
         img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
         img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-        para1="Stay Ahead Of The Curve With The Support Of Our"
-        para2="Stay Ahead Of The Curve With The Support Of Our"
-        para3="Stay Ahead Of The Curve With The Support Of Our"
-        para4="Stay Ahead Of The Curve With The Support Of Our"
+        para1="Non-tech professionals with 6 months experience"
+        para2="Professionals interested in data-driven insights"
+        para3="Tech-savvy people driving business innovation"
+        para4="Individual seeking career opportunities in analytics"
         />
         <Switch/>
         <ThirdSection
           secondLine="Invest In Yourself!"
           thirdHeadSpan=" Alumni Community."
           thirdHead="Stay Ahead Of The Curve With The Support Of Our"
-          point1="1:1 career & mentoring support"
-          point2="Job Placement Assistance"
-          point3="Lifetime LMS Access"
-          point4="Career Counselling"
+          point1="Enjoy 3 Years Of Career Service Access"
+          point2="Get 6 Mock Interviews with Industry Leaders"
+          point3="Resume Build Up Session"
+          point4="Get Unlimited Interview Calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
@@ -146,24 +146,24 @@ function blockchain() {
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
-          syllabus={JobGuaranteeCourseData[0].syllabus}
-          syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
-          popupHead={JobGuaranteeCourseData[0].popupHead}
+          syllabus={BusinessAnalyticsCourseData[0].syllabus}
+          syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
+          popupHead={BusinessAnalyticsCourseData[0].popupHead}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
         <GrowthStats
         img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope+of+DS+left+image.png"
-        heading="Lorem Ipsum some text missing Lorem Ipsum some text missing.."
-        para1="Stay Ahead Of The Curve With The Support Of Our"
-        para2="Stay Ahead Of The Curve With The Support Of Our"
-        para3="Stay Ahead Of The Curve With The Support Of Our"
+        heading="Future of Business Analytics"
+        para1="Business analytics market to hit $105.8B by 2027"
+        para2="Business analyst in India earns ₹7,25,675/year on average"
+        para3="Ample opportunities in various industries and domains"
         />
         <FifthSection
           advanceCertificate={true}
-          Fee="₹ 1,29,000 + 18% GST"
-          FeeEmi="₹ 12,685/month"
+          Fee="₹ 1,10,000 + 18% GST"
+          FeeEmi="₹ 10,816/month"
           FeeHeading="Program Fee & Financing"
           FeeContent2="No Cost EMI"
           FeeContent3="Flexible payment"
@@ -196,19 +196,19 @@ function blockchain() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <DomainSection 
+        BAdomain={true}
         />
         <Project
          project="15+ Projects" tools="16+" />
-        <BatchDetails CourseFeeHead="Data Science and AI Master Program : Batch Details" />
+        <BatchDetails CourseFeeHead="Business Analytics Master Program : Batch Details" />
         <FAQNew
-          FaqDatas={FaqData5}
-          DomainFaqDatas={DomainFaqData5}
-          PaymentFaqDatas={PaymentFaqData5}
-          CapstoneFaqDatas={CapstoneFaqData5}
-          CertificationFaqDatas={CertificationFaqData5}
-          jobFaqDatas={jobFaqData5}
-          MentorshipFaqDatas={MentorshipFaqData5}
-          SupportFaqDatas={SupportFaqData5}
+          FaqDatas={FaqData7}
+          PaymentFaqDatas={PaymentFaqData7}
+          CapstoneFaqDatas={CapstoneFaqData7}
+          CertificationFaqDatas={CertificationFaqData7}
+          jobFaqDatas={jobFaqData7}
+          MentorshipFaqDatas={MentorshipFaqData7}
+          SupportFaqDatas={SupportFaqData7}
         />
         <SeventhSection />
         <OfferPopup offer={false} />
