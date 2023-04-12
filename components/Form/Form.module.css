@@ -239,7 +239,7 @@
 }
 .bottomWrap {
   padding-bottom: 70px;
-  background-color: beige;
+  background-color: #ffeed4;
   width: 100%;
   display: flex;
   flex-flow: column;

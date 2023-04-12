@@ -75,7 +75,7 @@ const Form = ({
     endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
   }
 
-  let btnText = "Apply for Counselling";
+  let btnText = "Apply For Counselling";
   if (event) {
     btnText = "Register Now";
   }

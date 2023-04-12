@@ -46,13 +46,11 @@
 }
 
 .Syllabus button {
-  margin-top: 50px;
   font-size: 18px;
-  border-radius: 10px;
-  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: #0072bc !important;
   font-weight: 700;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  height: auto;
+  color: white !important;
 }
 
 .Syllabus button:hover {
@@ -261,7 +259,7 @@
 }
 
 .h1 {
-  color: #0072bc;
+  color: black;
   margin: 5px 0px 20px 0px;
   padding: 0px 100px;
   text-align: center;
@@ -330,12 +328,19 @@
 }
 .formWrapper {
   border-top: 8px solid #0072bc;
-  border-bottom: 6px solid #edb552;
+  border-bottom: 6px solid #0072bc;
 }
 .formWrapper h4 {
   margin-top: 30px;
   color: #646464;
   font-size: 22px;
+}
+.ptop {
+  font-size: 20px;
+  margin: 0px 100px;
+  color: #767676;
+  line-height: 26px;
+  text-align: center;
 }
 @media (max-width: 1281px) {
   .Syllabus {
@@ -611,7 +616,7 @@
   }
 
   .h1 {
-    color: #0072bc;
+    color: black;
     margin: 10px 0px 20px 0px;
     font-size: 24px;
   }
@@ -668,7 +673,7 @@
     margin-top: -30px;
   }
   .h1 {
-    color: #0072bc;
+    color: black;
     margin: 5px 0px 20px 0px;
     padding: 0px;
   }
@@ -686,6 +691,13 @@
   }
 
   .project {
-    padding-top: 0px;
+    padding-top: 50px;
+  }
+  .ptop {
+    font-size: 18px;
+    margin: 0;
+    color: #767676;
+    line-height: 26px;
+    text-align: center;
   }
 }

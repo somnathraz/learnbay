@@ -110,6 +110,14 @@
   display: block;
 }
 
+.infop {
+  color: black;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
 @media (max-width: 1281px) {
   .Course {
     padding: 0 40px;
@@ -136,6 +144,10 @@
   }
   .listPanel {
     width: 30%;
+  }
+  .infop {
+    font-size: 20px;
+    padding-top: 20px;
   }
 }
 

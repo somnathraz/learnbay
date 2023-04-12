@@ -73,6 +73,7 @@ const FeeSection = ({
         </div>
       </Popup>
       <h4>{FeeHeading}</h4>
+      <p className={styles.ptop}>Invest in your future with quality education</p>
       <div className={styles.priceWrap}>
         <div className={styles.leftSide}>
           <div className={styles.price}>
@@ -82,35 +83,28 @@ const FeeSection = ({
 
           <div className={styles.list}>
             <div className={styles.left}>
-              <p>
-                <BsCheckCircleFill className={styles.check} />
-                {FeeContent1}
-              </p>
-              <p>
+            <p>
                 <BsCheckCircleFill className={styles.check} />
                 {FeeContent2}
               </p>
+            <p>
+                <BsCheckCircleFill className={styles.check} />
+                {FeeContent5}
+              </p>
+             
             </div>
             <div className={styles.right}>
+            <p>
+                <BsCheckCircleFill className={styles.check} />
+                {FeeContent4}
+              </p>
               <p>
                 <BsCheckCircleFill className={styles.check} />
                 {FeeContent3}
               </p>
-              <p>
-                <BsCheckCircleFill className={styles.check} />
-                {FeeContent4}
-              </p>
+           
             </div>
-            <div className={styles.right}>
-              <p>
-                <BsCheckCircleFill className={styles.check} />
-                {FeeContent5}
-              </p>
-              <p>
-                <BsCheckCircleFill className={styles.check} />
-                {FeeContent6}
-              </p>
-            </div>
+       
           </div>
 
           <button onClick={() => popupShow(true, false)}>Enroll Now</button>
@@ -123,7 +117,7 @@ const FeeSection = ({
             </div>
             <div className={styles.left}>
               <button onClick={() => popupShow(false, true)}>
-                Check Eligibility
+              Start Learning
               </button>
             </div>
           </div>

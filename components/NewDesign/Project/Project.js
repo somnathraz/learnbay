@@ -14,7 +14,7 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 
-const Project = ({ ChangeProject, project, domain }) => {
+const Project = ({ tools, project, domain }) => {
   const [popups, setPopups] = useState(false);
 
   const [device, setDevice] = useState();
@@ -22,6 +22,7 @@ const Project = ({ ChangeProject, project, domain }) => {
   const [img, setImg] = useState("");
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
+  const [ProjectTitle, setProjectTitle] = useState("");
   const [mobile, setMobile] = useState(false);
 
   const popupShow = () => {
@@ -36,11 +37,13 @@ const Project = ({ ChangeProject, project, domain }) => {
         title={title}
         desc={desc}
         imgsrc={img}
+        PTitle={ProjectTitle}
       />
 
       <div className={styles.headWrapper}>
         <div className={styles.left}>
-          <h3>Hands-on Projects</h3>
+          <h3>Industry Projects</h3>
+          <p className={styles.ptop}>Work on Live Capstone projects certified from IBM</p>
 
           <div className={styles.iconWrapper}>
             <div className={styles.middle}>
@@ -53,7 +56,7 @@ const Project = ({ ChangeProject, project, domain }) => {
             </div>
             <div className={styles.middle}>
               <BsCheck2 className={styles.icon} />
-              <p>Get Real-world Experience</p>
+              <p>24/7 Learner’s Support</p>
             </div>
           </div>
           <div className={styles.projectNumb}>
@@ -67,7 +70,7 @@ const Project = ({ ChangeProject, project, domain }) => {
             <div className={styles.rightProjectNumb}>
               <AiOutlineBank className={styles.rIcon} />
               <div>
-                <h5>7+ Cities</h5>
+                <h5>{tools} tools Covered</h5>
                 <p>with Hybrid Model</p>
               </div>
             </div>
@@ -129,7 +132,8 @@ const Project = ({ ChangeProject, project, domain }) => {
               <span
                 onClick={() => {
                   popupShow();
-                  setTitle("HR Domain");
+                  setTitle("Career progression planning of employees with workforce defections & efficiency");
+                  setProjectTitle("HR Domain");
                   setDesc(
                     "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities."
                   );
@@ -164,7 +168,8 @@ const Project = ({ ChangeProject, project, domain }) => {
               <span
                 onClick={() => {
                   popupShow();
-                  setTitle("Marketing Domain");
+                  setTitle("Descriptive study of trends and irregularities with prediction analysis for conversion.");
+                  setProjectTitle("Marketing Domain");
                   setDesc(
                     "Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools. They also require proper message preparation and delivery of the same to the right audience at the right time. You can help them with text analytics and NLP-based keyword research solutions"
                   );
@@ -199,7 +204,8 @@ const Project = ({ ChangeProject, project, domain }) => {
               <span
                 onClick={() => {
                   popupShow();
-                  setTitle("Supply chain Domain");
+                  setProjectTitle("Manufacturing Domain");
+                  setTitle("Condition-based preventative maintenance and fault prediction in depth");
                   setDesc(
                     "An automated inventory management system will keep track of stock levels and upcoming orders. In addition, you can contribute to DataCo's intelligent supply chain software generation project by using ML algorithms and R programming skills."
                   );
@@ -234,46 +240,12 @@ const Project = ({ ChangeProject, project, domain }) => {
                 <span
                 onClick={() => {
                   popupShow();
-                  setTitle("Sales Domain");
+                  setTitle("Forecasting future sales with trends and price maximization");
+                  setProjectTitle("Sales Domain");
                   setDesc(
                     "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
                   );
                   setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Sales-domain.png");
-                }}
-              >
-                Learn More
-              </span>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className={styles.project}>
-            <div className={styles.header}>
-              <div className={styles.left}>
-                <h5>Retail Domain</h5>
-              </div>
-              <div className={styles.right}>
-                <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/12-1.png"
-                  alt="Learnbay"
-                  quality={100}
-                  objectFit="contain"
-                  width="90"
-                  height="45"
-                />
-              </div>
-            </div>
-            <div className={styles.body}>
-              <p>
-                Take an active part in the Walmart sales forecasting project.
-                From the huge data set available,...
-              </p>
-              <span
-                onClick={() => {
-                  popupShow();
-                  setTitle("Retail Domain");
-                  setDesc(
-                    "Take an active part in the Walmart sales forecasting project. From the huge data set available, you have to perform a sales forecast for 45 Walmart stores. You have to include holiday markdown sales too."
-                  );
-                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png");
                 }}
               >
                 Learn More
@@ -304,7 +276,8 @@ const Project = ({ ChangeProject, project, domain }) => {
               <span
                 onClick={() => {
                   popupShow();
-                  setTitle("Healthcare Domain");
+                  setTitle("Understanding covid-19 cases and fatality rate by time series forecasting");
+                  setProjectTitle("Healthcare Domain")
                   setDesc(
                     "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
                   );
@@ -339,7 +312,8 @@ const Project = ({ ChangeProject, project, domain }) => {
               <span
                 onClick={() => {
                   popupShow();
-                  setTitle("E-Commerce Domain");
+                  setProjectTitle("E-Commerce Domain");
+                  setTitle("Recommendation system with customer lifetime value analysis (CLV)");
                   setDesc(
                     "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
                   );
@@ -374,7 +348,8 @@ const Project = ({ ChangeProject, project, domain }) => {
               <span
                 onClick={() => {
                   popupShow();
-                  setTitle("Entertainment Domain");
+                  setTitle("Building a content recommendation model on the basis of regional viewer categorization");
+                  setProjectTitle("Media Domain");
                   setDesc(
                     "Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP."
                   );
@@ -400,7 +375,7 @@ const Project = ({ ChangeProject, project, domain }) => {
               className={styles.bicon}
               style={{ marginRight: "10px" }}
             />
-            Project Brochure
+            Explore Projects
           </button>
         </a>
       </div>

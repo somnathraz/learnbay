@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "./FirstSection.module.css";
-import { FaDownload } from "react-icons/fa";
+import { FaDownload, FaPlayCircle } from "react-icons/fa";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import Image from "next/image";
-import TextAnimation from "../Animation/TextAnimation";
+import Typed from "typed.js";
+import {MdPlayCircleFilled} from "react-icons/md"
+
 
 function FirstSection({
   dataScience,
@@ -18,10 +20,33 @@ function FirstSection({
   srcD,
 }) {
   const [popups, setPopups] = useState(false);
-
+  const el = useRef(null);
   const popupShow = () => {
     setPopups(true);
   };
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: [
+       
+        "Guaranteed Interview Calls",
+        "Capstone Project Certificate",
+        "Live Interactive Classes",
+      ], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      startDelay: 100,
+      typeSpeed: 80,
+      backSpeed: 50,
+      backDelay: 200,
+      smartBackspace: true,
+      loop: true,
+      showCursor: false,
+    });
+
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
   return (
     <div className={styles.First}>
       <Popup
@@ -59,7 +84,7 @@ function FirstSection({
           />
         </div>
         <p className={styles.ptop} style={{ color: "#000" }}>
-          In collaboration with
+          In Collaboration With
         </p>
         <div className={styles.IBMlogo}>
           <Image
@@ -70,23 +95,12 @@ function FirstSection({
             alt="data science course"
           />
         </div>
-        <div className={styles.line}>
-          <img
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Vector-1-line.png"
-            width="80px"
-          />
+        <div className={styles.animationTextWrap}>
+          <span ref={el} className={styles.animationText}></span>
         </div>
-        <p className={styles.blink}>
-          Supercharge Your Career Trajectory  <br />
-          Learn <TextAnimation
-            first={first}
-            second={second}
-            third={third}
-          />{" "}
-          for Success.
-        </p>
+
         <div className={styles.logos}>
-          <div style={{textAlign:"center"}}>
+          <div style={{ textAlign: "center" }}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Career-report-logo.png"
               width="40"
@@ -99,7 +113,7 @@ function FirstSection({
               <b>4.66/5</b>
             </p>
           </div>
-          <div style={{textAlign:"center"}}>
+          <div style={{ textAlign: "center" }}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Google-logo.png"
               width="40"
@@ -112,7 +126,7 @@ function FirstSection({
               <b>4.8/5</b>
             </p>
           </div>
-          <div style={{textAlign:"center"}}>
+          <div style={{ textAlign: "center" }}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Switchup-logo.png"
               width="40"
@@ -127,19 +141,11 @@ function FirstSection({
           </div>
         </div>
         <div className={styles.btnImage}>
-        {dataScience ? (
-          <a href={srcD} target="_blank">
-            <button>
-              Download Brochure
+            <button onClick={popupShow} className={styles.fillBtn}>
+              Brochure
               <FaDownload style={{ marginLeft: "10px" }} />
             </button>
-          </a>
-        ) : (
-          <button onClick={popupShow}>
-            Download Brochure
-            <FaDownload style={{ marginLeft: "10px" }} />
-          </button>
-        )}
+          <button>Intro Video <FaPlayCircle style={{ marginLeft: "10px", fontSize:"22px" }} /> </button>
         </div>
       </div>
 
@@ -149,14 +155,14 @@ function FirstSection({
         <div className={styles.PlayImg}>
           <Image
             src={FirstRightImg}
-            width="508"
-            height="327"
+            width="949"
+            height="674"
             layout="intrinsic"
             alt="data science course"
           />
         </div>
-        <div className={styles.logosD}>
-          <div style={{textAlign:"center"}}>
+        {/* <div className={styles.logosD}>
+          <div style={{ textAlign: "center" }}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Career-report-logo.png"
               width="40"
@@ -169,7 +175,7 @@ function FirstSection({
               <b>4.66/5</b>
             </p>
           </div>
-          <div style={{textAlign:"center"}}>
+          <div style={{ textAlign: "center" }}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Google-logo.png"
               width="40"
@@ -182,7 +188,7 @@ function FirstSection({
               <b>4.8/5</b>
             </p>
           </div>
-          <div style={{textAlign:"center"}}>
+          <div style={{ textAlign: "center" }}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Switchup-logo.png"
               width="40"
@@ -195,7 +201,7 @@ function FirstSection({
               <b>4.79/5</b>
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

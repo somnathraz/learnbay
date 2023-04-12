@@ -41,6 +41,8 @@ const ProjectPopup = (props) => {
             <img src={props.imgsrc} alt="data science course" />
           </div>
           <div className={styles.contentWrap}>
+            <h5>{props.title}</h5>
+            <p><b>{props.PTitle}</b></p>
             <p>{props.desc}</p>
           </div>
         </div>

@@ -1,5 +1,5 @@
 .infop {
-  color: #0072bc;
+  color: black;
   margin: 0px 0px 10px 0px;
   text-align: center;
   font-size: 32px;
@@ -83,6 +83,14 @@ display: flex;
   .fee {
     display: none;
   }
+
+  .ptop {
+    font-size: 20px;
+    margin: 0px 100px;
+    color: #767676;
+    line-height: 26px;
+    text-align: center;
+  }
   
 
 @media (max-width: 641px) {
@@ -132,6 +140,7 @@ display: flex;
       }
 .infop {
   font-size: 20px;
+  padding-top: 20px;
 }
 .sliderTopM {
   margin: 0;
@@ -174,6 +183,13 @@ margin-top: 20px;
 .btn {
   margin: auto;
   margin-top: 20px;
+}
+.ptop {
+  font-size: 18px;
+  margin: 20px;
+  color: #767676;
+  line-height: 26px;
+  text-align: center;
 }
 }
 

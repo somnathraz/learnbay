@@ -1,34 +1,18 @@
 import React, { useEffect, useState } from "react";
 import styles from "./FourthSection.module.css";
-import { MdOutlineLiveTv, MdOutlineLaptopMac } from "react-icons/md";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
-import {
-  AiOutlineFundProjectionScreen,
-  AiOutlineFieldTime,
-} from "react-icons/ai";
 import Form from "../../Form/Form";
-import { BsFillCircleFill } from "react-icons/bs";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
-import { Autoplay, Scrollbar } from "swiper";
 import Popup from "../../Popup/Popup";
 
 function SyllabusNew({
   syllabus,
-  serviceBasic,
-  popupHead,
   dataScience,
-  project,
-  hours,
-  srcD,
   fullStack,
-  fsdBrochure,
-  careerH1,
-  careerSpan,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -80,8 +64,8 @@ function SyllabusNew({
       </Popup>
 
       <div className={styles.project}>
-        <p className={styles.infop}>CURRICULUM</p>
-        <h2 className={styles.h1}>Explore our syllabus</h2>
+        <h2 className={styles.h1}>A Roadmap For Success</h2>
+        <p className={styles.ptop}>Our comprehensive curriculum, designed for professionals.</p>
       </div>{" "}
       <section className={styles.Syllabus}>
         <div className={styles.syllabusLeft}>
@@ -159,19 +143,10 @@ function SyllabusNew({
               </div>
             );
           })}
-          {dataScience ? (
-            <a href={srcD} target="_blank">
-              <button>
-                Download detailed syllabus
-                <FaDownload style={{ marginLeft: "10px" }} />
-              </button>
-            </a>
-          ) : (
             <button onClick={popupShow}>
-              Download detailed syllabus
+              Download Detailed Syllabus
               <FaDownload style={{ marginLeft: "10px" }} />
             </button>
-          )}
         </div>
         <div className={styles.button}>
           <div className={styles.formWrapper}>
@@ -182,7 +157,7 @@ function SyllabusNew({
               layout="intrinsic"
               alt="girl"
             />
-            <h4>Request more information</h4>
+            <h4>Request More Information</h4>
             <Form
               dataScience={dataScience}
               fullStack={fullStack}
