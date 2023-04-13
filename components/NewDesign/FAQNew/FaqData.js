@@ -2075,3 +2075,531 @@ export const SupportFaqData9 = [
     open: false,
   },
 ];
+
+//BFSI page
+export const FaqDataBFSI = [
+  {
+    id: 0,
+    ques: "What are the prerequisites for the BFSI Program?",
+    ans: "There are no prerequisites for this BFSI certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a Flexi Subscription in the BFSI Program?",
+    ans: `Those who enroll for BFSI live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What’s the duration of the BFSI Program?",
+    ans: `The duration of this BFSI Course is about 6 months (180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+
+    Classes will be conducted on weekdays and weekend batches.
+    Weekday batch – 5 months, Monday to Friday – 2 hours/day,
+    Weekend batch – 6.5 months, Saturday & Sunday – 3.5 hours/day.`,
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What is the mode of BFSI training at Learnbay?",
+    ans: "We provide both classroom and online BFSI training modes. Based on your requirement, you can choose your preferred mode.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I opt for a Hybrid mode of learning?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
+    open: false,
+  },
+];
+export const CertificationFaqDataBFSI = [
+  {
+    id: 0,
+    ques: "Is there any accredited certification after course completion?",
+    ans: "Yes, you will be awarded IBM accredited BFSI Certificate on successful course completion.",
+    open: true,
+  },
+];
+export const PaymentFaqDataBFSI = [
+  {
+    id: 0,
+    ques: "What is the total fee for the BFSI Program?",
+    ans: "We offer industry-specific full-stack BFSI modules, via which you learn the respective industry’s best practices.The total program fee for the BFSI Program is INR 75,000 + 18% GST.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Can I pay in installments for INR 75,000 + 18% GST ?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is there any scholarship/discount available for the BFSI Program? What is Group Discount?",
+    ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
+    Please check our websites or contact our sales team to know more about the applicable discounts.
+    
+    Group Discount :
+    Group Discount is applicable only if you’re joining with your friends.
+    5% extra discount: Group of 2,
+    8% extra discount: Group of 3,
+    Max 10% discount: Group of 4+.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What is the refund policy for the BFSI Program at Learnbay?",
+    ans: "Candidates are advised to read  ",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the program.",
+    link: true,
+
+    open: false,
+  },
+];
+export const CapstoneFaqDataBFSI = [
+  {
+    id: 0,
+    ques: "How many real-time projects/case studies will be there?",
+    ans: "We have a set of 8 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.",
+    linkText1: " Click here to download the list of the projects.",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link: true,
+
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How will the project be executed?",
+    ans: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
+    open: false,
+  },
+];
+export const jobFaqDataBFSI = [
+  {
+    id: 0,
+    ques: "What’s the eligibility for a job assistance program at Learnbay?",
+
+    ans: `You should have completed the course with :
+    A minimum score of 70% in assessments.
+    Should have completed the assignments and case studies.
+    Worked and successfully completed the minimum recommended number of real-time projects.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How many interview calls will i get at Learnbay?",
+    ans: "You’ll be provided 5 interview calls after the completion of the course.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `Job-readiness program helps you prepare for interviews which include:
+    Resume preparation sessions,
+    Preparing projects for a strong portfolio,
+    Interview guidance and prep sessions,
+    1:1 Mock interviews based on targeted companies and roles.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Will I get job referrals at Learnbay?",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
+    open: false,
+  },
+];
+export const MentorshipFaqDataBFSI = [
+  {
+    id: 0,
+    ques: "Until when will the students get the facility of mentorship?",
+
+    ans: "Our Mentors will provide BFSI training to the students until the completion of the course.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Can a Learnbay student choose to study from their desired mentor?",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    open: false,
+  },
+];
+export const SupportFaqDataBFSI = [
+  {
+    id: 0,
+    ques: "When is the job assistance provided at Learnbay?",
+
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I get Job referrals?",
+    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
+
+//HR page
+export const FaqDataHR = [
+  {
+    id: 0,
+    ques: "What are the prerequisites for the HR Program?",
+    ans: "There are no prerequisites for this HR certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a Flexi Subscription in the HR Program?",
+    ans: `Those who enroll for HR live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What’s the duration of the HR Program?",
+    ans: `The duration of this HR Course is about 6 months (180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+
+    Classes will be conducted on weekdays and weekend batches.
+    Weekday batch – 5 months, Monday to Friday – 2 hours/day,
+    Weekend batch – 6.5 months, Saturday & Sunday – 3.5 hours/day.`,
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What is the mode of HR training at Learnbay?",
+    ans: "We provide both classroom and online HR training modes. Based on your requirement, you can choose your preferred mode.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I opt for a Hybrid mode of learning?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
+    open: false,
+  },
+];
+export const CertificationFaqDataHR = [
+  {
+    id: 0,
+    ques: "Is there any accredited certification after course completion?",
+    ans: "Yes, you will be awarded IBM accredited HR Certificate on successful course completion.",
+    open: true,
+  },
+];
+export const PaymentFaqDataHR = [
+  {
+    id: 0,
+    ques: "What is the total fee for the HR Program?",
+    ans: "We offer industry-specific full-stack HR modules, via which you learn the respective industry’s best practices.The total program fee for the HR Program is INR 75,000 + 18% GST.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Can I pay in installments for INR 75,000 + 18% GST ?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is there any scholarship/discount available for the HR Program? What is Group Discount?",
+    ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
+    Please check our websites or contact our sales team to know more about the applicable discounts.
+    
+    Group Discount :
+    Group Discount is applicable only if you’re joining with your friends.
+    5% extra discount: Group of 2,
+    8% extra discount: Group of 3,
+    Max 10% discount: Group of 4+.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What is the refund policy for the HR Program at Learnbay?",
+    ans: "Candidates are advised to read  ",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the program.",
+    link: true,
+
+    open: false,
+  },
+];
+export const CapstoneFaqDataHR = [
+  {
+    id: 0,
+    ques: "How many real-time projects/case studies will be there?",
+    ans: "We have a set of 8 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.",
+    linkText1: " Click here to download the list of the projects.",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link: true,
+
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How will the project be executed?",
+    ans: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
+    open: false,
+  },
+];
+export const jobFaqDataHR = [
+  {
+    id: 0,
+    ques: "What’s the eligibility for a job assistance program at Learnbay?",
+
+    ans: `You should have completed the course with :
+    A minimum score of 70% in assessments.
+    Should have completed the assignments and case studies.
+    Worked and successfully completed the minimum recommended number of real-time projects.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How many interview calls will i get at Learnbay?",
+    ans: "You’ll be provided 5 interview calls after the completion of the course.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `Job-readiness program helps you prepare for interviews which include:
+    Resume preparation sessions,
+    Preparing projects for a strong portfolio,
+    Interview guidance and prep sessions,
+    1:1 Mock interviews based on targeted companies and roles.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Will I get job referrals at Learnbay?",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
+    open: false,
+  },
+];
+export const MentorshipFaqDataHR = [
+  {
+    id: 0,
+    ques: "Until when will the students get the facility of mentorship?",
+
+    ans: "Our Mentors will provide HR training to the students until the completion of the course.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Can a Learnbay student choose to study from their desired mentor?",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    open: false,
+  },
+];
+export const SupportFaqDataHR = [
+  {
+    id: 0,
+    ques: "When is the job assistance provided at Learnbay?",
+
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I get Job referrals?",
+    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
+
+//Markering page
+export const FaqDataMarkering = [
+  {
+    id: 0,
+    ques: "What are the prerequisites for the Markering Program?",
+    ans: "There are no prerequisites for this Markering certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a Flexi Subscription in the Markering Program?",
+    ans: `Those who enroll for Markering live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What’s the duration of the Markering Program?",
+    ans: `The duration of this Markering Course is about 6 months (180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+
+    Classes will be conducted on weekdays and weekend batches.
+    Weekday batch – 5 months, Monday to Friday – 2 hours/day,
+    Weekend batch – 6.5 months, Saturday & Sunday – 3.5 hours/day.`,
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What is the mode of Markering training at Learnbay?",
+    ans: "We provide both classroom and online Markering training modes. Based on your requirement, you can choose your preferred mode.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I opt for a Hybrid mode of learning?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
+    open: false,
+  },
+];
+export const CertificationFaqDataMarkering = [
+  {
+    id: 0,
+    ques: "Is there any accredited certification after course completion?",
+    ans: "Yes, you will be awarded IBM accredited Markering Certificate on successful course completion.",
+    open: true,
+  },
+];
+export const PaymentFaqDataMarkering = [
+  {
+    id: 0,
+    ques: "What is the total fee for the Markering Program?",
+    ans: "We offer industry-specific full-stack Markering modules, via which you learn the respective industry’s best practices.The total program fee for the Markering Program is INR 75,000 + 18% GST.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Can I pay in installments for INR 75,000 + 18% GST ?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    linkText1: " +917795687988 ",
+    link1: "tel:+917795687988",
+    link: true,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Is there any scholarship/discount available for the Markering Program? What is Group Discount?",
+    ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
+    Please check our websites or contact our sales team to know more about the applicable discounts.
+    
+    Group Discount :
+    Group Discount is applicable only if you’re joining with your friends.
+    5% extra discount: Group of 2,
+    8% extra discount: Group of 3,
+    Max 10% discount: Group of 4+.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What is the refund policy for the Markering Program at Learnbay?",
+    ans: "Candidates are advised to read  ",
+    linkText1: "Learnbay’s Refund/Cancellation Policy",
+    link1: "/refund-cancellation-policy",
+    ansAfter: " before enrolling in the program.",
+    link: true,
+
+    open: false,
+  },
+];
+export const CapstoneFaqDataMarkering = [
+  {
+    id: 0,
+    ques: "How many real-time projects/case studies will be there?",
+    ans: "We have a set of 8 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.",
+    linkText1: " Click here to download the list of the projects.",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    link: true,
+
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How will the project be executed?",
+    ans: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
+    open: false,
+  },
+];
+export const jobFaqDataMarkering = [
+  {
+    id: 0,
+    ques: "What’s the eligibility for a job assistance program at Learnbay?",
+
+    ans: `You should have completed the course with :
+    A minimum score of 70% in assessments.
+    Should have completed the assignments and case studies.
+    Worked and successfully completed the minimum recommended number of real-time projects.`,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How many interview calls will i get at Learnbay?",
+    ans: "You’ll be provided 5 interview calls after the completion of the course.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `Job-readiness program helps you prepare for interviews which include:
+    Resume preparation sessions,
+    Preparing projects for a strong portfolio,
+    Interview guidance and prep sessions,
+    1:1 Mock interviews based on targeted companies and roles.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Will I get job referrals at Learnbay?",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
+    open: false,
+  },
+];
+export const MentorshipFaqDataMarkering = [
+  {
+    id: 0,
+    ques: "Until when will the students get the facility of mentorship?",
+
+    ans: "Our Mentors will provide Markering training to the students until the completion of the course.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Can a Learnbay student choose to study from their desired mentor?",
+    ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    open: false,
+  },
+];
+export const SupportFaqDataMarkering = [
+  {
+    id: 0,
+    ques: "When is the job assistance provided at Learnbay?",
+
+    ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I get Job referrals?",
+    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];

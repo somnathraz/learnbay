@@ -205,7 +205,7 @@ function blockchain() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <DomainSection />
-        <SixthSection
+        {/* <SixthSection
           point1="Practise with Latest Tools"
           point2="10 Advanced Projects"
           point3="3 Capstone Projects"
@@ -214,8 +214,8 @@ function blockchain() {
           CourseFeeHead="Data Science & AI for Managers Program : Batch Details"
           dataScience={true}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-        />
-        <Project project="12+ Projects" tools="16+" />
+        /> */}
+        <Project project="12+ Projects" tools="16+" DsProject={true}/>
         <BatchDetails CourseFeeHead="Data science course for Mangers: Batch Details" />
         <FAQNew
           FaqDatas={FaqData4}

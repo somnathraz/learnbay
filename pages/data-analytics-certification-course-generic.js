@@ -203,7 +203,7 @@ function dataAnalytics() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <DomainSection />
-        <SixthSection
+        {/* <SixthSection
           point1="Practise with Latest Tools"
           point2="8 Advanced Projects"
           point3="2 Capstone Projects"
@@ -212,7 +212,11 @@ function dataAnalytics() {
           CourseFeeHead="Data Analytics Program : Batch Details"
           dataScience={true}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-        />
+        /> */}
+         <Project
+        DsProject={true}
+         project="15+ Projects" tools="16+" />
+        <BatchDetails CourseFeeHead="Business Analytics Master Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData6}
           PaymentFaqDatas={PaymentFaqData6}

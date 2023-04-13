@@ -14,15 +14,13 @@ import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { MarketingCourse } from "../Data/MarketingCourse";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
 import {
-  FaqData2,
-  HrAnalytics,
-  DomainFaqData2,
-  PaymentFaqData2,
-  CapstoneFaqData2,
-  CertificationFaqData2,
-  jobFaqData2,
-  MentorshipFaqData2,
-  SupportFaqData2,
+  FaqDataMarkering,
+  PaymentFaqDataMarkering,
+  CapstoneFaqDataMarkering,
+  CertificationFaqDataMarkering,
+  jobFaqDataMarkering,
+  MentorshipFaqDataMarkering,
+  SupportFaqDataMarkering,
 } from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
@@ -202,17 +200,16 @@ function Marketing() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <Project project="12+ Projects" tools="16+" />
+        <Project project="12+ Projects" tools="16+" Marketing={true}/>
         <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew
-          FaqDatas={HrAnalytics}
-          DomainFaqDatas={DomainFaqData2}
-          PaymentFaqDatas={PaymentFaqData2}
-          CapstoneFaqDatas={CapstoneFaqData2}
-          CertificationFaqDatas={CertificationFaqData2}
-          jobFaqDatas={jobFaqData2}
-          MentorshipFaqDatas={MentorshipFaqData2}
-          SupportFaqDatas={SupportFaqData2}
+          FaqDatas={FaqDataMarkering}
+          PaymentFaqDatas={PaymentFaqDataMarkering}
+          CapstoneFaqDatas={CapstoneFaqDataMarkering}
+          CertificationFaqDatas={CertificationFaqDataMarkering}
+          jobFaqDatas={jobFaqDataMarkering}
+          MentorshipFaqDatas={MentorshipFaqDataMarkering}
+          SupportFaqDatas={SupportFaqDataMarkering}
         />
         <SeventhSection />
 

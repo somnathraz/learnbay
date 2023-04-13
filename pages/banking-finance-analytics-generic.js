@@ -18,14 +18,13 @@ import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 import Project from "../components/NewDesign/Project/Project";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import {
-  FaqData6,
-  BFSI,
-  PaymentFaqData6,
-  CapstoneFaqData6,
-  CertificationFaqData6,
-  jobFaqData6,
-  MentorshipFaqData6,
-  SupportFaqData6,
+  FaqDataBFSI,
+  PaymentFaqDataBFSI,
+  CapstoneFaqDataBFSI,
+  CertificationFaqDataBFSI,
+  jobFaqDataBFSI,
+  MentorshipFaqDataBFSI,
+  SupportFaqDataBFSI,
 } from "../components/NewDesign/FAQNew/FaqData";
 import Switch from "../components/NewDesign/HomePage/switch/switch";
 
@@ -192,26 +191,26 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <SixthSection
+        {/* <SixthSection
           point1="Practise with Latest Tools"
           point2="10 Advanced Projects"
           point3="2 Capstone Projects"
           point4="Designed by Industry Experts"
-          FoundationDSProject={true}
+          FoundationDSProject={false}
           CourseFeeHead="Banking & Finance Analytics : Batch Details"
           dataScience={true}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-        />
+        /> */}
         <Project project="12+ Projects" tools="16+" BFSI={true} />
         <BatchDetails CourseFeeHead="Banking and Finance: Batch Details" />
         <FAQNew
-          FaqDatas={BFSI}
-          PaymentFaqDatas={PaymentFaqData6}
-          CapstoneFaqDatas={CapstoneFaqData6}
-          CertificationFaqDatas={CertificationFaqData6}
-          jobFaqDatas={jobFaqData6}
-          MentorshipFaqDatas={MentorshipFaqData6}
-          SupportFaqDatas={SupportFaqData6}
+          FaqDatas={FaqDataBFSI}
+          PaymentFaqDatas={PaymentFaqDataBFSI}
+          CapstoneFaqDatas={CapstoneFaqDataBFSI}
+          CertificationFaqDatas={CertificationFaqDataBFSI}
+          jobFaqDatas={jobFaqDataBFSI}
+          MentorshipFaqDatas={MentorshipFaqDataBFSI}
+          SupportFaqDatas={SupportFaqDataBFSI}
         />
         <SeventhSection />
 

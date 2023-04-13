@@ -201,8 +201,7 @@ function blockchain() {
         />
         <DomainSection 
         />
-        <Project
-         project="15+ Projects" tools="16+" />
+        <Project project="12+ Projects" tools="16+" DsProject={true}/>
         <BatchDetails CourseFeeHead="Data Science and AI Master Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData5}

@@ -204,6 +204,7 @@ function blockchain() {
         BAdomain={true}
         />
         <Project
+        DsProject={true}
          project="15+ Projects" tools="16+" />
         <BatchDetails CourseFeeHead="Business Analytics Master Program : Batch Details" />
         <FAQNew

@@ -162,7 +162,7 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Module 2 :- Applied business statistics:",
+          title: "Module 2 :- Applied business statistics",
           content: [
             {
               chap: {

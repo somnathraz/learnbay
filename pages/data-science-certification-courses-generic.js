@@ -16,6 +16,8 @@ import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import Switch from "../components/NewDesign/HomePage/switch/switch";
+import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
+import Project from "../components/NewDesign/Project/Project";
 import {
   FaqData1,
   PaymentFaqData1,
@@ -190,16 +192,8 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <SixthSection
-          point1="Practise with Latest Tools"
-          point2="4 Foundation Project"
-          point3="Real-time Data Projects"
-          point4="Designed by Industry Experts"
-          FoundationDSProject={true}
-          CourseFeeHead=" Data Science and AI Foundation Program : Batch Details"
-          dataScience={true}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-        />
+         <Project project="12+ Projects" tools="16+" DsProject={true}/>
+        <BatchDetails CourseFeeHead="Data Science and AI Master Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData1}
           PaymentFaqDatas={PaymentFaqData1}

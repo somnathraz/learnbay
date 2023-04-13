@@ -12,17 +12,15 @@ import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { HrData } from "../Data/hrData";
-import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
 import {
-  FaqData2,
-  HrAnalytics,
-  DomainFaqData2,
-  PaymentFaqData2,
-  CapstoneFaqData2,
-  CertificationFaqData2,
-  jobFaqData2,
-  MentorshipFaqData2,
-  SupportFaqData2,
+  FaqDataHR,
+  PaymentFaqDataHR,
+  CapstoneFaqDataHR,
+  CertificationFaqDataHR,
+  jobFaqDataHR,
+  MentorshipFaqDataHR,
+  SupportFaqDataHR,
 } from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
@@ -206,14 +204,13 @@ function Hr() {
         <Project project="12+ Projects" tools="16+" Hr={true} />
         <BatchDetails CourseFeeHead="Hr Analytics : Batch Details" />
         <FAQNew
-          FaqDatas={HrAnalytics}
-          DomainFaqDatas={DomainFaqData2}
-          PaymentFaqDatas={PaymentFaqData2}
-          CapstoneFaqDatas={CapstoneFaqData2}
-          CertificationFaqDatas={CertificationFaqData2}
-          jobFaqDatas={jobFaqData2}
-          MentorshipFaqDatas={MentorshipFaqData2}
-          SupportFaqDatas={SupportFaqData2}
+          FaqDatas={FaqDataHR}
+          PaymentFaqDatas={PaymentFaqDataHR}
+          CapstoneFaqDatas={CapstoneFaqDataHR}
+          CertificationFaqDatas={CertificationFaqDataHR}
+          jobFaqDatas={jobFaqDataHR}
+          MentorshipFaqDatas={MentorshipFaqDataHR}
+          SupportFaqDatas={SupportFaqDataHR}
         />
         <SeventhSection />
 

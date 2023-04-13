@@ -202,7 +202,9 @@ function blockchain() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <DomainSection />
-        <Project project="12+ Projects" tools="16+" />
+        <Project
+        DsProject={true}
+        project="12+ Projects" tools="16+" />
         <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData2}

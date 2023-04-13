@@ -202,8 +202,9 @@ function blockchain() {
         <DomainSection
         imgDomain="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML-Domain-Electives.png"
         />
-        <Project
-         project="15+ Projects" tools="16+" />
+         <Project
+        DsProject={true}
+        project="12+ Projects" tools="16+" />
         <BatchDetails CourseFeeHead="Artificial Intelligence & Machine Learning Program:Batch Details" />
         <FAQNew
           FaqDatas={FaqData3}
