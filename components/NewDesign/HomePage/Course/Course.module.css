@@ -1,11 +1,12 @@
 .Course {
-  padding: 0px 100px;
+  padding: 40px 100px;
 }
 .Course h2 {
-  text-align: left;
-  font-size: 30px;
-  color: #0072bc;
+  color: black;
   font-weight: 600;
+  margin: 0;
+  font-size: 37px;
+  text-align: center;
 }
 .feature {
   display: flex;
@@ -13,6 +14,43 @@
 }
 .listPanel .mPanel {
   display: none;
+}
+.listPanel {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-evenly; */
+}
+
+.span {
+  padding: 20px;
+  width: 100%;
+  font-weight: 600;
+  cursor: pointer;
+
+  justify-content: start;
+  border-bottom: 2px solid #28557a2e;
+}
+.ActiveSpan {
+  padding: 20px;
+  width: 100%;
+  font-weight: 600;
+  cursor: pointer;
+  justify-content: start;
+  border-top: 4px solid #2d9cd7;
+  border-right: 2px solid #28557a2e;
+}
+.gridPanel {
+  display: flex;
+  height: 510px;
+  width: 100%;
+  margin-top: 20px;
+  gap: 20px;
+  padding: 0px 20px;
+  overflow: auto;
+  position: relative;
+  scroll-behavior: smooth;
+  transition: transform 0.3s ease-out 0s;
+  pointer-events: auto;
 }
 .feature p {
   display: flex;
@@ -28,30 +66,36 @@
 .courses {
   background: #ffffff;
 
-  margin-top: 30px;
+    box-shadow: 0 0 8px rgba(40,85,122,.18);
+    margin-top: 30px;
 }
 .listPanel {
   display: flex;
   width: 100%;
-  gap: 90px;
+  /* gap: 90px; */
   margin-bottom: 20px;
   justify-content: flex-start;
 }
 
 .span {
-  width: max-content;
-  font-weight: 600;
-  cursor: pointer;
-
-  justify-content: start;
+  padding: 20px;
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+    justify-content: start;
+ border-bottom: 2px solid #28557a2e;
+  
 }
 .ActiveSpan {
-  padding-bottom: 8px;
-  width: max-content;
-  font-weight: 600;
-  cursor: pointer;
-  border-bottom: 3px solid #0072bc;
-  justify-content: start;
+  padding: 20px;
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+    justify-content: start;
+  border-top: 4px solid #2d9cd7;
+    border-right: 2px solid #28557a2e;
+  /* border-bottom: 3px solid #0072bc; */
+ 
 }
 
 .gridPanel {
@@ -61,7 +105,6 @@
   max-height: 600px;
   margin-top: 20px;
   gap: 20px;
-
   padding: 0px;
   overflow: auto;
   position: relative;
@@ -72,7 +115,7 @@
 .Course h5 {
   font-size: 24px;
   margin: 0;
-
+  border-bottom: 2px solid #28557a2e;
   padding: 10px 20px;
 }
 .leftSide,
@@ -157,8 +200,7 @@
   width: 100%;
 }
 .mainHead {
-  background: linear-gradient(90deg, #f99600 0%, #edb552 76.48%),
-    linear-gradient(90deg, #0072bc 0%, #f99600 103.64%);
+  background: #0072bc;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -231,8 +273,8 @@
   margin-left: -3px;
 }
 .fillBtn {
-  background-color: #f99600;
-  color: black;
+  background-color: #0072bc;
+  color: white;
   height: 100%;
 
   border-radius: 0px 0px 8px 0px;

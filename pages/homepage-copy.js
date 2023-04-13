@@ -42,7 +42,7 @@ third="Technology" popup={true} dataScience={true} radio={true} />
       <Course />
       <Switch />
       <KeyFeatures />
-      <CoreFeature />
+      {/* <CoreFeature /> */}
       <Testimonial />
       <ContactUs />
       <SeventhSection />

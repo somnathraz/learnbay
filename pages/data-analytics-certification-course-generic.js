@@ -23,8 +23,13 @@ import {
   MentorshipFaqData6,
   SupportFaqData6,
 } from "../components/NewDesign/FAQNew/FaqData";
+import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
+import Project from "../components/NewDesign/Project/Project";
+import Switch from "../components/NewDesign/HomePage/switch/switch";
+import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
+import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
-function blockchain() {
+function dataAnalytics() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -70,27 +75,52 @@ function blockchain() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Analytics.png"
-          firstToparaImg="For Professionals"
-          firstHeading="Data Analytics Certification Program"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/data+analytics+header+image.webp"
+          firstToparaImg="Data Analytics Certification "
+          firstHeading="Upskill yourself to the top with"
+          firstTopPara="Industry-Approved Program!"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
-          firstTopPara="Get ahead of the competition with popular skill sets."
         />
         <SecondSection
           fullStackReview={true}
-          SecondHead="What makes us your first choice!"
-          SecondPara="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
-          SecondPara1="1:1 video call with expert & live doubt resolution"
-          SecondPara2="Work on 8 advanced & 2 capstone projects"
-          SecondPara3="Live online classes boost interaction"
-          SecondPara4="Career Services & alumni network access"
+          SecondHead="Who’s a fit for this program? "
+          SecondPara="India's top rated  bootcamp for working professionals "
+          heading1="On-Demand Doubt Sessions"
+          heading2="Guaranteed Interview Calls"
+          heading3="Project Certificate From IBM"
+          heading4="Designed For Professionals"
+          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries."
+          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners."
+          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
+          SecondPara4="Prioritize growth and salary increases with in-demand skills."
         />
+        <ProgramCustomer
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+analytics+_Who+is+this+program+for_.webp"
+          heading1="Education"
+          heading2="Work experience"
+          heading3="Career stage"
+          heading4="Aspirations"
+          para1="Bachelor's degree with consistent academic performance."
+          para2="Minimum 1 year of IT/Non-IT work experience."
+          para3="Early to mid-career professionals interested in Data analytics."
+          para4="Developing skills in data analytics in preparation for future opportunities."
+        />
+        <Switch />
         <ThirdSection
-          secondLine="Get ahead in your career with our programs"
-          thirdHeadSpan="Master key skills to excel in your career & land your dream job"
-          BatchPara="The data analytics program is aimed at professionals who want to use data to make informed decisions and stay competitive in their career or industry. This course is open to individuals in various sectors and job roles."
-          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DATA+ANALYTICS+Left.png"
-          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DATA+ANALYTICS+Right.png"
+          secondLine="Invest In Yourself!"
+          thirdHeadSpan=" Alumni Community."
+          thirdHead="Stay Ahead Of The Curve With The Support Of Our"
+          point1="3-year subscription to course"
+          point2="Resume building sessions"
+          point3="3 mock sessions with industry leaders"
+          point4="5-8 interview opportunities"
+          BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
+          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
+          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
@@ -127,8 +157,16 @@ function blockchain() {
           hours="250+ Hours"
           project="12+ Real Time"
         />
+        <GrowthStats
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DA-Scope.webp"
+          heading="Move forward with Data Analysis "
+          para1="Data Analytics market to reach $133 billion by 2026"
+          para2="Top priority for all organisations"
+          para3="Abundance of positions with Data Analysis"
+        />
         <FifthSection
-          AnalyticsCertificate={true}
+          advanceCertificate={true}
+          Ibm={true}
           Fee="₹ 79,000 + 18% GST"
           FeeEmi="₹ 7,768/month"
           FeeHeading="Program Fee & Financing"
@@ -165,7 +203,7 @@ function blockchain() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <DomainSection />
-        <SixthSection
+        {/* <SixthSection
           point1="Practise with Latest Tools"
           point2="8 Advanced Projects"
           point3="2 Capstone Projects"
@@ -173,8 +211,12 @@ function blockchain() {
           FoundationDSProject={true}
           CourseFeeHead="Data Analytics Program : Batch Details"
           dataScience={true}
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-        />
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
+        /> */}
+         <Project
+        DsProject={true}
+         project="15+ Projects" tools="16+" />
+        <BatchDetails CourseFeeHead="Business Analytics Master Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData6}
           PaymentFaqDatas={PaymentFaqData6}
@@ -192,4 +234,4 @@ function blockchain() {
   );
 }
 
-export default blockchain;
+export default dataAnalytics;

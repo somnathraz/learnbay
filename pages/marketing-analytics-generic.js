@@ -9,26 +9,26 @@ import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
 import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
-import SixthSection from "../components/NewDesign/SixthSection/SixthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
-import { FoundtionCourseData } from "../Data/FoundtionCourse";
-import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
-import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
-import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
-import Switch from "../components/NewDesign/HomePage/switch/switch";
+import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
+import { MarketingCourse } from "../Data/MarketingCourse";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
+import {
+  FaqDataMarkering,
+  PaymentFaqDataMarkering,
+  CapstoneFaqDataMarkering,
+  CertificationFaqDataMarkering,
+  jobFaqDataMarkering,
+  MentorshipFaqDataMarkering,
+  SupportFaqDataMarkering,
+} from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
-import {
-  FaqData1,
-  PaymentFaqData1,
-  CapstoneFaqData1,
-  CertificationFaqData1,
-  jobFaqData1,
-  MentorshipFaqData1,
-  SupportFaqData1,
-} from "../components/NewDesign/FAQNew/FaqData";
+import Switch from "../components/NewDesign/HomePage/switch/switch";
+import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
+import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
-function blockchain() {
+function Marketing() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -37,16 +37,24 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Data Science Foundation Program</title>
-        <meta name="description" content="Data Science Foundation Program" />
-        <meta name="keywords" content="Data Science Foundation Program" />
+        <title>
+          Advanced Data Science and AI Program with Domain Specialization
+        </title>
+        <meta
+          name="description"
+          content="Advanced Data Science and AI Program with Domain Specialization"
+        />
+        <meta
+          name="keywords"
+          content="Advanced Data Science and AI Program with Domain Specialization"
+        />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-science-certification-courses"
+          href="https://www.learnbay.co/advance-data-science-certification-courses"
         />
       </Head>
       <main>
@@ -66,52 +74,52 @@ function blockchain() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+header.webp"
-          firstToparaImg="with industry-specific training"
-          firstHeading="Enhance your earning potential"
-          firstTopPara="Data science foundation course "
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/marketing-header-image+.webp"
+          firstToparaImg="Applied Marketing Analytics"
+          firstHeading="Elevate Your Career With Certification In"
+          firstTopPara="Experience the future of Analytics"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
           fullStackReview={true}
-          SecondHead="Who’s a fit for this program? "
-          SecondPara="Gain a strong foundation in data science & get promoted with high pay"
+          SecondHead="Why Choose Us?"
+          SecondPara="India's top rated  bootcamp for working professionals "
           heading1="On-Demand Doubt Sessions"
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
-          heading4="Designed For Professionals"
+          heading4="For Marketing professionals"
           SecondPara1="Talk to an industry expert and receive real-time solutions to your queries."
           SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners."
-          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
-          SecondPara4="Prioritize growth and salary increases with in-demand skills."
+          SecondPara3="Maximize marketing career opportunities with a portfolio and smooth role transition."
+          SecondPara4="Boost your growth and earnings with in-demand people analytics skills."
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+Who+is+this+program+for.webp"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/marketing+_+Who-is-this-program-for+_+image.webp"
+          para1="Bachelor's degree with consistent good academics"
+          para2="Minimum 1 year of IT/Non-IT work experience. "
+          para3="Early to mid-career professionals interested in Marketing analytics."
+          para4=" To become a data-driven marketer and continuously optimize strategies."
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
           heading4="Aspirations"
-          para1="Bachelor's degree with consistent academic performance.
-"
-          para2="Minimum 6 months of IT/Non-IT work experience."
-          para3="Early to mid-career professionals interested in Data science."
-          para4="Preparing for future opportunities in Data science."
         />
         <Switch />
         <ThirdSection
-          secondLine="Get ahead in your career with our programs"
-          thirdHeadSpan="We are enlightened to pave path for 20k+, and continue do so"
-          point1="3-year subscription to course"
-          point2="Resume building sessions"
-          point3="3 mock sessions with industry leaders"
-          point4="5-8 interview opportunities"
-          BatchPara="The pie-chart representation here shows that the comprehensive Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an expert level, coming from the following industries and designation:"
-          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+Left+Graph.png"
-          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+Right+Graph.png"
+          secondLine="Invest In Yourself!"
+          thirdHeadSpan=" Alumni Community."
+          thirdHead="Stay Ahead Of The Curve With The Support Of Our"
+          point1="Enjoy 3 Years Of Career Service Access"
+          point2="Get 3 Mock Session With Industry Leaders"
+          point3="Resume Build Up Session"
+          point4="Get 5-8 Interview Calls"
+          BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
+          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
+          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
@@ -141,24 +149,24 @@ function blockchain() {
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
-          syllabus={FoundtionCourseData[0].syllabus}
-          syllabusDesc={FoundtionCourseData[0].syllabusDesc}
-          popupHead={FoundtionCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf"
+          syllabus={MarketingCourse[0].syllabus}
+          syllabusDesc={MarketingCourse[0].syllabusDesc}
+          popupHead={MarketingCourse[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
         <GrowthStats
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+Foundation+Scope.webp"
-          heading="Data science is the future! "
-          para1="Data scientists’ employment to grow by 36% "
-          para2="Influences on nearly all sectors of today's industries"
-          para3="Will always be the most highly paid career "
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Marketing+Analytics+Scope.webp"
+          heading="Join the billion-dollar Marketing Analytics market and secure your future!"
+          para1="Get an average salary of ₹19.7 lakhs."
+          para2="Marketing Analytics market is expected to reach USD 9 billion by 2024."
+          para3="Growing demand for data-driven HR decision-making."
         />
         <FifthSection
-          NoCertficate={true}
-          Fee="₹ 79,000 + 18% GST"
-          FeeEmi="₹ 7,768/month"
+          advanceCertificate={true}
+          Fee="₹ 89,000 + 18% GST"
+          FeeEmi="₹ 4,375/month"
           FeeHeading="Program Fee & Financing"
           FeeContent1="0% interest rate"
           FeeContent2="No Cost EMI"
@@ -192,16 +200,16 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-         <Project project="12+ Projects" tools="16+" DsProject={true}/>
-        <BatchDetails CourseFeeHead="Data Science and AI Master Program : Batch Details" />
+        <Project project="12+ Projects" tools="16+" Marketing={true}/>
+        <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew
-          FaqDatas={FaqData1}
-          PaymentFaqDatas={PaymentFaqData1}
-          CapstoneFaqDatas={CapstoneFaqData1}
-          CertificationFaqDatas={CertificationFaqData1}
-          jobFaqDatas={jobFaqData1}
-          MentorshipFaqDatas={MentorshipFaqData1}
-          SupportFaqDatas={SupportFaqData1}
+          FaqDatas={FaqDataMarkering}
+          PaymentFaqDatas={PaymentFaqDataMarkering}
+          CapstoneFaqDatas={CapstoneFaqDataMarkering}
+          CertificationFaqDatas={CertificationFaqDataMarkering}
+          jobFaqDatas={jobFaqDataMarkering}
+          MentorshipFaqDatas={MentorshipFaqDataMarkering}
+          SupportFaqDatas={SupportFaqDataMarkering}
         />
         <SeventhSection />
 
@@ -211,4 +219,4 @@ function blockchain() {
   );
 }
 
-export default blockchain;
+export default Marketing;

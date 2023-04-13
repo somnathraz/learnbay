@@ -11,11 +11,12 @@ import AIMLCertificateTab from "../CertificateTab/AIMLCertificateTab";
 import ManagersCertificateTab from "../CertificateTab/ManagersCertificateTab";
 import MasterCertificateTab from "../CertificateTab/MasterCertificateTab";
 import AnalyticsCertificateTab from "../CertificateTab/AnalyticsCertificateTab";
+import BACertificateTab from "../FifthSection/CertificateTabBusiness";
 import FinanceCertificateTab from "../CertificateTab/FinanceCertificateTab";
 
 function FifthSection({
   FeeHeading,
-  img1,
+  BACertificate,
   img2,
   img3,
   img4,
@@ -142,6 +143,7 @@ function FifthSection({
           {MasterCertificate ? <MasterCertificateTab /> : ""}
           {ManagersCertificate ? <ManagersCertificateTab /> : ""}
           {AnalyticsCertificate ? <AnalyticsCertificateTab /> : ""}
+          {BACertificate ? <BACertificateTab /> : ""}
           {FinanceCertificate ? <FinanceCertificateTab /> : ""}
         </div>
       )}

@@ -20,7 +20,7 @@ function BatchDetails({
                 <div>
                   <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
                 </div>
-                <div>
+                <div className={styles.listMobile}>
                   <p className={styles.list}>
                     <MdDateRange className={styles.iconOrange} />
                     7th April 2023
@@ -34,7 +34,7 @@ function BatchDetails({
                 <div>
                   <p className={styles.listDay}>Weekend Afternoon (Sat-Sun)</p>
                 </div>
-                <div>
+                <div className={styles.listMobile}>
                   <p className={styles.list}>
                     <MdDateRange className={styles.iconOrange} />
                     9th April 2023
@@ -56,7 +56,7 @@ function BatchDetails({
                         Weekday Evening (Mon-Fri)
                       </p>
                     </div>
-                    <div>
+                    <div className={styles.listMobile}>
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
                         31st March 2023
@@ -75,7 +75,7 @@ function BatchDetails({
                         Weekend Morning (Sat-Sun)
                       </p>
                     </div>
-                    <div>
+                    <div className={styles.listMobile}>
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
                         9th April 2023
@@ -91,7 +91,7 @@ function BatchDetails({
                         Weekday Evening (Mon-Wed-Fri)
                       </p>
                     </div>
-                    <div>
+                    <div className={styles.listMobile}>
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
                         14th April 2023

@@ -9,19 +9,25 @@ import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
 import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
-import SixthSection from "../components/NewDesign/SixthSection/SixthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
-import { DataAnalyticsCourseData } from "../Data/DataAnalyticsData";
-import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
+import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
+import { BusinessAnalyticsCourseData } from "../Data/BusinessAnalyticsData";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
 import {
-  FaqData6,
-  PaymentFaqData6,
-  CapstoneFaqData6,
-  CertificationFaqData6,
-  jobFaqData6,
-  MentorshipFaqData6,
-  SupportFaqData6,
-} from "../components/NewDesign/FAQNew/FaqData";
+  FaqData7,
+  PaymentFaqData7,
+  CapstoneFaqData7,
+  CertificationFaqData7,
+  jobFaqData7,
+  MentorshipFaqData7,
+  SupportFaqData7,
+} from "../components/FAQ/FaqData";
+import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
+import Project from "../components/NewDesign/Project/Project";
+import Switch from "../components/NewDesign/switch/switch";
+import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
+import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
 function blockchain() {
   const [popups, setPopups] = useState(false);
@@ -33,15 +39,15 @@ function blockchain() {
     <>
       <Head>
         <title>
-          Banking & Finance Analytics
+          Business Analytics Master Program
         </title>
         <meta
           name="description"
-          content="Banking & Finance Analytics"
+          content="Business Analytics Master Program"
         />
         <meta
           name="keywords"
-          content="Banking & Finance Analytics"
+          content="Business Analytics Master Program"
         />
         <link
           rel="icon"
@@ -49,7 +55,7 @@ function blockchain() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/banking-finance-analytics"
+          href="https://www.learnbay.co/advance-data-science-certification-courses"
         />
       </Head>
       <main>
@@ -69,27 +75,52 @@ function blockchain() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Finance.png"
-          firstToparaImg="For Non-tech Professionals"
-          firstHeading="Banking & Finance Analytics"
-          firstTopPara="Transform career & upskill finance knowledge"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Business-Analytics-Masters-Header.png"
+          firstToparaImg="With Business Analytics Master Program"
+          firstHeading="Elevate your Expertise"
+          firstTopPara="Become a master without master’s degree"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
           fullStackReview={true}
-          SecondHead="What makes us your first choice!"
-          SecondPara="We offer customised finance training and practical skills to enhance career prospects. Our networking opportunities aid in securing top positions with leading companies."
-          SecondPara1="4X Career growth with 350% salary hike"
-          SecondPara2="10 advance & 2 capstone projects"
-          SecondPara3="1:1 video call with expert & live doubt resolution"
-          SecondPara4="Skill enhancement & higher rank promotion"
+          SecondHead="Why Choose Us?"
+          SecondPara="India's top rated  bootcamp for working professionals "
+          heading1="On-Demand Doubt Sessions"
+          heading2="Guaranteed Interview Calls"
+          heading3="Project Certificate From IBM"
+          heading4="Designed For Professionals"
+          SecondPara1="Clear your doubts with industry experts and get real-time solutions"
+          SecondPara2="Boost career chances, gain referrals from 300+ high-level recruiters"
+          SecondPara3="Master the domain of business analytics with certificate from IBM"
+          SecondPara4="Use tech innovation to drive business strategy & acquire in-demand skills"
         />
+        <ProgramCustomer
+        leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA-Masters-who.png"
+        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+        img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+        img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+        img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+        heading1="Education"
+        heading2="Work experience"
+        heading3="Career stage"
+        heading4="Aspirations"
+        para1="Bachelor's degree with consistent good academic"
+        para2="Minimum 6 months of Non-IT work experience"
+        para3="Early to mid-career professionals interested in business analytics"
+        para4="Preparing for future leadership in business analytics"
+        />
+        <Switch/>
         <ThirdSection
-          secondLine="Get ahead in your career with our programs"
-          thirdHeadSpan="Enhance finance analytics skills for career growth and higher promotions"
-          BatchPara="The banking & finance analytics program is designed for professionals across various sectors and designations who want to acquire necessary skills and knowledge to analyze financial data and make informed business decisions."
-          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FINANCE+Left.png"
-          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FINANCE+Right.png"
+          secondLine="Invest In Yourself!"
+          thirdHeadSpan=" Alumni Community."
+          thirdHead="Stay Ahead Of The Curve With The Support Of Our"
+          point1="Enjoy 3 Years Of Career Service Access"
+          point2="Get 6 Mock Interviews with Industry Leaders"
+          point3="Resume Build Up Session"
+          point4="Get Unlimited Interview Calls"
+          BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
+          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
+          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
@@ -115,28 +146,33 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
         <FourthSection
+          serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
-          serviceBasic={true}
           dataScience={true}
-          syllabus={DataAnalyticsCourseData[0].syllabus}
-          syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
-          popupHead={DataAnalyticsCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+          syllabus={BusinessAnalyticsCourseData[0].syllabus}
+          syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
+          popupHead={BusinessAnalyticsCourseData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
+        <GrowthStats
+        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope-Business-Analytics.png"
+        heading="Future of Business Analytics"
+        para1="Business analytics market to hit $106B by 2027"
+        para2="Get an average salary of INR 10+ lakhs"
+        para3="Abundant opportunities in various industries and domains"
+        />
         <FifthSection
-          FinanceCertificate={true}
-          Fee="₹ 89,000 + 18% GST"
-          FeeEmi="₹ 8,752/month"
+          advanceCertificate={true}
+          Fee="₹ 1,10,000 + 18% GST"
+          FeeEmi="₹ 10,816/month"
           FeeHeading="Program Fee & Financing"
-          FeeContent1="0% interest rate"
           FeeContent2="No Cost EMI"
           FeeContent3="Flexible payment"
           FeeContent4="Easy loan procedure"
           FeeContent5="15 days refund policy"
-          FeeContent6="No additional cost"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
@@ -163,27 +199,25 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <SixthSection
-          point1="Practise with Latest Tools"
-          point2="10 Advanced Projects"
-          point3="2 Capstone Projects"
-          point4="Designed by Industry Experts"
-          FoundationDSProject={true}
-          CourseFeeHead="Banking & Finance Analytics : Batch Details"
-          dataScience={true}
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
+        <DomainSection 
+        imgDomain="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA-Domain-Electives.png"
+        BAdomain={true}
         />
+        <Project
+        DsProject={true}
+         project="15+ Projects" tools="16+" />
+        <BatchDetails CourseFeeHead="Business Analytics Master Program : Batch Details" />
         <FAQNew
-          FaqDatas={FaqData6}
-          PaymentFaqDatas={PaymentFaqData6}
-          CapstoneFaqDatas={CapstoneFaqData6}
-          CertificationFaqDatas={CertificationFaqData6}
-          jobFaqDatas={jobFaqData6}
-          MentorshipFaqDatas={MentorshipFaqData6}
-          SupportFaqDatas={SupportFaqData6}
+          FaqDatas={FaqData7}
+          PaymentFaqDatas={PaymentFaqData7}
+          CapstoneFaqDatas={CapstoneFaqData7}
+          CertificationFaqDatas={CertificationFaqData7}
+          jobFaqDatas={jobFaqData7}
+          MentorshipFaqDatas={MentorshipFaqData7}
+          SupportFaqDatas={SupportFaqData7}
         />
         <SeventhSection />
-
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </>

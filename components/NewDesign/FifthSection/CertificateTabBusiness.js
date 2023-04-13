@@ -9,38 +9,33 @@ import {
   MicrosoftCertificateAdvance,
 } from "./CertificateDetail";
 
-function CertificateTab({ Ibm }) {
+function CertificateTab() {
   const [MActive, setMActive] = useState(false);
   const [IActive, setIActive] = useState(true);
   return (
     <section className={styles.CertificateTab}>
       <div className={styles.header}>
-        {Ibm ? (
-          ""
-        ) : (
-          <div className={styles.pWrap}>
-            <p
-              onClick={() => {
-                setIActive(true);
-                setMActive(false);
-              }}
-              className={IActive ? styles.activeP : styles.inactiveP}
-            >
-              IBM Certificate
-            </p>
-            <hr className={styles.line} />
-
-            <p
-              onClick={() => {
-                setIActive(false);
-                setMActive(true);
-              }}
-              className={MActive ? styles.activeP : styles.inactiveP}
-            >
-              Microsoft Certification
-            </p>
-          </div>
-        )}
+        <div className={styles.pWrap}>
+          <p
+            onClick={() => {
+              setIActive(true);
+              setMActive(false);
+            }}
+            className={IActive ? styles.activeP : styles.inactiveP}
+          >
+            IBM Certificate
+          </p>
+          <hr className={styles.line} />
+          <p
+            onClick={() => {
+              setIActive(false);
+              setMActive(true);
+            }}
+            className={MActive ? styles.activeP : styles.inactiveP}
+          >
+            Microsoft Certification
+          </p>
+        </div>
       </div>
 
       <div className={MActive ? styles.certificateS : styles.certificate}>
@@ -56,8 +51,8 @@ function CertificateTab({ Ibm }) {
                       alt="Certificate"
                       quality={100}
                       layout="intrinsic"
-                      width={1150}
-                      height={800}
+                      width="1150px"
+                        height="800px"
                     />
                   </div>
                   <div className={styles.rightSide}>

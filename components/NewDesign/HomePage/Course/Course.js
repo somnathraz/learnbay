@@ -82,7 +82,7 @@ const Course = () => {
 
   return (
     <div className={styles.Course} id="course">
-      <h2>Our Course</h2>
+      <h2>Industry Accredited Certification For Professionals</h2>
 
       <div className={styles.courses}>
         <div className={styles.listPanel}>
