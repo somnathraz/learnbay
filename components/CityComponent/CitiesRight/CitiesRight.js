@@ -34,6 +34,9 @@ const CitiesRight = ({
   ProgramBot6,
   listitem1,
   ProgramBot7,
+  Programvideo,
+  // GoogleMaps,
+  // Googlemap,
   ProgramHead7,
   ProgramBot8,
   ProgramBot9,
@@ -844,7 +847,7 @@ established itself as one of the best data science institutes in Mumbai with the
                 <p>
                 The average <b>data scientist salary in Hyderabad</b> is ₹10,00,000 per annum.
                  Wondering which is the <b>best Data Training Institute in Hyderabad</b>? Well, look no further. 
-                 Learnbay’s customized and domain-specialized courses give you an edge over the others. 
+                 Learnbay’s customized and domain-specialized courses give you an edge over the others. <br/>, <br/>,
                  Choose <a href="https://www.learnbay.co/data-science-course-training-in-hyderabad" target="_blank"  style={{ color: "#2D9CD7", fontWeight: "600" }}>Learnbay Institute</a> to 
                  be a part of your learnings, and trust us, you’ll not regret it. 
                 </p>
@@ -2263,6 +2266,8 @@ target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>artificial intel
                
                 <YoutubeVideo/>                
           </div>
+
+
         ) : (
           <div className={styles.CitiesRightInner}>
             <h2 className={styles.pHead}>{ProgramHead1}</h2>
@@ -2288,7 +2293,9 @@ target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>artificial intel
 
             <div className={styles.pp}>{listitem1}</div>
 
-            <p className={styles.pp}>{ProgramBot7}</p>
+            <div className={styles.pp}>{ProgramBot7}</div>
+            <div className={styles.pp}>{Programvideo}</div>
+            {/* <div className={styles.pp}>{GoogleMaps}</div> */}
             <p className={styles.pp}>{ProgramBot61}</p>
             <p className={styles.pp}>{ProgramBot62}</p>
             <h2 className={styles.pHead}>{ProgramHead7}</h2>

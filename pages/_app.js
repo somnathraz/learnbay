@@ -34,6 +34,12 @@ function MyApp({ Component, pageProps }) {
         src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"
       ></Script>
 
+      <Script 
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY">
+        
+        </Script>
+
+
       <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=G-86WLBHQTY3`}
