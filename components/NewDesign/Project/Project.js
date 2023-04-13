@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { BsCheck2 } from "react-icons/bs";
 
-import { FaDownload } from "react-icons/fa";
+import { FaDownload, FaTools, FaLaptopCode } from "react-icons/fa";
 import { GoDeviceDesktop } from "react-icons/go";
 import { AiOutlineBank } from "react-icons/ai";
 import ProjectPopup from "../ProjectPopup/ProjectPopup";
@@ -62,14 +62,14 @@ const Project = ({ tools, project, Hr, BFSI, DsProject, Marketing }) => {
           </div>
           <div className={styles.projectNumb}>
             <div className={styles.leftProjectNumb}>
-              <GoDeviceDesktop className={styles.lIcon} />
+              <FaLaptopCode className={styles.lIcon} />
               <div>
                 <h5>{project}</h5>
                 <p>Available</p>
               </div>
             </div>
             <div className={styles.rightProjectNumb}>
-              <AiOutlineBank className={styles.rIcon} />
+              <FaTools className={styles.rIcon} />
               <div>
                 <h5>{tools} Tools</h5>
                 <p>Covered</p>

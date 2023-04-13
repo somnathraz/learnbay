@@ -16,6 +16,9 @@
   grid-template-columns: 57% 40%;
   gap: 30px;
 }
+.price p {
+  font-weight: 700;
+}
 .leftSide {
   display: flex;
   flex-flow: column;
@@ -29,10 +32,11 @@
 .leftSide p {
   color: #676767;
   margin: 0;
+  font-size: 18px;
 }
 .leftSide h5 {
   font-size: 30px;
-  color: #ecbb53;
+  color: #f99600;
   margin: 20px 0;
 }
 .list {
@@ -46,7 +50,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 40px;
+  gap: 30px;
 }
 .list div p {
   display: flex;
@@ -181,21 +185,20 @@
     display: grid;
     justify-content: left;
     gap: 10px;
+  }
+  .list div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+  }
+  .feeWrapper h4 {
+    font-size: 24px;
+  }
+  .ptop {
+    font-size: 18px;
+    margin: 0px 20px 20px 20px;
+  }
 }
-.list div {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  gap: 10px;
-}
-.feeWrapper h4 {
-  font-size: 20px;
-}
-.ptop {
-  font-size: 18px;
-  margin: 0px 20px 20px 20px;
-}
-}
-

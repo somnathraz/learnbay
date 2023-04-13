@@ -14,18 +14,24 @@
   color: #28557a;
   font-weight: 600;
   text-align: left;
+  margin-bottom: 0px;
 }
 
 .checkpoint {
   display: flex;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
   color: #686565;
+  margin-top: 15px;
+}
+
+.checkpoint p {
+margin: 0;
 }
 
 .check {
   color: #2db621;
-  font-size: 40px;
+  font-size: 26px;
   font-weight: 800;
 }
 @media (max-width: 1281px) {

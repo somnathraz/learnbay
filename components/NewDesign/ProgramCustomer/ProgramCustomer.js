@@ -65,7 +65,7 @@ const ProgramCustomer = ({
               </div>
             </div>
             <div className={styles.bottom}>
-              <div className={styles.leftSide}>
+              <div className={styles.rightSide}>
                 <div className={styles.boxIcon}>
                   <div className={styles.imgWrap}>
                     {/* <Image
@@ -80,7 +80,7 @@ const ProgramCustomer = ({
                 <h4 className={styles.heading1}>{heading3}</h4>
                 <p>{para3}</p>
               </div>
-              <div className={styles.rightSide}>
+              <div className={styles.leftSide}>
                 <div className={styles.boxIcon}>
                   <div className={styles.imgWrap}>
                     {/* <Image

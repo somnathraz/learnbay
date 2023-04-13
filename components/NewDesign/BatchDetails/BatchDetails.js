@@ -1,18 +1,14 @@
-import React from 'react'
+import React from "react";
 import { MdDateRange } from "react-icons/md";
 import { BiTimeFive } from "react-icons/bi";
 import styles from "./BatchDetails.module.css";
 import Form from "../../Form/Form";
 
-function BatchDetails({
-    CourseFeeHead,
-    WebDev,
-    FullStack,
-}) {
+function BatchDetails({ CourseFeeHead, WebDev, FullStack }) {
   return (
     <>
-          <section className={styles.Syllabus}>
-        <p className={styles.infop}>{CourseFeeHead}</p>
+      <section className={styles.Syllabus}>
+        <p className={styles.infop}>Batch Details</p>
         <div className={styles.mobileView}>
           {FullStack ? (
             <div className={styles.NewBatch}>
@@ -217,7 +213,7 @@ function BatchDetails({
         <Form />
       </div>
     </>
-  )
+  );
 }
 
-export default BatchDetails
+export default BatchDetails;

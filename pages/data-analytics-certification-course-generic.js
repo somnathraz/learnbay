@@ -14,6 +14,7 @@ import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSectio
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { DataAnalyticsCourseData } from "../Data/DataAnalyticsData";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
+import Project from "../components/NewDesign/Project/Project";
 import {
   FaqData6,
   PaymentFaqData6,
@@ -24,7 +25,7 @@ import {
   SupportFaqData6,
 } from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
-import Project from "../components/NewDesign/Project/Project";
+// import Project from "../components/NewDesign/Project/Project";
 import Switch from "../components/NewDesign/HomePage/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
@@ -78,7 +79,7 @@ function dataAnalytics() {
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/data+analytics+header+image.webp"
           firstToparaImg="Data Analytics Certification "
           firstHeading="Upskill yourself to the top with"
-          firstTopPara="Industry-Approved Program!"
+          firstTopPara="Industry-approved program!"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
@@ -89,10 +90,10 @@ function dataAnalytics() {
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
           heading4="Designed For Professionals"
-          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries."
-          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners."
-          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
-          SecondPara4="Prioritize growth and salary increases with in-demand skills."
+          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners"
+          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition"
+          SecondPara4="Prioritize growth and salary increases with in-demand skills"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
@@ -104,20 +105,20 @@ function dataAnalytics() {
           heading2="Work experience"
           heading3="Career stage"
           heading4="Aspirations"
-          para1="Bachelor's degree with consistent academic performance."
-          para2="Minimum 1 year of IT/Non-IT work experience."
-          para3="Early to mid-career professionals interested in Data analytics."
-          para4="Developing skills in data analytics in preparation for future opportunities."
+          para1="Bachelor's degree with good academic performance"
+          para2="Minimum 1 year of IT/Non-IT work experience"
+          para3="Early to mid-career professionals interested in Data analytics"
+          para4="Developing skills in data analytics for future opportunities"
         />
         <Switch />
         <ThirdSection
           secondLine="Invest In Yourself!"
           thirdHeadSpan=" Alumni Community."
-          thirdHead="Stay Ahead Of The Curve With The Support Of Our"
-          point1="3-year subscription to course"
-          point2="Resume building sessions"
-          point3="3 mock sessions with industry leaders"
-          point4="5-8 interview opportunities"
+          thirdHead="Stay Ahead Of The Curve With Support Of Our"
+          point1="Enjoy 3 years of career service access"
+          point2="Get 3 mock interviews with industry leaders"
+          point3="Resume build up session"
+          point4="Get 3-5 interview calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
@@ -213,10 +214,7 @@ function dataAnalytics() {
           dataScience={true}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         /> */}
-         <Project
-        DsProject={true}
-         project="15+ Projects" tools="16+" />
-        <BatchDetails CourseFeeHead="Business Analytics Master Program : Batch Details" />
+        <Project project="12+ Projects" tools="16+" DsProject={true} />
         <FAQNew
           FaqDatas={FaqData6}
           PaymentFaqDatas={PaymentFaqData6}

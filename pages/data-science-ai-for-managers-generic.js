@@ -78,9 +78,9 @@ function blockchain() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/manager+header+image.webp"
-          firstToparaImg="AI program for manager & leaders"
-          firstHeading="Be promotion ready with Data Science and"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Business-Analytics-Masters-Header.png"
+          firstToparaImg=" Data Science and AI Program For Manager & Leaders"
+          firstHeading="Be ready with"
           firstTopPara="Upskill with relevant skills "
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
         />
@@ -90,24 +90,24 @@ function blockchain() {
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
           heading4="Designed For Professionals"
-          SecondHead="What makes us your first choice!"
-          SecondPara="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
-          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries."
-          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners."
-          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
-          SecondPara4="Prioritize growth and salary increases with in-demand skills."
+          SecondHead="Who’s a fit for this program? "
+          SecondPara="India's top rated bootcamp for working professionals"
+          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners"
+          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition"
+          SecondPara4="Prioritize growth and salary increases with in-demand skills"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/hr-analytics-header-image.webp"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/manager+_Who+is+this+program+for_+image.webp"
           para1="Bachelor's degree with consistent good academics"
-          para2="Minimum 5 year of IT/Non-IT work experience. "
+          para2="Minimum 5 year of IT/Non-IT work experience "
           para3="Mid-Senior professionals interested in Data Science & AI
           "
-          para4=" Developing Data Science and AI expertise for future leadership opportunities. "
+          para4="Data Science & AI expertise for future opportunities "
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -115,12 +115,13 @@ function blockchain() {
         />
         <Switch />
         <ThirdSection
-          point1="3-year subscription to course"
-          point2="Resume building sessions"
-          point3="3 mock sessions with industry leaders"
-          point4="5-8 interview opportunities"
-          secondLine="Get ahead in your career with our programs"
-          thirdHeadSpan="Unleash your potential in data science and unlock new opportunities."
+          point1="Enjoy 3 years of career service access"
+          point2="Get 3 mock interviews with industry leaders"
+          point3="Resume build up session"
+          point4="Get 3-5 interview calls"
+          secondLine="Invest In Yourself!"
+          thirdHeadSpan=" Alumni Community."
+          thirdHead="Stay Ahead Of The Curve With Support Of Our"
           BatchPara="Data Science and AI Program for Managers targets professionals with 8+ years of experience from specific industries and designations to equip them with skills for driving business value and getting promoted with high salaries."
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/MANAGERS+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/MANAGERS+Right.png"
@@ -215,7 +216,7 @@ function blockchain() {
           dataScience={true}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         /> */}
-        <Project project="12+ Projects" tools="16+" DsProject={true}/>
+        <Project project="12+ Projects" tools="16+" DsProject={true} />
         <BatchDetails CourseFeeHead="Data science course for Mangers: Batch Details" />
         <FAQNew
           FaqDatas={FaqData4}
