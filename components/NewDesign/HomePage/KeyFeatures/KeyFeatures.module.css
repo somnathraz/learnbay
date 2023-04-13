@@ -2,7 +2,7 @@
   display: grid;
   width: 100%;
   flex-flow: column;
-  background-color: #0072bc;
+  background-color: #f3faff;
   position: relative;
   padding: 80px 100px 200px 100px;
   margin-bottom: 100px;
@@ -10,7 +10,7 @@
 .topHead {
   font-size: 30px;
   margin: 0;
-  color: white;
+  color: black;
 
   text-align: center;
   font-weight: 700;
@@ -72,6 +72,7 @@
 .rightSide {
   width: 100%;
   height: 300px;
+   
 }
 
 .circle {
@@ -82,16 +83,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: max-content;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #b8e3ff;
+ background-color: #fefeff;
+    padding: 30px 20px;
 }
 .slide p {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .slideWrap {
   display: flex;
   align-items: center;
   width: 100%;
-  gap: 40px;
+  gap: 30px;
+  grid-template-columns: 15% 80%;
+
+  
 }
 .btn {
   padding: 12px 24px;
@@ -112,7 +120,34 @@
   color: #0072bc;
   font-size: 45px;
 }
-
+.paraWrap{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 5px 40px;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 10% 89%;
+  align-items: center;
+  font-size: 22px;
+  gap: 20px;
+  margin: 0;
+  position: relative;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 1em;
+  border-left: 3px solid #516c82;
+}
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eaedf2;
+  padding: 5px;
+  font-size: 70px;
+}
+.numberIcon{
+  font-size: 40px;
+  color: #0072bc;
+}
 .RightWrap {
   background-color: #fff;
   border-radius: 20px;
@@ -127,7 +162,7 @@
   justify-content: center;
   position: relative;
   padding: 30px 200px;
-  box-shadow: 0px 42px 81px rgba(3, 131, 255, 0.15);
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .imgShowM {

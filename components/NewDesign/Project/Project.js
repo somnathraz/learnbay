@@ -14,7 +14,7 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 
-const Project = ({ tools, project, domain }) => {
+const Project = ({ tools, project, Hr, BFSI }) => {
   const [popups, setPopups] = useState(false);
 
   const [device, setDevice] = useState();
@@ -360,6 +360,483 @@ const Project = ({ tools, project, domain }) => {
               </span>
             </div>
           </SwiperSlide>
+          {Hr ? (
+            <>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Workforce Planning at GE</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/ge.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    E uses predictive analytics to forecast future talent needs
+                    and identify gaps in their workforce. By analyzing HR data
+                    such as employee demographics...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Workforce Planning at GE");
+                      setProjectTitle("HR Domain");
+                      setDesc(
+                        "E uses predictive analytics to forecast future talent needs and identify gaps in their workforce. By analyzing HR data such as employee demographics, attrition rates, and skills, GE can make informed decisions about hiring and workforce planning. Tools and Techniques used: Predictive analytics, Demographic analysis, Skills gap analysis.                        "
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hr-domain-img.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Performance Management at Deloitte</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/deloite.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Deloitte uses a data-driven approach to performance
+                    management. The company utilizes analytics to measure
+                    employee performance...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Performance Management at Deloitte");
+                      setProjectTitle("HR Domain");
+                      setDesc(
+                        "Deloitte uses a data-driven approach to performance management. The company utilizes analytics to measure employee performance, provide feedback, and identify areas for improvement.                        Tools and Techniques used: Performance metrics, Feedback analysis, Continuous performance management.                        "
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Marketing-domain-img.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Diversity and Inclusion at Google</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/google.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Google uses analytics to monitor and improve diversity and
+                    inclusion within the company. By analyzing HR data...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setProjectTitle("HR Domain");
+                      setTitle("Diversity and Inclusion at Google");
+                      setDesc(
+                        "Google uses analytics to monitor and improve diversity and inclusion within the company. By analyzing HR data, such as employee demographics and hiring practices, Google can identify areas where it needs to improve diversity and create initiatives to promote inclusion. Tools and Techniques used: Diversity metrics, Demographic analysis, Inclusion programs."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Compensation Analytics at Netflix</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/netflix.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Netflix uses analytics to determine employee compensation
+                    packages. By analyzing HR data such as market benchmarks...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Compensation Analytics at Netflix");
+                      setProjectTitle("HR Domain");
+                      setDesc(
+                        "Netflix uses analytics to determine employee compensation packages. By analyzing HR data such as market benchmarks, employee performance, and tenure, Netflix can offer compensation packages that are competitive and fair. Tools and Techniques used: Compensation analysis, Market benchmarking, Performance analysis."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Sales-domain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Succession Planning at AT&T</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/at%26t.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    AT&T uses analytics to identify high-potential employees and
+                    develop them for future leadership roles...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Succession Planning at AT&T");
+                      setProjectTitle("HR Domain");
+                      setDesc(
+                        "AT&T uses analytics to identify high-potential employees and develop them for future leadership roles. By analyzing HR data such as performance metrics, skills, and career aspirations, AT&T can create targeted development plans for its employees.                        "
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+            </>
+          ) : (
+            ""
+          )}
+          {BFSI ? (
+            <>
+              {" "}
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Risk Management</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/JP.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Develop a risk management system that uses predictive
+                    analytics to identify and assess risks in the financial
+                    sector.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Risk Management");
+                      setProjectTitle("BFSI Domain");
+                      setDesc(
+                        "Develop a risk management system that uses predictive analytics to identify and assess risks in the financial sector. Tools used: SAS, Tableau. Company: JPMorgan Chase."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hr-domain-img.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Fraud Detection</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/american.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Develop a fraud detection system that uses machine learning
+                    algorithms to identify potential fraud in financial
+                    transactions.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Fraud Detection");
+                      setProjectTitle("BFSI Domain");
+                      setDesc(
+                        "Develop a fraud detection system that uses machine learning algorithms to identify potential fraud in financial transactions."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Marketing-domain-img.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Customer Segmentation</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/citibank.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Develop a customer segmentation system that uses data
+                    analytics to segment customers based on demographics and
+                    financial behavior.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setProjectTitle("Manufacturing Domain");
+                      setTitle("BFSI Segmentation");
+                      setDesc(
+                        " Develop a customer segmentation system that uses data analytics to segment customers based on demographics and financial behavior.."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Anti-Money Laundering</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HSBC.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Develop an anti-money laundering system that uses predictive
+                    analytics to detect and prevent money laundering.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("prevent money laundering.");
+                      setProjectTitle("BFSI Domain");
+                      setDesc(
+                        "Develop an anti-money laundering system that uses predictive analytics to detect and "
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Sales-domain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Loan Origination</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/at%26t.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Develop a loan origination system that uses machine learning
+                    to automate the loan application process and determine
+                    creditworthiness.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Loan OriginationLoan Origination");
+                      setProjectTitle("BFSI Domain");
+                      setDesc(
+                        "Develop a loan origination system that uses machine learning to automate the loan application process and determine creditworthiness."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Trading Analytics</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/goldman.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Develop a trading analytics system that uses big data
+                    analytics to analyze financial data and improve trading
+                    strategies.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setProjectTitle("Trading Analytics");
+                      setTitle("BFSI Domain");
+                      setDesc(
+                        "Develop a trading analytics system that uses big data analytics to analyze financial data and improve trading strategies. "
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Portfolio Management</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/black+rock.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Develop a portfolio management system that uses data
+                    analytics to optimize investment portfolios and maximize
+                    returns.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Portfolio Management");
+                      setProjectTitle("BFSI Domain");
+                      setDesc(
+                        " Develop a portfolio management system that uses data analytics to optimize investment portfolios and maximize returns."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+            </>
+          ) : (
+            ""
+          )}
         </Swiper>
       </div>
 

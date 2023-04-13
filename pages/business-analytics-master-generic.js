@@ -25,7 +25,7 @@ import {
 } from "../components/FAQ/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
-import Switch from "../components/NewDesign/HomePage/switch/switch";
+import Switch from "../components/NewDesign/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
@@ -76,9 +76,9 @@ function blockchain() {
           second="Tips"
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Business-Analytics-Masters-Header.png"
-          firstToparaImg="With Domain Specialization"
-          firstHeading="Business Analytics Master Program"
-          firstTopPara="Specialization over Generalization"
+          firstToparaImg="With Business Analytics Master Program"
+          firstHeading="Elevate your Expertise"
+          firstTopPara="Become a master without master’s degree"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
@@ -88,8 +88,8 @@ function blockchain() {
           heading1="On-Demand Doubt Sessions"
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
-          heading4="Designed for BA Professionals"
-          SecondPara1="Clear your business analytics doubts with industry experts and get real-time solutions"
+          heading4="Designed For Professionals"
+          SecondPara1="Clear your doubts with industry experts and get real-time solutions"
           SecondPara2="Boost career chances, gain referrals from 300+ high-level recruiters"
           SecondPara3="Master the domain of business analytics with certificate from IBM"
           SecondPara4="Use tech innovation to drive business strategy & acquire in-demand skills"
@@ -100,10 +100,14 @@ function blockchain() {
         img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
         img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
         img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-        para1="Non-tech professionals with 6 months experience"
-        para2="Professionals interested in data-driven insights"
-        para3="Tech-savvy people driving business innovation"
-        para4="Individual seeking career opportunities in analytics"
+        heading1="Education"
+        heading2="Work experience"
+        heading3="Career stage"
+        heading4="Aspirations"
+        para1="Bachelor's degree with consistent good academic"
+        para2="Minimum 6 months of Non-IT work experience"
+        para3="Early to mid-career professionals interested in business analytics"
+        para4="Preparing for future leadership in business analytics"
         />
         <Switch/>
         <ThirdSection
@@ -154,11 +158,11 @@ function blockchain() {
           project="12+ Real Time"
         />
         <GrowthStats
-        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope+of+DS+left+image.png"
+        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope-Business-Analytics.png"
         heading="Future of Business Analytics"
-        para1="Business analytics market to hit $105.8B by 2027"
-        para2="Business analyst in India earns ₹7,25,675/year on average"
-        para3="Ample opportunities in various industries and domains"
+        para1="Business analytics market to hit $106B by 2027"
+        para2="Get an average salary of INR 10+ lakhs"
+        para3="Abundant opportunities in various industries and domains"
         />
         <FifthSection
           advanceCertificate={true}
@@ -196,6 +200,7 @@ function blockchain() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <DomainSection 
+        imgDomain="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA-Domain-Electives.png"
         BAdomain={true}
         />
         <Project

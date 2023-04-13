@@ -26,7 +26,7 @@ import {
 } from "../components/FAQ/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
-import Switch from "../components/NewDesign/HomePage/switch/switch";
+import Switch from "../components/NewDesign/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
@@ -76,10 +76,10 @@ function blockchain() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Advance%2BData%2BScience.png"
-          firstToparaImg="With Unlimited Interview Calls"
-          firstHeading="Data Science and AI Master Program"
-          firstTopPara="Specialization Over Generalization"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DSAI-Masters-Header.png"
+          firstToparaImg="Data Science and AI Master Program"
+          firstHeading="Discover new horizons with"
+          firstTopPara="Become a master without master’s degree"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
@@ -92,28 +92,33 @@ function blockchain() {
           heading4="Designed For Professionals"
           SecondPara1="Talk to an industry expert and receive real-time solutions to your queries."
           SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners."
-          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
-          SecondPara4="Prioritize growth and salary increases with in-demand skills."
+          SecondPara3="Master the domain of data science with certificate from IBM"
+          SecondPara4="Develop sought-after skills for better promotion & higher salary"
         />
         <ProgramCustomer
+        leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DSAI-Masters-Who.png"
         img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
         img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
         img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
         img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-        para1="Stay Ahead Of The Curve With The Support Of Our"
-        para2="Stay Ahead Of The Curve With The Support Of Our"
-        para3="Stay Ahead Of The Curve With The Support Of Our"
-        para4="Stay Ahead Of The Curve With The Support Of Our"
+        heading1="Education"
+        heading2="Work experience"
+        heading3="Career stage"
+        heading4="Aspirations"
+        para1="Bachelor's degree with consistent academic performance."
+        para2="Minimum 6 months of work experience."
+        para3="Early to mid-career professionals interested in data science"
+        para4="Preparing for future leadership opportunities in data science"
         />
         <Switch/>
         <ThirdSection
           secondLine="Invest In Yourself!"
           thirdHeadSpan=" Alumni Community."
           thirdHead="Stay Ahead Of The Curve With The Support Of Our"
-          point1="1:1 career & mentoring support"
-          point2="Job Placement Assistance"
-          point3="Lifetime LMS Access"
-          point4="Career Counselling"
+          point1="Enjoy 3 Years Of Career Service Access"
+          point2="Get 6 Mock Interviews with Industry Leaders"
+          point3="Resume Build Up Session"
+          point4="Get Unlimited Interview Calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
@@ -142,7 +147,6 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
         <FourthSection
-          serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
@@ -155,10 +159,10 @@ function blockchain() {
         />
         <GrowthStats
         img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope+of+DS+left+image.png"
-        heading="Lorem Ipsum some text missing Lorem Ipsum some text missing.."
-        para1="Stay Ahead Of The Curve With The Support Of Our"
-        para2="Stay Ahead Of The Curve With The Support Of Our"
-        para3="Stay Ahead Of The Curve With The Support Of Our"
+        heading="Power ahead in your career by joining the booming data science industry!"
+        para1="Higher Growth : Demand for data scientists to grow by 30% by 2024"
+        para2="Big Earning Potential : Earn an average salary of INR 10+ LPA"
+        para3="Strong Demand : Booming requirement across various industries and domains"
         />
         <FifthSection
           advanceCertificate={true}

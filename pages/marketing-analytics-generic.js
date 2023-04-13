@@ -9,19 +9,20 @@ import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
 import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
-import SixthSection from "../components/NewDesign/SixthSection/SixthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
-import { DataAnalyticsCourseData } from "../Data/DataAnalyticsData";
-import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
+import { MarketingCourse } from "../Data/MarketingCourse";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
 import {
-  FaqData6,
-  PaymentFaqData6,
-  CapstoneFaqData6,
-  CertificationFaqData6,
-  jobFaqData6,
-  MentorshipFaqData6,
-  SupportFaqData6,
+  FaqData2,
+  HrAnalytics,
+  DomainFaqData2,
+  PaymentFaqData2,
+  CapstoneFaqData2,
+  CertificationFaqData2,
+  jobFaqData2,
+  MentorshipFaqData2,
+  SupportFaqData2,
 } from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
@@ -29,7 +30,7 @@ import Switch from "../components/NewDesign/HomePage/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
-function dataAnalytics() {
+function Marketing() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -39,15 +40,15 @@ function dataAnalytics() {
     <>
       <Head>
         <title>
-          Data Analytics Certification Course With Placement Assistance
+          Advanced Data Science and AI Program with Domain Specialization
         </title>
         <meta
           name="description"
-          content="Data Analytics Certification Course With Placement Assistance"
+          content="Advanced Data Science and AI Program with Domain Specialization"
         />
         <meta
           name="keywords"
-          content="Data Analytics Certification Course With Placement Assistance"
+          content="Advanced Data Science and AI Program with Domain Specialization"
         />
         <link
           rel="icon"
@@ -55,7 +56,7 @@ function dataAnalytics() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-analytics-certification-course"
+          href="https://www.learnbay.co/advance-data-science-certification-courses"
         />
       </Head>
       <main>
@@ -75,49 +76,49 @@ function dataAnalytics() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/data+analytics+header+image.webp"
-          firstToparaImg="Data Analytics Certification "
-          firstHeading="Upskill yourself to the top with"
-          firstTopPara="Industry-Approved Program!"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/marketing-header-image+.webp"
+          firstToparaImg="Applied Marketing Analytics"
+          firstHeading="Elevate Your Career With Certification In"
+          firstTopPara="Experience the future of Analytics"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
           fullStackReview={true}
-          SecondHead="Who’s a fit for this program? "
+          SecondHead="Why Choose Us?"
           SecondPara="India's top rated  bootcamp for working professionals "
           heading1="On-Demand Doubt Sessions"
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
-          heading4="Designed For Professionals"
+          heading4="For Marketing professionals"
           SecondPara1="Talk to an industry expert and receive real-time solutions to your queries."
           SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners."
-          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
-          SecondPara4="Prioritize growth and salary increases with in-demand skills."
+          SecondPara3="Maximize marketing career opportunities with a portfolio and smooth role transition."
+          SecondPara4="Boost your growth and earnings with in-demand people analytics skills."
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+analytics+_Who+is+this+program+for_.webp"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/marketing+_+Who-is-this-program-for+_+image.webp"
+          para1="Bachelor's degree with consistent good academics"
+          para2="Minimum 1 year of IT/Non-IT work experience. "
+          para3="Early to mid-career professionals interested in Marketing analytics."
+          para4=" To become a data-driven marketer and continuously optimize strategies."
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
           heading4="Aspirations"
-          para1="Bachelor's degree with consistent academic performance."
-          para2="Minimum 1 year of IT/Non-IT work experience."
-          para3="Early to mid-career professionals interested in Data analytics."
-          para4="Developing skills in data analytics in preparation for future opportunities."
         />
         <Switch />
         <ThirdSection
           secondLine="Invest In Yourself!"
           thirdHeadSpan=" Alumni Community."
           thirdHead="Stay Ahead Of The Curve With The Support Of Our"
-          point1="3-year subscription to course"
-          point2="Resume building sessions"
-          point3="3 mock sessions with industry leaders"
-          point4="5-8 interview opportunities"
+          point1="Enjoy 3 Years Of Career Service Access"
+          point2="Get 3 Mock Session With Industry Leaders"
+          point3="Resume Build Up Session"
+          point4="Get 5-8 Interview Calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
@@ -146,29 +147,28 @@ function dataAnalytics() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
         <FourthSection
+          serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
-          serviceBasic={true}
           dataScience={true}
-          syllabus={DataAnalyticsCourseData[0].syllabus}
-          syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
-          popupHead={DataAnalyticsCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
+          syllabus={MarketingCourse[0].syllabus}
+          syllabusDesc={MarketingCourse[0].syllabusDesc}
+          popupHead={MarketingCourse[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
         <GrowthStats
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DA-Scope.webp"
-          heading="Move forward with Data Analysis "
-          para1="Data Analytics market to reach $133 billion by 2026"
-          para2="Top priority for all organisations"
-          para3="Abundance of positions with Data Analysis"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Marketing+Analytics+Scope.webp"
+          heading="Join the billion-dollar Marketing Analytics market and secure your future!"
+          para1="Get an average salary of ₹19.7 lakhs."
+          para2="Marketing Analytics market is expected to reach USD 9 billion by 2024."
+          para3="Growing demand for data-driven HR decision-making."
         />
         <FifthSection
           advanceCertificate={true}
-          Ibm={true}
-          Fee="₹ 79,000 + 18% GST"
-          FeeEmi="₹ 7,768/month"
+          Fee="₹ 89,000 + 18% GST"
+          FeeEmi="₹ 4,375/month"
           FeeHeading="Program Fee & Financing"
           FeeContent1="0% interest rate"
           FeeContent2="No Cost EMI"
@@ -202,25 +202,17 @@ function dataAnalytics() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <DomainSection />
-        <SixthSection
-          point1="Practise with Latest Tools"
-          point2="8 Advanced Projects"
-          point3="2 Capstone Projects"
-          point4="Designed by Industry Experts"
-          FoundationDSProject={true}
-          CourseFeeHead="Data Analytics Program : Batch Details"
-          dataScience={true}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-        />
+        <Project project="12+ Projects" tools="16+" />
+        <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew
-          FaqDatas={FaqData6}
-          PaymentFaqDatas={PaymentFaqData6}
-          CapstoneFaqDatas={CapstoneFaqData6}
-          CertificationFaqDatas={CertificationFaqData6}
-          jobFaqDatas={jobFaqData6}
-          MentorshipFaqDatas={MentorshipFaqData6}
-          SupportFaqDatas={SupportFaqData6}
+          FaqDatas={HrAnalytics}
+          DomainFaqDatas={DomainFaqData2}
+          PaymentFaqDatas={PaymentFaqData2}
+          CapstoneFaqDatas={CapstoneFaqData2}
+          CertificationFaqDatas={CertificationFaqData2}
+          jobFaqDatas={jobFaqData2}
+          MentorshipFaqDatas={MentorshipFaqData2}
+          SupportFaqDatas={SupportFaqData2}
         />
         <SeventhSection />
 
@@ -230,4 +222,4 @@ function dataAnalytics() {
   );
 }
 
-export default dataAnalytics;
+export default Marketing;

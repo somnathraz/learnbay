@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "./FirstSection.module.css";
 import { FaChevronDown, FaBell, FaDownload } from "react-icons/fa";
 import Popup from "../../../Popup/Popup";
 import Form from "../../../Form/Form";
 import Image from "next/image";
 import TextAnimation from "../../Animation/TextAnimation";
+import Typed from "typed.js";
 
-const FirstSection = ({ dataScience, radio,  first,
-  second,
-  third, }) => {
+const FirstSection = ({ dataScience, radio, first, second, third }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
+  const el = useRef(null);
 
   const popupShow = () => {
     setPopups(true);
@@ -26,10 +26,31 @@ const FirstSection = ({ dataScience, radio,  first,
       setMobile(true);
     }
   });
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: [
+        "Are you looking for a career transition?",
+        "Gain a competitive edge",
+        "Land your dream job",
+      ], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      startDelay: 100,
+      typeSpeed: 80,
+      backSpeed: 50,
+      backDelay: 200,
+      smartBackspace: true,
+      loop: true,
+      showCursor: false,
+    });
+
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
   return (
     <>
-
       <div className={styles.First}>
         <Popup
           trigger={popups}
@@ -50,12 +71,15 @@ const FirstSection = ({ dataScience, radio,  first,
         </Popup>
 
         <div className={styles.FirstLeft}>
-          <p className={styles.ptop}>
+          <div className={styles.animationTextWrap}>
+            <span ref={el} className={styles.animationText}></span>
+          </div>
+          {/* <p className={styles.ptop}>
             Take the first step in your blockchain development journey with our
-          </p>
+          </p> */}
           <h1 className={styles.h1}>
-            Software Development Program with{" "}
-            <span className={styles.h1Span}>Specialization in Blockchain</span>
+            Domain Specialized Certification Program{" "}
+            <span className={styles.h1Span}>For Working Professionals</span>
           </h1>
           <div className={styles.IBMlogoPlay}>
             <Image
@@ -77,14 +101,9 @@ const FirstSection = ({ dataScience, radio,  first,
             />
           </div>
           <p className={styles.blink}>
-          Supercharge Your Career Trajectory  <br />
-          Learn <TextAnimation
-            first={first}
-            second={second}
-            third={third}
-          />{" "}
-          for Success.
-        </p>
+            Develop your career with domain knowledge and ace top company
+            interviews
+          </p>
           <div className={styles.line}>
             <img
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Vector-1-line.png"

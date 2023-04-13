@@ -1362,6 +1362,132 @@ export const FaqData7 = [
     open: false,
   },
 ];
+export const HrAnalytics = [
+  {
+    id: 0,
+    ques: "What are the prerequisites for the HR Analytics Program?",
+    ans: "There are no prerequisites for this HR Analytics certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a Flexi Subscription in the HR Analytics Program?",
+    ans: `Those who enroll for HR Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What’s the duration of the HR Analytics Program?",
+    ans: `The duration of this HR Analytics Course is about 6.5 months (200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+
+    Classes will be conducted on weekdays and weekend batches.
+    Weekday batch – 5 months, Monday to Friday – 2 hours/day,
+    Weekend batch – 7 months, Saturday & Sunday – 3.5 hours/day.`,
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What is the mode of HR Analytics training at Learnbay?",
+    ans: "We provide both classroom and online HR Analytics training modes. Based on your requirement, you can choose your preferred mode.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I opt for a Hybrid mode of learning?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
+    open: false,
+  },
+];
+export const MarketingAnalytics = [
+  {
+    id: 0,
+    ques: "What are the prerequisites for the Marketing Analytics Program?",
+    ans: "There are no prerequisites for this Marketing Analytics certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a Flexi Subscription in the Marketing Analytics Program?",
+    ans: `Those who enroll for Marketing Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What’s the duration of the Marketing Analytics Program?",
+    ans: `The duration of this Marketing Analytics Course is about 6.5 months (200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+
+    Classes will be conducted on weekdays and weekend batches.
+    Weekday batch – 5 months, Monday to Friday – 2 hours/day,
+    Weekend batch – 7 months, Saturday & Sunday – 3.5 hours/day.`,
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What is the mode of Marketing Analytics training at Learnbay?",
+    ans: "We provide both classroom and online Marketing Analytics training modes. Based on your requirement, you can choose your preferred mode.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I opt for a Hybrid mode of learning?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
+    open: false,
+  },
+];
+export const BFSI = [
+  {
+    id: 0,
+    ques: "What are the prerequisites for the BFSI Program?",
+    ans: "There are no prerequisites for this BFSI certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a Flexi Subscription in the BFSI Program?",
+    ans: `Those who enroll for BFSI live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What’s the duration of the BFSI Program?",
+    ans: `The duration of this BFSI Course is about 6 months (180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+
+    Classes will be conducted on weekdays and weekend batches.
+    Weekday batch – 5 months, Monday to Friday – 2 hours/day,
+    Weekend batch – 6.5 months, Saturday & Sunday – 3.5 hours/day.`,
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What is the mode of BFSI training at Learnbay?",
+    ans: "We provide both classroom and online BFSI training modes. Based on your requirement, you can choose your preferred mode.",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I opt for a Hybrid mode of learning?",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
+    open: false,
+  },
+];
 export const CertificationFaqData7 = [
   {
     id: 0,

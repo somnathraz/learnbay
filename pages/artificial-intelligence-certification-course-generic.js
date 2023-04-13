@@ -8,21 +8,27 @@ import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
 import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
 import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
-import SixthSection from "../components/NewDesign/SixthSection/SixthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { AiMlCourseData } from "../Data/AiMlData";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
 import {
   FaqData3,
+  DomainFaqData3,
   PaymentFaqData3,
   CapstoneFaqData3,
   CertificationFaqData3,
   jobFaqData3,
   MentorshipFaqData3,
   SupportFaqData3,
-} from "../components/NewDesign/FAQNew/FaqData";
+} from "../components/FAQ/FaqData";
+import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
+import Project from "../components/NewDesign/Project/Project";
+import Switch from "../components/NewDesign/switch/switch";
+import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
+import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
 function blockchain() {
   const [popups, setPopups] = useState(false);
@@ -33,16 +39,24 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Artificial Intelligence and Machine Learning Program</title>
-        <meta name="description" content="Artificial Intelligence and Machine Learning Program" />
-        <meta name="keywords" content="Artificial Intelligence and Machine Learning Program" />
+        <title>
+          Artificial Intelligence & Machine Learning Program
+        </title>
+        <meta
+          name="description"
+          content="Artificial Intelligence & Machine Learning Program"
+        />
+        <meta
+          name="keywords"
+          content="Artificial Intelligence & Machine Learning Program"
+        />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence-certification-course"
+          href="https://www.learnbay.co/advance-data-science-certification-courses"
         />
       </Head>
       <main>
@@ -62,27 +76,52 @@ function blockchain() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML.png"
-          firstToparaImg="Advance Program"
-          firstHeading="Artificial Intelligence and Machine Learning"
-          firstTopPara="Boost Your Professional Growth To a Whole New Level"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML-Header.png"
+          firstToparaImg="AI & ML Program For Tech Professionals"
+          firstHeading="Transform your future with our certified"
+          firstTopPara="Expand beyond technology"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
           fullStackReview={true}
-          SecondHead="What makes us your first choice!"
-          SecondPara="With demanding industry projects, you can acquire the most advanced technical expertise possible. Be a master even without a master's degree."
-          SecondPara1="Industry-relevant & domain specific curriculum"
-          SecondPara2="1:1 video call with expert & live doubt resolution"
-          SecondPara3="Work on 10 advanced & 2 capstone projects"
-          SecondPara4="Career Services & alumni network access"
+          SecondHead="Why Choose Us?"
+          SecondPara="India's top rated  bootcamp for working professionals "
+          heading1="On-Demand Doubt Sessions"
+          heading2="Unlimited Interview Calls"
+          heading3="Project Certificate From IBM"
+          heading4="Designed For Professionals"
+          SecondPara1="Clear your doubts with industry experts and get real-time solutions"
+          SecondPara2="Boost career chances, gain referrals from 300+ high-level recruiters"
+          SecondPara3="Master the domain of AI & machine learning with certificate from IBM"
+          SecondPara4="Use tech innovation to drive career growth & acquire in-demand skills"
         />
+        <ProgramCustomer
+        leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML-Who.png"
+        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+        img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+        img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+        img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+        heading1="Education"
+        heading2="Work experience"
+        heading3="Career stage"
+        heading4="Aspirations"
+        para1="Bachelor's degree with consistent academic performance"
+        para2="Minimum 1 year of IT work experience"
+        para3="Early to mid-career professionals interested in AI & ML"
+        para4="Preparing for future leadership opportunities in AI & ML"
+        />
+        <Switch/>
         <ThirdSection
-          secondLine="Get ahead in your career with our programs"
-          thirdHeadSpan="Take your career to new heights by mastering AI skills and knowledge"
-          BatchPara="The pie-chart indicates the AI and ML Program is suitable for those who want to build AI models for fraud detection, categorise data, identify images, etc. This program is specially curated for people coming from the following industries and sectors:"
-          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML+Left.png"
-          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML+Right.png"
+          secondLine="Invest In Yourself!"
+          thirdHeadSpan=" Alumni Community."
+          thirdHead="Stay Ahead Of The Curve With The Support Of Our"
+          point1="Enjoy 3 Years Of Career Service Access"
+          point2="Get 6 Mock Interviews with Industry Leaders"
+          point3="Resume Build Up Session"
+          point4="Get Unlimited Interview Calls"
+          BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
+          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
+          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
@@ -108,28 +147,32 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
         <FourthSection
-        serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
           syllabus={AiMlCourseData[0].syllabus}
           syllabusDesc={AiMlCourseData[0].syllabusDesc}
           popupHead={AiMlCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
+        <GrowthStats
+        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML-Scope.png"
+        heading="Dive into the ever-evolving tech industry & unlock limitless career potential "
+        para1="Higher Growth:Compound annual growth rate (CAGR) of 8.2% in 2023"
+        para2="Big Earning Potential: Earn an average salary of INR 20 LPA"
+        para3="Strong Demand: Booming requirement across various industries and domains"
+        />
         <FifthSection
-        AIMLCertificate={true}
-          Fee="₹ 1,10,000 + 18% GST"
-          FeeEmi="₹ 10,817/month"
+          advanceCertificate={true}
+          Fee="₹ 1,29,000 + 18% GST"
+          FeeEmi="₹ 12,685/month"
           FeeHeading="Program Fee & Financing"
-          FeeContent1="0% interest rate"
           FeeContent2="No Cost EMI"
           FeeContent3="Flexible payment"
           FeeContent4="Easy loan procedure"
           FeeContent5="15 days refund policy"
-          FeeContent6="No additional cost"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
@@ -156,28 +199,24 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <DomainSection />
-        <SixthSection
-        dataScience={true}
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-          point1="Practise with Latest Tools"
-          point2="10 Advanced Projects"
-          point3="2 Capstone Projects"
-          point4="Designed by Industry Experts"
-          FoundationDSProject={true}
-          CourseFeeHead="Artificial Intelligence & Machine Learning Program : Batch Details"
+        <DomainSection
+        imgDomain="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML-Domain-Electives.png"
         />
+        <Project
+         project="15+ Projects" tools="16+" />
+        <BatchDetails CourseFeeHead="Artificial Intelligence & Machine Learning Program:Batch Details" />
         <FAQNew
           FaqDatas={FaqData3}
           PaymentFaqDatas={PaymentFaqData3}
+          DomainFaqDatas={DomainFaqData3}
           CapstoneFaqDatas={CapstoneFaqData3}
           CertificationFaqDatas={CertificationFaqData3}
           jobFaqDatas={jobFaqData3}
           MentorshipFaqDatas={MentorshipFaqData3}
           SupportFaqDatas={SupportFaqData3}
         />
+        <OfferPopup offer={false} />
         <SeventhSection />
-
         <Footer />
       </main>
     </>

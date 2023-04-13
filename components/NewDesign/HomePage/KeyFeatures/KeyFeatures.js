@@ -11,99 +11,157 @@ import "swiper/css/effect-fade";
 import { EffectFade, Autoplay } from "swiper";
 
 import Image from "next/image";
-import { BsCircleFill } from "react-icons/bs";
+import { BsBriefcase } from "react-icons/bs";
+import { AiOutlinePieChart } from "react-icons/ai";
+import { GiTeacher } from "react-icons/gi";
+import { TbCertificate } from "react-icons/tb";
+import { FiVideo } from "react-icons/fi";
+import { BsCodeSquare } from "react-icons/bs";
 
 const KeyFeatures = () => {
   return (
     <>
-    <section className={styles.Features}>
-      <div>
-        <h6 className={styles.topHead}>Why Learnbay?</h6>
-        <div className={styles.FeatureWrap}>
-          <div className={styles.LeftWrap}>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whylearnbay-left-image.png"
-              width={686}
-              height={393}
-            />
-          </div>
-          <div className={styles.rightSide}>
-            <Swiper
-              direction={"vertical"}
-              slidesPerView={3}
-              // slidesPerColumn={1}
-              spaceBetween={30}
-              grabCursor={true}
-              loop={true}
-              loopFillGroupWithBlank={true}
-              autoplay={{
-                delay: 1500,
-                disableOnInteraction: false,
-              }}
-              modules={[Autoplay]}
-              className="mySwiper"
-            >
-              <SwiperSlide className={styles.slide}>
-                <div className={styles.slideWrap}>
-                  <div className={styles.leftSlider}>
-                    <BsCircleFill className={styles.circle} />
-                  </div>
-                  <div className={styles.rightSlider}>
+      <section className={styles.Features}>
+        <div>
+          <h6 className={styles.topHead}>Why Learnbay?</h6>
+          <div className={styles.FeatureWrap}>
+            <div className={styles.LeftWrap}>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whylearnbay-left-image.png"
+                width={686}
+                height={393}
+              />
+            </div>
+            <div className={styles.rightSide}>
+              <Swiper
+                direction={"vertical"}
+                slidesPerView={3}
+                // slidesPerColumn={1}
+                spaceBetween={30}
+                grabCursor={true}
+                loop={true}
+                loopFillGroupWithBlank={true}
+                autoplay={{
+                  delay: 1500,
+                  disableOnInteraction: false,
+                }}
+                modules={[Autoplay]}
+                className="mySwiper"
+              >
+                <SwiperSlide className={styles.slide}>
+                  <div className={styles.slideWrap}>
+                    <div className={styles.number}>
+                      {/* <Image
+                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/1.png"
+                        width={30}
+                        height={49}
+                        layout="intrinsic"
+                      /> */}
+                      <AiOutlinePieChart className={styles.numberIcon} />
+                    </div>
                     <p>
-                      Hassle-free and tailored training for MAANG company
-                      interviews.
+                      India’s top rated domain specialized program for
+                      professional
                     </p>
                   </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className={styles.slide}>
-                <div className={styles.slideWrap}>
-                  <div className={styles.leftSlider}>
-                    <BsCircleFill className={styles.circle} />
-                  </div>
-                  <div className={styles.rightSlider}>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                  <div className={styles.slideWrap}>
+                    <div className={styles.number}>
+                      {/* <Image
+                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/2.png"
+                        width={37}
+                        height={50}
+                        layout="intrinsic"
+                      /> */}
+                      <BsBriefcase className={styles.numberIcon} />
+                    </div>
+
                     <p>
-                      A successful career transition even with zero coding
-                      experience.
+                      Secure your dream job even after taking a break in your
+                      career
                     </p>
                   </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className={styles.slide}>
-                <div className={styles.slideWrap}>
-                  <div className={styles.leftSlider}>
-                    <BsCircleFill className={styles.circle} />
-                  </div>
-                  <div className={styles.rightSlider}>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                  <div className={styles.slideWrap}>
+                    <div className={styles.number}>
+                      {/* <Image
+                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/3.png"
+                        width={37}
+                        height={50}
+                        layout="intrinsic"
+                      /> */}
+                      <BsCodeSquare className={styles.numberIcon} />
+                    </div>
                     <p>
-                      Even after a career break, securing a dream job is
-                      achievable.
+                      Transition to a successful career with zero coding
+                      experience
                     </p>
                   </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className={styles.slide}>
-                <div className={styles.slideWrap}>
-                  <div className={styles.leftSlider}>
-                    <BsCircleFill className={styles.circle} />
-                  </div>
-                  <div className={styles.rightSlider}>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                  <div className={styles.slideWrap}>
+                    <div className={styles.number}>
+                      {/* <Image
+                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/4.png"
+                        width={41}
+                        height={50}
+                        layout="intrinsic"
+                      /> */}
+                      <FiVideo className={styles.numberIcon} />
+                    </div>
                     <p>
-                      A successful career transition even with zero coding
-                      experience.
+                      Live and interactive classes designed specially for
+                      professionals
                     </p>
                   </div>
-                </div>
-              </SwiperSlide>
-            </Swiper>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                  <div className={styles.slideWrap}>
+                    <div className={styles.number}>
+                      {/* <Image
+                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/4.png"
+                        width={41}
+                        height={50}
+                        layout="intrinsic"
+                      /> */}
+                      <TbCertificate className={styles.numberIcon} />
+                    </div>
+                    <p>
+                      Get dual certificate from IBM & Microsoft upon course
+                      completion
+                    </p>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                  <div className={styles.slideWrap}>
+                    <div className={styles.number}>
+                      {/* <Image
+                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/4.png"
+                        width={41}
+                        height={50}
+                        layout="intrinsic"
+                      /> */}
+                      <GiTeacher className={styles.numberIcon} />
+                    </div>
+                    <p>
+                      Get on-demand doubt-solving with experienced industry
+                      mentors
+                    </p>
+                  </div>
+                </SwiperSlide>
+              </Swiper>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <div className={styles.RightWrap}>
-    <h2 className={styles.h1}>The Network Reach of Our Bay</h2>
-          <div className={styles.imgWrap}>
-            <div className={styles.imgShowD}>
+      </section>
+      <div className={styles.RightWrap}>
+        <h2 className={styles.h1}>
+          We have collaborated with 300+ partner companies
+        </h2>
+        <div className={styles.imgWrap}>
+          <div className={styles.imgShowD}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Network-reach-company-logos.png"
               width="1148"
@@ -111,13 +169,14 @@ const KeyFeatures = () => {
               layout="intrinsic"
               alt="Learnbay"
             />
-            </div>
-            <div className={styles.imgShowM}>
-              
-            </div>
-            <button className={styles.btn}>Download Placement Report <FaDownload style={{ marginLeft: "10px" }} /></button>
           </div>
+          <div className={styles.imgShowM}></div>
+          <button className={styles.btn}>
+            Download Placement Report{" "}
+            <FaDownload style={{ marginLeft: "10px" }} />
+          </button>
         </div>
+      </div>
     </>
   );
 };

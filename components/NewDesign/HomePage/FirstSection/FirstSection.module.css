@@ -6,6 +6,13 @@
   display: grid;
   grid-template-columns: 53% 43%;
   gap: 50px;
+
+}
+
+.animationTextWrap{
+  font-size: 22px;
+  height: 24px ;
+    font-weight: 600;
 }
 
 .ptop {

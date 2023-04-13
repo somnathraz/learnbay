@@ -9,33 +9,38 @@ import {
   MicrosoftCertificateAdvance,
 } from "./CertificateDetail";
 
-function CertificateTab() {
+function CertificateTab({ Ibm }) {
   const [MActive, setMActive] = useState(false);
   const [IActive, setIActive] = useState(true);
   return (
     <section className={styles.CertificateTab}>
       <div className={styles.header}>
-        <div className={styles.pWrap}>
-          <p
-            onClick={() => {
-              setIActive(true);
-              setMActive(false);
-            }}
-            className={IActive ? styles.activeP : styles.inactiveP}
-          >
-            IBM Certificate
-          </p>
-          <hr className={styles.line} />
-          <p
-            onClick={() => {
-              setIActive(false);
-              setMActive(true);
-            }}
-            className={MActive ? styles.activeP : styles.inactiveP}
-          >
-            Microsoft Certification
-          </p>
-        </div>
+        {Ibm ? (
+          ""
+        ) : (
+          <div className={styles.pWrap}>
+            <p
+              onClick={() => {
+                setIActive(true);
+                setMActive(false);
+              }}
+              className={IActive ? styles.activeP : styles.inactiveP}
+            >
+              IBM Certificate
+            </p>
+            <hr className={styles.line} />
+
+            <p
+              onClick={() => {
+                setIActive(false);
+                setMActive(true);
+              }}
+              className={MActive ? styles.activeP : styles.inactiveP}
+            >
+              Microsoft Certification
+            </p>
+          </div>
+        )}
       </div>
 
       <div className={MActive ? styles.certificateS : styles.certificate}>

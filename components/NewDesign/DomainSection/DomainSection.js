@@ -11,7 +11,7 @@ import Link from "next/link";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 
-function DomainSection({ dataScience, BAdomain }) {
+function DomainSection({ dataScience, BAdomain,imgDomain }) {
   const [mobile, setMobile] = useState(false);
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
@@ -38,281 +38,301 @@ function DomainSection({ dataScience, BAdomain }) {
           <Form dataScience={dataScience} downloadBrochure />
         </div>
       </Popup>
-      <div className={styles.bulb}>
-        <div className={styles.img}>
-          <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Domain-Electives-Left-Guy.png"
-            layout="intrinsic"
-            loading="lazy"
-            width="671"
-            height="704"
-            alt="Bulb"
-          />
-        </div>
-        <p className={styles.bgP}>Become a domain expert</p>
-      </div>
-      <div>
-        <section>
-          <div className={styles.Section1}>
-            <h2 className={styles.h1}>
-              <span className={styles.h1Span}>Domain Electives</span>
-            </h2>
-            <div className={styles.Testimonial}>
-              {BAdomain ? (
-                <div className={styles.swiperleft}>
-                  <Swiper
-                    slidesPerView={mobile ? 1.1 : 2}
-                    spaceBetween={mobile ? 10 : 15}
-                    scrollbar={{ draggable: true }}
-                    autoplay={{
-                      delay: 2500,
-                    }}
-                    grabCursor={true}
-                    modules={[Autoplay, Scrollbar]}
-                    autoPlay={true}
-                    className="mySwiper"
-                  >
-                    <SwiperSlide className={styles.slide}>
-                      <div className={styles.mainSliderYellow}>
-                        <div className={styles.number}>
-                          <p>#1</p>
-                          <hr className={styles.hr} />
-                        </div>
-                        <div className={styles.imgP}>
-                          <p>BFSI</p>
-                        </div>
-                        <div>
-                          <p className={styles.para}>
-                            Work on real-time projects using live data from
-                            companies like J.P Morgan, HDFC, etc for building
-                            recommendation systems, handling chatbots, and
-                            upcoming stock market prediction.
-                          </p>
-                        </div>
-                        <div>
-                          <button
-                            onClick={popupShow}
-                            className={styles.fillBtn}
-                          >
-                            Download Brochure
-                            <FaDownload style={{ marginLeft: "10px" }} />
-                          </button>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className={styles.slide}>
-                      <div className={styles.mainSliderOrange}>
-                        <div className={styles.number}>
-                          <p>#2</p>
-                          <hr className={styles.hr} />
-                        </div>
-                        <div className={styles.imgP}>
-                          <p>Sales</p>
-                        </div>
-                        <div>
-                          <p className={styles.para}>
-                            A deeper understanding of the manufacturing and
-                            telecommunication industries, where you learn
-                            in-depth about robotics, novel materials,
-                            nanotechnology, computer-aided design, and
-                            geomechanics.
-                          </p>
-                        </div>
-                        <div>
-                          <button
-                            onClick={popupShow}
-                            className={styles.fillBtn}
-                          >
-                            Download Brochure
-                            <FaDownload style={{ marginLeft: "10px" }} />
-                          </button>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className={styles.slide}>
-                      <div className={styles.mainSlidergreen}>
-                        <div className={styles.number}>
-                          <p>#3</p>
-                          <hr className={styles.hr} />
-                        </div>
-                        <div className={styles.imgP}>
-                          <p>Marketing</p>
-                        </div>
-                        <div>
-                          <p className={styles.para}>
-                            Pursue projects on recording sensors in seismic,
-                            manufacturing, and exploration operations to Logging
-                            While Drilling (LWD) technology, enabling real-time
-                            recording of drilling data.
-                          </p>
-                        </div>
-                        <div>
-                          <button
-                            onClick={popupShow}
-                            className={styles.fillBtn}
-                          >
-                            Download Brochure
-                            <FaDownload style={{ marginLeft: "10px" }} />
-                          </button>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className={styles.slide}>
-                      <div className={styles.mainSliderRed}>
-                        <div className={styles.number}>
-                          <p>#4</p>
-                          <hr className={styles.hr} />
-                        </div>
-                        <div className={styles.imgP}>
-                          <p>HR</p>
-                        </div>
-                        <div>
-                          <p className={styles.para}>
-                            Any working professional choosing this domain with
-                            prior experience will indeed be offered the maximum
-                            possible salary hike and job security.
-                          </p>
-                        </div>
-                        <div>
-                          <button onClick={popupShow}>
-                            Download Brochure
-                            <FaDownload style={{ marginLeft: "10px" }} />
-                          </button>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                  </Swiper>
-                </div>
-              ) : (
-                <div className={styles.swiperleft}>
-                  <Swiper
-                    slidesPerView={mobile ? 1.1 : 2}
-                    spaceBetween={mobile ? 10 : 15}
-                    scrollbar={{ draggable: true }}
-                    autoplay={{
-                      delay: 2500,
-                    }}
-                    grabCursor={true}
-                    modules={[Autoplay, Scrollbar]}
-                    autoPlay={true}
-                    className="mySwiper"
-                  >
-                    <SwiperSlide className={styles.slide}>
-                      <div className={styles.mainSliderYellow}>
-                        <div className={styles.number}>
-                          <p>#1</p>
-                          <hr className={styles.hr} />
-                        </div>
-                        <div className={styles.imgP}>
-                          <p>BFSI</p>
-                        </div>
-                        <div>
-                          <p className={styles.para}>
-                            Work on real-time projects using live data from
-                            companies like J.P Morgan, HDFC, etc for building
-                            recommendation systems, handling chatbots, and
-                            upcoming stock market prediction.
-                          </p>
-                        </div>
-                        <div>
-                          <button
-                            onClick={popupShow}
-                            className={styles.fillBtn}
-                          >
-                            Download Brochure
-                            <FaDownload style={{ marginLeft: "10px" }} />
-                          </button>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className={styles.slide}>
-                      <div className={styles.mainSliderOrange}>
-                        <div className={styles.number}>
-                          <p>#2</p>
-                          <hr className={styles.hr} />
-                        </div>
-                        <div className={styles.imgP}>
-                          <p>Manufacturing</p>
-                        </div>
-                        <div>
-                          <p className={styles.para}>
-                            A deeper understanding of the manufacturing and
-                            telecommunication industries, where you learn
-                            in-depth about robotics, novel materials,
-                            nanotechnology, computer-aided design, and
-                            geomechanics.
-                          </p>
-                        </div>
-                        <div>
-                          <button
-                            onClick={popupShow}
-                            className={styles.fillBtn}
-                          >
-                            Download Brochure
-                            <FaDownload style={{ marginLeft: "10px" }} />
-                          </button>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className={styles.slide}>
-                      <div className={styles.mainSlidergreen}>
-                        <div className={styles.number}>
-                          <p>#3</p>
-                          <hr className={styles.hr} />
-                        </div>
-                        <div className={styles.imgP}>
-                          <p>Energy, Oil and Gas</p>
-                        </div>
-                        <div>
-                          <p className={styles.para}>
-                            Pursue projects on recording sensors in seismic,
-                            manufacturing, and exploration operations to Logging
-                            While Drilling (LWD) technology, enabling real-time
-                            recording of drilling data.
-                          </p>
-                        </div>
-                        <div>
-                          <button
-                            onClick={popupShow}
-                            className={styles.fillBtn}
-                          >
-                            Download Brochure
-                            <FaDownload style={{ marginLeft: "10px" }} />
-                          </button>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className={styles.slide}>
-                      <div className={styles.mainSliderRed}>
-                        <div className={styles.number}>
-                          <p>#4</p>
-                          <hr className={styles.hr} />
-                        </div>
-                        <div className={styles.imgP}>
-                          <p>Healthcare</p>
-                        </div>
-                        <div>
-                          <p className={styles.para}>
-                            Any working professional choosing this domain with
-                            prior experience will indeed be offered the maximum
-                            possible salary hike and job security.
-                          </p>
-                        </div>
-                        <div>
-                          <button onClick={popupShow}>
-                            Download Brochure
-                            <FaDownload style={{ marginLeft: "10px" }} />
-                          </button>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                  </Swiper>
-                </div>
-              )}
+      {BAdomain ? (
+        <>
+          <div className={styles.bulb}>
+            <div className={styles.img}>
+              <Image
+                src={imgDomain}
+                layout="intrinsic"
+                loading="lazy"
+                width="671"
+                height="704"
+                alt="Bulb"
+              />
             </div>
+            <p className={styles.bgP}>Become a domain expert</p>
           </div>
-        </section>
-      </div>
+          <div>
+            <section>
+              <div className={styles.Section1}>
+                <h2 className={styles.h1}>
+                  <span className={styles.h1Span}>Domain Electives</span>
+                </h2>
+                <div className={styles.Testimonial}>
+                  <div className={styles.swiperleft}>
+                    <Swiper
+                      slidesPerView={mobile ? 1.1 : 2}
+                      spaceBetween={mobile ? 10 : 15}
+                      scrollbar={{ draggable: true }}
+                      autoplay={{
+                        delay: 2500,
+                      }}
+                      grabCursor={true}
+                      modules={[Autoplay, Scrollbar]}
+                      autoPlay={true}
+                      className="mySwiper"
+                    >
+                      <SwiperSlide className={styles.slide}>
+                        <div className={styles.mainSliderYellow}>
+                          <div className={styles.number}>
+                            <p>#1</p>
+                            <hr className={styles.hr} />
+                          </div>
+                          <div className={styles.imgP}>
+                            <p>BFSI</p>
+                          </div>
+                          <div>
+                          <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
+                            <li>Work on 20+ real time case studies and assignments</li>
+                            <li>Designed for executive-level BFSI professionals, accountant, etc</li>
+                            <li>Learn finance analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <button
+                              onClick={popupShow}
+                              className={styles.fillBtn}
+                            >
+                              Download Brochure
+                              <FaDownload style={{ marginLeft: "10px" }} />
+                            </button>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide className={styles.slide}>
+                        <div className={styles.mainSliderOrange}>
+                          <div className={styles.number}>
+                            <p>#2</p>
+                            <hr className={styles.hr} />
+                          </div>
+                          <div className={styles.imgP}>
+                            <p>Sales</p>
+                          </div>
+                          <div>
+                            <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
+                            <li>Work on 20+ real time case studies and assignments</li>
+                            <li>For business development associate, managers,customer success etc. </li>
+                            <li>Learn sales data analysis tools and apply your data-driven knowledge to drive strategic development</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <button
+                              onClick={popupShow}
+                              className={styles.fillBtn}
+                            >
+                              Download Brochure
+                              <FaDownload style={{ marginLeft: "10px" }} />
+                            </button>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide className={styles.slide}>
+                        <div className={styles.mainSlidergreen}>
+                          <div className={styles.number}>
+                            <p>#3</p>
+                            <hr className={styles.hr} />
+                          </div>
+                          <div className={styles.imgP}>
+                            <p>Marketing</p>
+                          </div>
+                          <div>
+                            <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
+                            <li>Work on 20+ real time case studies and assignments</li>
+                            <li>Designed for executive-level BFSI professionals, accountant, etc</li>
+                            <li>Learn finance analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <button
+                              onClick={popupShow}
+                              className={styles.fillBtn}
+                            >
+                              Download Brochure
+                              <FaDownload style={{ marginLeft: "10px" }} />
+                            </button>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide className={styles.slide}>
+                        <div className={styles.mainSliderRed}>
+                          <div className={styles.number}>
+                            <p>#4</p>
+                            <hr className={styles.hr} />
+                          </div>
+                          <div className={styles.imgP}>
+                            <p>HR</p>
+                          </div>
+                          <div>
+                            <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
+                            <li>Work on 20+ real time case studies and assignments</li>
+                            <li>For HR recruiter, manager, talent acquisition specialist, hr generalist etc.</li>
+                            <li>Learn HR analytics and apply to business management through hands-on projects and gain practical experience</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <button onClick={popupShow}>
+                              Download Brochure
+                              <FaDownload style={{ marginLeft: "10px" }} />
+                            </button>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    </Swiper>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className={styles.bulb}>
+            <div className={styles.img}>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Domain-Electives-Left-Guy.png"
+                layout="intrinsic"
+                loading="lazy"
+                width="671"
+                height="704"
+                alt="Bulb"
+              />
+            </div>
+            <p className={styles.bgP}>Become a domain expert</p>
+          </div>
+          <div>
+            <section>
+              <div className={styles.Section1}>
+                <h2 className={styles.h1}>
+                  <span className={styles.h1Span}>Domain Electives</span>
+                </h2>
+                <div className={styles.Testimonial}>
+                  <div className={styles.swiperleft}>
+                    <Swiper
+                      slidesPerView={mobile ? 1.1 : 2}
+                      spaceBetween={mobile ? 10 : 15}
+                      scrollbar={{ draggable: true }}
+                      autoplay={{
+                        delay: 2500,
+                      }}
+                      grabCursor={true}
+                      modules={[Autoplay, Scrollbar]}
+                      autoPlay={true}
+                      className="mySwiper"
+                    >
+                      <SwiperSlide className={styles.slide}>
+                        <div className={styles.mainSliderYellow}>
+                          <div className={styles.number}>
+                            <p>#1</p>
+                            <hr className={styles.hr} />
+                          </div>
+                          <div className={styles.imgP}>
+                            <p>BFSI</p>
+                          </div>
+                          <div>
+                            <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
+                            <li>Work on 20+ real time case studies and assignments</li>
+                            <li>Designed for executive-level BFSI professionals, accountant, etc</li>
+                            <li>Learn finance analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <button
+                              onClick={popupShow}
+                              className={styles.fillBtn}
+                            >
+                              Download Brochure
+                              <FaDownload style={{ marginLeft: "10px" }} />
+                            </button>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide className={styles.slide}>
+                        <div className={styles.mainSliderOrange}>
+                          <div className={styles.number}>
+                            <p>#2</p>
+                            <hr className={styles.hr} />
+                          </div>
+                          <div className={styles.imgP}>
+                            <p>Manufacturing</p>
+                          </div>
+                          <div>
+                            <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
+                            <li>Work on 20+ real time case studies and assignments</li>
+                            <li> Designed for executive-level BFSI professionals, accountant, etc</li>
+                            <li> Learn finance analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <button
+                              onClick={popupShow}
+                              className={styles.fillBtn}
+                            >
+                              Download Brochure
+                              <FaDownload style={{ marginLeft: "10px" }} />
+                            </button>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide className={styles.slide}>
+                        <div className={styles.mainSlidergreen}>
+                          <div className={styles.number}>
+                            <p>#3</p>
+                            <hr className={styles.hr} />
+                          </div>
+                          <div className={styles.imgP}>
+                            <p>Energy, Oil and Gas</p>
+                          </div>
+                          <div>
+                            <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
+                            <li>Work on 20+ real time case studies and assignments</li>
+                            <li> Designed for executive-level BFSI professionals, accountant, etc</li>
+                            <li> Learn finance analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <button
+                              onClick={popupShow}
+                              className={styles.fillBtn}
+                            >
+                              Download Brochure
+                              <FaDownload style={{ marginLeft: "10px" }} />
+                            </button>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide className={styles.slide}>
+                        <div className={styles.mainSliderRed}>
+                          <div className={styles.number}>
+                            <p>#4</p>
+                            <hr className={styles.hr} />
+                          </div>
+                          <div className={styles.imgP}>
+                            <p>Healthcare</p>
+                          </div>
+                          <div>
+                            <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
+                            <li>Work on 20+ real time case studies and assignments</li>
+                            <li> Designed for executive-level BFSI professionals, accountant, etc</li>
+                            <li> Learn finance analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <button onClick={popupShow}>
+                              Download Brochure
+                              <FaDownload style={{ marginLeft: "10px" }} />
+                            </button>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    </Swiper>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </>
+      )}
     </div>
   );
 }

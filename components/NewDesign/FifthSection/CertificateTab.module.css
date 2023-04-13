@@ -46,10 +46,10 @@
 }
 .MicroCert {
   display: grid;
-  grid-template-columns: 40% 49%;
+  grid-template-columns: 48% 49%;
   width: 100%;
   height: 100%;
-  padding: 20px 70px;
+  padding: 20px 70px 100px 70px;
   align-items: center;
   justify-content: space-between;
 }
@@ -222,7 +222,7 @@
     line-height: 1.9em;
   }
   .header {
-    padding: 30px 20px;
+    padding: 30px 20px 0px 20px;
     display: flex;
     gap: 40px;
     width: 100%;
@@ -233,7 +233,7 @@
   }
   .pWrap {
     display: grid;
-    grid-template-columns: 49% 2% 49%;
+    grid-template-columns: 45% 2% 49%;
     gap: 5px;
     width: 100%;
   }
@@ -242,11 +242,17 @@
   }
   .certificateS {
     padding: 20px;
+    margin-bottom: 30px;
   }
   .MicroCert {
     display: flex;
     flex-flow: column;
     padding: 20px;
+    box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+    margin: 20px 0px 10px 0px;
   }
   .rightSide p {
     display: grid;
@@ -318,5 +324,16 @@
 
   .checkCircle {
     margin-right: 5px;
+  }
+
+  .leftSide p,
+  .middleSide p,
+  .rightSide p {
+    display: grid;
+    grid-template-columns: 10% 90%;
+  }
+
+  .contentDiv {
+    padding-left: 0px;
   }
 }

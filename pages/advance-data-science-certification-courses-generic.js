@@ -95,24 +95,29 @@ function blockchain() {
           SecondPara4="Prioritize growth and salary increases with in-demand skills."
         />
         <ProgramCustomer
-        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-        img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-        img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-        img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-        para1="Stay Ahead Of The Curve With The Support Of Our"
-        para2="Stay Ahead Of The Curve With The Support Of Our"
-        para3="Stay Ahead Of The Curve With The Support Of Our"
-        para4="Stay Ahead Of The Curve With The Support Of Our"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whoIsProgram.webp"
+          para1="Bachelor's degree with consistent good academics"
+          para2="Minimum 1 year of IT/Non-IT work experience. "
+          para3="Early to mid-career professionals interested in Data science."
+          para4=" To become a data-driven data scientist and continuously optimize strategies."
+          heading1="Education"
+          heading2="Work experience"
+          heading3="Career stage"
+          heading4="Aspirations"
         />
-        <Switch/>
+        <Switch />
         <ThirdSection
           secondLine="Invest In Yourself!"
           thirdHeadSpan=" Alumni Community."
           thirdHead="Stay Ahead Of The Curve With The Support Of Our"
-          point1="1:1 career & mentoring support"
-          point2="Job Placement Assistance"
-          point3="Lifetime LMS Access"
-          point4="Career Counselling"
+          point1="3-year subscription to course"
+          point2="Resume building sessions"
+          point3="3 mock sessions with industry leaders"
+          point4="5-8 interview opportunities"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
@@ -153,11 +158,11 @@ function blockchain() {
           project="12+ Real Time"
         />
         <GrowthStats
-        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope+of+DS+left+image.png"
-        heading="Lorem Ipsum some text missing Lorem Ipsum some text missing.."
-        para1="Stay Ahead Of The Curve With The Support Of Our"
-        para2="Stay Ahead Of The Curve With The Support Of Our"
-        para3="Stay Ahead Of The Curve With The Support Of Our"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope+of+DS+left+image.png"
+          heading="Join the billion-dollar HR Analytics market and secure your future!"
+          para1="Get an average salary of ₹19.7 lakhs."
+          para2="HR Analytics market is expected to reach USD 9 billion by 2024."
+          para3="Growing demand for data-driven HR decision-making"
         />
         <FifthSection
           advanceCertificate={true}

@@ -51,8 +51,8 @@ function CertificateTab() {
                       alt="Certificate"
                       quality={100}
                       layout="intrinsic"
-                      width={1150}
-                      height={800}
+                      width="1150px"
+                        height="800px"
                     />
                   </div>
                   <div className={styles.rightSide}>

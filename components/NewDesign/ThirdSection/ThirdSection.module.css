@@ -104,22 +104,27 @@
 }
 
 .boxBlue {
-  padding: 50px 20px;
-  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Cta-wiht-girl.png");
+  padding: 0px 20px;
+  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/ctaBanner.webp");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-left: 18%;
+  margin-left: 0;
+  padding: 20px 300px;
+  height: 370px;
 }
 
 .boxH2 {
-  color: #fff;
+  color: #000;
   margin: 0;
+  padding-top: 70px;
   font-size: 37px;
+  line-height: 40px;
   width: 47%;
 }
 
 .boxP {
-  color: #fff;
+  color: #000;
+  width: 50%;
 }
 
 .boxBlue button {
@@ -434,6 +439,10 @@
     font-size: 24px;
     font-weight: 600;
   }
+  .boxP {
+    color: #000;
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -550,12 +559,12 @@
   .ParaWrap2,
   .ParaWrap3 {
     padding: 5px 20px;
-    font-size: 18px;
+    font-size: 19px;
     gap: 10px;
   }
   .ParaWrap span {
     color: #616161 ;
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 0px;
   }
 
@@ -564,17 +573,19 @@
   }
   .boxBlue {
     padding: 50px 20px;
-    background: linear-gradient(90deg, #0072bc 0%, #2979a8 100%);
     margin-left: 0;
+    background-size: cover;
+    height: fit-content;
   }
   .hrDesing {
     display: none;
   }
   .boxH2 {
-    color: #fff;
+    color: #000;
     margin: 0;
     font-size: 26px;
     width: 100%;
+    padding-top: 0px;
   }
   .h1 {
     font-size: 20px;

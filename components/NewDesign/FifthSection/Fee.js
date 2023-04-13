@@ -5,7 +5,7 @@ import styles from "./Fee.module.css";
 import Image from "next/image";
 
 import { BsCheckCircleFill } from "react-icons/bs";
-import { FaGooglePay } from "react-icons/fa";
+import { FaMobileAlt } from "react-icons/fa";
 import { MdAttachMoney } from "react-icons/md";
 import { MdPayment } from "react-icons/md";
 import { RiSecurePaymentFill } from "react-icons/ri";
@@ -132,7 +132,7 @@ const FeeSection = ({
                   <AiOutlineBank className={styles.icon} /> <p>Banking</p>
                 </span>
                 <span>
-                  <FaGooglePay className={styles.icon} /> <p>UPI</p>
+                  <FaMobileAlt className={styles.icon} /> <p>UPI</p>
                 </span>
               </div>
             </div>

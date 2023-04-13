@@ -13,6 +13,9 @@ import SixthSection from "../components/NewDesign/SixthSection/SixthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import { FoundtionCourseData } from "../Data/FoundtionCourse";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
+import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
+import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
+import Switch from "../components/NewDesign/HomePage/switch/switch";
 import {
   FaqData1,
   PaymentFaqData1,
@@ -61,28 +64,49 @@ function blockchain() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+Foundation.png"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+header.webp"
           firstToparaImg="with industry-specific training"
           firstHeading="Enhance your earning potential"
-          firstTopPara="Data Science Foundation Program"
+          firstTopPara="Data science foundation course "
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf"
         />
         <SecondSection
           fullStackReview={true}
-          SecondHead="What makes us your first choice!"
+          SecondHead="Who’s a fit for this program? "
           SecondPara="Gain a strong foundation in data science & get promoted with high pay"
-          SecondPara1="1:1 video call with expert & live doubt resolution"
-          SecondPara2="Live online classes boost interaction"
-          SecondPara3="Career Services & alumni network access"
-          SecondPara4="Proven track records of career success"
+          heading1="On-Demand Doubt Sessions"
+          heading2="Guaranteed Interview Calls"
+          heading3="Project Certificate From IBM"
+          heading4="Designed For Professionals"
+          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries."
+          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners."
+          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
+          SecondPara4="Prioritize growth and salary increases with in-demand skills."
         />
+        <ProgramCustomer
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+Who+is+this+program+for.webp"
+          heading1="Education"
+          heading2="Work experience"
+          heading3="Career stage"
+          heading4="Aspirations"
+          para1="Bachelor's degree with consistent academic performance.
+"
+          para2="Minimum 6 months of IT/Non-IT work experience."
+          para3="Early to mid-career professionals interested in Data science."
+          para4="Preparing for future opportunities in Data science."
+        />
+        <Switch />
         <ThirdSection
           secondLine="Get ahead in your career with our programs"
           thirdHeadSpan="We are enlightened to pave path for 20k+, and continue do so"
-          point1="1:1 career & mentoring support"
-          point2="Job Placement Assistance"
-          point3="Lifetime LMS Access"
-          point4="Career Counselling"
+          point1="3-year subscription to course"
+          point2="Resume building sessions"
+          point3="3 mock sessions with industry leaders"
+          point4="5-8 interview opportunities"
           BatchPara="The pie-chart representation here shows that the comprehensive Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an expert level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+Left+Graph.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+Right+Graph.png"
@@ -111,7 +135,7 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
         <FourthSection
-        serviceBasic={true}
+          serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
@@ -122,8 +146,15 @@ function blockchain() {
           hours="250+ Hours"
           project="12+ Real Time"
         />
+        <GrowthStats
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+Foundation+Scope.webp"
+          heading="Data science is the future! "
+          para1="Data scientists’ employment to grow by 36% "
+          para2="Influences on nearly all sectors of today's industries"
+          para3="Will always be the most highly paid career "
+        />
         <FifthSection
-        NoCertficate={true}
+          NoCertficate={true}
           Fee="₹ 79,000 + 18% GST"
           FeeEmi="₹ 7,768/month"
           FeeHeading="Program Fee & Financing"
