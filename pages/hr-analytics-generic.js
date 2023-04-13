@@ -24,7 +24,7 @@ import {
 } from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
-import Switch from "../components/NewDesign/HomePage/switch/switch";
+import Switch from "../components/NewDesign/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
@@ -75,9 +75,9 @@ function Hr() {
           second="Tips"
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/hr-analytics-header-image.webp"
-          firstToparaImg="With our HR Analytics Program"
-          firstHeading="Become a Data-driven HR Professionals"
-          firstTopPara="Experience the future of Analytics"
+          firstToparaImg="with our HR Analytics Program"
+          firstHeading="Become a data-driven professional"
+          firstTopPara="Experience the future of analytics"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
@@ -88,10 +88,10 @@ function Hr() {
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
           heading4="For HR professionals"
-          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries."
-          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners."
-          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition."
-          SecondPara4="Boost your growth and earnings with in-demand people analytics skills.
+          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners"
+          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition"
+          SecondPara4="Boost your growth and earnings with in-demand people analytics skills
           "
         />
         <ProgramCustomer
@@ -99,11 +99,11 @@ function Hr() {
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/manager+_Who+is+this+program+for_+image.webp"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HR++Who+is+this+program+for+_+image.webp"
           para1="Bachelor's degree with consistent good academics"
-          para2="Minimum 1 year of IT/Non-IT work experience. "
-          para3="Early to mid-career professionals interested in HR analytics."
-          para4=" Preparing for future leadership opportunities in HR analytics."
+          para2="Minimum 1 year of IT/Non-IT work experience"
+          para3="Mid-career professionals interested in HR analytics"
+          para4=" Preparing for future leadership role in HR analytics"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -112,12 +112,12 @@ function Hr() {
         <Switch />
         <ThirdSection
           secondLine="Invest In Yourself!"
-          thirdHeadSpan=" Alumni Community."
-          thirdHead="Stay Ahead Of The Curve With The Support Of Our"
-          point1="Enjoy 3 Years Of Career Service Access"
-          point2="Get 3 Mock Session With Industry Leaders"
-          point3="Resume Build Up Session"
-          point4="Get 5-8 Interview Calls"
+          thirdHeadSpan=" Alumni Community"
+          thirdHead="Stay Ahead Of The Curve With Support Of Our"
+          point1="Enjoy 3 years of career service access"
+          point2="Get 3 mock session with industry leaders"
+          point3="Resume build up session"
+          point4="Get 5-8 interview calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
@@ -160,9 +160,9 @@ function Hr() {
         <GrowthStats
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HR+Analytics+Scope.webp"
           heading="Join the billion-dollar HR Analytics market and secure your future!"
-          para1="Get an average salary of ₹19.7 lakhs."
-          para2="HR Analytics market is expected to reach USD 9 billion by 2024."
-          para3="Growing demand for data-driven HR decision-making."
+          para1="Get an average salary of ₹19.7 lakhs"
+          para2="HR Analytics market is expected to reach USD 9 billion by 2024"
+          para3="Growing demand for data-driven HR decision-making"
         />
         <FifthSection
           advanceCertificate={true}

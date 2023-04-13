@@ -22,9 +22,8 @@
 }
 
 .h1Span {
-  background: linear-gradient(90deg, #f99600 50%, #edb552 103.64%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color:  #f99600;
+  
 }
 
 .h1 {

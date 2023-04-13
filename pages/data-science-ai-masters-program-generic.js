@@ -90,8 +90,8 @@ function blockchain() {
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
           heading4="Designed For Professionals"
-          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries."
-          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners."
+          SecondPara1="Talk to an expert and receive real-time solutions to your queries"
+          SecondPara2="Explore job prospects with referrals from 300+ top hiring partners"
           SecondPara3="Master the domain of data science with certificate from IBM"
           SecondPara4="Develop sought-after skills for better promotion & higher salary"
         />
@@ -105,20 +105,20 @@ function blockchain() {
         heading2="Work experience"
         heading3="Career stage"
         heading4="Aspirations"
-        para1="Bachelor's degree with consistent academic performance."
-        para2="Minimum 6 months of work experience."
+        para1="Bachelor's degree with academic performance"
+        para2="Minimum 6 months of work experience"
         para3="Early to mid-career professionals interested in data science"
         para4="Preparing for future leadership opportunities in data science"
         />
         <Switch/>
         <ThirdSection
           secondLine="Invest In Yourself!"
-          thirdHeadSpan=" Alumni Community."
-          thirdHead="Stay Ahead Of The Curve With The Support Of Our"
-          point1="Enjoy 3 Years Of Career Service Access"
-          point2="Get 6 Mock Interviews with Industry Leaders"
-          point3="Resume Build Up Session"
-          point4="Get Unlimited Interview Calls"
+          thirdHeadSpan=" Alumni Community"
+          thirdHead="Stay Ahead Of The Curve With Support Of Our"
+          point1="Enjoy 3 years of career service access"
+          point2="Get 6 mock interviews with industry leaders"
+          point3="Resume build up session"
+          point4="Get unlimited interview calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
@@ -159,7 +159,7 @@ function blockchain() {
         />
         <GrowthStats
         img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope+of+DS+left+image.png"
-        heading="Power ahead in your career by joining the booming data science industry!"
+        heading="Power ahead in your career by joining the data science industry!"
         para1="Higher Growth : Demand for data scientists to grow by 30% by 2024"
         para2="Big Earning Potential : Earn an average salary of INR 10+ LPA"
         para3="Strong Demand : Booming requirement across various industries and domains"

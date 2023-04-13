@@ -70,12 +70,7 @@ function ThirdSection({
   });
   return (
     <>
-      <Popup
-        trigger={popupsB}
-        setTrigger={setPopupsB}
-        className="popupModal"
-        
-      >
+      <Popup trigger={popupsB} setTrigger={setPopupsB} className="popupModal">
         <div className="leftPopup">
           <div
             className="whiteP"
@@ -84,7 +79,7 @@ function ThirdSection({
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form dataScience={dataScience} downloadBrochure/>
+          <Form dataScience={dataScience} downloadBrochure />
         </div>
       </Popup>
       <section className={styles.Features}>
@@ -95,7 +90,7 @@ function ThirdSection({
           </p>
           <div className={styles.FeatureWrap}>
             <div className={styles.LeftWrap}>
-              <div className={styles.ParaWrap}>
+              <div className={styles.ParaWrap} style={{ marginTop: "0" }}>
                 <div className={styles.number}>
                   <Image
                     src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/1.png"
@@ -139,10 +134,6 @@ function ThirdSection({
                 </div>
                 <span>{point4}</span>
               </div>
-                <button onClick={popupShowD} className={styles.fillBtn}>
-                Download Placement Report
-                  <FaDownload style={{ marginLeft: "10px" }} />
-                </button>
             </div>
             <div className={styles.RightWrap}>
               <Image
@@ -155,7 +146,13 @@ function ThirdSection({
             </div>
           </div>
         </div>
-      </section> 
+        <div className={styles.btnWrap}>
+          <button onClick={popupShowD} className={styles.fillBtn}>
+            Download Placement Report
+            <FaDownload style={{ marginLeft: "10px" }} />
+          </button>
+        </div>
+      </section>
       <div className={styles.map}>
         <Image
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Map(learners).png"

@@ -67,9 +67,9 @@ function blockchain() {
           second="Tips"
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BFSI-header-image.webp"
-          firstToparaImg="Certificate In Applied Marketing Analytics          "
-          firstHeading="Elevate Your Marketing Game With Professional"
-          firstTopPara="Transform your digital marketing career with analytics"
+          firstToparaImg="Banking & Finance Analytics Program"
+          firstHeading="Acheive a glorious future with our "
+          firstTopPara="Ready to master the finance domain?"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
@@ -80,10 +80,10 @@ function blockchain() {
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
           heading4="Designed For Professionals"
-          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries."
-          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners."
-          SecondPara3="Maximize marketing career opportunities with a portfolio and smooth role transition."
-          SecondPara4="Boost your growth and earnings with in-demand people analytics skills."
+          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners"
+          SecondPara3="Maximize marketing career opportunities with a portfolio and smooth role transition"
+          SecondPara4="Boost your growth and earnings with in-demand people analytics skills"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
@@ -92,9 +92,9 @@ function blockchain() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BFSI+_+Who+is+this+program+for+_+image.webp"
           para1="Bachelor's degree with consistent good academics"
-          para2="Minimum 1 year of IT/Non-IT work experience. "
-          para3="Early to mid-career professionals interested in Marketing analytics."
-          para4="To become a data-driven marketer and continuously optimize strategies."
+          para2="Minimum 1 year of IT/Non-IT work experience"
+          para3="Early to mid-career professionals interested in finance analytics"
+          para4="To become a data-driven financer and optimize strategies"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -102,13 +102,14 @@ function blockchain() {
         />
         <Switch />
         <ThirdSection
-          secondLine="Get ahead in your career with our programs"
-          thirdHeadSpan="Enhance finance analytics skills for career growth and higher promotions"
+          secondLine="Invest in yourself!"
+          thirdHeadSpan=" Alumni Community"
+          thirdHead="Stay Ahead Of The Curve With Support Of Our"
           BatchPara="The banking & finance analytics program is designed for professionals across various sectors and designations who want to acquire necessary skills and knowledge to analyze financial data and make informed business decisions."
-          point1="3-year subscription to course"
-          point2="Resume building sessions"
-          point3="3 mock sessions with industry leaders"
-          point4="5-8 interview opportunities"
+          point1="Enjoy 3 years of career service access"
+          point2="Get 3 mock interviews with industry leaders"
+          point3="Resume build up session"
+          point4="Get 3-5 interview calls"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FINANCE+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FINANCE+Right.png"
           dataScience={true}
@@ -149,10 +150,10 @@ function blockchain() {
         />
         <GrowthStats
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BFSI+Scope.webp"
-          heading="The future is bright in Marketing Analytics - are you ready?"
-          para1="High earning potential: Marketing Analysts (₹10 Lakhs LPA)          "
-          para2="Rapid industry growth: 93.8% annually (2020-2027)"
-          para3="Abundant career opportunities in Marketing Analytics."
+          heading="How is analytics changing finance?"
+          para1="Higher Growth: Annual growth rate of 10.4% in 2023 "
+          para2="Big Earning Potential: Earn an average salary of INR 10 LPA"
+          para3="Enormous demand for individuals in the banking and finance sector"
         />
         <FifthSection
           advanceCertificate={true}

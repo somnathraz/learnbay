@@ -91,7 +91,7 @@ function blockchain() {
           heading3="Project Certificate From IBM"
           heading4="Designed For Professionals"
           SecondPara1="Clear your doubts with industry experts and get real-time solutions"
-          SecondPara2="Boost career chances, gain referrals from 300+ high-level recruiters"
+          SecondPara2="Boost career chances, gain referrals from 300+ top recruiters"
           SecondPara3="Master the domain of AI & machine learning with certificate from IBM"
           SecondPara4="Use tech innovation to drive career growth & acquire in-demand skills"
         />
@@ -105,7 +105,7 @@ function blockchain() {
         heading2="Work experience"
         heading3="Career stage"
         heading4="Aspirations"
-        para1="Bachelor's degree with consistent academic performance"
+        para1="Bachelor's degree with good academic performance"
         para2="Minimum 1 year of IT work experience"
         para3="Early to mid-career professionals interested in AI & ML"
         para4="Preparing for future leadership opportunities in AI & ML"
@@ -113,12 +113,12 @@ function blockchain() {
         <Switch/>
         <ThirdSection
           secondLine="Invest In Yourself!"
-          thirdHeadSpan=" Alumni Community."
-          thirdHead="Stay Ahead Of The Curve With The Support Of Our"
-          point1="Enjoy 3 Years Of Career Service Access"
-          point2="Get 6 Mock Interviews with Industry Leaders"
-          point3="Resume Build Up Session"
-          point4="Get Unlimited Interview Calls"
+          thirdHeadSpan=" Alumni Community"
+          thirdHead="Stay Ahead Of The Curve With Support Of Our"
+          point1="Enjoy 3 years of career service access"
+          point2="Get 3 mock interviews with industry leaders"
+          point3="Resume build up session"
+          point4="Get 5-8 interview calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
@@ -159,8 +159,8 @@ function blockchain() {
         />
         <GrowthStats
         img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML-Scope.png"
-        heading="Dive into the ever-evolving tech industry & unlock limitless career potential "
-        para1="Higher Growth:Compound annual growth rate (CAGR) of 8.2% in 2023"
+        heading="Dive into the advanced tech industry & unlock limitless career potential "
+        para1="Higher Growth: Compound annual growth rate (CAGR) of 8.2% in 2023"
         para2="Big Earning Potential: Earn an average salary of INR 20 LPA"
         para3="Strong Demand: Booming requirement across various industries and domains"
         />

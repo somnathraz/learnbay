@@ -75,9 +75,9 @@ function blockchain() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Business-Analytics-Masters-Header.png"
-          firstToparaImg="With Business Analytics Master Program"
-          firstHeading="Elevate your Expertise"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/manager+header+image.webp"
+          firstToparaImg=" Business Analytics Master Program"
+          firstHeading="Elevate your expertise with"
           firstTopPara="Become a master without master’s degree"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
@@ -90,9 +90,9 @@ function blockchain() {
           heading3="Project Certificate From IBM"
           heading4="Designed For Professionals"
           SecondPara1="Clear your doubts with industry experts and get real-time solutions"
-          SecondPara2="Boost career chances, gain referrals from 300+ high-level recruiters"
+          SecondPara2="Boost career chances, gain referrals from 300+ top recruiters"
           SecondPara3="Master the domain of business analytics with certificate from IBM"
-          SecondPara4="Use tech innovation to drive business strategy & acquire in-demand skills"
+          SecondPara4="Use tech innovation for strategy, skill acquisition, & business growth"
         />
         <ProgramCustomer
         leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA-Masters-who.png"
@@ -112,12 +112,12 @@ function blockchain() {
         <Switch/>
         <ThirdSection
           secondLine="Invest In Yourself!"
-          thirdHeadSpan=" Alumni Community."
+          thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With The Support Of Our"
-          point1="Enjoy 3 Years Of Career Service Access"
-          point2="Get 6 Mock Interviews with Industry Leaders"
-          point3="Resume Build Up Session"
-          point4="Get Unlimited Interview Calls"
+          point1="Enjoy 3 years of career service access"
+          point2="Get 6 mock interviews with industry leaders"
+          point3="Resume build up session"
+          point4="Get unlimited interview calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"

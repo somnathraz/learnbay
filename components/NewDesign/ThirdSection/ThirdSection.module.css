@@ -242,9 +242,16 @@
 }
 
 .Features {
-  display: grid;
+  display: flex;
   flex-flow: column;
+  justify-content: center;
   padding: 50px 100px 0px 100px;
+}
+.Features .btnWrap {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .topHead {
   font-size: 35px;
@@ -286,7 +293,7 @@
   font-size: 20px;
 }
 .LeftWrap {
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
 }
 .RightWrap {
   background: #ffffff;
@@ -323,7 +330,7 @@
 }
 .ParaWrap {
   grid-template-columns: 10% 89%;
-  gap: 35px;
+  gap: 20px;
   border-left: 3px solid #516c82;
 }
 .ParaWrap1 {
@@ -333,13 +340,13 @@
   border-left: 3px solid #516c82;
 }
 .ParaWrap span {
-  color: #616161 ;
+  color: #616161;
   font-size: 22px;
   font-weight: 500;
   margin: 0;
 }
 .ParaWrap1 span {
-  color: #616161 ;
+  color: #616161;
 }
 .ParaWrap2 {
   color: #616161 !important;
@@ -413,7 +420,6 @@
     margin: 30px 0px 0px 0px;
   }
   .RightWrap {
-
     display: flex;
     align-items: center;
     height: 100%;
@@ -559,12 +565,12 @@
   .ParaWrap2,
   .ParaWrap3 {
     padding: 5px 20px;
-    font-size: 19px;
+    font-size: 20px;
     gap: 10px;
   }
   .ParaWrap span {
-    color: #616161 ;
-    font-size: 19px;
+    color: #616161;
+    font-size: 20px;
     margin-bottom: 0px;
   }
 
@@ -602,5 +608,8 @@
   }
   .secondLeft {
     display: block;
+  }
+  .Features .btnWrap {
+    margin-top: 20px;
   }
 }

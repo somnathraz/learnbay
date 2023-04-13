@@ -73,28 +73,29 @@ const FeeSection = ({
         </div>
       </Popup>
       <h4>{FeeHeading}</h4>
-      <p className={styles.ptop}>Invest in your future with quality education</p>
+      <p className={styles.ptop}>
+        Invest in your future with quality education
+      </p>
       <div className={styles.priceWrap}>
         <div className={styles.leftSide}>
           <div className={styles.price}>
-            <p>price:</p>
+            <p>Program Fee:</p>
             <h5>{Fee}</h5>
           </div>
 
           <div className={styles.list}>
             <div className={styles.left}>
-            <p>
+              <p>
                 <BsCheckCircleFill className={styles.check} />
                 {FeeContent2}
               </p>
-            <p>
+              <p>
                 <BsCheckCircleFill className={styles.check} />
                 {FeeContent5}
               </p>
-             
             </div>
             <div className={styles.right}>
-            <p>
+              <p>
                 <BsCheckCircleFill className={styles.check} />
                 {FeeContent4}
               </p>
@@ -102,9 +103,7 @@ const FeeSection = ({
                 <BsCheckCircleFill className={styles.check} />
                 {FeeContent3}
               </p>
-           
             </div>
-       
           </div>
 
           <button onClick={() => popupShow(true, false)}>Enroll Now</button>
@@ -117,7 +116,7 @@ const FeeSection = ({
             </div>
             <div className={styles.left}>
               <button onClick={() => popupShow(false, true)}>
-              Start Learning
+                Start Learning
               </button>
             </div>
           </div>

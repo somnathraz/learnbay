@@ -9,11 +9,11 @@
   );
 }
 .h1 {
-  color: #0072bc;
-  margin: 10px 0px 20px 0px;
-  font-size: 24px;
+  color: black;
+  margin: 0px 0px 10px 0px;
   text-align: center;
-  margin-top: 50px;
+  font-size: 32px;
+  font-weight: 700;
 }
 .Course h2 {
   font-size: 16px;
@@ -228,15 +228,22 @@
     display: block;
   }
   .h1 {
-    color: #0072bc;
-    margin: 10px 0px 20px 0px;
-    font-size: 24px;
+    color: black;
+    margin: 0px 0px 10px 0px;
     text-align: center;
-    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
   }
 
   .Course {
     background: #fff;
     margin-top: 0px;
+  }
+  .infop {
+    color: black;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
   }
 }
