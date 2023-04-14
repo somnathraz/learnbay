@@ -1,12 +1,10 @@
 import styles from "./project.module.scss";
 import React, { useState } from "react";
-
+import Form from "../../Form/Form";
+import Popup from "../../Popup/Popup";
 import Image from "next/image";
 import { BsCheck2 } from "react-icons/bs";
-
 import { FaDownload, FaTools, FaLaptopCode } from "react-icons/fa";
-import { GoDeviceDesktop } from "react-icons/go";
-import { AiOutlineBank } from "react-icons/ai";
 import ProjectPopup from "../ProjectPopup/ProjectPopup";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
@@ -14,8 +12,17 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 
-const Project = ({ tools, project, Hr, BFSI, DsProject, Marketing }) => {
+const Project = ({
+  tools,
+  project,
+  Hr,
+  BFSI,
+  DsProject,
+  Marketing,
+  dataScience,
+}) => {
   const [popups, setPopups] = useState(false);
+  const [popupsP, setPopupsP] = useState(false);
   const [device, setDevice] = useState();
 
   const [img, setImg] = useState("");
@@ -28,8 +35,24 @@ const Project = ({ tools, project, Hr, BFSI, DsProject, Marketing }) => {
     setPopups(true);
   };
 
+  const popupShowP = () => {
+    setPopupsP(true);
+  };
+
   return (
     <div className={styles.projectHeader}>
+      <Popup trigger={popupsP} setTrigger={setPopupsP} className="popupModal">
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "350px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Download Brochure</h5>
+          <Form dataScience={dataScience} downloadBrochure />
+        </div>
+      </Popup>
       <ProjectPopup
         trigger={popups}
         setTrigger={setPopups}
@@ -43,21 +66,21 @@ const Project = ({ tools, project, Hr, BFSI, DsProject, Marketing }) => {
         <div className={styles.left}>
           <h3>Industry Projects</h3>
           <p className={styles.ptop}>
-            Work on Live Capstone projects certified from IBM
+            Work on live capstone projects certified from IBM
           </p>
 
           <div className={styles.iconWrapper}>
             <div className={styles.middle}>
               <BsCheck2 className={styles.icon} />
-              <p>Practice with Latest Tools</p>
+              <p>Practice with latest tools</p>
             </div>
             <div className={styles.middle}>
               <BsCheck2 className={styles.icon} />
-              <p>Designed by Industry Experts</p>
+              <p>Designed by industry experts</p>
             </div>
             <div className={styles.middle}>
               <BsCheck2 className={styles.icon} />
-              <p>24/7 Learner’s Support</p>
+              <p>Get real-world experience</p>
             </div>
           </div>
           <div className={styles.projectNumb}>
@@ -1157,20 +1180,16 @@ const Project = ({ tools, project, Hr, BFSI, DsProject, Marketing }) => {
       </div>
 
       <div>
-        <a
-          href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-          target={"_blank"}
+        <button
+          onClick={popupShowP}
+          style={{ margin: "auto", fontSize: "16px" }}
         >
-          <button
-            style={{ margin: "auto", marginTop: "20px", fontSize: "16px" }}
-          >
-            <FaDownload
-              className={styles.bicon}
-              style={{ marginRight: "10px" }}
-            />
-            Explore Projects
-          </button>
-        </a>
+          <FaDownload
+            className={styles.bicon}
+            style={{ marginRight: "10px" }}
+          />
+          Explore Projects
+        </button>
       </div>
     </div>
   );

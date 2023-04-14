@@ -77,7 +77,7 @@ function blockchain() {
           second="Tips"
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML-Header.png"
-          firstToparaImg="AI & ML Program For Tech Professionals"
+          firstToparaImg="AI & ML Program for tech professionals"
           firstHeading="Transform your future with our certified"
           firstTopPara="Expand beyond technology"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
@@ -112,10 +112,10 @@ function blockchain() {
         />
         <Switch/>
         <ThirdSection
-          secondLine="Invest In Yourself!"
+          secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Enjoy 3 years of career service access"
+          point1="Enjoy 3 years of flexi pass"
           point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
           point4="Get 5-8 interview calls"
@@ -166,8 +166,8 @@ function blockchain() {
         />
         <FifthSection
           advanceCertificate={true}
-          Fee="₹ 1,29,000 + 18% GST"
-          FeeEmi="₹ 12,685/month"
+          Fee="₹ 1,10,000 + 18% GST"
+          FeeEmi="₹ 10,817/month"
           FeeHeading="Program Fee & Financing"
           FeeContent2="No Cost EMI"
           FeeContent3="Flexible payment"

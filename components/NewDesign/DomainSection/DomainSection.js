@@ -34,7 +34,7 @@ function DomainSection({ dataScience, BAdomain,imgDomain }) {
           ></div>
         </div>
         <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
+          <h5>Download Brochure</h5>
           <Form dataScience={dataScience} downloadBrochure />
         </div>
       </Popup>
@@ -85,7 +85,7 @@ function DomainSection({ dataScience, BAdomain,imgDomain }) {
                           <div>
                           <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
                             <li>Work on 20+ real time case studies and assignments</li>
-                            <li>Designed for executive-level BFSI professionals, accountant, etc</li>
+                            <li>Designed for executive-level BFSI professionals, accountant, etc.</li>
                             <li>Learn finance analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
                             </ul>
                           </div>
@@ -139,8 +139,8 @@ function DomainSection({ dataScience, BAdomain,imgDomain }) {
                           <div>
                             <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
                             <li>Work on 20+ real time case studies and assignments</li>
-                            <li>Designed for executive-level BFSI professionals, accountant, etc</li>
-                            <li>Learn finance analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
+                            <li>For marketing professionals or aspiring ones</li>
+                            <li>Learn about the newest marketing technology & business analyst techniques that drive strategic development</li>
                             </ul>
                           </div>
                           <div>
@@ -230,9 +230,9 @@ function DomainSection({ dataScience, BAdomain,imgDomain }) {
                             <p>BFSI</p>
                           </div>
                           <div>
-                            <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
+                          <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
                             <li>Work on 20+ real time case studies and assignments</li>
-                            <li>Designed for executive-level BFSI professionals, accountant, etc</li>
+                            <li>Designed for executive-level BFSI professionals, accountant, etc.</li>
                             <li>Learn finance analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
                             </ul>
                           </div>
@@ -259,8 +259,8 @@ function DomainSection({ dataScience, BAdomain,imgDomain }) {
                           <div>
                             <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
                             <li>Work on 20+ real time case studies and assignments</li>
-                            <li> Designed for executive-level BFSI professionals, accountant, etc</li>
-                            <li> Learn finance analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
+                            <li>For production manager, quality control inspector, manufacturing engineer etc.</li>
+                            <li>Discover cutting-edge tech like AI and data science, and develop strategic skills as a business or data analyst</li>
                             </ul>
                           </div>
                           <div>
@@ -286,8 +286,8 @@ function DomainSection({ dataScience, BAdomain,imgDomain }) {
                           <div>
                             <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
                             <li>Work on 20+ real time case studies and assignments</li>
-                            <li> Designed for executive-level BFSI professionals, accountant, etc</li>
-                            <li> Learn finance analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
+                            <li>For petroleum engineers, environmental specialists, operation managers etc.</li>
+                            <li>Master your data analysis skills and create a dynamic dashboard to describe your insights</li>
                             </ul>
                           </div>
                           <div>
@@ -313,8 +313,8 @@ function DomainSection({ dataScience, BAdomain,imgDomain }) {
                           <div>
                             <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
                             <li>Work on 20+ real time case studies and assignments</li>
-                            <li> Designed for executive-level BFSI professionals, accountant, etc</li>
-                            <li> Learn finance analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
+                            <li>For pharmacists, therapists, health administrators, etc.</li>
+                            <li>Achieve success in a competitive market by utilizing advanced tools and methodology to leverage technology and gain a competitive edge</li>
                             </ul>
                           </div>
                           <div>

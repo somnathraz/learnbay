@@ -11,6 +11,7 @@ import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
 import {
@@ -39,15 +40,15 @@ function blockchain() {
     <>
       <Head>
         <title>
-          Advanced Data Science and AI Program with Domain Specialization
+          Advanced Data Science and AI Program with domain specialization
         </title>
         <meta
           name="description"
-          content="Advanced Data Science and AI Program with Domain Specialization"
+          content="Advanced Data Science and AI Program with domain specialization"
         />
         <meta
           name="keywords"
-          content="Advanced Data Science and AI Program with Domain Specialization"
+          content="Advanced Data Science and AI Program with domain specialization"
         />
         <link
           rel="icon"
@@ -76,8 +77,8 @@ function blockchain() {
           second="Tips"
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/advance+DS+header+image.webp"
-          firstToparaImg="With Domain Specialization"
-          firstHeading="Advance Data Science and AI program"
+          firstToparaImg="with domain specialization"
+          firstHeading="Advanced Data Science and AI Program"
           firstTopPara="Specialization over generalization"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
@@ -89,10 +90,10 @@ function blockchain() {
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
           heading4="Designed For Professionals"
-          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries"
-          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners"
-          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition"
-          SecondPara4="Prioritize growth and salary increases with in-demand skills"
+          SecondPara1="Talk to an expert & receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
+          SecondPara3="Grab opportunities with a portfolio & make a smooth career transition"
+          SecondPara4="Prioritize growth & salary increases with in-demand skills"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
@@ -111,10 +112,10 @@ function blockchain() {
         />
         <Switch />
         <ThirdSection
-          secondLine="Invest In Yourself!"
+          secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Enjoy 3 years of career service access"
+          point1="Enjoy 3 years of flexi pass"
           point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
           point4="Get 5-8 interview calls"
@@ -161,8 +162,8 @@ function blockchain() {
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope+of+DS+left+image.png"
           heading="Be the future: Grow your Data Science & AI skills "
           para1="Data Science market to reach $133 billion by 2026"
-          para2="The global AI market is to hit US$ 1,597.1 billion by 2030 "
-          para3="Influences on nearly all sectors of today's industries"
+          para2="The global AI market to hit US$ 1,597.1 billion by 2030 "
+          para3="Influences on nearly all sectors of the current industries"
         />
         <FifthSection
           advanceCertificate={true}
@@ -202,7 +203,7 @@ function blockchain() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <DomainSection />
-        <Project project="12+ Projects" tools="16+" DsProject={true} />
+        <Project project="10+ Projects" tools="16+" DsProject={true} />
         <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData2}
@@ -215,7 +216,7 @@ function blockchain() {
           SupportFaqDatas={SupportFaqData2}
         />
         <SeventhSection />
-
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </>
