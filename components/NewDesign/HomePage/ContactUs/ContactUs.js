@@ -10,23 +10,23 @@ function ContactUs({ dataScience }) {
       <div className={styles.LeftSide}>
         <h2 className={styles.h1}>
           Looking to upskill? <br />
-          Start with
         </h2>
         <h2 className={styles.h1}>
-          <span className={styles.h1Span}>India's #1 professional courses</span>
+        <span className={styles.h1Span}>Start with India's #1</span><br />
+          <span className={styles.h1Span}>professional courses</span>
         </h2>
         <div className={styles.boxSection}>
           <div className={styles.box}>
-            <p className={styles.icon}>
+            {/* <p className={styles.icon}>
               <AiOutlineRise />
-            </p>
+            </p> */}
             <p className={styles.BoldP}>9k+</p>
             <p className={styles.NormalP}>Successful transition</p>
           </div>
           <div className={styles.box}>
-            <p className={styles.icon}>
+            {/* <p className={styles.icon}>
               <BiBriefcaseAlt2 />
-            </p>
+            </p> */}
             <p className={styles.BoldP}>30k+ </p>
             <p className={styles.NormalP}>Trusted learners</p>
           </div>

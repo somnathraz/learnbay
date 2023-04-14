@@ -417,14 +417,6 @@
   .courseImg {
     width: 100%;
   }
-  .mainHead {
-    background: linear-gradient(90deg, #edbb52 0%, #ca3942 76.48%),
-      linear-gradient(90deg, #28557a 0%, #edbb52 103.64%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-  }
   .hr {
     top: 44%;
     margin-left: -15px;
@@ -506,8 +498,6 @@
     margin-left: -3px;
   }
   .fillBtn {
-    background-color: #edbb52;
-    color: black;
     height: 100%;
 
     border-radius: 0px 0px 8px 0px;

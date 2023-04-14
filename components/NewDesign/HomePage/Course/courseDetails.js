@@ -1,7 +1,7 @@
 export const viewAllD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-2.png",
     title: "Data Science",
     title1: "Foundation Program",
     tag: "Data science",
@@ -17,7 +17,7 @@ export const viewAllD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-data-science-ai-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-1.png",
     title: "Advanced Data Science",
     title1: "& AI Program",
     tag: "Data science",
@@ -33,7 +33,7 @@ export const viewAllD = [
   },
   {
     id: 3,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-ai-ml-for-tech-professionals.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-3.png",
     title: "Advance AI & ML Program",
     title1: "for Tech Professionals",
     tagHead: "For Working Professional",
@@ -49,7 +49,7 @@ export const viewAllD = [
   },
   {
     id: 4,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-4.png",
     title: "Data Science & AI ",
     title1: "For Managers",
     tag: "Data science",
@@ -65,9 +65,10 @@ export const viewAllD = [
   },
   {
     id: 5,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-5.png",
     title: "Data Science & AI ",
     title1: "Master Program",
+    tagHead: "Guaranteed Interview Call",
     tag: "Data science",
     para: [
       "500+ hours content",
@@ -80,7 +81,7 @@ export const viewAllD = [
   },
   {
     id: 6,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-analytics.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-6.png",
     title: "Data Analytics",
     title1: "Program",
     tag: "Data science",
@@ -96,7 +97,7 @@ export const viewAllD = [
   },
   {
     id: 7,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Business-Analytics.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-7.png",
     title: "Business Analytics",
     title1: "Program",
     tag: "Data science",
@@ -113,7 +114,7 @@ export const viewAllD = [
   },
   {
     id: 8,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-8.png",
     title: "Full-Stack Web",
     title1: "Development Program",
     tag: "Full stack",
@@ -129,7 +130,7 @@ export const viewAllD = [
   },
   {
     id: 9,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-9.png",
     title: "Full-Stack Software",
     title1: "Development Program",
     tagHead: "Crack Interviews in Product-based",
@@ -145,7 +146,7 @@ export const viewAllD = [
   },
   {
     id: 10,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-10.png",
     title: "Data Structures Algorithms ",
     title1: "And System Design",
     tagHead: "Be a Product Design Pro",
@@ -163,7 +164,7 @@ export const viewAllD = [
 export const ForProgrammersD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-data-science-ai-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-15.png",
     title: "Advanced Data Science",
     tag: "Data science",
     title1: "& AI Program",
@@ -277,7 +278,7 @@ export const ForProgrammersD = [
 export const ForNonProgrammerD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group.png",
     title: "Data Science",
     title1: "Foundation Program",
     tag: "Data science",
@@ -293,7 +294,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-data-science-ai-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-15.png",
     title: "Advanced Data Science",
     title1: "& AI Program",
     tag: "Data science",
@@ -309,7 +310,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 3,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-ai-ml-for-tech-professionals.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-12.png",
     title: "Advance AI & ML Program",
     title1: "for Tech Professionals",
     tagHead: "For Working Professional",
@@ -325,7 +326,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 4,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-14.png",
     title: "Data Science & AI ",
     title1: "For Managers",
     tag: "Data science",
@@ -341,7 +342,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 5,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-11.png",
     title: "Data Science & AI ",
     title1: "Master Program",
     tag: "Data science",
@@ -357,7 +358,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 6,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Business-Analytics.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-13.png",
     title: "Business Analytics",
     title1: "Program",
     tag: "Data science",
@@ -373,7 +374,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 7,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-analytics.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Mask+group-10.png",
     title: "Data Analytics",
     title1: "Program",
     tag: "Data science",

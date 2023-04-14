@@ -161,7 +161,7 @@ function dataAnalytics() {
         <GrowthStats
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DA-Scope.webp"
           heading="Move forward with Data Analysis "
-          para1="Data Analytics market to reach $133 billion by 2026"
+          para1="Huge requirement across various industries and domains"
           para2="Earn an average annual salary of 8 LPA"
           para3="Abundance of positions with Data Analysis"
         />

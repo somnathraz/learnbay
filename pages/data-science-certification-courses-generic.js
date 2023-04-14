@@ -150,7 +150,7 @@ function blockchain() {
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+Foundation+Scope.webp"
           heading="Data science is the future! "
           para1="Higher Growth: Annual growth rate of 30% in 2023"
-          para2="Big Earning Potential: Earn an average salary of INR 10 LPA"
+          para2="Big Earning Potential: Earn an average annual salary of INR 10 LPA"
           para3="Strong Demand: Booming requirement across various industries and domains"
         />
         <FifthSection

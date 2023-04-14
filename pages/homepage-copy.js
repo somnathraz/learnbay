@@ -12,6 +12,7 @@ import Testimonial from "../components/NewDesign/HomePage/Testimonial/Testimonia
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import ContactUs from "../components/NewDesign/HomePage/ContactUs/ContactUs";
 import CoreFeature from "../components/NewDesign/HomePage/CoreFeature/CoreFeature";
+import BoxShape from "../components/NewDesign/HomePage/BoxShape/BoxShape";
 
 export default function Home() {
   return (
@@ -34,15 +35,28 @@ export default function Home() {
       </Head>
       <Navbar popup={true} dataScience={true} radio={true} />
 
-      <FirstSection first="Tools"
-second="Tips"
-third="Technology" popup={true} dataScience={true} radio={true} />
+      <FirstSection
+        first="Tools"
+        second="Tips"
+        third="Technology"
+        popup={true}
+        dataScience={true}
+        radio={true}
+      />
       <HomeLine />
-
+      <div className={styles.boxWrap}>
+        <h2>Get Certified & Move Towards Your Dream Job</h2>
+        <p className={styles.boxp}>
+          Our Domain Specialisation and Industry Certified Capstone Projects
+          helps you to make your past work experience relevant
+        </p>
+        <div className={styles.boxShape}>
+          <BoxShape />
+        </div>
+      </div>
       <Course />
       <Switch />
       <KeyFeatures />
-      {/* <CoreFeature /> */}
       <Testimonial />
       <ContactUs />
       <SeventhSection />
