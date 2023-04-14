@@ -9,7 +9,7 @@ import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
 import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
-import SixthSection from "../components/NewDesign/SixthSection/SixthSection";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { DsaiManagersCourseData } from "../Data/DataScienceManagers";
@@ -25,7 +25,7 @@ import {
   MentorshipFaqData4,
   SupportFaqData4,
 } from "../components/NewDesign/FAQNew/FaqData";
-import Switch from "../components/NewDesign/HomePage/switch/switch";
+import Switch from "../components/NewDesign/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
@@ -79,9 +79,9 @@ function blockchain() {
           second="Tips"
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Business-Analytics-Masters-Header.png"
-          firstToparaImg=" Data Science and AI Program For Manager & Leaders"
-          firstHeading="Be ready with"
-          firstTopPara="Upskill with relevant skills "
+          firstToparaImg=" For Manager & Leaders"
+          firstHeading="Be ready with Data Science and AI Program"
+          firstTopPara="Empower your leadership journey"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
         />
         <SecondSection
@@ -90,12 +90,12 @@ function blockchain() {
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
           heading4="Designed For Professionals"
-          SecondHead="Who’s a fit for this program? "
+          SecondHead="Why Choose Us?"
           SecondPara="India's top rated bootcamp for working professionals"
-          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries"
-          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners"
-          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition"
-          SecondPara4="Prioritize growth and salary increases with in-demand skills"
+          SecondPara1="Talk to an expert & receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
+          SecondPara3="Grab opportunities with a portfolio & make a smooth career transition"
+          SecondPara4="Prioritize growth & salary increases with in-demand skills"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
@@ -104,7 +104,7 @@ function blockchain() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/manager+_Who+is+this+program+for_+image.webp"
           para1="Bachelor's degree with consistent good academics"
-          para2="Minimum 5 year of IT/Non-IT work experience "
+          para2="Minimum 6 year of IT/Non-IT work experience "
           para3="Mid-Senior professionals interested in Data Science & AI
           "
           para4="Data Science & AI expertise for future opportunities "
@@ -115,12 +115,12 @@ function blockchain() {
         />
         <Switch />
         <ThirdSection
-          point1="Enjoy 3 years of career service access"
+          point1="Enjoy 3 years of flexi pass"
           point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
-          point4="Get 3-5 interview calls"
-          secondLine="Invest In Yourself!"
-          thirdHeadSpan=" Alumni Community."
+          point4="Get 5-8 interview calls"
+          secondLine="Invest in yourself!"
+          thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
           BatchPara="Data Science and AI Program for Managers targets professionals with 8+ years of experience from specific industries and designations to equip them with skills for driving business value and getting promoted with high salaries."
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/MANAGERS+Left.png"
@@ -166,7 +166,7 @@ function blockchain() {
           heading="Be the future pillar of technology"
           para1="The AI market to be worth $1,598 billion by 2030"
           para2="The estimated salary for Sr. job roles is Rs.19 Lakhs per year"
-          para3="Influences on almost every industry in today's world."
+          para3="Influences on almost every industry in today's world"
         />
         <FifthSection
           advanceCertificate={true}
@@ -216,7 +216,7 @@ function blockchain() {
           dataScience={true}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         /> */}
-        <Project project="12+ Projects" tools="16+" DsProject={true} />
+        <Project project="13+ Projects" tools="16+" DsProject={true} />
         <BatchDetails CourseFeeHead="Data science course for Mangers: Batch Details" />
         <FAQNew
           FaqDatas={FaqData4}
@@ -228,7 +228,7 @@ function blockchain() {
           SupportFaqDatas={SupportFaqData4}
         />
         <SeventhSection />
-
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </>

@@ -9,7 +9,7 @@ import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
 import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
-import SixthSection from "../components/NewDesign/SixthSection/SixthSection";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { DataAnalyticsCourseData } from "../Data/DataAnalyticsData";
@@ -26,7 +26,7 @@ import {
 } from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 // import Project from "../components/NewDesign/Project/Project";
-import Switch from "../components/NewDesign/HomePage/switch/switch";
+import Switch from "../components/NewDesign/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
@@ -77,23 +77,23 @@ function dataAnalytics() {
           second="Tips"
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/data+analytics+header+image.webp"
-          firstToparaImg="Data Analytics Certification "
+          firstToparaImg="Data Analytics Program"
           firstHeading="Upskill yourself to the top with"
-          firstTopPara="Industry-approved program!"
+          firstTopPara="Unleash the power of data"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
           fullStackReview={true}
-          SecondHead="Who’s a fit for this program? "
-          SecondPara="India's top rated  bootcamp for working professionals "
+          SecondHead="Why Choose Us?"
+          SecondPara="India's top rated bootcamp for working professionals"
           heading1="On-Demand Doubt Sessions"
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
           heading4="Designed For Professionals"
-          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries"
-          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners"
-          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition"
-          SecondPara4="Prioritize growth and salary increases with in-demand skills"
+          SecondPara1="Talk to an expert & receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
+          SecondPara3="Grab opportunities with a portfolio & make a smooth career transition"
+          SecondPara4="Prioritize growth & salary increases with in-demand skills"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
@@ -107,18 +107,18 @@ function dataAnalytics() {
           heading4="Aspirations"
           para1="Bachelor's degree with good academic performance"
           para2="Minimum 1 year of IT/Non-IT work experience"
-          para3="Early to mid-career professionals interested in Data analytics"
+          para3="Early to mid-career professionals interested in data analytics"
           para4="Developing skills in data analytics for future opportunities"
         />
         <Switch />
         <ThirdSection
-          secondLine="Invest In Yourself!"
-          thirdHeadSpan=" Alumni Community."
+          secondLine="Invest in yourself!"
+          thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Enjoy 3 years of career service access"
+          point1="Enjoy 3 years of flexi pass"
           point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
-          point4="Get 3-5 interview calls"
+          point4="Get 5-8 interview calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
@@ -162,12 +162,11 @@ function dataAnalytics() {
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DA-Scope.webp"
           heading="Move forward with Data Analysis "
           para1="Data Analytics market to reach $133 billion by 2026"
-          para2="Top priority for all organisations"
+          para2="Earn an average annual salary of 8 LPA"
           para3="Abundance of positions with Data Analysis"
         />
         <FifthSection
-          advanceCertificate={true}
-          Ibm={true}
+          dataAnalyticsCertificate={true}
           Fee="₹ 79,000 + 18% GST"
           FeeEmi="₹ 7,768/month"
           FeeHeading="Program Fee & Financing"
@@ -214,7 +213,7 @@ function dataAnalytics() {
           dataScience={true}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         /> */}
-        <Project project="12+ Projects" tools="16+" DsProject={true} />
+        <Project project="10+ Projects" tools="16+" DsProject={true} />
         <FAQNew
           FaqDatas={FaqData6}
           PaymentFaqDatas={PaymentFaqData6}
@@ -225,7 +224,7 @@ function dataAnalytics() {
           SupportFaqDatas={SupportFaqData6}
         />
         <SeventhSection />
-
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </>

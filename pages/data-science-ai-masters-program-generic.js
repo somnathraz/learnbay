@@ -105,17 +105,17 @@ function blockchain() {
         heading2="Work experience"
         heading3="Career stage"
         heading4="Aspirations"
-        para1="Bachelor's degree with academic performance"
+        para1="Bachelor's degree with good academic performance"
         para2="Minimum 6 months of work experience"
         para3="Early to mid-career professionals interested in data science"
         para4="Preparing for future leadership opportunities in data science"
         />
         <Switch/>
         <ThirdSection
-          secondLine="Invest In Yourself!"
+          secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Enjoy 3 years of career service access"
+          point1="Enjoy 3.5 years of flexi pass"
           point2="Get 6 mock interviews with industry leaders"
           point3="Resume build up session"
           point4="Get unlimited interview calls"
@@ -201,7 +201,7 @@ function blockchain() {
         />
         <DomainSection 
         />
-        <Project project="12+ Projects" tools="16+" DsProject={true}/>
+        <Project project="16+ Projects" tools="16+" DsProject={true}/>
         <BatchDetails CourseFeeHead="Data Science and AI Master Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData5}

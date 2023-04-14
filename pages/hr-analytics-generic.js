@@ -10,7 +10,7 @@ import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
-import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { HrData } from "../Data/hrData";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
 import {
@@ -38,15 +38,15 @@ function Hr() {
     <>
       <Head>
         <title>
-          Advanced Data Science and AI Program with Domain Specialization
+          HR Analytics Program
         </title>
         <meta
           name="description"
-          content="Advanced Data Science and AI Program with Domain Specialization"
+          content="HR Analytics Program"
         />
         <meta
           name="keywords"
-          content="Advanced Data Science and AI Program with Domain Specialization"
+          content="HR Analytics Program"
         />
         <link
           rel="icon"
@@ -88,10 +88,10 @@ function Hr() {
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
           heading4="For HR professionals"
-          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries"
-          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners"
-          SecondPara3="Maximize opportunities with a portfolio and make a smooth career transition"
-          SecondPara4="Boost your growth and earnings with in-demand people analytics skills
+          SecondPara1="Talk to an expert & receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
+          SecondPara3="Grab opportunities with a portfolio & make a smooth career transition"
+          SecondPara4="Boost your growth & earnings with in-demand people analytics skills
           "
         />
         <ProgramCustomer
@@ -103,7 +103,7 @@ function Hr() {
           para1="Bachelor's degree with consistent good academics"
           para2="Minimum 1 year of IT/Non-IT work experience"
           para3="Mid-career professionals interested in HR analytics"
-          para4=" Preparing for future leadership role in HR analytics"
+          para4=" Preparing for future leadership role in HR domain"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -111,11 +111,11 @@ function Hr() {
         />
         <Switch />
         <ThirdSection
-          secondLine="Invest In Yourself!"
+          secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Enjoy 3 years of career service access"
-          point2="Get 3 mock session with industry leaders"
+          point1="Enjoy 3 years of flexi pass"
+          point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
           point4="Get 5-8 interview calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
@@ -167,7 +167,7 @@ function Hr() {
         <FifthSection
           advanceCertificate={true}
           Fee="₹ 89,000 + 18% GST"
-          FeeEmi="₹ 4,375/month"
+          FeeEmi="₹ 8,752/month"
           FeeHeading="Program Fee & Financing"
           FeeContent1="0% interest rate"
           FeeContent2="No Cost EMI"
@@ -213,7 +213,7 @@ function Hr() {
           SupportFaqDatas={SupportFaqDataHR}
         />
         <SeventhSection />
-
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </>

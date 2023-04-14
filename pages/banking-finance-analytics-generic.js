@@ -9,7 +9,7 @@ import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
 import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
-import SixthSection from "../components/NewDesign/SixthSection/SixthSection";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import { BFSIData } from "../Data/BFSIData";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
@@ -26,7 +26,7 @@ import {
   MentorshipFaqDataBFSI,
   SupportFaqDataBFSI,
 } from "../components/NewDesign/FAQNew/FaqData";
-import Switch from "../components/NewDesign/HomePage/switch/switch";
+import Switch from "../components/NewDesign/switch/switch";
 
 function blockchain() {
   const [popups, setPopups] = useState(false);
@@ -80,10 +80,10 @@ function blockchain() {
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
           heading4="Designed For Professionals"
-          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries"
-          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners"
-          SecondPara3="Maximize marketing career opportunities with a portfolio and smooth role transition"
-          SecondPara4="Boost your growth and earnings with in-demand people analytics skills"
+          SecondPara1="Talk to an expert & receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
+          SecondPara3="Master the domain of finance analytics with certificate from IBM"
+          SecondPara4="Boost your growth & earnings with in-demand analytics skills"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
@@ -94,7 +94,7 @@ function blockchain() {
           para1="Bachelor's degree with consistent good academics"
           para2="Minimum 1 year of IT/Non-IT work experience"
           para3="Early to mid-career professionals interested in finance analytics"
-          para4="To become a data-driven financer and optimize strategies"
+          para4="Utilise data-driven insights for business growth"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -106,10 +106,10 @@ function blockchain() {
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
           BatchPara="The banking & finance analytics program is designed for professionals across various sectors and designations who want to acquire necessary skills and knowledge to analyze financial data and make informed business decisions."
-          point1="Enjoy 3 years of career service access"
+          point1="Enjoy 3 years of flexi pass"
           point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
-          point4="Get 3-5 interview calls"
+          point4="Get 5-8 interview calls"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FINANCE+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FINANCE+Right.png"
           dataScience={true}
@@ -214,7 +214,7 @@ function blockchain() {
           SupportFaqDatas={SupportFaqDataBFSI}
         />
         <SeventhSection />
-
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </>

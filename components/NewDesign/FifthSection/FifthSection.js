@@ -13,6 +13,7 @@ import MasterCertificateTab from "../CertificateTab/MasterCertificateTab";
 import AnalyticsCertificateTab from "../CertificateTab/AnalyticsCertificateTab";
 import BACertificateTab from "../FifthSection/CertificateTabBusiness";
 import FinanceCertificateTab from "../CertificateTab/FinanceCertificateTab";
+import CertificateTabAdvance from "../FifthSection/CertificateTabAdvance"
 
 function FifthSection({
   FeeHeading,
@@ -38,7 +39,7 @@ function FifthSection({
   img20,
   img21,
   img22,
-  img23,
+  dataAnalyticsCertificate,
   dataScience,
   Fee,
   FeeContent1,
@@ -145,6 +146,7 @@ function FifthSection({
           {AnalyticsCertificate ? <AnalyticsCertificateTab /> : ""}
           {BACertificate ? <BACertificateTab /> : ""}
           {FinanceCertificate ? <FinanceCertificateTab /> : ""}
+          {dataAnalyticsCertificate ? <CertificateTabAdvance Ibm={true} /> : ""}
         </div>
       )}
       {/* <div className={styles.fee}>

@@ -13,7 +13,7 @@ import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSectio
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { BusinessAnalyticsCourseData } from "../Data/BusinessAnalyticsData";
-import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
 import {
   FaqData7,
   PaymentFaqData7,
@@ -111,10 +111,10 @@ function blockchain() {
         />
         <Switch/>
         <ThirdSection
-          secondLine="Invest In Yourself!"
+          secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With The Support Of Our"
-          point1="Enjoy 3 years of career service access"
+          point1="Enjoy 3.5 years of flexi pass"
           point2="Get 6 mock interviews with industry leaders"
           point3="Resume build up session"
           point4="Get unlimited interview calls"

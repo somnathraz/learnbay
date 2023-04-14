@@ -65,7 +65,7 @@ function SyllabusNew({
 
       <div className={styles.project}>
         <h2 className={styles.h1}>A Roadmap For Success</h2>
-        <p className={styles.ptop}>Our comprehensive curriculum, designed for professionals.</p>
+        <p className={styles.ptop}>Our comprehensive curriculum, designed for professionals</p>
       </div>{" "}
       <section className={styles.Syllabus}>
         <div className={styles.syllabusLeft}>

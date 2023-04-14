@@ -10,7 +10,7 @@ import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
-import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { MarketingCourse } from "../Data/MarketingCourse";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
 import {
@@ -38,15 +38,15 @@ function Marketing() {
     <>
       <Head>
         <title>
-          Advanced Data Science and AI Program with Domain Specialization
+          Marketing Analytics Program
         </title>
         <meta
           name="description"
-          content="Advanced Data Science and AI Program with Domain Specialization"
+          content="Marketing Analytics Program"
         />
         <meta
           name="keywords"
-          content="Advanced Data Science and AI Program with Domain Specialization"
+          content="Marketing Analytics Program"
         />
         <link
           rel="icon"
@@ -75,7 +75,7 @@ function Marketing() {
           second="Tips"
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/marketing-header-image+.webp"
-          firstToparaImg="Applied Marketing Analytics"
+          firstToparaImg="Marketing Analytics"
           firstHeading="Elevate your career with certification in"
           firstTopPara="Experience the future of analytics"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
@@ -88,10 +88,10 @@ function Marketing() {
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
           heading4="For Marketing professionals"
-          SecondPara1="Talk to an industry expert and receive real-time solutions to your queries"
-          SecondPara2="Boost your job prospects with referrals from 300+ premier hiring partners"
-          SecondPara3="Maximize marketing career opportunities with a portfolio and smooth role transition"
-          SecondPara4="Boost your growth and earnings with in-demand people analytics skills"
+          SecondPara1="Talk to an expert & receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
+          SecondPara3="Grab opportunities with a portfolio & make a smooth career transition"
+          SecondPara4="Boost your growth & earnings with in-demand analytics skills"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
@@ -101,8 +101,8 @@ function Marketing() {
           leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/marketing+_+Who-is-this-program-for+_+image.webp"
           para1="Bachelor's degree with good academic performance"
           para2="Minimum 1 year of IT/Non-IT work experience "
-          para3="Early to mid-career professionals interested in Marketing analytics"
-          para4=" To become a data-driven marketer and  optimize strategies"
+          para3="Early to mid-career professionals interested in marketing analytics"
+          para4=" To become a data-driven marketer and optimize strategies"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -110,13 +110,13 @@ function Marketing() {
         />
         <Switch />
         <ThirdSection
-          secondLine="Invest In Yourself!"
+          secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Enjoy 3 Years Of Career Service Access"
-          point2="Get 3 Mock Session With Industry Leaders"
-          point3="Resume Build Up Session"
-          point4="Get 5-8 Interview Calls"
+          point1="Enjoy 3 years of flexi pass"
+          point2="Get 3 mock interviews with industry leaders"
+          point3="Resume build up session"
+          point4="Get 5-8 interview calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
@@ -159,14 +159,14 @@ function Marketing() {
         <GrowthStats
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Marketing+Analytics+Scope.webp"
           heading="The future is bright in Marketing Analytics - are you ready?"
-          para1="High earning potential: Marketing Analysts (₹10 Lakhs LPA)x"
+          para1="High earning potential: Earn an average annual salary of 10 LPA"
           para2="Rapid industry growth: 93.8% annually (2020-2027)"
-          para3="Abundant career opportunities in Marketing Analytics."
+          para3="Abundant career opportunities in Marketing Analytics"
         />
         <FifthSection
           advanceCertificate={true}
           Fee="₹ 89,000 + 18% GST"
-          FeeEmi="₹ 4,375/month"
+          FeeEmi="₹ 8,752/month"
           FeeHeading="Program Fee & Financing"
           FeeContent1="0% interest rate"
           FeeContent2="No Cost EMI"
@@ -212,7 +212,7 @@ function Marketing() {
           SupportFaqDatas={SupportFaqDataMarkering}
         />
         <SeventhSection />
-
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </>
