@@ -218,7 +218,7 @@ function ThirdSection({
       <div className={styles.CTA}>
         <div className={styles.boxBlue}>
           <h2 className={styles.boxH2}>
-            Can’t decide which course to opt for?
+            Can’t decide which program to opt for?
           </h2>
           <p className={styles.boxP}>
             Don’t worry, our expert counsellor is there to guide you make the

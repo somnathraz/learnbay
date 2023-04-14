@@ -9,9 +9,7 @@
 }
 
 .h1Span {
-  background: linear-gradient(90deg, #f99600 0%, #edb552 60.64%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #f99600;
   font-size: 38px;
 }
 
@@ -45,7 +43,7 @@
 
 .BoldP {
   color: #0072bc;
-
+padding-top: 20px;
   font-weight: 700;
   line-height: 47px;
   margin: 0px;

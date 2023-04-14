@@ -526,8 +526,7 @@ export const MarketingCourse = [
             },
             {
               chap: {
-                title:
-                  "Topic 2 :- Excel case-study:",
+                title: "Topic 2 :- Excel case-study:",
                 desc: [
                   "1. ROI Analysis: This case study involves the use of Excel to analyze the return on investment (ROI) of a marketing campaign. The goal is to determine the effectiveness of the campaign and identify areas for improvement. The analysis involves calculating the cost of the campaign, the revenue generated from the campaign, and the overall ROI.",
                   "2. A/B Testing Analysis: This case study involved the use of Excel to analyze the results of A/B testing in a marketing campaign. The goal of the analysis was to determine which version of the marketing material (e.g. email subject line, website design, etc.) performed better in terms of driving conversions. The analysis involved comparing the results of the two versions using statistical techniques such as t-tests and confidence intervals.",
@@ -651,12 +650,12 @@ export const MarketingCourse = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th April 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -671,7 +670,7 @@ export const MarketingCourse = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 9th April 2023", "Time : 12:30 PM to 4 PM"],
+                desc: ["Date : 23rd April 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
@@ -680,7 +679,6 @@ export const MarketingCourse = [
         },
       },
     ],
-
     BatchDetails: {
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
       BatchName1: "weekday Batch",

@@ -297,7 +297,8 @@ export const DataScienceCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1 :- Introduction to AWS and Azure Machine Learning Services:",
+                title:
+                  "Module 1 :- Introduction to AWS and Azure Machine Learning Services:",
                 desc: [
                   "Overview of AWS SageMaker and Azure Machine Learning",
                   "Key features and benefits of using these platforms",
@@ -317,8 +318,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title:
-                  "Module 3 :- Data Preparation and Feature Engineering:",
+                title: "Module 3 :- Data Preparation and Feature Engineering:",
                 desc: [
                   "Understanding the data requirements for machine learning models (e.g. structured vs unstructured data, data size, data quality)",
                   "Data cleaning and preprocessing techniques (e.g. missing value imputation, feature scaling, encoding categorical variables)",
@@ -328,8 +328,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title:
-                  "Module 4 :- Model Training and Evaluation:",
+                title: "Module 4 :- Model Training and Evaluation:",
                 desc: [
                   "Choosing the right machine learning algorithm and model (e.g. regression, classification, clustering)",
                   "Training models using AWS SageMaker and Azure Machine Learning (e.g. using built-in algorithms, custom code)",
@@ -339,8 +338,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title:
-                  "Module 5 :- Model Deployment and Management:",
+                title: "Module 5 :- Model Deployment and Management:",
                 desc: [
                   "Deploying trained models on AWS SageMaker and Azure Machine Learning (e.g. creating endpoints, batch inference)",
                   "Monitoring model performance and managing versions (e.g. model drift, A/B testing)",
@@ -384,12 +382,12 @@ export const DataScienceCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th April 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -404,7 +402,7 @@ export const DataScienceCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 9th April 2023", "Time : 12:30 PM to 4 PM"],
+                desc: ["Date : 23rd April 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
@@ -413,7 +411,6 @@ export const DataScienceCourseData = [
         },
       },
     ],
-
     BatchDetails: {
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
       BatchName1: "weekday Batch",

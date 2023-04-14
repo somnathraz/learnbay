@@ -68,7 +68,7 @@ function blockchain() {
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BFSI-header-image.webp"
           firstToparaImg="Banking & Finance Analytics Program"
-          firstHeading="Acheive a glorious future with our "
+          firstHeading="Achieve a glorious future with our "
           firstTopPara="Ready to master the finance domain?"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />

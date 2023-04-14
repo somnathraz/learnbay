@@ -24,7 +24,7 @@
 .boxWrap {
   display: flex;
   flex-flow: column;
-  padding: 30px 100px;
+  padding: 80px 100px;
 }
 .boxWrap h2 {
   margin: 0;
@@ -310,7 +310,7 @@
   .boxWrap {
     display: flex;
     flex-flow: column;
-    padding: 10px 20px 0px 20px;
+    padding: 50px 20px 0px 20px;
   }
   .boxWrap h2 {
     margin: 0;

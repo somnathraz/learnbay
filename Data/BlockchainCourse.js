@@ -580,12 +580,12 @@ export const BlockchainCourse = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th April 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -600,7 +600,7 @@ export const BlockchainCourse = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 9th April 2023", "Time : 12:30 PM to 4 PM"],
+                desc: ["Date : 23rd April 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
@@ -609,7 +609,6 @@ export const BlockchainCourse = [
         },
       },
     ],
-
     BatchDetails: {
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
       BatchName1: "weekday Batch",

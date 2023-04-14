@@ -29,7 +29,7 @@ const FirstSection = ({ dataScience, radio, first, second, third }) => {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "Are you looking for a career transition?",
+        "Are you looking to upskill?",
         "Gain a competitive edge",
         "Land your dream job",
       ], // Strings to display
@@ -84,8 +84,8 @@ const FirstSection = ({ dataScience, radio, first, second, third }) => {
           <div className={styles.IBMlogoPlay}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Home-Page-Header.png"
-              width="627"
-              height="425"
+              width="580"
+              height="450"
               layout="intrinsic"
               alt="data science course"
             />
@@ -101,15 +101,16 @@ const FirstSection = ({ dataScience, radio, first, second, third }) => {
             />
           </div>
           <p className={styles.blink}>
-            Develop your career with domain knowledge and ace top company
-            interviews
+          Advance your career by gaining expertise in your field and ace interviews
+with India’s leading companies
+
           </p>
-          <div className={styles.line}>
+          {/* <div className={styles.line}>
             <img
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Vector-1-line.png"
               width="80px"
             />
-          </div>
+          </div> */}
           <div className={styles.btnWrapper}>
             <a href="#course">
               <button className={styles.outLineBtn}>
@@ -126,8 +127,8 @@ const FirstSection = ({ dataScience, radio, first, second, third }) => {
           <div className={styles.PlayImg}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Home-Page-Header.png"
-              width="627"
-              height="425"
+              width="580"
+              height="450"
               layout="intrinsic"
               alt="data science course"
             />

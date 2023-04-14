@@ -319,7 +319,7 @@ function SecondSection({
                                   cLogo:
                                     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/themathcompany-logo.png",
                                   pLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png",
+                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/aravind-home.png",
                                 });
                               }}
                             >
