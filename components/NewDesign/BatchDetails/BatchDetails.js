@@ -55,7 +55,7 @@ function BatchDetails({ CourseFeeHead, WebDev, FullStack }) {
                     <div className={styles.listMobile}>
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
-                        31st March 2023
+                        13th April 2023
                       </p>
                       <p className={styles.list}>
                         <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
@@ -154,7 +154,7 @@ function BatchDetails({ CourseFeeHead, WebDev, FullStack }) {
                     <div>
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
-                        31st March 2023
+                        13th April 2023
                       </p>
                     </div>
                     <div>
