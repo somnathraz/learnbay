@@ -254,6 +254,12 @@
   font-family: 600;
   color: rgb(103, 103, 103);
 }
+
+.BangaloreMap{
+  position: relative;
+  left: 500px;
+}
+
 @media (max-width: 1281px) {
   .program {
     height: 90px;
@@ -301,6 +307,11 @@
 }
 
 @media (max-width: 481px) {
+
+  .BangaloreMap{
+    position: relative;
+    left: 0px;
+  }
   .program {
     height: 390px;
   }
@@ -426,6 +437,8 @@
     width: 100%;
     margin: 40px 0px 0px 0px;
   }
+
+
 }
 
 @media (max-width: 600px) {
