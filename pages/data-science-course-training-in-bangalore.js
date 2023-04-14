@@ -17,7 +17,7 @@ import React, { useState } from "react";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import YoutubeVideo from "../components/YoutubeVideo/YoutubeVideo";
 import Image from "next/image";
-// import Maps from "../components/Maps/Maps"
+import Maps from "../components/Maps/Maps"
 
 import {
   AdvanceFaqDataB,
@@ -1037,6 +1037,9 @@ export default function Home() {
           </div>
         </div>
         <LearnSupport />
+        <div className={styles.BangaloreMap}><Maps/></div>
+        
+        
         <CityText cityText={true} />
         <OfferPopup offer={false} />
         <Footer />
