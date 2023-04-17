@@ -111,7 +111,7 @@ export const AdvancePaymentFaqDataM = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Mumbai?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
+    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
     Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -671,7 +671,7 @@ export const MachinePaymentFaqDataM = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,23,900/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,325/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },*/
   {
@@ -903,13 +903,13 @@ export const AnalyticsPaymentFaqDataM = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Mumbai?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     //Text
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
@@ -1093,8 +1093,8 @@ export const BusinessAPaymentFaqDataM = [
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -1322,7 +1322,7 @@ export const AdvancePaymentFaqDataH = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Hyderabad?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
+    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
     Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -1886,7 +1886,7 @@ export const MachinePaymentFaqDataH = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,23,900/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,325/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -2118,13 +2118,13 @@ export const AnalyticsPaymentFaqDataH = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Hyderabad?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -2304,8 +2304,8 @@ export const BusinessAPaymentFaqDataH = [
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -2533,7 +2533,7 @@ export const AdvancePaymentFaqDataB = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Bangalore?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
+    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
     Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -3085,7 +3085,7 @@ export const MachinePaymentFaqDataB = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,23,900/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,325/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -3321,13 +3321,13 @@ export const AnalyticsPaymentFaqDataB = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Bangalore?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -3507,8 +3507,8 @@ export const BusinessAPaymentFaqDataB = [
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -3740,7 +3740,7 @@ export const AdvancePaymentFaqDataC = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Chennai?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
+    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
     Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -4297,7 +4297,7 @@ export const MachinePaymentFaqDataC = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,23,900/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,325/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -4532,13 +4532,13 @@ export const AnalyticsPaymentFaqDataC = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Chennai?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -4718,8 +4718,8 @@ export const BusinessAPaymentFaqDataC = [
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -4951,7 +4951,7 @@ export const AdvancePaymentFaqDataCa = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Canada?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
+    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
     Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -5511,7 +5511,7 @@ export const MachinePaymentFaqDataCa = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,23,900/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,325/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -5747,13 +5747,13 @@ export const AnalyticsPaymentFaqDataCa = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Canada?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -5934,8 +5934,8 @@ export const BusinessAPaymentFaqDataCa = [
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: " Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -6168,7 +6168,7 @@ export const AdvancePaymentFaqDataD = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Delhi?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
+    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
     Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -6727,7 +6727,7 @@ export const MachinePaymentFaqDataD = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,23,900/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,325/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -6963,13 +6963,13 @@ export const AnalyticsPaymentFaqDataD = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Delhi?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -7149,8 +7149,8 @@ export const BusinessAPaymentFaqDataD = [
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -7386,7 +7386,7 @@ export const AdvancePaymentFaqDataDu = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Dubai?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
+    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
     Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -7945,7 +7945,7 @@ export const MachinePaymentFaqDataDu = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,23,900/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,325/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -8182,13 +8182,13 @@ export const AnalyticsPaymentFaqDataDu = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Dubai?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -8368,8 +8368,8 @@ export const BusinessAPaymentFaqDataDu = [
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     linkText1: "Please check with our sales team to know more +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -8602,7 +8602,7 @@ export const AdvancePaymentFaqDataP = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Pune?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
+    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
     Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
@@ -9162,7 +9162,7 @@ export const MachinePaymentFaqDataP = [
   {
     id: 1,
     ques: "Can I pay in installments for 1,23,900/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,325/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -9398,13 +9398,13 @@ export const AnalyticsPaymentFaqDataP = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Pune?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.`,
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -9584,8 +9584,8 @@ export const BusinessAPaymentFaqDataP = [
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 88,500/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    ques: "Can I pay in installments for INR 93,220/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -11946,7 +11946,7 @@ export const AdvancePaymentFaqDataI = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in India?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
+    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
     Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
     Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
     Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,

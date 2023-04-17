@@ -21,9 +21,9 @@
   cursor: pointer;
   font-size: 30px;
   border-radius: 50%;
-  border: 1px solid #0d4a9b;
-  border-color: blue;
-  color: #0d4a9b;
+  border: 1px solid #0072bc;
+  border-color: #0072bc;
+  color: #0072bc;
   top: -15px;
   right: -10px;
 }

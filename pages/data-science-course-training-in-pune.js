@@ -301,7 +301,7 @@ export default function Home() {
  "name": "What is the total fee for Data Science Certifications courses in Pune?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total course fee for the Foundational Data Science and AI Training course is 88,500/- inclusive of GST. Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST."
+ "text": "The total course fee for the Foundational Data Science and AI Training course is 93,220/- inclusive of GST. Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST."
  }
  },{
  "@type": "Question",
@@ -494,12 +494,12 @@ export default function Home() {
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 9,342/month"
+            p44="₹ 9,735/month"
           />
         </div>
         <ProgramFee
-          Fee="₹95,000 + GST"
-          Emi="₹ 9,342/month"
+          Fee="₹99,000 + 18% GST"
+          Emi="₹ 9,735/month"
           dataScience={true}
         />
         <script
@@ -552,7 +552,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-            cityTextDSPune={true}
+              cityTextDSPune={true}
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Students learning data science at Learnbay get a list of specialized domains. Learnbay mentors analyze a student's profile and then suggest the right domain(s) as choosing the right domain is very important to get successfully employed as a data scientist. The domain helps students learn data science skills with a greater degree of expertise."
               DomainBot2="In addition to seeking a skilled data scientist, many businesses also seek experts in particular fields. Learnbay plays an important role in data science training across Pune from this perspective by allowing students to select their own domain. Also, the data science learning modules you get are completely customized as per your chosen domain’s industry-level data scientific needs."

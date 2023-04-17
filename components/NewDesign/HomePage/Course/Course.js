@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Course.module.css";
-import { FiDownload } from "react-icons/fi";
 import { BiTimeFive } from "react-icons/bi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { BsFillBellFill } from "react-icons/bs";
+import { TbListDetails } from "react-icons/tb";
 import Image from "next/image";
 import { TbCurrencyRupee } from "react-icons/tb";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,6 +11,8 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import Popup from "../../../Popup/Popup";
+import Form from "../../../Form/Form";
 
 import {
   viewAllD,
@@ -20,8 +21,9 @@ import {
   JobGuaranteeD,
   StackD,
 } from "./courseDetails";
+import { FaDownload } from "react-icons/fa";
 
-const Course = () => {
+const Course = ({dataScience, radio}) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
@@ -29,6 +31,10 @@ const Course = () => {
   const [Stack, setStack] = useState(false);
   const [mobile, setMobile] = useState(false);
   const [value, setValue] = useState(3.2);
+  const [popups, setPopups] = useState(false);
+  const popupShow = () => {
+    setPopups(true);
+  };
 
   const filtteredViewAllD = viewAllD.filter(
     (post) => post.tag === "Data science"
@@ -56,7 +62,7 @@ const Course = () => {
   useEffect(() => {
     let width = window.innerWidth;
     if (width < 600) {
-      setValue(1.1);
+      setValue(1.03);
       setMobile(true);
     } else if (width <= 641) {
       setValue(1.6);
@@ -82,6 +88,23 @@ const Course = () => {
 
   return (
     <div className={styles.Course} id="course">
+              <Popup
+          trigger={popups}
+          setTrigger={setPopups}
+          className="popupModal"
+          downloadBrochure
+        >
+          <div className="leftPopup">
+            <div
+              className="whiteP"
+              style={{ width: "340px", height: "400px" }}
+            ></div>
+          </div>
+          <div className="RightPopup">
+            <h5>Download Brochure</h5>
+            <Form dataScience={dataScience} radio={radio} downloadBrochure />
+          </div>
+        </Popup>
       <h2>Industry Accredited Certification For Professionals</h2>
 
       <div className={styles.courses}>
@@ -122,6 +145,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -159,13 +183,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -174,8 +208,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -188,7 +222,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.03 : 3.1}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -207,6 +241,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -244,13 +279,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -259,8 +304,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -310,6 +355,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -347,13 +393,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -362,8 +418,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -394,7 +450,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.03 : 3.1}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -413,6 +469,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -450,13 +507,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -465,8 +532,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -516,6 +583,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -544,7 +612,7 @@ const Course = () => {
                                 {para[0]}
                               </p>
                               <hr className={styles.vrLine} />
-                              <p>7- 9 month</p>
+                              <p>{courseTime}</p>
                             </div>
 
                             <p className={styles.singleP}>
@@ -554,13 +622,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -569,8 +647,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -583,7 +661,7 @@ const Course = () => {
               <h5>Full Stack (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.03 : 3.1}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -602,6 +680,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -639,13 +718,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -654,8 +743,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -686,7 +775,7 @@ const Course = () => {
               <h5>Data Science (7) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.03 : 3.1}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -705,6 +794,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -742,13 +832,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -757,8 +857,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -771,7 +871,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.03 : 3.1}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -790,6 +890,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -827,13 +928,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -842,8 +953,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -883,6 +994,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -911,7 +1023,7 @@ const Course = () => {
                                 {para[0]}
                               </p>
                               <hr className={styles.vrLine} />
-                              <p>7- 9 month</p>
+                              <p>{courseTime}</p>
                             </div>
 
                             <p className={styles.singleP}>
@@ -921,13 +1033,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -936,8 +1058,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -950,7 +1072,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.03 : 3.1}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -969,6 +1091,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -997,7 +1120,7 @@ const Course = () => {
                                 {para[0]}
                               </p>
                               <hr className={styles.vrLine} />
-                              <p>7- 9 month</p>
+                              <p>{courseTime}</p>
                             </div>
 
                             <p className={styles.singleP}>
@@ -1007,13 +1130,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -1022,8 +1155,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -1061,6 +1194,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -1089,7 +1223,7 @@ const Course = () => {
                                 {para[0]}
                               </p>
                               <hr className={styles.vrLine} />
-                              <p>7- 9 month</p>
+                              <p>{courseTime}</p>
                             </div>
 
                             <p className={styles.singleP}>
@@ -1099,13 +1233,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -1114,8 +1258,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -1128,7 +1272,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.03 : 3.1}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -1147,6 +1291,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -1175,7 +1320,7 @@ const Course = () => {
                                 {para[0]}
                               </p>
                               <hr className={styles.vrLine} />
-                              <p>7- 9 month</p>
+                              <p>{courseTime}</p>
                             </div>
 
                             <p className={styles.singleP}>
@@ -1185,13 +1330,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -1200,8 +1355,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -1239,6 +1394,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -1267,7 +1423,7 @@ const Course = () => {
                                 {para[0]}
                               </p>
                               <hr className={styles.vrLine} />
-                              <p>7- 9 month</p>
+                              <p>{courseTime}</p>
                             </div>
 
                             <p className={styles.singleP}>
@@ -1277,13 +1433,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -1292,8 +1458,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -1331,6 +1497,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -1359,7 +1526,7 @@ const Course = () => {
                                 {para[0]}
                               </p>
                               <hr className={styles.vrLine} />
-                              <p>7- 9 month</p>
+                              <p>{courseTime}</p>
                             </div>
 
                             <p className={styles.singleP}>
@@ -1369,13 +1536,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -1384,8 +1561,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -1398,7 +1575,7 @@ const Course = () => {
               <h5>Full Stack (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.03 : 3.1}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -1417,6 +1594,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -1445,7 +1623,7 @@ const Course = () => {
                                 {para[0]}
                               </p>
                               <hr className={styles.vrLine} />
-                              <p>7- 9 month</p>
+                              <p>{courseTime}</p>
                             </div>
 
                             <p className={styles.singleP}>
@@ -1455,13 +1633,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -1470,8 +1658,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>
@@ -1490,7 +1678,7 @@ const Course = () => {
               <h5>Full Stack (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
-                  slidesPerView={mobile ? 1.1 : 3}
+                  slidesPerView={mobile ? 1.03 : 3.1}
                   spaceBetween={mobile ? 10 : 20}
                   pagination={{
                     clickable: true,
@@ -1509,6 +1697,7 @@ const Course = () => {
                       link1,
                       link2,
                       tagHead,
+                      courseTime,
                     } = viewAllData;
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
@@ -1537,7 +1726,7 @@ const Course = () => {
                                 {para[0]}
                               </p>
                               <hr className={styles.vrLine} />
-                              <p>7- 9 month</p>
+                              <p>{courseTime}</p>
                             </div>
 
                             <p className={styles.singleP}>
@@ -1547,13 +1736,23 @@ const Course = () => {
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            <a href={link2} target="_blank">
+                            {/* <a href={link2} target="_blank">
                               <button
                                 className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
+                                <FaDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a> */}
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                              >
+                                Brochure
+                                <FaDownload
                                   className="bIcon"
                                   style={{ color: "#2979AD" }}
                                 />
@@ -1562,8 +1761,8 @@ const Course = () => {
                             <hr className={styles.btnLine} />
                             <a href={link1} className={styles.link1}>
                               <button className={styles.fillBtn}>
-                                Enquire Now{" "}
-                                <BsFillBellFill className={styles.bellIcon} />
+                                View Details{" "}
+                                <TbListDetails className={styles.bellIcon} />
                               </button>
                             </a>
                           </div>

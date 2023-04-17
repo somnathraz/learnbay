@@ -201,14 +201,14 @@ export default function Home() {
  "name": "What is the total fee for the Data Analytics Program in Dubai?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST."
+ "text": "The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST."
  }
  },{
  "@type": "Question",
- "name": "Can I pay in installments for INR 88,500/-?",
+ "name": "Can I pay in installments for INR 93,220/-?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
+ "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
  }
  },{
  "@type": "Question",
@@ -328,7 +328,7 @@ export default function Home() {
 "highPrice": "110000",
 "url" : "https://www.learnbay.co/",
 "availability" : "https://schema.org/InStock",
-"price": "75,000",
+"price": "1,10,000",
 "priceCurrency": "INR",
 "validFrom": "2022-05-01"},
 "startDate":"2022-05-01",
@@ -401,12 +401,12 @@ export default function Home() {
             p3="1:1"
             p33="Career Support"
             p4="Financing as low as"
-            p44="₹ 14,750/month"
+            p44="₹ 10,816/month"
           />
         </div>
         <ProgramFee
-          Emi="₹ 14,750/month"
-          Fee="₹ 75,000 + 18% GST"
+          Emi="₹ 7,768/month"
+          Fee="₹ 79,000 + 18% GST"
           dataScience={true}
         />
         <div className="Feature" id="Feature">

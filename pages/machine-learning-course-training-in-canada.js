@@ -260,7 +260,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
  "name": "Can I pay in installments for 1,23,900/-?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,325/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
+ "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
  }
  },{
  "@type": "Question",
@@ -461,12 +461,12 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 10,325/month"
+            p44="₹ 10,816/month"
           />
         </div>
         <ProgramFee
-          Emi="₹ 10,325/month"
-          Fee="₹ 1,05,000 + 18% GST"
+          Emi="₹ 10,816/month"
+          Fee="₹ 1,10,000 + 18% GST"
           dataScience={true}
         />
         <div className="Feature" id="Feature">

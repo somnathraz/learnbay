@@ -1,18 +1,18 @@
 import Head from "next/head";
-import FirstSection from "../components/FirstSection/FirstSection";
+import FirstSection from "../components/NewDesign/HomePage/FirstSection/FirstSection";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import Course from "../components/Course/Course";
-import KeyFeatures from "../components/KeyFeatures/KeyFeatures";
-import WhyLearnbay from "../components/WhyLearnbay/WhyLearnbay";
-import LearnSupport from "../components/LearnSupport/LearnSupport";
-import CareerImpactHome from "../components/CareerImpactHome/CareerImpact";
-import Switch from "../components/switch/switch";
-import BoxShape from "../components/BoxShape/BoxShape";
-import MultiTabs from "../components/MultiTabs/MultiTabs";
+import Course from "../components/NewDesign/HomePage/Course/Course";
+import KeyFeatures from "../components/NewDesign/HomePage/KeyFeatures/KeyFeatures";
+import Switch from "../components/NewDesign/HomePage/switch/switch";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
-import FormSection from "../components/FormSection/FormSection";
+import HomeLine from "../components/NewDesign/HomePage/HomeLine/HomeLine";
+import Testimonial from "../components/NewDesign/HomePage/Testimonial/Testimonial";
+import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
+import ContactUs from "../components/NewDesign/HomePage/ContactUs/ContactUs";
+import CoreFeature from "../components/NewDesign/HomePage/CoreFeature/CoreFeature";
+import BoxShape from "../components/NewDesign/HomePage/BoxShape/BoxShape";
 
 export default function Home() {
   return (
@@ -34,7 +34,16 @@ export default function Home() {
         />
       </Head>
       <Navbar popup={true} dataScience={true} radio={true} />
-      <FirstSection popup={true} dataScience={true} radio={true} />
+
+      <FirstSection
+        first="Tools"
+        second="Tips"
+        third="Technology"
+        popup={true}
+        dataScience={true}
+        radio={true}
+      />
+      <HomeLine />
       <div className={styles.boxWrap}>
         <h2>Get Certified & Move Towards Your Dream Job</h2>
         <p className={styles.boxp}>
@@ -45,15 +54,18 @@ export default function Home() {
           <BoxShape />
         </div>
       </div>
-
-      <Course />
-      <KeyFeatures />
-      <WhyLearnbay />
-      <MultiTabs />
-      <FormSection dataScience={true} />
+      <Course         popup={true}
+        dataScience={true}
+        radio={true}/>
       <Switch />
-      <CareerImpactHome />
-      <LearnSupport />
+      <KeyFeatures popup={true}
+        dataScience={true}
+        radio={true}/>
+      <Testimonial />
+      <ContactUs popup={true}
+        dataScience={true}
+        radio={true}/>
+      <SeventhSection />
       <OfferPopup offer={false} />
       <Footer />
     </div>

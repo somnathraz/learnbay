@@ -177,7 +177,7 @@ function ThirdSection({
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            <Form />
+            <Form dataScience={dataScience}/>
           </div>
         </Popup>
         <div className={styles.FirstLeft}>

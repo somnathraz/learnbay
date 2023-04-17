@@ -7,17 +7,39 @@ import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
 import { Scrollbar } from "swiper";
 import {AiOutlineRise} from "react-icons/ai"
+import ReviewPopup from "../../ReviewPopup/ReviewPopup";
 
 function Testimonial() {
     const [mobile, setMobile] = useState(false);
+    const [img, setImg] = useState({
+      cLogo: "",
+      pLogo: "",
+    });
+    const [profile, setProfile] = useState({
+      name: "",
+      hike: "",
+      position: "",
+    });
+    const [desc, setDesc] = useState("");
+    const [popups, setPopups] = useState(false);
+    const popupShow = () => {
+      setPopups(true);
+    };
     useEffect(() => {
       let width = window.innerWidth;
       if (width < 600) {
         setMobile(true);
-      }
+      } 
     });
   return (
     <div className={styles.testimonial}>
+      <ReviewPopup
+          trigger={popups}
+          setTrigger={setPopups}
+          title={profile}
+          desc={desc}
+          imgSrc={img}
+        />
     <h2 className={styles.h1}>Our Alumni’s</h2>
     <div className={styles.line}>
       <img
@@ -212,7 +234,7 @@ function Testimonial() {
                                   cLogo:
                                     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/themathcompany-logo.png",
                                   pLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png",
+                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/aravind-home.png",
                                 });
                               }}
                             >

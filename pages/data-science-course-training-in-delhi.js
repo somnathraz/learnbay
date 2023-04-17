@@ -298,7 +298,7 @@ export default function Home() {
  "name": "What is the total fee for Data Science Certifications courses in Delhi?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total course fee for the Foundational Data Science and AI Training course is 88,500/- inclusive of GST. Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST."
+ "text": "The total course fee for the Foundational Data Science and AI Training course is 93,220/- inclusive of GST. Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST."
  }
  },{
  "@type": "Question",
@@ -491,12 +491,12 @@ export default function Home() {
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 9,342/month"
+            p44="₹ 9,735/month"
           />
         </div>
         <ProgramFee
-          Fee="₹95,000 + GST"
-          Emi="₹ 9,342/month"
+          Fee="₹99,000 + 18% GST"
+          Emi="₹ 9,735/month"
           dataScience={true}
         />
         <script
@@ -549,7 +549,6 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-
               cityTextDSDelhi={true}
               // ProgramHead1="What is a Data science training course in Delhi?"
               // ProgramBot1="The data science course in Delhi offered by Learnbay is an exclusive data scientist training Bootcamp for anyone interested in becoming an industry competent data scientist. We have a very strong team of instructors and mentors owning an industrial experience of more than 8 years. Most of them are from top-tier MNCs. You can benefit from their experience and knowledge throughout the offline and online data science courses in Delhi. The courses are designed for learners who want to move into a Data Science job from any tech or non-tech domain along with a lucrative salary hike. Learnbay data science courses help you become a successful Data scientist even after having years of experience in other fields. In a nutshell, it's the best place to go for working people who want to learn the most about data science and artificial intelligence. Moreover, you get a series of custom-fit learning modules as per your personal career goal."

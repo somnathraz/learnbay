@@ -204,15 +204,15 @@ export default function Home() {
             "name": "What is the total fee for the Data Analytics Program in Hyderabad?",
             "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST."
+            "text": "The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST."
             }
             },
             {
                 "@type": "Question",
-                "name": "Can I pay in installments for INR 88,500/-?",
+                "name": "Can I pay in installments for INR 93,220/-?",
                 "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.Please check with our sales team to know more +917795687988"
+                "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.Please check with our sales team to know more +917795687988"
                 }
                 },
                 {
@@ -421,12 +421,12 @@ export default function Home() {
             p3="1:1"
             p33="Career Support"
             p4="Financing as low as"
-            p44="₹ 14,750/month"
+            p44="₹ 10,816/month"
           />
         </div>
         <ProgramFee
-          Emi="₹ 14,750/month"
-          Fee="₹ 75,000 + 18% GST"
+          Emi="₹ 7,768/month"
+          Fee="₹ 79,000 + 18% GST"
           dataScience={true}
         />
         <div className="Feature" id="Feature">
@@ -449,8 +449,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-
-                cityTextDAhyderabad={true}
+              cityTextDAhyderabad={true}
               // ProgramBot1="Learnbay is one of the leading data analytics training institutes in Hyderabad, with a broad collection of IBM certification courses. Learnbay's goal is to deliver specialized data analytics training and prepare students for any kind of complex industrial, analytical problems. Everything in the Learnbay data analytics course is taken good care of, from hands-on training via live data analytics projects to qualifying for interviews with top-tier MNCs. Learnbay delivers an immersive data analytics learning experience with one-on-one doubt clearing sessions led by renowned industry professionals. This distinguishes it as a one-stop resource for everyone interested in becoming a professional job-ready Data analyst."
               // ProgramBot2="Learnbay's Data analytics course in Hyderabad is tailored to match the industry's ever-changing needs. This Data Analytics course with job placement support is suitable for experienced working professionals and early career professionals in any field. Its hands-on learning methodology incorporates interactive sessions with leading practitioners and industry projects to cover topics like Data analysis, Data visualization, and regression techniques in depth."
               // ProgramHead3="Why is Learnbay a great institute for the professional Data analytics course in Hyderabad?"

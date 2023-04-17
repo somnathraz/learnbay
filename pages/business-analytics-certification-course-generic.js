@@ -7,32 +7,30 @@ import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
-import Certificate from "../components/CoursePage/CertificateTab/CertificateTabjob";
+import Certificate from "../components/CoursePage/Certificatejob/Certificate";
 import Project from "../components/CoursePage/Project/Project";
 import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
 import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
+import FAQNew from "../components/FAQNew/FAQNewDomain";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
-import Fee from "../components/CoursePage/Fee/Fee";
-import FAQNew from "../components/FAQNew/FAQNew";
-import LearnSupport from "../components/LearnSupport/LearnSupport";
-import { JobGuaranteeCourseData } from "../Data/JobGuaranteeData";
+import { BusinessAnalyticsCourseData } from "../Data/BusinessAnalyticsData";
 import React, { useState } from "react";
 import {
-  FaqData5,
-  DomainFaqData5,
-  PaymentFaqData5,
-  CapstoneFaqData5,
-  CertificationFaqData5,
-  jobFaqData5,
-  MentorshipFaqData5,
-  SupportFaqData5,
+  FaqData7,
+  PaymentFaqData7,
+  CapstoneFaqData7,
+  CertificationFaqData7,
+  jobFaqData7,
+  MentorshipFaqData7,
+  SupportFaqData7,
 } from "../components/FAQ/FaqData";
-import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
-import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import LearnSupport from "../components/LearnSupport/LearnSupport";
+
 import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import { DomainFaqCourseData2 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -43,15 +41,18 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Science and AI Master Program</title>
-        <meta name="description" content="Data Science and AI Master Program" />
-        <link
-          rel="canonical"
-          href="https://www.learnbay.co/data-science-ai-masters-program"
+        <title>Business Analytics Certification Program</title>
+        <meta
+          name="description"
+          content="Business Analytics Certification Program"
         />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/business-analytics-certification-course"
         />
       </Head>
       <main>
@@ -69,57 +70,63 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Boost your career opportunities "
-          deskTopPara1="by developing relevant skills"
-          mTitle="Data Science and AI Master Program "
-          spanMTitleText="With Unlimited Interview Calls"
-          mTopPara="Boost your career opportunities "
-          mTopPara1="by developing relevant skills"
-          title="Data Science and AI Master Program "
-          spanTitleText="With Unlimited Interview Calls"
-          desc="A complete guide with real-life exercises & domain oriented approach."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/DSAI+Masters.png"
-          width="829"
-          height="646"
+          deskTopPara="Develop Work-Ready Skills "
+          deskTopPara1="You Can Use Right Away"
+          mTopPara="Develop Work-Ready Skills "
+          mTopPara1="You Can Use Right Away"
+          mTitle="Business Analytics Certification Program"
+          spanMTitleText="For Non-tech Professionals"
+          title="Business Analytics Certification Program"
+          spanTitleText="For Non-tech Professionals"
+          desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Businesss+Analytics.png"
+          width="674"
+          height="623"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
             p1="Aimed for"
-            p11="Working Professionals"
-            p2="35 LPA - 50 LPA"
+            p11="Early professionals"
+            p2="12 LPA - 20 LPA"
             p22="Salary Package"
             p3="1:1"
             p33="Career Support"
             p4="Financing as low as"
-            p44="₹ 12,685/month"
+            p44="₹  10,817/month"
           />
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
             title="Why Enroll In This Program?"
-            Box1h5="Unlimited Interview Calls"
-            box1desc="Get job assistance from industry specialist to crack top product-based companies ineterviews."
-            Box2h5="Select Multiple Domains"
-            box2desc="Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 7+ domains."
+            Box1h5="Custom-fit Training"
+            box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
+            Box2h5="Exclusive Hackathons"
+            box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
             Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts."
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
             Box4h5="Hands-on Experience"
-            box4desc="Perform 3 fresh capstone projects, spanning from advanced level complexity, to earn IBM cerrtification."
+            box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
         </div>
-        <DomainFaq FaqData={DomainFaqCourseData1} />
+        <DomainFaq FaqData={DomainFaqCourseData2} />
         <CourseReview />
-        <Certificate />
+        <Certificate
+          title="Course Completion Certificate from IBM"
+          desc="Complete your training with the internationally recognized certificate."
+          desc2="Validate your Business Analytics skills with IBM Course Completion Certificate."
+          desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
+        />
         <SyllabusNew
           dataScience={true}
-          syllabus={JobGuaranteeCourseData[0].syllabus}
-          syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
-          popupHead={JobGuaranteeCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf"
-          hours="500+ Hours"
-          project="20+ Real Time"
+          syllabus={BusinessAnalyticsCourseData[0].syllabus}
+          syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
+          popupHead={BusinessAnalyticsCourseData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
+          hours="200+ Hours"
+          project="8+ Real Time"
         />
         <OurExpert
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
@@ -147,64 +154,32 @@ export default function Home() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <ProgramFee
-          Emi="₹ 12,685/month"
-          Fee="₹ 1,29,000 + 18% GST"
+          Fee="₹  1,10,000 + 18% GST"
+          Emi="₹  10,817/month"
           dataScience={true}
         />
-        <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="20+ Projects" domain="7+" />
+          <Project project="8+ Projects" domain="7+" />
         </div>
-        <Fee
-          dataScience={true}
-          sub1="Advanced Data Science and AI Program"
-          Price1="₹ 99,000 + 18% GST"
-          PFeatures11=" 250+ Hours"
-          PFeatures12=" Tech/Non-Tech Professionals"
-          PFeatures13="2"
-          PFeatures14="12 + 1"
-          PFeatures15="15+"
-          PFeatures16="10"
-          PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-          sub2="Data Science and AI Master Program"
-          Price2="₹1,29,000 + 18% GST"
-          PFeatures21=" 500+ Hours"
-          PFeatures22="Tech/Non-Tech Professionals"
-          PFeatures23="7"
-          PFeatures24="20 + 3"
-          PFeatures25="18+"
-          PFeatures26="Unlimited"
-          PFeatures28="Project Manager, Team Lead, Project Lead, Project Head, Etc."
-          sub3="Data Science & AI For Managers Program"
-          Price3="₹1,10,000 + 18% GST"
-          PFeatures31="400+ Hours"
-          PFeatures32="Tech Lead, Managers"
-          PFeatures33="2"
-          PFeatures34="15 + 1"
-          PFeatures35="16+"
-          PFeatures36="10"
-          PFeatures38="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-        />
         <CourseFee
           dataScience={true}
-          syllabus={JobGuaranteeCourseData[0].Batch}
-          CourseFeeHead="Data Science and AI Master Program : Batch Details"
+          syllabus={BusinessAnalyticsCourseData[0].Batch}
+          CourseFeeHead="Business Analytics Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Clearance Sessions"
-          CourseFeelist4="Multiple Domain & Project Experties Selection Options"
+          CourseFeelist3="Extra Doubt Clearing Sessions"
+          CourseFeelist4="Project-Based Learning"
           CourseFeelist5="Company-based Mock Interviews"
         />
         <FAQNew
-          FaqDatas={FaqData5}
-          DomainFaqDatas={DomainFaqData5}
-          PaymentFaqDatas={PaymentFaqData5}
-          CapstoneFaqDatas={CapstoneFaqData5}
-          CertificationFaqDatas={CertificationFaqData5}
-          jobFaqDatas={jobFaqData5}
-          MentorshipFaqDatas={MentorshipFaqData5}
-          SupportFaqDatas={SupportFaqData5}
+          FaqDatas={FaqData7}
+          PaymentFaqDatas={PaymentFaqData7}
+          CapstoneFaqDatas={CapstoneFaqData7}
+          CertificationFaqDatas={CertificationFaqData7}
+          jobFaqDatas={jobFaqData7}
+          MentorshipFaqDatas={MentorshipFaqData7}
+          SupportFaqDatas={SupportFaqData7}
         />
         <LearnSupport />
         <OfferPopup offer={false} />
