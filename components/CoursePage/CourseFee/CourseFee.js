@@ -182,7 +182,7 @@ const CourseFee = ({
                       <MdDateRange className={styles.icon} />
                       <b>Date</b>
                     </p>
-                    <p className={styles.list}>31st March 2023</p>
+                    <p className={styles.list}>13th April 2023</p>
                   </div>
                 </div>
                 <div>

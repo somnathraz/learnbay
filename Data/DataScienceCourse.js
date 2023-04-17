@@ -291,77 +291,77 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
-      {
-        Module0: {
-          title: "Term 5 :- Deployment (AWS+Azure)",
-          content: [
-            {
-              chap: {
-                title:
-                  "Module 1 :- Introduction to AWS and Azure Machine Learning Services:",
-                desc: [
-                  "Overview of AWS SageMaker and Azure Machine Learning",
-                  "Key features and benefits of using these platforms",
-                  "Understanding different types of machine learning algorithms and use cases",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2 :- Setting up the Environment:",
-                desc: [
-                  "Creating AWS and Azure accounts",
-                  "Configuring the required tools and SDKs (e.g. AWS CLI, Azure CLI, Azure PowerShell)",
-                  "Understanding the infrastructure requirements for training and deploying models (e.g. EC2 instances, GPU instances, Azure ML Compute)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3 :- Data Preparation and Feature Engineering:",
-                desc: [
-                  "Understanding the data requirements for machine learning models (e.g. structured vs unstructured data, data size, data quality)",
-                  "Data cleaning and preprocessing techniques (e.g. missing value imputation, feature scaling, encoding categorical variables)",
-                  "Feature selection and engineering techniques (e.g. PCA, feature importance)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 4 :- Model Training and Evaluation:",
-                desc: [
-                  "Choosing the right machine learning algorithm and model (e.g. regression, classification, clustering)",
-                  "Training models using AWS SageMaker and Azure Machine Learning (e.g. using built-in algorithms, custom code)",
-                  "Evaluating model performance and tuning hyperparameters (e.g. cross-validation, hyperparameter optimization)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 5 :- Model Deployment and Management:",
-                desc: [
-                  "Deploying trained models on AWS SageMaker and Azure Machine Learning (e.g. creating endpoints, batch inference)",
-                  "Monitoring model performance and managing versions (e.g. model drift, A/B testing)",
-                  "Integration with other services and applications (e.g. AWS Lambda, Azure Functions)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title:
-                  "Module 6 :- Advanced Topics in Machine Learning on AWS and Azure:",
-                desc: [
-                  "Deep learning techniques and architectures (e.g. neural networks, convolutional neural networks, recurrent neural networks)",
-                  "Natural Language Processing (NLP) use cases (e.g. text classification, sentiment analysis, language translation)",
-                  "Understanding the costs and pricing models for machine learning on AWS and Azure (e.g. instance pricing, storage pricing, model deployment pricing)",
-                ],
-              },
-            },
-          ],
-          id: 5,
-          open: false,
-        },
-      },
+      // {
+      //   Module0: {
+      //     title: "Term 5 :- Deployment (AWS+Azure)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title:
+      //             "Module 1 :- Introduction to AWS and Azure Machine Learning Services:",
+      //           desc: [
+      //             "Overview of AWS SageMaker and Azure Machine Learning",
+      //             "Key features and benefits of using these platforms",
+      //             "Understanding different types of machine learning algorithms and use cases",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "Module 2 :- Setting up the Environment:",
+      //           desc: [
+      //             "Creating AWS and Azure accounts",
+      //             "Configuring the required tools and SDKs (e.g. AWS CLI, Azure CLI, Azure PowerShell)",
+      //             "Understanding the infrastructure requirements for training and deploying models (e.g. EC2 instances, GPU instances, Azure ML Compute)",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "Module 3 :- Data Preparation and Feature Engineering:",
+      //           desc: [
+      //             "Understanding the data requirements for machine learning models (e.g. structured vs unstructured data, data size, data quality)",
+      //             "Data cleaning and preprocessing techniques (e.g. missing value imputation, feature scaling, encoding categorical variables)",
+      //             "Feature selection and engineering techniques (e.g. PCA, feature importance)",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "Module 4 :- Model Training and Evaluation:",
+      //           desc: [
+      //             "Choosing the right machine learning algorithm and model (e.g. regression, classification, clustering)",
+      //             "Training models using AWS SageMaker and Azure Machine Learning (e.g. using built-in algorithms, custom code)",
+      //             "Evaluating model performance and tuning hyperparameters (e.g. cross-validation, hyperparameter optimization)",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "Module 5 :- Model Deployment and Management:",
+      //           desc: [
+      //             "Deploying trained models on AWS SageMaker and Azure Machine Learning (e.g. creating endpoints, batch inference)",
+      //             "Monitoring model performance and managing versions (e.g. model drift, A/B testing)",
+      //             "Integration with other services and applications (e.g. AWS Lambda, Azure Functions)",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title:
+      //             "Module 6 :- Advanced Topics in Machine Learning on AWS and Azure:",
+      //           desc: [
+      //             "Deep learning techniques and architectures (e.g. neural networks, convolutional neural networks, recurrent neural networks)",
+      //             "Natural Language Processing (NLP) use cases (e.g. text classification, sentiment analysis, language translation)",
+      //             "Understanding the costs and pricing models for machine learning on AWS and Azure (e.g. instance pricing, storage pricing, model deployment pricing)",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 5,
+      //     open: false,
+      //   },
+      // },
     ],
     Review: {
       title: "Why get enrolled in our Advanced Data Science and AI course?",
