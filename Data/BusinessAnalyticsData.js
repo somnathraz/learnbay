@@ -58,37 +58,18 @@ export const BusinessAnalyticsCourseData = [
     syllabus: [
       {
         Module0: {
-          title: "Module 0 :- Preparatory Classes (Programming + Maths)",
+          title: "Module 0 :- Introduction to Business Analytics",
           content: [
             {
               chap: {
-                title: "Topic 1 :- Cohort Orientation ",
+                title: "",
                 desc: [
-                  "A brief introduction to tools related to data ",
-                  "Learn about particular real-time projects and Capstone projects ",
-                  "Data and its impact on career opportunities",
-                  "Utilizing data, to enhance industrial operations and management",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Topic 2 :- Fundamentals of Programming",
-                desc: [
-                  "Introduction to Anaconda & Jupyter notebook",
-                  "Flavors of python Introduction to Git, GitHub",
-                  "Python Fundamentals",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 3 :- Fundamentals of Statistics",
-                desc: [
-                  "Mean, Median, Mode",
-                  "Standard Deviation, Average. Probability, Permutations, and Combinations",
-                  "Introduction to Linear Algebra",
+                  "Introduction to Business Analysis",
+                  "Stakeholders in Business Analysis",
+                  "Formulating Requirements",
+                  "Flowchart and Modelling",
+                  "Analyzing and Transforming Requirements",
+                  "Finalising Requirements",
                 ],
               },
             },
@@ -99,22 +80,101 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Term 1 :- Python for Data Science",
+          title: "Module 1 :- Excel",
           content: [
             {
               chap: {
-                title: "Module 1 :- Python Programming",
+                title: "Topic 1 :- Basic Excel Functions ",
                 desc: [
-                  "Programming Basics & Environment Setup",
-                  "Python Programming Overview",
-                  "Strings, Decisions & Loop Control",
-                  "Python Data Types",
-                  "Functions And Modules Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class.",
-                  "File I/O And Exceptional Handling and Regular Expression Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling.",
-                  "Data Analysis Using Numpy",
-                  "Data Analysis Using Pandas",
-                  "Data Visualization using Matplotlib",
-                  "Data Visualization using Seaborn 3 Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
+                  "Creating a New Workbook",
+                  "Navigating in Excel",
+                  "Moving the Cell Pointer",
+                  "Using Excel Menus",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 2 :- Formatting Worksheets",
+                desc: [
+                  "Creating Headers, Footers, and Page",
+                  "Numbers",
+                  "Adjusting Page Margins and Orientation",
+                  "Adding Print Titles and Gridlines, rows to repeat at top of each page",
+                  "Formatting Fonts & Values Adjusting Row Height and Column Width",
+                  "Changing Cell Alignment Adding Borders                  ",
+                  "Protecting a Workbook",
+                  "Hiding Columns, Rows, and Sheets",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 3 :- Managing Worksheets",
+                desc: [
+                  "Switching Between Sheets in a Workbook",
+                  "Inserting and Deleting Worksheets",
+                  "Renaming and Moving Worksheets",
+                  "Protecting a Workbook",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 4 :- Basic Formulas and Functions",
+                desc: [
+                  "Creating a Basic Formula",
+                  "Calculating Value Totals with AutoSum",
+                  "Editing & Copying Formulas                  ",
+                  "Formulas with Several Operators and Cell Ranges",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 5 :- Creating Charts",
+                desc: [
+                  "Creating & Working with Charts",
+                  "Creating a Chart",
+                  "Moving and Resizing a Chart",
+                  "Formatting and Editing Objects in a Chart",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 6 :- Editing and Managing Cell Data",
+                desc: [
+                  "Entering Date Values and using AutoComplete                  ",
+                  "Editing, Clearing, and Replacing Cell Contents",
+                  "Cutting, Copying, and Pasting Cells Moving and Copying Cells with Drag and Drop",
+                  "Collecting and Pasting Multiple Items Using the Paste Special Command Inserting and Deleting Cells, Rows, and Columns ",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 7 :- Advanced Functions",
+                desc: [
+                  "Working with the Forms Menu",
+                  "Sorting, Subtotaling & Filtering Data",
+                  "Copy & Paste Filtered Records",
+                  "Using Data Validation",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 8 :- Creating Charts",
+                desc: [
+                  "Creating & Working with Charts",
+                  "Creating a Chart",
+                  "Moving and Resizing a Chart",
+                  "Formatting and Editing Objects in a Chart",
+                  "Changing a Chart's Source Data",
                 ],
               },
             },
@@ -125,21 +185,126 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Term 2 :- Statistics",
+          title: "Module 2 :- Applied business statistics",
           content: [
             {
               chap: {
-                title: "Module 1 :- Statistics",
+                title: "Topic 1 :- R programming fundamentals:",
                 desc: [
-                  "Fundamentals of Math and Probability",
-                  "All about Population & Sample",
-                  "Introduction to Statistics, Statistical Thinking",
-                  "Descriptive Statistics",
-                  "Inferential Statistics",
-                  "Hypothesis Testing",
-                  "Linear Algebra",
-                  "Data Processing & Exploratory Data Analysis",
-                  "EDA Statistics Assignments: Total 4 practice sets and Assignments from Statistics",
+                  "Data types in R",
+                  "Functions and arguments",
+                  "Manipulating Data",
+                  "Data transformation with R - the Dplyr package",
+                  "Building a histogram, bar chart, box and whiskers plot with ggplot2",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 2 :- Statistics",
+                desc: [
+                  "Variables (quantitative, categorical, discrete, continuous)                  ",
+                  "Population, sample, sample size",
+                  "Strings, Decisions & Loop Control",
+                  "Data visualization basics and Python code (histogram, bar chart, frequency distribution)                  ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 3 :- Descriptive Statistics:",
+                desc: [
+                  "Measures of central tendency (mean, median, mode) ",
+                  "Measures of dispersion (SD, variance, range, IQR)",
+                  "Symmetricity/shape measures (skewness, kurtosis)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 4 :- Sampling Techniques:",
+                desc: [
+                  "Probabilistic & non-probabilistic ",
+                  "sampling",
+                  "Simple random, systematic, cluster, stratified, convenience, quota, snowball, judgement                  ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 5 :- Probability:",
+                desc: [
+                  "Random experiments and events (mutually exclusive, joint, dependent, independent)                  ",
+                  "Probability rules",
+                  "Bayes' theorem ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 6 :- Inferential Statistics:",
+                desc: [
+                  "Introduction to inferential statistics Sampling techniques (probabilistic and non-probabilistic) ",
+                  "Probability rules",
+                  "Bayes' theorem ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 7 :- Hypothesis testing: ",
+                desc: [
+                  "Definition, need, significance level, null and alternative hypothesis.                  ",
+                  "One/two-tailed tests, critical value, rejection region, Type I/II errors",
+                  "Advanced tests (F distribution, chi-square, ANOVA)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 8 :- Experimental Design: ",
+                desc: [
+                  "Types of experiments",
+                  "Randomized designs",
+                  "Matched-pair and Block designs",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 9 :- Multivariate Analysis: ",
+                desc: [
+                  "Principal Component Analysis (PCA)                  ",
+                  "Factor Analysis                  ",
+                  "Cluster Analysis",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 10 :- Time Series Analysis:",
+                desc: [
+                  "Stationarity and Autocorrelation ",
+                  "Forecasting methods                  ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 11 :- Bayesian Statistics:",
+                desc: [
+                  "Bayesian inference",
+                  "Posterior distribution",
+                  "Bayesian hierarchical models",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 12 :- Linear Algebra:",
+                desc: [
+                  "Vectors (plotting, norm, addition, scalar multiplication, dot product, projection)",
+                  "Matrices (indexing, types, addition, multiplication, transpose, determinant, trace)",
                 ],
               },
             },
@@ -150,45 +315,53 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Term 3 :- Data Science Tools",
+          title: "Term 3 :- Data Science & AI",
           content: [
             {
               chap: {
-                title: "Module 1 :- SQL",
+                title: "Module 1 :- Introduction to Data Science and AI",
                 desc: [
-                  "SQL and RDBMS",
-                  "Advance SQL",
-                  "NoSQL, HBase & MongoDB",
-                  "JSON Data & CRUD",
-                  "Programming with SQL",
+                  "Definition, history, and applications.",
+                  "Key components of Data Science and AI (data, algorithms, computing power).",
+                  "Popular programming language (R) and development tools (Jupyter Notebook, Spyder).",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- PowerBI",
+                title: "Module 2 :- Machine Learning Fundamentals",
                 desc: [
-                  "Getting Started With Power BI",
-                  "Programming with Power BI",
+                  "Supervised, unsupervised, and reinforcement learning.",
+                  "Bias-variance tradeoff, overfitting, and underfitting.",
+                  "Model selection and evaluation metrics (accuracy, precision, recall, F1 score, ROC curve, AUC).",
+                  "Hyperparameter tuning and model optimization techniques.",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 3 :- Big Data & Spark Analytics",
+                title: "Module 3 :- Natural Language Processing (NLP)",
                 desc: [
-                  "Introduction To Hadoop & Big Data",
-                  "What is Spark",
-                  "Getting to know PySpark Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD programming",
+                  "Text processing techniques (tokenization, stemming, lemmatization).",
+                  "Sentiment analysis, document classification, and information retrieval.",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 4 :- Time Series",
+                title: "Module 4 :- Advanced NLP Techniques",
                 desc: [
-                  "Introduction to Time Series Forecasting",
-                  " Introduction to ARIMA Models Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
+                  "Named Entity Recognition (NER), Topic Modeling, Text Generation.",
+                  "Pre-trained language models (BERT, GPT, XLNet) and Transfer Learning in NLP",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- Popular ML Libraries",
+                desc: [
+                  "scikit-learn, XGBoost, LightGBM, TensorFlow, Keras, PyTorch.",
+                  "Model optimization techniques (Grid search, Random search, Bayesian optimization)",
                 ],
               },
             },
@@ -199,39 +372,233 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Term 4 :- Essentials Tools",
+          title: "Term 4 :- Tableau",
           content: [
             {
               chap: {
-                title: "Module 1 :- Business Analytics",
+                title: "Module 1 :- Introduction to Tableau",
                 desc: [
-                  "Introduction to Business Analysis",
-                  "Stakeholders in Business Analysis",
-                  "Formulating Requirements",
-                  "Flowchart and Modelling",
-                  "Analysing and Transforming Requirements",
-                  "Finalising Requirements",
+                  "Overview of Tableau and its key features",
+                  "Introduction to data visualization concepts and techniques",
+                  "Understanding the Tableau interface and its main components",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- Excel",
+                title: "Module 2 :- Connecting to Data Sources",
                 desc: [
-                  "Getting started with Excel",
-                  "Using Excel Toolbars: Hiding, Displaying, and Moving Toolbars",
-                  "Switching Between Sheets in a Workbook",
-                  "Entering Date Values and using AutoComplete",
-                  "Inserting and Deleting Cells, Rows, and Columns",
-                  "Working with the Forms Menu",
-                  "Creating & Working with Charts",
-                  "Changing a Chart Type and Working with Pie Charts",
-                  "Data Analysis & Pivot Tables",
+                  "Connecting to different data sources and importing data into Tableau",
+                  "Working with different data types and formats",
+                  "Cleaning and transforming data in Tableau",
+                  "Creating Visualizations in Tableau",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 3 :- Creating basic visualizations using Tableau, including",
+                desc: [
+                  "Bar chart",
+                  "Line chart",
+                  "Scatter plot",
+                  "Heat map",
+                  "Different chart types and features in Tableau, such as:",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- Visual Analytics in Tableau",
+                desc: [
+                  "Understanding visual analytics concepts and techniques",
+                  "Sorting and grouping data in Tableau",
+                  "Using sets and set actions in Tableau",
+                  "Filtering data in Tableau, including interactive filters",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 5 :- Forecasting and Clustering in Tableau",
+                desc: [
+                  "Box plots",
+                  "Using Tableau's trend lines to analyze data",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 6 :- Dashboard and Stories in Tableau",
+                desc: [
+                  "Creating interactive dashboards in Tableau",
+                  "Using sheets and objects to design effective dashboards",
+                  "Adding filters, legends, and quick filters to dashboards",
+                  "Creating stories in Tableau to present data in a narrative format",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 7 :- Mapping in Tableau",
+                desc: [
+                  "Using Tableau's mapping capabilities to visualize data on maps",
+                  "Plotting latitude and longitude data using Tableau maps",
+                  "Creating custom geocoding in Tableau",
+                  "Creating polygon maps and using WMS and background images for maps",
                 ],
               },
             },
           ],
           id: 4,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 5 :- PowerBI",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Introduction to Power BI",
+                desc: [
+                  "What is Power BI and why use it?",
+                  "Getting familiar with the Power BI interface",
+                  "Understanding data sources and connections",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Data Transformation and Modeling",
+                desc: [
+                  "Importing and cleaning data",
+                  "Transforming data with Power Query Editor",
+                  "Creating calculated columns and measures",
+                  "Creating relationships between tables",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 3 :- Data Visualization and Exploration",
+                desc: [
+                  "Creating basic charts (bar, line, pie, etc.)",
+                  "Enhancing visualizations with formatting and design",
+                  "Using interactive features (filters, slicers, drill down/up)",
+                  "Heat map",
+                  "Creating custom visuals with Power BI visuals marketplace",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- Advanced Analytics with DAX",
+                desc: [
+                  "Understanding DAX formulas and functions",
+                  "Creating complex calculations and expressions",
+                  "Using time intelligence functions",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 5 :- Power BI Service and Collaboration",
+                desc: [
+                  "Publishing reports to the Power BI service",
+                  "Sharing and collaborating with others",
+                  "Creating and managing workspaces",
+                  "Using Power BI mobile app",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 6 :- Power BI Integration with other tools",
+                desc: [
+                  "Integrating Power BI with Excel",
+                  "Using Power BI with SharePoint and Teams",
+                  "Connecting to other data sources (Azure, SQL Server, etc.)",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+            {
+        Module0: {
+          title: "Term 6 :- Deployment (AWS+Azure)",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Introduction to AWS and Azure Machine Learning Services:",
+                desc: [
+                  "Overview of AWS SageMaker and Azure Machine Learning",
+                  "Key features and benefits of using these platforms",
+                  "Understanding different types of machine learning algorithms and use cases",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Setting up the Environment:",
+                desc: [
+                  "Creating AWS and Azure accounts",
+                  "Configuring the required tools and SDKs (e.g. AWS CLI, Azure CLI, Azure PowerShell)",
+                  "Understanding the infrastructure requirements for training and deploying models (e.g. EC2 instances, GPU instances, Azure ML Compute)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 3 :- Data Preparation and Feature Engineering:",
+                desc: [
+                  "Understanding the data requirements for machine learning models (e.g. structured vs unstructured data, data size, data quality)",
+                  "Data cleaning and preprocessing techniques (e.g. missing value imputation, feature scaling, encoding categorical variables)",
+                  "Feature selection and engineering techniques (e.g. PCA, feature importance)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 4 :- Model Training and Evaluation:",
+                desc: [
+                  "Choosing the right machine learning algorithm and model (e.g. regression, classification, clustering)",
+                  "Training models using AWS SageMaker and Azure Machine Learning (e.g. using built-in algorithms, custom code)",
+                  "Evaluating model performance and tuning hyperparameters (e.g. cross-validation, hyperparameter optimization)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 5 :- Model Deployment and Management:",
+                desc: [
+                  "Deploying trained models on AWS SageMaker and Azure Machine Learning (e.g. creating endpoints, batch inference)",
+                  "Monitoring model performance and managing versions (e.g. model drift, A/B testing)",
+                  "Integration with other services and applications (e.g. AWS Lambda, Azure Functions)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 6 :- Advanced Topics in Machine Learning on AWS and Azure:",
+                desc: [
+                  "Deep learning techniques and architectures (e.g. neural networks, convolutional neural networks, recurrent neural networks)",
+                  "Natural Language Processing (NLP) use cases (e.g. text classification, sentiment analysis, language translation)",
+                  "Understanding the costs and pricing models for machine learning on AWS and Azure (e.g. instance pricing, storage pricing, model deployment pricing)",
+                ],
+              },
+            },
+          ],
+          id: 6,
           open: false,
         },
       },

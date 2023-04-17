@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./KeyFeatures.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaDownload } from "react-icons/fa";
@@ -9,7 +9,8 @@ import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 // import required modules
 import { EffectFade, Autoplay } from "swiper";
-
+import Popup from "../../../Popup/Popup";
+import Form from "../../../Form/Form";
 import Image from "next/image";
 import { BsBriefcase } from "react-icons/bs";
 import { AiOutlinePieChart } from "react-icons/ai";
@@ -18,10 +19,31 @@ import { TbCertificate } from "react-icons/tb";
 import { FiVideo } from "react-icons/fi";
 import { BsCodeSquare } from "react-icons/bs";
 
-const KeyFeatures = () => {
+const KeyFeatures = ({dataScience, radio}) => {
+  const [popups, setPopups] = useState(false);
+  const popupShow = () => {
+    setPopups(true);
+  };
   return (
     <>
       <section className={styles.Features}>
+      <Popup
+          trigger={popups}
+          setTrigger={setPopups}
+          className="popupModal"
+          downloadBrochure
+        >
+          <div className="leftPopup">
+            <div
+              className="whiteP"
+              style={{ width: "340px", height: "400px" }}
+            ></div>
+          </div>
+          <div className="RightPopup">
+            <h5>Download Brochure</h5>
+            <Form dataScience={dataScience} downloadBrochure radio={radio}/>
+          </div>
+        </Popup>
         <div>
           <h6 className={styles.topHead}>Why Learnbay?</h6>
           <div className={styles.FeatureWrap}>
@@ -171,7 +193,7 @@ const KeyFeatures = () => {
             />
           </div>
           <div className={styles.imgShowM}></div>
-          <button className={styles.btn}>
+          <button onClick={popupShow} className={styles.btn}>
             Download Placement Report{" "}
             <FaDownload style={{ marginLeft: "10px" }} />
           </button>

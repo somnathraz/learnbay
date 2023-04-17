@@ -56,7 +56,9 @@ const FirstSection = ({ dataScience, radio, first, second, third }) => {
           trigger={popups}
           setTrigger={setPopups}
           className="popupModal"
-          downloadBrochure
+          popup={true}
+          radio={radio}
+          dataScience={dataScience}
         >
           <div className="leftPopup">
             <div
@@ -65,8 +67,8 @@ const FirstSection = ({ dataScience, radio, first, second, third }) => {
             ></div>
           </div>
           <div className="RightPopup">
-            <h5>Download Brochure</h5>
-            <Form dataScience={dataScience} downloadBrochure />
+            <h5>Apply For Counselling</h5>
+            <Form dataScience={dataScience} radio={radio}/>
           </div>
         </Popup>
 

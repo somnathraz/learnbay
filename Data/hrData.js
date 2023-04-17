@@ -58,7 +58,30 @@ export const HrData = [
     syllabus: [
       {
         Module0: {
-          title: "Module 1:- Excel",
+          title: "Module 1 :- Human Resource Management",
+          content: [
+            {
+              chap: {
+                title:
+                  "Introduction to Strategic Human Resource Management using Data Analytics",
+                desc: [
+                  "Data analytics in SHRM involves using statistical and analytical methods to analyze data related to HR functions such as recruitment, retention, training and development, compensation, and performance management.",
+                  "Fundamentals of Data Analytics",
+                  "Understanding organizational development based on analytics",
+                  "Strategies of HR leadership in a data driven way",
+                  "The digitized people management process",
+                  "Importance of data analytics in people management",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: true,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 1:- Excel",
           content: [
             {
               chap: {
@@ -155,18 +178,46 @@ export const HrData = [
                 ],
               },
             },
+            {
+              chap: {
+                title: "CASE STUDY :- 1. HR Efficiency Analysis:",
+                desc: [
+                  "This case study involved the use of advanced Excel and VBA to analyze a company’s HR data. The goal of the analysis was to identify any areas in which the company was losing money due to inefficient HR practices. ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "CASE STUDY :- 2. Employee Performance Analysis",
+                desc: [
+                  "This case study involves the use of advanced Excel and VBA to analyze a company’s employee performance. The goal of the analysis was to identify employees who were underperforming and to identify areas in their job performance that were lacking.",
+                ],
+              },
+            },
           ],
           id: 0,
-          open: true,
+          open: false,
         },
       },
       {
         Module0: {
-          title: "Module 2 :- Applied business statistics:",
+          title: "Term 2 :- Applied business statistics:",
           content: [
             {
               chap: {
-                title: "Topic 1 :- Statistics",
+                title: "Topic 1 :- R programming fundamentals:",
+                desc: [
+                  "Data types in R",
+                  "Functions and arguments",
+                  "Manipulating Data",
+                  "Data transformation with R - the Dplyr package",
+                  "Building a histogram, bar chart, box and whiskers plot with ggplot2",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 2 :- Statistics",
                 desc: [
                   "Variables (quantitative, categorical, discrete, continuous)                  ",
                   "Population, sample, sample size",
@@ -177,7 +228,7 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Topic 2 :-Descriptive Statistics:",
+                title: "Topic 3 :- Descriptive Statistics:",
                 desc: [
                   "Measures of central tendency (mean, median, mode) ",
                   "Measures of dispersion (SD, variance, range, IQR)",
@@ -187,7 +238,7 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Topic 3 :-Sampling Techniques:",
+                title: "Topic 4 :- Sampling Techniques:",
                 desc: [
                   "Probabilistic & non-probabilistic ",
                   "sampling",
@@ -197,7 +248,7 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Topic 4 :-Probability:",
+                title: "Topic 5 :- Probability:",
                 desc: [
                   "Random experiments and events (mutually exclusive, joint, dependent, independent)                  ",
                   "Probability rules",
@@ -207,7 +258,7 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Topic 5 :-Inferential Statistics:",
+                title: "Topic 6 :- Inferential Statistics:",
                 desc: [
                   "Introduction to inferential statistics Sampling techniques (probabilistic and non-probabilistic) ",
                   "Probability rules",
@@ -217,7 +268,7 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Topic 6 :-Hypothesis testing: ",
+                title: "Topic 7 :- Hypothesis testing: ",
                 desc: [
                   "Definition, need, significance level, null and alternative hypothesis.                  ",
                   "One/two-tailed tests, critical value, rejection region, Type I/II errors",
@@ -227,7 +278,7 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Topic 7 :-Experimental Design: ",
+                title: "Topic 8 :- Experimental Design: ",
                 desc: [
                   "Types of experiments",
                   "Randomized designs",
@@ -237,7 +288,7 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Topic 8 :-Multivariate Analysis: ",
+                title: "Topic 9 :- Multivariate Analysis: ",
                 desc: [
                   "Principal Component Analysis (PCA)                  ",
                   "Factor Analysis                  ",
@@ -247,7 +298,7 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Topic 9 :-Time Series Analysis:",
+                title: "Topic 10 :- Time Series Analysis:",
                 desc: [
                   "Stationarity and Autocorrelation ",
                   "Forecasting methods                  ",
@@ -256,7 +307,7 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Topic 10 :-Bayesian Statistics:",
+                title: "Topic 11 :- Bayesian Statistics:",
                 desc: [
                   "Bayesian inference",
                   "Posterior distribution",
@@ -266,10 +317,26 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Topic 11 :-Linear Algebra:",
+                title: "Topic 12 :- Linear Algebra:",
                 desc: [
                   "Vectors (plotting, norm, addition, scalar multiplication, dot product, projection)",
                   "Matrices (indexing, types, addition, multiplication, transpose, determinant, trace)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "CASE STUDY :- 1. Performance Review Analysis",
+                desc: [
+                  "Performance review analysis is an important application of statistics in HR analytics. This technique is used to evaluate the performance of employees by using a variety of metrics such as attendance, work efficiency, customer feedback, and productivity. Statistical analysis of these metrics helps to identify areas of improvement and track progress over time.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "CASE STUDY :- 2. Salary Analysis",
+                desc: [
+                  "Salary analysis is another important application of statistics in HR analytics. This technique is used to analyze the salaries of employees in different roles, departments, and levels. Statistical analysis of salary data helps to identify discrepancies in salary and devise strategies to ensure fairness and equity in compensation.",
                 ],
               },
             },
@@ -280,7 +347,7 @@ export const HrData = [
       },
       {
         Module0: {
-          title: "Module 3 :- Data Science and Artificial Intelligence",
+          title: "Term 3 :- Data Science and Artificial Intelligence",
           content: [
             {
               chap: {
@@ -333,11 +400,41 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Topic 6 :-Case-studies:",
+                title: "Case Study :- Image Classification",
                 desc: [
-                  "Image Classification: Develop an AI model that can accurately classify images into different categories. Use popular datasets like MNIST or CIFAR-10 and a machine learning library like TensorFlow or PyTorch",
-                  "Chatbot: Build an AI-powered chatbot that can communicate with users and respond to their queries in a natural language. You can use a natural language processing library like NLTK or SpaCy and a conversational AI platform like Dialogflow or Rasa.",
-                  "Sentiment Analysis: Develop an AI model that can classify text into positive, negative, or neutral sentiment. Use popular datasets like IMDb or Twitter sentiment analysis dataset and a machine learning library like scikit-learn or Keras.",
+                  "Develop an AI model that can accurately classify images into different categories. Use popular datasets like MNIST or CIFAR-10 and a machine learning library like TensorFlow or PyTorch.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Case Study :- Sentiment Analysis",
+                desc: [
+                  "Develop an AI model that can classify text into positive, negative, or neutral sentiment. Use popular datasets like IMDb or Twitter sentiment analysis dataset and a machine learning library like scikit-learn or Keras.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Case Study :- Decision Tree Analysis for Employee Management",
+                desc: [
+                  "Use decision trees to identify the best course of action for a given situation, such as whether to terminate an employee or provide additional training.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Case Study :- Chatbot",
+                desc: [
+                  "Build an AI-powered chatbot that can communicate with users and respond to their queries in a natural language. You can use a natural language processing library like NLTK or SpaCy and a conversational AI platform like Dialogflow or Rasa.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Case Study :- Employee Outcome Prediction and Optimization",
+                desc: [
+                  "Predict employee outcomes such as performance, turnover, or job satisfaction, optimize employee scheduling or to develop more effective training programs.",
                 ],
               },
             },
@@ -348,7 +445,7 @@ export const HrData = [
       },
       {
         Module0: {
-          title: "Module 4 :- Data Visualization using Tableau",
+          title: "Term 4 :- Data Visualization using Tableau",
           content: [
             {
               chap: {
@@ -429,6 +526,14 @@ export const HrData = [
                 ],
               },
             },
+            {
+              chap: {
+                title: "Case Study :- Generating reports on employee performance using Tableau",
+                desc: [
+                  "Tableau can be used to generate reports on employee performance by creating visualizations using data from performance reviews or evaluation forms. These visualizations can be used to compare performance against company goals, identify areas of improvement, and track progress over time.",
+                ],
+              },
+            },
           ],
           id: 3,
           open: false,
@@ -436,7 +541,7 @@ export const HrData = [
       },
       {
         Module0: {
-          title: "Module 5 :- Business Intelligence Tool: PowerBI",
+          title: "Term 5 :- Business Intelligence Tool: PowerBI",
           content: [
             {
               chap: {
@@ -499,6 +604,14 @@ export const HrData = [
                 ],
               },
             },
+            {
+              chap: {
+                title: "Case Study :- Generating reports on recruitment trends using PowerBi:",
+                desc: [
+                  "PowerBI can be used to generate reports on recruitment trends by creating visualizations using data from job postings or recruitment processes. These visualizations can be used to compare recruitment efforts against company goals, identify areas of improvement, and track progress over time.",
+                ],
+              },
+            },
           ],
           id: 4,
           open: false,
@@ -506,103 +619,67 @@ export const HrData = [
       },
       {
         Module0: {
-          title: "Module 6 :- HR Domain",
+          title: "Term 6 :- Deployment (AWS+Azure)",
           content: [
             {
               chap: {
                 title:
-                  "Topic 1 :- Introduction to Strategic HR Management using Data Analytics",
+                  "Module 1 :- Introduction to AWS and Azure Machine Learning Services:",
                 desc: [
-                  "Data analytics in SHRM involves using statistical and analytical methods to analyze data related to HR functions such as recruitment, retention, training and development, compensation, and performance management.                  ",
-                  "Fundamentals of Data Analytics                  ",
-                  "Understanding organizational development based on analytics",
-                  "Strategies of HR leadership in a data driven way",
+                  "Overview of AWS SageMaker and Azure Machine Learning",
+                  "Key features and benefits of using these platforms",
+                  "Understanding different types of machine learning algorithms and use cases",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 2 :- Excel case study:                 ",
+                title: "Module 2 :- Setting up the Environment:",
                 desc: [
-                  "This case study involved the use of advanced Excel and VBA to analyze a company’s HR data. The goal of the analysis was to identify any areas in which the company was losing money due to inefficient HR practices.",
+                  "Creating AWS and Azure accounts",
+                  "Configuring the required tools and SDKs (e.g. AWS CLI, Azure CLI, Azure PowerShell)",
+                  "Understanding the infrastructure requirements for training and deploying models (e.g. EC2 instances, GPU instances, Azure ML Compute)",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 3 :- Employee Performance Analysis",
+                title: "Module 3 :- Data Preparation and Feature Engineering:",
                 desc: [
-                  "This case study involves the use of advanced Excel and VBA to analyze a company’s employee performance.",
-                  "The goal of the analysis was to identify employees who were under performing and to identify areas in their job performance that were lacking. ",
-                  "PowerBI can be used to generate reports on recruitment trends by creating visualizations using data from job postings or recruitment processes. These visualizations can be used to compare recruitment efforts against company goals, identify areas of improvement, and track progress over time.",
+                  "Understanding the data requirements for machine learning models (e.g. structured vs unstructured data, data size, data quality)",
+                  "Data cleaning and preprocessing techniques (e.g. missing value imputation, feature scaling, encoding categorical variables)",
+                  "Feature selection and engineering techniques (e.g. PCA, feature importance)",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 5 :- Data science and AI case study",
+                title: "Module 4 :- Model Training and Evaluation:",
                 desc: [
-                  "Employee Outcome Prediction and Optimization: Predict employee outcomes such as performance, turnover, or job satisfaction, optimize employee scheduling or to develop more effective training programs.",
-                  "Decision Tree Analysis for Employee Management: Use decision trees to identify the best course of action for a given situation, such as whether to terminate an employee or provide additional training.",
-                ],
-              },
-            },
-          ],
-          id: 5,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Module 7 :- HR Capstone Projects:",
-          content: [
-            {
-              chap: {
-                title: "Topic 1 :- Workforce Planning at GE",
-                desc: [
-                  "GE uses predictive analytics to forecast future talent needs and identify gaps in their workforce. By analyzing HR data such as employee demographics, attrition rates, and skills, GE can make informed decisions about hiring and workforce planning. ",
+                  "Choosing the right machine learning algorithm and model (e.g. regression, classification, clustering)",
+                  "Training models using AWS SageMaker and Azure Machine Learning (e.g. using built-in algorithms, custom code)",
+                  "Evaluating model performance and tuning hyperparameters (e.g. cross-validation, hyperparameter optimization)",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 2 :- Tools and Techniques used:                 ",
+                title: "Module 5 :- Model Deployment and Management:",
                 desc: [
-                  "Predictive analytics, Demographic analysis, Skills gap analysis.                  ",
+                  "Deploying trained models on AWS SageMaker and Azure Machine Learning (e.g. creating endpoints, batch inference)",
+                  "Monitoring model performance and managing versions (e.g. model drift, A/B testing)",
+                  "Integration with other services and applications (e.g. AWS Lambda, Azure Functions)",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 3 :- Performance Management at Deloitte",
+                title:
+                  "Module 6 :- Advanced Topics in Machine Learning on AWS and Azure:",
                 desc: [
-                  "Deloitte uses a data-driven approach to performance management. The company utilizes analytics to measure employee performance, provide feedback, and identify areas for improvement. Tools and Techniques used: Performance metrics, Feedback analysis, Continuous performance management.                  ",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 5 :- Diversity and Inclusion at Google:",
-                desc: [
-                  "Google uses analytics to monitor and improve diversity and inclusion within the company. By analyzing HR data, such as employee demographics and hiring practices, Google can identify areas where it needs to improve diversity and create initiatives to promote inclusion.                  ",
-                  "Tools and Techniques used: Diversity metrics, Demographic analysis, Inclusion programs.                  ",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 6 :- Compensation Analytics at Netflix: ",
-                desc: [
-                  "Netflix uses analytics to determine employee compensation packages. By analyzing HR data such as market benchmarks, employee performance, and tenure, Netflix can offer compensation packages that are competitive and fair.                  ",
-                  "Tools and Techniques used: Compensation analysis, Market benchmarking, Performance analysis",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 7 :- Succession Planning at AT&T ",
-                desc: [
-                  "T&T uses analytics to identify high-potential employees and develop them for future leadership roles. By analyzing HR data such as performance metrics, skills, and career aspirations, AT&T can create targeted development plans for its employees.",
+                  "Deep learning techniques and architectures (e.g. neural networks, convolutional neural networks, recurrent neural networks)",
+                  "Natural Language Processing (NLP) use cases (e.g. text classification, sentiment analysis, language translation)",
+                  "Understanding the costs and pricing models for machine learning on AWS and Azure (e.g. instance pricing, storage pricing, model deployment pricing)",
                 ],
               },
             },

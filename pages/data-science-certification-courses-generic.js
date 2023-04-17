@@ -1,23 +1,25 @@
-import React, { useState } from "react";
 import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
+import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
-import Popup from "../components/Popup/Popup";
-import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
-import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
-import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
-import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
-import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
-import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
+import Certificate from "../components/CoursePage/Certificatejob/Certificate";
+import Project from "../components/CoursePage/Project/Project";
+import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
+import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
+import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
+import { DomainFaqCourseData2 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
 import { FoundtionCourseData } from "../Data/FoundtionCourse";
-import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
-import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
-import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
-import Switch from "../components/NewDesign/switch/switch";
-import Project from "../components/NewDesign/Project/Project";
-import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
+import Fee from "../components/CoursePage/Fee/Fee";
+import LearnSupport from "../components/LearnSupport/LearnSupport";
+import FAQNew from "../components/FAQNew/FAQNewDomain";
+import React, { useState } from "react";
 import {
   FaqData1,
   PaymentFaqData1,
@@ -26,20 +28,28 @@ import {
   jobFaqData1,
   MentorshipFaqData1,
   SupportFaqData1,
-} from "../components/NewDesign/FAQNew/FaqData";
+} from "../components/FAQ/FaqData";
+import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
 
-function blockchain() {
+export default function Home() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
   };
   return (
-    <>
+    <div className={styles.container}>
       <Head>
-        <title>Data Science Foundation Program</title>
-        <meta name="description" content="Data Science Foundation Program" />
-        <meta name="keywords" content="Data Science Foundation Program" />
+        <title>Data Science Certification Course Foundation Program</title>
+        <meta
+          name="description"
+          content="Data Science Certification Course Foundation Program. Learnbay is best data science certification course training institute. Our online data science certification course will enhance your career"
+        />
+        <meta
+          name="keywords"
+          content="Data Science Certification Course, Data Science Certification training, Data Science Certification institute, best Data Science Certification institute, Data Science Certification training institute , advanced Data Science Certification course , Data Science Certification course with Placement Assistance, Data Science Certification courses"
+        />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -50,6 +60,7 @@ function blockchain() {
         />
       </Head>
       <main>
+        {" "}
         <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -58,114 +69,73 @@ function blockchain() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} fullStack={true} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
         <FirstSection
           dataScience={true}
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+header.webp"
-          firstToparaImg="with industry-specific training"
-          firstHeading="Data Science and AI Foundation Program"
-          firstTopPara="Enhance your earning potential"
+          deskTopPara="Data Science"
+          deskTopPara1=" Foundation Program"
+          mTitle="Enhance your earning potential "
+          spanMTitleText="with industry-specific training"
+          mTopPara="Data Science"
+          spanTitleText="with industry-specific training"
+          mTopPara1=" Foundation Program"
+          title="Enhance your earning potential "
+          desc="This program ensures a smooth transition into Jr. Data Scientist, Business Analyst, Data Analyst, Database Manager, and other relevant positions."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Foundation.png"
+          width="900"
+          height="762"
+          alt="AiMl Header"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf"
         />
-        <SecondSection
-          fullStackReview={true}
-          SecondHead="Why Choose Us?"
-          SecondPara="India's top rated bootcamp for working professionals"
-          heading1="On-Demand Doubt Sessions"
-          heading2="Guaranteed Interview Calls"
-          heading3="Project Certificate From IBM"
-          heading4="Designed For Professionals"
-          SecondPara1="Talk to an expert & receive real-time solutions to your queries"
-          SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
-          SecondPara3="Grab opportunities with a portfolio & make a smooth career transition"
-          SecondPara4="Prioritize growth & salary increases with in-demand skills"
+        <div className={styles.program}>
+          <ProgramInfo
+            p1="Global Recognition"
+            p11="From IBM"
+            p2="Industry Standard"
+            p22="Training"
+            p3="Career Assistance"
+            p33="For Professionals"
+            p4="Financing as low as"
+            p44="₹ 7,768/month"
+          />
+        </div>
+        <div className="Feature" id="Feature">
+          <BoxShape
+            title="Why Enroll In This Program?"
+            Box1h5="Custom-fit Training"
+            box1desc="Get specially designed modules as per your dream role. Learn trending Data Science applications."
+            Box2h5="Exclusive Hackathons"
+            box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
+            Box3h5="Premium Mentoring"
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
+            Box4h5="Hands-on Experience"
+            box4desc="Get the diligent experience of real-world projects, spanning from starters, directly from relevant establishments."
+          />
+        </div>
+        <DomainFaq FaqData={DomainFaqCourseData2} />
+        <CourseReview />
+        <Certificate
+          title="Course Completion Certificate from IBM"
+          desc="Complete your training with the internationally recognized certificate."
+          desc2="Validate your Data Science skills with IBM Course Completion Certificate."
+          desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate-1.jpg"
         />
-        <ProgramCustomer
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+Who+is+this+program+for.webp"
-          heading1="Education"
-          heading2="Work experience"
-          heading3="Career stage"
-          heading4="Aspirations"
-          para1="Bachelor's degree with good academic performance
-"
-          para2="Minimum 6 months of IT/Non-IT work experience"
-          para3="Early to mid-career professionals interested in data science"
-          para4="Preparing for future opportunities in data science"
-        />
-        <Switch />
-        <ThirdSection
-          secondLine="Invest in yourself!"
-          thirdHeadSpan=" Alumni Community"
-          thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Enjoy 3 years of flexi pass"
-          point2="Get 3 mock interviews with industry leaders"
-          point3="Resume build up session"
-          point4="Get 5-8 interview calls"
-          BatchPara="The pie-chart representation here shows that the comprehensive Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an expert level, coming from the following industries and designation:"
-          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+Left+Graph.png"
-          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+Right+Graph.png"
-          dataScience={true}
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/bloom+ai.png"
-          img5="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/cisco.png"
-          img6="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/datazymes.png"
-          img7="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/dell.png"
-          img8="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/flipkart.png"
-          img9="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/fractal+analytics.png"
-          img10="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/gartner.png"
-          img11="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/genpact.png"
-          img12="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/HCL.png"
-          img13="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/jp+morgan.png"
-          img14="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/KPMG.png"
-          img15="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/lenskart.png"
-          img16="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/linkedin.png"
-          img17="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/lti+mindtree.png"
-          img18="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/mercedes+benz.png"
-          img19="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/musigma.png"
-          img21="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/paypal.png"
-          img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
-          img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
-        />
-        <FourthSection
-          serviceBasic={true}
-          careerH1="Career Service"
-          careerSpan=" Basic"
+        <SyllabusNew
           dataScience={true}
           syllabus={FoundtionCourseData[0].syllabus}
           syllabusDesc={FoundtionCourseData[0].syllabusDesc}
           popupHead={FoundtionCourseData[0].popupHead}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf"
-          hours="250+ Hours"
-          project="12+ Real Time"
+          hours="200+ Hours"
+          project="8+ Real Time"
         />
-        <GrowthStats
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+Foundation+Scope.webp"
-          heading="Data science is the future! "
-          para1="Higher Growth: Annual growth rate of 30% in 2023"
-          para2="Big Earning Potential: Earn an average annual salary of INR 10 LPA"
-          para3="Strong Demand: Booming requirement across various industries and domains"
-        />
-        <FifthSection
-          NoCertficate={true}
-          Fee="₹ 79,000 + 18% GST"
-          FeeEmi="₹ 7,768/month"
-          FeeHeading="Program Fee & Financing"
-          FeeContent1="0% interest rate"
-          FeeContent2="No Cost EMI"
-          FeeContent3="Flexible payment"
-          FeeContent4="Easy loan procedure"
-          FeeContent5="15 days refund policy"
-          FeeContent6="No additional cost"
-          para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
-          dataScience={true}
+        <div className={styles.ProjectWrapper} id="project">
+          <Project project="8+ Projects" domain="7+" />
+        </div>
+        <OurExpert
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -190,18 +160,52 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        {/* <SixthSection
-          point1="Practise with Latest Tools"
-          point2="4 Foundation Project"
-          point3="Real-time Data Projects"
-          point4="Designed by Industry Experts"
-          FoundationDSProject={true}
-          CourseFeeHead=" Data Science and AI Foundation Program : Batch Details"
+        <ProgramFee
+          Emi="₹ 7,768/month"
+          Fee="₹ 79,000 + 18% GST"
           dataScience={true}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-        /> */}
-        <Project project="4+ Projects" tools="8+" DsProject={true} />
-        <BatchDetails CourseFeeHead="Data Science and AI Master Program : Batch Details" />
+        />
+        <Fee
+          dataScience={true}
+          sub2="Data Science Foundation Certification Program"
+          Price2="₹ 79,000 + 18% GST"
+          PFeatures21="200+ Hours"
+          PFeatures22="Non-Tech Professional"
+          PFeatures23="NA"
+          PFeatures24="8 + 1"
+          PFeatures25="10+"
+          PFeatures26="5"
+          PFeatures28="Data Analyst, Jr. Data Scientist, Data Associate, Etc."
+          sub1="Advanced Data Science and AI Program"
+          Price1="₹ 99,000 + 18% GST"
+          PFeatures11=" 250+ Hours"
+          PFeatures12=" Tech/Non-Tech Professionals"
+          PFeatures13="2"
+          PFeatures14="12 + 1"
+          PFeatures15="15+"
+          PFeatures16="10"
+          PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
+          sub3="Data Science and AI Master Program"
+          Price3="₹1,29,000 + 18% GST"
+          PFeatures31=" 500+ Hours"
+          PFeatures32="Tech/Non-Tech Professionals"
+          PFeatures33="7"
+          PFeatures34="20 + 3"
+          PFeatures35="18+"
+          PFeatures36="Unlimited"
+          PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
+        />
+        <CourseFee
+          dataScience={true}
+          syllabus={FoundtionCourseData[0].Batch}
+          CourseFeeHead="Data Science Foundation Program : Batch Details"
+          CourseFeePara="Online Classroom"
+          CourseFeelist1="Online Interactive Classes"
+          CourseFeelist2="Weekend and Weekday Batches"
+          CourseFeelist3="Extra Clearance Sessions"
+          CourseFeelist4="Project-Based Learning"
+          CourseFeelist5="Company-based Mock Interviews"
+        />
         <FAQNew
           FaqDatas={FaqData1}
           PaymentFaqDatas={PaymentFaqData1}
@@ -211,12 +215,10 @@ function blockchain() {
           MentorshipFaqDatas={MentorshipFaqData1}
           SupportFaqDatas={SupportFaqData1}
         />
-        <SeventhSection />
+        <LearnSupport />
         <OfferPopup offer={false} />
         <Footer />
       </main>
-    </>
+    </div>
   );
 }
-
-export default blockchain;

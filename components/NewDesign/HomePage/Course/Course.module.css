@@ -21,6 +21,10 @@
   /* justify-content: space-evenly; */
 }
 
+.bellIcon {
+  font-size: 20px;
+}
+
 .span {
   padding: 20px;
   width: 100%;
@@ -115,7 +119,7 @@
 .Course h5 {
   font-size: 24px;
   margin: 0;
-  border-bottom: 2px solid #28557a2e;
+  /* border-bottom: 2px solid #28557a2e; */
   padding: 10px 20px;
 }
 .leftSide,
@@ -189,7 +193,7 @@
   height: 1px;
   top: 54%;
   position: absolute;
-  width: 100%;
+  width: 95%;
 }
 .hr1 {
   border: 1px solid #efefef;
@@ -197,7 +201,7 @@
   height: 1px;
   bottom: -4%;
   position: absolute;
-  width: 100%;
+  width: 95%;
 }
 .mainHead {
   background: #0072bc;
@@ -252,6 +256,7 @@
   justify-content: center;
   height: 100%;
   border: 0;
+  font-size: 16px;
 }
 .btnWrapper a {
   display: flex;
@@ -326,11 +331,14 @@
     display: none;
   } */
   .span {
-    font-size: 18px;
     border: 0;
-
-    padding: 12px 20px;
     width: 100%;
+    padding: 10px 0px;
+    width: max-content;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    justify-content: start;
   }
   .leftSide,
   .middleSide,

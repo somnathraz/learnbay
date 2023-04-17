@@ -1,26 +1,21 @@
+import React, { useState } from "react";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
-import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
-import Certificate from "../components/CoursePage/CertificateTab/CertificateTab4";
-import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import Project from "../components/CoursePage/Project/Project";
-import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
-import OtherCertificate from "../components/CoursePage/OtherCertificate6/OtherCertificate";
+import Popup from "../components/Popup/Popup";
+import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
+import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
+import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
+import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
+import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
-import { DomainFaqCourseData3 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
+import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { DsaiManagersCourseData } from "../Data/DataScienceManagers";
-import Fee from "../components/CoursePage/Fee/Fee";
-import FAQNew from "../components/FAQNew/FAQNew";
-import React, { useState } from "react";
-import LearnSupport from "../components/LearnSupport/LearnSupport";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
+import Project from "../components/NewDesign/Project/Project";
+import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import {
   FaqData4,
   DomainFaqData4,
@@ -30,19 +25,19 @@ import {
   jobFaqData4,
   MentorshipFaqData4,
   SupportFaqData4,
-} from "../components/FAQ/FaqData";
-import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
-import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
-import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
+} from "../components/NewDesign/FAQNew/FaqData";
+import Switch from "../components/NewDesign/switch/switch";
+import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
+import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
-export default function Home() {
+function blockchain() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
   };
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>
           Data Science and Artificial Intelligence Program For Managers and
@@ -50,7 +45,13 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Data Science and Artificial Intelligence Program For Managers and Leaders"
+          content="Data Science and Artificial Intelligence Program For Managers and
+          Leaders"
+        />
+        <meta
+          name="keywords"
+          content="Data Science and Artificial Intelligence Program For Managers and
+          Leaders"
         />
         <link
           rel="icon"
@@ -62,7 +63,6 @@ export default function Home() {
         />
       </Head>
       <main>
-        {" "}
         <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -71,76 +71,118 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Be a leader with Domain Specialization"
-          mTopPara="Be a leader with Domain Specialization"
-          title="Data Science and Artificial Intelligence Program"
-          mTitle="Data Science and Artificial Intelligence Program"
-          spanTitleText=" For Managers and Leaders"
-          spanMTitleText=" For Managers and Leaders"
-          desc="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Managers+%26+Leaders.png"
-          width="758"
-          height="602"
-          alt="AiMl Header"
+          first="Tools"
+          second="Tips"
+          third="Technology"
+          idss="osYNvuuI1_8"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Business-Analytics-Masters-Header.png"
+          firstToparaImg=" For Manager & Leaders"
+          firstHeading="Be ready with Data Science and AI Program"
+          firstTopPara="Empower your leadership journey"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
         />
-        <div className={styles.program}>
-          <ProgramInfo
-            p1="Global Recognition"
-            p11="From IBM"
-            p2="Industry Standard"
-            p22="Training"
-            p3="Career Assistance"
-            p33="For Professionals"
-            p4="Financing as low as"
-            p44="₹ 10,325/month"
-          />
-        </div>
-        <div className="Feature" id="Feature">
-          <BoxShape
-            title="Why Enroll In This Program?"
-            Box1h5="Custom-fit Training"
-            box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
-            Box2h5="Domain Specialized"
-            box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 7 domains."
-            Box3h5="Premium Mentoring"
-            box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
-            Box4h5="Hands-on Experience"
-            box4desc="Work on 15+ real-time projects & 1 capstone project cerrtified by IBM."
-          />
-        </div>
-        <DomainFaq FaqData={DomainFaqCourseData3} />
-        <CourseReview />
-        <Certificate />
-        <OtherCertificate
-          OCHead1="Machine Learning with Python"
-          OCP1="Validate your python expertise for ML algo designing."
-          OCHead2="Python for Data Science"
-          OCP2="Get certified on your advanced python skills."
-          OCHead3="Deep Learning Fundamentals"
-          OCP3="Earn industrial badge on neural networks, and convolutional networks like DL skills."
-          OCHead4="Sectoral Analytics Fundamentals – HR"
-          OCP4="Obtain certification in the use of analytical best practices in HR decision-making."
-          OCHead5="Sectoral Analytics Fundamentals – Marketing"
-          OCP5="Obtain certification in the use of analytical best practices in marketing decision-making."
-          OCHead6="Sectoral Analytics Fundamentals – Finance"
-          OCP6="Obtain certification in the use of analytical best practices in financial decision-making."
+        <SecondSection
+          fullStackReview={true}
+          heading1="On-Demand Doubt Sessions"
+          heading2="Guaranteed Interview Calls"
+          heading3="Project Certificate From IBM"
+          heading4="Designed For Professionals"
+          SecondHead="Why Choose Us?"
+          SecondPara="India's top rated bootcamp for working professionals"
+          SecondPara1="Talk to an expert & receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
+          SecondPara3="Grab opportunities with a portfolio & make a smooth career transition"
+          SecondPara4="Prioritize growth & salary increases with in-demand skills"
         />
-        <SyllabusNew
+        <ProgramCustomer
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/manager+_Who+is+this+program+for_+image.webp"
+          para1="Bachelor's degree with consistent good academics"
+          para2="Minimum 6 year of IT/Non-IT work experience "
+          para3="Mid-Senior professionals interested in Data Science & AI
+          "
+          para4="Data Science & AI expertise for future opportunities "
+          heading1="Education"
+          heading2="Work experience"
+          heading3="Career stage"
+          heading4="Aspirations"
+        />
+        <Switch />
+        <ThirdSection
+          point1="Get 1 year of Job and Placement support"
+          point2="Get 3 mock interviews with industry leaders"
+          point3="Resume build up session"
+          point4="Get 5-8 interview calls"
+          secondLine="Invest in yourself!"
+          thirdHeadSpan=" Alumni Community"
+          thirdHead="Stay Ahead Of The Curve With Support Of Our"
+          BatchPara="Data Science and AI Program for Managers targets professionals with 8+ years of experience from specific industries and designations to equip them with skills for driving business value and getting promoted with high salaries."
+          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/MANAGERS+Left.png"
+          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/MANAGERS+Right.png"
+          dataScience={true}
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/bloom+ai.png"
+          img5="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/cisco.png"
+          img6="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/datazymes.png"
+          img7="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/dell.png"
+          img8="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/flipkart.png"
+          img9="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/fractal+analytics.png"
+          img10="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/gartner.png"
+          img11="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/genpact.png"
+          img12="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/HCL.png"
+          img13="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/jp+morgan.png"
+          img14="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/KPMG.png"
+          img15="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/lenskart.png"
+          img16="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/linkedin.png"
+          img17="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/lti+mindtree.png"
+          img18="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/mercedes+benz.png"
+          img19="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/musigma.png"
+          img21="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/paypal.png"
+          img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
+          img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
+        />
+        <FourthSection
+          careerH1="Career Service"
+          careerSpan=" Basic"
+          serviceBasic={true}
           dataScience={true}
           syllabus={DsaiManagersCourseData[0].syllabus}
           syllabusDesc={DsaiManagersCourseData[0].syllabusDesc}
           popupHead={DsaiManagersCourseData[0].popupHead}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-          hours="400+ Hours"
-          project="15+ Real Time"
+          hours="250+ Hours"
+          project="12+ Real Time"
         />
-        <OurExpert
+        <GrowthStats
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Managers+Scope.webp"
+          heading="Be the future pillar of technology"
+          para1="The AI market to be worth $1,598 billion by 2030"
+          para2="The estimated salary for Sr. job roles is Rs.19 Lakhs per year"
+          para3="Influences on almost every industry in today's world"
+        />
+        <FifthSection
+          advanceCertificate={true}
+          Fee="₹ 1,10,000 + 18% GST"
+          FeeEmi="₹ 10,817/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent1="0% interest rate"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          FeeContent6="No additional cost"
+          para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+          dataScience={true}
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -165,56 +207,19 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee
-          Emi="₹ 10,325/month"
-          Fee="₹ 1,05,000 + 18% GST"
+        <DomainSection dataScience={true}/>
+        {/* <SixthSection
+          point1="Practise with Latest Tools"
+          point2="10 Advanced Projects"
+          point3="3 Capstone Projects"
+          point4="Designed by Industry Experts"
+          FoundationDSProject={true}
+          CourseFeeHead="Data Science & AI for Managers Program : Batch Details"
           dataScience={true}
-        />
-        <SliderTab />
-        <div className={styles.ProjectWrapper} id="project">
-          <Project project="15+ Projects" domain="7+" />
-        </div>
-        <Fee
-          dataScience={true}
-          sub1="Advanced Data Science and AI Program"
-          Price1="₹95,000 + 18% GST"
-          PFeatures11=" 250+ Hours"
-          PFeatures12=" Tech/Non-Tech Professionals"
-          PFeatures13="2"
-          PFeatures14="12 + 1"
-          PFeatures15="15+"
-          PFeatures16="10"
-          PFeatures18="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-          sub2="Data Science & AI For Managers Program"
-          Price2="₹1,05,000 + 18% GST"
-          PFeatures21="400+ Hours"
-          PFeatures22="Tech Lead, Managers"
-          PFeatures23="2"
-          PFeatures24="15 + 1"
-          PFeatures25="16+"
-          PFeatures26="10"
-          PFeatures28="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
-          sub3="Data Science and AI Master Program"
-          Price3="₹1,25,000 + 18% GST"
-          PFeatures31=" 500+ Hours"
-          PFeatures32="Tech/Non-Tech Professionals"
-          PFeatures33="7"
-          PFeatures34="20 + 3"
-          PFeatures35="18+"
-          PFeatures36="Unlimited"
-          PFeatures38="Project Manager, Team Lead, Project Lead, Project Head, Etc."
-        />
-        <CourseFee
-          dataScience={true}
-          syllabus={DsaiManagersCourseData[0].Batch}
-          CourseFeeHead="Data Science & AI For Managers Program : Batch Details"
-          CourseFeePara="Online Classroom"
-          CourseFeelist1="Online Interactive Classes"
-          CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearing Sessions"
-          CourseFeelist4="Multiple Domains + Project Expertise"
-          CourseFeelist5="Company-based Mock Interviews"
-        />
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
+        /> */}
+        <Project project="13+ Projects" tools="16+" DsProject={true} dataScience={true}/>
+        <BatchDetails CourseFeeHead="Data science course for Mangers: Batch Details" />
         <FAQNew
           FaqDatas={FaqData4}
           DomainFaqDatas={DomainFaqData4}
@@ -225,10 +230,12 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData4}
           SupportFaqDatas={SupportFaqData4}
         />
-        <LearnSupport />
+        <SeventhSection />
         <OfferPopup offer={false} />
         <Footer />
       </main>
-    </div>
+    </>
   );
 }
+
+export default blockchain;

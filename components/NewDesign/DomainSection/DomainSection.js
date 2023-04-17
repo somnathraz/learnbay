@@ -325,6 +325,29 @@ function DomainSection({ dataScience, BAdomain,imgDomain }) {
                           </div>
                         </div>
                       </SwiperSlide>
+                      <SwiperSlide className={styles.slide}>
+                        <div className={styles.mainSliderRed}>
+                          <div className={styles.number}>
+                            <p>#5</p>
+                            <hr className={styles.hr} />
+                          </div>
+                          <div className={styles.imgP}>
+                            <p>Supply Chain, E-Commerce & Retail</p>
+                          </div>
+                          <div>
+                            <ul style={{padding:"0px 0px 0px 20px"}} className={styles.para}>
+                            <li>Work on 20+ real time case studies and assignments</li>
+                            <li>Learn Supply Chain, E-Commerce & Retail analysis tools, generate data insights, integrate data-driven methods to future-proof business operations</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <button onClick={popupShow}>
+                              Download Brochure
+                              <FaDownload style={{ marginLeft: "10px" }} />
+                            </button>
+                          </div>
+                        </div>
+                      </SwiperSlide>
                     </Swiper>
                   </div>
                 </div>

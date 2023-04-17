@@ -84,7 +84,7 @@ export const PaymentFaqData1 = [
   {
     id: 0,
     ques: "What is the total fee for Data Science Foundation Program?",
-    ans: "The total program fee for the Data Science Foundation Program is INR 88,500/- inclusive of GST.",
+    ans: "The total program fee for the Data Science Foundation Program is INR 93,220/- inclusive of GST.",
     open: true,
   },
   {
@@ -309,7 +309,7 @@ export const PaymentFaqData2 = [
   {
     id: 1,
     ques: "Can I pay in installments for the Advanced Data Science and AI Program?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 9,342/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 9,735/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -539,13 +539,13 @@ export const PaymentFaqData3 = [
   {
     id: 0,
     ques: "What is the total Fee for the Artificial Intelligence and Machine Learning Program?",
-    ans: "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,05,000 + 18% GST.",
+    ans: "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,10,000 + 18% GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for 1,05,000 + 18% GST?" /*1,23,900/-  check for price*/,
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,325/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for 1,10,000 + 18% GST?" /*1,23,900/-  check for price*/,
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     //Check this section
     open: false,
   },
@@ -776,13 +776,13 @@ export const PaymentFaqData4 = [
   {
     id: 0,
     ques: "What is the total Fee for the Data Science and AI for Managers & Leaders Program?",
-    ans: "The total program fee for the Data Science and AI for Managers & Leaders Program is INR 1,05,000 + 18% GST.",
+    ans: "The total program fee for the Data Science and AI for Managers & Leaders Program is INR 1,10,000 + 18% GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for 1,05,000/-?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,325/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for 1,10,000/-?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -1013,13 +1013,13 @@ export const PaymentFaqData5 = [
   {
     id: 0,
     ques: "What is the total Fee for the Data Science and AI Master Program?",
-    ans: "The total program fee for the Data Science and AI Master Program is INR ₹1,25,000 + 18% GST.",
+    ans: "The total program fee for the Data Science and AI Master Program is INR ₹1,29,000 + 18% GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for ₹1,25,000 + 18% GST?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12,292/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    ques: "Can I pay in installments for ₹1,29,000 + 18% GST?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 12,685/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
     open: false,
   },
   {
@@ -1198,13 +1198,13 @@ export const PaymentFaqData6 = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program?",
-    ans: "We offer industry-specific full-stack Data Analytics modules, via which you learn the respective industry’s best practices.The total program fee for the Data Analytics Program is INR 75,000 + 18% GST.",
+    ans: "We offer industry-specific full-stack Data Analytics modules, via which you learn the respective industry’s best practices.The total program fee for the Data Analytics Program is INR 79,000 + 18% GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 75,000 + 18% GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    ques: "Can I pay in installments for INR 79,000 + 18% GST ?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -1500,13 +1500,13 @@ export const PaymentFaqData7 = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program?",
-    ans: "The total program fee for the Business Analytics Program is INR 75,000 + GST.",
+    ans: "The total program fee for the Business Analytics Program is INR 1,10,000 + GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 75,000/- + GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
+    ques: "Can I pay in installments for INR 1,10,000/- + GST ?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -2080,8 +2080,8 @@ export const SupportFaqData9 = [
 export const FaqDataBFSI = [
   {
     id: 0,
-    ques: "What are the prerequisites for the BFSI Program?",
-    ans: "There are no prerequisites for this BFSI certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+    ques: "What are the prerequisites for the Data Science and AI for BFSI Professionals Program?",
+    ans: "There are no prerequisites for this Data Science and AI for BFSI Professionals certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
     open: true,
   },
   {
@@ -2092,14 +2092,14 @@ export const FaqDataBFSI = [
   },
   {
     id: 2,
-    ques: "What is a Flexi Subscription in the BFSI Program?",
-    ans: `Those who enroll for BFSI live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    ques: "What is a Flexi Subscription in the Data Science and AI for BFSI Professionals Program?",
+    ans: `Those who enroll for Data Science and AI for BFSI Professionals live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
     open: false,
   },
   {
     id: 3,
-    ques: "What’s the duration of the BFSI Program?",
-    ans: `The duration of this BFSI Course is about 6 months (180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ques: "What’s the duration of the Data Science and AI for BFSI Professionals Program?",
+    ans: `The duration of this Data Science and AI for BFSI Professionals Course is about 6 months (180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on weekdays and weekend batches.
     Weekday batch – 5 months, Monday to Friday – 2 hours/day,
@@ -2108,8 +2108,8 @@ export const FaqDataBFSI = [
   },
   {
     id: 4,
-    ques: "What is the mode of BFSI training at Learnbay?",
-    ans: "We provide both classroom and online BFSI training modes. Based on your requirement, you can choose your preferred mode.",
+    ques: "What is the mode of Data Science and AI for BFSI Professionals training at Learnbay?",
+    ans: "We provide both classroom and online Data Science and AI for BFSI Professionals training modes. Based on your requirement, you can choose your preferred mode.",
     open: false,
   },
   {
@@ -2123,21 +2123,21 @@ export const CertificationFaqDataBFSI = [
   {
     id: 0,
     ques: "Is there any accredited certification after course completion?",
-    ans: "Yes, you will be awarded IBM accredited BFSI Certificate on successful course completion.",
+    ans: "Yes, you will be awarded IBM accredited Data Science and AI for BFSI Professionals Certificate on successful course completion.",
     open: true,
   },
 ];
 export const PaymentFaqDataBFSI = [
   {
     id: 0,
-    ques: "What is the total fee for the BFSI Program?",
-    ans: "We offer industry-specific full-stack BFSI modules, via which you learn the respective industry’s best practices.The total program fee for the BFSI Program is INR 75,000 + 18% GST.",
+    ques: "What is the total fee for the Data Science and AI for BFSI Professionals Program?",
+    ans: "We offer industry-specific full-stack BFSI modules, via which you learn the respective industry’s best practices.The total program fee for the Data Science and AI for BFSI Professionals Program is INR 89,000 + 18% GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 75,000 + 18% GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    ques: "Can I pay in installments for INR 89,000 + 18% GST ?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8,752/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -2307,13 +2307,13 @@ export const PaymentFaqDataHR = [
   {
     id: 0,
     ques: "What is the total fee for the HR Program?",
-    ans: "We offer industry-specific full-stack HR modules, via which you learn the respective industry’s best practices.The total program fee for the HR Program is INR 75,000 + 18% GST.",
+    ans: "We offer industry-specific full-stack HR modules, via which you learn the respective industry’s best practices.The total program fee for the HR Program is INR 89,000 + 18% GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 75,000 + 18% GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    ques: "Can I pay in installments for INR 89,000 + 18% GST ?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8,752/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,
@@ -2483,13 +2483,13 @@ export const PaymentFaqDataMarkering = [
   {
     id: 0,
     ques: "What is the total fee for the Markering Program?",
-    ans: "We offer industry-specific full-stack Markering modules, via which you learn the respective industry’s best practices.The total program fee for the Markering Program is INR 75,000 + 18% GST.",
+    ans: "We offer industry-specific full-stack Markering modules, via which you learn the respective industry’s best practices.The total program fee for the Markering Program is INR 89,000 + 18% GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 75,000 + 18% GST ?",
-    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 14,750/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+    ques: "Can I pay in installments for INR 89,000 + 18% GST ?",
+    ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8,752/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,

@@ -7,38 +7,11 @@ import FeeSection from "./Fee";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import Certificate from "../FifthSection/CertificateTabAdvance";
-import AIMLCertificateTab from "../CertificateTab/AIMLCertificateTab";
-import ManagersCertificateTab from "../CertificateTab/ManagersCertificateTab";
-import MasterCertificateTab from "../CertificateTab/MasterCertificateTab";
 import AnalyticsCertificateTab from "../CertificateTab/AnalyticsCertificateTab";
-import BACertificateTab from "../FifthSection/CertificateTabBusiness";
-import FinanceCertificateTab from "../CertificateTab/FinanceCertificateTab";
 import CertificateTabAdvance from "../FifthSection/CertificateTabAdvance"
 
 function FifthSection({
   FeeHeading,
-  BACertificate,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10,
-  img11,
-  img12,
-  img13,
-  img14,
-  img15,
-  img16,
-  img17,
-  img18,
-  img19,
-  img20,
-  img21,
-  img22,
   dataAnalyticsCertificate,
   dataScience,
   Fee,
@@ -51,11 +24,8 @@ function FifthSection({
   FeeEmi,
   hidetools,
   advanceCertificate,
-  AIMLCertificate,
-  MasterCertificate,
-  ManagersCertificate,
+  IBMMicrosoft,
   AnalyticsCertificate,
-  FinanceCertificate,
   NoCertficate,
 }) {
   const [mobile, setMobile] = useState(false);
@@ -67,11 +37,7 @@ function FifthSection({
     }
   });
 
-  const [slidesPerView, setSlidesPerView] = useState(3);
   const [popups, setPopups] = useState(false);
-  const [spaceBetween, setSpaceBetween] = useState(70);
-  const [changeHeading, setChangeHeading] = useState(false);
-  const [changeText, setChangeText] = useState(false);
   const popupShow = (demoClass, changeText) => {
     setChangeHeading(demoClass);
     setChangeText(changeText);
@@ -103,7 +69,7 @@ function FifthSection({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} dataScience={dataScience}/>
         </div>
       </Popup>
       {hidetools ? (
@@ -140,12 +106,8 @@ function FifthSection({
           <p className={styles.infop}>Globally Recognized Program</p>
           <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>
           {advanceCertificate ? <Certificate /> : ""}
-          {AIMLCertificate ? <AIMLCertificateTab /> : ""}
-          {MasterCertificate ? <MasterCertificateTab /> : ""}
-          {ManagersCertificate ? <ManagersCertificateTab /> : ""}
           {AnalyticsCertificate ? <AnalyticsCertificateTab /> : ""}
-          {BACertificate ? <BACertificateTab /> : ""}
-          {FinanceCertificate ? <FinanceCertificateTab /> : ""}
+          {IBMMicrosoft ? <CertificateTabAdvance Ibm={true} twoCertificateIBM={true}/> : ""}
           {dataAnalyticsCertificate ? <CertificateTabAdvance Ibm={true} /> : ""}
         </div>
       )}
@@ -177,6 +139,7 @@ function FifthSection({
       </div> */}
       <div className={styles.feeD}>
         <FeeSection
+        dataScience={true}
           Fee={Fee}
           FeeHeading={FeeHeading}
           FeeContent1={FeeContent1}

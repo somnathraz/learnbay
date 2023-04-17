@@ -268,12 +268,9 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/business-analytics-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>
-                          Business Analytics
-                          <br /> Program
-                        </h5>
+                        <h5>Business Analytics Master Program</h5>
                         <span>
-                          200+ Hours <BsDot /> 5 & 7 Months{" "}
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -287,12 +284,52 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>
-                          Data Analytics
-                          <br /> Program
-                        </h5>
+                        <h5>Data Analytics Program</h5>
                         <span>
                           180+ Hours <BsDot /> 5 & 6.5 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/data-science-for-bfsi-professional">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>
+                          Data Science and AI Program for BFSI Professionals
+                        </h5>
+                        <span>
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/hr-analytics">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>HR Analytics Program</h5>
+                        <span>
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/marketing-analytics">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>Marketing Analytics Program</h5>
+                        <span>
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -583,9 +620,65 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/business-analytics-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
+                        <h5>Business Analytics Master Program</h5>
+                        <span>
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/data-analytics-certification-course">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>Data Analytics Program</h5>
+                        <span>
+                          180+ Hours <BsDot /> 5 & 6.5 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/data-science-for-bfsi-professional">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
                         <h5>
-                          Business Analytics <br /> Program
+                          Data Science and AI Program for BFSI Professionals
                         </h5>
+                        <span>
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/hr-analytics">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>HR Analytics Program</h5>
+                        <span>
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/marketing-analytics">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>Marketing Analytics Program</h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 7 Months{" "}
                         </span>
@@ -594,28 +687,13 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/data-analytics-certification-course">
-                    <div className={styles.Program}>
-                      <div className={styles.ProLeft}>
-                        <h5>
-                          Data Analytics <br /> Program
-                        </h5>
-                        <span>
-                          180+ Hours <BsDot /> 5 & 6.5 Months{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
                   <a href="/dsa-system-design">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>
-                          DSA & <br />
-                          System Design
-                        </h5>
+                        <h5>DSA & System Design</h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
@@ -809,10 +887,10 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>
                           Business Analytics
-                          <br /> Program
+                          <br /> Master Program
                         </h5>
                         <span>
-                          200+ Hours <BsDot /> 5 & 7 Months{" "}
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -832,6 +910,56 @@ const Tabs = ({ handleIcon }) => {
                         </h5>
                         <span>
                           180+ Hours <BsDot /> 5 & 6.5 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/data-science-for-bfsi-professional">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>
+                          Data Science and AI Program
+                          <br /> for BFSI Professionals
+                        </h5>
+                        <span>
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/hr-analytics">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>
+                          HR Analytics
+                          <br /> Program
+                        </h5>
+                        <span>
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/marketing-analytics">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>
+                          Marketing Analytics
+                          <br /> Program
+                        </h5>
+                        <span>
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -1044,13 +1172,82 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                </div>
-                <div className={styles.Row}>
                   <a href="/business-analytics-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>
-                          Business Analytics <br /> Program
+                          Business Analytics
+                          <br /> Master Program
+                        </h5>
+                        <span>
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/data-analytics-certification-course">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>
+                          Data Analytics
+                          <br /> Program
+                        </h5>
+                        <span>
+                          180+ Hours <BsDot /> 5 & 6.5 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/data-science-for-bfsi-professional">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>
+                          Data Science and AI Program
+                          <br /> for BFSI Professionals
+                        </h5>
+                        <span>
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/hr-analytics">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>
+                          HR Analytics
+                          <br /> Program
+                        </h5>
+                        <span>
+                          200+ Hours <BsDot /> 5 & 7 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/marketing-analytics">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>
+                          Marketing Analytics
+                          <br /> Program
                         </h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 7 Months{" "}

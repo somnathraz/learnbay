@@ -18,7 +18,7 @@ import Form from "../../Form/Form";
 const FeeSection = ({
   FeeHeading,
   Fee,
-  FeeContent1,
+  dataScience,
   FeeContent2,
   FeeContent3,
   FeeContent4,
@@ -69,7 +69,7 @@ const FeeSection = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
 
-          <Form />
+          <Form dataScience={dataScience}/>
         </div>
       </Popup>
       <h4>{FeeHeading}</h4>

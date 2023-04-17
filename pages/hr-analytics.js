@@ -11,24 +11,24 @@ import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
-import { MarketingCourse } from "../Data/MarketingCourse";
+import { HrData } from "../Data/hrData";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
 import {
-  FaqDataMarkering,
-  PaymentFaqDataMarkering,
-  CapstoneFaqDataMarkering,
-  CertificationFaqDataMarkering,
-  jobFaqDataMarkering,
-  MentorshipFaqDataMarkering,
-  SupportFaqDataMarkering,
+  FaqDataHR,
+  PaymentFaqDataHR,
+  CapstoneFaqDataHR,
+  CertificationFaqDataHR,
+  jobFaqDataHR,
+  MentorshipFaqDataHR,
+  SupportFaqDataHR,
 } from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
-import Switch from "../components/NewDesign/HomePage/switch/switch";
+import Switch from "../components/NewDesign/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
-function Marketing() {
+function Hr() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -37,17 +37,9 @@ function Marketing() {
   return (
     <>
       <Head>
-        <title>
-          Marketing Analytics Program
-        </title>
-        <meta
-          name="description"
-          content="Marketing Analytics Program"
-        />
-        <meta
-          name="keywords"
-          content="Marketing Analytics Program"
-        />
+        <title>HR Analytics Program</title>
+        <meta name="description" content="HR Analytics Program" />
+        <meta name="keywords" content="HR Analytics Program" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -74,10 +66,11 @@ function Marketing() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/marketing-header-image+.webp"
-          firstToparaImg="Marketing Analytics"
-          firstHeading="Elevate your career with certification in"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/hr-analytics-header-image.webp"
+          firstToparaImg="with our HR Analytics Program"
+          firstHeading="Become a data-driven professional"
           firstTopPara="Experience the future of analytics"
+          idss="kh54EexuNJo"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
@@ -87,22 +80,23 @@ function Marketing() {
           heading1="On-Demand Doubt Sessions"
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate From IBM"
-          heading4="For Marketing professionals"
+          heading4="For HR professionals"
           SecondPara1="Talk to an expert & receive real-time solutions to your queries"
           SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
           SecondPara3="Grab opportunities with a portfolio & make a smooth career transition"
-          SecondPara4="Boost your growth & earnings with in-demand analytics skills"
+          SecondPara4="Boost your growth & earnings with in-demand people analytics skills
+          "
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/marketing+_+Who-is-this-program-for+_+image.webp"
-          para1="Bachelor's degree with good academic performance"
-          para2="Minimum 1 year of IT/Non-IT work experience "
-          para3="Early to mid-career professionals interested in marketing analytics"
-          para4=" To become a data-driven marketer and optimize strategies"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HR++Who+is+this+program+for+_+image.webp"
+          para1="Bachelor's degree with consistent good academics"
+          para2="Minimum 1 year of IT/Non-IT work experience"
+          para3="Mid-career professionals interested in HR analytics"
+          para4=" Preparing for future leadership role in HR domain"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -113,7 +107,7 @@ function Marketing() {
           secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Enjoy 3 years of flexi pass"
+          point1="Get 1 year of Job and Placement support"
           point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
           point4="Get 5-8 interview calls"
@@ -149,27 +143,27 @@ function Marketing() {
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
-          syllabus={MarketingCourse[0].syllabus}
-          syllabusDesc={MarketingCourse[0].syllabusDesc}
-          popupHead={MarketingCourse[0].popupHead}
+          syllabus={HrData[0].syllabus}
+          syllabusDesc={HrData[0].syllabusDesc}
+          popupHead={HrData[0].popupHead}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
         <GrowthStats
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Marketing+Analytics+Scope.webp"
-          heading="The future is bright in Marketing Analytics - are you ready?"
-          para1="High earning potential: Earn an average annual salary of 10 LPA"
-          para2="Rapid industry growth: 93.8% annually (2020-2027)"
-          para3="Abundant career opportunities in Marketing Analytics"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HR+Analytics+Scope.webp"
+          heading="Join the billion-dollar HR Analytics market and secure your future!"
+          para1="Get an average salary of ₹19.7 lakhs"
+          para2="HR Analytics market is expected to reach USD 9 billion by 2024"
+          para3="Growing demand for data-driven HR decision-making"
         />
         <FifthSection
-          advanceCertificate={true}
+          IBMMicrosoft={true}
           Fee="₹ 89,000 + 18% GST"
           FeeEmi="₹ 8,752/month"
           FeeHeading="Program Fee & Financing"
           FeeContent1="0% interest rate"
-          FeeContent2="No Cost EMI"
+          FeeContent2="No cost EMI"
           FeeContent3="Flexible payment"
           FeeContent4="Easy loan procedure"
           FeeContent5="15 days refund policy"
@@ -200,16 +194,16 @@ function Marketing() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <Project project="12+ Projects" tools="16+" Marketing={true} />
-        <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
+        <Project project="12+ Projects" tools="16+" Hr={true} dataScience={true}/>
+        <BatchDetails CourseFeeHead="Hr Analytics : Batch Details" />
         <FAQNew
-          FaqDatas={FaqDataMarkering}
-          PaymentFaqDatas={PaymentFaqDataMarkering}
-          CapstoneFaqDatas={CapstoneFaqDataMarkering}
-          CertificationFaqDatas={CertificationFaqDataMarkering}
-          jobFaqDatas={jobFaqDataMarkering}
-          MentorshipFaqDatas={MentorshipFaqDataMarkering}
-          SupportFaqDatas={SupportFaqDataMarkering}
+          FaqDatas={FaqDataHR}
+          PaymentFaqDatas={PaymentFaqDataHR}
+          CapstoneFaqDatas={CapstoneFaqDataHR}
+          CertificationFaqDatas={CertificationFaqDataHR}
+          jobFaqDatas={jobFaqDataHR}
+          MentorshipFaqDatas={MentorshipFaqDataHR}
+          SupportFaqDatas={SupportFaqDataHR}
         />
         <SeventhSection />
         <OfferPopup offer={false} />
@@ -219,4 +213,4 @@ function Marketing() {
   );
 }
 
-export default Marketing;
+export default Hr;

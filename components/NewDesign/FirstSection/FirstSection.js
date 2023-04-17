@@ -6,13 +6,14 @@ import Popup from "../../Popup/Popup";
 import Image from "next/image";
 import Typed from "typed.js";
 import {MdPlayCircleFilled} from "react-icons/md"
+import VideoPopup from "../../VideoPopup/VideoPopup"
 
 
 function FirstSection({
   dataScience,
   first,
   second,
-  third,
+  idss,
   firstToparaImg,
   firstHeading,
   FirstRightImg,
@@ -20,6 +21,10 @@ function FirstSection({
   srcD,
 }) {
   const [popups, setPopups] = useState(false);
+  const [video, setVideo] = useState(false);
+  const videoSHow = () => {
+    setVideo(true);
+  };
   const el = useRef(null);
   const popupShow = () => {
     setPopups(true);
@@ -66,6 +71,7 @@ function FirstSection({
           <Form dataScience={dataScience} downloadBrochure />
         </div>
       </Popup>
+      <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
 
       {/* For Mobile View */}
 
@@ -145,7 +151,7 @@ function FirstSection({
               Brochure
               <FaDownload style={{ marginLeft: "10px" }} />
             </button>
-          <button>Intro Video <FaPlayCircle style={{ marginLeft: "10px", fontSize:"22px" }} /> </button>
+          <button onClick={videoSHow}>Intro Video <FaPlayCircle style={{ marginLeft: "10px", fontSize:"22px" }} /> </button>
         </div>
       </div>
 

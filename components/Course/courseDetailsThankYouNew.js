@@ -85,11 +85,33 @@ export const viewAllD = [
   },
   {
     id: 13,
-    title: "Business Analytics",
+    title: "Business Analytics Master Program",
 
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
   },
+  {
+    id: 14,
+    title: "HR Analytics Program",
+
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  {
+    id: 15,
+    title: "Marketing Analytics Program",
+
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  {
+    id: 16,
+    title: "Data Science and AI for BFSI Professionals",
+
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  
 ];
 export const dataScience = [
   {
@@ -131,7 +153,28 @@ export const dataScience = [
 
   {
     id: 6,
-    title: "Business Analytics",
+    title: "Business Analytics Master Program",
+
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  {
+    id: 7,
+    title: "HR Analytics Program",
+
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  {
+    id: 8,
+    title: "Marketing Analytics Program",
+
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  {
+    id: 9,
+    title: "Data Science and AI for BFSI Professionals",
 
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",

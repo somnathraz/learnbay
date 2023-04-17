@@ -1,21 +1,19 @@
+import React, { useState } from "react";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
-import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Form from "../components/Form/Form";
-import Certificate from "../components/CoursePage/Certificatejob/Certificate";
-import Project from "../components/CoursePage/Project/Project";
-import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
-import FAQNew from "../components/FAQNew/FAQNewDomain";
+import Popup from "../components/Popup/Popup";
+import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
+import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
+import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
+import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
+import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
+import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
+import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { BusinessAnalyticsCourseData } from "../Data/BusinessAnalyticsData";
-import React, { useState } from "react";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
 import {
   FaqData7,
   PaymentFaqData7,
@@ -25,38 +23,34 @@ import {
   MentorshipFaqData7,
   SupportFaqData7,
 } from "../components/FAQ/FaqData";
-import LearnSupport from "../components/LearnSupport/LearnSupport";
+import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
+import Project from "../components/NewDesign/Project/Project";
+import Switch from "../components/NewDesign/switch/switch";
+import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
+import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 
-import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
-import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
-import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import { DomainFaqCourseData2 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
-
-export default function Home() {
+function blockchain() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
   };
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <title>Business Analytics Certification Program</title>
-        <meta
-          name="description"
-          content="Business Analytics Certification Program"
-        />
+        <title>Business Analytics Master Program</title>
+        <meta name="description" content="Business Analytics Master Program" />
+        <meta name="keywords" content="Business Analytics Master Program" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/business-analytics-certification-course"
+          href="https://www.learnbay.co/advance-data-science-certification-courses"
         />
       </Head>
       <main>
-        {" "}
         <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -65,70 +59,115 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
         <FirstSection
           dataScience={true}
-          deskTopPara="Develop Work-Ready Skills "
-          deskTopPara1="You Can Use Right Away"
-          mTopPara="Develop Work-Ready Skills "
-          mTopPara1="You Can Use Right Away"
-          mTitle="Business Analytics Certification Program"
-          spanMTitleText="For Non-tech Professionals"
-          title="Business Analytics Certification Program"
-          spanTitleText="For Non-tech Professionals"
-          desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Businesss+Analytics.png"
-          width="674"
-          height="623"
-          alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
+          first="Tools"
+          second="Tips"
+          third="Technology"
+          idss="4j80WXLTvGE"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/manager+header+image.webp"
+          firstToparaImg=" Business Analytics Master Program"
+          firstHeading="Elevate your expertise with"
+          firstTopPara="Become a master without master’s degree"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
-        <div className={styles.program}>
-          <ProgramInfo
-            p1="Aimed for"
-            p11="Early professionals"
-            p2="12 LPA - 20 LPA"
-            p22="Salary Package"
-            p3="1:1"
-            p33="Career Support"
-            p4="Financing as low as"
-            p44="₹  14,750/month"
-          />
-        </div>
-        <div className="Feature" id="Feature">
-          <BoxShape
-            title="Why Enroll In This Program?"
-            Box1h5="Custom-fit Training"
-            box1desc="Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications."
-            Box2h5="Exclusive Hackathons"
-            box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
-            Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
-            Box4h5="Hands-on Experience"
-            box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
-          />
-        </div>
-        <DomainFaq FaqData={DomainFaqCourseData2} />
-        <CourseReview />
-        <Certificate
-          title="Course Completion Certificate from IBM"
-          desc="Complete your training with the internationally recognized certificate."
-          desc2="Validate your Business Analytics skills with IBM Course Completion Certificate."
-          desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
+        <SecondSection
+          fullStackReview={true}
+          SecondHead="Why Choose Us?"
+          SecondPara="India's top rated  bootcamp for working professionals "
+          heading1="On-Demand Doubt Sessions"
+          heading2="Guaranteed Interview Calls"
+          heading3="Project Certificate From IBM"
+          heading4="Designed For Professionals"
+          SecondPara1="Clear your doubts with industry experts and get real-time solutions"
+          SecondPara2="Boost career chances, gain referrals from 300+ top recruiters"
+          SecondPara3="Master the domain of business analytics with certificate from IBM"
+          SecondPara4="Use tech innovation for strategy, skill acquisition, & business growth"
         />
-        <SyllabusNew
+        <ProgramCustomer
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA-Masters-who.png"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          heading1="Education"
+          heading2="Work experience"
+          heading3="Career stage"
+          heading4="Aspirations"
+          para1="Bachelor's degree with consistent good academic"
+          para2="Minimum 6 months of Non-IT work experience"
+          para3="Early to mid-career professionals interested in business analytics"
+          para4="Preparing for future leadership in business analytics"
+        />
+        <Switch />
+        <ThirdSection
+          secondLine="Invest in yourself!"
+          thirdHeadSpan=" Alumni Community"
+          thirdHead="Stay Ahead Of The Curve With The Support Of Our"
+          point1="Get 3 years of Job and Placement support"
+          point2="Get 6 mock interviews with industry leaders"
+          point3="Get 1:1 Resume/Linkedin Review and Buildup"
+          point4="Get unlimited interview calls"
+          BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
+          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
+          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
+          dataScience={true}
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/bloom+ai.png"
+          img5="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/cisco.png"
+          img6="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/datazymes.png"
+          img7="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/dell.png"
+          img8="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/flipkart.png"
+          img9="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/fractal+analytics.png"
+          img10="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/gartner.png"
+          img11="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/genpact.png"
+          img12="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/HCL.png"
+          img13="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/jp+morgan.png"
+          img14="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/KPMG.png"
+          img15="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/lenskart.png"
+          img16="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/linkedin.png"
+          img17="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/lti+mindtree.png"
+          img18="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/mercedes+benz.png"
+          img19="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/musigma.png"
+          img21="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/paypal.png"
+          img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
+          img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
+        />
+        <FourthSection
+          serviceBasic={true}
+          careerH1="Career Service"
+          careerSpan=" Basic"
           dataScience={true}
           syllabus={BusinessAnalyticsCourseData[0].syllabus}
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           popupHead={BusinessAnalyticsCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
-          hours="200+ Hours"
-          project="8+ Real Time"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          hours="250+ Hours"
+          project="12+ Real Time"
         />
-        <OurExpert
+        <GrowthStats
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope-Business-Analytics.png"
+          heading="Future of Business Analytics"
+          para1="Business analytics market to hit $106B by 2027"
+          para2="Get an average salary of INR 10+ lakhs"
+          para3="Abundant opportunities in various industries and domains"
+        />
+        <FifthSection
+          advanceCertificate={true}
+          Fee="₹ 1,10,000 + 18% GST"
+          FeeEmi="₹ 10,816/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+          dataScience={true}
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -153,25 +192,13 @@ export default function Home() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <ProgramFee
-          Fee="₹  75,000 + 18% GST"
-          Emi="₹  14,750/month"
+        <DomainSection
+          imgDomain="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA-Domain-Electives.png"
+          BAdomain={true}
           dataScience={true}
         />
-        <div className={styles.ProjectWrapper} id="project">
-          <Project project="8+ Projects" domain="7+" />
-        </div>
-        <CourseFee
-          dataScience={true}
-          syllabus={BusinessAnalyticsCourseData[0].Batch}
-          CourseFeeHead="Business Analytics Program : Batch Details"
-          CourseFeePara="Online Classroom"
-          CourseFeelist1="Online Interactive Classes"
-          CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearing Sessions"
-          CourseFeelist4="Project-Based Learning"
-          CourseFeelist5="Company-based Mock Interviews"
-        />
+        <Project DsProject={true} project="15+ Projects" tools="16+" dataScience={true}/>
+        <BatchDetails CourseFeeHead="Business Analytics Master Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData7}
           PaymentFaqDatas={PaymentFaqData7}
@@ -181,10 +208,12 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData7}
           SupportFaqDatas={SupportFaqData7}
         />
-        <LearnSupport />
+        <SeventhSection />
         <OfferPopup offer={false} />
         <Footer />
       </main>
-    </div>
+    </>
   );
 }
+
+export default blockchain;

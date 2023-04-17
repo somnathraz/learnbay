@@ -11,7 +11,7 @@ import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
-import { BFSIData } from "../Data/BFSIData";
+import { DSBankingFinanceData } from "../Data/DSBankingFinance";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
@@ -67,8 +67,8 @@ function blockchain() {
           second="Tips"
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BFSI-header-image.webp"
-          firstToparaImg="Banking & Finance Analytics Program"
-          firstHeading="Achieve a glorious future with our "
+          firstToparaImg="for BFSI Professionals"
+          firstHeading="Data Science and AI "
           firstTopPara="Ready to master the finance domain?"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />
@@ -106,7 +106,7 @@ function blockchain() {
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
           BatchPara="The banking & finance analytics program is designed for professionals across various sectors and designations who want to acquire necessary skills and knowledge to analyze financial data and make informed business decisions."
-          point1="Enjoy 3 years of flexi pass"
+          point1="Get 1 year of Job and Placement support"
           point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
           point4="Get 5-8 interview calls"
@@ -141,9 +141,9 @@ function blockchain() {
           careerSpan=" Basic"
           serviceBasic={true}
           dataScience={true}
-          syllabus={BFSIData[0].syllabus}
-          syllabusDesc={BFSIData[0].syllabusDesc}
-          popupHead={BFSIData[0].popupHead}
+          syllabus={DSBankingFinanceData[0].syllabus}
+          syllabusDesc={DSBankingFinanceData[0].syllabusDesc}
+          popupHead={DSBankingFinanceData[0].popupHead}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
@@ -156,12 +156,12 @@ function blockchain() {
           para3="Enormous demand for individuals in the banking and finance sector"
         />
         <FifthSection
-          advanceCertificate={true}
+        IBMMicrosoft={true}
           Fee="₹ 89,000 + 18% GST"
           FeeEmi="₹ 8,752/month"
           FeeHeading="Program Fee & Financing"
           FeeContent1="0% interest rate"
-          FeeContent2="No Cost EMI"
+          FeeContent2="No cost EMI"
           FeeContent3="Flexible payment"
           FeeContent4="Easy loan procedure"
           FeeContent5="15 days refund policy"
@@ -202,7 +202,7 @@ function blockchain() {
           dataScience={true}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         /> */}
-        <Project project="12+ Projects" tools="16+" BFSI={true} />
+        <Project project="12+ Projects" tools="16+" BFSI={true} dataScience={true}/>
         <BatchDetails CourseFeeHead="Banking and Finance: Batch Details" />
         <FAQNew
           FaqDatas={FaqDataBFSI}

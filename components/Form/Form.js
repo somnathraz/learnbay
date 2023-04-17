@@ -155,11 +155,11 @@ const Form = ({
           <input
             type="text"
             name="name"
-            className={popup ? styles.NameInputs : styles.NameInput}
+            className={popup ? styles.NameInputs : styles.NameInputs}
             required
             placeholder="Enter your Full Name"
             value={query.name}
-            style={{ borderBottom: "1px solid grey" }}
+            // style={{ borderBottom: "1px solid grey" }}
             onChange={handleParam()}
           />
         </div>
@@ -169,7 +169,7 @@ const Form = ({
             name="email"
             required
             placeholder="Enter your Email"
-            className={popup ? styles.EmailInputs : styles.EmailInput}
+            className={popup ? styles.EmailInputs : styles.EmailInputs}
             value={query.email}
             onChange={handleParam()}
           />
@@ -179,16 +179,18 @@ const Form = ({
             style={
               popup
                 ? {
-                    height: "50px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                    padding: "10px",
+                  border: "0",
+                  height: "50px",
+                  borderRadius: "10px",
+                  padding: "10px 10px",
+                  border: "1px solid grey",
                   }
                 : {
                     border: "0",
                     height: "50px",
-                    borderRadius: "3px",
-                    borderBottom: "1px solid grey",
+                    borderRadius: "10px",
+                    padding: "10px 10px",
+                    border: "1px solid grey",
                   }
             }
             name="phone"
@@ -209,7 +211,7 @@ const Form = ({
             type="text"
             name="jobDescription"
             placeholder="Job Description"
-            className={popup ? styles.EmailInputs : styles.EmailInput}
+            className={popup ? styles.EmailInputs : styles.EmailInputs}
             value={query.jobDescription}
             onChange={handleParam()}
           />
@@ -221,7 +223,7 @@ const Form = ({
         {workExperience ? (
           ""
         ) : (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          <div className={popup ? styles.formWrappers : styles.formWrappers}>
             <select
               name="workExperience"
               required
@@ -318,24 +320,24 @@ const Form = ({
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <input
               id="Data Science Program"
-              value="Data Science Courses"
+              value="Data Science & Artificial Intelligence Courses "
               name="platform"
               required
               type="radio"
               onChange={handleParam()}
             />
-            Data Science Courses&nbsp;
+            Data Science & AI Courses &nbsp;
             <br />
             <input
               id="Full Stack Program"
-              value="Full Stack Software Dev Courses"
+              value="Software/Web Development (DSA & System Design)"
               name="platform"
               required
               type="radio"
               onChange={handleParam()}
             />
-            Full Stack Software Dev <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
+            Software/Web Development <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design)
           </div>
         ) : (
           ""

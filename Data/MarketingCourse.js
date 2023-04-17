@@ -58,7 +58,29 @@ export const MarketingCourse = [
     syllabus: [
       {
         Module0: {
-          title: "Module 1:- Excel",
+          title: "Module 0 :- Introduction to Marketing Analytics",
+          content: [
+            {
+              chap: {
+                title:
+                  "",
+                desc: [
+                  "Fundamentals of Marketing Analytics",
+                  "Understanding Customer Behavior Through Data Analysis",
+                  "Measuring and Optimizing Marketing Performance",
+                  "Predictive Analytics for Sales Forecasting",
+                  "Marketing Leadership Strategies in a Data-Driven Way",
+                ],
+              },
+            },
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 1:- Excel",
           content: [
             {
               chap: {
@@ -155,121 +177,19 @@ export const MarketingCourse = [
                 ],
               },
             },
-          ],
-          id: 0,
-          open: true,
-        },
-      },
-      {
-        Module0: {
-          title: "Module 2 :- Applied business statistics:",
-          content: [
             {
               chap: {
-                title: "Topic 1 :- Statistics",
+                title: "Case Study :- 1. ROI Analysis:",
                 desc: [
-                  "Variables (quantitative, categorical, discrete, continuous)                  ",
-                  "Population, sample, sample size",
-                  "Strings, Decisions & Loop Control",
-                  "Data visualization basics and Python code (histogram, bar chart, frequency distribution)                  ",
+                  "This case study involves the use of Excel to analyze the return on investment (ROI) of a marketing campaign. The goal is to determine the effectiveness of the campaign and identify areas for improvement. The analysis involves calculating the cost of the campaign, the revenue generated from the campaign, and the overall ROI.",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 2 :-Descriptive Statistics:",
+                title: "Case Study :- 2. A/B Testing Analysis:",
                 desc: [
-                  "Measures of central tendency (mean, median, mode) ",
-                  "Measures of dispersion (SD, variance, range, IQR)",
-                  "Symmetricity/shape measures (skewness, kurtosis)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 3 :-Sampling Techniques:",
-                desc: [
-                  "Probabilistic & non-probabilistic ",
-                  "sampling",
-                  "Simple random, systematic, cluster, stratified, convenience, quota, snowball, judgement                  ",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 4 :-Probability:",
-                desc: [
-                  "Random experiments and events (mutually exclusive, joint, dependent, independent)                  ",
-                  "Probability rules",
-                  "Bayes' theorem ",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 5 :-Inferential Statistics:",
-                desc: [
-                  "Introduction to inferential statistics Sampling techniques (probabilistic and non-probabilistic) ",
-                  "Probability rules",
-                  "Bayes' theorem ",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 6 :-Hypothesis testing: ",
-                desc: [
-                  "Definition, need, significance level, null and alternative hypothesis.                  ",
-                  "One/two-tailed tests, critical value, rejection region, Type I/II errors",
-                  "Advanced tests (F distribution, chi-square, ANOVA)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 7 :-Experimental Design: ",
-                desc: [
-                  "Types of experiments",
-                  "Randomized designs",
-                  "Matched-pair and Block designs",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 8 :-Multivariate Analysis: ",
-                desc: [
-                  "Principal Component Analysis (PCA)                  ",
-                  "Factor Analysis                  ",
-                  "Cluster Analysis",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 9 :-Time Series Analysis:",
-                desc: [
-                  "Stationarity and Autocorrelation ",
-                  "Forecasting methods                  ",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 10 :-Bayesian Statistics:",
-                desc: [
-                  "Bayesian inference",
-                  "Posterior distribution",
-                  "Bayesian hierarchical models",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 11 :-Linear Algebra:",
-                desc: [
-                  "Vectors (plotting, norm, addition, scalar multiplication, dot product, projection)",
-                  "Matrices (indexing, types, addition, multiplication, transpose, determinant, trace)",
+                  "This case study involved the use of Excel to analyze the results of A/B testing in a marketing campaign. The goal of the analysis was to determine which version of the marketing material (e.g. email subject line, website design, etc.) performed better in terms of driving conversions. The analysis involved comparing the results of the two versions using statistical techniques such as t-tests and confidence intervals.",
                 ],
               },
             },
@@ -280,7 +200,153 @@ export const MarketingCourse = [
       },
       {
         Module0: {
-          title: "Module 3 :- Data Science and Artificial Intelligence",
+          title: "Term 2 :- Applied business statistics:",
+          content: [
+            {
+              chap: {
+                title: "Topic 1 :- R programming fundamentals:",
+                desc: [
+                  "Data types in R",
+                  "Functions and arguments",
+                  "Manipulating Data",
+                  "Data transformation with R - the Dplyr package",
+                  "Building a histogram, bar chart, box and whiskers plot with ggplot2",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 2 :- Statistics",
+                desc: [
+                  "Variables (quantitative, categorical, discrete, continuous)                  ",
+                  "Population, sample, sample size",
+                  "Strings, Decisions & Loop Control",
+                  "Data visualization basics and Python code (histogram, bar chart, frequency distribution)                  ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 3 :- Descriptive Statistics:",
+                desc: [
+                  "Measures of central tendency (mean, median, mode) ",
+                  "Measures of dispersion (SD, variance, range, IQR)",
+                  "Symmetricity/shape measures (skewness, kurtosis)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 4 :- Sampling Techniques:",
+                desc: [
+                  "Probabilistic & non-probabilistic ",
+                  "sampling",
+                  "Simple random, systematic, cluster, stratified, convenience, quota, snowball, judgement                  ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 5 :- Probability:",
+                desc: [
+                  "Random experiments and events (mutually exclusive, joint, dependent, independent)                  ",
+                  "Probability rules",
+                  "Bayes' theorem ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 6 :- Inferential Statistics:",
+                desc: [
+                  "Introduction to inferential statistics Sampling techniques (probabilistic and non-probabilistic) ",
+                  "Probability rules",
+                  "Bayes' theorem ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 7 :- Hypothesis testing: ",
+                desc: [
+                  "Definition, need, significance level, null and alternative hypothesis.                  ",
+                  "One/two-tailed tests, critical value, rejection region, Type I/II errors",
+                  "Advanced tests (F distribution, chi-square, ANOVA)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 8 :- Experimental Design: ",
+                desc: [
+                  "Types of experiments",
+                  "Randomized designs",
+                  "Matched-pair and Block designs",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 9 :- Multivariate Analysis: ",
+                desc: [
+                  "Principal Component Analysis (PCA)                  ",
+                  "Factor Analysis                  ",
+                  "Cluster Analysis",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 10 :- Time Series Analysis:",
+                desc: [
+                  "Stationarity and Autocorrelation ",
+                  "Forecasting methods                  ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 11 :- Bayesian Statistics:",
+                desc: [
+                  "Bayesian inference",
+                  "Posterior distribution",
+                  "Bayesian hierarchical models",
+                ],
+              },
+            },
+            {
+              chap: { 
+                title: "Topic 12 :- Linear Algebra:",
+                desc: [
+                  "Vectors (plotting, norm, addition, scalar multiplication, dot product, projection)",
+                  "Matrices (indexing, types, addition, multiplication, transpose, determinant, trace)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Case Study :- Cohort Analysis",
+                desc: [
+                  "A statistical technique that involves analyzing the behavior of a specific group of customers over time. Cohort analysis can be used to identify patterns and trends in customer behavior, such as changes in purchasing habits, and to identify opportunities for retention and upselling.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Case Study :- Market Segmentation",
+                desc: [
+                  "A statistical technique that involves dividing a market into distinct groups based on demographic, geographic, or psychographic characteristics. Market segmentation can be used to identify the most profitable customer segments, to develop targeted marketing campaigns, and to optimize pricing strategies.",
+                ],
+              },
+            },
+          ],
+          id: 2,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 3 :- Data Science and Artificial Intelligence",
           content: [
             {
               chap: {
@@ -333,22 +399,52 @@ export const MarketingCourse = [
             },
             {
               chap: {
-                title: "Topic 6 :-Case-studies:",
+                title: "Case Study :- Image Classification",
                 desc: [
-                  "Image Classification: Develop an AI model that can accurately classify images into different categories. Use popular datasets like MNIST or CIFAR-10 and a machine learning library like TensorFlow or PyTorch",
-                  "Chatbot: Build an AI-powered chatbot that can communicate with users and respond to their queries in a natural language. You can use a natural language processing library like NLTK or SpaCy and a conversational AI platform like Dialogflow or Rasa.",
-                  "Sentiment Analysis: Develop an AI model that can classify text into positive, negative, or neutral sentiment. Use popular datasets like IMDb or Twitter sentiment analysis dataset and a machine learning library like scikit-learn or Keras.",
+                  "Develop an AI model that can accurately classify images into different categories. Use popular datasets like MNIST or CIFAR-10 and a machine learning library like TensorFlow or PyTorch.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Case Study :- Sentiment Analysis",
+                desc: [
+                  "Develop an AI model that can classify text into positive, negative, or neutral sentiment. Use popular datasets like IMDb or Twitter sentiment analysis dataset and a machine learning library like scikit-learn or Keras.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Case Study :- Predictive Modeling for Churn",
+                desc: [
+                  "Predictive models can be used to identify customers who are at risk of churning. By analyzing past behavior and customer characteristics, data scientists can develop models that predict which customers are likely to leave and when. This can help marketers to take proactive measures to retain customers and reduce churn.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Case Study :- Chatbot",
+                desc: [
+                  "Build an AI-powered chatbot that can communicate with users and respond to their queries in a natural language. You can use a natural language processing library like NLTK or SpaCy and a conversational AI platform like Dialogflow or Rasa.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Case Study :- Recommender Systems",
+                desc: [
+                  "Recommender systems can be used to suggest products or services to customers based on their past behavior, preferences, and purchase history. These systems can improve customer engagement and drive sales.",
                 ],
               },
             },
           ],
-          id: 2,
+          id: 3,
           open: false,
         },
       },
       {
         Module0: {
-          title: "Module 4 :- Data Visualization using Tableau",
+          title: "Term 4 :- Data Visualization using Tableau",
           content: [
             {
               chap: {
@@ -429,14 +525,22 @@ export const MarketingCourse = [
                 ],
               },
             },
+            {
+              chap: {
+                title: "Case Study :- ​​Campaign performance tracking",
+                desc: [
+                  "Track the performance of marketing campaigns in real-time using Tableau to make adjustments and improve campaign effectiveness.",
+                ],
+              },
+            },
           ],
-          id: 3,
+          id: 4,
           open: false,
         },
       },
       {
         Module0: {
-          title: "Module 5 :- Business Intelligence Tool: PowerBI",
+          title: "Term 5 :- Business Intelligence Tool: PowerBI",
           content: [
             {
               chap: {
@@ -499,134 +603,87 @@ export const MarketingCourse = [
                 ],
               },
             },
+            {
+              chap: {
+                title: "Case Study :- Customer lifetime value analysis",
+                desc: [
+                  "Use PowerBI to calculate and analyze customer lifetime value, and develop strategies to increase customer retention and loyalty.",
+                ],
+              },
+            },
           ],
-          id: 4,
+          id: 5,
           open: false,
         },
       },
       {
         Module0: {
-          title: "Module 6 :- Marketing Analytics:",
+          title: "Term 6 :- Deployment (AWS+Azure)",
           content: [
             {
               chap: {
-                title: "Topic 1 :- Fundamentals of Marketing Analytics",
+                title:
+                  "Module 1 :- Introduction to AWS and Azure Machine Learning Services:",
                 desc: [
-                  "Understanding Customer Behavior Through Data Analysis",
-                  "Measuring and Optimizing Marketing Performance",
-                  "Predictive Analytics for Sales Forecasting",
-                  "Marketing Leadership Strategies in a Data-Driven Way",
-                  "Hands-on Experience with Analytics Tools and Techniques.",
-                  "Conducting experiments to test different marketing strategies and determine which ones are most effective.",
-                  "Customer Segmentation and Targeting",
-                  "Measure the impact of different marketing channels and tactics on overall business performance",
-                  "create compelling data visualizations and reports to communicate marketing performance and insights to stakeholders.",
+                  "Overview of AWS SageMaker and Azure Machine Learning",
+                  "Key features and benefits of using these platforms",
+                  "Understanding different types of machine learning algorithms and use cases",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 2 :- Excel case-study:",
+                title: "Module 2 :- Setting up the Environment:",
                 desc: [
-                  "1. ROI Analysis: This case study involves the use of Excel to analyze the return on investment (ROI) of a marketing campaign. The goal is to determine the effectiveness of the campaign and identify areas for improvement. The analysis involves calculating the cost of the campaign, the revenue generated from the campaign, and the overall ROI.",
-                  "2. A/B Testing Analysis: This case study involved the use of Excel to analyze the results of A/B testing in a marketing campaign. The goal of the analysis was to determine which version of the marketing material (e.g. email subject line, website design, etc.) performed better in terms of driving conversions. The analysis involved comparing the results of the two versions using statistical techniques such as t-tests and confidence intervals.",
+                  "Creating AWS and Azure accounts",
+                  "Configuring the required tools and SDKs (e.g. AWS CLI, Azure CLI, Azure PowerShell)",
+                  "Understanding the infrastructure requirements for training and deploying models (e.g. EC2 instances, GPU instances, Azure ML Compute)",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 3 :- Statistics case-study:",
+                title: "Module 3 :- Data Preparation and Feature Engineering:",
                 desc: [
-                  "1. Cohort Analysis: A statistical technique that involves analyzing the behavior of a specific group of customers over time. Cohort analysis can be used to identify patterns and trends in customer behavior, such as changes in purchasing habits, and to identify opportunities for retention and upselling.",
-                  "2. Market Segmentation: A statistical technique that involves dividing a market into distinct groups based on demographic, geographic, or psychographic characteristics. Market segmentation can be used to identify the most profitable customer segments, to develop targeted marketing campaigns, and to optimize pricing strategies.",
+                  "Understanding the data requirements for machine learning models (e.g. structured vs unstructured data, data size, data quality)",
+                  "Data cleaning and preprocessing techniques (e.g. missing value imputation, feature scaling, encoding categorical variables)",
+                  "Feature selection and engineering techniques (e.g. PCA, feature importance)",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 4 :- Tableau and PowerBI case study:",
+                title: "Module 4 :- Model Training and Evaluation:",
                 desc: [
-                  "Campaign performance tracking: Track the performance of marketing campaigns in real-time using Tableau to make adjustments and improve campaign effectiveness.",
-                  "Customer lifetime value analysis: Use PowerBI to calculate and analyze customer lifetime value, and develop strategies to increase customer retention and loyalty.",
+                  "Choosing the right machine learning algorithm and model (e.g. regression, classification, clustering)",
+                  "Training models using AWS SageMaker and Azure Machine Learning (e.g. using built-in algorithms, custom code)",
+                  "Evaluating model performance and tuning hyperparameters (e.g. cross-validation, hyperparameter optimization)",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 5 :- Data science and AI case study: ",
+                title: "Module 5 :- Model Deployment and Management:",
                 desc: [
-                  "1. Recommender Systems: Recommender systems can be used to suggest products or services to customers based on their past behavior, preferences, and purchase history. These systems can improve customer engagement and drive sales.",
-                  "2. Predictive Modeling for Churn: Predictive models can be used to identify customers who are at risk of churning. By analyzing past behavior and customer characteristics, data scientists can develop models that predict which customers are likely to leave and when. This can help marketers to take proactive measures to retain customers and reduce churn.",
+                  "Deploying trained models on AWS SageMaker and Azure Machine Learning (e.g. creating endpoints, batch inference)",
+                  "Monitoring model performance and managing versions (e.g. model drift, A/B testing)",
+                  "Integration with other services and applications (e.g. AWS Lambda, Azure Functions)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 6 :- Advanced Topics in Machine Learning on AWS and Azure:",
+                desc: [
+                  "Deep learning techniques and architectures (e.g. neural networks, convolutional neural networks, recurrent neural networks)",
+                  "Natural Language Processing (NLP) use cases (e.g. text classification, sentiment analysis, language translation)",
+                  "Understanding the costs and pricing models for machine learning on AWS and Azure (e.g. instance pricing, storage pricing, model deployment pricing)",
                 ],
               },
             },
           ],
-          id: 4,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Module 7 :- Marketing Capstone projects:",
-          content: [
-            {
-              chap: {
-                title: "Coca-Cola:",
-                desc: [
-                  "Coca-Cola used Tableau to optimize their social media campaign performance by analyzing the data from their social media channels and identifying key performance indicators (KPIs).",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Amazon:",
-                desc: [
-                  "Amazon used Google Analytics to track their website traffic and analyze customer behavior, enabling them to optimize their online shopping experience.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Procter & Gamble:",
-                desc: [
-                  "Procter & Gamble used SAS to analyze customer data and identify patterns in customer behavior, enabling them to make data-driven decisions about their marketing strategy.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Uber:",
-                desc: [
-                  "Uber used predictive analytics and machine learning algorithms to optimize their pricing strategies and surge pricing algorithm, enabling them to provide a better user experience.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Airbnb:",
-                desc: [
-                  "Airbnb used data analytics tools such as R and Python to analyze customer data and improve their marketing campaigns, resulting in increased customer engagement and revenue.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Netflix:",
-                desc: [
-                  "Netflix used A/B testing and machine learning algorithms to optimize their recommendations engine and improve the personalized content recommendations for their users.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Walmart:",
-                desc: [
-                  "Walmart used Hadoop and Hive to analyze customer data and identify patterns in customer behavior, enabling them to optimize their marketing campaigns and increase sales.",
-                ],
-              },
-            },
-          ],
-          id: 4,
+          id: 6,
           open: false,
         },
       },
