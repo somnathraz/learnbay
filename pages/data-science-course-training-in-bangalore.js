@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Data Science Course in Bangalore - Learnbay</title>
+        <title>Best Data Science Training Courses Institute In Bangalore @Learnbay!</title>
         <meta
           name="description"
           content="Learn Best Data Science Course in Bangalore from advanced certification oriented online data science training institute with IBM Certified Trainers."
@@ -726,6 +726,7 @@ export default function Home() {
               ProgramBot5={["The", <a href="https://www.learnbay.co/data-science-course-training-in-bangalore" target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}> Data Scientist training </a>, "is a data science certification course offered by Learnbay in Bangalore. MNC experts design it as per the current industry requirements and to help the data science aspirants in the city transform their careers. The Data Science online course is conducted via live interactive classes by industry trainers.."]}
               ProgramBot6={["",<b>Learnbay</b>,", in Bangalore, offers certification programs in collaboration with", <b> IBM</b>,", which are globally recognized. The data science course comes with a duration of 6 months with 300+ Hrs of online training. Faculties with extensive industry experience and dedicated subject matter expertise. One-on-one mentorship, Placement assistance including resume building sessions, soft skill training, mock interviews, extensive networks for job opportunities, practical hands-on learning sessions with", <b>capstone and 15+ real-world data science projects.</b>, ""]}
               listitem1={["It is a complete training course with detailed learning covering multiple modules, including:",  <ul>
+                
                 {items.map((item) => (
                   <li key={item}>{item}</li>
                 ))}
@@ -1037,7 +1038,7 @@ export default function Home() {
           </div>
         </div>
         <LearnSupport />
-        <div className={styles.BangaloreMap}><Maps/></div>
+        {/* <div className={styles.BangaloreMap}><Maps/></div> */}
         
         
         <CityText cityText={true} />
