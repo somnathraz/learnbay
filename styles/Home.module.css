@@ -256,8 +256,10 @@
 }
 
 .BangaloreMap{
-  position: relative;
-  left: 500px;
+  /* position: relative;
+  left: 500px; */
+  width: 100%;
+  
 }
 
 @media (max-width: 1281px) {
@@ -309,8 +311,9 @@
 @media (max-width: 481px) {
 
   .BangaloreMap{
-    position: relative;
-    left: 0px;
+    /* position: relative;
+    left: 0px; */
+   
   }
   .program {
     height: 390px;
