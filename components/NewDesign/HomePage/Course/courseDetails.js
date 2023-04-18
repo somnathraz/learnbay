@@ -141,7 +141,7 @@ export const viewAllD = [
     title: "Full-Stack Software",
     courseTime: "5-6.5 months",
     title1: "Development Program",
-    tagHead: "Crack Interviews in Product-based",
+    tagHead: "Crack Job Interviews",
     tag: "Full stack",
     para: [
       "300+ hours content",
@@ -209,7 +209,7 @@ export const viewAllD = [
         courseTime: "5-7 months",
     title1: "Program",
     tag: "Data science",
-    tagHead: "Become a Data-Driven Marketer",
+    tagHead: "Excel data-driven marketing",
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
@@ -245,7 +245,7 @@ export const ForProgrammersD = [
     courseTime: "5-6.5 months",
     tag: "Full stack",
     title1: "Development Program",
-    tagHead: "Crack Interviews in Product-based",
+    tagHead: "Crack Job Interviews",
     para: [
       "300+ hours content",
       "12 Projects + 2 Capstones",
@@ -502,7 +502,7 @@ export const ForNonProgrammerD = [
         courseTime: "5-7 months",
     title1: "Program",
     tag: "Data science",
-    tagHead: "Become a Data-Driven Marketer",
+    tagHead: "Excel data-driven marketing",
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
@@ -575,7 +575,7 @@ export const StackD = [
     courseTime: "5-6.5 months",
     title1: "Development Program",
     tag: "Full stack",
-    tagHead: "Crack Interviews in Product-based",
+    tagHead: "Crack Job Interviews",
     para: [
       "300+ hours content",
       "12 Projects + 2 Capstones",

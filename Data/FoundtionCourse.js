@@ -239,23 +239,6 @@ export const FoundtionCourseData = [
           open: false,
         },
       },
-      {
-        Module0: {
-          title: "Term 1 :- ARIMA Models",
-          content: [
-            {
-              chap: {
-                title: "Module 1 :- Introduction to ARIMA Models",
-                desc: [
-                  "Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
-                ],
-              },
-            },
-          ],
-          id: 3,
-          open: false,
-        },
-      },
     ],
     Review: {
       title: "Why get enrolled in our Advanced Data Science and AI course?",

@@ -395,7 +395,7 @@ export const JobGuaranteeCourseData = [
       },
       {
         Module0: {
-          title: "Term 5 :- Deployment (AWS+Azure)",
+          title: "Term 6 :- Deployment (AWS+Azure)",
           content: [
             {
               chap: {

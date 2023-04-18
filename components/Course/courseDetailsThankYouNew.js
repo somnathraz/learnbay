@@ -2,7 +2,15 @@ export const viewAllD = [
   {
     id: 1,
     title:
-      "Advance Data Science & AI Certification | Domain Specialisation For Professionals",
+      "Data Science and AI Foundation Program",
+
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf",
+  },
+  {
+    id: 1,
+    title:
+      "Advance Data Science & AI Certification | Domain Specialization For Professionals",
 
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
@@ -117,7 +125,15 @@ export const dataScience = [
   {
     id: 1,
     title:
-      "Advance Data Science & AI Certification | Domain Specialisation For Professionals",
+      "Data Science and AI Foundation Program",
+
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf",
+  },
+  {
+    id: 1,
+    title:
+      "Advance Data Science & AI Certification | Domain Specialization For Professionals",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
   },
