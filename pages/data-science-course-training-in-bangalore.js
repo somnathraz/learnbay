@@ -772,14 +772,14 @@ export default function Home() {
 
                       <h3>Highlights of the Data Science Foundation Program in Bangalore</h3>,
                       <ol type="1">
-                        <li>Consists of 250+ hours of live sessions</li>
+                        <li>Consists of 200 hours of live sessions</li>
                         <li>Global recognition from IBM</li>
                         <li>Career assistance for professionals</li>
                         <li>Capstone project completion certificate from IBM</li>
                         <li>12+ real-time industrial projects.</li>
                       </ol>,
 
-                      <h1>Data Science and AI for Managers & Leaders in Bangalore with Placement Assistance</h1>,
+                      <h1>Advance Data Science and AI Course in Bangalore with Placement Assistance</h1>,
                       <ol type="1">
                         <li>The Advance data science course is designed meticulously for professionals of all domains and levels of experience.</li>
                         <li>This course covers everything from advanced data science and AI tools and techniques, including visualisation, data processing, EDA, feature engineering, and model deployment.</li>
@@ -789,7 +789,7 @@ export default function Home() {
                       <h3>Highlights of Advance Data Science and AI Course in Bangalore</h3>,
 
                       <ol type="1">
-                        <li>Consists of 250+ hours of live sessions</li>
+                        <li>Consists of 200 hours of live sessions</li>
                         <li>Global recognition from IBM</li>
                         <li>Career assistance for professionals</li>
                         <li>Capstone project completion certificate from IBM</li>
