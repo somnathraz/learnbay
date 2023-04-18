@@ -24,7 +24,7 @@
 .boxWrap {
   display: flex;
   flex-flow: column;
-  padding: 80px 100px;
+  padding: 30px 100px;
 }
 .boxWrap h2 {
   margin: 0;
@@ -258,7 +258,11 @@
 .BangaloreMap{
   /* position: relative;
   left: 500px; */
-  width: 100%;
+  /* margin-top: auto;
+  margin-right: 50px;
+  margin-bottom: auto; */
+  /* margin-left: 15px; */
+
   
 }
 
@@ -289,6 +293,9 @@
 }
 
 @media (max-width: 800px) {
+  .BangaloreMap{
+    width: 100%;
+  }
   .Feature {
     margin-top: 20px;
   }
@@ -313,6 +320,7 @@
   .BangaloreMap{
     /* position: relative;
     left: 0px; */
+    width: 100%;
    
   }
   .program {
@@ -324,7 +332,7 @@
   .boxWrap {
     display: flex;
     flex-flow: column;
-    padding: 50px 20px 0px 20px;
+    padding: 10px 20px 0px 20px;
   }
   .boxWrap h2 {
     margin: 0;
@@ -445,6 +453,9 @@
 }
 
 @media (max-width: 600px) {
+  .BangaloreMap{
+    width: 100%;
+  }
   .grid {
     width: 100%;
     flex-direction: column;

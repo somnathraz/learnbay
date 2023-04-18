@@ -1038,7 +1038,7 @@ export default function Home() {
           </div>
         </div>
         <LearnSupport />
-        {/* <div className={styles.BangaloreMap}><Maps/></div> */}
+        <div className={styles.BangaloreMap}><Maps/></div>
         
         
         <CityText cityText={true} />
