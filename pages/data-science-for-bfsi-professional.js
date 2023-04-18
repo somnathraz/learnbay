@@ -70,6 +70,7 @@ function blockchain() {
           firstToparaImg="for BFSI Professionals"
           firstHeading="Data Science and AI "
           firstTopPara="Ready to master the finance domain?"
+          idss="4j80WXLTvGE"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />
         <SecondSection

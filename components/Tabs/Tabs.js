@@ -1159,33 +1159,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
 
-                <div className={styles.Row}>
-                  <a href="/data-analytics-certification-course">
-                    <div className={styles.Program}>
-                      <div className={styles.ProLeft}>
-                        <h5>
-                          Data Analytics <br /> Program
-                        </h5>
-                        <span>
-                          180+ Hours <BsDot /> 5 & 6.5 Months{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="/business-analytics-certification-course">
-                    <div className={styles.Program}>
-                      <div className={styles.ProLeft}>
-                        <h5>
-                          Business Analytics
-                          <br /> Master Program
-                        </h5>
-                        <span>
-                          250+ Hours <BsDot /> 7 & 9 Months{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
+                
                 <div className={styles.Row}>
                   <a href="/data-analytics-certification-course">
                     <div
@@ -1221,7 +1195,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/hr-analytics">
+                <a href="/hr-analytics">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -1233,6 +1207,19 @@ const Tabs = ({ handleIcon }) => {
                         </h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 7 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/business-analytics-certification-course">
+                    <div className={styles.Program}>
+                      <div className={styles.ProLeft}>
+                        <h5>
+                          Business Analytics
+                          <br /> Master Program
+                        </h5>
+                        <span>
+                          250+ Hours <BsDot /> 7 & 9 Months{" "}
                         </span>
                       </div>
                     </div>
