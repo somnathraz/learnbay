@@ -68,7 +68,7 @@ function Marketing() {
           third="Technology"
           idss="W-WSqLl8_5o"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/marketing-header-image+.webp"
-          firstToparaImg="Marketing Analytics"
+          firstToparaImg="Marketing Analytics Program"
           firstHeading="Elevate your career with certification in"
           firstTopPara="Experience the future of analytics"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"

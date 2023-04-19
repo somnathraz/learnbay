@@ -9,12 +9,12 @@
 }
 
 .h1Span {
-  color: #f99600;
+  color: #0072bc;
   font-size: 38px;
 }
 
 .h1 {
-  color: #0072bc;
+  color: #f99600;
 
   font-weight: 700;
   line-height: 47px;
@@ -42,7 +42,7 @@
 }
 
 .BoldP {
-  color: #0072bc;
+  color: #f99600;
 padding-top: 20px;
   font-weight: 700;
   line-height: 47px;
@@ -59,10 +59,12 @@ padding-top: 20px;
 }
 
 .NormalPForm {
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   margin: 0;
   margin-bottom: 30px;
+  color: #0072bc;
+font-weight: 700;
 }
 
 .RightSide {
@@ -85,6 +87,9 @@ padding-top: 20px;
   }
   .h1Span {
     font-size: 30px;
+  }
+  .span {
+    color: #f99600;
   }
   .boxSection {
     display: grid;

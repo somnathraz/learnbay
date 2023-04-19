@@ -167,7 +167,7 @@ h4 {
   margin-top: 0px;
   color: #000;
   padding: 0;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -308,7 +308,7 @@ h4 {
 
 @media (max-width: 481px) {
   h4 {
-    font-size: 26px;
+    font-size: 24px;
     margin: 0;
     color: #000;
     padding: 0;

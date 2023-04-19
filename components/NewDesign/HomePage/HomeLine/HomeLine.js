@@ -11,17 +11,17 @@ const HomeLine = ({ Emi }) => {
       <div className={styles.container}>
         <div className={styles.left}>
           <AiOutlineRise style={{ color: "#2DB621", fontSize: "40px" }} />
-          <p>68% alumni success rate</p>
+          <p>68% growth rate</p>
         </div>
         <hr className={styles.hr} />
         <div className={styles.middle}>
           <BiBriefcase style={{ color: "#0072bc", fontSize: "40px" }} />
-          <p>300+ partner companies</p>
+          <p>300+ hiring partners</p>
         </div>
         <hr className={styles.hr} />
         <div className={styles.right}>
           <FaAward style={{ color: "#edb552", fontSize: "40px" }} />
-          <p>100% interview guarantee</p>
+          <p>100% job calls</p>
         </div>
       </div>
     </div>
