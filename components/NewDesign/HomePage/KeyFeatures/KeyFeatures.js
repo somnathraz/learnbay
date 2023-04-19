@@ -180,7 +180,7 @@ const KeyFeatures = ({dataScience, radio}) => {
       </section>
       <div className={styles.RightWrap}>
         <h2 className={styles.h1}>
-          We have collaborated with 300+ partner companies
+          Partnering with top-rated 300+ companies
         </h2>
         <div className={styles.imgWrap}>
           <div className={styles.imgShowD}>

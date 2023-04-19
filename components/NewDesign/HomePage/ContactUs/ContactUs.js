@@ -33,7 +33,7 @@ function ContactUs({ dataScience }) {
         </div>
       </div>
       <div className={styles.RightSide}>
-        <p className={styles.NormalPForm}>Apply for Career Counselling</p>
+        <p className={styles.NormalPForm}>Apply for Career <span className={styles.span}>Counselling</span></p>
         <FormInline dataScience={dataScience} radio={true} />
       </div>
     </section>
