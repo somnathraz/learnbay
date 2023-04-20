@@ -214,17 +214,17 @@ export const DataAnalyticsCourseData = [
               },
             },
           ],
-          id: 2,
+          id: 3,
           open: false,
         },
       },
       {
         Module0: {
-          title: "Term 4 :- Essentials Tools",
+          title: "Term 4 :- Excel",
           content: [
             {
               chap: {
-                title: "Module 1 :- Essentials Excel",
+                title: "",
                 desc: [
                   "Getting started with Excel",
                   "Using Excel Toolbars: Hiding, Displaying, and Moving Toolbars",
@@ -239,7 +239,7 @@ export const DataAnalyticsCourseData = [
               },
             },
           ],
-          id: 2,
+          id: 4,
           open: false,
         },
       },

@@ -58,11 +58,11 @@ export const DSBankingFinanceData = [
     syllabus: [
       {
         Module0: {
-          title: "Module 0 :- Introduction to Banking, Financial Services and Insurance (BFSI)",
+          title: "Module 0 :- Banking, Financial Services and Insurance (BFSI)",
           content: [
             {
               chap: {
-                title: "",
+                title: "Introduction to Banking, Financial Services and Insurance (BFSI)",
                 desc: [
                   "Overview of BFSI domain and financial institutions and services",
                   "Managing customer data and customer segmentation using real-time and predictive analytics",
@@ -71,6 +71,19 @@ export const DSBankingFinanceData = [
                   "Underwriting and credit scoring techniques in insurance and banking sector",
                   "Risk modeling and management for investment banks",
                   "Data visualization techniques for financial data using tools like Tableau and PowerBI",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Overview of Domains",
+                desc: [
+                  "Introduction to HR, Marketing, and Sales domains",
+                  "Importance of analytics in these domains",
+                  "Tools and techniques for process automation",
+                  "Current trends and challenges in these domains",
+                  "Case studies: This section includes case studies from various industries and domains to illustrate the application of business analytics in real-world scenarios."
                 ],
               },
             },

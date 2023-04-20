@@ -13,10 +13,10 @@
     z-index: 9999;
     overflow: hidden;
     .popupInner {
-      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/popup-back.webp");
-      background-size: cover;
+      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Form-Side-Image.png");
+      background-size: contain;
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: left;
       position: relative;
       display: grid;
       grid-template-columns: 49% 49%;
@@ -70,10 +70,10 @@
       }
     }
     .popupInners {
-      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/popup-back.webp");
-      background-size: cover;
+      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Form-Side-Image.png");
+      background-size: contain;
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: left;
       position: relative;
       display: grid;
       grid-template-columns: 49% 49%;
@@ -117,10 +117,10 @@
     z-index: 9999;
 
     .popupInner {
-      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/popup-back.webp");
-      background-size: cover;
+      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Form-Side-Image.png");
+      background-size: contain;
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: left;
       position: relative;
       display: flex;
       align-items: center;
@@ -173,10 +173,10 @@
       }
     }
     .popupInnersW {
-      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/popup-back.webp");
-      background-size: cover;
+      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Form-Side-Image.png");
+      background-size: contain;
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: left;
       position: relative;
       display: grid;
       grid-template-columns: 49% 49%;

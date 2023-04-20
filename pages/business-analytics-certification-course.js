@@ -158,6 +158,7 @@ function blockchain() {
           para3="Abundant opportunities in various industries and domains"
         />
         <FifthSection
+        baFamilyTools={true}
           advanceCertificate={true}
           Fee="₹ 1,10,000 + 18% GST"
           FeeEmi="₹ 10,816/month"
