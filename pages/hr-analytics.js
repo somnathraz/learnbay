@@ -159,6 +159,7 @@ function Hr() {
         />
         <FifthSection
           IBMMicrosoft={true}
+          baFamilyTools={true}
           Fee="₹ 89,000 + 18% GST"
           FeeEmi="₹ 8,752/month"
           FeeHeading="Program Fee & Financing"

@@ -8,7 +8,7 @@ import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import Certificate from "../FifthSection/CertificateTabAdvance";
 import AnalyticsCertificateTab from "../CertificateTab/AnalyticsCertificateTab";
-import CertificateTabAdvance from "../FifthSection/CertificateTabAdvance"
+import CertificateTabAdvance from "../FifthSection/CertificateTabAdvance";
 
 function FifthSection({
   FeeHeading,
@@ -27,6 +27,7 @@ function FifthSection({
   IBMMicrosoft,
   AnalyticsCertificate,
   NoCertficate,
+  baFamilyTools,
 }) {
   const [mobile, setMobile] = useState(false);
 
@@ -69,15 +70,41 @@ function FifthSection({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups} dataScience={dataScience}/>
+          <Form popup={true} setTrigger={setPopups} dataScience={dataScience} />
         </div>
       </Popup>
-      {hidetools ? (
-        ""
-      ) : (
+      {baFamilyTools ? (
         <div className={styles.toolscoverd}>
           <p className={styles.infop}>Wide Range Of Tools & Modules</p>
           <div className={styles.sliderTopD}>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA+Family+Tools+Covered.png"
+              alt="github"
+              layout="intrinsic"
+              width="1458"
+              height="186"
+              objectFit="contain"
+            />
+          </div>
+          <div className={styles.sliderTopM}>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA-Family-Tools-Covered-mobile.png"
+              alt="github"
+              layout="intrinsic"
+              width="481"
+              height="153"
+              objectFit="contain"
+            />
+          </div>
+        </div>
+      ) : (
+        <>
+          {hidetools ? (
+            ""
+          ) : (
+            <div className={styles.toolscoverd}>
+              <p className={styles.infop}>Wide Range Of Tools & Modules</p>
+              <div className={styles.sliderTopD}>
                 <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Tools-Logo.png"
                   alt="github"
@@ -86,8 +113,8 @@ function FifthSection({
                   height="186"
                   objectFit="contain"
                 />
-          </div>
-          <div className={styles.sliderTopM}>
+              </div>
+              <div className={styles.sliderTopM}>
                 <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Mobile-Tools-Covered.png"
                   alt="github"
@@ -96,8 +123,10 @@ function FifthSection({
                   height="153"
                   objectFit="contain"
                 />
-          </div>
-        </div>
+              </div>
+            </div>
+          )}
+        </>
       )}
       {NoCertficate ? (
         ""
@@ -107,7 +136,11 @@ function FifthSection({
           <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>
           {advanceCertificate ? <Certificate /> : ""}
           {AnalyticsCertificate ? <AnalyticsCertificateTab /> : ""}
-          {IBMMicrosoft ? <CertificateTabAdvance Ibm={true} twoCertificateIBM={true}/> : ""}
+          {IBMMicrosoft ? (
+            <CertificateTabAdvance Ibm={true} twoCertificateIBM={true} />
+          ) : (
+            ""
+          )}
           {dataAnalyticsCertificate ? <CertificateTabAdvance Ibm={true} /> : ""}
         </div>
       )}
@@ -139,7 +172,7 @@ function FifthSection({
       </div> */}
       <div className={styles.feeD}>
         <FeeSection
-        dataScience={true}
+          dataScience={true}
           Fee={Fee}
           FeeHeading={FeeHeading}
           FeeContent1={FeeContent1}

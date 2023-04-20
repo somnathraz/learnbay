@@ -50,7 +50,7 @@ export const CertificateAdvance2 = [
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Certificate-Yellow.png",
-    title: "Capstone Project Completion Certificate from IBM",
+    title: "Capstone Project Certificate from IBM",
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",
       "Work on 1 capstone project certified by IBM.",
@@ -74,7 +74,7 @@ export const Certificate4 = [
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.jpg",
-    title: "Capstone Project Completion Certificate from IBM",
+    title: "Capstone Project Certificate from IBM",
     para: [
       "Get certified by IBM on completion of industry-level ML projects.",
       "Work on 1 capstone project certified by IBM.",
@@ -98,7 +98,7 @@ export const Certificate6 = [
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.jpg",
-    title: "Capstone Project Completion Certificate from IBM",
+    title: "Capstone Project Certificate from IBM",
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",
       "Work on 1 capstone project certified by IBM.",
@@ -122,7 +122,7 @@ export const Certificate8 = [
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.webp",
-    title: "Capstone Project Completion Certificate from IBM",
+    title: "Capstone Project Certificate from IBM",
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",
       "Work on latest full stack projects for Food Panda, UberEats, Domino's Pizza, etc.",
@@ -146,7 +146,7 @@ export const CertificateAdvance10 = [
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.jpg",
-    title: "Capstone Project Completion Certificate from IBM",
+    title: "Capstone Project Certificate from IBM",
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",
       "Work on 3 capstone project certified by IBM.",
@@ -170,7 +170,7 @@ export const Certificate12 = [
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project-certificate.webp",
-    title: "Capstone Project Completion Certificate from IBM",
+    title: "Capstone Project Certificate from IBM",
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",
       "Work on latest full stack projects for Food Panda, UberEats, Domino's Pizza, etc.",

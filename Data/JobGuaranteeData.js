@@ -322,7 +322,7 @@ export const JobGuaranteeCourseData = [
       },
       {
         Module0: {
-          title: "Term 5 :- Essentials Tools",
+          title: "Term 5 :- Essential Tools",
           content: [
             {
               chap: {

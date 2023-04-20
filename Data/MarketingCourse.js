@@ -63,13 +63,26 @@ export const MarketingCourse = [
             {
               chap: {
                 title:
-                  "",
+                  "Introduction to Marketing Analytics",
                 desc: [
                   "Fundamentals of Marketing Analytics",
                   "Understanding Customer Behavior Through Data Analysis",
                   "Measuring and Optimizing Marketing Performance",
                   "Predictive Analytics for Sales Forecasting",
                   "Marketing Leadership Strategies in a Data-Driven Way",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Overview of Domains",
+                desc: [
+                  "Introduction to HR, BFSI, and Sales domains",
+                  "Importance of analytics in these domains",
+                  "Tools and techniques for process automation",
+                  "Current trends and challenges in these domains",
+                  "Case studies: This section includes case studies from various industries and domains to illustrate the application of business analytics in real-world scenarios."
                 ],
               },
             },

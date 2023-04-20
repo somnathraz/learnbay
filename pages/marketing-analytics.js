@@ -157,6 +157,7 @@ function Marketing() {
           para3="Abundant career opportunities in Marketing Analytics"
         />
         <FifthSection
+        baFamilyTools={true}
           IBMMicrosoft={true}
           Fee="₹ 89,000 + 18% GST"
           FeeEmi="₹ 8,752/month"
