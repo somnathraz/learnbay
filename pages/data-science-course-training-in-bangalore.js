@@ -876,7 +876,7 @@ export default function Home() {
 
                       <b>The Average Data Scientist's Salary in India is INR 10 lakhs per year.</b>, " Further, the average ", <b>Data Scientist Salary in Bangalore</b>, " as mentioned in ",<b>Payscale.com</b>,  " - is ", <b>INR 989,454</b>, " per annum. Ultimately, Learnbay's ", <b>Data Science Certification in Bangalore</b>, " can help you break through in the data science field!", <br/>, <br/>,
 
-                      <b>Learnbay</b>, " also provides classroom mode for projects (Project Innovation Labs) in ", <a href="https://www.learnbay.co/machine-learning-course-training-in-bangalore" target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>machine learning </a>,",", <a href="https://www.learnbay.co/artificial-intelligence-ai-course-training-bangalore" target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>artificial intelligence courses in Bangalore</a>, " courses in Bangalore and data science courses.",
+                      <b>Learnbay</b>, " also provides classroom mode for projects (Project Innovation Labs) in machine learning",", ", <a href="https://www.learnbay.co/artificial-intelligence-ai-course-training-bangalore" target="_blank" style={{ color: "#2D9CD7", fontWeight: "600" }}>artificial intelligence courses in Bangalore</a>, " and data science courses.",
 
                     ]}
 
