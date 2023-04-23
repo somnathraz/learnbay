@@ -76,14 +76,13 @@ export const HrData = [
             },
             {
               chap: {
-                title:
-                  "Overview of Domains",
+                title: "Overview of Domains",
                 desc: [
                   "Introduction to Marketing, BFSI, and Sales domains",
                   "Importance of analytics in these domains",
                   "Tools and techniques for process automation",
                   "Current trends and challenges in these domains",
-                  "Case studies: This section includes case studies from various industries and domains to illustrate the application of business analytics in real-world scenarios."
+                  "Case studies: This section includes case studies from various industries and domains to illustrate the application of business analytics in real-world scenarios.",
                 ],
               },
             },
@@ -429,7 +428,8 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Case Study :- Decision Tree Analysis for Employee Management",
+                title:
+                  "Case Study :- Decision Tree Analysis for Employee Management",
                 desc: [
                   "Use decision trees to identify the best course of action for a given situation, such as whether to terminate an employee or provide additional training.",
                 ],
@@ -445,7 +445,8 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Case Study :- Employee Outcome Prediction and Optimization",
+                title:
+                  "Case Study :- Employee Outcome Prediction and Optimization",
                 desc: [
                   "Predict employee outcomes such as performance, turnover, or job satisfaction, optimize employee scheduling or to develop more effective training programs.",
                 ],
@@ -456,7 +457,7 @@ export const HrData = [
           open: false,
         },
       },
-            {
+      {
         Module0: {
           title: "Term 3 :- Data Science and Artificial Intelligence",
           content: [
@@ -527,7 +528,8 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Case Study :- Decision Tree Analysis for Employee Management",
+                title:
+                  "Case Study :- Decision Tree Analysis for Employee Management",
                 desc: [
                   "Use decision trees to identify the best course of action for a given situation, such as whether to terminate an employee or provide additional training.",
                 ],
@@ -543,7 +545,8 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Case Study :- Employee Outcome Prediction and Optimization",
+                title:
+                  "Case Study :- Employee Outcome Prediction and Optimization",
                 desc: [
                   "Predict employee outcomes such as performance, turnover, or job satisfaction, optimize employee scheduling or to develop more effective training programs.",
                 ],
@@ -639,7 +642,8 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Case Study :- Generating reports on employee performance using Tableau",
+                title:
+                  "Case Study :- Generating reports on employee performance using Tableau",
                 desc: [
                   "Tableau can be used to generate reports on employee performance by creating visualizations using data from performance reviews or evaluation forms. These visualizations can be used to compare performance against company goals, identify areas of improvement, and track progress over time.",
                 ],
@@ -717,7 +721,8 @@ export const HrData = [
             },
             {
               chap: {
-                title: "Case Study :- Generating reports on recruitment trends using PowerBi:",
+                title:
+                  "Case Study :- Generating reports on recruitment trends using PowerBi:",
                 desc: [
                   "PowerBI can be used to generate reports on recruitment trends by creating visualizations using data from job postings or recruitment processes. These visualizations can be used to compare recruitment efforts against company goals, identify areas of improvement, and track progress over time.",
                 ],
@@ -819,12 +824,12 @@ export const HrData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekend Afternoon Batch :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 7th May 2023", "Time : 12:30 PM to 4 PM"],
               },
             },
           ],
@@ -834,12 +839,12 @@ export const HrData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 23rd April 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],

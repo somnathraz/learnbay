@@ -87,9 +87,9 @@ function dataAnalytics() {
           fullStackReview={true}
           SecondHead="Why Choose Us?"
           SecondPara="India's top rated bootcamp for working professionals"
-          heading1="On-Demand Doubt Sessions"
+          heading1="1:1 Doubt Session"
           heading2="Guaranteed Interview Calls"
-          heading3="Project Certificate From IBM"
+          heading3="IBM Project Certificate"
           heading4="Designed For Professionals"
           SecondPara1="Talk to an expert & receive real-time solutions to your queries"
           SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
@@ -203,7 +203,7 @@ function dataAnalytics() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <DomainSection dataScience={true}/>
+        <DomainSection dataScience={true} />
         {/* <SixthSection
           point1="Practise with Latest Tools"
           point2="8 Advanced Projects"
@@ -214,7 +214,12 @@ function dataAnalytics() {
           dataScience={true}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         /> */}
-        <Project project="10+ Projects" tools="16+" DsProject={true} dataScience={true}/>
+        <Project
+          project="10+ Projects"
+          tools="16+"
+          DsProject={true}
+          dataScience={true}
+        />
         <FAQNew
           FaqDatas={FaqData6}
           PaymentFaqDatas={PaymentFaqData6}

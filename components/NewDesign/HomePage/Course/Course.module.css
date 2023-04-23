@@ -191,7 +191,7 @@
   border: 1px solid #efefef;
   background-color: #0072bc;
   height: 1px;
-  top: 54%;
+  top: 30%;
   position: absolute;
   width: 95%;
 }
@@ -327,6 +327,10 @@
     margin-top: 30px;
     width: 100%;
   }
+
+  .paraDiv {
+    margin-top: 30px;
+  }
   /* .middlePanel {
     display: none;
   } */
@@ -426,7 +430,7 @@
     width: 100%;
   }
   .hr {
-    top: 44%;
+    top: 30%;
     margin-left: -15px;
     width: 100%;
   }

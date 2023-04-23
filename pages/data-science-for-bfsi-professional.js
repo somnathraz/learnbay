@@ -77,9 +77,9 @@ function blockchain() {
           fullStackReview={true}
           SecondHead="Why Choose Us?"
           SecondPara="India's top rated  bootcamp for working professionals "
-          heading1="On-Demand Doubt Sessions"
+          heading1="1:1 Doubt Session"
           heading2="Guaranteed Interview Calls"
-          heading3="Project Certificate From IBM"
+          heading3="IBM Project Certificate"
           heading4="Designed For Professionals"
           SecondPara1="Talk to an expert & receive real-time solutions to your queries"
           SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
@@ -157,7 +157,7 @@ function blockchain() {
           para3="Enormous demand for individuals in the banking and finance sector"
         />
         <FifthSection
-        IBMMicrosoft={true}
+          IBMMicrosoft={true}
           Fee="₹ 89,000 + 18% GST"
           FeeEmi="₹ 8,752/month"
           FeeHeading="Program Fee & Financing"
@@ -203,7 +203,12 @@ function blockchain() {
           dataScience={true}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         /> */}
-        <Project project="12+ Projects" tools="16+" BFSI={true} dataScience={true}/>
+        <Project
+          project="12+ Projects"
+          tools="16+"
+          BFSI={true}
+          dataScience={true}
+        />
         <BatchDetails CourseFeeHead="Banking and Finance: Batch Details" />
         <FAQNew
           FaqDatas={FaqDataBFSI}

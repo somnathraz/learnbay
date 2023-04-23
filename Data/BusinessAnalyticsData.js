@@ -482,8 +482,7 @@ export const BusinessAnalyticsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Module 3 :- Data Visualization and Exploration",
+                title: "Module 3 :- Data Visualization and Exploration",
                 desc: [
                   "Creating basic charts (bar, line, pie, etc.)",
                   "Enhancing visualizations with formatting and design",
@@ -529,13 +528,14 @@ export const BusinessAnalyticsCourseData = [
           open: false,
         },
       },
-            {
+      {
         Module0: {
           title: "Term 6 :- Deployment (AWS+Azure)",
           content: [
             {
               chap: {
-                title: "Module 1 :- Introduction to AWS and Azure Machine Learning Services:",
+                title:
+                  "Module 1 :- Introduction to AWS and Azure Machine Learning Services:",
                 desc: [
                   "Overview of AWS SageMaker and Azure Machine Learning",
                   "Key features and benefits of using these platforms",
@@ -555,8 +555,7 @@ export const BusinessAnalyticsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Module 3 :- Data Preparation and Feature Engineering:",
+                title: "Module 3 :- Data Preparation and Feature Engineering:",
                 desc: [
                   "Understanding the data requirements for machine learning models (e.g. structured vs unstructured data, data size, data quality)",
                   "Data cleaning and preprocessing techniques (e.g. missing value imputation, feature scaling, encoding categorical variables)",
@@ -566,8 +565,7 @@ export const BusinessAnalyticsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Module 4 :- Model Training and Evaluation:",
+                title: "Module 4 :- Model Training and Evaluation:",
                 desc: [
                   "Choosing the right machine learning algorithm and model (e.g. regression, classification, clustering)",
                   "Training models using AWS SageMaker and Azure Machine Learning (e.g. using built-in algorithms, custom code)",
@@ -577,8 +575,7 @@ export const BusinessAnalyticsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Module 5 :- Model Deployment and Management:",
+                title: "Module 5 :- Model Deployment and Management:",
                 desc: [
                   "Deploying trained models on AWS SageMaker and Azure Machine Learning (e.g. creating endpoints, batch inference)",
                   "Monitoring model performance and managing versions (e.g. model drift, A/B testing)",
@@ -622,12 +619,12 @@ export const BusinessAnalyticsCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekend Afternoon Batch :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 7th May 2023", "Time : 12:30 PM to 4 PM"],
               },
             },
           ],
@@ -637,12 +634,12 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 23rd April 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],

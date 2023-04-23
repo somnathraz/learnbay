@@ -58,7 +58,8 @@ export default function Home() {
         dataScience={true}
         radio={true}/>
       <Switch />
-      <KeyFeatures popup={true}
+      <KeyFeatures  popup={true}
+        idss="wSB-phYhG10"
         dataScience={true}
         radio={true}/>
       <Testimonial />

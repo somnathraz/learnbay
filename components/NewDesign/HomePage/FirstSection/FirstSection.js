@@ -4,10 +4,9 @@ import { FaChevronDown, FaBell, FaDownload } from "react-icons/fa";
 import Popup from "../../../Popup/Popup";
 import Form from "../../../Form/Form";
 import Image from "next/image";
-import TextAnimation from "../../Animation/TextAnimation";
 import Typed from "typed.js";
 
-const FirstSection = ({ dataScience, radio, first, second, third }) => {
+const FirstSection = ({ dataScience, radio, first, second, third, idss }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -29,7 +28,7 @@ const FirstSection = ({ dataScience, radio, first, second, third }) => {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "Are you looking to upskill?",
+        "Are you looking to upskill ?",
         "Gain a competitive edge",
         "Land your dream job",
       ], // Strings to display
@@ -71,7 +70,6 @@ const FirstSection = ({ dataScience, radio, first, second, third }) => {
             <Form dataScience={dataScience} radio={radio}/>
           </div>
         </Popup>
-
         <div className={styles.FirstLeft}>
           <div className={styles.animationTextWrap}>
             <span ref={el} className={styles.animationText}></span>

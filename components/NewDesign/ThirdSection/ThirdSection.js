@@ -84,10 +84,10 @@ function ThirdSection({
       </Popup>
       <section className={styles.Features}>
         <div>
-          <h6 className={styles.infop}>Partnered With 300+ Companies</h6>
-          <p className={styles.ptop}>
+          <h6 className={styles.infop}>300+ placement and hiring partners</h6>
+          {/* <p className={styles.ptop}>
             Experience the power of our industry connections
-          </p>
+          </p> */}
           <div className={styles.FeatureWrap}>
             <div className={styles.LeftWrap}>
               <div className={styles.ParaWrap} style={{ marginTop: "0" }}>

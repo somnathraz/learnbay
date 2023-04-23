@@ -23,7 +23,7 @@ import {
 } from "./courseDetails";
 import { FaDownload } from "react-icons/fa";
 
-const Course = ({dataScience, radio}) => {
+const Course = ({ dataScience, radio }) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
@@ -88,23 +88,23 @@ const Course = ({dataScience, radio}) => {
 
   return (
     <div className={styles.Course} id="course">
-              <Popup
-          trigger={popups}
-          setTrigger={setPopups}
-          className="popupModal"
-          downloadBrochure
-        >
-          <div className="leftPopup">
-            <div
-              className="whiteP"
-              style={{ width: "340px", height: "400px" }}
-            ></div>
-          </div>
-          <div className="RightPopup">
-            <h5>Download Brochure</h5>
-            <Form dataScience={dataScience} radio={radio} downloadBrochure />
-          </div>
-        </Popup>
+      <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        downloadBrochure
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "340px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Download Brochure</h5>
+          <Form dataScience={dataScience} radio={radio} downloadBrochure />
+        </div>
+      </Popup>
       <h2>Industry Accredited Certification For Professionals</h2>
 
       <div className={styles.courses}>
@@ -161,7 +161,7 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
                             <h6>{title1}</h6>
                             <hr className={styles.hr} />
@@ -195,9 +195,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -257,7 +255,7 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
                             <h6>{title1}</h6>
                             <hr className={styles.hr} />
@@ -291,9 +289,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -371,7 +367,7 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
                             <h6>{title1}</h6>
                             <hr className={styles.hr} />
@@ -405,9 +401,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -485,7 +479,7 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
                             <h6>{title1}</h6>
                             <hr className={styles.hr} />
@@ -519,9 +513,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -599,26 +591,28 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
                               <h6 className={styles.mainHead}>{title}</h6>
                               <h6>{title1}</h6>
                             </div>
                             <hr className={styles.hr} />
-                            <div className={styles.PointWrap}>
-                              {" "}
-                              <p>
-                                <BiTimeFive className={styles.checkCircle} />
-                                {para[0]}
-                              </p>
-                              <hr className={styles.vrLine} />
-                              <p>{courseTime}</p>
-                            </div>
-
+                            <div className={styles.paraDiv}>
+                            <p>
+                              <BiTimeFive className={styles.checkCircle} />
+                              {para[0]} | {courseTime}
+                            </p>
+                            <p>
+                              <AiOutlineFundProjectionScreen
+                                className={styles.checkCircle}
+                                style={{ color: "#edb552" }}
+                              />
+                              {para[1]}
+                            </p>
                             <p className={styles.singleP}>
                               <TbCurrencyRupee className={styles.checkCircle} />
                               {para[2]}
-                            </p>
+                            </p></div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -634,9 +628,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -696,7 +688,7 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
                             <h6>{title1}</h6>
                             <hr className={styles.hr} />
@@ -730,9 +722,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -810,7 +800,7 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
                             <h6>{title1}</h6>
                             <hr className={styles.hr} />
@@ -844,9 +834,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -906,7 +894,7 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
                             <h6>{title1}</h6>
                             <hr className={styles.hr} />
@@ -940,9 +928,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -1010,26 +996,28 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
                               <h6 className={styles.mainHead}>{title}</h6>
                               <h6>{title1}</h6>
                             </div>
                             <hr className={styles.hr} />
-                            <div className={styles.PointWrap}>
-                              {" "}
-                              <p>
-                                <BiTimeFive className={styles.checkCircle} />
-                                {para[0]}
-                              </p>
-                              <hr className={styles.vrLine} />
-                              <p>{courseTime}</p>
-                            </div>
-
+                            <div className={styles.paraDiv}>
+                            <p>
+                              <BiTimeFive className={styles.checkCircle} />
+                              {para[0]} | {courseTime}
+                            </p>
+                            <p>
+                              <AiOutlineFundProjectionScreen
+                                className={styles.checkCircle}
+                                style={{ color: "#edb552" }}
+                              />
+                              {para[1]}
+                            </p>
                             <p className={styles.singleP}>
                               <TbCurrencyRupee className={styles.checkCircle} />
                               {para[2]}
-                            </p>
+                            </p></div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1045,9 +1033,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -1107,26 +1093,28 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
                               <h6 className={styles.mainHead}>{title}</h6>
                               <h6>{title1}</h6>
                             </div>
                             <hr className={styles.hr} />
-                            <div className={styles.PointWrap}>
-                              {" "}
-                              <p>
-                                <BiTimeFive className={styles.checkCircle} />
-                                {para[0]}
-                              </p>
-                              <hr className={styles.vrLine} />
-                              <p>{courseTime}</p>
-                            </div>
-
+                            <div className={styles.paraDiv}>
+                            <p>
+                              <BiTimeFive className={styles.checkCircle} />
+                              {para[0]} | {courseTime}
+                            </p>
+                            <p>
+                              <AiOutlineFundProjectionScreen
+                                className={styles.checkCircle}
+                                style={{ color: "#edb552" }}
+                              />
+                              {para[1]}
+                            </p>
                             <p className={styles.singleP}>
                               <TbCurrencyRupee className={styles.checkCircle} />
                               {para[2]}
-                            </p>
+                            </p></div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1142,9 +1130,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -1210,26 +1196,28 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
                               <h6 className={styles.mainHead}>{title}</h6>
                               <h6>{title1}</h6>
                             </div>
                             <hr className={styles.hr} />
-                            <div className={styles.PointWrap}>
-                              {" "}
-                              <p>
-                                <BiTimeFive className={styles.checkCircle} />
-                                {para[0]}
-                              </p>
-                              <hr className={styles.vrLine} />
-                              <p>{courseTime}</p>
-                            </div>
-
+                            <div className={styles.paraDiv}>
+                            <p>
+                              <BiTimeFive className={styles.checkCircle} />
+                              {para[0]} | {courseTime}
+                            </p>
+                            <p>
+                              <AiOutlineFundProjectionScreen
+                                className={styles.checkCircle}
+                                style={{ color: "#edb552" }}
+                              />
+                              {para[1]}
+                            </p>
                             <p className={styles.singleP}>
                               <TbCurrencyRupee className={styles.checkCircle} />
                               {para[2]}
-                            </p>
+                            </p></div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1245,9 +1233,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -1307,26 +1293,28 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
                               <h6 className={styles.mainHead}>{title}</h6>
                               <h6>{title1}</h6>
                             </div>
                             <hr className={styles.hr} />
-                            <div className={styles.PointWrap}>
-                              {" "}
-                              <p>
-                                <BiTimeFive className={styles.checkCircle} />
-                                {para[0]}
-                              </p>
-                              <hr className={styles.vrLine} />
-                              <p>{courseTime}</p>
-                            </div>
-
+                            <div className={styles.paraDiv}>
+                            <p>
+                              <BiTimeFive className={styles.checkCircle} />
+                              {para[0]} | {courseTime}
+                            </p>
+                            <p>
+                              <AiOutlineFundProjectionScreen
+                                className={styles.checkCircle}
+                                style={{ color: "#edb552" }}
+                              />
+                              {para[1]}
+                            </p>
                             <p className={styles.singleP}>
                               <TbCurrencyRupee className={styles.checkCircle} />
                               {para[2]}
-                            </p>
+                            </p></div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1342,9 +1330,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -1410,26 +1396,28 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
                               <h6 className={styles.mainHead}>{title}</h6>
                               <h6>{title1}</h6>
                             </div>
                             <hr className={styles.hr} />
-                            <div className={styles.PointWrap}>
-                              {" "}
-                              <p>
-                                <BiTimeFive className={styles.checkCircle} />
-                                {para[0]}
-                              </p>
-                              <hr className={styles.vrLine} />
-                              <p>{courseTime}</p>
-                            </div>
-
+                            <div className={styles.paraDiv}>
+                            <p>
+                              <BiTimeFive className={styles.checkCircle} />
+                              {para[0]} | {courseTime}
+                            </p>
+                            <p>
+                              <AiOutlineFundProjectionScreen
+                                className={styles.checkCircle}
+                                style={{ color: "#edb552" }}
+                              />
+                              {para[1]}
+                            </p>
                             <p className={styles.singleP}>
                               <TbCurrencyRupee className={styles.checkCircle} />
                               {para[2]}
-                            </p>
+                            </p></div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1445,9 +1433,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -1513,26 +1499,28 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
                               <h6 className={styles.mainHead}>{title}</h6>
                               <h6>{title1}</h6>
                             </div>
                             <hr className={styles.hr} />
-                            <div className={styles.PointWrap}>
-                              {" "}
-                              <p>
-                                <BiTimeFive className={styles.checkCircle} />
-                                {para[0]}
-                              </p>
-                              <hr className={styles.vrLine} />
-                              <p>{courseTime}</p>
-                            </div>
-
+                            <div className={styles.paraDiv}>
+                            <p>
+                              <BiTimeFive className={styles.checkCircle} />
+                              {para[0]} | {courseTime}
+                            </p>
+                            <p>
+                              <AiOutlineFundProjectionScreen
+                                className={styles.checkCircle}
+                                style={{ color: "#edb552" }}
+                              />
+                              {para[1]}
+                            </p>
                             <p className={styles.singleP}>
                               <TbCurrencyRupee className={styles.checkCircle} />
                               {para[2]}
-                            </p>
+                            </p></div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1548,9 +1536,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -1610,26 +1596,28 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
                               <h6 className={styles.mainHead}>{title}</h6>
                               <h6>{title1}</h6>
                             </div>
                             <hr className={styles.hr} />
-                            <div className={styles.PointWrap}>
-                              {" "}
-                              <p>
-                                <BiTimeFive className={styles.checkCircle} />
-                                {para[0]}
-                              </p>
-                              <hr className={styles.vrLine} />
-                              <p>{courseTime}</p>
-                            </div>
-
+                            <div className={styles.paraDiv}>
+                            <p>
+                              <BiTimeFive className={styles.checkCircle} />
+                              {para[0]} | {courseTime}
+                            </p>
+                            <p>
+                              <AiOutlineFundProjectionScreen
+                                className={styles.checkCircle}
+                                style={{ color: "#edb552" }}
+                              />
+                              {para[1]}
+                            </p>
                             <p className={styles.singleP}>
                               <TbCurrencyRupee className={styles.checkCircle} />
                               {para[2]}
-                            </p>
+                            </p></div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1645,9 +1633,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"
@@ -1713,26 +1699,28 @@ const Course = ({dataScience, radio}) => {
                             />
                           </a>
                           <div className={styles.contentBox}>
-                            <p className={styles.tagHead}>{tagHead}</p>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
                               <h6 className={styles.mainHead}>{title}</h6>
                               <h6>{title1}</h6>
                             </div>
                             <hr className={styles.hr} />
-                            <div className={styles.PointWrap}>
-                              {" "}
-                              <p>
-                                <BiTimeFive className={styles.checkCircle} />
-                                {para[0]}
-                              </p>
-                              <hr className={styles.vrLine} />
-                              <p>{courseTime}</p>
-                            </div>
-
+                            <div className={styles.paraDiv}>
+                            <p>
+                              <BiTimeFive className={styles.checkCircle} />
+                              {para[0]} | {courseTime}
+                            </p>
+                            <p>
+                              <AiOutlineFundProjectionScreen
+                                className={styles.checkCircle}
+                                style={{ color: "#edb552" }}
+                              />
+                              {para[1]}
+                            </p>
                             <p className={styles.singleP}>
                               <TbCurrencyRupee className={styles.checkCircle} />
                               {para[2]}
-                            </p>
+                            </p></div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1748,9 +1736,7 @@ const Course = ({dataScience, radio}) => {
                               </button>
                             </a> */}
                             <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                              >
+                              <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
                                   className="bIcon"

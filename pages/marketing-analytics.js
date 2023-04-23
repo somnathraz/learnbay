@@ -77,9 +77,9 @@ function Marketing() {
           fullStackReview={true}
           SecondHead="Why Choose Us?"
           SecondPara="India's top rated  bootcamp for working professionals "
-          heading1="On-Demand Doubt Sessions"
+          heading1="1:1 Doubt Session"
           heading2="Guaranteed Interview Calls"
-          heading3="Project Certificate From IBM"
+          heading3="IBM Project Certificate"
           heading4="For Marketing professionals"
           SecondPara1="Talk to an expert & receive real-time solutions to your queries"
           SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
@@ -157,7 +157,7 @@ function Marketing() {
           para3="Abundant career opportunities in Marketing Analytics"
         />
         <FifthSection
-        baFamilyTools={true}
+          baFamilyTools={true}
           IBMMicrosoft={true}
           Fee="₹ 89,000 + 18% GST"
           FeeEmi="₹ 8,752/month"
@@ -194,7 +194,12 @@ function Marketing() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <Project project="12+ Projects" tools="16+" Marketing={true} dataScience={true}/>
+        <Project
+          project="12+ Projects"
+          tools="16+"
+          Marketing={true}
+          dataScience={true}
+        />
         <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqDataMarkering}

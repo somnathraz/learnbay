@@ -11,7 +11,7 @@ const HomeLine = ({ Emi }) => {
       <div className={styles.container}>
         <div className={styles.left}>
           <AiOutlineRise style={{ color: "#2DB621", fontSize: "40px" }} />
-          <p>68% growth rate</p>
+          <p>68% salary hike</p>
         </div>
         <hr className={styles.hr} />
         <div className={styles.middle}>

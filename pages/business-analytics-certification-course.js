@@ -78,9 +78,9 @@ function blockchain() {
           fullStackReview={true}
           SecondHead="Why Choose Us?"
           SecondPara="India's top rated  bootcamp for working professionals "
-          heading1="On-Demand Doubt Sessions"
+          heading1="1:1 Doubt Session"
           heading2="Guaranteed Interview Calls"
-          heading3="Project Certificate From IBM"
+          heading3="IBM Project Certificate"
           heading4="Designed For Professionals"
           SecondPara1="Clear your doubts with industry experts and get real-time solutions"
           SecondPara2="Boost career chances, gain referrals from 300+ top recruiters"
@@ -158,7 +158,7 @@ function blockchain() {
           para3="Abundant opportunities in various industries and domains"
         />
         <FifthSection
-        baFamilyTools={true}
+          baFamilyTools={true}
           advanceCertificate={true}
           Fee="₹ 1,10,000 + 18% GST"
           FeeEmi="₹ 10,816/month"
@@ -198,7 +198,12 @@ function blockchain() {
           BAdomain={true}
           dataScience={true}
         />
-        <Project DsProject={true} project="15+ Projects" tools="16+" dataScience={true}/>
+        <Project
+          DsProject={true}
+          project="15+ Projects"
+          tools="16+"
+          dataScience={true}
+        />
         <BatchDetails CourseFeeHead="Business Analytics Master Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData7}
