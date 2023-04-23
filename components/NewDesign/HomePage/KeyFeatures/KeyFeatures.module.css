@@ -41,6 +41,9 @@
   padding: 20px;
   width: 100%;
 }
+.LeftWrapImg {
+  cursor: pointer;
+}
 .LeftWrap h6 {
   font-size: 25px;
   margin: 0;

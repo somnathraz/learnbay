@@ -79,9 +79,9 @@ function blockchain() {
           fullStackReview={true}
           SecondHead="Why Choose Us?"
           SecondPara="India's top rated  bootcamp for working professionals "
-          heading1="On-Demand Doubt Sessions"
+          heading1="1:1 Doubt Session"
           heading2="Guaranteed Interview Calls"
-          heading3="Project Certificate From IBM"
+          heading3="IBM Project Certificate"
           heading4="Designed For Professionals"
           SecondPara1="Talk to an expert and receive real-time solutions to your queries"
           SecondPara2="Explore job prospects with referrals from 300+ top hiring partners"
@@ -192,8 +192,13 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <DomainSection dataScience={true}/>
-        <Project project="16+ Projects" tools="16+" DsProject={true} dataScience={true}/>
+        <DomainSection dataScience={true} />
+        <Project
+          project="16+ Projects"
+          tools="16+"
+          DsProject={true}
+          dataScience={true}
+        />
         <BatchDetails CourseFeeHead="Data Science and AI Master Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData5}

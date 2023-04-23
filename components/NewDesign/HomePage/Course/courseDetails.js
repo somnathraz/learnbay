@@ -10,7 +10,7 @@ export const viewAllD = [
     para: [
       "200+ hours content",
       "4 Foundation",
-      "Course Fee : ₹ 79,000 + 18% GST",
+      "Course Fee : ₹ 79,000 | No cost EMI",
     ],
     link1: "/data-science-certification-courses",
     link2:
@@ -27,7 +27,7 @@ export const viewAllD = [
     para: [
       "250+ hours content",
       "8 Advance + 2 Capstone",
-      "Course Fee : ₹ 99,000 + 18% GST",
+      "Course Fee : ₹ 99,000 | No cost EMI",
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
@@ -44,7 +44,7 @@ export const viewAllD = [
     para: [
       "350+ hours content",
       "10 Advance + 2 Capstone",
-      "Course Fee : ₹ 1,10,000 + 18% GST",
+      "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/artificial-intelligence-certification-course",
     link2:
@@ -61,7 +61,7 @@ export const viewAllD = [
     para: [
       "400+ hours content",
       "10 Advance + 3 Capstone",
-      "Course Fee : ₹ 1,10,000 + 18% GST",
+      "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/data-science-ai-for-managers",
     link2:
@@ -78,7 +78,7 @@ export const viewAllD = [
     para: [
       "500+ hours content",
       "12 Advance + 4 Capstone",
-      "Course Fee : ₹ 1,29,000 + 18% GST",
+      "Course Fee : ₹ 1,29,000 | No cost EMI",
     ],
     link1: "/data-science-ai-masters-program",
     link2:
@@ -95,7 +95,7 @@ export const viewAllD = [
     para: [
       "180+ hours content",
       "8 Advance + 2 Capstopne",
-      "Course Fee : ₹ 79,000 + 18% GST",
+      "Course Fee : ₹ 79,000 | No cost EMI",
     ],
     link1: "/data-analytics-certification-course",
     link2:
@@ -113,7 +113,7 @@ export const viewAllD = [
     para: [
       "250+ hours content",
       "12 Advance + 2 Capstone",
-      "Course Fee : ₹ 1,10,000 + 18% GST",
+      "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/business-analytics-certification-course",
     link2:
@@ -129,7 +129,7 @@ export const viewAllD = [
     para: [
       "200+ hours content",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + 18% GST",
+      "Course Fee : ₹ 70,000 | No cost EMI",
     ],
     link1: "/full-stack-web-development-program",
     link2:
@@ -146,7 +146,7 @@ export const viewAllD = [
     para: [
       "300+ hours content",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + 18% GST",
+      "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/full-stack-software-development-program",
     link2:
@@ -162,7 +162,7 @@ export const viewAllD = [
     para: [
       "200+ hours content",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + 18% GST",
+      "Course Fee : ₹ 70,000 | No cost EMI",
     ],
     link1: "/dsa-system-design",
     link2:
@@ -179,7 +179,7 @@ export const viewAllD = [
     para: [
       "250+ hours content",
       "10 Advance + 2 Capstone",
-      "Course Fee : ₹ 89,000 + 18% GST",
+      "Course Fee : ₹ 89,000 | No cost EMI",
     ],
     link1: "/banking-finance-analytics",
     link2:
@@ -196,7 +196,7 @@ export const viewAllD = [
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
-      "Course Fee : ₹ 89,000 + 18% GST",
+      "Course Fee : ₹ 89,000 | No cost EMI",
     ],
     link1: "/hr-analytics",
     link2:
@@ -213,7 +213,7 @@ export const viewAllD = [
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
-      "Course Fee : ₹ 89,000 + 18% GST",
+      "Course Fee : ₹ 89,000 | No cost EMI",
     ],
     link1: "/marketing-analytics",
     link2:
@@ -232,7 +232,7 @@ export const ForProgrammersD = [
     para: [
       "250+ hours content",
       "8 Advance + 2 Capstone",
-      "Course Fee : ₹ 99,000 + 18% GST",
+      "Course Fee : ₹ 99,000 | No cost EMI",
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
@@ -249,7 +249,7 @@ export const ForProgrammersD = [
     para: [
       "300+ hours content",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + 18% GST",
+      "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/full-stack-software-development-program",
     link2:
@@ -266,7 +266,7 @@ export const ForProgrammersD = [
     para: [
       "400+ hours content",
       "10 Advance + 3 Capstone",
-      "Course Fee : ₹ 1,10,000 + 18% GST",
+      "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/data-science-ai-for-managers",
     link2:
@@ -283,7 +283,7 @@ export const ForProgrammersD = [
     para: [
       "350+ hours content",
       "10 Advance + 2 Capstone",
-      "Course Fee : ₹ 1,10,000 + 18% GST",
+      "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/artificial-intelligence-certification-course",
     link2:
@@ -300,7 +300,7 @@ export const ForProgrammersD = [
     para: [
       "200+ hours content",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹70,000 + 18% GST",
+      "Course Fee : ₹70,000 | No cost EMI",
     ],
     link1: "/full-stack-web-development-program",
     link2:
@@ -317,7 +317,7 @@ export const ForProgrammersD = [
     para: [
       "500 + hours content",
       "12 Advance + 4 Capstone",
-      "Course Fee : ₹ 1,29,000 + 18% GST",
+      "Course Fee : ₹ 1,29,000 | No cost EMI",
     ],
     link1: "/data-science-ai-masters-program",
     link2:
@@ -334,7 +334,7 @@ export const ForProgrammersD = [
     para: [
       "200+ hours content",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + 18% GST",
+      "Course Fee : ₹ 70,000 | No cost EMI",
     ],
     link1: "/dsa-system-design",
     link2:
@@ -353,7 +353,7 @@ export const ForNonProgrammerD = [
     para: [
       "200+ hours content",
       "4 Foundation",
-      "Course Fee : ₹ 79,000 + 18% GST",
+      "Course Fee : ₹ 79,000 | No cost EMI",
     ],
     link1: "/data-science-certification-courses",
     link2:
@@ -370,7 +370,7 @@ export const ForNonProgrammerD = [
     para: [
       "250+ hours content",
       "8 Advance + 2 Capstone",
-      "Course Fee : ₹ 99,000 + 18% GST",
+      "Course Fee : ₹ 99,000 | No cost EMI",
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
@@ -387,7 +387,7 @@ export const ForNonProgrammerD = [
     para: [
       "350+ hours content",
       "10 Advance + 2 Capstone",
-      "Course Fee : ₹ 1,10,000 + 18% GST",
+      "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/artificial-intelligence-certification-course",
     link2:
@@ -404,7 +404,7 @@ export const ForNonProgrammerD = [
     para: [
       "400+ hours content",
       "10 Advance + 3 Capstone",
-      "Course Fee : ₹ 1,10,000 + 18% GST",
+      "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/data-science-ai-for-managers",
     link2:
@@ -421,7 +421,7 @@ export const ForNonProgrammerD = [
     para: [
       "500+ hours content",
       "12 Advance + 4 Capstone",
-      "Course Fee : ₹ 1,29,000 + 18% GST",
+      "Course Fee : ₹ 1,29,000 | No cost EMI",
     ],
     link1: "/data-science-ai-masters-program",
     link2:
@@ -438,7 +438,7 @@ export const ForNonProgrammerD = [
     para: [
       "250+ hours content",
       "12 Advance + 4 Capstone",
-      "Course Fee : ₹ 1,10,000 + 18% GST",
+      "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "1,10usiness-analytics-certification-course",
     link2:
@@ -455,7 +455,7 @@ export const ForNonProgrammerD = [
     para: [
       "180+ hours content",
       "8 Advance + 2 Capstopne",
-      "Course Fee : ₹ 79,000 + 18% GST",
+      "Course Fee : ₹ 79,000 | No cost EMI",
     ],
     link1: "/data-analytics-certification-course",
     link2:
@@ -472,7 +472,7 @@ export const ForNonProgrammerD = [
     para: [
       "250+ hours content",
       "10 Advance + 2 Capstone",
-      "Course Fee : ₹ 89,000 + 18% GST",
+      "Course Fee : ₹ 89,000 | No cost EMI",
     ],
     link1: "/banking-finance-analytics",
     link2:
@@ -489,7 +489,7 @@ export const ForNonProgrammerD = [
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
-      "Course Fee : ₹ 89,000 + 18% GST",
+      "Course Fee : ₹ 89,000 | No cost EMI",
     ],
     link1: "/hr-analytics",
     link2:
@@ -506,7 +506,7 @@ export const ForNonProgrammerD = [
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
-      "Course Fee : ₹ 89,000 + 18% GST",
+      "Course Fee : ₹ 89,000 | No cost EMI",
     ],
     link1: "/marketing-analytics",
     link2:
@@ -526,7 +526,7 @@ export const JobGuaranteeD = [
     para: [
       "500+ hours content",
       "12 Advance + 4 Capstone",
-      "Course Fee : ₹ 1,29,000 + 18% GST",
+      "Course Fee : ₹ 1,29,000 | No cost EMI",
     ],
     link1: "/data-science-ai-masters-program",
     link2:
@@ -543,7 +543,7 @@ export const JobGuaranteeD = [
     para: [
       "200+ hours content",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + 18% GST",
+      "Course Fee : ₹ 70,000 | No cost EMI",
     ],
     link1: "/full-stack-web-development-program",
     link2:
@@ -562,7 +562,7 @@ export const StackD = [
     para: [
       "200+ hours content",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + 18% GST",
+      "Course Fee : ₹ 70,000 | No cost EMI",
     ],
     link1: "/full-stack-web-development-program",
     link2:
@@ -579,7 +579,7 @@ export const StackD = [
     para: [
       "300+ hours content",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + 18% GST",
+      "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/full-stack-software-development-program",
     link2:
@@ -596,7 +596,7 @@ export const StackD = [
     para: [
       "200+ hours content",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + 18% GST",
+      "Course Fee : ₹ 70,000 | No cost EMI",
     ],
     link1: "/dsa-system-design",
     link2:

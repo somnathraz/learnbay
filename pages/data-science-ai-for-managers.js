@@ -88,9 +88,9 @@ function blockchain() {
         />
         <SecondSection
           fullStackReview={true}
-          heading1="On-Demand Doubt Sessions"
+          heading1="1:1 Doubt Session"
           heading2="Guaranteed Interview Calls"
-          heading3="Project Certificate From IBM"
+          heading3="IBM Project Certificate"
           heading4="Designed For Professionals"
           SecondHead="Why Choose Us?"
           SecondPara="India's top rated bootcamp for working professionals"
@@ -207,7 +207,7 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <DomainSection dataScience={true}/>
+        <DomainSection dataScience={true} />
         {/* <SixthSection
           point1="Practise with Latest Tools"
           point2="10 Advanced Projects"
@@ -218,7 +218,12 @@ function blockchain() {
           dataScience={true}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         /> */}
-        <Project project="13+ Projects" tools="16+" DsProject={true} dataScience={true}/>
+        <Project
+          project="13+ Projects"
+          tools="16+"
+          DsProject={true}
+          dataScience={true}
+        />
         <BatchDetails CourseFeeHead="Data science course for Mangers: Batch Details" />
         <FAQNew
           FaqDatas={FaqData4}

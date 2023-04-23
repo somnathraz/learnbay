@@ -62,7 +62,8 @@ export const DSBankingFinanceData = [
           content: [
             {
               chap: {
-                title: "Introduction to Banking, Financial Services and Insurance (BFSI)",
+                title:
+                  "Introduction to Banking, Financial Services and Insurance (BFSI)",
                 desc: [
                   "Overview of BFSI domain and financial institutions and services",
                   "Managing customer data and customer segmentation using real-time and predictive analytics",
@@ -76,14 +77,13 @@ export const DSBankingFinanceData = [
             },
             {
               chap: {
-                title:
-                  "Overview of Domains",
+                title: "Overview of Domains",
                 desc: [
                   "Introduction to HR, Marketing, and Sales domains",
                   "Importance of analytics in these domains",
                   "Tools and techniques for process automation",
                   "Current trends and challenges in these domains",
-                  "Case studies: This section includes case studies from various industries and domains to illustrate the application of business analytics in real-world scenarios."
+                  "Case studies: This section includes case studies from various industries and domains to illustrate the application of business analytics in real-world scenarios.",
                 ],
               },
             },
@@ -418,12 +418,12 @@ export const DSBankingFinanceData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekend Afternoon Batch :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 7th May 2023", "Time : 12:30 PM to 4 PM"],
               },
             },
           ],
@@ -433,12 +433,12 @@ export const DSBankingFinanceData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 23rd April 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./KeyFeatures.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaDownload } from "react-icons/fa";
-
+import VideoPopup from "../../../VideoPopup/VideoPopup";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -19,10 +19,14 @@ import { TbCertificate } from "react-icons/tb";
 import { FiVideo } from "react-icons/fi";
 import { BsCodeSquare } from "react-icons/bs";
 
-const KeyFeatures = ({dataScience, radio}) => {
+const KeyFeatures = ({dataScience, radio, idss}) => {
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
     setPopups(true);
+  };
+  const [video, setVideo] = useState(false);
+  const videoSHow = () => {
+    setVideo(true);
   };
   return (
     <>
@@ -44,14 +48,17 @@ const KeyFeatures = ({dataScience, radio}) => {
             <Form dataScience={dataScience} downloadBrochure radio={radio}/>
           </div>
         </Popup>
+        <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
         <div>
           <h6 className={styles.topHead}>Why Learnbay?</h6>
           <div className={styles.FeatureWrap}>
             <div className={styles.LeftWrap}>
               <Image
+               onClick={videoSHow}
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whylearnbay-left-image.png"
                 width={686}
                 height={393}
+                className={styles.LeftWrapImg}
               />
             </div>
             <div className={styles.rightSide}>

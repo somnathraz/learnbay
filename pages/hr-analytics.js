@@ -77,9 +77,9 @@ function Hr() {
           fullStackReview={true}
           SecondHead="Why Choose Us?"
           SecondPara="India's top rated  bootcamp for working professionals "
-          heading1="On-Demand Doubt Sessions"
+          heading1="1:1 Doubt Session"
           heading2="Guaranteed Interview Calls"
-          heading3="Project Certificate From IBM"
+          heading3="IBM Project Certificate"
           heading4="For HR professionals"
           SecondPara1="Talk to an expert & receive real-time solutions to your queries"
           SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
@@ -195,7 +195,12 @@ function Hr() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <Project project="12+ Projects" tools="16+" Hr={true} dataScience={true}/>
+        <Project
+          project="12+ Projects"
+          tools="16+"
+          Hr={true}
+          dataScience={true}
+        />
         <BatchDetails CourseFeeHead="Hr Analytics : Batch Details" />
         <FAQNew
           FaqDatas={FaqDataHR}

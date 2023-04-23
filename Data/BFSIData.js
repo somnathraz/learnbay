@@ -646,12 +646,12 @@ export const BFSIData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekend Afternoon Batch :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 7th May 2023", "Time : 12:30 PM to 4 PM"],
               },
             },
           ],
@@ -661,12 +661,12 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 23rd April 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],

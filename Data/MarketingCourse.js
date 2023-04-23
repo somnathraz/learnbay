@@ -62,8 +62,7 @@ export const MarketingCourse = [
           content: [
             {
               chap: {
-                title:
-                  "Introduction to Marketing Analytics",
+                title: "Introduction to Marketing Analytics",
                 desc: [
                   "Fundamentals of Marketing Analytics",
                   "Understanding Customer Behavior Through Data Analysis",
@@ -75,14 +74,13 @@ export const MarketingCourse = [
             },
             {
               chap: {
-                title:
-                  "Overview of Domains",
+                title: "Overview of Domains",
                 desc: [
                   "Introduction to HR, BFSI, and Sales domains",
                   "Importance of analytics in these domains",
                   "Tools and techniques for process automation",
                   "Current trends and challenges in these domains",
-                  "Case studies: This section includes case studies from various industries and domains to illustrate the application of business analytics in real-world scenarios."
+                  "Case studies: This section includes case studies from various industries and domains to illustrate the application of business analytics in real-world scenarios.",
                 ],
               },
             },
@@ -328,7 +326,7 @@ export const MarketingCourse = [
               },
             },
             {
-              chap: { 
+              chap: {
                 title: "Topic 12 :- Linear Algebra:",
                 desc: [
                   "Vectors (plotting, norm, addition, scalar multiplication, dot product, projection)",
@@ -720,12 +718,12 @@ export const MarketingCourse = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekend Afternoon Batch :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 7th May 2023", "Time : 12:30 PM to 4 PM"],
               },
             },
           ],
@@ -735,12 +733,12 @@ export const MarketingCourse = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 23rd April 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
