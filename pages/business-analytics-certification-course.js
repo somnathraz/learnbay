@@ -47,7 +47,7 @@ function blockchain() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/advance-data-science-certification-courses"
+          href="https://www.learnbay.co/business-analytics-certification-course"
         />
       </Head>
       <main>
