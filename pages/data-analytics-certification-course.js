@@ -116,7 +116,7 @@ function dataAnalytics() {
           secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Get 1 year of Job and Placement support"
+          point1="Get 1 year of job & placement support"
           point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
           point4="Get 5-8 interview calls"

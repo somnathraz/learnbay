@@ -37,13 +37,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Data Science Course Pune | Data Scientist Course Pune | Learnbay
-        </title>
-        <meta
-          name="description"
-          content="Enroll for Data Science Course and Certification Training in Pune from Learnbay in association with IBM. This Data Scientist course in Pune will give you hands-on experience with technologies and job assistance."
-        />
+      <title>Best Data Science Courses In Pune @Learnbay!</title>
+<meta name="description" content="Learn Best Data Science Course in Pune from advanced certification oriented online data science training institute with IBM Certified Trainers."/>
         <meta
           name="keywords"
           content="data science online course, data science certification in pune, data science course in india, data science course in pune, data science training in pune, data science courses, data science courses in pune, data science course, data science training, data science institute, data science certification,"

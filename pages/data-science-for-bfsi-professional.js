@@ -107,7 +107,7 @@ function blockchain() {
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
           BatchPara="The banking & finance analytics program is designed for professionals across various sectors and designations who want to acquire necessary skills and knowledge to analyze financial data and make informed business decisions."
-          point1="Get 1 year of Job and Placement support"
+          point1="Get 1 year of job & placement support"
           point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
           point4="Get 5-8 interview calls"
