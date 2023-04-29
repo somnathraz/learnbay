@@ -214,7 +214,7 @@ export const FullStackWebCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 13th April 2023 (FSWD)", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 12th May 2023 (FSWD)", "Time : 8 PM to 10 PM"],
               },
             },
           ],
