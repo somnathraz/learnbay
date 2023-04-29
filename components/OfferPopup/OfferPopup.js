@@ -41,7 +41,7 @@ const OfferPopup = ({
               <p>Available Batch Details :</p>
               {/* <p>{p3}</p> */}
               <li>
-                <b>Weekday Evening</b>: 31st March, 8 PM to 10 PM
+                <b>Weekday Evening</b>: 12th May, 8 PM to 10 PM
               </li>
 
               {/* <li><b>{batch3}</b>{batch33}</li> */}
@@ -66,10 +66,10 @@ const OfferPopup = ({
                   <p>Available Batch Details :</p>
                   {/* <p>{p3}</p> */}
                   <li>
-                    <b>Weekend Morning</b>: 16th April, 8 AM to 11 AM
+                    <b>Weekend Morning</b>: 30th April, 8 AM to 11 AM
                   </li>
                   <li>
-                    <b>Weekday Evening</b>: 21st April, 8 PM to 10 PM
+                    <b>Weekday Morning</b>: 1st May, 7 AM to 9 AM
                   </li>
                   {/* <li><b>{batch3}</b>{batch33}</li> */}
                   <p style={{ fontSize: "12px" }}>
@@ -87,8 +87,8 @@ const OfferPopup = ({
                 {" "}
                 <div className={styles.Offer}>
                   <h6>
-                    Special programming session starts from 26th to 28th of April
-                    from 8 PM to 10 PM
+                    Special programming session starts from 3rd to 5th of
+                    May from 8 PM to 10 PM
                   </h6>
                   {/* <h6>[ Month End Offer- 15% OFF ] Book Your Seat Now</h6> */}
                   {/* <p><b>{p1}</b></p> */}

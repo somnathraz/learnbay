@@ -14,30 +14,29 @@ function BatchDetails({ CourseFeeHead, WebDev, FullStack }) {
             <div className={styles.NewBatch}>
               <div className={styles.NewOrange}>
                 <div>
-                  <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
+                  <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
                 </div>
                 <div className={styles.listMobile}>
                   <p className={styles.list}>
                     <MdDateRange className={styles.iconOrange} />
-                    16th April 2023
+                    30th April 2023
                   </p>
                   <p className={styles.list}>
-                    <BiTimeFive className={styles.iconBlue} />8 AM to 10 AM
+                    <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
                   </p>
                 </div>
               </div>
               <div className={styles.NewBlue}>
                 <div>
-                  <p className={styles.listDay}>Weekend Afternoon (Sat-Sun)</p>
+                  <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
                 </div>
                 <div className={styles.listMobile}>
                   <p className={styles.list}>
                     <MdDateRange className={styles.iconOrange} />
-                    21st April 2023
+                    1st May 2023
                   </p>
                   <p className={styles.list}>
-                    <BiTimeFive className={styles.iconBlue} />
-                    12:30 PM to 4 PM
+                    <BiTimeFive className={styles.iconBlue} />7 AM to 9 AM
                   </p>
                 </div>
               </div>
@@ -55,7 +54,7 @@ function BatchDetails({ CourseFeeHead, WebDev, FullStack }) {
                     <div className={styles.listMobile}>
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
-                        13th April 2023
+                        12th May 2023
                       </p>
                       <p className={styles.list}>
                         <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
@@ -68,7 +67,7 @@ function BatchDetails({ CourseFeeHead, WebDev, FullStack }) {
                   <div className={styles.NewOrange}>
                     <div>
                       <p className={styles.listDay}>
-                      Weekend Afternoon (Sat-Sun)
+                        Weekend Afternoon (Sat-Sun)
                       </p>
                     </div>
                     <div className={styles.listMobile}>
@@ -77,14 +76,15 @@ function BatchDetails({ CourseFeeHead, WebDev, FullStack }) {
                         7th May 2023
                       </p>
                       <p className={styles.list}>
-                        <BiTimeFive className={styles.iconBlue} />12:30 PM to 4 PM
+                        <BiTimeFive className={styles.iconBlue} />
+                        12:30 PM to 4 PM
                       </p>
                     </div>
                   </div>
                   <div className={styles.NewBlue}>
                     <div>
                       <p className={styles.listDay}>
-                      Weekday Evening (Mon-Fri)
+                        Weekday Evening (Mon-Fri)
                       </p>
                     </div>
                     <div className={styles.listMobile}>
@@ -114,7 +114,7 @@ function BatchDetails({ CourseFeeHead, WebDev, FullStack }) {
                 <div>
                   <p className={styles.list}>
                     <MdDateRange className={styles.iconOrange} />
-                    16th April 2023
+                    30th April 2023
                   </p>
                 </div>
                 <div>
@@ -125,18 +125,17 @@ function BatchDetails({ CourseFeeHead, WebDev, FullStack }) {
               </div>
               <div className={styles.NewBlue}>
                 <div>
-                  <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
+                  <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
                 </div>
                 <div>
                   <p className={styles.list}>
                     <MdDateRange className={styles.iconOrange} />
-                    21th April 2023
+                    1st May 2023
                   </p>
                 </div>
                 <div>
                   <p className={styles.list}>
-                    <BiTimeFive className={styles.iconBlue} />
-                    8 PM to 10 PM
+                    <BiTimeFive className={styles.iconBlue} />7 AM to 9 AM
                   </p>
                 </div>
               </div>
@@ -148,18 +147,18 @@ function BatchDetails({ CourseFeeHead, WebDev, FullStack }) {
                   <div className={styles.NewBlue}>
                     <div>
                       <p className={styles.listDay}>
-                        Weekday Morning (Mon-Fri)
+                        Weekday Evening (Mon-Fri)
                       </p>
                     </div>
                     <div>
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
-                        13th April 2023
+                        12th May 2023
                       </p>
                     </div>
                     <div>
                       <p className={styles.list}>
-                        <BiTimeFive className={styles.iconBlue} />7 AM to 9 AM
+                        <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
                       </p>
                     </div>
                   </div>
@@ -169,7 +168,7 @@ function BatchDetails({ CourseFeeHead, WebDev, FullStack }) {
                   <div className={styles.NewOrange}>
                     <div>
                       <p className={styles.listDay}>
-                      Weekend Afternoon (Sat-Sun)
+                        Weekend Afternoon (Sat-Sun)
                       </p>
                     </div>
                     <div>
@@ -180,14 +179,15 @@ function BatchDetails({ CourseFeeHead, WebDev, FullStack }) {
                     </div>
                     <div>
                       <p className={styles.list}>
-                        <BiTimeFive className={styles.iconBlue} />12:30 PM to 4 PM
+                        <BiTimeFive className={styles.iconBlue} />
+                        12:30 PM to 4 PM
                       </p>
                     </div>
                   </div>
                   <div className={styles.NewBlue}>
                     <div>
                       <p className={styles.listDay}>
-                      Weekday Evening (Mon-Fri)
+                        Weekday Evening (Mon-Fri)
                       </p>
                     </div>
                     <div>
