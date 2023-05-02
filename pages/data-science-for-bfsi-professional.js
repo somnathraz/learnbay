@@ -46,7 +46,7 @@ function blockchain() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/banking-finance-analytics"
+          href="https://www.learnbay.co/data-science-for-bfsi-professional"
         />
       </Head>
       <main>
