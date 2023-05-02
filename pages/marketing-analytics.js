@@ -46,7 +46,7 @@ function Marketing() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/advance-data-science-certification-courses"
+          href="https://www.learnbay.co/marketing-analytics"
         />
       </Head>
       <main>

@@ -46,7 +46,7 @@ function Hr() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/advance-data-science-certification-courses"
+          href="https://www.learnbay.co/hr-analytics"
         />
       </Head>
       <main>
