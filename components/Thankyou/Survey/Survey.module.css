@@ -1,0 +1,70 @@
+.boxWrap {
+  padding: 40px 100px;
+  display: grid;
+  grid-template-columns: 29% 70%;
+  gap: 10px;
+}
+.leftSide {
+  display: flex;
+  flex-flow: column;
+}
+.leftSide h4 {
+  text-align: left;
+  font-size: 27px;
+}
+.leftSide button {
+  width: max-content;
+  border: 0;
+  font-weight: 500;
+  color: #242424;
+  background-color: #edbb52;
+}
+.conteWrap {
+  position: relative !important;
+  width: 100%;
+}
+.oneDiv {
+  position: absolute;
+  left: 3rem;
+  top: 32rem;
+}
+.twoDiv {
+  position: absolute;
+  left: 20rem;
+  top: 27rem;
+  display: grid;
+  grid-template-columns: 56% 27%;
+  justify-content: space-evenly;
+}
+.leftContent {
+  display: flex;
+  flex-flow: column;
+}
+.leftContent h4 {
+  text-align: left;
+  font-size: 18px;
+  margin: 0;
+}
+.imgWrap {
+  position: absolute;
+  left: 13rem;
+  top: -2rem;
+}
+.threeDiv {
+  position: absolute;
+  left: 40rem;
+  top: 10rem;
+  display: grid;
+  grid-template-columns: 98% 2%;
+  justify-content: space-evenly;
+}
+.threeDiv .imgWrap {
+  left: 10rem;
+}
+.lineWrap {
+  position: relative;
+}
+.lineImg {
+  position: absolute;
+  left: -17rem;
+}
