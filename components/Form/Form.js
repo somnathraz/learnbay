@@ -75,6 +75,12 @@ const Form = ({
     endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
   }
 
+  if (router.pathname === "/learning-learnbay" ||
+router.pathname === "/learning-learnbay-select")
+   {
+    endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
+  }
+
   let btnText = "Apply For Counselling";
   if (event) {
     btnText = "Register Now";
@@ -112,6 +118,14 @@ const Form = ({
       off();
     }
     if (dataScience) {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/learning-learnbay")
+     {
+      router.push("/learning-learnbay-select");
+    }
+    if (router.pathname === "/learning-learnbay-select")
+     {
       router.push("/Thank-you");
     }
     if (fullStack) {

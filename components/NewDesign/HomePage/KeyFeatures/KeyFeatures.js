@@ -19,7 +19,7 @@ import { TbCertificate } from "react-icons/tb";
 import { FiVideo } from "react-icons/fi";
 import { BsCodeSquare } from "react-icons/bs";
 
-const KeyFeatures = ({dataScience, radio, idss}) => {
+const KeyFeatures = ({dataScience, radio, idss, btnHide}) => {
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
     setPopups(true);
@@ -200,10 +200,12 @@ const KeyFeatures = ({dataScience, radio, idss}) => {
             />
           </div>
           <div className={styles.imgShowM}></div>
+          {btnHide ? ("") : (
           <button onClick={popupShow} className={styles.btn}>
             Download Placement Report{" "}
             <FaDownload style={{ marginLeft: "10px" }} />
           </button>
+          )}
         </div>
       </div>
     </>

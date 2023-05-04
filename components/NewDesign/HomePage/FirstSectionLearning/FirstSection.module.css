@@ -1,0 +1,269 @@
+.First {
+  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/learning-Header.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  padding: 70px 100px 70px 100px;
+  display: grid;
+  grid-template-columns: 53% 43%;
+  gap: 50px;
+}
+
+.animationTextWrap{
+  font-size: 22px;
+  height: 24px ;
+    font-weight: 600;
+}
+
+.ptop {
+  font-size: 20px;
+  margin: 0;
+  text-align: left;
+}
+
+.h1Span {
+  color:  #f99600;
+  
+}
+
+.h1 {
+  color: #0072bc;
+
+  font-weight: 700;
+  line-height: 47px;
+  margin: 5px 0px 20px 0px;
+  text-align: left;
+}
+
+.FirstLeft {
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: 72%;
+  left: 48%;
+  transform: rotate(-20deg);
+}
+.blink {
+  font-size: 22px;
+  color: #767676;
+}
+
+.descLine {
+  color: #767676;
+  margin: 0 !important;
+
+  margin-bottom: 20px !important;
+  text-transform: uppercase;
+}
+
+.FirstLeft p {
+  margin: 10px 0px 10px 0px;
+}
+
+.logos {
+  display: none;
+}
+
+.IBMlogoPlay {
+  display: none;
+}
+
+.logosD {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.PlayImg {
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+.btnWrapper {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.outLineBtn {
+  padding: 10px 14px;
+  font-size: 18px;
+  background: #fff;
+  color: #0072bc;
+}
+
+.outLineBtn:hover {
+  background: #0072bc;
+  color: #fff;
+}
+
+.Btn {
+  background: #0072bc;
+  color: #fff;
+  padding: 10px 14px;
+  font-size: 18px;
+}
+
+.Btn:hover {
+  background: #fff;
+  color: #0072bc;
+}
+
+.secondLeft h4 {
+  font-size: 22px;
+}
+
+.boxesDiv {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 100px 50px 100px;
+  flex-flow: wrap;
+  gap: 50px;
+}
+
+.boxes {
+  width: 30%;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  padding: 10px 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.orange, .blue {
+  font-size: 45px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.orange {
+  background-color: #F996001A;
+  color: #F99600;
+}
+
+.blue {
+  background-color: #0072BC1A;
+  color: #0072bc;
+}
+
+.innerP {
+  font-size: 20px;
+  margin: 0;
+}
+
+
+@media (max-width: 641px) {
+  .First {
+    padding: 30px 20px;
+    display: block;
+    background: none;
+  }
+
+  .FirstLeft {
+    gap: 0;
+  }
+
+  .FirstLeft p {
+    margin: 10px 0px 20px 0px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .FirstLeft .ptop {
+    color: #767676;
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .FirstLeft .ptopC {
+    color: #767676;
+    font-size: 14px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .FirstLeft .h1Span {
+    background: linear-gradient(90deg, #f99600 50%, #edb552 103.64%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+
+  .FirstLeft .h1 {
+    color: #0072bc;
+    margin: 10px 0px 20px 0px;
+    font-size: 24px;
+    text-align: left;
+    line-height: normal;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .IBMlogo,
+  .IBMlogoPlay {
+    text-align: left;
+    margin: 10px 0px;
+  }
+
+  .IBMlogoPlay {
+    display: block;
+  }
+
+  .PlayImg {
+    display: none;
+  }
+
+  .logosD {
+    display: none;
+  }
+
+  .FirstLeft button {
+    margin: auto;
+    font-size: 16px;
+    height: fit-content;
+    padding: 12px 15px;
+    margin: 0;
+  }
+  .blink {
+    line-height: 30px;
+  }
+  .line {
+    top: 82%;
+    left: 80%;
+  }
+  .btnWrapper {
+    justify-content: left;
+  }
+  .boxesDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-flow: wrap;
+    gap: 20px;
+  }
+  
+  .boxes {
+    width: fit-content;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 10px 20px;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .orange, .blue {
+    font-size: 45px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+}

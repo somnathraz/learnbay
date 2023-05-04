@@ -6,7 +6,7 @@ import Form from "../../../Form/Form";
 import Image from "next/image";
 import Typed from "typed.js";
 
-const FirstSection = ({ dataScience, radio, first, second, third, idss }) => {
+const FirstSection = ({ dataScience, radio, btnHide, second, third, idss }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -67,7 +67,7 @@ const FirstSection = ({ dataScience, radio, first, second, third, idss }) => {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            <Form dataScience={dataScience} radio={radio}/>
+            <Form dataScience={dataScience} radio={radio} />
           </div>
         </Popup>
         <div className={styles.FirstLeft}>
@@ -101,9 +101,8 @@ const FirstSection = ({ dataScience, radio, first, second, third, idss }) => {
             />
           </div>
           <p className={styles.blink}>
-          Advance your career by gaining expertise in your field and ace interviews
-with India’s leading companies
-
+            Advance your career by gaining expertise in your field and ace
+            interviews with India’s leading companies
           </p>
           {/* <div className={styles.line}>
             <img
@@ -111,6 +110,7 @@ with India’s leading companies
               width="80px"
             />
           </div> */}
+          {btnHide ? ("") : (
           <div className={styles.btnWrapper}>
             <a href="#course">
               <button className={styles.outLineBtn}>
@@ -121,6 +121,7 @@ with India’s leading companies
               Enquire Now <FaBell className="bIconS" />
             </button>
           </div>
+          )}
         </div>
 
         <div className={styles.secondLeft}>

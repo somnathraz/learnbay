@@ -1,0 +1,10 @@
+.firstSection {
+  display: grid;
+  grid-template-columns: 49% 2% 49%;
+  padding: 70px 100px 0px 100px;
+}
+
+.FirstH4 {
+  margin: 0;
+  margin-top: 120px;
+}

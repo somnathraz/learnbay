@@ -1,0 +1,96 @@
+.head {
+    text-align: left;
+}
+
+.section {
+    padding-left: 50px;
+    padding-bottom: 120px;
+}
+
+.firstSection {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box {
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+width: fit-content;
+}
+
+.bg {
+    background: #6C6C6C0A;
+    padding: 10px 20px;
+border-radius: 10px;
+}
+
+.pBlue {
+    margin: 0;
+font-weight: 600;
+font-size: 18px;
+color: #0072BC;
+}
+
+.boxInneer {
+    padding: 20px 30px 20px 30px;
+}
+
+.checkCircle {
+    margin-right: 10px;
+    color: #0072bc;
+    font-size: 22px;
+  }
+  
+  .pCont {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .SecondSection {
+    margin: 100px 0px;
+  }
+
+  .greyflex {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 30px;
+    margin-top: 20px;
+
+
+  }
+
+  .boxesGrey {
+    background: #F6F6F6B2;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    background: rgba(246, 246, 246, 0.7);
+border-radius: 10px;
+flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .GreyP {
+    margin: 0;
+    font-size: 16px;
+  }
+  .LeftWrapImg {
+    margin: 10px 0px !important;
+  }
+
+  .logosD {
+    margin-top: 30px;
+  }
+
+  .logos {
+    margin-bottom: 30px;
+  }
+
+  .greyIcon {
+    color: #4C4C4C;
+    font-size: 30px;
+  }
