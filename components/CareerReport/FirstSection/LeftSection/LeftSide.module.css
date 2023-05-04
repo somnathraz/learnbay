@@ -1,0 +1,26 @@
+.head {
+    text-align: left;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.cont p {
+    margin: 0;
+}
+
+.cont1 {
+    margin-bottom: 590px;
+}
+
+.cont2 {
+    margin-bottom: 320px;
+}
+
+.cont {
+    margin-bottom: 30px;
+}
+
+.section {
+    padding-right: 50px;
+
+}

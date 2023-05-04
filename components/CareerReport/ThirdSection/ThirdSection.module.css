@@ -1,0 +1,109 @@
+.section {
+    display: grid;
+    grid-template-columns:46% 0.5% 46%;
+    gap: 50px;
+    padding: 0px 100px;
+}
+
+.headCont {
+    padding-right: 100px;
+}
+
+.headCont h4 {
+    text-align: left;
+}
+
+.RightBoxs {
+    display: flex;
+    gap: 50px;
+}
+
+.BoxesDiv {
+    display: flex;
+    gap: 20px;
+}
+
+.BoxesDiv p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.OrangeIcon, .BlueIcon {
+    font-size: 50px;
+    padding: 10px;
+    background: #D9D9D933;
+    border-radius: 10px;
+}
+
+.OrangeIcon {
+    color: #F99600;
+}
+
+.BlueIcon {
+    color: #0072BC;
+}
+
+.BoxOrange {
+    background: #FCF8F8;
+    margin-top: 70px;
+    padding: 20px 50px 10px 50px;
+}
+
+.BoxOrange p {
+margin: 0;
+margin-bottom: 20px;
+}
+
+.OrangeboxDiv {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.iconFlex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.greyIcon {
+    color: #F99600;
+    font-size: 22px;
+}
+
+.OrangeboxDiv p {
+    margin: 0;
+}
+
+.Btn {
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 8px 50px;
+    margin: auto;
+}
+
+.botSection {
+    margin: 30px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.botCont {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.botCont p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.arroow {
+    font-size: 50px;
+    color: #F99600;
+}
+
+
