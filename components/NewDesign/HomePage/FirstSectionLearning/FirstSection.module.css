@@ -101,12 +101,11 @@
 .Btn {
   background: #0072bc;
   color: #fff;
-  padding: 10px 14px;
+  padding: 10px 20px 10px 30px;
   font-size: 18px;
   top: 20px;
   position: relative;
-  margin: auto;
-  left: 10px;
+  margin-top: 10px;
 }
 
 .Btn:hover {
@@ -192,20 +191,21 @@ border-radius: 10px;
 }
 
 .second {
-  margin: 100px;
+  margin: 50px 100px;
   background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/CTA-learning.png");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 100px;
   padding: 70px 0px 70px 70px;
   display: grid;
-  grid-template-columns: 53% 43%;
+  grid-template-columns: 57% 39%;
   gap: 50px;
   align-items: flex-end;
+  border-radius: 20px;
 }
 
 .second h4 {
   text-align: left;
+  font-size: 28px;
 }
 
 .LeftSectionIcon p {
@@ -230,10 +230,6 @@ border-radius: 10px;
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.LeftSectionIcon {
-  margin-top: 100px;
 }
 
 .circleCheck {
@@ -404,5 +400,9 @@ border-radius: 10px;
 
   .secondSection {
     padding: 100px 20px 50px 20px;
+  }
+
+  .second h4 { 
+    font-size: 21px;
   }
 }

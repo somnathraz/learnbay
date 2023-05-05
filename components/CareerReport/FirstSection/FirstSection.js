@@ -14,7 +14,7 @@ function FirstSection() {
           <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Straight-Line.png"
             width={4}
-            height={1450}
+            height={700}
           />
         </div>
         <RightSection />

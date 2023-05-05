@@ -105,6 +105,9 @@ align-items: center;
 .botLine {
   margin-left: 20%;
 }
+.projecth4D {
+  display: none;
+}
 
 @media (max-width: 641px) { 
   .Section {
@@ -115,12 +118,14 @@ align-items: center;
   }
   .contFlex {
     display: block;
+    margin-top: 30px;
   }
   .headCont {
     padding: 0;
   }
   .contMain {
     padding: 0;
+    text-align: center;
   }
   .botLine {
     display: none;
@@ -149,5 +154,14 @@ align-items: center;
   }
   .box:last-child, .box:first-child {
     margin: 0;
+  }
+  .projecth4 {
+    display: none;
+  }
+  .projecth4D {
+    display: block;
+  }
+  .headCont h4 {
+    text-align: center;
   }
  }

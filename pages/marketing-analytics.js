@@ -200,7 +200,7 @@ function Marketing() {
           Marketing={true}
           dataScience={true}
         />
-        <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
+        <BatchDetails BAFamily={true} CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqDataMarkering}
           PaymentFaqDatas={PaymentFaqDataMarkering}
@@ -211,7 +211,7 @@ function Marketing() {
           SupportFaqDatas={SupportFaqDataMarkering}
         />
         <SeventhSection />
-        <OfferPopup offer={false} />
+        <OfferPopup offer={false} BAFamily={true} />
         <Footer />
       </main>
     </>
