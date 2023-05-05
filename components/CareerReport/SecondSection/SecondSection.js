@@ -6,6 +6,9 @@ import { IoRocketOutline } from "react-icons/io5";
 function SecondSection() {
   return (
     <section className={styles.Section}>
+            <div className={styles.projecth4D}>
+        <h4>Real-time Industrial Projects</h4>
+      </div>
       <div className={styles.ProjectFlex}>
         <div className={styles.box}>
           <div className={styles.GreyBg}>
@@ -57,7 +60,7 @@ function SecondSection() {
         <Image
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/up-line.png"
           width={540}
-          height={439}
+          height={312}
         />
       </div>
       <div className={styles.contFlex}>

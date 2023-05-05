@@ -201,7 +201,7 @@ function Hr() {
           Hr={true}
           dataScience={true}
         />
-        <BatchDetails CourseFeeHead="Hr Analytics : Batch Details" />
+        <BatchDetails BAFamily={true} CourseFeeHead="Hr Analytics : Batch Details" />
         <FAQNew
           FaqDatas={FaqDataHR}
           PaymentFaqDatas={PaymentFaqDataHR}
@@ -212,7 +212,7 @@ function Hr() {
           SupportFaqDatas={SupportFaqDataHR}
         />
         <SeventhSection />
-        <OfferPopup offer={false} />
+        <OfferPopup offer={false} BAFamily={true} />
         <Footer />
       </main>
     </>

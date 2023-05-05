@@ -204,7 +204,7 @@ function blockchain() {
           tools="16+"
           dataScience={true}
         />
-        <BatchDetails CourseFeeHead="Business Analytics Master Program : Batch Details" />
+        <BatchDetails BAFamily={true} CourseFeeHead="Business Analytics Master Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData7}
           PaymentFaqDatas={PaymentFaqData7}
@@ -215,7 +215,7 @@ function blockchain() {
           SupportFaqDatas={SupportFaqData7}
         />
         <SeventhSection />
-        <OfferPopup offer={false} />
+        <OfferPopup offer={false} BAFamily={true} />
         <Footer />
       </main>
     </>
