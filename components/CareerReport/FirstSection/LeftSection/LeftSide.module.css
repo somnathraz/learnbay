@@ -24,3 +24,12 @@
     padding-right: 50px;
 
 }
+
+@media (max-width: 641px) {
+    .cont2, .cont1 {
+        margin: 0;
+    }
+    .section {
+        padding-right: 0px;
+    }
+}

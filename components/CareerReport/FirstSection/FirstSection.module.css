@@ -8,3 +8,21 @@
   margin: 0;
   margin-top: 120px;
 }
+@media (max-width: 641px) { 
+  .firstSection {
+    display: block;
+    padding: 20px;
+  }
+  .upLine {
+    display: none;
+  }
+  .firstSection {
+    display: block;
+    padding: 20px;
+  }
+  .FirstH4 {
+    margin-top: 80px;
+    text-align: left;
+    padding: 0px 20px;
+  }
+}
