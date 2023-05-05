@@ -200,12 +200,10 @@ const KeyFeatures = ({dataScience, radio, idss, btnHide}) => {
             />
           </div>
           <div className={styles.imgShowM}></div>
-          {btnHide ? ("") : (
           <button onClick={popupShow} className={styles.btn}>
             Download Placement Report{" "}
             <FaDownload style={{ marginLeft: "10px" }} />
           </button>
-          )}
         </div>
       </div>
     </>

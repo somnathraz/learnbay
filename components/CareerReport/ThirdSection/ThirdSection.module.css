@@ -107,3 +107,36 @@ margin-bottom: 20px;
 }
 
 
+@media (max-width: 641px) { 
+    .section {
+        display: block;
+        padding: 20px;
+    }
+    .headCont {
+        padding-right: 0;
+    }
+    .upLine {
+        display: none;
+    }
+    .RightBoxs {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .BoxOrange {
+        margin-top: 30px;
+    padding: 20px;
+    }
+    .iconFlex {
+        margin-bottom: 10px;
+    }
+    .botSection {
+        gap: 40px;
+        margin-bottom: 50px;
+    }
+    .botCont {
+        display: grid;
+    grid-template-columns: 12% 80%;
+    }
+ }

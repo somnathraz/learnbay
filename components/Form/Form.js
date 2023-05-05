@@ -24,6 +24,7 @@ const Form = ({
   formThank,
   referrals,
   syllabus,
+  learning,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -84,6 +85,10 @@ router.pathname === "/learning-learnbay-select")
   let btnText = "Apply For Counselling";
   if (event) {
     btnText = "Register Now";
+  }
+
+  if (learning) {
+    btnText = "Download Resources";
   }
 
   // Form Submit function

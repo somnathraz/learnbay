@@ -31,24 +31,7 @@ function learning() {
       />
     </Head>
     <Navbar popup={true} dataScience={true} radio={true} />
-
-    <FirstSection
-      btnHide={true}
-    />
     <SecondSection />
-    <div className={styles.boxWrap}>
-      <h2>Get Certified & Move Towards Your Dream Job</h2>
-      <p className={styles.boxp}>
-        Our Domain Specialisation and Industry Certified Capstone Projects
-        helps you to make your past work experience relevant
-      </p>
-      <div className={styles.boxShape}>
-        <BoxShape />
-      </div>
-    </div>
-    <Switch />
-    <Testimonial />
-    <SeventhSection />
     <OfferPopup offer={false} />
     <Footer />
   </div>

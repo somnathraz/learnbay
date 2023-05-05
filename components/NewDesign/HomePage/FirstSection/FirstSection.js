@@ -110,7 +110,6 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, idss }) => {
               width="80px"
             />
           </div> */}
-          {btnHide ? ("") : (
           <div className={styles.btnWrapper}>
             <a href="#course">
               <button className={styles.outLineBtn}>
@@ -121,7 +120,6 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, idss }) => {
               Enquire Now <FaBell className="bIconS" />
             </button>
           </div>
-          )}
         </div>
 
         <div className={styles.secondLeft}>

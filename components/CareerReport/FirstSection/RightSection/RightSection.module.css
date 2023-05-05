@@ -94,3 +94,20 @@ flex-direction: column;
     color: #4C4C4C;
     font-size: 30px;
   }
+
+  @media (max-width: 641px) { 
+    .section {
+      padding: 0;
+    }
+    .greyflex {
+      display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    .SecondSection {
+      margin: 50px 0;
+    }
+    .section {
+      padding: 0;
+    }
+   }

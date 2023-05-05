@@ -110,4 +110,44 @@ align-items: center;
   .Section {
     padding: 20px;
   }
+  .upLine {
+    display: none;
+  }
+  .contFlex {
+    display: block;
+  }
+  .headCont {
+    padding: 0;
+  }
+  .contMain {
+    padding: 0;
+  }
+  .botLine {
+    display: none;
+  }
+  .boxSmall {
+    gap: 20px;
+  }
+  .boxGrey {
+    padding: 20px;
+    width: 100%;
+  }
+  .boxGrey p {
+    font-size: 20px;
+  }
+  .greyIcon {
+    font-size: 35px;
+  }
+  .projecth4  {
+    width: 100%;
+    margin: 0;
+  }
+  .ProjectFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .box:last-child, .box:first-child {
+    margin: 0;
+  }
  }
