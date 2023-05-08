@@ -41,6 +41,7 @@ export default function Home() {
           Full-Stack Software Developer Course in Chennai | Full-Stack Software
           Developer Course Training in Chennai
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Full-Stack Software Developer Course in Chennai. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Chennai. Full-Stack Software Developer Course in Chennai will enhance your career"

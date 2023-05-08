@@ -44,6 +44,7 @@ export default function Home() {
         <title>
           Data Analytics Certification Course With Placement Assistance
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Data analytics certification course. Learnbay is best data analytics course training institute. Our online data analytics course will enhance your career"

@@ -40,6 +40,8 @@ export default function Home() {
           Machine Learning Course in Hyderabad | Machine Learning Training in
           Hyderabad
         </title>
+        <meta name="robots" content="index, follow"/>
+
         <meta
           name="description"
           content="Machine learning course in Hyderabad. Learnbay is Advanced Machine Learning Course Training Institute in Hyderabad. Machine Learning course in Hyderabad will enhance your career"
@@ -52,22 +54,22 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/machine-learning-course-training-in-hyderabad"
         />
-        <meta name="robots" content="NOODP,NOYDIR" />
-        <meta name="HandheldFriendly" content="true" />
-        <meta name="distribution" content="global" />
-        <meta
+        {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
+         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="distribution" content="global" /> */}
+        {/* <meta
           name="copyright"
           content="Learnbay: Data Science Courses Certification Training India"
-        />
-        <meta name="language" content="English" />
-        <meta name="rating" content="general" />
-        <meta name="revisit-after" content="Daily" />
-        <meta name="author" content="Learnbay" />
-        <meta name="googlebot" content="index,follow" />
-        <meta name="bingbot" content="index,follow" />
-        <meta name="expires" content="never" />
-        <meta name="coverage" content="Worldwide" />
-        <meta name="robots" content="ALL" />
+        /> */}
+        {/* <meta name="language" content="English" /> */}
+        {/* <meta name="rating" content="general" /> */}
+        {/* <meta name="revisit-after" content="Daily" /> */}
+         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="googlebot" content="index,follow" /> */}
+        {/* <meta name="bingbot" content="index,follow" /> */}
+        {/* <meta name="expires" content="never" /> */}
+        {/* <meta name="coverage" content="Worldwide" /> */}
+        {/* <meta name="robots" content="ALL" /> */}
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"

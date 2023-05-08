@@ -41,6 +41,7 @@ export default function Home() {
           Full-Stack Software Developer Course in Dubai | Full-Stack Software
           Developer Course Training in Dubai
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Full-Stack Software Developer Course in Dubai. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Dubai. Full-Stack Software Developer Course in Dubai will enhance your career"

@@ -41,6 +41,7 @@ export default function Home() {
         <title>
           Data Structure Algorithms (DSA) & System Design Course - Learnbay
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Data Structure Algorithms (DSA) & System Design Course. Learnbay provide Data Structure Algorithms (DSA) & System Design Course which help you to enhance you skills."

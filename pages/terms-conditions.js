@@ -10,6 +10,7 @@ function terms() {
     <div>
       <Head>
         <title>Learnbay's Terms & Conditions</title>
+        <meta name="robots" content="index, follow"/>
         <meta name="description" content="Learnbay's Terms & Conditions" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/terms-conditions" />

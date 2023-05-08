@@ -10,6 +10,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Learnbay's Reviews</title>
+        <meta name="robots" content="index, follow"/>
         <meta name="description" content="Learnbay's Reviews" />
         <link rel="canonical" href="https://www.learnbay.co/reviews" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />

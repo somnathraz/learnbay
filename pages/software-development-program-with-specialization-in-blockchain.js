@@ -35,6 +35,7 @@ function blockchain() {
         <title>
           Software Development Program with Specialization in Blockchain
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Software Development Program with Specialization in Blockchain"

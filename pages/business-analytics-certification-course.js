@@ -39,6 +39,7 @@ function blockchain() {
     <>
       <Head>
         <title>Business Analytics Master Program</title>
+        <meta name="robots" content="index, follow"/>
         <meta name="description" content="Business Analytics Master Program" />
         <meta name="keywords" content="Business Analytics Master Program" />
         <link

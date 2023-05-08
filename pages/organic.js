@@ -10,6 +10,7 @@ function Counselling() {
     <div>
       <Head>
         <title>Learnbay Courses</title>
+        <meta name="robots" content="index, follow"/>
         <meta name="description" content="Learnbay Courses" />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
       </Head>

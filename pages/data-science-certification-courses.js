@@ -38,6 +38,7 @@ function blockchain() {
     <>
       <Head>
         <title>Data Science Foundation Program</title>
+        <meta name="robots" content="index, follow"/>
         <meta name="description" content="Data Science Foundation Program" />
         <meta name="keywords" content="Data Science Foundation Program" />
         <link

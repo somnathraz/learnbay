@@ -40,6 +40,7 @@ export default function Home() {
           Artificial Intelligence Course in Pune | Artificial Intelligence
           Training in Pune
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Artificial Intelligence Course in Pune. Learnbay is Advanced Artificial Intelligence Course Training Institute in Pune. Artificial Intelligence course in Pune will enhance your career"
@@ -52,22 +53,22 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/artificial-intelligence-ai-course-training-pune"
         />
-        <meta name="robots" content="NOODP,NOYDIR" />
-        <meta name="HandheldFriendly" content="true" />
-        <meta name="distribution" content="global" />
+        {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
+         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
           content="Learnbay: Artificial Intelligence Courses Certification Training India"
         />
-        <meta name="language" content="English" />
-        <meta name="rating" content="general" />
-        <meta name="revisit-after" content="Daily" />
-        <meta name="author" content="Learnbay" />
-        <meta name="googlebot" content="index,follow" />
-        <meta name="bingbot" content="index,follow" />
-        <meta name="expires" content="never" />
-        <meta name="coverage" content="Worldwide" />
-        <meta name="robots" content="ALL" />
+        {/* <meta name="language" content="English" /> */}
+        {/* <meta name="rating" content="general" /> */}
+        {/* <meta name="revisit-after" content="Daily" /> */}
+         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="googlebot" content="index,follow" /> */}
+        {/* <meta name="bingbot" content="index,follow" /> */}
+        {/* <meta name="expires" content="never" /> */}
+        {/* <meta name="coverage" content="Worldwide" /> */}
+        {/* <meta name="robots" content="ALL" /> */}
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"

@@ -40,6 +40,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
       <title>Best Data Science Courses In Pune @Learnbay!</title>
+      <meta name="robots" content="index, follow"/>
 <meta name="description" content="Learn Best Data Science Course in Pune from advanced certification oriented online data science training institute with IBM Certified Trainers."/>
         <meta
           name="keywords"
@@ -49,18 +50,18 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/data-science-course-training-in-pune"
         />
-        <meta name="HandheldFriendly" content="true" />
-        <meta name="distribution" content="global" />
+         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="distribution" content="global" /> */}
         <meta name="copyright" content="Learnbay" />
-        <meta name="language" content="English" />
-        <meta name="rating" content="general" />
-        <meta name="revisit-after" content="Daily" />
-        <meta name="author" content="Learnbay" />
-        <meta name="googlebot" content="index,follow" />
-        <meta name="bingbot" content="index,follow" />
-        <meta name="expires" content="never" />
-        <meta name="coverage" content="Worldwide" />
-        <meta name="robots" content="ALL" />
+        {/* <meta name="language" content="English" /> */}
+        {/* <meta name="rating" content="general" /> */}
+        {/* <meta name="revisit-after" content="Daily" /> */}
+         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="googlebot" content="index,follow" /> */}
+        {/* <meta name="bingbot" content="index,follow" /> */}
+        {/* <meta name="expires" content="never" /> */}
+        {/* <meta name="coverage" content="Worldwide" /> */}
+        {/* <meta name="robots" content="ALL" /> */}
         <meta
           property="og:url"
           content="https://www.learnbay.co/data-science-course-training-in-pune"

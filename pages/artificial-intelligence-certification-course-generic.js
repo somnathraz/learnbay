@@ -46,6 +46,9 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Artificial Intelligence and Machine Learning Program</title>
+        <meta name="robots" content="index, follow"/>
+
+        
         <meta
           name="description"
           content="Artificial Intelligence and Machine Learning Program"

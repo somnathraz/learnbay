@@ -16,6 +16,7 @@ function learning() {
     <div className={styles.container}>
     <Head>
       <title>Learning Learnbay</title>
+      <meta name="robots" content="index, follow"/>
       <meta
         name="description"
         content="data science courses with IBM certification. Learnbay is advanced data science course training institute. Enrol in our data science course to enhance your career"
