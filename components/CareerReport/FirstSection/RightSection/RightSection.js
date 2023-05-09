@@ -34,8 +34,7 @@ function RightSection() {
       <div className={styles.cont}>
         <h4 className={styles.head}>Domain Training</h4>
         <p>
-          We have analyzed your profile and as per industry trend we suggest you
-          following programs
+        Receive specialized training in the domain of your choice & gain deep understanding of industry requirements
         </p>
       </div>
     </section>

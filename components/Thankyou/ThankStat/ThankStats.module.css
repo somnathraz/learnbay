@@ -14,6 +14,7 @@
 .checkPointWrap {
   display: grid;
   grid-template-columns: 49% 49%;
+  gap: 10px;
 }
 .contentWrap {
   display: flex;
@@ -36,7 +37,7 @@
 .checkpoint {
   display: flex;
   align-items: center;
-
+gap: 10px;
   text-align: left;
   color: #686565;
   margin-top: 15px;
@@ -48,7 +49,7 @@
 
 .check {
   color: #2db621;
-  font-size: 26px;
+  font-size: 50px;
   font-weight: 800;
 }
 @media (max-width: 1281px) {
@@ -105,5 +106,8 @@
   }
   .checkpoint p {
     margin: 0;
+  }
+  .checkPointWrap{
+    display: block;
   }
 }
