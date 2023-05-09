@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 29% 70%;
   gap: 10px;
+  height: 750px;
 }
 .leftSide {
   display: flex;
@@ -67,4 +68,24 @@
 .lineImg {
   position: absolute;
   left: -17rem;
+}
+
+@media (max-width: 641px) {
+  .boxWrap {
+    padding: 20px;
+    height: fit-content;
+    display: block;
+  }
+  .leftSide {
+    display: block;
+  }
+  .lineWrap, .lineWrap, .conteWrap, .threeDiv, .oneDiv, .twoDiv, .lineImg, .imgWrap {
+    position:unset;
+  }
+  .oneDiv {
+    position: initial;
+  }
+  .twoDiv, .threeDiv {
+    display: block;
+}
 }

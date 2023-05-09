@@ -17,7 +17,7 @@ function ThirdSection() {
               <IoRocketOutline className={styles.OrangeIcon} />
               <div>
                 <p>
-                  <b>35% - 160%</b>
+                  <b>350%</b>
                 </p>
                 <p>Expected Salary Hike</p>
               </div>
@@ -66,16 +66,14 @@ function ThirdSection() {
         <div className={styles.headCont}>
           <h4>Expected Placements</h4>
           <p>
-            We have analyzed your profile and as per industry trend we suggest
-            you following programs
+          Our program paves the way for exceptional placements at cutting-edge technology companies
           </p>
         </div>
       </section>
       <div className={styles.cont1}>
         <h4 className={styles.head}>Profile Analysis</h4>
         <p>
-          We have analyzed your profile and as per industry trend we suggest you
-          following programs
+        Select the perfect industry-program that aligns with your career goals and aspirations
         </p>
       </div>
       <div className={styles.firstSection}>

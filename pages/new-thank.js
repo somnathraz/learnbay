@@ -3,6 +3,7 @@ import FirstHeader from "../components/Thankyou/FirstHeader/FirstHeader";
 import ThankStats from "../components/Thankyou/ThankStat/ThankStats";
 import TyPageCta from "../components/Thankyou/TyPageCta/TyPageCta";
 import Survey from "../components/Thankyou/Survey/Survey";
+import Footer from "../components/Footer/Footer";
 
 const ThankYouDemo = () => {
   return (
@@ -27,6 +28,7 @@ const ThankYouDemo = () => {
         topPara="ENTER SOME TEXT HERE PLACEHOLDER"
         para="Stat point 1 here lorem ipsum doret trinket Stat point 1 here lorem ipsum doret trinket Stat point 1 here lorem ipsum doret trinket Stat point 1 here lorem ipsum doret trinket"
       />
+      <Footer />
     </div>
   );
 };

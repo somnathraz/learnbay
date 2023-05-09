@@ -21,12 +21,12 @@ function SecondSection() {
             />
           </div>
           <p className={styles.cont}>
-            Forecasting future sales with trends and price maximization
+          Master the art of forecasting future sales with trend analysis and price maximization
           </p>
         </div>
         <div className={styles.box}>
           <div className={styles.GreyBg}>
-            <p className={styles.pGrey}>Domain : Sales</p>
+            <p className={styles.pGrey}>Domain : Marketing</p>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/Hubble.png"
               width={50}
@@ -35,12 +35,12 @@ function SecondSection() {
             />
           </div>
           <p className={styles.cont}>
-            Forecasting future sales with trends and price maximization
+          Ignite your sales with data-driven marketing strategies & discover untapped market segments
           </p>
         </div>
         <div className={styles.box}>
           <div className={styles.GreyBg}>
-            <p className={styles.pGrey}>Domain : Sales</p>
+            <p className={styles.pGrey}>Domain : HR</p>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/swiggy.png"
               width={120}
@@ -49,7 +49,7 @@ function SecondSection() {
             />
           </div>
           <p className={styles.cont}>
-            Forecasting future sales with trends and price maximization
+          Leverage data-driven HR solutions to make informed decisions and optimize your workforce.
           </p>
         </div>
       </div>
@@ -68,8 +68,7 @@ function SecondSection() {
           <div className={styles.contMain}>
           <h4>Job-Assistance Program</h4>
           <p>
-            We have analyzed your profile and as per industry trend we suggest
-            you following programs
+          Find job opportunities tailored to your skills and interests with our job assistance program
           </p>
           </div>
           <div className={styles.botLine}>
