@@ -418,12 +418,12 @@ export const DSBankingFinanceData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Afternoon Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th May 2023", "Time : 12:30 PM to 4 PM"],
+                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -433,12 +433,12 @@ export const DSBankingFinanceData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 16th May 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],

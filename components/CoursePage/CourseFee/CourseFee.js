@@ -182,7 +182,7 @@ const CourseFee = ({
                       <MdDateRange className={styles.icon} />
                       <b>Date</b>
                     </p>
-                    <p className={styles.list}>5th May 2023</p>
+                    <p className={styles.list}>29th May 2023</p>
                   </div>
                 </div>
                 <div>
@@ -211,7 +211,7 @@ const CourseFee = ({
                           <b>Batch Type</b>
                         </p>
                         <p className={styles.list}>
-                          Weekday Evening (Mon-Tue-Thu-Fri)
+                          Weekday Evening (Mon-Wed-Fri)
                         </p>
                         <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
                       </div>
@@ -222,8 +222,8 @@ const CourseFee = ({
                           <MdDateRange className={styles.icon} />
                           <b>Date</b>
                         </p>
-                        <p className={styles.list}>5th May 2023</p>
-                        <p className={styles.list}>7th May 2023</p>
+                        <p className={styles.list}>12th May 2023</p>
+                        <p className={styles.list}>14th May 2023</p>
                       </div>
                     </div>
                     <div>
@@ -252,10 +252,10 @@ const CourseFee = ({
                           <b>Batch Type</b>
                         </p>
                         {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
-                        <p className={styles.list}>
-                          Weekend Afternoon (Sat-Sun)
-                        </p>
                         <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
+                        <p className={styles.list}>
+                        Weekday Morning (Mon-Fri)
+                        </p>
                       </div>
                     </div>
                     <div>
@@ -265,8 +265,8 @@ const CourseFee = ({
                           <b>Date</b>
                         </p>
                         {/* <p className={styles.list}>9th October 2022</p> */}
-                        <p className={styles.list}>7th May 2023</p>
                         <p className={styles.list}>12th May 2023</p>
+                        <p className={styles.list}>16th May 2023</p>
                       </div>
                     </div>
                     <div>
@@ -276,8 +276,8 @@ const CourseFee = ({
                           <b>Time</b>
                         </p>
                         {/* <p className={styles.list}>08:30 AM to 12 PM</p> */}
-                        <p className={styles.list}>12:30 PM to 4 PM</p>
                         <p className={styles.list}>8 PM to 10 PM</p>
+                        <p className={styles.list}>8 AM to 10 AM</p>
                       </div>
                     </div>
                     <div className={styles.btnWrapper}>
