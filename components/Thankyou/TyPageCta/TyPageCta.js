@@ -7,8 +7,8 @@ const TyPageCta = ({ heading, para, urls }) => {
     <div className={styles.wrapper}>
       <div className={styles.content}>
         <div className={styles.contentWrap}>
-          <h4>Digital Forms is the New Form</h4>
-          <p>Text place holder enter text here place some text here text </p>
+          <h4>Data Science and AI for Managers and Leaders</h4>
+          {/* <p>Text place holder enter text here place some text here text </p> */}
         </div>
         <Link href="#">
           <button>

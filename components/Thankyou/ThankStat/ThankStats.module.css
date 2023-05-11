@@ -1,6 +1,6 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 45% 52%;
+  grid-template-columns: 47% 50%;
   gap: 20px;
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@
 gap: 10px;
   text-align: left;
   color: #686565;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .checkpoint p {

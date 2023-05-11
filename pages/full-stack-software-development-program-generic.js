@@ -15,14 +15,14 @@ import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { BlockchainCourse } from "../Data/BlockchainCourse";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
 import {
-  FaqDataBlockchain,
-  DomainFaqDataBlockchain,
-  PaymentFaqDataBlockchain,
-  CapstoneFaqDataBlockchain,
-  jobFaqDataBlockchain,
-  MentorshipFaqDataBlockchain,
-  SupportFaqDataBlockchain,
-} from "../components/NewDesign/FAQNew/FaqData";
+  FaqData9,
+  DomainFaqData9,
+  PaymentFaqData9,
+  CapstoneFaqData9,
+  jobFaqData9,
+  MentorshipFaqData9,
+  SupportFaqData9,
+} from "../components/FAQ/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
 import Switch from "../components/NewDesign/switch/switch";
@@ -39,15 +39,15 @@ function blockchain() {
     <>
       <Head>
         <title>
-          Software Development Program with Specialization in Cloud Computing & DevOps
+          Software Development Master Program with Domain Specialization
         </title>
         <meta
           name="description"
-          content="Software Development Program with Specialization in cloud computing & devops"
+          content="Software Development Master Program with Domain Specialization"
         />
         <meta
           name="keywords"
-          content="Software Development Program with Specialization in cloud computing & devops"
+          content="Software Development Master Program with Domain Specialization"
         />
         <link
           rel="icon"
@@ -76,9 +76,9 @@ function blockchain() {
           second="Tips"
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/advance+DS+header+image.webp"
-          firstToparaImg="with specialization in Cloud and Devops"
-          firstHeading="Software Development Program"
-          firstTopPara="Revamp your devops game with/ Build the future cloud/ Transform your tech skills"
+          firstToparaImg="with Domain Specialization"
+          firstHeading="Software Development Master Program"
+          firstTopPara="Get ready to level up your coding expertise"
           idss="bfl64ANfSV0"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
@@ -89,10 +89,10 @@ function blockchain() {
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate from IBM"
           heading4="Designed For Professionals"
-          SecondPara1="Clear your doubts & get real-time solutions from industry experts"
-          SecondPara2="Boost career chances & gain referrals from 300+ high-level recruiters"
-          SecondPara3="Master the domain of blockchain with certificate from IBM"
-          SecondPara4="Use tech innovation to drive career growth & acquire in-demand skills"
+          SecondPara1="Clear your doubts & get real-time solutions from seasoned industry experts"
+          SecondPara2="Get referred from 300+ top companies & apply to diverse jobs roles"
+          SecondPara3="Master the domain of software development with certificate from IBM"
+          SecondPara4="Acquire development skills for career success with hands-on software training"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
@@ -101,9 +101,9 @@ function blockchain() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whoIsProgram.webp"
           para1="Bachelor's degree with consistent academic performance"
-          para2="Minimum 1 year of IT work experience"
-          para3="Early to mid-career professionals interested in blockchain development"
-          para4="Professional seeking to upskill themselves in the digital economy"
+          para2="Minimum 6 months of experience in IT/Non-IT domain"
+          para3="Working professionals interested in software development"
+          para4="Tailored for individuals seeking advanced software development knowledge and skills"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -114,10 +114,10 @@ function blockchain() {
           secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Enjoy 3 years of career service access"
-          point2="Get 3 mock interviews with industry leaders"
+          point1="3+ years of Career Service Access"
+          point2="6 Mock Interviews with Industry Leaders"
           point3="Resume build up session"
-          point4="Get 5-8 interview calls"
+          point4="Unlimited Interview Calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
@@ -159,16 +159,16 @@ function blockchain() {
         />
         <GrowthStats
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope+of+DS+left+image.png"
-          heading="Looking for high-paying career opportunities? Enter the cloud industry"
-          para1="Higher Growth: Compound annual growth rate of CAGR of 20% by 2028"
-          para2="Big Earning Potential: Earn an average annual salary of INR 7 LPA"
+          heading="Embrace the future of technology & unlock endless career opportunities"
+          para1="Higher Growth: Compound annual growth rate of CAGR of 11.9% in 2023"
+          para2="Big Earning Potential: Earn an average annual salary of INR 8 LPA"
           para3="Strong Demand: Growing need for tech wizards across various domains & industries"
         />
       
       <FifthSection
           advanceCertificate={true}
-          Fee="₹ 95,000 + 18% GST"
-          FeeEmi="₹ 9,342/month"
+          Fee="₹ 1,10,000 + 18% GST"
+          FeeEmi="₹ 10,817/month"
           FeeHeading="Program Fee & Financing"
           FeeContent1="0% interest rate"
           FeeContent2="No cost EMI"
@@ -211,13 +211,13 @@ function blockchain() {
         />
         <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew
-          FaqDatas={FaqDataBlockchain}
-          DomainFaqDatas={DomainFaqDataBlockchain}
-          PaymentFaqDatas={PaymentFaqDataBlockchain}
-          CapstoneFaqDatas={CapstoneFaqDataBlockchain}
-          jobFaqDatas={jobFaqDataBlockchain}
-          MentorshipFaqDatas={MentorshipFaqDataBlockchain}
-          SupportFaqDatas={SupportFaqDataBlockchain}
+          FaqDatas={FaqData9}
+          DomainFaqDatas={DomainFaqData9}
+          PaymentFaqDatas={PaymentFaqData9}
+          CapstoneFaqDatas={CapstoneFaqData9}
+          jobFaqDatas={jobFaqData9}
+          MentorshipFaqDatas={MentorshipFaqData9}
+          SupportFaqDatas={SupportFaqData9}
         />
         <SeventhSection fullStackCont={true} />
         <OfferPopup offer={false} />

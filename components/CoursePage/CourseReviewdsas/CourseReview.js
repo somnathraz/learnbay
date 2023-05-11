@@ -152,7 +152,7 @@ const CourseReview = ({ fsdBrochure, fullStack, dataScience }) => {
                       from the basics time complexity, arrays, linked list,
                       stack to advance data structures – trees, graphs etc.
                       Getting into product based MNC was always my dream and
-                      this course helped me achieve it .
+                      this course helped me achieve it.
                       <br />
                     </p>
                   </div>

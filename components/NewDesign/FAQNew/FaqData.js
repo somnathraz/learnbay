@@ -2076,6 +2076,267 @@ export const SupportFaqData9 = [
   },
 ];
 
+// 9th page  Software Development Program with specialization in Blockchain
+export const FaqDataBlockchain = [
+  {
+    id: 0,
+    ques: "What are the prerequisites for the Software Development Program with specialization in Blockchain?",
+    ans: "  Nothing but basic coding knowledge is required to start with this course.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "You will be given substitute classes in other batches if you miss a few classes.But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a Flexi Subscription in the Software Development Program with specialization in Blockchain?",
+    ans: `Those who register for live online/hybrid training in Software Development Program with specialization in Blockchain are eligible for a Flexi Pass. We will get you access to all of the ongoing live classes, recorded videos, and premium study materials for a three-year period. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any classes whenever it is most convenient for you.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What’s the duration of this Software Development Program with specialization in Blockchain?",
+    ans: `The duration of this Software Development Program with specialization in Blockchain is about 6.5 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+
+    Classes will be conducted on Weekdays and Weekend Batches.
+    Weekday batch - 8 months
+       Monday to Friday - 2 hours/day
+    Weekend batch - 9 months
+    Saturday & Sunday - 3.5 hours/day
+    After the completion of term 3, you can start working on real-time projects and attend job interviews.`,
+    open: false,
+  },
+  {
+    //Check how to do this 5th Question
+    id: 4,
+    ques: "What is the mode of training for this Software Development Program with specialization in Blockchain at Learnbay?",
+    ans: "We offer both online and hybrid modes of training. You can select your preferred mode based on your needs.Online Mode: You can only participate in live, interactive classes online (no recorded video-based session is available),Hybrid Mode: For all theoretical sessions, you must participate in live, interactive online lectures. However, for practical sessions, which are typically project-based, you must travel to one of our approved training sites within your city.The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune. India, the US, and Canada all have access to the live online mode.", // Do this
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I opt for a Hybrid mode of learning? ",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. The dedicated counselor assigned to you will help you in this regard.",
+    open: false,
+  },
+];
+// for the content of dsa page add one more questiion
+export const FaqDataMoreBlockchain = [
+  {
+    id: 0,
+    ques: "What are the prerequisites for the Software Development Program with specialization in Blockchain?",
+    ans: "  Nothing but basic coding knowledge is required to start with this course.",
+    open: true,
+  },
+  {
+    id: 4,
+    ques: "What are the programming languages that are used in Data Structures and Algorithms Course?",
+    ans: "Java, Python, C++, Javascript, etc are available with us to teach Data Structures and Algorithms Course.",
+    open: false,
+  },
+  {
+    id: 1,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "You will be given substitute classes in other batches if you miss a few classes.But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a Flexi Subscription in the Software Development Program with specialization in Blockchain?",
+    ans: `Those who register for live online/hybrid training in Software Development Program with specialization in Blockchain are eligible for a Flexi Pass. We will get you access to all of the ongoing live classes, recorded videos, and premium study materials for a three-year period. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any classes whenever it is most convenient for you.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What’s the duration of this Software Development Program with specialization in Blockchain?",
+    ans: `The duration of this Software Development Program with specialization in Blockchain is about 6.5 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+
+    Classes will be conducted on Weekdays and Weekend Batches.
+    Weekday batch - 8 months
+       Monday to Friday - 2 hours/day
+    Weekend batch - 9 months
+    Saturday & Sunday - 3.5 hours/day
+    After the completion of term 3, you can start working on real-time projects and attend job interviews.`,
+    open: false,
+  },
+  {
+    //Check how to do this 5th Question
+    id: 4,
+    ques: "What is the mode of training for this Software Development Program with specialization in Blockchain at Learnbay?",
+    ans: "We offer both online and hybrid modes of training. You can select your preferred mode based on your needs.Online Mode: You can only participate in live, interactive classes online (no recorded video-based session is available),Hybrid Mode: For all theoretical sessions, you must participate in live, interactive online lectures. However, for practical sessions, which are typically project-based, you must travel to one of our approved training sites within your city.The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune. India, the US, and Canada all have access to the live online mode.", // Do this
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I opt for a Hybrid mode of learning? ",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. The dedicated counselor assigned to you will help you in this regard.",
+    open: false,
+  },
+];
+export const DomainFaqDataBlockchain = [
+  {
+    id: 0,
+    ques: "What is domain specialization?",
+    ans: "We offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can choose a specific elective.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "What are the available elective domain options?",
+    ans: "These are as follows: Full Stack, Product Engineer/Manager,  Data Science and AI, Web 3.0 Developer, DevOps & Clouds",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "Which domain elective is best suited for me?",
+    ans: `You can select your domain based on your prior work experience, academics, and career goals. 
+    Book a slot with our industry expert for free profile review and career guidance.
+    `,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Why is domain specialization important?",
+    ans: "After enrolling in the Software Development Program with specialization in Blockchain, one must opt for domain electives for Level 06. It is essential to have a specialization. Because the generic study is not going to help you land a promising and secure job role, also, choosing such specialization will ease your project work, interview preparation as well as job application process easier.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What if I don't have any prior experience in any domain?",
+    ans: " If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects. ",
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "Can I change my domain electives later?",
+    ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
+    open: false,
+  },
+];
+
+export const PaymentFaqDataBlockchain = [
+  {
+    id: 0,
+    ques: "What is the total fee for the Software Development Program with specialization in Blockchain?",
+    ans: "The total program fee for this course is ,  INR  1,10,000 + 18% GST",
+
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Can I pay in installments for the course fees?",
+    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months salary slip, you can also avail of an interest-free loan also.",
+    linkText1: " +919731135221 ",
+    link1: "tel:+919731135221",
+    link: true,
+    open: false,
+  },
+  {
+    id: 2,
+    ques: " Is there any scholarship/discount available for the Software Development Program with specialization in Blockchain? What is Group Discount?",
+    ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally.
+    Please check our websites or contact our sales team to know more about the applicable discounts.
+    Group Discount :
+    Group Discount is applicable only if you’re joining with your friends. 
+    5% extra discount: Group of 2
+    8% extra discount: Group of 3
+    Max 10% discount: Groupe of 4+`,
+    open: false,
+  },
+];
+export const CapstoneFaqDataBlockchain = [
+  {
+    id: 0,
+    ques: "How many real-time projects will be there?",
+    ans: "We have a set of 12 real-time projects from multiple domains.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How many capstone projects will be there?",
+    ans: "There will be 2 capstone projects.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "How will the project be executed? ",
+    ans: "You will be needed to work in a group for the project at Learnbay, where your group will be given a specialized project mentor who will provide full support and advice. If you opt for the hybrid model, you have to visit the authorized training center for the project session, where the mentor will be present in person. Otherwise, you will be doing your project via cloud lab, and mentors will be available via live meets.",
+    open: false,
+  },
+];
+
+export const jobFaqDataBlockchain = [
+  {
+    id: 0,
+    ques: "What's the eligibility for a job assistance program in Learnbay?",
+    ans: `You should have completed the course with :
+    A minimum score of 70% in assessments
+   You should have completed the assignments and case studies
+   Worked and successfully completed the minimum recommended number of real-time projects. `,
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How many interview calls will i get at Learnbay?",
+    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a job-readiness program?",
+    ans: `The job readiness program helps you prepare for interviews which include:
+    Resume Preparation sessions
+    Preparing projects for a strong portfolio
+    Interview guidance and prep sessions
+    1:1 Mock interviews based on targeted companies and roles
+    `,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "Will I get Job referrals at Learnbay?",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
+    open: false,
+  },
+  {
+    id: 4,
+    ques: "What is an interview guarantee feature?",
+    ans: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
+    open: false,
+  },
+];
+export const MentorshipFaqDataBlockchain = [
+  {
+    id: 0,
+    ques: "Until when will the students get the facility of mentorship?  ",
+    ans: "Our Mentors will provide advanced software development training and career insights/guidance to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "Can a Learnbay student choose to study from their desired mentor?",
+    ans: "Every batch at Learnbay has a specific mentor, but if a student is unhappy with the way their mentor teaches, they can bring it up with a dedicated contact point, who will address the problem by finding new mentors or by changing the batch.",
+    open: false,
+  },
+];
+export const SupportFaqDataBlockchain = [
+  {
+    id: 0,
+    ques: "When is the job assistance provided at Learnbay?",
+    ans: "At Learnbay, after the course is over, placement Assistance is offered. It consists of interview preparation workshops, mock interviews, and recommendations from leading MNCs and startups. Unless a person is placed in a corporation, this service will be offered.",
+    open: true,
+  },
+  {
+    id: 1,
+    ques: "How long will I get Job referrals?",
+    ans: "You’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+    open: false,
+  },
+];
+
 //BFSI page
 export const FaqDataBFSI = [
   {

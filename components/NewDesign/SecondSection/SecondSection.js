@@ -635,12 +635,11 @@ function SecondSection({
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>
                           <div className={styles.name}>
-                            <h3>Preksha Mishra</h3>
-                            <p> Working at HCL</p>
+                            <h3>Rahul Anand</h3>
                           </div>
                           <div>
                             <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/preksha-home.png"
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/rahul.jpg"
                               layout="intrinsic"
                               loading="lazy"
                               width="100"
@@ -651,32 +650,8 @@ function SecondSection({
                         </div>
                         <div className={styles.paraDiv}>
                           <p className={styles.para}>
-                            "I had a great learning experience at Learnbay. The
-                            faculties here are top notch. Right from enrollment
-                            to getting a good job, they keep putting enormous
-                            efforts for each and every candidate. Thanks to all
-                            the trainers, backend team, the HR team and to the
-                            directors for making this journey smooth."
+                            "Excellent training and awesome environment! I took data structures and algorithm training in LearnBay. They teach concepts clearly and solved as many programs as possible. I was getting interview calls even before course completion."
                           </p>
-                        </div>
-
-                        <div className={styles.imgHike}>
-                          <div>
-                            <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HCL-logo.png"
-                              layout="intrinsic"
-                              loading="lazy"
-                              width={mobile ? 130 : 200}
-                              height={mobile ? 21 : 33}
-                              alt="preksha-home"
-                            />
-                          </div>
-                          <div className={styles.nameHike}>
-                            <p>
-                              <AiOutlineRise />
-                              140% Hike
-                            </p>
-                          </div>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -684,12 +659,11 @@ function SecondSection({
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>
                           <div className={styles.name}>
-                            <h3>Mohammad Israr</h3>
-                            <p>Working at TCS</p>
+                            <h3>Kamlesh Sahu</h3>
                           </div>
                           <div>
                             <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png"
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/kamlesh.jpg"
                               layout="intrinsic"
                               loading="lazy"
                               width="100"
@@ -700,93 +674,23 @@ function SecondSection({
                         </div>
                         <div className={styles.paraDiv}>
                           <p className={styles.para}>
-                            "Thanks to the Learnbay data science course and
-                            outstanding assistance, I could ace the TCS
-                            interview and secure a job with a 400% pay hike. My
-                            understanding of the course was greatly improved by
-                            the real-time projects and respective IBM project
-                            experience certification."
+                            "This Course Helped me in getting 6 month SDE INTERNSHIP at
+                      AMAZON,India. The advance DSA topics are taught and
+                      explained in such a simplified manner that even a newbie
+                      can catch up very easily."
                           </p>
                         </div>
-
-                        <div className={styles.imgHike}>
-                          <div>
-                            <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/TCS.png"
-                              layout="intrinsic"
-                              loading="lazy"
-                              width={mobile ? 40 : 111}
-                              height={mobile ? 25 : 70}
-                              alt="preksha-home"
-                            />
-                          </div>
-                          <div className={styles.nameHike}>
-                            <p>
-                              <AiOutlineRise />
-                              210% Hike
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className={styles.slide}>
-                      <div className={styles.paraDiv}>
-                        <div className={styles.imgP}>
-                          <div className={styles.name}>
-                            <h3>Aravind Kumar</h3>
-                            <p>SA - Data Scientist</p>
-                          </div>
-                          <div>
-                            <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/aravind-home.png"
-                              layout="intrinsic"
-                              loading="lazy"
-                              width="100"
-                              height="100"
-                              alt="preksha-home"
-                            />
-                          </div>
-                        </div>
-                        <p className={styles.para}>
-                          "Choosing Learnbay was my best decision ever. The
-                          instructors were encouraging and glad to answer
-                          questions. The best feature is that their flexible
-                          modules & small size batches. I was able to manage my
-                          time and learn while working. Thanks to Learnbay for
-                          my lucrative placement."
-                        </p>
-                      </div>
-                      <div className={styles.mainSlider}>
-                        <div className={styles.imgHike}>
-                          <div>
-                            <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/themathcompany-logo.png"
-                              layout="intrinsic"
-                              loading="lazy"
-                              width={mobile ? 150 : 200}
-                              height={mobile ? 18 : 24}
-                              alt="preksha-home"
-                            />
-                          </div>
-                          <div className={styles.nameHike}>
-                            <p>
-                              <AiOutlineRise />
-                              142% Hike
-                            </p>
-                          </div>
-                        </div>
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className={styles.slide}>
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>
                           <div className={styles.name}>
-                            <h3>Ritish Kumar</h3>
-                            <p>Working at Capgemini</p>
+                            <h3>Ashutosh Chamoli</h3>
                           </div>
                           <div>
                             <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ritesh-home.png"
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Ashutosh.jpg"
                               layout="intrinsic"
                               loading="lazy"
                               width="100"
@@ -797,33 +701,12 @@ function SecondSection({
                         </div>
                         <div className={styles.paraDiv}>
                           <p className={styles.para}>
-                            "I always had a dilemma about how to switch to the
-                            IT field until I stumbled upon the foundation data
-                            science course offered by Learnbay. The perfect
-                            combination of flexibility, affordability, and
-                            supportiveness. They helped me get placed at
-                            Capgemini, and I’m delighted with my current career.
-                            All Thanks to Learnbay!"
+                            "I have done the DS & Algo course from Learnbay. I learned
+                      from the basics time complexity, arrays, linked list,
+                      stack to advance data structures – trees, graphs etc.
+                      Getting into product based MNC was always my dream and
+                      this course helped me achieve it."
                           </p>
-                        </div>
-
-                        <div className={styles.imgHike}>
-                          <div>
-                            <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Capgemni-logo.png"
-                              layout="intrinsic"
-                              loading="lazy"
-                              width={mobile ? 130 : 200}
-                              height={mobile ? 29 : 45}
-                              alt="preksha-home"
-                            />
-                          </div>
-                          <div className={styles.nameHike}>
-                            <p>
-                              <AiOutlineRise />
-                              150% Hike
-                            </p>
-                          </div>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -831,12 +714,11 @@ function SecondSection({
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>
                           <div className={styles.name}>
-                            <h3>Sourabh Mourya</h3>
-                            <p>Working at HCL</p>
+                            <h3>Vishrut Vats</h3>
                           </div>
                           <div>
                             <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/saurabh-home.png"
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Vishrut.jpg"
                               layout="intrinsic"
                               loading="lazy"
                               width="100"
@@ -847,33 +729,11 @@ function SecondSection({
                         </div>
                         <div className={styles.paraDiv}>
                           <p className={styles.para}>
-                            "Flexible classes have helped me to manage my job
-                            schedule. Learning Data Science directly from MNC
-                            experts provided the chance to learn
-                            industry-specific tricks and tips. I am grateful to
-                            the Learnbay team for providing an excellent
-                            platform that enhanced my professional growth. Thank
-                            you very much! Learnbay."
+                            "Before joining the DSA course I wasn’t confident on any of
+                      the topics. I can see the change in my coding abilities
+                      after the completion of the course! I even got interview
+                      calls from several product based companies."
                           </p>
-                        </div>
-
-                        <div className={styles.imgHike}>
-                          <div>
-                            <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HCL-logo.png"
-                              layout="intrinsic"
-                              loading="lazy"
-                              width={mobile ? 130 : 200}
-                              height={mobile ? 21 : 33}
-                              alt="preksha-home"
-                            />
-                          </div>
-                          <div className={styles.nameHike}>
-                            <p>
-                              <AiOutlineRise />
-                              150% Hike
-                            </p>
-                          </div>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -881,12 +741,11 @@ function SecondSection({
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>
                           <div className={styles.name}>
-                            <h3>Abhishek Singh</h3>
-                            <p>Working at AGS</p>
+                            <h3>Manav Jain</h3>
                           </div>
                           <div>
                             <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/abhishek-home.png"
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manav.jpg"
                               layout="intrinsic"
                               loading="lazy"
                               width="100"
@@ -897,32 +756,12 @@ function SecondSection({
                         </div>
                         <div className={styles.paraDiv}>
                           <p className={styles.para}>
-                            "I got placed at AGS within 9 months of joining
-                            Learnbay institute. Live interaction sessions are
-                            the best part here since we could clear all queries.
-                            The projects are excellent. Overall I had a great
-                            experience and I urge everyone to enroll in this
-                            institute."
+                            "I attended ds algo course under Learnbay. They discussed
+                      multiple approaches to solve any problem starting from
+                      brute force to one with less complexity. Assignments, mock
+                      interviews and job referrals really helped me in my
+                      career."
                           </p>
-                        </div>
-
-                        <div className={styles.imgHike}>
-                          <div>
-                            <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AGS-logo.png"
-                              layout="intrinsic"
-                              loading="lazy"
-                              width={mobile ? 63 : 146}
-                              height={mobile ? 30 : 70}
-                              alt="preksha-home"
-                            />
-                          </div>
-                          <div className={styles.nameHike}>
-                            <p>
-                              <AiOutlineRise />
-                              132% Hike
-                            </p>
-                          </div>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -930,12 +769,11 @@ function SecondSection({
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>
                           <div className={styles.name}>
-                            <h3>Vishal</h3>
-                            <p> Working at Bridge i2i</p>
+                            <h3>Manish Jha</h3>
                           </div>
                           <div>
                             <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vishal-home.png"
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manish.jpg"
                               layout="intrinsic"
                               loading="lazy"
                               width="100"
@@ -946,32 +784,12 @@ function SecondSection({
                         </div>
                         <div className={styles.paraDiv}>
                           <p className={styles.para}>
-                            "One on One counseling from experts has guided me to
-                            make the right decision. The Learnbay team was
-                            amazing in assisting me with live projects and
-                            preparing for the placements. Thank you! Learnbay
-                            for your tremendous support in excelling in my Data
-                            Science Career."
+                            "I took DS course under Learnbay. Irrespective of
+                      implementation languages, one can join this. Their
+                      excellent training methodology helps to learn quickly.
+                      Their mock interviews with referrals to product based
+                      companies gave a good boost to my career."
                           </p>
-                        </div>
-
-                        <div className={styles.imgHike}>
-                          <div>
-                            <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Bridgei2i-logo.png"
-                              layout="intrinsic"
-                              loading="lazy"
-                              width={mobile ? 75 : 175}
-                              height={mobile ? 30 : 70}
-                              alt="preksha-home"
-                            />
-                          </div>
-                          <div className={styles.nameHike}>
-                            <p>
-                              <AiOutlineRise />
-                              127% Hike
-                            </p>
-                          </div>
                         </div>
                       </div>
                     </SwiperSlide>

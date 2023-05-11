@@ -11,22 +11,22 @@ const ThankYouDemo = () => {
       <FirstHeader />
       <ThankStats
         img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/GIF.gif"
-        heading="Take a 2-min survey for higher counselling"
-        desc="tat point 1 here lorem ipsum doret trinkettat point 1 here lorem ipsum doret trinket tat point 1 here lorem ipsum doret trinket"
-        head1="Stat point 1 here"
-        head2="Stat point 1 here"
-        head5="Stat point 1 here"
-        head6="Stat point 1 here"
-        para5="Stat point 1 here lorem ipsum doret trinket"
-        para6="Stat point 1 here lorem ipsum doret trinket"
-        para1="Stat point 1 here lorem ipsum doret trinket"
-        para2="Stat point 1 here lorem ipsum doret trinket"
+        heading="Gain Clarity: Explore the possibilities and chart your Career Journey"
+        // desc="tat point 1 here lorem ipsum doret trinkettat point 1 here lorem ipsum doret trinket tat point 1 here lorem ipsum doret trinket"
+        head1="Explore Career Options:"
+        head2="Embrace Opportunities:"
+        head5="Personalized Goal:"
+        head6="Strategize for Success:"
+        para5="Bridge the gap between aspirations and expertise."
+        para6="Overcome obstacles and maximize your potential."
+        para1="Find your ideal path based on skills, interests, and goals."
+        para2="Discover growth potential in emerging industries."
       />
       <TyPageCta url="" heading="" para="" />
       <Survey
-        header="Take a 2-min survey for higher counselling"
-        topPara="ENTER SOME TEXT HERE PLACEHOLDER"
-        para="Stat point 1 here lorem ipsum doret trinket Stat point 1 here lorem ipsum doret trinket Stat point 1 here lorem ipsum doret trinket Stat point 1 here lorem ipsum doret trinket"
+        header="Are you seeking the perfect course that will propel your career to new heights?"
+        // topPara="ENTER SOME TEXT HERE PLACEHOLDER"
+        para="Unleash your full potential with our personalized and tailored course suggestions that will guide you towards your ideal learning journey."
       />
       <Footer />
     </div>

@@ -20,7 +20,7 @@ const ThankStats = ({
     <div className={styles.wrapper}>
       <div className={styles.rightContent}>
         <h4>{heading}</h4>
-        <p>{desc}</p>
+        {/* <p>{desc}</p> */}
         <div className={styles.checkPointWrap}>
           <div className={styles.leftWrap}>
             <div className={styles.checkpoint}>
