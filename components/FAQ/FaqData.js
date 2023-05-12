@@ -1699,11 +1699,11 @@ export const SupportFaqData8 = [
   },
 ];
 
-// 9th page  Advanced Software Development Program
+// 9th page  Software Development Master Program with Domain Specialization
 export const FaqData9 = [
   {
     id: 0,
-    ques: "What are the prerequisites for the Advanced Software Development Program?",
+    ques: "What are the prerequisites for the Software Development Master Program with Domain Specialization?",
     ans: "  Nothing but basic coding knowledge is required to start with this course.",
     open: true,
   },
@@ -1715,14 +1715,14 @@ export const FaqData9 = [
   },
   {
     id: 2,
-    ques: "What is a Flexi Subscription in the Advanced Software Development Program?",
-    ans: `Those who register for live online/hybrid training in advanced software development course are eligible for a Flexi Pass. We will get you access to all of the ongoing live classes, recorded videos, and premium study materials for a three-year period. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any classes whenever it is most convenient for you.`,
+    ques: "What is a Flexi Subscription in the Software Development Master Program with Domain Specialization?",
+    ans: `Those who register for live online/hybrid training in Software Development Master Program with Domain Specialization are eligible for a Flexi Pass. We will get you access to all of the ongoing live classes, recorded videos, and premium study materials for a three-year period. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any classes whenever it is most convenient for you.`,
     open: false,
   },
   {
     id: 3,
-    ques: "What’s the duration of this Software Development training program?",
-    ans: `The duration of this advanced software development program is about 6.5 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ques: "What’s the duration of this Software Development Master Program with Domain Specialization?",
+    ans: `The duration of this Software Development Master Program with Domain Specialization is about 6.5 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on Weekdays and Weekend Batches.
     Weekday batch - 8 months
@@ -1735,7 +1735,7 @@ export const FaqData9 = [
   {
     //Check how to do this 5th Question
     id: 4,
-    ques: "What is the mode of training for this advanced software development course at Learnbay?",
+    ques: "What is the mode of training for this Software Development Master Program with Domain Specialization at Learnbay?",
     ans: "We offer both online and hybrid modes of training. You can select your preferred mode based on your needs.Online Mode: You can only participate in live, interactive classes online (no recorded video-based session is available),Hybrid Mode: For all theoretical sessions, you must participate in live, interactive online lectures. However, for practical sessions, which are typically project-based, you must travel to one of our approved training sites within your city.The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune. India, the US, and Canada all have access to the live online mode.", // Do this
     open: false,
   },
@@ -1770,7 +1770,7 @@ export const DomainFaqData9 = [
   {
     id: 3,
     ques: "Why is domain specialization important?",
-    ans: "After enrolling in the advanced software development course, one must opt for domain electives for Level 06. It is essential to have a specialization. Because the generic study is not going to help you land a promising and secure job role, also, choosing such specialization will ease your project work, interview preparation as well as job application process easier.",
+    ans: "After enrolling in the Software Development Master Program with Domain Specialization, one must opt for domain electives for Level 06. It is essential to have a specialization. Because the generic study is not going to help you land a promising and secure job role, also, choosing such specialization will ease your project work, interview preparation as well as job application process easier.",
     open: false,
   },
   {
@@ -1790,7 +1790,7 @@ export const DomainFaqData9 = [
 export const PaymentFaqData9 = [
   {
     id: 0,
-    ques: "What is the total fee for the Advanced Software Development course?",
+    ques: "What is the total fee for the Software Development Master Program with Domain Specialization?",
     ans: "The total program fee for this course is ,  INR  1,10,000 + 18% GST",
 
     open: true,
@@ -1806,7 +1806,7 @@ export const PaymentFaqData9 = [
   },
   {
     id: 2,
-    ques: " Is there any scholarship/discount available for the advanced Software Development course? What is Group Discount?",
+    ques: " Is there any scholarship/discount available for the Software Development Master Program with Domain Specialization? What is Group Discount?",
     ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally.
     Please check our websites or contact our sales team to know more about the applicable discounts.
     Group Discount :

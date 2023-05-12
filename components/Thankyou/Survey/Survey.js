@@ -24,6 +24,13 @@ const Survey = ({ topPara, para, header }) => {
 
         <div className={styles.conteWrap}>
           <div className={styles.oneDiv}>
+          <div className={styles.leftContent}>
+              <h4>Fill out the Form:</h4>
+              <p>
+              Provide us with essential information about your experience, job, domain, and career goals.{" "}
+              </p>
+            </div>
+            <div className={styles.imgWrap}>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/thank-you-no-1.png"
               width={56}
@@ -32,12 +39,12 @@ const Survey = ({ topPara, para, header }) => {
               alt="lines"
             />
           </div>
+          </div>
           <div className={styles.twoDiv}>
             <div className={styles.leftContent}>
-              <h4>Take 2 Mins Survey</h4>
+              <h4>Receive Personalized Course Suggestions:</h4>
               <p>
-                Stat point 1 here lorem ipsum doret trinket Stat point 1 here
-                lorem ipsum doret trinket Stat point 1{" "}
+              You'll receive a comprehensive report that highlights the courses best suited to enhance your skills and propel your career forward.{" "}
               </p>
             </div>
             <div className={styles.imgWrap}>
@@ -52,10 +59,9 @@ const Survey = ({ topPara, para, header }) => {
           </div>
           <div className={styles.threeDiv}>
             <div className={styles.leftContent}>
-              <h4>Take 2 Mins Survey</h4>
+              <h4>Open Doors to the Best-suited Companies:</h4>
               <p>
-                Stat point 1 here lorem ipsum doret trinket Stat point 1 here
-                lorem ipsum doret trinket Stat point 1 hello{" "}
+              Increase your chances of being referred to the best-suited companies for your career ambitions.{" "}
               </p>
             </div>
             <div className={styles.imgWrap}>

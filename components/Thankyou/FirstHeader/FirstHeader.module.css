@@ -12,11 +12,12 @@
 }
 .headerWrap p {
   margin: 0;
-  font-size: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 .headerWrap h1 {
   margin: 0;
-  font-size: 44px;
+  font-size: 30px;
 }
 .headerWrap button {
   padding: 15px 60px;
@@ -25,6 +26,12 @@
 }
 .headerWrap button:hover {
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+.cutText {
+  text-decoration: line-through;
+}
+.greenText {
+  color: green;
 }
 @media (max-width: 481px) {
   .headerWrap {

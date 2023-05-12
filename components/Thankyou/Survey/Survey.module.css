@@ -26,8 +26,11 @@
 }
 .oneDiv {
   position: absolute;
-  left: 3rem;
-  top: 32rem;
+  left: -10rem;
+  top: 37rem;
+  display: grid;
+  grid-template-columns: 56% 27%;
+  justify-content: space-evenly;
 }
 .twoDiv {
   position: absolute;
@@ -53,7 +56,7 @@
 }
 .threeDiv {
   position: absolute;
-  left: 40rem;
+  left: 44rem;
   top: 10rem;
   display: grid;
   grid-template-columns: 98% 2%;
@@ -67,7 +70,7 @@
 }
 .lineImg {
   position: absolute;
-  left: -17rem;
+  left: -12rem;
 }
 
 @media (max-width: 641px) {
@@ -79,13 +82,11 @@
   .leftSide {
     display: block;
   }
-  .lineWrap, .lineWrap, .conteWrap, .threeDiv, .oneDiv, .twoDiv, .lineImg, .imgWrap {
+  .lineWrap, .lineWrap, .conteWrap, .threeDiv, .oneDiv, .twoDiv, .lineImg, .imgWrap, .oneDiv {
     position:unset;
   }
-  .oneDiv {
-    position: initial;
-  }
-  .twoDiv, .threeDiv {
-    display: block;
+  .twoDiv, .threeDiv, .oneDiv {
+    display: flex;
+    flex-direction: column-reverse;
 }
 }

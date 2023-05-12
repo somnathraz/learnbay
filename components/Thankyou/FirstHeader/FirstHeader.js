@@ -18,8 +18,8 @@ const FirstHeader = () => {
       </Head>
       <Navbar popup={true} dataScience={true} radio={true} />
       <div className={styles.headerWrap}>
-        <p>Now you are eligible for </p>
-        <h1>1:1 Free Counselling with Expert</h1>
+        <p><b>Maximize</b> Your Career Opportunities with<br/>Premium Guidance from Industry Expert's</p>
+        <h1>at <span className={styles.cutText}>Rs. 2999/-</span> <span className={styles.greenText}>FREE</span></h1>
         <PopupButton
           id="nRGJaEAF"
           style={{ fontSize: 20 }}
