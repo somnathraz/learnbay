@@ -38,6 +38,7 @@ function blockchain() {
     <>
       <Head>
         <title>Banking & Finance Analytics</title>
+        <meta name="robots" content="index, follow"/>
         <meta name="description" content="Banking & Finance Analytics" />
         <meta name="keywords" content="Banking & Finance Analytics" />
         <link

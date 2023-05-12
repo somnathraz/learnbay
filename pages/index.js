@@ -19,6 +19,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Data Science Courses with IBM Certification - Learnbay</title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="data science courses with IBM certification. Learnbay is advanced data science course training institute. Enrol in our data science course to enhance your career"

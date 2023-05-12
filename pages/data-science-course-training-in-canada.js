@@ -38,6 +38,7 @@ export default function Home() {
         <title>
           Data Science Course in Canada | Data Science Training in Canada
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Data science course in Canada. Learnbay is Advanced Data Science Course Training Institute in Canada. Data science course in Canada will enhance your career"
@@ -89,22 +90,22 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/data-science-course-training-in-canada"
         />
-        <meta name="robots" content="NOODP,NOYDIR" />
-        <meta name="HandheldFriendly" content="true" />
-        <meta name="distribution" content="global" />
+        {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
+         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
           content="Learnbay: Data Science Courses Certification Training Canada"
         />
-        <meta name="language" content="English" />
-        <meta name="rating" content="general" />
-        <meta name="revisit-after" content="Daily" />
-        <meta name="author" content="Learnbay" />
-        <meta name="googlebot" content="index,follow" />
-        <meta name="bingbot" content="index,follow" />
-        <meta name="expires" content="never" />
-        <meta name="coverage" content="Worldwide" />
-        <meta name="robots" content="ALL" />
+        {/* <meta name="language" content="English" /> */}
+        {/* <meta name="rating" content="general" /> */}
+        {/* <meta name="revisit-after" content="Daily" /> */}
+         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="googlebot" content="index,follow" /> */}
+        {/* <meta name="bingbot" content="index,follow" /> */}
+        {/* <meta name="expires" content="never" /> */}
+        {/* <meta name="coverage" content="Worldwide" /> */}
+        {/* <meta name="robots" content="ALL" /> */}
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"

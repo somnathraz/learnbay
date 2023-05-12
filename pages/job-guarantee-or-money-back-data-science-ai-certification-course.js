@@ -44,6 +44,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Data Science and AI Program with 100% job assistance</title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Data Science and AI Program with 100% job assistance"

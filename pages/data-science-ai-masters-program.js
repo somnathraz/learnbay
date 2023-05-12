@@ -40,6 +40,7 @@ function blockchain() {
     <>
       <Head>
         <title>Data Science and AI Master Program</title>
+        <meta name="robots" content="index, follow"/>
         <meta name="description" content="Data Science and AI Master Program" />
         <meta name="keywords" content="Data Science and AI Master Program" />
         <link

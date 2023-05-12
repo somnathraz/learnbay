@@ -39,6 +39,7 @@ export default function Home() {
           Artificial Intelligence Course in Bangalore | Artificial Intelligence
           Training in Bangalore
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Artificial Intelligence Course in Bangalore. Learnbay is Advanced Artificial Intelligence Course Training Institute in Bangalore. Artificial Intelligence course in Bangalore will enhance your career"
@@ -51,22 +52,22 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/artificial-intelligence-ai-course-training-bangalore"
         />
-        <meta name="robots" content="NOODP,NOYDIR" />
-        <meta name="HandheldFriendly" content="true" />
-        <meta name="distribution" content="global" />
+         
+         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
           content="Learnbay: Artificial Intelligence Courses Certification Training India"
         />
-        <meta name="language" content="English" />
-        <meta name="rating" content="general" />
-        <meta name="revisit-after" content="Daily" />
-        <meta name="author" content="Learnbay" />
-        <meta name="googlebot" content="index,follow" />
-        <meta name="bingbot" content="index,follow" />
-        <meta name="expires" content="never" />
-        <meta name="coverage" content="Worldwide" />
-        <meta name="robots" content="ALL" />
+        {/* <meta name="language" content="English" /> */}
+        {/* <meta name="rating" content="general" /> */}
+        {/* <meta name="revisit-after" content="Daily" /> */}
+         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="googlebot" content="index,follow" /> */}
+        {/* <meta name="bingbot" content="index,follow" /> */}
+        {/* <meta name="expires" content="never" /> */}
+        {/* <meta name="coverage" content="Worldwide" /> */}
+        {/* <meta name="robots" content="ALL" /> */}
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"

@@ -41,6 +41,7 @@ export default function Home() {
           Full-Stack Software Developer Course in Pune | Full-Stack Software
           Developer Course Training in Pune
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Full-Stack Software Developer Course in Pune. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Pune. Full-Stack Software Developer Course in Pune will enhance your career"

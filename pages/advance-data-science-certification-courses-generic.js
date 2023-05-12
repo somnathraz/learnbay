@@ -47,6 +47,7 @@ export default function Home() {
         <title>
           Advanced Data Science and AI Program with Domain Specialization
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Advanced Data Science and AI Program with Domain Specialization"

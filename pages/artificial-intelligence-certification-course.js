@@ -40,6 +40,8 @@ function blockchain() {
     <>
       <Head>
         <title>Artificial Intelligence & Machine Learning Program</title>
+        <meta name="robots" content="index, follow"/>
+
         <meta
           name="description"
           content="Artificial Intelligence & Machine Learning Program"

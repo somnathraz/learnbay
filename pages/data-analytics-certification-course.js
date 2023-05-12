@@ -42,6 +42,7 @@ function dataAnalytics() {
         <title>
           Data Analytics Certification Course With Placement Assistance
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Data Analytics Certification Course With Placement Assistance"

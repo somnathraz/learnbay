@@ -38,6 +38,7 @@ function Marketing() {
     <>
       <Head>
         <title>Marketing Analytics Program</title>
+        <meta name="robots" content="index, follow"/>
         <meta name="description" content="Marketing Analytics Program" />
         <meta name="keywords" content="Marketing Analytics Program" />
         <link

@@ -41,6 +41,7 @@ export default function Home() {
           Full-Stack Software Developer Course in Mumbai | Full-Stack Software
           Developer Course Training in Mumbai
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Full-Stack Software Developer Course in Mumbai. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Mumbai. Full-Stack Software Developer Course in Mumbai will enhance your career"

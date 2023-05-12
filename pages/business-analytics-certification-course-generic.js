@@ -42,6 +42,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Business Analytics Certification Program</title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Business Analytics Certification Program"

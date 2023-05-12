@@ -41,6 +41,7 @@ export default function Home() {
           Full-Stack Software Developer Course in Bangalore | Full-Stack
           Software Developer Course Training in Bangalore
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Full-Stack Software Developer Course in Bangalore. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Bangalore. Full-Stack Software Developer Course in Bangalore will enhance your career"

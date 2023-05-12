@@ -38,6 +38,7 @@ function Hr() {
     <>
       <Head>
         <title>HR Analytics Program</title>
+        <meta name="robots" content="index, follow"/>
         <meta name="description" content="HR Analytics Program" />
         <meta name="keywords" content="HR Analytics Program" />
         <link

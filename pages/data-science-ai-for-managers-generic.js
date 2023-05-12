@@ -48,6 +48,7 @@ export default function Home() {
           Data Science and Artificial Intelligence Program For Managers and
           Leaders
         </title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Data Science and Artificial Intelligence Program For Managers and Leaders"

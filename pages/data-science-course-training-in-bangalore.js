@@ -42,6 +42,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Best Data Science Training Courses Institute In Bangalore @Learnbay!</title>
+        <meta name="robots" content="index, follow"/>
         <meta
           name="description"
           content="Learn Best Data Science Course in Bangalore from advanced certification oriented online data science training institute with IBM Certified Trainers."
@@ -54,21 +55,21 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/data-science-course-training-in-bangalore"
         />
-        <meta name="HandheldFriendly" content="true" />
-        <meta name="distribution" content="global" />
-        <meta
+         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="distribution" content="global" /> */}
+        {/* <meta
           name="copyright"
           content="Learnbay: Data Science Courses Certification Training India"
-        />
-        <meta name="language" content="English" />
-        <meta name="rating" content="general" />
-        <meta name="revisit-after" content="Daily" />
-        <meta name="author" content="Learnbay" />
-        <meta name="googlebot" content="index,follow" />
-        <meta name="bingbot" content="index,follow" />
-        <meta name="expires" content="never" />
-        <meta name="coverage" content="Worldwide" />
-        <meta name="robots" content="ALL" />
+        /> */}
+        {/* <meta name="language" content="English" /> */}
+        {/* <meta name="rating" content="general" /> */}
+        {/* <meta name="revisit-after" content="Daily" /> */}
+         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="googlebot" content="index,follow" /> */}
+        {/* <meta name="bingbot" content="index,follow" /> */}
+        {/* <meta name="expires" content="never" /> */}
+        {/* <meta name="coverage" content="Worldwide" /> */}
+        {/* <meta name="robots" content="ALL" /> */}
         <meta
           property="og:url"
           content="https://www.learnbay.co/data-science-course-training-in-bangalore"

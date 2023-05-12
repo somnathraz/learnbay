@@ -50,6 +50,7 @@ function blockchain() {
           name="description"
           content="Advanced Data Science and AI Program with domain specialization"
         />
+        <meta name="robots" content="index, follow"/>
         <meta
           name="keywords"
           content="Advanced Data Science and AI Program with domain specialization"

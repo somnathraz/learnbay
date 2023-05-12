@@ -12,6 +12,7 @@ const ThankYou = () => {
     <div className={styles.main}>
       <Head>
         <title>Thank you!</title>
+        <meta name="robots" content="index, follow"/>
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
