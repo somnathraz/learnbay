@@ -50,6 +50,8 @@ function ThirdSection({
   point3,
   point4,
   thirdHeadSpan,
+  titleCourse,
+  brochureLink,
 }) {
   const [popups, setPopups] = useState(false);
   const [popupsB, setPopupsB] = useState(false);
@@ -79,7 +81,7 @@ function ThirdSection({
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form dataScience={dataScience} downloadBrochure />
+          <Form dataScience={dataScience} downloadBrochure titleCourse={titleCourse} brochureLink={brochureLink} />
         </div>
       </Popup>
       <section className={styles.Features}>
@@ -177,7 +179,7 @@ function ThirdSection({
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            <Form dataScience={dataScience}/>
+            <Form dataScience={dataScience} titleCourse={titleCourse} brochureLink={brochureLink}/>
           </div>
         </Popup>
         <div className={styles.FirstLeft}>

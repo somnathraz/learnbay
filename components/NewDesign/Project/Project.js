@@ -20,6 +20,8 @@ const Project = ({
   DsProject,
   Marketing,
   dataScience,
+  titleCourse,
+  brochureLink,
 }) => {
   const [popups, setPopups] = useState(false);
   const [popupsP, setPopupsP] = useState(false);
@@ -50,7 +52,7 @@ const Project = ({
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form dataScience={dataScience} downloadBrochure />
+          <Form dataScience={dataScience} downloadBrochure titleCourse={titleCourse} brochureLink={brochureLink}/>
         </div>
       </Popup>
       <ProjectPopup

@@ -19,6 +19,8 @@ function FirstSection({
   FirstRightImg,
   firstTopPara,
   srcD,
+  titleCourse,
+  brochureLink,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -68,7 +70,7 @@ function FirstSection({
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form dataScience={dataScience} downloadBrochure />
+          <Form dataScience={dataScience} downloadBrochure titleCourse={titleCourse} brochureLink={brochureLink}/>
         </div>
       </Popup>
       <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />

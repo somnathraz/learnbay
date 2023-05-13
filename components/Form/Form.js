@@ -25,6 +25,8 @@ const Form = ({
   referrals,
   syllabus,
   learning,
+  titleCourse,
+  brochureLink,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -62,6 +64,7 @@ const Form = ({
       [name]: value,
     }));
   };
+  console.log(brochureLink, titleCourse, "one comp");
 
   let endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
   if (event) {
@@ -122,9 +125,9 @@ router.pathname === "/learning-learnbay-select")
       };
       off();
     }
-    if (dataScience) {
-      router.push("/Thank-you");
-    }
+    // if (dataScience) {
+    //   router.push("/Thank-you");
+    // }
     if (router.pathname === "/learning-learnbay")
      {
       router.push("/learning-learnbay-select");
@@ -138,6 +141,12 @@ router.pathname === "/learning-learnbay-select")
     }
     if (event) {
       router.push("/event/Thank-You-event");
+    }
+    if (dataScience) {
+      router.push("/new-thank-download", {
+        pathname: "/new-thank-download",
+        query: { brochureLink:brochureLink, titleCourse:titleCourse },
+      });
     }
     if (
       router.pathname === "/organic" ||

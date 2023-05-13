@@ -28,6 +28,8 @@ function FifthSection({
   AnalyticsCertificate,
   NoCertficate,
   baFamilyTools,
+  titleCourse,
+  brochureLink,
 }) {
   const [mobile, setMobile] = useState(false);
 
@@ -61,7 +63,7 @@ function FifthSection({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form dataScience={dataScience} />
+          <Form dataScience={dataScience} titleCourse={titleCourse} brochureLink={brochureLink}/>
         </div>
       </Popup>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -70,7 +72,7 @@ function FifthSection({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups} dataScience={dataScience} />
+          <Form popup={true} setTrigger={setPopups} dataScience={dataScience} titleCourse={titleCourse} brochureLink={brochureLink}/>
         </div>
       </Popup>
       {baFamilyTools ? (

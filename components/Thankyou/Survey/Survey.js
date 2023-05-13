@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Survey.module.css";
 import Image from "next/image";
+import { PopupButton } from "@typeform/embed-react";
+
 
 const Survey = ({ topPara, para, header }) => {
   return (
@@ -9,7 +11,13 @@ const Survey = ({ topPara, para, header }) => {
         <p>{topPara}</p>
         <h4>{header}</h4>
         <p>{para}</p>
-        <button>Know More</button>
+        <PopupButton
+          id="nRGJaEAF"
+          style={{ fontSize: 18 }}
+          className="my-button"
+        >
+          Know More
+        </PopupButton>
       </div>
       <div className={styles.lineWrap}>
         <div className={styles.lineImg}>

@@ -38,7 +38,7 @@ function Marketing() {
     <>
       <Head>
         <title>Marketing Analytics Program</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta name="description" content="Marketing Analytics Program" />
         <meta name="keywords" content="Marketing Analytics Program" />
         <link
@@ -51,7 +51,12 @@ function Marketing() {
         />
       </Head>
       <main>
-        <Navbar popup={true} dataScience={true} />
+        <Navbar
+          popup={true}
+          dataScience={true}
+          titleCourse="Marketing Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -64,6 +69,8 @@ function Marketing() {
         </Popup>
         <FirstSection
           dataScience={true}
+          titleCourse="Marketing Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
           first="Tools"
           second="Tips"
           third="Technology"
@@ -72,7 +79,7 @@ function Marketing() {
           firstToparaImg="Marketing Analytics Program"
           firstHeading="Elevate your career with certification in"
           firstTopPara="Experience the future of analytics"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
         />
         <SecondSection
           fullStackReview={true}
@@ -115,6 +122,8 @@ function Marketing() {
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
+          titleCourse="Marketing Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
@@ -143,10 +152,12 @@ function Marketing() {
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
+          titleCourse="Marketing Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
           syllabus={MarketingCourse[0].syllabus}
           syllabusDesc={MarketingCourse[0].syllabusDesc}
           popupHead={MarketingCourse[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
@@ -171,6 +182,8 @@ function Marketing() {
           FeeContent6="No additional cost"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
+          titleCourse="Marketing Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -200,8 +213,13 @@ function Marketing() {
           tools="16+"
           Marketing={true}
           dataScience={true}
+          titleCourse="Marketing Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
         />
-        <BatchDetails BAFamily={true} CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
+        <BatchDetails
+          BAFamily={true}
+          CourseFeeHead="Data Science and AI Foundation Program : Batch Details"
+        />
         <FAQNew
           FaqDatas={FaqDataMarkering}
           PaymentFaqDatas={PaymentFaqDataMarkering}

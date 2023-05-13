@@ -20,7 +20,7 @@
   font-size: 30px;
 }
 .headerWrap button {
-  padding: 15px 60px;
+  padding: 15px 30px;
   font-size: 20px;
   font-weight: 600;
 }
@@ -33,6 +33,17 @@
 .greenText {
   color: green;
 }
+.btnDownload {
+  border: 0;
+    font-weight: 500;
+    color: #242424;
+    background-color: #edbb52;
+}
+
+.btnFlex {
+  display: flex;
+  gap: 30px;
+}
 @media (max-width: 481px) {
   .headerWrap {
     border-radius: 0 0 10% 10%;
@@ -41,4 +52,18 @@
   .headerWrap h1 {
     font-size: 22px;
   }
+  .btnFlex {
+    display: block;
+  }.headerWrap button {
+    margin: auto;
+    margin-top: 20px;
+  }
+.btnDownload {
+  margin: auto;
+  margin-top: 20px;
+}
+.headerWrap p {
+  margin: 0;
+  font-size: 25px;
+}
 }

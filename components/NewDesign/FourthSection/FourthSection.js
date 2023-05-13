@@ -13,6 +13,8 @@ function SyllabusNew({
   syllabus,
   dataScience,
   fullStack,
+  titleCourse,
+  brochureLink,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -59,7 +61,7 @@ function SyllabusNew({
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form dataScience={dataScience} downloadBrochure />
+          <Form dataScience={dataScience} downloadBrochure titleCourse={titleCourse} brochureLink={brochureLink}/>
         </div>
       </Popup>
 
@@ -160,6 +162,7 @@ function SyllabusNew({
             <h4>Request More Information</h4>
             <Form
               dataScience={dataScience}
+              titleCourse={titleCourse} brochureLink={brochureLink}
               fullStack={fullStack}
               syllabus={true}
             />
