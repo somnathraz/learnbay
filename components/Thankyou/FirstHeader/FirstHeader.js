@@ -7,7 +7,6 @@ import { AiOutlineDownload } from "react-icons/ai";
 import Link from "next/link";
 
 const FirstHeader = ({ donwnload, brochureLink }) => {
-  console.log(brochureLink);
   return (
     <>
       <Head>
@@ -19,7 +18,7 @@ const FirstHeader = ({ donwnload, brochureLink }) => {
         />
         <link rel="canonical" href="https://www.learnbay.co/Thank-you" />
       </Head>
-      <Navbar popup={true} dataScience={true} radio={true} />
+      <Navbar popup={true} dataScienceCounselling={true} radio={true} />
       <div className={styles.headerWrap}>
         <p>
           <b>Maximize</b> Your Career Opportunities with
@@ -32,7 +31,7 @@ const FirstHeader = ({ donwnload, brochureLink }) => {
         </h1>
         <div className={styles.btnFlex}>
           <PopupButton
-            id="nRGJaEAF"
+            id="jpqC3A6g"
             style={{ fontSize: 20 }}
             className="my-button"
           >

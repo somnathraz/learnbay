@@ -139,7 +139,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.pathname === "/Thank-you" ||
       router.pathname === "/"
     ) {
-      router.push("/Thank-you");
+      router.push("/Thank-you-counselling");
       return;
     }
   };

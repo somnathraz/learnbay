@@ -19,7 +19,7 @@ import { TbCertificate } from "react-icons/tb";
 import { FiVideo } from "react-icons/fi";
 import { BsCodeSquare } from "react-icons/bs";
 
-const KeyFeatures = ({dataScience, radio, idss, btnHide}) => {
+const KeyFeatures = ({ dataScience, radio, idss, btnHide, dataScienceCounselling, }) => {
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
     setPopups(true);
@@ -31,7 +31,7 @@ const KeyFeatures = ({dataScience, radio, idss, btnHide}) => {
   return (
     <>
       <section className={styles.Features}>
-      <Popup
+        <Popup
           trigger={popups}
           setTrigger={setPopups}
           className="popupModal"
@@ -45,7 +45,12 @@ const KeyFeatures = ({dataScience, radio, idss, btnHide}) => {
           </div>
           <div className="RightPopup">
             <h5>Download Brochure</h5>
-            <Form dataScience={dataScience} downloadBrochure radio={radio}/>
+            <Form
+              dataScience={dataScience}
+              dataScienceCounselling={dataScienceCounselling}
+              downloadBrochure
+              radio={radio}
+            />
           </div>
         </Popup>
         <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
@@ -54,7 +59,7 @@ const KeyFeatures = ({dataScience, radio, idss, btnHide}) => {
           <div className={styles.FeatureWrap}>
             <div className={styles.LeftWrap}>
               <Image
-               onClick={videoSHow}
+                onClick={videoSHow}
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whylearnbay-left-image.png"
                 width={686}
                 height={393}
@@ -186,9 +191,7 @@ const KeyFeatures = ({dataScience, radio, idss, btnHide}) => {
         </div>
       </section>
       <div className={styles.RightWrap}>
-        <h2 className={styles.h1}>
-        300+ placement and hiring partners
-        </h2>
+        <h2 className={styles.h1}>300+ placement and hiring partners</h2>
         <div className={styles.imgWrap}>
           <div className={styles.imgShowD}>
             <Image

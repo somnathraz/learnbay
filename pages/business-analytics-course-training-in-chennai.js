@@ -39,7 +39,7 @@ export default function Home() {
           Business Analytics Course in Chennai | Business Analytics Training in
           Chennai
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Business Analytics Course in Chennai. Learnbay is Advanced Business Analytics Course Training Institute in Chennai. Business Analytics course in Chennai will enhance your career"
@@ -52,8 +52,7 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/business-analytics-course-training-in-chennai"
         />
-         
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
@@ -62,7 +61,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -418,7 +417,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -426,11 +425,15 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="Professional Business Analytics Program"
           mTopPara="Professional Business Analytics Program"
           title="Business Analytics Course"
@@ -459,7 +462,7 @@ export default function Home() {
         <ProgramFee
           Fee="₹  1,10,000 + 18% GST"
           Emi="₹  10,817/month"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -470,7 +473,7 @@ export default function Home() {
             Box2h5="Exclusive Hackathons"
             box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
             Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with PRODUCT Based Companies experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -491,13 +494,13 @@ export default function Home() {
               ProgramBot32="Know more about the Learnbay Business Analytics Course in Chennai. "
               CertificationHead1="Certification process in Learnbay:"
               CertificationBot1="Learnbay is dedicated to supplying the best quality and most skilled people to the industries in Chennai. Hence, We’ve collaborated with IBM to gain more value for our learners. Learnbay has achieved a significant milestone by partnering with IBM for its Business Analytics course in Chennai. "
-              CertificationBot2="Having this credential on one's resume can help one land a job as a business analyst in the top paid MNC job profiles. Over the past 3 years, more than 10,000 candidates have been trained in a variety of Learnbay courses, and have secured rewarding careers in top startups and MAANG companies. "
+              CertificationBot2="Having this credential on one's resume can help one land a job as a business analyst in the top paid MNC job profiles. Over the past 3 years, more than 10,000 candidates have been trained in a variety of Learnbay courses, and have secured rewarding careers in top startups and PRODUCT Based Companies companies. "
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
               ModuleHead1="What will you learn in our IBM business analytics course?"
               ModuleHead2="Programming classes:"
               ModuleBot3="A series of basic Python programming classes are held for non-programmers to facilitate learning. As a result, applicants from all professional backgrounds are welcome to enroll in our IBM business analytics course. "
               ModuleHead3="Business Analytics module:"
-              ModuleBot4="The business analytics course in Chennai consists of 200 hours of live interactive classes from MAANG experts. Aside from this, students can also discuss their doubts via the discussion forum and one-on-one with mentors."
+              ModuleBot4="The business analytics course in Chennai consists of 200 hours of live interactive classes from PRODUCT Based Companies experts. Aside from this, students can also discuss their doubts via the discussion forum and one-on-one with mentors."
               ModuleBot41="Business analysts generally define, document, and analyze data to develop solutions using specific skillsets to improve business performance. This IBM business analytics course module covers all of the concepts and tools necessary to succeed as a business analyst within 6 months of duration. Throughout this course, you'll learn basic data analytics tools and techniques that are applicable in a variety of industries and business analyst job roles. You'll also learn how to use Excel to analyze data and make models, query databases with SQL, and make interesting data visualizations with Tableau."
               syllabush1="Preparatory Classes (Programming + Maths)"
               syllabusb1="6 Hours"

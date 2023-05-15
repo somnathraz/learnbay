@@ -19,7 +19,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Data Science Courses with IBM Certification - Learnbay</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="data science courses with IBM certification. Learnbay is advanced data science course training institute. Enrol in our data science course to enhance your career"
@@ -34,8 +34,8 @@ export default function Home() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
       </Head>
-      <Navbar popup={true} dataScience={true} radio={true} />
-      <FirstSection popup={true} dataScience={true} radio={true} />
+      <Navbar popup={true} dataScienceCounselling={true} radio={true} />
+      <FirstSection popup={true} dataScienceCounselling={true} radio={true} />
       <div className={styles.boxWrap}>
         <h2>Get Certified & Move Towards Your Dream Job</h2>
         <p className={styles.boxp}>
@@ -51,7 +51,7 @@ export default function Home() {
       <KeyFeatures />
       <WhyLearnbay />
       <MultiTabs />
-      <FormSection dataScience={true} />
+      <FormSection dataScienceCounselling={true} />
       <Switch />
       <CareerImpactHome />
       <LearnSupport />

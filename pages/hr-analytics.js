@@ -50,9 +50,7 @@ function Hr() {
       <main>
         <Navbar
           popup={true}
-          dataScience={true}
-          titleCourse="HR Analytics Program"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
+          dataScienceCounselling={true}
         />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -120,8 +118,8 @@ function Hr() {
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
-          titleCourse="HR Analytics Program"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
+          titleCourse="Data Science Placement Report"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
@@ -146,6 +144,7 @@ function Hr() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
         <FourthSection
+        dataScienceCounselling={true}
           serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
@@ -167,6 +166,7 @@ function Hr() {
           para3="Growing demand for data-driven HR decision-making"
         />
         <FifthSection
+        dataScienceCounselling={true}
           IBMMicrosoft={true}
           baFamilyTools={true}
           Fee="₹ 89,000 + 18% GST"
@@ -211,8 +211,8 @@ function Hr() {
           tools="16+"
           Hr={true}
           dataScience={true}
-          titleCourse="HR Analytics Program"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
+          titleCourse="Data Science Project Brochure"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         />
         <BatchDetails
           BAFamily={true}

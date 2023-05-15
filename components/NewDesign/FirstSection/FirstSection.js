@@ -5,9 +5,8 @@ import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import Image from "next/image";
 import Typed from "typed.js";
-import {MdPlayCircleFilled} from "react-icons/md"
-import VideoPopup from "../../VideoPopup/VideoPopup"
-
+import { MdPlayCircleFilled } from "react-icons/md";
+import VideoPopup from "../../VideoPopup/VideoPopup";
 
 function FirstSection({
   dataScience,
@@ -21,6 +20,7 @@ function FirstSection({
   srcD,
   titleCourse,
   brochureLink,
+  dataScienceCounselling,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -34,7 +34,6 @@ function FirstSection({
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-       
         "Guaranteed Interview Calls",
         "Capstone Project Certificate",
         "Live Interactive Classes",
@@ -70,7 +69,13 @@ function FirstSection({
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form dataScience={dataScience} downloadBrochure titleCourse={titleCourse} brochureLink={brochureLink}/>
+          <Form
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+            downloadBrochure
+            titleCourse={titleCourse}
+            brochureLink={brochureLink}
+          />
         </div>
       </Popup>
       <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
@@ -149,11 +154,14 @@ function FirstSection({
           </div>
         </div>
         <div className={styles.btnImage}>
-            <button onClick={popupShow} className={styles.fillBtn}>
-              Brochure
-              <FaDownload style={{ marginLeft: "10px" }} />
-            </button>
-          <button onClick={videoSHow}>Intro Video <FaPlayCircle style={{ marginLeft: "10px", fontSize:"22px" }} /> </button>
+          <button onClick={popupShow} className={styles.fillBtn}>
+            Brochure
+            <FaDownload style={{ marginLeft: "10px" }} />
+          </button>
+          <button onClick={videoSHow}>
+            Intro Video{" "}
+            <FaPlayCircle style={{ marginLeft: "10px", fontSize: "22px" }} />{" "}
+          </button>
         </div>
       </div>
 

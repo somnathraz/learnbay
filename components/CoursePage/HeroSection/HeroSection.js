@@ -27,6 +27,7 @@ const HeroSection = ({
   fullStack,
   fsdBrochure,
   cityText,
+  dataScienceCounselling,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -59,80 +60,74 @@ const HeroSection = ({
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
+          <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
           <Form
             popup={true}
             setTrigger={setPopups}
             fullStack={fullStack}
             dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
           />
         </div>
       </Popup>
-      
+
       <PopupD trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-            <h5>Download Brochure</h5>
+          <h5>Download Brochure</h5>
           {/* <p>Fill the below details to get started</p> */}
           <Form
             popup={true}
             setTrigger={setPopups}
             fullStack={fullStack}
             dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
             downloadBrochure
           />
         </div>
       </PopupD>
       <div className={styles.left}>
         {cityText ? (
-           <>
-           {mobile ? (
-             <p className="pTop">
-               <b className="pTopp">{mTopPara}</b> <br />
-               <br /> <b className="pTopp">{mTopPara1}</b>
-             </p>
-           ) : (
-             <p className={styles.pTop}>
-               {deskTopPara}
-               {deskTopPara1}
-             </p>
-           )}
-           {mobile ? (
-             <h1>
-               {mTitle}
-             </h1>
-           ) : (
-             <h1>
-               {title}
-             </h1>
-           )}
-           </>
+          <>
+            {mobile ? (
+              <p className="pTop">
+                <b className="pTopp">{mTopPara}</b> <br />
+                <br /> <b className="pTopp">{mTopPara1}</b>
+              </p>
+            ) : (
+              <p className={styles.pTop}>
+                {deskTopPara}
+                {deskTopPara1}
+              </p>
+            )}
+            {mobile ? <h1>{mTitle}</h1> : <h1>{title}</h1>}
+          </>
         ) : (
           <>
-        {mobile ? (
-          <p className="pTop">
-            <b className="pTopp">{mTopPara}</b> <br />
-            <br /> <b className="pTopp">{mTopPara1}</b>
-          </p>
-        ) : (
-          <p className={styles.pTop}>
-            {deskTopPara}
-            {deskTopPara1}
-          </p>
-        )}
-        {mobile ? (
-          <h1>
-            {mTitle} <span> {spanMTitleText}</span>
-          </h1>
-        ) : (
-          <h1>
-            {title} <span> {spanTitleText}</span>
-          </h1>
-        )}
-        </>
+            {mobile ? (
+              <p className="pTop">
+                <b className="pTopp">{mTopPara}</b> <br />
+                <br /> <b className="pTopp">{mTopPara1}</b>
+              </p>
+            ) : (
+              <p className={styles.pTop}>
+                {deskTopPara}
+                {deskTopPara1}
+              </p>
+            )}
+            {mobile ? (
+              <h1>
+                {mTitle} <span> {spanMTitleText}</span>
+              </h1>
+            ) : (
+              <h1>
+                {title} <span> {spanTitleText}</span>
+              </h1>
+            )}
+          </>
         )}
 
         <p className={styles.pBot}>{desc}</p>
@@ -146,7 +141,7 @@ const HeroSection = ({
           <div className={styles.btnWrapper}>
             {fsdBrochure ? (
               <button className="buttonline" onClick={popupShowD}>
-                Download Brochure 
+                Download Brochure
                 <FaDownload style={{ marginLeft: "10px" }} />
               </button>
             ) : (

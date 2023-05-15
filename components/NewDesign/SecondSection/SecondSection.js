@@ -635,22 +635,22 @@ function SecondSection({
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>
                           <div className={styles.name}>
-                            <h3>Rahul Anand</h3>
+                            <h3>Qudsia Tahniyath</h3>
                           </div>
                           <div>
                             <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/rahul.jpg"
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Qudsia.png"
                               layout="intrinsic"
                               loading="lazy"
                               width="100"
                               height="100"
-                              alt="preksha-home"
+                              alt="Qudsia"
                             />
                           </div>
                         </div>
                         <div className={styles.paraDiv}>
                           <p className={styles.para}>
-                            "Excellent training and awesome environment! I took data structures and algorithm training in LearnBay. They teach concepts clearly and solved as many programs as possible. I was getting interview calls even before course completion."
+                            "Learnbay has helped me a lot to learn data science applications in the e-commerce industry. The live class concept was really helpful in receiving proper DS training. Thanks to all my mentors and the placement team."
                           </p>
                         </div>
                       </div>
@@ -659,25 +659,22 @@ function SecondSection({
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>
                           <div className={styles.name}>
-                            <h3>Kamlesh Sahu</h3>
+                            <h3>Binit Kumar Swalsingh</h3>
                           </div>
                           <div>
                             <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/kamlesh.jpg"
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/binit.png"
                               layout="intrinsic"
                               loading="lazy"
                               width="100"
                               height="100"
-                              alt="preksha-home"
+                              alt="Binit"
                             />
                           </div>
                         </div>
                         <div className={styles.paraDiv}>
                           <p className={styles.para}>
-                            "This Course Helped me in getting 6 month SDE INTERNSHIP at
-                      AMAZON,India. The advance DSA topics are taught and
-                      explained in such a simplified manner that even a newbie
-                      can catch up very easily."
+                            "I've been with this org since Jan 4, 2023, studying Full Stack Software Development. If you have ambition and need a mentor to show you the right path to success with the right knowledge, I highly recommend this org."
                           </p>
                         </div>
                       </div>
@@ -686,26 +683,22 @@ function SecondSection({
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>
                           <div className={styles.name}>
-                            <h3>Ashutosh Chamoli</h3>
+                            <h3>Swarup Halder</h3>
                           </div>
                           <div>
                             <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Ashutosh.jpg"
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/swarup.png"
                               layout="intrinsic"
                               loading="lazy"
                               width="100"
                               height="100"
-                              alt="preksha-home"
+                              alt="Swarup"
                             />
                           </div>
                         </div>
                         <div className={styles.paraDiv}>
                           <p className={styles.para}>
-                            "I have done the DS & Algo course from Learnbay. I learned
-                      from the basics time complexity, arrays, linked list,
-                      stack to advance data structures – trees, graphs etc.
-                      Getting into product based MNC was always my dream and
-                      this course helped me achieve it."
+                            "I have enrolled in Software Development course. I had basic knowledge of DSA and since then it has been a wonderful learning experience. The teacher does an excellent job of explaining the concepts in a way that is easy to understand."
                           </p>
                         </div>
                       </div>
@@ -714,25 +707,22 @@ function SecondSection({
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>
                           <div className={styles.name}>
-                            <h3>Vishrut Vats</h3>
+                            <h3>Karanveer Bansal</h3>
                           </div>
                           <div>
                             <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Vishrut.jpg"
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/karanveer.png"
                               layout="intrinsic"
                               loading="lazy"
                               width="100"
                               height="100"
-                              alt="preksha-home"
+                              alt="Karanveer"
                             />
                           </div>
                         </div>
                         <div className={styles.paraDiv}>
                           <p className={styles.para}>
-                            "Before joining the DSA course I wasn’t confident on any of
-                      the topics. I can see the change in my coding abilities
-                      after the completion of the course! I even got interview
-                      calls from several product based companies."
+                            "I enrolled in Learnbay's full stack program. I already completed basic DSA and the live sessions were clear, with good teaching pace. They offer an easy and simple EMI option for course fees."
                           </p>
                         </div>
                       </div>
@@ -741,26 +731,22 @@ function SecondSection({
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>
                           <div className={styles.name}>
-                            <h3>Manav Jain</h3>
+                            <h3>Gowthaman Jeganathan</h3>
                           </div>
                           <div>
                             <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manav.jpg"
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Gowthaman.png"
                               layout="intrinsic"
                               loading="lazy"
                               width="100"
                               height="100"
-                              alt="preksha-home"
+                              alt="Gowthaman"
                             />
                           </div>
                         </div>
                         <div className={styles.paraDiv}>
                           <p className={styles.para}>
-                            "I attended ds algo course under Learnbay. They discussed
-                      multiple approaches to solve any problem starting from
-                      brute force to one with less complexity. Assignments, mock
-                      interviews and job referrals really helped me in my
-                      career."
+                            "I'm currently enrolled in the Full Stack course and have completed the DSA and System Design modules. The trainers' teaching method has been enlightening for me as a beginner. Highly recommend Learnbay for upskilling."
                           </p>
                         </div>
                       </div>
@@ -769,26 +755,22 @@ function SecondSection({
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>
                           <div className={styles.name}>
-                            <h3>Manish Jha</h3>
+                            <h3>Abhishek Pakhide</h3>
                           </div>
                           <div>
                             <Image
-                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manish.jpg"
+                              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Abhishek+Pakhide.png"
                               layout="intrinsic"
                               loading="lazy"
                               width="100"
                               height="100"
-                              alt="preksha-home"
+                              alt="Abhishek"
                             />
                           </div>
                         </div>
                         <div className={styles.paraDiv}>
                           <p className={styles.para}>
-                            "I took DS course under Learnbay. Irrespective of
-                      implementation languages, one can join this. Their
-                      excellent training methodology helps to learn quickly.
-                      Their mock interviews with referrals to product based
-                      companies gave a good boost to my career."
+                            "I recently finished Learnbay's Basic DSA Course online. The course is well-structured, taught by knowledgeable trainers with a focus on interview preparation and data structure concepts. It benefits both novices and experts."
                           </p>
                         </div>
                       </div>

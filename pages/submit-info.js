@@ -12,27 +12,30 @@ const sumbit = () => {
     <div>
       <Head>
         <title>Apply For Counselling</title>
-        <meta name="robots" content="index, follow"/>
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <meta name="robots" content="index, follow" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <link rel="canonical" href="https://www.learnbay.co/submit-info" />
       </Head>
-      <Navbar popup={true} radio={true}/>
+      <Navbar popup={true} radio={true} />
       <div className={styles.Wrapper}>
-      <div className={styles.left}>
-        <h6>Apply For Counselling</h6>
-        <Form   dataScience={true} radio={true}/>
+        <div className={styles.left}>
+          <h6>Apply For Counselling</h6>
+          <Form dataScienceCounselling={true} radio={true} />
+        </div>
+        <div className={styles.right}>
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Submit-info.png"
+            width="441"
+            height="600"
+            layout="intrinsic"
+          />
+        </div>
       </div>
-      <div className={styles.right}>
-        <Image
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Submit-info.png"
-          width="441"
-          height="600"
-          layout="intrinsic"
-        />
-      </div>
-      </div>
-       
-        {/* <OfferPopup offer={false} />                       */}
+
+      {/* <OfferPopup offer={false} />                       */}
       <Footer />
     </div>
   );

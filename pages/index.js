@@ -19,7 +19,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Data Science Courses with IBM Certification - Learnbay</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="data science courses with IBM certification. Learnbay is advanced data science course training institute. Enrol in our data science course to enhance your career"
@@ -34,14 +34,14 @@ export default function Home() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
       </Head>
-      <Navbar popup={true} dataScience={true} radio={true} />
+      <Navbar popup={true} dataScienceCounselling={true} radio={true} />
 
       <FirstSection
         first="Tools"
         second="Tips"
         third="Technology"
         popup={true}
-        dataScience={true}
+        dataScienceCounselling={true}
         radio={true}
       />
       <HomeLine />
@@ -55,18 +55,16 @@ export default function Home() {
           <BoxShape />
         </div>
       </div>
-      <Course         popup={true}
-        dataScience={true}
-        radio={true}/>
+      <Course popup={true} dataScienceCounselling={true} radio={true} />
       <Switch />
-      <KeyFeatures  popup={true}
+      <KeyFeatures
+        popup={true}
         idss="wSB-phYhG10"
-        dataScience={true}
-        radio={true}/>
+        dataScienceCounselling={true}
+        radio={true}
+      />
       <Testimonial />
-      <ContactUs popup={true}
-        dataScience={true}
-        radio={true}/>
+      <ContactUs popup={true} dataScienceCounselling={true} radio={true} />
       <SeventhSection />
       <OfferPopup offer={false} />
       <Footer />

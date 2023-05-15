@@ -41,7 +41,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Full Stack Software Development Course - Learnbay</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -77,10 +77,10 @@ export default function Home() {
           fullStack={true}
           deskTopPara="Full Stack Software Development Course"
           mTopPara="Full Stack Software Development Course"
-          mTitle="Ace Your Coding Interview at MAANG and"
-          spanMTitleText="Achieve Your Dream Job"
-          title="Ace Your Coding Interview at MAANG and"
-          spanTitleText=" Achieve Your Dream Job"
+          mTitle="Ace Your Coding Interview at"
+          spanMTitleText="PRODUCT Based Companies"
+          title="Ace Your Coding Interview at"
+          spanTitleText=" PRODUCT Based Companies"
           desc="Best Interview Prep Course for Top Product Based MNCs"
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png"
           width="791"
@@ -103,7 +103,7 @@ export default function Home() {
         <div className="Feature" id="Feature">
           <BoxShape
             title="Why Enroll In Full Stack Software Development Course?"
-            Box1h5="Crack MAANG Interview"
+            Box1h5="Crack Interviews at MNC's"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
             box2desc="Guided by mentors working in MNCs to support you for the tech interviews"

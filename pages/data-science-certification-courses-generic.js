@@ -42,7 +42,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Data Science Certification Course Foundation Program</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Data Science Certification Course Foundation Program. Learnbay is best data science certification course training institute. Our online data science certification course will enhance your career"
@@ -110,7 +110,7 @@ export default function Home() {
             Box2h5="Exclusive Hackathons"
             box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
             Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with PRODUCT Based Companies experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from starters, directly from relevant establishments."
           />

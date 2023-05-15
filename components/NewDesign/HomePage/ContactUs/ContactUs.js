@@ -4,7 +4,7 @@ import { AiOutlineRise } from "react-icons/ai";
 import { BiBriefcaseAlt2 } from "react-icons/bi";
 import FormInline from "../../../FormSection/FormInline";
 
-function ContactUs({ dataScience }) {
+function ContactUs({ dataScience, dataScienceCounselling }) {
   return (
     <section className={styles.ContactUs}>
       <div className={styles.LeftSide}>
@@ -12,7 +12,8 @@ function ContactUs({ dataScience }) {
           Looking to upskill? <br />
         </h2>
         <h2 className={styles.h1}>
-        <span className={styles.h1Span}>Start with India's #1</span><br />
+          <span className={styles.h1Span}>Start with India's #1</span>
+          <br />
           <span className={styles.h1Span}>professional courses</span>
         </h2>
         <div className={styles.boxSection}>
@@ -33,8 +34,14 @@ function ContactUs({ dataScience }) {
         </div>
       </div>
       <div className={styles.RightSide}>
-        <p className={styles.NormalPForm}>Apply for Career <span className={styles.span}>Counselling</span></p>
-        <FormInline dataScience={dataScience} radio={true} />
+        <p className={styles.NormalPForm}>
+          Apply for Career <span className={styles.span}>Counselling</span>
+        </p>
+        <FormInline
+          dataScience={dataScience}
+          dataScienceCounselling={dataScienceCounselling}
+          radio={true}
+        />
       </div>
     </section>
   );

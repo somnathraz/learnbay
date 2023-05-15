@@ -27,6 +27,7 @@ const Form = ({
   learning,
   titleCourse,
   brochureLink,
+  dataScienceCounselling,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -64,8 +65,6 @@ const Form = ({
       [name]: value,
     }));
   };
-  console.log(brochureLink, titleCourse, "one comp");
-
   let endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
   if (event) {
     endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
@@ -143,10 +142,13 @@ router.pathname === "/learning-learnbay-select")
       router.push("/event/Thank-You-event");
     }
     if (dataScience) {
-      router.push("/new-thank-download", {
-        pathname: "/new-thank-download",
-        query: { brochureLink:brochureLink, titleCourse:titleCourse },
+      router.push("/Thank-you", {
+        pathname: "/Thank-you",
+        query: {titleCourse:titleCourse, brochureLink:brochureLink },
       });
+    }
+    if (dataScienceCounselling) {
+      router.push("/Thank-you-counselling");
     }
     if (
       router.pathname === "/organic" ||

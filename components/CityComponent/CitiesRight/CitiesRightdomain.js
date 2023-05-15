@@ -313,7 +313,7 @@ const CitiesRight = ({
               </li>
               <li>You can choose weekdays or weekends to take the course</li>
               <li>
-                Experts from MNCs and MAANG assist in online and offline project
+              Experts working at MNC's and Product Based Companies will assist you in online and offline project
                 sessions
               </li>
               <h3>

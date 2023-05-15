@@ -476,9 +476,10 @@ const CitiesRight = ({
               <li>
                 <b>Interview Preparation:</b> Learnbay trainers will equip you
                 with the latest and in-demand interview Q&A to confidently face
-                the tricky MAANG interviews. Also, by participating in several
-                mock interviews, our professionals will assist you in improving
-                your interview success rate and accelerating the hiring process.
+                the tricky PRODUCT Based Companies interviews. Also, by
+                participating in several mock interviews, our professionals will
+                assist you in improving your interview success rate and
+                accelerating the hiring process.
               </li>
             </ol>
             <h2>
@@ -553,7 +554,9 @@ const CitiesRight = ({
               </h3>
               <li>250+ hours of rigorous training</li>
               <li>Assured Interview calls</li>
-              <li>Premium mentoring by MAANG and MNC experts</li>
+              <li>
+                Premium mentoring by PRODUCT Based Companies and MNC experts
+              </li>
               <li>2 years flexible subscription of learning materials</li>
               <li>12+ real-time industrial projects</li>
             </ul>
@@ -717,11 +720,12 @@ const CitiesRight = ({
                 trainers and industry experts. And you can choose your
                 instructor or change your instructor, depending on your personal
                 preferences. Learnbay also offers doubt-clearing sessions with
-                industry-based MAANG experts and data scientists. Keeping the
-                preferences of learners in mind, Learnbay offers online as well
-                as hybrid modes of teaching. Here you can opt and use Learnbay
-                LMS on your mobile device, which will help you learn and get
-                updated with the daily course on the go.
+                industry-based PRODUCT Based Companies experts and data
+                scientists. Keeping the preferences of learners in mind,
+                Learnbay offers online as well as hybrid modes of teaching. Here
+                you can opt and use Learnbay LMS on your mobile device, which
+                will help you learn and get updated with the daily course on the
+                go.
               </li>{" "}
               <br />
               <li>
@@ -1208,11 +1212,12 @@ const CitiesRight = ({
               subscription program. We have collaborated with IBM to provide a{" "}
               <b>data science certification course</b>. They are globally
               recognized and guarantee 100% job assistance. One-on-one,
-              personalized, live doubt-clearing sessions with skilled MAANG data
-              scientists make Learnbay different from the rest. Its unique cloud
-              lab feature provides access to live Data science projects from
-              MNCs and even offers guidance from industrial leads. This way, you
-              can learn data science without leaving your job.
+              personalized, live doubt-clearing sessions with skilled PRODUCT
+              Based Companies data scientists make Learnbay different from the
+              rest. Its unique cloud lab feature provides access to live Data
+              science projects from MNCs and even offers guidance from
+              industrial leads. This way, you can learn data science without
+              leaving your job.
             </p>
             <p>
               Learners at Learnbay get a list of specialized domains. To work as
@@ -1368,9 +1373,9 @@ const CitiesRight = ({
             <ol type="1">
               <li>
                 <b>Classroom Session </b>: What’s better than getting assistance
-                both in online and offline mode? Experts from MAANG and MNCs
-                help you throughout the process. You can also attend classroom
-                sessions.{" "}
+                both in online and offline mode? Experts from PRODUCT Based
+                Companies and MNCs help you throughout the process. You can also
+                attend classroom sessions.{" "}
               </li>
               <li>
                 <b>One-on-One Dedication </b>: Every learner gets a live
@@ -1524,8 +1529,8 @@ const CitiesRight = ({
                 This course covers all the skills a data scientist must possess.{" "}
               </li>
               <li>
-                The MAANG and MNC experts guide the working professionals having
-                experience in any domain.
+                The PRODUCT Based Companies and MNC experts guide the working
+                professionals having experience in any domain.
               </li>
               <li>The trainers have 8+ years of experience.</li>
               <li>
@@ -1647,7 +1652,8 @@ const CitiesRight = ({
               <li>Guaranteed Job Referrals</li>
               <li>100% Live Online Classes</li>
               <li>
-                Hassle-free and tailored training for MAANG Company interviews
+                Hassle-free and tailored training for PRODUCT Based Companies
+                Company interviews
               </li>
               <li>
                 A successful career transition even with 0 coding experience
@@ -1973,7 +1979,9 @@ const CitiesRight = ({
               </h3>
               <li>250+ hours of rigorous training</li>
               <li>Assured Interview calls</li>
-              <li>Premium mentoring by MAANG and MNC experts</li>
+              <li>
+                Premium mentoring by PRODUCT Based Companies and MNC experts
+              </li>
               <li>2 years flexible subscription of learning materials</li>
               <li>12+ real-time industrial projects</li>
             </ul>
@@ -2634,7 +2642,7 @@ const CitiesRight = ({
             <p>
               <b>Interview Preparation:</b> Learnbay trainers will equip you
               with the latest and in-demand interview Q&A to confidently face
-              the tricky MAANG interviews.
+              the tricky PRODUCT Based Companies interviews.
             </p>
             <p>
               <b>Mock Interviews:</b> By participating in several mock

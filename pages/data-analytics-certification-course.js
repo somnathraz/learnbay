@@ -63,9 +63,7 @@ function dataAnalytics() {
       <main>
         <Navbar
           popup={true}
-          dataScience={true}
-          titleCourse="Data Analytics Program"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
+          dataScienceCounselling={true}
         />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -132,8 +130,8 @@ function dataAnalytics() {
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
-          titleCourse="Data Analytics Program"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
+          titleCourse="Data Science Placement Report"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
@@ -158,6 +156,7 @@ function dataAnalytics() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
         <FourthSection
+        dataScienceCounselling={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           serviceBasic={true}
@@ -179,6 +178,7 @@ function dataAnalytics() {
           para3="Abundance of positions with Data Analysis"
         />
         <FifthSection
+        dataScienceCounselling={true}
           dataAnalyticsCertificate={true}
           Fee="₹ 79,000 + 18% GST"
           FeeEmi="₹ 7,768/month"
@@ -222,24 +222,13 @@ function dataAnalytics() {
           titleCourse="Data Analytics Program"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
-        {/* <SixthSection
-          point1="Practise with Latest Tools"
-          point2="8 Advanced Projects"
-          point3="2 Capstone Projects"
-          point4="Designed by Industry Experts"
-          FoundationDSProject={true}
-          CourseFeeHead="Data Analytics Program : Batch Details"
-          dataScience={true} titleCourse="Data Analytics Program"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-        /> */}
         <Project
           project="10+ Projects"
           tools="16+"
           DsProject={true}
           dataScience={true}
-          titleCourse="Data Analytics Program"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
+          titleCourse="Data Science Project Brochure"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         />
         <FAQNew
           FaqDatas={FaqData6}

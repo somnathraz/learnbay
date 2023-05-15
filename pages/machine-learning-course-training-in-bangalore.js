@@ -40,7 +40,7 @@ export default function Home() {
           Machine Learning Course in Bangalore | Machine Learning Training in
           Bangalore
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Machine learning course in Bangalore. Learnbay is Advanced Machine Learning Course Training Institute in Bangalore. Machine Learning course in Bangalore will enhance your career"
@@ -54,7 +54,7 @@ export default function Home() {
           href="https://www.learnbay.co/machine-learning-course-training-in-bangalore"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
@@ -63,7 +63,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -415,7 +415,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -423,18 +423,22 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="Machine Learning Course For Experienced Tech Professionals"
           mTopPara="Machine Learning Course For Experienced Tech Professionals"
           mTitle="Machine Learning Course "
           spanMTitleText="Training In Bangalore"
           title="Machine Learning Course"
           spanTitleText="Training In Bangalore"
-          desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+          desc="Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           width="900"
           height="762"
@@ -456,7 +460,7 @@ export default function Home() {
         <ProgramFee
           Emi="₹ 10,816/month"
           Fee="₹ 1,10,000 + 18% GST"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -467,7 +471,7 @@ export default function Home() {
             Box2h5="Domain Focused"
             box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
             Box3h5="Premium Mentoring"
-            box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
+            box3desc="Enjoy and learn from mock interviews and CV writing workshops with PRODUCT Based Companies AI/ML industry experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -479,7 +483,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               ProgramBot1="Enroll in Learnbay's tech domain-specific machine learning course in Bangalore as it provides learners a wide range of domain specialization. This Machine Learning and training program is one of the best options for working professionals living across Bangalore."
-              ProgramBot2="We conduct interactive classes guided by ML experts from MAANG companies. We give industrial exposure with Real-time and capstone projects so that students can learn from the real world. Students get 6 machine learning IBM certificates."
+              ProgramBot2="We conduct interactive classes guided by ML experts from PRODUCT Based Companies companies. We give industrial exposure with Real-time and capstone projects so that students can learn from the real world. Students get 6 machine learning IBM certificates."
               ProgramHead3="Why Should You Choose This ML Training course in Bangalore?"
               ProgramBot3="With this professional machine learning certification, you get vivid options of domains to choose from and specialize in."
               ProgramBot31="It ensures smooth live classes and access to any batch/instructor at learners' convenience, along with a 3-year Flexi pass."
@@ -520,7 +524,7 @@ export default function Home() {
               CertificationHead1="Six Machine learning IBM certificates by Paying a Single Machine Learning course fee"
               CertificationBot1="On the course completion, you get separate machine learning skill certificates from tech giant IBM for tools and skills like Deep Learning, Tensorflow, machine learning with python, capstone project certifications, etc. But the most significant achievement becomes the IBM ML project experience certification by completing two fresh capstone projects."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Advanced-AI-ML.jpeg"
-              ModuleBot1="Learnbay Machine learning course in Bangalore contains 300 hrs of hassle-free live classes from MAANG experts. With 18+ comprehensively planned machine learning modules, students can easily achieve advanced industrial knowledge. Not only that, each of the modules owns such a sequence of submodules from basic to expert level so that a complete novice can also utilize the course with 100% ROI."
+              ModuleBot1="Learnbay Machine learning course in Bangalore contains 300 hrs of hassle-free live classes from PRODUCT Based Companies experts. With 18+ comprehensively planned machine learning modules, students can easily achieve advanced industrial knowledge. Not only that, each of the modules owns such a sequence of submodules from basic to expert level so that a complete novice can also utilize the course with 100% ROI."
               ModuleBot2="Learnbay supports students to learn the basics of coding for weak programmers. Our faculties regularly update coding assignments, and we even conduct webinars and hackathons for students to learn collaboratively. Based on the current industrial trends, the industrial ML course by Learnbay has kept its focus on tools and skills like big data analytics, data structure & algorithm, NLP, time- analytics, etc."
               syllabush1="Preparatory Classes (Programming + Maths)"
               syllabusb1="6 Hours"

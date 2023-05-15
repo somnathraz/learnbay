@@ -10,7 +10,7 @@ import { useRouter } from "next/router";
 import Tabs from "../Tabs/Tabs";
 import FormCareer from "../CareerPortal/Form/Form";
 
-const Navbar = ({ radio, event, dataScience, fullStack, eventO, careerForm,   titleCourse,
+const Navbar = ({ radio, event, dataScience, fullStack, eventO, careerForm,   dataScienceCounselling,
   brochureLink, }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
@@ -59,7 +59,7 @@ const Navbar = ({ radio, event, dataScience, fullStack, eventO, careerForm,   ti
             radio={radio}
             fullStack={fullStack}
             dataScience={dataScience}
-            titleCourse={titleCourse} brochureLink={brochureLink}
+            dataScienceCounselling={dataScienceCounselling}
           />
           )}
         </div>

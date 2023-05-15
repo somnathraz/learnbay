@@ -40,7 +40,7 @@ export default function Home() {
           Artificial Intelligence Course in Pune | Artificial Intelligence
           Training in Pune
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Artificial Intelligence Course in Pune. Learnbay is Advanced Artificial Intelligence Course Training Institute in Pune. Artificial Intelligence course in Pune will enhance your career"
@@ -54,7 +54,7 @@ export default function Home() {
           href="https://www.learnbay.co/artificial-intelligence-ai-course-training-pune"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
@@ -63,7 +63,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -426,7 +426,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -434,11 +434,15 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="IBM Certified AI training With Domain Specialization and 100% job assistance"
           mTopPara="IBM Certified AI training With Domain Specialization and 100% job assistance"
           title="Artificial Intelligence (AI) Course Training in Pune"
@@ -467,7 +471,7 @@ export default function Home() {
         <ProgramFee
           Emi="₹ 10,816/month"
           Fee="₹ 1,10,000 + 18% GST"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -478,7 +482,7 @@ export default function Home() {
             Box2h5="Domain Destined"
             box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 12+ electives."
             Box3h5="Premium Mentoring"
-            box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
+            box3desc="Utilize the advantage of mock interviews and project handling training with PRODUCT Based Companies Data Science Leads."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -489,7 +493,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramBot1="Learnbay is a leading institute for Artificial Intelligence (AI) training in Pune. Our faculties are industry experts with more than 8 years of  MAANG company work experience. Learnbay faculties always work hard for students' growth and career development. We even provide a wide range of Domain electives, assuring students a Full-stack AI expertise in any chosen domain. Learnbay Artificial intelligence courses in Pune teach students with real-time MNC and capstone projects, and all our courses are certified by IBM. Our guides are always ready to solve any queries of students with the most precise solutions so that students do not face any barriers during training."
+              ProgramBot1="Learnbay is a leading institute for Artificial Intelligence (AI) training in Pune. Our faculties are industry experts with more than 8 years of  PRODUCT Based Companies company work experience. Learnbay faculties always work hard for students' growth and career development. We even provide a wide range of Domain electives, assuring students a Full-stack AI expertise in any chosen domain. Learnbay Artificial intelligence courses in Pune teach students with real-time MNC and capstone projects, and all our courses are certified by IBM. Our guides are always ready to solve any queries of students with the most precise solutions so that students do not face any barriers during training."
               ProgramHead3="Why is Learnbay the best Artificial Intelligence (AI) training course provider in Pune?"
               ProgramBot3="Whether you are a techie or non-techie, you can still learn Artificial Intelligence at Learnbay. There has been a lot of improvement in Artificial Intelligence, but there are very few skilled Artificial intelligence experts who can work along with the changes that Artificial intelligence has brought to a particular domain. So becoming an Artificial intelligence expert is a big plus for a career for both techies and non-techies."
               ProgramBot31="Learnbay offers a variety of Artificial Intelligence courses to choose from, even if you just graduated or have been working professionally for 4+ years. Learnbay has a course for all and every Domain."
@@ -529,7 +533,7 @@ export default function Home() {
               Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
               CertificationBot1="All of the Learnbay Artificial intelligence courses in Pune are IBM certified. So, there is no question about the course authentication. Students get certificates for completing Artificial intelligence course training along with micro-certificates for working with industry compliance tools like Python, Deep learning with Tensorflow, and many more. Learnbay IBM certificates for Artificial intelligence course training depend on the course you choose. You can avail 1 to 8 certificates by IBM. Learnbay even offers certificates for working on capstone projects. This kind of project experience certificate is also issued by IBM."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Managers-4.jpeg"
-              ModuleBot1="Learnbay Artificial intelligence training in Pune consists of 400hrs of hassle-free classes led by MAANG experts. Our foundational and advanced program has around 200+ classes. Here you get 18+ AI modules and tools."
+              ModuleBot1="Learnbay Artificial intelligence training in Pune consists of 400hrs of hassle-free classes led by PRODUCT Based Companies experts. Our foundational and advanced program has around 200+ classes. Here you get 18+ AI modules and tools."
               ModuleBot2="Each of the AI courses offered by Learnbay are planned with different modules as per the consented career stage of the professionals. All of the courses are equipped with properly balanced theoretical and practical sub-modules. The most important modules that Learnbay artificial intelligence course covers are SQL, Pandas, Numpy, Data visualization, NP, artificial neural network, etc. Keeping the non-programmer huddle about programming in mind, Learnbay AI courses also offer basic programming sub-modules."
               syllabush1="Preparatory Classes (Programming + Maths)"
               syllabusb1="6 Hours"

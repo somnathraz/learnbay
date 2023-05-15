@@ -38,7 +38,7 @@ export default function Home() {
         <title>
           Data Science Course in Canada | Data Science Training in Canada
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Data science course in Canada. Learnbay is Advanced Data Science Course Training Institute in Canada. Data science course in Canada will enhance your career"
@@ -91,7 +91,7 @@ export default function Home() {
           href="https://www.learnbay.co/data-science-course-training-in-canada"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
@@ -100,7 +100,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -458,7 +458,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -466,11 +466,15 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="Foundational and Advance Job-ready Program"
           mTopPara="Foundational and Advance Job-ready Program"
           title="Data Science Course in Canada -"
@@ -499,7 +503,7 @@ export default function Home() {
         <ProgramFee
           Fee="₹99,000 + 18% GST"
           Emi="₹ 9,735/month"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <script
           type="application/ld+json"
@@ -540,7 +544,7 @@ export default function Home() {
             Box2h5="Domain Focused"
             box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 8+ electives."
             Box3h5="Premium Mentoring"
-            box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
+            box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with PRODUCT Based Companies expertise."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />

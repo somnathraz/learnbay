@@ -14,6 +14,17 @@
   text-align: center;
 }
 
+.FlexInput {
+  display: flex;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.btnRadio {
+  width: 18px;
+}
+
 .h11 {
   color: #0072bc;
   margin: 5px 0px 20px 0px;
@@ -57,6 +68,18 @@
   background: #fff;
   color: #0072bc;
   border: 1px solid #0072bc;
+}
+
+.boxBlueB {
+  background: #0072BC;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.boxBlueB .BoxP {
+  font-size: 22px;
+  color: #fff;
+  margin: 0;
 }
 
 .ques {
@@ -343,10 +366,44 @@
   line-height: 26px;
   text-align: center;
 }
+
+.syllabusWrapper {
+  display: block;
+  margin-top: 25px;
+}
+.Tab {
+  display: flex;
+  gap: 20px;
+}
+.ActiveSpan {
+  background-color: #0072BC1A;
+  color: #0072BC;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-bottom: 1px solid #000;
+  font-weight: 600;
+}
+
+.span {
+  padding: 10px 30px;
+  font-size: 20px;
+}
 @media (max-width: 1281px) {
   .Syllabus {
     margin: 70px 20px 0px 20px;
   }
+  .FlexInput {
+    display: flex;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .Tab {
+  height: 55px;
+  gap: 0;
+  }
+  
   .PIcons {
     font-size: 22px;
     margin-right: 10px;

@@ -40,7 +40,7 @@ export default function Home() {
           Machine Learning Course in Mumbai | Machine Learning Training in
           Mumbai
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Machine learning course in Mumbai. Learnbay is Machined Machine Learning Course Training Institute in Mumbai. Machine Learning course in Mumbai will enhance your career"
@@ -54,7 +54,7 @@ export default function Home() {
           href="https://www.learnbay.co/machine-learning-course-training-in-mumbai"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         {/* <meta
           name="copyright"
@@ -63,7 +63,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -419,7 +419,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -427,18 +427,22 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="Industrial project-based job-oriented training"
           mTopPara="Industrial project-based job-oriented training"
           title="Machine Learning Course Training in Mumbai"
           mTitle="Machine Learning Course Training in Mumbai"
           spanMTitleText="Advance Program"
           spanTitleText="Advance Program"
-          desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+          desc="Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           width="900"
           height="762"
@@ -460,7 +464,7 @@ export default function Home() {
         <ProgramFee
           Emi="₹ 10,816/month"
           Fee="₹ 1,10,000 + 18% GST"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -471,7 +475,7 @@ export default function Home() {
             Box2h5="Domain Focused"
             box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
             Box3h5="Premium Mentoring"
-            box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
+            box3desc="Enjoy and learn from mock interviews and CV writing workshops with PRODUCT Based Companies AI/ML industry experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -564,7 +568,7 @@ export default function Home() {
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
-              JobBot1="Our aim is to provide assured placement to all of our students. But we believe that only a set of referrals is not the actual job assistance that our students need. Even that can’t assure the placement success rate. We provide end-to-end machine learning job interview sessions by MAANG ML experts. Such sessions are divided into several company-specific mock interviews, 1-on-1 resume help, and ML project portfolio guidance. We promise a 100% ML interview guarantee. "
+              JobBot1="Our aim is to provide assured placement to all of our students. But we believe that only a set of referrals is not the actual job assistance that our students need. Even that can’t assure the placement success rate. We provide end-to-end machine learning job interview sessions by PRODUCT Based Companies ML experts. Such sessions are divided into several company-specific mock interviews, 1-on-1 resume help, and ML project portfolio guidance. We promise a 100% ML interview guarantee. "
               JobBot5="We have an active recruitment channel with 250+ top hiring partners across Mumbai and all over India. A few of the big names are Fractal, Accenture, SAP, etc."
               ProjectsBot1="Keeping the high significance of real-world industrial experience in achieving a lucrative ML job, we have included 15-live MNC projects and 2 fresh idea-driven capstone projects in the artificial intelligence and machine learning course in Mumbai. You can choose your projects as per your domain expertise. The project is thoroughly expert-guided. So you can easily learn the industry-specific ML best practices, tips, and tricks directly from MNC ML experts. Premium Cloud lab access further helps you observe top MNCs' data handling and analytical processes."
               src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png"

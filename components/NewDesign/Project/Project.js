@@ -22,6 +22,9 @@ const Project = ({
   dataScience,
   titleCourse,
   brochureLink,
+  Software,
+  Cloud,
+  BlockChain,
 }) => {
   const [popups, setPopups] = useState(false);
   const [popupsP, setPopupsP] = useState(false);
@@ -52,7 +55,12 @@ const Project = ({
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form dataScience={dataScience} downloadBrochure titleCourse={titleCourse} brochureLink={brochureLink}/>
+          <Form
+            dataScience={dataScience}
+            downloadBrochure
+            titleCourse={titleCourse}
+            brochureLink={brochureLink}
+          />
         </div>
       </Popup>
       <ProjectPopup
@@ -1164,6 +1172,844 @@ const Project = ({
                       setProjectTitle("Marketing Domain");
                       setDesc(
                         "Walmart used Hadoop and Hive to analyze customer data and identify patterns in customer behavior, enabling them to optimize their marketing campaigns and increase sales."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+            </>
+          ) : (
+            ""
+          )}
+          {Software ? (
+            <>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Design Google Drive</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/Google.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Design a personal Google Drive for secure file storage,
+                    excluding features like starred files, recently-accessed
+                    files, and...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Design Google Drive");
+                      setProjectTitle("");
+                      setDesc(
+                        "Design a personal Google Drive for secure file storage, excluding features like starred files, recently-accessed files, and sharing entities. The focus is on creating a functional platform dedicated to individual storage needs."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hr-domain-img.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Design Tinder</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/tinder.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Design Tinder with the ability to undo left swipes, Super
+                    Like for increased visibility, and real-time match
+                    notifications...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Design Tinder");
+                      setProjectTitle("");
+                      setDesc(
+                        "Design Tinder with the ability to undo left swipes, Super Like for increased visibility, and real-time match notifications. Excludes idle notifications and restricts undo to the last swipe."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Marketing-domain-img.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Design Facebook News Feed</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/facebook.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Design the core functionality of a Facebook-like news feed,
+                    including real-time loading and updating, as well as
+                    status...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setProjectTitle("");
+                      setTitle("Design Facebook News Feed");
+                      setDesc(
+                        "Design the core functionality of a Facebook-like news feed, including real-time loading and updating, as well as status update posting. Emphasis on feed generation, refreshing, and incorporating new posts, while disregarding API specifics and content details."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Design Airbnb</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/airbnb.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Allow multiple users to view the same property concurrently
+                    for a specific date range. However, once a user initiates
+                    the...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Design Airbnb");
+                      setProjectTitle("");
+                      setDesc(
+                        "Allow multiple users to view the same property concurrently for a specific date range. However, once a user initiates the booking process, the property's availability should be updated to reflect that it is no longer available for those dates if another user attempts to book it."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Sales-domain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Design Slack</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/slack.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Design the core messaging functionality for both one-on-one
+                    and group channels within an organization, excluding
+                    additional...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Design Slack");
+                      setProjectTitle("");
+                      setDesc(
+                        "Design the core messaging functionality for both one-on-one and group channels within an organization, excluding additional features such as channel settings. Focus on facilitating communication in a streamlined manner."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Design Reddit</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/reddit.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Design the Reddit API, focusing on core functionalities for
+                    seamless interaction with the platform. This includes
+                    features...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setProjectTitle("");
+                      setTitle("Design Reddit");
+                      setDesc(
+                        "Design the Reddit API, focusing on core functionalities for seamless interaction with the platform. This includes features such as user authentication, post retrieval, commenting, voting, and subreddit management. Excludes advanced features and non-essential functionalities."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Design BookMyShow</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/bookmy+show.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Develop an intuitive and efficient API for BookMyShow that
+                    offers user authentication, comprehensive movie/show
+                    listings, seat...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Design BookMyShow");
+                      setProjectTitle("");
+                      setDesc(
+                        "Develop an intuitive and efficient API for BookMyShow that offers user authentication, comprehensive movie/show listings, seat selection, secure booking, streamlined payment processing, and convenient ticket management. "
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+            </>
+          ) : (
+            ""
+          )}
+          {Cloud ? (
+            <>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>PayPal</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/paypal.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="200"
+                      height="30"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    In this project, infrastructure monitoring is set up using
+                    Nagios to provide visibility and alerts on critical system
+                    resources.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Infrastructure Monitoring with Nagios");
+                      setProjectTitle("PayPal");
+                      setDesc(
+                        "In this project, infrastructure monitoring is set up using Nagios to provide visibility and alerts on critical system resources."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hr-domain-img.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Amazon</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/amazon.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="200"
+                      height="41"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    This project involves building a continuous integration and
+                    delivery pipeline using Jenkins and Kubernetes for automated
+                    application deployment.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle(
+                        "Automated CI/CD Pipeline using Jenkins and Kubernetes"
+                      );
+                      setProjectTitle("Amazon");
+                      setDesc(
+                        "This project involves building a continuous integration and delivery pipeline using Jenkins and Kubernetes for automated application deployment."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Marketing-domain-img.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Spotify</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/spotify.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="200"
+                      height="41"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    This project involves containerizing applications using
+                    Docker, enabling efficient and consistent application
+                    deployment.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setProjectTitle("Containerization with Docker");
+                      setTitle("Spotify");
+                      setDesc(
+                        "This project involves containerizing applications using Docker, enabling efficient and consistent application deployment."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Netflix</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/netflix+(1).png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    The aim of this project is to manage infrastructure
+                    configurations using Ansible, enabling efficient and
+                    effective configuration management.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Configuration Management with Ansible");
+                      setProjectTitle("Netflix");
+                      setDesc(
+                        "The aim of this project is to manage infrastructure configurations using Ansible, enabling efficient and effective configuration management."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Sales-domain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Uber</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/uber.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="41"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    The objective of this project is to build an ELK stack for
+                    efficient and effective monitoring and logging of
+                    applications.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Monitoring and Logging with ELK Stack");
+                      setProjectTitle("Uber");
+                      setDesc(
+                        "The objective of this project is to build an ELK stack for efficient and effective monitoring and logging of applications."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Airbnb</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/airbnb.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="100"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    In this project, infrastructure is automated using Terraform
+                    to create, manage and update infrastructure resources.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setProjectTitle("");
+                      setTitle("Infrastructure Automation using Terraform");
+                      setDesc(
+                        "In this project, infrastructure is automated using Terraform to create, manage and update infrastructure resources."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Walmart</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Walmart-logo.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="200"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    The objective of this project is to use JMeter to conduct
+                    performance testing on applications and infrastructure,
+                    ensuring optimal performance and scalability.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Performance Testing with JMeter");
+                      setProjectTitle("Walmart");
+                      setDesc(
+                        "The objective of this project is to use JMeter to conduct performance testing on applications and infrastructure, ensuring optimal performance and scalability."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+            </>
+          ) : (
+            ""
+          )}
+          {BlockChain ? (
+            <>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>IBM's TradeLens</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/1-1.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  Supply chain management platform that enables secure and transparent sharing of trade data.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle(
+                        "IBM's TradeLens"
+                      );
+                      setProjectTitle("Logistics and Shipping");
+                      setDesc(
+                        "Supply chain management platform that enables secure and transparent sharing of trade data. Tools: Hyperledger Fabric, Kubernetes, and Docker.",
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hr-domain-img.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>JPMorgan's Quorum</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/jpmorgan.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  Permissioned blockchain platform for financial institutions that provides privacy features and efficient settlement of financial transactions.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setProjectTitle("Finance");
+                      setTitle(
+                        "JPMorgan's Quorum"
+                      );
+                      setDesc(
+                        "Permissioned blockchain platform for financial institutions that provides privacy features and efficient settlement of financial transactions. Tools: Ethereum, Solidity, and Go."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Netflix</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/9-1.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  The project involves developing a video streaming service that allows users to watch movies and TV shows. 
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle(
+                        "Video Streaming Service"
+                      );
+                      setProjectTitle("Netflix");
+                      setDesc(
+                        "The project involves developing a video streaming service that allows users to watch movies and TV shows. Tools: Java, Spring Boot, React, and MySQL"
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Microsoft's Azure Blockchain Service</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/microsoft.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  Cloud-based platform that allows for easy deployment and management of blockchain networks. Supports multiple protocols and integrates with existing enterprise systems.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle(
+                        "Microsoft's Azure Blockchain Service"
+                      );
+                      setProjectTitle("Cloud-based");
+                      setDesc(
+                        "Cloud-based platform that allows for easy deployment and management of blockchain networks. Supports multiple protocols and integrates with existing enterprise systems. Tools: Ethereum, Corda, and Hyperledger Fabric."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Walmart's Food Traceability Initiative</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/walmart.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  Blockchain-based system for tracking food products in the supply chain, providing transparency and visibility to customers.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle(
+                        "Walmart's Food Traceability Initiative"
+                      );
+                      setProjectTitle("Food and Agriculture.");
+                      setDesc(
+                        "Blockchain-based system for tracking food products in the supply chain, providing transparency and visibility to customers. Tools: Hyperledger Fabric."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Visa's B2B Connect</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/visa.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  Cross-border payments platform that uses blockchain technology for secure and efficient settlement of international payments. 
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle(
+                        "Visa's B2B Connect"
+                      );
+                      setProjectTitle("Finance");
+                      setDesc(
+                        "Cross-border payments platform that uses blockchain technology for secure and efficient settlement of international payments. Tools: Hyperledger Fabric"
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Ride-hailing App</h5>
+                  </div>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/uber.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    />
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  The project involves developing a ride-hailing app that allows users to request rides, track their location, and pay for their trips.
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle(
+                        "Ride-hailing App"
+                      );
+                      setProjectTitle("Uber");
+                      setDesc(
+                        "The project involves developing a ride-hailing app that allows users to request rides, track their location, and pay for their trips. Tools: Node.js, React Native, MongoDB, and Google Maps API"
                       );
                       setImg(
                         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"

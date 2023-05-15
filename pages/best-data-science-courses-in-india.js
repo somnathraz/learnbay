@@ -40,7 +40,7 @@ export default function Home() {
           Best Data Science Courses in India | Best Data Scientist Training
           India
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Best Data Science Courses in India. Learnbay is the Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
@@ -53,8 +53,7 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/best-data-science-courses-in-india"
         />
-         
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         {/* <meta
           name="copyright"
@@ -63,7 +62,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -454,7 +453,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -462,11 +461,15 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="Foundational and Advanced Data Science Courses"
           spanTitleText="India"
           spanMTitleText="India"
@@ -495,7 +498,7 @@ export default function Home() {
         <ProgramFee
           Fee="₹99,000 + 18% GST"
           Emi="₹ 9,735/month"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -506,7 +509,7 @@ export default function Home() {
             Box2h5="Domain Focused"
             box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 8+ electives."
             Box3h5="Premium Mentoring"
-            box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
+            box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with PRODUCT Based Companies expertise."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -525,7 +528,7 @@ export default function Home() {
               ProgramHead5="Affordability and Assurance:"
               ProgramBot5="When it comes to the best data science courses in India, the essential factor to consider is affordability and assurance. Being the second most populated country, the Indian job market is extremely competitive. Learnbay provides the best and most affordable data science courses in India, with excellent job placement assistance (interview assurance) and globally recognized certification. So, at the end of the course, you are bound to stay under the spotlight of the current job market skill demand."
               ProgramHead6="Personalized 1:1 attention:"
-              ProgramBot6="Additionally, We offer peer-to-peer discussion and Doubt Clearing Sessions with experienced MAANG data scientists."
+              ProgramBot6="Additionally, We offer peer-to-peer discussion and Doubt Clearing Sessions with experienced PRODUCT Based Companies data scientists."
               ProgramHead7="Flexible subscription and live learning:"
               ProgramBot8="For your convince, you can even pause the data science course in between to complete the course at your leisure (but through live classes only)."
               ProgramHead14="Trending and live MNC projects:"

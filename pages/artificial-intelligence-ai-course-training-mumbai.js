@@ -40,7 +40,7 @@ export default function Home() {
           Artificial Intelligence Course in Mumbai | Artificial Intelligence
           Training in Mumbai
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Artificial Intelligence Course in Mumbai. Learnbay is Advanced Artificial Intelligence Course Training Institute in Mumbai. Artificial Intelligence course in Mumbai will enhance your career"
@@ -53,8 +53,7 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/artificial-intelligence-ai-course-training-mumbai"
         />
-         
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         {/* <meta
           name="copyright"
@@ -63,7 +62,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -429,7 +428,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -437,11 +436,15 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="IBM Certified Industry-curated Artificial Intelligence program"
           mTopPara="IBM Certified Industry-curated Artificial Intelligence program"
           title="Artificial Intelligence Course Training In Mumbai"
@@ -470,7 +473,7 @@ export default function Home() {
         <ProgramFee
           Emi="₹ 10,816/month"
           Fee="₹ 1,10,000 + 18% GST"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -481,7 +484,7 @@ export default function Home() {
             Box2h5="Domain Destined"
             box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 12+ electives."
             Box3h5="Premium Mentoring"
-            box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
+            box3desc="Utilize the advantage of mock interviews and project handling training with PRODUCT Based Companies Data Science Leads."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -537,7 +540,7 @@ export default function Home() {
               Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
               CertificationBot1="All the five artificial intelligence courses available at Learnbay in Mumbai provide students with an IBM certificate upon completion of the AI courses. This IBM accreditation assures that you are acknowledged as an expert in artificial intelligence. Aside from this, you also get micro AI certification by IBM, such as machine learning with python, deep learning fundamentals, and more. According to your selected course, you'll receive 1 to 8 certificates from IBM. Following that, you will also get an AI Project experience certificate once you complete the capstone project."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Managers-4.jpeg"
-              ModuleBot1="Learnbay’s artificial intelligence and machine learning course includes 400+ hours of interactive live sessions led by MAANG Experts. In contrast, the foundational and advanced AI certification course has nearly 200 hours of classes. All of Learnbay’s AI courses are conducted live and interactive. Students can attend multiple classes with multiple instructors. Our LMS is constantly updated to include the most recent version of courses and to meet industry requirements."
+              ModuleBot1="Learnbay’s artificial intelligence and machine learning course includes 400+ hours of interactive live sessions led by PRODUCT Based Companies Experts. In contrast, the foundational and advanced AI certification course has nearly 200 hours of classes. All of Learnbay’s AI courses are conducted live and interactive. Students can attend multiple classes with multiple instructors. Our LMS is constantly updated to include the most recent version of courses and to meet industry requirements."
               ModuleBot2="In this course, you will learn about the basic concepts of AI, which include search algorithms, logical reasoning, graph theory, and many more. You will also get to understand how it's implemented in real-life use cases."
               ModuleHead2="Support for Non-programmers:"
               ModuleBot3="Non-programmers can now learn to code with module 0 included in all of our AI courses. This module includes 6-8 hours of live training on the fundamentals of python and R programming for artificial intelligence."
@@ -577,7 +580,7 @@ export default function Home() {
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
               JobHead1="Artificial Intelligence Interview preparation in Mumbai:"
-              JobBot1="The artificial intelligence courses offered by Learnbay guarantee MNC/MAANG interviews for its students. There is a specific artificial intelligence course in Mumbai that even refunds their course fees in case of unsuccessful placement."
+              JobBot1="The artificial intelligence courses offered by Learnbay guarantee MNC/PRODUCT Based Companies interviews for its students. There is a specific artificial intelligence course in Mumbai that even refunds their course fees in case of unsuccessful placement."
               JobBot2="Learnbay’s career coaches ensure that you are well prepared to land a high-paying job in the field of artificial intelligence and ML. They guide you with everything from resume preparation and soft skills training to conducting mock interviews. They make your portfolio up-to-date and appealing, as well as refer your profile to potential employers."
               JobBot5="Currently, more than 1000 Learnbay alumni are proudly working in various Artificial Intelligence and ML job roles across Mumbai and all over India. We also have a network of 500+ hiring partners like TCS, JP Morgan, and IBM, amongst others."
               JobHead2="Artificial intelligence and its demand in Mumbai:"

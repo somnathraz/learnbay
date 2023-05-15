@@ -39,7 +39,7 @@ export default function Home() {
           Business Analytics Course in Delhi | Business Analytics Training in
           Delhi
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Business Analytics Course in Delhi. Learnbay is Advanced Business Analytics Course Training Institute in Delhi. Business Analytics course in Delhi will enhance your career"
@@ -52,8 +52,7 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/business-analytics-course-training-in-delhi"
         />
-         
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
@@ -62,7 +61,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -370,7 +369,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -378,11 +377,15 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="Industry-oriented business analytics program co-developed by IBM"
           mTopPara="Industry-oriented business analytics program co-developed by IBM"
           title="Business Analytics Course Training In Delhi"
@@ -411,7 +414,7 @@ export default function Home() {
         <ProgramFee
           Fee="₹  1,10,000 + 18% GST"
           Emi="₹  10,817/month"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -422,7 +425,7 @@ export default function Home() {
             Box2h5="Exclusive Hackathons"
             box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
             Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with PRODUCT Based Companies experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -442,7 +445,7 @@ export default function Home() {
               CertificationHead1="Certification process at Learnbay"
               CertificationBot2="After the completion of the Business analytics course with placement, students will be awarded an IBM Certification. To be eligible for this certification, students must successfully complete all business analytics course modules, assessments, assignments, real-time projects as well as the final IBM Exams. Possessing this certificate will undoubtedly boost your portfolio and make you stand out in the business analytics job market."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
-              ModuleBot1="The business analytics course in Delhi comprises 200+ hours of live classes taught by MAANG experts. The course modules are designed in such a way that they not only make you aware of various analytical techniques but also help you understand their application scenarios and how they can be effectively woven into daily work practices."
+              ModuleBot1="The business analytics course in Delhi comprises 200+ hours of live classes taught by PRODUCT Based Companies experts. The course modules are designed in such a way that they not only make you aware of various analytical techniques but also help you understand their application scenarios and how they can be effectively woven into daily work practices."
               ModuleBot2="The IBM business analytics course is an introduction to the principles, techniques, and tools of business analytics such as SQL, Advanced Excel, PowerBI, etc. It also covers the concepts of data description and data visualization, as well as statistical inference techniques."
               ModuleHead2="Special programming classes:"
               ModuleBot3="Learnbay offers an exclusive series of programming classes in Python and R to support learners coming from non-technical backgrounds. Hence, non-programmers don't need to think twice before enrolling in Learnbay’s business analytics course."

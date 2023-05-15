@@ -66,9 +66,7 @@ function blockchain() {
       <main>
         <Navbar
           popup={true}
-          dataScience={true}
-          titleCourse="Data Science and AI Program For Manager & Leaders"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
+          dataScienceCounselling={true}
         />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -136,8 +134,8 @@ function blockchain() {
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/MANAGERS+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/MANAGERS+Right.png"
           dataScience={true}
-          titleCourse="Data Science and AI Program For Manager & Leaders"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
+          titleCourse="Data Science Placement Report"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
@@ -162,6 +160,7 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
         <FourthSection
+        dataScienceCounselling={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           serviceBasic={true}
@@ -183,6 +182,7 @@ function blockchain() {
           para3="Influences on almost every industry in today's world"
         />
         <FifthSection
+        dataScienceCounselling={true}
           advanceCertificate={true}
           Fee="₹ 1,10,000 + 18% GST"
           FeeEmi="₹ 10,817/month"
@@ -226,24 +226,13 @@ function blockchain() {
           titleCourse="Data Science and AI Program For Manager & Leaders"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
         />
-        {/* <SixthSection
-          point1="Practise with Latest Tools"
-          point2="10 Advanced Projects"
-          point3="3 Capstone Projects"
-          point4="Designed by Industry Experts"
-          FoundationDSProject={true}
-          CourseFeeHead="Data Science & AI for Managers Program : Batch Details"
-          dataScience={true}
-titleCourse="Data Science and AI Program For Manager & Leaders"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
-        /> */}
         <Project
           project="13+ Projects"
           tools="16+"
           DsProject={true}
           dataScience={true}
-          titleCourse="Data Science and AI Program For Manager & Leaders"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
+          titleCourse="Data Science Project Brochure"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         />
         <BatchDetails CourseFeeHead="Data science course for Mangers: Batch Details" />
         <FAQNew

@@ -11,14 +11,21 @@ import Link from "next/link";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 
-function DomainSection({ dataScience, BAdomain, imgDomain, Blockchain, Cloud, Software, titleCourse,
-  brochureLink, }) {
+function DomainSection({
+  dataScience,
+  BAdomain,
+  imgDomain,
+  Blockchain,
+  Cloud,
+  Software,
+}) {
   const [mobile, setMobile] = useState(false);
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
     setPopups(true);
   };
-
+  const [titleCourse, setTitleCourse] = useState();
+  const [brochureLink, setBrochureLink] = useState();
   useEffect(() => {
     let width = window.innerWidth;
     if (width < 600) {
@@ -36,7 +43,12 @@ function DomainSection({ dataScience, BAdomain, imgDomain, Blockchain, Cloud, So
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form dataScience={dataScience} downloadBrochure titleCourse={titleCourse} brochureLink={brochureLink}/>
+          <Form
+            dataScience={dataScience}
+            downloadBrochure
+            titleCourse={titleCourse}
+            brochureLink={brochureLink}
+          />
         </div>
       </Popup>
       {Software ? (
@@ -128,13 +140,16 @@ function DomainSection({ dataScience, BAdomain, imgDomain, Blockchain, Cloud, So
                               className={styles.para}
                             >
                               <li>
-                              Work on 14+ real-time projects & case studies
+                                Work on 14+ real-time projects & case studies
                               </li>
                               <li>
-                              Designed for product manager, business analyst, software engineers, etc
+                                Designed for product manager, business analyst,
+                                software engineers, etc
                               </li>
                               <li>
-                              Learn software development skills and product management strategies for creating and managing successful tech products
+                                Learn software development skills and product
+                                management strategies for creating and managing
+                                successful tech products
                               </li>
                             </ul>
                           </div>
@@ -442,7 +457,15 @@ function DomainSection({ dataScience, BAdomain, imgDomain, Blockchain, Cloud, So
                                       </div>
                                       <div>
                                         <button
-                                          onClick={popupShow}
+                                          onClick={() => {
+                                            setBrochureLink(
+                                              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
+                                            );
+                                            setTitleCourse(
+                                              "BFSI (Banking, Finance, Services and Insurance) Domain"
+                                            );
+                                            popupShow();
+                                          }}
                                           className={styles.fillBtn}
                                         >
                                           Download Brochure
@@ -486,7 +509,13 @@ function DomainSection({ dataScience, BAdomain, imgDomain, Blockchain, Cloud, So
                                       </div>
                                       <div>
                                         <button
-                                          onClick={popupShow}
+                                          onClick={() => {
+                                            setBrochureLink(
+                                              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+                                            );
+                                            setTitleCourse("Sales Domain");
+                                            popupShow();
+                                          }}
                                           className={styles.fillBtn}
                                         >
                                           Download Brochure
@@ -531,7 +560,13 @@ function DomainSection({ dataScience, BAdomain, imgDomain, Blockchain, Cloud, So
                                       </div>
                                       <div>
                                         <button
-                                          onClick={popupShow}
+                                          onClick={() => {
+                                            setBrochureLink(
+                                              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+                                            );
+                                            setTitleCourse("Marketing Domain");
+                                            popupShow();
+                                          }}
                                           className={styles.fillBtn}
                                         >
                                           Download Brochure
@@ -576,7 +611,16 @@ function DomainSection({ dataScience, BAdomain, imgDomain, Blockchain, Cloud, So
                                         </ul>
                                       </div>
                                       <div>
-                                        <button onClick={popupShow}>
+                                        <button
+                                          onClick={() => {
+                                            setBrochureLink(
+                                              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+                                            );
+                                            setTitleCourse("HR Domain");
+                                            popupShow();
+                                          }}
+                                          className={styles.fillBtn}
+                                        >
                                           Download Brochure
                                           <FaDownload
                                             style={{ marginLeft: "10px" }}
@@ -663,7 +707,15 @@ function DomainSection({ dataScience, BAdomain, imgDomain, Blockchain, Cloud, So
                                       </div>
                                       <div>
                                         <button
-                                          onClick={popupShow}
+                                          onClick={() => {
+                                            setBrochureLink(
+                                              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
+                                            );
+                                            setTitleCourse(
+                                              "BFSI (Banking, Finance, Services and Insurance) Domain"
+                                            );
+                                            popupShow();
+                                          }}
                                           className={styles.fillBtn}
                                         >
                                           Download Brochure
@@ -709,7 +761,15 @@ function DomainSection({ dataScience, BAdomain, imgDomain, Blockchain, Cloud, So
                                       </div>
                                       <div>
                                         <button
-                                          onClick={popupShow}
+                                          onClick={() => {
+                                            setBrochureLink(
+                                              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+                                            );
+                                            setTitleCourse(
+                                              "Manufacturing, Mechanical and Telecom Domain"
+                                            );
+                                            popupShow();
+                                          }}
                                           className={styles.fillBtn}
                                         >
                                           Download Brochure
@@ -754,7 +814,15 @@ function DomainSection({ dataScience, BAdomain, imgDomain, Blockchain, Cloud, So
                                       </div>
                                       <div>
                                         <button
-                                          onClick={popupShow}
+                                          onClick={() => {
+                                            setBrochureLink(
+                                              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf"
+                                            );
+                                            setTitleCourse(
+                                              "Energy, Oil and Gas Domain"
+                                            );
+                                            popupShow();
+                                          }}
                                           className={styles.fillBtn}
                                         >
                                           Download Brochure
@@ -799,7 +867,17 @@ function DomainSection({ dataScience, BAdomain, imgDomain, Blockchain, Cloud, So
                                         </ul>
                                       </div>
                                       <div>
-                                        <button onClick={popupShow}>
+                                        <button
+                                          onClick={() => {
+                                            setBrochureLink(
+                                              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf"
+                                            );
+                                            setTitleCourse(
+                                              "Healthcare, Pharma and Clinical Research Domain"
+                                            );
+                                            popupShow();
+                                          }}
+                                        >
                                           Download Brochure
                                           <FaDownload
                                             style={{ marginLeft: "10px" }}
@@ -838,7 +916,17 @@ function DomainSection({ dataScience, BAdomain, imgDomain, Blockchain, Cloud, So
                                         </ul>
                                       </div>
                                       <div>
-                                        <button onClick={popupShow}>
+                                        <button
+                                          onClick={() => {
+                                            setBrochureLink(
+                                              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
+                                            );
+                                            setTitleCourse(
+                                              "Retail, Ecommerce and Supply Chain Domain"
+                                            );
+                                            popupShow();
+                                          }}
+                                        >
                                           Download Brochure
                                           <FaDownload
                                             style={{ marginLeft: "10px" }}

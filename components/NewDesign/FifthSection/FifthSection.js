@@ -30,6 +30,7 @@ function FifthSection({
   baFamilyTools,
   titleCourse,
   brochureLink,
+  dataScienceCounselling,
 }) {
   const [mobile, setMobile] = useState(false);
 
@@ -63,7 +64,7 @@ function FifthSection({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form dataScience={dataScience} titleCourse={titleCourse} brochureLink={brochureLink}/>
+          <Form dataScience={dataScience} dataScienceCounselling={dataScienceCounselling} titleCourse={titleCourse} brochureLink={brochureLink}/>
         </div>
       </Popup>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -72,7 +73,7 @@ function FifthSection({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups} dataScience={dataScience} titleCourse={titleCourse} brochureLink={brochureLink}/>
+          <Form popup={true} setTrigger={setPopups} dataScience={dataScience} dataScienceCounselling={dataScienceCounselling} titleCourse={titleCourse} brochureLink={brochureLink}/>
         </div>
       </Popup>
       {baFamilyTools ? (
@@ -174,7 +175,7 @@ function FifthSection({
       </div> */}
       <div className={styles.feeD}>
         <FeeSection
-          dataScience={true}
+          dataScienceCounselling={true}
           Fee={Fee}
           FeeHeading={FeeHeading}
           FeeContent1={FeeContent1}

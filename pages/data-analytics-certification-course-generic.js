@@ -44,7 +44,7 @@ export default function Home() {
         <title>
           Data Analytics Certification Course With Placement Assistance
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Data analytics certification course. Learnbay is best data analytics course training institute. Our online data analytics course will enhance your career"
@@ -112,7 +112,7 @@ export default function Home() {
             Box2h5="Exclusive Hackathons"
             box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
             Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with PRODUCT Based Companies experts."
             Box4h5="Hands-on Experience"
             box4desc="Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies."
           />

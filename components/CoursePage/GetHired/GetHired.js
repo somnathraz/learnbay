@@ -14,7 +14,9 @@ const GetHired = ({
   Interview,
   Fee,
   Subscription,
-  dataScience, fullStack,
+  dataScience,
+  fullStack,
+  dataScienceCounselling,
 }) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
@@ -41,8 +43,6 @@ const GetHired = ({
     }
   });
 
-
-
   return (
     <section className={styles.GetHired}>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -52,7 +52,13 @@ const GetHired = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} fullStack={fullStack} dataScience={dataScience} />
+          <Form
+            popup={true}
+            setTrigger={setPopups}
+            fullStack={fullStack}
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+          />
         </div>
       </Popup>
       <div className={styles.CInner}>
@@ -61,8 +67,8 @@ const GetHired = ({
       <div className={styles.imageBox}>
         <div className={styles.left}>
           <div className={styles.top}>
-          <p>{WeekdayBatchDate}</p>
-<p>{WeekdayTime}</p>
+            <p>{WeekdayBatchDate}</p>
+            <p>{WeekdayTime}</p>
           </div>
           <div className={styles.middle}>
             <p>{Project}</p>
@@ -73,22 +79,27 @@ const GetHired = ({
         </div>
         <div className={styles.left}>
           <div className={styles.top}>
-          <p>{WeekendBatchDate}</p>
-<p>{WeekendTime}</p>
+            <p>{WeekendBatchDate}</p>
+            <p>{WeekendTime}</p>
           </div>
           <div className={styles.middle}>
             <p>{Classes}</p>
           </div>
           <div className={styles.bottom}>
-          <p>{Interview}</p>
+            <p>{Interview}</p>
           </div>
         </div>
         <div className={styles.right}>
-        <div>
-        <p>Course Fee</p>
-        <h4 className={styles.righth}>₹ {Fee}</h4>
-        <p>{Subscription}</p>
-        <button onClick={popupShow} style={{margin:"auto", marginBottom:"20px"}}>Enroll Now</button>
+          <div>
+            <p>Course Fee</p>
+            <h4 className={styles.righth}>₹ {Fee}</h4>
+            <p>{Subscription}</p>
+            <button
+              onClick={popupShow}
+              style={{ margin: "auto", marginBottom: "20px" }}
+            >
+              Enroll Now
+            </button>
           </div>
         </div>
       </div>

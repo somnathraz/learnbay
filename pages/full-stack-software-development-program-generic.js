@@ -13,6 +13,7 @@ import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSectio
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { BlockchainCourse } from "../Data/BlockchainCourse";
+import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
 import {
   FaqData9,
@@ -61,9 +62,7 @@ function blockchain() {
       <main>
         <Navbar
           popup={true}
-          dataScience={true}
-          titleCourse="Software Development Master Program with Domain Specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          dataScienceCounselling={true}
         />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -82,7 +81,7 @@ function blockchain() {
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/advance+DS+header+image.webp"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SW-Dev-Master-Header.png"
           firstToparaImg="with Domain Specialization"
           firstHeading="Software Development Master Program"
           firstTopPara="Get ready to level up your coding expertise"
@@ -129,8 +128,8 @@ function blockchain() {
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
-          titleCourse="Software Development Master Program with Domain Specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          titleCourse="Full Stack Placement Report"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
@@ -159,11 +158,14 @@ function blockchain() {
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
+          software={true}
           titleCourse="Software Development Master Program with Domain Specialization"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
-          syllabus={BlockchainCourse[0].syllabus}
-          syllabusDesc={BlockchainCourse[0].syllabusDesc}
-          popupHead={BlockchainCourse[0].popupHead}
+          syllabus={FullStackSoftwareCourseData[0].syllabus}
+          advSyllabus={BlockchainCourse[0].syllabus}
+          syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
+          popupHead={FullStackSoftwareCourseData[0].popupHead}
+          
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
@@ -224,10 +226,10 @@ function blockchain() {
         <Project
           project="10+ Projects"
           tools="16+"
-          DsProject={true}
+          Software={true}
           dataScience={true}
-          titleCourse="Software Development Master Program with Domain Specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          titleCourse="Full Stack Project Brochure"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
         />
         <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew

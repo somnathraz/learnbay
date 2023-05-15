@@ -14,7 +14,7 @@ export default function Home() {
           <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         </Head>
         <main>
-      <Navbar popup={true} />
+      <Navbar popup={true} dataScienceCounselling={true}/>
             <AboutUs />
         <OfferPopup offer={false} />      
         <Footer />

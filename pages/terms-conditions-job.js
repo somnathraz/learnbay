@@ -1,5 +1,5 @@
-import React from 'react'
-import Head from 'next/head'
+import React from "react";
+import Head from "next/head";
 import Terms from "../components/termsJob/termsJob";
 import Navbar from "../components/Navbar/Navbar";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
@@ -10,20 +10,26 @@ function terms() {
     <div>
       <Head>
         <title>Learnbay's Terms & Conditions</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta name="description" content="Learnbay's Terms & Conditions" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <link rel="canonical" href="https://www.learnbay.co/terms-conditions-job" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/terms-conditions-job"
+        />
       </Head>
       <main>
-      <Navbar popup={true} dataScience={true} radio={true}/>
-      <Terms />
-       
-        <OfferPopup offer={false} />                      
-      <Footer />
+        <Navbar popup={true} dataScienceCounselling={true} radio={true} />
+        <Terms />
+
+        <OfferPopup offer={false} />
+        <Footer />
       </main>
     </div>
-  )
+  );
 }
 
-export default terms
+export default terms;

@@ -44,7 +44,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Data Science and AI Program with 100% job assistance</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Data Science and AI Program with 100% job assistance"
@@ -60,7 +60,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -68,11 +68,15 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="Boost your career opportunities "
           deskTopPara1="by developing relevant skills"
           mTitle="Data Science and AI Master Program "
@@ -108,7 +112,7 @@ export default function Home() {
             Box2h5="Select Multiple Domains"
             box2desc="Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 7+ domains."
             Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts."
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with PRODUCT Based Companies Data Science/AI experts."
             Box4h5="Hands-on Experience"
             box4desc="Perform 3 fresh capstone projects, spanning from advanced level complexity, to earn IBM cerrtification."
           />
@@ -117,7 +121,7 @@ export default function Home() {
         <CourseReview />
         <Certificate />
         <SyllabusNew
-          dataScience={true}
+          dataScienceCounselling={true}
           syllabus={JobGuaranteeCourseData[0].syllabus}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           popupHead={JobGuaranteeCourseData[0].popupHead}
@@ -153,14 +157,14 @@ export default function Home() {
         <ProgramFee
           Emi="₹ 12,685/month"
           Fee="₹ 1,29,000 + 18% GST"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project="20+ Projects" domain="7+" />
         </div>
         <Fee
-          dataScience={true}
+          dataScienceCounselling={true}
           sub1="Advanced Data Science and AI Program"
           Price1="₹ 99,000 + 18% GST"
           PFeatures11=" 250+ Hours"
@@ -190,7 +194,7 @@ export default function Home() {
           PFeatures38="Sr. Data Scientist, AI Engineer, ML Engineer, Sr. Associate, Etc."
         />
         <CourseFee
-          dataScience={true}
+          dataScienceCounselling={true}
           syllabus={JobGuaranteeCourseData[0].Batch}
           CourseFeeHead="Data Science and AI Master Program : Batch Details"
           CourseFeePara="Online Classroom"
