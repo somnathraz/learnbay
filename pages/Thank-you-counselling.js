@@ -5,6 +5,7 @@ import TyPageCta from "../components/Thankyou/TyPageCta/TyPageCta";
 import Survey from "../components/Thankyou/Survey/Survey";
 import Footer from "../components/Footer/Footer";
 
+
 const ThankYouDemo = () => {
   return (
     <div>
@@ -12,7 +13,6 @@ const ThankYouDemo = () => {
       <ThankStats
         img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/GIF.gif"
         heading="Gain Clarity: Explore the possibilities and chart your Career Journey"
-        // desc="tat point 1 here lorem ipsum doret trinkettat point 1 here lorem ipsum doret trinket tat point 1 here lorem ipsum doret trinket"
         head1="Explore Career Options:"
         head2="Embrace Opportunities:"
         head5="Personalized Goal:"
@@ -22,10 +22,8 @@ const ThankYouDemo = () => {
         para1="Find your ideal path based on skills, interests, and goals."
         para2="Discover growth potential in emerging industries."
       />
-      <TyPageCta url="" heading="" para="" />
       <Survey
         header="Are you seeking the perfect course that will propel your career to new heights?"
-        // topPara="ENTER SOME TEXT HERE PLACEHOLDER"
         para="Unleash your full potential with our personalized and tailored course suggestions that will guide you towards your ideal learning journey."
       />
       <Footer />

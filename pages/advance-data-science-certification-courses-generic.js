@@ -47,7 +47,7 @@ export default function Home() {
         <title>
           Advanced Data Science and AI Program with Domain Specialization
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Advanced Data Science and AI Program with Domain Specialization"
@@ -109,7 +109,7 @@ export default function Home() {
             Box2h5="Assured Interview Call"
             box2desc="Get job referrals powered by 250+ hiring partners"
             Box3h5="Premium Mentoring"
-            box3desc="Get professionally trained from MAANG and MNC experts"
+            box3desc="Get professionally trained from PRODUCT Based Companies and MNC experts"
             Box4h5="Crafted for professional"
             box4desc="Prioritize growth and salary hike with in-demand skillset"
           />

@@ -6,7 +6,7 @@ import Form from "../../../Form/Form";
 import Image from "next/image";
 import Typed from "typed.js";
 
-const FirstSection = ({ dataScience, radio, btnHide, second, third, idss }) => {
+const FirstSection = ({ dataScience, radio, btnHide, second, third, idss, dataScienceCounselling, }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -58,6 +58,7 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, idss }) => {
           popup={true}
           radio={radio}
           dataScience={dataScience}
+          dataScienceCounselling={dataScienceCounselling}
         >
           <div className="leftPopup">
             <div
@@ -67,7 +68,11 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, idss }) => {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            <Form dataScience={dataScience} radio={radio} />
+            <Form
+              dataScience={dataScience}
+              dataScienceCounselling={dataScienceCounselling}
+              radio={radio}
+            />
           </div>
         </Popup>
         <div className={styles.FirstLeft}>

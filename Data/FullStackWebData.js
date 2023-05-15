@@ -67,7 +67,7 @@ export const FullStackWebCourseData = [
                   "A quick guide to Full Stack Web Development",
                   "Significance of projects",
                   "Job Opportunities in IT industry",
-                  "How to make it big in the IT Industry and crack MNCs Interviews",
+                  "How to make it big in the IT Industry and crack Product Based Company Interviews",
                   "All about - MEAN stack and MERN stack",
                 ],
               },

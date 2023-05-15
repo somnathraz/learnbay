@@ -16,7 +16,7 @@ export const HomeBoxData = [
   {
     id: 3,
     title: "Guaranteed Job Referral",
-    desc: "Guaranteed Job Referrals in MAANG and top product based MNCs",
+    desc: "Guaranteed Job Referrals in PRODUCT Based Companies",
     active: false,
   },
 ];

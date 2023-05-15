@@ -40,7 +40,7 @@ export default function Home() {
           Artificial Intelligence Course in Hyderabad | Artificial Intelligence
           Training in Hyderabad
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Artificial Intelligence Course in Hyderabad. Learnbay is Advanced Artificial Intelligence Course Training Institute in Hyderabad. Artificial Intelligence course in Hyderabad will enhance your career"
@@ -53,8 +53,7 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/artificial-intelligence-ai-course-training-hyderabad"
         />
-         
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
@@ -63,7 +62,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -492,7 +491,7 @@ export default function Home() {
         <ProgramFee
           Emi="₹ 10,816/month"
           Fee="₹ 1,10,000 + 18% GST"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -503,7 +502,7 @@ export default function Home() {
             Box2h5="Domain Destined"
             box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 12+ electives."
             Box3h5="Premium Mentoring"
-            box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
+            box3desc="Utilize the advantage of mock interviews and project handling training with PRODUCT Based Companies Data Science Leads."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />

@@ -41,7 +41,7 @@ export default function Home() {
           Full-Stack Software Developer Course in Hyderabad | Full-Stack
           Software Developer Course Training in Hyderabad
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Full-Stack Software Developer Course in Hyderabad. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Hyderabad. Full-Stack Software Developer Course in Hyderabad will enhance your career"
@@ -79,8 +79,8 @@ export default function Home() {
         </Popup>
         <FirstSection
           fullStack={true}
-          deskTopPara="Ace Your Coding Interview at MAANG"
-          mTopPara="Ace Your Coding Interview at MAANG"
+          deskTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
+          mTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
           mTitle="Full-Stack Software Developer Course In Hyderabad"
           spanMTitleText="To Achieve Your Dream Job"
           title="Full-Stack Software Developer Course In Hyderabad"
@@ -109,7 +109,7 @@ export default function Home() {
           <BoxShape
             alt="Full-Stack Software Developer Course In Hyderabad"
             title="Why Enroll In Full Stack Software Developer Course In Hyderabad?"
-            Box1h5="Crack MAANG Interview"
+            Box1h5="Crack Interviews at MNC's"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
             box2desc="Guided by mentors working in MNCs to support you for the tech interviews"
@@ -151,7 +151,7 @@ export default function Home() {
               DomainHead5="c. Data science and AI"
               DomainHead6="d. Web 3.0 developer"
               DomainHead7="e. DevOps and clouds"
-              ModuleBot1="Our trainers are full-stack software developers from MAANG/MNCs. They have been working for more than eight years in this industry. Learnbay has designed the course per Hyderabad's industry standards and organizational requirements. Infact they also customized their training strategies in case any learner needs overseas job market assistance."
+              ModuleBot1="Our trainers are full-stack software developers from PRODUCT Based Companies/MNCs. They have been working for more than eight years in this industry. Learnbay has designed the course per Hyderabad's industry standards and organizational requirements. Infact they also customized their training strategies in case any learner needs overseas job market assistance."
               ModuleHead2="Become a professional MEAN and MERN stack developer."
               ModuleBot3="Learnbay's full-stack courses in Hyderabad include tools like String, Stack, array overview, binary research, Best, average, and worst case complexities hierarchy, Complexity classes (P vs NP problem), AVL tree, backtracking algorithm, recursion and graph, and many more trending tools."
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"

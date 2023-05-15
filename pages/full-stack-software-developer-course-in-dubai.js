@@ -41,7 +41,7 @@ export default function Home() {
           Full-Stack Software Developer Course in Dubai | Full-Stack Software
           Developer Course Training in Dubai
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Full-Stack Software Developer Course in Dubai. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Dubai. Full-Stack Software Developer Course in Dubai will enhance your career"
@@ -78,8 +78,8 @@ export default function Home() {
         </Popup>
         <FirstSection
           fullStack={true}
-          deskTopPara="Ace Your Coding Interview at MAANG"
-          mTopPara="Ace Your Coding Interview at MAANG"
+          deskTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
+          mTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
           mTitle="Full-Stack Software Developer Course In Dubai"
           spanMTitleText="To Achieve Your Dream Job"
           title="Full-Stack Software Developer Course In Dubai"
@@ -108,7 +108,7 @@ export default function Home() {
           <BoxShape
             alt="Full-Stack Software Developer Course In Dubai"
             title="Why Enroll In Full Stack Software Developer Course In Dubai?"
-            Box1h5="Crack MAANG Interview"
+            Box1h5="Crack Interviews at MNC's"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
             box2desc="Guided by mentors working in MNCs to support you for the tech interviews"
@@ -148,7 +148,7 @@ export default function Home() {
               DomainHead5="c. Data science and AI"
               DomainHead6="d. Web 3.0 developer"
               DomainHead7="e. DevOps and clouds"
-              ModuleBot1="Our full-stack developer course is conducted by experts and IT professionals who are experienced full-stack software developers and working in top-notch MNCs/ MAANG for more than 8 years. They keep doing extensive research and accordingly design the respective full-stack course modules."
+              ModuleBot1="Our full-stack developer course is conducted by experts and IT professionals who are experienced full-stack software developers and working in top-notch MNCs/ PRODUCT Based Companies for more than 8 years. They keep doing extensive research and accordingly design the respective full-stack course modules."
               ModuleBot2="Become a professional MEAN and MERN stack developer."
               ModuleBot3="Dubai’s full stack software developer course includes topics like complexity classes (P vs. NP problem), AVL tree, Best-average-worst case complexities hierarchy, recursion and graph, string, stack, array overview, backtracking algorithm, and many other trending tools. "
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"

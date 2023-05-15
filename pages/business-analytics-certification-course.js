@@ -39,7 +39,7 @@ function blockchain() {
     <>
       <Head>
         <title>Business Analytics Master Program</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta name="description" content="Business Analytics Master Program" />
         <meta name="keywords" content="Business Analytics Master Program" />
         <link
@@ -52,7 +52,10 @@ function blockchain() {
         />
       </Head>
       <main>
-        <Navbar popup={true} dataScience={true} />
+        <Navbar
+          popup={true}
+          dataScienceCounselling={true}
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -65,6 +68,8 @@ function blockchain() {
         </Popup>
         <FirstSection
           dataScience={true}
+          titleCourse="Business Analytics Master Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
           first="Tools"
           second="Tips"
           third="Technology"
@@ -116,6 +121,8 @@ function blockchain() {
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
+          titleCourse="Data Science Placement Report"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
@@ -140,10 +147,13 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
         <FourthSection
+        dataScienceCounselling={true}
           serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
+          titleCourse="Business Analytics Master Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
           syllabus={BusinessAnalyticsCourseData[0].syllabus}
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           popupHead={BusinessAnalyticsCourseData[0].popupHead}
@@ -159,6 +169,7 @@ function blockchain() {
           para3="Abundant opportunities in various industries and domains"
         />
         <FifthSection
+        dataScienceCounselling={true}
           baFamilyTools={true}
           advanceCertificate={true}
           Fee="₹ 1,10,000 + 18% GST"
@@ -170,6 +181,8 @@ function blockchain() {
           FeeContent5="15 days refund policy"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
+          titleCourse="Business Analytics Master Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -198,14 +211,21 @@ function blockchain() {
           imgDomain="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA-Domain-Electives.png"
           BAdomain={true}
           dataScience={true}
+          titleCourse="Business Analytics Master Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
         />
         <Project
           DsProject={true}
           project="15+ Projects"
           tools="16+"
           dataScience={true}
+          titleCourse="Data Science Project Brochure"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         />
-        <BatchDetails BAFamily={true} CourseFeeHead="Business Analytics Master Program : Batch Details" />
+        <BatchDetails
+          BAFamily={true}
+          CourseFeeHead="Business Analytics Master Program : Batch Details"
+        />
         <FAQNew
           FaqDatas={FaqData7}
           PaymentFaqDatas={PaymentFaqData7}

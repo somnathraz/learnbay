@@ -39,7 +39,7 @@ export default function Home() {
           Business Analytics Course in Hyderabad | Business Analytics Training
           in Hyderabad
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Business Analytics Course in Hyderabad. Learnbay is Advanced Business Analytics Course Training Institute in Hyderabad. Business Analytics course in Hyderabad will enhance your career"
@@ -52,8 +52,8 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/business-analytics-course-training-in-hyderabad"
         />
-         
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         {/* <meta
           name="copyright"
@@ -62,7 +62,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -401,11 +401,15 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="IBM Certified Business Analytics Course for Early Professionals"
           mTopPara="IBM Certified Business Analytics Course for Early Professionals"
           spanTitleText="For Non-tech Professionals"
@@ -433,7 +437,7 @@ export default function Home() {
         <ProgramFee
           Fee="₹  1,10,000 + 18% GST"
           Emi="₹  10,817/month"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -444,7 +448,7 @@ export default function Home() {
             Box2h5="Exclusive Hackathons"
             box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
             Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with PRODUCT Based Companies experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -464,7 +468,7 @@ export default function Home() {
               CertificationBot1="Learnbay is committed to delivering industries in Hyderabad with the highest quality and most qualified personnel. As a result, we've partnered with IBM to help our students acquire additional industrial value. By teaming up with IBM for the Business Analytics course in Hyderabad, Learnbay has reached a big milestone."
               CertificationBot2="With this certificate on the resume, one can obtain a position as a business analyst in one of the highest-paying MNC job profiles. Over 10,000 individuals have completed Learnbay courses in the last three years, followed by landing rewarding jobs at leading startups and Top MNCs."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
-              ModuleBot1="The 200-hour business analytics training in Hyderabad includes live interactive classes from MAANG professionals. Students can also talk to mentors one-on-one about their concerns in the discussion forum and via scheduled meetings."
+              ModuleBot1="The 200-hour business analytics training in Hyderabad includes live interactive classes from PRODUCT Based Companies professionals. Students can also talk to mentors one-on-one about their concerns in the discussion forum and via scheduled meetings."
               ModuleBot2="Business analysts identify, document, and evaluate data to improve corporate performance to produce solutions employing certain skill sets. Within 5 to 6.5 months, Learnbay’s IBM business analytics course module covers all of the ideas and techniques needed to be a successful business analyst. This course will teach you to use basic data analytics tools and techniques in many sectors and business analyst professions. You'll also learn to operate advanced  Excel to analyze data and create models, SQL to query databases, and Tableau, Power BI to create visually appealing data visualizations."
               ModuleBot3="Non-programmers can take fundamental Python programming classes and learn the language from the basics. As a result, people from all walks of industry are welcomed to apply for the Learnbay IBM business analytics course."
               syllabush1="Preparatory Classes (Programming + Maths)"

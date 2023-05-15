@@ -12,7 +12,7 @@ import { FaDownload, fsdBrochureText } from "react-icons/fa";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-const CourseReview = ({ fsdBrochure, fullStack, dataScience }) => {
+const CourseReview = ({ fsdBrochure, fullStack, dataScience, dataScienceCounselling }) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -40,29 +40,30 @@ const CourseReview = ({ fsdBrochure, fullStack, dataScience }) => {
     <>
       {" "}
       <div className={styles.reviewWrap}>
-      <Popup
-        trigger={popups}
-        setTrigger={setPopups}
-        className="popupModal"
-        downloadBrochure
-      >
-        <div className="leftPopup">
-          <div
-            className="whiteP"
-            style={{ width: "350px", height: "400px" }}
-          ></div>
-        </div>
-        <div className="RightPopup">
-          <h5>Download Brochure</h5>
-          {/* <p>Please enter the following details to initiate your download</p> */}
-          <Form
-            setTrigger={setPopups}
-            downloadBrochure
-            fullStack={fullStack}
-            dataScience={dataScience}
-          />
-        </div>
-      </Popup>
+        <Popup
+          trigger={popups}
+          setTrigger={setPopups}
+          className="popupModal"
+          downloadBrochure
+        >
+          <div className="leftPopup">
+            <div
+              className="whiteP"
+              style={{ width: "350px", height: "400px" }}
+            ></div>
+          </div>
+          <div className="RightPopup">
+            <h5>Download Brochure</h5>
+            {/* <p>Please enter the following details to initiate your download</p> */}
+            <Form
+              setTrigger={setPopups}
+              downloadBrochure
+              fullStack={fullStack}
+              dataScience={dataScience}
+              dataScienceCounselling={dataScienceCounselling}
+            />
+          </div>
+        </Popup>
         <div className={styles.swiperleft}>
           <Swiper
             slidesPerView={mobile ? 1.02 : 1}

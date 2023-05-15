@@ -39,7 +39,7 @@ export default function Home() {
           Business Analytics Course in Pune | Business Analytics Training in
           Pune
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Business Analytics Course in Pune. Learnbay is Advanced Business Analytics Course Training Institute in Pune. Business Analytics course in Pune will enhance your career"
@@ -52,8 +52,7 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/business-analytics-course-training-in-pune"
         />
-         
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
@@ -62,7 +61,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -370,11 +369,15 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="IBM-Certified Business Analytics training Program with Live Industrial Projects"
           mTopPara="IBM-Certified Business Analytics training Program with Live Industrial Projects"
           title="Business Analytics Course"
@@ -403,7 +406,7 @@ export default function Home() {
         <ProgramFee
           Fee="₹  1,10,000 + 18% GST"
           Emi="₹  10,817/month"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -414,7 +417,7 @@ export default function Home() {
             Box2h5="Exclusive Hackathons"
             box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
             Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with PRODUCT Based Companies experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -427,7 +430,7 @@ export default function Home() {
             <CitiesRight
               ProgramBot1="Learnbay offers industry-oriented Business analytics programs. It is a top-notch Business analytics training program in Pune basically for early professionals. This business analytics course training program by Learnbay is custom-made for students who aspire to be Business Analysts, even after starting their career in any other field. Learnbay teaches students to work on Business analytics tools operated by IT giants. Learnbay Business analytics program in Pune offers learners a real-time experience of working as a Business analyst with IBM certified capstone projects."
               ProgramHead3="Why do students and professionals need to take the Learnbay Business Analytics course in Pune?"
-              ProgramBot3="Our business analytics course training program in Pune is designed by Industry experts who own more than 8 years of experience in top multinational companies. Our faculty has designed this course as per the industry standards and requirements in Pune. Learnbay always keeps its course modules updated so that students remain updated with the latest trends and development in the industry. Our mentors are highly experienced and skilled Business analysts. All Learnbay modules are rich in practical training sessions by top MAANG experts. Aso, the course contains real-time Business Analytics projects."
+              ProgramBot3="Our business analytics course training program in Pune is designed by Industry experts who own more than 8 years of experience in top multinational companies. Our faculty has designed this course as per the industry standards and requirements in Pune. Learnbay always keeps its course modules updated so that students remain updated with the latest trends and development in the industry. Our mentors are highly experienced and skilled Business analysts. All Learnbay modules are rich in practical training sessions by top PRODUCT Based Companies experts. Aso, the course contains real-time Business Analytics projects."
               CertificationBot1="Learnbay Business Analytics program in Pune is Certified by IBM."
               CertificationBot2="Learnbay is a one-stop solution for professional training in  Business analytics skills and tools. Our students in Pune receive IBM certificates for course completion. IBM certificates for Business analytics in a resume or portfolio add an extra mark and high skill to their profile. Learnbay Business analytics course training in Pune would make recruiters mark your profile with extra importance."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"

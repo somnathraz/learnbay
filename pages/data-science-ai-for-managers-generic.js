@@ -48,7 +48,7 @@ export default function Home() {
           Data Science and Artificial Intelligence Program For Managers and
           Leaders
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Data Science and Artificial Intelligence Program For Managers and Leaders"
@@ -110,7 +110,7 @@ export default function Home() {
             Box2h5="Domain Specialized"
             box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 7 domains."
             Box3h5="Premium Mentoring"
-            box3desc="Utilize the advantage of mock interviews and project handling training with MAANG Data Science Leads."
+            box3desc="Utilize the advantage of mock interviews and project handling training with PRODUCT Based Companies Data Science Leads."
             Box4h5="Hands-on Experience"
             box4desc="Work on 15+ real-time projects & 1 capstone project cerrtified by IBM."
           />

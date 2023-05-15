@@ -8,7 +8,6 @@ function DomainCourseFaq({ FaqData }) {
   const [state, setState] = useState(FaqData);
 
   const handleChange = (index) => {
-    console.log(index);
     setState(
       state.map((faq, i) => {
         if (i === index) {

@@ -39,7 +39,7 @@ export default function Home() {
           Machine Learning Course in Canada | Machine Learning Training in
           Canada
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Machine learning course in Canada. Learnbay is Advanced Machine Learning Course Training Institute in Canada. Machine Learning course in Canada will enhance your career"
@@ -53,7 +53,7 @@ export default function Home() {
           href="https://www.learnbay.co/machine-learning-course-training-in-canada"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
@@ -62,7 +62,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -427,7 +427,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -435,18 +435,22 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="Machine Learning Course For Experienced Tech Professionals"
           mTopPara="Machine Learning Course For Experienced Tech Professionals"
           spanMTitleText="Advance Program"
           spanTitleText="Advance Program"
           title="Machine Learning Course Training In Canada"
           mTitle="Machine Learning Course Training In Canada"
-          desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+          desc="Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           width="900"
           height="762"
@@ -468,7 +472,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
         <ProgramFee
           Emi="₹ 10,816/month"
           Fee="₹ 1,10,000 + 18% GST"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -479,7 +483,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
             Box2h5="Domain Focused"
             box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
             Box3h5="Premium Mentoring"
-            box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
+            box3desc="Enjoy and learn from mock interviews and CV writing workshops with PRODUCT Based Companies AI/ML industry experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -493,7 +497,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
               ProgramHead1="Industrial Program  For Working Professionals in Canada"
               ProgramBot1="Learnbay is focused on providing the best Machine Learning course training for ML practitioners with a varied selection of domain electives in Canada. It focuses on theoretical and practical approaches for machine learning enthusiasts."
               ProgramBot2="The incredible part of this machine learning course in Canada is giving customizable modules with multiple domain options, including marketing, banking, cloud computing, DevOps, etc. This course is intended for professionals with little or no prior experience in machine learning and set out to provide a gentle yet thorough industrial introduction to the field."
-              ProgramBot3="Our Machine learning course, co-powered by IBM, is taught by MAANG machine learning experts via live interactive sessions. They are always available to solve your queries with highly personalized attention. Students will learn about real-world machine learning algorithms and walk away with ML projects that they can implement on their own."
+              ProgramBot3="Our Machine learning course, co-powered by IBM, is taught by PRODUCT Based Companies machine learning experts via live interactive sessions. They are always available to solve your queries with highly personalized attention. Students will learn about real-world machine learning algorithms and walk away with ML projects that they can implement on their own."
               ProgramBot31="Learnbay has designed this course along with the industry's leading professionals, who assisted us in developing a program that's understandable to all. Our experts have also compiled a collection of AI and ML tools along with practical examples based on the latest developments in machine learning. This 9.5-month machine learning course is both flexible and affordable for everyone."
               ProgramBot32="Learn more about Artificial Intelligence and Machine Learning Training Program by Learnbay in Canada."
               DomainHead1="Why Domain Specialization?"

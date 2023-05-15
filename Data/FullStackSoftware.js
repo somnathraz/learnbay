@@ -66,7 +66,7 @@ export const FullStackSoftwareCourseData = [
                 desc: [
                   "A quick guide to Software Development",
                   "Significance of projects & case studies",
-                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "How to make it big in the IT Industry and Crack Product Based Company Interviews",
                   "Interview process of top product based MNCs and Unicorns.",
                 ],
               },
@@ -162,7 +162,8 @@ export const FullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Module 2 :- Interview Preparation: Crack MAANG",
+                title:
+                  "Module 2 :- Interview Preparation: Crack PRODUCT Based Companies",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",

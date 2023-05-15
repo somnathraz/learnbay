@@ -1,5 +1,5 @@
-import React from 'react'
-import Head from 'next/head'
+import React from "react";
+import Head from "next/head";
 import Privacy from "../components/privacy/privacy";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
@@ -9,20 +9,23 @@ function privacy() {
     <div>
       <Head>
         <title>Learnbay's Privacy Policy</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta name="description" content="Learnbay's Privacy Policy" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <link rel="canonical" href="https://www.learnbay.co/privacy-policy" />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} radio={true}/>
-
-      <Privacy />
-       
-        <OfferPopup offer={false} />                      
-      <Footer />
+      <main>
+        {" "}
+        <Navbar popup={true} dataScienceCounselling={true} radio={true} />
+        <Privacy />
+        <OfferPopup offer={false} />
+        <Footer />
       </main>
     </div>
-  )
+  );
 }
 
-export default privacy
+export default privacy;

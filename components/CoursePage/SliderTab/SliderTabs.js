@@ -213,7 +213,6 @@ const SliderTabs = () => {
 
               setRetail(true);
 
-              console.log(Retail);
             }}
             className={Retail ? styles.ActiveSpan : styles.span}
           >

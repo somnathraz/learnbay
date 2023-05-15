@@ -13,6 +13,7 @@ import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSectio
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { BlockchainCourse } from "../Data/BlockchainCourse";
+import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
 import {
   FaqData9,
@@ -59,7 +60,10 @@ function blockchain() {
         />
       </Head>
       <main>
-        <Navbar popup={true} dataScience={true} />
+        <Navbar
+          popup={true}
+          dataScienceCounselling={true}
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -72,15 +76,17 @@ function blockchain() {
         </Popup>
         <FirstSection
           dataScience={true}
+          titleCourse="Software Development Master Program with Domain Specialization"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/advance+DS+header+image.webp"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SW-Dev-Master-Header.png"
           firstToparaImg="with Domain Specialization"
           firstHeading="Software Development Master Program"
           firstTopPara="Get ready to level up your coding expertise"
           idss="bfl64ANfSV0"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
         />
         <SecondSection
           SecondHead="Why Choose Us?"
@@ -89,10 +95,10 @@ function blockchain() {
           heading2="Guaranteed Interview Calls"
           heading3="Project Certificate from IBM"
           heading4="Designed For Professionals"
-          SecondPara1="Clear your doubts & get real-time solutions from seasoned industry experts"
-          SecondPara2="Get referred from 300+ top companies & apply to diverse jobs roles"
-          SecondPara3="Master the domain of software development with certificate from IBM"
-          SecondPara4="Acquire development skills for career success with hands-on software training"
+          SecondPara1="Clear your doubts with industry experts & get real-time solutions"
+          SecondPara2="Advance in your career with referrals from 300+ top recruiters"
+          SecondPara3="Master the domain of software development with IBM certificate"
+          SecondPara4="Boost your career growth with hands-on software training"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
@@ -100,10 +106,10 @@ function blockchain() {
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whoIsProgram.webp"
-          para1="Bachelor's degree with consistent academic performance"
+          para1="Bachelor's degree with good performance"
           para2="Minimum 6 months of experience in IT/Non-IT domain"
           para3="Working professionals interested in software development"
-          para4="Tailored for individuals seeking advanced software development knowledge and skills"
+          para4="Designed for individuals seeking advanced software development skills"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -122,6 +128,8 @@ function blockchain() {
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
+          titleCourse="Full Stack Placement Report"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
@@ -150,10 +158,15 @@ function blockchain() {
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
-          syllabus={BlockchainCourse[0].syllabus}
-          syllabusDesc={BlockchainCourse[0].syllabusDesc}
-          popupHead={BlockchainCourse[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          software={true}
+          titleCourse="Software Development Master Program with Domain Specialization"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          syllabus={FullStackSoftwareCourseData[0].syllabus}
+          advSyllabus={BlockchainCourse[0].syllabus}
+          syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
+          popupHead={FullStackSoftwareCourseData[0].popupHead}
+          
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
@@ -162,10 +175,10 @@ function blockchain() {
           heading="Embrace the future of technology & unlock endless career opportunities"
           para1="Higher Growth: Compound annual growth rate of CAGR of 11.9% in 2023"
           para2="Big Earning Potential: Earn an average annual salary of INR 8 LPA"
-          para3="Strong Demand: Growing need for tech wizards across various domains & industries"
+          para3="Strong Demand: Growing need for tech wizards across various industries"
         />
-      
-      <FifthSection
+
+        <FifthSection
           advanceCertificate={true}
           Fee="₹ 1,10,000 + 18% GST"
           FeeEmi="₹ 10,817/month"
@@ -178,6 +191,8 @@ function blockchain() {
           FeeContent6="No additional cost"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
+          titleCourse="Software Development Master Program with Domain Specialization"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -202,12 +217,19 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <DomainSection dataScience={true} />
+        <DomainSection
+          Software={true}
+          dataScience={true}
+          titleCourse="Software Development Master Program with Domain Specialization"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+        />
         <Project
           project="10+ Projects"
           tools="16+"
-          DsProject={true}
+          Software={true}
           dataScience={true}
+          titleCourse="Full Stack Project Brochure"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
         />
         <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew

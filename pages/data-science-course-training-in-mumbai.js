@@ -39,7 +39,7 @@ export default function Home() {
         <title>
           Data Science Course in Mumbai | Data Science Training in Mumbai
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Data science course in Mumbai. Learnbay is Advanced Data Science Course Training Institute in Mumbai. Data science course in Mumbai will enhance your career"
@@ -92,7 +92,7 @@ export default function Home() {
           href="https://www.learnbay.co/data-science-course-training-in-mumbai"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         {/* <meta
           name="copyright"
@@ -101,7 +101,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -417,7 +417,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -425,11 +425,15 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="Foundational and Advance Job-ready Program"
           mTopPara="Foundational and Advance Job-ready Program"
           title="Data Science Course in Mumbai - "
@@ -458,7 +462,7 @@ export default function Home() {
         <ProgramFee
           Fee="₹99,000 + 18% GST"
           Emi="₹ 9,735/month"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <script
           type="application/ld+json"
@@ -499,7 +503,7 @@ export default function Home() {
             Box2h5="Domain Focused"
             box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 8+ electives."
             Box3h5="Premium Mentoring"
-            box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with MAANG expertise."
+            box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with PRODUCT Based Companies expertise."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -523,7 +527,7 @@ export default function Home() {
               // ProgramBot51="But the artificial intelligence and data science courses provided by Learnbay are comparatively much more affordable than the others. Sometimes, It might not seem cheaper to you if you compare only the price, but if you compare the benefits, certainly it's the best option across Mumbai. At Learnbay we never compromise the quality of our data science certification course."
               // ProgramHead6="Learning flexibility-"
               // ProgramBot6="With such an affordable and cost-effective course, you get flexible learning hours with our trainers and industry experts."
-              // ProgramBot61="And you can choose your own instructor or change your instructor, depending on your personal preferences. Learnbay also offers doubt-clearing sessions with industry-based MAANG experts and data scientists."
+              // ProgramBot61="And you can choose your own instructor or change your instructor, depending on your personal preferences. Learnbay also offers doubt-clearing sessions with industry-based PRODUCT Based Companies experts and data scientists."
               // ProgramBot62="Keeping the preferences of learners in mind, Learnbay offers online as well as hybrid modes of teaching. Most importantly, learners can easily choose a hybrid approach in which they can complete online courses for theoretical sessions and attend offline project training sessions. Here you can opt and use Learnbay LMS on your mobile device, which will help you learn and get updated with the daily course on the go."
               // ProgramHead7="Expertise-"
               // ProgramBot8="Our instructors are working professionals with more than 8+ years of experience in the field, such as Senior Data Scientists, Machine Learning Engineers, AI Engineers, BI Developers, Big Data Architects, and Senior Data Analysts from top-class organizations."
@@ -669,12 +673,12 @@ export default function Home() {
               JobBot3="Job assistance program helps in interview preparation through mock interviews and tests. Apart from that, the top instructor from Learnbay helps in the preparation of a proficient portfolio and CV that allows learners to achieve satisfactory results in data science interviews."
               JobBot4="Learnbay has partnered with 250+ companies that include top MNCs and startups across the globe. Additionally, we have a dedicated placement cell that helps in prioritizing the smooth career transition for working professionals. Because of Learnbay’s job assistance program, most of the successful alumni are hired in their desired firm one month prior to course completion."
               JobHead3="What is special about Learnbay’s data science interview preparation sessions?"
-              JobBot7="Learnbay offers a 1:1 mock interview round, with the industry and MAANG experts, which helps them to get prepared for the actual interviews. Apart from that, the learners are offered guaranteed ten interview calls after the successful completion of the course."
+              JobBot7="Learnbay offers a 1:1 mock interview round, with the industry and PRODUCT Based Companies experts, which helps them to get prepared for the actual interviews. Apart from that, the learners are offered guaranteed ten interview calls after the successful completion of the course."
               ProjectsHead1="Why are projects important?"
               ProjectsBot1="Projects act as a crucial foundation for an addition to any data science courses. It facilitates learning new procedures and technology for working professionals. Learnbay offers live industrial data science projects, where you can choose any projects from the listed 15+ domains."
               ProjectsBot2="In addition to that, Learnbay has introduced its own project innovation lab that can help the learner to understand the projects with ease."
               ProjectsHead3="What is a Project Innovation Lab?"
-              ProjectsBot31="Project Innovation Lab can help you learn and complete the course online under the guidance of the top MNCS and MAANG experts, after which you can complete your projects offline in Learnbay-authorized learning centers."
+              ProjectsBot31="Project Innovation Lab can help you learn and complete the course online under the guidance of the top MNCS and PRODUCT Based Companies experts, after which you can complete your projects offline in Learnbay-authorized learning centers."
               ProjectsBot32="Additionally, you get a chance to work on various capstone projects, for which capstone project, you will be accredited with IBM certifications. Below are the details about a few of our projects:-"
               src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png"
               ProjectsH1="Samsung Health Monitor App"

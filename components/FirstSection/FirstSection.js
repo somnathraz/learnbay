@@ -5,7 +5,7 @@ import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 import Image from "next/image";
 
-const FirstSection = ({dataScience, radio}) => {
+const FirstSection = ({ dataScience, radio }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -33,17 +33,23 @@ const FirstSection = ({dataScience, radio}) => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups}  radio={radio}  dataScience={dataScience} />
+          <Form
+            popup={true}
+            setTrigger={setPopups}
+            radio={radio}
+            dataScience={dataScience}
+          />
         </div>
-      </Popup> 
+      </Popup>
       <div className={styles.leftSide}>
         <h1>
           #1 Domain Specialised Certification Program For{" "}
           <span>Working Professionals</span>
         </h1>
         <p className={styles.pTop}>
-          Use your domain expertise to build a meaningful career. Crack interview
-          in top product based MNCs and MAANG with confidence
+          Use your domain expertise to build a meaningful career. Crack
+          interview in top product based MNCs and PRODUCT Based Companies with
+          confidence
         </p>
 
         <div className={styles.btnWrapper}>
@@ -77,7 +83,7 @@ const FirstSection = ({dataScience, radio}) => {
           width="870"
           height="666"
           layout="intrinsic"
-           alt="data science course"
+          alt="data science course"
         />
       </div>
     </div>

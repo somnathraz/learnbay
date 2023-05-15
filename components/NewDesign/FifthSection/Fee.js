@@ -24,6 +24,7 @@ const FeeSection = ({
   FeeContent4,
   FeeContent5,
   FeeContent6,
+  dataScienceCounselling,
   FeeEmi,
 }) => {
   const [slidesPerView, setSlidesPerView] = useState(3);
@@ -69,7 +70,7 @@ const FeeSection = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
 
-          <Form dataScience={dataScience}/>
+          <Form dataScience={dataScience} dataScienceCounselling={dataScienceCounselling}/>
         </div>
       </Popup>
       <h4>{FeeHeading}</h4>

@@ -7,7 +7,7 @@ import Popup from "../../Popup/Popup";
 import Script from "next/script";
 import Form from "../../Form/Form";
 
-export const ProgramFee = ({ Fee, Emi, fullStack, dataScience }) => {
+export const ProgramFee = ({ Fee, Emi, fullStack, dataScience, dataScienceCounselling, }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -22,7 +22,13 @@ export const ProgramFee = ({ Fee, Emi, fullStack, dataScience }) => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} fullStack={fullStack} dataScience={dataScience} />
+          <Form
+            popup={true}
+            setTrigger={setPopups}
+            fullStack={fullStack}
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+          />
         </div>
       </Popup>
       <div className={styles.header}>
@@ -47,7 +53,7 @@ export const ProgramFee = ({ Fee, Emi, fullStack, dataScience }) => {
               width="225"
               height="111"
               layout="intrinsic"
-               alt="programFeeIcon"
+              alt="programFeeIcon"
             />
             <div className={styles.bottom}>
               <p>Get professional training affordably</p>

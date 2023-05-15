@@ -41,7 +41,7 @@ export default function Home() {
         <title>
           Data Structure Algorithms (DSA) & System Design Course - Learnbay
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Data Structure Algorithms (DSA) & System Design Course. Learnbay provide Data Structure Algorithms (DSA) & System Design Course which help you to enhance you skills."
@@ -77,10 +77,10 @@ export default function Home() {
           fullStack={true}
           deskTopPara="Data Structures Algorithms & System Design"
           mTopPara="Data Structures Algorithms & System Design"
-          mTitle="Data Structures & Algorithms"
-          spanMTitleText="Top Experts"
-          title="MAANG's Best Interview Preparation Course Trained by"
-          spanTitleText="Top Experts"
+          mTitle="Best Interview Prep Course for "
+          spanMTitleText="PRODUCT- Based Companies"
+          title="Best Interview Prep Course for "
+          spanTitleText="PRODUCT- Based Companies"
           desc="Perform real-world industrial projects and use-cases."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/DSA.png"
           width="776"
@@ -103,7 +103,7 @@ export default function Home() {
         <div className="Feature" id="Feature">
           <BoxShape
             title="Why Enroll In Data Structures Algorithms & System Design?"
-            Box1h5="Crack MAANG Interview"
+            Box1h5="Crack Interviews at MNC's"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
             box2desc="Guided by mentors working In MNCs to support you for the tech interviews"

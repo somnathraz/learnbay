@@ -1,42 +1,55 @@
-import React from "react";
-import styles from "../styles/ThankYou.module.css";
-import Head from "next/head";
-import Navbar from "../components/Navbar/Navbar";
-import OfferPopup from "../components/OfferPopup/OfferPopup";
-import CourseThankYou from "../components/Course/ThankYouNew";
-import Form from "../components/Form/Form";
+import React, { useState, useEffect } from "react";
+import FirstHeader from "../components/Thankyou/FirstHeader/FirstHeader";
+import ThankStats from "../components/Thankyou/ThankStat/ThankStats";
+import TyPageCta from "../components/Thankyou/TyPageCta/TyPageCta";
+import Survey from "../components/Thankyou/Survey/Survey";
 import Footer from "../components/Footer/Footer";
-const ThankYou = () => {
+
+const ThankYouDemo = () => {
+  const dataArray = [];
+  const [queryData, setQueryData] = useState({
+    titleCourse: "",
+    brochureLink: "",
+  });
+  const [data, setData] = useState(dataArray);
+
+  useEffect(() => {
+    const urlParams = new URLSearchParams(location.search);
+
+    for (const [key, value] of urlParams) {
+      dataArray.push(value);
+      setData(dataArray);
+    }
+    setQueryData(data);
+  }, []);
+
   return (
-    <div className={styles.main}>
-      <Head>
-        <title>Thank you!</title>
-        <meta name="robots" content="index, follow"/>
-        <meta name="description" content="Thank you!" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <link rel="canonical" href="https://www.learnbay.co/Thank-you" />
-      </Head>
-      <Navbar popup={true} dataScience={true} radio={true}/>
-      <section className={styles.mains}>
-        <div className={styles.backThank}>
-          <h4>
-            <span>Thank you!</span>
-            <br />
-            Your request has been received.
-We will get in touch with you soon.
-          </h4>
-          <div className={styles.FormThank}>
-            <h4>You're one step closer to speaking with a Career Counsellor</h4>
-            <Form formThank={true} workExperience={true} jobDescription={true} dataScience={true}/>
-          </div>
-        </div>
-      </section>
-        <CourseThankYou />
-               
-        <OfferPopup offer={false} />                      
+    <div>
+      <FirstHeader donwnload={true} brochureLink={data[1]} />
+
+      <ThankStats
+        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/GIF.gif"
+        heading="Gain Clarity: Explore the possibilities and chart your Career Journey"
+        // desc="tat point 1 here lorem ipsum doret trinkettat point 1 here lorem ipsum doret trinket tat point 1 here lorem ipsum doret trinket"
+        head1="Explore Career Options:"
+        head2="Embrace Opportunities:"
+        head5="Personalized Goal:"
+        head6="Strategize for Success:"
+        para5="Bridge the gap between aspirations and expertise."
+        para6="Overcome obstacles and maximize your potential."
+        para1="Find your ideal path based on skills, interests, and goals."
+        para2="Discover growth potential in emerging industries."
+      />
+
+      <TyPageCta brochureLink={data[1]}  heading={data[0]} />
+      <Survey
+        header="Are you seeking the perfect course that will propel your career to new heights?"
+        // topPara="ENTER SOME TEXT HERE PLACEHOLDER"
+        para="Unleash your full potential with our personalized and tailored course suggestions that will guide you towards your ideal learning journey."
+      />
       <Footer />
     </div>
   );
 };
 
-export default ThankYou;
+export default ThankYouDemo;

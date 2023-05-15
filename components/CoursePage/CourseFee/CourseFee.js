@@ -22,6 +22,7 @@ const CourseFee = ({
   timeFsd,
   syllabus,
   WebDev,
+  dataScienceCounselling,
 }) => {
   const [popups, setPopups] = useState(false);
   const [state, setState] = useState(syllabus);
@@ -57,6 +58,7 @@ const CourseFee = ({
             setTrigger={setPopups}
             fullStack={fullStack}
             dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
           />
         </div>
       </Popup>
@@ -253,9 +255,7 @@ const CourseFee = ({
                         </p>
                         {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
                         <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
-                        <p className={styles.list}>
-                        Weekday Morning (Mon-Fri)
-                        </p>
+                        <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
                       </div>
                     </div>
                     <div>

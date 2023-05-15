@@ -12,7 +12,7 @@ const ThankYou = () => {
     <div className={styles.main}>
       <Head>
         <title>Thank you!</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -23,7 +23,7 @@ const ThankYou = () => {
         />
         <meta name="description" content="Thank you!" />
       </Head>
-      <Navbar popup={true} dataScience={true} radio={true} />
+      <Navbar popup={true} dataScienceCounselling={true} radio={true} />
       <section className={styles.mains}>
         <div className={styles.Back}>
           <h4>

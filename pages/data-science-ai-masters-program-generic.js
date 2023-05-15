@@ -44,7 +44,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Data Science and AI Master Program</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta name="description" content="Data Science and AI Master Program" />
         <link
           rel="canonical"
@@ -105,7 +105,7 @@ export default function Home() {
             Box2h5="Select Multiple Domains"
             box2desc="Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 7+ domains."
             Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts."
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with PRODUCT Based Companies Data Science/AI experts."
             Box4h5="Hands-on Experience"
             box4desc="Perform 3 fresh capstone projects, spanning from advanced level complexity, to earn IBM cerrtification."
           />

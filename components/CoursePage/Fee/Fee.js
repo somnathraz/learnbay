@@ -38,6 +38,7 @@ const Fee = ({
   PFeatures38,
   changeFee,
   dataScience,
+  dataScienceCounselling,
   fullStack,
 }) => {
   const [hover, setHover] = useState(false);
@@ -61,6 +62,7 @@ const Fee = ({
             setTrigger={setPopups}
             fullStack={fullStack}
             dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
           />
         </div>
       </Popup>
@@ -79,9 +81,7 @@ const Fee = ({
             <span className={styles.PFeatures}>Projects + Capstones</span>
             <span className={styles.PFeatures}>Modules</span>
             <span className={styles.PFeatures}>Interview Calls</span>
-            <span className={styles.PFeatures}>
-            100% job assistance
-            </span>
+            <span className={styles.PFeatures}>100% job assistance</span>
             <span className={styles.PFeatures}>Targeted Job Roles</span>
           </div>
           <div

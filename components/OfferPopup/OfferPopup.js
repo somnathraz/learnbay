@@ -87,8 +87,7 @@ const OfferPopup = ({
                   <>
                     <div className={styles.Offer}>
                       <h6>
-                        Ace Your Interview at MAANG with DSA & Software
-                        Development Program
+                      Upskill with DSA and System Design - Full Stack Software Development Course
                       </h6>
                       {/* <p><b>{p1}</b></p> */}
                       <p>Available Batch Details :</p>

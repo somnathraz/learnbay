@@ -23,7 +23,7 @@ import {
 } from "./courseDetails";
 import { FaDownload } from "react-icons/fa";
 
-const Course = ({ dataScience, radio }) => {
+const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
@@ -102,7 +102,12 @@ const Course = ({ dataScience, radio }) => {
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form dataScience={dataScience} radio={radio} downloadBrochure />
+          <Form
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+            radio={radio}
+            downloadBrochure
+          />
         </div>
       </Popup>
       <h2>Industry Accredited Certification For Professionals</h2>
@@ -598,21 +603,24 @@ const Course = ({ dataScience, radio }) => {
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
-                            <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]} | {courseTime}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p className={styles.singleP}>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p></div>
+                              <p>
+                                <BiTimeFive className={styles.checkCircle} />
+                                {para[0]} | {courseTime}
+                              </p>
+                              <p>
+                                <AiOutlineFundProjectionScreen
+                                  className={styles.checkCircle}
+                                  style={{ color: "#edb552" }}
+                                />
+                                {para[1]}
+                              </p>
+                              <p className={styles.singleP}>
+                                <TbCurrencyRupee
+                                  className={styles.checkCircle}
+                                />
+                                {para[2]}
+                              </p>
+                            </div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1003,21 +1011,24 @@ const Course = ({ dataScience, radio }) => {
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
-                            <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]} | {courseTime}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p className={styles.singleP}>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p></div>
+                              <p>
+                                <BiTimeFive className={styles.checkCircle} />
+                                {para[0]} | {courseTime}
+                              </p>
+                              <p>
+                                <AiOutlineFundProjectionScreen
+                                  className={styles.checkCircle}
+                                  style={{ color: "#edb552" }}
+                                />
+                                {para[1]}
+                              </p>
+                              <p className={styles.singleP}>
+                                <TbCurrencyRupee
+                                  className={styles.checkCircle}
+                                />
+                                {para[2]}
+                              </p>
+                            </div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1100,21 +1111,24 @@ const Course = ({ dataScience, radio }) => {
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
-                            <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]} | {courseTime}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p className={styles.singleP}>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p></div>
+                              <p>
+                                <BiTimeFive className={styles.checkCircle} />
+                                {para[0]} | {courseTime}
+                              </p>
+                              <p>
+                                <AiOutlineFundProjectionScreen
+                                  className={styles.checkCircle}
+                                  style={{ color: "#edb552" }}
+                                />
+                                {para[1]}
+                              </p>
+                              <p className={styles.singleP}>
+                                <TbCurrencyRupee
+                                  className={styles.checkCircle}
+                                />
+                                {para[2]}
+                              </p>
+                            </div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1203,21 +1217,24 @@ const Course = ({ dataScience, radio }) => {
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
-                            <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]} | {courseTime}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p className={styles.singleP}>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p></div>
+                              <p>
+                                <BiTimeFive className={styles.checkCircle} />
+                                {para[0]} | {courseTime}
+                              </p>
+                              <p>
+                                <AiOutlineFundProjectionScreen
+                                  className={styles.checkCircle}
+                                  style={{ color: "#edb552" }}
+                                />
+                                {para[1]}
+                              </p>
+                              <p className={styles.singleP}>
+                                <TbCurrencyRupee
+                                  className={styles.checkCircle}
+                                />
+                                {para[2]}
+                              </p>
+                            </div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1300,21 +1317,24 @@ const Course = ({ dataScience, radio }) => {
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
-                            <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]} | {courseTime}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p className={styles.singleP}>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p></div>
+                              <p>
+                                <BiTimeFive className={styles.checkCircle} />
+                                {para[0]} | {courseTime}
+                              </p>
+                              <p>
+                                <AiOutlineFundProjectionScreen
+                                  className={styles.checkCircle}
+                                  style={{ color: "#edb552" }}
+                                />
+                                {para[1]}
+                              </p>
+                              <p className={styles.singleP}>
+                                <TbCurrencyRupee
+                                  className={styles.checkCircle}
+                                />
+                                {para[2]}
+                              </p>
+                            </div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1403,21 +1423,24 @@ const Course = ({ dataScience, radio }) => {
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
-                            <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]} | {courseTime}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p className={styles.singleP}>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p></div>
+                              <p>
+                                <BiTimeFive className={styles.checkCircle} />
+                                {para[0]} | {courseTime}
+                              </p>
+                              <p>
+                                <AiOutlineFundProjectionScreen
+                                  className={styles.checkCircle}
+                                  style={{ color: "#edb552" }}
+                                />
+                                {para[1]}
+                              </p>
+                              <p className={styles.singleP}>
+                                <TbCurrencyRupee
+                                  className={styles.checkCircle}
+                                />
+                                {para[2]}
+                              </p>
+                            </div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1506,21 +1529,24 @@ const Course = ({ dataScience, radio }) => {
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
-                            <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]} | {courseTime}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p className={styles.singleP}>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p></div>
+                              <p>
+                                <BiTimeFive className={styles.checkCircle} />
+                                {para[0]} | {courseTime}
+                              </p>
+                              <p>
+                                <AiOutlineFundProjectionScreen
+                                  className={styles.checkCircle}
+                                  style={{ color: "#edb552" }}
+                                />
+                                {para[1]}
+                              </p>
+                              <p className={styles.singleP}>
+                                <TbCurrencyRupee
+                                  className={styles.checkCircle}
+                                />
+                                {para[2]}
+                              </p>
+                            </div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1603,21 +1629,24 @@ const Course = ({ dataScience, radio }) => {
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
-                            <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]} | {courseTime}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p className={styles.singleP}>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p></div>
+                              <p>
+                                <BiTimeFive className={styles.checkCircle} />
+                                {para[0]} | {courseTime}
+                              </p>
+                              <p>
+                                <AiOutlineFundProjectionScreen
+                                  className={styles.checkCircle}
+                                  style={{ color: "#edb552" }}
+                                />
+                                {para[1]}
+                              </p>
+                              <p className={styles.singleP}>
+                                <TbCurrencyRupee
+                                  className={styles.checkCircle}
+                                />
+                                {para[2]}
+                              </p>
+                            </div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
@@ -1706,21 +1735,24 @@ const Course = ({ dataScience, radio }) => {
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
-                            <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]} | {courseTime}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p className={styles.singleP}>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p></div>
+                              <p>
+                                <BiTimeFive className={styles.checkCircle} />
+                                {para[0]} | {courseTime}
+                              </p>
+                              <p>
+                                <AiOutlineFundProjectionScreen
+                                  className={styles.checkCircle}
+                                  style={{ color: "#edb552" }}
+                                />
+                                {para[1]}
+                              </p>
+                              <p className={styles.singleP}>
+                                <TbCurrencyRupee
+                                  className={styles.checkCircle}
+                                />
+                                {para[2]}
+                              </p>
+                            </div>
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>

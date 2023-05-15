@@ -26,6 +26,7 @@ function SixthSection({
   SpecDevOpsProject,
   FoundationDSProject,
   dataScience,
+  dataScienceCounselling,
   srcD,
 }) {
   const [mobile, setMobile] = useState(false);
@@ -54,6 +55,7 @@ function SixthSection({
             popup={true}
             downloadBrochure
             dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
             setTrigger={setPopups}
           />
         </div>

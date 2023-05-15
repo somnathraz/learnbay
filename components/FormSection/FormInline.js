@@ -10,7 +10,7 @@ import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
 
-const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience }) => {
+const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience, dataScienceCounselling, }) => {
   const router = useRouter();
   let today = new Date();
   let time =

@@ -14,7 +14,7 @@ function learning() {
     <div className={styles.container}>
       <Head>
         <title>Learning Learnbay</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="data science courses with IBM certification. Learnbay is advanced data science course training institute. Enrol in our data science course to enhance your career"
@@ -32,13 +32,13 @@ function learning() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
       </Head>
-      <Navbar popup={true} dataScience={true} radio={true} />
+      <Navbar popup={true} dataScienceCounselling={true} radio={true} />
       <FirstSectionLearning
         first="Tools"
         second="Tips"
         third="Technology"
         popup={true}
-        dataScience={true}
+        dataScienceCounselling={true}
         radio={true}
       />{" "}
       <OfferPopup offer={false} />

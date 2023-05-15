@@ -38,20 +38,20 @@ function Hr() {
     <>
       <Head>
         <title>HR Analytics Program</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta name="description" content="HR Analytics Program" />
         <meta name="keywords" content="HR Analytics Program" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <link
-          rel="canonical"
-          href="https://www.learnbay.co/hr-analytics"
-        />
+        <link rel="canonical" href="https://www.learnbay.co/hr-analytics" />
       </Head>
       <main>
-        <Navbar popup={true} dataScience={true} />
+        <Navbar
+          popup={true}
+          dataScienceCounselling={true}
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -64,6 +64,8 @@ function Hr() {
         </Popup>
         <FirstSection
           dataScience={true}
+          titleCourse="HR Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
           first="Tools"
           second="Tips"
           third="Technology"
@@ -72,7 +74,7 @@ function Hr() {
           firstHeading="Become a data-driven professional"
           firstTopPara="Experience the future of analytics"
           idss="kh54EexuNJo"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
         />
         <SecondSection
           fullStackReview={true}
@@ -116,6 +118,8 @@ function Hr() {
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
+          titleCourse="Data Science Placement Report"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
@@ -140,14 +144,17 @@ function Hr() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
         <FourthSection
+        dataScienceCounselling={true}
           serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
+          titleCourse="HR Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
           syllabus={HrData[0].syllabus}
           syllabusDesc={HrData[0].syllabusDesc}
           popupHead={HrData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
@@ -159,6 +166,7 @@ function Hr() {
           para3="Growing demand for data-driven HR decision-making"
         />
         <FifthSection
+        dataScienceCounselling={true}
           IBMMicrosoft={true}
           baFamilyTools={true}
           Fee="₹ 89,000 + 18% GST"
@@ -172,6 +180,8 @@ function Hr() {
           FeeContent6="No additional cost"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
+          titleCourse="HR Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -201,8 +211,13 @@ function Hr() {
           tools="16+"
           Hr={true}
           dataScience={true}
+          titleCourse="Data Science Project Brochure"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         />
-        <BatchDetails BAFamily={true} CourseFeeHead="Hr Analytics : Batch Details" />
+        <BatchDetails
+          BAFamily={true}
+          CourseFeeHead="Hr Analytics : Batch Details"
+        />
         <FAQNew
           FaqDatas={FaqDataHR}
           PaymentFaqDatas={PaymentFaqDataHR}

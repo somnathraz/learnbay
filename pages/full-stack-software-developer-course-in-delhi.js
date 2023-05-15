@@ -41,7 +41,7 @@ export default function Home() {
           Full-Stack Software Developer Course in Delhi | Full-Stack Software
           Developer Course Training in Delhi
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Full-Stack Software Developer Course in Delhi. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Delhi. Full-Stack Software Developer Course in Delhi will enhance your career"
@@ -78,8 +78,8 @@ export default function Home() {
         </Popup>
         <FirstSection
           fullStack={true}
-          deskTopPara="Ace Your Coding Interview at MAANG"
-          mTopPara="Ace Your Coding Interview at MAANG"
+          deskTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
+          mTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
           mTitle="Full-Stack Software Developer Course In Delhi"
           spanMTitleText="To Achieve Your Dream Job"
           title="Full-Stack Software Developer Course In Delhi"
@@ -108,7 +108,7 @@ export default function Home() {
           <BoxShape
             alt="Full-Stack Software Developer Course In Delhi"
             title="Why Enroll In Full Stack Software Developer Course In Delhi?"
-            Box1h5="Crack MAANG Interview"
+            Box1h5="Crack Interviews at MNC's"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
             box2desc="Guided by mentors working in MNCs to support you for the tech interviews"
@@ -129,7 +129,7 @@ export default function Home() {
               ProgramBot2="Learnbays full stack developer course in Delhi enables students to learn all the latest skills of full stack software development that are in demand across the world."
               ProgramBot3="Our full-stack software developer course in Delhi is to help professionals through the right career track that leads to the ultimate peak of success. Transitioning to a career as a full-stack software developer in Delhi is not that hard anymore."
               ProgramHead4="What do learners get from Learnbay's Full Stack Developer course in Delhi?"
-              ProgramBot4="Instead of following the generic online learning trends, Learnbay has developed a team of instructors consisting of 70+ expert full-stack developers from top-notch MNCs and MAANG. Also, they are from different domains/industries like cloud computing, data science, AI, etc."
+              ProgramBot4="Instead of following the generic online learning trends, Learnbay has developed a team of instructors consisting of 70+ expert full-stack developers from top-notch MNCs and PRODUCT Based Companies. Also, they are from different domains/industries like cloud computing, data science, AI, etc."
               ProgramBot5="And such experts are the designers of Learnbay’s full-stack development course."
               ProgramBot6="The full stack developer course in Delhi by Learnbay is created and curated according to the requirement of organizations in Delhi as well as the overseas job market.  Depending on your requirement learners get custom-fit job assistance and course content."
               ProgramBot7="In facEach of our classes is live and offers additional scopes of 1 to 1student-instructor query resolution."

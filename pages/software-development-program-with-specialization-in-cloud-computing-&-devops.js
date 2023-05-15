@@ -39,9 +39,10 @@ function blockchain() {
     <>
       <Head>
         <title>
-          Software Development Program with Specialization in Cloud Computing & DevOps
+          Software Development Program with Specialization in Cloud Computing &
+          DevOps
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Software Development Program with Specialization in cloud computing & devops"
@@ -60,7 +61,7 @@ function blockchain() {
         />
       </Head>
       <main>
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -73,13 +74,15 @@ function blockchain() {
         </Popup>
         <FirstSection
           dataScience={true}
+          titleCourse="Software Development Program with Specialization in Blockchain"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/advance+DS+header+image.webp"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Cloud-%26-DevOps-Header.png"
           firstToparaImg="with specialization in Cloud and Devops"
           firstHeading="Software Development Program"
-          firstTopPara="Revamp your devops game with/ Build the future cloud/ Transform your tech skills"
+          firstTopPara="Build the future cloud & transform your tech skills"
           idss="bfl64ANfSV0"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
@@ -91,7 +94,7 @@ function blockchain() {
           heading3="Project Certificate from IBM"
           heading4="Designed For Professionals"
           SecondPara1="Clear your doubts & get real-time solutions from industry experts"
-          SecondPara2="Boost career chances & gain referrals from 300+ high-level recruiters"
+          SecondPara2="Boost career chances with referrals from 300+ top recruiters"
           SecondPara3="Master the domain of blockchain with certificate from IBM"
           SecondPara4="Use tech innovation to drive career growth & acquire in-demand skills"
         />
@@ -101,10 +104,10 @@ function blockchain() {
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whoIsProgram.webp"
-          para1="Bachelor's degree with consistent academic performance"
+          para1="Bachelor's degree with good performance"
           para2="Minimum 1 year of IT work experience"
-          para3="Early to mid-career professionals interested in blockchain development"
-          para4="Professional seeking to upskill themselves in the digital economy"
+          para3="Early to mid-career professionals interested in technology"
+          para4="Preparing for future leadership roles in blockchain industry"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -123,6 +126,8 @@ function blockchain() {
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
+          titleCourse="Full Stack Placement Report"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
@@ -147,10 +152,13 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
         <FourthSection
+        dataScienceCounselling={true}
           serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
+          titleCourse="Software Development Program with Specialization in Blockchain"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
           syllabus={BlockchainCourse[0].syllabus}
           syllabusDesc={BlockchainCourse[0].syllabusDesc}
           popupHead={BlockchainCourse[0].popupHead}
@@ -160,13 +168,14 @@ function blockchain() {
         />
         <GrowthStats
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Scope+of+DS+left+image.png"
-          heading="Looking for high-paying career opportunities? Enter the cloud industry"
+          heading="Join the cloud industry for high-paying career opportunities"
           para1="Higher Growth: Compound annual growth rate of CAGR of 20% by 2028"
           para2="Big Earning Potential: Earn an average annual salary of INR 7 LPA"
-          para3="Strong Demand: Growing need for tech wizards across various domains & industries"
+          para3="Strong Demand: Growing need for tech wizards across various industries"
         />
-      
-      <FifthSection
+
+        <FifthSection
+        dataScienceCounselling={true}
           advanceCertificate={true}
           Fee="₹ 95,000 + 18% GST"
           FeeEmi="₹ 9,342/month"
@@ -179,6 +188,8 @@ function blockchain() {
           FeeContent6="No additional cost"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
+          titleCourse="Software Development Program with Specialization in Blockchain"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -203,12 +214,13 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <DomainSection dataScience={true} />
         <Project
           project="10+ Projects"
           tools="16+"
-          DsProject={true}
+          Cloud={true}
           dataScience={true}
+          titleCourse="Full Stack Project Brochure"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
         />
         <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew

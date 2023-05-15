@@ -22,6 +22,7 @@ function SyllabusNew({
   srcD,
   fullStack,
   fsdBrochure,
+  dataScienceCounselling,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -66,6 +67,7 @@ function SyllabusNew({
             downloadBrochure
             fullStack={fullStack}
             dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
           />
         </div>
       </Popup>
@@ -216,7 +218,11 @@ function SyllabusNew({
               </h5>
             </div>
             <div className={styles.PProgramInners}>
-              <Form dataScience={dataScience} fullStack={fullStack} />
+              <Form
+                dataScience={dataScience}
+                dataScienceCounselling={dataScienceCounselling}
+                fullStack={fullStack}
+              />
             </div>
           </div>
           <img

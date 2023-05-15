@@ -39,7 +39,7 @@ export default function Home() {
         <title>
           Machine Learning Course in Pune | Machine Learning Training in Pune
         </title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Machine learning course in Pune. Learnbay is Advanced Machine Learning Course Training Institute in Pune. Machine Learning course in Pune will enhance your career"
@@ -53,7 +53,7 @@ export default function Home() {
           href="https://www.learnbay.co/machine-learning-course-training-in-pune"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
-         {/* <meta name="HandheldFriendly" content="true" /> */}
+        {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
@@ -62,7 +62,7 @@ export default function Home() {
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
         {/* <meta name="revisit-after" content="Daily" /> */}
-         {/* <meta name="author" content="Learnbay" /> */}
+        {/* <meta name="author" content="Learnbay" /> */}
         {/* <meta name="googlebot" content="index,follow" /> */}
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
@@ -428,7 +428,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -436,18 +436,22 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScienceCounselling={true}
+            />
           </div>
         </Popup>
         <FirstSection
-          dataScience={true}
+          dataScienceCounselling={true}
           deskTopPara="Industry-Curated & IBM Certified Professionals ML Training"
           mTopPara="Industry-Curated & IBM Certified Professionals ML Training"
           title="Machine Learning Course Training In Pune"
           mTitle="Machine Learning Course Training In Pune"
           spanMTitleText="Advance Program"
           spanTitleText="Advance Program"
-          desc="Be eligible to work as an AI/ML expert in MNC/MAANG. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+          desc="Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           width="900"
           height="762"
@@ -469,7 +473,7 @@ export default function Home() {
         <ProgramFee
           Emi="₹ 10,816/month"
           Fee="₹ 1,10,000 + 18% GST"
-          dataScience={true}
+          dataScienceCounselling={true}
         />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -480,7 +484,7 @@ export default function Home() {
             Box2h5="Domain Focused"
             box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
             Box3h5="Premium Mentoring"
-            box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
+            box3desc="Enjoy and learn from mock interviews and CV writing workshops with PRODUCT Based Companies AI/ML industry experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -528,7 +532,7 @@ export default function Home() {
               CertificationBot1="At Learnbay, Students get 6 globally recognized certifications by IBM in a single Machine learning course program."
               CertificationBot2="The students who completed the course and the projects get separate certificates for gaining different Machine Learning skills like Deep Learning, Machine Learning with Python, Tensorflow, capstone project certificates, and many more. The most important is IBM Machine Learning project completion certificates for two new capstone projects."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Advanced-AI-ML.jpeg"
-              ModuleBot1="The Learnbay Machine Learning program in Pune consists of 300 hrs of uninterrupted live classes from MAANG experts. More than 18 specially planned Machine Learning modules are there, so students can be thoroughly trained for super industrial skills. Every module at Learnbay has its sub-module, from basic to advanced."
+              ModuleBot1="The Learnbay Machine Learning program in Pune consists of 300 hrs of uninterrupted live classes from PRODUCT Based Companies experts. More than 18 specially planned Machine Learning modules are there, so students can be thoroughly trained for super industrial skills. Every module at Learnbay has its sub-module, from basic to advanced."
               ModuleBot2="Leanbay understands the difficulty of non-programmers learning ML, so we conduct special coding classes for such students. The Learnbay Faculty team constantly updates all assignments and projects. We even conduct Webinars and hackathons for students to hone their coding skills. Learnbay teaches students to work with advanced ML skills that world-class business giants are presently operating, like Big Data Analytics, NLP, Time-Analysis, Data structure, algorithms, etc."
               syllabush1="Preparatory Classes (Programming + Maths)"
               syllabusb1="6 Hours"
