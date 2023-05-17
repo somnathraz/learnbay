@@ -1,6 +1,5 @@
 .certificate {
   padding: 50px 100px;
-  background: linear-gradient(90deg, #0072bc 0%, #2979a8 99.02%);
   margin-top: 30px;
   display: block;
 }
@@ -84,7 +83,6 @@
 .leftSide h6,
 .middleSide h6,
 .rightSide h6 {
-  color: #fff;
   margin: 0;
   margin-top: 20px;
   font-size: 28px;
@@ -106,13 +104,11 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  color: #fff;
 }
 
 .checkCircle {
   margin-right: 15px;
   font-size: 24px;
-  color: #fff;
 }
 
 .btnWrapper {

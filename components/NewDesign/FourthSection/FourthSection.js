@@ -189,6 +189,8 @@ function SyllabusNew({
                     <span
                     onClick={() => {
                       setPop(true);
+                      setBeginner(true);
+                      setAdvanced(false);
                     }}
                       className={Beginner ? styles.ActiveSpan : styles.span}
                     >
@@ -200,6 +202,8 @@ function SyllabusNew({
                     <span
                       onClick={() => {
                         setPop(true);
+                        setBeginner(false);
+                      setAdvanced(true);
                       }}
                       className={Advanced ? styles.ActiveSpan : styles.span}
                     >

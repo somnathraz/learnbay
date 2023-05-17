@@ -87,6 +87,9 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
+        FirstTyped="Guaranteed Interview Calls"
+        SecondTyped="Capstone Project Certificate"
+        ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Advanced Data Science and AI Program with domain specialization"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"

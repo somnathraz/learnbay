@@ -58,29 +58,90 @@ export const FullStackSoftwareCourseData = [
     syllabus: [
       {
         Module0: {
-          title: "Module 0 :- Preparatory Classes",
+          title: "Term 1 :- Programming Fundamentals",
           content: [
             {
               chap: {
-                title: "Topic 1 :- Cohort Orientation",
+                title:
+                  "Module 1 :- Programming Basics, Data Types and Code Flow",
                 desc: [
-                  "A quick guide to Software Development",
-                  "Significance of projects & case studies",
-                  "How to make it big in the IT Industry and Crack Product Based Company Interviews",
-                  "Interview process of top product based MNCs and Unicorns.",
+                  "Why Programming",
+                  "Simple use case where programming is required",
+                  "How to Write simple psuedo code",
+                  "Difference in different programming languages",
+                  "Intro to Java and Development setup",
                 ],
               },
             },
             {
               chap: {
-                title:
-                  "Topic 1 :- Analysis of Algorithms, Space and Time complexity",
+                title: "Module 2 :- If statement, Loops and Code flow",
                 desc: [
-                  "Big-O, Big-Omega, and Big-Theta notations ",
-                  "Best, average, and worst-case Complexities hierarchy",
-                  "Complexity classes (P vs. NP problem)",
-                  "Asymptotic Analysis",
-                  "Analysis of Loops",
+                  "Java Basics",
+                  "Writing code in Java",
+                  "If statements Loops",
+                  "Flow of basic code and best coding practices",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3 :- Input, Output and Exceptions",
+                desc: [
+                  "Taking Input and printing",
+                  "Types of exception and handling them.",
+                  "More on Java language fundamentals",
+                  "JDK",
+                  "JRE",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- If statement, Loops and Code flow",
+                desc: [
+                  "Java Basics",
+                  "Writing code in Java",
+                  "If statements Loops",
+                  "Flow of basic code and best coding practices",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 5 :- Functions",
+                desc: [
+                  "How functions work and how to make custom functions and work with them",
+                  "Significance",
+                  "Defining",
+                  "Function return type",
+                  "Passing arguments",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 6 :- Objected Oriented Programming",
+                desc: [
+                  "Abstraction",
+                  "Encapsulation",
+                  "Inheritance",
+                  "Polymorphism",
+                  "Interfaces, Modifiers, Classes and Objects",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 7 :- 2-D Matrix",
+                desc: [],
+              },
+            },
+            {
+              chap: {
+                title: "Module 8 :- 1-D Array",
+                desc: [
+                  "1-D Array (Defining & initializing, iterations, looping on Arrays)",
                 ],
               },
             },
@@ -91,40 +152,216 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Term 1 :- Data Structure and Algorithm",
+          title: "Term 2 :- Basic DSA",
           content: [
             {
               chap: {
-                title: "Module 1 :- DSA",
+                title: "Module 1 :- Functions & Recursion",
                 desc: [
-                  "Array Overview",
-                  "String",
-                  "Linked List",
-                  "Queue",
-                  "Stack",
-                  " Heap",
-                  " Trie",
-                  " Tree, Binary Search Tree and AVL Tree",
-                  "Segment Tree",
-                  " Graph & Recursion",
-                  " Introduction to recursion",
-                  " Backtracking Algorithm",
-                  " Searching",
-                  "Sorting",
-                  "Greedy ",
-                  " Pattern Searching",
-                  " Dynamic Programming",
+                  "Significance",
+                  " Defining",
+                  "Function return type",
+                  "Passing arguments",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- System Design",
+                title: "Module 2 :- Recursion",
+                desc: ["Recursion", "Divide and Conquer"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3 :- Linear Search and Binary Search",
+                desc: ["Linear Search", "Binary Search", "Ternary Search"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- Time and space Complexity",
+                desc: ["Best, worst & average case"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 5 :- Bit Manipulation",
+                desc: [],
+              },
+            },
+            {
+              chap: {
+                title: "Module 6 :- Two Pointers",
+                desc: [],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 7 :- Sorting using Divide and Conquer and implementation",
                 desc: [
-                  "Introduction to System Design",
-                  " High Level Design With Projects",
-                  "Low-Level Design With Projects OOD and Design Patterns",
-                  "Database Indexing, Proxies,Use case No.: Designing an Instant messaging Service",
+                  "Sortings",
+                  "Divide and Conquer",
+                  "Merge Sort",
+                  "Quick Sort",
+                  "Comparator Sort",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 8 :- Simple Array Sorting and its implementation",
+                desc: ["Sortings", "Bubble sort", "Insertion Sort"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 9 :- Strings",
+                desc: [
+                  "Pattern matching",
+                  "Z Algorithm",
+                  "KMP",
+                  "String Hashing",
+                  "Aho corasick",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 10 :- STL - 1",
+                desc: [
+                  "Collections (Standard Template Library)",
+                  "Vector",
+                  "Set",
+                  "Iterator",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 11 :- STL - 2",
+                desc: [
+                  "Collections (Standard Template Library)",
+                  "Map",
+                  "Iterator",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 12 :- STL - 3",
+                desc: [
+                  "Collections (Standard Template Library)",
+                  "STL functions - Lower Bound",
+                  "STL functions upperbound",
+                  "Sort",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 13 :- ArrayList and Linked List - 1",
+                desc: [
+                  "Single Linked List (Insertion at positions in Linked List, iteration in Linked List, Deletion at position in Linked List, Linked List loops)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 14 :- Linked List - 2",
+                desc: [
+                  "Double Linked List (Double Linked list creation (prev pointer), iteration in Double Linked List, insertion at positions in Linked List, Deletion in Double Linked List)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 15 :- Linked List - 3",
+                desc: [
+                  "Circular Linked list (Circular Linked list creation,iteration in Circular Linked List, insertion at positions in Circular Linked List, Deletion in Circular Linked List",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 16 :- Stack",
+                desc: ["Intro", "Application and Implementation using Array"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 17 :- Applications of Stack",
+                desc: ["Implementation using Linked list", "Stack as library"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 18 :- Queue",
+                desc: [
+                  "Implementation using Array",
+                  "Implementation using Linked list",
+                  "Queue as a library",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 19 :- Applications of Queue",
+                desc: [
+                  "Implementation using Array",
+                  "Implementation using Linked list",
+                  "Queue as a library",
+                ],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 2 :- Advanced DSA",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Maths",
+                desc: [
+                  "Modular Arithmetic, Modular Exponentiation, GCD, Modular Multiplicative Inverse",
+                  " GCD, Primality Testing, Seive of Eratosthenes",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Analysis of Algorithm - Advance",
+                desc: ["Greedy"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3 :- Advance Data Structure",
+                desc: [
+                  "Tree -1 (Traversals)",
+                  "Tree - 2 (Construction of tree from traversals, height of tree, mirror of tree)",
+                  "Tree - 3 (LCA, Diameter)",
+                  "BST",
+                  "Heaps",
+                  "Graph - 1 (BFS, DFS)",
+                  "Graph - 2 (Cycles in Graph)",
+                  "Graph - 3 (DFS, BFS on matrix)",
+                  "Graph - 4 ([Dijkstra Algorithm, Flood Fill Algorithm])",
+                  "Heaps",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- Analysis of Algorithm - Advance",
+                desc: [
+                  "Dynamic Programming",
+                  "Graph - 5 [Minimum Spanning Tree, Floyd Warshall, Topological Sorting]",
                 ],
               },
             },
@@ -135,124 +372,441 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Term 2 :- Real-time Projects & Use cases",
+          title: "Term 3 :- System Design",
           content: [
             {
               chap: {
-                title: "Module 1 :- Real time use cases and projects",
+                title: "Module 1 :- Introduction to System Design",
                 desc: [
-                  "Authentication",
-                  " CRUD",
-                  "Payment Gateway Integration",
-                  "API Integration",
-                  " Travel Booking Application",
-                  " Video Conferencing Application",
-                  "Blog Site",
-                  " Workout Application",
-                  "Buy/Sell Second-hand Products",
-                  "On-Demand Home Service Application",
-                  "Online Code Editor Application",
-                  "Stock Investment Application",
-                  "Create a To-do List Application",
-                  " Chatting/Messaging Application",
-                  " Food Delivery Application",
-                  " VR-Based Application",
+                  "What is System Design?",
+                  "Goals of System Design",
+                  "Components of a System Design",
+                  "System Design Process",
+                  "Importance of System Design",
+                  "Types of Systems",
+                  "Architecture of a System",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Design Principles",
+                desc: [
+                  "SOLID Principles",
+                  "KISS Principle",
+                  "DRY Principle",
+                  "YAGNI Principle",
+                  "Separation of Concerns",
+                  "Law of Demeter",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3 :- Design Patterns",
+                desc: [
+                  "Creational Patterns",
+                  "Structural Patterns",
+                  "Behavioral Patterns",
+                  "Singleton Pattern",
+                  "Factory Pattern",
+                  "Adapter Pattern",
+                  "Observer Pattern",
+                  "Command Pattern",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- Low-Level Design (HLD)",
+                desc: [
+                  "Understanding the Purpose and Scope of LLD",
+                  "LLD Design Process",
+                  "Types of LLD",
+                  "Creating a Low-Level Design Document",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 5 :- High-Level Design (HLD)",
+                desc: [
+                  "Understanding the Purpose and Scope of HLD",
+                  "HLD Design Process",
+                  "Types of HLD",
+                  "Creating a High-Level Design Document",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 6 :- Scalability and Performance",
+                desc: [
+                  "Scalability",
+                  "Performance",
+                  "Load Balancing",
+                  "Caching",
+                  "Database Scaling",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 7 :- Security and Reliability",
+                desc: [
+                  "Security",
+                  "Reliability",
+                  "Fault Tolerance",
+                  "Disaster Recovery",
+                  "Backup and Restore",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 8 :- Integration and Deployment",
+                desc: [
+                  "Continuous Integration",
+                  "Continuous Deployment",
+                  "DevOps",
+                  "Microservices",
+                  "Containers",
+                ],
+              },
+            },
+          ],
+          id: 2,
+          open: false,
+        },
+      },
+    ],
+    advSyllabus: [
+      {
+        Module0: {
+          title: "Term 2 :- Basic DSA",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Functions & Recursion",
+                desc: [
+                  "Significance",
+                  " Defining",
+                  "Function return type",
+                  "Passing arguments",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Recursion",
+                desc: ["Recursion", "Divide and Conquer"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3 :- Linear Search and Binary Search",
+                desc: ["Linear Search", "Binary Search", "Ternary Search"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- Time and space Complexity",
+                desc: ["Best, worst & average case"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 5 :- Bit Manipulation",
+                desc: [],
+              },
+            },
+            {
+              chap: {
+                title: "Module 6 :- Two Pointers",
+                desc: [],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 7 :- Sorting using Divide and Conquer and implementation",
+                desc: [
+                  "Sortings",
+                  "Divide and Conquer",
+                  "Merge Sort",
+                  "Quick Sort",
+                  "Comparator Sort",
                 ],
               },
             },
             {
               chap: {
                 title:
-                  "Module 2 :- Interview Preparation: Crack PRODUCT Based Companies",
+                  "Module 8 :- Simple Array Sorting and its implementation",
+                desc: ["Sortings", "Bubble sort", "Insertion Sort"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 9 :- Strings",
                 desc: [
-                  " Searching and Sorting Interview Questions",
-                  " Top 20 Dynamic Programming Interview Questions",
-                  " Top 100 Interview Questions on Advance data structures",
-                  " On-Demand Home Service Application",
-                  " Top 50 Interview Questions on Elementary data structures",
-                  " Top 15 Puzzles to solve and practice",
-                  " Practice the Most Popular Algorithms",
-                  " Programming Knowledge",
-                  " Aptitude, Reasoning & English",
-                  " Quantitative Aptitude",
-                  " Behavioral",
-                  " Logical Ability",
-                  " Computer Science & Programming",
-                  " Chatting/Messaging Application",
-                  " Prefix Sum and Sliding Window",
-                  " Bit Magic",
+                  "Pattern matching",
+                  "Z Algorithm",
+                  "KMP",
+                  "String Hashing",
+                  "Aho corasick",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 10 :- STL - 1",
+                desc: [
+                  "Collections (Standard Template Library)",
+                  "Vector",
+                  "Set",
+                  "Iterator",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 11 :- STL - 2",
+                desc: [
+                  "Collections (Standard Template Library)",
+                  "Map",
+                  "Iterator",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 12 :- STL - 3",
+                desc: [
+                  "Collections (Standard Template Library)",
+                  "STL functions - Lower Bound",
+                  "STL functions upperbound",
+                  "Sort",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 13 :- ArrayList and Linked List - 1",
+                desc: [
+                  "Single Linked List (Insertion at positions in Linked List, iteration in Linked List, Deletion at position in Linked List, Linked List loops)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 14 :- Linked List - 2",
+                desc: [
+                  "Double Linked List (Double Linked list creation (prev pointer), iteration in Double Linked List, insertion at positions in Linked List, Deletion in Double Linked List)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 15 :- Linked List - 3",
+                desc: [
+                  "Circular Linked list (Circular Linked list creation,iteration in Circular Linked List, insertion at positions in Circular Linked List, Deletion in Circular Linked List",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 16 :- Stack",
+                desc: ["Intro", "Application and Implementation using Array"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 17 :- Applications of Stack",
+                desc: ["Implementation using Linked list", "Stack as library"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 18 :- Queue",
+                desc: [
+                  "Implementation using Array",
+                  "Implementation using Linked list",
+                  "Queue as a library",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 19 :- Applications of Queue",
+                desc: [
+                  "Implementation using Array",
+                  "Implementation using Linked list",
+                  "Queue as a library",
                 ],
               },
             },
           ],
-          id: 3,
+          id: 0,
+          open: true,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 2 :- Advanced DSA",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Maths",
+                desc: [
+                  "Modular Arithmetic, Modular Exponentiation, GCD, Modular Multiplicative Inverse",
+                  " GCD, Primality Testing, Seive of Eratosthenes",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Analysis of Algorithm - Advance",
+                desc: ["Greedy"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3 :- Advance Data Structure",
+                desc: [
+                  "Tree -1 (Traversals)",
+                  "Tree - 2 (Construction of tree from traversals, height of tree, mirror of tree)",
+                  "Tree - 3 (LCA, Diameter)",
+                  "BST",
+                  "Heaps",
+                  "Graph - 1 (BFS, DFS)",
+                  "Graph - 2 (Cycles in Graph)",
+                  "Graph - 3 (DFS, BFS on matrix)",
+                  "Graph - 4 ([Dijkstra Algorithm, Flood Fill Algorithm])",
+                  "Heaps",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- Analysis of Algorithm - Advance",
+                desc: [
+                  "Dynamic Programming",
+                  "Graph - 5 [Minimum Spanning Tree, Floyd Warshall, Topological Sorting]",
+                ],
+              },
+            },
+          ],
+          id: 2,
           open: false,
         },
       },
       {
         Module0: {
-          title: "Term 3 :- Elite Domains",
+          title: "Term 3 :- System Design",
           content: [
             {
               chap: {
-                title: "Module 1 :- FullStack",
-                desc: ["Programming Essentials", "Frontend", "Backend"],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2 :- Product Engineer/Manager",
+                title: "Module 1 :- Introduction to System Design",
                 desc: [
-                  "Fundamentals of team management",
-                  "Recognize functional specifications",
-                  "Product Lifecycle Administration ",
-                  "Competitive Intelligence",
-                  "Domain-Driven Design",
-                  "Application Requirements Specification",
+                  "What is System Design?",
+                  "Goals of System Design",
+                  "Components of a System Design",
+                  "System Design Process",
+                  "Importance of System Design",
+                  "Types of Systems",
+                  "Architecture of a System",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 3 :- Data Science and AI",
+                title: "Module 2 :- Design Principles",
                 desc: [
-                  "An overview of Machine Learning",
-                  "Exploratory Data Analysis",
-                  "Data Visualization using Tableau",
-                  "Introduction to Time Series Forecasting",
-                  "Understanding Implementation of Deep Learning",
-                  "Basics of NLP",
+                  "SOLID Principles",
+                  "KISS Principle",
+                  "DRY Principle",
+                  "YAGNI Principle",
+                  "Separation of Concerns",
+                  "Law of Demeter",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 4 :- Web 3.0 Developer",
+                title: "Module 3 :- Design Patterns",
                 desc: [
-                  "Overview of Bitcoin",
-                  "Blockchain - Genesis Block, Hashing Algorithm",
-                  "Blockchain Functioning and Working",
-                  "All about - Ethereum",
-                  "Building Smart Contract",
-                  "ERC 721 Token",
+                  "Creational Patterns",
+                  "Structural Patterns",
+                  "Behavioral Patterns",
+                  "Singleton Pattern",
+                  "Factory Pattern",
+                  "Adapter Pattern",
+                  "Observer Pattern",
+                  "Command Pattern",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 5 :- Devops & Clouds",
+                title: "Module 4 :- Low-Level Design (HLD)",
                 desc: [
-                  "In-Depth knowledge of Agile Principles",
-                  "Understanding Project Development Process",
-                  "Setting up tools and required infrastructure",
-                  "Gain expertise in CI/CD pipeline development using multiple automation technologies",
-                  "Managing Database using MySQL and MongoDB",
-                  "Analytics in Cloud Computing",
+                  "Understanding the Purpose and Scope of LLD",
+                  "LLD Design Process",
+                  "Types of LLD",
+                  "Creating a Low-Level Design Document",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 5 :- High-Level Design (HLD)",
+                desc: [
+                  "Understanding the Purpose and Scope of HLD",
+                  "HLD Design Process",
+                  "Types of HLD",
+                  "Creating a High-Level Design Document",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 6 :- Scalability and Performance",
+                desc: [
+                  "Scalability",
+                  "Performance",
+                  "Load Balancing",
+                  "Caching",
+                  "Database Scaling",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 7 :- Security and Reliability",
+                desc: [
+                  "Security",
+                  "Reliability",
+                  "Fault Tolerance",
+                  "Disaster Recovery",
+                  "Backup and Restore",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 8 :- Integration and Deployment",
+                desc: [
+                  "Continuous Integration",
+                  "Continuous Deployment",
+                  "DevOps",
+                  "Microservices",
+                  "Containers",
                 ],
               },
             },
           ],
-          id: 4,
+          id: 2,
           open: false,
         },
       },

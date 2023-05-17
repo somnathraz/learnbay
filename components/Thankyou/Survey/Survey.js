@@ -11,6 +11,7 @@ const Survey = ({ topPara, para, header }) => {
         <p>{topPara}</p>
         <h4>{header}</h4>
         <p>{para}</p>
+        <div className={styles.ButtonShowD}>
         <PopupButton
           id="jpqC3A6g"
           style={{ fontSize: 18 }}
@@ -18,6 +19,7 @@ const Survey = ({ topPara, para, header }) => {
         >
           Know More
         </PopupButton>
+        </div>
       </div>
       <div className={styles.lineWrap}>
         <div className={styles.lineImg}>
@@ -82,6 +84,15 @@ const Survey = ({ topPara, para, header }) => {
               />
             </div>
           </div>
+        </div>
+        <div className={styles.ButtonShowM}>
+        <PopupButton
+          id="jpqC3A6g"
+          style={{ fontSize: 18 }}
+          className="my-button"
+        >
+          Know More
+        </PopupButton>
         </div>
       </div>
     </div>

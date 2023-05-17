@@ -107,7 +107,6 @@ function FirstSection({
         <div className={styles.animationTextWrap}>
               <span ref={el} className={styles.animationText}></span>
         </div>
-
         <div className={styles.logos}>
           <div style={{ textAlign: "center" }}>
             <Image

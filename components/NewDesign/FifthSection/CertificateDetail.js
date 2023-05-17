@@ -133,7 +133,7 @@ export const Certificate8 = [
 export const CertificateAdvance9 = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/DS-AI-1.jpeg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Certificate-blue.png",
     title: "Course Completion Certificate from IBM",
     para: [
       "Complete your training with the internationally recognized certificate.",
@@ -175,6 +175,30 @@ export const Certificate12 = [
       "Globally recognized IBM certification based on industrial-level projects.",
       "Work on latest full stack projects for Food Panda, UberEats, Domino's Pizza, etc.",
       "Individualized project experience with easy access to premium job opportunities.",
+    ],
+  },
+];
+
+export const CertificateSoftware1 = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Sample+Certificate.png",
+    title: "Course Completion Certificate from IBM",
+    para: [
+      "Complete your training with the internationally recognized certificate.",
+      "Validate your Software Development skills with IBM Course Completion Certificate.",
+      "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+    ],
+  },
+];export const CertificateSoftware2 = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Microsoft-certificate-data.png",
+    title: "Certification in Collaboration with Microsoft",
+    para: [
+      "Industry-certified Microsoft certificates",
+      "Gain expertise & get recognized worldwide",
+      "Boost job opportunities and earnings with Microsoft’s certification",
     ],
   },
 ];

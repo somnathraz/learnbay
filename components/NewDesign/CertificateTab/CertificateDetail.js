@@ -145,7 +145,7 @@ export const CertificateManagersDDD = [
 export const AnalyticsCertificateD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/DS-AI-1.jpeg",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Certificate-blue.png",
     title: "Course Completion Certificate from IBM",
     para: [
       "Complete your training with the internationally recognized certificate.",

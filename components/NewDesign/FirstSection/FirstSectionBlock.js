@@ -20,7 +20,6 @@ function FirstSection({
   titleCourse,
   brochureLink,
   dataScienceCounselling,
-  FirstTyped, SecondTyped, ThirdTyped,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -33,7 +32,11 @@ function FirstSection({
   };
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: [FirstTyped, SecondTyped, ThirdTyped], // Strings to display
+      strings: [
+        "IBM Certificate",
+        "Expert-Led Advanced Program",
+        "Live Interactive Classes",
+      ], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 100,
       typeSpeed: 80,
@@ -107,7 +110,6 @@ function FirstSection({
         <div className={styles.animationTextWrap}>
               <span ref={el} className={styles.animationText}></span>
         </div>
-
         <div className={styles.logos}>
           <div style={{ textAlign: "center" }}>
             <Image

@@ -9,11 +9,13 @@ import Popup from "../../Popup/Popup";
 import Certificate from "../FifthSection/CertificateTabAdvance";
 import AnalyticsCertificateTab from "../CertificateTab/AnalyticsCertificateTab";
 import CertificateTabAdvance from "../FifthSection/CertificateTabAdvance";
+import CertificateSoftware from "../FifthSection/CertificateSoftware";
 
 function FifthSection({
   FeeHeading,
   dataAnalyticsCertificate,
   dataScience,
+  CertificateSoftwareD,
   Fee,
   FeeContent1,
   FeeContent2,
@@ -31,6 +33,8 @@ function FifthSection({
   titleCourse,
   brochureLink,
   dataScienceCounselling,
+  softTools,
+  blockChainTools,
 }) {
   const [mobile, setMobile] = useState(false);
 
@@ -64,7 +68,12 @@ function FifthSection({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form dataScience={dataScience} dataScienceCounselling={dataScienceCounselling} titleCourse={titleCourse} brochureLink={brochureLink}/>
+          <Form
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+            titleCourse={titleCourse}
+            brochureLink={brochureLink}
+          />
         </div>
       </Popup>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -73,64 +82,137 @@ function FifthSection({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups} dataScience={dataScience} dataScienceCounselling={dataScienceCounselling} titleCourse={titleCourse} brochureLink={brochureLink}/>
+          <Form
+            popup={true}
+            setTrigger={setPopups}
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+            titleCourse={titleCourse}
+            brochureLink={brochureLink}
+          />
         </div>
       </Popup>
-      {baFamilyTools ? (
-        <div className={styles.toolscoverd}>
-          <p className={styles.infop}>Wide Range Of Tools & Modules</p>
-          <div className={styles.sliderTopD}>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA+Family+Tools+Covered.png"
-              alt="github"
-              layout="intrinsic"
-              width="1458"
-              height="186"
-              objectFit="contain"
-            />
-          </div>
-          <div className={styles.sliderTopM}>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA-Family-Tools-Covered-mobile.png"
-              alt="github"
-              layout="intrinsic"
-              width="481"
-              height="153"
-              objectFit="contain"
-            />
-          </div>
-        </div>
+      {blockChainTools ? (
+        <>
+          {" "}
+          <div className={styles.toolscoverd}>
+            <p className={styles.infop}>Wide Range Of Tools & Modules</p>
+            <div className={styles.sliderTopD}>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Tools-Logo-Blockchain.png"
+                alt="github"
+                layout="intrinsic"
+                width="1458"
+                height="186"
+                objectFit="contain"
+              />
+            </div>
+            <div className={styles.sliderTopM}>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/TOOLS-Blockchain-mobile.png"
+                alt="github"
+                layout="intrinsic"
+                width="481"
+                height="153"
+                objectFit="contain"
+              />
+            </div>
+          </div>{" "}
+        </>
       ) : (
         <>
-          {hidetools ? (
-            ""
+          {softTools ? (
+            <>
+              {" "}
+              <div className={styles.toolscoverd}>
+                <p className={styles.infop}>Wide Range Of Tools & Modules</p>
+                <div className={styles.sliderTopD}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Tools-Logo-SDE.png"
+                    alt="github"
+                    layout="intrinsic"
+                    width="1458"
+                    height="186"
+                    objectFit="contain"
+                  />
+                </div>
+                <div className={styles.sliderTopM}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/TOOLS-SDE-mobile.png"
+                    alt="github"
+                    layout="intrinsic"
+                    width="481"
+                    height="153"
+                    objectFit="contain"
+                  />
+                </div>
+              </div>{" "}
+            </>
           ) : (
-            <div className={styles.toolscoverd}>
-              <p className={styles.infop}>Wide Range Of Tools & Modules</p>
-              <div className={styles.sliderTopD}>
-                <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Tools-Logo.png"
-                  alt="github"
-                  layout="intrinsic"
-                  width="1458"
-                  height="186"
-                  objectFit="contain"
-                />
-              </div>
-              <div className={styles.sliderTopM}>
-                <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Mobile-Tools-Covered.png"
-                  alt="github"
-                  layout="intrinsic"
-                  width="481"
-                  height="153"
-                  objectFit="contain"
-                />
-              </div>
-            </div>
+            <>
+              {" "}
+              {baFamilyTools ? (
+                <div className={styles.toolscoverd}>
+                  <p className={styles.infop}>Wide Range Of Tools & Modules</p>
+                  <div className={styles.sliderTopD}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA+Family+Tools+Covered.png"
+                      alt="github"
+                      layout="intrinsic"
+                      width="1458"
+                      height="186"
+                      objectFit="contain"
+                    />
+                  </div>
+                  <div className={styles.sliderTopM}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BA-Family-Tools-Covered-mobile.png"
+                      alt="github"
+                      layout="intrinsic"
+                      width="481"
+                      height="153"
+                      objectFit="contain"
+                    />
+                  </div>
+                </div>
+              ) : (
+                <>
+                  {hidetools ? (
+                    ""
+                  ) : (
+                    <div className={styles.toolscoverd}>
+                      <p className={styles.infop}>
+                        Wide Range Of Tools & Modules
+                      </p>
+                      <div className={styles.sliderTopD}>
+                        <Image
+                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Tools-Logo.png"
+                          alt="github"
+                          layout="intrinsic"
+                          width="1458"
+                          height="186"
+                          objectFit="contain"
+                        />
+                      </div>
+                      <div className={styles.sliderTopM}>
+                        <Image
+                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Mobile-Tools-Covered.png"
+                          alt="github"
+                          layout="intrinsic"
+                          width="481"
+                          height="153"
+                          objectFit="contain"
+                        />
+                      </div>
+                    </div>
+                  )}
+                </>
+              )}{" "}
+            </>
           )}
         </>
       )}
+
       {NoCertficate ? (
         ""
       ) : (
@@ -145,6 +227,8 @@ function FifthSection({
             ""
           )}
           {dataAnalyticsCertificate ? <CertificateTabAdvance Ibm={true} /> : ""}
+          {CertificateSoftwareD ? <CertificateSoftware Ibm={true} /> : ""}
+
         </div>
       )}
       {/* <div className={styles.fee}>

@@ -73,6 +73,13 @@
   left: -12rem;
 }
 
+.ButtonShowM {
+  display: none;
+}
+.ButtonShowD {
+  display: block;
+}
+
 @media (max-width: 641px) {
   .boxWrap {
     padding: 20px;
@@ -82,11 +89,26 @@
   .leftSide {
     display: block;
   }
+
+  .lineImg {
+display: none;
+  }
   .lineWrap, .lineWrap, .conteWrap, .threeDiv, .oneDiv, .twoDiv, .lineImg, .imgWrap, .oneDiv {
     position:unset;
+  }
+  .conteWrap {
+    margin-top: 30px;
   }
   .twoDiv, .threeDiv, .oneDiv {
     display: flex;
     flex-direction: column-reverse;
+}
+.ButtonShowD {
+  display: none;
+}
+.ButtonShowM {
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }
 }
