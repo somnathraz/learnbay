@@ -230,7 +230,7 @@ function blockchain() {
           titleCourse="Full Stack Project Brochure"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
         />
-        <BatchDetails CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
+        <BatchDetails FullStack={true} CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
         <FAQNew
           FaqDatas={FaqData9}
           DomainFaqDatas={DomainFaqData9}
@@ -241,7 +241,7 @@ function blockchain() {
           SupportFaqDatas={SupportFaqData9}
         />
         <SeventhSection fullStackCont={true} />
-        <OfferPopup offer={false} />
+        <OfferPopup offer={true} />
         <Footer />
       </main>
     </>

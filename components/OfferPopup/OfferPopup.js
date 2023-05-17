@@ -87,7 +87,7 @@ const OfferPopup = ({
                   <>
                     <div className={styles.Offer}>
                       <h6>
-                      Upskill with DSA and System Design - Full Stack Software Development Course
+                      Upskill with DSA and System Design - Software Development Course
                       </h6>
                       {/* <p><b>{p1}</b></p> */}
                       <p>Available Batch Details :</p>
