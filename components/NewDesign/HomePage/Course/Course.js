@@ -128,7 +128,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
           </span>
           {oneYear ? (
             <div className={styles.mPanel}>
-              <h5>Data Science (4) </h5>
+              <h5>Data Science & AI (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={value}
@@ -222,7 +222,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                   })}
                 </Swiper>
               </div>
-              <h5>Full Stack (3) </h5>
+              <h5>Software Development (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}
@@ -334,7 +334,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
           </span>
           {nonTech ? (
             <div className={styles.mPanel}>
-              <h5>Data Science (7) </h5>
+              <h5>Data Science & AI (10) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={value}
@@ -442,11 +442,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
             }}
             className={Stack ? styles.ActiveSpan : styles.span}
           >
-            Full Stack Development
+            Software Development
           </span>
           {Stack ? (
             <div className={styles.mPanel}>
-              <h5>Full Stack (3) </h5>
+              <h5>Software Development (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}
@@ -558,7 +558,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
           </span>
           {Guarantee ? (
             <div className={styles.mPanel}>
-              <h5>Data Science (1) </h5>
+              <h5>Data Science & AI (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={value}
@@ -658,7 +658,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                   })}
                 </Swiper>
               </div>
-              <h5>Full Stack (1) </h5>
+              <h5>Software Development (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}
@@ -770,7 +770,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
           </span>
           {viewAll ? (
             <div className={styles.mPanel}>
-              <h5>Data Science (7) </h5>
+              <h5>Data Science & AI (10) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}
@@ -864,7 +864,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                   })}
                 </Swiper>
               </div>
-              <h5>Full Stack (3) </h5>
+              <h5>Software Development (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}
@@ -966,7 +966,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
         <div className={styles.middlePanel}>
           {viewAll ? (
             <>
-              <h5>Data Science (7) </h5>
+              <h5>Data Science & AI (10) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={value}
@@ -1066,7 +1066,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                   })}
                 </Swiper>
               </div>
-              <h5>Full Stack (3) </h5>
+              <h5>Software Development (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}
@@ -1172,7 +1172,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
           )}
           {oneYear ? (
             <>
-              <h5>Data Science (4) </h5>
+              <h5>Data Science & AI (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={value}
@@ -1272,7 +1272,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                   })}
                 </Swiper>
               </div>
-              <h5>Full Stack (3) </h5>
+              <h5>Software Development (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}
@@ -1378,7 +1378,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
           )}
           {nonTech ? (
             <>
-              <h5>Data Science (7) </h5>
+              <h5>Data Science & AI (10) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={value}
@@ -1484,7 +1484,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
           )}
           {Guarantee ? (
             <>
-              <h5>Data Science (1) </h5>
+              <h5>Data Science & AI (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={value}
@@ -1584,7 +1584,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                   })}
                 </Swiper>
               </div>
-              <h5>Full Stack (1) </h5>
+              <h5>Software Development (1) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}
@@ -1690,7 +1690,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
           )}
           {Stack ? (
             <>
-              <h5>Full Stack (3) </h5>
+              <h5>Software Development (3) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}

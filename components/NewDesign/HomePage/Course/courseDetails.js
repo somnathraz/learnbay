@@ -121,10 +121,10 @@ export const viewAllD = [
   },
   {
     id: 8,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Web+Dev.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/software-blockchain.png",
     title: "Software Development ",
     courseTime: "8-10 months",
-    title1: "in Blockchain",
+    title1: "Program in Blockchain",
     tag: "Full stack",
     tagHead: "For Non-Tech Professionals",
     para: [
@@ -138,7 +138,7 @@ export const viewAllD = [
   },
   {
     id: 9,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/SW+dev+(1).png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SDE-masters.png",
     title: "Software Development ",
     courseTime: "9-11 months",
     title1: "Master Program",
@@ -155,10 +155,10 @@ export const viewAllD = [
   },
   {
     id: 10,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/DSA.png",
-    title: "Software Development in ",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/software-Devops.png",
+    title: "Software Development Program ",
     courseTime: "8-10 months",
-    title1: "Cloud Computing & DevOps",
+    title1: "in Cloud Computing & DevOps",
     tagHead: "Be a Product Design Pro",
     tag: "Full stack",
     para: [
@@ -243,7 +243,7 @@ export const ForProgrammersD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/SW+dev+(1).png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SDE-masters.png",
     title: "Software Development ",
     courseTime: "9-11 months",
     title1: "Master Program",
@@ -294,10 +294,10 @@ export const ForProgrammersD = [
   },
   {
     id: 5,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Web+Dev.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/software-blockchain.png",
     title: "Software Development ",
     courseTime: "8-10 months",
-    title1: "in Blockchain",
+    title1: "Program in Blockchain",
     tag: "Full stack",
     tagHead: "For Non-Tech Professionals",
     para: [
@@ -328,10 +328,10 @@ export const ForProgrammersD = [
   },
   {
     id: 7,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/DSA.png",
-    title: "Software Development in ",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/software-Devops.png",
+    title: "Software Development Program ",
     courseTime: "8-10 months",
-    title1: "Cloud Computing & DevOps",
+    title1: "in Cloud Computing & DevOps",
     tagHead: "Be a Product Design Pro",
     tag: "Full stack",
     para: [
@@ -538,7 +538,7 @@ export const JobGuaranteeD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/SW+dev+(1).png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SDE-masters.png",
     title: "Software Development ",
     courseTime: "9-11 months",
     title1: "Master Program",
@@ -557,10 +557,10 @@ export const JobGuaranteeD = [
 export const StackD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Web+Dev.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/software-blockchain.png",
     title: "Software Development ",
     courseTime: "8-10 months",
-    title1: "in Blockchain",
+    title1: "Program in Blockchain",
     tag: "Full stack",
     tagHead: "For Non-Tech Professionals",
     para: [
@@ -573,7 +573,7 @@ export const StackD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
   },
   {
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/SW+dev+(1).png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SDE-masters.png",
     title: "Software Development ",
     courseTime: "9-11 months",
     title1: "Master Program",
@@ -590,10 +590,10 @@ export const StackD = [
   },
   {
     id: 3,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/DSA.png",
-    title: "Software Development in ",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/software-Devops.png",
+    title: "Software Development Program ",
     courseTime: "8-10 months",
-    title1: "Cloud Computing & DevOps",
+    title1: "in Cloud Computing & DevOps",
     tagHead: "Be a Product Design Pro",
     tag: "Full stack",
     para: [
