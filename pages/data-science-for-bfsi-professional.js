@@ -66,6 +66,9 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
+                FirstTyped="Guaranteed Interview Calls"
+                SecondTyped="Capstone Project Certificate"
+                ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Banking & Finance Analytics Program"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+for+BFSI+Professionals.pdf"

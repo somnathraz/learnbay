@@ -12,7 +12,7 @@ function CertificateTab() {
   return (
     <section className={styles.CertificateTab}>
       <div className={styles.certificate}>
-        <div className={styles.listPanel}>
+        {/* <div className={styles.listPanel}>
           <span
             onClick={() => {
               setAnalyticsCertificate(true);
@@ -25,7 +25,7 @@ function CertificateTab() {
           >
             IBM
           </span>
-        </div>
+        </div> */}
         {AnalyticsCertificate ? (
           <div className={styles.gridPanel}>
             {AnalyticsCertificateD.map((CertificateDData) => {

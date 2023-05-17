@@ -5,12 +5,11 @@ import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import Image from "next/image";
 import Typed from "typed.js";
-import { MdPlayCircleFilled } from "react-icons/md";
 import VideoPopup from "../../VideoPopup/VideoPopup";
 
 function FirstSection({
   dataScience,
-  first,
+  software,
   second,
   idss,
   firstToparaImg,
@@ -21,6 +20,7 @@ function FirstSection({
   titleCourse,
   brochureLink,
   dataScienceCounselling,
+  FirstTyped, SecondTyped, ThirdTyped,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -33,11 +33,7 @@ function FirstSection({
   };
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: [
-        "Guaranteed Interview Calls",
-        "Capstone Project Certificate",
-        "Live Interactive Classes",
-      ], // Strings to display
+      strings: [FirstTyped, SecondTyped, ThirdTyped], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 100,
       typeSpeed: 80,
@@ -109,7 +105,7 @@ function FirstSection({
           />
         </div>
         <div className={styles.animationTextWrap}>
-          <span ref={el} className={styles.animationText}></span>
+              <span ref={el} className={styles.animationText}></span>
         </div>
 
         <div className={styles.logos}>

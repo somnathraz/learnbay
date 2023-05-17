@@ -63,6 +63,9 @@ function Hr() {
           </div>
         </Popup>
         <FirstSection
+                FirstTyped="Guaranteed Interview Calls"
+                SecondTyped="Capstone Project Certificate"
+                ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="HR Analytics Program"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"

@@ -66,6 +66,9 @@ function Marketing() {
           </div>
         </Popup>
         <FirstSection
+                FirstTyped="Guaranteed Interview Calls"
+                SecondTyped="Capstone Project Certificate"
+                ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Marketing Analytics Program"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"

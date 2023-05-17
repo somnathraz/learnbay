@@ -1,4 +1,4 @@
-export const BlockchainCourse = [
+export const DevOpsCourse = [
   {
     FirstSection: {
       deskTopPara: "Certification course for professionals",
@@ -481,158 +481,149 @@ export const BlockchainCourse = [
       },
       {
         Module0: {
-          title: "Term 3 :- Blockchain Development",
+          title: "Term 3 :- Cloud Computing",
           content: [
             {
               chap: {
-                title: "Module 1 :- Blockchain Basics",
+                title: "Module 1 :- Cloud computing",
                 desc: [
-                  "Introduction to blockchain technology",
-                  "History and evolution of blockchain",
-                  "Types of blockchain (public, private, consortium)",
-                  "Consensus mechanisms (Proof of Work, Proof of Stake, etc.)",
-                  "Cryptography fundamentals (hashing, digital signatures, etc.)",
-                  "Smart contracts and decentralized applications (DApps)",
+                  "Definition, benefits, and challenges",
+                  "Cloud service models: IaaS, PaaS, SaaS",
+                  "Cloud deployment models: public, private, hybrid",
+                  "Popular providers: AWS, Azure, Google Cloud",
+                  "Real-world examples and case studies",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- Blockchain Development",
+                title: "Module 2 :- Cloud Services and Technologies",
                 desc: [
-                  "Setting up development environment (tools and frameworks)",
-                  "Developing blockchain network (configuring nodes, creating blockchain, etc.)",
-                  "Developing smart contracts (Solidity programming language, Remix IDE, etc.)",
-                  "Deploying smart contracts to the blockchain",
-                  "Interacting with smart contracts (web3.js library)",
-                  "Developing decentralized applications (DApps) on top of blockchain",
+                  "Storage: S3, EBS, Blob storage",
+                  "Databases: RDS, DynamoDB, CosmosDB",
+                  "Networking: VPC, Load Balancers, CDN",
+                  "Serverless computing: Lambda, Azure Functions, Google Cloud Functions",
+                  "DevOps tools: Jenkins, Ansible, Terraform, Kubernetes, Docker",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 3 :- Smart Contract Development",
+                title: "Module 3 :- Advanced Cloud Computing",
                 desc: [
-                  "Writing and deploying basic smart contracts using Solidity",
-                  "Building more complex smart contracts with the help of libraries and frameworks like OpenZeppelin and Truffle",
-                  "Interacting with smart contracts using Web3.js and other tools",
-                  "Testing and debugging smart contracts",
+                  "Big data and analytics",
+                  "Cloud-native architecture and design patterns",
+                  "Multi-cloud and hybrid cloud strategies",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 4 :- Decentralized Finance (DeFi)",
+                title: "Module 4 :- Cloud Infrastructure",
                 desc: [
-                  "Introduction to DeFi and its components (lending, borrowing, staking, etc.)",
-                  "Development of decentralized finance protocols (e.g. Uniswap, Aave, Compound)",
-                  "Integration of DeFi protocols with blockchain",
+                  "Virtualization, containers, and microservices",
+                  "DevOps principles for cloud architecture",
+                  "Cloud security and compliance",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 5 :- Blockchain Security",
+                title: "Module 5 :- Real-World Applications",
                 desc: [
-                  "Security threats to blockchain (e.g. 51% attack, smart contract vulnerabilities, etc.)",
-                  "Best practices for securing blockchain networks and smart contracts",
-                  "Tools and frameworks for blockchain security auditing (e.g. MythX, Truffle Security, etc.)",
-                  "Testing and debugging smart contracts",
+                  "Deploying applications to the cloud",
+                  "Setting up CI/CD pipelines",
+                  "Building and deploying microservices",
+                  "Security and compliance in the cloud",
+                  "Handling failure and scaling in the cloud",
+                ],
+              },
+            },
+          ],
+          id: 4,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 4 :- Devops",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Agile Principles and Methodologies",
+                desc: [
+                  "Agile Manifesto and Principles",
+                  "Scrum, Kanban, and Lean methodologies",
+                  "Agile project planning and estimation",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 6 :- Web Development with Blockchain Integration",
+                title: "Module 2 :- DevOps Culture and Practices",
                 desc: [
-                  "Building a front-end application with HTML, CSS, and JavaScript",
-                  "Integrating the web application with the deployed smart contracts using Web3.js",
-                  "Building a user interface to interact with the smart contracts",
-                  "Implementing functionality to read and write data to the blockchain",
+                  "Overview of DevOps culture and practices",
+                  "Collaborative culture and communication practices",
+                  "Continuous feedback and improvement",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 7 :- API Development",
+                title: "Module 3 :- Project Management and Development Process",
                 desc: [
-                  "Building a RESTful API to interact with the blockchain network",
-                  "Developing endpoints to read and write data to the blockchain",
-                  "Implementing security measures to protect against potential attacks",
+                  "Agile development process: sprints, user stories, backlogs",
+                  "Tools and Infrastructure Setup:",
+                  "Version control systems (e.g., Git)",
+                  "Containerization (e.g., Docker)",
+                  "Cloud infrastructure (e.g., AWS)",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 8 :- Database Integration",
+                title: "Module 4 :- Continuous Integration (CI) and Continuous Deployment (CD)",
                 desc: [
-                  "Setting up a database to store offchain data related to the blockchain application",
-                  "Integrating the database with the API to provide a complete data storage solution",
-                  "Implementing functionality to store and retrieve data from the database",
+                  "CI/CD principles and practices",
+                  "Automated testing and quality assurance",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 9 :- Security and Testing",
+                title: "Module 5 :- Infrastructure as Code (IaC) ",
                 desc: [
-                  "Understanding common security vulnerabilities and how to mitigate them in blockchain applications", 
-                  "Implementing security measures such as encryption and access control",
-                  "Testing the application to ensure it meets functional and non-functional requirements",
-                  "Conducting stress testing to assess the application's ability to handle high loads",
+                  "Introduction to IaC",
+                  "Infrastructure automation with Terraform",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 10 :- Security and Testing",
+                title: "Module 6 :- Security and Compliance ",
                 desc: [
-                  "Understanding common security vulnerabilities and how to mitigate them in blockchain applications",
-                  "Implementing security measures such as encryption and access control",
-                  "Testing the application to ensure it meets functional and non-functional requirements",
-                  "Conducting stress testing to assess the application's ability to handle high loads",
+                  "Security principles and best practices",
+                  "Identity and access management (IAM)",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 11 :- Blockchain Interoperability ",
+                title: "Module 7 :- Advanced DevOps Concepts",
                 desc: [
-                  "Introduction to cross-chain communication",
-                  "Interoperability solutions (e.g. Polkadot, Cosmos, etc.)",
-                  "Development of cross-chain protocols and applications",
+                  "Microservices architecture",
+                  "Serverless computing",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 12 :- Enterprise Blockchain",
+                title: "Module 7 :- Industry Use Cases and Best Practices",
                 desc: [
-                  "Use cases of blockchain technology in enterprise",
-                  "Developing permissioned blockchain networks (e.g. Hyperledger Fabric, Corda, etc.)",
-                  "Integration of blockchain with existing enterprise systems",
-                  "Blockchain governance and regulatory compliance",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 13 :- Blockchain Project Management",
-                desc: [
-                  "Agile development methodologies for blockchain projects",
-                  "Project planning and management for blockchain development",
-                  "Collaboration and communication tools for blockchain teams",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 14 :- Deployment and Maintenance",
-                desc: [
-                  "Deploying the application to a production environment",
-                  "Conducting ongoing maintenance and updates to ensure the application remains secure and functional",
-                  "Implementing monitoring and logging to identify and address any issues that arise", 
-                  "Conducting periodic audits to identify potential security risks and address them proactively.",
+                  "Case studies and real-world examples of DevOps implementation",
+                  "Best practices for successful DevOps adoption",
+                  "Scaling DevOps in enterprise organizations",
+                  "Future trends and innovations in DevOps",
                 ],
               },
             },

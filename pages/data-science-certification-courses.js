@@ -66,6 +66,9 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
+                FirstTyped="Guaranteed Interview Calls"
+                SecondTyped="Capstone Project Certificate"
+                ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Data Science Foundation Program"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf"

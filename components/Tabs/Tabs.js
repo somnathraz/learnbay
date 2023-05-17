@@ -99,9 +99,9 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development</h5>
+                        <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          300+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -121,15 +121,15 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/full-stack-web-development-program">
+                  <a href="/software-development-program-with-specialization-in-blockchain">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>Software Development in Blockchain</h5>
                         <span>
-                          200+ Hours <BsDot /> 8 & 9 Months{" "}
+                          250+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -151,15 +151,17 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/dsa-system-design">
+                  <a href="/software-development-program-with-specialization-in-cloud-computing-&-devops">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>DSA & System Design</h5>
+                        <h5>
+                          Software Development in Cloud Computing & DevOps
+                        </h5>
                         <span>
-                          200+ Hours <BsDot /> 5 & 6 Months{" "}
+                          250+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -377,15 +379,15 @@ const Tabs = ({ handleIcon }) => {
             {nonTech ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <a href="/full-stack-web-development-program">
+                  <a href="/software-development-program-with-specialization-in-blockchain">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>Software Development in Blockchain</h5>
                         <span>
-                          200+ Hours <BsDot /> 8 & 9 Months{" "}
+                          250+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -398,24 +400,26 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development Program</h5>
+                        <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          300+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/dsa-system-design">
+                  <a href="/software-development-program-with-specialization-in-cloud-computing-&-devops">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>DSA & System Design</h5>
+                        <h5>
+                          Software Development in Cloud Computing & DevOps
+                        </h5>
                         <span>
-                          200+ Hours <BsDot /> 5 & 6 Months{" "}
+                          250+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -477,15 +481,15 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/full-stack-web-development-program">
+                  <a href="/full-stack-software-development-program">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>Software Development Master Program</h5>
                         <span>
-                          200+ Hours <BsDot /> 8 & 9 Months{" "}
+                          300+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -547,15 +551,15 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/full-stack-web-development-program">
+                  <a href="/software-development-program-with-specialization-in-blockchain">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>Software Development in Blockchain</h5>
                         <span>
-                          200+ Hours <BsDot /> 8 & 9 Months{" "}
+                          250+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -576,9 +580,9 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/full-stack-software-development-program">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development</h5>
+                        <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          300+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -687,15 +691,17 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/dsa-system-design">
+                  <a href="/software-development-program-with-specialization-in-cloud-computing-&-devops">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>DSA & System Design</h5>
+                        <h5>
+                          Software Development in Cloud Computing & DevOps
+                        </h5>
                         <span>
-                          200+ Hours <BsDot /> 5 & 6 Months{" "}
+                          250+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -748,9 +754,9 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development</h5>
+                        <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          300+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -770,31 +776,30 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/full-stack-web-development-program">
+                  <a href="/software-development-program-with-specialization-in-blockchain">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>Software Development in Blockchain</h5>
                         <span>
-                          200+ Hours <BsDot /> 8 & 9 Months{" "}
+                          250+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
                   </a>
-                  <a href="/dsa-system-design">
+                  <a href="/software-development-program-with-specialization-in-cloud-computing-&-devops">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
                         <h5>
-                          DSA & <br />
-                          System Design
+                          Software Development in Cloud Computing & DevOps
                         </h5>
                         <span>
-                          200+ Hours <BsDot /> 5 & 6 Months{" "}
+                          250+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -972,15 +977,15 @@ const Tabs = ({ handleIcon }) => {
             {nonTech ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <a href="/full-stack-web-development-program">
+                  <a href="/software-development-program-with-specialization-in-blockchain">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>Software Development in Blockchain</h5>
                         <span>
-                          200+ Hours <BsDot /> 8 & 9 Months{" "}
+                          250+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -993,27 +998,26 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development Program</h5>
+                        <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          300+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/dsa-system-design">
+                  <a href="/software-development-program-with-specialization-in-cloud-computing-&-devops">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
                         <h5>
-                          DSA & <br />
-                          System Design
+                          Software Development in Cloud Computing & DevOps
                         </h5>
                         <span>
-                          200+ Hours <BsDot /> 5 & 6 Months{" "}
+                          250+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -1041,15 +1045,15 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/full-stack-web-development-program">
+                  <a href="/full-stack-software-development-program">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>Software Development Master Program</h5>
                         <span>
-                          200+ Hours <BsDot /> 8 & 9 Months{" "}
+                          300+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -1087,28 +1091,27 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/full-stack-web-development-program">
+                  <a href="/software-development-program-with-specialization-in-blockchain">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>Software Development in Blockchain</h5>
                         <span>
-                          200+ Hours <BsDot /> 8 & 9 Months{" "}
+                          250+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
                   </a>
-                  <a href="/dsa-system-design">
+                  <a href="/software-development-program-with-specialization-in-cloud-computing-&-devops">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>
-                          DSA & <br />
-                          System Design
+                          Software Development in Cloud Computing & DevOps
                         </h5>
                         <span>
-                          200+ Hours <BsDot /> 5 & 6 Months{" "}
+                          250+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -1150,16 +1153,15 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/full-stack-software-development-program">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development</h5>
+                        <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 8 & 9 Months{" "}
+                          300+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
                   </a>
                 </div>
 
-                
                 <div className={styles.Row}>
                   <a href="/data-analytics-certification-course">
                     <div
@@ -1195,7 +1197,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                <a href="/hr-analytics">
+                  <a href="/hr-analytics">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}

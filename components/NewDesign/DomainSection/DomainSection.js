@@ -203,6 +203,42 @@ function DomainSection({
                           </div>
                         </div>
                       </SwiperSlide>
+                      <SwiperSlide className={styles.slide}>
+                        <div className={styles.mainSliderYellow}>
+                          <div className={styles.number}>
+                            <p>#4</p>
+                            <hr className={styles.hr} />
+                          </div>
+                          <div className={styles.imgP}>
+                            <p>MERN Stack</p>
+                          </div>
+                          <div>
+                            <ul
+                              style={{ padding: "0px 0px 0px 20px" }}
+                              className={styles.para}
+                            >
+                              <li>
+                              Work on 14+ real-time projects & case studies
+                              </li>
+                              <li>
+                              Designed for full stack developer, web developer, software engineer, etc
+                              </li>
+                              <li>
+                              Acquire a diverse range of technical skills required for full stack web development using MERN stack
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <button
+                              onClick={popupShow}
+                              className={styles.fillBtn}
+                            >
+                              Download Brochure
+                              <FaDownload style={{ marginLeft: "10px" }} />
+                            </button>
+                          </div>
+                        </div>
+                      </SwiperSlide>
                     </Swiper>
                   </div>
                 </div>
