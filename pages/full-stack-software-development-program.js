@@ -71,6 +71,7 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
+        softwareBtnHide={true}
           FirstTyped="Microsoft & IBM Certificate"
           SecondTyped="Domain Specialized Program"
           ThirdTyped="Live Interactive Classes"
@@ -105,7 +106,7 @@ function blockchain() {
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whoIsProgram.webp"
-          para1="Bachelor's degree with good performance"
+          para1="Bachelor's degree with consistent good academics"
           para2="Minimum 6 months of experience in IT/Non-IT domain"
           para3="Working professionals interested in software development"
           para4="Designed for individuals seeking software development skills"
@@ -119,8 +120,8 @@ function blockchain() {
           secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="3+ years of Career Service Access"
-          point2="6 Mock Interviews with Industry Leaders"
+          point1="3+ years of career service access"
+          point2="6 mock interviews with industry leaders"
           point3="Resume build up session"
           point4="100% placement support"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
@@ -178,7 +179,7 @@ function blockchain() {
 
         <FifthSection
           softTools={true}
-          IBMMicrosoft={true}
+          IBMMicrosoftsoft={true}
           Fee="₹ 1,10,000 + 18% GST"
           FeeEmi="₹ 10,817/month"
           FeeHeading="Program Fee & Financing"
@@ -223,6 +224,7 @@ function blockchain() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
         />
         <Project
+        SoftwareText={true}
           project="12+ Projects"
           tools="16+"
           Software={true}
@@ -230,7 +232,10 @@ function blockchain() {
           titleCourse="Full Stack Project Brochure"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
         />
-        <BatchDetails FullStack={true} CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
+        <BatchDetails
+          FullStack={true}
+          CourseFeeHead="Data Science and AI Foundation Program : Batch Details"
+        />
         <FAQNew
           FaqDatas={FaqData9}
           DomainFaqDatas={DomainFaqData9}

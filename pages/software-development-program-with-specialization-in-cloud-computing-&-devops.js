@@ -72,9 +72,10 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
-        FirstTyped="Microsoft & IBM Certificate"
-        SecondTyped="Expert-Led Advanced Program"
-        ThirdTyped="Live Interactive Classes"
+        softwareBtnHide={true}
+          FirstTyped="Microsoft & IBM Certificate"
+          SecondTyped="Expert-Led Advanced Program"
+          ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Software Development Program with specialization in Cloud and Devops"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf"
@@ -106,10 +107,10 @@ function blockchain() {
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whoIsProgram.webp"
-          para1="Bachelor's degree with good performance"
+          para1="Bachelor's degree with consistent good academics"
           para2="Minimum 1 year of IT work experience"
           para3="Early to mid-career professionals interested in technology"
-          para4="Preparing for future leadership roles in blockchain industry"
+          para4="Preparing for future leadership roles in cloud industry"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -170,7 +171,7 @@ function blockchain() {
         />
         <GrowthStats
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SoftwareGrowth.png"
-          heading="Accelerate blockchain career & secure your dream job confidently"
+          heading="Seeking lucrative careers opportunities? Step into the cloud industry"
           para1="Higher Growth: Compound annual growth rate of CAGR of 20% by 2028"
           para2="Big Earning Potential: Unlock your potential in the cloud industry & earn 8 LPA"
           para3="Strong Demand: Growing need for tech wizards across various industries"
@@ -179,7 +180,7 @@ function blockchain() {
         <FifthSection
           softTools={true}
           dataScienceCounselling={true}
-          IBMMicrosoft={true}
+          IBMMicrosoftsoft={true}
           Fee="₹ 95,000 + 18% GST"
           FeeEmi="₹ 9,342/month"
           FeeHeading="Program Fee & Financing"
@@ -219,13 +220,17 @@ function blockchain() {
         />
         <Project
           project="12+ Projects"
+          SoftwareText={true}
           tools="16+"
           Cloud={true}
           dataScience={true}
           titleCourse="Full Stack Project Brochure"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
         />
-        <BatchDetails FullStack={true} CourseFeeHead="Data Science and AI Foundation Program : Batch Details" />
+        <BatchDetails
+          FullStack={true}
+          CourseFeeHead="Data Science and AI Foundation Program : Batch Details"
+        />
         <FAQNew
           FaqDatas={FaqDataBlockchain}
           DomainFaqDatas={DomainFaqDataBlockchain}

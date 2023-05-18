@@ -8,8 +8,10 @@ import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import Certificate from "../FifthSection/CertificateTabAdvance";
 import AnalyticsCertificateTab from "../CertificateTab/AnalyticsCertificateTab";
+import BlockchainCertificateTab from "../CertificateTab/BlockchainCertificate";
 import CertificateTabAdvance from "../FifthSection/CertificateTabAdvance";
 import CertificateSoftware from "../FifthSection/CertificateSoftware";
+import CertificateTabSoft from "../FifthSection/CertificateTabSoft"
 
 function FifthSection({
   FeeHeading,
@@ -35,6 +37,8 @@ function FifthSection({
   dataScienceCounselling,
   softTools,
   blockChainTools,
+  BlockchainCertificate,
+  IBMMicrosoftsoft,
 }) {
   const [mobile, setMobile] = useState(false);
 
@@ -221,8 +225,14 @@ function FifthSection({
           <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>
           {advanceCertificate ? <Certificate /> : ""}
           {AnalyticsCertificate ? <AnalyticsCertificateTab /> : ""}
+          {BlockchainCertificate ? <BlockchainCertificateTab /> : ""}
           {IBMMicrosoft ? (
             <CertificateTabAdvance Ibm={true} twoCertificateIBM={true} />
+          ) : (
+            ""
+          )}
+                    {IBMMicrosoftsoft ? (
+            <CertificateTabSoft Ibm={true} twoCertificateIBM={true} />
           ) : (
             ""
           )}

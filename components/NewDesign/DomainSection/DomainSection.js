@@ -56,7 +56,7 @@ function DomainSection({
           <div className={styles.bulb}>
             <div className={styles.img}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Domain-Electives-Left-Guy.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SW+Dev+Master+Domain+Electives.png"
                 layout="intrinsic"
                 loading="lazy"
                 width="671"

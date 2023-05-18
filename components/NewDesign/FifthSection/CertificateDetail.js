@@ -58,6 +58,31 @@ export const CertificateAdvance2 = [
     ],
   },
 ];
+
+export const CertificateSoft1 = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Certificate-blue.png",
+    title: "Course Completion Certificate from IBM",
+    para: [
+      "Complete your training with the internationally recognized certificate.",
+      "Validate your software development skills with IBM Couse Completion Certificate.",
+      "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+    ],
+  },
+];
+export const CertificateSoft2 = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Certificate-Yellow.png",
+    title: "Capstone Project Certificate from IBM",
+    para: [
+      "Globally recognized IBM certification based on industrial-level projects.",
+      "Work on 1 capstone project certified by IBM.",
+      "Individualized project experience with easy access to premium job opportunities.",
+    ],
+  },
+];
 export const Certificate3 = [
   {
     id: 1,

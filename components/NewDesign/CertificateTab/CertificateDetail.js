@@ -154,6 +154,19 @@ export const AnalyticsCertificateD = [
     ],
   },
 ];
+
+export const BlockchainCertificateD = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Certificate-blue.png",
+    title: "Course Completion Certificate from IBM",
+    para: [
+      "Complete your training with the internationally recognized certificate.",
+      "Validate your tech skills with IBM Course Completion Certificate.",
+      "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+    ],
+  },
+];
 export const CertificateFinanceD = [
   {
     id: 1,
