@@ -224,8 +224,8 @@ const CourseFee = ({
                           <MdDateRange className={styles.icon} />
                           <b>Date</b>
                         </p>
-                        <p className={styles.list}>12th May 2023</p>
-                        <p className={styles.list}>14th May 2023</p>
+                        <p className={styles.list}>19th May 2023</p>
+                        <p className={styles.list}>28th May 2023</p>
                       </div>
                     </div>
                     <div>

@@ -40,7 +40,7 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                     <div className={styles.listMobile}>
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
-                        12th May 2023
+                        19th May 2023
                       </p>
                       <p className={styles.list}>
                         <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
@@ -56,7 +56,7 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                     <div className={styles.listMobile}>
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
-                        14th May 2023
+                        28th May 2023
                       </p>
                       <p className={styles.list}>
                         <BiTimeFive className={styles.iconBlue} />
@@ -167,7 +167,7 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                     <div>
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
-                        12th May 2023
+                        19th May 2023
                       </p>
                     </div>
                     <div>
@@ -185,7 +185,7 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                     <div>
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
-                        14th May 2023
+                        28th May 2023
                       </p>
                     </div>
                     <div>

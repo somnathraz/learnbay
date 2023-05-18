@@ -108,7 +108,7 @@ function blockchain() {
           leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whoIsProgram.webp"
           para1="Bachelor's degree with consistent good academics"
           para2="Minimum 6 months of experience in IT/Non-IT domain"
-          para3="Working professionals interested in blockchain development"
+          para3="Computer Science, B.Tech, B.Sc. pursuing students"
           para4="Professionals looking to upskill for better career growth"
           heading1="Education"
           heading2="Work experience"

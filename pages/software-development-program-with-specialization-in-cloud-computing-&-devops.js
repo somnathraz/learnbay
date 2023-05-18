@@ -72,7 +72,7 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
-        softwareBtnHide={true}
+          softwareBtnHide={true}
           FirstTyped="Microsoft & IBM Certificate"
           SecondTyped="Expert-Led Advanced Program"
           ThirdTyped="Live Interactive Classes"
@@ -109,7 +109,7 @@ function blockchain() {
           leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whoIsProgram.webp"
           para1="Bachelor's degree with consistent good academics"
           para2="Minimum 1 year of IT work experience"
-          para3="Early to mid-career professionals interested in technology"
+          para3="Computer Science, B.Tech, B.Sc. pursuing students"
           para4="Preparing for future leadership roles in cloud industry"
           heading1="Education"
           heading2="Work experience"
