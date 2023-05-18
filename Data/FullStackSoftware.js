@@ -98,18 +98,7 @@ export const FullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Module 4 :- If statement, Loops and Code flow",
-                desc: [
-                  "Java Basics",
-                  "Writing code in Java",
-                  "If statements Loops",
-                  "Flow of basic code and best coding practices",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 5 :- Functions",
+                title: "Module 4 :- Functions",
                 desc: [
                   "How functions work and how to make custom functions and work with them",
                   "Significance",
@@ -121,7 +110,7 @@ export const FullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Module 6 :- Objected Oriented Programming",
+                title: "Module 5 :- Objected Oriented Programming",
                 desc: [
                   "Abstraction",
                   "Encapsulation",
@@ -133,13 +122,13 @@ export const FullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Module 7 :- 2-D Matrix",
+                title: "Module 6 :- 2-D Matrix",
                 desc: [],
               },
             },
             {
               chap: {
-                title: "Module 8 :- 1-D Array",
+                title: "Module 7 :- 1-D Array",
                 desc: [
                   "1-D Array (Defining & initializing, iterations, looping on Arrays)",
                 ],
