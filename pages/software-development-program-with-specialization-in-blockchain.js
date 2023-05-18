@@ -71,6 +71,7 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
+        softwareBtnHide={true}
                 FirstTyped="IBM Certificate"
                 SecondTyped="Expert-Led Advanced Program"
                 ThirdTyped="Live Interactive Classes"
@@ -107,7 +108,7 @@ function blockchain() {
           leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whoIsProgram.webp"
           para1="Bachelor's degree with consistent good academics"
           para2="Minimum 6 months of experience in IT/Non-IT domain"
-          para3="Working professionals interested in blockchain development"
+          para3="Computer Science, B.Tech, B.Sc. pursuing students"
           para4="Professionals looking to upskill for better career growth"
           heading1="Education"
           heading2="Work experience"
@@ -178,7 +179,7 @@ function blockchain() {
         <FifthSection
           blockChainTools={true}
           dataScienceCounselling={true}
-          AnalyticsCertificate={true}
+          BlockchainCertificate={true}
           Fee="₹ 95,000 + 18% GST"
           FeeEmi="₹ 9,342/month"
           FeeHeading="Program Fee & Financing"
@@ -217,6 +218,7 @@ function blockchain() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <Project
+        SoftwareText={true}
           project="12+ Projects"
           tools="16+"
           BlockChain={true}

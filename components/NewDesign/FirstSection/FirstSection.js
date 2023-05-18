@@ -9,7 +9,7 @@ import VideoPopup from "../../VideoPopup/VideoPopup";
 
 function FirstSection({
   dataScience,
-  software,
+  softwareBtnHide,
   second,
   idss,
   firstToparaImg,
@@ -154,10 +154,12 @@ function FirstSection({
             Brochure
             <FaDownload style={{ marginLeft: "10px" }} />
           </button>
+          {softwareBtnHide ? (<></>) : (
           <button onClick={videoSHow}>
             Intro Video{" "}
             <FaPlayCircle style={{ marginLeft: "10px", fontSize: "22px" }} />{" "}
           </button>
+          )}
         </div>
       </div>
 

@@ -1756,7 +1756,7 @@ export const DomainFaqData9 = [
   {
     id: 1,
     ques: "What are the available elective domain options?",
-    ans: "These are as follows: Full Stack, Product Engineer/Manager,  Data Science and AI, Web 3.0 Developer, DevOps & Clouds",
+    ans: "These are as follows: Full Stack, Product Engineer/Manager,  Data Science and AI, Web 3.0 Developer, DevOps & Clouds.",
     open: false,
   },
   {

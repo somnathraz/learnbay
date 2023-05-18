@@ -25,6 +25,7 @@ const Project = ({
   Software,
   Cloud,
   BlockChain,
+  SoftwareText,
 }) => {
   const [popups, setPopups] = useState(false);
   const [popupsP, setPopupsP] = useState(false);
@@ -75,10 +76,13 @@ const Project = ({
       <div className={styles.headWrapper}>
         <div className={styles.left}>
           <h3>Industry Projects</h3>
+          {SoftwareText ? ( <p className={styles.ptop}>
+            Work on live projects certified from IBM
+          </p>): (
           <p className={styles.ptop}>
             Work on live capstone projects certified from IBM
           </p>
-
+)}
           <div className={styles.iconWrapper}>
             <div className={styles.middle}>
               <BsCheck2 className={styles.icon} />
