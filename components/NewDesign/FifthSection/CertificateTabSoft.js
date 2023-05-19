@@ -6,7 +6,7 @@ import { BsCheck2 } from "react-icons/bs";
 import {
   CertificateSoft1,
   CertificateSoft2,
-  MicrosoftCertificateAdvance,
+  MicrosoftCertificateSoftware,
 } from "./CertificateDetail";
 
 function CertificateTab({ Ibm, twoCertificateIBM }) {
@@ -47,7 +47,7 @@ function CertificateTab({ Ibm, twoCertificateIBM }) {
         <div className={MActive ? styles.certificateS : styles.certificate}>
           {MActive ? (
             <div className={styles.MicroCert}>
-              {MicrosoftCertificateAdvance.map((microCertData) => {
+              {MicrosoftCertificateSoftware.map((microCertData) => {
                 const { id, img, title, para } = microCertData;
                 return (
                   <>
@@ -134,7 +134,7 @@ function CertificateTab({ Ibm, twoCertificateIBM }) {
                 })}
               </div>
               <div className={styles.gridPanel}>
-                {MicrosoftCertificateAdvance.map((microCertData) => {
+                {MicrosoftCertificateSoftware.map((microCertData) => {
                   const { id, title, img, para } = microCertData;
                   return (
                     <div className={styles.leftSide} key={id}>
@@ -183,7 +183,7 @@ function CertificateTab({ Ibm, twoCertificateIBM }) {
         <div className={MActive ? styles.certificateS : styles.certificate}>
           {MActive ? (
             <div className={styles.MicroCert}>
-              {MicrosoftCertificateAdvance.map((microCertData) => {
+              {MicrosoftCertificateSoftware.map((microCertData) => {
                 const { id, img, title, para } = microCertData;
                 return (
                   <>
