@@ -45,7 +45,7 @@
 @media (max-width: 481px) {
   .wrapper {
     padding: 20px;
-    margin: 0px 0px 50px 0px;
+    margin: 0px;
   }
   .content {
     display: flex;

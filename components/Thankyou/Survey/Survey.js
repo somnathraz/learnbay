@@ -85,6 +85,47 @@ const Survey = ({ topPara, para, header }) => {
             </div>
           </div>
         </div>
+        <div className={styles.rightDiv1}>
+            <div className={styles.pSpanDiv}>
+              {/* <p className={styles.pH}>Module 0</p> */}
+              <div className={styles.roundLine}>
+                <div className={styles.round}></div>
+                <div className={styles.line}></div>
+              </div>
+              <div  className={styles.leftContent}>
+              <h4>Fill out the Form:</h4>
+              <p>
+              Provide us with essential information about your experience, job, domain, and career goals.{" "}
+              </p>
+              </div>
+            </div>
+            <div className={styles.pSpanDiv}>
+              {/* <p className={styles.pH}>Module 1</p> */}
+              <div className={styles.roundLine}>
+                <div className={styles.round}></div>
+                <div className={styles.line}></div>
+              </div>
+              <div  className={styles.leftContent}>
+              <h4>Receive Personalized Course Suggestions:</h4>
+              <p>
+              You'll receive a comprehensive report that highlights the courses best suited to enhance your skills and propel your career forward.{" "}
+              </p>
+              </div>
+            </div>
+            <div className={styles.pSpanDiv}>
+              {/* <p className={styles.pH}>Module 2</p> */}
+              <div className={styles.roundLine}>
+                <div className={styles.round}></div>
+                <div className={styles.line}></div>
+              </div>
+              <div  className={styles.leftContent}>
+              <h4>Open Doors to the Best-suited Companies:</h4>
+              <p className={styles.pBotP}>
+              Increase your chances of being referred to the best-suited companies for your career ambitions.{" "}
+              </p>
+              </div>
+            </div>
+          </div>
         <div className={styles.ButtonShowM}>
         <PopupButton
           id="jpqC3A6g"

@@ -22,6 +22,18 @@ export const MicrosoftCertificateAdvance = [
     ],
   },
 ];
+export const MicrosoftCertificateSoftware = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Azure+Fundamentals.png",
+    title: "Certification in Collaboration with Microsoft",
+    para: [
+      "Industry-certified Microsoft certificates",
+      "Gain expertise & get recognized worldwide",
+      "Boost job opportunities and earnings with Microsoft’s certification",
+    ],
+  },
+];
 export const CertificateDD = [
   {
     id: 1,
