@@ -216,7 +216,7 @@ export const DsaCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 19th May 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -231,7 +231,7 @@ export const DsaCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 14th May 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 28th May 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
