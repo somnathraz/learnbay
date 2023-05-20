@@ -263,12 +263,12 @@ export const DataAnalyticsCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekend Morning Batch :- (Sat-sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 28th May 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
@@ -278,12 +278,12 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 16th May 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 9th June 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
