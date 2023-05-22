@@ -17,6 +17,7 @@ import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCust
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 import Project from "../components/NewDesign/Project/Project";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
+import Counselling from "../components/NewDesign/ThirdSection/counselling";
 import {
   FaqDataBFSI,
   PaymentFaqDataBFSI,
@@ -39,7 +40,10 @@ function blockchain() {
       <Head>
         <title>Banking & Finance Analytics Program</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Banking & Finance Analytics Program" />
+        <meta
+          name="description"
+          content="Banking & Finance Analytics Program"
+        />
         <meta name="keywords" content="Banking & Finance Analytics Program" />
         <link
           rel="icon"
@@ -51,10 +55,7 @@ function blockchain() {
         />
       </Head>
       <main>
-        <Navbar
-          popup={true}
-          dataScienceCounselling={true}
-        />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -66,9 +67,9 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
-                FirstTyped="Guaranteed Interview Calls"
-                SecondTyped="Capstone Project Certificate"
-                ThirdTyped="Live Interactive Classes"
+          FirstTyped="Guaranteed Interview Calls"
+          SecondTyped="Capstone Project Certificate"
+          ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Banking & Finance Analytics Program"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+for+BFSI+Professionals.pdf"
@@ -148,8 +149,9 @@ function blockchain() {
           img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
+        <Counselling dataScienceCounselling={true} />
         <FourthSection
-        dataScienceCounselling={true}
+          dataScienceCounselling={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           serviceBasic={true}
@@ -171,7 +173,7 @@ function blockchain() {
           para3="Enormous demand for individuals in the banking and finance sector"
         />
         <FifthSection
-        dataScienceCounselling={true}
+          dataScienceCounselling={true}
           IBMMicrosoft={true}
           Fee="₹ 89,000 + 18% GST"
           FeeEmi="₹ 8,752/month"

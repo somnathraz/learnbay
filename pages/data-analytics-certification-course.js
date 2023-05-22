@@ -14,7 +14,9 @@ import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSectio
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { DataAnalyticsCourseData } from "../Data/DataAnalyticsData";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
+import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
+import Counselling from "../components/NewDesign/ThirdSection/counselling";
 import {
   FaqData6,
   PaymentFaqData6,
@@ -24,8 +26,6 @@ import {
   MentorshipFaqData6,
   SupportFaqData6,
 } from "../components/NewDesign/FAQNew/FaqData";
-import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
-// import Project from "../components/NewDesign/Project/Project";
 import Switch from "../components/NewDesign/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
@@ -61,10 +61,7 @@ function dataAnalytics() {
         />
       </Head>
       <main>
-        <Navbar
-          popup={true}
-          dataScienceCounselling={true}
-        />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -76,9 +73,9 @@ function dataAnalytics() {
           </div>
         </Popup>
         <FirstSection
-                FirstTyped="Guaranteed Interview Calls"
-                SecondTyped="Capstone Project Certificate"
-                ThirdTyped="Live Interactive Classes"
+          FirstTyped="Guaranteed Interview Calls"
+          SecondTyped="Capstone Project Certificate"
+          ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Data Analytics Program"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
@@ -158,8 +155,9 @@ function dataAnalytics() {
           img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
+        <Counselling dataScienceCounselling={true} />
         <FourthSection
-        dataScienceCounselling={true}
+          dataScienceCounselling={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           serviceBasic={true}
@@ -181,7 +179,7 @@ function dataAnalytics() {
           para3="Abundance of positions with Data Analysis"
         />
         <FifthSection
-        dataScienceCounselling={true}
+          dataScienceCounselling={true}
           dataAnalyticsCertificate={true}
           Fee="₹ 79,000 + 18% GST"
           FeeEmi="₹ 7,768/month"
@@ -233,6 +231,7 @@ function dataAnalytics() {
           titleCourse="Data Science Project Brochure"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         />
+        <BatchDetails CourseFeeHead="Data science course for Mangers: Batch Details" />
         <FAQNew
           FaqDatas={FaqData6}
           PaymentFaqDatas={PaymentFaqData6}

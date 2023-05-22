@@ -13,6 +13,7 @@ import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSectio
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { DevOpsCourse } from "../Data/DevOpsCourse";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
+import Counselling from "../components/NewDesign/ThirdSection/counselling";
 import {
   FaqDataBlockchain,
   DomainFaqDataBlockchain,
@@ -154,6 +155,7 @@ function blockchain() {
           img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
+        <Counselling dataScienceCounselling={true} />
         <FourthSection
           dataScienceCounselling={true}
           serviceBasic={true}

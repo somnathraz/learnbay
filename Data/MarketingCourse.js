@@ -718,12 +718,12 @@ export const MarketingCourse = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 16th May 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 16th June 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],

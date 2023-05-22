@@ -14,6 +14,7 @@ import OfferPopup from "../components/OfferPopup/OfferPopup";
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { BusinessAnalyticsCourseData } from "../Data/BusinessAnalyticsData";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
+import Counselling from "../components/NewDesign/ThirdSection/counselling";
 import {
   FaqData7,
   PaymentFaqData7,
@@ -52,10 +53,7 @@ function blockchain() {
         />
       </Head>
       <main>
-        <Navbar
-          popup={true}
-          dataScienceCounselling={true}
-        />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -67,9 +65,9 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
-                FirstTyped="Guaranteed Interview Calls"
-                SecondTyped="Capstone Project Certificate"
-                ThirdTyped="Live Interactive Classes"
+          FirstTyped="Guaranteed Interview Calls"
+          SecondTyped="Capstone Project Certificate"
+          ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Business Analytics Master Program"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
@@ -149,8 +147,9 @@ function blockchain() {
           img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
+        <Counselling dataScienceCounselling={true} />
         <FourthSection
-        dataScienceCounselling={true}
+          dataScienceCounselling={true}
           serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
@@ -172,7 +171,7 @@ function blockchain() {
           para3="Abundant opportunities in various industries and domains"
         />
         <FifthSection
-        dataScienceCounselling={true}
+          dataScienceCounselling={true}
           baFamilyTools={true}
           advanceCertificate={true}
           Fee="₹ 1,10,000 + 18% GST"

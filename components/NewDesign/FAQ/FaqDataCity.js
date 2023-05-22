@@ -985,7 +985,7 @@ export const AnalyticsjobFaqDataM = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -1159,7 +1159,7 @@ export const BusinessAjobFaqDataM = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -2196,7 +2196,7 @@ export const AnalyticsjobFaqDataH = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -2370,7 +2370,7 @@ export const BusinessAjobFaqDataH = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -3399,7 +3399,7 @@ export const AnalyticsjobFaqDataB = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -3577,7 +3577,7 @@ export const BusinessAjobFaqDataB = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -4610,7 +4610,7 @@ export const AnalyticsjobFaqDataC = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -4788,7 +4788,7 @@ export const BusinessAjobFaqDataC = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -5826,7 +5826,7 @@ export const AnalyticsjobFaqDataCa = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -6004,7 +6004,7 @@ export const BusinessAjobFaqDataCa = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -7041,7 +7041,7 @@ export const AnalyticsjobFaqDataD = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -7222,7 +7222,7 @@ export const BusinessAjobFaqDataD = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -8260,7 +8260,7 @@ export const AnalyticsjobFaqDataDu = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -8439,7 +8439,7 @@ export const BusinessAjobFaqDataDu = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -9476,7 +9476,7 @@ export const AnalyticsjobFaqDataP = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
@@ -9655,7 +9655,7 @@ export const BusinessAjobFaqDataP = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
     open: false,
   },
