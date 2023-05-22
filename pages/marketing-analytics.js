@@ -27,7 +27,7 @@ import Project from "../components/NewDesign/Project/Project";
 import Switch from "../components/NewDesign/HomePage/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
-import Counselling from "../components/NewDesign/ThirdSection/counselling";
+import Counselling from "../components/NewDesign/Counselling/Counselling";
 
 function Marketing() {
   const [popups, setPopups] = useState(false);

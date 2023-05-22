@@ -17,7 +17,7 @@ import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCust
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 import Project from "../components/NewDesign/Project/Project";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
-import Counselling from "../components/NewDesign/ThirdSection/counselling";
+import Counselling from "../components/NewDesign/Counselling/Counselling";
 import {
   FaqDataBFSI,
   PaymentFaqDataBFSI,

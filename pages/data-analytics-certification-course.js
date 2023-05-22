@@ -16,7 +16,7 @@ import { DataAnalyticsCourseData } from "../Data/DataAnalyticsData";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
-import Counselling from "../components/NewDesign/ThirdSection/counselling";
+import Counselling from "../components/NewDesign/Counselling/Counselling";
 import {
   FaqData6,
   PaymentFaqData6,
