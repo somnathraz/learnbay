@@ -14,7 +14,7 @@ import OfferPopup from "../components/OfferPopup/OfferPopup";
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { BusinessAnalyticsCourseData } from "../Data/BusinessAnalyticsData";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
-import Counselling from "../components/NewDesign/ThirdSection/counselling";
+import Counselling from "../components/NewDesign/Counselling/Counselling";
 import {
   FaqData7,
   PaymentFaqData7,

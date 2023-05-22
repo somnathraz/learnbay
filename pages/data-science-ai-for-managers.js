@@ -16,7 +16,7 @@ import { DsaiManagersCourseData } from "../Data/DataScienceManagers";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
 import Project from "../components/NewDesign/Project/Project";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
-import Counselling from "../components/NewDesign/ThirdSection/counselling";
+import Counselling from "../components/NewDesign/Counselling/Counselling";
 import {
   FaqData4,
   DomainFaqData4,

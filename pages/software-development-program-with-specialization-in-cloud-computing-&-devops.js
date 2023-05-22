@@ -13,7 +13,7 @@ import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSectio
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { DevOpsCourse } from "../Data/DevOpsCourse";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
-import Counselling from "../components/NewDesign/ThirdSection/counselling";
+import Counselling from "../components/NewDesign/Counselling/Counselling";
 import {
   FaqDataBlockchain,
   DomainFaqDataBlockchain,

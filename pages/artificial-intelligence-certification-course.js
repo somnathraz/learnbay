@@ -14,7 +14,7 @@ import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSectio
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { AiMlCourseData } from "../Data/AiMlData";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
-import Counselling from "../components/NewDesign/ThirdSection/counselling";
+import Counselling from "../components/NewDesign/Counselling/Counselling";
 import {
   FaqData3,
   DomainFaqData3,

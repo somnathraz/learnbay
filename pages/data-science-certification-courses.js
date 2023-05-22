@@ -18,7 +18,7 @@ import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCust
 import Switch from "../components/NewDesign/switch/switch";
 import Project from "../components/NewDesign/Project/Project";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
-import Counselling from "../components/NewDesign/ThirdSection/counselling";
+import Counselling from "../components/NewDesign/Counselling/Counselling";
 import {
   FaqData1,
   PaymentFaqData1,
