@@ -3,46 +3,12 @@ import styles from "./ThirdSection.module.css";
 import Image from "next/image";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
-import { FaArrowRight, FaDownload } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/navigation";
-import { AiOutlineCheck } from "react-icons/ai";
-import {
-  RiNumber1,
-  RiNumber0,
-  RiNumber2,
-  RiNumber3,
-  RiNumber4,
-  RiNumber5,
-} from "react-icons/ri";
 
 function ThirdSection({
-  img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10,
-  img11,
-  img12,
-  img13,
-  img14,
-  img15,
-  img16,
-  img17,
-  img18,
-  img19,
-  img21,
-  img22,
   dataScience,
-  BatchPara,
-  BatchParaImg1,
-  BatchParaImg2,
-  firstLine,
   dataScienceCounselling,
   secondLine,
   thirdHead,
@@ -200,22 +166,6 @@ function ThirdSection({
             {thirdHead}
             <span className={styles.h1Span}>{thirdHeadSpan}</span>
           </h1>
-          {/* <p className={styles.checkP}>
-            <BsCheckCircleFill className={styles.check} />
-            {point1}
-          </p>
-          <p className={styles.checkP}>
-            <BsCheckCircleFill className={styles.check} />
-            {point2}
-          </p>
-          <p className={styles.checkP}>
-            <BsCheckCircleFill className={styles.check} />
-            {point3}
-          </p>
-          <p className={styles.checkP}>
-            <BsCheckCircleFill className={styles.check} />
-            {point4}
-          </p> */}
         </div>
         <div className={styles.secondLeft}>
           <div className={styles.PlayImg}>
@@ -227,21 +177,6 @@ function ThirdSection({
               alt="data science course"
             />
           </div>
-        </div>
-      </div>
-      <div className={styles.CTA}>
-        <div className={styles.boxBlue}>
-          <h2 className={styles.boxH2}>
-            Can’t decide which program to opt for?
-          </h2>
-          <p className={styles.boxP}>
-            Don’t worry, our expert counsellor is there to guide you make the
-            right career choice
-          </p>
-          <button onClick={popupShow}>
-            Apply For Counselling
-            <FaArrowRight style={{ marginLeft: "10px" }} />
-          </button>
         </div>
       </div>
     </>

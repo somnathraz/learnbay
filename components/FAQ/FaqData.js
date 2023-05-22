@@ -20,7 +20,7 @@ export const FaqData1 = [
   {
     id: 3,
     ques: "What’s the duration of the Data Science Foundation Program?",
-    ans: "The duration of this Data Science Course is about 7 months (200+ hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 5 months, Monday to Friday – 2 hours/day, Weekend batch – 7 months, Saturday & Sunday – 3.5 hours/day",
+    ans: "The duration of this Data Science Course is about 7 months (200+ hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 5 months, Monday to Friday – 2 hours/day, Weekend batch – 7 months, Saturday & Sunday – 3.5 hours/day.",
     open: false,
   },
   {
@@ -161,7 +161,7 @@ export const jobFaqData1 = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: "You’ll be provided 5 interview calls after the completion of the course.",
     open: false,
   },
@@ -236,7 +236,7 @@ export const FaqData2 = [
   {
     id: 3,
     ques: "What’s the duration of the Advance Data Science and AI Program?",
-    ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5 hours/day",
+    ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5 hours/day.",
     open: false,
   },
   {
@@ -392,7 +392,7 @@ export const jobFaqData2 = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: "You’ll be provided 10 interview calls after the completion of the course.",
     open: false,
   },
@@ -403,7 +403,7 @@ export const jobFaqData2 = [
     Resume preparation sessions, 
     Preparing projects for a strong portfolio, 
     Interview guidance and prep sessions, 
-    1:1 Mock interviews based on targeted companies and roles.`,
+    1:1 Mock interviews based on targeted companies and roles`,
     open: false,
   },
   {
@@ -629,7 +629,7 @@ export const jobFaqData3 = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: "You’ll be provided 10 interview calls after the completion of the course.",
     open: false,
   },
@@ -867,7 +867,7 @@ export const jobFaqData4 = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: "You’ll be provided 10 interview calls after the completion of the course.",
     open: false,
   },
@@ -1091,7 +1091,7 @@ export const jobFaqData5 = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: "You’ll be provided unlimited interview calls after the completion of the course.",
     open: false,
   },
@@ -1137,7 +1137,7 @@ export const SupportFaqData5 = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: "You’ll be provided unlimited interview calls after the completion of the course.",
     open: false,
   },
@@ -1267,7 +1267,7 @@ export const jobFaqData6 = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: "You’ll be provided 5 interview calls after the completion of the course.",
     open: false,
   },
@@ -1441,7 +1441,7 @@ export const jobFaqData7 = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
+    ques: "How many interview calls will I get at Learnbay?",
     ans: "You’ll be provided 5 interview calls after the completion of the course.",
     open: false,
   },
@@ -1653,7 +1653,7 @@ export const jobFaqData8 = [
     Resume Preparation sessions
     Preparing projects for a strong portfolio
     Interview guidance and prep sessions
-    1:1 Mock interviews based on targeted companies and roles`,
+    1:1 Mock interviews based on targeted companies and roles.`,
     open: false,
   },
   {
@@ -1863,8 +1863,8 @@ export const jobFaqData9 = [
   },
   {
     id: 1,
-    ques: "How many interview calls will i get at Learnbay?",
-    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year",
+    ques: "How many interview calls will I get at Learnbay?",
+    ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
     open: false,
   },
   {
@@ -1874,7 +1874,7 @@ export const jobFaqData9 = [
     Resume Preparation sessions
     Preparing projects for a strong portfolio
     Interview guidance and prep sessions
-    1:1 Mock interviews based on targeted companies and roles
+    1:1 Mock interviews based on targeted companies and roles.
     `,
     open: false,
   },

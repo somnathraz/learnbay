@@ -14,6 +14,7 @@ import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSectio
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import { AiMlCourseData } from "../Data/AiMlData";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNew";
+import Counselling from "../components/NewDesign/ThirdSection/counselling";
 import {
   FaqData3,
   DomainFaqData3,
@@ -60,10 +61,7 @@ function blockchain() {
         />
       </Head>
       <main>
-        <Navbar
-          popup={true}
-          dataScienceCounselling={true}
-        />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -75,9 +73,9 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
-                FirstTyped="Guaranteed Interview Calls"
-                SecondTyped="Capstone Project Certificate"
-                ThirdTyped="Live Interactive Classes"
+          FirstTyped="Guaranteed Interview Calls"
+          SecondTyped="Capstone Project Certificate"
+          ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="AI & ML Program for tech professionals"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
@@ -157,6 +155,7 @@ function blockchain() {
           img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
+        <Counselling dataScienceCounselling={true} />
         <FourthSection
           careerH1="Career Service"
           careerSpan=" Basic"

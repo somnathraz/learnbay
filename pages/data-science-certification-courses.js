@@ -18,6 +18,7 @@ import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCust
 import Switch from "../components/NewDesign/switch/switch";
 import Project from "../components/NewDesign/Project/Project";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
+import Counselling from "../components/NewDesign/ThirdSection/counselling";
 import {
   FaqData1,
   PaymentFaqData1,
@@ -51,10 +52,7 @@ function blockchain() {
         />
       </Head>
       <main>
-      <Navbar
-          popup={true}
-          dataScienceCounselling={true}
-        />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -66,9 +64,9 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
-                FirstTyped="Guaranteed Interview Calls"
-                SecondTyped="Capstone Project Certificate"
-                ThirdTyped="Live Interactive Classes"
+          FirstTyped="Guaranteed Interview Calls"
+          SecondTyped="Capstone Project Certificate"
+          ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Data Science Foundation Program"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf"
@@ -146,8 +144,9 @@ function blockchain() {
           img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
+        <Counselling dataScienceCounselling={true} />
         <FourthSection
-        dataScienceCounselling={true}
+          dataScienceCounselling={true}
           serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"

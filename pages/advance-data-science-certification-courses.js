@@ -29,6 +29,7 @@ import Project from "../components/NewDesign/Project/Project";
 import Switch from "../components/NewDesign/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
+import Counselling from "../components/NewDesign/ThirdSection/counselling";
 
 function blockchain() {
   const [popups, setPopups] = useState(false);
@@ -169,6 +170,7 @@ function blockchain() {
           img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
+        <Counselling dataScienceCounselling={true}/>
         <FourthSection
         dataScienceCounselling={true}
           serviceBasic={true}

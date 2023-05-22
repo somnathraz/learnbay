@@ -28,6 +28,7 @@ import Project from "../components/NewDesign/Project/Project";
 import Switch from "../components/NewDesign/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
+import Counselling from "../components/NewDesign/ThirdSection/counselling";
 
 function blockchain() {
   const [popups, setPopups] = useState(false);
@@ -71,7 +72,7 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
-        softwareBtnHide={true}
+          softwareBtnHide={true}
           FirstTyped="Microsoft & IBM Certificate"
           SecondTyped="Domain Specialized Program"
           ThirdTyped="Live Interactive Classes"
@@ -153,6 +154,7 @@ function blockchain() {
           img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
+        <Counselling dataScienceCounselling={true} />
         <FourthSection
           serviceBasic={true}
           careerH1="Career Service"
@@ -224,7 +226,7 @@ function blockchain() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
         />
         <Project
-        SoftwareText={true}
+          SoftwareText={true}
           project="12+ Projects"
           tools="16+"
           Software={true}

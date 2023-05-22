@@ -27,6 +27,7 @@ import Project from "../components/NewDesign/Project/Project";
 import Switch from "../components/NewDesign/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
+import Counselling from "../components/NewDesign/ThirdSection/counselling";
 
 function Hr() {
   const [popups, setPopups] = useState(false);
@@ -48,10 +49,7 @@ function Hr() {
         <link rel="canonical" href="https://www.learnbay.co/hr-analytics" />
       </Head>
       <main>
-        <Navbar
-          popup={true}
-          dataScienceCounselling={true}
-        />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -63,9 +61,9 @@ function Hr() {
           </div>
         </Popup>
         <FirstSection
-                FirstTyped="Guaranteed Interview Calls"
-                SecondTyped="Capstone Project Certificate"
-                ThirdTyped="Live Interactive Classes"
+          FirstTyped="Guaranteed Interview Calls"
+          SecondTyped="Capstone Project Certificate"
+          ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="HR Analytics Program"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
@@ -146,8 +144,9 @@ function Hr() {
           img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
+        <Counselling dataScienceCounselling={true} />
         <FourthSection
-        dataScienceCounselling={true}
+          dataScienceCounselling={true}
           serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
@@ -169,7 +168,7 @@ function Hr() {
           para3="Growing demand for data-driven HR decision-making"
         />
         <FifthSection
-        dataScienceCounselling={true}
+          dataScienceCounselling={true}
           IBMMicrosoft={true}
           baFamilyTools={true}
           Fee="₹ 89,000 + 18% GST"

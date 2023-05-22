@@ -263,7 +263,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
  }
  },{
  "@type": "Question",
- "name": "How many interview calls will i get at Learnbay?",
+ "name": "How many interview calls will I get at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
