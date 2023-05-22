@@ -18,12 +18,6 @@ function Counselling({
     setPopups(true);
   };
 
-  useEffect(() => {
-    let width = window.innerWidth;
-    if (width < 481) {
-      setMobile(true);
-    }
-  });
   return (
     <>
           <Popup
