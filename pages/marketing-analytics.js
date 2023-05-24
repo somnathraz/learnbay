@@ -215,8 +215,8 @@ function Marketing() {
           tools="16+"
           Marketing={true}
           dataScience={true}
-          titleCourse="Data Science Project Brochure"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
+          titleCourse="Marketing Analytics Project Brochure"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Projects.pdf"
         />
         <BatchDetails
           BAFamily={true}
