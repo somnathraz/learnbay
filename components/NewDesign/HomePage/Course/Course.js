@@ -23,7 +23,7 @@ import {
 } from "./courseDetails";
 import { FaDownload } from "react-icons/fa";
 
-const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
+const Course = ({ dataScience, radio, dataScienceCounselling }) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
@@ -35,6 +35,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
   const popupShow = () => {
     setPopups(true);
   };
+  const [titleCourse, setTitleCourse] = useState();
+  const [brochureLinks, setBrochureLinks] = useState();
 
   const filtteredViewAllD = viewAllD.filter(
     (post) => post.tag === "Data science"
@@ -103,6 +105,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <Form
+            titleCourse={titleCourse}
+            brochureLink={brochureLinks}
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
             radio={radio}
@@ -148,8 +152,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                       img,
                       para,
                       link1,
-                      link2,
-                      tagHead,
+                      titleCourse,
+                      brochureLinks,
                       courseTime,
                     } = viewAllData;
                     return (
@@ -199,7 +203,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -293,7 +303,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -405,7 +419,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -517,7 +535,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -635,7 +657,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -729,7 +755,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -790,8 +820,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                       img,
                       para,
                       link1,
-                      link2,
-                      tagHead,
+                      titleCourse,
+                      brochureLinks,
                       courseTime,
                     } = viewAllData;
                     return (
@@ -841,7 +871,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -884,8 +918,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                       img,
                       para,
                       link1,
-                      link2,
-                      tagHead,
+                      titleCourse,
+                      brochureLinks,
                       courseTime,
                     } = viewAllData;
                     return (
@@ -935,7 +969,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -986,8 +1024,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                       img,
                       para,
                       link1,
-                      link2,
-                      tagHead,
+                      titleCourse,
+                      brochureLinks,
                       courseTime,
                     } = viewAllData;
                     return (
@@ -1043,7 +1081,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1086,8 +1128,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                       img,
                       para,
                       link1,
-                      link2,
-                      tagHead,
+                      titleCourse,
+                      brochureLinks,
                       courseTime,
                     } = viewAllData;
                     return (
@@ -1143,7 +1185,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1192,8 +1238,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                       img,
                       para,
                       link1,
-                      link2,
-                      tagHead,
+                      titleCourse,
+                      brochureLinks,
                       courseTime,
                     } = viewAllData;
                     return (
@@ -1249,7 +1295,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1292,8 +1342,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                       img,
                       para,
                       link1,
-                      link2,
-                      tagHead,
+                      titleCourse,
+                      brochureLinks,
                       courseTime,
                     } = viewAllData;
                     return (
@@ -1349,7 +1399,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1398,8 +1452,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                       img,
                       para,
                       link1,
-                      link2,
-                      tagHead,
+                      titleCourse,
+                      brochureLinks,
                       courseTime,
                     } = viewAllData;
                     return (
@@ -1455,7 +1509,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1504,8 +1562,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                       img,
                       para,
                       link1,
-                      link2,
-                      tagHead,
+                      titleCourse,
+                      brochureLinks,
                       courseTime,
                     } = viewAllData;
                     return (
@@ -1561,7 +1619,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1604,8 +1666,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                       img,
                       para,
                       link1,
-                      link2,
-                      tagHead,
+                      titleCourse,
+                      brochureLinks,
                       courseTime,
                     } = viewAllData;
                     return (
@@ -1661,7 +1723,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1710,8 +1776,8 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                       img,
                       para,
                       link1,
-                      link2,
-                      tagHead,
+                      titleCourse,
+                      brochureLinks,
                       courseTime,
                     } = viewAllData;
                     return (
@@ -1767,7 +1833,11 @@ const Course = ({ dataScience, radio, dataScienceCounselling, }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={popupShow}>
+                            <a onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}>
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload

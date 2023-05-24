@@ -54,7 +54,7 @@ export default function Home() {
           <BoxShape />
         </div>
       </div>
-      <Course popup={true} dataScienceCounselling={true} radio={true} />
+      <Course popup={true} dataScience={true} radio={true} />
       <Switch />
       <KeyFeatures
       titleCourse="Data Science Placement Report"
