@@ -19,8 +19,15 @@ import { TbCertificate } from "react-icons/tb";
 import { FiVideo } from "react-icons/fi";
 import { BsCodeSquare } from "react-icons/bs";
 
-const KeyFeatures = ({ dataScience, radio, idss, btnHide, dataScienceCounselling, }) => {
+const KeyFeatures = ({ dataScience, radio, idss,   titleCourse,
+  brochureLink, dataScienceCounselling, }) => {
   const [popups, setPopups] = useState(false);
+  const [popupsB, setPopupsB] = useState(false);
+
+  const popupShowD = () => {
+    setPopupsB(true);
+  };
+
   const popupShow = () => {
     setPopups(true);
   };
@@ -30,6 +37,25 @@ const KeyFeatures = ({ dataScience, radio, idss, btnHide, dataScienceCounselling
   };
   return (
     <>
+          <Popup trigger={popupsB} setTrigger={setPopupsB} className="popupModal">
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "350px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Download Brochure</h5>
+          <Form
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+            downloadBrochure
+            titleCourse={titleCourse}
+            brochureLink={brochureLink}
+            radio={radio}
+          />
+        </div>
+      </Popup>
       <section className={styles.Features}>
         <Popup
           trigger={popups}
@@ -49,7 +75,6 @@ const KeyFeatures = ({ dataScience, radio, idss, btnHide, dataScienceCounselling
               dataScience={dataScience}
               dataScienceCounselling={dataScienceCounselling}
               downloadBrochure
-              radio={radio}
             />
           </div>
         </Popup>
@@ -203,9 +228,9 @@ const KeyFeatures = ({ dataScience, radio, idss, btnHide, dataScienceCounselling
             />
           </div>
           <div className={styles.imgShowM}></div>
-          <button onClick={popupShow} className={styles.btn}>
+          <button onClick={popupShowD} className={styles.btn}>
             Download Placement Report{" "}
-            <FaDownload style={{ marginLeft: "10px" }} />
+            <FaDownload style={{ marginLeft: "10px" }} /> 
           </button>
         </div>
       </div>

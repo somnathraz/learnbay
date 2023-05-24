@@ -11,7 +11,6 @@ import HomeLine from "../components/NewDesign/HomePage/HomeLine/HomeLine";
 import Testimonial from "../components/NewDesign/HomePage/Testimonial/Testimonial";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import ContactUs from "../components/NewDesign/HomePage/ContactUs/ContactUs";
-import CoreFeature from "../components/NewDesign/HomePage/CoreFeature/CoreFeature";
 import BoxShape from "../components/NewDesign/HomePage/BoxShape/BoxShape";
 
 export default function Home() {
@@ -58,9 +57,11 @@ export default function Home() {
       <Course popup={true} dataScienceCounselling={true} radio={true} />
       <Switch />
       <KeyFeatures
+      titleCourse="Data Science Placement Report"
+      brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf"
         popup={true}
         idss="wSB-phYhG10"
-        dataScienceCounselling={true}
+        dataScience={true}
         radio={true}
       />
       <Testimonial />
