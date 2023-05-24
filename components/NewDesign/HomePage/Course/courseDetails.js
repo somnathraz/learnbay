@@ -7,6 +7,10 @@ export const viewAllD = [
     courseTime: "5-7 months",
     tag: "Data science",
     tagHead: "For Non-Tech Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf",
+    titleCourse: "Data Science Foundation Program",
+
     para: [
       "200+ hours content",
       "4 Foundation",
@@ -24,6 +28,9 @@ export const viewAllD = [
     title1: "& AI Program",
     tag: "Data science",
     tagHead: "Become A Domain Specialist",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
+    titleCourse: "Advanced Data Science & AI Program",
     para: [
       "250+ hours content",
       "8 Advance + 2 Capstone",
@@ -41,6 +48,9 @@ export const viewAllD = [
     title1: "for Tech Professionals",
     tagHead: "For Working Professional",
     tag: "Data science",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
+    titleCourse: "Advance AI & ML Program for Tech Professionals",
     para: [
       "350+ hours content",
       "10 Advance + 2 Capstone",
@@ -58,6 +68,9 @@ export const viewAllD = [
     courseTime: "11-13 months",
     tag: "Data science",
     tagHead: "For Sr. Managers/Team Lead",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+    titleCourse: "Data Science & AI For Managers",
     para: [
       "400+ hours content",
       "10 Advance + 3 Capstone",
@@ -75,6 +88,9 @@ export const viewAllD = [
     courseTime: "13-15 months",
     tagHead: "Guaranteed Interview Call",
     tag: "Data science",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
+    titleCourse: "Data Science & AI Master Program",
     para: [
       "500+ hours content",
       "12 Advance + 4 Capstone",
@@ -92,6 +108,9 @@ export const viewAllD = [
     title1: "Program",
     tag: "Data science",
     tagHead: "Work on Real-time Projects",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+    titleCourse: "Data Analytics Program",
     para: [
       "180+ hours content",
       "8 Advance + 2 Capstopne",
@@ -109,6 +128,9 @@ export const viewAllD = [
     courseTime: "7-9 months",
     tag: "Data science",
     tagHead: "Dedicated Mentorship",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+    titleCourse: "Business Analytics Master Program",
 
     para: [
       "250+ hours content",
@@ -127,6 +149,9 @@ export const viewAllD = [
     title1: "Program in Blockchain",
     tag: "Full stack",
     tagHead: "For Non-Tech Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
+    titleCourse: "Software Development Program in Blockchain",
     para: [
       "250+ hours content",
       "12 Projects",
@@ -144,6 +169,9 @@ export const viewAllD = [
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
     tag: "Full stack",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
+    titleCourse: "Software Development Master Program",
     para: [
       "300+ hours content",
       "12 Projects",
@@ -161,6 +189,9 @@ export const viewAllD = [
     title1: "in Cloud Computing & DevOps",
     tagHead: "Be a Product Design Pro",
     tag: "Full stack",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
+    titleCourse: "Software Development Program in Cloud Computing & DevOps",
     para: [
       "250+ hours content",
       "12 Projects",
@@ -179,6 +210,9 @@ export const viewAllD = [
     courseTime: "7-9 months",
     tag: "Data science",
     tagHead: "For BFSI Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+for+BFSI+Professionals.pdf",
+    titleCourse: "Data Science and AI Program for BFSI Professionals",
     para: [
       "250+ hours content",
       "10 Advance + 2 Capstone",
@@ -196,6 +230,9 @@ export const viewAllD = [
     title1: "Program",
     tag: "Data science",
     tagHead: "Leadership Role In HR Domain",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf",
+    titleCourse: "HR Analytics Program",
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
@@ -213,6 +250,9 @@ export const viewAllD = [
     title1: "Program",
     tag: "Data science",
     tagHead: "Excel data-driven marketing",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf",
+    titleCourse: "Marketing Analytics Program",
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
@@ -232,6 +272,9 @@ export const ForProgrammersD = [
     title1: "& AI Program",
     tag: "Data science",
     tagHead: "Become A Domain Specialist",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
+    titleCourse: "Advanced Data Science & AI Program",
     para: [
       "250+ hours content",
       "8 Advance + 2 Capstone",
@@ -249,6 +292,9 @@ export const ForProgrammersD = [
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
     tag: "Full stack",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
+    titleCourse: "Software Development Master Program",
     para: [
       "300+ hours content",
       "12 Projects",
@@ -266,6 +312,9 @@ export const ForProgrammersD = [
     courseTime: "11-13 months",
     tag: "Data science",
     tagHead: "For Sr. Managers/Team Lead",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+    titleCourse: "Data Science & AI For Managers",
     para: [
       "400+ hours content",
       "10 Advance + 3 Capstone",
@@ -283,6 +332,9 @@ export const ForProgrammersD = [
     title1: "for Tech Professionals",
     tagHead: "For Working Professional",
     tag: "Data science",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
+    titleCourse: "Advance AI & ML Program for Tech Professionals",
     para: [
       "350+ hours content",
       "10 Advance + 2 Capstone",
@@ -300,6 +352,9 @@ export const ForProgrammersD = [
     title1: "Program in Blockchain",
     tag: "Full stack",
     tagHead: "For Non-Tech Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
+    titleCourse: "Software Development Program in Blockchain",
     para: [
       "250+ hours content",
       "12 Projects",
@@ -317,6 +372,9 @@ export const ForProgrammersD = [
     courseTime: "13-15 months",
     tagHead: "Guaranteed Interview Call",
     tag: "Data science",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
+    titleCourse: "Data Science & AI Master Program",
     para: [
       "500 + hours content",
       "12 Advance + 4 Capstone",
@@ -334,6 +392,9 @@ export const ForProgrammersD = [
     title1: "in Cloud Computing & DevOps",
     tagHead: "Be a Product Design Pro",
     tag: "Full stack",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
+    titleCourse: "Software Development Program in Cloud Computing & DevOps",
     para: [
       "250+ hours content",
       "12 Projects",
@@ -354,6 +415,9 @@ export const ForNonProgrammerD = [
     courseTime: "5-7 months",
     tag: "Data science",
     tagHead: "For Non-Tech Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf",
+    titleCourse: "Data Science Foundation Program",
     para: [
       "200+ hours content",
       "4 Foundation",
@@ -371,6 +435,9 @@ export const ForNonProgrammerD = [
     title1: "& AI Program",
     tag: "Data science",
     tagHead: "Become A Domain Specialist",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
+    titleCourse: "Advanced Data Science & AI Program",
     para: [
       "250+ hours content",
       "8 Advance + 2 Capstone",
@@ -388,6 +455,9 @@ export const ForNonProgrammerD = [
     title1: "for Tech Professionals",
     tagHead: "For Working Professional",
     tag: "Data science",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
+    titleCourse: "Advance AI & ML Program for Tech Professionals",
     para: [
       "350+ hours content",
       "10 Advance + 2 Capstone",
@@ -405,6 +475,9 @@ export const ForNonProgrammerD = [
     courseTime: "11-13 months",
     tag: "Data science",
     tagHead: "For Sr. Managers/Team Lead",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+    titleCourse: "Data Science & AI For Managers",
     para: [
       "400+ hours content",
       "10 Advance + 3 Capstone",
@@ -422,6 +495,9 @@ export const ForNonProgrammerD = [
     courseTime: "13-15 months",
     tag: "Data science",
     tagHead: "Guaranteed Interview Call",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
+    titleCourse: "Data Science & AI Master Program",
     para: [
       "500+ hours content",
       "12 Advance + 4 Capstone",
@@ -439,6 +515,9 @@ export const ForNonProgrammerD = [
     courseTime: "7-9 months",
     tag: "Data science",
     tagHead: "Dedicated Mentorship",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+    titleCourse: "Business Analytics Master Program",
     para: [
       "250+ hours content",
       "12 Advance + 4 Capstone",
@@ -456,6 +535,9 @@ export const ForNonProgrammerD = [
     title1: "Program",
     tag: "Data science",
     tagHead: "Work on Real-time Projects",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+    titleCourse: "Data Analytics Program",
     para: [
       "180+ hours content",
       "8 Advance + 2 Capstopne",
@@ -473,6 +555,9 @@ export const ForNonProgrammerD = [
     courseTime: "7-9 months",
     tag: "Data science",
     tagHead: "For BFSI Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+for+BFSI+Professionals.pdf",
+    titleCourse: "Data Science and AI Program for BFSI Professionals",
     para: [
       "250+ hours content",
       "10 Advance + 2 Capstone",
@@ -490,6 +575,9 @@ export const ForNonProgrammerD = [
     title1: "Program",
     tag: "Data science",
     tagHead: "Leadership Role In HR Domain",
+    brochureLinks:
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf",
+  titleCourse: "HR Analytics Program",
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
@@ -507,6 +595,9 @@ export const ForNonProgrammerD = [
     title1: "Program",
     tag: "Data science",
     tagHead: "Excel data-driven marketing",
+    brochureLinks:
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf",
+  titleCourse: "Marketing Analytics Program",
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
@@ -527,6 +618,9 @@ export const JobGuaranteeD = [
     courseTime: "13-15 months",
     tag: "Data science",
     tagHead: "Guaranteed Interview Call",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
+    titleCourse: "Data Science & AI Master Program",
     para: [
       "500+ hours content",
       "12 Advance + 4 Capstone",
@@ -544,6 +638,9 @@ export const JobGuaranteeD = [
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
     tag: "Full stack",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
+    titleCourse: "Software Development Master Program",
     para: [
       "300+ hours content",
       "12 Projects",
@@ -563,6 +660,9 @@ export const StackD = [
     title1: "Program in Blockchain",
     tag: "Full stack",
     tagHead: "For Non-Tech Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
+    titleCourse: "Software Development Program in Blockchain",
     para: [
       "250+ hours content",
       "12 Projects",
@@ -579,6 +679,9 @@ export const StackD = [
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
     tag: "Full stack",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
+    titleCourse: "Software Development Master Program",
     para: [
       "300+ hours content",
       "12 Projects",
@@ -596,6 +699,9 @@ export const StackD = [
     title1: "in Cloud Computing & DevOps",
     tagHead: "Be a Product Design Pro",
     tag: "Full stack",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
+    titleCourse: "Software Development Program in Cloud Computing & DevOps",
     para: [
       "250+ hours content",
       "12 Projects",
