@@ -44,7 +44,7 @@ function SeventhSection({ fullStackCont }) {
                   </button>
                 </a>
 
-                <a href="tel: +919606950936">
+                <a href="tel: +917795687988">
                   <button className={styles.btn2}>
                     <MdCall /> +91 77956 87988
                   </button>
