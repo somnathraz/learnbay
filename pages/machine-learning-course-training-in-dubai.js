@@ -133,7 +133,7 @@ export default function Home() {
  "author": {
  "@type": "Organization",
  "name": "Learnbay",
- "url": "https://learnbay.co/"
+ "url": "https://www.learnbay.co/"
  }, 
  "publisher": {
  "@type": "Organization",
