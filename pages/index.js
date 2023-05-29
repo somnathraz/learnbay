@@ -17,11 +17,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Science Courses with IBM Certification - Learnbay</title>
+        <title>Professional IT Certification Online Courses and Master Programs</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="data science courses with IBM certification. Learnbay is advanced data science course training institute. Enrol in our data science course to enhance your career"
+          content="Enhance your skills with Learnbay's comprehensive online courses and master programs and achieve your professional goals. Enroll Now!"
         />
         <link rel="canonical" href="https://www.learnbay.co/" />
         <meta

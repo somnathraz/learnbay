@@ -38,9 +38,9 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Data Science Foundation Program</title>
+        <title>Data Science Course with Job Placement - Learnbay</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Data Science Foundation Program" />
+        <meta name="description" content="Unlock the power of data with most comprehensive Data Science Course. Enroll now and become a certified Data Scientist." />
         <meta name="keywords" content="Data Science Foundation Program" />
         <link
           rel="icon"

@@ -40,9 +40,9 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Data Science and AI Master Program</title>
+        <title>Master Program in Data Science and Artificial Intelligence - Learnbay</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Data Science and AI Master Program" />
+        <meta name="description" content="Become a Master in Data Science with our comprehensive program. Gain in-demand skills and unlock rewarding career opportunities. Enroll Now." />
         <meta name="keywords" content="Data Science and AI Master Program" />
         <link
           rel="icon"

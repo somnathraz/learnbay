@@ -11,7 +11,8 @@ const sumbit = () => {
   return (
     <div>
       <Head>
-        <title>Apply For Counselling</title>
+        <title>Learnbay - Counselling Form - Apply</title>
+        <meta name="description" content="Submit your information to LearnBay to unlock a world of learning opportunities. Join our platform today and start your path to success."/>
         <meta name="robots" content="index, follow" />
         <link
           rel="icon"

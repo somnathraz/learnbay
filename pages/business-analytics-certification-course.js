@@ -39,9 +39,9 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Business Analytics Master Program</title>
+        <title>Master Program in Business Analytics - Learnbay</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Business Analytics Master Program" />
+        <meta name="description" content="Enroll Now in Learnbay's Professional Business Analytics Course. Master the business analytics techniques and gain valuable insights to advance your career." />
         <meta name="keywords" content="Business Analytics Master Program" />
         <link
           rel="icon"

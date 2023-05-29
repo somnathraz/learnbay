@@ -8,7 +8,8 @@ const sumbit = () => {
   return (
     <div>
       <Head>
-        <title>Learnbay's Career Portal</title>
+        <title>Learnbay - Career Portal</title>
+        <meta name="description" content="LearnBay offers a comprehensive job portal with a variety of career opportunities. With us, you can find your ideal job and advance your career."/>
         <meta name="robots" content="index, follow"/>
         <link
           rel="icon"

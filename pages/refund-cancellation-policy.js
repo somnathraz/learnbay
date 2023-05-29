@@ -9,11 +9,11 @@ function refund() {
   return (
     <div>
       <Head>
-        <title>Learnbay's Refund & Cancellation Policy</title>
+        <title>Learnbay - Refund and Cancellations Policies</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay's Refund & Cancellation Policy"
+          content="Learn more about Learnbay's refund policy and cancellation conditions. Your satisfaction is our top priority."
         />
         <link
           rel="canonical"

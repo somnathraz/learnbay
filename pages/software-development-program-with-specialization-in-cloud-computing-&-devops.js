@@ -39,13 +39,12 @@ function blockchain() {
     <>
       <Head>
         <title>
-          Software Development Program with Specialization in Cloud Computing &
-          DevOps
+        Software Development Course in Cloud and DevOps - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Software Development Program with Specialization in cloud computing & devops"
+          content="Enroll in our comprehensive Software Development Program with a specialization in Cloud Computing and DevOps. Gain hands-on experience in Cloud and DevOps."
         />
         <meta
           name="keywords"

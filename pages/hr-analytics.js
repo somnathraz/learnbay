@@ -38,9 +38,9 @@ function Hr() {
   return (
     <>
       <Head>
-        <title>HR Analytics Program</title>
+        <title>HR Analytics Course with Job Placement - Learnbay</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="HR Analytics Program" />
+        <meta name="description" content="Learn HR Analytics from industry experts at Learnbay. Enhance your skills with our comprehensive HR Analytics Course. Enroll now for a brighter future!" />
         <meta name="keywords" content="HR Analytics Program" />
         <link
           rel="icon"

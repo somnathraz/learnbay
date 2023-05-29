@@ -40,12 +40,12 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Artificial Intelligence & Machine Learning Program</title>
+        <title>Artificial Intelligence and Machine Learning Course - Learnbay</title>
         <meta name="robots" content="index, follow" />
 
         <meta
           name="description"
-          content="Artificial Intelligence & Machine Learning Program"
+          content="Enroll in Learnbay's Comprehensive Artificial Intelligence and Machine Learning Course to improve your AI and Machine Learning skills."
         />
         <meta
           name="keywords"

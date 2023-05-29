@@ -39,12 +39,12 @@ function blockchain() {
     <>
       <Head>
         <title>
-          Software Development Program with Specialization in Blockchain
+         Blockchain Developer Course with Job Placement - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Software Development Program with Specialization in Blockchain"
+          content="Enroll in our extensive blockchain specialized software development program to become a skilled blockchain developer."
         />
         <meta
           name="keywords"

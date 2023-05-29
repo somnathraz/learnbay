@@ -38,11 +38,11 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Banking & Finance Analytics Program</title>
+        <title>Data Analytics in Finance and Banking (BFSI) Course - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Banking & Finance Analytics Program"
+          content="This Financial Analyst Course for BFSI Professionals will help you advance your career in finance analytics. Acquire BFSI-specific knowledge. Enroll Now"
         />
         <meta name="keywords" content="Banking & Finance Analytics Program" />
         <link

@@ -41,14 +41,12 @@ function blockchain() {
     <>
       <Head>
         <title>
-          Data Science and Artificial Intelligence Program For Managers and
-          Leaders
+        Data Science and AI Program For Managers and Leaders - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Data Science and Artificial Intelligence Program For Managers and
-          Leaders"
+          content="Enroll in the most comprehensive Data Science for Managers and AI for Leaders course to propel your career forward."
         />
         <meta
           name="keywords"
