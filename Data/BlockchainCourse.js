@@ -532,7 +532,8 @@ export const BlockchainCourse = [
             },
             {
               chap: {
-                title: "Module 6 :- Web Development with Blockchain Integration",
+                title:
+                  "Module 6 :- Web Development with Blockchain Integration",
                 desc: [
                   "Building a front-end application with HTML, CSS, and JavaScript",
                   "Integrating the web application with the deployed smart contracts using Web3.js",
@@ -565,7 +566,7 @@ export const BlockchainCourse = [
               chap: {
                 title: "Module 9 :- Security and Testing",
                 desc: [
-                  "Understanding common security vulnerabilities and how to mitigate them in blockchain applications", 
+                  "Understanding common security vulnerabilities and how to mitigate them in blockchain applications",
                   "Implementing security measures such as encryption and access control",
                   "Testing the application to ensure it meets functional and non-functional requirements",
                   "Conducting stress testing to assess the application's ability to handle high loads",
@@ -620,7 +621,7 @@ export const BlockchainCourse = [
                 desc: [
                   "Deploying the application to a production environment",
                   "Conducting ongoing maintenance and updates to ensure the application remains secure and functional",
-                  "Implementing monitoring and logging to identify and address any issues that arise", 
+                  "Implementing monitoring and logging to identify and address any issues that arise",
                   "Conducting periodic audits to identify potential security risks and address them proactively.",
                 ],
               },
@@ -650,12 +651,12 @@ export const BlockchainCourse = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 19th May 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 16th June 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -670,7 +671,7 @@ export const BlockchainCourse = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 28th May 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 18th June 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
