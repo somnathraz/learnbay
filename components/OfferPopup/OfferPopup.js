@@ -35,15 +35,18 @@ const OfferPopup = ({
             {" "}
             <div className={styles.Offer}>
               <h6>
-                Special programming session starts from 8th of May from 8 PM to
-                10 PM
+                Special programming session starts from 31st to 2nd of June from
+                8 PM to 10 PM
               </h6>
               <p>Available Batch Details :</p>
               {/* <li>
                 <b>Weekend Afternoon</b>: 7th May, 12:30 PM to 4 PM
               </li> */}
               <li>
-                <b>Weekday Evening</b>: 16th May, 8 PM to 10 PM
+                <b>Weekend Afternoon</b>: 25th June, 12:30 PM to 4 PM
+              </li>
+              <li>
+                <b>Weekday Morning</b>: 27th June, 8 AM to 10 AM
               </li>
               {/* <li><b>{batch3}</b>{batch33}</li> */}
               <p style={{ fontSize: "12px" }}>*Terms & Conditions applied.</p>
@@ -87,16 +90,17 @@ const OfferPopup = ({
                   <>
                     <div className={styles.Offer}>
                       <h6>
-                      Upskill with DSA and System Design - Software Development Course
+                        Upskill with DSA and System Design - Software
+                        Development Course
                       </h6>
                       {/* <p><b>{p1}</b></p> */}
                       <p>Available Batch Details :</p>
                       {/* <p>{p3}</p> */}
                       <li>
-                        <b>Weekday Evening</b>: 19th May, 8 PM to 10 PM
+                        <b>Weekday Evening</b>: 16th June, 8 PM to 10 PM
                       </li>
                       <li>
-                        <b>Weekend Morning</b>: 28th May, 8:30 AM to 12 PM
+                        <b>Weekend Morning</b>: 18th June, 8:30 AM to 12 PM
                       </li>
                       {/* <li><b>{batch3}</b>{batch33}</li> */}
                       <p style={{ fontSize: "12px" }}>
@@ -114,23 +118,18 @@ const OfferPopup = ({
                     {" "}
                     <div className={styles.Offer}>
                       <h6>
-                        Special programming session starts from 24th to 26th of
-                        May from 8 AM to 10 AM
+                        Special programming session starts from 31st to 2nd of
+                        June from 8 PM to 10 PM
                       </h6>
-                      {/* <h6>[ Month End Offer- 15% OFF ] Book Your Seat Now</h6> */}
-                      {/* <p><b>{p1}</b></p> */}
+
                       <p>Available Batch Details :</p>
-                      {/* <p>{p3}</p> */}
-                      {/* <li>
-            <b>Weekend Morning</b>
-            : 9th October, 08:30 AM to 12 PM
-          </li> */}
-                      <li>
-                        <b>Weekend Morning</b>: 28th May, 8:30 AM to 12 PM
-                      </li>
                       <li>
                         <b>Weekday Evening</b>: 9th June, 8 PM to 10 PM
                       </li>
+                      <li>
+                        <b>Weekend Afternoon</b>: 11th June, 12:30 PM to 4 PM
+                      </li>
+
                       {/* <li><b>{batch3}</b>{batch33}</li> */}
                       <p style={{ fontSize: "12px" }}>
                         *Terms & Conditions applied.
