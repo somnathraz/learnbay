@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Leading Certification Training Providers - Learnbay</title>
+        <title>Learnbay - Demo Sessions and Class Recordings</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay is an online bootcamp and one of the leading certification training providers. We are providing training and coaching that helps working professionals to achieve their career goals."
+          content="Explore LearnBay's demo sessions and class recordings. Experience interactive learning with expert instructors. Enroll today for a hands-on educational journey."
         />
         <link
           rel="icon"

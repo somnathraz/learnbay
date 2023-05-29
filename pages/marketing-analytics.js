@@ -38,9 +38,9 @@ function Marketing() {
   return (
     <>
       <Head>
-        <title>Marketing Analytics Program</title>
+        <title>Marketing Analytics Certification Course - Learnbay</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Marketing Analytics Program" />
+        <meta name="description" content="Master marketing analytics with Learnbay’s Marketing Analytics Course. Learn data-driven insights and boost your marketing strategies. Sign up today!" />
         <meta name="keywords" content="Marketing Analytics Program" />
         <link
           rel="icon"

@@ -9,9 +9,9 @@ function terms() {
   return (
     <div>
       <Head>
-        <title>Learnbay's Terms & Conditions</title>
+        <title>Learnbay - Terms and Conditions</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Learnbay's Terms & Conditions" />
+        <meta name="description" content="Learnbay's terms and conditions are clear and concise for your peace of mind. Explore more information for a smooth learning experience. Come join us today!" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"

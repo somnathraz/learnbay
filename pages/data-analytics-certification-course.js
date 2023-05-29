@@ -40,12 +40,12 @@ function dataAnalytics() {
     <>
       <Head>
         <title>
-          Data Analytics Certification Course With Placement Assistance
+        Online Data Analytics Certification Course - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Data Analytics Certification Course With Placement Assistance"
+          content="Master the data analytics skills with intensive data analytics course from Leanbay. Gain hands-on experience and become data analyst."
         />
         <meta
           name="keywords"

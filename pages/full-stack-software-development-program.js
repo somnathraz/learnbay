@@ -40,11 +40,11 @@ function blockchain() {
     <>
       <Head>
         <title>
-          Software Development Master Program with Domain Specialization
+        Master Program in Software Development - Learnbay
         </title>
         <meta
           name="description"
-          content="Software Development Master Program with Domain Specialization"
+          content="Learnbay's Full Stack Software Development Course will help you become a skilled software developer. Gain practical experience and master key coding skills."
         />
         <meta
           name="keywords"

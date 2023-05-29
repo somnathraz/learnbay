@@ -45,11 +45,11 @@ function blockchain() {
     <>
       <Head>
         <title>
-          Advanced Data Science and AI Program with domain specialization
+        Artificial Intelligence and Data Science Course - Learnbay
         </title>
         <meta
           name="description"
-          content="Advanced Data Science and AI Program with domain specialization"
+          content="Upskill yourself with cutting edge Artificial Intelligence and Data Science Skills, Techniques by enrolling into the Learnbay's Advanced Data Science Course."
         />
         <meta name="robots" content="index, follow" />
         <meta

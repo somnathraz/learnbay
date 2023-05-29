@@ -40,11 +40,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Full Stack Web Development Course - Learnbay</title>
+        <title>Full Stack Web Developer Course with Job Placement - Learnbay</title>
         <meta name="robots" content="index, follow"/>
         <meta
           name="description"
-          content="Full Stack Web Development Course with IBM certification. Learnbay provide advanced full stack developer course with placement assistance. Enrol in our full stack web developer course to enhance your career"
+          content="Upgrade your career with our comprehensive Full Stack Developer Course and become a highly skilled, successful Fullstack Developer."
         />
         <meta
           name="keywords"

@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Learnbay's Reviews</title>
+        <title>Learnbay - Testimonials and Reviews of Our Trusted Learners</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Learnbay's Reviews" />
+        <meta name="description" content="Learnbay - The best online professional learning platform, has received numerous positive student reviews. Gain knowledge and make sound decisions. Join today!" />
         <link rel="canonical" href="https://www.learnbay.co/reviews" />
         <link
           rel="icon"
