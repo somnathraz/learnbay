@@ -571,7 +571,8 @@ export const DevOpsCourse = [
             },
             {
               chap: {
-                title: "Module 4 :- Continuous Integration (CI) and Continuous Deployment (CD)",
+                title:
+                  "Module 4 :- Continuous Integration (CI) and Continuous Deployment (CD)",
                 desc: [
                   "CI/CD principles and practices",
                   "Automated testing and quality assurance",
@@ -599,10 +600,7 @@ export const DevOpsCourse = [
             {
               chap: {
                 title: "Module 7 :- Advanced DevOps Concepts",
-                desc: [
-                  "Microservices architecture",
-                  "Serverless computing",
-                ],
+                desc: ["Microservices architecture", "Serverless computing"],
               },
             },
             {
@@ -641,12 +639,12 @@ export const DevOpsCourse = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 19th May 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 16th June 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -661,7 +659,7 @@ export const DevOpsCourse = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 28th May 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 18th June 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
