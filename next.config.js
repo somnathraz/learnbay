@@ -686,6 +686,43 @@ module.exports = {
         destination: 'https://blog.learnbay.co/model-vs-algorithm-in-ml',
         permanent: true,
       },
+
+      {
+        source: '/data-analytics-certification-course-generic',
+        destination: '/data-analytics-certification-course',
+        permanent: true,
+      },
+
+      {
+        source: '/data-science-ai-for-managers-generic',
+        destination: '/data-science-ai-for-managers',
+        permanent: true,
+      },
+
+      {
+        source: '/data-science-ai-masters-program-generic',
+        destination: '/data-science-ai-masters-program',
+        permanent: true,
+      },
+
+      {
+        source: '/data-science-certification-courses-generic',
+        destination: '/data-science-certification-courses',
+        permanent: true,
+      },
+
+      {
+        source: '/advance-data-science-certification-courses-generic',
+        destination: '/advance-data-science-certification-courses',
+        permanent: true,
+      },
+
+      {
+        source: '/data-science-course-training-in-bangalore',
+        destination: '/data-science-certification-courses',
+        permanent: true,
+      },  
+      
     ]
   },
 }
