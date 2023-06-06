@@ -136,18 +136,15 @@ const Footer = ({ FsdNumber }) => {
           <a href="/contact-us">
             <p className={styles.FooterInnerli}>Contact Us</p>
           </a>
-          {/* <a href="/career-portal">
-            <p className={styles.FooterInnerli}>Career</p>
-          </a> */}
           <a href="/demo">
             <p className={styles.FooterInnerli}>Demo</p>
           </a>
           <a href="https://blog.learnbay.co/">
             <p className={styles.FooterInnerli}>Blogs</p>
           </a>
-          <a href="/career-portal">
+          {/* <a href="/career-portal">
             <p className={styles.FooterInnerli}>Career</p>
-          </a>
+          </a> */}
           <p className={styles.FooterInnerP}>Terms</p>
           <a href="/terms-conditions">
             <p className={styles.FooterInnerli}>Terms and Conditions</p>
