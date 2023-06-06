@@ -717,11 +717,11 @@ module.exports = {
         permanent: true,
       },
 
-      {
-        source: '/data-science-course-training-in-bangalore',
-        destination: '/data-science-certification-courses',
-        permanent: true,
-      },  
+      // {
+      //   source: '/data-science-course-training-in-bangalore',
+      //   destination: '/data-science-certification-courses',
+      //   permanent: true,
+      // },  
       
     ]
   },
