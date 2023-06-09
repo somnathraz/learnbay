@@ -10,6 +10,7 @@ import Certificate from "../FifthSection/CertificateTabAdvance";
 import AnalyticsCertificateTab from "../CertificateTab/AnalyticsCertificateTab";
 import BlockchainCertificateTab from "../CertificateTab/BlockchainCertificate";
 import CertificateTabAdvance from "../FifthSection/CertificateTabAdvance";
+import CertificateAIML from "../FifthSection/CertificateTabAIML";
 import CertificateSoftware from "../FifthSection/CertificateSoftware";
 import CertificateTabSoft from "../FifthSection/CertificateTabSoft"
 
@@ -18,6 +19,7 @@ function FifthSection({
   dataAnalyticsCertificate,
   dataScience,
   CertificateSoftwareD,
+  AIMLCertificate,
   Fee,
   FeeContent1,
   FeeContent2,
@@ -224,6 +226,7 @@ function FifthSection({
           <p className={styles.infop}>Globally Recognized Program</p>
           <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>
           {advanceCertificate ? <Certificate /> : ""}
+          {AIMLCertificate ? <CertificateAIML /> : ""}
           {AnalyticsCertificate ? <AnalyticsCertificateTab /> : ""}
           {BlockchainCertificate ? <BlockchainCertificateTab /> : ""}
           {IBMMicrosoft ? (

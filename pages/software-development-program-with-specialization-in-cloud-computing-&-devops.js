@@ -15,13 +15,13 @@ import { DevOpsCourse } from "../Data/DevOpsCourse";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
 import Counselling from "../components/NewDesign/Counselling/Counselling";
 import {
-  FaqDataBlockchain,
-  DomainFaqDataBlockchain,
-  PaymentFaqDataBlockchain,
-  CapstoneFaqDataBlockchain,
-  jobFaqDataBlockchain,
-  MentorshipFaqDataBlockchain,
-  SupportFaqDataBlockchain,
+  FaqDataDevops,
+  DomainFaqDataDevops,
+  PaymentFaqDataDevops,
+  CapstoneFaqDataDevops,
+  jobFaqDataDevops,
+  MentorshipFaqDataDevops,
+  SupportFaqDataDevops,
 } from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
@@ -39,7 +39,7 @@ function blockchain() {
     <>
       <Head>
         <title>
-        Software Development Course in Cloud and DevOps - Learnbay
+          Software Development Course in Cloud and DevOps - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -77,13 +77,13 @@ function blockchain() {
           SecondTyped="Expert-Led Advanced Program"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
-          titleCourse="Software Development Program with specialization in Cloud and Devops"
+          titleCourse="Software Development Program with Specialization in Cloud and Devops"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf"
           first="Tools"
           second="Tips"
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Cloud-%26-DevOps-Header.png"
-          firstToparaImg="with specialization in Cloud and Devops"
+          firstToparaImg="with Specialization in Cloud and Devops"
           firstHeading="Software Development Program"
           firstTopPara="Build the future cloud & transform your tech skills"
           idss="bfl64ANfSV0"
@@ -161,7 +161,7 @@ function blockchain() {
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
-          titleCourse="Software Development Program with specialization in Cloud and Devops"
+          titleCourse="Software Development Program with Specialization in Cloud and Devops"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf"
           syllabus={DevOpsCourse[0].syllabus}
           syllabusDesc={DevOpsCourse[0].syllabusDesc}
@@ -193,7 +193,7 @@ function blockchain() {
           FeeContent6="No additional cost"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
-          titleCourse="Software Development Program with specialization in Cloud and Devops"
+          titleCourse="Software Development Program with Specialization in Cloud and Devops"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
@@ -233,13 +233,13 @@ function blockchain() {
           CourseFeeHead="Data Science and AI Foundation Program : Batch Details"
         />
         <FAQNew
-          FaqDatas={FaqDataBlockchain}
-          DomainFaqDatas={DomainFaqDataBlockchain}
-          PaymentFaqDatas={PaymentFaqDataBlockchain}
-          CapstoneFaqDatas={CapstoneFaqDataBlockchain}
-          jobFaqDatas={jobFaqDataBlockchain}
-          MentorshipFaqDatas={MentorshipFaqDataBlockchain}
-          SupportFaqDatas={SupportFaqDataBlockchain}
+          FaqDatas={FaqDataDevops}
+          DomainFaqDatas={DomainFaqDataDevops}
+          PaymentFaqDatas={PaymentFaqDataDevops}
+          CapstoneFaqDatas={CapstoneFaqDataDevops}
+          jobFaqDatas={jobFaqDataDevops}
+          MentorshipFaqDatas={MentorshipFaqDataDevops}
+          SupportFaqDatas={SupportFaqDataDevops}
         />
         <SeventhSection fullStackCont={true} />
         <OfferPopup offer={true} />
