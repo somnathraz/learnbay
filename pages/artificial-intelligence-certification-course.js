@@ -178,7 +178,7 @@ function blockchain() {
           para3="Strong Demand: Booming requirement across various industries and domains"
         />
         <FifthSection
-          advanceCertificate={true}
+          AIMLCertificate={true}
           Fee="₹ 1,10,000 + 18% GST"
           FeeEmi="₹ 10,817/month"
           FeeHeading="Program Fee & Financing"

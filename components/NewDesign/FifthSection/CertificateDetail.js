@@ -227,10 +227,24 @@ export const CertificateSoftware1 = [
       "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
     ],
   },
-];export const CertificateSoftware2 = [
+];
+export const CertificateSoftware2 = [
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Microsoft-certificate-data.png",
+    title: "Certification in Collaboration with Microsoft",
+    para: [
+      "Industry-certified Microsoft certificates",
+      "Gain expertise & get recognized worldwide",
+      "Boost job opportunities and earnings with Microsoft’s certification",
+    ],
+  },
+];
+
+export const MicrosoftCertificateAML = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Azure+AI+Fundamentals.png",
     title: "Certification in Collaboration with Microsoft",
     para: [
       "Industry-certified Microsoft certificates",
