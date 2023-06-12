@@ -104,7 +104,7 @@ function blockchain() {
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whoIsProgram.webp"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain+-+Who+is+this+program+for.png"
           para1="Bachelor's degree with consistent good academics"
           para2="Minimum 6 months of experience in IT/Non-IT domain"
           para3="Computer Science, B.Tech, B.Sc. pursuing students"
@@ -169,7 +169,7 @@ function blockchain() {
           project="12+ Real Time"
         />
         <GrowthStats
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SoftwareGrowth.png"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain+Scope+Image.png"
           heading="Accelerate blockchain career & secure your dream job confidently"
           para1="Higher Growth: Compound annual growth rate of CAGR of 87.7% by 2030"
           para2="Unlock earning potential: Be a blockchain developer, earn 8 LPA"
