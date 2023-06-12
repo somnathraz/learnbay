@@ -107,34 +107,33 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                       <div className={styles.NewOrange}>
                         <div>
                           <p className={styles.listDay}>
-                            Weekday Evening (Mon-Fri)
+                          Weekday Morning (Mon-Fri)
                           </p>
                         </div>
                         <div className={styles.listMobile}>
                           <p className={styles.list}>
                             <MdDateRange className={styles.iconOrange} />
-                            9th June 2023
+                            23rd June 2023
                           </p>
                           <p className={styles.list}>
-                            <BiTimeFive className={styles.iconBlue} />8 PM to 10
-                            PM
+                            <BiTimeFive className={styles.iconBlue} />8 AM to 10 AM
                           </p>
                         </div>
                       </div>
                       <div className={styles.NewBlue}>
                         <div>
                           <p className={styles.listDay}>
-                            Weekend Afternoon (Sat-Sun)
+                          Weekend Morning (Sat-Sun)
                           </p>
                         </div>
                         <div className={styles.listMobile}>
                           <p className={styles.list}>
                             <MdDateRange className={styles.iconOrange} />
-                            11th June 2023
+                            25th June 2023
                           </p>
                           <p className={styles.list}>
                             <BiTimeFive className={styles.iconBlue} />
-                            12:30 PM to 4 PM
+                            8:30 AM to 12 PM
                           </p>
                         </div>
                       </div>
@@ -259,38 +258,37 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                       <div className={styles.NewOrange}>
                         <div>
                           <p className={styles.listDay}>
-                            Weekday Evening (Mon-Fri)
+                          Weekday Morning (Mon-Fri)
                           </p>
                         </div>
                         <div>
                           <p className={styles.list}>
                             <MdDateRange className={styles.iconOrange} />
-                            9th June 2023
+                            23rd June 2023
                           </p>
                         </div>
                         <div>
                           <p className={styles.list}>
-                            <BiTimeFive className={styles.iconBlue} />8 PM to 10
-                            PM
+                            <BiTimeFive className={styles.iconBlue} />8 AM to 10 AM
                           </p>
                         </div>
                       </div>
                       <div className={styles.NewBlue}>
                         <div>
                           <p className={styles.listDay}>
-                            Weekend Afternoon (Sat-Sun)
+                          Weekend Morning (Sat-Sun)
                           </p>
                         </div>
                         <div>
                           <p className={styles.list}>
                             <MdDateRange className={styles.iconOrange} />
-                            11th June 2023
+                            25th June 2023
                           </p>
                         </div>
                         <div>
                           <p className={styles.list}>
                             <BiTimeFive className={styles.iconBlue} />
-                            12:30 PM to 4 PM
+                            8:30 AM to 12 PM
                           </p>
                         </div>
                       </div>
