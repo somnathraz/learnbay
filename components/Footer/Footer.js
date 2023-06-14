@@ -91,14 +91,19 @@ const Footer = ({ FsdNumber }) => {
           <a href="/advance-data-science-certification-courses">
             <p className={styles.FooterInnerli}>Advanced DS and AI Program</p>
           </a>
-          <a href="/full-stack-web-development-program">
-            <p className={styles.FooterInnerli}>
-              Full Stack Web Development Program
-            </p>
-          </a>
           <a href="/full-stack-software-development-program">
             <p className={styles.FooterInnerli}>
-              Full Stack Software Development Program
+            Software Development Master Program
+            </p>
+          </a>
+          <a href="/software-development-program-with-specialization-in-blockchain">
+            <p className={styles.FooterInnerli}>
+            Software Development Program in Blockchain
+            </p>
+          </a>
+          <a href="/software-development-program-with-specialization-in-cloud-computing-&-devops">
+            <p className={styles.FooterInnerli}>
+            Software Development Program in Cloud and Devops
             </p>
           </a>
           <a href="/artificial-intelligence-certification-course">
