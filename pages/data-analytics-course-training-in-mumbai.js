@@ -37,12 +37,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Analytics Course in Mumbai | Data Analytics Training in Mumbai
+        Best IBM Certified Data Analytics Course in Mumbai - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Data Analytics Course in Mumbai. Learnbay is Advanced Data Analytics Course Training Institute in Mumbai. Data Analytics course in Mumbai will enhance your career"
+          content="Join our comprehensive Data Analytics Training program in Mumbai to become a highly-skilled Data Analyst. Don't wait, Enroll Now."
         />
         <meta
           name="keywords"
@@ -72,7 +72,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -118,8 +118,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -150,8 +150,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -308,8 +308,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -359,7 +359,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -380,10 +380,10 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="In Collaboration with IBM"
-          mTopPara="In Collaboration with IBM"
-          title="Data Analytics Course Training in Mumbai"
-          mTitle="Data Analytics Course Training in Mumbai"
+          deskTopPara=""
+          mTopPara=""
+          title="Data Analytics Course in Mumbai"
+          mTitle="Data Analytics Course in Mumbai"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."

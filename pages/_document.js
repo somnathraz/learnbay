@@ -42,7 +42,7 @@ export default function Document() {
           rel="stylesheet"
         />
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -62,8 +62,8 @@ export default function Document() {
               }
              } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -82,7 +82,7 @@ export default function Document() {
   ]
 } `,
           }}
-        />
+        /> */}
       </Head>
       <body>
         <Main />

@@ -37,12 +37,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Science Course in Delhi | Data Science Training in Delhi
+             Data Science Course in Delhi With IBM Certification
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Data science course in Delhi. Learnbay is Advanced Data Science Course Training Institute in Delhi. Data science course in Delhi will enhance your career"
+          content="Enroll in Learnbay's Data Science course in Delhi for a successful career. Updated Curriculum Modules and with Best Placement Assistance Guarantee. Sign-up Start your journey now."
         />
         <meta
           name="keywords"
@@ -111,7 +111,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -157,8 +157,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -189,8 +189,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -403,8 +403,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -453,7 +453,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -474,12 +474,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Foundational and Advance Job-ready Program"
-          mTopPara="Foundational and Advance Job-ready Program"
-          title="Data Science Course in Delhi - "
-          mTitle="Data Science Course in Delhi - "
-          spanTitleText="Enroll Now"
-          spanMTitleText="Enroll Now"
+          deskTopPara=""
+          mTopPara=""
+          title="Data Science Course in Delhi"
+          mTitle="Data Science Course in Delhi"
+          // spanTitleText="Enroll Now"
+          // spanMTitleText="Enroll Now"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Delhi with IBM Certification. Our advanced Data Science training in Delhi will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"

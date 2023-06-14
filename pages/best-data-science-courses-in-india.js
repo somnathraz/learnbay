@@ -111,7 +111,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -157,8 +157,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -190,8 +190,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -398,8 +398,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -449,7 +449,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}

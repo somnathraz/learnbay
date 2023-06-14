@@ -36,13 +36,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Artificial Intelligence Course in Dubai | Artificial Intelligence
-          Training in Dubai
+        Best Artificial Intelligence Course in Dubai - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Artificial Intelligence Course in Dubai. Learnbay is Advanced Artificial Intelligence Course Training Institute in Dubai. Artificial Intelligence course in Dubai will enhance your career"
+          content="Learnbay offers the best Artificial Intelligence Training in Dubai. Get mentorship from the industry experts with best career assistance. Enroll Now."
         />
         <meta
           name="keywords"
@@ -71,7 +70,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -116,8 +115,8 @@ export default function Home() {
 }
               } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -148,8 +147,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -369,8 +368,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -420,7 +419,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -441,12 +440,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Job-oriented Data Science Training for working professionals"
-          mTopPara="Job-oriented Data Science Training for working professionals"
-          title="Artificial Intelligence (AI) Course Training in Dubai"
-          mTitle="Artificial Intelligence (AI) Course Training in Dubai"
-          spanTitleText=" For Managers and Leaders"
-          spanMTitleText=" For Managers and Leaders"
+          deskTopPara=""
+          mTopPara=""
+          title="Artificial Intelligence Course in Dubai "
+          mTitle="Artificial Intelligence Course in Dubai "
+          spanTitleText=" For Managers and Professional Leaders"
+          spanMTitleText=" For Managers and Professional Leaders"
           desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Managers+%26+Leaders.png"
           width="900"

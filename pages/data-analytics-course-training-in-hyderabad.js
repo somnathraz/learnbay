@@ -37,13 +37,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Analytics Course in Hyderabad | Data Analytics Training in
-          Hyderabad
+           Best IBM Certified Data Analytics Course in Hyderabad
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Data Analytics Course in Hyderabad. Learnbay is Advanced Data Analytics Course Training Institute in Hyderabad. Data Analytics course in Hyderabad will enhance your career"
+          content="Enhance your skills with Learnbay's Data Analytics Training in Hyderabad. Designed for professionals seeking practical skills and industry insights. Sign-up Now."
         />
         <meta
           name="keywords"
@@ -73,7 +72,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -117,8 +116,8 @@ export default function Home() {
     }] 
    } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -149,8 +148,8 @@ export default function Home() {
 
    } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -332,8 +331,8 @@ export default function Home() {
                                                                                           }
                                                                                          } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -383,7 +382,7 @@ export default function Home() {
   }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -404,12 +403,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="First-Track Industrial Training For Early Professionals"
-          mTopPara="First-Track Industrial Training For Early Professionals"
+          deskTopPara=""
+          mTopPara=""
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
-          title="Data Analytics Course Training in Hyderabad"
-          mTitle="Data Analytics Course Training in Hyderabad"
+          title="Data Analytics Course in Hyderabad"
+          mTitle="Data Analytics Course in Hyderabad"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Data+Analytics.png"
           width="900"

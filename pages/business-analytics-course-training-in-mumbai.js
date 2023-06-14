@@ -36,8 +36,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Business Analytics Course in Mumbai | Business Analytics Training in
-          Mumbai
+        Best Business Analyst Certification Course in Mumbai
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -46,7 +45,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Business Analytics course in Mumbai, Business Analytics training in Mumbai, Business Analytics institute in Mumbai, best Business Analytics institute in Mumbai, Business Analytics course in Mumbai, Business Analytics certification in Mumbai, Business Analytics training institute in Mumbai, advanced Business Analytics course in Mumbai, Business Analytics course with Placement Assistance, Business Analytics course"
+          content="Enroll now in Learnbay's Business Analyst Program in Mumbai For Top-notch Training, Live Projects, IBM Certification and Best Career Placement Assistance."
         />
         <link
           rel="canonical"
@@ -71,7 +70,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -117,8 +116,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -149,8 +148,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -307,8 +306,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -358,7 +357,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -379,12 +378,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Industry-paced Project-based Training"
-          mTopPara="Industry-paced Project-based Training"
-          title="Business Analytics Course "
-          mTitle="Business Analytics Course"
-          spanMTitleText="Training in Mumbai"
-          spanTitleText="Training in Mumbai"
+          deskTopPara=""
+          mTopPara=""
+          title="Business Analytics  "
+          mTitle="Business Analytics "
+          spanMTitleText="Course in Mumbai"
+          spanTitleText="Course in Mumbai"
           desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Businesss+Analytics.png"
           width="900"

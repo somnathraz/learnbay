@@ -37,13 +37,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Machine Learning Course in Mumbai | Machine Learning Training in
-          Mumbai
+        Machine Learning Certification Course in Mumbai - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Machine learning course in Mumbai. Learnbay is Machined Machine Learning Course Training Institute in Mumbai. Machine Learning course in Mumbai will enhance your career"
+          content="Learnbay offers the most comprehensive and affordable Machine Learning Training program in Mumbai with best placement assistance. Enroll Now."
         />
         <meta
           name="keywords"
@@ -73,7 +72,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -119,8 +118,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -151,8 +150,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -365,8 +364,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -415,7 +414,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -436,12 +435,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Industrial project-based job-oriented training"
-          mTopPara="Industrial project-based job-oriented training"
-          title="Machine Learning Course Training in Mumbai"
-          mTitle="Machine Learning Course Training in Mumbai"
-          spanMTitleText="Advance Program"
-          spanTitleText="Advance Program"
+          // deskTopPara=""
+          // mTopPara=""
+          title="Machine Learning Course in Mumbai "
+          mTitle="Machine Learning Course in Mumbai "
+          // spanMTitleText="Advance Program"
+          // spanTitleText="Advance Program"
           desc="Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           width="900"

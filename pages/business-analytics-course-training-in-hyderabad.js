@@ -36,13 +36,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Business Analytics Course in Hyderabad | Business Analytics Training
-          in Hyderabad
+        Business Analyst Course in Hyderabad with IBM Certification
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Business Analytics Course in Hyderabad. Learnbay is Advanced Business Analytics Course Training Institute in Hyderabad. Business Analytics course in Hyderabad will enhance your career"
+          content="Enroll Learnbay's Business Analytics Training in Hyderabad and gain live project experience, IBM certification, and placement assistance."
         />
         <meta
           name="keywords"
@@ -72,7 +71,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-
+{/* 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -118,9 +117,9 @@ export default function Home() {
   }
 } `,
           }}
-        />
+        /> */}
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -152,9 +151,9 @@ export default function Home() {
   }
 } `,
           }}
-        />
+        /> */}
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -337,9 +336,9 @@ export default function Home() {
                                                                                           }
                                                                                          } `,
           }}
-        />
+        /> */}
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -389,7 +388,7 @@ export default function Home() {
   }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -410,11 +409,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="IBM Certified Business Analytics Course for Early Professionals"
-          mTopPara="IBM Certified Business Analytics Course for Early Professionals"
-          spanTitleText="For Non-tech Professionals"
-          spanMTitleText="For Non-tech Professionals"
-          mTitle="Business Analytics Course Training In Hyderabad"
+          deskTopPara=""
+          mTopPara=""
+          spanTitleText=" Course in Hyderabad"
+          spanMTitleText=" Course in Hyderabad"
+          title="Business Analytics"
+          mTitle="Business Analytics"
           desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Businesss+Analytics.png"
           width="900"

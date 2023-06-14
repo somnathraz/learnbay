@@ -37,12 +37,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Analytics Course in Pune | Data Analytics Training in Pune
+          Best IBM Certified Data Analytics Course in Pune - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Data Analytics Course in Pune. Learnbay is Advanced Data Analytics Course Training Institute in Pune. Data Analytics course in Pune will enhance your career"
+          content="Enroll in our Advanced Data Analytics Course in Pune now and earn an IBM Certification to accelerate your career as a Data Analytics professional."
         />
         <meta
           name="keywords"
@@ -73,7 +73,7 @@ export default function Home() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -118,9 +118,9 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
+        /> */}
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -151,8 +151,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -316,9 +316,9 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
+        /> */}
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -367,7 +367,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -388,10 +388,10 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Industrial Training Program for Early-professionals"
-          mTopPara="Industrial Training Program for Early-professionals"
-          title="Data Analytics Course Training in Pune"
-          mTitle="Data Analytics Course Training in Pune"
+          deskTopPara=""
+          mTopPara=""
+          title="Data Analytics Course in Pune"
+          mTitle="Data Analytics Course in Pune"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."

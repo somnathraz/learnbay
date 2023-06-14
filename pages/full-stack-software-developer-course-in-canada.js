@@ -38,13 +38,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Full-Stack Software Developer Course in Canada | Full-Stack Software
-          Developer Course Training in Canada
+           Full Stack Developer Course In Canada - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Full-Stack Software Developer Course in Canada. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Canada. Full-Stack Software Developer Course in Canada will enhance your career"
+          content="Sign-up Learnbay For Software Development Course in Canada with Real-Time Projects and an IBM Certification."
         />
         <meta
           name="keywords"
@@ -78,12 +77,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           fullStack={true}
-          deskTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
-          mTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
-          mTitle="Full-Stack Software Developer Course In Canada"
-          spanMTitleText="To Achieve Your Dream Job"
-          title="Full-Stack Software Developer Course In Canada"
-          spanTitleText="To Achieve Your Dream Job"
+          deskTopPara=""
+          mTopPara=""
+          mTitle="Full Stack Software Developer Course in Canada"
+          // spanMTitleText="To Achieve Your Dream Job"
+          title="Full Stack Software Developer Course in Canada"
+          // spanTitleText="To Achieve Your Dream Job"
           desc="Enroll in the best Job-ready full-stack software development course in Canada. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png"
           width="791"

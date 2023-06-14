@@ -35,13 +35,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Business Analytics Course in Canada | Business Analytics Training in
-          Canada
+        Business Analyst Course in Canada with IBM Certification
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Business Analytics Course in Canada. Learnbay is Advanced Business Analytics Course Training Institute in Canada. Business Analytics course in Canada will enhance your career"
+          content="Enroll in Learnbay's best Business Analytics Training in Canada with expert instructors and IBM certification. Sign-up Now."
         />
         <meta
           name="keywords"
@@ -70,7 +69,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -116,8 +115,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -148,8 +147,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -306,8 +305,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -357,7 +356,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -378,12 +377,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Industrial Business Analytics Program for working professionals"
-          mTopPara="Industrial Business Analytics Program for working professionals"
-          title="Business Analytics Course"
-          mTitle="Business Analytics Course"
-          spanMTitleText="Training In Canada"
-          spanTitleText="Training In Canada"
+          deskTopPara=""
+          mTopPara=""
+          title="Business Analytics "
+          mTitle="Business Analytics "
+          spanMTitleText="Course in Canada"
+          spanTitleText="Course in Canada"
           desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Businesss+Analytics.png"
           width="900"

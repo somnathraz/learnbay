@@ -37,13 +37,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Artificial Intelligence Course in Hyderabad | Artificial Intelligence
-          Training in Hyderabad
+        Best Artificial Intelligence Course in Hyderabad - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Artificial Intelligence Course in Hyderabad. Learnbay is Advanced Artificial Intelligence Course Training Institute in Hyderabad. Artificial Intelligence course in Hyderabad will enhance your career"
+          content="Enroll in Learnbay's Artificial Intelligence Training program in Hyderabad for IBM certification and job placement assistance. Don't miss out, Sign up now."
         />
         <meta
           name="keywords"
@@ -72,7 +71,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -117,8 +116,8 @@ export default function Home() {
    }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -150,8 +149,8 @@ export default function Home() {
    }
                  } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -396,8 +395,8 @@ export default function Home() {
                                                                                           }
                                                                                          } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -447,7 +446,7 @@ export default function Home() {
   }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -463,12 +462,12 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          deskTopPara="Become an AI Expert in Product-based MNC"
-          mTopPara="Become an AI Expert in Product-based MNC"
-          mTitle="Artificial Intelligence(Ai) Course "
-          spanMTitleText="Training In Hyderabad"
-          title="Artificial Intelligence(Ai) Course"
-          spanTitleText="Training In Hyderabad"
+          deskTopPara=""
+          mTopPara=""
+          mTitle="Artificial Intelligence Course in Hyderabad  "
+          spanMTitleText="For Managers and Professional Leaders"
+          title="Artificial Intelligence Course in Hyderabad "
+          spanTitleText="For Managers and Professional Leaders"
           desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Managers+%26+Leaders.png"
           width="900"

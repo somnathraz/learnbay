@@ -38,13 +38,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Full-Stack Software Developer Course in Hyderabad | Full-Stack
-          Software Developer Course Training in Hyderabad
+           Full Stack Developer Course in Hyderabad with Job Assistance
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Full-Stack Software Developer Course in Hyderabad. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Hyderabad. Full-Stack Software Developer Course in Hyderabad will enhance your career"
+          content="Most comprehensive Full Stack Software Development Training in Hyderabad, Covers Front-end, Back-end and Advanced DSA. Sign-up Today."
         />
         <meta
           name="keywords"
@@ -79,12 +78,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           fullStack={true}
-          deskTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
-          mTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
-          mTitle="Full-Stack Software Developer Course In Hyderabad"
-          spanMTitleText="To Achieve Your Dream Job"
-          title="Full-Stack Software Developer Course In Hyderabad"
-          spanTitleText="To Achieve Your Dream Job"
+          deskTopPara=""
+          mTopPara=""
+          mTitle="Full Stack Software Developer Course in Hyderabad"
+          // spanMTitleText="To Achieve Your Dream Job"
+          title="Full Stack Software Developer Course in Hyderabad"
+          // spanTitleText="To Achieve Your Dream Job"
           desc="Enroll in the best Job-ready full-stack software development course in Hyderabad. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png"
           width="791"

@@ -37,13 +37,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Machine Learning Course in Bangalore | Machine Learning Training in
-          Bangalore
+           Machine Learning Course in Bangalore with Job Assistance
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Machine learning course in Bangalore. Learnbay is Advanced Machine Learning Course Training Institute in Bangalore. Machine Learning course in Bangalore will enhance your career"
+          content="Learnbay offers the Most Advanced Machine Learning Training in Bangalore with Hands-on Projects, IBM Certification and Best Career Assistance. Sign-up Now."
         />
         <meta
           name="keywords"
@@ -73,7 +72,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -119,8 +118,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -152,8 +151,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -360,8 +359,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -411,7 +410,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -432,12 +431,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
-          mTopPara="Machine Learning Course For Experienced Tech Professionals"
-          mTitle="Machine Learning Course "
-          spanMTitleText="Training In Bangalore"
-          title="Machine Learning Course"
-          spanTitleText="Training In Bangalore"
+          deskTopPara=""
+          mTopPara=""
+          mTitle="Machine Learning Course in Bangalore"
+          // spanMTitleText="Training In Bangalore"
+          title="Machine Learning Course in Bangalore"
+          // spanTitleText="Training In Bangalore"
           desc="Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           width="900"

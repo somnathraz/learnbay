@@ -56,12 +56,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Best Data Science Training Courses Institute In Bangalore @Learnbay!
+        Best Data Science Course in Bangalore with Job Assistance
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learn Best Data Science Course in Bangalore from advanced certification oriented online data science training institute with IBM Certified Trainers."
+          content="Learn Data Science in Bangalore with Learnbay's top rated course taught by expert instructors. Gain practical experience through live projects. Sign-up Now."
         />
         <meta
           name="keywords"
@@ -129,7 +129,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -178,8 +178,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -225,8 +225,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -258,8 +258,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -466,8 +466,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -517,7 +517,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -539,8 +539,8 @@ export default function Home() {
         <FirstSection
           cityText={true}
           dataScienceCounselling={true}
-          deskTopPara="Foundational and Advance Job-ready Program"
-          mTopPara="Foundational and Advance Job-ready Program"
+          deskTopPara=""
+          mTopPara=""
           title="Data Science Course in Bangalore"
           mTitle="Data Science Course in Bangalore"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Bangalore with IBM Certification. Our advanced Data Science training in Bangalore will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."

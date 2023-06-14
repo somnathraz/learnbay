@@ -36,12 +36,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Science Course in Canada | Data Science Training in Canada
+        Best Data Science Course in Canada With IBM Certification
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Data science course in Canada. Learnbay is Advanced Data Science Course Training Institute in Canada. Data science course in Canada will enhance your career"
+          content="Enroll now in Learnbay's top-notch Data Science Training Program in Canada, Includes one-on-one mentorship and guaranteed job assistance."
         />
         <meta
           name="keywords"
@@ -110,7 +110,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -156,8 +156,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -188,8 +188,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -403,8 +403,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -454,7 +454,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -475,12 +475,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Foundational and Advance Job-ready Program"
-          mTopPara="Foundational and Advance Job-ready Program"
-          title="Data Science Course in Canada -"
-          mTitle="Data Science Course in Canada -"
-          spanTitleText="Enroll Now"
-          spanMTitleText="Enroll Now"
+          deskTopPara=""
+          mTopPara=""
+          title="Data Science Course in Canada"
+          mTitle="Data Science Course in Canada"
+          // spanTitleText="Enroll Now"
+          // spanMTitleText="Enroll Now"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Canada with IBM Certification. Our advanced Data Science training in Canada will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
