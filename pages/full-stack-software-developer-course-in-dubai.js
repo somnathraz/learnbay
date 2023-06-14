@@ -38,13 +38,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Full-Stack Software Developer Course in Dubai | Full-Stack Software
-          Developer Course Training in Dubai
+        Full Stack Developer Course in Dubai with Job Assistance
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Full-Stack Software Developer Course in Dubai. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Dubai. Full-Stack Software Developer Course in Dubai will enhance your career"
+          content="Become A Certified in Full Stack Software Developer with Best Full Stack Training Course in Dubai by Learnbay with Interactive Sessions. Enroll Now."
         />
         <meta
           name="keywords"
@@ -78,12 +77,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           fullStack={true}
-          deskTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
-          mTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
-          mTitle="Full-Stack Software Developer Course In Dubai"
-          spanMTitleText="To Achieve Your Dream Job"
-          title="Full-Stack Software Developer Course In Dubai"
-          spanTitleText="To Achieve Your Dream Job"
+          deskTopPara=""
+          mTopPara=""
+          mTitle="Full Stack Software Developer Course in Dubai"
+          // spanMTitleText="To Achieve Your Dream Job"
+          title="Full Stack Software Developer Course in Dubai"
+          // spanTitleText="To Achieve Your Dream Job"
           desc="Enroll in the best Job-ready full-stack software development course in Dubai. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png"
           width="791"

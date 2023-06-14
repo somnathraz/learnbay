@@ -37,12 +37,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Science Course in Hyderabad | Data Science Training in Hyderabad
+        Data Science Course in Hyderabad With IBM Certification
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Data science course in Hyderabad. Learnbay is Advanced Data Science Course Training Institute in Hyderabad. Data science course in Hyderabad will enhance your career"
+          content="Enhance Your Data Science Skills with Learnbay's Best Data Science Training in Hyderabad. Engaging Classroom Projects and Expert Instruction to Advance Your Career."
         />
         <meta
           name="keywords"
@@ -112,7 +112,7 @@ export default function Home() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -157,9 +157,9 @@ export default function Home() {
  }
                  } `,
           }}
-        />
+        /> */}
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -190,8 +190,8 @@ export default function Home() {
  }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -420,9 +420,9 @@ export default function Home() {
                                                                                   }
                                                                                  } `,
           }}
-        />
+        /> */}
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -472,7 +472,7 @@ export default function Home() {
   }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -494,8 +494,8 @@ export default function Home() {
         <FirstSection
           dataScienceCounselling={true}
           cityText={true}
-          deskTopPara="Foundational and Advance Job-ready Program"
-          mTopPara="Foundational and Advance Job-ready Program"
+          deskTopPara=""
+          mTopPara=""
           title="Data Science Course in Hyderabad"
           mTitle="Data Science Course in Hyderabad"
           // spanTitleText="Enroll Now"

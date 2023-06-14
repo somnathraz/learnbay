@@ -36,13 +36,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Business Analytics Course in Chennai | Business Analytics Training in
-          Chennai
+        Business Analyst Course in Chennai with IBM Certification
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Business Analytics Course in Chennai. Learnbay is Advanced Business Analytics Course Training Institute in Chennai. Business Analytics course in Chennai will enhance your career"
+          content="Learnbay's Business Analytics Training in Chennai, Expert led and IBM Certified Course with Job Placement Assistance. Signup Now."
         />
         <meta
           name="keywords"
@@ -71,7 +70,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -117,8 +116,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -149,8 +148,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -363,8 +362,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -413,7 +412,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -434,12 +433,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Professional Business Analytics Program"
-          mTopPara="Professional Business Analytics Program"
-          title="Business Analytics Course"
-          mTitle="Business Analytics Course"
-          spanMTitleText=" Training In Chennai"
-          spanTitleText=" Training In Chennai"
+          deskTopPara=""
+          mTopPara=""
+          title="Business Analytics"
+          mTitle="Business Analytics"
+          spanMTitleText="Course in Chennai"
+          spanTitleText="Course in Chennai"
           desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Businesss+Analytics.png"
           width="900"

@@ -38,13 +38,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Full-Stack Software Developer Course in Bangalore | Full-Stack
-          Software Developer Course Training in Bangalore
+             Full Stack Developer Course in Bangalore - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Full-Stack Software Developer Course in Bangalore. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Bangalore. Full-Stack Software Developer Course in Bangalore will enhance your career"
+          content="Want to become a skilled Web Developer? Enroll Now - Learnbay's Most Extensive Full Stack Web Developer Course in Bangalore."
         />
         <meta
           name="keywords"
@@ -80,12 +79,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           fullStack={true}
-          deskTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
-          mTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
-          mTitle="Full-Stack Software Developer Course In Bangalore"
-          spanMTitleText="To Achieve Your Dream Job"
-          title="Full-Stack Software Developer Course In Bangalore"
-          spanTitleText="To Achieve Your Dream Job"
+          deskTopPara=""
+          mTopPara=""
+          mTitle="Full Stack Software Developer Course in Bangalore"
+          // spanMTitleText="To Achieve Your Dream Job"
+          title="Full Stack Software Developer Course in Bangalore"
+          // spanTitleText="To Achieve Your Dream Job"
           desc="Enroll in the best Job-ready full-stack software development course in Bangalore. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png"
           width="791"

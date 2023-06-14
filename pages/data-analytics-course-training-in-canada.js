@@ -36,12 +36,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Analytics Course in Canada | Data Analytics Training in Canada
+          Data Analytics Certification Course in Canada - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Data Analytics Course in Canada. Learnbay is Advanced Data Analytics Course Training Institute in Canada. Data Analytics course in Canada will enhance your career"
+          content="Enroll in Most Advanced Data Analytics Course in Canada for working professionals offered by Learnbay with Assured Placement Assistance."
         />
         <meta
           name="keywords"
@@ -70,7 +70,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -116,8 +116,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -148,8 +148,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -328,8 +328,8 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -379,7 +379,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -400,12 +400,12 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
-          mTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
+          deskTopPara=""
+          mTopPara=""
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
-          title="Data Analytics Course Training in Canada"
-          mTitle="Data Analytics Course Training in Canada"
+          title="Data Analytics Course in Canada"
+          mTitle="Data Analytics Course in Canada"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Data+Analytics.png"
           width="900"

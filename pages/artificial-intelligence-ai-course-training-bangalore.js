@@ -36,13 +36,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Artificial Intelligence Course in Bangalore | Artificial Intelligence
-          Training in Bangalore
+          Best Artificial Intelligence Course in Bangalore - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Artificial Intelligence Course in Bangalore. Learnbay is Advanced Artificial Intelligence Course Training Institute in Bangalore. Artificial Intelligence course in Bangalore will enhance your career"
+          content="Learnbay offers the best Artificial Intelligence Training in Bangalore. Get mentorship from the industry experts with best career assistance. Enroll Now."
         />
         <meta
           name="keywords"
@@ -71,7 +70,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -117,8 +116,8 @@ export default function Home() {
   }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -150,8 +149,8 @@ export default function Home() {
   }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -381,8 +380,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -432,7 +431,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -453,12 +452,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Industry Curated Artificial Intelligence Program"
-          mTopPara="Industry Curated Artificial Intelligence Program"
-          title="Artificial Intelligence (AI) "
-          spanTitleText="Training in Bangalore"
-          mTitle="Artificial Intelligence (AI)"
-          spanMTitleText="Training in Bangalore"
+          deskTopPara=""
+          mTopPara=""
+          title="Artificial Intelligence   "
+          spanTitleText="Course in Bangalore"
+          mTitle="Course in Bangalore "
+          spanMTitleText="Course in Bangalore"
           desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Managers+%26+Leaders.png"
           width="900"

@@ -38,13 +38,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Full-Stack Software Developer Course in Pune | Full-Stack Software
-          Developer Course Training in Pune
+            Best Full Stack Developer Course in Pune with Job Assistance
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Full-Stack Software Developer Course in Pune. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Pune. Full-Stack Software Developer Course in Pune will enhance your career"
+          content="Join the best Full-stack Software Developer course in Pune and acquire the skills needed to excel in this field. Sign-up Now."
         />
         <meta
           name="keywords"
@@ -80,10 +79,10 @@ export default function Home() {
           fullStack={true}
           deskTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
           mTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
-          mTitle="Full-Stack Software Developer Course In Pune"
-          spanMTitleText="To Achieve Your Dream Job"
-          title="Full-Stack Software Developer Course In Pune"
-          spanTitleText="To Achieve Your Dream Job"
+          mTitle="Full Stack Software Developer Course in Pune"
+          // spanMTitleText="To Achieve Your Dream Job"
+          title="Full Stack Software Developer Course in Pune"
+          // spanTitleText="To Achieve Your Dream Job"
           desc="Enroll in the best Job-ready full-stack software development course in Pune. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png"
           width="791"

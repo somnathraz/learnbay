@@ -37,12 +37,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Analytics Course in Chennai | Data Analytics Training in Chennai
+         Data Analytics Certification Course in Chennai - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Data Analytics Course in Chennai. Learnbay is Advanced Data Analytics Course Training Institute in Chennai. Data Analytics course in Chennai will enhance your career"
+          content="Enroll in Data Analytics Training in Chennai with Learnbay's comprehensive training program designed for working professionals and boost your career."
         />
         <meta
           name="keywords"
@@ -118,7 +118,7 @@ export default function Home() {
 } `,
           }}
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -149,8 +149,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -301,8 +301,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -351,7 +351,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -372,10 +372,10 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Industrial Program For Early Pros"
-          mTopPara="Industrial Program For Early Pros"
-          title="Data Analytics Course Training in Chennai"
-          mTitle="Data Analytics Course Training in Chennai"
+          deskTopPara=""
+          mTopPara=""
+          title="Data Analytics Course in Chennai"
+          mTitle="Data Analytics Course in Chennai"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."

@@ -38,13 +38,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Full-Stack Software Developer Course in Mumbai | Full-Stack Software
-          Developer Course Training in Mumbai
+        Full Stack Developer Course in Mumbai with Job Assistance
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Full-Stack Software Developer Course in Mumbai. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Mumbai. Full-Stack Software Developer Course in Mumbai will enhance your career"
+          content="Best Full Stack Web Development Course in Mumbai and Master the Most in-demand Coding and Web Development Skills. Signup Now."
         />
         <meta
           name="keywords"
@@ -79,12 +78,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           fullStack={true}
-          deskTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
-          mTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
-          mTitle="Full-Stack Software Developer Course In Mumbai"
-          spanMTitleText="To Achieve Your Dream Job"
-          title="Full-Stack Software Developer Course In Mumbai"
-          spanTitleText="To Achieve Your Dream Job"
+          deskTopPara=""
+          mTopPara=""
+          mTitle="Full Stack Software Developer Course in Mumbai"
+          // spanMTitleText="To Achieve Your Dream Job"
+          title="Full Stack Software Developer Course in Mumbai"
+          // spanTitleText="To Achieve Your Dream Job"
           desc="Enroll in the best Job-ready full-stack software development course in Mumbai. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png"
           width="791"

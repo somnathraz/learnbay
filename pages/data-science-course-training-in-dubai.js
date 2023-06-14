@@ -36,12 +36,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Science Course in Dubai | Data Science Training in Dubai
+        Best Data Science Course in Dubai With IBM Certification
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Data science course in Dubai. Learnbay is Advanced Data Science Course Training Institute in Dubai. Data science course in Dubai will enhance your career"
+          content="Learnbay Offers Quality Data Science Training in Dubai with Flexible Scheduling, Hands-on Projects and One-To-One Mentorship. Sign-up Now to Master Data Science."
         />
         <meta
           name="keywords"
@@ -110,7 +110,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -155,8 +155,8 @@ export default function Home() {
 }
               } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -187,8 +187,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -394,8 +394,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -444,7 +444,7 @@ export default function Home() {
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -465,12 +465,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Foundational and Advance Job-ready Program"
-          mTopPara="Foundational and Advance Job-ready Program"
-          title="Data Science Course in Dubai - "
-          mTitle="Data Science Course in Dubai - "
-          spanTitleText="Enroll Now"
-          spanMTitleText="Enroll Now"
+          deskTopPara=""
+          mTopPara=""
+          title="Data Science Course in Dubai"
+          mTitle="Data Science Course in Dubai"
+          // spanTitleText="Enroll Now"
+          // spanMTitleText="Enroll Now"
           desc="Our comprehensive Data Science course in Dubai with IBM Certification will enhance your Data Science career. Advanced Data Science & AI training in Dubai will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"

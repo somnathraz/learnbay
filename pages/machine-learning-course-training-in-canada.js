@@ -36,13 +36,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Machine Learning Course in Canada | Machine Learning Training in
-          Canada
+          Best Machine Learning Course in Canada with Career Assistance
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Machine learning course in Canada. Learnbay is Advanced Machine Learning Course Training Institute in Canada. Machine Learning course in Canada will enhance your career"
+          content="Learnbay's training facility is renowned for offering top-notch Machine Learning Training Program in Canada especifically designed for working professionals. Enroll Now."
         />
         <meta
           name="keywords"
@@ -72,7 +71,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -118,8 +117,8 @@ export default function Home() {
 }
 } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -150,8 +149,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "}
-        <script
+        />{" "} */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -372,8 +371,8 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
                   }
                  } `,
           }}
-        />
-        <script
+        /> */}
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -423,7 +422,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
 }
 } `,
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
@@ -444,12 +443,12 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
-          mTopPara="Machine Learning Course For Experienced Tech Professionals"
-          spanMTitleText="Advance Program"
-          spanTitleText="Advance Program"
-          title="Machine Learning Course Training In Canada"
-          mTitle="Machine Learning Course Training In Canada"
+          deskTopPara=""
+          mTopPara=""
+          // spanMTitleText="Advance Program"
+          // spanTitleText="Advance Program"
+          title="Machine Learning Course in Canada"
+          mTitle="Machine Learning Course in Canada"
           desc="Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           width="900"
