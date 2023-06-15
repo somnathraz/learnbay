@@ -42,7 +42,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay offers the Best Machine Learning Training program in Hyderabad with the highly-skilled industy experts and mentors. Enroll Now."
+          content="Learnbay offers the Best Machine Learning Training program in Hyderabad with the highly-skilled industry experts and mentors. Enroll Now."
         />
         <meta
           name="keywords"

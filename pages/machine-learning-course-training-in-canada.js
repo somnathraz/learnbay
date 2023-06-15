@@ -41,7 +41,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay's training facility is renowned for offering top-notch Machine Learning Training Program in Canada especifically designed for working professionals. Enroll Now."
+          content="Learnbay's Most Comprehensive Machine Learning Training Program in Canada specifically designed for working professionals. Enroll Now."
         />
         <meta
           name="keywords"

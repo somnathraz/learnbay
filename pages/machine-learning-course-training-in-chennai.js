@@ -42,7 +42,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Join-us The Learnbay's Extensive Machine Learning Training Course in Chennai. Get mentored by top industy experts, multiple batches available. Enroll Now."
+          content="Join-us The Learnbay's Extensive Machine Learning Training Course in Chennai. Get mentored by top industry experts, multiple batches available. Enroll Now."
         />
         <meta
           name="keywords"
