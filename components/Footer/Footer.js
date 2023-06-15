@@ -127,11 +127,6 @@ const Footer = ({ FsdNumber }) => {
           <a href="/data-analytics-certification-course">
             <p className={styles.FooterInnerli}>Data Analytics Program</p>
           </a>
-          <a href="/dsa-system-design">
-            <p className={styles.FooterInnerli}>
-              Data Structures Algorithms And System Design
-            </p>
-          </a>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Learnbay</p>
