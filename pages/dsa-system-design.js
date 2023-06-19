@@ -75,12 +75,12 @@ export default function Home() {
         <FirstSection
           fsdBrochure={true}
           fullStack={true}
-          deskTopPara="Data Structures Algorithms & System Design"
-          mTopPara="Data Structures Algorithms & System Design"
-          mTitle="Best Interview Prep Course for "
-          spanMTitleText="PRODUCT- Based Companies"
-          title="Best Interview Prep Course for "
-          spanTitleText="PRODUCT- Based Companies"
+          deskTopPara=""
+          mTopPara=""
+          mTitle="Data Structures Algorithms and System Design Program "
+          // spanMTitleText="PRODUCT- Based Companies"
+          title="Data Structures Algorithms and System Design Program "
+          // spanTitleText="PRODUCT- Based Companies"
           desc="Perform real-world industrial projects and use-cases."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/DSA.png"
           width="776"
