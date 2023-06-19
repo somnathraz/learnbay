@@ -9,25 +9,25 @@ import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
 import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
-import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
-import { BlockchainCourse } from "../Data/BlockchainCourse";
-import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
-import {
-  FaqDataBlockchain,
-  DomainFaqDataBlockchain,
-  PaymentFaqDataBlockchain,
-  CapstoneFaqDataBlockchain,
-  jobFaqDataBlockchain,
-  MentorshipFaqDataBlockchain,
-  SupportFaqDataBlockchain,
-} from "../components/NewDesign/FAQNew/FaqData";
-import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
-import Project from "../components/NewDesign/Project/Project";
-import Switch from "../components/NewDesign/switch/switch";
+import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
+import { DSBankingFinanceData } from "../Data/DSBankingFinance";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
+import Project from "../components/NewDesign/Project/Project";
+import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Counselling from "../components/NewDesign/Counselling/Counselling";
+import {
+  FaqDataBFSI,
+  PaymentFaqDataBFSI,
+  CapstoneFaqDataBFSI,
+  CertificationFaqDataBFSI,
+  jobFaqDataBFSI,
+  MentorshipFaqDataBFSI,
+  SupportFaqDataBFSI,
+} from "../components/NewDesign/FAQNew/FaqData";
+import Switch from "../components/NewDesign/switch/switch";
 
 function blockchain() {
   const [popups, setPopups] = useState(false);
@@ -38,23 +38,20 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Blockchain Developer Course with Job Placement - Learnbay</title>
+        <title>Data Analytics in Finance and Banking (BFSI) Course - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll in our extensive blockchain specialized software development program to become a skilled blockchain developer."
+          content="This Financial Analyst Course for BFSI Professionals will help you advance your career in finance analytics. Acquire BFSI-specific knowledge. Enroll Now"
         />
-        <meta
-          name="keywords"
-          content="Software Development Program with Specialization in Blockchain"
-        />
+        <meta name="keywords" content="Banking & Finance Analytics Program" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/software-development-program-with-specialization-in-blockchain"
+          href="https://www.learnbay.co/data-science-program-for-bfsi-professionals"
         />
       </Head>
       <main>
@@ -70,45 +67,45 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
-          softwareBtnHide={true}
-          FirstTyped="IBM Certificate"
-          SecondTyped="Expert-Led Advanced Program"
+          FirstTyped="Guaranteed Interview Calls"
+          SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
-          titleCourse="Software Development Program with Specialization in Blockchain"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
+          titleCourse="Banking & Finance Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+for+BFSI+Professionals.pdf"
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain-Header.png"
-          // firstToparaImg="with Specialization in Blockchain"
-          firstHeading="Software Development Program with Blockchain Specialization"
-          firstTopPara="Ready to lead the blockchain revolution?"
-          idss="bfl64ANfSV0"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BFSI-header-image.webp"
+          // firstToparaImg="for BFSI Professionals"
+          firstHeading="Data Science Program For Banking and Finance"
+          firstTopPara="Ready to master the finance domain?"
+          idss="4j80WXLTvGE"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+for+BFSI+Professionals.pdf"
         />
         <SecondSection
+          fullStackReview={true}
           SecondHead="Why Choose Us?"
           SecondPara="India's top rated  bootcamp for working professionals "
-          heading1="On-Demand Doubt Session"
-          heading2="IBM Certificate"
-          heading3="Peer Learning & Networking"
+          heading1="1:1 Doubt Session"
+          heading2="Guaranteed Interview Calls"
+          heading3="IBM Project Certificate"
           heading4="Designed For Professionals"
-          SecondPara1="Get personalised doubt clearing session with industry experts"
-          SecondPara2="Enhance your technical skills & get IBM course completion certificate"
-          SecondPara3="Learn & collaborate with peers for growth & opportunities"
-          SecondPara4="Learn blockchain tools and techniques to excel in your career"
+          SecondPara1="Talk to an expert & receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
+          SecondPara3="Master the domain of finance analytics with certificate from IBM"
+          SecondPara4="Boost your growth & earnings with in-demand analytics skills"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain+-+Who+is+this+program+for.png"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BFSI+_+Who+is+this+program+for+_+image.webp"
           para1="Bachelor's degree with consistent good academics"
-          para2="Minimum 6 months of experience in IT/Non-IT domain"
-          para3="Computer Science, B.Tech, B.Sc. pursuing students"
-          para4="Professionals looking to upskill for better career growth"
+          para2="Minimum 1 year of IT/Non-IT work experience"
+          para3="Early to mid-career professionals interested in finance analytics"
+          para4="Utilise data-driven insights for business growth"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -119,16 +116,16 @@ function blockchain() {
           secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Enjoy 3+ years of career service access"
-          point2="Get 6 mock interviews with industry leaders"
+          BatchPara="The banking & finance analytics program is designed for professionals across various sectors and designations who want to acquire necessary skills and knowledge to analyze financial data and make informed business decisions."
+          point1="Get 1 year of job & placement support"
+          point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
-          point4="100% placement support"
-          BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
-          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
-          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
+          point4="Get 5-8 interview calls"
+          BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FINANCE+Left.png"
+          BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FINANCE+Right.png"
           dataScience={true}
-          titleCourse="Full Stack Placement Report"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf"
+          titleCourse="Data Science Placement Report"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
@@ -155,33 +152,31 @@ function blockchain() {
         <Counselling dataScienceCounselling={true} />
         <FourthSection
           dataScienceCounselling={true}
-          serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
+          serviceBasic={true}
           dataScience={true}
-          titleCourse="Software Development Program with Specialization in Blockchain"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
-          syllabus={BlockchainCourse[0].syllabus}
-          syllabusDesc={BlockchainCourse[0].syllabusDesc}
-          popupHead={BlockchainCourse[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
+          titleCourse="Banking & Finance Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+for+BFSI+Professionals.pdf"
+          syllabus={DSBankingFinanceData[0].syllabus}
+          syllabusDesc={DSBankingFinanceData[0].syllabusDesc}
+          popupHead={DSBankingFinanceData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+for+BFSI+Professionals.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
         <GrowthStats
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain+Scope+Image.png"
-          heading="Accelerate blockchain career & secure your dream job confidently"
-          para1="Higher Growth: Compound annual growth rate of CAGR of 87.7% by 2030"
-          para2="Unlock earning potential: Be a blockchain developer, earn 8 LPA"
-          para3="Strong Demand: Growing need for tech wizards across various industries"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BFSI+Scope.webp"
+          heading="How is analytics changing finance?"
+          para1="Higher Growth: Annual growth rate of 10.4% in 2023 "
+          para2="Big Earning Potential: Earn an average salary of INR 10 LPA"
+          para3="Enormous demand for individuals in the banking and finance sector"
         />
-
         <FifthSection
-          blockChainTools={true}
           dataScienceCounselling={true}
-          BlockchainCertificate={true}
-          Fee="₹ 95,000 + 18% GST"
-          FeeEmi="₹ 9,342/month"
+          IBMMicrosoft={true}
+          Fee="₹ 89,000 + 18% GST"
+          FeeEmi="₹ 8,752/month"
           FeeHeading="Program Fee & Financing"
           FeeContent1="0% interest rate"
           FeeContent2="No cost EMI"
@@ -191,8 +186,8 @@ function blockchain() {
           FeeContent6="No additional cost"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
-          titleCourse="Software Development Program with Specialization in Blockchain"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
+          titleCourse="Banking & Finance Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+for+BFSI+Professionals.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -218,29 +213,25 @@ function blockchain() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <Project
-          SoftwareText={true}
           project="12+ Projects"
           tools="16+"
-          BlockChain={true}
+          BFSI={true}
           dataScience={true}
-          titleCourse="Full Stack Project Brochure"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
+          titleCourse="BFSI Project Brochure"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Projects.pdf"
         />
-        <BatchDetails
-          FullStack={true}
-          CourseFeeHead="Data Science and AI Foundation Program : Batch Details"
-        />
+        <BatchDetails CourseFeeHead="Banking and Finance: Batch Details" />
         <FAQNew
-          FaqDatas={FaqDataBlockchain}
-          DomainFaqDatas={DomainFaqDataBlockchain}
-          PaymentFaqDatas={PaymentFaqDataBlockchain}
-          CapstoneFaqDatas={CapstoneFaqDataBlockchain}
-          jobFaqDatas={jobFaqDataBlockchain}
-          MentorshipFaqDatas={MentorshipFaqDataBlockchain}
-          SupportFaqDatas={SupportFaqDataBlockchain}
+          FaqDatas={FaqDataBFSI}
+          PaymentFaqDatas={PaymentFaqDataBFSI}
+          CapstoneFaqDatas={CapstoneFaqDataBFSI}
+          CertificationFaqDatas={CertificationFaqDataBFSI}
+          jobFaqDatas={jobFaqDataBFSI}
+          MentorshipFaqDatas={MentorshipFaqDataBFSI}
+          SupportFaqDatas={SupportFaqDataBFSI}
         />
-        <SeventhSection fullStackCont={true} />
-        <OfferPopup offer={true} />
+        <SeventhSection />
+        <OfferPopup offer={false} />
         <Footer />
       </main>
     </>

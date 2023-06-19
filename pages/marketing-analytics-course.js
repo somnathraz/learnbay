@@ -11,25 +11,25 @@ import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
-import { BlockchainCourse } from "../Data/BlockchainCourse";
-import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
+import { MarketingCourse } from "../Data/MarketingCourse";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
 import {
-  FaqDataBlockchain,
-  DomainFaqDataBlockchain,
-  PaymentFaqDataBlockchain,
-  CapstoneFaqDataBlockchain,
-  jobFaqDataBlockchain,
-  MentorshipFaqDataBlockchain,
-  SupportFaqDataBlockchain,
+  FaqDataMarkering,
+  PaymentFaqDataMarkering,
+  CapstoneFaqDataMarkering,
+  CertificationFaqDataMarkering,
+  jobFaqDataMarkering,
+  MentorshipFaqDataMarkering,
+  SupportFaqDataMarkering,
 } from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
-import Switch from "../components/NewDesign/switch/switch";
+import Switch from "../components/NewDesign/HomePage/switch/switch";
 import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 import Counselling from "../components/NewDesign/Counselling/Counselling";
 
-function blockchain() {
+function Marketing() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -38,23 +38,17 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Blockchain Developer Course with Job Placement - Learnbay</title>
+        <title>Marketing Analytics Certification Course - Learnbay</title>
         <meta name="robots" content="index, follow" />
-        <meta
-          name="description"
-          content="Enroll in our extensive blockchain specialized software development program to become a skilled blockchain developer."
-        />
-        <meta
-          name="keywords"
-          content="Software Development Program with Specialization in Blockchain"
-        />
+        <meta name="description" content="Master marketing analytics with Learnbay’s Marketing Analytics Course. Learn data-driven insights and boost your marketing strategies. Sign up today!" />
+        <meta name="keywords" content="Marketing Analytics Program" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/software-development-program-with-specialization-in-blockchain"
+          href="https://www.learnbay.co/marketing-analytics-course"
         />
       </Head>
       <main>
@@ -70,45 +64,45 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
-          softwareBtnHide={true}
-          FirstTyped="IBM Certificate"
-          SecondTyped="Expert-Led Advanced Program"
+          FirstTyped="Guaranteed Interview Calls"
+          SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
-          titleCourse="Software Development Program with Specialization in Blockchain"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
+          titleCourse="Marketing Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain-Header.png"
-          // firstToparaImg="with Specialization in Blockchain"
-          firstHeading="Software Development Program with Blockchain Specialization"
-          firstTopPara="Ready to lead the blockchain revolution?"
-          idss="bfl64ANfSV0"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
+          idss="W-WSqLl8_5o"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/marketing-header-image+.webp"
+          // firstToparaImg="Marketing Analytics Program"
+          firstHeading="Marketing Analytics Course"
+          firstTopPara="Experience the future of analytics"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
         />
         <SecondSection
+          fullStackReview={true}
           SecondHead="Why Choose Us?"
           SecondPara="India's top rated  bootcamp for working professionals "
-          heading1="On-Demand Doubt Session"
-          heading2="IBM Certificate"
-          heading3="Peer Learning & Networking"
-          heading4="Designed For Professionals"
-          SecondPara1="Get personalised doubt clearing session with industry experts"
-          SecondPara2="Enhance your technical skills & get IBM course completion certificate"
-          SecondPara3="Learn & collaborate with peers for growth & opportunities"
-          SecondPara4="Learn blockchain tools and techniques to excel in your career"
+          heading1="1:1 Doubt Session"
+          heading2="Guaranteed Interview Calls"
+          heading3="IBM Project Certificate"
+          heading4="For Marketing professionals"
+          SecondPara1="Talk to an expert & receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
+          SecondPara3="Grab opportunities with a portfolio & make a smooth career transition"
+          SecondPara4="Boost your growth & earnings with in-demand analytics skills"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain+-+Who+is+this+program+for.png"
-          para1="Bachelor's degree with consistent good academics"
-          para2="Minimum 6 months of experience in IT/Non-IT domain"
-          para3="Computer Science, B.Tech, B.Sc. pursuing students"
-          para4="Professionals looking to upskill for better career growth"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/marketing+_+Who-is-this-program-for+_+image.webp"
+          para1="Bachelor's degree with good academic performance"
+          para2="Minimum 1 year of IT/Non-IT work experience "
+          para3="Early to mid-career professionals interested in marketing analytics"
+          para4=" To become a data-driven marketer and optimize strategies"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -119,16 +113,16 @@ function blockchain() {
           secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Enjoy 3+ years of career service access"
-          point2="Get 6 mock interviews with industry leaders"
+          point1="Get 1 year of job & placement support"
+          point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
-          point4="100% placement support"
+          point4="Get 5-8 interview calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
-          titleCourse="Full Stack Placement Report"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf"
+          titleCourse="Data Science Placement Report"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
@@ -159,29 +153,28 @@ function blockchain() {
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
-          titleCourse="Software Development Program with Specialization in Blockchain"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
-          syllabus={BlockchainCourse[0].syllabus}
-          syllabusDesc={BlockchainCourse[0].syllabusDesc}
-          popupHead={BlockchainCourse[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
+          titleCourse="Marketing Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
+          syllabus={MarketingCourse[0].syllabus}
+          syllabusDesc={MarketingCourse[0].syllabusDesc}
+          popupHead={MarketingCourse[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
         <GrowthStats
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain+Scope+Image.png"
-          heading="Accelerate blockchain career & secure your dream job confidently"
-          para1="Higher Growth: Compound annual growth rate of CAGR of 87.7% by 2030"
-          para2="Unlock earning potential: Be a blockchain developer, earn 8 LPA"
-          para3="Strong Demand: Growing need for tech wizards across various industries"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Marketing+Analytics+Scope.webp"
+          heading="The future is bright in Marketing Analytics - are you ready?"
+          para1="High earning potential: Earn an average annual salary of 10 LPA"
+          para2="Rapid industry growth: 93.8% annually (2020-2027)"
+          para3="Abundant career opportunities in Marketing Analytics"
         />
-
         <FifthSection
-          blockChainTools={true}
           dataScienceCounselling={true}
-          BlockchainCertificate={true}
-          Fee="₹ 95,000 + 18% GST"
-          FeeEmi="₹ 9,342/month"
+          baFamilyTools={true}
+          IBMMicrosoft={true}
+          Fee="₹ 89,000 + 18% GST"
+          FeeEmi="₹ 8,752/month"
           FeeHeading="Program Fee & Financing"
           FeeContent1="0% interest rate"
           FeeContent2="No cost EMI"
@@ -191,8 +184,8 @@ function blockchain() {
           FeeContent6="No additional cost"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
-          titleCourse="Software Development Program with Specialization in Blockchain"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
+          titleCourse="Marketing Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -218,33 +211,32 @@ function blockchain() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <Project
-          SoftwareText={true}
           project="12+ Projects"
           tools="16+"
-          BlockChain={true}
+          Marketing={true}
           dataScience={true}
-          titleCourse="Full Stack Project Brochure"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
+          titleCourse="Marketing Analytics Project Brochure"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Projects.pdf"
         />
         <BatchDetails
-          FullStack={true}
+          BAFamily={true}
           CourseFeeHead="Data Science and AI Foundation Program : Batch Details"
         />
         <FAQNew
-          FaqDatas={FaqDataBlockchain}
-          DomainFaqDatas={DomainFaqDataBlockchain}
-          PaymentFaqDatas={PaymentFaqDataBlockchain}
-          CapstoneFaqDatas={CapstoneFaqDataBlockchain}
-          jobFaqDatas={jobFaqDataBlockchain}
-          MentorshipFaqDatas={MentorshipFaqDataBlockchain}
-          SupportFaqDatas={SupportFaqDataBlockchain}
+          FaqDatas={FaqDataMarkering}
+          PaymentFaqDatas={PaymentFaqDataMarkering}
+          CapstoneFaqDatas={CapstoneFaqDataMarkering}
+          CertificationFaqDatas={CertificationFaqDataMarkering}
+          jobFaqDatas={jobFaqDataMarkering}
+          MentorshipFaqDatas={MentorshipFaqDataMarkering}
+          SupportFaqDatas={SupportFaqDataMarkering}
         />
-        <SeventhSection fullStackCont={true} />
-        <OfferPopup offer={true} />
+        <SeventhSection />
+        <OfferPopup offer={false} BAFamily={true} />
         <Footer />
       </main>
     </>
   );
 }
 
-export default blockchain;
+export default Marketing;

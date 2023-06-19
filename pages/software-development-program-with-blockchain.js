@@ -54,7 +54,7 @@ function blockchain() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/software-development-program-with-specialization-in-blockchain"
+          href="https://www.learnbay.co/software-development-program-with-blockchain"
         />
       </Head>
       <main>
