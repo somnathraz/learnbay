@@ -86,7 +86,7 @@ function blockchain() {
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML-Header.png"
           // firstToparaImg="AI & ML Program for tech professionals"
           firstHeading="Advance Artificial Intelligence and Machine Learning Course"
-          firstTopPara="Expand beyond technology"
+          // firstTopPara="Expand beyond technology"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
         />
         <SecondSection

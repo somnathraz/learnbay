@@ -100,7 +100,7 @@ function blockchain() {
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/advance+DS+header+image.webp"
           // firstToparaImg="with domain specialization"
           firstHeading="Advance Data Science and Artificial Intelligence Course"
-          firstTopPara="Specialization over generalization"
+          // firstTopPara="Specialization over generalization"
           idss="bfl64ANfSV0"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
