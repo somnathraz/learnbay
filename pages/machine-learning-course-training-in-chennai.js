@@ -37,7 +37,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-           Best Machine Learning Course in Chennai with Career Assistance
+          Best Machine Learning Course in Chennai with Career Assistance
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -591,8 +591,8 @@ export default function Home() {
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
               JobHead1="How does the Job assistance program work at Learnbay in Chennai?"
-              JobBot1="Learnbay’s machine learning job placement program is an assistance provided by various sources to job seekers from all walks of life. Job assistance in machine learning certification includes career counseling, talent assessment, and communication assessment. Moreover, it involves assistance with resume writing, portfolio building, and 1:1 mock interviews as per the candidate screening standard of top MNCs in Chennai."
-              JobBot2="This prime feature of Learnbay has helped countless machine learning enthusiasts crack the interviews and get placed in several startups and multinational organizations such as Oracle, SAP, Salesforce, etc. Following that, our job placement officials assist job seekers in finding relevant job roles and preparing for interviews. After the completion of the IBM machine learning course, your IBM and other certificates get unlocked, and you'll be prepared to ace the machine learning interviews. We have a channel of 250+ hiring partners."
+              JobBot1="Learnbay’s machine learning Job Assistance program is an assistance provided by various sources to job seekers from all walks of life. Job assistance in machine learning certification includes career counseling, talent assessment, and communication assessment. Moreover, it involves assistance with resume writing, portfolio building, and 1:1 mock interviews as per the candidate screening standard of top MNCs in Chennai."
+              JobBot2="This prime feature of Learnbay has helped countless machine learning enthusiasts crack the interviews and get placed in several startups and multinational organizations such as Oracle, SAP, Salesforce, etc. Following that, our Job Assistance officials assist job seekers in finding relevant job roles and preparing for interviews. After the completion of the IBM machine learning course, your IBM and other certificates get unlocked, and you'll be prepared to ace the machine learning interviews. We have a channel of 250+ hiring partners."
               JobHead2="Machine learning and its demand in Chennai"
               JobBot3="Machine learning is a subset of artificial intelligence that enables software programs to increase their predicted accuracy. It is the study of computer algorithms that can improve themselves spontaneously as a result of experience and data usage."
               JobBot4="Today, Machine learning algorithms are utilized in a variety of applications, including medicine, email filtering, and speech recognition. Since Machine learning is evolving at a fast pace, the boundaries of machine learning techniques are constantly being pushed in today’s tech world. As a result, the demand for machine-learning engineers is rising and is projected to continually grow as Artificial Intelligence and ML become more complex."

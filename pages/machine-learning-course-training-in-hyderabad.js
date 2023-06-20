@@ -37,7 +37,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-        Machine Learning Certification Course in Hyderabad - Learnbay
+          Machine Learning Certification Course in Hyderabad - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -128,7 +128,7 @@ export default function Home() {
     "@id": "https://www.learnbay.co/"
     },
     "headline": "Advanced Machine Learning Course Training in Hyderabad",
-    "description": "Machine Learning Course in Hyderabad. Learnbay is the Best Machine Learning Courses Training Institute in Hyderabad with guarantied job placement. Machine Learning course Certification will improve skills",
+    "description": "Machine Learning Course in Hyderabad. Learnbay is the Best Machine Learning Courses Training Institute in Hyderabad with guarantied Job Assistance. Machine Learning course Certification will improve skills",
     "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
     "author": {
     "@type": "Organization",

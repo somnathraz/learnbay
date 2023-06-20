@@ -38,7 +38,9 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Blockchain Developer Course with Job Placement - Learnbay</title>
+        <title>
+          Blockchain Developer Course with Job Assistance - Learnbay
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"

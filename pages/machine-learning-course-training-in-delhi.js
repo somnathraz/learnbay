@@ -37,7 +37,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-        Best Machine Learning Course in Delhi with Career Assistance
+          Best Machine Learning Course in Delhi with Career Assistance
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -578,8 +578,8 @@ export default function Home() {
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
-              JobBot1="Learnbay's Machine Learning course job placement program is a service offered to job seekers from all walks of life by various sources. Career counseling, talent assessment, and communication assessment are part of the Machine Learning certification job aid. It also includes help with resume writing, portfolio building, and 1:1 mock interviews, all of which align with the candidate screening standards of major MNCs in Delhi."
-              JobBot5="Learnbay's top feature has helped numerous Machine Learning enthusiasts master interviews and land jobs at startups and big corporations like Oracle, SAP, and Salesforce. Following that, our job placement specialists assist job seekers in locating and preparing for applicable job opportunities and interviews. Your IBM certificates will be unlocked after you complete the IBM Machine Learning course, and you'll be ready to ace Machine Learning interviews. We have a network of more than 250 hiring partners."
+              JobBot1="Learnbay's Machine Learning course Job Assistance program is a service offered to job seekers from all walks of life by various sources. Career counseling, talent assessment, and communication assessment are part of the Machine Learning certification job aid. It also includes help with resume writing, portfolio building, and 1:1 mock interviews, all of which align with the candidate screening standards of major MNCs in Delhi."
+              JobBot5="Learnbay's top feature has helped numerous Machine Learning enthusiasts master interviews and land jobs at startups and big corporations like Oracle, SAP, and Salesforce. Following that, our Job Assistance specialists assist job seekers in locating and preparing for applicable job opportunities and interviews. Your IBM certificates will be unlocked after you complete the IBM Machine Learning course, and you'll be ready to ace Machine Learning interviews. We have a network of more than 250 hiring partners."
               JobHead2="Demand For Machine Learning Engineers"
               JobBot3="Machine Learning is a subset of Artificial Intelligence allowing software programs to improve the accuracy of their predictions. It is the study of computer algorithms improving independently due to experience and previous data."
               JobBot4="Machine Learning algorithms are now being used in various fields, including health, email filtering, and speech recognition. The frontiers of Machine Learning techniques are continually being stretched in today's tech world. Since Machine Learning is advancing rapidly. As a result, demand for Machine-Learning engineers/ experts is increasing, and it is expected to continue to rise as Artificial Intelligence, and Machine Learning become more advanced."

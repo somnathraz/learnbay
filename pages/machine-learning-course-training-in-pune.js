@@ -36,13 +36,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Machine Learning Certification Course in Pune - Learnbay
-        </title>
+        <title>Machine Learning Certification Course in Pune - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay Provides Extensive Machine Learning Certification Training Course in Pune with Assured Job Placement Assistance. Sign-up now to excel your career."
+          content="Learnbay Provides Extensive Machine Learning Certification Training Course in Pune with Assured Job Assistance Assistance. Sign-up now to excel your career."
         />
         <meta
           name="keywords"

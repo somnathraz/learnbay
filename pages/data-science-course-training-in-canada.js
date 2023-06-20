@@ -35,9 +35,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Best Data Science Course in Canada With IBM Certification
-        </title>
+        <title>Best Data Science Course in Canada With IBM Certification</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -636,7 +634,7 @@ export default function Home() {
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
               JobHead1="Job Assurance Data Science Course in Canada at Learnbay"
-              JobBot1="By the end of the IBM data science certification, students will get support for job placement which includes, Resume preparation, Soft skills training as well as mock interviews. These company-specific practice interviews will boost our trainee’s confidence ahead of their interviews."
+              JobBot1="By the end of the IBM data science certification, students will get support for Job Assistance which includes, Resume preparation, Soft skills training as well as mock interviews. These company-specific practice interviews will boost our trainee’s confidence ahead of their interviews."
               JobBot2="Placement drives are aided by our collaboration with major tech corporations. We have partnered with globally renowned companies such as Accenture, EY, Salesforce, etc. Over 1000+ alums have been placed in various data science roles within short timeframes."
               JobBot5="Learnbay also offers a data science and AI course that comes with a placement assistance. You may be entitled to a refund of your data science course fees if you are unable to secure a data science job within six months of completing your training."
               JobHead2="What is the scope of Data scientists in Canada?"
