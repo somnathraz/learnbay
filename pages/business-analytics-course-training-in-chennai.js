@@ -35,13 +35,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Business Analyst Course in Chennai with IBM Certification
-        </title>
+        <title>Business Analyst Course in Chennai with IBM Certification</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay's Business Analytics Training in Chennai, Expert led and IBM Certified Course with Job Placement Assistance. Signup Now."
+          content="Learnbay's Business Analytics Training in Chennai, Expert led and IBM Certified Course with Job Assistance Assistance. Signup Now."
         />
         <meta
           name="keywords"

@@ -38,15 +38,21 @@ function Hr() {
   return (
     <>
       <Head>
-        <title>HR Analytics Course with Job Placement - Learnbay</title>
+        <title>HR Analytics Course with Job Assistance - Learnbay</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Learn HR Analytics from industry experts at Learnbay. Enhance your skills with our comprehensive HR Analytics Course. Enroll now for a brighter future!" />
+        <meta
+          name="description"
+          content="Learn HR Analytics from industry experts at Learnbay. Enhance your skills with our comprehensive HR Analytics Course. Enroll now for a brighter future!"
+        />
         <meta name="keywords" content="HR Analytics Program" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <link rel="canonical" href="https://www.learnbay.co/hr-analytics-course" />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/hr-analytics-course"
+        />
       </Head>
       <main>
         <Navbar popup={true} dataScienceCounselling={true} />

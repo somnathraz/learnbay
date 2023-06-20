@@ -37,12 +37,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-        Best Artificial Intelligence Course in Hyderabad - Learnbay
+          Best Artificial Intelligence Course in Hyderabad - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll in Learnbay's Artificial Intelligence Training program in Hyderabad for IBM certification and job placement assistance. Don't miss out, Sign up now."
+          content="Enroll in Learnbay's Artificial Intelligence Training program in Hyderabad for IBM certification and Job Assistance assistance. Don't miss out, Sign up now."
         />
         <meta
           name="keywords"
@@ -128,7 +128,7 @@ export default function Home() {
     "@id": "https://www.learnbay.co/"
     },
     "headline": "Advanced Artificial Intelligence(Ai) Course Training in Hyderabad",
-    "description": "Artificial Intelligence(Ai) Course in Hyderabad. Learnbay is the Best Artificial Intelligence(Ai) Courses Training Institute in Hyderabad with guarantied job placement. Artificial Intelligence(Ai) course Certification will improve skills",
+    "description": "Artificial Intelligence(Ai) Course in Hyderabad. Learnbay is the Best Artificial Intelligence(Ai) Courses Training Institute in Hyderabad with guarantied Job Assistance. Artificial Intelligence(Ai) course Certification will improve skills",
     "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
     "author": {
     "@type": "Organization",

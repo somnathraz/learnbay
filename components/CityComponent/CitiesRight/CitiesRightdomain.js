@@ -161,7 +161,7 @@ const CitiesRight = ({
             <p>
               One of the key features that Learnbay offers is its flexibility.
               Our <b>online Data Analytics training</b> is designed to match the
-              industry's ever-changing needs. We also offer job placement
+              industry's ever-changing needs. We also offer Job Assistance
               support suited for both experienced working professionals and
               early career professionals in any sector. The course's hands-on
               learning process incorporates interactive sessions with renowned
@@ -197,7 +197,7 @@ const CitiesRight = ({
               that learners are exposed to the latest trends and practices in
               data analytics. <b>Data analytics training</b> makes them more
               valuable to potential employers. With its flexible online format,
-              job placement support, and practical training, our{" "}
+              Job Assistance support, and practical training, our{" "}
               <b>data analytics course in Hyderabad</b> is the ideal choice for
               anyone looking to build a successful career in data analytics.
             </p>
@@ -313,8 +313,8 @@ const CitiesRight = ({
               </li>
               <li>You can choose weekdays or weekends to take the course</li>
               <li>
-              Experts working at MNC's and Product Based Companies will assist you in online and offline project
-                sessions
+                Experts working at MNC's and Product Based Companies will assist
+                you in online and offline project sessions
               </li>
               <h3>
                 Highlights of Data Analytics Certification Program in Hyderabad

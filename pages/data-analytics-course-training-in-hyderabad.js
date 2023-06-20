@@ -36,9 +36,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-           Best IBM Certified Data Analytics Course in Hyderabad
-        </title>
+        <title>Best IBM Certified Data Analytics Course in Hyderabad</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -128,7 +126,7 @@ export default function Home() {
     "@id": "https://www.learnbay.co/"
     },
     "headline": "Advanced Data Analytics Course Training in Hyderabad",
-    "description": "Data Analytics Course in Hyderabad. Learnbay is the Best Data Analytics Courses Training Institute in Hyderabad with guarantied job placement. Data Analytics course Certification will improve skills",
+    "description": "Data Analytics Course in Hyderabad. Learnbay is the Best Data Analytics Courses Training Institute in Hyderabad with guarantied Job Assistance. Data Analytics course Certification will improve skills",
     "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
     "author": {
     "@type": "Organization",
@@ -455,7 +453,7 @@ export default function Home() {
             <CitiesRight
               cityTextDAhyderabad={true}
               // ProgramBot1="Learnbay is one of the leading data analytics training institutes in Hyderabad, with a broad collection of IBM certification courses. Learnbay's goal is to deliver specialized data analytics training and prepare students for any kind of complex industrial, analytical problems. Everything in the Learnbay data analytics course is taken good care of, from hands-on training via live data analytics projects to qualifying for interviews with top-tier MNCs. Learnbay delivers an immersive data analytics learning experience with one-on-one doubt clearing sessions led by renowned industry professionals. This distinguishes it as a one-stop resource for everyone interested in becoming a professional job-ready Data analyst."
-              // ProgramBot2="Learnbay's Data analytics course in Hyderabad is tailored to match the industry's ever-changing needs. This Data Analytics course with job placement support is suitable for experienced working professionals and early career professionals in any field. Its hands-on learning methodology incorporates interactive sessions with leading practitioners and industry projects to cover topics like Data analysis, Data visualization, and regression techniques in depth."
+              // ProgramBot2="Learnbay's Data analytics course in Hyderabad is tailored to match the industry's ever-changing needs. This Data Analytics course with Job Assistance support is suitable for experienced working professionals and early career professionals in any field. Its hands-on learning methodology incorporates interactive sessions with leading practitioners and industry projects to cover topics like Data analysis, Data visualization, and regression techniques in depth."
               // ProgramHead3="Why is Learnbay a great institute for the professional Data analytics course in Hyderabad?"
               // ProgramBot3="Learnbay offers 100% live interactive training with flexible scheduling and sessions taught by knowledgeable data analysts. Furthermore, our data analytics course in Hyderabad includes a one-year flexi membership, allowing students to learn at their own pace. Learners can select their favorite batch and mentors, a unique feature. Non-programmers might take additional lessons to keep on track with their peers."
               // ProgramBot31="Students, on the other hand, can be well-prepared to excel in the data-driven world with our world-class data analytics training in Hyderabad. For a well-balanced approach to learning, the Learnbay data analytics certification course with placement contains both practical and theoretical topics."

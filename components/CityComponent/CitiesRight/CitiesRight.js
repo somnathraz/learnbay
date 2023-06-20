@@ -309,7 +309,7 @@ const CitiesRight = ({
               and Mumbai is quickly becoming one of India's top job hubs. As a
               result, Mumbai offers a variety of opportunities for{" "}
               <b>online data science training</b>. However, when securing
-              guaranteed job placement, the list of reliable options becomes
+              guaranteed Job Assistance, the list of reliable options becomes
               shorter. Moreover, considering the cost-effectiveness of the
               course, the list of reliable options shrinks even further.
             </p>
@@ -677,7 +677,7 @@ const CitiesRight = ({
               for those new to coding and analytical approaches to learning.
               Additionally, Learnbay's data science course offers both
               theoretical and practical knowledge in a well-managed learning
-              environment. The course has a high job placement rate and is
+              environment. The course has a high Job Assistance rate and is
               specifically created to assist working professionals in making a
               successful career shift. It is also inexpensive, making it the
               perfect option for those who wish to master data science without
@@ -691,7 +691,7 @@ const CitiesRight = ({
               for those new to coding and analytical approaches to learning.
               Additionally, <b>Learnbay's data science course</b> offers both
               theoretical and practical knowledge in a well-managed learning
-              environment. The course has a high job placement rate and is
+              environment. The course has a high Job Assistance rate and is
               specifically created to assist working professionals in making a
               successful career shift. It is also inexpensive, making it the
               perfect option for those who wish to master data science without
@@ -1725,7 +1725,7 @@ const CitiesRight = ({
               theoretical learning in a 70:30 ratio. Learnbay Institute offers
               the most cost-effective <b>Data Science course in Delhi</b>.
               Wondering what the best part is? You will be offered a full-stack
-              data science course and job placement assistance.
+              data science course and Job Assistance assistance.
             </p>
             <p>
               Choosing <b>online Data Scientist training in Delhi</b> comes with
@@ -1734,7 +1734,7 @@ const CitiesRight = ({
               produced daily, companies are becoming dependent on Data Science.
               You get a wide range of <b>Data Science training</b> options in
               Delhi. However, the list becomes short if we discuss getting
-              assured job placement. When evaluating the cost-effectiveness of
+              assured Job Assistance. When evaluating the cost-effectiveness of
               the course, the list becomes even shorter.
             </p>
             <p>

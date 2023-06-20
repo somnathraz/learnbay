@@ -36,9 +36,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Data Science Course in Hyderabad With IBM Certification
-        </title>
+        <title>Data Science Course in Hyderabad With IBM Certification</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -170,7 +168,7 @@ export default function Home() {
     "@id": "https://www.learnbay.co/"
     },
     "headline": "Advanced Data science Course Training in Hyderabad",
-    "description": "Data Science Course in Hyderabad. Learnbay is the Best Data Science Courses Training Institute in Hyderabad with guarantied job placement. Data science course Certification will improve skills",
+    "description": "Data Science Course in Hyderabad. Learnbay is the Best Data Science Courses Training Institute in Hyderabad with guarantied Job Assistance. Data science course Certification will improve skills",
     "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
     "author": {
     "@type": "Organization",
@@ -639,7 +637,7 @@ export default function Home() {
               SyllabusBotlist45="Customer Churn Prediction"
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
-              JobBot1="The Data science curriculum at Learnbay includes a job placement program. Students will receive CV preparation and soft skills training sessions by the end of the IBM Data science course. Our students gain confidence before the interviews by participating in various company-specific mock interviews. Furthermore, our representatives verify that your portfolio meets industry standards and appeals to hiring managers. In Hyderabad, you can take a Data science course with a placement assistance. You can claim a Data science course fee refund if you cannot find a Data science career role within six months of completing the course."
+              JobBot1="The Data science curriculum at Learnbay includes a Job Assistance program. Students will receive CV preparation and soft skills training sessions by the end of the IBM Data science course. Our students gain confidence before the interviews by participating in various company-specific mock interviews. Furthermore, our representatives verify that your portfolio meets industry standards and appeals to hiring managers. In Hyderabad, you can take a Data science course with a placement assistance. You can claim a Data science course fee refund if you cannot find a Data science career role within six months of completing the course."
               JobBot2="We have collaborated with lead organizations like IBM, TCS, EY, Accenture, and others. Over 1000 Learnbay alumni have already started working in data science roles all over Hyderabad."
               ProjectsHead1="Industry curated live data science projects."
               ProjectsBot1="Learners can comprehend Data science Projects and methodologies using Learnbay's premium cloud lab feature. You can choose from 8 to 15 real-time projects in your chosen domains in Learnbay’s Advanced Data science courses in Hyderabad. This cloud lab also allows you to see and practice various data mining, data wrangling, and real MNC data projects. Students will have the opportunity to work on two to three Data science capstone projects, after which an IBM Project experience credential will be issued."

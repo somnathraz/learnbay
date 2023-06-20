@@ -36,7 +36,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-        Business Analyst Course in Hyderabad with IBM Certification
+          Business Analyst Course in Hyderabad with IBM Certification
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -71,7 +71,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-{/* 
+        {/* 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -130,7 +130,7 @@ export default function Home() {
     "@id": "https://www.learnbay.co/"
     },
     "headline": "Advanced Business Analytics Course Training in Hyderabad",
-    "description": "Business Analytics Course in Hyderabad. Learnbay is the Best Business Analytics Courses Training Institute in Hyderabad with guarantied job placement. Business Analytics course Certification will improve skills",
+    "description": "Business Analytics Course in Hyderabad. Learnbay is the Best Business Analytics Courses Training Institute in Hyderabad with guarantied Job Assistance. Business Analytics course Certification will improve skills",
     "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
     "author": {
     "@type": "Organization",
