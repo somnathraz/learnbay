@@ -79,7 +79,7 @@ function blockchain() {
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DSAI-Masters-Header.png"
           // firstToparaImg="Data Science and AI Master Program"
           firstHeading="Master Program in Data Science and Artificial Intelligence"
-          firstTopPara="Become a master without master’s degree"
+          // firstTopPara="Become a master without master’s degree"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf"
         />
         <SecondSection

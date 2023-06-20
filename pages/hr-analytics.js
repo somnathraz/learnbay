@@ -73,7 +73,7 @@ function Hr() {
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/hr-analytics-header-image.webp"
           // firstToparaImg="with our HR Analytics Program"
           firstHeading="HR Analytic Course"
-          firstTopPara="Experience the future of analytics"
+          // firstTopPara="Experience the future of analytics"
           idss="kh54EexuNJo"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
         />
