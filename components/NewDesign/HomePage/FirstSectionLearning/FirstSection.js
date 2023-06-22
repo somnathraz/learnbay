@@ -19,6 +19,7 @@ const FirstSection = ({ dataScience, dataScienceCounselling }) => {
           ></div>
         </div>
         <div className="RightPopup">
+          <h5>Apply for counselling</h5>
           <Form
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
@@ -38,7 +39,6 @@ const FirstSection = ({ dataScience, dataScienceCounselling }) => {
             You are eligible for 15 min free Profile review & counselling with
             our career expert.
           </h4>
-          {/* <p><b>Apply now for profile review & make a successful career transition</b></p> */}
           <div className={styles.IconBox}>
             <div className={styles.flexIcon}>
               <FaCheckCircle className={styles.circleCheck} />
