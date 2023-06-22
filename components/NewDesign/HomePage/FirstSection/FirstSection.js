@@ -25,28 +25,28 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, idss, dataSc
       setMobile(true);
     }
   });
-  // useEffect(() => {
-  //   const typed = new Typed(el.current, {
-  //     strings: [
-  //       "Are you looking to upskill ?",
-  //       "Gain a competitive edge",
-  //       "Land your dream job",
-  //     ], // Strings to display
-  //     // Speed settings, try diffrent values untill you get good results
-  //     startDelay: 100,
-  //     typeSpeed: 80,
-  //     backSpeed: 50,
-  //     backDelay: 200,
-  //     smartBackspace: true,
-  //     loop: true,
-  //     showCursor: false,
-  //   });
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: [
+        "Are you looking to upskill ?",
+        "Gain a competitive edge",
+        "Land your dream job",
+      ], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      startDelay: 100,
+      typeSpeed: 80,
+      backSpeed: 50,
+      backDelay: 200,
+      smartBackspace: true,
+      loop: true,
+      showCursor: false,
+    });
 
-  //   // Destropying
-  //   return () => {
-  //     typed.destroy();
-  //   };
-  // }, []);
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
   return (
     <>
@@ -76,9 +76,9 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, idss, dataSc
           </div>
         </Popup>
         <div className={styles.FirstLeft}>
-          {/* <div className={styles.animationTextWrap}>
+          <div className={styles.animationTextWrap}>
             <span ref={el} className={styles.animationText}></span>
-          </div> */}
+          </div>
           {/* <p className={styles.ptop}>
             Take the first step in your blockchain development journey with our
           </p> */}
