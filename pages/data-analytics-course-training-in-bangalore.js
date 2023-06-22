@@ -71,7 +71,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -117,8 +117,8 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -150,8 +150,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "} */}
-        {/* <script
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -309,8 +309,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -360,7 +360,7 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -382,12 +382,12 @@ export default function Home() {
         <FirstSection
           dataScienceCounselling={true}
           cityText={true}
-          deskTopPara=""
-          mTopPara=""
-          spanTitleText="For Professionals"
-          spanMTitleText="For Professionals"
-          title="Data Analytics Course in Bangalore"
-          mTitle="Data Analytics Course in Bangalore"
+          deskTopPara="IBM Certified Industry-paced Training"
+          mTopPara="IBM Certified Industry-paced Training"
+           // spanTitleText="For Professionals"
+           // spanMTitleText="For Professionals"
+          title="Online Data Analytics Course in Bangalore"
+          mTitle="Online Data Analytics Course in Bangalore"
           desc="Enhance your Data Analyst career with our comprehensive Data Analytics course in Bangalore with IBM Certification. Our advanced Data Analytics training in Bangalore will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data analytics and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png"
           width="900"

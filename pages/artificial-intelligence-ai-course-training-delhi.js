@@ -73,7 +73,7 @@ export default function Home() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
 
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -119,9 +119,9 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
 
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -153,8 +153,8 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -367,9 +367,9 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
+        />
 
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -419,7 +419,7 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -440,12 +440,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara=""
-          mTopPara=""
-          title="Artificial Intelligence Course in Delhi  "
-          mTitle="Artificial Intelligence Course in Delhi "
-          spanTitleText=" For Managers and Professional Leaders"
-          spanMTitleText=" For Managers and Professional Leaders"
+          deskTopPara="Becomes an AI Expertise In Product Based MNCs"
+          mTopPara="Becomes an AI Expertise In Product Based MNCs"
+          title="Artificial Intelligence (AI) Course Training in Delhi"
+          mTitle="Artificial Intelligence (AI) Course Training in Delhi"
+          spanTitleText=" For Managers and Leaders"
+          spanMTitleText=" For Managers and Leaders"
           desc="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Managers+%26+Leaders.png"
           width="900"

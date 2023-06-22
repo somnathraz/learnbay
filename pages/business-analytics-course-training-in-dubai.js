@@ -69,7 +69,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -114,8 +114,8 @@ export default function Home() {
 }
               } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -146,8 +146,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "} */}
-        {/* <script
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -304,8 +304,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -355,7 +355,7 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -376,12 +376,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara=""
-          mTopPara=""
-          spanTitleText="Course in Dubai"
-          spanMTitleText="Course in Dubai"
-          title="Business Analytics"
-          mTitle="Business Analytics"
+          deskTopPara="Industrial program for working professionals"
+          mTopPara="Industrial program for working professionals"
+          spanTitleText="For Non-tech Professionals"
+          spanMTitleText="For Non-tech Professionals"
+          title="Business Analytics Course Training in Dubai"
+          mTitle="Business Analytics Course Training in Dubai"
           desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Businesss+Analytics.png"
           width="900"

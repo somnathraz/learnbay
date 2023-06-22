@@ -71,7 +71,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -117,8 +117,8 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -149,8 +149,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "} */}
-        {/* <script
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -371,8 +371,8 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
                   }
                  } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -422,7 +422,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -443,12 +443,12 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara=""
-          mTopPara=""
-          // spanMTitleText="Advance Program"
-          // spanTitleText="Advance Program"
-          title="Machine Learning Course in Canada"
-          mTitle="Machine Learning Course in Canada"
+          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
+          mTopPara="Machine Learning Course For Experienced Tech Professionals"
+          spanMTitleText="Advance Program"
+          spanTitleText="Advance Program"
+          title="Machine Learning Course Training In Canada"
+          mTitle="Machine Learning Course Training In Canada"
           desc="Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           width="900"
