@@ -85,7 +85,7 @@ function blockchain() {
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain-Header.png"
           // firstToparaImg="with Specialization in Blockchain"
           firstHeading="Software Development Program with Blockchain Specialization"
-          // firstTopPara="Ready to lead the blockchain revolution?"
+          firstTopPara="Ready to lead the blockchain revolution?"
           idss="bfl64ANfSV0"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
         />

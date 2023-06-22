@@ -79,7 +79,7 @@ function blockchain() {
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/BFSI-header-image.webp"
           // firstToparaImg="for BFSI Professionals"
           firstHeading="Data Science Program For Banking and Finance"
-          // firstTopPara="Ready to master the finance domain?"
+          firstTopPara="Ready to master the finance domain?"
           idss="4j80WXLTvGE"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+for+BFSI+Professionals.pdf"
         />

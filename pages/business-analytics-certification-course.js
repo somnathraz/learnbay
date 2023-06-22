@@ -78,7 +78,7 @@ function blockchain() {
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/manager+header+image.webp"
           // firstToparaImg="Business Analytics Master Program"
           firstHeading="Business Analytics Certification Course"
-          // firstTopPara="Become a master without master’s degree"
+          firstTopPara="Become a master without master’s degree"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <SecondSection

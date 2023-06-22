@@ -85,7 +85,7 @@ function blockchain() {
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Cloud-%26-DevOps-Header.png"
           // firstToparaImg="with Specialization in Cloud and Devops"
           firstHeading="Software Development Program with Cloud Computing and DevOps Specialization"
-          // firstTopPara="Build the future cloud & transform your tech skills"
+          firstTopPara="Build the future cloud & transform your tech skills"
           idss="bfl64ANfSV0"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf"
         />
