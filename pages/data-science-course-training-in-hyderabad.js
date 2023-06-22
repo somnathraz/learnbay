@@ -110,7 +110,7 @@ export default function Home() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
 
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -155,9 +155,9 @@ export default function Home() {
  }
                  } `,
           }}
-        /> */}
+        />
 
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -188,8 +188,8 @@ export default function Home() {
  }
                  } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -418,9 +418,9 @@ export default function Home() {
                                                                                   }
                                                                                  } `,
           }}
-        /> */}
+        />
 
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -470,7 +470,7 @@ export default function Home() {
   }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -492,12 +492,12 @@ export default function Home() {
         <FirstSection
           dataScienceCounselling={true}
           cityText={true}
-          deskTopPara=""
-          mTopPara=""
+          deskTopPara="Foundational and Advance Job-ready Program"
+          mTopPara="Foundational and Advance Job-ready Program"
           title="Data Science Course in Hyderabad"
           mTitle="Data Science Course in Hyderabad"
-          // spanTitleText="Enroll Now"
-          // spanMTitleText="Enroll Now"
+          spanTitleText="Enroll Now"
+          spanMTitleText="Enroll Now"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Hyderabad with IBM Certification. Our advanced Data Science training in Hyderabad will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"

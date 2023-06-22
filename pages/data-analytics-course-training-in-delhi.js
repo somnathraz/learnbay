@@ -71,7 +71,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -117,8 +117,8 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -149,8 +149,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "} */}
-        {/* <script
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -321,8 +321,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -371,7 +371,7 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -394,8 +394,8 @@ export default function Home() {
           dataScienceCounselling={true}
           deskTopPara="Fast track IBM Certified Data Analytics Course for early pros."
           mTopPara="Fast track IBM Certified Data Analytics Course for early pros."
-          title="Data Analytics Course in Delhi"
-          mTitle="Data Analytics Course in Delhi"
+          title="Data Analytics Course Training In Delhi"
+          mTitle="Data Analytics Course Training In Delhi"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."

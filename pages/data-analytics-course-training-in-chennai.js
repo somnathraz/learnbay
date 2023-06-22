@@ -118,7 +118,7 @@ export default function Home() {
 } `,
           }}
         />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -149,8 +149,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "} */}
-        {/* <script
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -301,8 +301,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -351,7 +351,7 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -372,10 +372,10 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara=""
-          mTopPara=""
-          title="Data Analytics Course in Chennai"
-          mTitle="Data Analytics Course in Chennai"
+          deskTopPara="Industrial Program For Early Pros"
+          mTopPara="Industrial Program For Early Pros"
+          title="Data Analytics Course Training in Chennai"
+          mTitle="Data Analytics Course Training in Chennai"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."

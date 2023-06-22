@@ -85,7 +85,10 @@ function dataAnalytics() {
           idss="y_0IdhFKJKM"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/data+analytics+header+image.webp"
           // firstToparaImg="Data Analytics Program"
-          firstHeading="Data Analytics Certification Course"
+          firstToparaImg="Data Analytics Program"
+          firstHeading="Upskill yourself to the top with"
+
+          // firstHeading="Data Analytics Certification Course"
           firstTopPara="Unleash the power of data"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />

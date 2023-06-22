@@ -87,7 +87,10 @@ function blockchain() {
           idss="osYNvuuI1_8"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Business-Analytics-Masters-Header.png"
           // firstToparaImg=" For Manager & Leaders"
-          firstHeading="Data Science and AI Program For Managers and Leaders"
+
+          firstToparaImg=" For Manager & Leaders"
+          firstHeading="Be ready with Data Science and AI Program"
+          // firstHeading="Data Science and AI Program For Managers and Leaders"
           firstTopPara="Empower your leadership journey"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
         />

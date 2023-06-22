@@ -72,7 +72,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -116,8 +116,8 @@ export default function Home() {
     }] 
    } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -148,8 +148,8 @@ export default function Home() {
 
    } `,
           }}
-        />{" "} */}
-        {/* <script
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -388,8 +388,8 @@ export default function Home() {
                                                                                           }
                                                                                          } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -439,7 +439,7 @@ export default function Home() {
   }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -460,12 +460,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara=""
-          mTopPara=""
-          title="Machine Learning Course in Hyderabad"
-          mTitle="Machine Learning Course in Hyderabad"
-          // spanMTitleText="Advance Program"
-          // spanTitleText="Advance Program"
+          deskTopPara="Machine Learning Course For Experienced Tech Professionals"
+          mTopPara="Machine Learning Course For Experienced Tech Professionals"
+          title="Machine Learning Course Training In Hyderabad"
+          mTitle="Machine Learning Course Training In Hyderabad"
+          spanMTitleText="Advance Program"
+          spanTitleText="Advance Program"
           desc="Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
           width="900"

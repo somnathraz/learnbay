@@ -110,7 +110,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -155,8 +155,8 @@ export default function Home() {
 }
               } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -187,8 +187,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "} */}
-        {/* <script
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -394,8 +394,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -444,7 +444,7 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -465,12 +465,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara=""
-          mTopPara=""
-          title="Data Science Course in Dubai"
-          mTitle="Data Science Course in Dubai"
-          // spanTitleText="Enroll Now"
-          // spanMTitleText="Enroll Now"
+          deskTopPara="Foundational and Advance Job-ready Program"
+          mTopPara="Foundational and Advance Job-ready Program"
+          title="Data Science Course in Dubai - "
+          mTitle="Data Science Course in Dubai - "
+          spanTitleText="Enroll Now"
+          spanMTitleText="Enroll Now"
           desc="Our comprehensive Data Science course in Dubai with IBM Certification will enhance your Data Science career. Advanced Data Science & AI training in Dubai will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"

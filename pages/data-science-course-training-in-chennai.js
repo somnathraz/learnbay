@@ -111,7 +111,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -157,8 +157,8 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -189,8 +189,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "} */}
-        {/* <script
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -382,8 +382,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -432,7 +432,7 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -454,8 +454,8 @@ export default function Home() {
         <FirstSection
           cityText={true}
           dataScienceCounselling={true}
-          deskTopPara=""
-          mTopPara=""
+          deskTopPara="Foundational and Advance Job-ready Program"
+          mTopPara="Foundational and Advance Job-ready Program"
           title="Data Science Course in Chennai"
           mTitle="Data Science Course in Chennai"
           desc="Enhance your Data Science career with our comprehensive Data Science course in Chennai with IBM Certification. Our advanced Data Science training in Chennai will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."

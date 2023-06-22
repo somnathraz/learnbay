@@ -70,7 +70,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -115,8 +115,8 @@ export default function Home() {
   }
 } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -147,8 +147,8 @@ export default function Home() {
   }
 } `,
           }}
-        />{" "} */}
-        {/* <script
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -305,8 +305,8 @@ export default function Home() {
   }
 } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -356,7 +356,7 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -377,12 +377,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara=""
-          mTopPara=""
-          title="Business Analytics "
-          mTitle="Business Analytics "
-          spanMTitleText="Course in Pune"
-          spanTitleText="Course in Pune"
+          deskTopPara="IBM-Certified Business Analytics training Program with Live Industrial Projects"
+          mTopPara="IBM-Certified Business Analytics training Program with Live Industrial Projects"
+          title="Business Analytics Course"
+          mTitle="Business Analytics Course"
+          spanMTitleText=" Training In Pune"
+          spanTitleText=" Training In Pune"
           desc="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Businesss+Analytics.png"
           width="900"
