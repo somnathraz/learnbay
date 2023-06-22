@@ -81,7 +81,7 @@ const Form = ({
   if (router.pathname === "/learning-learnbay" ||
 router.pathname === "/learning-learnbay-select")
    {
-    endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
   }
 
   let btnText = "Apply For Counselling";
@@ -133,7 +133,7 @@ router.pathname === "/learning-learnbay-select")
     }
     if (router.pathname === "/learning-learnbay-select")
      {
-      router.push("/Thank-you");
+      router.push("/Thank-you-counselling");
     }
     if (fullStack) {
       router.push("/Thank-you-fsd");
