@@ -212,7 +212,7 @@ const CourseFee = ({
                           <AiOutlineBars className={styles.icon} />
                           <b>Batch Type</b>
                         </p>
-                        <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
+                        <p className={styles.list}>Weekday Evening (Mon-Wed-Fri)</p>
                         <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
                       </div>
                     </div>
@@ -222,8 +222,8 @@ const CourseFee = ({
                           <MdDateRange className={styles.icon} />
                           <b>Date</b>
                         </p>
-                        <p className={styles.list}>16th June 2023</p>
-                        <p className={styles.list}>18th June 2023</p>
+                        <p className={styles.list}>30th June 2023</p>
+                        <p className={styles.list}>2nd July 2023</p>
                       </div>
                     </div>
                     <div>
