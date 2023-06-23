@@ -4,10 +4,7 @@ import FirstSectionLearning from "../components/NewDesign/HomePage/FirstSectionL
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import KeyFeatures from "../components/NewDesign/HomePage/KeyFeatures/KeyFeatures";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
-import HomeLine from "../components/NewDesign/HomePage/HomeLine/HomeLine";
-import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 
 function learning() {
   return (
@@ -32,13 +29,14 @@ function learning() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
       </Head>
-      <Navbar popup={true} dataScienceCounselling={true} />
+      <Navbar popup={true} dataScienceCounselling={true} radio={true} />
       <FirstSectionLearning
         first="Tools"
         second="Tips"
         third="Technology"
         popup={true}
         dataScienceCounselling={true}
+        radio={true}
       />{" "}
       <OfferPopup offer={false} />
       <Footer />

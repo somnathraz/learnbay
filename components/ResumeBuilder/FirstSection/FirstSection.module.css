@@ -4,32 +4,41 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  margin-top: 50px;
+  padding: 50px 100px;
+}
+
+.cont {
+  text-align: center;
+}
+
+.cont p {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.cont h4 {
+  font-size: 34px;
+  color: #0072BC;
+  ;
 }
 
 .backThank {
   width: 100%;
-  background: aliceblue;
-  display: grid;
-  grid-template-columns: 65% 35%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 50px 100px;
-  margin-top: 70px;
 }
 
-.FormThank {
-  background-color: #fff;
+.backThankbot {
   width: 100%;
-  padding: 30px 0px;
-  border-radius: 10px;
-  box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.boxes {
-  display: grid;
-  grid-template-columns: 33% 33%;
-}
-
-.boxIinner {
+.backThank a {
   flex-direction: column;
   align-items: center;
   display: flex;
@@ -40,21 +49,84 @@
     margin: 15px 15px 15px 15px;
 }
 
+.backThank a:nth-child(even) {
+  border: 1px solid #F996004D;
+  box-shadow: #F996004D 0px 8px 24px;
+  background: #0072BC15;
+}
+
+.backThank a:nth-child(odd) {
+  border: 1px solid #0072BC4D;
+  box-shadow: #0072BC4D 0px 8px 24px;
+  background: #F9960015;
+}
+
+.button button {
+  margin: auto;
+  margin-top: 15px;
+}
+
+.button {
+  opacity: 0;
+  display: none;
+  transition: opacity .35s ease;
+}
+
+.backThank a:hover .button {
+  opacity: 1;
+  display: contents;
+}
+
+.botText {
+  text-align: center;
+}
+
+@media (max-width: 1281px) {
+  .mains {
+    padding: 50px 60px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .mains {
+    padding: 50px 20px;
+  }
+}
+
 @media (max-width: 641px) {
-  .backThank {
+  .mains {
     padding: 20px;
+  }
+  .cont p {
+    font-size: 20px;
+  }
+  
+  .cont h4 {
+    font-size: 26px;
+    margin: 0;
+  }
+  .backThank {
+    padding: 0px;
     display: flex;
     flex-direction: column-reverse;
   }
-  .boxes {
+  .backThank {
     width: 100%;
     display: grid;
-    grid-template-columns: 70% 70% 70% 70%;
+    grid-template-columns: 80% 80% 80% 80%;
     overflow: auto;
     gap: 20px;
     margin-top: 20px;
   }
   .boxIinner {
     width: 100%;
+    text-align: center;
+  }
+  .button {
+    display: block;
+    opacity: 1;
+  }
+  .backThankbot {
+    display: none;
   }
 }

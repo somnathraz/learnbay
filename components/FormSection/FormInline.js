@@ -44,6 +44,12 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience, d
 
   let endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
 
+  if (
+    router.pathname === "/resume-builder")
+       {
+        endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+      }
+
   // Form Submit function
   const formSubmit = (e) => {
     e.preventDefault();
@@ -72,6 +78,9 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience, d
     }
     if (dataScience) {
       router.push("/Thank-you");
+    }
+    if (dataScienceCounselling) {
+      router.push("/Thank-you-counselling");
     }
   };
   const pastDates = () => {

@@ -1,15 +1,10 @@
 import React from "react";
 import Head from "next/head";
-import FirstSection from "../components/NewDesign/HomePage/FirstSection/FirstSection";
 import SecondSection from "../components/NewDesign/HomePage/FirstSectionLearning/SecondSectionLearning";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import Switch from "../components/NewDesign/HomePage/switch/switch";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
-import Testimonial from "../components/NewDesign/HomePage/Testimonial/Testimonial";
-import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
-import BoxShape from "../components/NewDesign/HomePage/BoxShape/BoxShape";
 
 function learning() {
   return (
@@ -34,7 +29,7 @@ function learning() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
       </Head>
-      <Navbar popup={true} dataScienceCounselling={true} />
+      <Navbar popup={true} dataScienceCounselling={true} radio={true} />
       <SecondSection />
       <OfferPopup offer={false} />
       <Footer />

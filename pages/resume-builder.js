@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import FirstSection from "../components/ResumeBuilder/FirstSection/FirstSection";
-import SecondSection from "../components/ResumeBuilder/FirstSection/SecondSection/SecondSection";
+import ThirdSection from "../components/ResumeBuilder/ThirdSection/ThirdSection";
 
 const ResumeBuilder = () => {
   return (
@@ -27,9 +27,7 @@ const ResumeBuilder = () => {
       </Head>
       <Navbar popup={true} dataScienceCounselling={true} radio={true} />
       <FirstSection />
-      <SecondSection
-        idss="wSB-phYhG10"
-      />
+      <ThirdSection idss="wSB-phYhG10" />
       <Footer />
     </div>
   );
