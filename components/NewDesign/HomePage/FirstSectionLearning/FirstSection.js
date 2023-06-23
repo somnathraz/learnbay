@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import styles from "./FirstSection.module.css";
 import Form from "../../../Form/Form";
 import Popup from "../../../Popup/Popup";
@@ -23,6 +23,7 @@ const FirstSection = ({ dataScience, dataScienceCounselling }) => {
           <Form
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
+            radio={true}
           />
         </div>
       </Popup>
