@@ -7,7 +7,7 @@ import { FaBell } from "react-icons/fa";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-function ThirdSection(idss) {
+function ThirdSection({idss}) {
   const [video, setVideo] = useState(false);
   const [popups, setPopups] = useState(false);
   const videoSHow = () => {
