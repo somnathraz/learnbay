@@ -83,8 +83,8 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, idss, dataSc
             Take the first step in your blockchain development journey with our
           </p> */}
           <h1 className={styles.h1}>
-          Best IT Certification Courses and Professional Programs
-            {/* <span className={styles.h1Span}>For Working Professionals</span> */}
+          #1 Domain Specialised Certification Program For{" "}
+            <span className={styles.h1Span}>Working Professionals</span>
           </h1>
           <div className={styles.IBMlogoPlay}>
             <Image
