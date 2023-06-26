@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -651,6 +652,7 @@ export default function Home() {
           CityTextL=" :Machine Learning Training in Hyderabad, Machine Learning Course in Hyderabad, Machine Learning Course in Gachibowli, Machine Learning Training in Gachibowli,Machine Learning Course in Madhapur, Machine Learning Training in Madhapur, Machine Learning Training Institute in Hyderabad, Machine Learning Course in Kondapur, Machine Learning Training in Kondapur, Machine Learning Course in Begumpet, Machine Learning Course in Lingampalli, Machine Learning Course in Banjara hills, Machine Learning Course in L B Nagar, Machine Learning Course in Boduppal, Machine Learning Course in Kphb Colony, Machine Learning Training in Begumpet, Machine Learning Training in Lingampalli, Machine Learning Training in Banjara hills, Machine Learning Training in L B Nagar, Machine Learning Training in Boduppal, Machine Learning Training in KPhb Colony, Machine Learning Classroom Training in Hyderabad, Machine Learning Training near me, Machine Learning Course near me, Machine Learning Institute near me, Data Scientist Course, Machine Learning Certification, Machine Learning Certification in Hyderabad, Best Machine Learning Course, Best Machine Learning Training"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

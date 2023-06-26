@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import Popup from "../components/Popup/Popup";
 import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
@@ -39,9 +40,7 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>
-        Master Program in Software Development - Learnbay
-        </title>
+        <title>Master Program in Software Development - Learnbay</title>
         <meta
           name="description"
           content="Learnbay's Full Stack Software Development Course will help you become a skilled software developer. Gain practical experience and master key coding skills."
@@ -249,6 +248,7 @@ function blockchain() {
         />
         <SeventhSection fullStackCont={true} />
         <OfferPopup offer={true} />
+        <BottomBar />
         <Footer />
       </main>
     </>

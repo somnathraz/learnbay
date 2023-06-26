@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
@@ -595,6 +596,7 @@ export default function Home() {
           CityTextL=" :  Business Analytics Training in Chennai, Business Analytics Course in Chennai, Business Analytics Training in Anna Nagar, Business Analytics Training in Guindy, Business Analytics Institute in Chennai, Business Analytics Training in Siruseri, Business Analytics Training in Perungudi, Business Analytics Training in OMR, Business Analytics Training Institute in Adyar, Business Analytics Course in Anna Nagar, Business Analytics Course in chrompet, Business Analytics Course in Velchery, Business Analytics Course Nungambakkam, Business Analytics Training in Thoraipakkam, Business Analytics Course in OMR, Business Analytics Training in Madras university, Business Analytics Training in Tambaram, Business Analytics Online Classes in Anna Nagar, Business Analytics Course in Indian Institute Of Technology , Business Analytics Training in Chennai, Business Analytics Certification in Chennai, Business Analytics Certification Training in Chennai, Business Analytics Certification in Anna Nagar, Business Analytics Certification in Adyar, Best Business Analytics Training, Best Business Analytics Course."
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

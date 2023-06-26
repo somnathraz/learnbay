@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import Popup from "../components/Popup/Popup";
 import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
@@ -41,7 +42,7 @@ function blockchain() {
     <>
       <Head>
         <title>
-        Data Science and AI Program For Managers and Leaders - Learnbay
+          Data Science and AI Program For Managers and Leaders - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -247,6 +248,7 @@ function blockchain() {
         />
         <SeventhSection />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </>

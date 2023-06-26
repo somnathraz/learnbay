@@ -3,6 +3,7 @@ import FirstSection from "../components/FirstSection/FirstSection";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Course from "../components/Course/Course";
 import KeyFeatures from "../components/KeyFeatures/KeyFeatures";
 import WhyLearnbay from "../components/WhyLearnbay/WhyLearnbay";
@@ -56,6 +57,7 @@ export default function Home() {
       <CareerImpactHome />
       <LearnSupport />
       <OfferPopup offer={false} />
+      <BottomBar />
       <Footer />
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import FirstSection from "../components/CareerReport/FirstSection/FirstSection";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
@@ -36,6 +37,7 @@ function careerReport() {
       <SecondSection />
       <ThirdSection />
       <OfferPopup offer={false} />
+      <BottomBar />
       <Footer />
     </div>
   );

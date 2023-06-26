@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
@@ -36,7 +37,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-        Best Machine Learning Course in Dubai with Career Assistance
+          Best Machine Learning Course in Dubai with Career Assistance
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -617,6 +618,7 @@ export default function Home() {
         </div>
         <LearnSupport />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

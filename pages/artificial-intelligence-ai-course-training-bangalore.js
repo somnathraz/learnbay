@@ -7,6 +7,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -649,6 +650,7 @@ export default function Home() {
           CityTextL=" :Artificial Intelligence Training in Bangalore, Artificial Intelligence Course in Bangalore, Artificial Intelligence Training in BTM, Artificial Intelligence Training in Marathahalli, Artificial Intelligence Institute in Bangalore, Artificial Intelligence Training in Whitefield, Artificial Intelligence Training in Kundalahalli, Artificial Intelligence Training in ITPL, Artificial Intelligence Training Institute in Marathahalli, Artificial Intelligence Course in BTM, Artificial Intelligence Course in Marathahalli, Artificial Intelligence Course in Whitefield, Artificial Intelligence Course Bommanahalli, Artificial Intelligence Training in Bommanahalli, Artificial Intelligence Training in Electronic city, Artificial Intelligence Training in Koramangala, Artificial Intelligence Classes in BTM, Artificial Intelligence Classes in Bommanahalli, Artificial Intelligence Classes in Whitefield, Artificial Intelligence Classes in Marathahalli, Artificial Intelligence Course in Koramangala, Artificial Intelligence Training in Jayanagar, Artificial Intelligence Certification in Bangalore, Artificial Intelligence Certification Training in Bangalore, Artificial Intelligence Certification in BTM, Artificial Intelligence Certification in Whitefield, Best Artificial Intelligence Training, Best Artificial Intelligence Course"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

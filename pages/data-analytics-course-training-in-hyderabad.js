@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
@@ -568,6 +569,7 @@ export default function Home() {
           CityTextL=" :Data Analytics Training in Hyderabad, Data Analytics Course in Hyderabad, Data Analytics Course in Gachibowli, Data Analytics Training in Gachibowli,Data Analytics Course in Madhapur, Data Analytics Training in Madhapur, Data Analytics Training Institute in Hyderabad, Data Analytics Course in Kondapur, Data Analytics Training in Kondapur, Data Analytics Course in Begumpet, Data Analytics Course in Lingampalli, Data Analytics Course in Banjara hills, Data Analytics Course in L B Nagar, Data Analytics Course in Boduppal, Data Analytics Course in Kphb Colony, Data Analytics Training in Begumpet, Data Analytics Training in Lingampalli, Data Analytics Training in Banjara hills, Data Analytics Training in L B Nagar, Data Analytics Training in Boduppal, Data Analytics Training in KPhb Colony, Data Analytics Classroom Training in Hyderabad, Data Analytics Training near me, Data Analytics Course near me, Data Analytics Institute near me, Data Scientist Course, Data Analytics Certification, Data Analytics Certification in Hyderabad, Best Data Analytics Course, Best Data Analytics Training"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

@@ -7,6 +7,7 @@ import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
@@ -36,9 +37,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Best Artificial Intelligence Course in Chennai - Learnbay
-        </title>
+        <title>Best Artificial Intelligence Course in Chennai - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -635,6 +634,7 @@ export default function Home() {
           CityTextL=" :  Artificial Intelligence Training in Chennai, Artificial Intelligence Course in Chennai, Artificial Intelligence Training in Anna Nagar, Artificial Intelligence Training in Guindy, Artificial Intelligence Institute in Chennai, Artificial Intelligence Training in Siruseri, Artificial Intelligence Training in Perungudi, Artificial Intelligence Training in OMR, Artificial Intelligence Training Institute in Adyar, Artificial Intelligence Course in Anna Nagar, Artificial Intelligence Course in chrompet, Artificial Intelligence Course in Velchery, Artificial Intelligence Course Nungambakkam, Artificial Intelligence Training in Thoraipakkam, Artificial Intelligence Course in OMR, Artificial Intelligence Training in Madras university, Artificial Intelligence Training in Tambaram, Artificial Intelligence Online Classes in Anna Nagar, Artificial Intelligence Course in Indian Institute Of Technology , Artificial Intelligence Training in Chennai, Artificial Intelligence Certification in Chennai, Artificial Intelligence Certification Training in Chennai, Artificial Intelligence Certification in Anna Nagar, Artificial Intelligence Certification in Adyar, Best Artificial Intelligence Training, Best Artificial Intelligence Course."
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

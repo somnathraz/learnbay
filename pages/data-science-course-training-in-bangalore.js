@@ -7,6 +7,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -55,9 +56,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Best Data Science Course in Bangalore with Job Assistance
-        </title>
+        <title>Best Data Science Course in Bangalore with Job Assistance</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -1390,9 +1389,9 @@ export default function Home() {
         </div>
         <CityText cityText={true} />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>
   );
 }
-

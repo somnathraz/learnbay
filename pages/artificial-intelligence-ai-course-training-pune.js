@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -36,9 +37,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-           Best Artificial Intelligence Course in Pune - Learnbay
-        </title>
+        <title>Best Artificial Intelligence Course in Pune - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -635,6 +634,7 @@ export default function Home() {
           CityTextL=" :Artificial Intelligence Course viman nagar,Artificial Intelligence Training in kalyan nagar,Artificial Intelligence Training in magarpetta,Artificial Intelligence Training in pimpri chinchwad,Artificial Intelligence Classes in yerwada,Artificial Intelligence Classes in kharadi,Artificial Intelligence Classes in vishrantwadi,Artificial Intelligence Classes in deccan,Artificial Intelligence Course in Katraj,Artificial Intelligence Training in warje,,Artificial Intelligence Certification Training in bavdhan,Artificial Intelligence Certification in boat club road,Artificial Intelligence Certification in model colony,Best Artificial Intelligence Training in pune,Best Artificial Intelligence Course in pune"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

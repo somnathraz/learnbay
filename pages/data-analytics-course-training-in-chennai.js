@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
@@ -36,9 +37,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-         Data Analytics Certification Course in Chennai - Learnbay
-        </title>
+        <title>Data Analytics Certification Course in Chennai - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -543,6 +542,7 @@ export default function Home() {
           CityTextL=" :  Data Analytics Training in Chennai, Data Analytics Course in Chennai, Data Analytics Training in Anna Nagar, Data Analytics Training in Guindy, Data Analytics Institute in Chennai, Data Analytics Training in Siruseri, Data Analytics Training in Perungudi, Data Analytics Training in OMR, Data Analytics Training Institute in Adyar, Data Analytics Course in Anna Nagar, Data Analytics Course in chrompet, Data Analytics Course in Velchery, Data Analytics Course Nungambakkam, Data Analytics Training in Thoraipakkam, Data Analytics Course in OMR, Data Analytics Training in Madras university, Data Analytics Training in Tambaram, Data Analytics Online Classes in Anna Nagar, Data Analytics Course in Indian Institute Of Technology , Data Analytics Training in Chennai, Data Analytics Certification in Chennai, Data Analytics Certification Training in Chennai, Data Analytics Certification in Anna Nagar, Data Analytics Certification in Adyar, Best Data Analytics Training, Best Data Analytics Course."
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

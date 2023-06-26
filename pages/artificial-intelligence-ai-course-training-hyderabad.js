@@ -7,6 +7,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
@@ -653,6 +654,7 @@ export default function Home() {
           CityTextL=" :Artificial Intelligence Course Certification Training locations in Hyderabad , Artificial Intelligence Course in Hyderabad, Artificial Intelligence Course in Gachibowli, Business Analytics Training in Gachibowli,Artificial Intelligence Course in Madhapur, Business Analytics Training in Madhapur, Business Analytics Training Institute in Hyderabad, Artificial Intelligence Course in Kondapur, Business Analytics Training in Kondapur, Artificial Intelligence Course in Begumpet, Artificial Intelligence Course in Lingampalli, Artificial Intelligence Course in Banjara hills, Artificial Intelligence Course in L B Nagar, Artificial Intelligence Course in Boduppal, Artificial Intelligence Course in Kphb Colony, Business Analytics Training in Begumpet, Business Analytics Training in Lingampalli, Business Analytics Training in Banjara hills, Business Analytics Training in L B Nagar, Business Analytics Training in Boduppal, Business Analytics Training in KPhb Colony, Business Analytics Classroom Training in Hyderabad, Business Analytics Training near me, Artificial Intelligence Course near me, Business Analytics Institute near me, Business Scientist Course, Artificial Intelligence Course Certification Training, Artificial Intelligence Course Certification Training in Hyderabad, Best Artificial Intelligence Course, Best Business Analytics Training"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

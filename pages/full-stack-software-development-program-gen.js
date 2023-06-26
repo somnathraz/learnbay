@@ -6,6 +6,7 @@ import BoxShape from "../components/CoursePage/Boxshapedsas/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import Project from "../components/CoursePage/Projectfswd/Project";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
@@ -158,6 +159,7 @@ export default function Home() {
         />
         <LearnSupport />
         <OfferPopup offer={true} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

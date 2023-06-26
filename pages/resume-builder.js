@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
+import Footer from "../components/Footer/FooterLinkRemoved";
 import FirstSection from "../components/ResumeBuilder/FirstSection/FirstSection";
 import ThirdSection from "../components/ResumeBuilder/ThirdSection/ThirdSection";
 
@@ -25,9 +25,9 @@ const ResumeBuilder = () => {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
       </Head>
-      <Navbar popup={true} dataScienceCounselling={true} radio={true} />
+      <Navbar popup={true} dataScienceCounselling={true} radio={true} eventLink={true}/>
       <FirstSection />
-      <ThirdSection idss="wSB-phYhG10" />
+      <ThirdSection idss="O7xTI5Motbk" />
       <Footer />
     </div>
   );

@@ -7,6 +7,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
@@ -35,9 +36,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Business Analyst Certification Course in Pune - Learnbay
-        </title>
+        <title>Business Analyst Certification Course in Pune - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -528,6 +527,7 @@ export default function Home() {
           CityTextL=" :Business Analytics Course viman nagar,Business Analytics Training in kalyan nagar,Business Analytics Training in magarpetta,Business Analytics Training in pimpri chinchwad,Business Analytics Classes in yerwada,Business Analytics Classes in kharadi,Business Analytics Classes in vishrantwadi,Business Analytics Classes in deccan,Business Analytics Course in Katraj,Business Analytics Training in warje,,Business Analytics Certification Training in bavdhan,Business Analytics Certification in boat club road,Business Analytics Certification in model colony,Best Business Analytics Training in pune,Best Business Analytics Course in pune"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

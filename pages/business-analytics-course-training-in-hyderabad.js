@@ -7,6 +7,7 @@ import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
@@ -565,6 +566,7 @@ export default function Home() {
           CityTextL=" :Business Analytics Training in Hyderabad, Business Analytics Course in Hyderabad, Business Analytics Course in Gachibowli, Business Analytics Training in Gachibowli,Business Analytics Course in Madhapur, Business Analytics Training in Madhapur, Business Analytics Training Institute in Hyderabad, Business Analytics Course in Kondapur, Business Analytics Training in Kondapur, Business Analytics Course in Begumpet, Business Analytics Course in Lingampalli, Business Analytics Course in Banjara hills, Business Analytics Course in L B Nagar, Business Analytics Course in Boduppal, Business Analytics Course in Kphb Colony, Business Analytics Training in Begumpet, Business Analytics Training in Lingampalli, Business Analytics Training in Banjara hills, Business Analytics Training in L B Nagar, Business Analytics Training in Boduppal, Business Analytics Training in KPhb Colony, Business Analytics Classroom Training in Hyderabad, Business Analytics Training near me, Business Analytics Course near me, Business Analytics Institute near me, Business Scientist Course, Business Analytics Certification, Business Analytics Certification in Hyderabad, Best Business Analytics Course, Best Business Analytics Training"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

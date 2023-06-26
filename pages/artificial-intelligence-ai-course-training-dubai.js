@@ -8,6 +8,7 @@ import Popup from "../components/Popup/Popup";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
 import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
@@ -35,9 +36,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Best Artificial Intelligence Course in Dubai - Learnbay
-        </title>
+        <title>Best Artificial Intelligence Course in Dubai - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -629,6 +628,7 @@ export default function Home() {
         </div>
         <LearnSupport />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

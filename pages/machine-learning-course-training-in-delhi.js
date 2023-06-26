@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -642,6 +643,7 @@ export default function Home() {
           CityTextL=" :Machine Learning Training in delhi, Machine Learning Course in delhi, Machine Learning Training in Connaught Place, Machine Learning Training in Karol Bagh , Machine Learning Institute in Delhi, Machine Learning Training in kamla nagar, Machine Learning Training in kalu sarai, Machine Learning Training in J N U, Machine Learning Training Institute in Connaught Place, Machine Learning Course in Connaught Place, Machine Learning Course in Saket, Machine Learning Course in old rajinder nagar, Machine Learning Course Connaught Place , Machine Learning Training in (N.S.P) Netaji Subhash Place, Machine Learning Training in Pitampura, Machine Learning Classes in Connaught Place, Machine Learning Classes in J N U, Machine Learning Classes in Connaught Place, Machine Learning Classes in Delhi, Machine Learning Course in vishwa vidyalaya, Machine Learning Training in kalu sarai, Machine Learning Certification in Delhi, Machine Learning Certification Training in Delhi, Machine Learning Certification in Connaught Place, Machine Learning Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Machine Learning Training, Best Machine Learning Course, Best Data Scientist course, Best Data Scientist Training"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

@@ -7,6 +7,7 @@ import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
@@ -34,9 +35,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Business Analyst Course in Canada with IBM Certification
-        </title>
+        <title>Business Analyst Course in Canada with IBM Certification</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -539,6 +538,7 @@ export default function Home() {
         </div>
         <LearnSupport />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

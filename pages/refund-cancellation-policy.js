@@ -4,6 +4,7 @@ import Refund from "../components/refund/refund";
 import Navbar from "../components/Navbar/Navbar";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 
 function refund() {
   return (
@@ -29,6 +30,7 @@ function refund() {
         <Navbar popup={true} dataScienceCounselling={true} radio={true} />
         <Refund />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

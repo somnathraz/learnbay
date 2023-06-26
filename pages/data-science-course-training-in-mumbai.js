@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -36,9 +37,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-         Data Science Course in Mumbai With IBM Certification
-        </title>
+        <title>Data Science Course in Mumbai With IBM Certification</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -735,6 +734,7 @@ export default function Home() {
           CityTextL=" :Data Science course training in Mumbai, Data Science course training in Thane, Data Science course in Bhandup, Data Science Training in Chembur, Data Science course institute in powai, Data Science course in Tehsil, Data Science training in Ghatkopar, Data Science institute in Sion, Data Science certification in Shivaji nagar, Data Science course in Mulund, Data Science training in sewri, Data Science institute in Kannamwar nagar, Data Science course in Parel, Data Science certification in Anushakti Nagar, Data Science Training in Sakinaka, Data Science institute in kharodi, Data Science certification in Madh, Data Science course training in malad, Data Science course training in Andheri, Data Science training in Coal Bunder, Data Science institute in Dharavi, Data Science certification in Worli, Data Science course in Aswini, Data Science training in Goregaon, Data Science institute in Kandivali, Data Science course in Borivali, Data Science certification in juhu, Data science training in Marol Naka, Data Science institute in Jogheswari, Data science certification in vakola, data Science course in Bandra, Data Science training in Kurla, data Science course training in navi mumbai, data Science course training in Kalyan ."
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

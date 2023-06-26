@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import Popup from "../components/Popup/Popup";
 import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
@@ -40,7 +41,10 @@ function Marketing() {
       <Head>
         <title>Marketing Analytics Certification Course - Learnbay</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Master marketing analytics with Learnbay’s Marketing Analytics Course. Learn data-driven insights and boost your marketing strategies. Sign up today!" />
+        <meta
+          name="description"
+          content="Master marketing analytics with Learnbay’s Marketing Analytics Course. Learn data-driven insights and boost your marketing strategies. Sign up today!"
+        />
         <meta name="keywords" content="Marketing Analytics Program" />
         <link
           rel="icon"
@@ -233,6 +237,7 @@ function Marketing() {
         />
         <SeventhSection />
         <OfferPopup offer={false} BAFamily={true} />
+        <BottomBar />
         <Footer />
       </main>
     </>

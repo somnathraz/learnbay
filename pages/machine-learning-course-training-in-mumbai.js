@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -37,7 +38,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-        Machine Learning Certification Course in Mumbai - Learnbay
+          Machine Learning Certification Course in Mumbai - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -625,6 +626,7 @@ export default function Home() {
           CityTextL=" :Machine Learning course training in Mumbai, Machine Learning course training in Thane, Machine Learning course in Bhandup, Machine Learning Training in Chembur, Machine Learning course institute in powai, Machine Learning course in Tehsil, Machine Learning training in Ghatkopar, Machine Learning institute in Sion, Machine Learning certification in Shivaji nagar, Machine Learning course in Mulund, Machine Learning training in sewri, Machine Learning institute in Kannamwar nagar, Machine Learning course in Parel, Machine Learning certification in Anushakti Nagar, Machine Learning Training in Sakinaka, Machine Learning institute in kharodi, Machine Learning certification in Madh, Machine Learning course training in malad, Machine Learning course training in Andheri, Machine Learning training in Coal Bunder, Machine Learning institute in Dharavi, Machine Learning certification in Worli, Machine Learning course in Aswini, Machine Learning training in Goregaon, Machine Learning institute in Kandivali, Machine Learning course in Borivali, Machine Learning certification in juhu, Machine Learning training in Marol Naka, Machine Learning institute in Jogheswari, Machine Learning certification in vakola, Machine Learning course in Bandra, Machine Learning training in Kurla, Machine Learning course training in navi mumbai, Machine Learning course training in Kalyan ."
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

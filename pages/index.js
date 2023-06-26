@@ -3,6 +3,7 @@ import FirstSection from "../components/NewDesign/HomePage/FirstSection/FirstSec
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Course from "../components/NewDesign/HomePage/Course/Course";
 import KeyFeatures from "../components/NewDesign/HomePage/KeyFeatures/KeyFeatures";
 import Switch from "../components/NewDesign/HomePage/switch/switch";
@@ -57,8 +58,8 @@ export default function Home() {
       <Course popup={true} dataScience={true} radio={true} />
       <Switch />
       <KeyFeatures
-      titleCourse="Data Science Placement Report"
-      brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf"
+        titleCourse="Data Science Placement Report"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf"
         popup={true}
         idss="wSB-phYhG10"
         dataScience={true}
@@ -68,6 +69,7 @@ export default function Home() {
       <ContactUs popup={true} dataScienceCounselling={true} radio={true} />
       <SeventhSection />
       <OfferPopup offer={false} />
+      <BottomBar />
       <Footer />
     </div>
   );

@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -39,7 +40,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Science Course in Pune With IBM Certification - Learnbay</title>
+        <title>
+          Data Science Course in Pune With IBM Certification - Learnbay
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -686,6 +689,7 @@ export default function Home() {
           CityTextL=" :Data Science Course viman nagar, Data Science Training in kalyan nagar, Data Science Training in magarpetta, Data Science Training in pimpri chinchwad, Data Science Classes in yerwada, Data Science Classes in kharadi, Data Science Classes in vishrantwadi, Data Science Classes in deccan, Data Science Course in Katraj, Data Science Training in warje, Data Science Certification Training in bavdhan, Data Science Certification in boat club road, Data Science Certification in model colony, Best Data Science Training in pune, Best Data Science Course in pune"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

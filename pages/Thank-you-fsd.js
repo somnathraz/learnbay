@@ -6,17 +6,21 @@ import Navbar from "../components/Navbar/Navbar";
 import CourseThankYou from "../components/Course/CourseThankYou";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 const ThankYou = () => {
   return (
     <div className={styles.main}>
       <Head>
         <title>Thank you!</title>
-        <meta name="robots" content="index, follow"/>
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <meta name="robots" content="index, follow" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <link rel="canonical" href="https://www.learnbay.co/Thank-you-fsd" />
         <meta name="description" content="Thank you!" />
       </Head>
-      <Navbar popup={true} fullStack={true} radio={true}/>
+      <Navbar popup={true} fullStack={true} radio={true} />
       <section className={styles.mains}>
         <div className={styles.Back}>
           <h4>
@@ -36,6 +40,7 @@ const ThankYou = () => {
       </section>
       <OfferPopup offer={true} />
       <CourseThankYou />
+      <BottomBar />
       <Footer />
     </div>
   );

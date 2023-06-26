@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import Popup from "../components/Popup/Popup";
 import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
@@ -40,9 +41,14 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Master Program in Data Science and Artificial Intelligence - Learnbay</title>
+        <title>
+          Master Program in Data Science and Artificial Intelligence - Learnbay
+        </title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Become a Master in Data Science with our comprehensive program. Gain in-demand skills and unlock rewarding career opportunities. Enroll Now." />
+        <meta
+          name="description"
+          content="Become a Master in Data Science with our comprehensive program. Gain in-demand skills and unlock rewarding career opportunities. Enroll Now."
+        />
         <meta name="keywords" content="Data Science and AI Master Program" />
         <link
           rel="icon"
@@ -234,6 +240,7 @@ function blockchain() {
         />
         <SeventhSection />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </>

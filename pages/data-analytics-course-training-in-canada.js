@@ -6,6 +6,7 @@ import GetHired from "../components/CoursePage/GetHired/GetHired";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
@@ -35,9 +36,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Data Analytics Certification Course in Canada - Learnbay
-        </title>
+        <title>Data Analytics Certification Course in Canada - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -559,6 +558,7 @@ Note: This 100% job assistance policy is only specific to “100% job assistance
         </div>
         <LearnSupport />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

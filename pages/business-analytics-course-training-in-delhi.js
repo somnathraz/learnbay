@@ -7,6 +7,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
@@ -35,9 +36,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Business Analyst Course in Delhi with IBM Certification
-        </title>
+        <title>Business Analyst Course in Delhi with IBM Certification</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -546,6 +545,7 @@ export default function Home() {
           CityTextL=" :Business Analytics Training in delhi, Business Analytics Course in delhi, Business Analytics Training in Connaught Place, Business Analytics Training in Karol Bagh , Business Analytics Institute in Delhi, Business Analytics Training in kamla nagar, Business Analytics Training in kalu sarai, Business Analytics Training in J N U, Business Analytics Training Institute in Connaught Place, Business Analytics Course in Connaught Place, Business Analytics Course in Saket, Business Analytics Course in old rajinder nagar, Business Analytics Course Connaught Place , Business Analytics Training in (N.S.P) Netaji Subhash Place, Business Analytics Training in Pitampura, Business Analytics Classes in Connaught Place, Business Analytics Classes in J N U, Business Analytics Classes in Connaught Place, Business Analytics Classes in Delhi, Business Analytics Course in vishwa vidyalaya, Business Analytics Training in kalu sarai, Business Analytics Certification in Delhi, Business Analytics Certification Training in Delhi, Business Analytics Certification in Connaught Place, Business Analytics Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Business Analytics Training, Best Business Analytics Course, Best Data Scientist course, Best Data Scientist Training"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>
