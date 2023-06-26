@@ -27,7 +27,7 @@ const ResumeBuilder = () => {
       </Head>
       <Navbar popup={true} dataScienceCounselling={true} radio={true} eventLink={true}/>
       <FirstSection />
-      <ThirdSection idss="O7xTI5Motbk" />
+      <ThirdSection idss="4PBfjKsw580" />
       <Footer />
     </div>
   );
