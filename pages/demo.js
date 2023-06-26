@@ -2,6 +2,7 @@ import Head from "next/head";
 import Demo from "../components/Demo/Demo";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         <Navbar popup={true} dataScienceCounselling={true} />
         <Demo />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

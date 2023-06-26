@@ -4,6 +4,7 @@ import Terms from "../components/termsJob/termsJob";
 import Navbar from "../components/Navbar/Navbar";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 
 function terms() {
   return (
@@ -26,6 +27,7 @@ function terms() {
         <Terms />
 
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

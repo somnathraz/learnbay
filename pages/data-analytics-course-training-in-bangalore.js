@@ -8,6 +8,7 @@ import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
 import CityText from "../components/CityComponent/CityText/CityText";
@@ -36,9 +37,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Best Data Analytics Course in Bangalore - Learnbay
-        </title>
+        <title>Best Data Analytics Course in Bangalore - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -543,6 +542,7 @@ export default function Home() {
           CityTextL=" :Data Analytics Training in Bangalore, Data Analytics Course in Bangalore, Data Analytics Training in BTM, Data Analytics Training in Marathahalli, Data Analytics Institute in Bangalore, Data Analytics Training in Whitefield, Data Analytics Training in Kundalahalli, Data Analytics Training in ITPL, Data Analytics Training Institute in Marathahalli, Data Analytics Course in BTM, Data Analytics Course in Marathahalli, Data Analytics Course in Whitefield, Data Analytics Course Bommanahalli, Data Analytics Training in Bommanahalli, Data Analytics Training in Electronic city, Data Analytics Training in Koramangala, Data Analytics Classes in BTM, Data Analytics Classes in Bommanahalli, Data Analytics Classes in Whitefield, Data Analytics Classes in Marathahalli, Data Analytics Course in Koramangala, Data Analytics Training in Jayanagar, Data Analytics Certification in Bangalore, Data Analytics Certification Training in Bangalore, Data Analytics Certification in BTM, Data Analytics Certification in Whitefield, Best Data Analytics Training, Best Data Analytics Course"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

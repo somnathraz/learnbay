@@ -7,6 +7,7 @@ import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
@@ -537,6 +538,7 @@ export default function Home() {
         </div>
         <LearnSupport />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

@@ -8,6 +8,7 @@ import LearnSupport from "../components/LearnSupport/LearnSupport";
 import CareerImpactHome from "../components/CareerImpactHome/CareerImpact";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Switch from "../components/switch/switch";
 import BoxShape from "../components/BoxShape/BoxShape";
@@ -75,6 +76,7 @@ export default function Home() {
       <LearnSupport />
 
       <OfferPopup offer={false} />
+      <BottomBar />
       <Footer />
     </div>
   );

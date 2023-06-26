@@ -3,6 +3,7 @@ import Form from "../components/Form/Form";
 import styles from "../styles/Submit.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Image from "next/image";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Head from "next/head";
@@ -12,7 +13,10 @@ const sumbit = () => {
     <div>
       <Head>
         <title>Learnbay - Counselling Form - Apply</title>
-        <meta name="description" content="Submit your information to LearnBay to unlock a world of learning opportunities. Join our platform today and start your path to success."/>
+        <meta
+          name="description"
+          content="Submit your information to LearnBay to unlock a world of learning opportunities. Join our platform today and start your path to success."
+        />
         <meta name="robots" content="index, follow" />
         <link
           rel="icon"
@@ -37,6 +41,7 @@ const sumbit = () => {
       </div>
 
       {/* <OfferPopup offer={false} />                       */}
+      <BottomBar />
       <Footer />
     </div>
   );

@@ -4,6 +4,7 @@ import ThankStats from "../components/Thankyou/ThankStat/ThankStats";
 import TyPageCta from "../components/Thankyou/TyPageCta/TyPageCta";
 import Survey from "../components/Thankyou/Survey/Survey";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 
 const ThankYouDemo = () => {
   const dataArray = [];
@@ -41,12 +42,13 @@ const ThankYouDemo = () => {
         para2="Discover growth potential in emerging industries."
       />
 
-      <TyPageCta brochureLink={data[1]}  heading={data[0]} />
+      <TyPageCta brochureLink={data[1]} heading={data[0]} />
       <Survey
         header="Are you seeking the perfect course that will propel your career to new heights?"
         // topPara="ENTER SOME TEXT HERE PLACEHOLDER"
         para="Unleash your full potential with our personalized and tailored course suggestions that will guide you towards your ideal learning journey."
       />
+      <BottomBar />
       <Footer />
     </div>
   );

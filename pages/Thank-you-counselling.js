@@ -4,7 +4,7 @@ import ThankStats from "../components/Thankyou/ThankStat/ThankStats";
 import TyPageCta from "../components/Thankyou/TyPageCta/TyPageCta";
 import Survey from "../components/Thankyou/Survey/Survey";
 import Footer from "../components/Footer/Footer";
-
+import BottomBar from "../components/BottomBar/BottomBar";
 
 const ThankYouDemo = () => {
   return (
@@ -26,6 +26,7 @@ const ThankYouDemo = () => {
         header="Are you seeking the perfect course that will propel your career to new heights?"
         para="Unleash your full potential with our personalized and tailored course suggestions that will guide you towards your ideal learning journey."
       />
+      <BottomBar />
       <Footer />
     </div>
   );

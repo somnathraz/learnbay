@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -700,6 +701,7 @@ export default function Home() {
           CityTextL=" :Data Science Training in delhi, Data Science Course in delhi, Data Science Training in Connaught Place, Data Science Training in Karol Bagh , Data Science Institute in Delhi, Data Science Training in kamla nagar, Data Science Training in kalu sarai, Data Science Training in J N U, Data Science Training Institute in Connaught Place, Data Science Course in Connaught Place, Data Science Course in Saket, Data Science Course in old rajinder nagar, Data Science Course Connaught Place , Data Science Training in (N.S.P) Netaji Subhash Place, Data Science Training in Pitampura, Data Science Classes in Connaught Place, Data Science Classes in J N U, Data Science Classes in Connaught Place, Data Science Classes in Delhi, Data Science Course in vishwa vidyalaya, Data Science Training in kalu sarai, Data Science Certification in Delhi, Data Science Certification Training in Delhi, Data Science Certification in Connaught Place, Data Science Certification in Karol Bagh, Data Scientist course in Delhi, Data Scientist Course in Connaught Place, Data Scientist training in Delhi, Data Scientist Certification Training in Delhi, Data Scientist Certification Training in Connaught Place, Data Scientist Certification in Connaught Place, Data Scientist Certification in Delhi, Data Scientist Institute in Delhi, Best Data Science Training, Best Data Science Course, Best Data Scientist course, Best Data Scientist Training"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

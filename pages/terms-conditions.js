@@ -4,6 +4,7 @@ import Terms from "../components/terms/terms";
 import Navbar from "../components/Navbar/Navbar";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 
 function terms() {
   return (
@@ -11,7 +12,10 @@ function terms() {
       <Head>
         <title>Learnbay - Terms and Conditions</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Learnbay's terms and conditions are clear and concise for your peace of mind. Explore more information for a smooth learning experience. Come join us today!" />
+        <meta
+          name="description"
+          content="Learnbay's terms and conditions are clear and concise for your peace of mind. Explore more information for a smooth learning experience. Come join us today!"
+        />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -23,6 +27,7 @@ function terms() {
         <Terms />
 
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

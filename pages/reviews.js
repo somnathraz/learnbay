@@ -4,14 +4,20 @@ import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Learnbay - Testimonials and Reviews of Our Trusted Learners</title>
+        <title>
+          Learnbay - Testimonials and Reviews of Our Trusted Learners
+        </title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Learnbay - The best online professional learning platform, has received numerous positive student reviews. Gain knowledge and make sound decisions. Join today!" />
+        <meta
+          name="description"
+          content="Learnbay - The best online professional learning platform, has received numerous positive student reviews. Gain knowledge and make sound decisions. Join today!"
+        />
         <link rel="canonical" href="https://www.learnbay.co/reviews" />
         <link
           rel="icon"
@@ -31,6 +37,7 @@ export default function Home() {
           </a>
         </div>
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

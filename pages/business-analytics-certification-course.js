@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import Popup from "../components/Popup/Popup";
 import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
@@ -41,7 +42,10 @@ function blockchain() {
       <Head>
         <title>Business Analytics Certification Course - Learnbay</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Enroll Now in Learnbay's professional business analytics course. Master the business analytics techniques and gain valuable insights to advance your career." />
+        <meta
+          name="description"
+          content="Enroll Now in Learnbay's professional business analytics course. Master the business analytics techniques and gain valuable insights to advance your career."
+        />
         <meta name="keywords" content="Business Analytics Master Program" />
         <link
           rel="icon"
@@ -241,6 +245,7 @@ function blockchain() {
         />
         <SeventhSection />
         <OfferPopup offer={false} BAFamily={true} />
+        <BottomBar />
         <Footer />
       </main>
     </>

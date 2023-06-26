@@ -7,6 +7,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
@@ -35,9 +36,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Best Business Analyst Certification Course in Mumbai
-        </title>
+        <title>Best Business Analyst Certification Course in Mumbai</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -546,6 +545,7 @@ export default function Home() {
           CityTextL=" :Business Analytics course training in Mumbai, Business Analytics course training in Thane, Business Analytics course in Bhandup, Business Analytics Training in Chembur, Business Analytics course institute in powai, Business Analytics course in Tehsil, Business Analytics training in Ghatkopar, Business Analytics institute in Sion, Business Analytics certification in Shivaji nagar, Business Analytics course in Mulund, Business Analytics training in sewri, Business Analytics institute in Kannamwar nagar, Business Analytics course in Parel, Business Analytics certification in Anushakti Nagar, Business Analytics Training in Sakinaka, Business Analytics institute in kharodi, Business Analytics certification in Madh, Business Analytics course training in malad, Business Analytics course training in Andheri, Business Analytics training in Coal Bunder, Business Analytics institute in Dharavi, Business Analytics certification in Worli, Business Analytics course in Aswini, Business Analytics training in Goregaon, Business Analytics institute in Kandivali, Business Analytics course in Borivali, Business Analytics certification in juhu, Business Analytics training in Marol Naka, Business Analytics institute in Jogheswari, Business Analytics certification in vakola, Business Analytics course in Bandra, Business Analytics training in Kurla, Business Analytics course training in navi mumbai, Business Analytics course training in Kalyan ."
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

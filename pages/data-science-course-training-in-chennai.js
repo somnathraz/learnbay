@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -37,7 +38,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-            Best Data Science Course in Chennai With IBM Certification
+          Best Data Science Course in Chennai With IBM Certification
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -660,6 +661,7 @@ export default function Home() {
         <LearnSupport />
         <CityText cityTextChennai={true} />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

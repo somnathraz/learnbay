@@ -11,19 +11,18 @@ import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
-import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
-import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
-import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
+import { HrData } from "../Data/hrData";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNewDomain";
 import {
-  FaqData9,
-  DomainFaqData9,
-  PaymentFaqData9,
-  CapstoneFaqData9,
-  jobFaqData9,
-  MentorshipFaqData9,
-  SupportFaqData9,
-} from "../components/FAQ/FaqData";
+  FaqDataHR,
+  PaymentFaqDataHR,
+  CapstoneFaqDataHR,
+  CertificationFaqDataHR,
+  jobFaqDataHR,
+  MentorshipFaqDataHR,
+  SupportFaqDataHR,
+} from "../components/NewDesign/FAQNew/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
 import Switch from "../components/NewDesign/switch/switch";
@@ -31,7 +30,7 @@ import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCust
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 import Counselling from "../components/NewDesign/Counselling/Counselling";
 
-function blockchain() {
+function Hr() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -40,22 +39,20 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Master Program in Software Development - Learnbay</title>
+        <title>HR Analytics Course with Job Assistance - Learnbay</title>
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay's Full Stack Software Development Course will help you become a skilled software developer. Gain practical experience and master key coding skills."
+          content="Learn HR Analytics from industry experts at Learnbay. Enhance your skills with our comprehensive HR Analytics Course. Enroll now for a brighter future!"
         />
-        <meta
-          name="keywords"
-          content="Software Development Master Program with Domain Specialization"
-        />
+        <meta name="keywords" content="HR Analytics Program" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/software-development-program-with-specialization-data-science-and-ai"
+          href="https://www.learnbay.co/hr-analytics-course"
         />
       </Head>
       <main>
@@ -71,45 +68,46 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
-          softwareBtnHide={true}
-          FirstTyped="Microsoft & IBM Certificate"
-          SecondTyped="Domain Specialized Program"
+          FirstTyped="Guaranteed Interview Calls"
+          SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
-          titleCourse="Software Development Master Program with Domain Specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          titleCourse="HR Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SW-Dev-Master-Header.png"
-          firstToparaImg="with Domain Specialization"
-          firstHeading="Software Development Master Program"
-          firstTopPara="Get ready to level up your coding expertise"
-          idss="bfl64ANfSV0"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/hr-analytics-header-image.webp"
+          // firstToparaImg="with our HR Analytics Program"
+          firstHeading="HR Analytic Course"
+          // firstTopPara="Experience the future of analytics"
+          idss="kh54EexuNJo"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
         />
         <SecondSection
+          fullStackReview={true}
           SecondHead="Why Choose Us?"
           SecondPara="India's top rated  bootcamp for working professionals "
-          heading1="On-Demand Doubt Session"
-          heading2="IBM+ Microsoft Certificate"
-          heading3="Peer Learning & Networking"
-          heading4="Designed For Professionals"
-          SecondPara1="Clear your doubts with industry experts & get real-time solutions"
-          SecondPara2="Enhance skills with Microsoft & IBM course certificate"
-          SecondPara3="Learn & collaborate with peers for growth & opportunities"
-          SecondPara4="Boost your career growth with hands-on software training"
+          heading1="1:1 Doubt Session"
+          heading2="Guaranteed Interview Calls"
+          heading3="IBM Project Certificate"
+          heading4="For HR professionals"
+          SecondPara1="Talk to an expert & receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
+          SecondPara3="Grab opportunities with a portfolio & make a smooth career transition"
+          SecondPara4="Boost your growth & earnings with in-demand people analytics skills
+          "
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SW+Dev+Masters+-+Who+is+this+program+for.png"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HR++Who+is+this+program+for+_+image.webp"
           para1="Bachelor's degree with consistent good academics"
-          para2="Minimum 6 months of experience in IT/Non-IT domain"
-          para3="Computer Science, B.Tech, B.Sc. pursuing students"
-          para4="Designed for individuals seeking software development skills"
+          para2="Minimum 1 year of IT/Non-IT work experience"
+          para3="Mid-career professionals interested in HR analytics"
+          para4=" Preparing for future leadership role in HR domain"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -120,16 +118,16 @@ function blockchain() {
           secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="3+ years of career service access"
-          point2="6 mock interviews with industry leaders"
+          point1="Get 1 year of job & placement support"
+          point2="Get 3 mock interviews with industry leaders"
           point3="Resume build up session"
-          point4="100% placement support"
+          point4="Get 5-8 interview calls"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
           BatchParaImg1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Left.png"
           BatchParaImg2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Data+Science+and+AI+Advance+Right.png"
           dataScience={true}
-          titleCourse="Full Stack Placement Report"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf"
+          titleCourse="Data Science Placement Report"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/adobe.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/airbnb.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/antuit+ai.png"
@@ -155,34 +153,33 @@ function blockchain() {
         />
         <Counselling dataScienceCounselling={true} />
         <FourthSection
+          dataScienceCounselling={true}
           serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
-          software={true}
-          titleCourse="Software Development Master Program with Domain Specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
-          syllabus={FullStackSoftwareCourseData[0].syllabus}
-          advSyllabus={FullStackSoftwareCourseData[0].advSyllabus}
-          syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
-          popupHead={FullStackSoftwareCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          titleCourse="HR Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
+          syllabus={HrData[0].syllabus}
+          syllabusDesc={HrData[0].syllabusDesc}
+          popupHead={HrData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
         <GrowthStats
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SW+Dev+Masters+Scope+Image-min.png"
-          heading="Embrace the future of technology & unlock endless career opportunities"
-          para1="Higher Growth: Compound annual growth rate of CAGR of 11.9% in 2023"
-          para2="Maximize Cloud Opportunities: Unleash your potential & earn 8 LPA"
-          para3="Strong Demand: Growing need for tech wizards across various industries"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HR+Analytics+Scope.webp"
+          heading="Join the billion-dollar HR Analytics market and secure your future!"
+          para1="Get an average salary of ₹19.7 lakhs"
+          para2="HR Analytics market is expected to reach USD 9 billion by 2024"
+          para3="Growing demand for data-driven HR decision-making"
         />
-
         <FifthSection
-          softTools={true}
-          IBMMicrosoftsoft={true}
-          Fee="₹ 1,10,000 + 18% GST"
-          FeeEmi="₹ 10,817/month"
+          dataScienceCounselling={true}
+          IBMMicrosoft={true}
+          baFamilyTools={true}
+          Fee="₹ 89,000 + 18% GST"
+          FeeEmi="₹ 8,752/month"
           FeeHeading="Program Fee & Financing"
           FeeContent1="0% interest rate"
           FeeContent2="No cost EMI"
@@ -192,8 +189,8 @@ function blockchain() {
           FeeContent6="No additional cost"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
-          titleCourse="Software Development Master Program with Domain Specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          titleCourse="HR Analytics Program"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -218,36 +215,29 @@ function blockchain() {
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
-        <DomainSection
-          Software={true}
-          dataScience={true}
-          titleCourse="Software Development Master Program with Domain Specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
-        />
         <Project
-          SoftwareText={true}
           project="12+ Projects"
           tools="16+"
-          Software={true}
+          Hr={true}
           dataScience={true}
-          titleCourse="Full Stack Project Brochure"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
+          titleCourse="HR Analytics Project Brochure"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Projects.pdf"
         />
         <BatchDetails
-          FullStack={true}
-          CourseFeeHead="Data Science and AI Foundation Program : Batch Details"
+          BAFamily={true}
+          CourseFeeHead="Hr Analytics : Batch Details"
         />
         <FAQNew
-          FaqDatas={FaqData9}
-          DomainFaqDatas={DomainFaqData9}
-          PaymentFaqDatas={PaymentFaqData9}
-          CapstoneFaqDatas={CapstoneFaqData9}
-          jobFaqDatas={jobFaqData9}
-          MentorshipFaqDatas={MentorshipFaqData9}
-          SupportFaqDatas={SupportFaqData9}
+          FaqDatas={FaqDataHR}
+          PaymentFaqDatas={PaymentFaqDataHR}
+          CapstoneFaqDatas={CapstoneFaqDataHR}
+          CertificationFaqDatas={CertificationFaqDataHR}
+          jobFaqDatas={jobFaqDataHR}
+          MentorshipFaqDatas={MentorshipFaqDataHR}
+          SupportFaqDatas={SupportFaqDataHR}
         />
-        <SeventhSection fullStackCont={true} />
-        <OfferPopup offer={true} />
+        <SeventhSection />
+        <OfferPopup offer={false} BAFamily={true} />
         <BottomBar />
         <Footer />
       </main>
@@ -255,4 +245,4 @@ function blockchain() {
   );
 }
 
-export default blockchain;
+export default Hr;

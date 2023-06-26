@@ -6,6 +6,7 @@ import OfferPopup from "../components/OfferPopup/OfferPopup";
 import CourseThankYou from "../components/Course/ThankYouNew";
 import Form from "../components/Form/Form";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 const ThankYou = () => {
   return (
     <div className={styles.main}>
@@ -41,6 +42,7 @@ const ThankYou = () => {
       <CourseThankYou />
 
       <OfferPopup offer={false} />
+      <BottomBar />
       <Footer />
     </div>
   );

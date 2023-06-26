@@ -6,6 +6,7 @@ import BoxShape from "../components/CoursePage/Boxshapeweb/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTabWeb";
 import Project from "../components/CoursePage/Projectfswd/Project";
@@ -196,6 +197,7 @@ export default function Home() {
         />
         <LearnSupport />
         <OfferPopup WebDev={true} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

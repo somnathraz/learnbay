@@ -6,6 +6,7 @@ import BoxShape from "../components/CoursePage/Boxshapedsas/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTabWeb";
 import Project from "../components/CoursePage/Projectfswd/Project";
@@ -39,7 +40,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-        Data Structures Algorithms and System Design Course - DSA Course
+          Data Structures Algorithms and System Design Course - DSA Course
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -162,6 +163,7 @@ export default function Home() {
         /> */}
         <LearnSupport />
         <OfferPopup offer={true} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

@@ -7,6 +7,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
@@ -643,6 +644,7 @@ export default function Home() {
           CityTextL=" :Artificial Intelligence course training in Mumbai, Artificial Intelligence course training in Thane, Artificial Intelligence course in Bhandup, Artificial Intelligence Training in Chembur, Artificial Intelligence course institute in powai, Artificial Intelligence course in Tehsil, Artificial Intelligence training in Ghatkopar, Artificial Intelligence institute in Sion, Artificial Intelligence certification in Shivaji nagar, Artificial Intelligence course in Mulund, Artificial Intelligence training in sewri, Artificial Intelligence institute in Kannamwar nagar, Artificial Intelligence course in Parel, Artificial Intelligence certification in Anushakti Nagar, Artificial Intelligence Training in Sakinaka, Artificial Intelligence institute in kharodi, Artificial Intelligence certification in Madh, Artificial Intelligence course training in malad, Artificial Intelligence course training in Andheri, Artificial Intelligence training in Coal Bunder, Artificial Intelligence institute in Dharavi, Artificial Intelligence certification in Worli, Artificial Intelligence course in Aswini, Artificial Intelligence training in Goregaon, Artificial Intelligence institute in Kandivali, Artificial Intelligence course in Borivali, Artificial Intelligence certification in juhu, Artificial Intelligence training in Marol Naka, Artificial Intelligence institute in Jogheswari, Artificial Intelligence certification in vakola, Artificial Intelligence course in Bandra, Artificial Intelligence training in Kurla, Artificial Intelligence course training in navi mumbai, Artificial Intelligence course training in Kalyan ."
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>

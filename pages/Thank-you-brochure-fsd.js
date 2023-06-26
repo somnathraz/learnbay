@@ -4,6 +4,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Image from "next/image";
 import { FaDownload } from "react-icons/fa";
 
@@ -12,7 +13,7 @@ const ThankYou = () => {
     <div className={styles.main}>
       <Head>
         <title>Thank you!</title>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -117,6 +118,7 @@ const ThankYou = () => {
         </div>
       </section>
       <OfferPopup offer={true} />
+      <BottomBar />
       <Footer />
     </div>
   );

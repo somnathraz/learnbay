@@ -4,6 +4,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Image from "next/image";
 import { FaDownload } from "react-icons/fa";
 
@@ -223,6 +224,7 @@ https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/
       </section>
 
       <OfferPopup offer={false} />
+      <BottomBar />
       <Footer />
     </div>
   );

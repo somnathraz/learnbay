@@ -1,5 +1,4 @@
 import "../styles/globals.css";
-import BottomBar from "../components/BottomBar/BottomBar";
 import TagManager from "react-gtm-module";
 import React, { useEffect } from "react";
 import "../styles/form.css";
@@ -52,8 +51,6 @@ function MyApp({ Component, pageProps }) {
       />
 
       <Component {...pageProps} />
-
-      <BottomBar />
     </>
   );
 }

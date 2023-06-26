@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import Popup from "../components/Popup/Popup";
 import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
@@ -45,7 +46,7 @@ function blockchain() {
     <>
       <Head>
         <title>
-        Artificial Intelligence and Data Science Course - Learnbay
+          Artificial Intelligence and Data Science Course - Learnbay
         </title>
         <meta
           name="description"
@@ -66,10 +67,7 @@ function blockchain() {
         />
       </Head>
       <main>
-        <Navbar
-          popup={true}
-          dataScienceCounselling={true}
-        />
+        <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -88,9 +86,9 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
-        FirstTyped="Guaranteed Interview Calls"
-        SecondTyped="Capstone Project Certificate"
-        ThirdTyped="Live Interactive Classes"
+          FirstTyped="Guaranteed Interview Calls"
+          SecondTyped="Capstone Project Certificate"
+          ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Advanced Data Science and AI Program with domain specialization"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
@@ -172,9 +170,9 @@ function blockchain() {
           img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
           img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/company-placement/tiger+analytics.png"
         />
-        <Counselling dataScienceCounselling={true}/>
+        <Counselling dataScienceCounselling={true} />
         <FourthSection
-        dataScienceCounselling={true}
+          dataScienceCounselling={true}
           serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
@@ -258,6 +256,7 @@ function blockchain() {
         />
         <SeventhSection />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </>

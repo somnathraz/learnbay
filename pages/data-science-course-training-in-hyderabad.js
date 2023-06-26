@@ -8,6 +8,7 @@ import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
 import Popup from "../components/Popup/Popup";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import Form from "../components/Form/Form";
 import CityText from "../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -697,6 +698,7 @@ export default function Home() {
           CityTextL=" :Data Science Training in Hyderabad, Data Science Course in Hyderabad, Data Science Course in Gachibowli, Data Science Training in Gachibowli,Data Science Course in Madhapur, Data Science Training in Madhapur, Data Science Training Institute in Hyderabad, Data Science Course in Kondapur, Data Science Training in Kondapur, Data Science Course in Begumpet, Data Science Course in Lingampalli, Data Science Course in Banjara hills, Data Science Course in L B Nagar, Data Science Course in Boduppal, Data Science Course in Kphb Colony, Data Science Training in Begumpet, Data Science Training in Lingampalli, Data Science Training in Banjara hills, Data Science Training in L B Nagar, Data Science Training in Boduppal, Data Science Training in KPhb Colony, Data Science Classroom Training in Hyderabad, Data Science Training near me, Data Science Course near me, Data Science Institute near me, Data Scientist Course, Data Science Certification, Data Science Certification in Hyderabad, Best Data Science Course, Best Data Science Training"
         />
         <OfferPopup offer={false} />
+        <BottomBar />
         <Footer />
       </main>
     </div>
