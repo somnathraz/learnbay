@@ -110,7 +110,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -156,8 +156,8 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -188,8 +188,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "} */}
-        {/* <script
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -361,8 +361,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -412,7 +412,7 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -433,12 +433,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara=""
-          mTopPara=""
-          title="Data Science Course in Mumbai"
-          mTitle="Data Science Course in Mumbai"
-          // spanTitleText="Enroll Now"
-          // spanMTitleText="Enroll Now"
+          deskTopPara="Foundational and Advance Job-ready Program"
+          mTopPara="Foundational and Advance Job-ready Program"
+          title="Data Science Course in Mumbai - "
+          mTitle="Data Science Course in Mumbai - "
+          spanTitleText="Enroll Now"
+          spanMTitleText="Enroll Now"
           desc="Enhance your career with industry-level data science courses in Mumbai. Learn and understand cutting-edge data science techniques with advanced IBM certifications. This will enhance your expertise in tools like Python, Power BI, machine learning, etc. You will receive in-depth data science training from industry leaders and experts, allowing you to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
           width="900"

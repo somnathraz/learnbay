@@ -124,7 +124,7 @@ export default function Home() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
 
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -169,9 +169,9 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
+        />
 
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -202,8 +202,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -409,9 +409,9 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
+        />
 
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -460,7 +460,7 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -482,8 +482,8 @@ export default function Home() {
         <FirstSection
           dataScienceCounselling={true}
           cityText={true}
-          deskTopPara=""
-          mTopPara=""
+          deskTopPara="Foundational and Advanced Job-ready"
+          mTopPara="Foundational and Advanced Job-ready"
           title="Data Science Course in Pune"
           mTitle="Data Science Course in Pune"
           desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Data Science Training in Pune. This course will help you to capitalize on your domain expertise on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."

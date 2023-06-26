@@ -73,54 +73,8 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` {
- "@context": "https://schema.org/", 
- "@type": "HowTo", 
- "name": "How to apply for Data Analytics course?",
- "description": "You just have to follow 3 easy steps to enroll in our advanced data science course",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
- "totalTime": "PT6M",
- "estimatedCost": {
- "@type": "MonetaryAmount",
- "currency": "INR",
- "value": "6"
- },
- "supply": {
- "@type": "HowToSupply",
- "name": "We provide data analytics course training in mumbai"
- },
- "tool": {
- "@type": "HowToTool",
- "name": "Data science, machine learning, artificial intelligence, data analytics"
- },
- "step": [{
- "@type": "HowToStep",
- "text": "Visit our website and fill the enquiry form",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
- "name": "Fill Enquiry Form",
- "url": "https://www.learnbay.co/data-science-course/"
- },{
- "@type": "HowToStep",
- "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
- "name": "Talk to Expert",
- "url": "https://www.learnbay.co/data-science-course/"
- },{
- "@type": "HowToStep",
- "text": "Get enrollment in our data science course",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
- "name": "Get enrollment",
- "url": "https://www.learnbay.co/"
-}] 
-
-}
-} `,
-          }}
-        /> */}
-        {/* <script
+     
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -151,8 +105,8 @@ export default function Home() {
 }
 } `,
           }}
-        />{" "} */}
-        {/* <script
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -309,8 +263,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -360,7 +314,7 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -381,10 +335,10 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara=""
-          mTopPara=""
-          title="Data Analytics Course in Mumbai"
-          mTitle="Data Analytics Course in Mumbai"
+          deskTopPara="In Collaboration with IBM"
+          mTopPara="In Collaboration with IBM"
+          title="Data Analytics Course Training in Mumbai"
+          mTitle="Data Analytics Course Training in Mumbai"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."

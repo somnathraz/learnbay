@@ -83,7 +83,7 @@ function blockchain() {
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SW-Dev-Master-Header.png"
           firstToparaImg="with Domain Specialization"
-          firstHeading="Master Program in Software Development "
+          firstHeading="Software Development Master Program"
           firstTopPara="Get ready to level up your coding expertise"
           idss="bfl64ANfSV0"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"

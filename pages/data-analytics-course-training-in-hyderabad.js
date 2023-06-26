@@ -71,7 +71,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -115,8 +115,8 @@ export default function Home() {
     }] 
    } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -147,8 +147,8 @@ export default function Home() {
 
    } `,
           }}
-        />{" "} */}
-        {/* <script
+        />{" "}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -330,8 +330,8 @@ export default function Home() {
                                                                                           }
                                                                                          } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -381,7 +381,7 @@ export default function Home() {
   }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -402,12 +402,12 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara=""
-          mTopPara=""
+          deskTopPara="First-Track Industrial Training For Early Professionals"
+          mTopPara="First-Track Industrial Training For Early Professionals"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
-          title="Data Analytics Course in Hyderabad"
-          mTitle="Data Analytics Course in Hyderabad"
+          title="Data Analytics Course Training in Hyderabad"
+          mTitle="Data Analytics Course Training in Hyderabad"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Data+Analytics.png"
           width="900"

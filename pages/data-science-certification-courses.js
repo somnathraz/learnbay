@@ -76,7 +76,11 @@ function blockchain() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DS+Foundation+header.webp"
           // firstToparaImg="with industry-specific training"
-          firstHeading="Data Science Certification Course"
+
+          firstToparaImg="with industry-specific training"
+          firstHeading="Data Science and AI Foundation Program"
+
+          // firstHeading="Data Science Certification Course"
           firstTopPara="Enhance your earning potential"
           idss="tBKOlgHS-k8"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf"

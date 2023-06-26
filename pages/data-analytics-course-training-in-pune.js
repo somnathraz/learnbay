@@ -74,7 +74,7 @@ export default function Home() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
 
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -119,9 +119,9 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
+        />
 
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -152,8 +152,8 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
-        {/* <script
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -317,9 +317,9 @@ export default function Home() {
                   }
                  } `,
           }}
-        /> */}
+        />
 
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -368,7 +368,7 @@ export default function Home() {
 }
 } `,
           }}
-        /> */}
+        />
       </Head>
       <main>
         {" "}
@@ -389,10 +389,10 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara=""
-          mTopPara=""
-          title="Data Analytics Course in Pune"
-          mTitle="Data Analytics Course in Pune"
+          deskTopPara="Industrial Training Program for Early-professionals"
+          mTopPara="Industrial Training Program for Early-professionals"
+          title="Data Analytics Course Training in Pune"
+          mTitle="Data Analytics Course Training in Pune"
           spanTitleText="For Professionals"
           spanMTitleText="For Professionals"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
