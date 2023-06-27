@@ -48,11 +48,11 @@ function blockchain() {
 
         <meta
           name="description"
-          content="Enroll in Learnbay's Comprehensive Artificial Intelligence and Machine Learning Course to improve your AI and Machine Learning skills."
+          content="Enroll in Learnbay&rsquo;s Comprehensive Artificial Intelligence and Machine Learning Course to improve your AI and Machine Learning skills."
         />
         <meta
           name="keywords"
-          content="Artificial Intelligence & Machine Learning Program"
+          content="Artificial Intelligence and Machine Learning Program"
         />
         <link
           rel="icon"
@@ -87,7 +87,7 @@ function blockchain() {
           third="Technology"
           idss="Jn2puEQC8yk"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML-Header.png"
-          // firstToparaImg="AI & ML Program for tech professionals"
+          firstToparaImg="AI & ML Program for tech professionals"
 
           firstHeading="Transform your future with our certified"
           // firstHeading="Advance Artificial Intelligence and Machine Learning Course"
