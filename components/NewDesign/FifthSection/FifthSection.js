@@ -12,7 +12,7 @@ import BlockchainCertificateTab from "../CertificateTab/BlockchainCertificate";
 import CertificateTabAdvance from "../FifthSection/CertificateTabAdvance";
 import CertificateAIML from "../FifthSection/CertificateTabAIML";
 import CertificateSoftware from "../FifthSection/CertificateSoftware";
-import CertificateTabSoft from "../FifthSection/CertificateTabSoft"
+import CertificateTabSoft from "../FifthSection/CertificateTabSoft";
 
 function FifthSection({
   FeeHeading,
@@ -224,24 +224,64 @@ function FifthSection({
       ) : (
         <div>
           <p className={styles.infop}>Globally Recognized Program</p>
-          <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>
-          {advanceCertificate ? <Certificate /> : ""}
-          {AIMLCertificate ? <CertificateAIML /> : ""}
-          {AnalyticsCertificate ? <AnalyticsCertificateTab /> : ""}
-          {BlockchainCertificate ? <BlockchainCertificateTab /> : ""}
+          {/* <p className={styles.ptop}>Sponsored by IBM and Microsoft</p> */}
+          {advanceCertificate ? (
+            <>
+              <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>{" "}
+              <Certificate />
+            </>
+          ) : (
+            ""
+          )}
+          {AIMLCertificate ? (
+            <>
+              <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>{" "}
+              <CertificateAIML />
+            </>
+          ) : (
+            ""
+          )}
+          {AnalyticsCertificate ? (
+            <>
+              <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>{" "}
+              <AnalyticsCertificateTab />
+            </>
+          ) : (
+            ""
+          )}
+          {BlockchainCertificate ? <><p className={styles.ptop}>Sponsored by IBM</p> <BlockchainCertificateTab /></> : ""}
           {IBMMicrosoft ? (
-            <CertificateTabAdvance Ibm={true} twoCertificateIBM={true} />
+            <>
+              <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>
+              <CertificateTabAdvance Ibm={true} twoCertificateIBM={true} />
+            </>
           ) : (
             ""
           )}
-                    {IBMMicrosoftsoft ? (
-            <CertificateTabSoft Ibm={true} twoCertificateIBM={true} />
+          {IBMMicrosoftsoft ? (
+            <>
+              <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>
+              <CertificateTabSoft Ibm={true} twoCertificateIBM={true} />
+            </>
           ) : (
             ""
           )}
-          {dataAnalyticsCertificate ? <CertificateTabAdvance Ibm={true} /> : ""}
-          {CertificateSoftwareD ? <CertificateSoftware Ibm={true} /> : ""}
-
+          {dataAnalyticsCertificate ? (
+            <>
+              <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>
+              <CertificateTabAdvance Ibm={true} />
+            </>
+          ) : (
+            ""
+          )}
+          {CertificateSoftwareD ? (
+            <>
+              <p className={styles.ptop}>Sponsored by IBM and Microsoft</p>
+              <CertificateSoftware Ibm={true} />
+            </>
+          ) : (
+            ""
+          )}
         </div>
       )}
       {/* <div className={styles.fee}>

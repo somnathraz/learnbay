@@ -424,4 +424,7 @@ h4 {
     display: block;
     margin: 0px;
   }
+  .wa-widget-send-button {
+    display: none !important;
+  }
 }

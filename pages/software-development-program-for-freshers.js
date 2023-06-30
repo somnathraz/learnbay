@@ -12,17 +12,17 @@ import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
-import { BlockchainCourse } from "../Data/BlockchainCourse";
+import { FresherFullStackSoftwareCourseData } from "../Data/FresherFullStackSoftware";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
 import {
-  FaqDataBlockchain,
-  DomainFaqDataBlockchain,
-  PaymentFaqDataBlockchain,
-  CapstoneFaqDataBlockchain,
-  jobFaqDataBlockchain,
-  MentorshipFaqDataBlockchain,
-  SupportFaqDataBlockchain,
-} from "../components/NewDesign/FAQNew/FaqData";
+  FaqData9,
+  DomainFaqData9,
+  PaymentFaqData9,
+  CapstoneFaqData9,
+  jobFaqData9,
+  MentorshipFaqData9,
+  SupportFaqData9,
+} from "../components/FAQ/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
 import Switch from "../components/NewDesign/switch/switch";
@@ -39,17 +39,14 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>
-          Blockchain Developer Course with Job Assistance - Learnbay
-        </title>
-        <meta name="robots" content="index, follow" />
+        <title>Master Program in Software Development - Learnbay</title>
         <meta
           name="description"
-          content="Enroll in our extensive blockchain specialized software development program to become a skilled blockchain developer."
+          content="Learnbay's Full Stack Software Development Course will help you become a skilled software developer. Gain practical experience and master key coding skills."
         />
         <meta
           name="keywords"
-          content="Software Development Program with Specialization in Blockchain"
+          content="Software Development Program For Freshers"
         />
         <link
           rel="icon"
@@ -57,7 +54,7 @@ function blockchain() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/software-development-program-with-blockchain"
+          href="https://www.learnbay.co/software-development-program-with-specialization-data-science-and-ai"
         />
       </Head>
       <main>
@@ -75,45 +72,46 @@ function blockchain() {
         <FirstSection
           softwareBtnHide={true}
           FirstTyped="IBM Certificate"
-          SecondTyped="Expert-Led Advanced Program"
+          SecondTyped="Mock Interviews"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
-          titleCourse="Software Development Program with Specialization in Blockchain"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
+          titleCourse="Software Development Program For Freshers"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
           first="Tools"
           second="Tips"
           third="Technology"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain-Header.png"
-          // firstToparaImg="with Specialization in Blockchain"
-          firstHeading="Software Development Program with Blockchain Specialization"
-          // firstTopPara="Ready to lead the blockchain revolution?"
+          ibmOnly={true}
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SD-fresher-header.webp"
+          firstToparaImg="For Freshers"
+          firstHeading="Software Development Program"
+          firstTopPara="Join the next generation of developers"
           idss="bfl64ANfSV0"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
         />
         <SecondSection
           SecondHead="Why Choose Us?"
-          SecondPara="India's top rated  bootcamp for working professionals "
+          SecondPara="Kickstart your success with India's top bootcamp program"
           heading1="On-Demand Doubt Session"
           heading2="IBM Certificate"
-          heading3="Peer Learning & Networking"
-          heading4="Designed For Professionals"
-          SecondPara1="Get personalised doubt clearing session with industry experts"
-          SecondPara2="Enhance your technical skills & get IBM course completion certificate"
-          SecondPara3="Learn & collaborate with peers for growth & opportunities"
-          SecondPara4="Learn blockchain tools and techniques to excel in your career"
+          heading3="Industry-Relevant Projects"
+          heading4="Interactive Live Classes"
+          SecondPara1="Expert-led Q&A sessions for immediate doubt resolution"
+          SecondPara2="Boost skills with IBM course completion certificate"
+          SecondPara3="Gain intensive practical experience through industry-relevant projects"
+          SecondPara4="Expert-led live classes with hands-on experience"
         />
         <ProgramCustomer
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain+-+Who+is+this+program+for.png"
-          para1="Bachelor's degree with consistent good academics"
-          para2="Minimum 6 months of experience in IT/Non-IT domain"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SW+Dev+Masters+-+Who+is+this+program+for.png"
+          para1="Students pursuing or completed their bachelor's degree"
+          para2="Any fresher from tech or non-tech domain"
           para3="Computer Science, B.Tech, B.Sc. pursuing students"
-          para4="Professionals looking to upskill for better career growth"
+          para4="Designed for individuals seeking software development skills"
           heading1="Education"
-          heading2="Work experience"
+          heading2="Domain"
           heading3="Career stage"
           heading4="Aspirations"
         />
@@ -122,8 +120,8 @@ function blockchain() {
           secondLine="Invest in yourself!"
           thirdHeadSpan=" Alumni Community"
           thirdHead="Stay Ahead Of The Curve With Support Of Our"
-          point1="Enjoy 3+ years of career service access"
-          point2="Get 6 mock interviews with industry leaders"
+          point1="3+ years of career service access"
+          point2="6 mock interviews with industry leaders"
           point3="Resume build up session"
           point4="100% placement support"
           BatchPara="The pie-chart representation here shows that the comprehensive Advanced Data Science and AI Foundation Program is suitable for people who want to take their tech and business reporting knowledge to an advanced level, coming from the following industries and designation:"
@@ -157,34 +155,32 @@ function blockchain() {
         />
         <Counselling dataScienceCounselling={true} />
         <FourthSection
-          dataScienceCounselling={true}
           serviceBasic={true}
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
-          titleCourse="Software Development Program with Specialization in Blockchain"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
-          syllabus={BlockchainCourse[0].syllabus}
-          syllabusDesc={BlockchainCourse[0].syllabusDesc}
-          popupHead={BlockchainCourse[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
+          titleCourse="Software Development Program For Freshers"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          syllabus={FresherFullStackSoftwareCourseData[0].syllabus}
+          syllabusDesc={FresherFullStackSoftwareCourseData[0].syllabusDesc}
+          popupHead={FresherFullStackSoftwareCourseData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
         <GrowthStats
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain+Scope+Image.png"
-          heading="Accelerate blockchain career & secure your dream job confidently"
-          para1="Higher Growth: Compound annual growth rate of CAGR of 87.7% by 2030"
-          para2="Unlock earning potential: Be a blockchain developer, earn 8 LPA"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SW+Dev+Masters+Scope+Image-min.png"
+          heading="Embrace the future of technology & unlock endless career opportunities"
+          para1="Higher Growth: Compound annual growth rate of CAGR of 11.9% in 2023"
+          para2="Maximize Cloud Opportunities: Unleash your potential & earn 8 LPA"
           para3="Strong Demand: Growing need for tech wizards across various industries"
         />
 
         <FifthSection
-          blockChainTools={true}
-          dataScienceCounselling={true}
+          softTools={true}
           BlockchainCertificate={true}
-          Fee="₹ 95,000 + 18% GST"
-          FeeEmi="₹ 9,342/month"
+          Fee="₹ 60,000 + 18% GST"
+          FeeEmi="₹ 5,900/month"
           FeeHeading="Program Fee & Financing"
           FeeContent1="0% interest rate"
           FeeContent2="No cost EMI"
@@ -194,8 +190,8 @@ function blockchain() {
           FeeContent6="No additional cost"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
-          titleCourse="Software Development Program with Specialization in Blockchain"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
+          titleCourse="Software Development Program For Freshers"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -224,7 +220,7 @@ function blockchain() {
           SoftwareText={true}
           project="12+ Projects"
           tools="16+"
-          BlockChain={true}
+          Software={true}
           dataScience={true}
           titleCourse="Full Stack Project Brochure"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
@@ -234,13 +230,13 @@ function blockchain() {
           CourseFeeHead="Data Science and AI Foundation Program : Batch Details"
         />
         <FAQNew
-          FaqDatas={FaqDataBlockchain}
-          DomainFaqDatas={DomainFaqDataBlockchain}
-          PaymentFaqDatas={PaymentFaqDataBlockchain}
-          CapstoneFaqDatas={CapstoneFaqDataBlockchain}
-          jobFaqDatas={jobFaqDataBlockchain}
-          MentorshipFaqDatas={MentorshipFaqDataBlockchain}
-          SupportFaqDatas={SupportFaqDataBlockchain}
+          FaqDatas={FaqData9}
+          DomainFaqDatas={DomainFaqData9}
+          PaymentFaqDatas={PaymentFaqData9}
+          CapstoneFaqDatas={CapstoneFaqData9}
+          jobFaqDatas={jobFaqData9}
+          MentorshipFaqDatas={MentorshipFaqData9}
+          SupportFaqDatas={SupportFaqData9}
         />
         <SeventhSection fullStackCont={true} />
         <OfferPopup offer={true} />
