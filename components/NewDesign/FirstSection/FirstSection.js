@@ -20,7 +20,10 @@ function FirstSection({
   titleCourse,
   brochureLink,
   dataScienceCounselling,
-  FirstTyped, SecondTyped, ThirdTyped,
+  FirstTyped,
+  SecondTyped,
+  ThirdTyped,
+  ibmOnly,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -96,16 +99,26 @@ function FirstSection({
           In Collaboration With
         </p>
         <div className={styles.IBMlogo}>
-          <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSection.png"
-            width="283"
-            height="51"
-            layout="intrinsic"
-            alt="data science course"
-          />
+          {ibmOnly ? (
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/ibm-single-home.png"
+              width="127"
+              height="51"
+              layout="intrinsic"
+              alt="data science course"
+            />
+          ) : (
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSection.png"
+              width="283"
+              height="51"
+              layout="intrinsic"
+              alt="data science course"
+            />
+          )}
         </div>
         <div className={styles.animationTextWrap}>
-              <span ref={el} className={styles.animationText}></span>
+          <span ref={el} className={styles.animationText}></span>
         </div>
 
         <div className={styles.logos}>
@@ -154,11 +167,13 @@ function FirstSection({
             Brochure
             <FaDownload style={{ marginLeft: "10px" }} />
           </button>
-          {softwareBtnHide ? (<></>) : (
-          <button onClick={videoSHow}>
-            Intro Video{" "}
-            <FaPlayCircle style={{ marginLeft: "10px", fontSize: "22px" }} />{" "}
-          </button>
+          {softwareBtnHide ? (
+            <></>
+          ) : (
+            <button onClick={videoSHow}>
+              Intro Video{" "}
+              <FaPlayCircle style={{ marginLeft: "10px", fontSize: "22px" }} />{" "}
+            </button>
           )}
         </div>
       </div>

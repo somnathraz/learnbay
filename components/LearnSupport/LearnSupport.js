@@ -4,7 +4,7 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 import styles from "./LearnSupport.module.css";
 import Image from "next/image";
 
-function LearnSupport({FsdNumber}) {
+function LearnSupport({ FsdNumber }) {
   return (
     <>
       <h4>24/7 Learner’s Support</h4>
@@ -15,7 +15,7 @@ function LearnSupport({FsdNumber}) {
             width="590"
             height="400"
             className={styles.img}
-             alt="data science course"
+            alt="data science course"
           />
         </div>
         <div className={styles.learnInner}>
@@ -26,41 +26,40 @@ function LearnSupport({FsdNumber}) {
             shortly
           </p>
           <div className={styles.btnWrap}>
-          {FsdNumber ? (
-            <>
-            <a
-              
-              href="https://api.whatsapp.com/send?phone=919731135221&text=Hello,"
-              target="_blank"
-            >
-              <button className={styles.btn1}>
-                <AiOutlineWhatsApp /> Enquire Now
-              </button>
-            </a> 
-            <a href="tel:+919731135221">
-              <button className={styles.btn2}>
-                <MdCall /> +91 973 113 5221 
-              </button>
-            </a>
-            </>
-            ) : ( 
+            {FsdNumber ? (
               <>
-                {" "} 
+                                <a
+                  href="https://api.whatsapp.com/send?phone=917349222263&text=Hello,"
+                  target="_blank"
+                >
+                  <button className={styles.btn1}>
+                    <AiOutlineWhatsApp /> Enquire Now
+                  </button>
+                </a>
+                <a href="tel:+917795687988">
+                  <button className={styles.btn2}>
+                    <MdCall /> +91 77956 87988
+                  </button>
+                </a>
+              </>
+            ) : (
+              <>
+                {" "}
                 <a
-              href="https://api.whatsapp.com/send?phone=917349222263&text=Hello,"
-              target="_blank"
-            >
-              <button className={styles.btn1}>
-                <AiOutlineWhatsApp /> Enquire Now
-              </button>
-            </a> 
-            <a href="tel:+917795687988">
-              <button className={styles.btn2}>
-                <MdCall /> +91 77956 87988
-              </button>
-            </a>
-                </>
-          )}
+                  href="https://api.whatsapp.com/send?phone=917349222263&text=Hello,"
+                  target="_blank"
+                >
+                  <button className={styles.btn1}>
+                    <AiOutlineWhatsApp /> Enquire Now
+                  </button>
+                </a>
+                <a href="tel:+917795687988">
+                  <button className={styles.btn2}>
+                    <MdCall /> +91 77956 87988
+                  </button>
+                </a>
+              </>
+            )}
           </div>
         </div>
       </div>

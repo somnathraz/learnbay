@@ -64,8 +64,8 @@ const Footer = ({ FsdNumber }) => {
             <>
               <span style={{ display: "flex", marginTop: "10px" }}>
                 <BsFillTelephoneFill className="bIcons" />
-                <Link href="tel:+919731135221" target="_blank">
-                  (+91) 973 113 5221 
+                <Link href="tel:+917795687988" target="_blank">
+                  (+91) 77956 87988
                 </Link>
               </span>
             </>
@@ -93,17 +93,17 @@ const Footer = ({ FsdNumber }) => {
           </a>
           <a href="/full-stack-software-development-program">
             <p className={styles.FooterInnerli}>
-            Software Development Master Program
+              Software Development Master Program
             </p>
           </a>
           <a href="/software-development-program-with-specialization-in-blockchain">
             <p className={styles.FooterInnerli}>
-            Software Development Program in Blockchain
+              Software Development Program in Blockchain
             </p>
           </a>
           <a href="/software-development-program-with-specialization-in-cloud-computing-&-devops">
             <p className={styles.FooterInnerli}>
-            Software Development Program in Cloud and Devops
+              Software Development Program in Cloud and Devops
             </p>
           </a>
           <a href="/artificial-intelligence-certification-course">
