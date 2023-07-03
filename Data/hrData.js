@@ -822,21 +822,21 @@ export const HrData = [
     },
 
     Batch: [
-      {
-        Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 27th June 2023", "Time : 8 AM to 10 AM"],
-              },
-            },
-          ],
-          id: 0,
-          open: false,
-        },
-      },
+      // {
+      //   Module0: {
+      //     title: "Weekday Morning Batch :- (Mon-Fri)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Batch 1 :- Date And time ",
+      //           desc: ["Date : 27th June 2023", "Time : 8 AM to 10 AM"],
+      //         },
+      //       },
+      //     ],
+      //     id: 0,
+      //     open: false,
+      //   },
+      // },
       {
         Module0: {
           title: "Weekend Evening Batch :- (Mon-Fri)",
