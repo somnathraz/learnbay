@@ -213,7 +213,7 @@ const CourseFee = ({
                           <b>Batch Type</b>
                         </p>
                         <p className={styles.list}>
-                          Weekday Evening (Mon-Wed-Fri)
+                          Weekday Evening (Mon-Fri)
                         </p>
                         <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
                       </div>
@@ -224,8 +224,8 @@ const CourseFee = ({
                           <MdDateRange className={styles.icon} />
                           <b>Date</b>
                         </p>
-                        <p className={styles.list}>30th June 2023</p>
-                        <p className={styles.list}>2nd July 2023</p>
+                        <p className={styles.list}>14th July 2023</p>
+                        <p className={styles.list}>16th July 2023</p>
                       </div>
                     </div>
                     <div>
