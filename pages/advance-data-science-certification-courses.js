@@ -33,7 +33,7 @@ import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 import Counselling from "../components/NewDesign/Counselling/Counselling";
 
 function blockchain() {
-  const [popups, setPopups] = useState(false);
+  const [popups, setPopups] = useState(false); 
   const [video, setVideo] = useState(false);
   const videoSHow = () => {
     setVideo(true);
