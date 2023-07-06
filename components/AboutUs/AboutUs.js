@@ -227,7 +227,7 @@ function AboutUs() {
               />
               <div className={styles.CountBox}>
                 <CountUp
-                  end={10000}
+                  end={30000}
                   delay={2}
                   duration={2}
                   suffix="+"
