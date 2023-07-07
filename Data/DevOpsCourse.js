@@ -216,41 +216,41 @@ export const DevOpsCourse = [
                 ],
               },
             },
+            // {
+            //   chap: {
+            //     title: "Module 10 :- STL - 1",
+            //     desc: [
+            //       "Collections (Standard Template Library)",
+            //       "Vector",
+            //       "Set",
+            //       "Iterator",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Module 11 :- STL - 2",
+            //     desc: [
+            //       "Collections (Standard Template Library)",
+            //       "Map",
+            //       "Iterator",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Module 12 :- STL - 3",
+            //     desc: [
+            //       "Collections (Standard Template Library)",
+            //       "STL functions - Lower Bound",
+            //       "STL functions upperbound",
+            //       "Sort",
+            //     ],
+            //   },
+            // },
             {
               chap: {
-                title: "Module 10 :- STL - 1",
-                desc: [
-                  "Collections (Standard Template Library)",
-                  "Vector",
-                  "Set",
-                  "Iterator",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 11 :- STL - 2",
-                desc: [
-                  "Collections (Standard Template Library)",
-                  "Map",
-                  "Iterator",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 12 :- STL - 3",
-                desc: [
-                  "Collections (Standard Template Library)",
-                  "STL functions - Lower Bound",
-                  "STL functions upperbound",
-                  "Sort",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 13 :- ArrayList and Linked List - 1",
+                title: "Module 10 :- ArrayList and Linked List - 1",
                 desc: [
                   "Single Linked List (Insertion at positions in Linked List, iteration in Linked List, Deletion at position in Linked List, Linked List loops)",
                 ],
@@ -258,7 +258,7 @@ export const DevOpsCourse = [
             },
             {
               chap: {
-                title: "Module 14 :- Linked List - 2",
+                title: "Module 11 :- Linked List - 2",
                 desc: [
                   "Double Linked List (Double Linked list creation (prev pointer), iteration in Double Linked List, insertion at positions in Linked List, Deletion in Double Linked List)",
                 ],
@@ -266,7 +266,7 @@ export const DevOpsCourse = [
             },
             {
               chap: {
-                title: "Module 15 :- Linked List - 3",
+                title: "Module 12 :- Linked List - 3",
                 desc: [
                   "Circular Linked list (Circular Linked list creation,iteration in Circular Linked List, insertion at positions in Circular Linked List, Deletion in Circular Linked List",
                 ],
@@ -274,19 +274,19 @@ export const DevOpsCourse = [
             },
             {
               chap: {
-                title: "Module 16 :- Stack",
+                title: "Module 13 :- Stack",
                 desc: ["Intro", "Application and Implementation using Array"],
               },
             },
             {
               chap: {
-                title: "Module 17 :- Applications of Stack",
+                title: "Module 14 :- Applications of Stack",
                 desc: ["Implementation using Linked list", "Stack as library"],
               },
             },
             {
               chap: {
-                title: "Module 18 :- Queue",
+                title: "Module 15 :- Queue",
                 desc: [
                   "Implementation using Array",
                   "Implementation using Linked list",
@@ -296,7 +296,7 @@ export const DevOpsCourse = [
             },
             {
               chap: {
-                title: "Module 19 :- Applications of Queue",
+                title: "Module 16 :- Applications of Queue",
                 desc: [
                   "Implementation using Array",
                   "Implementation using Linked list",

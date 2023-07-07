@@ -216,41 +216,41 @@ export const FresherFullStackSoftwareCourseData = [
                 ],
               },
             },
+            // {
+            //   chap: {
+            //     title: "Module 10 :- STL - 1",
+            //     desc: [
+            //       "Collections (Standard Template Library)",
+            //       "Vector",
+            //       "Set",
+            //       "Iterator",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Module 11 :- STL - 2",
+            //     desc: [
+            //       "Collections (Standard Template Library)",
+            //       "Map",
+            //       "Iterator",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Module 12 :- STL - 3",
+            //     desc: [
+            //       "Collections (Standard Template Library)",
+            //       "STL functions - Lower Bound",
+            //       "STL functions upperbound",
+            //       "Sort",
+            //     ],
+            //   },
+            // },
             {
               chap: {
-                title: "Module 10 :- STL - 1",
-                desc: [
-                  "Collections (Standard Template Library)",
-                  "Vector",
-                  "Set",
-                  "Iterator",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 11 :- STL - 2",
-                desc: [
-                  "Collections (Standard Template Library)",
-                  "Map",
-                  "Iterator",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 12 :- STL - 3",
-                desc: [
-                  "Collections (Standard Template Library)",
-                  "STL functions - Lower Bound",
-                  "STL functions upperbound",
-                  "Sort",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 13 :- ArrayList and Linked List - 1",
+                title: "Module 10 :- ArrayList and Linked List - 1",
                 desc: [
                   "Single Linked List (Insertion at positions in Linked List, iteration in Linked List, Deletion at position in Linked List, Linked List loops)",
                 ],
@@ -258,7 +258,7 @@ export const FresherFullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Module 14 :- Linked List - 2",
+                title: "Module 11 :- Linked List - 2",
                 desc: [
                   "Double Linked List (Double Linked list creation (prev pointer), iteration in Double Linked List, insertion at positions in Linked List, Deletion in Double Linked List)",
                 ],
@@ -266,7 +266,7 @@ export const FresherFullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Module 15 :- Linked List - 3",
+                title: "Module 12 :- Linked List - 3",
                 desc: [
                   "Circular Linked list (Circular Linked list creation,iteration in Circular Linked List, insertion at positions in Circular Linked List, Deletion in Circular Linked List",
                 ],
@@ -274,19 +274,19 @@ export const FresherFullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Module 16 :- Stack",
+                title: "Module 13 :- Stack",
                 desc: ["Intro", "Application and Implementation using Array"],
               },
             },
             {
               chap: {
-                title: "Module 17 :- Applications of Stack",
+                title: "Module 14 :- Applications of Stack",
                 desc: ["Implementation using Linked list", "Stack as library"],
               },
             },
             {
               chap: {
-                title: "Module 18 :- Queue",
+                title: "Module 15 :- Queue",
                 desc: [
                   "Implementation using Array",
                   "Implementation using Linked list",
@@ -296,11 +296,98 @@ export const FresherFullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Module 19 :- Applications of Queue",
+                title: "Module 16 :- Applications of Queue",
                 desc: [
                   "Implementation using Array",
                   "Implementation using Linked list",
                   "Queue as a library",
+                ],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 3 :- MERN",
+          content: [
+            {
+              chap: {
+                title: "Basics of Frontend development with HTML and CSS",
+                desc: [
+                  "Understand the basics of Full-Stack Development",
+                  " Learn the fundamentals of HTML, including tags, document structure, content and container tags, attributes, and the DOM tree",
+                  "Understand the different types of CSS selectors and how they work",
+                  "Learn about the box model, display property, form element and its attributes, and flexboxes and grids",
+                  "Understand the basics of RWD, animation, and web accessibility",
+                  "Gain an understanding of HTML events and how to use them",
+                  "Learn about Bootstrap and its components and utilities, including Jumbotron, Button, Grid, Table, Form, Alert, Wells, Badge and label, Panels, Pagination, Pager, Image, Glyphicon, Carousel, Progress Bar, List Group, Tabs/Pill, Navbar, Input Types, Modals, Popover, and Scrollspy.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Web programming with Javascript",
+                desc: [
+                  "Understanding the basics of JavaScript, including variables, constants, and primitive types.",
+                  "Understanding the control flow of JavaScript, including if/else statements, switch/case statements, loops, and break/continue statements.",
+                  "Understanding the basics of objects, arrays, and functions in JavaScript.",
+                  "Understanding advanced techniques related to arrays, such as sorting, filtering, and mapping.",
+                  "Understanding the basics of OOP, including factories and constructor functions, value and reference types, and private properties and methods.",
+                  "Understanding prototypes, prototype inheritance, and multilevel inheritance in JavaScript.",
+                  "Understanding DOM manipulation, including the DOM model, DOM selectors, and style manipulation.",
+                  "Understanding operators and ES6, including classes, static methods, closures, and inheritance.",
+                  "Understanding asynchronous JavaScript, including JSON, promises, and fetch.",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "React",
+                desc: [
+                  "Understand the basics of React, including JSX, components, props, and state",
+                  "Learn how to work with events and forms in React",
+                  "Understand how to render conditional content in React",
+                  "Learn how to work with APIs in React and handle requests",
+                  "Understand advanced React concepts, such as Context API and creating custom hooks",
+                  "Learn how to use Redux to manage state in React",
+                  "Understand core Redux concepts, such as actions, reducers, and store",
+                  "Learn how to connect React to Redux with React Redux",
+                  "Understand how to refactor code using Redux Toolkit",
+                  "Learn how to handle async actions with middleware and thunks in Redux.",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "NodeJS with Express and MongoDB",
+                desc: [
+                  "Understanding the basics of JavaScript, including variables, constants, and primitive types.",
+                  "Understanding the control flow of JavaScript, including if/else statements, switch/case statements, loops, and break/continue statements.",
+                  "Understanding the basics of objects, arrays, and functions in JavaScript.",
+                  "Understanding advanced techniques related to arrays, such as sorting, filtering, and mapping.",
+                  "Understanding the basics of OOP, including factories and constructor functions, value and reference types, and private properties and methods.",
+                  "Understanding prototypes, prototype inheritance, and multilevel inheritance in JavaScript.",
+                  "Understanding DOM manipulation, including the DOM model, DOM selectors, and style manipulation.",
+                  "Understanding operators and ES6, including classes, static methods, closures, and inheritance.",
+                  "Understanding asynchronous JavaScript, including JSON, promises, and fetch.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Deployment and Hosting with GIT",
+                desc: [
+                  "Understand the concept of version control and its benefits",
+                  "Learn about Git and its differences from other VCS",
+                  "Install Git and create local and remote repositories",
+                  "Understand Git commands and workflows",
+                  "Learn how to work with Git in IDE and real-time open-source projects",
+                  "Understand Git server administration and user management",
                 ],
               },
             },

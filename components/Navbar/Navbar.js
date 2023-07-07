@@ -114,9 +114,9 @@ const Navbar = ({
                       <span onClick={showMenu}>
                         <Link href="/">Home</Link>
                       </span>
-                      <span onClick={showMenu}>
+                      {/* <span onClick={showMenu}>
                         <Link href="/about-us">About Us</Link>
-                      </span>
+                      </span> */}
                       <span onClick={showMenu}>
                         <Link href="/demo">Demo</Link>
                       </span>
@@ -206,56 +206,58 @@ const Navbar = ({
             )}
           </div>
         )}
-        {eventLink ? (""):(
-        <div className={styles.right}>
-          {eventO ? (
-            ""
-          ) : (
-            <>
-              {event ? (
-                <>
-                  <span>
-                    <Link href="#Feature">Program Features</Link>
-                  </span>
+        {eventLink ? (
+          ""
+        ) : (
+          <div className={styles.right}>
+            {eventO ? (
+              ""
+            ) : (
+              <>
+                {event ? (
+                  <>
+                    <span>
+                      <Link href="#Feature">Program Features</Link>
+                    </span>
 
-                  <span>
-                    <Link href="#trainer">Trainer Details</Link>
-                  </span>
-                  <span>
-                    <Link href="#About">Learn About</Link>
-                  </span>
-                </>
-              ) : (
-                <>
-                  {" "}
-                  <span>
-                    <Link href="/">Home</Link>
-                  </span>
-                  <span>
-                    <Link href="/about-us">About Us</Link>
-                  </span>
-                  <span>
-                    <Link href="/demo">Demo</Link>
-                  </span>
-                  <span>
-                    <Link href="https://blog.learnbay.co/">Blog</Link>
-                  </span>
-                  <span>
-                    <Link href="/contact-us">Contact Us</Link>
-                  </span>
-                  {/* <span>
+                    <span>
+                      <Link href="#trainer">Trainer Details</Link>
+                    </span>
+                    <span>
+                      <Link href="#About">Learn About</Link>
+                    </span>
+                  </>
+                ) : (
+                  <>
+                    {" "}
+                    <span>
+                      <Link href="/">Home</Link>
+                    </span>
+                    {/* <span>
+                      <Link href="/about-us">About Us</Link>
+                    </span> */}
+                    <span>
+                      <Link href="/demo">Demo</Link>
+                    </span>
+                    <span>
+                      <Link href="https://blog.learnbay.co/">Blog</Link>
+                    </span>
+                    <span>
+                      <Link href="/contact-us">Contact Us</Link>
+                    </span>
+                    {/* <span>
                 <Link href="/career-portal">Career</Link>
               </span> */}
-                  <button onClick={popupShow} className="outLineBtn">
-                    Apply For Counselling
-                    <FaArrowRight className={styles.icon} />
-                  </button>
-                </>
-              )}
-            </>
-          )}
-          <Popup></Popup>
-        </div>
+                    <button onClick={popupShow} className="outLineBtn">
+                      Apply For Counselling
+                      <FaArrowRight className={styles.icon} />
+                    </button>
+                  </>
+                )}
+              </>
+            )}
+            <Popup></Popup>
+          </div>
         )}
       </nav>
     </div>

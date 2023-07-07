@@ -154,7 +154,7 @@ export const viewAllD = [
     titleCourse: "Software Development Program in Blockchain",
     para: [
       "250+ hours content",
-      "12 Projects",
+      "12 Case Studies",
       "Course Fee : ₹ 95,000 | No cost EMI",
     ],
     link1: "/software-development-program-with-specialization-in-blockchain",
@@ -173,8 +173,8 @@ export const viewAllD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
     para: [
-      "300+ hours content",
-      "12 Projects",
+      "400+ hours content",
+      "12 Case Studies",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/full-stack-software-development-program",
@@ -194,7 +194,7 @@ export const viewAllD = [
     titleCourse: "Software Development Program in Cloud Computing & DevOps",
     para: [
       "250+ hours content",
-      "12 Projects",
+      "12 Case Studies",
       "Course Fee : ₹ 95,000 | No cost EMI",
     ],
     link1:
@@ -262,6 +262,27 @@ export const viewAllD = [
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
   },
+  {
+    id: 14,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/freshers-card.webp",
+    title: "Software Development Program ",
+    courseTime: "8-10 months",
+    title1: "For Freshers",
+    tagHead: "Be a Product Design Pro",
+    tag: "Full stack",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+Program+for+Freshers.pdf",
+    titleCourse: "Software Development Program For Freshers",
+    para: [
+      "300+ hours content",
+      "12 Case Studies",
+      "Course Fee : ₹ 60,000 | No cost EMI",
+    ],
+    link1:
+      "/software-development-program-with-specialization-in-cloud-computing-&-devops",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
+  },
 ];
 export const ForProgrammersD = [
   {
@@ -296,8 +317,8 @@ export const ForProgrammersD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
     para: [
-      "300+ hours content",
-      "12 Projects",
+      "400+ hours content",
+      "12 Case Studies",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/full-stack-software-development-program",
@@ -357,7 +378,7 @@ export const ForProgrammersD = [
     titleCourse: "Software Development Program in Blockchain",
     para: [
       "250+ hours content",
-      "12 Projects",
+      "12 Case Studies",
       "Course Fee : ₹ 95,000 | No cost EMI",
     ],
     link1: "/software-development-program-with-specialization-in-blockchain",
@@ -397,7 +418,7 @@ export const ForProgrammersD = [
     titleCourse: "Software Development Program in Cloud Computing & DevOps",
     para: [
       "250+ hours content",
-      "12 Projects",
+      "12 Case Studies",
       "Course Fee : ₹ 95,000 | No cost EMI",
     ],
     link1:
@@ -642,8 +663,8 @@ export const JobGuaranteeD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
     para: [
-      "300+ hours content",
-      "12 Projects",
+      "400+ hours content",
+      "12 Case Studies",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/full-stack-software-development-program",
@@ -665,7 +686,7 @@ export const StackD = [
     titleCourse: "Software Development Program in Blockchain",
     para: [
       "250+ hours content",
-      "12 Projects",
+      "12 Case Studies",
       "Course Fee : ₹ 95,000 | No cost EMI",
     ],
     link1: "/software-development-program-with-specialization-in-blockchain",
@@ -683,8 +704,8 @@ export const StackD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
     para: [
-      "300+ hours content",
-      "12 Projects",
+      "400+ hours content",
+      "12 Case Studies",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
     link1: "/full-stack-software-development-program",
@@ -704,8 +725,29 @@ export const StackD = [
     titleCourse: "Software Development Program in Cloud Computing & DevOps",
     para: [
       "250+ hours content",
-      "12 Projects",
+      "12 Case Studies",
       "Course Fee : ₹ 95,000 | No cost EMI",
+    ],
+    link1:
+      "/software-development-program-with-specialization-in-cloud-computing-&-devops",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
+  },
+  {
+    id: 4,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/freshers-card.webp",
+    title: "Software Development Program ",
+    courseTime: "8-10 months",
+    title1: "For Freshers",
+    tagHead: "Be a Product Design Pro",
+    tag: "Full stack",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+Program+for+Freshers.pdf",
+    titleCourse: "Software Development Program For Freshers",
+    para: [
+      "300+ hours content",
+      "12 Case Studies",
+      "Course Fee : ₹ 60,000 | No cost EMI",
     ],
     link1:
       "/software-development-program-with-specialization-in-cloud-computing-&-devops",

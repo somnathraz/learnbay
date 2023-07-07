@@ -13,16 +13,6 @@ import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { FresherFullStackSoftwareCourseData } from "../Data/FresherFullStackSoftware";
-import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
-import {
-  FaqData9,
-  DomainFaqData9,
-  PaymentFaqData9,
-  CapstoneFaqData9,
-  jobFaqData9,
-  MentorshipFaqData9,
-  SupportFaqData9,
-} from "../components/FAQ/FaqData";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
 import Switch from "../components/NewDesign/switch/switch";
@@ -39,7 +29,7 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Master Program in Software Development - Learnbay</title>
+        <title>Software Development Program For Freshers - Learnbay</title>
         <meta
           name="description"
           content="Learnbay's Full Stack Software Development Course will help you become a skilled software developer. Gain practical experience and master key coding skills."
@@ -65,7 +55,6 @@ function blockchain() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            {/* <p>Fill the below details to get started</p> */}
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
@@ -76,7 +65,7 @@ function blockchain() {
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Software Development Program For Freshers"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+Program+for+Freshers.pdf"
           first="Tools"
           second="Tips"
           third="Technology"
@@ -86,18 +75,18 @@ function blockchain() {
           firstHeading="Software Development Program"
           firstTopPara="Join the next generation of developers"
           idss="bfl64ANfSV0"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+Program+for+Freshers.pdf"
         />
         <SecondSection
           SecondHead="Why Choose Us?"
           SecondPara="Kickstart your success with India's top bootcamp program"
           heading1="On-Demand Doubt Session"
           heading2="IBM Certificate"
-          heading3="Industry-Relevant Projects"
+          heading3="Case Studies"
           heading4="Interactive Live Classes"
           SecondPara1="Expert-led Q&A sessions for immediate doubt resolution"
           SecondPara2="Boost skills with IBM course completion certificate"
-          SecondPara3="Gain intensive practical experience through industry-relevant projects"
+          SecondPara3="Gain intensive practical experience through Case Studies"
           SecondPara4="Expert-led live classes with hands-on experience"
         />
         <ProgramCustomer
@@ -105,7 +94,7 @@ function blockchain() {
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SW+Dev+Masters+-+Who+is+this+program+for.png"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/who-is-fresher.webp"
           para1="Students pursuing or completed their bachelor's degree"
           para2="Any fresher from tech or non-tech domain"
           para3="Computer Science, B.Tech, B.Sc. pursuing students"
@@ -160,11 +149,11 @@ function blockchain() {
           careerSpan=" Basic"
           dataScience={true}
           titleCourse="Software Development Program For Freshers"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+Program+for+Freshers.pdf"
           syllabus={FresherFullStackSoftwareCourseData[0].syllabus}
           syllabusDesc={FresherFullStackSoftwareCourseData[0].syllabusDesc}
           popupHead={FresherFullStackSoftwareCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+Program+for+Freshers.pdf"
           hours="250+ Hours"
           project="12+ Real Time"
         />
@@ -191,7 +180,7 @@ function blockchain() {
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
           titleCourse="Software Development Program For Freshers"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+Program+for+Freshers.pdf"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -218,9 +207,9 @@ function blockchain() {
         />
         <Project
           SoftwareText={true}
-          project="12+ Projects"
+          project="8+ Case Studies"
           tools="16+"
-          Software={true}
+          Freshers={true}
           dataScience={true}
           titleCourse="Full Stack Project Brochure"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
@@ -228,15 +217,6 @@ function blockchain() {
         <BatchDetails
           FullStack={true}
           CourseFeeHead="Data Science and AI Foundation Program : Batch Details"
-        />
-        <FAQNew
-          FaqDatas={FaqData9}
-          DomainFaqDatas={DomainFaqData9}
-          PaymentFaqDatas={PaymentFaqData9}
-          CapstoneFaqDatas={CapstoneFaqData9}
-          jobFaqDatas={jobFaqData9}
-          MentorshipFaqDatas={MentorshipFaqData9}
-          SupportFaqDatas={SupportFaqData9}
         />
         <SeventhSection fullStackCont={true} />
         <OfferPopup offer={true} />
