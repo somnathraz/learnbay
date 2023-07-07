@@ -195,7 +195,7 @@ function AboutUs() {
               <FaAngleDoubleUp className={styles.BoxIcon} />
               <div>
                 <CountUp
-                  end={97}
+                  end={175}
                   delay={2}
                   duration={2}
                   suffix="%"
@@ -211,7 +211,7 @@ function AboutUs() {
               />
               <div>
                 <CountUp
-                  end={250}
+                  end={300}
                   delay={2}
                   duration={2}
                   suffix="+"

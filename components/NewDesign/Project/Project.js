@@ -26,6 +26,7 @@ const Project = ({
   Cloud,
   BlockChain,
   SoftwareText,
+  Freshers,
 }) => {
   const [popups, setPopups] = useState(false);
   const [popupsP, setPopupsP] = useState(false);
@@ -75,14 +76,23 @@ const Project = ({
 
       <div className={styles.headWrapper}>
         <div className={styles.left}>
-          <h3>Industry Projects</h3>
-          {SoftwareText ? ( <p className={styles.ptop}>
-            Work on live projects certified from IBM
-          </p>): (
-          <p className={styles.ptop}>
-            Work on live capstone projects certified from IBM
-          </p>
-)}
+          {SoftwareText ? (
+            <>
+              <h3>Case Studies</h3>
+              <p className={styles.ptop}>
+                Work on live projects certified from IBM
+              </p>
+            </>
+          ) : (
+            <>
+              {" "}
+              <h3>Industry Projects</h3>
+              <p className={styles.ptop}>
+                Work on live capstone projects certified from IBM
+              </p>
+            </>
+          )}
+
           <div className={styles.iconWrapper}>
             <div className={styles.middle}>
               <BsCheck2 className={styles.icon} />
@@ -1769,17 +1779,16 @@ const Project = ({
                 </div>
                 <div className={styles.body}>
                   <p>
-                  Supply chain management platform that enables secure and transparent sharing of trade data.
+                    Supply chain management platform that enables secure and
+                    transparent sharing of trade data.
                   </p>
                   <span
                     onClick={() => {
                       popupShow();
-                      setTitle(
-                        "IBM's TradeLens"
-                      );
+                      setTitle("IBM's TradeLens");
                       setProjectTitle("Logistics and Shipping");
                       setDesc(
-                        "Supply chain management platform that enables secure and transparent sharing of trade data. Tools: Hyperledger Fabric, Kubernetes, and Docker.",
+                        "Supply chain management platform that enables secure and transparent sharing of trade data. Tools: Hyperledger Fabric, Kubernetes, and Docker."
                       );
                       setImg(
                         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hr-domain-img.png"
@@ -1808,15 +1817,15 @@ const Project = ({
                 </div>
                 <div className={styles.body}>
                   <p>
-                  Permissioned blockchain platform for financial institutions that provides privacy features and efficient settlement of financial transactions.
+                    Permissioned blockchain platform for financial institutions
+                    that provides privacy features and efficient settlement of
+                    financial transactions.
                   </p>
                   <span
                     onClick={() => {
                       popupShow();
                       setProjectTitle("Finance");
-                      setTitle(
-                        "JPMorgan's Quorum"
-                      );
+                      setTitle("JPMorgan's Quorum");
                       setDesc(
                         "Permissioned blockchain platform for financial institutions that provides privacy features and efficient settlement of financial transactions. Tools: Ethereum, Solidity, and Go."
                       );
@@ -1847,14 +1856,13 @@ const Project = ({
                 </div>
                 <div className={styles.body}>
                   <p>
-                  The project involves developing a video streaming service that allows users to watch movies and TV shows. 
+                    The project involves developing a video streaming service
+                    that allows users to watch movies and TV shows.
                   </p>
                   <span
                     onClick={() => {
                       popupShow();
-                      setTitle(
-                        "Video Streaming Service"
-                      );
+                      setTitle("Video Streaming Service");
                       setProjectTitle("Netflix");
                       setDesc(
                         "The project involves developing a video streaming service that allows users to watch movies and TV shows. Tools: Java, Spring Boot, React, and MySQL"
@@ -1886,14 +1894,14 @@ const Project = ({
                 </div>
                 <div className={styles.body}>
                   <p>
-                  Cloud-based platform that allows for easy deployment and management of blockchain networks. Supports multiple protocols and integrates with existing enterprise systems.
+                    Cloud-based platform that allows for easy deployment and
+                    management of blockchain networks. Supports multiple
+                    protocols and integrates with existing enterprise systems.
                   </p>
                   <span
                     onClick={() => {
                       popupShow();
-                      setTitle(
-                        "Microsoft's Azure Blockchain Service"
-                      );
+                      setTitle("Microsoft's Azure Blockchain Service");
                       setProjectTitle("Cloud-based");
                       setDesc(
                         "Cloud-based platform that allows for easy deployment and management of blockchain networks. Supports multiple protocols and integrates with existing enterprise systems. Tools: Ethereum, Corda, and Hyperledger Fabric."
@@ -1925,14 +1933,14 @@ const Project = ({
                 </div>
                 <div className={styles.body}>
                   <p>
-                  Blockchain-based system for tracking food products in the supply chain, providing transparency and visibility to customers.
+                    Blockchain-based system for tracking food products in the
+                    supply chain, providing transparency and visibility to
+                    customers.
                   </p>
                   <span
                     onClick={() => {
                       popupShow();
-                      setTitle(
-                        "Walmart's Food Traceability Initiative"
-                      );
+                      setTitle("Walmart's Food Traceability Initiative");
                       setProjectTitle("Food and Agriculture.");
                       setDesc(
                         "Blockchain-based system for tracking food products in the supply chain, providing transparency and visibility to customers. Tools: Hyperledger Fabric."
@@ -1964,14 +1972,14 @@ const Project = ({
                 </div>
                 <div className={styles.body}>
                   <p>
-                  Cross-border payments platform that uses blockchain technology for secure and efficient settlement of international payments. 
+                    Cross-border payments platform that uses blockchain
+                    technology for secure and efficient settlement of
+                    international payments.
                   </p>
                   <span
                     onClick={() => {
                       popupShow();
-                      setTitle(
-                        "Visa's B2B Connect"
-                      );
+                      setTitle("Visa's B2B Connect");
                       setProjectTitle("Finance");
                       setDesc(
                         "Cross-border payments platform that uses blockchain technology for secure and efficient settlement of international payments. Tools: Hyperledger Fabric"
@@ -2003,14 +2011,14 @@ const Project = ({
                 </div>
                 <div className={styles.body}>
                   <p>
-                  The project involves developing a ride-hailing app that allows users to request rides, track their location, and pay for their trips.
+                    The project involves developing a ride-hailing app that
+                    allows users to request rides, track their location, and pay
+                    for their trips.
                   </p>
                   <span
                     onClick={() => {
                       popupShow();
-                      setTitle(
-                        "Ride-hailing App"
-                      );
+                      setTitle("Ride-hailing App");
                       setProjectTitle("Uber");
                       setDesc(
                         "The project involves developing a ride-hailing app that allows users to request rides, track their location, and pay for their trips. Tools: Node.js, React Native, MongoDB, and Google Maps API"
@@ -2022,6 +2030,158 @@ const Project = ({
                   >
                     Learn More
                   </span>
+                </div>
+              </SwiperSlide>
+            </>
+          ) : (
+            ""
+          )}
+          {Freshers ? (
+            <>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Portfolio Website</h5>
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Interactive Personal Website
+                    <br />
+                    List professional Details like experience and educations
+                    <br />
+                    Showcase your Projects and achievements
+                    <br />
+                    SEO Friendly to rank on google
+                    <br />
+                    Deployed on Github Pages
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Website clone</h5>
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Clone website like facebook, amazon, flipkart, zomato etc
+                    <br />
+                    Pixel perfect cloning of the website
+                    <br />
+                    Multiple pages
+                    <br />
+                    Deployed on Github Pages
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Link Tree</h5>
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Custom link tree
+                    <br />
+                    Personal and social links
+                    <br />
+                    QR code to open the link
+                    <br />
+                    Deployed on GitHub Pages
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Movie App</h5>
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Online application with all the movies and series
+                    <br />
+                    User can search for any movie
+                    <br />
+                    User can view the movie details
+                    <br />
+                    Deployed on Netlify
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Meme Generator</h5>
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Online application to view trending memes
+                    <br />
+                    User can upload and created meme on the go
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Real Time Chat Application</h5>
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Login/Signup to access the application
+                    <br />
+                    Invite people using emails
+                    <br />
+                    create chat rooms
+                    <br />
+                    Add one-o-one chat with other users
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Task Management</h5>
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Login/Register to the application
+                    <br />
+                    Add daily tasks for themselves
+                    <br />
+                    Assign a due date of completeion
+                    <br />
+                    Mark them as complete/incomplete
+                    <br />
+                    View weekly/monthly statistics of thier todos.
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}> 
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Blogging Application</h5>
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Login/Signup to the application
+                    <br />
+                    Create article
+                    <br />
+                    View list of all articles
+                    <br />
+                    Edit/Delete his/her own articles
+                    <br />
+                    Add categories, tags and filters to list blog page
+                  </p>
                 </div>
               </SwiperSlide>
             </>

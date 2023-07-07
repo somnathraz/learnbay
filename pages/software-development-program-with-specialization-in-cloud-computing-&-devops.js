@@ -225,7 +225,7 @@ function blockchain() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <Project
-          project="12+ Projects"
+          project="12+ Case Studies"
           SoftwareText={true}
           tools="16+"
           Cloud={true}

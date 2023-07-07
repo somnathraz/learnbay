@@ -425,6 +425,24 @@ const Tabs = ({ handleIcon }) => {
                     </div>
                   </a>
                 </div>
+                <div className={styles.Row}>
+                  <a href="/software-development-program-for-freshers">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>
+                        Software Development 
+                          <br />Program For Freshers
+                        </h5>
+                        <span>
+                          300+ Hours <BsDot /> 8 & 10 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             ) : (
               ""
@@ -702,6 +720,24 @@ const Tabs = ({ handleIcon }) => {
                         </h5>
                         <span>
                           250+ Hours <BsDot /> 8 & 10 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/software-development-program-for-freshers">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>
+                        Software Development 
+                          <br />Program For Freshers
+                        </h5>
+                        <span>
+                          300+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -1023,6 +1059,24 @@ const Tabs = ({ handleIcon }) => {
                     </div>
                   </a>
                 </div>
+                <div className={styles.Row}>
+                  <a href="/software-development-program-for-freshers">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>
+                        Software Development 
+                          <br />Program For Freshers
+                        </h5>
+                        <span>
+                          300+ Hours <BsDot /> 8 & 10 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             ) : (
               ""
@@ -1222,6 +1276,24 @@ const Tabs = ({ handleIcon }) => {
                         </h5>
                         <span>
                           250+ Hours <BsDot /> 7 & 9 Months{" "}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className={styles.Row}>
+                  <a href="/software-development-program-for-freshers">
+                    <div
+                      className={styles.Program}
+                      onClick={() => handleIcon(false)}
+                    >
+                      <div className={styles.ProLeft}>
+                        <h5>
+                        Software Development 
+                          <br />Program For Freshers
+                        </h5>
+                        <span>
+                          300+ Hours <BsDot /> 8 & 10 Months{" "}
                         </span>
                       </div>
                     </div>

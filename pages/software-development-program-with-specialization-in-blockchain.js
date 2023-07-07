@@ -226,7 +226,7 @@ function blockchain() {
         />
         <Project
           SoftwareText={true}
-          project="12+ Projects"
+          project="12+ Case Studies"
           tools="16+"
           BlockChain={true}
           dataScience={true}
