@@ -101,7 +101,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 9 & 11 Months{" "}
+                          400+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -402,7 +402,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 9 & 11 Months{" "}
+                          400+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -507,7 +507,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 9 & 11 Months{" "}
+                          400+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -600,7 +600,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 9 & 11 Months{" "}
+                          400+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -792,7 +792,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 9 & 11 Months{" "}
+                          400+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -1036,7 +1036,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 9 & 11 Months{" "}
+                          400+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -1107,7 +1107,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 9 & 11 Months{" "}
+                          400+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -1209,7 +1209,7 @@ const Tabs = ({ handleIcon }) => {
                       <div className={styles.ProLeft}>
                         <h5>Software Development Master Program</h5>
                         <span>
-                          300+ Hours <BsDot /> 9 & 11 Months{" "}
+                          400+ Hours <BsDot /> 9 & 11 Months{" "}
                         </span>
                       </div>
                     </div>
