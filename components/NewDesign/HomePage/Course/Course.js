@@ -464,7 +464,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
           </span>
           {Stack ? (
             <div className={styles.mPanel}>
-              <h5>Software Development (3) </h5>
+              <h5>Software Development (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}
@@ -898,7 +898,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                   })}
                 </Swiper>
               </div>
-              <h5>Software Development (3) </h5>
+              <h5>Software Development (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}
@@ -1108,7 +1108,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                   })}
                 </Swiper>
               </div>
-              <h5>Software Development (3) </h5>
+              <h5>Software Development (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}
@@ -1756,7 +1756,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
           )}
           {Stack ? (
             <>
-              <h5>Software Development (3) </h5>
+              <h5>Software Development (4) </h5>
               <div className={styles.gridPanel}>
                 <Swiper
                   slidesPerView={mobile ? 1.03 : 3.1}
