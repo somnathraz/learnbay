@@ -246,14 +246,14 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience, d
             />
             Data Science & AI Courses&nbsp;
             {mobile ? (<br />) : ("")}<input
-              id="Software/Web Development (DSA & System Design)"
-              value="Software/Web Development (DSA & System Design)"
+              id="Software (DSA & System Design)"
+              value="Software (DSA & System Design)"
               name="platform"
               required
               type="radio"
               onChange={handleParam()}
             />
-            Software/Web Development <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design)
+            Software (DSA & System Design)
             </div>
             ):(
               <>
@@ -270,14 +270,14 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience, d
             </div>
             <div className={styles.fsdCourseInp}>
               <input
-                id="Software/Web Development (DSA & System Design)"
-                value="Software/Web Development (DSA & System Design)"
+                id="Software (DSA & System Design)"
+                value="Software (DSA & System Design)"
                 name="platform"
                 required
                 type="radio"
                 onChange={handleParam()}
               />
-              Software/Web Development (DSA & System Design)
+              Software (DSA & System Design)
             </div>
             </>
               )}
