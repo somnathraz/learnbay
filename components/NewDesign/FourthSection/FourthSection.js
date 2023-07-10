@@ -122,8 +122,8 @@ function SyllabusNew({
                   &nbsp;1 &nbsp; &nbsp;
                   <br />
                   <input
-                    id="Full Stack Program"
-                    value="Software/Web Development (DSA & System Design)"
+                    id="Software (DSA & System Design)"
+                    value="Software (DSA & System Design)"
                     name="platform"
                     required
                     type="radio"

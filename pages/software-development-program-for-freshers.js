@@ -64,14 +64,14 @@ function blockchain() {
           SecondTyped="Mock Interviews"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
-          titleCourse="Software Development Program For Freshers"
+          titleCourse="Software Development Program Designed For Freshers"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+Program+for+Freshers.pdf"
           first="Tools"
           second="Tips"
           third="Technology"
           ibmOnly={true}
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SD-fresher-header.webp"
-          firstToparaImg="For Freshers"
+          firstToparaImg="Designed For Freshers"
           firstHeading="Software Development Program"
           firstTopPara="Join the next generation of developers"
           idss="bfl64ANfSV0"
