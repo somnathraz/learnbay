@@ -37,11 +37,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Science Course in Hyderabad With IBM Certification</title>
+        <title>Best Data Science Courses Training in Hyderabad - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enhance Your Data Science Skills with Learnbay's Best Data Science Training in Hyderabad. Engaging Classroom Projects and Expert Instruction to Advance Your Career."
+          content="Are you searching for the best data science courses online in Hyderabad? Learnbay is providing the best online data science course training in Hyderabad. Visit now."
         />
         <meta
           name="keywords"
@@ -499,7 +499,7 @@ export default function Home() {
           mTitle="Data Science Course in Hyderabad"
           spanTitleText="Enroll Now"
           spanMTitleText="Enroll Now"
-          desc="Enhance your Data Science career with our comprehensive Data Science course in Hyderabad with IBM Certification. Our advanced Data Science training in Hyderabad will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."
+          desc="Enhance your Data Science career with our comprehensive Data Science course in Hyderabad with IBM Certification. Our advanced Data Science training will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
@@ -556,7 +556,7 @@ export default function Home() {
         <div className="Feature" id="Feature">
           <BoxShape
             alt="data science course training in hyderabad"
-            title="Why Enroll In Data Science Course Training in Hyderabad?"
+            title="Why Enroll In Data Science Training in Hyderabad?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -577,7 +577,7 @@ export default function Home() {
               DomainHead1="Why Domain Specialization?"
               DomainBot1="Our domain-specific courses are intended to assist students in approaching the complexities of business problems from a certain industry or domain with the most profitable data scientific solutions."
               DomainBot2="A domain-specific Data scientist will have a much better grasp of the domain and its nuances and the essential business concerns that must be addressed. Recruiters are looking for domain-specific Data scientists at present. One cannot deliver precise analytical insights without subject understanding. As a result, it's critical to select courses that include domain electives."
-              DomainBot3="Learnbay's Advanced data science course training covers domains in almost all sectors like :"
+              DomainBot3="Learnbay's Advanced data science course online covers domains in almost all sectors like :"
               DomainList1="HR, Sales, and Marketing"
               DomainList2="Energy, oil, and Gas"
               DomainList3="Mechanical, manufacturing, and telecom"
