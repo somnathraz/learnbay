@@ -41,12 +41,13 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Science Course in Pune With IBM Certification - Learnbay
+            Best Data Science Courses Training in Pune- Learnbay
+
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="If you're looking to enhance your career skills? Here Learnbay is offering the best data science training in Pune. Enroll now to take advantage of this opportunity."
+          content=" Are you searching for the best data science courses online in Pune? Learnbay is providing the best online data science course training in Pune. Visit now."
         />
         <meta
           name="keywords"
@@ -484,9 +485,9 @@ export default function Home() {
           cityText={true}
           deskTopPara="Foundational and Advanced Job-ready"
           mTopPara="Foundational and Advanced Job-ready"
-          title="Data Science Course in Pune"
-          mTitle="Data Science Course in Pune"
-          desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited Data Science Training in Pune. This course will help you to capitalize on your domain expertise on utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+          title="Best Data Science Courses in Pune"
+          mTitle="Best Data Science Courses in Pune"
+          desc="Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited training from the best Data Science courses in Pune. This course will help you to capitalize on your domain expertise by utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
@@ -543,7 +544,7 @@ export default function Home() {
         <div className="Feature" id="Feature">
           <BoxShape
             alt="data science course training in pune"
-            title="Why Enroll in This Course?"
+            title="Why Enroll In Data Science classes in Pune?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Scientist role. Learn innovative AI applications."
             Box2h5="Domain Focused"
