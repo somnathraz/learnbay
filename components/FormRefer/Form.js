@@ -133,7 +133,6 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.pathname === "/privacy-policy" ||
       router.pathname === "/refund-cancellation-policy" ||
       router.pathname === "/reviews" ||
-      router.pathname === "/terms-conditions-job" ||
       router.pathname === "/submit-info" ||
       router.pathname === "/terms-conditions" ||
       router.pathname === "/Thank-you" ||
