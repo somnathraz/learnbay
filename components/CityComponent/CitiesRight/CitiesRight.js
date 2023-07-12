@@ -1152,7 +1152,7 @@ const CitiesRight = ({
               ₹10,00,000 per annum. Wondering which is the{" "}
               <b>best Data Science Institute in Hyderabad</b>? Well, look no
               further. Learnbay’s customized and domain-specialized courses give
-              you an edge over the others. <br />, <br />, Choose{" "}
+              you an edge over the others.  <br /><br /> Choose{" "}
               <a
                 href="https://www.learnbay.co/data-science-course-training-in-hyderabad"
                 target="_blank"
@@ -1428,7 +1428,7 @@ const CitiesRight = ({
               </li>
               <li>
                 {" "}
-                The foundation data science course fees in Pune are just ₹ 79,000 + 18% GST.{" "}
+                The foundation data science course fees in Pune is just ₹ 79,000 + 18% GST.{" "}
               </li>
             </ul>
 
