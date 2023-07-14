@@ -24,7 +24,7 @@ function contactus() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScienceCounselling={true} />
+        <Navbar popup={true} dataScienceCounselling={true} radio={true}/>
         <ContactUs />
         <OfferPopup offer={false} />
         <BottomBar />
