@@ -86,7 +86,7 @@ const Form = ({
   }
 
   if (router.pathname === "/resume-builder") {
-    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
+    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
   }
 
   let btnText = "Apply For Counselling";

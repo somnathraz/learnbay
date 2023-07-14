@@ -52,7 +52,7 @@ const FormInline = ({
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
 
   if (router.pathname === "/resume-builder") {
-    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
+    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
   }
 
   // Form Submit function
