@@ -10,7 +10,14 @@ import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
 
-const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience, dataScienceCounselling, }) => {
+const FormInline = ({
+  popup,
+  setTrigger,
+  downloadBrochure,
+  radio,
+  dataScience,
+  dataScienceCounselling,
+}) => {
   const router = useRouter();
   let today = new Date();
   let time =
@@ -29,7 +36,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience, d
     url: router.asPath,
   });
   useEffect(() => {
-    setQuery({ ...query, phone: value, dateTime: startDate  });
+    setQuery({ ...query, phone: value, dateTime: startDate });
   }, [value]);
 
   // Update inputs value
@@ -42,13 +49,11 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience, d
     }));
   };
 
-  let endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
 
-  if (
-    router.pathname === "/resume-builder")
-       {
-        endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
-      }
+  if (router.pathname === "/resume-builder") {
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
+  }
 
   // Form Submit function
   const formSubmit = (e) => {
@@ -234,58 +239,59 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience, d
         </div> */}
         {radio ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
-          { mobile ? (
-            <div>
-            <input
-              id="Data Science & AI Courses"
-              value="Data Science & AI Courses"
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Data Science & AI Courses&nbsp;
-            {mobile ? (<br />) : ("")}<input
-              id="Software (DSA & System Design)"
-              value="Software (DSA & System Design)"
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Software (DSA & System Design)
-            </div>
-            ):(
+            {mobile ? (
+              <div>
+                <input
+                  id="Data Science & AI Courses"
+                  value="Data Science & AI Courses"
+                  name="platform"
+                  required
+                  type="radio"
+                  onChange={handleParam()}
+                />
+                Data Science & AI Courses&nbsp;
+                {mobile ? <br /> : ""}
+                <input
+                  id="Software (DSA & System Design)"
+                  value="Software (DSA & System Design)"
+                  name="platform"
+                  required
+                  type="radio"
+                  onChange={handleParam()}
+                />
+                Software (DSA & System Design)
+              </div>
+            ) : (
               <>
-              <div className={styles.dsCourseInp}>
-              <input
-                id="Data Science & AI Courses"
-                value="Data Science & AI Courses"
-                name="platform"
-                required
-                type="radio"
-                onChange={handleParam()}
-              />
-              Data Science & AI Courses&nbsp;
-            </div>
-            <div className={styles.fsdCourseInp}>
-              <input
-                id="Software (DSA & System Design)"
-                value="Software (DSA & System Design)"
-                name="platform"
-                required
-                type="radio"
-                onChange={handleParam()}
-              />
-              Software (DSA & System Design)
-            </div>
-            </>
-              )}
-        </div>
+                <div className={styles.dsCourseInp}>
+                  <input
+                    id="Data Science & AI Courses"
+                    value="Data Science & AI Courses"
+                    name="platform"
+                    required
+                    type="radio"
+                    onChange={handleParam()}
+                  />
+                  Data Science & AI Courses&nbsp;
+                </div>
+                <div className={styles.fsdCourseInp}>
+                  <input
+                    id="Software (DSA & System Design)"
+                    value="Software (DSA & System Design)"
+                    name="platform"
+                    required
+                    type="radio"
+                    onChange={handleParam()}
+                  />
+                  Software (DSA & System Design)
+                </div>
+              </>
+            )}
+          </div>
         ) : (
           ""
         )}
-        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
+        <input type="hidden" id="zc_gad" name="zc_gad" value="" />
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
@@ -293,7 +299,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience, d
         <button type="submit" className={styles.button}>
           Request A Callback
         </button>
-        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
+        <input type="hidden" id="zc_gad" name="zc_gad" value="" />
       </form>
     </div>
   );
