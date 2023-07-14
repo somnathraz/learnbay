@@ -10,23 +10,34 @@ import {
   FaUserGraduate,
   FaAngleDoubleUp,
   FaLinkedin,
+  FaEye,
+  FaQuoteLeft,
 } from "react-icons/fa";
-import { BsGraphUp } from "react-icons/bs";
+import { VscCode } from "react-icons/vsc";
+import { GiArcheryTarget } from "react-icons/gi";
+import { MdOutlineVideoLibrary } from "react-icons/md";
+import { GrUserSettings } from "react-icons/gr";
+import { FiUsers } from "react-icons/fi";
 import Image from "next/image";
 import Link from "next/link";
+
 
 function AboutUs() {
   return (
     <section className={styles.about}>
       <div className={styles.Back}>
+        <div>
+        <FaQuoteLeft className={styles.orangeQuote} />
         <h4 style={{ textAlign: "left" }}>
-          <span>“Knowledge is power,”- (Francis Bacon)</span> And we want to empower all our aspirants to succeed.
+          <span className={styles.spanOrange}>Knowledge is power</span><br />
+          <span className={styles.spanAuth} >- (Francis Bacon)</span><br /> And we want to empower all our aspirants to succeed.
         </h4>
+        </div>
         <div className={styles.right}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/about-us.png"
-            width="522"
-            height="380"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/About-Us-right.webp"
+            width="722"
+            height="600"
             layout="intrinsic"
             alt="data science course"
           />
@@ -35,30 +46,31 @@ function AboutUs() {
       <div className={styles.MVDiv}>
         <div className={styles.MiddleDiv}>
           <div className={styles.FirstText}>
-            <h3>Vision</h3>
+            <div className={styles.flexIcon}><FaEye className={styles.iconOrange} /><h3>Our Vision</h3></div>
             <p className={styles.list}>
               To lead the industrial training sector by generating demanding
               professionals with future proof technical skills and knowledge.
             </p>
             <div className={styles.DivIcon}>
               <div className={styles.iconBox}>
-                <FaAddressCard
+                <VscCode
                   className={styles.BoxIconcard}
                   alt="data science course"
                 />
                 <p>Provide scopes to techies & non-techies all alike.</p>
               </div>
+              <hr></hr>
               <div className={styles.iconBox}>
-                <FaClone className={styles.BoxIconclone} />
+                <MdOutlineVideoLibrary className={styles.BoxIconcard} />
                 <p>Ensure an extremely personalized learning experience.</p>
               </div>
             </div>
           </div>
           <div className={styles.MiddleImg}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vision.png"
-              width="517"
-              height="330"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Our-Vision-new.webp"
+              width="564"
+              height="420"
               layout="intrinsic"
               alt="data science course"
             />
@@ -67,15 +79,15 @@ function AboutUs() {
         <div className={styles.FirstDiv}>
           <div className={styles.FirstImg}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mission.png"
-              width="517"
-              height="380"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Group-313.webp"
+              width="488"
+              height="445"
               layout="intrinsic"
               alt="data science course"
             />
           </div>
           <div className={styles.FirstText}>
-            <h3>Mission</h3>
+          <div className={styles.flexIcon}><GiArcheryTarget className={styles.iconOrange} /><h3>Our Mission</h3></div>
             <p className={styles.list}>
               Safeguarding your career, even under the most unstable job market
               scenario, via the acquisition of emerging technology-based unique
@@ -83,15 +95,16 @@ function AboutUs() {
             </p>
             <div className={styles.DivIcon}>
               <div className={styles.iconBox}>
-                <FaUserFriends
-                  className={styles.BoxIconuser}
+                <FiUsers
+                  className={styles.BoxIconcard}
                   alt="data science course"
                 />
                 <p> Literate everyone with data science knowledge.</p>
               </div>
+              <hr></hr>
               <div className={styles.iconBox}>
                 <FaCompress
-                  className={styles.BoxIconcompress}
+                  className={styles.BoxIconcard}
                   alt="data science course"
                 />
                 <p>
@@ -109,9 +122,9 @@ function AboutUs() {
       <div className={styles.FirstDivMain}>
           <div className={styles.FirstImg}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Krishna+Kumar+(1).jpg"
-              width="391"
-              height="313"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/krishna-sir-about-new.png"
+              width="141"
+              height="209"
               layout="intrinsic"
               alt="data science course"
             />
@@ -134,10 +147,10 @@ function AboutUs() {
         </div>
         <div className={styles.FirstDivMain}>
         <div className={styles.FirstImg}>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Nisha+Kumari+(1).jpg"
-              width="440"
-              height="313"
+            <img
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Nisha-mam-about-new.png"
+              width="141"
+              height="209"
               layout="intrinsic"
               alt="data science course"
             />
@@ -155,9 +168,9 @@ function AboutUs() {
         <div className={styles.FirstDivMain}>
           <div className={styles.FirstImg}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Abhishek+Gupta+(1).jpg"
-              width="440"
-              height="313"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Abhishek-sir-about-new.png"
+              width="141"
+              height="209"
               layout="intrinsic"
               alt="data science course"
               className={styles.img12}
@@ -175,11 +188,9 @@ function AboutUs() {
         </div>
       </div>
       <div className={styles.Placement}>
-        <div className={styles.OurPlacementDiv}>
           <h3>Placement Highlights</h3>
           <div className={styles.iconBoxP}>
             <div className={styles.iconBoxInner}>
-              <BsGraphUp className={styles.BoxIcon} />
               <div>
                 <CountUp
                   end={250}
@@ -188,11 +199,10 @@ function AboutUs() {
                   suffix="%"
                   className={[styles.textStyle]}
                 />
-                <p className={styles.list}>Highest Salary Hike</p>
+                <p className={styles.listt}>Highest Salary Hike</p>
               </div>
             </div>
             <div className={styles.iconBoxInner}>
-              <FaAngleDoubleUp className={styles.BoxIcon} />
               <div>
                 <CountUp
                   end={175}
@@ -201,14 +211,10 @@ function AboutUs() {
                   suffix="%"
                   className={[styles.textStyle]}
                 />
-                <p className={styles.list}>Average Salary Hike</p>
+                <p className={styles.listt}>Average Salary Hike</p>
               </div>
             </div>
             <div className={styles.iconBoxInner}>
-              <FaHandsHelping
-                className={styles.BoxIcon}
-                alt="data science course"
-              />
               <div>
                 <CountUp
                   end={300}
@@ -217,14 +223,10 @@ function AboutUs() {
                   suffix="+"
                   className={[styles.textStyle]}
                 />
-                <p className={styles.list}>Hiring Partners</p>
+                <p className={styles.listt}>Hiring Partners</p>
               </div>
             </div>
             <div className={styles.iconBoxInner}>
-              <FaUserGraduate
-                className={styles.BoxIcon}
-                alt="data science course"
-              />
               <div className={styles.CountBox}>
                 <CountUp
                   end={30000}
@@ -233,9 +235,8 @@ function AboutUs() {
                   suffix="+"
                   className={[styles.textStyle]}
                 />
-                <p className={styles.list}>Careers Reshaped</p>
+                <p className={styles.listt}>Careers Reshaped</p>
               </div>
-            </div>
           </div>
         </div>
       </div>
