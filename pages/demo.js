@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScienceCounselling={true} />
+        <Navbar popup={true} dataScienceCounselling={true} radio={true} />
         <Demo />
         <OfferPopup offer={false} />
         <BottomBar />
