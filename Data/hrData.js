@@ -744,7 +744,7 @@ export const HrData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 14th July 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 18th August 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
