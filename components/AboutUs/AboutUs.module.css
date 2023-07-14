@@ -1,14 +1,15 @@
 .Back {
-  background-color: #f4fcfe;
-  height: 400px;
+  height: fit-content;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   display: grid;
-  grid-template-columns: 59% 39%;
+  grid-template-columns: 52% 48%;
   align-items: center;
   margin: auto;
-  padding: 0px 100px;
+  padding: 0px 100px 0px 300px;
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/About-Us-Header-Bg.webp");
+  background-position: center;
 }
 
 .about {
@@ -18,18 +19,29 @@
 }
 
 .MVDiv {
-  padding: 30px 100px;
+  padding: 100px 100px;
+}
+
+.orangeQuote {
+  color: rgba(249, 150, 0, 0.10);;
+  font-size: 50px;
 }
 
 .about h4 {
   font-size: 32px;
   font-weight: 800;
-  padding-right: 120px;
+  color: #0072BC;
 }
-.about h4 span {
-  color: white;
-  background-color: #edb552;
+.about h4 .spanOrange {
+  color: #F99600;
   padding: 5px;
+}
+
+.about h4 .spanAuth {
+  color: #444;
+  padding: 5px;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .divList p {
@@ -119,14 +131,17 @@
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  background: #0072BC08;
+  border: 1px solid #00000020;
 }
 
 .FirstTextTop {
   display: flex;
-  flex-flow: column;
+  flex-flow: column-reverse;
   justify-content: center;
-  padding-bottom: 50px;
-  padding-top: 20px;
+  padding: 20px 70px 20px 20px;
+  gap: 20px;
+  background: rgba(217, 217, 217, 0.20);
 }
 
 .FirstText h3 {
@@ -169,10 +184,8 @@
 }
 
 .BoxIconcard {
-  color: white;
-  font-size: 50px;
-  padding: 10px;
-  background-color: #0072bc;
+  color: #0072bc;
+  font-size: 40px;
   border-radius: 10px;
 }
 
@@ -229,7 +242,26 @@
 .iconBoxInner {
   padding: 30px;
   margin: 10px;
-  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+}
+
+.iconBoxInner:nth-child(even) {
+  background: #F996001A;
+}
+
+.iconBoxInner:nth-child(odd) {
+  background: #0072BC1A;
+}
+
+.iconBoxInner:nth-child(even) .textStyle {
+  color: #F99600;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.iconBoxInner:nth-child(odd) .textStyle {
+  font-size: 40px;
+  font-weight: 800;
+  color: #0072BC;
 }
 
 .OurJourney h3 {
@@ -282,11 +314,10 @@
 }
 
 .FirstTextTop h3 {
-  font-size: 26px;
+  font-size: 18px;
   color: #0072bc;
   text-align: left;
   margin: 0;
-  margin-bottom: 10px;
 }
 
 .list {
@@ -294,12 +325,20 @@
   font-weight: 500;
   text-align: center;
   margin: 0;
+  margin-top: 30px;
+}
+
+.listt {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
 }
 
 .FirstTextTop .list {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
-  text-align: justify;
+  text-align: left;
   margin: 0;
 }
 
@@ -307,6 +346,25 @@
   padding: 0px 100px;
   display: flex;
   gap: 50px;
+  flex-wrap: wrap;
+  margin-left: 70px;
+    margin-right: -70px;
+}
+
+.FirstDivMain {
+  display: grid;
+  grid-template-columns: 22% 90%;
+  direction: rtl;
+  width: 45%;
+  align-items: center;
+  margin: auto;
+  gap: 20px;
+  flex-direction: row-reverse;
+}
+
+.FirstImg {
+  position: relative;
+  left: -70px;
 }
 
 .FirstDivMain span {
@@ -321,19 +379,41 @@
 
 .iconLink {
   color: #0072bc;
-  font-size: 34px;
+  font-size: 28px;
 }
 
 .iconHead {
   display: flex;
-  justify-content: space-between;
   cursor: pointer;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px;
 }
 
 .FirstTextHead h3 {
   font-size: 30px;
   color: #000;
   text-align: center;
+}
+
+.flexIcon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: -42px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(255,255,255,50) 50%, rgba(0, 114, 188, 0) 60%);
+  padding: 0px 10px;
+}
+
+.iconOrange {
+  font-size: 80px;
+  color: #F99600;
+}
+
+.flexIcon h3 {
+  margin: 0;
+  color: #3C3C3C;
 }
 
 @media (max-width: 1281px) {
@@ -376,9 +456,11 @@
   }
 
   .FirstDiv {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     align-items: center;
   }
 
@@ -396,6 +478,15 @@
     text-align: center;
     margin-top: 30px;
     align-items: center;
+    gap: 50px;
+  }
+
+  .flexIcon {
+    margin-top: -60px;
+  }
+
+  .list {
+  margin-top: 20px;
   }
 
   .MiddleImg {
@@ -413,6 +504,7 @@
 
   .Placement {
     padding: 20px;
+    margin-top: -60px;
   }
   .Placement h3 {
     font-size: 24px;
@@ -443,5 +535,27 @@
     padding: 20px;
     display: block;
     gap: 50px;
+    margin: 0;
+  }
+  .FirstDivMain {
+    display: block;
+    width: 100%;
+    direction: inherit;
+    position: relative;
+  }
+  .FirstImg {
+    left: 0;
+    z-index: 1;
+  }
+  .FirstTextTop {
+    position: relative;
+    top: -80px;
+    padding: 90px 10px 20px 10px;
+  }
+  .right {
+    display: none;
+  }
+  .DivIcon {
+    display: block;
   }
 }
