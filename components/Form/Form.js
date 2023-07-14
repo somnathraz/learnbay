@@ -65,7 +65,7 @@ const Form = ({
       [name]: value,
     }));
   };
-  let endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   if (event) {
     endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
   }
@@ -78,16 +78,15 @@ const Form = ({
     endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
   }
 
-  if (router.pathname === "/learning-learnbay" ||
-router.pathname === "/learning-learnbay-select")
-   {
-    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
+  if (
+    router.pathname === "/learning-learnbay" ||
+    router.pathname === "/learning-learnbay-select"
+  ) {
+    endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
   }
 
-    if (
-router.pathname === "/resume-builder")
-   {
-    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+  if (router.pathname === "/resume-builder") {
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
   }
 
   let btnText = "Apply For Counselling";
@@ -133,16 +132,13 @@ router.pathname === "/resume-builder")
     // if (dataScience) {
     //   router.push("/Thank-you");
     // }
-    if (router.pathname === "/learning-learnbay")
-     {
+    if (router.pathname === "/learning-learnbay") {
       router.push("/learning-learnbay-select");
     }
-    if (router.pathname === "/learning-learnbay-select")
-     {
+    if (router.pathname === "/learning-learnbay-select") {
       router.push("/Thank-you-counselling");
     }
-    if (router.pathname === "resume-builder")
-    {
+    if (router.pathname === "resume-builder") {
       router.push("Thank-you-counselling");
     }
     if (fullStack) {
@@ -154,17 +150,13 @@ router.pathname === "/resume-builder")
     if (dataScience) {
       router.push("/Thank-you", {
         pathname: "/Thank-you",
-        query: {titleCourse:titleCourse, brochureLink:brochureLink },
+        query: { titleCourse: titleCourse, brochureLink: brochureLink },
       });
     }
     if (dataScienceCounselling) {
       router.push("/Thank-you-counselling");
     }
-    if (
-      router.pathname === "/organic" ||
-    router.pathname === "/referrals"
-    )
-     {
+    if (router.pathname === "/organic" || router.pathname === "/referrals") {
       setToggle(false);
       setAlertMSG("Form Submitted successfully");
       setDisable(false);
@@ -219,11 +211,11 @@ router.pathname === "/resume-builder")
             style={
               popup
                 ? {
-                  border: "0",
-                  height: "50px",
-                  borderRadius: "10px",
-                  padding: "10px 10px",
-                  border: "1px solid grey",
+                    border: "0",
+                    height: "50px",
+                    borderRadius: "10px",
+                    padding: "10px 10px",
+                    border: "1px solid grey",
                   }
                 : {
                     border: "0",
@@ -243,22 +235,20 @@ router.pathname === "/resume-builder")
             required
           />
         </div>
-        { jobDescription ? (
+        {jobDescription ? (
           ""
         ) : (
           <div className={styles.formWrapper}>
-          <input
-            type="text"
-            name="jobDescription"
-            placeholder="Job Description"
-            className={popup ? styles.EmailInputs : styles.EmailInputs}
-            value={query.jobDescription}
-            onChange={handleParam()}
-          />
-        </div>
-        )
-
-        }
+            <input
+              type="text"
+              name="jobDescription"
+              placeholder="Job Description"
+              className={popup ? styles.EmailInputs : styles.EmailInputs}
+              value={query.jobDescription}
+              onChange={handleParam()}
+            />
+          </div>
+        )}
 
         {workExperience ? (
           ""
@@ -299,7 +289,7 @@ router.pathname === "/resume-builder")
           ""
         )}
 
-{referrals ? (
+        {referrals ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <select
               name="WAdropdown"
@@ -385,61 +375,57 @@ router.pathname === "/resume-builder")
         {/* Form Thank You */}
         {formThank ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
-          <select
-            name="workExperience"
-            required
-            value={query.workExperience}
-            onChange={handleParam()}
-          >
-            <option value="Work Experience">Work Experience</option>
-            <option value="Less then 1 Year">Less Then 1 Year</option>
-            <option value="1 to 3 year">1 to 3 Year</option>
-            <option value="3 to 8 year">3 to 8 Year</option>
-            <option value="7 to 12 year">8+ Years</option>
-          </select>
-        </div>
+            <select
+              name="workExperience"
+              required
+              value={query.workExperience}
+              onChange={handleParam()}
+            >
+              <option value="Work Experience">Work Experience</option>
+              <option value="Less then 1 Year">Less Then 1 Year</option>
+              <option value="1 to 3 year">1 to 3 Year</option>
+              <option value="3 to 8 year">3 to 8 Year</option>
+              <option value="7 to 12 year">8+ Years</option>
+            </select>
+          </div>
         ) : (
           ""
-        )
-        }
+        )}
 
-{formThank ? (
-                  <div className={styles.formWrapper}>
-                  <input
-                    type="text"
-                    name="currentOrganization"
-                    className={popup ? styles.NameInputs : styles.NameInput}
-                    required
-                    placeholder="Your Current Organization"
-                    value={query.currentOrganization}
-                    style={{ borderBottom: "1px solid grey" }}
-                    onChange={handleParam()}
-                  />
-                </div>
+        {formThank ? (
+          <div className={styles.formWrapper}>
+            <input
+              type="text"
+              name="currentOrganization"
+              className={popup ? styles.NameInputs : styles.NameInput}
+              required
+              placeholder="Your Current Organization"
+              value={query.currentOrganization}
+              style={{ borderBottom: "1px solid grey" }}
+              onChange={handleParam()}
+            />
+          </div>
         ) : (
           ""
-        )
-        }
+        )}
 
-{formThank ? (
-                  <div className={styles.formWrapper}>
-                  <input
-                    type="text"
-                    name="currentDesignation"
-                    className={popup ? styles.NameInputs : styles.NameInput}
-                    required
-                    placeholder="Your Current Designation"
-                    value={query.currentDesignation}
-                    style={{ borderBottom: "1px solid grey" }}
-                    onChange={handleParam()}
-                  />
-                </div>
+        {formThank ? (
+          <div className={styles.formWrapper}>
+            <input
+              type="text"
+              name="currentDesignation"
+              className={popup ? styles.NameInputs : styles.NameInput}
+              required
+              placeholder="Your Current Designation"
+              value={query.currentDesignation}
+              style={{ borderBottom: "1px solid grey" }}
+              onChange={handleParam()}
+            />
+          </div>
         ) : (
           ""
-        )
-        }
+        )}
 
-        
         <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
         {syllabus ? (
           <div className={styles.bottomWrap}>
