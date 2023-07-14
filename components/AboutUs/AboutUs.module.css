@@ -355,7 +355,7 @@
   display: grid;
   grid-template-columns: 22% 90%;
   direction: rtl;
-  width: 48%;
+  width: 45%;
   align-items: center;
   margin: auto;
   gap: 20px;
@@ -554,5 +554,8 @@
   }
   .right {
     display: none;
+  }
+  .DivIcon {
+    display: block;
   }
 }
