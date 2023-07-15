@@ -32,7 +32,7 @@ export default function Document() {
             __html: ` {
               "@context": "https://schema.org/",
               "@type": "WebSite",
-              "name": "Learbay",
+              "name": "Learnbay",
               "url": "https://www.learnbay.co/",
               "potentialAction": {
                 "@type": "SearchAction",
