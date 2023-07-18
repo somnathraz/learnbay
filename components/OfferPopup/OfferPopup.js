@@ -117,8 +117,8 @@ const OfferPopup = ({
                     {" "}
                     <div className={styles.Offer}>
                       <h6>
-                        Special programming session starts from 5th to 7th of
-                        June from 8 PM to 10 PM
+                        Special programming session starts from 19th to 21th of
+                        June from 8 AM to 10 AM
                       </h6>
 
                       <p>Available Batch Details :</p>
