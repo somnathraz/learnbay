@@ -80,17 +80,6 @@ export default function Document() {
         >
           {" "}
         </script>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `
-		    QuickEmailVerification = {
-				pubKey: "d7cc39g74c85b31646f293b8f8f437"
-			};
-      `,
-    }}
-  />
-		<script type="text/javascript" src="https://cdn.quickemailverification.com/js/verifyemail.js"></script>
       </body>
     </Html>
   );
