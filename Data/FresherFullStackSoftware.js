@@ -340,7 +340,6 @@ export const FresherFullStackSoftwareCourseData = [
                   "Understanding DOM manipulation, including the DOM model, DOM selectors, and style manipulation.",
                   "Understanding operators and ES6, including classes, static methods, closures, and inheritance.",
                   "Understanding asynchronous JavaScript, including JSON, promises, and fetch.",
-
                 ],
               },
             },
@@ -358,7 +357,6 @@ export const FresherFullStackSoftwareCourseData = [
                   "Learn how to connect React to Redux with React Redux",
                   "Understand how to refactor code using Redux Toolkit",
                   "Learn how to handle async actions with middleware and thunks in Redux.",
-
                 ],
               },
             },
@@ -416,12 +414,12 @@ export const FresherFullStackSoftwareCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 14th July 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 28th July 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -436,7 +434,7 @@ export const FresherFullStackSoftwareCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 16th July 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 30th July 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
