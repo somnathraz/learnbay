@@ -798,7 +798,8 @@ const CitiesRight = ({
               help you become an industry-competent data scientist. This
               IBM-certified course allows you to learn from scratch and
               according to the industrial requirements. The{" "}
-              <b>Data Science Course</b> has been in high demand in recent
+              <a href="https://www.learnbay.co/data-science-certification-courses"  target="_blank"
+                style={{ color: "#2D9CD7", fontWeight: "600" }}>Data Science Online Training</a> has been in high demand in recent
               years, and our course is designed to provide you with current
               knowledge in the field. Our approach to practical and theoretical
               education provides a richer learning experience. Our{" "}
@@ -835,7 +836,7 @@ const CitiesRight = ({
             </p>
 
             <p>
-              Our <b>Data Science learning modules</b> are customized according
+              Our <b>Data Science Institute in Hyderabad</b> has customized learning modules according
               to your domain and industry requirements. A lot of learners take
               an active interest in learning from our modules because of our
               domain specialization feature. MNCs and top startups look for
@@ -1045,7 +1046,7 @@ const CitiesRight = ({
 
             <p>
               <b>Project Innovation Lab:</b> Our{" "}
-              <b>Data Science course in Hyderabad</b> has a project innovation
+              <b>Data Science Institute in Hyderabad</b> has a project innovation
               lab where you can work on industry-certified projects offline. You
               get a chance to collaborate with project mentors and other
               learners. The hands-on experience across several domains is an
@@ -1149,9 +1150,9 @@ const CitiesRight = ({
             <p>
               The average <b>data scientist salary in Hyderabad</b> is
               ₹10,00,000 per annum. Wondering which is the{" "}
-              <b>best Data Training Institute in Hyderabad</b>? Well, look no
+              <b>best Data Science Institute in Hyderabad</b>? Well, look no
               further. Learnbay’s customized and domain-specialized courses give
-              you an edge over the others. <br />, <br />, Choose{" "}
+              you an edge over the others.  <br /><br /> Choose{" "}
               <a
                 href="https://www.learnbay.co/data-science-course-training-in-hyderabad"
                 target="_blank"
@@ -1201,8 +1202,8 @@ const CitiesRight = ({
             <p>
               A data scientist uses modern tools and techniques to drive
               meaningful information and make decisions. Learnbay’s{" "}
-              <b>Data Science Course in Pune</b> is designed to help you learn
-              about Data Science from scratch according to your domain. Research
+              <b>Data Science Institute in Pune </b> has designed the courses to help you learn data science from scratch
+               according to your domain. Research
               shows that the top skills required to become a data scientist are
               analysis, communication, statistics, deep learning, machine
               learning, and artificial Intelligence, among many others.
@@ -1427,8 +1428,7 @@ const CitiesRight = ({
               </li>
               <li>
                 {" "}
-                The course provides a rigorous learning experience at just ₹
-                79,000 + 18% GST.{" "}
+                The foundation data science course fees in Pune is just ₹ 79,000 + 18% GST.{" "}
               </li>
             </ul>
 
@@ -1619,33 +1619,32 @@ const CitiesRight = ({
               lecture videos to learn anytime you want.
             </p>
 
-            <h2>Best Data Science Training Institute in Pune</h2>
+            <h2>Best Institute for Data Science in Pune</h2>
 
             <p>
               Ever found yourself wondering about the{" "}
-              <b>Best Data Science Training Institute in Pune</b>? Well, this is
+              <b>Best Institute for Data Science in Pune</b>? Well, this is
               the right place for you. Learnbay provides you with live training
-              at affordable prices. Want to stand out in your domain? Take the
-              course by{" "}
+              at affordable prices. Want to stand out in your domain? Take our {" "}
               <a
-                href="https://www.learnbay.co/data-science-course-training-in-pune"
+                href="https://www.learnbay.co/data-science-certification-courses"
                 target="_blank"
                 style={{ color: "#2D9CD7", fontWeight: "600" }}
               >
-                Learnbay Institute
+                 data science course online
               </a>
               , as this will be one of the best career choices you will ever
               make. Learnbay institute has proudly assisted over 500+ aspirants
               in pursuing their dream careers. IBM, being our accreditation
               partner, has global recognition. <br />
               <br />
-              Learnbay institute has proudly assisted over 500+ aspirants in
+              Learnbay’s Data Science institute in Pune has proudly assisted over 500+ aspirants in
               pursuing their dream careers. <b>IBM</b>, being our accreditation
               partner, has global recognition.
             </p>
 
             <h2>
-              Why Choose Learnbay Data Science Training Institute in Pune?
+              Why Learnbay is the best Data Science Institute in Pune?
             </h2>
             <ul>
               <li>IBM Certified Capstone</li>

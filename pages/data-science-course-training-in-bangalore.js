@@ -56,11 +56,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Data Science Course in Bangalore with Job Assistance</title>
+        <title>Best Data Science Courses Training in Bangalore - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learn Data Science in Bangalore with Learnbay's top rated course taught by expert instructors. Gain practical experience through live projects. Sign-up Now."
+          content=" Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Banglore. Visit now"
         />
         <meta
           name="keywords"
@@ -541,9 +541,9 @@ export default function Home() {
           dataScienceCounselling={true}
           deskTopPara="Foundational and Advance Job-ready Program"
           mTopPara="Foundational and Advance Job-ready Program"
-          title="Data Science Course in Bangalore"
-          mTitle="Data Science Course in Bangalore"
-          desc="Enhance your Data Science career with our comprehensive Data Science course in Bangalore with IBM Certification. Our advanced Data Science training in Bangalore will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."
+          title="Best Data Science Courses in Bangalore"
+          mTitle="Best Data Science Courses in Bangalore"
+          desc="Enhance your Data Science career with the best Data Science courses in Bangalore with IBM Certification. Our advanced Data Science training will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
           height="762"
@@ -720,7 +720,7 @@ export default function Home() {
         <div className="Feature" id="Feature">
           <BoxShape
             alt="data science course in bangalore"
-            title="Why Enroll In Data Science Course in Bangalore?"
+            title="Why is Learnbay the best institute for  Data Science in Bangalore?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
             Box2h5="Domain Focused"
@@ -753,7 +753,7 @@ export default function Home() {
               // ProgramHead3="How does Learnbay artificial intelligence training become the most promising institute for experienced professionals in Bangalore?"
               ProgramBot2={[
                 "Learnbay's",
-                <b> Data Scientist course </b>,
+                <b> Data Scientist course in Bangalore </b>,
                 "is designed to deliver theoretical and practical knowledge on all elements of Data Science, including Programming, Maths, Statistics, AI, Machine learning, and the business side of Data science. It allows students to gain the in-demand spectrum of data science skills and provide appropriate Data Science solutions to Business problems",
               ]}
               ProgramBot3={[
@@ -771,16 +771,16 @@ export default function Home() {
                 "is INR 11,00,000 annually.",
               ]}
               ProgramBot5={[
-                "The",
+                "Learnbay Provides the ",
                 <a
-                  href="https://www.learnbay.co/data-science-course-training-in-bangalore"
+                  href="https://www.learnbay.co/data-science-certification-courses"
                   target="_blank"
                   style={{ color: "#2D9CD7", fontWeight: "600" }}
                 >
                   {" "}
-                  Data Scientist training{" "}
+                  best online data science courses{" "}
                 </a>,
-                "is a data science certification course offered by Learnbay in Bangalore. MNC experts design it as per the current industry requirements and to help the data science aspirants in the city transform their careers. The Data Science online course is conducted via live interactive classes by industry trainers..",
+                "  in Bangalore. MNC experts design it as per the current industry requirements and to help the data science aspirants in the city transform their careers. The Data Science online course is conducted via live interactive classes by industry trainers..",
               ]}
               ProgramBot6={[
                 "",
@@ -928,11 +928,7 @@ export default function Home() {
                     to reshape their careers in this lucrative field.
                   </li>
                   <li>
-                    The data science course in Bangalore covers everything from
-                    basic data science techniques to advanced AIML, Data Science
-                    Project Workflow, Cutting-edge data science and AI tools,
-                    Various Roles in Data Science, and real-world applications
-                    of Data Science.
+                  You will be learning everything from basic data science techniques to advanced AIML, Data Science Project Workflow, Cutting-edge data science and AI tools, Various Roles in Data Science, and real-world applications of Data Science from our data science classes in Bangalore.
                   </li>
                   <li>
                     This program’s data science course fee is INR 75,000,
@@ -966,7 +962,7 @@ export default function Home() {
                     processing, EDA, feature engineering, and model deployment.
                   </li>
                   <li>
-                    The advanced data science course fees are INR 95,000,
+                    The advanced data science course fees in Bangalore are INR 95,000,
                     exclusive of GST.
                   </li>
                 </ol>,
@@ -1140,7 +1136,7 @@ export default function Home() {
                 <br />,
 
                 "Learnbay ",
-                <b>Data Science course fee in Bangalore</b>,
+                <b>Data Science course fees in Bangalore</b>,
                 " ranges from ",
                 <b>INR 75,000</b>,
                 " to ",
@@ -1198,8 +1194,8 @@ export default function Home() {
                 <br />,
                 <br />,
 
-                <b>Data Science courses in Bangalore</b>,
-                " are the entry point to the best IT systems in the city; becoming a data scientist has never been so easy. Sign up for ",
+                <b>Data Scientist course in Bangalore</b>,
+                " is the entry point to the best IT systems in the city; becoming a data scientist has never been so easy. Sign up for ",
                 <b>Data Science Online Training in Bangalore</b>,
                 " to upgrade your skills to secure a lucrative career!",
 
@@ -1216,7 +1212,7 @@ export default function Home() {
                 " - is ",
                 <b>INR 989,454</b>,
                 " per annum. Ultimately, Learnbay's ",
-                <b>Data Science Certification in Bangalore</b>,
+                <b>Data Scientist Course in Bangalore</b>,
                 " can help you break through in the data science field!",
                 <br />,
                 <br />,
@@ -1285,7 +1281,7 @@ export default function Home() {
               Domainlink9="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf"
               Domainlink10="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
               CertificationHead1="Data Science Certificates by IBM"
-              CertificationBot1="Learnbay Data science courses in Bangalore provide IBM project experience certification and multiple IBM Data science certificates on completion of different modules.  Based on the course you choose, you get the chance of achieving 6 to 8 certifications. And the best part is that all of them are from IBM. Each of these micro-skills certificates globally authorizes your different data science skills and tools expertise."
+              CertificationBot1="Learnbay Data science classes in Bangalore provide IBM project experience certification and multiple IBM Data science certificates on completion of different modules.  Based on the course you choose, you get the chance of achieving 6 to 8 certifications. And the best part is that all of them are from IBM. Each of these micro-skills certificates globally authorizes your different data science skills and tools expertise."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate.webp"
               ModuleHead1="What are the most important tools and modules you learn at the Learnbay Data science Certificate program in Bangalore?"
               ModuleBot1="Learnbay provides a space for non-techies to learn and improve coding skills in special basic coding classes. Clear any doubt at Learnbay in 1-1 sessions for a clear understanding. Bangalore's Learnbay Data science course consists of 8 MNC projects and 1 capstone project. You can even attend multiple classes and instructors as you like."
@@ -1326,7 +1322,7 @@ export default function Home() {
               SyllabusBotlist46="Sentiment Analysis"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
               JobHead1="Data science job assistance and Data Science Interview preparation in Bangalore."
-              JobBot1="Learnbay Data science training in Bangalore assures guaranteed job referrals as per the specified domain chosen by the student. They help students and learners to get placed in startups and top MNCs to build a career as Data scientists. We prepare students by conducting mock interviews as per the program. Learnbay even works on soft-skill, portfolio, and resume building. Many of our students had a breakthrough in their careers as they got recruited by leading global companies like TCS, Amazon, Mercedes, JP Morgan, and EY."
+              JobBot1="Learnbay Data science classes in Bangalore assures guaranteed job referrals as per the specified domain chosen by the student. They help students and learners to get placed in startups and top MNCs to build a career as Data scientists. We prepare students by conducting mock interviews as per the program. Learnbay even works on soft-skill, portfolio, and resume building. Many of our students had a breakthrough in their careers as they got recruited by leading global companies like TCS, Amazon, Mercedes, JP Morgan, and EY."
               JobHead2="What are the advantages of becoming a Data Scientist in Bangalore?"
               JobBot3="Data scientists are in great demand as many corporations want to recruit data scientists, but properly skilled data scientists are scarce. It is a highly paid career with a promising future. Data science is versatile, and Data scientists have a great role in businesses. Becoming a Data scientist is a fun task that makes products and services smart and adequately effective."
               JobHead3="What is Data Science?"
