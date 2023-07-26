@@ -1,0 +1,50 @@
+.mainSection {
+    margin: 70px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px  0px 0px 0px;
+    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/404.webp");
+    background-position: center;
+}
+
+.innerCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerCont h1 {
+    font-size: 180px;
+    color: #D95353;
+    line-height: 1;
+    margin: 0;
+}
+
+.innerCont p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.image {
+    margin-top: 20px;
+}
+
+.Button {
+    margin-top: 50px;
+}
+
+.Button button {
+    font-size: 20px;
+
+}
+
+@media (max-width: 641px) {
+    .innerCont h1 {
+        font-size: 100px;
+    }
+.innerCont p {
+    font-size: 24px;
+}
+}
