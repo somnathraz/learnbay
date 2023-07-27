@@ -37,7 +37,11 @@
 
 .Button button {
     font-size: 20px;
+}
 
+.Button button:hover {
+    background: #fff;
+    color: #0072bc;
 }
 
 @media (max-width: 641px) {

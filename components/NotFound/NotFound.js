@@ -20,7 +20,7 @@ function NotFound() {
           <div className={styles.Button}>
         <a href="/">
           <button>
-            Click Here to Recoonnect
+            Click Here to Reconnect
           </button>
         </a>
       </div>
