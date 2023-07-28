@@ -40,11 +40,11 @@ function dataAnalytics() {
   return (
     <>
       <Head>
-        <title>Online Data Analytics Certification Course - Learnbay</title>
+        <title>Best Data Analytics Course Online | Data Analytics Online Training - Learbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Master the data analytics skills with intensive data analytics course from Leanbay. Gain hands-on experience and become data analyst."
+          content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses. Enroll now!"
         />
         <meta
           name="keywords"

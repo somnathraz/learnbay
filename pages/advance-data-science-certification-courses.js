@@ -46,11 +46,11 @@ function blockchain() {
     <>
       <Head>
         <title>
-          Artificial Intelligence and Data Science Course - Learnbay
+        Advanced Data Science and Artificial Intelligence Program With Certification - Learnbay
         </title>
         <meta
           name="description"
-          content="Upskill yourself with cutting edge Artificial Intelligence and Data Science Skills, Techniques by enrolling into the Learnbay's Advanced Data Science Course."
+          content="Are you searching for the Advanced Data Science and Artificial Intelligence Program With Certification? Learnbay is providing the best online Advanced Data Science and AI Program. Enroll now!"
         />
         <meta name="robots" content="index, follow" />
         <meta
