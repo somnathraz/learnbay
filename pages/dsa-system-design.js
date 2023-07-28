@@ -41,12 +41,12 @@ export default function Home() {
    <>
       <Head>
         <title>
-          Data Structures Algorithms and System Design Course - DSA Course
+        Best Data Structures and Algorithms Courses | Dsa Courses - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Master Data Structures and Algorithms with Learnbay's DSA Course. Develop your abilities and skills in system design to open up a promising career."
+          content="Learn data structures and algorithms courses, covering fundamental concepts, efficient techniques, and problem-solving strategies. Learnbay is providing the best dsa courses. Enroll now!"
         />
         <meta
           name="keywords"

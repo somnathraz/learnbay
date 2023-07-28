@@ -39,11 +39,11 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Data Science Course with Job Assistance - Learnbay</title>
+        <title>Best Online Data Science Courses | Online Data Science Training - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Unlock the power of data with most comprehensive Data Science Course. Enroll now and become a certified Data Scientist."
+          content="Learn data science courses online with comprehensive training covering machine learning, statistics, and programming. Learnbay is providing the best online data science course. Join now"
         />
         <meta name="keywords" content="Data Science Foundation Program" />
         <link
