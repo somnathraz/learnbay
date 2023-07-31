@@ -3152,7 +3152,7 @@ export const MachineCertificationFaqDataB = [
     Accelerating Deep Learning with GPUs
     Advance AI & ML Certificate (final)
     Capstone Project Certificate by IBM`,
-    open: true,
+    open: false,
   },
 ];
 export const MachinejobFaqDataB = [
