@@ -212,10 +212,8 @@ const CourseFee = ({
                           <AiOutlineBars className={styles.icon} />
                           <b>Batch Type</b>
                         </p>
-                        <p className={styles.list}>
-                          Weekday Evening (Mon-Wed-Fri)
-                        </p>
-                        <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
+                        <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
+                        <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
                       </div>
                     </div>
                     <div>
@@ -224,8 +222,8 @@ const CourseFee = ({
                           <MdDateRange className={styles.icon} />
                           <b>Date</b>
                         </p>
-                        <p className={styles.list}>28th July 2023</p>
-                        <p className={styles.list}>30th July 2023</p>
+                        <p className={styles.list}>11th August 2023</p>
+                        <p className={styles.list}>18th August 2023</p>
                       </div>
                     </div>
                     <div>
@@ -235,7 +233,7 @@ const CourseFee = ({
                           <b>Time</b>
                         </p>
                         <p className={styles.list}>8 PM to 10 PM</p>
-                        <p className={styles.list}>8:30 AM to 12 PM</p>
+                        <p className={styles.list}>8 PM to 10 PM</p>
                       </div>
                     </div>
                     <div className={styles.btnWrapper}>
@@ -265,8 +263,8 @@ const CourseFee = ({
                           <b>Date</b>
                         </p>
                         {/* <p className={styles.list}>9th October 2022</p> */}
-                        <p className={styles.list}>28th July 2023</p>
-                        <p className={styles.list}>30th July 2023</p>
+                        <p className={styles.list}>28th August 2023</p>
+                        <p className={styles.list}>30th August 2023</p>
                       </div>
                     </div>
                     <div>
