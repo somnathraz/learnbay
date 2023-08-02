@@ -21,6 +21,7 @@ function SecondSection({
   heading2,
   heading3,
   heading4,
+  SEOSecondHead,
 }) {
   const [mobile, setMobile] = useState(false);
   const [img, setImg] = useState({
@@ -55,6 +56,7 @@ function SecondSection({
         />
         <div className={styles.secondFirst}>
           <h2 className={styles.h1}>{SecondHead}</h2>
+          <h2 className={styles.ptop} style={{fontWeight: "400"}} >{SEOSecondHead}</h2>
           <p className={styles.ptop}>{SecondPara}</p>
         </div>
         <div className={styles.secondBox}>
