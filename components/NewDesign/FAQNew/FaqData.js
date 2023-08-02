@@ -235,7 +235,7 @@ export const FaqData2 = [
   },
   {
     id: 3,
-    ques: "What’s the duration of the Advance Data Science and AI Program?",
+    ques: "What's the duration of the Advanced online data science courses?",
     ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5 hours/day",
     open: false,
   },
@@ -314,7 +314,7 @@ export const PaymentFaqData2 = [
   },
   {
     id: 2,
-    ques: "Is there any scholarship/discount available for Advanced Data Science and AI Program? What is Group Discount?",
+    ques: "Is there any scholarship/discount available for the advanced certification in data science and ai?",
     ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
     Please check our website or contact our sales team to know more about the applicable discounts.
     

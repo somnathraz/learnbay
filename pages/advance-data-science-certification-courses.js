@@ -95,11 +95,10 @@ function blockchain() {
           first="Tools"
           second="Tips"
           third="Technology"
+          ParaBot="Become a demanding expert in your Domain with Learnbay’s Advanced Data Science and Ai Program."
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/advance+DS+header+image.webp"
-          // firstToparaImg="with domain specialization"
           firstToparaImg="with domain specialization"
           firstHeading="Advanced Data Science and AI Program"
-          // firstHeading="Advance Data Science and Artificial Intelligence Course"
           firstTopPara="Specialization over generalization"
           idss="bfl64ANfSV0"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
@@ -107,7 +106,7 @@ function blockchain() {
         <SecondSection
           fullStackReview={true}
           SecondHead="Why Choose Us?"
-          SecondPara="India's top rated  bootcamp for working professionals "
+          SEOSecondHead="India’s top Advanced data science certification courses for working professionals"
           heading1="1:1 Doubt Session"
           heading2="Guaranteed Interview Calls"
           heading3="IBM Project Certificate"

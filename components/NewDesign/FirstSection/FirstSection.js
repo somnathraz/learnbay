@@ -24,6 +24,7 @@ function FirstSection({
   SecondTyped,
   ThirdTyped,
   ibmOnly,
+  ParaBot,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -86,6 +87,9 @@ function FirstSection({
         <h1 className={styles.h1}>
           {firstHeading} <span className={styles.h1Span}>{firstToparaImg}</span>
         </h1>
+        <p className={styles.ptop} style={{ color: "#000", marginBottom: "10px" }}>
+        {ParaBot}
+        </p>
         <div className={styles.IBMlogoPlay}>
           <Image
             src={FirstRightImg}
