@@ -15,9 +15,13 @@ function CareerHome() {
       <div className={styles.Back}>
         <div>
           <p className={styles.pTop}>Career portal</p>
-          <h4 style={{ textAlign: "left" }}>
+          {/* <h4 style={{ textAlign: "left" }}>
             redesigning your <br />
             work EXPERIENCE
+          </h4> */}
+          <h4 style={{ textAlign: "left" }}>
+            Hiring 
+            Closed
           </h4>
         </div>
         <div className={styles.right}>
@@ -30,7 +34,7 @@ function CareerHome() {
           />
         </div>
       </div>
-      <div className={styles.Placement}>
+      {/* <div className={styles.Placement}>
         <div className={styles.OurPlacementDiv}>
           <h3>Opportunities at Learnbay</h3>
           <div className={styles.iconBoxP}>
@@ -281,7 +285,7 @@ function CareerHome() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
