@@ -28,14 +28,14 @@ function LearnSupport({ FsdNumber }) {
           <div className={styles.btnWrap}>
             {FsdNumber ? (
               <>
-                {/* <a
+                <a
                   href="https://api.whatsapp.com/send?phone=917349222263&text=Hello,"
                   target="_blank"
                 >
                   <button className={styles.btn1}>
                     <AiOutlineWhatsApp /> Enquire Now
                   </button>
-                </a> */}
+                </a>
                 <a href="tel:+917795687988">
                   <button className={styles.btn2}>
                     <MdCall /> +91 77956 87988
@@ -45,14 +45,14 @@ function LearnSupport({ FsdNumber }) {
             ) : (
               <>
                 {" "}
-                {/* <a
+                <a
                   href="https://api.whatsapp.com/send?phone=917349222263&text=Hello,"
                   target="_blank"
                 >
                   <button className={styles.btn1}>
                     <AiOutlineWhatsApp /> Enquire Now
                   </button>
-                </a> */}
+                </a>
                 <a href="tel:+917795687988">
                   <button className={styles.btn2}>
                     <MdCall /> +91 77956 87988
