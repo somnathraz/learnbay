@@ -80,6 +80,24 @@ export default function Document() {
         >
           {" "}
         </script>
+        <script
+        dangerouslySetInnerHTML={{
+          __html: `(function (botId) {
+            var s = document.createElement("script");
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+            s.onload = function () {
+              window.loadChat360Bot(botId);
+            };
+            s.onerror = function (err) {
+              console.error(err);
+            };
+            document.body.appendChild(s);
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+      `,
+        }}
+      />
       </body>
     </Html>
   );
