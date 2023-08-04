@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
         <meta name="robots" content="ALL"></meta>
         <link
           rel="preconnect"
@@ -16,12 +16,12 @@ export default function Document() {
           rel="stylesheet"
         />
 
-<link
+        <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
 
-<link
+        <link
           href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet"
         />
@@ -80,24 +80,6 @@ export default function Document() {
         >
           {" "}
         </script>
-        <script
-        dangerouslySetInnerHTML={{
-          __html: `(function (botId) {
-            var s = document.createElement("script");
-            s.async = true;
-            s.type = 'text/javascript';
-            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
-            s.onload = function () {
-              window.loadChat360Bot(botId);
-            };
-            s.onerror = function (err) {
-              console.error(err);
-            };
-            document.body.appendChild(s);
-          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
-      `,
-        }}
-      />
       </body>
     </Html>
   );
