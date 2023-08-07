@@ -560,7 +560,7 @@ const CitiesRight = ({
               in encouraging you that you need one. We even provide a
               certification programme for data analysts at Learnbay. Our
               IBM-Certified <b>Data Analyst Course Fee in Bangalore</b> is INR
-              1,10,000, excluding GST.
+              79,000 including 18% GST.
             </p>
             <p>
               But What do these Data analysts do? Data Analysts generally solve
