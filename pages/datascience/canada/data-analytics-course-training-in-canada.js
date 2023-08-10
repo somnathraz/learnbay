@@ -1,31 +1,31 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import GetHired from "../components/CoursePage/GetHired/GetHired";
-import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
-import Popup from "../components/Popup/Popup";
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import BottomBar from "../components/BottomBar/BottomBar";
-import Form from "../components/Form/Form";
-import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
-import OfferPopup from "../components/OfferPopup/OfferPopup";
-import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
-import FAQNew from "../components/FAQNewCity/FAQNewDomain";
+import styles from "../../../styles/Home.module.css";
+import FirstSection from "../../../components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../../../components/CoursePage/ProgramInfo/ProgramInfo";
+import GetHired from "../../../components/CoursePage/GetHired/GetHired";
+import BoxShape from "../../../components/CoursePage/Boxshape/BoxShape";
+import Navbar from "../../../components/Navbar/Navbar";
+import Footer from "../../../components/Footer/Footer";
+import BottomBar from "../../../components/BottomBar/BottomBar";
+import { ProgramFee } from "../../../components/CoursePage/ProgramFee/ProgramFee";
+import Popup from "../../../components/Popup/Popup";
+import Form from "../../../components/Form/Form";
+import CitiesLeft from "../../../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../../../components/OfferPopup/OfferPopup";
+import CitiesRight from "../../../components/CityComponent/CitiesRight/CitiesRightdomain";
+import FAQNew from "../../../components/FAQNewCity/FAQNewDomain";
+import LearnSupport from "../../../components/LearnSupport/LearnSupport";
 import React, { useState } from "react";
-import LearnSupport from "../components/LearnSupport/LearnSupport";
 import {
-  AnalyticsFaqDataDu,
-  AnalyticsDomainFaqDataDu,
-  AnalyticsPaymentFaqDataDu,
-  AnalyticsCapstoneFaqDataDu,
-  AnalyticsCertificationFaqDataDu,
-  AnalyticsjobFaqDataDu,
-  AnalyticsMentorshipFaqDataDu,
-  AnalyticsSupportFaqDataDu,
-} from "../components/FAQ/FaqDataCity";
+  AnalyticsFaqDataCa,
+  AnalyticsDomainFaqDataCa,
+  AnalyticsPaymentFaqDataCa,
+  AnalyticsCapstoneFaqDataCa,
+  AnalyticsCertificationFaqDataCa,
+  AnalyticsjobFaqDataCa,
+  AnalyticsMentorshipFaqDataCa,
+  AnalyticsSupportFaqDataCa,
+} from "../../../components/FAQ/FaqDataCity";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -36,27 +36,25 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Best IBM Certified Data Analytics Course in Dubai - Learnbay
-        </title>
+        <title>Data Analytics Certification Course in Canada - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enhance your Data Analytics skills with Learnbay's comprehensive course in Dubai. Gain practical knowledge from industry experts through live classes. Enroll Now."
+          content="Enroll in Most Advanced Data Analytics Course in Canada for working professionals offered by Learnbay with Assured Placement Assistance."
         />
         <meta
           name="keywords"
-          content="Data Analytics course in Dubai, Data Analytics training in Dubai, Data Analytics institute in Dubai, best Data Analytics institute in Dubai, Data Analytics course in Dubai, Data Analytics certification in Dubai, Data Analytics training institute in Dubai, advanced Data Analytics course in Dubai, Data Analytics course with Placement Assistance, Data Analytics course"
+          content="Data Analytics course in Canada, Data Analytics training in Canada, Data Analytics institute in Canada, best Data Analytics institute in Canada, Data Analytics course in Canada, Data Analytics certification in Canada, Data Analytics training institute in Canada, advanced Data Analytics course in Canada, Data Analytics course with Placement Assistance, Data Analytics course"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-analytics-course-training-in-dubai"
+          href="https://www.learnbay.co/data-analytics-course-training-in-canada"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
-          content="Learnbay: Data Analytics Courses Certification Training Dubai"
+          content="Learnbay: Data Analytics Courses Certification Training Canada"
         />
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
@@ -77,7 +75,7 @@ export default function Home() {
             __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
- "name": "How to apply for data analytics course?",
+ "name": "How to apply for data science course?",
  "description": "You just have to follow 3 easy steps to enroll in our advanced data science course",
  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "totalTime": "PT6M",
@@ -88,7 +86,7 @@ export default function Home() {
  },
  "supply": {
  "@type": "HowToSupply",
- "name": "We provide Advanced data analytics course in Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai"
+ "name": "We provide Advanced data science course in Canada,Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai,  Dubai"
  },
  "tool": {
  "@type": "HowToTool",
@@ -108,13 +106,14 @@ export default function Home() {
  "url": "https://www.learnbay.co/data-science-course/"
  },{
  "@type": "HowToStep",
- "text": "Get enrollment in our data analytics course",
+ "text": "Get enrollment in our data science course",
  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "name": "Get enrollment",
  "url": "https://www.learnbay.co/"
 }] 
+
 }
-              } `,
+} `,
           }}
         />
         <script
@@ -127,8 +126,8 @@ export default function Home() {
  "@type": "WebPage",
  "@id": "https://www.learnbay.co/"
  },
- "headline": "Data Analytics Course Training in Dubai",
- "description": "Data Analytics Course in Dubai. Learnbay is Advanced Data Analytics Course Training Institute in Dubai. Data Analytics course in Dubai will enhance your career",
+ "headline": "data analytics course training in canada",
+ "description": "Data Analytics Course in Canada. Learnbay is Advanced Data Analytics Course Training Institute in Canada. Data Analytics course in Canada will enhance your career",
  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
  "author": {
  "@type": "Organization",
@@ -156,11 +155,11 @@ export default function Home() {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [{
- "@type": "Question",
- "name": "What are the prerequisites for the Data Analytics Training Course in Dubai?",
+ "@type": "Question",                
+ "name": "What are the prerequisites for the Data Analytics Training Course in Canada?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "There are no prerequisites for this Data Analytics certification course in Dubai as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
+ "text": "There are no prerequisites for this Data Analytics certification course in Canada as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
  }
  },{
  "@type": "Question",
@@ -171,38 +170,39 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is a Flexi Subscription in the Data Analytics Certification Program in Dubai?",
+ "name": "What is a Flexi Subscription in the Data Analytics Certification Program in Canada?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
  }
  },{
  "@type": "Question",
- "name": "What’s the duration of the Data Analytics Course in Dubai?",
+ "name": "What’s the duration of the Data Analytics Course in Canada?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day"
+ "text": " The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day."
  }
  },{
  "@type": "Question",
- "name": "What is the mode of Data Analytics training at Learnbay, Dubai?",
+ "name": "What is the mode of Data Analytics training at Learnbay, Canada?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
- "name": "How can I opt for a Hybrid mode of learning in Dubai?",
+ "name": "How can I opt for a Hybrid mode of learning in Canada?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions."
+ "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.
+Note: This 100% job assistance policy is only specific to “100% job assistance | Data Science & AI Certification Course”"
  }
  },{
  "@type": "Question",
- "name": "What is the total fee for the Data Analytics Program in Dubai?",
+ "name": "What is the total fee for the Data Analytics Program in Canada?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST."
+ "text": "The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.."
  }
  },{
  "@type": "Question",
@@ -213,31 +213,31 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "Is there any scholarship/discount available for the Data Analytics Certification in Dubai? What is Group Discount?",
+ "name": "Is there any scholarship/discount available for the Data Analytics Certification in Canada? What is Group Discount?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Group of 4+"
+ "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+."
  }
  },{
  "@type": "Question",
- "name": "What is the refund policy for the Data Analytics Course at Learnbay?",
+ "name": "What is the refund policy for the Data Analytics Course at Learnbay?.",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
+ "text": " Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
  }
  },{
  "@type": "Question",
  "name": "How many real-time projects/case studies will be there?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc."
+ "text": " We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc."
  }
  },{
  "@type": "Question",
  "name": "How many real-time projects will be there?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc."
+ "text": " We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc. Click here to download the list of the projects."
  }
  },{
  "@type": "Question",
@@ -262,7 +262,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
-"name": "How many interview calls will I get at Learnbay?",
+ "name": "How many interview calls will I get at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -275,7 +275,7 @@ export default function Home() {
  "text": "Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
  }
  },{
- "@type": "Question",
+ "@type": "Question",                                      
  "name": "Will I get job referrals at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
@@ -286,7 +286,7 @@ export default function Home() {
  "name": "Until when will the students get the facility of mentorship?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Our mentors will provide Data Analytics training to the students until the completion of the course."
+ "text": "Our mentors will provide data science training to the students until the completion of the course."
  }
  },{
  "@type": "Question",
@@ -296,7 +296,7 @@ export default function Home() {
  "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
  }
  },{
- "@type": "Question",
+ "@type": "Question",        
  "name": "When is the job assistance provided at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
@@ -305,6 +305,20 @@ export default function Home() {
  },{
  "@type": "Question",
  "name": "How long will I get Job referrals?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+ }
+ },{
+ "@type": "Question",
+ "name": "What's the eligibility for a job assistance program at Learnbay?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+ }
+ },{
+ "@type": "Question",
+ "name": "How long will I get support for job assistance?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -319,8 +333,8 @@ export default function Home() {
           dangerouslySetInnerHTML={{
             __html: ` {
 "@context": "http://schema.org",
-"@type": "EducationEvent","name": "Data Analytics Course Training in Dubai",
-"description": "Data Analytics Course in Dubai. Learnbay is Advanced Data Analytics Course Training Institute in Dubai. Data Analytics course in Dubai will enhance your career",
+"@type": "EducationEvent","name": "Data analytics Course Training in canada",
+"description": "Learnbay offers a Data analytics course in canada, the most comprehensive Data analytics course in the market, covering the complete Data Science lifecycle.",
 "image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png",
 "performer":"Learnbay", 
 "offers":{
@@ -333,7 +347,7 @@ export default function Home() {
 "priceCurrency": "INR",
 "validFrom": "2022-05-01"},
 "startDate":"2022-05-01",
-"endDate": "2022-10-31",
+"endDate": "2022-11-31",
 "url" : "https://www.learnbay.co/","duration":"80", 
 "eventAttendanceMode":"https://schema.org/MixedEventAttendanceMode",
 "eventStatus":"http://schema.org/EventScheduled",
@@ -342,24 +356,25 @@ export default function Home() {
  "url" : "https://www.learnbay.co/"
  },{
  "@type": "Place",
- "name": "Learnbay - Data Science, Data Analytics Course Training in Dubai",
+ "name": "Learnbay - Data Science, data analytics course training in canada",
  "address": {
- "@type": "PostalAddress",
- "streetAddress": " 1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Bangalore - 560102 (Above Sangam Sweets)",
- "addressLocality": "HSR Layout Sector 3",
- "postalCode": "560102",
- "addressCountry": "Bengaluru, Karnataka,INDIA"
- } 
- ,"geo": {
- "@type": "GeoCoordinates",
- "latitude": "12.911762714349765",
- "longitude": "77.64127379352328"
- } 
- }], 
+  "@type": "PostalAddress",
+  "streetAddress": "#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)",
+
+  "addressLocality": "HSR Sector 3",
+  "postalCode": "560102",
+  "addressCountry": "Bengaluru, Karnataka,INDIA"
+},
+"geo": {
+  "@type": "GeoCoordinates",
+  "latitude": "12.914745887585838",
+  "longitude": "77.64087553886982"
+} 
+}], 
 "organizer": {
- "@type": "Organization",
- "name": "Learnbay",
- "url": "https://www.learnbay.co"
+"@type": "Organization",
+"name": "Learnbay",
+"url": "https://www.learnbay.co"
 }
 } `,
           }}
@@ -384,17 +399,17 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Industry-ready Data analytics program"
-          mTopPara="Industry-ready Data analytics program"
-          title="Data Analytics Course "
-          mTitle="Data Analytics Course "
-          spanTitleText="Training in Dubai"
-          spanMTitleText="Training in Dubai"
+          deskTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
+          mTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
+          spanTitleText="For Professionals"
+          spanMTitleText="For Professionals"
+          title="Data Analytics Course in Canada"
+          mTitle="Data Analytics Course in Canada"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Data+Analytics.png"
           width="900"
           height="762"
-          alt="data analytics course training in dubai"
+          alt="data analytics course training in canada"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
@@ -416,8 +431,8 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            alt="data analytics course training in dubai"
-            title="Why Enroll In Data Analytics Course Training in Dubai?"
+            alt="data analytics course training in canada"
+            title="Why Enroll In Data Analytics Course Training in Canada?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools."
             Box2h5="Exclusive Hackathons"
@@ -434,19 +449,21 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramHead1="Industry-ready Data analytics program"
-              ProgramBot1="Learnbay offers a full-stack Data analytics course in Dubai, co-developed by IBM. The data analytics courses are prepared by professional faculties that have immense knowledge and experience in the real-world data analytics field. Our Data Analytics course is aimed at anyone wanting to learn about data analytics, with an emphasis on practical skills and job-ready techniques. In other words, It is the perfect choice for anyone interested in working as a data analyst, marketing analyst, financial analyst, analytical consultant, or any other analytical role. Simply, we can say this is a course that helps aspirants boost their knowledge of how data can be used in today's business market."
-              ProgramBot2="The IBM data analytics course curriculum optimizes students with the requisite set of skills to ace interviews and builds a strong platform for their job prospects in Dubai."
-              ProgramHead3="How can Learnbay be the right start for your data analytics career in Dubai?"
-              ProgramBot3="Learnbay offers weekend and weekday batches to accommodate working professionals' busy schedules. You can also choose your own learning schedule. With a 1-year flexi pass, students can attend any batch of any instructor via Learnbay LMS. Learnbay also conducts additional coding classes For Non-Programmers to keep them on track with other techies."
-              ProgramBot31="The IBM data analytics course includes 180+ hours of live lectures, exercises, hands-on labs, real-world examples, case studies, and discussion sessions, giving you an idea of how data analytics works in practice. In addition, Learnbay also hosts monthly hackathons and webinars to ensure engaged learning."
-              ProgramBot32="In a nutshell,  Learnbay is the ideal place for you to head-start your career in data analytics training in Dubai."
-              CertificationHead1="IBM Data Analytics Certification by Learnbay"
-              CertificationBot1="At the end of the data analytics course, students will be issued a course completion certificate directly by IBM. And of course, they must complete all of the modules along with practical assignments, assessments, and projects to be awarded this IBM certificate. Following this, they will be furnished with a job assistance program. We have also partnered with global IT companies in Dubai to promote our data analytics students' skills."
+              ProgramHead1="Industrial Data Analytics Program for Working Professionals Of Any Domain"
+              ProgramBot1=" Canada, being the global center for technical education, offers a variety of data science career opportunities. Learnbay is proud to present the Job-ready data analytics course in Canada, the first of its kind to cover programming, algorithm, and data analytics all in one complete course."
+              ProgramBot2="Our specialized faculty team has vast expertise in teaching basic to advanced data analytics in both academic and professional settings. Our IBM data analytics course curriculum is constantly being updated with the latest orientation in data analysis tools. So that you remain prepared for new changes in the technology industry- Designed for early pros and working professionals, this data analytics course at Learnbay will prepare you for a variety of careers in the field of data analytics jobs. The Online data analytics course in Canada is a 4.5-month program, with classes held weekly and weekend batches- facilitated by industry experts; students will learn through hands-on projects and group challenges."
+              ProgramHead3="What is the purpose of this data analytics course in Canada?"
+              ProgramBot3=" Data Analytics is a rapidly developing field and one of the most profitable and future-proof careers in Canada. The purpose of this data analytics course with placement is to provide students with theoretical and practical knowledge and skills in database management systems, analytical reporting applications, and data warehousing."
+              ProgramBot31="This Data Science training course will take you from zero to hero, where you'll also learn how to harness the power of data and turn it into actionable solutions. You'll be able to analyze data from a variety of sources, create meaningful visualizations and dashboards, and interpret the information within existing and newly implemented business models."
+              ProgramBot32="Know more about the Learnbay’s Data Analytics Certification Program in Canada"
+              CertificationHead1=" What is the certification process for the Data Analytics course at Learnbay?"
+              CertificationBot1="Learnbay has achieved collaboration for all of its training courses. After the completion of the data analytics course in Canada, you’ll be awarded an IBM certification. To successfully pass the certification process, you must be attentive throughout the training and complete all case studies and assignments within the due dates."
+              CertificationBot2="This IBM certification will help you keep one step ahead of the others and grab the attention of hiring Managers. We also have partnered with global tech giants to promote the abilities of our data analytics students."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
-              ModuleBot1="The modules of the data analytics course in Dubai consist of 180+ hours of live classes led by experts. Our instructors cover all the steps, from understanding the problem statement to the final solution. The course covers a variety of data analytics tools, including PowerBI, advanced Excel, MongoDB, Tableau, and Spark analytics."
-              ModuleBot2="In this training, you'll also learn the core concepts of predictive analytics and see how modern Hadoop-based technologies and tools can give you a head-start in Data Analytics."
-              ModuleBot3="Additionally, Learnbay also offers specialized Python programming classes for non-coders to enhance their programming skills."
+              ModuleHead1="What skills will you learn from this course? "
+              ModuleBot1="The Data Analytics Course with placement is a comprehensive, data-driven analytics curriculum covering the most important topics of data analytics, including predictive and prescriptive analytics. The modules are designed to challenge, engage and push you above and beyond your stated goals. Throughout the data analytics training, you will learn how to uncover patterns in data to make decisions with confidence. In addition, you will know how to develop databases from scratch, customize tables, queries, and reports, and analyze data using reporting applications."
+              ModuleBot2="Additionally, you will have access to special classes of Python and R programming intended for non-technical learners. We have created this data analytics course with the idea that we will take you from a coding newbie to an expert data analyst in just a few months!"
+              ModuleHead2="The fundamental training in data analytics course training includes:"
               syllabush1="Preparatory Classes (Programming + Maths)"
               syllabusb1="6 Hours"
               SyllabusBotlist11="Anaconda Installation"
@@ -483,17 +500,18 @@ export default function Home() {
               SyllabusBotlist45="Fake News Detection"
               SyllabusBotlist46="Movie Recommendation"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
-              JobBot1="Learnbay Data analytics course will train you such that you learn the job-ready skills in Dubai. Learners who successfully complete our IBM data analytics course will get access to our Job Assistance service. Our career experts conduct mock interviews with various firms. They also guide them with portfolio and project management along with interpersonal skills training. After completion of data analytics certification, around 700+ students have got placed in high-paying positions in Dubai firms."
-              JobHead2="What is data analytics in Dubai?"
-              JobBot3="Data Analytics is the process of obtaining useful information from data. It helps in achieving efficiency and providing insights into a business operation."
-              JobBot4="As a data analyst, you will be supporting the business in its decision-making process by analyzing large volumes of customers and other data. You will be responsible for identifying patterns and trends within your data set, interpreting that information to identify opportunities, and delivering strong solutions accordingly."
-              JobHead3="Will data analytics be a secured career in Dubai?"
-              JobBot7="Data analytics is one of the fastest-growing career fields in Dubai. Given the current market scenario, there is always an increasing demand for Data Analysts in the workplace, and it may be an ideal career choice for people with a strong foundation in mathematics, statistics, or business backgrounds. In Dubai, a typical data analyst earns around 10,000 AED per month, which is decent pay in an expensive city."
-              JobBot8="Overall, Data analytics is a great profession to be in, offering opportunities with high compensation and expert status with the right experience. Our data analytics course with placement will help you get started on this journey to becoming a professional data analyst in Dubai."
-              ProjectsBot1="As part of our IBM data analytics certification, students will be given hands-on practical training under the guidance of mentors. Here, they will be required to work on 5 popular data analytics projects. Learnbay's cloud lab option provides learners with access to ongoing MNC projects, allowing them to stay up to date on the newest data analytics trends. Some of the projects of previous Learnbay students:"
+              JobBot1="Learnbay’s Job assistance program is what makes it the best data analytics institute in Canada, where students will receive support with resume preparation and soft skill training workshops."
+              JobBot2="Most specifically, students will be trained through mock interviews with multiple hiring Managers, allowing them to improve themselves and be ready to face the real interviews with a maximum level of confidence. Our solid partnerships with MNCs and IBM have helped many students get placed in leading multinational companies in Canada."
+              JobHead2="How fulfilling is a career in data analytics in Canada?"
+              JobBot3=" A Data analyst is a trained analytical thinker who is skilled in working with large data sets to bring insight and solutions. A  typical data analyst is expected to have a diverse knowledge of various tools and methods. They must be well-versed in the practical applications of algorithms. They must also be able to apply their knowledge in real-world situations."
+              JobBot4="In Canada, there are several Data Analyst positions available in industries such as banking, healthcare, finance, and many others. Canadian firms are looking for candidates who can analyze complex data and discover new insights for their products."
+              JobBot6="After completing the data analytics course with placement, students will be hired as data analysts by the top Canadian companies with an attractive salary package."
+              ProjectsHead1="Projects for better experiential learning"
+              ProjectsBot1="Learnbay trainers ensure that our students have learned the in-demand data analytics tools and techniques. They lead them through a series of capstones and industrial projects to provide them with hands-on experience. Furthermore, students can also access the cloud lab facility to observe and learn from the live data analytics projects from MNCs."
+              ProjectsBot2="During this IBM data analytics course, you'll work on 5 famous data analytics projects, including Fake news detection and web scraping. Take a peek at some of the popular projects completed by our students:"
               src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png"
               ProjectsH1="Samsung Health Monitor App"
-              Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is an accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
+              Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
               src2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/IBM.png"
               ProjectsH2="IBM HR Analytics"
               Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities."
@@ -502,8 +520,8 @@ export default function Home() {
               Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
               src4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
-              Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
-              AlumniBot1="Learnbay data analytics course includes both theory and hands-on techniques, which makes our students eligible for real-world data analytics jobs in Dubai. We have trained almost 1000+ students so far from all over the world. They currently are working in supervisory and managerial positions in large tech companies like SAP, Adobe, Salesforce, and other Dubai companies. Learnbay Students Reviews:"
+              Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects. BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
+              AlumniBot1="Learnbay has collaborated with 250+ hiring partners. It has successfully placed many students in well-paying positions within 3 months of the IBM data analytics course completion, on average. Over 700 aspirants have secured their careers as data analysts in leading companies, including  IBM, Accenture, Oracle, and Mindtree. Some of our satisfied learners have shared their experiences with us."
               Asrc1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/devraj.jpg"
               AlumniH1="Deveraj"
               Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."
@@ -516,25 +534,25 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
-              alt1="data analytics course training in dubai"
-              alt2="data analytics course training in dubai"
-              alt3="data analytics course training in dubai"
-              alt4="data analytics course training in dubai"
-              alt5="data analytics course training in dubai"
-              alt6="data analytics course training in dubai"
-              alt7="data analytics course training in dubai"
-              alt8="data analytics course training in dubai"
-              alt9="data analytics course training in dubai"
+              alt1="data analytics course training in canada"
+              alt2="data analytics course training in canada"
+              alt3="data analytics course training in canada"
+              alt4="data analytics course training in canada"
+              alt5="data analytics course training in canada"
+              alt6="data analytics course training in canada"
+              alt7="data analytics course training in canada"
+              alt8="data analytics course training in canada"
+              alt9="data analytics course training in canada"
             />
             <FAQNew
-              FaqDatas={AnalyticsFaqDataDu}
-              DomainFaqDatas={AnalyticsDomainFaqDataDu}
-              PaymentFaqDatas={AnalyticsPaymentFaqDataDu}
-              CapstoneFaqDatas={AnalyticsCapstoneFaqDataDu}
-              CertificationFaqDatas={AnalyticsCertificationFaqDataDu}
-              jobFaqDatas={AnalyticsjobFaqDataDu}
-              MentorshipFaqDatas={AnalyticsMentorshipFaqDataDu}
-              SupportFaqDatas={AnalyticsSupportFaqDataDu}
+              FaqDatas={AnalyticsFaqDataCa}
+              DomainFaqDatas={AnalyticsDomainFaqDataCa}
+              PaymentFaqDatas={AnalyticsPaymentFaqDataCa}
+              CapstoneFaqDatas={AnalyticsCapstoneFaqDataCa}
+              CertificationFaqDatas={AnalyticsCertificationFaqDataCa}
+              jobFaqDatas={AnalyticsjobFaqDataCa}
+              MentorshipFaqDatas={AnalyticsMentorshipFaqDataCa}
+              SupportFaqDatas={AnalyticsSupportFaqDataCa}
             />
           </div>
         </div>

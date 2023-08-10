@@ -1,22 +1,22 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../components/CoursePage/GetHired/GetHired";
-import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import BottomBar from "../components/BottomBar/BottomBar";
-import Popup from "../components/Popup/Popup";
-import Form from "../components/Form/Form";
-import CityText from "../components/CityComponent/CityText/CityText";
-import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
-import OfferPopup from "../components/OfferPopup/OfferPopup";
-import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
-import FAQNew from "../components/FAQNewCity/FAQNewDomain";
+import styles from "../../../styles/Home.module.css";
+import FirstSection from "../../../components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../../../components/CoursePage/ProgramInfo/ProgramInfo";
+import GetHired from "../../../components/CoursePage/GetHired/GetHired";
+import { ProgramFee } from "../../../components/CoursePage/ProgramFee/ProgramFee";
+import BoxShape from "../../../components/CoursePage/Boxshape/BoxShape";
+import Navbar from "../../../components/Navbar/Navbar";
+import Footer from "../../../components/Footer/Footer";
+import BottomBar from "../../../components/BottomBar/BottomBar";
+import Popup from "../../../components/Popup/Popup";
+import Form from "../../../components/Form/Form";
+import CityText from "../../../components/CityComponent/CityText/CityText";
+import CitiesLeft from "../../../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../../../components/OfferPopup/OfferPopup";
+import CitiesRight from "../../../components/CityComponent/CitiesRight/CitiesRightdomain";
+import FAQNew from "../../../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
-import LearnSupport from "../components/LearnSupport/LearnSupport";
+import LearnSupport from "../../../components/LearnSupport/LearnSupport";
 import {
   BusinessAFaqDataH,
   BusinessAPaymentFaqDataH,
@@ -25,7 +25,7 @@ import {
   BusinessAjobFaqDataH,
   BusinessAMentorshipFaqDataH,
   BusinessASupportFaqDataH,
-} from "../components/FAQ/FaqDataCity";
+} from "../../../components/FAQ/FaqDataCity";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -72,7 +72,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
