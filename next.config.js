@@ -919,11 +919,6 @@ module.exports = {
       },
       {
         source: "/dsa-system-design",
-        destination: "/datascience/dsa-system-design",
-        permanent: true,
-      },
-      {
-        source: "/dsa-system-design",
         destination: "/fullstack/dsa-system-design",
         permanent: true,
       },
