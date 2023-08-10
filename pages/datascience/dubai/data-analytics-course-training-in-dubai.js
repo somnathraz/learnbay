@@ -1,21 +1,21 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import GetHired from "../components/CoursePage/GetHired/GetHired";
-import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
-import Popup from "../components/Popup/Popup";
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import BottomBar from "../components/BottomBar/BottomBar";
-import Form from "../components/Form/Form";
-import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
-import OfferPopup from "../components/OfferPopup/OfferPopup";
-import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
-import FAQNew from "../components/FAQNewCity/FAQNewDomain";
+import styles from "../../../styles/Home.module.css";
+import FirstSection from "../../../components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../../../components/CoursePage/ProgramInfo/ProgramInfo";
+import { ProgramFee } from "../../../components/CoursePage/ProgramFee/ProgramFee";
+import GetHired from "../../../components/CoursePage/GetHired/GetHired";
+import BoxShape from "../../../components/CoursePage/Boxshape/BoxShape";
+import Popup from "../../../components/Popup/Popup";
+import Navbar from "../../../components/Navbar/Navbar";
+import Footer from "../../../components/Footer/Footer";
+import BottomBar from "../../../components/BottomBar/BottomBar";
+import Form from "../../../components/Form/Form";
+import CitiesLeft from "../../../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import OfferPopup from "../../../components/OfferPopup/OfferPopup";
+import CitiesRight from "../../../components/CityComponent/CitiesRight/CitiesRightdomain";
+import FAQNew from "../../../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
-import LearnSupport from "../components/LearnSupport/LearnSupport";
+import LearnSupport from "../../../components/LearnSupport/LearnSupport";
 import {
   AnalyticsFaqDataDu,
   AnalyticsDomainFaqDataDu,
@@ -25,7 +25,7 @@ import {
   AnalyticsjobFaqDataDu,
   AnalyticsMentorshipFaqDataDu,
   AnalyticsSupportFaqDataDu,
-} from "../components/FAQ/FaqDataCity";
+} from "../../../components/FAQ/FaqDataCity";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -386,10 +386,8 @@ export default function Home() {
           dataScienceCounselling={true}
           deskTopPara="Industry-ready Data analytics program"
           mTopPara="Industry-ready Data analytics program"
-          title="Data Analytics Course "
-          mTitle="Data Analytics Course "
-          spanTitleText="Training in Dubai"
-          spanMTitleText="Training in Dubai"
+          title="Data Analytics Course Training in Dubai"
+          mTitle="Data Analytics Course Training in Dubai"
           desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Data+Analytics.png"
           width="900"

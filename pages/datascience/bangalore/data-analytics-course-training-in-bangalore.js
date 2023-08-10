@@ -1,31 +1,32 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import GetHired from "../components/CoursePage/GetHired/GetHired";
-import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
-import Popup from "../components/Popup/Popup";
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import BottomBar from "../components/BottomBar/BottomBar";
-import Form from "../components/Form/Form";
-import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeftDomain";
-import OfferPopup from "../components/OfferPopup/OfferPopup";
-import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRightdomain";
-import FAQNew from "../components/FAQNewCity/FAQNewDomain";
+import styles from "../../../styles/Home.module.css";
+import FirstSection from "../../../components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../../../components/CoursePage/ProgramInfo/ProgramInfo";
+import GetHired from "../../../components/CoursePage/GetHired/GetHired";
+import BoxShape from "../../../components/CoursePage/Boxshape/BoxShape";
+import Popup from "../../../components/Popup/Popup";
+import Navbar from "../../../components/Navbar/Navbar";
+import { ProgramFee } from "../../../components/CoursePage/ProgramFee/ProgramFee";
+import Footer from "../../../components/Footer/Footer";
+import BottomBar from "../../../components/BottomBar/BottomBar";
+import Form from "../../../components/Form/Form";
+import LearnSupport from "../../../components/LearnSupport/LearnSupport";
+import CityText from "../../../components/CityComponent/CityText/CityText";
+import CitiesLeft from "../../../components/CityComponent/CitiesLeft/CitiesLeftDomain";
+import CitiesRight from "../../../components/CityComponent/CitiesRight/CitiesRightdomain";
+import OfferPopup from "../../../components/OfferPopup/OfferPopup";
+import FAQNew from "../../../components/FAQNewCity/FAQNewDomain";
 import React, { useState } from "react";
-import LearnSupport from "../components/LearnSupport/LearnSupport";
 import {
-  AnalyticsFaqDataDu,
-  AnalyticsDomainFaqDataDu,
-  AnalyticsPaymentFaqDataDu,
-  AnalyticsCapstoneFaqDataDu,
-  AnalyticsCertificationFaqDataDu,
-  AnalyticsjobFaqDataDu,
-  AnalyticsMentorshipFaqDataDu,
-  AnalyticsSupportFaqDataDu,
-} from "../components/FAQ/FaqDataCity";
+  AnalyticsFaqDataB,
+  AnalyticsDomainFaqDataB,
+  AnalyticsPaymentFaqDataB,
+  AnalyticsCapstoneFaqDataB,
+  AnalyticsCertificationFaqDataB,
+  AnalyticsjobFaqDataB,
+  AnalyticsMentorshipFaqDataB,
+  AnalyticsSupportFaqDataB,
+} from "../../../components/FAQ/FaqDataCity";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -36,27 +37,25 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Best IBM Certified Data Analytics Course in Dubai - Learnbay
-        </title>
+        <title>Best Data Analytics Course in Bangalore - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enhance your Data Analytics skills with Learnbay's comprehensive course in Dubai. Gain practical knowledge from industry experts through live classes. Enroll Now."
+          content="Enhance your career with Data Analytics Training in Bangalore offered by Learnbay. In associated with IBM, get the best mentorship from the industry experts. Enroll Now."
         />
         <meta
           name="keywords"
-          content="Data Analytics course in Dubai, Data Analytics training in Dubai, Data Analytics institute in Dubai, best Data Analytics institute in Dubai, Data Analytics course in Dubai, Data Analytics certification in Dubai, Data Analytics training institute in Dubai, advanced Data Analytics course in Dubai, Data Analytics course with Placement Assistance, Data Analytics course"
+          content="Data Analytics course in Bangalore, Data Analytics training in Bangalore, Data Analytics institute in Bangalore, best Data Analytics institute in Bangalore, Data Analytics course in Bangalore, Data Analytics certification in Bangalore, Data Analytics training institute in Bangalore, advanced Data Analytics course in Bangalore, Data Analytics course with Placement Assistance, Data Analytics course"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-analytics-course-training-in-dubai"
+          href="https://www.learnbay.co/data-analytics-course-training-in-bangalore"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
         <meta
           name="copyright"
-          content="Learnbay: Data Analytics Courses Certification Training Dubai"
+          content="Learnbay: Data Analytics Courses Certification Training India"
         />
         {/* <meta name="language" content="English" /> */}
         {/* <meta name="rating" content="general" /> */}
@@ -77,7 +76,7 @@ export default function Home() {
             __html: ` {
  "@context": "https://schema.org/", 
  "@type": "HowTo", 
- "name": "How to apply for data analytics course?",
+ "name": "How to apply for data science course?",
  "description": "You just have to follow 3 easy steps to enroll in our advanced data science course",
  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "totalTime": "PT6M",
@@ -88,7 +87,7 @@ export default function Home() {
  },
  "supply": {
  "@type": "HowToSupply",
- "name": "We provide Advanced data analytics course in Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai"
+ "name": "We provide data analytics course training in bangalore"
  },
  "tool": {
  "@type": "HowToTool",
@@ -103,18 +102,19 @@ export default function Home() {
  },{
  "@type": "HowToStep",
  "text": "Talk to our experts for career counseling",
- "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
+ "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
  "name": "Talk to Expert",
  "url": "https://www.learnbay.co/data-science-course/"
  },{
  "@type": "HowToStep",
- "text": "Get enrollment in our data analytics course",
+ "text": "Get enrollment in our data science course",
  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
  "name": "Get enrollment",
  "url": "https://www.learnbay.co/"
 }] 
+
 }
-              } `,
+} `,
           }}
         />
         <script
@@ -127,8 +127,8 @@ export default function Home() {
  "@type": "WebPage",
  "@id": "https://www.learnbay.co/"
  },
- "headline": "Data Analytics Course Training in Dubai",
- "description": "Data Analytics Course in Dubai. Learnbay is Advanced Data Analytics Course Training Institute in Dubai. Data Analytics course in Dubai will enhance your career",
+ "headline": "Data Analytics Course Training in Bangalore",
+ "description": "Data Analytics Course in Bangalore. Learnbay is Advanced Data Analytics Course Training Institute in Bangalore. Data Analytics course in Bangalore will enhance your career",
  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp", 
  "author": {
  "@type": "Organization",
@@ -145,6 +145,7 @@ export default function Home() {
  },
  "datePublished": "2021-10-01",
  "dateModified": "2022-04-21"
+
 }
 } `,
           }}
@@ -154,13 +155,14 @@ export default function Home() {
           dangerouslySetInnerHTML={{
             __html: ` {
  "@context": "https://schema.org",
+
  "@type": "FAQPage",
  "mainEntity": [{
  "@type": "Question",
- "name": "What are the prerequisites for the Data Analytics Training Course in Dubai?",
+ "name": "What are the prerequisites for the Data Analytics Training Course in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "There are no prerequisites for this Data Analytics certification course in Dubai as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
+ "text": "There are no prerequisites for this Data Analytics certification course in Bangalore as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
  }
  },{
  "@type": "Question",
@@ -171,35 +173,35 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "What is a Flexi Subscription in the Data Analytics Certification Program in Dubai?",
+ "name": "What is a Flexi Subscription in the Data Analytics Certification Program in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
  }
  },{
  "@type": "Question",
- "name": "What’s the duration of the Data Analytics Course in Dubai?",
+ "name": "What’s the duration of the Data Analytics Program in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day"
+ "text": "The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day"
  }
  },{
  "@type": "Question",
- "name": "What is the mode of Data Analytics training at Learnbay, Dubai?",
+ "name": "What is the mode of data science training at Learnbay, Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode."
+ "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
  }
  },{
  "@type": "Question",
- "name": "How can I opt for a Hybrid mode of learning in Dubai?",
+ "name": "How can I opt for a Hybrid mode of learning in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions."
+ "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions"
  }
  },{
  "@type": "Question",
- "name": "What is the total fee for the Data Analytics Program in Dubai?",
+ "name": "What is the total fee for the Data Analytics Program in Bangalore?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST."
@@ -213,10 +215,10 @@ export default function Home() {
  }
  },{
  "@type": "Question",
- "name": "Is there any scholarship/discount available for the Data Analytics Certification in Dubai? What is Group Discount?",
+ "name": "Is there any scholarship/discount available for the Data Analytics Certification in Bangalore? What is Group Discount?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Group of 4+"
+ "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"
  }
  },{
  "@type": "Question",
@@ -228,13 +230,6 @@ export default function Home() {
  },{
  "@type": "Question",
  "name": "How many real-time projects/case studies will be there?",
- "acceptedAnswer": {
- "@type": "Answer",
- "text": "We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc."
- }
- },{
- "@type": "Question",
- "name": "How many real-time projects will be there?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc."
@@ -262,7 +257,7 @@ export default function Home() {
  }
  },{
  "@type": "Question",
-"name": "How many interview calls will I get at Learnbay?",
+ "name": "How many interview calls will I get at Learnbay?",
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
@@ -286,7 +281,7 @@ export default function Home() {
  "name": "Until when will the students get the facility of mentorship?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Our mentors will provide Data Analytics training to the students until the completion of the course."
+ "text": "Our mentors will provide data science training to the students until the completion of the course."
  }
  },{
  "@type": "Question",
@@ -319,8 +314,8 @@ export default function Home() {
           dangerouslySetInnerHTML={{
             __html: ` {
 "@context": "http://schema.org",
-"@type": "EducationEvent","name": "Data Analytics Course Training in Dubai",
-"description": "Data Analytics Course in Dubai. Learnbay is Advanced Data Analytics Course Training Institute in Dubai. Data Analytics course in Dubai will enhance your career",
+"@type": "EducationEvent","name": "Data Analytics Course Training in Bangalore",
+"description": "Data Analytics Course in Bangalore. Learnbay is Advanced Data Analytics Course Training Institute in Bangalore. Data Analytics course in Bangalore will enhance your career",
 "image" : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png",
 "performer":"Learnbay", 
 "offers":{
@@ -329,11 +324,11 @@ export default function Home() {
 "highPrice": "110000",
 "url" : "https://www.learnbay.co/",
 "availability" : "https://schema.org/InStock",
-"price": "1,10,000",
+"price": "39999",
 "priceCurrency": "INR",
 "validFrom": "2022-05-01"},
 "startDate":"2022-05-01",
-"endDate": "2022-10-31",
+"endDate": "2022-08-31",
 "url" : "https://www.learnbay.co/","duration":"80", 
 "eventAttendanceMode":"https://schema.org/MixedEventAttendanceMode",
 "eventStatus":"http://schema.org/EventScheduled",
@@ -341,21 +336,22 @@ export default function Home() {
  "@type": "VirtualLocation",
  "url" : "https://www.learnbay.co/"
  },{
- "@type": "Place",
- "name": "Learnbay - Data Science, Data Analytics Course Training in Dubai",
- "address": {
- "@type": "PostalAddress",
- "streetAddress": " 1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Bangalore - 560102 (Above Sangam Sweets)",
- "addressLocality": "HSR Layout Sector 3",
- "postalCode": "560102",
- "addressCountry": "Bengaluru, Karnataka,INDIA"
- } 
- ,"geo": {
- "@type": "GeoCoordinates",
- "latitude": "12.911762714349765",
- "longitude": "77.64127379352328"
- } 
- }], 
+  "@type": "Place",
+  "name": "Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Bangalore",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)",
+
+    "addressLocality": "HSR Sector 3",
+    "postalCode": "560102",
+    "addressCountry": "Bengaluru, Karnataka,INDIA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "12.914745887585838",
+    "longitude": "77.64087553886982"
+  } 
+}], 
 "organizer": {
  "@type": "Organization",
  "name": "Learnbay",
@@ -384,17 +380,18 @@ export default function Home() {
         </Popup>
         <FirstSection
           dataScienceCounselling={true}
-          deskTopPara="Industry-ready Data analytics program"
-          mTopPara="Industry-ready Data analytics program"
-          title="Data Analytics Course "
-          mTitle="Data Analytics Course "
-          spanTitleText="Training in Dubai"
-          spanMTitleText="Training in Dubai"
-          desc="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Data+Analytics.png"
+          cityText={true}
+          deskTopPara="IBM Certified Industry-paced Training"
+          mTopPara="IBM Certified Industry-paced Training"
+           // spanTitleText="For Professionals"
+           // spanMTitleText="For Professionals"
+          title="Online Data Analytics Course in Bangalore"
+          mTitle="Online Data Analytics Course in Bangalore"
+          desc="Enhance your Data Analyst career with our comprehensive Data Analytics course in Bangalore with IBM Certification. Our advanced Data Analytics training in Bangalore will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data analytics and AI skills."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png"
           width="900"
           height="762"
-          alt="data analytics course training in dubai"
+          alt="data analytics course training in bangalore"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
@@ -416,8 +413,8 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
           <BoxShape
-            alt="data analytics course training in dubai"
-            title="Why Enroll In Data Analytics Course Training in Dubai?"
+            alt="data analytics course training in bangalore"
+            title="Why Enroll In Data Analytics Course Training in Bangalore?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools."
             Box2h5="Exclusive Hackathons"
@@ -434,19 +431,13 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              ProgramHead1="Industry-ready Data analytics program"
-              ProgramBot1="Learnbay offers a full-stack Data analytics course in Dubai, co-developed by IBM. The data analytics courses are prepared by professional faculties that have immense knowledge and experience in the real-world data analytics field. Our Data Analytics course is aimed at anyone wanting to learn about data analytics, with an emphasis on practical skills and job-ready techniques. In other words, It is the perfect choice for anyone interested in working as a data analyst, marketing analyst, financial analyst, analytical consultant, or any other analytical role. Simply, we can say this is a course that helps aspirants boost their knowledge of how data can be used in today's business market."
-              ProgramBot2="The IBM data analytics course curriculum optimizes students with the requisite set of skills to ace interviews and builds a strong platform for their job prospects in Dubai."
-              ProgramHead3="How can Learnbay be the right start for your data analytics career in Dubai?"
-              ProgramBot3="Learnbay offers weekend and weekday batches to accommodate working professionals' busy schedules. You can also choose your own learning schedule. With a 1-year flexi pass, students can attend any batch of any instructor via Learnbay LMS. Learnbay also conducts additional coding classes For Non-Programmers to keep them on track with other techies."
-              ProgramBot31="The IBM data analytics course includes 180+ hours of live lectures, exercises, hands-on labs, real-world examples, case studies, and discussion sessions, giving you an idea of how data analytics works in practice. In addition, Learnbay also hosts monthly hackathons and webinars to ensure engaged learning."
-              ProgramBot32="In a nutshell,  Learnbay is the ideal place for you to head-start your career in data analytics training in Dubai."
-              CertificationHead1="IBM Data Analytics Certification by Learnbay"
-              CertificationBot1="At the end of the data analytics course, students will be issued a course completion certificate directly by IBM. And of course, they must complete all of the modules along with practical assignments, assessments, and projects to be awarded this IBM certificate. Following this, they will be furnished with a job assistance program. We have also partnered with global IT companies in Dubai to promote our data analytics students' skills."
+              cityTextDAbangalore={true}
+              CertificationHead1="IBM Data Analytics Certification in Bangalore"
+              CertificationBot1="The Data analytics course of Learnbay in Bangalore is IBM certified. Learnbay IBM data analytics training gives students a course completion certificate (issued directly by IBM) at the end of the course. But yes, to be awarded IBM certification, a student needs to complete all the modules along with practical assignments and live project tasks."
+              CertificationBot2="Because of the IBM tag in your job seeker profile, you attain additional attention from the recruiters."
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
-              ModuleBot1="The modules of the data analytics course in Dubai consist of 180+ hours of live classes led by experts. Our instructors cover all the steps, from understanding the problem statement to the final solution. The course covers a variety of data analytics tools, including PowerBI, advanced Excel, MongoDB, Tableau, and Spark analytics."
-              ModuleBot2="In this training, you'll also learn the core concepts of predictive analytics and see how modern Hadoop-based technologies and tools can give you a head-start in Data Analytics."
-              ModuleBot3="Additionally, Learnbay also offers specialized Python programming classes for non-coders to enhance their programming skills."
+              ModuleBot1="Learnbay's IBM data analytics course has 180 hrs of classes with industry experts. The course consists of 8+ modules. All the modules are well balanced in both practical and conceptual training. It covers data analytics tools like Python, Advance excel, Machine Learning, Mongo-DB, Tableau, Power BI, Big Data, Spark analytics, etc."
+              ModuleBot2="Although this is a beginner course in data science and data analytics, the submodules are still planned very comprehensively, so that it helps you to target the mid-level data analytics job roles."
               syllabush1="Preparatory Classes (Programming + Maths)"
               syllabusb1="6 Hours"
               SyllabusBotlist11="Anaconda Installation"
@@ -483,27 +474,32 @@ export default function Home() {
               SyllabusBotlist45="Fake News Detection"
               SyllabusBotlist46="Movie Recommendation"
               syllabussrc="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
-              JobBot1="Learnbay Data analytics course will train you such that you learn the job-ready skills in Dubai. Learners who successfully complete our IBM data analytics course will get access to our Job Assistance service. Our career experts conduct mock interviews with various firms. They also guide them with portfolio and project management along with interpersonal skills training. After completion of data analytics certification, around 700+ students have got placed in high-paying positions in Dubai firms."
-              JobHead2="What is data analytics in Dubai?"
-              JobBot3="Data Analytics is the process of obtaining useful information from data. It helps in achieving efficiency and providing insights into a business operation."
-              JobBot4="As a data analyst, you will be supporting the business in its decision-making process by analyzing large volumes of customers and other data. You will be responsible for identifying patterns and trends within your data set, interpreting that information to identify opportunities, and delivering strong solutions accordingly."
-              JobHead3="Will data analytics be a secured career in Dubai?"
-              JobBot7="Data analytics is one of the fastest-growing career fields in Dubai. Given the current market scenario, there is always an increasing demand for Data Analysts in the workplace, and it may be an ideal career choice for people with a strong foundation in mathematics, statistics, or business backgrounds. In Dubai, a typical data analyst earns around 10,000 AED per month, which is decent pay in an expensive city."
-              JobBot8="Overall, Data analytics is a great profession to be in, offering opportunities with high compensation and expert status with the right experience. Our data analytics course with placement will help you get started on this journey to becoming a professional data analyst in Dubai."
-              ProjectsBot1="As part of our IBM data analytics certification, students will be given hands-on practical training under the guidance of mentors. Here, they will be required to work on 5 popular data analytics projects. Learnbay's cloud lab option provides learners with access to ongoing MNC projects, allowing them to stay up to date on the newest data analytics trends. Some of the projects of previous Learnbay students:"
+              JobHead1="What does the Data Analytics Job Assistance Program by Learnbay in Bangalore include?"
+              JobBot1="Learnbay Data Analytics training in Bangalore helps learners get placed in startups and top MNCs to build a career as Data analysts across Bangalore as well as India. Our IBM data analytics course includes 4 plus job-oriented sessions. We prepare students by conducting mock interviews as per the current industry demand of Bangalore and abroad as well."
+              JobBot2="Learnbay even works on soft-skill, portfolio, and resume-building guidance. Many of our students had a breakthrough in their careers as they got recruited by leading global companies like TCS, salesforce, Mercedes, HDFC, JP Morgan, EY, etc."
+              JobHead2="What type of roles do you get in Bangalore as a Data analyst?"
+              JobBot3="Bangalore is known as the silicon valley of India here, requirements for a Data analyst are very high. A Data analyst analyzes, collects, and stores data that helps organizations make decisions. Such a professional must be profound in both theoretical and practical knowledge. Data analysts must have the skills to collect important data and get great insights and conclusions."
+              JobBot4=" Data analysts in Bangalore get roles like"
+              JobBot6="Data analytics consultant,
+    Junior Data analyst,
+    Financial analyst,
+    HR analyst,
+    Quantitative analyst,
+    Operation analyst."
+              ProjectsBot1="The premium cloud lab element of the IBM Data Analytics course from Learnbay is one of its best features available in Bangalore. There are 5 live MNC project opportunities. You can access it through this cloud lab. These projects are as per the Data analytics skill demand spread across Bangalore City. Below are a few Data Analytics projects of Learnbay in Bangalore."
               src1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png"
               ProjectsH1="Samsung Health Monitor App"
-              Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is an accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
+              Projectsp1="Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
               src2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/IBM.png"
               ProjectsH2="IBM HR Analytics"
-              Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities."
+              Projectsp2="IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data analytics abilities."
               src3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png"
               ProjectsH3="Amazon Customer Review Analysis"
-              Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
+              Projectsp3="Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach."
               src4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BMW.png"
               ProjectsH4="BMW Used Car Price Optimization"
-              Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
-              AlumniBot1="Learnbay data analytics course includes both theory and hands-on techniques, which makes our students eligible for real-world data analytics jobs in Dubai. We have trained almost 1000+ students so far from all over the world. They currently are working in supervisory and managerial positions in large tech companies like SAP, Adobe, Salesforce, and other Dubai companies. Learnbay Students Reviews:"
+              Projectsp4="BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects."
+              AlumniBot1="Learnbay has encouraged a lot of students to learn and grow as Data analysts. We have placed more than 700+ professionals to top MNCs and startups. Students get jobs just a few months after they complete their Data analyst course. Below are a few success stories of our students from Learnbay."
               Asrc1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/devraj.jpg"
               AlumniH1="Deveraj"
               Alumnip1="The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around."
@@ -516,29 +512,35 @@ export default function Home() {
               Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png"
               AlumniH4="Shubhangi J. Waghmare "
               Alumnip4="The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment."
-              alt1="data analytics course training in dubai"
-              alt2="data analytics course training in dubai"
-              alt3="data analytics course training in dubai"
-              alt4="data analytics course training in dubai"
-              alt5="data analytics course training in dubai"
-              alt6="data analytics course training in dubai"
-              alt7="data analytics course training in dubai"
-              alt8="data analytics course training in dubai"
-              alt9="data analytics course training in dubai"
+              alt1="data analytics course training in bangalore"
+              alt2="data analytics course training in bangalore"
+              alt3="data analytics course training in bangalore"
+              alt4="data analytics course training in bangalore"
+              alt5="data analytics course training in bangalore"
+              alt6="data analytics course training in bangalore"
+              alt7="data analytics course training in bangalore"
+              alt8="data analytics course training in bangalore"
+              alt9="data analytics course training in bangalore"
             />
             <FAQNew
-              FaqDatas={AnalyticsFaqDataDu}
-              DomainFaqDatas={AnalyticsDomainFaqDataDu}
-              PaymentFaqDatas={AnalyticsPaymentFaqDataDu}
-              CapstoneFaqDatas={AnalyticsCapstoneFaqDataDu}
-              CertificationFaqDatas={AnalyticsCertificationFaqDataDu}
-              jobFaqDatas={AnalyticsjobFaqDataDu}
-              MentorshipFaqDatas={AnalyticsMentorshipFaqDataDu}
-              SupportFaqDatas={AnalyticsSupportFaqDataDu}
+              FaqDatas={AnalyticsFaqDataB}
+              DomainFaqDatas={AnalyticsDomainFaqDataB}
+              PaymentFaqDatas={AnalyticsPaymentFaqDataB}
+              CapstoneFaqDatas={AnalyticsCapstoneFaqDataB}
+              CertificationFaqDatas={AnalyticsCertificationFaqDataB}
+              jobFaqDatas={AnalyticsjobFaqDataB}
+              MentorshipFaqDatas={AnalyticsMentorshipFaqDataB}
+              SupportFaqDatas={AnalyticsSupportFaqDataB}
             />
           </div>
         </div>
         <LearnSupport />
+        <CityText
+          CityTextB="Data Analytics Course Certification Training locations in Bangalore "
+          CityText=" :Ammrutha halli [560092], Maruthi Seva Nagar [560033], Kuvempu Layout [560077], Bellandur [560103], Jayanagar III Block [560011], Anandnagar [560024], Nandinilayout [560096], B SK II Stage [560070], Indiranagar [560038], Yelahanka [560063], Chickpet [560053], Domlur [560071], Bansashankari III Stage [560085], Vimanapura [560017], Nagarbhavi [560072], Basaveshwaranagar [560079], Bommanahalli [560068], Mico Layout [560076], Electronic City [560100], Taverekere [560029], Nehru Nagar [560020], Agram[560007], Halsuru Pete [560002], Basavanagudi [560004], R.M.V. Extension II [560094], Jayanagar [560041], Carmelaram [560035], New Thippasandra [560075], Kanakanagar [560032], Nayandahalli [560039], Fraser Town [560005], Jalahalli East [560014], Kacharakanahalli [560084], Malleswaram West [560055], Bannerghatta [560083], Srirampuram [560021], Rajarajeshwarinagar [560098], Sivan Chetty Gardens [560042], Dommasandra [562125], Whitefield [560066], Vidyaranyapura [560097], Bolare [560082], Mathikere [560054], Doddanekkundi [560037], Hampinnagar [560104], C.V.Raman Nagar [560093], Chikkabanavara [560090], Attur [560064], Kumbalagodu [560074], Bhattarahalli [560049], Chikkalasandra [560061], Sharada Nagar [560065], Jalahalli West [560015], H.K.P Road [560051], Jp Nagar III Phase [560078], Sadashiva nagar [560080], Krishnarajapuram R S [560016], Mahalakshipuram Layout [560086], Guddadahalli [560026], Chudenapura [560060], Vidhana Soudha [560001], Shanthinagar [560027], Rajaji Nagar [560010], Chandapura [560099], Ramakrishna Hegde Nagar [560045], Shalabh Bhatnagar [560012], Peenya [560058], Ashoknagar [560050], Jalahalli Nacen [560013], Banawadi [560043], Malleswaram [560003], Doddakallasandra [560062], K.G Road [560009], Muthusandra [560087], Marathahalli [560056], JC Nagar [560006], Chamrajpet [560018], HSR Layout [560102], Devanagundi [560067], Yeswanthpura [560022], Mahadevapura [560048],Hulsur Bazaar [560008],Magadi Road [560023], Adugodi [560030], Bagalgunte [560073], Devasandra [560036], Rv Niketan [560059], Narasimharaja Colony [560019], Koramangala VI Bk [560095], Agara [560034], Vijayanagar East [560040], Benson Town [560046], Viveknagar S.O [560047], Dasarahalli [560057], Bapagrama [560091], Richmond Town [560025]."
+          CityTextLB="Locations Offered"
+          CityTextL=" :Data Analytics Training in Bangalore, Data Analytics Course in Bangalore, Data Analytics Training in BTM, Data Analytics Training in Marathahalli, Data Analytics Institute in Bangalore, Data Analytics Training in Whitefield, Data Analytics Training in Kundalahalli, Data Analytics Training in ITPL, Data Analytics Training Institute in Marathahalli, Data Analytics Course in BTM, Data Analytics Course in Marathahalli, Data Analytics Course in Whitefield, Data Analytics Course Bommanahalli, Data Analytics Training in Bommanahalli, Data Analytics Training in Electronic city, Data Analytics Training in Koramangala, Data Analytics Classes in BTM, Data Analytics Classes in Bommanahalli, Data Analytics Classes in Whitefield, Data Analytics Classes in Marathahalli, Data Analytics Course in Koramangala, Data Analytics Training in Jayanagar, Data Analytics Certification in Bangalore, Data Analytics Certification Training in Bangalore, Data Analytics Certification in BTM, Data Analytics Certification in Whitefield, Best Data Analytics Training, Best Data Analytics Course"
+        />
         <OfferPopup offer={false} />
         <BottomBar />
         <Footer />
