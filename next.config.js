@@ -1235,6 +1235,12 @@ module.exports = {
           "/fullstack/pune/full-stack-software-developer-course-in-pune",
         permanent: true,
       },
+      {
+        source:
+          "/job-guarantee-or-money-back-data-science-ai-certification-course",
+        destination: "/datascience/data-science-ai-masters-program",
+        permanent: true,
+      },
     ];
   },
 };
