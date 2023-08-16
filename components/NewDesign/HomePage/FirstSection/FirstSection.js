@@ -6,7 +6,7 @@ import Form from "../../../Form/Form";
 import Image from "next/image";
 import Typed from "typed.js";
 
-const FirstSection = ({ dataScience, radio, btnHide, second, third, idss, dataScienceCounselling, }) => {
+const FirstSection = ({ dataScience, radio, btnHide, second, third, idss, dataScienceCounselling, organicADS}) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -116,11 +116,13 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, idss, dataSc
             />
           </div> */}
           <div className={styles.btnWrapper}>
+            {organicADS ? ("") : (
             <a href="#course">
               <button className={styles.outLineBtn}>
                 Courses <FaChevronDown className="bIconS" />
               </button>
             </a>
+            )}
             <button onClick={popupShow} className={styles.Btn}>
               Enquire Now <FaBell className="bIconS" />
             </button>
