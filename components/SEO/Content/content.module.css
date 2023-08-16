@@ -1,0 +1,29 @@
+.container {
+    background: aliceblue;
+    padding: 50px 80px;
+    height: 305px;
+    overflow: scroll;
+    margin-top: 50px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container h4 {
+    text-align: left;
+}
+
+@media (max-width: 650px) {
+    .container {
+        background: aliceblue;
+        padding: 30px 20px;
+        height: 440px;
+        overflow: scroll;
+        margin-top: 50px;
+    }
+    .container h1 {
+        font-size: 26px;
+    }
+}
+
