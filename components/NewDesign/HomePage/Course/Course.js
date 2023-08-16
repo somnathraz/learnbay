@@ -23,7 +23,7 @@ import {
 } from "./courseDetails";
 import { FaDownload } from "react-icons/fa";
 
-const Course = ({ dataScience, radio, dataScienceCounselling }) => {
+const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
@@ -219,12 +219,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -303,11 +321,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -317,12 +337,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -419,11 +457,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -433,12 +473,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -535,11 +593,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -549,12 +609,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -657,11 +735,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -671,12 +751,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -755,11 +853,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -769,12 +869,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -871,11 +989,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -885,12 +1005,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -969,11 +1107,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -983,12 +1123,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -1081,11 +1239,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1095,12 +1255,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -1185,11 +1363,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1199,12 +1379,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -1295,11 +1493,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1309,12 +1509,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -1399,11 +1617,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1413,12 +1633,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -1509,11 +1747,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1523,12 +1763,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -1619,11 +1877,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1633,12 +1893,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -1723,11 +2001,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1737,12 +2017,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
@@ -1833,11 +2131,13 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                                 />
                               </button>
                             </a> */}
-                            <a onClick={() => {
+                            <a
+                              onClick={() => {
                                 setTitleCourse(titleCourse);
                                 setBrochureLinks(brochureLinks);
                                 popupShow();
-                              }}>
+                              }}
+                            >
                               <button className="outLineBtn">
                                 Brochure
                                 <FaDownload
@@ -1847,12 +2147,30 @@ const Course = ({ dataScience, radio, dataScienceCounselling }) => {
                               </button>
                             </a>
                             <hr className={styles.btnLine} />
-                            <a href={link1} className={styles.link1}>
-                              <button className={styles.fillBtn}>
-                                View Details{" "}
-                                <TbListDetails className={styles.bellIcon} />
-                              </button>
-                            </a>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <button className={styles.fillBtn}>
+                                  View Details
+                                  <FaDownload
+                                    className="bIcon"
+                                    style={{ color: "#2979AD" }}
+                                  />
+                                </button>
+                              </a>
+                            ) : (
+                              <a href={link1} className={styles.link1}>
+                                <button className={styles.fillBtn}>
+                                  View Details{" "}
+                                  <TbListDetails className={styles.bellIcon} />
+                                </button>
+                              </a>
+                            )}
                           </div>
                         </div>
                       </SwiperSlide>
