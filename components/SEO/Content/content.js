@@ -1,13 +1,38 @@
 import { React, useState } from "react";
 import styles from "./content.module.css";
+import Form from "../../Form/Form";
+import Popup from "../../Popup/Popup";
 
-function DataAnalytics() {
+function DataAnalytics({dataScienceCounselling}) {
   const [read, setRead] = useState(false);
   const handler = () => {
     setRead(!read);
   };
+  const [popups, setPopups] = useState(false);
+  const popupShow = () => {
+    setPopups(true);
+  };
   return (
     <div className={styles.container}>
+            <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        downloadBrochure
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "350px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          <Form
+            dataScienceCounselling={dataScienceCounselling}
+          />
+        </div>
+      </Popup>
       <div className={styles.content}>
         <h1>Upskill Yourself with Data Analytics Course Online</h1>
         <p>
@@ -315,7 +340,7 @@ function DataAnalytics() {
             offers you industry-level projects & global certification that opens
             up top-level job offers.
           </p>
-          
+          <button onClick={() => popupShow(true, false)} style={{margin:"auto"}} >Apply for Counselling</button>
           </>
             ) : (
               ""

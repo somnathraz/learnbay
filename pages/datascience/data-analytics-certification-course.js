@@ -245,7 +245,9 @@ function dataAnalytics() {
           MentorshipFaqDatas={MentorshipFaqData6}
           SupportFaqDatas={SupportFaqData6}
         />
-        <Content />
+        <Content 
+          dataScienceCounselling={true}
+        />
         <SeventhSection />
         <OfferPopup offer={false} />
         <BottomBar />
