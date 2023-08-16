@@ -229,10 +229,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -347,10 +344,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -483,10 +477,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -619,10 +610,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -761,10 +749,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -879,10 +864,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -1015,10 +997,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -1133,10 +1112,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -1265,10 +1241,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -1389,10 +1362,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -1519,10 +1489,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -1643,10 +1610,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -1773,10 +1737,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -1903,10 +1864,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -2027,10 +1985,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
@@ -2157,10 +2112,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
                               >
                                 <button className={styles.fillBtn}>
                                   View Details
-                                  <FaDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
+                                  <TbListDetails className={styles.bellIcon} />
                                 </button>
                               </a>
                             ) : (
