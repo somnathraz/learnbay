@@ -30,6 +30,8 @@ import {
 import Switch from "../../components/NewDesign/switch/switch";
 import ProgramCustomer from "../../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../../components/NewDesign/GrowthStat/GrowthStats";
+import Content from "../../components/SEO/Content/content"
+
 
 function dataAnalytics() {
   const [popups, setPopups] = useState(false);
@@ -243,6 +245,7 @@ function dataAnalytics() {
           MentorshipFaqDatas={MentorshipFaqData6}
           SupportFaqDatas={SupportFaqData6}
         />
+        <Content />
         <SeventhSection />
         <OfferPopup offer={false} />
         <BottomBar />
