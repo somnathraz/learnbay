@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 import Course from "../components/NewDesign/HomePage/Course/Course";
 import KeyFeatures from "../components/NewDesign/HomePage/KeyFeatures/KeyFeatures";
 import Switch from "../components/NewDesign/HomePage/switch/switch";
@@ -71,6 +72,7 @@ export default function Home() {
       <OfferPopup offer={false} />
       <BottomBar />
       <Footer />
+      <WhatsappFloat chat360code1={true}/>
     </div>
   );
 }

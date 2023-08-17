@@ -4,6 +4,7 @@ import styles from "../../styles/Home.module.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import BottomBar from "../../components/BottomBar/BottomBar";
+import WhatsappFloat from "../../components/WhatsappFloat/WhatsappFloat";
 import Course from "../../components/NewDesign/HomePage/Course/Course";
 import Switch from "../../components/NewDesign/HomePage/switch/switch";
 import HomeLine from "../../components/NewDesign/HomePage/HomeLine/HomeLine";
@@ -32,7 +33,13 @@ export default function Home() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
       </Head>
-      <Navbar popup={true} dataScience={true} radio={true} event={true} organicADS={true}/>
+      <Navbar
+        popup={true}
+        dataScience={true}
+        radio={true}
+        event={true}
+        organicADS={true}
+      />
 
       <FirstSection
         first="Tools"
@@ -54,13 +61,14 @@ export default function Home() {
           <BoxShape />
         </div>
       </div>
-      <Course popup={true} dataScience={true} radio={true} organicADS={true}/>
-      <Switch organicADS={true}/>
+      <Course popup={true} dataScience={true} radio={true} organicADS={true} />
+      <Switch organicADS={true} />
       <Testimonial />
       <ContactUs popup={true} dataScience={true} radio={true} />
       <SeventhSection />
       <BottomBar />
-      <Footer organicADSS={true}/>
+      <Footer organicADSS={true} />
+      <WhatsappFloat chat360code1={true}/>
     </div>
   );
 }

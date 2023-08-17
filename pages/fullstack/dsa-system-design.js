@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import BottomBar from "../../components/BottomBar/BottomBar";
+import WhatsappFloat from "../../components/WhatsappFloat/WhatsappFloat";
 import Form from "../../components/Form/Form";
 import Popup from "../../components/Popup/Popup";
 import FirstSection from "../../components/NewDesign/FirstSection/FirstSection";
@@ -38,10 +39,10 @@ export default function Home() {
     setPopups(true);
   };
   return (
-   <>
+    <>
       <Head>
         <title>
-        Best Data Structures and Algorithms Courses | Dsa Courses - Learnbay
+          Best Data Structures and Algorithms Courses | Dsa Courses - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -253,7 +254,8 @@ export default function Home() {
         <OfferPopup offer={true} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
-      </>
+    </>
   );
 }

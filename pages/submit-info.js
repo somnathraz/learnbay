@@ -4,6 +4,7 @@ import styles from "../styles/Submit.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 import Image from "next/image";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Head from "next/head";
@@ -43,6 +44,7 @@ const sumbit = () => {
       {/* <OfferPopup offer={false} />                       */}
       <BottomBar />
       <Footer />
+      <WhatsappFloat />
     </div>
   );
 };

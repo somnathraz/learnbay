@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 import Form from "../components/Form/Form";
 import Popup from "../components/Popup/Popup";
 import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
@@ -82,7 +83,6 @@ function Marketing() {
           // firstToparaImg="Marketing Analytics Program"
           firstToparaImg="Marketing Analytics Program"
           firstHeading="Elevate your career with certification in"
-
           // firstHeading="Marketing Analytics Course"
           firstTopPara="Experience the future of analytics"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf"
@@ -242,6 +242,7 @@ function Marketing() {
         <OfferPopup offer={false} BAFamily={true} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </>
   );

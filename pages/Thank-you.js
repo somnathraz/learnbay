@@ -5,6 +5,7 @@ import TyPageCta from "../components/Thankyou/TyPageCta/TyPageCta";
 import Survey from "../components/Thankyou/Survey/Survey";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 
 const ThankYouDemo = () => {
   const dataArray = [];
@@ -50,6 +51,7 @@ const ThankYouDemo = () => {
       />
       <BottomBar />
       <Footer />
+      <WhatsappFloat />
     </div>
   );
 };

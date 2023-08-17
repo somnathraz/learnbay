@@ -9,6 +9,7 @@ import Navbar from "../../../components/Navbar/Navbar";
 import { ProgramFee } from "../../../components/CoursePage/ProgramFee/ProgramFee";
 import Footer from "../../../components/Footer/Footer";
 import BottomBar from "../../../components/BottomBar/BottomBar";
+import WhatsappFloat from "../../../components/WhatsappFloat/WhatsappFloat";
 import Form from "../../../components/Form/Form";
 import LearnSupport from "../../../components/LearnSupport/LearnSupport";
 import CityText from "../../../components/CityComponent/CityText/CityText";
@@ -383,8 +384,8 @@ export default function Home() {
           cityText={true}
           deskTopPara="IBM Certified Industry-paced Training"
           mTopPara="IBM Certified Industry-paced Training"
-           // spanTitleText="For Professionals"
-           // spanMTitleText="For Professionals"
+          // spanTitleText="For Professionals"
+          // spanMTitleText="For Professionals"
           title="Online Data Analytics Course in Bangalore"
           mTitle="Online Data Analytics Course in Bangalore"
           desc="Enhance your Data Analyst career with our comprehensive Data Analytics course in Bangalore with IBM Certification. Our advanced Data Analytics training in Bangalore will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data analytics and AI skills."
@@ -544,6 +545,7 @@ export default function Home() {
         <OfferPopup offer={false} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </div>
   );

@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
         <OfferPopup offer={false} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </div>
   );

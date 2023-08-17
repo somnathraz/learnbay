@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import BottomBar from "../../components/BottomBar/BottomBar";
+import WhatsappFloat from "../../components/WhatsappFloat/WhatsappFloat";
 import Form from "../../components/Form/Form";
 import Popup from "../../components/Popup/Popup";
 import FirstSection from "../../components/NewDesign/FirstSection/FirstSection";
@@ -85,7 +86,6 @@ function blockchain() {
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/DSAI-Masters-Header.png"
           // firstToparaImg="Data Science and AI Master Program"
           firstToparaImg="Data Science and AI Master Program"
-          
           firstHeading="Discover new horizons with"
           // firstHeading="Master Program in Data Science and Artificial Intelligence"
           firstTopPara="Become a master without master’s degree"
@@ -245,6 +245,7 @@ function blockchain() {
         <OfferPopup offer={false} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </>
   );

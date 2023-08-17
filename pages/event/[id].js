@@ -11,6 +11,7 @@ import Reviews from "../../components/CareerImpactHome/CareerImpact";
 import { TiTick } from "react-icons/ti";
 import { getAllPostIds, getPostData } from "../../lib/event";
 import Navbar from "../../components/Navbar/Navbar";
+import WhatsappFloat from "../../components/WhatsappFloat/WhatsappFloat";
 
 export default function DataScienceEvent({ eventData }) {
   const [mobile, setMobile] = useState(false);
@@ -30,6 +31,7 @@ export default function DataScienceEvent({ eventData }) {
   }, [mobile]);
 
   return (
+    <>
     <div className={styles.container}>
       <Head>
         <title>{eventData.data.metaInfo.title}</title>
@@ -190,6 +192,8 @@ export default function DataScienceEvent({ eventData }) {
             <Reviews event={today >= eventDateInfo} redirectFs={true} />
           </div>
     </div>
+    <WhatsappFloat />
+    </>
   );
 }
 

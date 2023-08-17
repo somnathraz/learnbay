@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 import Form from "../components/Form/Form";
 import Popup from "../components/Popup/Popup";
 import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
@@ -88,7 +89,6 @@ function blockchain() {
           idss="Jn2puEQC8yk"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML-Header.png"
           firstToparaImg="AI & ML Program for tech professionals"
-
           firstHeading="Transform your future with our certified"
           // firstHeading="Advance Artificial Intelligence and Machine Learning Course"
           firstTopPara="Expand beyond technology"
@@ -246,6 +246,7 @@ function blockchain() {
         <SeventhSection />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </>
   );

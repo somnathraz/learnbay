@@ -3,7 +3,6 @@ import TagManager from "react-gtm-module";
 import React, { useEffect } from "react";
 import "../styles/form.css";
 import Script from "next/script";
-import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -52,7 +51,6 @@ function MyApp({ Component, pageProps }) {
       />
 
       <Component {...pageProps} />
-      <WhatsappFloat />
     </>
   );
 }

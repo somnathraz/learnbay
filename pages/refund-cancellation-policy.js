@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 
 function refund() {
   return (
@@ -32,6 +33,7 @@ function refund() {
         <OfferPopup offer={false} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </div>
   );
