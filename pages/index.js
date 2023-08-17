@@ -72,7 +72,7 @@ export default function Home() {
       <OfferPopup offer={false} />
       <BottomBar />
       <Footer />
-      <WhatsappFloat chat360code1={true}/>
+      <WhatsappFloat/>
     </div>
   );
 }

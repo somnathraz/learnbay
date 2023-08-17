@@ -335,4 +335,12 @@
   .nav {
     width: 100vw;
   }
+  .navADS {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 41% 53%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
 }

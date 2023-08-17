@@ -68,7 +68,7 @@ export default function Home() {
       <SeventhSection />
       <BottomBar />
       <Footer organicADSS={true} />
-      <WhatsappFloat chat360code1={true}/>
+      <WhatsappFloat />
     </div>
   );
 }
