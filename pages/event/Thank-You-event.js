@@ -3,9 +3,11 @@ import styles from "../../styles/ThankYou.module.css";
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../../components/Navbar/Navbar";
+import WhatsappFloat from "../../components/WhatsappFloat/WhatsappFloat";
 
 const ThankYou = () => {
   return (
+    <>
     <div className={styles.main}>
       <Head>
         <title>Thank you!</title>
@@ -33,6 +35,8 @@ const ThankYou = () => {
         </div>
       </section>
     </div>
+    <WhatsappFloat />
+    </>
   );
 };
 

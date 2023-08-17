@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 import FirstSection from "../components/CareerReport/FirstSection/FirstSection";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
@@ -39,6 +40,7 @@ function careerReport() {
       <OfferPopup offer={false} />
       <BottomBar />
       <Footer />
+      <WhatsappFloat />
     </div>
   );
 }

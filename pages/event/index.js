@@ -6,9 +6,11 @@ import styles from "../../styles/DataScienceEvent.module.css";
 import EventTab from "../../components/Event/EventTab/EventTab";
 import { getSortedPostsData } from "../../lib/event";
 import { sortByDateEvent } from "../../utils";
+import WhatsappFloat from "../../components/WhatsappFloat/WhatsappFloat";
 
 export default function index({ eventData }) {
   return (
+    <>
     <div>
       <Head>
         <title>
@@ -46,6 +48,8 @@ And move ahead in your career
         </div>
       </div>
     </div>
+    <WhatsappFloat />
+    </>
   );
 }
 

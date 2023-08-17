@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/FooterLinkRemoved";
 import FirstSection from "../components/ResumeBuilder/FirstSection/FirstSection";
 import ThirdSection from "../components/ResumeBuilder/ThirdSection/ThirdSection";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 
 const ResumeBuilder = () => {
   return (
@@ -25,10 +26,16 @@ const ResumeBuilder = () => {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
       </Head>
-      <Navbar popup={true} dataScienceCounselling={true} radio={true} eventLink={true}/>
+      <Navbar
+        popup={true}
+        dataScienceCounselling={true}
+        radio={true}
+        eventLink={true}
+      />
       <FirstSection />
       <ThirdSection idss="4PBfjKsw580" />
       <Footer />
+      <WhatsappFloat />
     </div>
   );
 };

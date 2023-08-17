@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 import Form from "../components/Form/Form";
 import Popup from "../components/Popup/Popup";
 import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
@@ -39,7 +40,10 @@ function blockchain() {
   return (
     <>
       <Head>
-        <title>Best Online Data Science Courses | Online Data Science Training - Learnbay</title>
+        <title>
+          Best Online Data Science Courses | Online Data Science Training -
+          Learnbay
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -80,7 +84,6 @@ function blockchain() {
 
           firstToparaImg="with industry-specific training"
           firstHeading="Data Science and AI Foundation Program"
-
           // firstHeading="Data Science Certification Course"
           firstTopPara="Enhance your earning potential"
           idss="tBKOlgHS-k8"
@@ -237,6 +240,7 @@ function blockchain() {
         <OfferPopup offer={false} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </>
   );

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import BottomBar from "../../components/BottomBar/BottomBar";
+import WhatsappFloat from "../../components/WhatsappFloat/WhatsappFloat";
 import Form from "../../components/Form/Form";
 import Popup from "../../components/Popup/Popup";
 import FirstSection from "../../components/NewDesign/FirstSection/FirstSection";
@@ -30,8 +31,7 @@ import {
 import Switch from "../../components/NewDesign/switch/switch";
 import ProgramCustomer from "../../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../../components/NewDesign/GrowthStat/GrowthStats";
-import Content from "../../components/SEO/Content/content"
-
+import Content from "../../components/SEO/Content/content";
 
 function dataAnalytics() {
   const [popups, setPopups] = useState(false);
@@ -42,7 +42,10 @@ function dataAnalytics() {
   return (
     <>
       <Head>
-        <title>Best Data Analytics Course Online | Data Analytics Online Training - Learbay</title>
+        <title>
+          Best Data Analytics Course Online | Data Analytics Online Training -
+          Learbay
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -88,7 +91,6 @@ function dataAnalytics() {
           // firstToparaImg="Data Analytics Program"
           firstToparaImg="Data Analytics Program"
           firstHeading="Upskill yourself to the top with"
-
           // firstHeading="Data Analytics Certification Course"
           firstTopPara="Unleash the power of data"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
@@ -245,13 +247,12 @@ function dataAnalytics() {
           MentorshipFaqDatas={MentorshipFaqData6}
           SupportFaqDatas={SupportFaqData6}
         />
-        <Content 
-          dataScienceCounselling={true}
-        />
+        <Content dataScienceCounselling={true} />
         <SeventhSection />
         <OfferPopup offer={false} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </>
   );

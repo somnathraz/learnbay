@@ -8,6 +8,7 @@ import Popup from "../../../components/Popup/Popup";
 import Navbar from "../../../components/Navbar/Navbar";
 import Footer from "../../../components/Footer/Footer";
 import BottomBar from "../../../components/BottomBar/BottomBar";
+import WhatsappFloat from "../../../components/WhatsappFloat/WhatsappFloat";
 import Form from "../../../components/Form/Form";
 import CityText from "../../../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../../../components/CityComponent/CitiesLeft/CitiesLeft";
@@ -56,7 +57,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Data Science Courses Training in Bangalore - Learnbay</title>
+        <title>
+          Best Data Science Courses Training in Bangalore - Learnbay
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -258,8 +261,7 @@ export default function Home() {
 } `,
           }}
         />{" "}
-
-    <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -928,7 +930,11 @@ export default function Home() {
                     to reshape their careers in this lucrative field.
                   </li>
                   <li>
-                  You will be learning everything from basic data science techniques to advanced AIML, Data Science Project Workflow, Cutting-edge data science and AI tools, Various Roles in Data Science, and real-world applications of Data Science from our data science classes in Bangalore.
+                    You will be learning everything from basic data science
+                    techniques to advanced AIML, Data Science Project Workflow,
+                    Cutting-edge data science and AI tools, Various Roles in
+                    Data Science, and real-world applications of Data Science
+                    from our data science classes in Bangalore.
                   </li>
                   <li>
                     This program’s data science course fee is INR 75,000,
@@ -962,8 +968,8 @@ export default function Home() {
                     processing, EDA, feature engineering, and model deployment.
                   </li>
                   <li>
-                    The advanced data science course fees in Bangalore are INR 95,000,
-                    exclusive of GST.
+                    The advanced data science course fees in Bangalore are INR
+                    95,000, exclusive of GST.
                   </li>
                 </ol>,
 
@@ -1388,6 +1394,7 @@ export default function Home() {
         <OfferPopup offer={false} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </div>
   );

@@ -3,6 +3,7 @@ import AboutUs from "../components/AboutUs/AboutUs";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 export default function Home() {
   return (
@@ -21,11 +22,12 @@ export default function Home() {
         />
       </Head>
       <main>
-        <Navbar popup={true} dataScienceCounselling={true} radio={true}/>
+        <Navbar popup={true} dataScienceCounselling={true} radio={true} />
         <AboutUs />
         <OfferPopup offer={false} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </div>
   );

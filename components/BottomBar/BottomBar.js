@@ -28,10 +28,10 @@ const BottomBar = ({ changeBottom }) => {
           Apply For Couselling
           <FaArrowRight className="bIcon" />
         </div>
-        <div className="flDivRight">
+        {/* <div className="flDivRight">
           <Link href="https://wa.me/+917349222263">Chat with us</Link>
           <IoLogoWhatsapp className="bIcon" style={{ color: "Green" }} />
-        </div>
+        </div> */}
       </div>
     </div>
   );

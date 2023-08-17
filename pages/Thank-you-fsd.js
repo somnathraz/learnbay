@@ -7,6 +7,7 @@ import CourseThankYou from "../components/Course/CourseThankYou";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 const ThankYou = () => {
   return (
     <div className={styles.main}>
@@ -42,6 +43,7 @@ const ThankYou = () => {
       <CourseThankYou />
       <BottomBar />
       <Footer />
+      <WhatsappFloat />
     </div>
   );
 };

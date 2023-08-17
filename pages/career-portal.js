@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import CareerHome from "../components/CareerPortal/CareerHome/CareerHome";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 import Head from "next/head";
 
 const sumbit = () => {
@@ -25,6 +26,7 @@ const sumbit = () => {
       <CareerHome />
       <BottomBar />
       <Footer />
+      <WhatsappFloat />
     </div>
   );
 };

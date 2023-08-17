@@ -4,6 +4,7 @@ import Privacy from "../components/privacy/privacy";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 import OfferPopup from "../components/OfferPopup/OfferPopup";
 function privacy() {
   return (
@@ -28,6 +29,7 @@ function privacy() {
         <OfferPopup offer={false} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </div>
   );

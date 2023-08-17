@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 import Form from "../components/Form/Form";
 import Popup from "../components/Popup/Popup";
 import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
@@ -33,7 +34,7 @@ import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 import Counselling from "../components/NewDesign/Counselling/Counselling";
 
 function blockchain() {
-  const [popups, setPopups] = useState(false); 
+  const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
   const videoSHow = () => {
     setVideo(true);
@@ -46,7 +47,8 @@ function blockchain() {
     <>
       <Head>
         <title>
-        Advanced Data Science and Artificial Intelligence Program With Certification - Learnbay
+          Advanced Data Science and Artificial Intelligence Program With
+          Certification - Learnbay
         </title>
         <meta
           name="description"
@@ -257,6 +259,7 @@ function blockchain() {
         <OfferPopup offer={false} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </>
   );

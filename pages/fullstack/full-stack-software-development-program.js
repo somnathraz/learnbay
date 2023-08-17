@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import BottomBar from "../../components/BottomBar/BottomBar";
+import WhatsappFloat from "../../components/WhatsappFloat/WhatsappFloat";
 import Form from "../../components/Form/Form";
 import Popup from "../../components/Popup/Popup";
 import FirstSection from "../../components/NewDesign/FirstSection/FirstSection";
@@ -89,7 +90,7 @@ function blockchain() {
           firstTopPara="Get ready to level up your coding expertise"
           idss="bfl64ANfSV0"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
-        /> 
+        />
         <SecondSection
           SecondHead="Why Choose Us?"
           SecondPara="India's top rated  bootcamp for working professionals "
@@ -252,6 +253,7 @@ function blockchain() {
         <OfferPopup offer={true} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </>
   );

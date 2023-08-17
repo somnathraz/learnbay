@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 import Form from "../components/Form/Form";
 import Popup from "../components/Popup/Popup";
 import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
@@ -240,6 +241,7 @@ function Hr() {
         <OfferPopup offer={false} BAFamily={true} />
         <BottomBar />
         <Footer />
+        <WhatsappFloat />
       </main>
     </>
   );
