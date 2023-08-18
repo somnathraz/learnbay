@@ -7,7 +7,6 @@ import Popup from "../../components/Popup/Popup";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import BottomBar from "../../components/BottomBar/BottomBar";
-import WhatsappFloat from "../../components/WhatsappFloat/WhatsappFloat";
 import Form from "../../components/Form/Form";
 import Certificate from "../../components/CoursePage/CertificateTab/CertificateTabWeb";
 import Project from "../../components/CoursePage/Projectfswd/Project";
@@ -18,6 +17,7 @@ import DomainFaq from "../../components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../../components/CoursePage/CourseReviewfull/CourseReview";
 import { DomainFaqCourseDataweb } from "../../components/CoursePage/DomainFaq/DOmainFaqData";
 import { ProgramFee } from "../../components/CoursePage/ProgramFee/ProgramFee";
+import OfferPopup from "../../components/OfferPopup/OfferPopup";
 import FAQNew from "../../components/FAQNew/FAQNewDomain";
 import LearnSupport from "../../components/LearnSupport/LearnSupport";
 import { FullStackWebCourseData } from "../../Data/FullStackWebData";
@@ -71,6 +71,7 @@ export default function Home() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
+            {/* <p>Fill the below details to get started</p> */}
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
@@ -195,9 +196,9 @@ export default function Home() {
           SupportFaqDatas={SupportFaqData8}
         />
         <LearnSupport />
+        <OfferPopup WebDev={true} />
         <BottomBar />
         <Footer />
-        <WhatsappFloat />
       </main>
     </div>
   );
