@@ -12,6 +12,7 @@ import ThirdSection from "../../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../../components/NewDesign/SeventhSection/SeventhSection";
+import OfferPopup from "../../components/OfferPopup/OfferPopup";
 import { BlockchainCourse } from "../../Data/BlockchainCourse";
 import FAQNew from "../../components/NewDesign/FAQNew/FAQNewcer";
 import {
@@ -23,6 +24,7 @@ import {
   MentorshipFaqDataBlockchain,
   SupportFaqDataBlockchain,
 } from "../../components/NewDesign/FAQNew/FaqData";
+import BatchDetails from "../../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../../components/NewDesign/Project/Project";
 import Switch from "../../components/NewDesign/switch/switch";
 import ProgramCustomer from "../../components/NewDesign/ProgramCustomer/ProgramCustomer";
@@ -67,6 +69,7 @@ function blockchain() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
+            {/* <p>Fill the below details to get started</p> */}
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
@@ -84,8 +87,11 @@ function blockchain() {
           second="Tips"
           third="Technology"
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Blockchain-Header.png"
+          // firstToparaImg="with Specialization in Blockchain"
+
           firstToparaImg="with Specialization in Blockchain"
           firstHeading="Software Development Program"
+          // firstHeading="Software Development Program with Blockchain Specialization"
           firstTopPara="Ready to lead the blockchain revolution?"
           idss="bfl64ANfSV0"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf"
@@ -229,6 +235,10 @@ function blockchain() {
           titleCourse="Full Stack Project Brochure"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
         />
+        <BatchDetails
+          FullStack={true}
+          CourseFeeHead="Data Science and AI Foundation Program : Batch Details"
+        />
         <FAQNew
           FaqDatas={FaqDataBlockchain}
           DomainFaqDatas={DomainFaqDataBlockchain}
@@ -239,6 +249,7 @@ function blockchain() {
           SupportFaqDatas={SupportFaqDataBlockchain}
         />
         <SeventhSection fullStackCont={true} />
+        <OfferPopup offer={true} />
         <BottomBar />
         <Footer />
         <WhatsappFloat />
