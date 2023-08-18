@@ -12,9 +12,7 @@ import ThirdSection from "../../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../../components/NewDesign/SeventhSection/SeventhSection";
-import OfferPopup from "../../components/OfferPopup/OfferPopup";
 import { FresherFullStackSoftwareCourseData } from "../../Data/FresherFullStackSoftware";
-import BatchDetails from "../../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../../components/NewDesign/Project/Project";
 import Switch from "../../components/NewDesign/switch/switch";
 import ProgramCustomer from "../../components/NewDesign/ProgramCustomer/ProgramCustomer";
@@ -217,12 +215,7 @@ function blockchain() {
           titleCourse="Software Development Project Brochure"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
         />
-        {/* <BatchDetails
-          FullStack={true}
-          CourseFeeHead="Data Science and AI Foundation Program : Batch Details"
-        /> */}
         <SeventhSection fullStackCont={true} />
-        <OfferPopup offer={true} />
         <BottomBar />
         <Footer />
         <WhatsappFloat />

@@ -12,7 +12,6 @@ import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
-import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { DevOpsCourse } from "../Data/DevOpsCourse";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
 import Counselling from "../components/NewDesign/Counselling/Counselling";
@@ -247,7 +246,6 @@ function blockchain() {
           SupportFaqDatas={SupportFaqDataDevops}
         />
         <SeventhSection fullStackCont={true} />
-        <OfferPopup offer={true} />
         <BottomBar />
         <Footer />
         <WhatsappFloat />

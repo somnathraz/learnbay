@@ -18,7 +18,6 @@ import DomainFaq from "../../components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../../components/CoursePage/CourseReviewfull/CourseReview";
 import { DomainFaqCourseDataweb } from "../../components/CoursePage/DomainFaq/DOmainFaqData";
 import { ProgramFee } from "../../components/CoursePage/ProgramFee/ProgramFee";
-import OfferPopup from "../../components/OfferPopup/OfferPopup";
 import FAQNew from "../../components/FAQNew/FAQNewDomain";
 import LearnSupport from "../../components/LearnSupport/LearnSupport";
 import { FullStackWebCourseData } from "../../Data/FullStackWebData";
@@ -72,7 +71,6 @@ export default function Home() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            {/* <p>Fill the below details to get started</p> */}
             <Form popup={true} setTrigger={setPopups} fullStack={true} />
           </div>
         </Popup>
@@ -197,7 +195,6 @@ export default function Home() {
           SupportFaqDatas={SupportFaqData8}
         />
         <LearnSupport />
-        <OfferPopup WebDev={true} />
         <BottomBar />
         <Footer />
         <WhatsappFloat />
