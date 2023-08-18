@@ -61,7 +61,7 @@ function DataAnalytics({dataScienceCounselling}) {
         </p>
         <p>
           Apart from this, a course completion certificate & capstone project
-          certificate from <b>Microsoft and IBM (dual certification)</b>, level
+          certificate from <b>Microsoft and IBM (dual certifications)</b>, level
           up the chances of career growth.
         </p>
         <h3>About IBM & Microsoft Certifications</h3>
