@@ -12,7 +12,6 @@ import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
 import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
-import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { FresherFullStackSoftwareCourseData } from "../Data/FresherFullStackSoftware";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
 import Project from "../components/NewDesign/Project/Project";
@@ -220,7 +219,6 @@ function blockchain() {
           CourseFeeHead="Data Science and AI Foundation Program : Batch Details"
         />
         <SeventhSection fullStackCont={true} />
-        <OfferPopup offer={true} />
         <BottomBar />
         <Footer />
         <WhatsappFloat />

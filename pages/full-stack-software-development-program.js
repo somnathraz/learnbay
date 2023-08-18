@@ -13,7 +13,6 @@ import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
 import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
 import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
-import OfferPopup from "../components/OfferPopup/OfferPopup";
 import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
 import {
@@ -248,7 +247,6 @@ function blockchain() {
           SupportFaqDatas={SupportFaqData9}
         />
         <SeventhSection fullStackCont={true} />
-        <OfferPopup offer={true} />
         <BottomBar />
         <Footer />
         <WhatsappFloat />

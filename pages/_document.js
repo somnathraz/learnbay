@@ -70,6 +70,16 @@ export default function Document() {
             } `,
           }}
         />
+        <script
+          type="text/javascript"
+          src="https://web-in21.mxradon.com/t/Tracker.js"
+        ></script>
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `pidTracker('57020');`,
+          }}
+        />
       </Head>
       <body>
         <Main />
