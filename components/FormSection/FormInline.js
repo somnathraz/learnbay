@@ -17,6 +17,7 @@ const FormInline = ({
   radio,
   dataScience,
   dataScienceCounselling,
+  dataScienceGeneric,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -33,7 +34,7 @@ const FormInline = ({
     workExperience: "",
     Brief: "",
     dateTime: "",
-    url: router.asPath,
+    url: "",
   });
   useEffect(() => {
     setQuery({ ...query, phone: value, dateTime: startDate });
@@ -48,6 +49,13 @@ const FormInline = ({
       [name]: value,
     }));
   };
+
+  const redirection = async () => {
+    console.log("redirect");
+    const myTimeout = setTimeout(() => {
+      router.push("https://course.learnbay.co/Thank-you");
+    }, 500);
+  }
 
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
 
@@ -86,6 +94,9 @@ const FormInline = ({
     }
     if (dataScienceCounselling) {
       router.push("/Thank-you-counselling");
+    }
+    if (dataScienceGeneric) {
+      redirection()
     }
   };
   const pastDates = () => {

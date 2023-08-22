@@ -23,7 +23,7 @@ import {
 } from "./courseDetails";
 import { FaDownload } from "react-icons/fa";
 
-const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
+const Course = ({ dataScience, radio, dataScienceCounselling, organicADS, dataScienceGeneric }) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
@@ -108,6 +108,7 @@ const Course = ({ dataScience, radio, dataScienceCounselling, organicADS }) => {
             titleCourse={titleCourse}
             brochureLink={brochureLinks}
             dataScience={dataScience}
+            dataScienceGeneric={dataScienceGeneric}
             dataScienceCounselling={dataScienceCounselling}
             radio={radio}
             downloadBrochure

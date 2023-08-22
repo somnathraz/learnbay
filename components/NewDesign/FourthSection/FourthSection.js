@@ -108,7 +108,7 @@ function SyllabusNew({
                 <div className={styles.FlexInput}>
                   <input
                     id="Data Science Program"
-                    value="Data Science & Artificial Intelligence Courses "
+                    value="Data Science & AI Courses "
                     name="platform"
                     required
                     type="radio"
@@ -138,7 +138,7 @@ function SyllabusNew({
                   <br />
                   <input
                     id="Data Science Program"
-                    value="Data Science & Artificial Intelligence Courses "
+                    value="Data Science & AI Courses "
                     name="platform"
                     required
                     type="radio"
@@ -153,7 +153,7 @@ function SyllabusNew({
                   <br />
                   <input
                     id="Data Science Program"
-                    value="Data Science & Artificial Intelligence Courses "
+                    value="Data Science & AI Courses "
                     name="platform"
                     required
                     type="radio"
@@ -168,7 +168,7 @@ function SyllabusNew({
                   <br />
                   <input
                     id="Data Science Program"
-                    value="Data Science & Artificial Intelligence Courses "
+                    value="Data Science & AI Courses "
                     name="platform"
                     required
                     type="radio"
@@ -187,14 +187,13 @@ function SyllabusNew({
                 <div className={styles.Tab}>
                   <div>
                     <span
-                    onClick={() => {
-                      setPop(true);
-                      setBeginner(true);
-                      setAdvanced(false);
-                    }}
+                      onClick={() => {
+                        setPop(true);
+                        setBeginner(true);
+                        setAdvanced(false);
+                      }}
                       className={Beginner ? styles.ActiveSpan : styles.span}
                     >
-
                       Beginner
                     </span>
                   </div>
@@ -203,7 +202,7 @@ function SyllabusNew({
                       onClick={() => {
                         setPop(true);
                         setBeginner(false);
-                      setAdvanced(true);
+                        setAdvanced(true);
                       }}
                       className={Advanced ? styles.ActiveSpan : styles.span}
                     >

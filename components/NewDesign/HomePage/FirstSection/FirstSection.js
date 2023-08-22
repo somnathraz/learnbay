@@ -6,7 +6,7 @@ import Form from "../../../Form/Form";
 import Image from "next/image";
 import Typed from "typed.js";
 
-const FirstSection = ({ dataScience, radio, btnHide, second, third, idss, dataScienceCounselling, organicADS}) => {
+const FirstSection = ({ dataScience, radio, btnHide, second, third, dataScienceGeneric, dataScienceCounselling, organicADS}) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -70,6 +70,7 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, idss, dataSc
             <h5>Apply For Counselling</h5>
             <Form
               dataScience={dataScience}
+              dataScienceGeneric={dataScienceGeneric}
               dataScienceCounselling={dataScienceCounselling}
               radio={radio}
             />
