@@ -20,6 +20,7 @@ const Navbar = ({
   eventLink,
   dataScienceCounselling,
   brochureLink,
+  dataScienceGeneric,
   organicADS,
 }) => {
   const router = useRouter();
@@ -67,6 +68,7 @@ const Navbar = ({
               radio={radio}
               fullStack={fullStack}
               dataScience={dataScience}
+              dataScienceGeneric={dataScienceGeneric}
               dataScienceCounselling={dataScienceCounselling}
             />
           )}

@@ -3,11 +3,6 @@ import styles from "./Form.module.css";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
-import DatePicker from "react-datepicker";
-import setHours from "date-fns/setHours";
-import setMinutes from "date-fns/setMinutes";
-import addDays from "date-fns/addDays";
-import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
 
 const Form = ({
@@ -28,6 +23,7 @@ const Form = ({
   titleCourse,
   brochureLink,
   dataScienceCounselling,
+  dataScienceGeneric,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -64,6 +60,12 @@ const Form = ({
       ...prevState,
       [name]: value,
     }));
+  };
+  const redirection = async () => {
+    console.log("redirect");
+    const myTimeout = setTimeout(() => {
+      router.push("https://course.learnbay.co/Thank-you");
+    }, 500);
   };
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   if (event) {
@@ -152,6 +154,9 @@ const Form = ({
         pathname: "/Thank-you",
         query: { titleCourse: titleCourse, brochureLink: brochureLink },
       });
+    }
+    if (dataScienceGeneric) {
+      redirection();
     }
     if (dataScienceCounselling) {
       router.push("/Thank-you-counselling");
@@ -350,7 +355,7 @@ const Form = ({
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <input
               id="Data Science Program"
-              value="Data Science & Artificial Intelligence Courses "
+              value="Data Science & AI Courses "
               name="platform"
               required
               type="radio"

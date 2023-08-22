@@ -35,7 +35,7 @@ export default function Home() {
       </Head>
       <Navbar
         popup={true}
-        dataScience={true}
+        dataScienceGeneric={true}
         radio={true}
         event={true}
         organicADS={true}
@@ -46,7 +46,7 @@ export default function Home() {
         second="Tips"
         third="Technology"
         popup={true}
-        dataScience={true}
+        dataScienceGeneric={true}
         radio={true}
         organicADS={true}
       />
@@ -61,10 +61,10 @@ export default function Home() {
           <BoxShape />
         </div>
       </div>
-      <Course popup={true} dataScience={true} radio={true} organicADS={true} />
+      <Course popup={true} dataScienceGeneric={true} radio={true} organicADS={true} />
       <Switch organicADS={true} />
       <Testimonial />
-      <ContactUs popup={true} dataScience={true} radio={true} />
+      <ContactUs popup={true} dataScienceGeneric={true} radio={true} />
       <SeventhSection />
       <BottomBar />
       <Footer organicADSS={true} />

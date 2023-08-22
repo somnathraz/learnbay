@@ -4,7 +4,7 @@ import { AiOutlineRise } from "react-icons/ai";
 import { BiBriefcaseAlt2 } from "react-icons/bi";
 import FormInline from "../../../FormSection/FormInline";
 
-function ContactUs({ dataScience, dataScienceCounselling }) {
+function ContactUs({ dataScience, dataScienceCounselling, dataScienceGeneric }) {
   return (
     <section className={styles.ContactUs}>
       <div className={styles.LeftSide}>
@@ -39,6 +39,7 @@ function ContactUs({ dataScience, dataScienceCounselling }) {
         </p>
         <FormInline
           dataScience={dataScience}
+          dataScienceGeneric={dataScienceGeneric}
           dataScienceCounselling={dataScienceCounselling}
           radio={true}
         />
