@@ -31,9 +31,11 @@ import Switch from "../../components/NewDesign/switch/switch";
 import ProgramCustomer from "../../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import GrowthStats from "../../components/NewDesign/GrowthStat/GrowthStats";
 import Counselling from "../../components/NewDesign/Counselling/Counselling";
+import Content from "../../components/SEO/Content/content";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
+ 
 
   const popupShow = () => {
     setPopups(true);
@@ -250,6 +252,7 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData9}
           SupportFaqDatas={SupportFaqData9}
         />
+        <Content dataScienceCounselling={true} dsaSD={true} />
         <SeventhSection fullStackCont={true} />
         <OfferPopup offer={true} />
         <BottomBar />
