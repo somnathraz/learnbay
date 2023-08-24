@@ -57,8 +57,9 @@
   width: 100%;
 }
 .heading {
-  font-size: 18px;
+  font-size: 17px;
   text-align: left;
+  margin-top: 5px;
 }
 .blue,
 .green,
