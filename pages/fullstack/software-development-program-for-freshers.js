@@ -171,7 +171,7 @@ function blockchain() {
 
         <FifthSection
           softTools={true}
-          BlockchainCertificate={true}
+          NoCertficate={true}
           Fee="₹ 70,000 + 18% GST"
           FeeEmi="₹ 6,883/month"
           FeeHeading="Program Fee & Financing"
