@@ -72,6 +72,7 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
+          isFSD={true}
           NoImage={true}
           softwareBtnHide={true}
           FirstTyped="Structured, industry-tailored curriculum"
@@ -112,7 +113,7 @@ function blockchain() {
           para1="Bachelor's degree with consistent good academics"
           para2="1+ year(s) experience in IT domain"
           para3="Students pursuing B.Tech and B.Sc. in computer science"
-          para4="Designed for individuals seeking software development skills"
+          para4="For individuals seeking software development skills"
           heading1="Education"
           heading2="Work experience"
           heading3="Career stage"
@@ -231,7 +232,7 @@ function blockchain() {
           SoftwareText={true}
           project="10+ Projects"
           tools="16+"
-          Software={true}
+          Fullstack={true}
           dataScience={true}
           titleCourse="Software Development Project Brochure"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"

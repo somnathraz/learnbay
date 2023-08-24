@@ -60,6 +60,7 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
+          isFSD={true}
           softwareBtnHide={true}
           NoImage={true}
           ParaBot="From fresh ideas to flawless code: Discover your path in our Software Development Program and uncover limitless career possibilities"

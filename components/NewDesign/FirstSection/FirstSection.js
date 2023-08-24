@@ -25,6 +25,7 @@ function FirstSection({
   ThirdTyped,
   ibmOnly,
   ParaBot,
+  isFSD,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -87,8 +88,11 @@ function FirstSection({
         <h1 className={styles.h1}>
           {firstHeading} <span className={styles.h1Span}>{firstToparaImg}</span>
         </h1>
-        <p className={styles.ptop} style={{ color: "#000", marginBottom: "10px" }}>
-        {ParaBot}
+        <p
+          className={styles.ptop}
+          style={{ color: "#000", marginBottom: "10px" }}
+        >
+          {ParaBot}
         </p>
         <div className={styles.IBMlogoPlay}>
           <Image
@@ -99,28 +103,36 @@ function FirstSection({
             alt="data science course"
           />
         </div>
-        <p className={styles.ptop} style={{ color: "#000" }}>
-          In Collaboration With
-        </p>
-        <div className={styles.IBMlogo}>
-          {ibmOnly ? (
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/ibm-single-home.png"
-              width="127"
-              height="51"
-              layout="intrinsic"
-              alt="data science course"
-            />
-          ) : (
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSection.png"
-              width="283"
-              height="51"
-              layout="intrinsic"
-              alt="data science course"
-            />
-          )}
-        </div>
+
+        {isFSD ? (
+          ""
+        ) : (
+          <>
+            <p className={styles.ptop} style={{ color: "#000" }}>
+              In Collaboration With
+            </p>
+            <div className={styles.IBMlogo}>
+              {ibmOnly ? (
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/ibm-single-home.png"
+                  width="127"
+                  height="51"
+                  layout="intrinsic"
+                  alt="data science course"
+                />
+              ) : (
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSection.png"
+                  width="283"
+                  height="51"
+                  layout="intrinsic"
+                  alt="data science course"
+                />
+              )}
+            </div>
+          </>
+        )}
+
         <div className={styles.animationTextWrap}>
           <span ref={el} className={styles.animationText}></span>
         </div>
