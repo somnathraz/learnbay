@@ -12,7 +12,12 @@ import { FaDownload, fsdBrochureText } from "react-icons/fa";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-const CourseReview = ({ fsdBrochure, fullStack, dataScience, dataScienceCounselling }) => {
+const CourseReview = ({
+  fsdBrochure,
+  fullStack,
+  dataScience,
+  dataScienceCounselling,
+}) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -58,6 +63,7 @@ const CourseReview = ({ fsdBrochure, fullStack, dataScience, dataScienceCounsell
             <Form
               setTrigger={setPopups}
               downloadBrochure
+              upSkillingHide={true}
               fullStack={fullStack}
               dataScience={dataScience}
               dataScienceCounselling={dataScienceCounselling}

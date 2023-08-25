@@ -15,12 +15,12 @@
 
 .formWrappers {
   margin-bottom: 10px;
-  width: 80%;
+  width: 100%;
   height: 100%;
   margin-bottom: 10px;
 }
 .formGrid {
-  width: 80%;
+  width: 100%;
   display: grid;
   gap: 10px;
   grid-template-columns: 49% 49%;
@@ -208,11 +208,11 @@
 
 .dsCourseInp{
   text-align: left;
-  margin-left: 65px;
+  /* margin-left: 65px; */
 }
 .fsdCourseInp{
   text-align: left;
-  margin-left: 65px;
+  /* margin-left: 65px; */
 }
 
 @media (max-width: 600px) {

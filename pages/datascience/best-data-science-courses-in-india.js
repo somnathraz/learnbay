@@ -1,17 +1,15 @@
 import Head from "next/head";
 import styles from "../../styles/Home.module.css";
-import FirstSection from "../../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../../components/CoursePage/GetHired/GetHired";
-import { ProgramFee } from "../../components/CoursePage/ProgramFee/ProgramFee";
-import BoxShape from "../../components/CoursePage/Boxshape/BoxShape";
+import FirstSection from "../../components/NewDesign/FirstSection/FirstSection";
+import SecondSection from "../../components/NewDesign/SecondSection/SecondSection";
+import FifthSection from "../../components/NewDesign/FifthSection/FifthSection";
+import ProgramCustomer from "../../components/NewDesign/ProgramCustomer/ProgramCustomer";
 import Popup from "../../components/Popup/Popup";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import BottomBar from "../../components/BottomBar/BottomBar";
 import WhatsappFloat from "../../components/WhatsappFloat/WhatsappFloat";
 import Form from "../../components/Form/Form";
-import CityText from "../../components/CityComponent/CityText/CityText";
 import CitiesLeft from "../../components/CityComponent/CitiesLeft/CitiesLeft";
 import OfferPopup from "../../components/OfferPopup/OfferPopup";
 import CitiesRight from "../../components/CityComponent/CitiesRight/CitiesRight";
@@ -471,50 +469,67 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          dataScienceCounselling={true}
-          deskTopPara="Foundational and Advanced Data Science Courses"
-          spanTitleText="India"
-          spanMTitleText="India"
-          mTitle="Best Data Science Courses In"
-          mTopPara="Foundational and Advanced Data Science Courses"
-          title="Best Data Science Courses In"
-          desc="Learnbay has brought you the best online data science courses in India. Become a pro in data science in your chosen domain by practicing 12+ industrial projects under the guidance of industry experts. Stand out from the crowd by enrolling in the Data Science courses in india now!"
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
-          width="900"
-          height="762"
-          alt="data science course in India"
+          FirstTyped="Guaranteed Interview Calls"
+          SecondTyped="Capstone Project Certificate"
+          ThirdTyped="Live Interactive Classes"
+          dataScience={true}
+          titleCourse="Advanced Data Science and AI Program with domain specialization"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          first="Tools"
+          second="Tips"
+          third="Technology"
+          ParaBot="Learnbay has brought you the best online data science courses in India. Become a pro in data science in your chosen domain by practicing 12+ industrial projects under the guidance of industry experts. Stand out from the crowd by enrolling in the Data Science courses in india now!"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/advance+DS+header+image.webp"
+          firstToparaImg="India"
+          firstHeading="Best Data Science Courses In"
+          firstTopPara="Foundational and Advanced Data Science Courses"
+          idss="bfl64ANfSV0"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
-        <div className={styles.program}>
-          <ProgramInfo
-            p1="Global Recognition"
-            p11="From IBM"
-            p2="Industry Standard"
-            p22="Training"
-            p3="Career Assistance"
-            p33="For Professionals"
-            p4="Financing as low as"
-            p44="₹ 9,735/month"
-          />
-        </div>
-        <ProgramFee
-          Fee="₹99,000 + 18% GST"
-          Emi="₹ 9,735/month"
+        <SecondSection
+          fullStackReview={true}
+          SecondHead="Why Choose Us?"
+          SEOSecondHead="India’s top Advanced data science certification courses for working professionals"
+          heading1="1:1 Doubt Session"
+          heading2="Guaranteed Interview Calls"
+          heading3="IBM Project Certificate"
+          heading4="Designed For Professionals"
+          SecondPara1="Talk to an expert & receive real-time solutions to your queries"
+          SecondPara2="Boost your job prospects with referrals from 300+ hiring partners"
+          SecondPara3="Grab opportunities with a portfolio & make a smooth career transition"
+          SecondPara4="Prioritise growth, boost career with in-demand skills"
+        />
+        <FifthSection
+          NoCertficate={true}
+          hidetools={true}
+          Fee="₹ 99,000 + 18% GST"
+          FeeEmi="₹ 9,735/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent1="0% interest rate"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          FeeContent6="No additional cost"
+          para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScienceCounselling={true}
         />
-        <div className="Feature" id="Feature">
-          <BoxShape
-            alt="data science course in India"
-            title="Why Enroll In Data Science Course in India?"
-            Box1h5="Custom-fit Training"
-            box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
-            Box2h5="Domain Focused"
-            box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 8+ electives."
-            Box3h5="Premium Mentoring"
-            box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with PRODUCT Based Companies expertise."
-            Box4h5="Hands-on Experience"
-            box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
-          />
+        <div style={{marginTop:"50px"}}>
+        <ProgramCustomer
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whoIsProgram.webp"
+          para1="Bachelor's degree with consistent good academics"
+          para2="Minimum 1 year of IT/Non-IT work experience"
+          para3="Early to mid-career professionals interested in data science"
+          para4="To become a data-driven professional & optimise strategies"
+          heading1="Education"
+          heading2="Work experience"
+          heading3="Career stage"
+          heading4="Aspirations"
+        />
         </div>
         <div className="MainCities">
           <div className="CitiesLeft">

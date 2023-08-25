@@ -73,6 +73,7 @@ function FirstSection({
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
             downloadBrochure
+            upSkillingHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLink}
           />
@@ -87,8 +88,11 @@ function FirstSection({
         <h1 className={styles.h1}>
           {firstHeading} <span className={styles.h1Span}>{firstToparaImg}</span>
         </h1>
-        <p className={styles.ptop} style={{ color: "#000", marginBottom: "10px" }}>
-        {ParaBot}
+        <p
+          className={styles.ptop}
+          style={{ color: "#000", marginBottom: "10px" }}
+        >
+          {ParaBot}
         </p>
         <div className={styles.IBMlogoPlay}>
           <Image

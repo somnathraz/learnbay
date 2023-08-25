@@ -60,6 +60,7 @@ const Project = ({
           <Form
             dataScience={dataScience}
             downloadBrochure
+            upSkillingHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLink}
           />
@@ -2164,7 +2165,7 @@ const Project = ({
                   </p>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className={styles.project}> 
+              <SwiperSlide className={styles.project}>
                 <div className={styles.header}>
                   <div className={styles.left}>
                     <h5>Blogging Application</h5>

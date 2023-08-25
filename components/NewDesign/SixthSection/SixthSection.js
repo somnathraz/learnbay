@@ -54,6 +54,7 @@ function SixthSection({
           <Form
             popup={true}
             downloadBrochure
+            upSkillingHide={true}
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
             setTrigger={setPopups}

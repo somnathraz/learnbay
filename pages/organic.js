@@ -26,7 +26,7 @@ function Counselling() {
           </div>
 
           <div className={styles.formr}>
-            <Form google={true} workExperience={true} />
+            <Form google={true} upSkillingHide={true} />
           </div>
         </div>
     </div>

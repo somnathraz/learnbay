@@ -47,6 +47,7 @@ const Project = ({ fsdBrochure, project, fullStack }) => {
           <Form
             setTrigger={setPopups}
             downloadBrochure
+            upSkillingHide={true}
             fullStack={fullStack}
           />
         </div>
@@ -318,10 +319,15 @@ const Project = ({ fsdBrochure, project, fullStack }) => {
       </div>
       <div>
         {fsdBrochure ? (
-          <button style={{ margin: "auto", marginTop: "20px", fontSize: "16px" }} onClick={popupShow}>
+          <button
+            style={{ margin: "auto", marginTop: "20px", fontSize: "16px" }}
+            onClick={popupShow}
+          >
             Project Brochure
-            <FaDownload className={styles.bicon}
-                style={{ marginLeft: "10px" }} />
+            <FaDownload
+              className={styles.bicon}
+              style={{ marginLeft: "10px" }}
+            />
           </button>
         ) : (
           <a

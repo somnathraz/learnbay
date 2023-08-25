@@ -46,6 +46,7 @@ function DomainSection({
           <Form
             dataScience={dataScience}
             downloadBrochure
+            upSkillingHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLink}
           />
@@ -218,13 +219,16 @@ function DomainSection({
                               className={styles.para}
                             >
                               <li>
-                              Work on 14+ real-time projects & case studies
+                                Work on 14+ real-time projects & case studies
                               </li>
                               <li>
-                              Designed for full stack developer, web developer, software engineer, etc
+                                Designed for full stack developer, web
+                                developer, software engineer, etc
                               </li>
                               <li>
-                              Acquire a diverse range of technical skills required for full stack web development using MERN stack
+                                Acquire a diverse range of technical skills
+                                required for full stack web development using
+                                MERN stack
                               </li>
                             </ul>
                           </div>

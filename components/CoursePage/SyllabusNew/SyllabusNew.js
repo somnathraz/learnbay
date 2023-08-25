@@ -65,6 +65,7 @@ function SyllabusNew({
           <Form
             setTrigger={setPopups}
             downloadBrochure
+            upSkillingHide={true}
             fullStack={fullStack}
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
