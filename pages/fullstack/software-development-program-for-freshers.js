@@ -60,6 +60,7 @@ function blockchain() {
           </div>
         </Popup>
         <FirstSection
+          isFSD={true}
           softwareBtnHide={true}
           NoImage={true}
           ParaBot="From fresh ideas to flawless code: Discover your path in our Software Development Program and uncover limitless career possibilities"
@@ -170,7 +171,7 @@ function blockchain() {
 
         <FifthSection
           softTools={true}
-          BlockchainCertificate={true}
+          NoCertficate={true}
           Fee="₹ 70,000 + 18% GST"
           FeeEmi="₹ 6,883/month"
           FeeHeading="Program Fee & Financing"

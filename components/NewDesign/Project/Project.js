@@ -27,6 +27,7 @@ const Project = ({
   BlockChain,
   SoftwareText,
   Freshers,
+  Fullstack
 }) => {
   const [popups, setPopups] = useState(false);
   const [popupsP, setPopupsP] = useState(false);
@@ -1480,6 +1481,8 @@ const Project = ({
           ) : (
             ""
           )}
+
+
           {Cloud ? (
             <>
               <SwiperSlide className={styles.project}>
@@ -2185,6 +2188,319 @@ const Project = ({
                   </p>
                 </div>
               </SwiperSlide>
+            </>
+          ) : (
+            ""
+          )}
+
+{Fullstack ? (
+            <>
+               <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>E-Commerce Microservices Platform</h5>
+                  </div>
+                  <div className={styles.right}>
+                    {/* <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/Google.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    /> */}
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                    Design an e-commerce platform using microservices
+                    architecture. Each microservice...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("E-Commerce Microservices Platform");
+                      setProjectTitle("");
+                      setDesc(
+                        "Design an e-commerce platform using microservices architecture. Each microservice could handle different functionalities such as user authentication, product catalog, cart management, payment processing, order fulfillment, and recommendations. Use RESTful APIs for communication between microservices. Explore aspects of scalability, data modeling, and transaction management."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hr-domain-img.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Food Delivery App</h5>
+                  </div>
+                  <div className={styles.right}>
+                    {/* <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/tinder.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    /> */}
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  reate a food delivery application with microservices. 
+                  Each microservice...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Food Delivery App");
+                      setProjectTitle("");
+                      setDesc(
+                        "Create a food delivery application with microservices. Each microservice could be responsible for tasks like user registration, restaurant management, order placement, delivery tracking, and payment processing. Implement REST APIs to enable communication and data exchange between the microservices."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Marketing-domain-img.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Travel Booking System</h5>
+                  </div>
+                  <div className={styles.right}>
+                    {/* <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/facebook.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    /> */}
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  Design a travel booking system using microservices.
+                  Separate microservices...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setProjectTitle("");
+                      setTitle("Travel Booking System");
+                      setDesc(
+                        "Design a travel booking system using microservices. Separate microservices could handle aspects like flight booking, hotel reservation, car rental, and itinerary planning. Utilize REST APIs for inter-microservice communication and data exchange."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Social Networking Platform</h5>
+                  </div>
+                  <div className={styles.right}>
+                    {/* <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/airbnb.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    /> */}
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  Develop a social networking platform with microservices. 
+                  Different microservices...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Social Networking Platform");
+                      setProjectTitle("");
+                      setDesc(
+                        "Develop a social networking platform with microservices. Different microservices could manage user profiles, posts, likes, comments, and connections. Implement RESTful APIs to facilitate interactions between the microservices. Emphasize real-time updates, news feed algorithms, and user interactions."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Sales-domain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Ride-Sharing Service</h5>
+                  </div>
+                  <div className={styles.right}>
+                    {/* <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/slack.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    /> */}
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  Design a ride-sharing service with microservices.
+                  Each microservice could...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Ride-Sharing Service");
+                      setProjectTitle("");
+                      setDesc(
+                        "Design a ride-sharing service with microservices. Each microservice could handle tasks like user registration, ride booking, driver matching, and payment processing. Implement RESTful APIs to facilitate communication and data exchange between microservices. Discuss geolocation services, map integration, and load balancing."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Music Streaming App</h5>
+                  </div>
+                  <div className={styles.right}>
+                    {/* <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/reddit.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    /> */}
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  Develop a music streaming application with microservices.
+                  Different microservices...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setProjectTitle("");
+                      setTitle("Music Streaming App");
+                      setDesc(
+                        "Develop a music streaming application with microservices. Different microservices could manage user profiles, playlists, song recommendations, and payment processing. Utilize REST APIs for communication between the microservices. Focus on caching, load balancing, latency reduction, and data replication."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Health and Fitness Platform</h5>
+                  </div>
+                  <div className={styles.right}>
+                    {/* <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/bookmy+show.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    /> */}
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  Create a health and fitness platform using microservices.
+                   Microservices could...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Health and Fitness Platform");
+                      setProjectTitle("");
+                      setDesc(
+                        "Create a health and fitness platform using microservices. Microservices could handle user profiles, workout tracking, meal planning, and progress monitoring. Implement RESTful APIs to enable communication between the microservices. Discuss data security, compliance with regulations, and handling sensitive patient information."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide className={styles.project}>
+                <div className={styles.header}>
+                  <div className={styles.left}>
+                    <h5>Online Learning Portal</h5>
+                  </div>
+                  <div className={styles.right}>
+                    {/* <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Project+company+logos/bookmy+show.png"
+                      alt="Learnbay"
+                      quality={100}
+                      objectFit="contain"
+                      width="90"
+                      height="45"
+                    /> */}
+                  </div>
+                </div>
+                <div className={styles.body}>
+                  <p>
+                  Design an online learning portal with microservices.
+                   Separate microservices...
+                  </p>
+                  <span
+                    onClick={() => {
+                      popupShow();
+                      setTitle("Online Learning Portal");
+                      setProjectTitle("");
+                      setDesc(
+                        "Design an online learning portal with microservices. Separate microservices could handle user authentication, course management, content delivery, and progress tracking. Use REST APIs for inter-microservice communication. Address content delivery optimization and handling large numbers of users."
+                      );
+                      setImg(
+                        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                      );
+                    }}
+                  >
+                    Learn More
+                  </span>
+                </div>
+              </SwiperSlide>
+
             </>
           ) : (
             ""

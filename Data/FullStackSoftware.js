@@ -141,7 +141,7 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Term 2 :- Basic DSA",
+          title: "Term 2 :- DSA",
           content: [
             {
               chap: {
@@ -301,6 +301,47 @@ export const FullStackSoftwareCourseData = [
                   "Implementation using Array",
                   "Implementation using Linked list",
                   "Queue as a library",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 17 :- Maths",
+                desc: [
+                  "Modular Arithmetic, Modular Exponentiation, GCD, Modular Multiplicative Inverse",
+                  " GCD, Primality Testing, Seive of Eratosthenes",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 18 :- Analysis of Algorithm - Advance",
+                desc: ["Greedy"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 19 :- Advance Data Structure",
+                desc: [
+                  "Tree -1 (Traversals)",
+                  "Tree - 2 (Construction of tree from traversals, height of tree, mirror of tree)",
+                  "Tree - 3 (LCA, Diameter)",
+                  "BST",
+                  "Heaps",
+                  "Graph - 1 (BFS, DFS)",
+                  "Graph - 2 (Cycles in Graph)",
+                  "Graph - 3 (DFS, BFS on matrix)",
+                  "Graph - 4 ([Dijkstra Algorithm, Flood Fill Algorithm])",
+                  "Heaps",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 20 :- Analysis of Algorithm - Advance",
+                desc: [
+                  "Dynamic Programming",
+                  "Graph - 5 [Minimum Spanning Tree, Floyd Warshall, Topological Sorting]",
                 ],
               },
             },
@@ -308,52 +349,69 @@ export const FullStackSoftwareCourseData = [
           id: 1,
           open: false,
         },
-      },
+      },   
       {
         Module0: {
-          title: "Term 2 :- Advanced DSA",
+          title: "Term 3 :- CS Fundamentals & DBMS",
           content: [
             {
               chap: {
-                title: "Module 1 :- Maths",
+                title: "Module 1 :- DBMS",
                 desc: [
-                  "Modular Arithmetic, Modular Exponentiation, GCD, Modular Multiplicative Inverse",
-                  " GCD, Primality Testing, Seive of Eratosthenes",
+                  "Introduction to Databases",
+                  "The Relational Model",
+                  "Entity-Relationship Model",
+                  "Database Design",
+                  "Structured Query Language (SQL)",
+                  "Database Indexing and Optimization",
+                  "Transaction Management",
+                  "Database Security and Authorisation",
+                  "Backup, Recovery, and Integrity",
+                  "Emerging Trends in Database Management"
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- Analysis of Algorithm - Advance",
-                desc: ["Greedy"],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3 :- Advance Data Structure",
+                title: "Module 2 :- Networking Fundamentals",
                 desc: [
-                  "Tree -1 (Traversals)",
-                  "Tree - 2 (Construction of tree from traversals, height of tree, mirror of tree)",
-                  "Tree - 3 (LCA, Diameter)",
-                  "BST",
-                  "Heaps",
-                  "Graph - 1 (BFS, DFS)",
-                  "Graph - 2 (Cycles in Graph)",
-                  "Graph - 3 (DFS, BFS on matrix)",
-                  "Graph - 4 ([Dijkstra Algorithm, Flood Fill Algorithm])",
-                  "Heaps",
+                  "Introduction to Computer Networking",
+                  "Network Topologies and Technologies",
+                  "OSI Model and Protocol Stack",
+                  "IP Addressing and Subnetting",
+                  "Routing and Switching",
+                  "Local Area Networks (LANs)",
+                  "Wide Area Networks (WANs)",
+                  "Wireless Networking",
+                  "Network Security",
+                  "Domain Name System (DNS)",
+                  "Cloud Networking",
+                  "Emerging Trends in Computer Networking",
+                
                 ],
               },
             },
             {
               chap: {
-                title: "Module 4 :- Analysis of Algorithm - Advance",
+                title: "Module 3 :- Operating System",
                 desc: [
-                  "Dynamic Programming",
-                  "Graph - 5 [Minimum Spanning Tree, Floyd Warshall, Topological Sorting]",
+                  "Introduction to Operating Systems",
+                  "Computer System Architecture",
+                  "Process Management",
+                  "Memory Management",
+                  "File System Management",
+                  "Input/Output (I/O) Systems",
+                  "User Interface and Command-Line Interaction",
+                  "System Security and Authentication",
+                  "Virtualization and Cloud Computing",
+                  "Distributed Operating Systems",
+                  "Real-Time Operating Systems (RTOS)",
+                  
+                
                 ],
               },
             },
+           
           ],
           id: 2,
           open: false,
@@ -361,7 +419,7 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Term 3 :- System Design",
+          title: "Term 4 :- System Design",
           content: [
             {
               chap: {
@@ -464,15 +522,203 @@ export const FullStackSoftwareCourseData = [
               },
             },
           ],
-          id: 2,
+          id: 3,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 5 :- Specialization",
+          content: [
+            {
+              chap: {
+                title: "MERN (Full-Stack Specialization)",
+                desc: [
+                  "Programming Basics, Data Types and Code Flow",
+                  "Project work on HTML5 and CSS3",
+                  "JavaScript",
+                  "Package Managers",
+                  "HTML and CSS3",
+                  "Bootstrap",
+                  "jQuery",
+                  "ReactJS",
+                  "Application Programming Interface",
+                  "Deploying WEB Application using AWS and Azure",
+                  "Final Project Work",
+                  "Node.js and Express.js",
+                  "Database",
+                  "Authentication and Security",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "SPRING (Backend Specialization)",
+                desc: [
+                  "Framework Introduction",
+                  "Spring JDBC / DAO Module",
+                  "Spring AOP Module",
+                  "Spring Core Module",
+                  "Spring ORM Module",
+                  "Spring WEB & WEB MVC Module",
+                  "Spring Security Module",
+                  "Maven",
+                  "Springboot",
+                  "Advance Java (Servlet + JSP)",
+                  "Other Technologies",
+                  
+                 
+                ],
+              },
+            }
+          ],
+          id: 4,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 6 :- Deployment",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Building a Spring Boot Application",
+                desc: [
+                  "Creating a new Spring Boot project",
+                  "Dependency management with Maven or Gradle",
+                  "Defining application properties (e.g., database configuration, logging)",   
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Working with Databases",
+                desc: [
+                  "Integrating Spring Boot with relational databases (e.g., MySQL, PostgreSQL)",
+                  "Using Spring Data JPA for database interactions",
+                  "Implementing CRUD operations with JPA repositories", 
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 3 :- Securing a Spring Boot Application",
+                desc: [
+                  "Implementing authentication and authorization",
+                  "Securing REST APIs with Spring Security",
+                  "Handling CSRF attacks and other security considerations",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 4 :- Building and Packaging Spring Boot Applications",
+                desc: [
+                  "Creating executable JARs or WARs",
+                  "Deploying Spring Boot applications to local and remote servers",
+                  
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 5 :- Developing a Basic Spring Boot Application",
+                desc: [
+                  "Creating and configuring Spring Beans",
+                  "Implementing RESTful APIs with Spring Web",
+                  "Handling HTTP requests and responses",
+                  "Data validation and error handling",
+
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 6 :- Testing Spring Boot Applications",
+                desc: [
+
+                  "Writing unit tests for Spring components (e.g., controllers, services)",
+                  "Using JUnit and Mockito for testing",
+                  "Understanding test best practices and test coverage"
+                 
+
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 7 :- Spring Boot Actuator",
+                desc: [
+
+                  "Monitoring and managing Spring Boot applications using Actuator endpoints",
+                  "Customizing Actuator endpoints and security configurations",
+                 
+
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 8 :- Containerization and Deployment",
+                desc: [
+
+                  "Introduction to Docker and containerization",
+                  "Dockerizing a Spring Boot application",
+                  "Deploying Spring Boot apps to cloud platforms (e.g., AWS, Azure, Google Cloud)",  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 9 :- Containerization and Deployment",
+                desc: [
+
+                  "Setting up CI/CD pipelines with tools like Jenkins or GitLab CI",
+                  "Automating the deployment process",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 10 :- Monitoring and Scaling",
+                desc: [
+
+                  "Utilizing monitoring tools (e.g., Spring Boot Admin, Prometheus, Grafana)",
+                  "Scaling Spring Boot applications in different deployment environments",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 11 :- Troubleshooting and Best Practices",
+                desc: [
+
+                  "Identifying and resolving common issues",
+                  "Adopting best practices for Spring Boot application development and deployment",
+                  
+                ],
+              },
+            }
+          ],
+          id: 5,
           open: false,
         },
       },
     ],
     advSyllabus: [
+  
       {
         Module0: {
-          title: "Term 2 :- Basic DSA",
+          title: "Term 1 :- DSA",
           content: [
             {
               chap: {
@@ -635,18 +881,9 @@ export const FullStackSoftwareCourseData = [
                 ],
               },
             },
-          ],
-          id: 0,
-          open: true,
-        },
-      },
-      {
-        Module0: {
-          title: "Term 2 :- Advanced DSA",
-          content: [
             {
               chap: {
-                title: "Module 1 :- Maths",
+                title: "Module 17 :- Maths",
                 desc: [
                   "Modular Arithmetic, Modular Exponentiation, GCD, Modular Multiplicative Inverse",
                   " GCD, Primality Testing, Seive of Eratosthenes",
@@ -655,13 +892,13 @@ export const FullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Module 2 :- Analysis of Algorithm - Advance",
+                title: "Module 18 :- Analysis of Algorithm - Advance",
                 desc: ["Greedy"],
               },
             },
             {
               chap: {
-                title: "Module 3 :- Advance Data Structure",
+                title: "Module 19 :- Advance Data Structure",
                 desc: [
                   "Tree -1 (Traversals)",
                   "Tree - 2 (Construction of tree from traversals, height of tree, mirror of tree)",
@@ -678,7 +915,7 @@ export const FullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Module 4 :- Analysis of Algorithm - Advance",
+                title: "Module 20 :- Analysis of Algorithm - Advance",
                 desc: [
                   "Dynamic Programming",
                   "Graph - 5 [Minimum Spanning Tree, Floyd Warshall, Topological Sorting]",
@@ -686,7 +923,74 @@ export const FullStackSoftwareCourseData = [
               },
             },
           ],
-          id: 2,
+          id: 0,
+          open: false,
+        },
+      },   
+      {
+        Module0: {
+          title: "Term 2 :- CS Fundamentals & DBMS",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- DBMS",
+                desc: [
+                  "Introduction to Databases",
+                  "The Relational Model",
+                  "Entity-Relationship Model",
+                  "Database Design",
+                  "Structured Query Language (SQL)",
+                  "Database Indexing and Optimization",
+                  "Transaction Management",
+                  "Database Security and Authorisation",
+                  "Backup, Recovery, and Integrity",
+                  "Emerging Trends in Database Management"
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Networking Fundamentals",
+                desc: [
+                  "Introduction to Computer Networking",
+                  "Network Topologies and Technologies",
+                  "OSI Model and Protocol Stack",
+                  "IP Addressing and Subnetting",
+                  "Routing and Switching",
+                  "Local Area Networks (LANs)",
+                  "Wide Area Networks (WANs)",
+                  "Wireless Networking",
+                  "Network Security",
+                  "Domain Name System (DNS)",
+                  "Cloud Networking",
+                  "Emerging Trends in Computer Networking",
+                
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3 :- Operating System",
+                desc: [
+                  "Introduction to Operating Systems",
+                  "Computer System Architecture",
+                  "Process Management",
+                  "Memory Management",
+                  "File System Management",
+                  "Input/Output (I/O) Systems",
+                  "User Interface and Command-Line Interaction",
+                  "System Security and Authentication",
+                  "Virtualization and Cloud Computing",
+                  "Distributed Operating Systems",
+                  "Real-Time Operating Systems (RTOS)",
+                  
+                
+                ],
+              },
+            },
+           
+          ],
+          id: 1,
           open: false,
         },
       },
@@ -796,6 +1100,193 @@ export const FullStackSoftwareCourseData = [
             },
           ],
           id: 2,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 4 :- Specialization",
+          content: [
+            {
+              chap: {
+                title: "MERN (Full-Stack Specialization)",
+                desc: [
+                  "Programming Basics, Data Types and Code Flow",
+                  "Project work on HTML5 and CSS3",
+                  "JavaScript",
+                  "Package Managers",
+                  "HTML and CSS3",
+                  "Bootstrap",
+                  "jQuery",
+                  "ReactJS",
+                  "Application Programming Interface",
+                  "Deploying WEB Application using AWS and Azure",
+                  "Final Project Work",
+                  "Node.js and Express.js",
+                  "Database",
+                  "Authentication and Security",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "SPRING (Backend Specialization)",
+                desc: [
+                  "Framework Introduction",
+                  "Spring JDBC / DAO Module",
+                  "Spring AOP Module",
+                  "Spring Core Module",
+                  "Spring ORM Module",
+                  "Spring WEB & WEB MVC Module",
+                  "Spring Security Module",
+                  "Maven",
+                  "Springboot",
+                  "Advance Java (Servlet + JSP)",
+                  "Other Technologies",
+                  
+                 
+                ],
+              },
+            }
+          ],
+          id: 3,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 5 :- Deployment",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Building a Spring Boot Application",
+                desc: [
+                  "Creating a new Spring Boot project",
+                  "Dependency management with Maven or Gradle",
+                  "Defining application properties (e.g., database configuration, logging)",   
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Working with Databases",
+                desc: [
+                  "Integrating Spring Boot with relational databases (e.g., MySQL, PostgreSQL)",
+                  "Using Spring Data JPA for database interactions",
+                  "Implementing CRUD operations with JPA repositories", 
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 3 :- Securing a Spring Boot Application",
+                desc: [
+                  "Implementing authentication and authorization",
+                  "Securing REST APIs with Spring Security",
+                  "Handling CSRF attacks and other security considerations",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 4 :- Building and Packaging Spring Boot Applications",
+                desc: [
+                  "Creating executable JARs or WARs",
+                  "Deploying Spring Boot applications to local and remote servers",
+                  
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 5 :- Developing a Basic Spring Boot Application",
+                desc: [
+                  "Creating and configuring Spring Beans",
+                  "Implementing RESTful APIs with Spring Web",
+                  "Handling HTTP requests and responses",
+                  "Data validation and error handling",
+
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 6 :- Testing Spring Boot Applications",
+                desc: [
+
+                  "Writing unit tests for Spring components (e.g., controllers, services)",
+                  "Using JUnit and Mockito for testing",
+                  "Understanding test best practices and test coverage"
+                 
+
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 7 :- Spring Boot Actuator",
+                desc: [
+
+                  "Monitoring and managing Spring Boot applications using Actuator endpoints",
+                  "Customizing Actuator endpoints and security configurations",
+                 
+
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 8 :- Containerization and Deployment",
+                desc: [
+
+                  "Introduction to Docker and containerization",
+                  "Dockerizing a Spring Boot application",
+                  "Deploying Spring Boot apps to cloud platforms (e.g., AWS, Azure, Google Cloud)",  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 9 :- Containerization and Deployment",
+                desc: [
+
+                  "Setting up CI/CD pipelines with tools like Jenkins or GitLab CI",
+                  "Automating the deployment process",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 10 :- Monitoring and Scaling",
+                desc: [
+
+                  "Utilizing monitoring tools (e.g., Spring Boot Admin, Prometheus, Grafana)",
+                  "Scaling Spring Boot applications in different deployment environments",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 11 :- Troubleshooting and Best Practices",
+                desc: [
+
+                  "Identifying and resolving common issues",
+                  "Adopting best practices for Spring Boot application development and deployment",
+                  
+                ],
+              },
+            }
+          ],
+          id: 4,
           open: false,
         },
       },
