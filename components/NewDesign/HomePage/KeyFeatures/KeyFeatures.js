@@ -19,8 +19,14 @@ import { TbCertificate } from "react-icons/tb";
 import { FiVideo } from "react-icons/fi";
 import { BsCodeSquare } from "react-icons/bs";
 
-const KeyFeatures = ({ dataScience, radio, idss,   titleCourse,
-  brochureLink, dataScienceCounselling, }) => {
+const KeyFeatures = ({
+  dataScience,
+  radio,
+  idss,
+  titleCourse,
+  brochureLink,
+  dataScienceCounselling,
+}) => {
   const [popups, setPopups] = useState(false);
   const [popupsB, setPopupsB] = useState(false);
 
@@ -37,7 +43,7 @@ const KeyFeatures = ({ dataScience, radio, idss,   titleCourse,
   };
   return (
     <>
-          <Popup trigger={popupsB} setTrigger={setPopupsB} className="popupModal">
+      <Popup trigger={popupsB} setTrigger={setPopupsB} className="popupModal">
         <div className="leftPopup">
           <div
             className="whiteP"
@@ -50,6 +56,7 @@ const KeyFeatures = ({ dataScience, radio, idss,   titleCourse,
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
             downloadBrochure
+            upSkillingHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLink}
             radio={radio}
@@ -75,6 +82,7 @@ const KeyFeatures = ({ dataScience, radio, idss,   titleCourse,
               dataScience={dataScience}
               dataScienceCounselling={dataScienceCounselling}
               downloadBrochure
+              upSkillingHide={true}
             />
           </div>
         </Popup>
@@ -230,7 +238,7 @@ const KeyFeatures = ({ dataScience, radio, idss,   titleCourse,
           <div className={styles.imgShowM}></div>
           <button onClick={popupShowD} className={styles.btn}>
             Download Placement Report{" "}
-            <FaDownload style={{ marginLeft: "10px" }} /> 
+            <FaDownload style={{ marginLeft: "10px" }} />
           </button>
         </div>
       </div>

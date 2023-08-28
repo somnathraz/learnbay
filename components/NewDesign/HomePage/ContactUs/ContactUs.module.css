@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   padding: 50px 100px;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 45% 55%;
   align-items: center;
 }
 
@@ -69,7 +69,7 @@ font-weight: 700;
 
 .RightSide {
   background: #fff;
-  padding: 30px 20px 30px 50px;
+  padding: 30px 30px 30px 50px;
   border-radius: 10px;
   border-bottom: 4px solid #f99600;
 }

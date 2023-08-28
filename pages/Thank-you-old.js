@@ -32,9 +32,6 @@ const ThankYou = () => {
           <div className={styles.FormThank}>
             <h4>You're one step closer to speaking with a Career Counsellor</h4>
             <Form
-              formThank={true}
-              workExperience={true}
-              jobDescription={true}
               dataScienceCounselling={true}
             />
           </div>

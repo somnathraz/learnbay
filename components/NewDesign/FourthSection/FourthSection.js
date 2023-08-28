@@ -79,6 +79,7 @@ function SyllabusNew({
           <Form
             dataScience={dataScience}
             downloadBrochure
+            upSkillingHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLink}
           />

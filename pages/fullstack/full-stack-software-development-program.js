@@ -163,6 +163,7 @@ function blockchain() {
           careerH1="Career Service"
           careerSpan=" Basic"
           dataScience={true}
+          dataScienceCounselling={true}
           software={true}
           titleCourse="Software Development Master Program with Domain Specialization"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"

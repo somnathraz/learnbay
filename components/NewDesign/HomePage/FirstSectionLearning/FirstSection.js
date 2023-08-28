@@ -31,7 +31,7 @@ const FirstSection = ({ dataScience, dataScienceCounselling }) => {
         <div className={styles.FirstLeft}></div>
         <div className={styles.secondLeft}>
           <h4>Fill this form to get free learning resources</h4>
-          <Form learning jobDescription={true} workExperience={true} />
+          <Form learning upSkillingHide={true} />
         </div>
       </div>
       <div className={styles.second}>

@@ -38,6 +38,7 @@ function learning() {
         third="Technology"
         popup={true}
         dataScienceCounselling={true}
+        upSkillingHide={true}
         radio={true}
       />{" "}
       <OfferPopup offer={false} />
