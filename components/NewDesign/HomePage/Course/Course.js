@@ -167,16 +167,35 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              className={styles.courseImg}
-                              alt="data science course"
-                            />
-                          </a>
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
@@ -282,16 +301,35 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              className={styles.courseImg}
-                              alt="data science course"
-                            />
-                          </a>
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
@@ -415,16 +453,35 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              className={styles.courseImg}
-                              alt="data science course"
-                            />
-                          </a>
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
@@ -548,16 +605,35 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              className={styles.courseImg}
-                              alt="data science course"
-                            />
-                          </a>
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
@@ -681,7 +757,14 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1} className={styles.imgWrap}>
+                        {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
                             <Image
                               src={img}
                               layout="intrinsic"
@@ -691,6 +774,18 @@ const Course = ({
                               className={styles.courseImg}
                             />
                           </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                            <Image
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
@@ -802,16 +897,35 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              className={styles.courseImg}
-                              alt="data science course"
-                            />
-                          </a>
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
@@ -935,16 +1049,35 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              className={styles.courseImg}
-                              alt="data science course"
-                            />
-                          </a>
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
@@ -1050,16 +1183,35 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              className={styles.courseImg}
-                              alt="data science course"
-                            />
-                          </a>
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                className={styles.courseImg}
+                                alt="data science course"
+                              />
+                            </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <h6 className={styles.mainHead}>{title}</h6>
@@ -1173,16 +1325,35 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1} className={styles.imgWrap}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
@@ -1294,7 +1465,14 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1} className={styles.imgWrap}>
+                        {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
                             <Image
                               src={img}
                               layout="intrinsic"
@@ -1304,6 +1482,18 @@ const Course = ({
                               className={styles.courseImg}
                             />
                           </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                            <Image
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
@@ -1421,7 +1611,14 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1} className={styles.imgWrap}>
+                        {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
                             <Image
                               src={img}
                               layout="intrinsic"
@@ -1431,6 +1628,18 @@ const Course = ({
                               className={styles.courseImg}
                             />
                           </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                            <Image
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
@@ -1542,7 +1751,14 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1} className={styles.imgWrap}>
+                        {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
                             <Image
                               src={img}
                               layout="intrinsic"
@@ -1552,6 +1768,18 @@ const Course = ({
                               className={styles.courseImg}
                             />
                           </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                            <Image
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
@@ -1669,7 +1897,14 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1} className={styles.imgWrap}>
+                        {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
                             <Image
                               src={img}
                               layout="intrinsic"
@@ -1679,6 +1914,18 @@ const Course = ({
                               className={styles.courseImg}
                             />
                           </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                            <Image
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
@@ -1796,7 +2043,14 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1} className={styles.imgWrap}>
+                        {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
                             <Image
                               src={img}
                               layout="intrinsic"
@@ -1806,6 +2060,18 @@ const Course = ({
                               className={styles.courseImg}
                             />
                           </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                            <Image
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
@@ -1917,7 +2183,14 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1} className={styles.imgWrap}>
+                        {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
                             <Image
                               src={img}
                               layout="intrinsic"
@@ -1927,6 +2200,18 @@ const Course = ({
                               className={styles.courseImg}
                             />
                           </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                            <Image
+                              src={img}
+                              layout="intrinsic"
+                              width="423px"
+                              height="252px"
+                              alt="data science course"
+                              className={styles.courseImg}
+                            />
+                          </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
@@ -1956,17 +2241,6 @@ const Course = ({
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            {/* <a href={link2} target="_blank">
-                              <button
-                                className="outLineBtn"
-                              >
-                                Brochure
-                                <FaDownload
-                                  className="bIcon"
-                                  style={{ color: "#2979AD" }}
-                                />
-                              </button>
-                            </a> */}
                             <a
                               onClick={() => {
                                 setTitleCourse(titleCourse);
@@ -2044,16 +2318,35 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                          <a href={link1} className={styles.imgWrap}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
@@ -2083,17 +2376,6 @@ const Course = ({
                             <hr className={styles.hr1} />
                           </div>
                           <div className={styles.btnWrapper}>
-                            {/* <a href={link2} target="_blank">
-                              <button
-                                className="outLineBtn"
-                              >
-                                Brochure
-                                <FaDownload
-                                  className="bIcon"
-                                  style={{ color: "#2979AD" }}
-                                />
-                              </button>
-                            </a> */}
                             <a
                               onClick={() => {
                                 setTitleCourse(titleCourse);

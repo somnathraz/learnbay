@@ -4,7 +4,7 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 import { MdCall } from "react-icons/md";
 import Image from "next/image";
 
-function SeventhSection({ fullStackCont }) {
+function SeventhSection({ fullStackCont, whatsappShow }) {
   return (
     <>
       <div className={styles.Section2}>
@@ -37,15 +37,18 @@ function SeventhSection({ fullStackCont }) {
                 </div>
               ) : (
                 <div className={styles.btnWrap}>
-                  {/* <a
-                    href="https://api.whatsapp.com/send?phone=917349222263&text=Hello,"
-                    target="_blank"
-                  >
-                    <button className={styles.btn1}>
-                      <AiOutlineWhatsApp /> Enquire Now
-                    </button>
-                  </a> */}
-
+                  {whatsappShow ? (
+                    <a
+                      href="https://api.whatsapp.com/send?phone=917349222263&text=Hello,"
+                      target="_blank"
+                    >
+                      <button className={styles.btn1}>
+                        <AiOutlineWhatsApp /> Enquire Now
+                      </button>
+                    </a>
+                  ) : (
+                    ""
+                  )}
                   <a href="tel: +917795687988">
                     <button className={styles.btn2}>
                       <MdCall /> +91 77956 87988

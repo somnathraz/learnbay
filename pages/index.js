@@ -68,11 +68,11 @@ export default function Home() {
       />
       <Testimonial />
       <ContactUs popup={true} dataScienceCounselling={true} radio={true} />
-      <SeventhSection />
+      <SeventhSection whatsappShow={true} />
       <OfferPopup offer={false} />
-      <BottomBar />
+      <BottomBar whatsappShow={true} />
       <Footer />
-      <WhatsappFloat/>
+      <WhatsappFloat chat360code1={true} />
     </div>
   );
 }

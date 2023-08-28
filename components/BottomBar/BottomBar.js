@@ -5,7 +5,7 @@ import Link from "next/dist/client/link";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 
-const BottomBar = ({ changeBottom }) => {
+const BottomBar = ({ whatsappShow }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -28,10 +28,14 @@ const BottomBar = ({ changeBottom }) => {
           Apply For Couselling
           <FaArrowRight className="bIcon" />
         </div>
-        {/* <div className="flDivRight">
-          <Link href="https://wa.me/+917349222263">Chat with us</Link>
-          <IoLogoWhatsapp className="bIcon" style={{ color: "Green" }} />
-        </div> */}
+        {whatsappShow ? (
+          <div className="flDivRight">
+            <Link href="https://wa.me/+917349222263">Chat with us</Link>
+            <IoLogoWhatsapp className="bIcon" style={{ color: "Green" }} />
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
