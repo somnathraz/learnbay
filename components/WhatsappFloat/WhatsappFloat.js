@@ -115,7 +115,7 @@ function WhatsappFloat({ chat360code1 }) {
                 console.error(err);
               };
               document.body.appendChild(s);
-            })("4f4d2e98-0778-4fb7-a9c3-af6fd1bedad8");
+            })("25650848-8eaa-4160-ad08-5f3a3b1ffaa2");
       `,
           }}
         />
