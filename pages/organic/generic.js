@@ -61,14 +61,19 @@ export default function Home() {
           <BoxShape />
         </div>
       </div>
-      <Course popup={true} dataScienceGeneric={true} radio={true} organicADS={true} />
+      <Course
+        popup={true}
+        dataScienceGeneric={true}
+        radio={true}
+        organicADS={true}
+      />
       <Switch organicADS={true} />
       <Testimonial />
       <ContactUs popup={true} dataScienceGeneric={true} radio={true} />
-      <SeventhSection />
-      <BottomBar />
+      <SeventhSection whatsappShow={true} />
+      <BottomBar whatsappShow={true} />
       <Footer organicADSS={true} />
-      <WhatsappFloat />
+      <WhatsappFloat chat360code1={true} />
     </div>
   );
 }
