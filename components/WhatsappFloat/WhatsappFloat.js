@@ -4,9 +4,9 @@ function WhatsappFloat({ chat360code1 }) {
   return (
     <>
       {chat360code1 ? (
-                    <script
-              dangerouslySetInnerHTML={{
-                __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
                 var s = document.createElement('script');
                 s.type = 'text/javascript';
                 s.async = true;
@@ -41,27 +41,27 @@ function WhatsappFloat({ chat360code1 }) {
                 };
                 var x = document.getElementsByTagName('script')[0];
                 x.parentNode.insertBefore(s, x);`,
-              }}
-            />
-    //     <script
-    //       dangerouslySetInnerHTML={{
-    //         __html: `(function (botId) {
-    //   var s = document.createElement("script");
-    //   s.async = true;
-    //   s.type = 'text/javascript';
-    //   s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
-    //   s.onload = function () {
-    //     window.loadChat360Bot(botId);
-    //   };
-    //   s.onerror = function (err) {
-    //     console.error(err);
-    //   };
-    //   document.body.appendChild(s);
-    // })("fceb50ba-694f-47b1-b0b4-a87dba257192");
-    //   `,
-    //       }}
-    //     />
+          }}
+        />
       ) : (
+        //     <script
+        //       dangerouslySetInnerHTML={{
+        //         __html: `(function (botId) {
+        //   var s = document.createElement("script");
+        //   s.async = true;
+        //   s.type = 'text/javascript';
+        //   s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+        //   s.onload = function () {
+        //     window.loadChat360Bot(botId);
+        //   };
+        //   s.onerror = function (err) {
+        //     console.error(err);
+        //   };
+        //   document.body.appendChild(s);
+        // })("fceb50ba-694f-47b1-b0b4-a87dba257192");
+        //   `,
+        //       }}
+        //     />
         //     <script
         //       dangerouslySetInnerHTML={{
         //         __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -115,7 +115,7 @@ function WhatsappFloat({ chat360code1 }) {
                 console.error(err);
               };
               document.body.appendChild(s);
-            })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+            })("4f4d2e98-0778-4fb7-a9c3-af6fd1bedad8");
       `,
           }}
         />
