@@ -14,8 +14,6 @@ const Form = ({
   dataScience,
   fullStack,
   google,
-  workExperience,
-  jobDescription,
   formThank,
   referrals,
   syllabus,
@@ -24,6 +22,7 @@ const Form = ({
   brochureLink,
   dataScienceCounselling,
   dataScienceGeneric,
+  upSkillingHide,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -32,14 +31,16 @@ const Form = ({
 
   //offset to maintain time zone difference
   const [disable, setDisable] = useState(false);
-  const [startDate, setStartDate] = useState();
   const [value, setValue] = useState();
+  const [error, setError] = useState();
   const [alertMSG, setAlertMSG] = useState("");
   const [toggle, setToggle] = useState(true);
   const [query, setQuery] = useState({
     name: "",
     email: "",
     phone: "",
+    upskillPlanning: "",
+    upskillingObjective: "",
     workExperience: "",
     Brief: "",
     dateTime: "",
@@ -49,7 +50,7 @@ const Form = ({
     url: router.asPath,
   });
   useEffect(() => {
-    setQuery({ ...query, phone: value, dateTime: startDate });
+    setQuery({ ...query, phone: value, });
   }, [value]);
 
   // Update inputs value
@@ -103,6 +104,98 @@ const Form = ({
   // Form Submit function
   const formSubmit = (e) => {
     e.preventDefault();
+    if (
+      query.upskillingObjective === "Tell us about your upskilling objective?"
+    ) {
+      setError(true);
+    } else if (
+      query.upskillPlanning === "How soon are you planning to upskill?"
+    ) {
+      setError(true);
+    } else if (query.upskillPlanning === "Select an option") {
+      setError(true);
+    } else if (query.upskillingObjective === "Select an option") {
+      setError(true);
+    } else if (query.upskillPlanning === "") {
+      setError(true);
+    } else if (query.upskillingObjective === "") {
+      setError(true);
+    } else {
+      setError(false);
+      const formData = new FormData();
+      Object.entries(query).forEach(([key, value]) => {
+        formData.append(key, value);
+      });
+      fetch(`${endPoint}`, {
+        method: "POST",
+        body: formData,
+      }).then(
+        () => setAlertMSG(""),
+        setQuery({
+          name: "",
+          email: "",
+          phone: "",
+          upskillPlanning: "",
+          upskillingObjective: "",
+          jobDescription: "",
+          workExperience: "",
+          dateTime: "",
+          WAdropdown: "",
+          currentOrganization: "",
+          currentDesignation: "",
+          url: router.asPath,
+        })
+      );
+      if (popup) {
+        const off = () => {
+          setTrigger(false);
+        };
+        off();
+      }
+      if (router.pathname === "/learning-learnbay") {
+        router.push("/learning-learnbay-select");
+      }
+      if (router.pathname === "/learning-learnbay-select") {
+        router.push("/Thank-you-counselling");
+      }
+      if (router.pathname === "resume-builder") {
+        router.push("Thank-you-counselling");
+      }
+      if (fullStack) {
+        router.push("/Thank-you-fsd");
+      }
+      if (event) {
+        router.push("/event/Thank-You-event");
+      }
+      if (dataScience) {
+        router.push("/Thank-you", {
+          pathname: "/Thank-you",
+          query: { titleCourse: titleCourse, brochureLink: brochureLink },
+        });
+      }
+      if (dataScienceGeneric) {
+        redirection();
+      }
+      if (dataScienceCounselling) {
+        router.push("/Thank-you-counselling");
+      }
+      if (router.pathname === "/organic" || router.pathname === "/referrals") {
+        setToggle(false);
+        setAlertMSG("Form Submitted successfully");
+        setDisable(false);
+        setValue("");
+      }
+      if (router.pathname === "/Thank-you") {
+        setToggle(false);
+        setAlertMSG("Form Submitted successfully");
+        setDisable(false);
+        setValue("");
+      }
+    }
+  };
+
+  const formSubmitDownload = (e) => {
+    e.preventDefault();
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
       formData.append(key, value);
@@ -131,9 +224,6 @@ const Form = ({
       };
       off();
     }
-    // if (dataScience) {
-    //   router.push("/Thank-you");
-    // }
     if (router.pathname === "/learning-learnbay") {
       router.push("/learning-learnbay-select");
     }
@@ -174,20 +264,10 @@ const Form = ({
       setValue("");
     }
   };
-  const isWeekday = (date) => {
-    const day = getDay(date);
-    return day !== 0;
-  };
-  const filterPassedTime = (time) => {
-    const currentDate = new Date();
-    const selectedDate = new Date(time);
-
-    return currentDate.getTime() < selectedDate.getTime();
-  };
 
   return (
     <div className={styles.App}>
-      <form onSubmit={formSubmit}>
+      <form onSubmit={upSkillingHide ? formSubmitDownload : formSubmit}>
         <div className={styles.formWrapper}>
           <input
             type="text"
@@ -240,37 +320,62 @@ const Form = ({
             required
           />
         </div>
-        {jobDescription ? (
-          ""
-        ) : (
-          <div className={styles.formWrapper}>
-            <input
-              type="text"
-              name="jobDescription"
-              placeholder="Job Description"
-              className={popup ? styles.EmailInputs : styles.EmailInputs}
-              value={query.jobDescription}
-              onChange={handleParam()}
-            />
-          </div>
-        )}
-
-        {workExperience ? (
+        {upSkillingHide ? (
           ""
         ) : (
           <div className={popup ? styles.formWrappers : styles.formWrappers}>
             <select
-              name="workExperience"
+              name="upskillPlanning"
               required
-              value={query.workExperience}
+              value={query.upskillPlanning}
               onChange={handleParam()}
             >
-              <option value="Work Experience">Work Experience</option>
-              <option value="Fresher or 0 year">Fresher or 0 year</option>
-              <option value="1 to 3 year">1 to 3 year</option>
-              <option value="3 to 7 year">3 to 7 year</option>
-              <option value="7 to 12 year">7 to 12 year</option>
-              <option value="12+ year">12+ year</option>
+              <option
+                value="How soon are you planning to upskill?"
+                selected
+                hidden
+              >
+                How soon are you planning to upskill?
+              </option>
+              <option value="Select an option" disabled>
+                Select an option
+              </option>
+              <option value="Immediately">Immediately</option>
+              <option
+                value="Within 1 to 2 weeks
+"
+              >
+                Within 1 to 2 weeks
+              </option>
+              <option value="Within a Month ">Within a Month</option>
+              <option value="Not yet decided">Not yet decided</option>
+            </select>
+          </div>
+        )}
+
+        {upSkillingHide ? (
+          ""
+        ) : (
+          <div className={popup ? styles.formWrappers : styles.formWrappers}>
+            <select
+              name="upskillingObjective"
+              required
+              value={query.upskillingObjective}
+              onChange={handleParam()}
+            >
+              <option
+                value="Tell us about your upskilling objective?"
+                selected
+                hidden
+              >
+                Tell us about your upskilling objective?
+              </option>
+              <option value="Select an option" disabled>
+                Select an option
+              </option>
+              <option value="Upskilling">Upskilling</option>
+              <option value="Salary hike">Salary hike</option>
+              <option value="Career switch">Career switch</option>
             </select>
           </div>
         )}
@@ -323,34 +428,6 @@ const Form = ({
         ) : (
           ""
         )}
-
-        {/* <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <div className={styles.inner}>
-              <DatePicker
-                selected={startDate}
-                name="dateTime"
-                id="dateTime"
-                onChange={(date) => setStartDate(date)}
-                showTimeSelect
-                timeIntervals={15}
-                includeDateIntervals={[
-                  {
-                    start: subDays(new Date(), 1),
-                    end: addDays(new Date(), 5),
-                  },
-                ]}
-                filterDate={isWeekday}
-                filterTime={filterPassedTime}
-                wrapperClassName={styles.date}
-                className={styles.datePicker}
-                placeholderText="Select Date and Time"
-                dateFormat="MMMM d, yyyy h:mm aa"
-                required
-                minTime={setHours(setMinutes(new Date(), 0), 10)}
-                maxTime={setHours(setMinutes(new Date(), 0), 22)}
-              />
-            </div>
-          </div> */}
         {radio ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <input
@@ -376,61 +453,19 @@ const Form = ({
         ) : (
           ""
         )}
-
-        {/* Form Thank You */}
-        {formThank ? (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <select
-              name="workExperience"
-              required
-              value={query.workExperience}
-              onChange={handleParam()}
-            >
-              <option value="Work Experience">Work Experience</option>
-              <option value="Less then 1 Year">Less Then 1 Year</option>
-              <option value="1 to 3 year">1 to 3 Year</option>
-              <option value="3 to 8 year">3 to 8 Year</option>
-              <option value="7 to 12 year">8+ Years</option>
-            </select>
-          </div>
+        {error ? (
+          <p
+            style={{
+              margin: "0px 0px 5px 0px",
+              color: "#0072bc",
+              fontSize: "18px",
+            }}
+          >
+            Please select a valid option
+          </p>
         ) : (
           ""
         )}
-
-        {formThank ? (
-          <div className={styles.formWrapper}>
-            <input
-              type="text"
-              name="currentOrganization"
-              className={popup ? styles.NameInputs : styles.NameInput}
-              required
-              placeholder="Your Current Organization"
-              value={query.currentOrganization}
-              style={{ borderBottom: "1px solid grey" }}
-              onChange={handleParam()}
-            />
-          </div>
-        ) : (
-          ""
-        )}
-
-        {formThank ? (
-          <div className={styles.formWrapper}>
-            <input
-              type="text"
-              name="currentDesignation"
-              className={popup ? styles.NameInputs : styles.NameInput}
-              required
-              placeholder="Your Current Designation"
-              value={query.currentDesignation}
-              style={{ borderBottom: "1px solid grey" }}
-              onChange={handleParam()}
-            />
-          </div>
-        ) : (
-          ""
-        )}
-
         <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
         {syllabus ? (
           <div className={styles.bottomWrap}>

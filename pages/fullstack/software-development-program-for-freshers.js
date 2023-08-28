@@ -56,7 +56,7 @@ function blockchain() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            <Form popup={true} setTrigger={setPopups} fullStack={true} />
+            <Form popup={true} setTrigger={setPopups} fullStack={true} dataScience={true}/>
           </div>
         </Popup>
         <FirstSection

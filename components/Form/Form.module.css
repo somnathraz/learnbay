@@ -9,24 +9,35 @@
   margin-bottom: 10px;
   width: 80%;
   height: 100%;
-  margin-bottom: 20px;
+  text-align: left;
 }
+
+.alert {
+  margin: 0;
+  color: #2C9CD7 !important;
+  font-size: 18px !important;
+}
+
+/* .formWrapper input {
+  appearance: none;
+} */
 .formWrappers {
   margin-bottom: 10px;
-  width: 80%;
+  width: 81%;
   height: 100%;
   margin-bottom: 10px;
   text-align: left;
 }
 .NameInput {
-  border-radius: 2px;
-  border: 0;
-  width: 100%;
-  border-bottom: 1px solid grey;
-  /* border-bottom: 1px solid grey; */
-  outline: none;
-  background-color: rgba(255, 255, 255);
   height: 50px;
+  width: 100%;
+  border-radius: 8px;
+  border: 0;
+  border: 1px solid grey;
+  font-size: 16px;
+  padding-left: 10px;
+  color: rgb(167, 167, 167);
+  outline: none;
 }
 .NameInputs {
   border-radius: 8px;
@@ -38,13 +49,15 @@
   height: 50px;
 }
 .EmailInput {
-  border-radius: 2px;
-  border: 0;
-  width: 100%;
-  border-bottom: 1px solid grey;
-  outline: none;
-  background-color: rgba(255, 255, 255);
   height: 50px;
+  width: 100%;
+  border-radius: 8px;
+  border: 0;
+  border: 1px solid grey;
+  font-size: 16px;
+  padding-left: 10px;
+  color: rgb(167, 167, 167);
+  outline: none;
 }
 .EmailInputs {
   border-radius: 8px;
@@ -81,13 +94,27 @@
   color: rgb(167, 167, 167);
   font-size: 16px;
 }
-
+.PhoneInputCountry .PhoneInputInput {
+  border: none !important;
+}
+.formWrapperOtp {
+  margin-bottom: 10px;
+  width: 80%;
+  height: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  gap: 10px;
+}
+.formWrapperOtp button {
+  padding: 15px;
+}
 .formWrapper select {
   height: 50px;
   width: 100%;
-  border-radius: 2px;
+  border-radius: 8px;
   border: 0;
-  border-bottom: 1px solid grey;
+  border: 1px solid grey;
   font-size: 16px;
   padding-left: 10px;
   color: rgb(167, 167, 167);
@@ -115,7 +142,7 @@
   border-radius: 8px;
 
   border: 1px solid grey;
-  font-size: 16px;
+  font-size: 14px;
   padding: 10px;
   color: rgb(167, 167, 167);
   outline: none;
@@ -142,7 +169,7 @@
 .date::-webkit-search-cancel-button,
 .date::-webkit-clear-button {
   -webkit-appearance: none;
-  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/date.png");
+  background-image: url("/date.png");
   color: #0d4a9b;
   cursor: pointer;
   height: 1.5rem;
@@ -153,7 +180,7 @@
 .date::-webkit-calendar-picker-indicator {
   color: #0d4a9b;
   opacity: 1;
-  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/date.png");
+  background-image: url("/date.png");
   width: 23px;
   height: 18px;
   cursor: pointer;
@@ -171,7 +198,7 @@
 .tme::-webkit-search-cancel-button,
 .time::-webkit-clear-button {
   -webkit-appearance: none;
-  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/time.png");
+  background-image: url("/time.png");
   color: #0d4a9b;
   cursor: pointer;
   height: 1.5rem;
@@ -182,7 +209,7 @@
 .time::-webkit-time-picker-indicator {
   color: #0d4a9b;
   opacity: 1;
-  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/time.png");
+  background-image: url("/time.png");
   width: 23px;
   height: 18px;
   cursor: pointer;
@@ -193,10 +220,9 @@
   width: 80%;
   padding: 10px 25px;
   display: flex;
-  margin-top: 20px;
-  align-items: center;
+  margin: auto;
   justify-content: center;
-  font-size: 18px;
+  cursor: pointer;
 }
 .App form {
   display: flex;
@@ -213,6 +239,49 @@
   display: flex;
   flex-flow: column;
 }
+
+.ldsring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.ldsring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #0d4a9b;
+  border-radius: 50%;
+  animation: ldsring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #0d4a9b transparent transparent transparent;
+}
+.ldsring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.ldsring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.ldsring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes ldsring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.ring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  width: 100%;
+}
 .inner {
   display: grid;
   margin-top: 10px;
@@ -228,31 +297,16 @@
   color: rgb(167, 167, 167);
   font-size: 16px;
 }
+.formWrapper .date input {
+  border: 0;
+  border-bottom: 1px solid grey;
+  border-radius: 0px;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  color: rgb(167, 167, 167);
+  font-size: 16px;
+}
 .date input:focus-visible {
   outline: 1px solid #0487d9;
 }
-
-.alert {
-  margin: 0;
-  color: #2C9CD7 !important;
-  font-size: 18px !important;
-}
-.bottomWrap {
-  padding-bottom: 70px;
-  background-color: #ffeed4;
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-}
-.bottomWrap .FormText {
-  margin-top: 20px;
-  width: 80%;
-}
-
-@media (min-width: 961px) and (max-width: 1281px){
-  .App button{
-   font-size: 11px;
- }
- }

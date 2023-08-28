@@ -86,6 +86,7 @@ const HeroSection = ({
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
             downloadBrochure
+            upSkillingHide={true}
           />
         </div>
       </PopupD>
