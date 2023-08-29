@@ -213,7 +213,7 @@ function blockchain() {
           SoftwareText={true}
           project="10+ Projects"
           tools="16+"
-          Freshers={true}
+          Fullstack={true}
           dataScience={true}
           titleCourse="Software Development Project Brochure"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"

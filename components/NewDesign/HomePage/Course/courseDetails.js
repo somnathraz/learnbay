@@ -165,7 +165,7 @@ export const viewAllD = [
     id: 9,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SDE-masters.png",
     title: "Software Development ",
-    courseTime: "9-11 months",
+    courseTime: "11 months",
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
     tag: "Full stack",
@@ -173,9 +173,9 @@ export const viewAllD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
     para: [
-      "400+ hours content",
+      "Duration",
       "12 Case Studies",
-      "Course Fee : ₹ 1,10,000 | No cost EMI",
+      "Course Fee : ₹ 1,15,000 | No cost EMI",
     ],
     link1: "/full-stack-software-development-program",
     link2:
@@ -266,7 +266,7 @@ export const viewAllD = [
     id: 14,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/freshers-card.webp",
     title: "Software Development Program ",
-    courseTime: "8-10 months",
+    courseTime: "9 months",
     title1: "For Freshers",
     tagHead: "Be a Product Design Pro",
     tag: "Full stack",
@@ -274,9 +274,9 @@ export const viewAllD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+Program+for+Freshers.pdf",
     titleCourse: "Software Development Program For Freshers",
     para: [
-      "300+ hours content",
+      "Duration",
       "12 Case Studies",
-      "Course Fee : ₹ 60,000 | No cost EMI",
+      "Course Fee : ₹ 70,000 | No cost EMI",
     ],
     link1:
       "/software-development-program-with-specialization-in-cloud-computing-&-devops",
@@ -309,7 +309,7 @@ export const ForProgrammersD = [
     id: 2,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SDE-masters.png",
     title: "Software Development ",
-    courseTime: "9-11 months",
+    courseTime: "11 months",
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
     tag: "Full stack",
@@ -317,9 +317,9 @@ export const ForProgrammersD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
     para: [
-      "400+ hours content",
+      "Duration",
       "12 Case Studies",
-      "Course Fee : ₹ 1,10,000 | No cost EMI",
+      "Course Fee : ₹ 1,15,000 | No cost EMI",
     ],
     link1: "/full-stack-software-development-program",
     link2:
@@ -655,7 +655,7 @@ export const JobGuaranteeD = [
     id: 2,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SDE-masters.png",
     title: "Software Development ",
-    courseTime: "9-11 months",
+    courseTime: "11 months",
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
     tag: "Full stack",
@@ -663,9 +663,9 @@ export const JobGuaranteeD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
     para: [
-      "400+ hours content",
+      "Duration",
       "12 Case Studies",
-      "Course Fee : ₹ 1,10,000 | No cost EMI",
+      "Course Fee : ₹ 1,15,000 | No cost EMI",
     ],
     link1: "/full-stack-software-development-program",
     link2:
@@ -696,7 +696,7 @@ export const StackD = [
   {
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SDE-masters.png",
     title: "Software Development ",
-    courseTime: "9-11 months",
+    courseTime: "11 months",
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
     tag: "Full stack",
@@ -704,9 +704,9 @@ export const StackD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
     para: [
-      "400+ hours content",
+      "Duration",
       "12 Case Studies",
-      "Course Fee : ₹ 1,10,000 | No cost EMI",
+      "Course Fee : ₹ 1,15,000 | No cost EMI",
     ],
     link1: "/full-stack-software-development-program",
     link2:
@@ -737,7 +737,7 @@ export const StackD = [
     id: 4,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/freshers-card.webp",
     title: "Software Development Program ",
-    courseTime: "8-10 months",
+    courseTime: "9 months",
     title1: "For Freshers",
     tagHead: "Be a Product Design Pro",
     tag: "Full stack",
@@ -745,9 +745,9 @@ export const StackD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+Program+for+Freshers.pdf",
     titleCourse: "Software Development Program For Freshers",
     para: [
-      "300+ hours content",
+      "Duration",
       "12 Case Studies",
-      "Course Fee : ₹ 60,000 | No cost EMI",
+      "Course Fee : ₹ 70,000 | No cost EMI",
     ],
     link1:
       "/software-development-program-with-specialization-in-cloud-computing-&-devops",

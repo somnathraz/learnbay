@@ -58,7 +58,7 @@ export const FresherFullStackSoftwareCourseData = [
     syllabus: [
       {
         Module0: {
-          title: "Term 1 :- Programming Fundamentals",
+          title: "Term 1 :- Pre-course Work",
           content: [
             {
               chap: {
@@ -141,7 +141,7 @@ export const FresherFullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Term 2 :- Basic DSA",
+          title: "Term 2 :- DSA",
           content: [
             {
               chap: {
@@ -311,86 +311,287 @@ export const FresherFullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Term 3 :- MERN",
+          title: "Term 3 :- System Design",
           content: [
             {
               chap: {
-                title: "Basics of Frontend development with HTML and CSS",
+                title: "Module 1 :- Introduction to System Design",
                 desc: [
-                  "Understand the basics of Full-Stack Development",
-                  " Learn the fundamentals of HTML, including tags, document structure, content and container tags, attributes, and the DOM tree",
-                  "Understand the different types of CSS selectors and how they work",
-                  "Learn about the box model, display property, form element and its attributes, and flexboxes and grids",
-                  "Understand the basics of RWD, animation, and web accessibility",
-                  "Gain an understanding of HTML events and how to use them",
-                  "Learn about Bootstrap and its components and utilities, including Jumbotron, Button, Grid, Table, Form, Alert, Wells, Badge and label, Panels, Pagination, Pager, Image, Glyphicon, Carousel, Progress Bar, List Group, Tabs/Pill, Navbar, Input Types, Modals, Popover, and Scrollspy.",
+                  "What is System Design?",
+                  "Goals of System Design",
+                  "Components of a System Design",
+                  "System Design Process",
+                  "Importance of System Design",
+                  "Types of Systems",
+                  "Architecture of a System",
                 ],
               },
             },
             {
               chap: {
-                title: "Web programming with Javascript",
+                title: "Module 2 :- Design Principles",
                 desc: [
-                  "Understanding the basics of JavaScript, including variables, constants, and primitive types.",
-                  "Understanding the control flow of JavaScript, including if/else statements, switch/case statements, loops, and break/continue statements.",
-                  "Understanding the basics of objects, arrays, and functions in JavaScript.",
-                  "Understanding advanced techniques related to arrays, such as sorting, filtering, and mapping.",
-                  "Understanding the basics of OOP, including factories and constructor functions, value and reference types, and private properties and methods.",
-                  "Understanding prototypes, prototype inheritance, and multilevel inheritance in JavaScript.",
-                  "Understanding DOM manipulation, including the DOM model, DOM selectors, and style manipulation.",
-                  "Understanding operators and ES6, including classes, static methods, closures, and inheritance.",
-                  "Understanding asynchronous JavaScript, including JSON, promises, and fetch.",
+                  "SOLID Principles",
+                  "KISS Principle",
+                  "DRY Principle",
+                  "YAGNI Principle",
+                  "Separation of Concerns",
+                  "Law of Demeter",
                 ],
               },
             },
             {
               chap: {
-                title: "React",
+                title: "Module 3 :- Design Patterns",
                 desc: [
-                  "Understand the basics of React, including JSX, components, props, and state",
-                  "Learn how to work with events and forms in React",
-                  "Understand how to render conditional content in React",
-                  "Learn how to work with APIs in React and handle requests",
-                  "Understand advanced React concepts, such as Context API and creating custom hooks",
-                  "Learn how to use Redux to manage state in React",
-                  "Understand core Redux concepts, such as actions, reducers, and store",
-                  "Learn how to connect React to Redux with React Redux",
-                  "Understand how to refactor code using Redux Toolkit",
-                  "Learn how to handle async actions with middleware and thunks in Redux.",
+                  "Creational Patterns",
+                  "Structural Patterns",
+                  "Behavioral Patterns",
+                  "Singleton Pattern",
+                  "Factory Pattern",
+                  "Adapter Pattern",
+                  "Observer Pattern",
+                  "Command Pattern",
                 ],
               },
             },
             {
               chap: {
-                title: "NodeJS with Express and MongoDB",
+                title: "Module 4 :- Low-Level Design (LLD)",
                 desc: [
-                  "Understanding the basics of JavaScript, including variables, constants, and primitive types.",
-                  "Understanding the control flow of JavaScript, including if/else statements, switch/case statements, loops, and break/continue statements.",
-                  "Understanding the basics of objects, arrays, and functions in JavaScript.",
-                  "Understanding advanced techniques related to arrays, such as sorting, filtering, and mapping.",
-                  "Understanding the basics of OOP, including factories and constructor functions, value and reference types, and private properties and methods.",
-                  "Understanding prototypes, prototype inheritance, and multilevel inheritance in JavaScript.",
-                  "Understanding DOM manipulation, including the DOM model, DOM selectors, and style manipulation.",
-                  "Understanding operators and ES6, including classes, static methods, closures, and inheritance.",
-                  "Understanding asynchronous JavaScript, including JSON, promises, and fetch.",
+                  "Understanding the Purpose and Scope of LLD",
+                  "LLD Design Process",
+                  "Types of LLD",
+                  "Creating a Low-Level Design Document",
+                ],
+              },
+            },
+           
+            {
+              chap: {
+                title: "Module 5 :- Scalability and Performance",
+                desc: [
+                  "Scalability",
+                  "Performance",
+                  "Load Balancing",
+                  "Caching",
+                  "Database Scaling",
                 ],
               },
             },
             {
               chap: {
-                title: "Deployment and Hosting with GIT",
+                title: "Module 6 :- Security and Reliability",
                 desc: [
-                  "Understand the concept of version control and its benefits",
-                  "Learn about Git and its differences from other VCS",
-                  "Install Git and create local and remote repositories",
-                  "Understand Git commands and workflows",
-                  "Learn how to work with Git in IDE and real-time open-source projects",
-                  "Understand Git server administration and user management",
+                  "Security",
+                  "Reliability",
+                  "Fault Tolerance",
+                  "Disaster Recovery",
+                  "Backup and Restore",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 7 :- Integration and Deployment",
+                desc: [
+                  "Continuous Integration",
+                  "Continuous Deployment",
+                  "DevOps",
+                  "Microservices",
+                  "Containers",
                 ],
               },
             },
           ],
-          id: 1,
+          id: 2,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 4 :- Specialization",
+          content: [
+            {
+              chap: {
+                title: "MERN (Full-Stack Specialization)",
+                desc: [
+                  "Programming Basics, Data Types and Code Flow",
+                  "Project work on HTML5 and CSS3",
+                  "JavaScript",
+                  "Package Managers",
+                  "HTML and CSS3",
+                  "Bootstrap",
+                  "jQuery",
+                  "ReactJS",
+                  "Application Programming Interface",
+                  "Deploying WEB Application using AWS and Azure",
+                  "Final Project Work",
+                  "Node.js and Express.js",
+                  "Database",
+                  "Authentication and Security",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "SPRING (Backend Specialization)",
+                desc: [
+                  "Framework Introduction",
+                  "Spring JDBC / DAO Module",
+                  "Spring AOP Module",
+                  "Spring Core Module",
+                  "Spring ORM Module",
+                  "Spring WEB & WEB MVC Module",
+                  "Spring Security Module",
+                  "Maven",
+                  "Springboot",
+                  "Advance Java (Servlet + JSP)",
+                  "Other Technologies",
+                  
+                 
+                ],
+              },
+            }
+          ],
+          id: 3,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 5 :- Deployment",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Building a Spring Boot Application",
+                desc: [
+                  "Creating a new Spring Boot project",
+                  "Dependency management with Maven or Gradle",
+                  "Defining application properties (e.g., database configuration, logging)",   
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Working with Databases",
+                desc: [
+                  "Integrating Spring Boot with relational databases (e.g., MySQL, PostgreSQL)",
+                  "Using Spring Data JPA for database interactions",
+                  "Implementing CRUD operations with JPA repositories", 
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 3 :- Securing a Spring Boot Application",
+                desc: [
+                  "Implementing authentication and authorization",
+                  "Securing REST APIs with Spring Security",
+                  "Handling CSRF attacks and other security considerations",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 4 :- Building and Packaging Spring Boot Applications",
+                desc: [
+                  "Creating executable JARs or WARs",
+                  "Deploying Spring Boot applications to local and remote servers",
+                  
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 5 :- Developing a Basic Spring Boot Application",
+                desc: [
+                  "Creating and configuring Spring Beans",
+                  "Implementing RESTful APIs with Spring Web",
+                  "Handling HTTP requests and responses",
+                  "Data validation and error handling",
+
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 6 :- Testing Spring Boot Applications",
+                desc: [
+
+                  "Writing unit tests for Spring components (e.g., controllers, services)",
+                  "Using JUnit and Mockito for testing",
+                  "Understanding test best practices and test coverage"
+                 
+
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 7 :- Spring Boot Actuator",
+                desc: [
+
+                  "Monitoring and managing Spring Boot applications using Actuator endpoints",
+                  "Customizing Actuator endpoints and security configurations",
+                 
+
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 8 :- Containerization and Deployment",
+                desc: [
+
+                  "Introduction to Docker and containerization",
+                  "Dockerizing a Spring Boot application",
+                  "Deploying Spring Boot apps to cloud platforms (e.g., AWS, Azure, Google Cloud)",  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 9 :- Containerization and Deployment",
+                desc: [
+
+                  "Setting up CI/CD pipelines with tools like Jenkins or GitLab CI",
+                  "Automating the deployment process",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 10 :- Monitoring and Scaling",
+                desc: [
+
+                  "Utilizing monitoring tools (e.g., Spring Boot Admin, Prometheus, Grafana)",
+                  "Scaling Spring Boot applications in different deployment environments",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 11 :- Troubleshooting and Best Practices",
+                desc: [
+
+                  "Identifying and resolving common issues",
+                  "Adopting best practices for Spring Boot application development and deployment",
+                  
+                ],
+              },
+            }
+          ],
+          id: 4,
           open: false,
         },
       },
