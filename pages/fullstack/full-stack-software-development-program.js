@@ -76,7 +76,7 @@ function blockchain() {
           NoImage={true}
           softwareBtnHide={true}
           FirstTyped="Structured, industry-tailored curriculum"
-          SecondTyped="Domain Specialized Program"
+          SecondTyped=""
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Software Development Master Program with Domain Specialization"
