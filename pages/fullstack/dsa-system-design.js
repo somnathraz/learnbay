@@ -15,12 +15,13 @@ import SeventhSection from "../../components/NewDesign/SeventhSection/SeventhSec
 import DomainSection from "../../components/NewDesign/DomainSection/DomainSection";
 import OfferPopup from "../../components/OfferPopup/OfferPopup";
 import { FullStackSoftwareCourseData } from "../../Data/FullStackSoftware";
-import FAQNew from "../../components/NewDesign/FAQNew/FAQNewcer";
+import FAQNew from "../../components/NewDesign/FAQNew/FAQNew";
 import {
   FaqData9,
   DomainFaqData9,
   PaymentFaqData9,
   CapstoneFaqData9,
+  CertificationFaqData9,
   jobFaqData9,
   MentorshipFaqData9,
   SupportFaqData9,
@@ -248,6 +249,7 @@ export default function Home() {
           DomainFaqDatas={DomainFaqData9}
           PaymentFaqDatas={PaymentFaqData9}
           CapstoneFaqDatas={CapstoneFaqData9}
+          CertificationFaqDatas={CertificationFaqData9}
           jobFaqDatas={jobFaqData9}
           MentorshipFaqDatas={MentorshipFaqData9}
           SupportFaqDatas={SupportFaqData9}
