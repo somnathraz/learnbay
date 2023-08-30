@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../FAQNewCity/FAQNew.module.css";
+import styles from "./FAQNew.module.css";
 import FAQ from "../FAQNew/FAQ";
 
 function FAQNew({ FaqDatas, DomainFaqDatas, SupportFaqDatas, jobFaqDatas, GenericFaqDatas, MentorshipFaqDatas, CriteriaFaqDatas, CapstoneFaqDatas, PaymentFaqDatas }) {
