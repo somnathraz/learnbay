@@ -50,7 +50,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/machine-learning-course-training-in-bangalore"
+          href="https://www.learnbay.co/datascience/bangalore/machine-learning-course-training-in-bangalore"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
         {/* <meta name="HandheldFriendly" content="true" /> */}

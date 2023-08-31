@@ -50,7 +50,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence-ai-course-training-delhi"
+          href="https://www.learnbay.co/datascience/delhi/artificial-intelligence-ai-course-training-delhi"
         />
 
         {/* <meta name="HandheldFriendly" content="true" /> */}

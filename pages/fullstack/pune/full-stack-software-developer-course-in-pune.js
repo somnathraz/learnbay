@@ -53,7 +53,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/full-stack-software-developer-course-in-pune"
+          href="https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune"
         />
         <meta
           name="copyright"

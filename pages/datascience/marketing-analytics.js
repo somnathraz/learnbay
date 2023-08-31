@@ -53,7 +53,7 @@ function Marketing() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/marketing-analytics"
+          href="https://www.learnbay.co/datascience/marketing-analytics"
         />
       </Head>
       <main>

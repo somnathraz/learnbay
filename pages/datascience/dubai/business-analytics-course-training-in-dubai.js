@@ -48,7 +48,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/business-analytics-course-training-in-dubai"
+          href="https://www.learnbay.co/datascience/dubai/business-analytics-course-training-in-dubai"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}

@@ -52,7 +52,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence-ai-course-training-hyderabad"
+          href="https://www.learnbay.co/datascience/hyderabad/artificial-intelligence-ai-course-training-hyderabad"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}

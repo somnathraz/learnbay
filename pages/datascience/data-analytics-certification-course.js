@@ -61,7 +61,7 @@ function dataAnalytics() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-analytics-certification-course"
+          href="https://www.learnbay.co/datascience/data-analytics-certification-course"
         />
       </Head>
       <main>

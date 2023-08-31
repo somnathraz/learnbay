@@ -57,7 +57,7 @@ function blockchain() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/software-development-program-with-specialization-in-cloud-computing-&-devops"
+          href="https://www.learnbay.co/fullstack/software-development-program-with-specialization-in-cloud-computing-&-devops"
         />
       </Head>
       <main>

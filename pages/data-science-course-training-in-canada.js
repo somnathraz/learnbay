@@ -49,7 +49,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-canada"
+          content="https://www.learnbay.co/datascience/canada/data-science-course-training-in-canada"
         />
         <meta
           property="og:title"

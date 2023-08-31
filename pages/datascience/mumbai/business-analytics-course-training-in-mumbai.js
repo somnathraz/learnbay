@@ -49,7 +49,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/business-analytics-course-training-in-mumbai"
+          href="https://www.learnbay.co/datascience/mumbai/business-analytics-course-training-in-mumbai"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}

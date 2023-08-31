@@ -53,7 +53,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/full-stack-software-developer-course-in-hyderabad"
+          href="https://www.learnbay.co/fullstack/hyderabad/full-stack-software-developer-course-in-hyderabad"
         />
 
         <meta

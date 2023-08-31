@@ -61,7 +61,7 @@ function blockchain() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-science-ai-for-managers"
+          href="https://www.learnbay.co/datascience/data-science-ai-for-managers"
         />
       </Head>
       <main>

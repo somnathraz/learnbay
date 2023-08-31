@@ -49,7 +49,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-analytics-course-training-in-canada"
+          href="https://www.learnbay.co/datascience/canada/data-analytics-course-training-in-canada"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}

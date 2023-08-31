@@ -52,7 +52,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/machine-learning-course-training-in-chennai"
+          href="https://www.learnbay.co/datascience/chennai/machine-learning-course-training-in-chennai"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
         {/* <meta name="HandheldFriendly" content="true" /> */}

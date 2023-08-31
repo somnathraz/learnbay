@@ -51,7 +51,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/full-stack-software-developer-course-in-dubai"
+          href="https://www.learnbay.co/fullstack/dubai/full-stack-software-developer-course-in-dubai"
         />
         <meta
           name="copyright"

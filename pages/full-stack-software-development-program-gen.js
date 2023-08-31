@@ -50,7 +50,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/full-stack-software-development-program"
+          href="https://www.learnbay.co/fullstack/full-stack-software-development-program"
         />
         <meta
           name="description"

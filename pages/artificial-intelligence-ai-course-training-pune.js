@@ -50,7 +50,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence-ai-course-training-pune"
+          href="https://www.learnbay.co/datascience/pune/artificial-intelligence-ai-course-training-pune"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
         {/* <meta name="HandheldFriendly" content="true" /> */}

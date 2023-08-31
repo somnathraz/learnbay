@@ -50,7 +50,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/machine-learning-course-training-in-pune"
+          href="https://www.learnbay.co/datascience/pune/machine-learning-course-training-in-pune"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
         {/* <meta name="HandheldFriendly" content="true" /> */}

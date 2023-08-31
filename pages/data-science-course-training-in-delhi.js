@@ -50,7 +50,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-delhi"
+          content="https://www.learnbay.co/datascience/delhi/data-science-course-training-in-delhi"
         />
         <meta
           property="og:title"

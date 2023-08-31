@@ -60,7 +60,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/full-stack-web-development-program"
+          href="https://www.learnbay.co/fullstack/full-stack-web-development-program"
         />
       </Head>
       <main>
