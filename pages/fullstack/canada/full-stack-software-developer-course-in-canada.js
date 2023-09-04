@@ -51,7 +51,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/full-stack-software-developer-course-in-canada"
+          href="https://www.learnbay.co/fullstack/canada/full-stack-software-developer-course-in-canada"
         />
         <meta
           name="copyright"

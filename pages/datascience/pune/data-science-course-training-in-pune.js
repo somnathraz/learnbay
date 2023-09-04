@@ -53,7 +53,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-science-course-training-in-pune"
+          href="https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}

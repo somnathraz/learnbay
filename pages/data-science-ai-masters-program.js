@@ -57,7 +57,7 @@ function blockchain() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-science-ai-masters-program"
+          href="https://www.learnbay.co/datascience/data-science-ai-masters-program"
         />
       </Head>
       <main>

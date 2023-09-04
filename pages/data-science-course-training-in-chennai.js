@@ -52,7 +52,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-chennai"
+          content="https://www.learnbay.co/datascience/chennai/data-science-course-training-in-chennai"
         />
         <meta
           property="og:title"

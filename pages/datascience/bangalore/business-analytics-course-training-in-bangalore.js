@@ -51,7 +51,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/business-analytics-course-training-in-bangalore"
+          href="https://www.learnbay.co/datascience/bangalore/business-analytics-course-training-in-bangalore"
         />
 
         {/* <meta name="HandheldFriendly" content="true" /> */}

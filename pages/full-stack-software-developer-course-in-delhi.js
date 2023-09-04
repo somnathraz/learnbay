@@ -51,7 +51,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/full-stack-software-developer-course-in-delhi"
+          href="https://www.learnbay.co/fullstack/delhi/full-stack-software-developer-course-in-delhi"
         />
         <meta
           name="copyright"

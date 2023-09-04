@@ -18,7 +18,7 @@ import { BusinessAnalyticsCourseData } from "../../Data/BusinessAnalyticsData";
 import FAQNew from "../../components/NewDesign/FAQNew/FAQNewDomain";
 import Counselling from "../../components/NewDesign/Counselling/Counselling";
 import {
-  FaqData7,
+  FaqData7, 
   PaymentFaqData7,
   CapstoneFaqData7,
   CertificationFaqData7,
@@ -54,7 +54,7 @@ function blockchain() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/business-analytics-certification-course"
+          href="https://www.learnbay.co/datascience/business-analytics-certification-course"
         />
       </Head>
       <main>

@@ -52,7 +52,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/machine-learning-course-training-in-mumbai"
+          href="https://www.learnbay.co/datascience/mumbai/machine-learning-course-training-in-mumbai"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
         {/* <meta name="HandheldFriendly" content="true" /> */}

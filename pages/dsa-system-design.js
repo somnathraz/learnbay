@@ -59,7 +59,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/dsa-system-design"
+          href="https://www.learnbay.co/fullstack/dsa-system-design"
         />
       </Head>
       <main>

@@ -48,7 +48,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/business-analytics-course-training-in-canada"
+          href="https://www.learnbay.co/datascience/canada/business-analytics-course-training-in-canada"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}

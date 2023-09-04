@@ -52,7 +52,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-science-course-training-in-hyderabad"
+          href="https://www.learnbay.co/datascience/hyderabad/data-science-course-training-in-hyderabad"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
         {/* <meta name="HandheldFriendly" content="true" /> */}

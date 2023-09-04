@@ -53,7 +53,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/job-guarantee-or-money-back-data-science-ai-certification-course"
+          href="https://www.learnbay.co/datascience/data-science-ai-masters-program"
         />
         <link
           rel="icon"

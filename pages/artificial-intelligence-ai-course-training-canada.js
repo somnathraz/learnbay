@@ -49,7 +49,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence-ai-course-training-canada"
+          href="https://www.learnbay.co/datascience/canada/artificial-intelligence-ai-course-training-canada"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}

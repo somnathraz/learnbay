@@ -50,7 +50,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-analytics-course-training-in-chennai"
+          href="https://www.learnbay.co/datascience/chennai/data-analytics-course-training-in-chennai"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}

@@ -49,7 +49,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence-ai-course-training-dubai"
+          href="https://www.learnbay.co/datascience/dubai/artificial-intelligence-ai-course-training-dubai"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}

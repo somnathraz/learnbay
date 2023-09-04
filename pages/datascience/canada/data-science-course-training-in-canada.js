@@ -49,7 +49,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-canada"
+          content="https://www.learnbay.co/datascience/canada/data-science-course-training-in-canada"
         />
         <meta
           property="og:title"
@@ -88,7 +88,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-science-course-training-in-canada"
+          href="https://www.learnbay.co/datascience/canada/data-science-course-training-in-canada"
         />
         {/* <meta name="robots" content="NOODP,NOYDIR" /> */}
         {/* <meta name="HandheldFriendly" content="true" /> */}
