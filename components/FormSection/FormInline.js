@@ -22,12 +22,12 @@ const FormInline = ({
     name: "",
     email: "",
     phone: "",
-        upskillPlanning: "",
+    upskillPlanning: "",
     upskillingObjective: "",
-    url: "",
+    url: router.asPath,
   });
   useEffect(() => {
-    setQuery({ ...query, phone: value, });
+    setQuery({ ...query, phone: value });
   }, [value]);
 
   // Update inputs value
@@ -74,39 +74,39 @@ const FormInline = ({
       setError(true);
     } else {
       setError(false);
-    const formData = new FormData();
-    Object.entries(query).forEach(([key, value]) => {
-      formData.append(key, value);
-    });
-    fetch(`${endPoint}`, {
-      method: "POST",
-      body: formData,
-    }).then(() =>
-      setQuery({
-        name: "",
-        email: "",
-        phone: "",
-            upskillPlanning: "",
-    upskillingObjective: "",
-        url: "",
-      })
-    );
-    if (popup) {
-      const off = () => {
-        setTrigger(false);
-      };
-      off();
+      const formData = new FormData();
+      Object.entries(query).forEach(([key, value]) => {
+        formData.append(key, value);
+      });
+      fetch(`${endPoint}`, {
+        method: "POST",
+        body: formData,
+      }).then(() =>
+        setQuery({
+          name: "",
+          email: "",
+          phone: "",
+          upskillPlanning: "",
+          upskillingObjective: "",
+          url: router.asPath,
+        })
+      );
+      if (popup) {
+        const off = () => {
+          setTrigger(false);
+        };
+        off();
+      }
+      if (dataScience) {
+        router.push("/Thank-you");
+      }
+      if (dataScienceCounselling) {
+        router.push("/Thank-you-counselling");
+      }
+      if (dataScienceGeneric) {
+        redirection();
+      }
     }
-    if (dataScience) {
-      router.push("/Thank-you");
-    }
-    if (dataScienceCounselling) {
-      router.push("/Thank-you-counselling");
-    }
-    if (dataScienceGeneric) {
-      redirection();
-    }
-  }
   };
 
   const formSubmitDownload = (e) => {
@@ -123,10 +123,9 @@ const FormInline = ({
         name: "",
         email: "",
         phone: "",
-            upskillPlanning: "",
-    upskillingObjective: "",
-        scheduleTime: "",
-        url: "",
+        upskillPlanning: "",
+        upskillingObjective: "",
+        url: router.asPath,
       })
     );
     if (popup) {
@@ -215,64 +214,118 @@ const FormInline = ({
             />
           </div>
           {upSkillingHide ? (
-          ""
-        ) : (
-          <div className={popup ? styles.formWrapper : styles.formWrapper}>
-            <select
-              name="upskillPlanning"
-              required
-              value={query.upskillPlanning}
-              onChange={handleParam()}
-            >
-              <option
-                value="How soon are you planning to upskill?"
-                selected
-                hidden
+            ""
+          ) : (
+            <div className={popup ? styles.formWrapper : styles.formWrapper}>
+              <select
+                name="upskillPlanning"
+                required
+                value={query.upskillPlanning}
+                onChange={handleParam()}
               >
-                How soon are you planning to upskill?
-              </option>
-              <option value="Select an option" disabled>
-                Select an option
-              </option>
-              <option value="Immediately">Immediately</option>
-              <option
-                value="Within 1 to 2 weeks
+                <option
+                  value="How soon are you planning to upskill?"
+                  selected
+                  hidden
+                >
+                  How soon are you planning to upskill?
+                </option>
+                <option value="Select an option" disabled>
+                  Select an option
+                </option>
+                <option value="Immediately">Immediately</option>
+                <option
+                  value="Within 1 to 2 weeks
 "
-              >
-                Within 1 to 2 weeks
-              </option>
-              <option value="Within a Month ">Within a Month</option>
-              <option value="Not yet decided">Not yet decided</option>
-            </select>
-          </div>
-        )}
+                >
+                  Within 1 to 2 weeks
+                </option>
+                <option value="Within a Month ">Within a Month</option>
+                <option value="Not yet decided">Not yet decided</option>
+              </select>
+            </div>
+          )}
 
-        {upSkillingHide ? (
-          ""
-        ) : (
-          <div className={popup ? styles.formWrapper : styles.formWrapper}>
-            <select
-              name="upskillingObjective"
-              required
-              value={query.upskillingObjective}
-              onChange={handleParam()}
-            >
-              <option
-                value="Tell us about your upskilling objective?"
-                selected
-                hidden
+          {upSkillingHide ? (
+            ""
+          ) : (
+            <div className={popup ? styles.formWrapper : styles.formWrapper}>
+              <select
+                name="upskillingObjective"
+                required
+                value={query.upskillingObjective}
+                onChange={handleParam()}
               >
-                Tell us about your upskilling objective?
-              </option>
-              <option value="Select an option" disabled>
-                Select an option
-              </option>
-              <option value="Upskilling">Upskilling</option>
-              <option value="Salary hike">Salary hike</option>
-              <option value="Career switch">Career switch</option>
-            </select>
-          </div>
-        )}
+                <option
+                  value="Tell us about your upskilling objective?"
+                  selected
+                  hidden
+                >
+                  Tell us about your upskilling objective?
+                </option>
+                <option value="Select an option" disabled>
+                  Select an option
+                </option>
+                <option value="Upskilling">Upskilling</option>
+                <option value="Salary hike">Salary hike</option>
+                <option value="Career switch">Career switch</option>
+              </select>
+            </div>
+          )}
+          {radio ? (
+            <div className={popup ? styles.formWrapper : styles.formWrapper}>
+              {mobile ? (
+                <div>
+                  <input
+                    id="Data Science & AI Courses"
+                    value="Data Science & AI Courses"
+                    name="platform"
+                    required
+                    type="radio"
+                    onChange={handleParam()}
+                  />
+                  Data Science & AI Courses&nbsp;
+                  {mobile ? <br /> : ""}
+                  <input
+                    id="Software (DSA & System Design)"
+                    value="Software (DSA & System Design)"
+                    name="platform"
+                    required
+                    type="radio"
+                    onChange={handleParam()}
+                  />
+                  Software (DSA & System Design)
+                </div>
+              ) : (
+                <>
+                  <div className={styles.dsCourseInp}>
+                    <input
+                      id="Data Science & AI Courses"
+                      value="Data Science & AI Courses"
+                      name="platform"
+                      required
+                      type="radio"
+                      onChange={handleParam()}
+                    />
+                    Data Science & AI Courses&nbsp;
+                  </div>
+                  <div className={styles.fsdCourseInp}>
+                    <input
+                      id="Software (DSA & System Design)"
+                      value="Software (DSA & System Design)"
+                      name="platform"
+                      required
+                      type="radio"
+                      onChange={handleParam()}
+                    />
+                    Software (DSA & System Design)
+                  </div>
+                </>
+              )}
+            </div>
+          ) : (
+            ""
+          )}
           {popup ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
               <input
@@ -285,60 +338,6 @@ const FormInline = ({
           ) : (
             ""
           )}
-           {radio ? (
-          <div className={popup ? styles.formWrapper : styles.formWrapper}>
-            {mobile ? (
-              <div>
-                <input
-                  id="Data Science & AI Courses"
-                  value="Data Science & AI Courses"
-                  name="platform"
-                  required
-                  type="radio"
-                  onChange={handleParam()}
-                />
-                Data Science & AI Courses&nbsp;
-                {mobile ? <br /> : ""}
-                <input
-                  id="Software (DSA & System Design)"
-                  value="Software (DSA & System Design)"
-                  name="platform"
-                  required
-                  type="radio"
-                  onChange={handleParam()}
-                />
-                Software (DSA & System Design)
-              </div>
-            ) : (
-              <>
-                <div className={styles.dsCourseInp}>
-                  <input
-                    id="Data Science & AI Courses"
-                    value="Data Science & AI Courses"
-                    name="platform"
-                    required
-                    type="radio"
-                    onChange={handleParam()}
-                  />
-                  Data Science & AI Courses&nbsp;
-                </div>
-                <div className={styles.fsdCourseInp}>
-                  <input
-                    id="Software (DSA & System Design)"
-                    value="Software (DSA & System Design)"
-                    name="platform"
-                    required
-                    type="radio"
-                    onChange={handleParam()}
-                  />
-                  Software (DSA & System Design)
-                </div>
-              </>
-            )}
-          </div>
-        ) : (
-          ""
-        )}
         </div>
         <input type="hidden" id="zc_gad" name="zc_gad" value="" />
         {error ? (
