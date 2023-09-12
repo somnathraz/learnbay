@@ -634,12 +634,12 @@ export const BusinessAnalyticsCourseData = [
       // },
       {
         Module0: {
-          title: "Weekend Evening Batch :- (Mon-Fri)",
+          title: "Weekend Morning Batch :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 18th August 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 17th September 2023", "Time :09:30 AM to 1 PM"],
               },
             },
           ],

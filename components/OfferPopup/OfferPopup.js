@@ -46,7 +46,7 @@ const OfferPopup = ({
                 <b>Weekday Morning</b>: 27th June, 8 AM to 10 AM
               </li> */}
               <li>
-                <b>Weekday Evening</b>: 18th August, 8 PM to 10 PM
+                <b>Weekend Morning</b>: 17th September, 09:30 AM to 1 PM
               </li>
               {/* <li><b>{batch3}</b>{batch33}</li> */}
               <p style={{ fontSize: "12px" }}>*Terms & Conditions applied.</p>
