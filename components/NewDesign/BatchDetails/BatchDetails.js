@@ -28,15 +28,15 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
               </div> */}
               <div className={styles.NewOrange}>
                 <div>
-                  <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
+                  <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
                 </div>
                 <div className={styles.listMobile}>
                   <p className={styles.list}>
                     <MdDateRange className={styles.iconOrange} />
-                    18th August 2023
+                    17th September 2023
                   </p>
                   <p className={styles.list}>
-                    <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                    <BiTimeFive className={styles.iconBlue} />09:30 AM to 1 PM
                   </p>
                 </div>
               </div>
@@ -167,17 +167,17 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                 </div> */}
                 <div className={styles.NewBlue}>
                   <div>
-                    <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
+                    <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
                   </div>
                   <div>
                     <p className={styles.list}>
                       <MdDateRange className={styles.iconOrange} />
-                      18th August 2023
+                      17th September 2023
                     </p>
                   </div>
                   <div>
                     <p className={styles.list}>
-                      <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                      <BiTimeFive className={styles.iconBlue} />09:30 AM to 1 PM
                     </p>
                   </div>
                 </div>
