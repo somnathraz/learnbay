@@ -56,7 +56,7 @@ function blockchain() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/full-stack-software-development-program"
+          href="https://www.learnbay.co/fullstack/full-stack-software-development-program"
         />
       </Head>
       <main>
