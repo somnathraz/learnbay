@@ -1,18 +1,16 @@
 import styles from "../Footer/Footer.module.css";
 import { IoMailSharp } from "react-icons/io5";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import {
-  FaTwitter,
-  FaFacebookF,
   FaLinkedinIn,
   FaYoutube,
   FaInstagram,
   FaApple,
   FaAndroid,
 } from "react-icons/fa";
+
+import {FaSquareXTwitter, FaMeta} from "react-icons/fa6";
 
 const Footer = ({ FsdNumber }) => {
   return (
@@ -33,8 +31,8 @@ const Footer = ({ FsdNumber }) => {
             and experience and ever growing and lucrative career transformation.
           </p>
           <div className={styles.FooterSocial}>
-              <FaTwitter className="bIcons" />
-              <FaFacebookF className="bIcons" />
+              <FaSquareXTwitter className="bIcons" />
+              <FaMeta className="bIcons" />
               <FaLinkedinIn className="bIcons" />
               <FaYoutube className="bIcons" />
               <FaInstagram className="bIcons" />
