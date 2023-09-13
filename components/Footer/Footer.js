@@ -11,7 +11,7 @@ import {
   FaAndroid,
 } from "react-icons/fa";
 
-import {FaSquareXTwitter, FaMeta} from "react-icons/fa6";
+import { FaSquareXTwitter, FaFacebookF } from "react-icons/fa6";
 
 const Footer = ({ FsdNumber, organicADSS }) => {
   return (
@@ -55,10 +55,10 @@ const Footer = ({ FsdNumber, organicADSS }) => {
               </a>
             )}
             {organicADSS ? (
-              <FaMeta className="bIcons" />
+              <FaFacebookF className="bIcons" />
             ) : (
               <a href="https://www.facebook.com/learnbay/" target="_blank">
-                <FaMeta className="bIcons" />
+                <FaFacebookF className="bIcons" />
               </a>
             )}
             {organicADSS ? (
