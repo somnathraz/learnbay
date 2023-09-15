@@ -118,16 +118,15 @@ const OfferPopup = ({
                     {" "}
                     <div className={styles.Offer}>
                       <h6>
-                        Special programming session starts from 5th to 7th of
-                        Sep. from 8 PM to 10 PM
+                      Special Scholarship of 25% on Data Science & AI Master Program. Valid till 18th Sep, 7:30 PM
                       </h6>
 
                       <p>Available Batch Details :</p>
                       <li>
-                        <b>Weekday Evening</b>: 8th September, 8 PM to 10 PM
+                        <b>Weekday Morning</b>: 22nd September, 8 AM to 10 AM
                       </li>
                       <li>
-                        <b>Weekday Morning</b>: 22nd September, 8 AM to 10 AM
+                        <b>Weekday Evening</b>: 28th September, 8 PM to 10 PM
                       </li>
                       {/* <li><b>{batch3}</b>{batch33}</li> */}
                       <p style={{ fontSize: "12px" }}>

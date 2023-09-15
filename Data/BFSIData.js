@@ -643,15 +643,15 @@ export const BFSIData = [
       ProMaxDesc: " Get data science training with 100% job assistance",
     },
 
-     Batch: [
+    Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 8th September 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 22nd September 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -661,12 +661,12 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 22nd September 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 28th September 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
