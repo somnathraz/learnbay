@@ -366,7 +366,7 @@ export const FresherFullStackSoftwareCourseData = [
                 ],
               },
             },
-           
+
             {
               chap: {
                 title: "Module 5 :- Scalability and Performance",
@@ -430,7 +430,6 @@ export const FresherFullStackSoftwareCourseData = [
                   "Node.js and Express.js",
                   "Database",
                   "Authentication and Security",
-
                 ],
               },
             },
@@ -449,11 +448,9 @@ export const FresherFullStackSoftwareCourseData = [
                   "Springboot",
                   "Advance Java (Servlet + JSP)",
                   "Other Technologies",
-                  
-                 
                 ],
               },
-            }
+            },
           ],
           id: 3,
           open: false,
@@ -469,7 +466,7 @@ export const FresherFullStackSoftwareCourseData = [
                 desc: [
                   "Creating a new Spring Boot project",
                   "Dependency management with Maven or Gradle",
-                  "Defining application properties (e.g., database configuration, logging)",   
+                  "Defining application properties (e.g., database configuration, logging)",
                 ],
               },
             },
@@ -479,7 +476,7 @@ export const FresherFullStackSoftwareCourseData = [
                 desc: [
                   "Integrating Spring Boot with relational databases (e.g., MySQL, PostgreSQL)",
                   "Using Spring Data JPA for database interactions",
-                  "Implementing CRUD operations with JPA repositories", 
+                  "Implementing CRUD operations with JPA repositories",
                 ],
               },
             },
@@ -497,11 +494,11 @@ export const FresherFullStackSoftwareCourseData = [
 
             {
               chap: {
-                title: "Module 4 :- Building and Packaging Spring Boot Applications",
+                title:
+                  "Module 4 :- Building and Packaging Spring Boot Applications",
                 desc: [
                   "Creating executable JARs or WARs",
                   "Deploying Spring Boot applications to local and remote servers",
-                  
                 ],
               },
             },
@@ -514,8 +511,6 @@ export const FresherFullStackSoftwareCourseData = [
                   "Implementing RESTful APIs with Spring Web",
                   "Handling HTTP requests and responses",
                   "Data validation and error handling",
-
-                  
                 ],
               },
             },
@@ -523,13 +518,9 @@ export const FresherFullStackSoftwareCourseData = [
               chap: {
                 title: "Module 6 :- Testing Spring Boot Applications",
                 desc: [
-
                   "Writing unit tests for Spring components (e.g., controllers, services)",
                   "Using JUnit and Mockito for testing",
-                  "Understanding test best practices and test coverage"
-                 
-
-                  
+                  "Understanding test best practices and test coverage",
                 ],
               },
             },
@@ -537,12 +528,8 @@ export const FresherFullStackSoftwareCourseData = [
               chap: {
                 title: "Module 7 :- Spring Boot Actuator",
                 desc: [
-
                   "Monitoring and managing Spring Boot applications using Actuator endpoints",
                   "Customizing Actuator endpoints and security configurations",
-                 
-
-                  
                 ],
               },
             },
@@ -550,10 +537,9 @@ export const FresherFullStackSoftwareCourseData = [
               chap: {
                 title: "Module 8 :- Containerization and Deployment",
                 desc: [
-
                   "Introduction to Docker and containerization",
                   "Dockerizing a Spring Boot application",
-                  "Deploying Spring Boot apps to cloud platforms (e.g., AWS, Azure, Google Cloud)",  
+                  "Deploying Spring Boot apps to cloud platforms (e.g., AWS, Azure, Google Cloud)",
                 ],
               },
             },
@@ -561,10 +547,8 @@ export const FresherFullStackSoftwareCourseData = [
               chap: {
                 title: "Module 9 :- Containerization and Deployment",
                 desc: [
-
                   "Setting up CI/CD pipelines with tools like Jenkins or GitLab CI",
                   "Automating the deployment process",
-                  
                 ],
               },
             },
@@ -572,10 +556,8 @@ export const FresherFullStackSoftwareCourseData = [
               chap: {
                 title: "Module 10 :- Monitoring and Scaling",
                 desc: [
-
                   "Utilizing monitoring tools (e.g., Spring Boot Admin, Prometheus, Grafana)",
                   "Scaling Spring Boot applications in different deployment environments",
-                  
                 ],
               },
             },
@@ -583,13 +565,11 @@ export const FresherFullStackSoftwareCourseData = [
               chap: {
                 title: "Module 11 :- Troubleshooting and Best Practices",
                 desc: [
-
                   "Identifying and resolving common issues",
                   "Adopting best practices for Spring Boot application development and deployment",
-                  
                 ],
               },
-            }
+            },
           ],
           id: 4,
           open: false,
@@ -615,12 +595,12 @@ export const FresherFullStackSoftwareCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
+          title: "Weekend Morning Batch :- (Sat-Sun)",
           content: [
             {
               chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 8th September 2023", "Time : 8 PM to 10 PM"],
+                title: "Batch 2 :- Date And time ",
+                desc: ["Date : 24th September 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
@@ -630,12 +610,12 @@ export const FresherFullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 2 :- Date And time ",
-                desc: ["Date : 24th September 2023", "Time : 8:30 AM to 12 PM"],
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 6th October 2023", "Time :  7:30 AM to 9:30 AM"],
               },
             },
           ],
