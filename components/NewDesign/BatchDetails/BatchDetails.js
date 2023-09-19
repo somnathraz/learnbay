@@ -28,16 +28,16 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
               </div> */}
               <div className={styles.NewOrange}>
                 <div>
-                  <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
+                  <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
                 </div>
                 <div className={styles.listMobile}>
                   <p className={styles.list}>
                     <MdDateRange className={styles.iconOrange} />
-                    17th September 2023
+                    20th October 2023
                   </p>
                   <p className={styles.list}>
                     <BiTimeFive className={styles.iconBlue} />
-                    09:30 AM to 1 PM
+                    8 PM to 10 PM
                   </p>
                 </div>
               </div>
@@ -46,23 +46,7 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
             <>
               {FullStack ? (
                 <div className={styles.NewBatch}>
-                  <div className={styles.NewOrange}>
-                    <div>
-                      <p className={styles.listDay}>
-                        Weekday Evening (Mon-Wed-Fri)
-                      </p>
-                    </div>
-                    <div className={styles.listMobile}>
-                      <p className={styles.list}>
-                        <MdDateRange className={styles.iconOrange} />
-                        8th September 2023
-                      </p>
-                      <p className={styles.list}>
-                        <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
-                      </p>
-                    </div>
-                  </div>
-                  <div className={styles.NewBlue}>
+                                    <div className={styles.NewBlue}>
                     <div>
                       <p className={styles.listDay}>
                         Weekend Morning (Sat-Sun)
@@ -76,6 +60,22 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                       <p className={styles.list}>
                         <BiTimeFive className={styles.iconBlue} />
                         8:30 AM to 12 PM
+                      </p>
+                    </div>
+                  </div>
+                  <div className={styles.NewOrange}>
+                    <div>
+                      <p className={styles.listDay}>
+                        Weekday Morning (Mon-Wed-Fri)
+                      </p>
+                    </div>
+                    <div className={styles.listMobile}>
+                      <p className={styles.list}>
+                        <MdDateRange className={styles.iconOrange} />
+                        6th October 2023
+                      </p>
+                      <p className={styles.list}>
+                        <BiTimeFive className={styles.iconBlue} />7:30 AM to 9:30 AM
                       </p>
                     </div>
                   </div>
@@ -169,18 +169,18 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                 </div> */}
                 <div className={styles.NewBlue}>
                   <div>
-                    <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
+                    <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
                   </div>
                   <div>
                     <p className={styles.list}>
                       <MdDateRange className={styles.iconOrange} />
-                      17th September 2023
+                      20th October 2023
                     </p>
                   </div>
                   <div>
                     <p className={styles.list}>
                       <BiTimeFive className={styles.iconBlue} />
-                      09:30 AM to 1 PM
+                      8 PM to 10 PM
                     </p>
                   </div>
                 </div>
@@ -190,25 +190,7 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
             <>
               {FullStack ? (
                 <div className={styles.NewBatch}>
-                  <div className={styles.NewOrange}>
-                    <div>
-                      <p className={styles.listDay}>
-                        Weekday Evening (Mon-Wed-Fri)
-                      </p>
-                    </div>
-                    <div>
-                      <p className={styles.list}>
-                        <MdDateRange className={styles.iconOrange} />
-                        8th September 2023
-                      </p>
-                    </div>
-                    <div>
-                      <p className={styles.list}>
-                        <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
-                      </p>
-                    </div>
-                  </div>
-                  <div className={styles.NewBlue}>
+                                    <div className={styles.NewBlue}>
                     <div>
                       <p className={styles.listDay}>
                         Weekend Morning (Sat-Sun)
@@ -224,6 +206,24 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                       <p className={styles.list}>
                         <BiTimeFive className={styles.iconBlue} />
                         8:30 AM to 12 PM
+                      </p>
+                    </div>
+                  </div>
+                  <div className={styles.NewOrange}>
+                    <div>
+                      <p className={styles.listDay}>
+                        Weekday Morning (Mon-Wed-Fri)
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <MdDateRange className={styles.iconOrange} />
+                        6th October 2023
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <BiTimeFive className={styles.iconBlue} />7:30 AM to 9:30 AM
                       </p>
                     </div>
                   </div>
