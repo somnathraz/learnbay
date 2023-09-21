@@ -118,7 +118,7 @@ const OfferPopup = ({
                     {" "}
                     <div className={styles.Offer}>
                       <h6>
-                      Special Scholarship of 25% on Data Science & AI Master Program. Valid till 18th Sep, 7:30 PM
+                      Special programming session starts from 22nd to 27th of Sep. from 8 PM to 10 PM
                       </h6>
 
                       <p>Available Batch Details :</p>
