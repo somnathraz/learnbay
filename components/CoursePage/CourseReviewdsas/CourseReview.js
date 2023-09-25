@@ -141,34 +141,6 @@ const CourseReview = ({
               <div className={styles.content}>
                 <div className={styles.imgP}>
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Vishrut.jpg"
-                    layout="intrinsic"
-                    width="100"
-                    height="100"
-                    alt="Learnbay data science course"
-                  />
-                </div>
-
-                <div className={styles.contentRight}>
-                  <div className={styles.name}>
-                    <h5>Vishrut Vats</h5>
-                  </div>
-                  <div>
-                    <p className={styles.para}>
-                      Before joining the DSA course I wasn’t confident on any of
-                      the topics. I can see the change in my coding abilities
-                      after the completion of the course! I even got interview
-                      calls from several product based companies.
-                      <br />
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <div className={styles.content}>
-                <div className={styles.imgP}>
-                  <Image
                     src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Manav.jpg"
                     layout="intrinsic"
                     width="100"
