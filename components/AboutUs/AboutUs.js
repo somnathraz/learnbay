@@ -167,7 +167,7 @@ function AboutUs() {
               height="209"
               layout="intrinsic"
               alt="data science course"
-              className={styles.img12}
+              className={styles.img12} 
             />
           </div>
           <div className={styles.FirstTextTop}>
