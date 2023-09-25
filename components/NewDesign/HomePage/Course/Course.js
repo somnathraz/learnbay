@@ -198,8 +198,23 @@ const Course = ({
                           )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <h6 className={styles.mainHead}>{title}</h6>
-                            <h6>{title1}</h6>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             <hr className={styles.hr} />
                             <p>
                               <BiTimeFive className={styles.checkCircle} />
@@ -332,8 +347,23 @@ const Course = ({
                           )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <h6 className={styles.mainHead}>{title}</h6>
-                            <h6>{title1}</h6>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             <hr className={styles.hr} />
                             <p>
                               <BiTimeFive className={styles.checkCircle} />
@@ -484,8 +514,23 @@ const Course = ({
                           )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <h6 className={styles.mainHead}>{title}</h6>
-                            <h6>{title1}</h6>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             <hr className={styles.hr} />
                             <p>
                               <BiTimeFive className={styles.checkCircle} />
@@ -636,8 +681,23 @@ const Course = ({
                           )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <h6 className={styles.mainHead}>{title}</h6>
-                            <h6>{title1}</h6>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             <hr className={styles.hr} />
                             <p>
                               <BiTimeFive className={styles.checkCircle} />
@@ -757,7 +817,39 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                        {organicADS ? (
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          )}
+                          <div className={styles.contentBox}>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
+                            <div className={styles.headWrapper}>
+                            {organicADS ? (
                               <a
                                 onClick={() => {
                                   setTitleCourse(titleCourse);
@@ -765,32 +857,15 @@ const Course = ({
                                   popupShow();
                                 }}
                               >
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          ) : (
-                            <a href={link1} className={styles.imgWrap}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          )}
-                          <div className={styles.contentBox}>
-                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <div className={styles.headWrapper}>
-                              <h6 className={styles.mainHead}>{title}</h6>
-                              <h6>{title1}</h6>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
@@ -928,8 +1003,23 @@ const Course = ({
                           )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <h6 className={styles.mainHead}>{title}</h6>
-                            <h6>{title1}</h6>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             <hr className={styles.hr} />
                             <p>
                               <BiTimeFive className={styles.checkCircle} />
@@ -1080,8 +1170,23 @@ const Course = ({
                           )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <h6 className={styles.mainHead}>{title}</h6>
-                            <h6>{title1}</h6>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             <hr className={styles.hr} />
                             <p>
                               <BiTimeFive className={styles.checkCircle} />
@@ -1214,8 +1319,23 @@ const Course = ({
                           )}
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <h6 className={styles.mainHead}>{title}</h6>
-                            <h6>{title1}</h6>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             <hr className={styles.hr} />
                             <p>
                               <BiTimeFive className={styles.checkCircle} />
@@ -1357,8 +1477,23 @@ const Course = ({
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
-                              <h6 className={styles.mainHead}>{title}</h6>
-                              <h6>{title1}</h6>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
@@ -1465,7 +1600,39 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                        {organicADS ? (
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          )}
+                          <div className={styles.contentBox}>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
+                            <div className={styles.headWrapper}>
+                            {organicADS ? (
                               <a
                                 onClick={() => {
                                   setTitleCourse(titleCourse);
@@ -1473,32 +1640,15 @@ const Course = ({
                                   popupShow();
                                 }}
                               >
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          ) : (
-                            <a href={link1} className={styles.imgWrap}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          )}
-                          <div className={styles.contentBox}>
-                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <div className={styles.headWrapper}>
-                              <h6 className={styles.mainHead}>{title}</h6>
-                              <h6>{title1}</h6>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
@@ -1611,7 +1761,39 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                        {organicADS ? (
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          )}
+                          <div className={styles.contentBox}>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
+                            <div className={styles.headWrapper}>
+                            {organicADS ? (
                               <a
                                 onClick={() => {
                                   setTitleCourse(titleCourse);
@@ -1619,32 +1801,15 @@ const Course = ({
                                   popupShow();
                                 }}
                               >
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          ) : (
-                            <a href={link1} className={styles.imgWrap}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          )}
-                          <div className={styles.contentBox}>
-                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <div className={styles.headWrapper}>
-                              <h6 className={styles.mainHead}>{title}</h6>
-                              <h6>{title1}</h6>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
@@ -1751,7 +1916,39 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                        {organicADS ? (
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          )}
+                          <div className={styles.contentBox}>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
+                            <div className={styles.headWrapper}>
+                            {organicADS ? (
                               <a
                                 onClick={() => {
                                   setTitleCourse(titleCourse);
@@ -1759,32 +1956,15 @@ const Course = ({
                                   popupShow();
                                 }}
                               >
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          ) : (
-                            <a href={link1} className={styles.imgWrap}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          )}
-                          <div className={styles.contentBox}>
-                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <div className={styles.headWrapper}>
-                              <h6 className={styles.mainHead}>{title}</h6>
-                              <h6>{title1}</h6>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
@@ -1897,7 +2077,39 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                        {organicADS ? (
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          )}
+                          <div className={styles.contentBox}>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
+                            <div className={styles.headWrapper}>
+                            {organicADS ? (
                               <a
                                 onClick={() => {
                                   setTitleCourse(titleCourse);
@@ -1905,32 +2117,15 @@ const Course = ({
                                   popupShow();
                                 }}
                               >
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          ) : (
-                            <a href={link1} className={styles.imgWrap}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          )}
-                          <div className={styles.contentBox}>
-                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <div className={styles.headWrapper}>
-                              <h6 className={styles.mainHead}>{title}</h6>
-                              <h6>{title1}</h6>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
@@ -2043,7 +2238,39 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                        {organicADS ? (
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          )}
+                          <div className={styles.contentBox}>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
+                            <div className={styles.headWrapper}>
+                            {organicADS ? (
                               <a
                                 onClick={() => {
                                   setTitleCourse(titleCourse);
@@ -2051,32 +2278,15 @@ const Course = ({
                                   popupShow();
                                 }}
                               >
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          ) : (
-                            <a href={link1} className={styles.imgWrap}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          )}
-                          <div className={styles.contentBox}>
-                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <div className={styles.headWrapper}>
-                              <h6 className={styles.mainHead}>{title}</h6>
-                              <h6>{title1}</h6>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
@@ -2183,7 +2393,39 @@ const Course = ({
                     return (
                       <SwiperSlide className={styles.leftSide} key={id}>
                         <div key={id} className={styles.SliderWrap}>
-                        {organicADS ? (
+                          {organicADS ? (
+                            <a
+                              onClick={() => {
+                                setTitleCourse(titleCourse);
+                                setBrochureLinks(brochureLinks);
+                                popupShow();
+                              }}
+                            >
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          ) : (
+                            <a href={link1} className={styles.imgWrap}>
+                              <Image
+                                src={img}
+                                layout="intrinsic"
+                                width="423px"
+                                height="252px"
+                                alt="data science course"
+                                className={styles.courseImg}
+                              />
+                            </a>
+                          )}
+                          <div className={styles.contentBox}>
+                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
+                            <div className={styles.headWrapper}>
+                            {organicADS ? (
                               <a
                                 onClick={() => {
                                   setTitleCourse(titleCourse);
@@ -2191,32 +2433,15 @@ const Course = ({
                                   popupShow();
                                 }}
                               >
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          ) : (
-                            <a href={link1} className={styles.imgWrap}>
-                            <Image
-                              src={img}
-                              layout="intrinsic"
-                              width="423px"
-                              height="252px"
-                              alt="data science course"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                          )}
-                          <div className={styles.contentBox}>
-                            {/* <p className={styles.tagHead}>{tagHead}</p> */}
-                            <div className={styles.headWrapper}>
-                              <h6 className={styles.mainHead}>{title}</h6>
-                              <h6>{title1}</h6>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
@@ -2350,8 +2575,23 @@ const Course = ({
                           <div className={styles.contentBox}>
                             {/* <p className={styles.tagHead}>{tagHead}</p> */}
                             <div className={styles.headWrapper}>
-                              <h6 className={styles.mainHead}>{title}</h6>
-                              <h6>{title1}</h6>
+                            {organicADS ? (
+                              <a
+                                onClick={() => {
+                                  setTitleCourse(titleCourse);
+                                  setBrochureLinks(brochureLinks);
+                                  popupShow();
+                                }}
+                              >
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <h6 className={styles.mainHead}>{title}</h6>
+                                <h6>{title1}</h6>
+                              </a>
+                            )}
                             </div>
                             <hr className={styles.hr} />
                             <div className={styles.paraDiv}>
