@@ -377,4 +377,11 @@
 <changefreq>daily</changefreq>
 <priority>0.70</priority>
 </url>
+
+
+<url>
+<loc>https://www.learnbay.co/fullstack/software-development-program-with-specialization-in-cloud-computing-and-devops</loc>
+<changefreq>daily</changefreq>
+<priority>0.70</priority>
+</url>
 </urlset>
