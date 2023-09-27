@@ -1,36 +1,36 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../components/CoursePage/Boxshapedsas/BoxShape";
-import Popup from "../components/Popup/Popup";
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import BottomBar from "../components/BottomBar/BottomBar";
-import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
-import Form from "../components/Form/Form";
-import Project from "../components/CoursePage/Projectfswd/Project";
-import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
-import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
+import BottomBar from "../components/BottomBar/BottomBar";
+import BoxShape from "../components/CoursePage/Boxshapedsas/BoxShape";
 import Certificate from "../components/CoursePage/CertificateTab/CertificateTabSd";
-import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
 import CourseReview from "../components/CoursePage/CourseReviewdsas/CourseReview";
 import { DomainFaqCourseDatasoft } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
+import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
+import Project from "../components/CoursePage/Projectfswd/Project";
+import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
 import FAQNew from "../components/FAQNew/FAQNewcer";
-import OfferPopup from "../components/OfferPopup/OfferPopup";
+import Footer from "../components/Footer/Footer";
+import Form from "../components/Form/Form";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
+import Navbar from "../components/Navbar/Navbar";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
+import Popup from "../components/Popup/Popup";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
+import styles from "../styles/Home.module.css";
 
 import React, { useState } from "react";
 import {
-  FaqData9,
-  DomainFaqData9,
-  PaymentFaqData9,
   CapstoneFaqData9,
-  jobFaqData9,
+  DomainFaqData9,
+  FaqData9,
   MentorshipFaqData9,
+  PaymentFaqData9,
   SupportFaqData9,
+  jobFaqData9,
 } from "../components/FAQ/FaqData";
 
 export default function Home() {
@@ -99,7 +99,7 @@ export default function Home() {
             p3="Practice with"
             p33="Real-Time Projects"
             p4="Financing as low as"
-            p44="₹ 10,816/month"
+            p44="₹ 11,308/month"
           />
         </div>
         <div className="Feature" id="Feature">
@@ -128,7 +128,7 @@ export default function Home() {
           hours="300+ Hours"
           project="12+ Real Time"
         />
-        <ProgramFee Fee="₹ 1,10,000 + 18% GST" Emi="₹10,816" fullStack={true} />
+        <ProgramFee Fee="₹ 1,15,000 + 18% GST" Emi="₹11,308" fullStack={true} />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             project="12+ Projects"
