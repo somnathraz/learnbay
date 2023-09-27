@@ -1163,17 +1163,31 @@ export const FaqData6 = [
     ans: (
       <span>
         The modules of the Data Analytics Course cover -<br /> <br />
-        
-         <span>• Fundamentals of Programming and Statistics</span>  <br />
-         <span>• Fundamentals of Python programming (functions, libraries, data types, data visualization tools, exceptional handling)</span>  <br />
-         <span>• Basics of statistics (hypothesis testing, linear algebra, descriptive statistics, inferential statistics, EDA)</span>  <br />
-         <span>• Basics of Machine learning (Regression model, data preprocessing, encoding, decision-tree model, KNN model, Baye's theorem)</span>  <br />
-         <span>• Programming with SQL (MongoDB, NoSQL, HBase)</span>  <br />
-         <span>• PowerBI (Programming and BI report creation)</span>  <br />
-         <span>• Big data and spark analytics (data analysis)</span>  <br />
-         <span>• Time series (data analysis and forecasting)</span>  <br />
-         <span>• Excel (worksheet formatting, pivot tables, and conditional formatting)</span>  <br />
-       
+        <span>• Fundamentals of Programming and Statistics</span> <br />
+        <span>
+          • Fundamentals of Python programming (functions, libraries, data
+          types, data visualization tools, exceptional handling)
+        </span>{" "}
+        <br />
+        <span>
+          • Basics of statistics (hypothesis testing, linear algebra,
+          descriptive statistics, inferential statistics, EDA)
+        </span>{" "}
+        <br />
+        <span>
+          • Basics of Machine learning (Regression model, data preprocessing,
+          encoding, decision-tree model, KNN model, Baye's theorem)
+        </span>{" "}
+        <br />
+        <span>• Programming with SQL (MongoDB, NoSQL, HBase)</span> <br />
+        <span>• PowerBI (Programming and BI report creation)</span> <br />
+        <span>• Big data and spark analytics (data analysis)</span> <br />
+        <span>• Time series (data analysis and forecasting)</span> <br />
+        <span>
+          • Excel (worksheet formatting, pivot tables, and conditional
+          formatting)
+        </span>{" "}
+        <br />
       </span>
     ),
     open: false,
@@ -1207,10 +1221,17 @@ export const FaqData6 = [
     ques: "What is the mode of Data Analytics training at Learnbay?",
     ans: (
       <span>
-        At Learnbay, we have the facility of offline and online sessions for learners. However, it depends on the feasibility of the working professionals to choose the best way to learn courses for data analytics in a convenience of time and space. <br/><br/>
-Our offline training branches are located across <b>Delhi, Pune, Hyderabad, and Bangalore</b> that offer a good scope of learning and upskilling for learners. Both online and offline training centers help learners get their doubts cleared and improve their data skills in real time.<br />
-        
-       
+        At Learnbay, we have the facility of offline and online sessions for
+        learners. However, it depends on the feasibility of the working
+        professionals to choose the best way to learn courses for data analytics
+        in a convenience of time and space. <br />
+        <br />
+        Our offline training branches are located across{" "}
+        <b>Delhi, Pune, Hyderabad, and Bangalore</b> that offer a good scope of
+        learning and upskilling for learners. Both online and offline training
+        centers help learners get their doubts cleared and improve their data
+        skills in real time.
+        <br />
       </span>
     ),
     open: false,
@@ -1228,11 +1249,16 @@ export const CertificationFaqData6 = [
     ques: "Is Certification necessary for Data Analytics?",
     ans: (
       <span>
-        Data analytics is a vast field that manages massive datasets and helps professionals make insightful business decisions. Yet, having real-time insights demands skilled data analysts. Data analytics online training & certification is an effective way for working professionals to reshape their careers with lucrative benefits. <br/><br/>
-
-Although knowledge and experience are essential to get a certification, still while switching a career, you need proper authentication of your newly earned knowledge.  So, from that aspect, a valid certification is necessary for data analytics career initiation.
-
-
+        Data analytics is a vast field that manages massive datasets and helps
+        professionals make insightful business decisions. Yet, having real-time
+        insights demands skilled data analysts. Data analytics online training &
+        certification is an effective way for working professionals to reshape
+        their careers with lucrative benefits. <br />
+        <br />
+        Although knowledge and experience are essential to get a certification,
+        still while switching a career, you need proper authentication of your
+        newly earned knowledge. So, from that aspect, a valid certification is
+        necessary for data analytics career initiation.
       </span>
     ),
     open: true,
@@ -1240,7 +1266,7 @@ Although knowledge and experience are essential to get a certification, still wh
   {
     id: 1,
     ques: "Is there any accredited certification after course completion?",
-    ans:"Yes, you will be awarded IBM & Microsoft accredited Data Analytics Certificate on successful course completion.",
+    ans: "Yes, you will be awarded IBM & Microsoft accredited Data Analytics Certificate on successful course completion.",
     open: false,
   },
 ];
@@ -1265,12 +1291,15 @@ export const PaymentFaqData6 = [
     ques: "Is there any scholarship/discount available for the Data Analytics Program? What is Group Discount?",
     ans: (
       <span>
-        Learnbay offers a 15 – 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. <br/><br/>
-        • Group Discount: Group Discount applies only if you’re joining with friends. <br/>
-        • Group of 2: 5% extra discount <br/>
-        • Group of 3: 8% extra discount <br/>
-        • Group of 4+: Max 10% discount <br/>
-
+        Learnbay offers a 15 – 20% scholarship for early birds occasionally.
+        Please check our websites or contact our sales team to know more about
+        the applicable discounts. <br />
+        <br />
+        • Group Discount: Group Discount applies only if you’re joining with
+        friends. <br />
+        • Group of 2: 5% extra discount <br />
+        • Group of 3: 8% extra discount <br />
+        • Group of 4+: Max 10% discount <br />
       </span>
     ),
     open: false,
@@ -1287,11 +1316,19 @@ export const PaymentFaqData6 = [
     ques: "Is it costly to pursue a Data Analytics Program at Learnbay?",
     ans: (
       <span>
-       Data Analytics Program at Learnbay costs ₹79,000 + 18% GST. But with flexible options, this course becomes cost-effective. With a no-cost EMI option, a learner pays only ₹7,768 /month for up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more at +91 7795687988.<br/><br/>
-
-There are various payment options (Card, UPI, net banking), and a loan policy is also available. In case you do not like the course program and wish to opt out of the course, a 15 days refund policy is applied. Yet, a flexible financing plan helps you become a part of an industry-paced data analytics online training program. 
-
-
+        Data Analytics Program at Learnbay costs ₹79,000 + 18% GST. But with
+        flexible options, this course becomes cost-effective. With a no-cost EMI
+        option, a learner pays only ₹7,768 /month for up to 12 months. You can
+        also choose an interest-free loan by submitting an Aadhar card, Pan
+        Card, and 3-month salary slip. Please check with our sales team to know
+        more at +91 7795687988.
+        <br />
+        <br />
+        There are various payment options (Card, UPI, net banking), and a loan
+        policy is also available. In case you do not like the course program and
+        wish to opt out of the course, a 15 days refund policy is applied. Yet,
+        a flexible financing plan helps you become a part of an industry-paced
+        data analytics online training program.
       </span>
     ),
 
@@ -1317,8 +1354,6 @@ export const CapstoneFaqData6 = [
     ans: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
     open: false,
   },
-
-
 ];
 export const jobFaqData6 = [
   {
@@ -1352,9 +1387,15 @@ export const jobFaqData6 = [
     ques: "Is Data Analytics a recession-proof career?",
     ans: (
       <span>
-        The field of data in the tech era sees an uninterrupted rise in data careers with attractive hikes and endless job opportunities. Despite the skills gap, the data analysts' job roles are witnessing exponential growth. <br/><br/>
-Hence, through upskilling, one can recession-proof a career in the field of data. Plus, with the increasing use of data, the role of skilled data analysts has increased, placing it in trend. Join the best online course for data analytics today to see the benefits. 
-
+        The field of data in the tech era sees an uninterrupted rise in data
+        careers with attractive hikes and endless job opportunities. Despite the
+        skills gap, the data analysts' job roles are witnessing exponential
+        growth. <br />
+        <br />
+        Hence, through upskilling, one can recession-proof a career in the field
+        of data. Plus, with the increasing use of data, the role of skilled data
+        analysts has increased, placing it in trend. Join the best online course
+        for data analytics today to see the benefits.
       </span>
     ),
     open: false,
@@ -1364,7 +1405,14 @@ Hence, through upskilling, one can recession-proof a career in the field of data
     ques: "How much does a data analyst make?",
     ans: (
       <span>
-       There is no specific salary range for data analytics experts. Yet, an analyst, on average, earns 8 LPA. With Learnbay's Data Analytics Program, you can have attractive hikes in various domains. Through industry-led mentorship and real-pace learning facilities, you can crack data analytics interviews across the leading MNCs. Hence, with upskilling and gaining real-time experience from the best online course for data analytics, you can be a part of it and get the opportunity to earn a lucrative job role. 
+        There is no specific salary range for data analytics experts. Yet, an
+        analyst, on average, earns 8 LPA. With Learnbay's Data Analytics
+        Program, you can have attractive hikes in various domains. Through
+        industry-led mentorship and real-pace learning facilities, you can crack
+        data analytics interviews across the leading MNCs. Hence, with
+        upskilling and gaining real-time experience from the best online course
+        for data analytics, you can be a part of it and get the opportunity to
+        earn a lucrative job role.
       </span>
     ),
     open: false,
@@ -1376,9 +1424,16 @@ export const MentorshipFaqData6 = [
     ques: "Is this training a live class or a recorded session? ",
     ans: (
       <span>
-        Learnbay's course training sessions come in live. The learners get the scope of learning the course modules live by the industry experts from leading MNCs. From learning the basics of programming to clearing doubts, everything is done live.  <br/><br/>
-        Yet, for further self-learning assistance, you will have recorded copies of the sessions completed. Even the capstone projects and professional development sessions are conducted live by experts. Hence, if you wish to build a career in data, joining live data analytics online training sessions by Learnbay can be helpful. 
-
+        Learnbay's course training sessions come in live. The learners get the
+        scope of learning the course modules live by the industry experts from
+        leading MNCs. From learning the basics of programming to clearing
+        doubts, everything is done live. <br />
+        <br />
+        Yet, for further self-learning assistance, you will have recorded copies
+        of the sessions completed. Even the capstone projects and professional
+        development sessions are conducted live by experts. Hence, if you wish
+        to build a career in data, joining live data analytics online training
+        sessions by Learnbay can be helpful.
       </span>
     ),
 
@@ -1389,10 +1444,18 @@ export const MentorshipFaqData6 = [
     ques: "Can I opt for a Support session to clear my doubts regarding the topics? ",
     ans: (
       <span>
-        Yes, Learnbay offers a support session to the learners in case of doubts. After the end of data analytics online training sessions, the industry experts or mentors conduct special doubt-clearing sessions. Even the job assistance program includes doubt-clearing sessions, resume build-up classes, and professional grooming activities to refine the skills required for the job role. Hence, in case you require a better understanding of the concepts, you will get a support session from your mentors.<br/><br/>
-        If you want, you can take these services at our offline experience center also. 
-
-
+        Yes, Learnbay offers a support session to the learners in case of
+        doubts. After the end of data analytics online training sessions, the
+        industry experts or mentors conduct special doubt-clearing sessions.
+        Even the job assistance program includes doubt-clearing sessions, resume
+        build-up classes, and professional grooming activities to refine the
+        skills required for the job role. Hence, in case you require a better
+        understanding of the concepts, you will get a support session from your
+        mentors.
+        <br />
+        <br />
+        If you want, you can take these services at our offline experience
+        center also.
       </span>
     ),
     open: false,
@@ -1402,11 +1465,17 @@ export const MentorshipFaqData6 = [
     ques: "Who are Learnbay's mentors, and how are they getting selected?",
     ans: (
       <span>
-       Learnbay provides an industry-led mentorship in this learning platform with the aim to deliver the best online course for data analytics. The mentors or industry experts are qualified working professionals in the data analytics field having relevant experience.<br/><br/>
-Their support and feedback help the learners reshape their careers in the trending data analytics industry. These mentors are selected as on their real-time experience with the latest data tools and their willingness to help our learners grow. Plus, practical tests of their teaching skills are conducted to assess them. 
-
-
-
+        Learnbay provides an industry-led mentorship in this learning platform
+        with the aim to deliver the best online course for data analytics. The
+        mentors or industry experts are qualified working professionals in the
+        data analytics field having relevant experience.
+        <br />
+        <br />
+        Their support and feedback help the learners reshape their careers in
+        the trending data analytics industry. These mentors are selected as on
+        their real-time experience with the latest data tools and their
+        willingness to help our learners grow. Plus, practical tests of their
+        teaching skills are conducted to assess them.
       </span>
     ),
     open: false,
@@ -2081,14 +2150,14 @@ export const PaymentFaqData9 = [
   {
     id: 0,
     ques: "What is the total fee for the Advanced Software Development course?",
-    ans: "The total program fee for this course is ,  INR  1,10,000 + 18% GST",
+    ans: "The total program fee for this course is ,  INR  1,15,000 + 18% GST",
 
     open: true,
   },
   {
     id: 1,
     ques: "Can I pay in installments for the course fees?",
-    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months salary slip, you can also avail of an interest-free loan also.",
+    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹11,308/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months salary slip, you can also avail of an interest-free loan also.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",
     link: true,

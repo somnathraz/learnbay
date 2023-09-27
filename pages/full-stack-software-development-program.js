@@ -1,35 +1,35 @@
-import React, { useState } from "react";
 import Head from "next/head";
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import BottomBar from "../components/BottomBar/BottomBar";
-import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
-import Form from "../components/Form/Form";
-import Popup from "../components/Popup/Popup";
-import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
-import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
-import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
-import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
-import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
-import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
-import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
+import React, { useState } from "react";
 import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
-import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
+import BottomBar from "../components/BottomBar/BottomBar";
 import {
-  FaqData9,
-  DomainFaqData9,
-  PaymentFaqData9,
   CapstoneFaqData9,
-  jobFaqData9,
+  DomainFaqData9,
+  FaqData9,
   MentorshipFaqData9,
+  PaymentFaqData9,
   SupportFaqData9,
+  jobFaqData9,
 } from "../components/FAQ/FaqData";
+import Footer from "../components/Footer/Footer";
+import Form from "../components/Form/Form";
+import Navbar from "../components/Navbar/Navbar";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
-import Project from "../components/NewDesign/Project/Project";
-import Switch from "../components/NewDesign/switch/switch";
-import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
-import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
 import Counselling from "../components/NewDesign/Counselling/Counselling";
+import DomainSection from "../components/NewDesign/DomainSection/DomainSection";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
+import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
+import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
+import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
+import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
+import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
+import Project from "../components/NewDesign/Project/Project";
+import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
+import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
+import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
+import Switch from "../components/NewDesign/switch/switch";
+import Popup from "../components/Popup/Popup";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 
 function blockchain() {
   const [popups, setPopups] = useState(false);
@@ -181,7 +181,7 @@ function blockchain() {
         <FifthSection
           softTools={true}
           IBMMicrosoftsoft={true}
-          Fee="₹ 1,10,000 + 18% GST"
+          Fee="₹ 1,15,000 + 18% GST"
           FeeEmi="₹ 10,817/month"
           FeeHeading="Program Fee & Financing"
           FeeContent1="0% interest rate"

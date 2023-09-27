@@ -1718,19 +1718,26 @@ export const FaqData9 = [
     ques: "What modules are covered in the Data Structures Algorithms & System Design Course?",
     ans: (
       <sapn>
-        The course module is designed separately for basic and advanced levels. <br /><br/>
-        <b>Under the basic course, you will get - </b> <br /> <br/>
-
-        <span>• Basic programming, data types, & code flow</span><br/>
-        <span>• If statements, loops, & code flow</span><br/>
-        <span>• I/O & exceptions</span><br/>
-        <span>• Functions </span><br/>
-        <span>• Object-oriented programming</span><br/>
-        <span>• 2-D matrix</span><br/>
-        <span>• 1-D array</span><br/> <br />
-
-        <b>Under the advanced course, you will learn - </b> <br /><br />
-
+        The course module is designed separately for basic and advanced levels.{" "}
+        <br />
+        <br />
+        <b>Under the basic course, you will get - </b> <br /> <br />
+        <span>• Basic programming, data types, & code flow</span>
+        <br />
+        <span>• If statements, loops, & code flow</span>
+        <br />
+        <span>• I/O & exceptions</span>
+        <br />
+        <span>• Functions </span>
+        <br />
+        <span>• Object-oriented programming</span>
+        <br />
+        <span>• 2-D matrix</span>
+        <br />
+        <span>• 1-D array</span>
+        <br /> <br />
+        <b>Under the advanced course, you will learn - </b> <br />
+        <br />
         <span>• Functions and recursion</span> <br />
         <span>• Linear & binary search </span> <br />
         <span>• Time & space complexity</span> <br />
@@ -1752,9 +1759,6 @@ export const FaqData9 = [
         <span>• Scalability, performance</span> <br />
         <span>• Security, reliability</span> <br />
         <span>• Integration, deployment</span> <br /> <br />
-
-
-
       </sapn>
     ),
     open: false,
@@ -1765,10 +1769,18 @@ export const FaqData9 = [
     ques: "What are the modes of learning I can choose from?",
     ans: (
       <span>
-        Learnbay believes in a flexible and open learning environment. Thus, working professionals willing to upskill themselves get the advantage of a hybrid learning mode. DSA course program comes on weekdays (8 PM – 10 PM; Mon-Wed-Fri) and weekends (8.30 AM – 12 PM; Sat-Sun). Concerning the working schedules, learners can fix their sessions with the mentors. Learnbay offers both classrooms and virtual learning sessions. Yet, with hybrid learning, learners get the scope of working on live projects across offline experience centers <br /> <br />
-        <b>Note:</b> The course timing keeps changing based on the new batch launch. Confirm the latest availability from your dedicated support executive. 
+        Learnbay believes in a flexible and open learning environment. Thus,
+        working professionals willing to upskill themselves get the advantage of
+        a hybrid learning mode. DSA course program comes on weekdays (8 PM – 10
+        PM; Mon-Wed-Fri) and weekends (8.30 AM – 12 PM; Sat-Sun). Concerning the
+        working schedules, learners can fix their sessions with the mentors.
+        Learnbay offers both classrooms and virtual learning sessions. Yet, with
+        hybrid learning, learners get the scope of working on live projects
+        across offline experience centers <br /> <br />
+        <b>Note:</b> The course timing keeps changing based on the new batch
+        launch. Confirm the latest availability from your dedicated support
+        executive.
       </span>
-   
     ),
     open: false,
   },
@@ -1777,9 +1789,15 @@ export const FaqData9 = [
     ques: "Are the data structures and algorithms programs suitable for non-IT professionals?",
     ans: (
       <span>
-        While a background in programming or computer science can be helpful, it's not always necessary. We have our courses start from the basics and gradually build up the complexity. So, non-IT professionals can take the <b>online data structures and algorithms course</b>. Only they need an ample level of self-motivation. The course is structured to help learners with non-IT backgrounds easily understand the modules with the help of experienced mentors, 24/7 support, and one-on-one doubt sessions.
+        While a background in programming or computer science can be helpful,
+        it's not always necessary. We have our courses start from the basics and
+        gradually build up the complexity. So, non-IT professionals can take the{" "}
+        <b>online data structures and algorithms course</b>. Only they need an
+        ample level of self-motivation. The course is structured to help
+        learners with non-IT backgrounds easily understand the modules with the
+        help of experienced mentors, 24/7 support, and one-on-one doubt
+        sessions.
       </span>
-   
     ),
     open: false,
   },
@@ -1788,9 +1806,11 @@ export const FaqData9 = [
     ques: "Is DSA hard to learn?",
     ans: (
       <span>
-        It may be hard to study data structure and algorithms without proper guidance. But the appropriate guidance makes it super easy. Yet, with our expert mentors and great learning assistance, we ensure learners get the best type of education to understand every DSA concept.
+        It may be hard to study data structure and algorithms without proper
+        guidance. But the appropriate guidance makes it super easy. Yet, with
+        our expert mentors and great learning assistance, we ensure learners get
+        the best type of education to understand every DSA concept.
       </span>
-   
     ),
     open: false,
   },
@@ -1799,9 +1819,12 @@ export const FaqData9 = [
     ques: "How long it takes to complete the Data Structures Algorithms and System Design Program?",
     ans: (
       <span>
-        The Data Structures Algorithms and System Design Program takes 400+ hours or 6.5 months. During the program, learners will get live training sessions, live projects, job-readiness assistance, & interview preparations under the guidance of mentors. One can complete the course modules and projects per batch timings. 
+        The Data Structures Algorithms and System Design Program takes 400+
+        hours or 6.5 months. During the program, learners will get live training
+        sessions, live projects, job-readiness assistance, & interview
+        preparations under the guidance of mentors. One can complete the course
+        modules and projects per batch timings.
       </span>
-   
     ),
     open: false,
   },
@@ -1810,9 +1833,13 @@ export const FaqData9 = [
     ques: "How long can I have access to the course materials and resources? ",
     ans: (
       <span>
-        Learnbay introduces a Flexi subscription offer for learners with a better scope of uninterrupted learning. Flexi is a 3-year membership where learners will have direct access to course materials, training sessions, live projects, videos, and other helpful resources. With the Flexi pass, learners can get self-paced learning access even after the course completion. 
+        Learnbay introduces a Flexi subscription offer for learners with a
+        better scope of uninterrupted learning. Flexi is a 3-year membership
+        where learners will have direct access to course materials, training
+        sessions, live projects, videos, and other helpful resources. With the
+        Flexi pass, learners can get self-paced learning access even after the
+        course completion.
       </span>
-   
     ),
     open: false,
   },
@@ -1827,7 +1854,7 @@ export const DomainFaqData9 = [
   {
     id: 1,
     ques: "What are the available elective domain options?",
-    ans: "These are as follows: Full Stack, Product Engineer/Manager, Data Science and AI, Web 3.0 Developer, DevOps & Clouds.",
+    ans: "These are as follows: MERN and SPRING.",
     open: false,
   },
   {
@@ -1860,7 +1887,7 @@ export const PaymentFaqData9 = [
   {
     id: 0,
     ques: "What is the course fee for the Data Structures Algorithms and System Design Program?",
-    ans: "The Data Structures Algorithms and System Design Program cost INR 110,000 + 18% GST. The working professionals willing to enroll in the course can visit the Learnbay website or schedule a call with our counselor for more details. To know more about the course, contact us at",
+    ans: "The Data Structures Algorithms and System Design Program cost INR 1,15,000 + 18% GST. The working professionals willing to enroll in the course can visit the Learnbay website or schedule a call with our counselor for more details. To know more about the course, contact us at",
     linkText1: " +917795687988. ",
     link1: "tel:+917795687988",
     link: true,
@@ -1875,23 +1902,23 @@ export const PaymentFaqData9 = [
   {
     id: 2,
     ques: "Is there any scholarship or discount offer available for the Data Structures Algorithms and System Design Program? ",
-    ans : (
-      <span>Learnbay offers a 15% – 20% discount for early birds occasionally. Yet, a group discount is available for the learners who join with one or more friends. <br /><br />
-
-      <span>• Group of 2: 5% extra discount</span> <br />
-      <span>• Group of 3: 8% additional discount</span> <br />
-      <span>• Group of 4+: Max 10% discount</span> <br /> <br />
-
-      <span>For further details, you can check with our sales team at +91 7795687988.</span>
-      
-
-      
-      
-       </span>
+    ans: (
+      <span>
+        Learnbay offers a 15% – 20% discount for early birds occasionally. Yet,
+        a group discount is available for the learners who join with one or more
+        friends. <br />
+        <br />
+        <span>• Group of 2: 5% extra discount</span> <br />
+        <span>• Group of 3: 8% additional discount</span> <br />
+        <span>• Group of 4+: Max 10% discount</span> <br /> <br />
+        <span>
+          For further details, you can check with our sales team at +91
+          7795687988.
+        </span>
+      </span>
     ),
     open: false,
   },
-  
 ];
 export const CapstoneFaqData9 = [
   {
@@ -1939,16 +1966,25 @@ export const jobFaqData9 = [
   {
     id: 2,
     ques: "What does a Career Service PRO package include?",
-    ans:(
+    ans: (
       <span>
-        <b>The Career Service PRO at Learnbay offers you the - </b> <br /> <br />
-        <span>• Three years of job placement assistance with unlimited access to interviews and learning portals</span> <br />
+        <b>The Career Service PRO at Learnbay offers you the - </b> <br />{" "}
+        <br />
+        <span>
+          • Three years of job placement assistance with unlimited access to
+          interviews and learning portals
+        </span>{" "}
+        <br />
         <span>• Six mock interviews with industry partners</span> <br />
         <span>• Powerful resume design to ace interviews</span> <br />
         <span>• 1:1 review session</span> <br />
         <span>• Unlimited interview calls</span> <br /> <br />
-        <span>At the end of the course, learners will be able to get these benefits that shall equip their career with the in-demand skills to crack the interviews with the leading MNCs. </span>
-      </span> 
+        <span>
+          At the end of the course, learners will be able to get these benefits
+          that shall equip their career with the in-demand skills to crack the
+          interviews with the leading MNCs.{" "}
+        </span>
+      </span>
     ),
     open: false,
   },
@@ -1957,14 +1993,36 @@ export const jobFaqData9 = [
     ques: "How is Learnbay's Placement program different from others? ",
     ans: (
       <span>
-        <span>When you get upskilled with Learnbay's course program successfully, you become eligible for its placement program. It offers -</span> <br /><br />
-        <span>• Guaranteed interview calls from prime MNCs & MAANG partnered with Learnbay.</span> <br />
-        <span>• Capstone project certification from IBM enhances the quality of your resume.</span> <br />
-        <span>• Domain-specialized training and upskilling help get selected in placement drives.</span> <br />
-        <span>• 100% live and instructor-led sessions refining the core concepts.</span> <br />
-        <span>• Personalized resume preparation helps showcase your proven skills & increase your chances of getting selected. </span> <br />
-    
-
+        <span>
+          When you get upskilled with Learnbay's course program successfully,
+          you become eligible for its placement program. It offers -
+        </span>{" "}
+        <br />
+        <br />
+        <span>
+          • Guaranteed interview calls from prime MNCs & MAANG partnered with
+          Learnbay.
+        </span>{" "}
+        <br />
+        <span>
+          • Capstone project certification from IBM enhances the quality of your
+          resume.
+        </span>{" "}
+        <br />
+        <span>
+          • Domain-specialized training and upskilling help get selected in
+          placement drives.
+        </span>{" "}
+        <br />
+        <span>
+          • 100% live and instructor-led sessions refining the core concepts.
+        </span>{" "}
+        <br />
+        <span>
+          • Personalized resume preparation helps showcase your proven skills &
+          increase your chances of getting selected.{" "}
+        </span>{" "}
+        <br />
       </span>
     ),
     open: false,
