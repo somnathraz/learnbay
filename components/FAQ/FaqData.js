@@ -1703,8 +1703,8 @@ export const SupportFaqData8 = [
 export const FaqData9 = [
   {
     id: 0,
-    ques: "Who is eligible for the Data Structures Algorithms and System Design Program?",
-    ans: "  Any tech professional (B.Tech, MCA, B.Sc, BE, M.Tech) with basic coding knowledge can enroll in the Data Structures Algorithms and System Design Program. However, a bachelor's degree in computer science or any equivalent domain with good academics is required to qualify for the program. For working professionals, a minimum of 6 months of expertise is essential. For non-tech professionals (BBA/MBA, B.Com), basic domain knowledge and six months of work experience make them eligible for the program.",
+    ques: "Who is eligible for the Software Development Master Program?",
+    ans: "  Any tech professional (B.Tech, MCA, B.Sc, BE, M.Tech) with basic coding knowledge can enroll in the Software Development Master Program. However, a bachelor's degree in computer science or any equivalent domain with good academics is required to qualify for the program. For working professionals, a minimum of 6 months of expertise is essential. For non-tech professionals (BBA/MBA, B.Com), basic domain knowledge and six months of work experience make them eligible for the program.",
     open: true,
   },
   {
@@ -1715,7 +1715,7 @@ export const FaqData9 = [
   },
   {
     id: 2,
-    ques: "What modules are covered in the Data Structures Algorithms & System Design Course?",
+    ques: "What modules are covered in the Software Development Master Course?",
     ans: (
       <sapn>
         The course module is designed separately for basic and advanced levels.{" "}
@@ -1816,10 +1816,10 @@ export const FaqData9 = [
   },
   {
     id: 6,
-    ques: "How long it takes to complete the Data Structures Algorithms and System Design Program?",
+    ques: "How long it takes to complete the Software Development Master Program?",
     ans: (
       <span>
-        The Data Structures Algorithms and System Design Program takes 400+
+        The Software Development Master Program takes 400+
         hours or 6.5 months. During the program, learners will get live training
         sessions, live projects, job-readiness assistance, & interview
         preparations under the guidance of mentors. One can complete the course
@@ -1886,8 +1886,8 @@ export const DomainFaqData9 = [
 export const PaymentFaqData9 = [
   {
     id: 0,
-    ques: "What is the course fee for the Data Structures Algorithms and System Design Program?",
-    ans: "The Data Structures Algorithms and System Design Program cost INR 1,15,000 + 18% GST. The working professionals willing to enroll in the course can visit the Learnbay website or schedule a call with our counselor for more details. To know more about the course, contact us at",
+    ques: "What is the course fee for the Software Development Master Program?",
+    ans: "The Software Development Master Program cost INR 1,15,000 + 18% GST. The working professionals willing to enroll in the course can visit the Learnbay website or schedule a call with our counselor for more details. To know more about the course, contact us at",
     linkText1: " +917795687988. ",
     link1: "tel:+917795687988",
     link: true,
@@ -1901,7 +1901,7 @@ export const PaymentFaqData9 = [
   },
   {
     id: 2,
-    ques: "Is there any scholarship or discount offer available for the Data Structures Algorithms and System Design Program? ",
+    ques: "Is there any scholarship or discount offer available for the Software Development Master Program? ",
     ans: (
       <span>
         Learnbay offers a 15% – 20% discount for early birds occasionally. Yet,
@@ -1945,7 +1945,7 @@ export const CertificationFaqData9 = [
   {
     id: 1,
     ques: "Is there any accredited certification after course completion?",
-    ans: "Yes, you will be awarded an IBM & Microsoft accredited Data Structures Algorithms & System Design Certificate on successful course completion.",
+    ans: "Yes, you will be awarded an IBM & Microsoft accredited Software Development Master Certificate on successful course completion.",
 
     open: false,
   },
