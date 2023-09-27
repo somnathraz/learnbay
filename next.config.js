@@ -943,7 +943,7 @@ module.exports = {
         source:
           "/software-development-program-with-specialization-in-cloud-computing-&-devops",
         destination:
-          "/fullstack/software-development-program-with-specialization-in-cloud-computing-&-devops",
+          "/fullstack/software-development-program-with-specialization-in-cloud-computing-and-devops",
         permanent: true,
       },
       {
