@@ -1,34 +1,33 @@
 import Head from "next/head";
-import styles from "../../../styles/Home.module.css";
-import FirstSection from "../../../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../../../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../../../components/CoursePage/GetHired/GetHired";
-import { ProgramFee } from "../../../components/CoursePage/ProgramFee/ProgramFee";
-import BoxShape from "../../../components/CoursePage/Boxshape/BoxShape";
-import Popup from "../../../components/Popup/Popup";
-import Navbar from "../../../components/Navbar/Navbar";
-import Footer from "../../../components/Footer/Footer";
-import BottomBar from "../../../components/BottomBar/BottomBar";
-import WhatsappFloat from "../../../components/WhatsappFloat/WhatsappFloat";
-import Form from "../../../components/Form/Form";
-import CityText from "../../../components/CityComponent/CityText/CityText";
-import CitiesLeft from "../../../components/CityComponent/CitiesLeft/CitiesLeft";
-import OfferPopup from "../../../components/OfferPopup/OfferPopup";
-import CitiesRight from "../../../components/CityComponent/CitiesRight/CitiesRight";
-import FAQNew from "../../../components/FAQNew/FAQNewcerelig";
-import LearnSupport from "../../../components/LearnSupport/LearnSupport";
 import React, { useState } from "react";
+import BottomBar from "../../../components/BottomBar/BottomBar";
+import CitiesLeft from "../../../components/CityComponent/CitiesLeft/CitiesLeft";
+import CitiesRight from "../../../components/CityComponent/CitiesRight/CitiesRight";
+import CityText from "../../../components/CityComponent/CityText/CityText";
+import BoxShape from "../../../components/CoursePage/Boxshape/BoxShape";
+import FirstSection from "../../../components/CoursePage/HeroSection/HeroSection";
+import { ProgramFee } from "../../../components/CoursePage/ProgramFee/ProgramFee";
+import ProgramInfo from "../../../components/CoursePage/ProgramInfo/ProgramInfo";
 import {
-  FullStackFaqDataDe,
-  FullStackDomainFaqDataDe,
-  FullStackPaymentFaqDataDe,
   FullStackCapstoneFaqDataDe,
-  FullStackjobFaqDataDe,
+  FullStackDomainFaqDataDe,
+  FullStackFaqDataDe,
   FullStackMentorshipFaqDataDe,
+  FullStackPaymentFaqDataDe,
   FullStackSupportFaqDataDe,
   FullStackeligibleFaqDataDe,
   FullStackgenericFaqDataDe,
+  FullStackjobFaqDataDe,
 } from "../../../components/FAQ/FaqDataCity";
+import FAQNew from "../../../components/FAQNew/FAQNewcerelig";
+import Footer from "../../../components/Footer/Footer";
+import Form from "../../../components/Form/Form";
+import LearnSupport from "../../../components/LearnSupport/LearnSupport";
+import Navbar from "../../../components/Navbar/Navbar";
+import OfferPopup from "../../../components/OfferPopup/OfferPopup";
+import Popup from "../../../components/Popup/Popup";
+import WhatsappFloat from "../../../components/WhatsappFloat/WhatsappFloat";
+import styles from "../../../styles/Home.module.css";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -187,9 +186,9 @@ export default function Home() {
               Asrc3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/kamlesh.jpg"
               AlumniH3="Kamlesh Sahu"
               Alumnip3="This Course Helped me in getting 6 month SDE INTERNSHIP at AMAZON,India. The advance DSA topics are taught and explained in such a simplified manner that even a newbie can catch up very easily."
-              Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Ashutosh.jpg"
-              AlumniH4="Ashutosh Chamoli"
-              Alumnip4="I have done the DS & Algo course from Learnbay. I learned from the basics time complexity, arrays, linked list, stack to advance data structures – trees, graphs etc. Getting into product based MNC was always my dream and this course helped me achieve it ."
+              Asrc4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Qudsia.png"
+              AlumniH4="Qudsia Tahniyath"
+              Alumnip4="Learnbay has helped me a lot to learn data science applications in the e-commerce industry. The live class concept was really helpful in receiving proper DS training. Thanks to all my mentors and the placement team."
               alt1="Full-Stack Software Developer Course training in Delhi"
               alt2="Full-Stack Software Developer Course training in Delhi"
               alt3="Full-Stack Software Developer Course training in Delhi"

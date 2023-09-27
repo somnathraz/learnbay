@@ -218,7 +218,7 @@ export const viewAllD = [
       "10 Advance + 2 Capstone",
       "Course Fee : ₹ 89,000 | No cost EMI",
     ],
-    link1: "/banking-finance-analytics",
+    link1: "/datascience/data-science-for-bfsi-professional",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
   },
@@ -584,7 +584,7 @@ export const ForNonProgrammerD = [
       "10 Advance + 2 Capstone",
       "Course Fee : ₹ 89,000 | No cost EMI",
     ],
-    link1: "/banking-finance-analytics",
+    link1: "/datascience/data-science-for-bfsi-professional",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
   },
@@ -597,8 +597,8 @@ export const ForNonProgrammerD = [
     tag: "Data science",
     tagHead: "Leadership Role In HR Domain",
     brochureLinks:
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf",
-  titleCourse: "HR Analytics Program",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf",
+    titleCourse: "HR Analytics Program",
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
@@ -617,8 +617,8 @@ export const ForNonProgrammerD = [
     tag: "Data science",
     tagHead: "Excel data-driven marketing",
     brochureLinks:
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf",
-  titleCourse: "Marketing Analytics Program",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf",
+    titleCourse: "Marketing Analytics Program",
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",

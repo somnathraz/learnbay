@@ -5,14 +5,13 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import {
-  FaTwitter,
-  FaFacebookF,
   FaLinkedinIn,
   FaYoutube,
   FaInstagram,
-  FaApple,
   FaAndroid,
 } from "react-icons/fa";
+
+import { FaSquareXTwitter, FaFacebookF } from "react-icons/fa6";
 
 const Footer = ({ FsdNumber, organicADSS }) => {
   return (
@@ -49,10 +48,10 @@ const Footer = ({ FsdNumber, organicADSS }) => {
           </p>
           <div className={styles.FooterSocial}>
             {organicADSS ? (
-              <FaTwitter className="bIcons" />
+              <FaSquareXTwitter className="bIcons" />
             ) : (
               <a href="https://twitter.com/Learnbay" target="_blank">
-                <FaTwitter className="bIcons" />
+                <FaSquareXTwitter className="bIcons" />
               </a>
             )}
             {organicADSS ? (
