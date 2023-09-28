@@ -60,7 +60,7 @@ function blockchain() {
           rel="canonical"
           href="https://www.learnbay.co/fullstack/software-development-program-with-specialization-in-cloud-computing-and-devops"
         />
-      </Head>
+      </Head> 
       <main>
         <Navbar popup={true} dataScienceCounselling={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">

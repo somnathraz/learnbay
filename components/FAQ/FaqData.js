@@ -1786,13 +1786,13 @@ export const FaqData9 = [
   },
   {
     id: 4,
-    ques: "Are the data structures and algorithms programs suitable for non-IT professionals?",
+    ques: "Are the Software Development Master programs suitable for non-IT professionals?",
     ans: (
       <span>
         While a background in programming or computer science can be helpful,
         it's not always necessary. We have our courses start from the basics and
         gradually build up the complexity. So, non-IT professionals can take the{" "}
-        <b>online data structures and algorithms course</b>. Only they need an
+        <b>online Software Development Master course</b>. Only they need an
         ample level of self-motivation. The course is structured to help
         learners with non-IT backgrounds easily understand the modules with the
         help of experienced mentors, 24/7 support, and one-on-one doubt
