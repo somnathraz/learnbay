@@ -1,34 +1,34 @@
-import React, { useState } from "react";
 import Head from "next/head";
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import BottomBar from "../components/BottomBar/BottomBar";
-import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
-import Form from "../components/Form/Form";
-import Popup from "../components/Popup/Popup";
-import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
-import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
-import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
-import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
-import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
-import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
+import React, { useState } from "react";
 import { DevOpsCourse } from "../Data/DevOpsCourse";
-import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
-import Counselling from "../components/NewDesign/Counselling/Counselling";
-import {
-  FaqDataDevops,
-  DomainFaqDataDevops,
-  PaymentFaqDataDevops,
-  CapstoneFaqDataDevops,
-  jobFaqDataDevops,
-  MentorshipFaqDataDevops,
-  SupportFaqDataDevops,
-} from "../components/NewDesign/FAQNew/FaqData";
+import BottomBar from "../components/BottomBar/BottomBar";
+import Footer from "../components/Footer/Footer";
+import Form from "../components/Form/Form";
+import Navbar from "../components/Navbar/Navbar";
 import BatchDetails from "../components/NewDesign/BatchDetails/BatchDetails";
-import Project from "../components/NewDesign/Project/Project";
-import Switch from "../components/NewDesign/switch/switch";
-import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
+import Counselling from "../components/NewDesign/Counselling/Counselling";
+import FAQNew from "../components/NewDesign/FAQNew/FAQNewcer";
+import {
+  CapstoneFaqDataDevops,
+  DomainFaqDataDevops,
+  FaqDataDevops,
+  MentorshipFaqDataDevops,
+  PaymentFaqDataDevops,
+  SupportFaqDataDevops,
+  jobFaqDataDevops,
+} from "../components/NewDesign/FAQNew/FaqData";
+import FifthSection from "../components/NewDesign/FifthSection/FifthSection";
+import FirstSection from "../components/NewDesign/FirstSection/FirstSection";
+import FourthSection from "../components/NewDesign/FourthSection/FourthSection";
 import GrowthStats from "../components/NewDesign/GrowthStat/GrowthStats";
+import ProgramCustomer from "../components/NewDesign/ProgramCustomer/ProgramCustomer";
+import Project from "../components/NewDesign/Project/Project";
+import SecondSection from "../components/NewDesign/SecondSection/SecondSection";
+import SeventhSection from "../components/NewDesign/SeventhSection/SeventhSection";
+import ThirdSection from "../components/NewDesign/ThirdSection/ThirdSection";
+import Switch from "../components/NewDesign/switch/switch";
+import Popup from "../components/Popup/Popup";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
 
 function blockchain() {
   const [popups, setPopups] = useState(false);
@@ -57,7 +57,7 @@ function blockchain() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/fullstack/software-development-program-with-specialization-in-cloud-computing-&-devops"
+          href="https://www.learnbay.co/fullstack/software-development-program-with-specialization-in-cloud-computing-and-devops"
         />
       </Head>
       <main>

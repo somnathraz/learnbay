@@ -2062,8 +2062,8 @@ export const FaqDataMore9 = [
   },
   {
     id: 4,
-    ques: "What are the programming languages that are used in Data Structures and Algorithms Course?",
-    ans: "Java, Python, C++, Javascript, etc are available with us to teach Data Structures and Algorithms Course.",
+    ques: "What are the programming languages that are used in Software Development Master Course?",
+    ans: "Java, Python, C++, Javascript, etc are available with us to teach Software Development Master Course.",
     open: false,
   },
   {
@@ -2323,8 +2323,8 @@ export const FaqDataMoreBlockchain = [
   },
   {
     id: 4,
-    ques: "What are the programming languages that are used in Data Structures and Algorithms Course?",
-    ans: "Java, Python, C++, Javascript, etc are available with us to teach Data Structures and Algorithms Course.",
+    ques: "What are the programming languages that are used in Software Development Master Course?",
+    ans: "Java, Python, C++, Javascript, etc are available with us to teach Software Development Master Course.",
     open: false,
   },
   {
@@ -2584,8 +2584,8 @@ export const FaqDataMoreDevops = [
   },
   {
     id: 4,
-    ques: "What are the programming languages that are used in Data Structures and Algorithms Course?",
-    ans: "Java, Python, C++, Javascript, etc are available with us to teach Data Structures and Algorithms Course.",
+    ques: "What are the programming languages that are used in Software Development Master Course?",
+    ans: "Java, Python, C++, Javascript, etc are available with us to teach Software Development Master Course.",
     open: false,
   },
   {
