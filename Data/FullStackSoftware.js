@@ -349,7 +349,7 @@ export const FullStackSoftwareCourseData = [
           id: 1,
           open: false,
         },
-      },   
+      },
       {
         Module0: {
           title: "Term 3 :- CS Fundamentals & DBMS",
@@ -367,7 +367,7 @@ export const FullStackSoftwareCourseData = [
                   "Transaction Management",
                   "Database Security and Authorisation",
                   "Backup, Recovery, and Integrity",
-                  "Emerging Trends in Database Management"
+                  "Emerging Trends in Database Management",
                 ],
               },
             },
@@ -387,7 +387,6 @@ export const FullStackSoftwareCourseData = [
                   "Domain Name System (DNS)",
                   "Cloud Networking",
                   "Emerging Trends in Computer Networking",
-                
                 ],
               },
             },
@@ -406,12 +405,9 @@ export const FullStackSoftwareCourseData = [
                   "Virtualization and Cloud Computing",
                   "Distributed Operating Systems",
                   "Real-Time Operating Systems (RTOS)",
-                  
-                
                 ],
               },
             },
-           
           ],
           id: 2,
           open: false,
@@ -548,7 +544,6 @@ export const FullStackSoftwareCourseData = [
                   "Node.js and Express.js",
                   "Database",
                   "Authentication and Security",
-
                 ],
               },
             },
@@ -567,11 +562,9 @@ export const FullStackSoftwareCourseData = [
                   "Springboot",
                   "Advance Java (Servlet + JSP)",
                   "Other Technologies",
-                  
-                 
                 ],
               },
-            }
+            },
           ],
           id: 4,
           open: false,
@@ -587,7 +580,7 @@ export const FullStackSoftwareCourseData = [
                 desc: [
                   "Creating a new Spring Boot project",
                   "Dependency management with Maven or Gradle",
-                  "Defining application properties (e.g., database configuration, logging)",   
+                  "Defining application properties (e.g., database configuration, logging)",
                 ],
               },
             },
@@ -597,7 +590,7 @@ export const FullStackSoftwareCourseData = [
                 desc: [
                   "Integrating Spring Boot with relational databases (e.g., MySQL, PostgreSQL)",
                   "Using Spring Data JPA for database interactions",
-                  "Implementing CRUD operations with JPA repositories", 
+                  "Implementing CRUD operations with JPA repositories",
                 ],
               },
             },
@@ -615,11 +608,11 @@ export const FullStackSoftwareCourseData = [
 
             {
               chap: {
-                title: "Module 4 :- Building and Packaging Spring Boot Applications",
+                title:
+                  "Module 4 :- Building and Packaging Spring Boot Applications",
                 desc: [
                   "Creating executable JARs or WARs",
                   "Deploying Spring Boot applications to local and remote servers",
-                  
                 ],
               },
             },
@@ -632,8 +625,6 @@ export const FullStackSoftwareCourseData = [
                   "Implementing RESTful APIs with Spring Web",
                   "Handling HTTP requests and responses",
                   "Data validation and error handling",
-
-                  
                 ],
               },
             },
@@ -641,13 +632,9 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Module 6 :- Testing Spring Boot Applications",
                 desc: [
-
                   "Writing unit tests for Spring components (e.g., controllers, services)",
                   "Using JUnit and Mockito for testing",
-                  "Understanding test best practices and test coverage"
-                 
-
-                  
+                  "Understanding test best practices and test coverage",
                 ],
               },
             },
@@ -655,12 +642,8 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Module 7 :- Spring Boot Actuator",
                 desc: [
-
                   "Monitoring and managing Spring Boot applications using Actuator endpoints",
                   "Customizing Actuator endpoints and security configurations",
-                 
-
-                  
                 ],
               },
             },
@@ -668,10 +651,9 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Module 8 :- Containerization and Deployment",
                 desc: [
-
                   "Introduction to Docker and containerization",
                   "Dockerizing a Spring Boot application",
-                  "Deploying Spring Boot apps to cloud platforms (e.g., AWS, Azure, Google Cloud)",  
+                  "Deploying Spring Boot apps to cloud platforms (e.g., AWS, Azure, Google Cloud)",
                 ],
               },
             },
@@ -679,10 +661,8 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Module 9 :- Containerization and Deployment",
                 desc: [
-
                   "Setting up CI/CD pipelines with tools like Jenkins or GitLab CI",
                   "Automating the deployment process",
-                  
                 ],
               },
             },
@@ -690,10 +670,8 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Module 10 :- Monitoring and Scaling",
                 desc: [
-
                   "Utilizing monitoring tools (e.g., Spring Boot Admin, Prometheus, Grafana)",
                   "Scaling Spring Boot applications in different deployment environments",
-                  
                 ],
               },
             },
@@ -701,13 +679,11 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Module 11 :- Troubleshooting and Best Practices",
                 desc: [
-
                   "Identifying and resolving common issues",
                   "Adopting best practices for Spring Boot application development and deployment",
-                  
                 ],
               },
-            }
+            },
           ],
           id: 5,
           open: false,
@@ -715,7 +691,6 @@ export const FullStackSoftwareCourseData = [
       },
     ],
     advSyllabus: [
-  
       {
         Module0: {
           title: "Term 1 :- DSA",
@@ -926,7 +901,7 @@ export const FullStackSoftwareCourseData = [
           id: 0,
           open: false,
         },
-      },   
+      },
       {
         Module0: {
           title: "Term 2 :- CS Fundamentals & DBMS",
@@ -944,7 +919,7 @@ export const FullStackSoftwareCourseData = [
                   "Transaction Management",
                   "Database Security and Authorisation",
                   "Backup, Recovery, and Integrity",
-                  "Emerging Trends in Database Management"
+                  "Emerging Trends in Database Management",
                 ],
               },
             },
@@ -964,7 +939,6 @@ export const FullStackSoftwareCourseData = [
                   "Domain Name System (DNS)",
                   "Cloud Networking",
                   "Emerging Trends in Computer Networking",
-                
                 ],
               },
             },
@@ -983,12 +957,9 @@ export const FullStackSoftwareCourseData = [
                   "Virtualization and Cloud Computing",
                   "Distributed Operating Systems",
                   "Real-Time Operating Systems (RTOS)",
-                  
-                
                 ],
               },
             },
-           
           ],
           id: 1,
           open: false,
@@ -1125,7 +1096,6 @@ export const FullStackSoftwareCourseData = [
                   "Node.js and Express.js",
                   "Database",
                   "Authentication and Security",
-
                 ],
               },
             },
@@ -1144,11 +1114,9 @@ export const FullStackSoftwareCourseData = [
                   "Springboot",
                   "Advance Java (Servlet + JSP)",
                   "Other Technologies",
-                  
-                 
                 ],
               },
-            }
+            },
           ],
           id: 3,
           open: false,
@@ -1164,7 +1132,7 @@ export const FullStackSoftwareCourseData = [
                 desc: [
                   "Creating a new Spring Boot project",
                   "Dependency management with Maven or Gradle",
-                  "Defining application properties (e.g., database configuration, logging)",   
+                  "Defining application properties (e.g., database configuration, logging)",
                 ],
               },
             },
@@ -1174,7 +1142,7 @@ export const FullStackSoftwareCourseData = [
                 desc: [
                   "Integrating Spring Boot with relational databases (e.g., MySQL, PostgreSQL)",
                   "Using Spring Data JPA for database interactions",
-                  "Implementing CRUD operations with JPA repositories", 
+                  "Implementing CRUD operations with JPA repositories",
                 ],
               },
             },
@@ -1192,11 +1160,11 @@ export const FullStackSoftwareCourseData = [
 
             {
               chap: {
-                title: "Module 4 :- Building and Packaging Spring Boot Applications",
+                title:
+                  "Module 4 :- Building and Packaging Spring Boot Applications",
                 desc: [
                   "Creating executable JARs or WARs",
                   "Deploying Spring Boot applications to local and remote servers",
-                  
                 ],
               },
             },
@@ -1209,8 +1177,6 @@ export const FullStackSoftwareCourseData = [
                   "Implementing RESTful APIs with Spring Web",
                   "Handling HTTP requests and responses",
                   "Data validation and error handling",
-
-                  
                 ],
               },
             },
@@ -1218,13 +1184,9 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Module 6 :- Testing Spring Boot Applications",
                 desc: [
-
                   "Writing unit tests for Spring components (e.g., controllers, services)",
                   "Using JUnit and Mockito for testing",
-                  "Understanding test best practices and test coverage"
-                 
-
-                  
+                  "Understanding test best practices and test coverage",
                 ],
               },
             },
@@ -1232,12 +1194,8 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Module 7 :- Spring Boot Actuator",
                 desc: [
-
                   "Monitoring and managing Spring Boot applications using Actuator endpoints",
                   "Customizing Actuator endpoints and security configurations",
-                 
-
-                  
                 ],
               },
             },
@@ -1245,10 +1203,9 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Module 8 :- Containerization and Deployment",
                 desc: [
-
                   "Introduction to Docker and containerization",
                   "Dockerizing a Spring Boot application",
-                  "Deploying Spring Boot apps to cloud platforms (e.g., AWS, Azure, Google Cloud)",  
+                  "Deploying Spring Boot apps to cloud platforms (e.g., AWS, Azure, Google Cloud)",
                 ],
               },
             },
@@ -1256,10 +1213,8 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Module 9 :- Containerization and Deployment",
                 desc: [
-
                   "Setting up CI/CD pipelines with tools like Jenkins or GitLab CI",
                   "Automating the deployment process",
-                  
                 ],
               },
             },
@@ -1267,10 +1222,8 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Module 10 :- Monitoring and Scaling",
                 desc: [
-
                   "Utilizing monitoring tools (e.g., Spring Boot Admin, Prometheus, Grafana)",
                   "Scaling Spring Boot applications in different deployment environments",
-                  
                 ],
               },
             },
@@ -1278,13 +1231,11 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Module 11 :- Troubleshooting and Best Practices",
                 desc: [
-
                   "Identifying and resolving common issues",
                   "Adopting best practices for Spring Boot application development and deployment",
-                  
                 ],
               },
-            }
+            },
           ],
           id: 4,
           open: false,
@@ -1310,12 +1261,12 @@ export const FullStackSoftwareCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 2 :- Date And time ",
-                desc: ["Date : 24th September 2023", "Time : 8:30 AM to 12 PM"],
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
               },
             },
           ],
@@ -1325,12 +1276,15 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time :  7:30 AM to 9:30 AM"],
+                title: "Batch 2 :- Date And time ",
+                desc: [
+                  "Date : 20th October 2023",
+                  "Time :  7:30 AM to 9:30 AM",
+                ],
               },
             },
           ],

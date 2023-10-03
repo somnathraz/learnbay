@@ -706,12 +706,12 @@ export const SpecDSAICourse = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 22nd September 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 6th October 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -721,12 +721,12 @@ export const SpecDSAICourse = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 28th September 2023", "Time : 8 PM to 10 PM"],
+                title: "Batch 2 :- Date And time ",
+                desc: ["Date : 20th October 2023", "Time : 8 AM to 10AM"],
               },
             },
           ],
