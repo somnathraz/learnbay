@@ -117,12 +117,10 @@ export default function Home() {
           name="twitter:image"
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
         ></meta>
-
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -169,7 +167,81 @@ export default function Home() {
                  } `,
           }}
         />
-
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Learnbay- Data Science and Data Analytics Training in Pune",
+      "image": "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100",
+      "@id": "",
+      "url": "https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune",
+      "telephone": "(+91) 77956 87988",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "office no. 408, 4th floor, Inorbit mall, City Space, opposite to Fiserv, Viman Nagar",
+        "addressLocality": "Pune, Maharashtra",
+        "postalCode": "411014",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.801159281162093,
+        "longitude": 73.86267542806505
+      },
+      "openingHoursSpecification": [
+        {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "18:00"
+      },
+       {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Saturday"
+        ],
+        "opens": "10:00",
+        "closes": "15:00"
+     }
+         ],    
+         "sameAs": [
+                "https://www.facebook.com/learnbay/",
+                "https://twitter.com/Learbay",
+                "https://www.instagram.com/learnbayofficial/",
+                "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
+                "https://www.linkedin.com/company/learnbay/"
+              ] 
+} `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
+              "@context": "https://schema.org",
+              "@type": "EducationalOrganization",
+              "name": "Learnbay",
+              "alternateName": "Learnbay - Data Science course in Pune",
+              "url": "https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune",
+              "logo": "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FALight%2Flearnbay-logo.png&w=256&q=100",
+              "sameAs": [
+                "https://www.facebook.com/learnbay/",
+                "https://instagram.com/learnbayofficial",
+                "https://twitter.com/Learnbay",
+                "https://bit.ly/Learnbay_YouTube",
+                "https://www.linkedin.com/company/learnbay/"
+              ]
+                 } `,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -409,7 +481,6 @@ export default function Home() {
                  } `,
           }}
         />
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
