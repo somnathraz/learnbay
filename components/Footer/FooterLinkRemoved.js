@@ -105,8 +105,7 @@ const Footer = ({ FsdNumber }) => {
           <p className={styles.FooterInnerP}>Project Innovation Lab Address </p>
           <p className={styles.FooterInnerP}>Pune </p>
           <p className={styles.FooterInnerli}>
-            Sky Loft, Creaticity Mall, Opposite Golf Course, Airport Rd,
-            Shastrinagar, Yerawada, Pune, Maharashtra 411006
+          Ofc no. 408, 4th floor, Inorbit mall, City Space, opp to Fiserv, Viman Nagar, Pune, Maharashtra 411014
           </p>
         </div>
 
