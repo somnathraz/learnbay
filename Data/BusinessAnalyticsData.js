@@ -80,7 +80,7 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Module 1 :- Excel",
+          title: "Term 1 :- Excel",
           content: [
             {
               chap: {
@@ -166,18 +166,6 @@ export const BusinessAnalyticsCourseData = [
                 ],
               },
             },
-            {
-              chap: {
-                title: "Topic 8 :- Creating Charts",
-                desc: [
-                  "Creating & Working with Charts",
-                  "Creating a Chart",
-                  "Moving and Resizing a Chart",
-                  "Formatting and Editing Objects in a Chart",
-                  "Changing a Chart's Source Data",
-                ],
-              },
-            },
           ],
           id: 1,
           open: false,
@@ -185,7 +173,7 @@ export const BusinessAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Module 2 :- Applied business statistics",
+          title: "Term 2 :- Applied business statistics",
           content: [
             {
               chap: {
