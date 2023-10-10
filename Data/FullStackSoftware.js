@@ -1261,12 +1261,15 @@ export const FullStackSoftwareCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
+                title: "Batch 2 :- Date And time ",
+                desc: [
+                  "Date : 20th October 2023",
+                  "Time :  7:30 AM to 9:30 AM",
+                ],
               },
             },
           ],
@@ -1276,14 +1279,14 @@ export const FullStackSoftwareCourseData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 2 :- Date And time ",
+                title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 20th October 2023",
-                  "Time :  7:30 AM to 9:30 AM",
+                  "Date : 13th November 2023",
+                  "Time : 7:30 AM to 9:30 AM",
                 ],
               },
             },
