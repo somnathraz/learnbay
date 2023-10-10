@@ -45,23 +45,6 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
             <>
               {FullStack ? (
                 <div className={styles.NewBatch}>
-                  <div className={styles.NewBlue}>
-                    <div>
-                      <p className={styles.listDay}>
-                      Weekday Morning (Mon-Wed-Fri)
-                      </p>
-                    </div>
-                    <div className={styles.listMobile}>
-                      <p className={styles.list}>
-                        <MdDateRange className={styles.iconOrange} />
-                        6th October 2023
-                      </p>
-                      <p className={styles.list}>
-                        <BiTimeFive className={styles.iconBlue} />
-                        7:30 AM to 9:30 AM
-                      </p>
-                    </div>
-                  </div>
                   <div className={styles.NewOrange}>
                     <div>
                       <p className={styles.listDay}>
@@ -72,6 +55,23 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
                         20th October 2023
+                      </p>
+                      <p className={styles.list}>
+                        <BiTimeFive className={styles.iconBlue} />
+                        7:30 AM to 9:30 AM
+                      </p>
+                    </div>
+                  </div>
+                  <div className={styles.NewBlue}>
+                    <div>
+                      <p className={styles.listDay}>
+                      Weekday Morning (Mon-Wed-Fri)
+                      </p>
+                    </div>
+                    <div className={styles.listMobile}>
+                      <p className={styles.list}>
+                        <MdDateRange className={styles.iconOrange} />
+                        13th November 2023
                       </p>
                       <p className={styles.list}>
                         <BiTimeFive className={styles.iconBlue} />
@@ -189,25 +189,6 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
             <>
               {FullStack ? (
                 <div className={styles.NewBatch}>
-                  <div className={styles.NewBlue}>
-                    <div>
-                      <p className={styles.listDay}>
-                      Weekday Morning (Mon-Wed-Fri)
-                      </p>
-                    </div>
-                    <div>
-                      <p className={styles.list}>
-                        <MdDateRange className={styles.iconOrange} />
-                        6th October 2023
-                      </p>
-                    </div>
-                    <div>
-                      <p className={styles.list}>
-                        <BiTimeFive className={styles.iconBlue} />
-                        7:30 AM to 9:30 AM
-                      </p>
-                    </div>
-                  </div>
                   <div className={styles.NewOrange}>
                     <div>
                       <p className={styles.listDay}>
@@ -218,6 +199,25 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                       <p className={styles.list}>
                         <MdDateRange className={styles.iconOrange} />
                         20th October 2023
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <BiTimeFive className={styles.iconBlue} />
+                        7:30 AM to 9:30 AM
+                      </p>
+                    </div>
+                  </div>
+                  <div className={styles.NewBlue}>
+                    <div>
+                      <p className={styles.listDay}>
+                      Weekday Morning (Mon-Wed-Fri)
+                      </p>
+                    </div>
+                    <div>
+                      <p className={styles.list}>
+                        <MdDateRange className={styles.iconOrange} />
+                        13th November 2023
                       </p>
                     </div>
                     <div>
@@ -254,25 +254,7 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                     </div>
                   ) : (
                     <div className={styles.NewBatch}>
-                      <div className={styles.NewBlue}>
-                        <div>
-                          <p className={styles.listDay}>
-                            Weekday Evening (Mon-Fri)
-                          </p>
-                        </div>
-                        <div>
-                          <p className={styles.list}>
-                            <MdDateRange className={styles.iconOrange} />
-                            6th October 2023
-                          </p>
-                        </div>
-                        <div>
-                          <p className={styles.list}>
-                            <BiTimeFive className={styles.iconBlue} />8 PM to
-                            10PM
-                          </p>
-                        </div>
-                      </div>
+                      
                       <div className={styles.NewOrange}>
                         <div>
                           <p className={styles.listDay}>
@@ -289,6 +271,25 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                           <p className={styles.list}>
                             <BiTimeFive className={styles.iconBlue} />8 AM to
                             10AM
+                          </p>
+                        </div>
+                      </div>
+                      <div className={styles.NewBlue}>
+                        <div>
+                          <p className={styles.listDay}>
+                            Weekday Evening (Mon-Fri)
+                          </p>
+                        </div>
+                        <div>
+                          <p className={styles.list}>
+                            <MdDateRange className={styles.iconOrange} />
+                            3rd November 2023
+                          </p>
+                        </div>
+                        <div>
+                          <p className={styles.list}>
+                            <BiTimeFive className={styles.iconBlue} />8 PM to
+                            10PM
                           </p>
                         </div>
                       </div>

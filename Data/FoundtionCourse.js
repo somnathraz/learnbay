@@ -259,12 +259,12 @@ export const FoundtionCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 8 PM to 10 PM"],
+                title: "Batch 2 :- Date And time ",
+                desc: ["Date : 20th October 2023", "Time : 8 AM to 10AM"],
               },
             },
           ],
@@ -274,12 +274,12 @@ export const FoundtionCourseData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 2 :- Date And time ",
-                desc: ["Date : 20th October 2023", "Time : 8 AM to 10AM"],
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 3rd November 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
