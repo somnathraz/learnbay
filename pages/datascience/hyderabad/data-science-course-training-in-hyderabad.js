@@ -424,6 +424,30 @@ export default function Home() {
           }}
         />
 
+<script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Data Science Course in Hyderabad | Data Science Training in Hyderabad - Learnbay",
+  "image": "",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "10256"
+  }
+}
+`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
