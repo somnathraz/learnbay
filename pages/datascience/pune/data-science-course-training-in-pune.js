@@ -500,7 +500,7 @@ export default function Home() {
     "ratingValue": "4.9",
     "bestRating": "5",
     "worstRating": "1",
-    "ratingCount": "11256"
+    "ratingCount": "12693"
   }
 }
 `,
