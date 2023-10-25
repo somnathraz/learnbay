@@ -1,13 +1,11 @@
 import React, { useState } from "react";
-import styles from "./CourseFee.module.css";
-import { BiTimeFive } from "react-icons/bi";
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { AiOutlineBars, AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
+import { BiCheck, BiTimeFive } from "react-icons/bi";
 import { BsFillCircleFill } from "react-icons/bs";
-import { BiCheck } from "react-icons/bi";
 import { MdDateRange } from "react-icons/md";
-import { AiOutlineBars } from "react-icons/ai";
-import Popup from "/components/Popup/Popup";
+import styles from "./CourseFee.module.css";
 import Form from "/components/Form/Form";
+import Popup from "/components/Popup/Popup";
 
 const CourseFee = ({
   CourseFeeHead,
@@ -212,8 +210,10 @@ const CourseFee = ({
                           <AiOutlineBars className={styles.icon} />
                           <b>Batch Type</b>
                         </p>
-                        <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
-                        <p className={styles.list}>Weekday Morning (Mon-Wed-Fri)</p>
+                        <p className={styles.list}>Weekday Evening (Mon-Wed-Fri)</p>
+                        <p className={styles.list}>
+                          Weekday Morning (Mon-Wed-Fri)
+                        </p>
                       </div>
                     </div>
                     <div>
@@ -222,8 +222,8 @@ const CourseFee = ({
                           <MdDateRange className={styles.icon} />
                           <b>Date</b>
                         </p>
-                        <p className={styles.list}>20th October 2023</p>
-                        <p className={styles.list}>13th November 2023</p>
+                        <p className={styles.list}>10th November 2023</p>
+                        <p className={styles.list}>17th November 2023</p>
                       </div>
                     </div>
                     <div>
@@ -232,7 +232,7 @@ const CourseFee = ({
                           <BiTimeFive className={styles.icon} />
                           <b>Time</b>
                         </p>
-                        <p className={styles.list}>7:30 AM to 9:30 AM</p>
+                        <p className={styles.list}>8 PM to 10 PM</p>
                         <p className={styles.list}>7:30 AM to 9:30 AM</p>
                       </div>
                     </div>
