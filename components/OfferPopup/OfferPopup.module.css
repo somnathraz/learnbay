@@ -22,7 +22,7 @@
   justify-content: center;
 }
 .Offer h6 {
-  font-size: 21px;
+  font-size: 22px;
   margin: 0;
 }
 .Offer p {
@@ -60,4 +60,7 @@
     height: 340px;
     padding: 0;
   }
+.Offer {
+  padding-top: 30px;
+}
 }
