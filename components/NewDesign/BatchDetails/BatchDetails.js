@@ -107,34 +107,32 @@ function BatchDetails({ BAFamily, WebDev, FullStack }) {
                       <div className={styles.NewOrange}>
                         <div>
                           <p className={styles.listDay}>
-                            Weekday Morning (Mon-Fri)
+                          Weekend Morning (Sat-Sun)
                           </p>
                         </div>
                         <div className={styles.listMobile}>
                           <p className={styles.list}>
                             <MdDateRange className={styles.iconOrange} />
-                            22nd September 2023
+                            29th October 2023
                           </p>
                           <p className={styles.list}>
-                            <BiTimeFive className={styles.iconBlue} />8 AM to 10
-                            AM
+                            <BiTimeFive className={styles.iconBlue} />9:30 AM to 1 PM
                           </p>
                         </div>
                       </div>
                       <div className={styles.NewBlue}>
                         <div>
                           <p className={styles.listDay}>
-                            Weekday Evening (Mon-Fri)
+                          Weekday Evening (Mon-Fri)
                           </p>
                         </div>
                         <div className={styles.listMobile}>
                           <p className={styles.list}>
                             <MdDateRange className={styles.iconOrange} />
-                            22nd September 2023
+                            3rd November 2023
                           </p>
                           <p className={styles.list}>
-                            <BiTimeFive className={styles.iconBlue} />8 PM to 10
-                            PM
+                            <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
                           </p>
                         </div>
                       </div>
