@@ -71,7 +71,7 @@ export default function Home() {
       <Testimonial />
       <ContactUs popup={true} dataScienceGeneric={true} radio={true} />
       <SeventhSection whatsappShow={true} />
-      <BottomBar whatsappShow={true} />
+      <BottomBar />
       <Footer organicADSS={true} />
       <WhatsappFloat chat360code1={true} />
     </div>

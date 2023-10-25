@@ -70,7 +70,7 @@ export default function Home() {
       <ContactUs popup={true} dataScienceCounselling={true} radio={true} />
       <SeventhSection whatsappShow={true} />
       <OfferPopup offer={false} />
-      <BottomBar whatsappShow={true} />
+      <BottomBar />
       <Footer />
       <WhatsappFloat chat360code1={true} />
     </div>
