@@ -303,7 +303,7 @@ export const PaymentFaqData2 = [
   {
     id: 0,
     ques: "What is the total Fee for the Advanced Data Science and AI Program?",
-    ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 95,000 + 18% GST.",
+    ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 99,000 + 18% GST.",
     open: true,
   },
   {
@@ -1819,11 +1819,11 @@ export const FaqData9 = [
     ques: "How long it takes to complete the Software Development Master Program?",
     ans: (
       <span>
-        The Software Development Master Program takes 400+
-        hours or 6.5 months. During the program, learners will get live training
-        sessions, live projects, job-readiness assistance, & interview
-        preparations under the guidance of mentors. One can complete the course
-        modules and projects per batch timings.
+        The Software Development Master Program takes 400+ hours or 6.5 months.
+        During the program, learners will get live training sessions, live
+        projects, job-readiness assistance, & interview preparations under the
+        guidance of mentors. One can complete the course modules and projects
+        per batch timings.
       </span>
     ),
     open: false,

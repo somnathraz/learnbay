@@ -1,37 +1,35 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
-import Popup from "../components/Popup/Popup";
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import BottomBar from "../components/BottomBar/BottomBar";
-import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
-import Form from "../components/Form/Form";
-import CityText from "../components/CityComponent/CityText/CityText";
-import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
-import OfferPopup from "../components/OfferPopup/OfferPopup";
-import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
-import FAQNew from "../components/FAQNewCity/FAQNew";
 import React, { useState } from "react";
+import BottomBar from "../components/BottomBar/BottomBar";
+import CitiesLeft from "../components/CityComponent/CitiesLeft/CitiesLeft";
+import CitiesRight from "../components/CityComponent/CitiesRight/CitiesRight";
+import CityText from "../components/CityComponent/CityText/CityText";
+import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
+import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
+import FAQNew from "../components/FAQNewCity/FAQNew";
+import Footer from "../components/Footer/Footer";
+import Form from "../components/Form/Form";
 import LearnSupport from "../components/LearnSupport/LearnSupport";
-import YoutubeVideo from "../components/YoutubeVideo/YoutubeVideo";
-import Image from "next/image";
 import Maps from "../components/Maps/Maps";
+import Navbar from "../components/Navbar/Navbar";
+import OfferPopup from "../components/OfferPopup/OfferPopup";
+import Popup from "../components/Popup/Popup";
+import WhatsappFloat from "../components/WhatsappFloat/WhatsappFloat";
+import YoutubeVideo from "../components/YoutubeVideo/YoutubeVideo";
+import styles from "../styles/Home.module.css";
 
 import {
-  AdvanceFaqDataB,
-  AdvanceDomainFaqDataB,
-  AdvancePaymentFaqDataB,
   AdvanceCapstoneFaqDataB,
   AdvanceCertificationFaqDataB,
-  AdvancejobFaqDataB,
+  AdvanceDomainFaqDataB,
+  AdvanceFaqDataB,
   AdvanceMentorshipFaqDataB,
+  AdvancePaymentFaqDataB,
   AdvanceSupportFaqDataB,
+  AdvancejobFaqDataB,
 } from "../components/FAQ/FaqDataCity";
-import { IoCalendarNumberSharp } from "react-icons/io5";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -561,12 +559,12 @@ export default function Home() {
             p3="Career Assistance"
             p33="For Professionals"
             p4="Financing as low as"
-            p44="₹ 9,342/month"
+            p44="₹ 9,735/month"
           />
         </div>
         <ProgramFee
-          Fee="₹95,000 + GST"
-          Emi="₹ 9,342/month"
+          Fee="₹99,000 + GST"
+          Emi="₹ 9,735/month"
           dataScienceCounselling={true}
         />
         <script
@@ -969,7 +967,7 @@ export default function Home() {
                   </li>
                   <li>
                     The advanced data science course fees in Bangalore are INR
-                    95,000, exclusive of GST.
+                    99,000, exclusive of GST.
                   </li>
                 </ol>,
 
