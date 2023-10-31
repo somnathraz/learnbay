@@ -303,7 +303,7 @@ export const PaymentFaqData2 = [
   {
     id: 0,
     ques: "What is the total Fee for the Advanced Data Science and AI Program?",
-    ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 95,000 + 18% GST.",
+    ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 99,000 + 18% GST.",
     open: true,
   },
   {

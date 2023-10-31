@@ -1,33 +1,32 @@
 import Head from "next/head";
-import styles from "../../../styles/Home.module.css";
-import FirstSection from "../../../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../../../components/CoursePage/ProgramInfo/ProgramInfo";
-import GetHired from "../../../components/CoursePage/GetHired/GetHired";
-import { ProgramFee } from "../../../components/CoursePage/ProgramFee/ProgramFee";
-import BoxShape from "../../../components/CoursePage/Boxshape/BoxShape";
-import Popup from "../../../components/Popup/Popup";
-import Navbar from "../../../components/Navbar/Navbar";
-import Footer from "../../../components/Footer/Footer";
-import BottomBar from "../../../components/BottomBar/BottomBar";
-import WhatsappFloat from "../../../components/WhatsappFloat/WhatsappFloat";
-import Form from "../../../components/Form/Form";
-import CityText from "../../../components/CityComponent/CityText/CityText";
-import CitiesLeft from "../../../components/CityComponent/CitiesLeft/CitiesLeft";
-import OfferPopup from "../../../components/OfferPopup/OfferPopup";
-import CitiesRight from "../../../components/CityComponent/CitiesRight/CitiesRight";
-import FAQNew from "../../../components/FAQNewCity/FAQNew";
 import React, { useState } from "react";
-import LearnSupport from "../../../components/LearnSupport/LearnSupport";
+import BottomBar from "../../../components/BottomBar/BottomBar";
+import CitiesLeft from "../../../components/CityComponent/CitiesLeft/CitiesLeft";
+import CitiesRight from "../../../components/CityComponent/CitiesRight/CitiesRight";
+import CityText from "../../../components/CityComponent/CityText/CityText";
+import BoxShape from "../../../components/CoursePage/Boxshape/BoxShape";
+import FirstSection from "../../../components/CoursePage/HeroSection/HeroSection";
+import { ProgramFee } from "../../../components/CoursePage/ProgramFee/ProgramFee";
+import ProgramInfo from "../../../components/CoursePage/ProgramInfo/ProgramInfo";
 import {
-  AdvanceFaqDataC,
-  AdvanceDomainFaqDataC,
-  AdvancePaymentFaqDataC,
   AdvanceCapstoneFaqDataC,
   AdvanceCertificationFaqDataC,
-  AdvancejobFaqDataC,
+  AdvanceDomainFaqDataC,
+  AdvanceFaqDataC,
   AdvanceMentorshipFaqDataC,
+  AdvancePaymentFaqDataC,
   AdvanceSupportFaqDataC,
+  AdvancejobFaqDataC,
 } from "../../../components/FAQ/FaqDataCity";
+import FAQNew from "../../../components/FAQNewCity/FAQNew";
+import Footer from "../../../components/Footer/Footer";
+import Form from "../../../components/Form/Form";
+import LearnSupport from "../../../components/LearnSupport/LearnSupport";
+import Navbar from "../../../components/Navbar/Navbar";
+import OfferPopup from "../../../components/OfferPopup/OfferPopup";
+import Popup from "../../../components/Popup/Popup";
+import WhatsappFloat from "../../../components/WhatsappFloat/WhatsappFloat";
+import styles from "../../../styles/Home.module.css";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -400,7 +399,7 @@ export default function Home() {
 "highPrice": "110000",
 "url" : "https://www.learnbay.co/",
 "availability" : "https://schema.org/InStock",
-"price": "95,000",
+"price": "99,000",
 "priceCurrency": "INR",
 "validFrom": "2022-05-01"},
 "startDate":"2022-05-01",

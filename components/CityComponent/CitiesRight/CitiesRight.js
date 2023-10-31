@@ -1,9 +1,8 @@
 import { React, useState } from "react";
-import styles from "./CitiesRight.module.css";
 import { BsClock } from "react-icons/bs";
 import { FiCheck } from "react-icons/fi";
-import Link from "next/link";
 import YoutubeVideo from "../../YoutubeVideo/YoutubeVideo";
+import styles from "./CitiesRight.module.css";
 
 const CitiesRight = ({
   ProgramHead1,
@@ -546,7 +545,7 @@ const CitiesRight = ({
               <li>
                 This program is a cost-effective and accessible choice for
                 anyone wishing to increase their knowledge and proficiency in
-                data science, costing only INR 95,000 + 18% GST.
+                data science, costing only INR 99,000 + 18% GST.
               </li>
 
               <h3>
@@ -798,11 +797,17 @@ const CitiesRight = ({
               help you become an industry-competent data scientist. This
               IBM-certified course allows you to learn from scratch and
               according to the industrial requirements. The{" "}
-              <a href="https://www.learnbay.co/data-science-certification-courses"  target="_blank"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}>Data Science Online Training</a> has been in high demand in recent
-              years, and our course is designed to provide you with current
-              knowledge in the field. Our approach to practical and theoretical
-              education provides a richer learning experience. Our{" "}
+              <a
+                href="https://www.learnbay.co/data-science-certification-courses"
+                target="_blank"
+                style={{ color: "#2D9CD7", fontWeight: "600" }}
+              >
+                Data Science Online Training
+              </a>{" "}
+              has been in high demand in recent years, and our course is
+              designed to provide you with current knowledge in the field. Our
+              approach to practical and theoretical education provides a richer
+              learning experience. Our{" "}
               <b>Data Science certification in Hyderabad</b> is cost-effective
               and even guarantees an interview at top MNCs and FinTech Startups.{" "}
             </p>
@@ -836,13 +841,13 @@ const CitiesRight = ({
             </p>
 
             <p>
-              Our <b>Data Science Institute in Hyderabad</b> has customized learning modules according
-              to your domain and industry requirements. A lot of learners take
-              an active interest in learning from our modules because of our
-              domain specialization feature. MNCs and top startups look for
-              candidates updated with the latest knowledge and market trends.
-              This makes it important for learners to constantly upgrade their
-              knowledge.
+              Our <b>Data Science Institute in Hyderabad</b> has customized
+              learning modules according to your domain and industry
+              requirements. A lot of learners take an active interest in
+              learning from our modules because of our domain specialization
+              feature. MNCs and top startups look for candidates updated with
+              the latest knowledge and market trends. This makes it important
+              for learners to constantly upgrade their knowledge.
             </p>
 
             <p>
@@ -1046,11 +1051,11 @@ const CitiesRight = ({
 
             <p>
               <b>Project Innovation Lab:</b> Our{" "}
-              <b>Data Science Institute in Hyderabad</b> has a project innovation
-              lab where you can work on industry-certified projects offline. You
-              get a chance to collaborate with project mentors and other
-              learners. The hands-on experience across several domains is an
-              added advantage.{" "}
+              <b>Data Science Institute in Hyderabad</b> has a project
+              innovation lab where you can work on industry-certified projects
+              offline. You get a chance to collaborate with project mentors and
+              other learners. The hands-on experience across several domains is
+              an added advantage.{" "}
             </p>
 
             <h2>Other Courses We Offer in Data Science</h2>
@@ -1152,7 +1157,8 @@ const CitiesRight = ({
               ₹10,00,000 per annum. Wondering which is the{" "}
               <b>best Data Science Institute in Hyderabad</b>? Well, look no
               further. Learnbay’s customized and domain-specialized courses give
-              you an edge over the others.  <br /><br /> Choose{" "}
+              you an edge over the others. <br />
+              <br /> Choose{" "}
               <a
                 href="https://www.learnbay.co/data-science-course-training-in-hyderabad"
                 target="_blank"
@@ -1202,11 +1208,11 @@ const CitiesRight = ({
             <p>
               A data scientist uses modern tools and techniques to drive
               meaningful information and make decisions. Learnbay’s{" "}
-              <b>Data Science Institute in Pune </b> has designed the courses to help you learn data science from scratch
-               according to your domain. Research
-              shows that the top skills required to become a data scientist are
-              analysis, communication, statistics, deep learning, machine
-              learning, and artificial Intelligence, among many others.
+              <b>Data Science Institute in Pune </b> has designed the courses to
+              help you learn data science from scratch according to your domain.
+              Research shows that the top skills required to become a data
+              scientist are analysis, communication, statistics, deep learning,
+              machine learning, and artificial Intelligence, among many others.
             </p>
             <p>
               Our <b>Data Science course in Pune</b> is a two to a three-year
@@ -1428,7 +1434,8 @@ const CitiesRight = ({
               </li>
               <li>
                 {" "}
-                The foundation data science course fees in Pune is just ₹ 79,000 + 18% GST.{" "}
+                The foundation data science course fees in Pune is just ₹ 79,000
+                + 18% GST.{" "}
               </li>
             </ul>
 
@@ -1623,29 +1630,27 @@ const CitiesRight = ({
 
             <p>
               Ever found yourself wondering about the{" "}
-              <b>Best Institute for Data Science in Pune</b>? Well, this is
-              the right place for you. Learnbay provides you with live training
-              at affordable prices. Want to stand out in your domain? Take our {" "}
+              <b>Best Institute for Data Science in Pune</b>? Well, this is the
+              right place for you. Learnbay provides you with live training at
+              affordable prices. Want to stand out in your domain? Take our{" "}
               <a
                 href="https://www.learnbay.co/data-science-certification-courses"
                 target="_blank"
                 style={{ color: "#2D9CD7", fontWeight: "600" }}
               >
-                 data science course online
+                data science course online
               </a>
               , as this will be one of the best career choices you will ever
               make. Learnbay institute has proudly assisted over 500+ aspirants
               in pursuing their dream careers. IBM, being our accreditation
               partner, has global recognition. <br />
               <br />
-              Learnbay’s Data Science institute in Pune has proudly assisted over 500+ aspirants in
-              pursuing their dream careers. <b>IBM</b>, being our accreditation
-              partner, has global recognition.
+              Learnbay’s Data Science institute in Pune has proudly assisted
+              over 500+ aspirants in pursuing their dream careers. <b>IBM</b>,
+              being our accreditation partner, has global recognition.
             </p>
 
-            <h2>
-              Why Learnbay is the best Data Science Institute in Pune?
-            </h2>
+            <h2>Why Learnbay is the best Data Science Institute in Pune?</h2>
             <ul>
               <li>IBM Certified Capstone</li>
               <li>Guaranteed Job Referrals</li>
@@ -2720,7 +2725,7 @@ const CitiesRight = ({
                 EDA, feature engineering, and model deployment.{" "}
               </li>
               <li>
-                The advanced data science course fees are INR 95,000, exclusive
+                The advanced data science course fees are INR 99,000, exclusive
                 of GST.
               </li>
             </ol>
