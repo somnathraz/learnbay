@@ -39,6 +39,7 @@ function ContactUs({ dataScience, dataScienceCounselling, dataScienceGeneric }) 
         </p>
         <FormInline
           dataScience={dataScience}
+          upSkillingHide={true}
           dataScienceGeneric={dataScienceGeneric}
           dataScienceCounselling={dataScienceCounselling}
           radio={true}

@@ -222,6 +222,7 @@ function SyllabusNew({
               <Form
                 dataScience={dataScience}
                 dataScienceCounselling={dataScienceCounselling}
+                upSkillingHide={true}
                 fullStack={fullStack}
               />
             </div>

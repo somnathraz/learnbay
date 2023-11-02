@@ -70,6 +70,7 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, dataScienceG
             <h5>Apply For Counselling</h5>
             <Form
               dataScience={dataScience}
+              upSkillingHide={true}
               dataScienceGeneric={dataScienceGeneric}
               dataScienceCounselling={dataScienceCounselling}
               radio={radio}

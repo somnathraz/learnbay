@@ -26,6 +26,7 @@ export const ProgramFee = ({ Fee, Emi, fullStack, dataScience, dataScienceCounse
             popup={true}
             setTrigger={setPopups}
             fullStack={fullStack}
+            upSkillingHide={true}
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
           />

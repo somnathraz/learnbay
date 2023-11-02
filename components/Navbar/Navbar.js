@@ -68,6 +68,7 @@ const Navbar = ({
               radio={radio}
               fullStack={fullStack}
               dataScience={dataScience}
+              upSkillingHide={true}
               dataScienceGeneric={dataScienceGeneric}
               dataScienceCounselling={dataScienceCounselling}
             />

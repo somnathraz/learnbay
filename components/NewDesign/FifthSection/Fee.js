@@ -70,7 +70,7 @@ const FeeSection = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
 
-          <Form dataScience={dataScience} dataScienceCounselling={dataScienceCounselling}/>
+          <Form dataScience={dataScience} upSkillingHide={true} dataScienceCounselling={dataScienceCounselling}/>
         </div>
       </Popup>
       <h4>{FeeHeading}</h4>

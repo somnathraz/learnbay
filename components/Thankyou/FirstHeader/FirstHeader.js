@@ -18,7 +18,7 @@ const FirstHeader = ({ donwnload, brochureLink }) => {
         />
         <link rel="canonical" href="https://www.learnbay.co/Thank-you" />
       </Head>
-      <Navbar popup={true} dataScienceCounselling={true} radio={true} />
+      <Navbar popup={true} dataScienceCounselling={true} upSkillingHide={true} radio={true} />
       <div className={styles.headerWrap}>
         <p>
           <b>Maximize</b> Your Career Opportunities with

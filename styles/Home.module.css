@@ -256,6 +256,10 @@
   color: rgb(103, 103, 103);
 }
 
+.BangaloreMap {
+  margin: 0px 100px;
+}
+
 @media (max-width: 1281px) {
   .program {
     height: 90px;
@@ -280,11 +284,14 @@
     font-size: 30px;
     font-weight: 500;
   }
+  .BangaloreMap {
+    margin: 0px 70px;
+  }
 }
 
 @media (max-width: 800px) {
-  .BangaloreMap{
-    width: 100%;
+  .BangaloreMap {
+    margin: 0px 70px;
   }
   .Feature {
     margin-top: 20px;
@@ -302,6 +309,9 @@
   .boxWrap h2 {
     font-size: 26px;
     font-weight: 600;
+  }
+  .BangaloreMap {
+    margin: 50px 0px;
   }
 }
 

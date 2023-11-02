@@ -37,6 +37,7 @@ const FirstSection = ({ dataScience, radio }) => {
             popup={true}
             setTrigger={setPopups}
             radio={radio}
+            upSkillingHide={true}
             dataScience={dataScience}
           />
         </div>
