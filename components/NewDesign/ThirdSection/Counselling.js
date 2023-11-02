@@ -42,6 +42,7 @@ function Counselling({
           <h5>Apply For Counselling</h5>
           <Form
             dataScience={dataScience}
+            upSkillingHide={true}
             dataScienceCounselling={dataScienceCounselling}
             titleCourse={titleCourse}
             brochureLink={brochureLink}

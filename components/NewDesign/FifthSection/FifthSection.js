@@ -76,6 +76,7 @@ function FifthSection({
           <h5>Apply For Counselling</h5>
           <Form
             dataScience={dataScience}
+            upSkillingHide={true}
             dataScienceCounselling={dataScienceCounselling}
             titleCourse={titleCourse}
             brochureLink={brochureLink}
@@ -92,6 +93,7 @@ function FifthSection({
             popup={true}
             setTrigger={setPopups}
             dataScience={dataScience}
+            upSkillingHide={true}
             dataScienceCounselling={dataScienceCounselling}
             titleCourse={titleCourse}
             brochureLink={brochureLink}
@@ -313,6 +315,7 @@ function FifthSection({
       <div className={styles.feeD}>
         <FeeSection
           dataScienceCounselling={true}
+          upSkillingHide={true}
           Fee={Fee}
           FeeHeading={FeeHeading}
           FeeContent1={FeeContent1}

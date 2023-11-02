@@ -55,6 +55,7 @@ const CourseFee = ({
             popup={true}
             setTrigger={setPopups}
             fullStack={fullStack}
+            upSkillingHide={true}
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
           />

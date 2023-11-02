@@ -33,7 +33,7 @@ function ThirdSection({idss}) {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            <Form radio={true} dataScienceCounselling={true}
+            <Form radio={true} upSkillingHide={true} dataScienceCounselling={true}
             />
           </div>
         </Popup>
@@ -60,7 +60,7 @@ function ThirdSection({idss}) {
         <div className={styles.right}>
           <div className={styles.FormThank}>
             <h4>Apply For Counselling</h4>
-            <FormInline radio={true} dataScienceCounselling={true} />
+            <FormInline radio={true} dataScienceCounselling={true} upSkillingHide={true} />
           </div>
         </div>
       </section>

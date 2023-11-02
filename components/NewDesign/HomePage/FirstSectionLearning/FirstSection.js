@@ -24,6 +24,7 @@ const FirstSection = ({ dataScience, dataScienceCounselling }) => {
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
             radio={true}
+            upSkillingHide={true}
           />
         </div>
       </Popup>

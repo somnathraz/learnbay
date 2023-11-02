@@ -30,7 +30,7 @@ function DataAnalytics({ dataScienceCounselling, dsaSD }) {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form dataScienceCounselling={dataScienceCounselling} />
+          <Form dataScienceCounselling={dataScienceCounselling} upSkillingHide={true} />
         </div>
       </Popup>
 

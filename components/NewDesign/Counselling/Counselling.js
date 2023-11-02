@@ -37,6 +37,7 @@ function Counselling({
           <Form
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
+            upSkillingHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLink}
           />

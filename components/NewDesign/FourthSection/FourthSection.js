@@ -384,6 +384,7 @@ function SyllabusNew({
             <h4>Request More Information</h4>
             <Form
               dataScienceCounselling={dataScienceCounselling}
+              upSkillingHide={true}
               titleCourse={titleCourse}
               brochureLink={brochureLink}
               fullStack={fullStack}
